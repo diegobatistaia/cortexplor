@@ -3,20 +3,33 @@
 Ordem sugerida. Os itens 1 a 4 são o caminho crítico: com eles o site publica
 sozinho. O resto pode vir depois.
 
+Versão detalhada, clique a clique, com progresso salvo:
+**[guia de publicação](https://claude.ai/code/artifact/711eccd1-ec45-45cc-8bf0-05e850f489f5)**.
+
+Já resolvido: o domínio `cortexplor.com` resolve para a Hostinger e o HTTPS está
+ativo — hoje serve a "Página padrão" do painel, que o primeiro deploy substitui.
+
 ---
 
 ## 1. Repositório no GitHub
 
+Esta máquina não tem o `gh` instalado, então crie pela interface:
+<https://github.com/new>, nome `cortexplor`, **Private**, e sem marcar nada em
+"Initialize this repository" (um README criado pelo GitHub faz o push do passo 3
+ser recusado).
+
+Depois, conecte a pasta ao repositório:
+
 ```bash
-gh repo create cortexplor --private --source=. --push
+git remote add origin https://github.com/SEU_USUARIO/cortexplor.git
 ```
 
-Se preferir pela interface: crie o repositório vazio e depois
-
 ```bash
-git remote add origin git@github.com:SEU_USUARIO/cortexplor.git
 git push -u origin main
 ```
+
+O Git Credential Manager abre uma janela do navegador para autorizar na primeira
+vez. Crie o secret do item 2 **antes** do push, senão o primeiro deploy falha.
 
 ## 2. Secrets no GitHub
 
@@ -29,11 +42,14 @@ Em **Settings > Secrets and variables > Actions > New repository secret**:
 | `UNSPLASH_ACCESS_KEY` | banco de imagens | unsplash.com/developers |
 | `PEXELS_API_KEY` | banco de imagens (reserva) | pexels.com/api |
 
-A chave privada você mesmo sobe — eu não movo credencial. Pela CLI do GitHub:
+A chave privada você mesmo sobe — eu não movo credencial. No Git Bash, copie o
+conteúdo dela para a área de transferência:
 
 ```bash
-gh secret set HOSTINGER_SSH_KEY < ~/.ssh/pontoesal_deploy
+cat ~/.ssh/pontoesal_deploy | clip
 ```
+
+e cole no campo Secret, da linha `BEGIN` até a linha `END`.
 
 > A chave `Deploy Claude` que já está na Hostinger foi testada em 28/08/2026:
 > conecta em `147.79.91.241:65002` como `u433721675`, e `cortexplor.com` já existe
@@ -46,11 +62,8 @@ Assim que o primeiro push chegar no `main`, o workflow **Deploy** roda sozinho e
 sincroniza tudo com `public_html`. Para disparar na mão: aba **Actions > Deploy >
 Run workflow**.
 
-Depois do primeiro deploy, apague o `default.php` que a Hostinger deixou lá:
-
-```bash
-ssh -i ~/.ssh/pontoesal_deploy -p 65002 u433721675@147.79.91.241 "rm -f ~/domains/cortexplor.com/public_html/default.php"
-```
+O `default.php` da Hostinger some sozinho: o rsync roda com `--delete` e remove do
+servidor o que não pertence ao site.
 
 ## 4. Ligar a publicação automática
 
@@ -149,7 +162,6 @@ python -m scripts.pipeline.run status
 python -m http.server 4173
 ```
 
-- [ ] `default.php` removido do servidor
 - [ ] `launch_date` preenchido
 - [ ] GA4 e Search Console ativos
 - [ ] páginas institucionais revisadas (`/pt/sobre/`, `/pt/privacidade/`,
