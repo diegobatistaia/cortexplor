@@ -41,7 +41,7 @@ class Config:
     def require(self, dotted: str) -> Any:
         value = self.get(dotted, None)
         if value in (None, ""):
-            raise ConfigError(f"{self.path.name}: '{dotted}' esta vazio e e obrigatorio")
+            raise ConfigError(f"{self.path.name}: '{dotted}' está vazio e é obrigatório")
         return value
 
     def localized(self, dotted: str, lang: str, default: Any = None) -> Any:
@@ -111,11 +111,11 @@ class Config:
 def validate(data: dict, path: Path) -> None:
     missing = [k for k in REQUIRED if k not in data]
     if missing:
-        raise ConfigError(f"{path.name}: faltam as secoes {missing}")
+        raise ConfigError(f"{path.name}: faltam as seções {missing}")
 
     languages = data["site"].get("languages") or []
     if not languages:
-        raise ConfigError(f"{path.name}: site.languages nao pode ser vazio")
+        raise ConfigError(f"{path.name}: site.languages não pode ser vazio")
     if data["site"].get("default_language") not in languages:
         raise ConfigError(f"{path.name}: site.default_language precisa estar em site.languages")
 
@@ -124,7 +124,7 @@ def validate(data: dict, path: Path) -> None:
             missing_langs = [l for l in languages if l not in cat.get(field, {})]
             if missing_langs:
                 raise ConfigError(
-                    f"{path.name}: editorial.categories[{i}].{field} nao cobre {missing_langs}")
+                    f"{path.name}: editorial.categories[{i}].{field} não cobre {missing_langs}")
 
     seen = set()
     for src in data.get("sources", {}).get("rss", []):
@@ -133,23 +133,23 @@ def validate(data: dict, path: Path) -> None:
                 raise ConfigError(f"{path.name}: fonte RSS sem '{field}': {src}")
         seen.add(src["url"])
     if len(seen) != len(data["sources"]["rss"]):
-        raise ConfigError(f"{path.name}: ha URLs de RSS duplicadas em sources.rss")
+        raise ConfigError(f"{path.name}: há URLs de RSS duplicadas em sources.rss")
 
     gate = data["quality_gate"]
     lo, hi = gate.get("word_count", {}).get("min"), gate.get("word_count", {}).get("max")
     if not lo or not hi or lo >= hi:
-        raise ConfigError(f"{path.name}: quality_gate.word_count invalido")
+        raise ConfigError(f"{path.name}: quality_gate.word_count inválido")
     if gate.get("min_independent_sources", 0) < 2:
         raise ConfigError(
             f"{path.name}: quality_gate.min_independent_sources abaixo de 2 - "
-            "a checagem cruzada de duas fontes independentes nao e negociavel")
+            "a checagem cruzada de duas fontes independentes não é negociável")
 
 
 @lru_cache(maxsize=1)
 def load(path: str | Path = CONFIG_PATH) -> Config:
     path = Path(path)
     if not path.exists():
-        raise ConfigError(f"configuracao nao encontrada: {path}")
+        raise ConfigError(f"configuração não encontrada: {path}")
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     validate(data, path)
     return Config(data=data, path=path)
@@ -159,7 +159,7 @@ if __name__ == "__main__":
     cfg = load()
     print(f"OK  {cfg.path.name}")
     print(f"    site      {cfg.get('site.name')} ({cfg.base_url})")
-    print(f"    idiomas   {', '.join(cfg.languages)} (padrao: {cfg.default_language})")
+    print(f"    idiomas   {', '.join(cfg.languages)} (padrão: {cfg.default_language})")
     print(f"    fontes    {len(cfg.get('sources.rss', []))} feeds")
     print(f"    categorias{'':1}{len(cfg.categories(cfg.default_language))}")
     print(f"    ritmo hoje{'':1}{cfg.posts_per_language()} posts por idioma")

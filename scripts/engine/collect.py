@@ -17,7 +17,7 @@ from .util import (content_words, domain_of, excerpt, fingerprint, isoformat, pa
 def fetch_feed(source: dict, timeout: int = 20) -> list[dict]:
     parsed = feedparser.parse(source["url"], agent="CortexplorBot/1.0 (+news aggregation)")
     if parsed.bozo and not parsed.entries:
-        print(f"  ! {source['name']}: {parsed.get('bozo_exception', 'feed ilegivel')}")
+        print(f"  ! {source['name']}: {parsed.get('bozo_exception', 'feed ilegível')}")
         return []
     items = []
     for entry in parsed.entries:
@@ -128,7 +128,7 @@ if __name__ == "__main__":
     from .config import load
     cfg = load()
     print(f"Coletando de {len(cfg.get('sources.rss', []))} feeds "
-          f"(ultimas {cfg.get('collection.lookback_hours')}h)\n")
+          f"(últimas {cfg.get('collection.lookback_hours')}h)\n")
     clusters = run(cfg, include_seen=True)
     print(f"\n{len(clusters)} pautas candidatas\n")
     for c in clusters[:12]:

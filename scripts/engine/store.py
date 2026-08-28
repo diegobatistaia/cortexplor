@@ -32,7 +32,7 @@ def _read(path: Path, fallback: Any) -> Any:
     except json.JSONDecodeError:
         backup = path.with_suffix(path.suffix + ".corrupt")
         path.replace(backup)
-        print(f"  ! {path.name} ilegivel, movido para {backup.name}")
+        print(f"  ! {path.name} ilegível, movido para {backup.name}")
         return fallback
 
 

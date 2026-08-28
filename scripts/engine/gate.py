@@ -17,7 +17,7 @@ def check_sources(post: dict, cfg: Config) -> list[str]:
     minimum = cfg.get("quality_gate.min_independent_sources", 2)
     owners = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
     if len(owners) < minimum:
-        return [f"apenas {len(owners)} fonte(s) independente(s), minimo {minimum}"]
+        return [f"apenas {len(owners)} fonte(s) independente(s), mínimo {minimum}"]
     return []
 
 
@@ -26,9 +26,9 @@ def check_length(post: dict, cfg: Config) -> list[str]:
     count = word_count(body_text(post))
     lo, hi = limits.get("min", 600), limits.get("max", 1000)
     if count < lo:
-        return [f"texto com {count} palavras, minimo {lo}"]
+        return [f"texto com {count} palavras, mínimo {lo}"]
     if count > hi:
-        return [f"texto com {count} palavras, maximo {hi}"]
+        return [f"texto com {count} palavras, máximo {hi}"]
     return []
 
 
@@ -70,7 +70,7 @@ def check_image(post: dict, cfg: Config) -> list[str]:
     if len((image.get("alt") or "").strip()) < 15:
         problems.append("alt-text da imagem ausente ou curto demais")
     if cfg.get("images.attribution_required", True) and image.get("path") and not image.get("credit"):
-        problems.append("imagem sem atribuicao de licenca")
+        problems.append("imagem sem atribuição de licença")
     return problems
 
 
@@ -80,11 +80,11 @@ def check_structure(post: dict, cfg: Config) -> list[str]:
     if not blocks:
         return ["corpo vazio"]
     if blocks[0]["type"] != "p":
-        problems.append("o texto nao comeca com paragrafo")
+        problems.append("o texto não começa com parágrafo")
     if not any(b["type"] == "h2" for b in blocks):
-        problems.append("sem nenhum H2 - falta estrutura de headings")
+        problems.append("sem nenhum H2 — falta estrutura de headings")
     if not (post.get("title") or "").strip():
-        problems.append("sem titulo (H1)")
+        problems.append("sem título (H1)")
     return problems
 
 
@@ -108,7 +108,7 @@ def check_internal_links(post: dict, cfg: Config) -> list[str]:
         return []
     found = len(post.get("related", []))
     if found < minimum:
-        return [f"apenas {found} link(s) interno(s), minimo {minimum}"]
+        return [f"apenas {found} link(s) interno(s), mínimo {minimum}"]
     return []
 
 
@@ -137,7 +137,7 @@ def evaluate(post: dict, cfg: Config, source_texts: list[str] | None = None) -> 
     for name in required:
         check = CHECKS.get(name)
         if check is None:
-            reasons.append(f"criterio '{name}' nao existe no motor")
+            reasons.append(f"critério '{name}' não existe no motor")
             continue
         reasons += check(post, cfg)
 

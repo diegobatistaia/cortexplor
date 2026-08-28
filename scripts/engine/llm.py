@@ -60,22 +60,22 @@ def parse(
             output_format=schema,
         )
     except anthropic.BadRequestError as exc:
-        raise LLMError(f"requisicao invalida: {exc.message}") from exc
+        raise LLMError(f"requisição inválida: {exc.message}") from exc
     except anthropic.AuthenticationError as exc:
-        raise LLMError("ANTHROPIC_API_KEY ausente ou invalida") from exc
+        raise LLMError("ANTHROPIC_API_KEY ausente ou inválida") from exc
     except anthropic.RateLimitError as exc:
         retry = exc.response.headers.get("retry-after", "60")
         raise LLMError(f"rate limit; tentar de novo em {retry}s") from exc
     except anthropic.APIStatusError as exc:
         raise LLMError(f"erro da API ({exc.status_code}): {exc.message}") from exc
     except anthropic.APIConnectionError as exc:
-        raise LLMError("falha de conexao com a API") from exc
+        raise LLMError("falha de conexão com a API") from exc
 
     if response.stop_reason == "refusal":
         detail = getattr(response.stop_details, "category", "sem categoria")
-        raise LLMError(f"modelo recusou a requisicao ({detail})")
+        raise LLMError(f"modelo recusou a requisição ({detail})")
     if response.stop_reason == "max_tokens":
-        raise LLMError("resposta truncada por max_tokens - aumentar model.max_tokens")
+        raise LLMError("resposta truncada por max_tokens — aumentar model.max_tokens")
     if response.parsed_output is None:
-        raise LLMError("resposta sem saida estruturada valida")
+        raise LLMError("resposta sem saída estruturada válida")
     return response.parsed_output

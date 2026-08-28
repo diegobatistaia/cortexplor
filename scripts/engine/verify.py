@@ -71,17 +71,17 @@ def gather(story: dict) -> dict:
 
 # ---------------------------------------------------------------- the checking
 
-SYSTEM = """Voce e o checador de fatos de uma redacao. Seu unico trabalho e separar
+SYSTEM = """Você é o checador de fatos de uma redação. Seu único trabalho é separar
 o que as fontes REALMENTE afirmam do que elas sugerem, especulam ou repetem umas das outras.
 
 Regras:
-- Um fato so pode ser marcado como suportado por um owner se o texto DAQUELE owner
-  afirmar o fato. Nunca infira, nunca complete lacuna, nunca assuma que "deve estar la".
-- Se duas fontes usam frases quase identicas, provavelmente reproduzem o mesmo release:
-  registre isso em `notes`, porque isso NAO e confirmacao independente.
-- Numeros, datas, valores e nomes proprios precisam bater entre as fontes. Divergencia
-  vai para `notes`, e o fato divergente nao deve ser marcado como central e confirmado.
-- Nao escreva materia, nao opine, nao adjetive. Apenas extraia e atribua.
+- Um fato só pode ser marcado como suportado por um owner se o texto DAQUELE owner
+  afirmar o fato. Nunca infira, nunca complete lacuna, nunca assuma que "deve estar lá".
+- Se duas fontes usam frases quase idênticas, provavelmente reproduzem o mesmo release:
+  registre isso em `notes`, porque isso NÃO é confirmação independente.
+- Números, datas, valores e nomes próprios precisam bater entre as fontes. Divergência
+  vai para `notes`, e o fato divergente não deve ser marcado como central e confirmado.
+- Não escreva matéria, não opine, não adjetive. Apenas extraia e atribua.
 - `category_key` deve ser EXATAMENTE uma das chaves oferecidas."""
 
 
@@ -89,7 +89,7 @@ def build_prompt(story: dict, cfg: Config) -> str:
     keys = [c["key"] for c in cfg.categories(cfg.default_language)]
     labels = ", ".join(f"{c['key']} ({c['label']})" for c in cfg.categories(cfg.default_language))
     parts = [
-        f"Categorias disponiveis (use a chave): {labels}",
+        f"Categorias disponíveis (use a chave): {labels}",
         f"Chaves validas: {keys}",
         "",
         "FONTES:",
@@ -100,7 +100,7 @@ def build_prompt(story: dict, cfg: Config) -> str:
             "",
             f"--- owner: {item['owner']} | veiculo: {item['source']} | {item['published_at']}",
             f"titulo: {item['title']}",
-            f"texto: {body if body else '(texto integral indisponivel - use apenas o titulo)'}",
+            f"texto: {body if body else '(texto integral indisponível — use apenas o título)'}",
         ]
     return "\n".join(parts)
 
@@ -130,12 +130,12 @@ def verify(story: dict, cfg: Config) -> dict:
     if len(story["owners"]) < minimum:
         return {**result, "verdict": "insufficient",
                 "reason": f"apenas {len(story['owners'])} fonte(s) independente(s), "
-                          f"minimo {minimum}",
+                          f"mínimo {minimum}",
                 "facts": [], "confirmed_owners": story["owners"]}
 
     if len(readable) < minimum:
         return {**result, "verdict": "insufficient",
-                "reason": f"apenas {len(readable)} fonte(s) com texto legivel, minimo {minimum}",
+                "reason": f"apenas {len(readable)} fonte(s) com texto legível, mínimo {minimum}",
                 "facts": [], "confirmed_owners": [i["owner"] for i in readable]}
 
     try:

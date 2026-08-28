@@ -71,10 +71,10 @@ def main() -> int:
               for l in cfg.languages))
     check("gate exige 2+ fontes independentes",
           cfg.get("quality_gate.min_independent_sources") >= 2)
-    check("todas as fontes RSS tem owner",
+    check("todas as fontes RSS têm owner",
           all(s.get("owner") for s in cfg.get("sources.rss", [])))
     owners = [s["owner"] for s in cfg.get("sources.rss", [])]
-    check("ha pelo menos 2 grupos independentes por idioma",
+    check("há pelo menos 2 grupos independentes por idioma",
           all(len({s["owner"] for s in cfg.get("sources.rss", []) if s.get("lang") == l}) >= 2
               for l in cfg.languages))
 
@@ -89,7 +89,7 @@ def main() -> int:
                  "cortexplor-icon-color.svg", "favicon.ico", "favicon.svg",
                  "icon-192.png", "icon-512.png"):
         path = ROOT / "assets" / "logo" / name
-        check(f"{name} existe e nao esta vazio", path.exists() and path.stat().st_size > 200)
+        check(f"{name} existe e não está vazio", path.exists() and path.stat().st_size > 200)
     check("webfonts auto-hospedadas",
           len(list((ROOT / "assets" / "fonts").glob("*.woff2"))) >= 2)
 
@@ -103,14 +103,14 @@ def main() -> int:
           "Cortexplor" in post["title_tag"] and post["title"] in post["title_tag"])
     other = fixture(cfg, lang="en", slug="fixture-en", id="en-fixture")
     alts = seo.alternates(post, [post, other], cfg)
-    check("hreflang liga as versoes da mesma pauta", len(alts) == 2)
+    check("hreflang liga as versões da mesma pauta", len(alts) == 2)
 
     print("\nGate de qualidade")
     verdict = gate.evaluate(post, cfg, [])
     check("post correto passa", verdict["passed"], "; ".join(verdict["reasons"]))
 
     cases = {
-        "fonte unica reprova": fixture(cfg, sources=[
+        "fonte única reprova": fixture(cfg, sources=[
             {"name": "Reuters", "owner": "reuters", "url": "https://r.com/", "title": "A"}]),
         "texto curto reprova": fixture(cfg, body=[{"type": "p", "text": "curto", "items": []}]),
         "meta description fora da faixa reprova": fixture(cfg, meta_description="curta"),
@@ -118,7 +118,7 @@ def main() -> int:
             {"type": "p", "text": " ".join(["palavra"] * 700), "items": []}]),
         "alt-text ausente reprova": fixture(cfg, image={"path": "/x.jpg", "alt": "",
                                                         "credit": "A / Unsplash"}),
-        "imagem sem atribuicao reprova": fixture(cfg, image={
+        "imagem sem atribuição reprova": fixture(cfg, image={
             "path": "/x.jpg", "alt": "Descricao suficientemente longa da imagem", "credit": ""}),
     }
     for label, broken in cases.items():
@@ -130,18 +130,18 @@ def main() -> int:
     neighbour = fixture(cfg, slug="vizinho", id="pt-vizinho", title="Outra materia",
                         tags=["assunto-sem-relacao"], category="politica")
     lonely = seo.enrich(fixture(cfg), [neighbour], cfg)
-    check("site vazio nao reprova por link interno",
+    check("site vazio não reprova por link interno",
           gate.evaluate(seo.enrich(fixture(cfg), [], cfg), cfg, [])["passed"])
     check("com posts publicados, falta de link interno reprova",
           not gate.evaluate(lonely, cfg, [])["passed"] or lonely["related"])
 
     source_text = " ".join(["conteudo"] * 200)
     copied = seo.enrich(fixture(cfg), [], cfg)
-    check("copia da fonte reprova por similaridade",
+    check("cópia da fonte reprova por similaridade",
           not gate.evaluate(copied, cfg, [source_text])["passed"])
     check("similaridade detecta reciclagem",
           similarity("um dois tres quatro cinco seis", "um dois tres quatro cinco seis") == 1.0)
-    check("trecho literal e medido",
+    check("trecho literal é medido",
           longest_common_run("a b c d e f g", "z a b c d e f g z") == 7)
 
     print("\nTemplates")
@@ -155,11 +155,11 @@ def main() -> int:
         check("article.html renderiza", "<h1>" in html)
         check("ad slot in-content presente", "ad slot: in_content" in html)
         check("hreflang no head", 'rel="alternate"' in html)
-        check("fontes listadas no rodape da materia", "sources-title" in html)
+        check("fontes listadas no rodapé da matéria", "sources-title" in html)
     except Exception as exc:  # noqa: BLE001 - the point is to report any failure
         check("article.html renderiza", False, f"{type(exc).__name__}: {exc}")
 
-    print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} verificacoes passaram")
+    print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} verificações passaram")
     if FAILURES:
         print("Falhas: " + ", ".join(FAILURES))
         return 1

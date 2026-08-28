@@ -40,7 +40,7 @@ def cmd_verify(cfg, args, stories=None) -> list[dict]:
     banner("2. Checagem cruzada de fatos")
     minimum = cfg.get("quality_gate.min_independent_sources", 2)
     plausible = [s for s in stories if s["owner_count"] >= minimum]
-    print(f"{len(plausible)} de {len(stories)} pautas tem {minimum}+ fontes independentes\n")
+    print(f"{len(plausible)} de {len(stories)} pautas têm {minimum}+ fontes independentes\n")
     wanted = args.limit or cfg.posts_per_language(date.today())
     checked = verify.run(plausible[:wanted * 3], cfg, limit=wanted * 3)
     verified = [c for c in checked if c["verdict"] == "verified"]
@@ -77,16 +77,16 @@ def publish_one(post: dict, cfg, pool: list[dict]) -> tuple[bool, list[str]]:
 
 def cmd_all(cfg, args) -> int:
     if not llm_available():
-        print("ANTHROPIC_API_KEY nao configurada - a checagem e a redacao precisam dela.")
-        print("Sem a chave, so 'collect' e 'build' funcionam.")
+        print("ANTHROPIC_API_KEY não configurada — a checagem e a redação precisam dela.")
+        print("Sem a chave, só 'collect' e 'build' funcionam.")
         return 1
 
     stories = cmd_verify(cfg, args)
     if not stories:
-        print("\nNada verificado hoje. Nada e publicado - por definicao.")
+        print("\nNada verificado hoje. Nada é publicado — por definição.")
         return 0
 
-    banner("3-6. Redacao localizada, SEO e imagem")
+    banner("3-6. Redação localizada, SEO e imagem")
     published, queued = 0, 0
     for story in stories:
         for lang in cfg.languages:
@@ -107,11 +107,11 @@ def cmd_all(cfg, args) -> int:
 
     banner("7. Build do site")
     stats = build_site.run(cfg)
-    print(f"  {stats['posts']} materias e {stats['pages']} paginas geradas")
+    print(f"  {stats['posts']} matérias e {stats['pages']} páginas geradas")
 
     banner("Resumo")
     print(f"  publicadas: {published}")
-    print(f"  na fila de excecao: {queued}")
+    print(f"  na fila de exceção: {queued}")
     if queued:
         print("  revise com: python -m scripts.pipeline.run queue")
     return 0
@@ -121,16 +121,16 @@ def cmd_build(cfg, args) -> int:
     banner("Build do site")
     stats = build_site.run(cfg)
     for lang, counts in stats["languages"].items():
-        print(f"  /{lang}/  {counts['posts']} materias, {counts['pages']} paginas")
+        print(f"  /{lang}/  {counts['posts']} matérias, {counts['pages']} páginas")
     return 0
 
 
 def cmd_queue(cfg, args) -> int:
     items = queue_items()
     if not items:
-        print("Fila de excecao vazia.")
+        print("Fila de exceção vazia.")
         return 0
-    print(f"{len(items)} item(ns) aguardando revisao:\n")
+    print(f"{len(items)} item(ns) aguardando revisão:\n")
     for item in items:
         print(f"  [{item.get('lang')}] {item.get('title', '')[:70]}")
         print(f"      arquivo: data/queue/{item.get('id')}.json")
@@ -145,20 +145,20 @@ def cmd_status(cfg, args) -> int:
     window = cfg.get("publishing.ramp_window_days", 14)
     rate, sample = gate_pass_rate(window)
     target = cfg.get("publishing.ramp_gate_pass_rate", 0.8)
-    print(f"Fase de publicacao: ate {allowed} post(s) por idioma por dia "
+    print(f"Fase de publicação: até {allowed} post(s) por idioma por dia "
           f"({allowed * len(cfg.languages)} no total)")
     if not cfg.get("publishing.launch_date"):
-        print("  ! publishing.launch_date vazio - o ramp so avanca depois de preenchido")
+        print("  ! publishing.launch_date vazio — o ramp só avança depois de preenchido")
     if sample:
-        verdict = "estavel" if rate >= target else "abaixo da meta"
-        print(f"Gate nos ultimos {window} dias: {rate:.0%} de aprovacao "
-              f"({sample} decisoes) - {verdict}, meta {target:.0%}")
+        verdict = "estável" if rate >= target else "abaixo da meta"
+        print(f"Gate nos últimos {window} dias: {rate:.0%} de aprovação "
+              f"({sample} decisões) — {verdict}, meta {target:.0%}")
     else:
-        print(f"Gate nos ultimos {window} dias: sem dados ainda")
-    print(f"Fila de excecao: {len(queue_items())} item(ns)")
+        print(f"Gate nos últimos {window} dias: sem dados ainda")
+    print(f"Fila de exceção: {len(queue_items())} item(ns)")
     for lang in cfg.languages:
         posts = [p for p in load_posts(lang) if p.get("status") == "published"]
-        print(f"  /{lang}/  {len(posts)} materias publicadas")
+        print(f"  /{lang}/  {len(posts)} matérias publicadas")
     return 0
 
 
@@ -173,10 +173,10 @@ COMMANDS = {
 
 
 def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(description="Pipeline de conteudo do site")
+    parser = argparse.ArgumentParser(description="Pipeline de conteúdo do site")
     parser.add_argument("command", choices=sorted(COMMANDS), nargs="?", default="all")
     parser.add_argument("--limit", type=int, default=0,
-                        help="numero de pautas a processar (padrao: o ritmo do dia)")
+                        help="número de pautas a processar (padrão: o ritmo do dia)")
     args = parser.parse_args(argv)
     cfg = load()
     print(f"{cfg.get('site.name')} - {args.command}")

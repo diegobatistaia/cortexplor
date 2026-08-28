@@ -17,13 +17,13 @@ site:
   # O nome da marca nao comunica o nicho sozinho: a tagline e obrigatoria no
   # header, e o termo de nicho entra em todo title tag (ver seo.title_suffix).
   tagline:
-    pt: Noticias e Tendencias de IA
+    pt: Notícias e Tendências de IA
     en: AI News & Trends
     es: Noticias y Tendencias de IA
   description:
-    pt: Noticias, tendencias e numeros de Inteligencia Artificial no Brasil e no mundo.
+    pt: Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.
     en: AI news, trends and numbers from Brazil and around the world.
-    es: Noticias, tendencias y numeros de Inteligencia Artificial en Brasil y el mundo.
+    es: Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.
   locale:
     pt: pt_BR
     en: en_US
@@ -37,7 +37,7 @@ niche:
   slug: ai
   # Entra em title/meta/keywords para reforcar o nicho em cada idioma.
   term:
-    pt: Inteligencia Artificial
+    pt: Inteligência Artificial
     en: Artificial Intelligence
     es: Inteligencia Artificial
   term_short:
@@ -73,7 +73,7 @@ brand:
 
 seo:
   title_suffix:
-    pt: " | Cortexplor - Noticias de IA"
+    pt: " | Cortexplor - Notícias de IA"
     en: " | Cortexplor - AI News"
     es: " | Cortexplor - Noticias de IA"
   meta_description_range: [150, 160]
@@ -96,14 +96,14 @@ ads:
     home_between_blocks: ""
     footer: ""
   labels:
-    pt: Continua apos a publicidade
+    pt: Continua após a publicidade
     en: Advertisement
-    es: Continua despues de la publicidad
+    es: Continúa después de la publicidad
 
 editorial:
   categories:
     - slug: {pt: modelos, en: models, es: modelos}
-      label: {pt: "Modelos & Lancamentos", en: "Models & Launches", es: "Modelos y Lanzamientos"}
+      label: {pt: "Modelos & Lançamentos", en: "Models & Launches", es: "Modelos y Lanzamientos"}
       color: "#3A4556"
     - slug: {pt: mercado, en: market, es: mercado}
       label: {pt: "Mercado de IA", en: "AI Market", es: "Mercado de IA"}
@@ -112,10 +112,10 @@ editorial:
       label: {pt: "IA no Brasil", en: "AI in Brazil", es: "IA en Brasil"}
       color: "#7A5C3E"
     - slug: {pt: aplicacoes, en: applications, es: aplicaciones}
-      label: {pt: "Aplicacoes", en: "Applications", es: "Aplicaciones"}
+      label: {pt: "Aplicações", en: "Applications", es: "Aplicaciones"}
       color: "#4A6455"
     - slug: {pt: politica, en: policy, es: politica}
-      label: {pt: "Regulacao", en: "Policy", es: "Regulacion"}
+      label: {pt: "Regulação", en: "Policy", es: "Regulación"}
       color: "#6B4F5B"
   # Blocos da home, na ordem. O motor renderiza o que existir de conteudo.
   home_layout:
@@ -174,7 +174,7 @@ sources:
     - {name: Canaltech, url: "https://canaltech.com.br/rss/", lang: pt, owner: canaltech, tier: 2}
     - {name: Xataka, url: "https://www.xataka.com/feedburner.xml", lang: es, owner: webedia, tier: 2}
     - {name: Hipertextual, url: "https://hipertextual.com/feed", lang: es, owner: hipertextual, tier: 2}
-    - {name: El Pais Tecnologia, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada", lang: es, owner: prisa, tier: 1}
+    - {name: El País Tecnología, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada", lang: es, owner: prisa, tier: 1}
 
 keywords:
   # Filtro de coleta. Um item so entra na fila se casar com `include`

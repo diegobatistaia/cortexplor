@@ -1,36 +1,36 @@
 {
   "slug": "acerca",
   "title": "Acerca de Cortexplor",
-  "description": "Que es Cortexplor y como se producen y verifican nuestras notas.",
+  "description": "Qué es Cortexplor y cómo se producen y verifican nuestras notas.",
   "body": [
     {
       "type": "p",
-      "text": "Cortexplor es un sitio de noticias dedicado a la Inteligencia Artificial. Cubrimos lanzamientos de modelos, movimientos de mercado, regulacion y aplicaciones practicas de IA en empresas, en Brasil y en el mundo.",
+      "text": "Cortexplor es un sitio de noticias dedicado a la Inteligencia Artificial. Cubrimos lanzamientos de modelos, movimientos de mercado, regulación y aplicaciones prácticas de IA en empresas, en Brasil y en el mundo.",
       "items": []
     },
     {
       "type": "h2",
-      "text": "Como se producen las notas",
+      "text": "Cómo se producen las notas",
       "items": []
     },
     {
       "type": "p",
-      "text": "Nuestra produccion editorial es asistida por inteligencia artificial y opera sobre un proceso fijo de verificacion. El flujo es el mismo para toda nota:",
+      "text": "Nuestra producción editorial es asistida por inteligencia artificial y opera sobre un proceso fijo de verificación. El flujo es el mismo para toda nota:",
       "items": []
     },
     {
       "type": "list",
       "text": "",
       "items": [
-        "Recoleccion de notas recientes en fuentes periodisticas establecidas;",
-        "Verificacion cruzada: un dato solo entra en el texto si aparece confirmado en al menos dos fuentes independientes entre si;",
-        "Redaccion original a partir de los datos confirmados, sin copia ni parafrasis cercana del texto fuente;",
-        "Verificacion automatica de originalidad, estructura y cita de fuentes antes de publicar."
+        "Recolección de notas recientes en fuentes periodísticas establecidas;",
+        "Verificación cruzada: un dato solo entra en el texto si aparece confirmado en al menos dos fuentes independientes entre sí;",
+        "Redacción original a partir de los datos confirmados, sin copia ni paráfrasis cercana del texto fuente;",
+        "Verificación automática de originalidad, estructura y cita de fuentes antes de publicar."
       ]
     },
     {
       "type": "p",
-      "text": "Las notas que no pasan por todas esas etapas no se publican: quedan retenidas para revision humana o se descartan.",
+      "text": "Las notas que no pasan por todas esas etapas no se publican: quedan retenidas para revisión humana o se descartan.",
       "items": []
     },
     {
@@ -50,10 +50,10 @@
     },
     {
       "type": "p",
-      "text": "Encontraste un error? Escribinos a <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a> con el enlace de la nota. Las correcciones relevantes se senalan en la propia pagina.",
+      "text": "¿Encontraste un error? Escríbenos a <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a> con el enlace de la nota. Las correcciones relevantes se señalan en la propia página.",
       "items": []
     }
   ],
   "lang": "es",
-  "updated_at": "2026-08-28T11:35:52+00:00"
+  "updated_at": "2026-08-28T11:48:38+00:00"
 }

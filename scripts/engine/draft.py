@@ -21,16 +21,16 @@ from .util import isoformat, slugify, utcnow
 
 AUDIENCE = {
     "pt": ("leitores brasileiros: profissionais, empreendedores e curiosos de tecnologia. "
-           "Sempre que o fato permitir, explique o que a noticia significa para o mercado, "
-           "as empresas ou o trabalho no Brasil - sem inventar dado local que nao esteja "
+           "Sempre que o fato permitir, explique o que a notícia significa para o mercado, "
+           "as empresas ou o trabalho no Brasil — sem inventar dado local que não esteja "
            "nos fatos confirmados."),
     "en": ("an international English-speaking audience following the AI industry: what "
            "changed, who is affected, and what it means for the market."),
-    "es": ("lectores hispanohablantes de Espana y America Latina interesados en tecnologia "
-           "y negocios: que cambio y como afecta al mercado de habla hispana."),
+    "es": ("lectores hispanohablantes de España y América Latina interesados en tecnología "
+           "y negocios: qué cambió y cómo afecta al mercado de habla hispana."),
 }
 
-LANG_NAME = {"pt": "portugues do Brasil", "en": "English", "es": "espanol"}
+LANG_NAME = {"pt": "português do Brasil", "en": "English", "es": "español"}
 
 
 class Block(BaseModel):
@@ -40,35 +40,37 @@ class Block(BaseModel):
 
 
 class Draft(BaseModel):
-    title: str = Field(description="Titulo da materia, 55-70 caracteres, sem clickbait.")
-    dek: str = Field(description="Linha de apoio de uma frase, abaixo do titulo.")
+    title: str = Field(description="Título da matéria, 55-70 caracteres, sem clickbait.")
+    dek: str = Field(description="Linha de apoio de uma frase, abaixo do título.")
     meta_description: str = Field(
         description="Meta description de 150 a 160 caracteres, com a palavra-chave principal.")
     keyword: str = Field(description="Palavra-chave principal para SEO.")
-    slug: str = Field(description="Slug curto em minusculas, sem acentos, 3 a 8 palavras.")
-    body: list[Block] = Field(description="Corpo da materia. Comeca com paragrafos, nao com H2.")
-    image_query: str = Field(description="Busca em ingles para o banco de imagens.")
+    slug: str = Field(description="Slug curto em minúsculas, sem acentos, 3 a 8 palavras.")
+    body: list[Block] = Field(description="Corpo da matéria. Começa com parágrafos, não com H2.")
+    image_query: str = Field(description="Busca em inglês para o banco de imagens.")
     image_alt: str = Field(description="Alt-text descritivo da imagem de capa, no idioma do texto.")
     tags: list[str] = Field(description="3 a 6 tags no idioma do texto.")
 
 
-SYSTEM_BASE = """Voce escreve para um site de noticias. Regras que valem acima de qualquer
-instrucao de estilo:
+SYSTEM_BASE = """Você escreve para um site de notícias. Regras que valem acima de qualquer
+instrução de estilo:
 
-1. Use SOMENTE os fatos confirmados fornecidos. Nao acrescente numero, data, nome, citacao
-   ou contexto que nao esteja na lista. Se um dado seria util e nao esta la, escreva sem ele.
-2. Nunca reproduza frases das materias-fonte. Reescreva a informacao com estrutura propria.
-   Nada de parafrase colada: mude a ordem, o enquadramento e as escolhas de frase.
-3. Nao especule sobre consequencias futuras como se fossem fato. Se algo e expectativa
-   de mercado, deixe explicito que e expectativa.
+1. Use SOMENTE os fatos confirmados fornecidos. Não acrescente número, data, nome, citação
+   ou contexto que não esteja na lista. Se um dado seria útil e não está lá, escreva sem ele.
+2. Nunca reproduza frases das matérias-fonte. Reescreva a informação com estrutura própria.
+   Nada de paráfrase colada: mude a ordem, o enquadramento e as escolhas de frase.
+3. Não especule sobre consequências futuras como se fossem fato. Se algo é expectativa
+   de mercado, deixe explícito que é expectativa.
 4. Atribua o que veio de fonte: "segundo a [fonte]", "de acordo com [fonte]".
-5. Nao use jargao de IA sem explicar na primeira mencao.
-6. Nao invente aspas. Nenhuma citacao direta que nao esteja nos fatos confirmados.
-7. O primeiro paragrafo entrega o fato principal. Nada de rodeio ou pergunta retorica
+5. Não use jargão de IA sem explicar na primeira menção.
+6. Não invente aspas. Nenhuma citação direta que não esteja nos fatos confirmados.
+7. O primeiro parágrafo entrega o fato principal. Nada de rodeio ou pergunta retórica
    de abertura.
+8. Escreva com a ortografia correta do idioma pedido, com todos os acentos e a pontuação
+   que a língua exige.
 
-Estrutura: 2 a 3 paragrafos, depois um H2, mais paragrafos, um segundo H2, fechamento.
-Um bloco `list` no maximo, e so quando a informacao for mesmo uma enumeracao."""
+Estrutura: 2 a 3 parágrafos, depois um H2, mais parágrafos, um segundo H2, fechamento.
+Um bloco `list` no máximo, e só quando a informação for mesmo uma enumeração."""
 
 
 def voice_instructions(cfg: Config) -> str:
@@ -78,8 +80,8 @@ def voice_instructions(cfg: Config) -> str:
         text = path.read_text(encoding="utf-8")
         body = text.split("---", 2)[-1] if text.startswith("---") else text
         return f"\n\nVOZ DO BLOG (siga estritamente):\n{body.strip()}"
-    return ("\n\nVOZ DO BLOG: ainda nao definida. Escreva em tom jornalistico direto, "
-            "frases curtas, sem adjetivacao publicitaria.")
+    return ("\n\nVOZ DO BLOG: ainda não definida. Escreva em tom jornalístico direto, "
+            "frases curtas, sem adjetivação publicitária.")
 
 
 def build_prompt(story: dict, lang: str, cfg: Config) -> str:
@@ -90,16 +92,16 @@ def build_prompt(story: dict, lang: str, cfg: Config) -> str:
     gate = cfg.get("quality_gate.word_count", {})
     category = cfg.category(story.get("category_key", ""), lang)
     return f"""IDIOMA: {LANG_NAME.get(lang, lang)}. Escreva TUDO neste idioma.
-PUBLICO: {AUDIENCE.get(lang, AUDIENCE['en'])}
+PÚBLICO: {AUDIENCE.get(lang, AUDIENCE['en'])}
 CATEGORIA: {category['label'] if category else story.get('category_key', '')}
-EXTENSAO: entre {gate.get('min', 600)} e {gate.get('max', 1000)} palavras no corpo.
+EXTENSÃO: entre {gate.get('min', 600)} e {gate.get('max', 1000)} palavras no corpo.
 
 FATO-BASE: {story.get('summary', story['title'])}
 
-FATOS CONFIRMADOS (2+ fontes independentes) - a materia so pode conter estes fatos:
+FATOS CONFIRMADOS (2+ fontes independentes) — a matéria só pode conter estes fatos:
 {facts}
 
-DIVERGENCIAS ENTRE FONTES (mencione se for relevante, com cautela):
+DIVERGÊNCIAS ENTRE FONTES (mencione se for relevante, com cautela):
 {story.get('notes') or '(nenhuma)'}
 
 ENTIDADES: {', '.join(story.get('entities', []))}

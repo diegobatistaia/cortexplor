@@ -29,7 +29,7 @@ class ImageError(RuntimeError):
 def _unsplash(query: str, orientation: str) -> dict:
     key = os.environ.get("UNSPLASH_ACCESS_KEY", "")
     if not key:
-        raise ImageError("UNSPLASH_ACCESS_KEY nao configurada")
+        raise ImageError("UNSPLASH_ACCESS_KEY não configurada")
     response = requests.get(
         "https://api.unsplash.com/search/photos",
         params={"query": query, "orientation": orientation, "per_page": 1, "content_filter": "high"},
@@ -58,7 +58,7 @@ def _unsplash(query: str, orientation: str) -> dict:
 def _pexels(query: str, orientation: str) -> dict:
     key = os.environ.get("PEXELS_API_KEY", "")
     if not key:
-        raise ImageError("PEXELS_API_KEY nao configurada")
+        raise ImageError("PEXELS_API_KEY não configurada")
     response = requests.get(
         "https://api.pexels.com/v1/search",
         params={"query": query, "orientation": orientation, "per_page": 1},

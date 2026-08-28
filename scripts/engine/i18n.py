@@ -8,31 +8,31 @@ from __future__ import annotations
 
 STRINGS = {
     "pt": {
-        "skip_to_content": "Ir para o conteudo",
+        "skip_to_content": "Ir para o conteúdo",
         "sections": "Editorias",
         "about_site": "O site",
         "rights": "Todos os direitos reservados.",
-        "ai_disclosure": "Conteudo produzido com apoio de inteligencia artificial "
-                         "e checagem automatizada em multiplas fontes.",
+        "ai_disclosure": "Conteúdo produzido com apoio de inteligência artificial "
+                         "e checagem automatizada em múltiplas fontes.",
         "most_read": "Mais lidas",
         "see_all": "Ver tudo",
         "min_read": "min de leitura",
         "photo": "Foto",
         "sources": "Fontes",
-        "verification_note": "Cada fato desta materia foi confirmado em pelo menos "
-                             "duas fontes independentes antes da publicacao.",
-        "related": "Leia tambem",
+        "verification_note": "Cada fato desta matéria foi confirmado em pelo menos "
+                             "duas fontes independentes antes da publicação.",
+        "related": "Leia também",
         "section": "Editoria",
-        "empty_category": "Ainda nao ha materias publicadas nesta editoria.",
+        "empty_category": "Ainda não há matérias publicadas nesta editoria.",
         "updated_on": "Atualizado em",
         "newsletter_title": "Receba as novidades de IA por e-mail",
-        "newsletter_text": "Um resumo do que importa em inteligencia artificial, "
-                           "sem ruido e sem hype.",
+        "newsletter_text": "Um resumo do que importa em inteligência artificial, "
+                           "sem ruído e sem hype.",
         "newsletter_placeholder": "seu@email.com",
         "newsletter_button": "Assinar",
         "newsletter_note": "Sem spam. Cancele quando quiser.",
-        "home_title": "Noticias de Inteligencia Artificial",
-        "category_description": "Ultimas noticias e analises sobre {label} em {niche}.",
+        "home_title": "Notícias de Inteligência Artificial",
+        "category_description": "Últimas notícias e análises sobre {label} em {niche}.",
     },
     "en": {
         "skip_to_content": "Skip to content",
@@ -67,17 +67,17 @@ STRINGS = {
         "about_site": "El sitio",
         "rights": "Todos los derechos reservados.",
         "ai_disclosure": "Contenido producido con apoyo de inteligencia artificial "
-                         "y verificacion automatizada en multiples fuentes.",
-        "most_read": "Lo mas leido",
+                         "y verificación automatizada en múltiples fuentes.",
+        "most_read": "Lo más leído",
         "see_all": "Ver todo",
         "min_read": "min de lectura",
         "photo": "Foto",
         "sources": "Fuentes",
         "verification_note": "Cada dato de esta nota fue confirmado por al menos dos "
                              "fuentes independientes antes de publicarse.",
-        "related": "Lee tambien",
-        "section": "Seccion",
-        "empty_category": "Todavia no hay notas publicadas en esta seccion.",
+        "related": "Lee también",
+        "section": "Sección",
+        "empty_category": "Todavía no hay notas publicadas en esta sección.",
         "updated_on": "Actualizado el",
         "newsletter_title": "Recibe las novedades de IA por correo",
         "newsletter_text": "Un resumen de lo que importa en inteligencia artificial, "
@@ -86,7 +86,7 @@ STRINGS = {
         "newsletter_button": "Suscribirme",
         "newsletter_note": "Sin spam. Cancela cuando quieras.",
         "home_title": "Noticias de Inteligencia Artificial",
-        "category_description": "Ultimas noticias y analisis sobre {label} en {niche}.",
+        "category_description": "Últimas noticias y análisis sobre {label} en {niche}.",
     },
 }
 
