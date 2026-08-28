@@ -43,7 +43,7 @@ def views() -> dict[str, int]:
 
 # --------------------------------------------------------------------- pieces
 
-def build_posts(env, cfg: Config, pool: list[dict], out: Path) -> list[dict]:
+def build_posts(env, cfg: Config, pool: list[dict], out: Path, nav: list[dict]) -> list[dict]:
     built = []
     for post in pool:
         enriched = humanize(post, post["lang"])
@@ -60,6 +60,7 @@ def build_posts(env, cfg: Config, pool: list[dict], out: Path) -> list[dict]:
             og_image=cfg.url(enriched["image"]["path"]) if enriched.get("image", {}).get("path") else None,
             og_image_alt=enriched.get("image", {}).get("alt", ""),
             legal_pages=legal_links(cfg, post["lang"]),
+            categories=nav,
         )
         write(out / post["lang"] / post["slug"] / "index.html",
               render(env, "article.html", context))
@@ -67,7 +68,7 @@ def build_posts(env, cfg: Config, pool: list[dict], out: Path) -> list[dict]:
     return built
 
 
-def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path) -> None:
+def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path, nav: list[dict]) -> None:
     counts = views()
     ranked = sorted(posts, key=lambda p: (counts.get(p["url"], 0), p["published_at"]), reverse=True)
     t = strings(lang)
@@ -92,11 +93,23 @@ def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path) -> Non
         alternates=seo.home_alternates(cfg),
         og_image=cfg.url("/assets/logo/icon-512.png"),
         legal_pages=legal_links(cfg, lang),
+        categories=nav,
     )
     write(out / lang / "index.html", render(env, "home.html", context))
 
 
-def prune_categories(cfg: Config, lang: str, out: Path) -> list[str]:
+def nav_categories(cfg: Config, lang: str, posts: list[dict]) -> list[dict]:
+    """Editorias que já têm ao menos uma matéria.
+
+    Um menu que leva a "Ainda não há matérias publicadas nesta editoria" faz o
+    site parecer abandonado no dia em que ele mais precisa parecer vivo. A
+    editoria volta ao menu sozinha assim que a primeira matéria dela sai.
+    """
+    com_materia = {p.get("category") for p in posts}
+    return [c for c in cfg.categories(lang) if c["key"] in com_materia]
+
+
+def prune_categories(cfg: Config, lang: str, out: Path, nav: list[dict]) -> list[str]:
     """Apaga páginas de editorias que não existem mais neste idioma.
 
     Sem isso, tirar uma editoria do config deixa a página antiga no ar: órfã do
@@ -106,7 +119,7 @@ def prune_categories(cfg: Config, lang: str, out: Path) -> list[str]:
     root = out / lang / seo.CATEGORY_PREFIX
     if not root.exists():
         return []
-    validas = {c["slug"] for c in cfg.categories(lang)}
+    validas = {c["slug"] for c in nav}
     removidas = []
     for folder in root.iterdir():
         if folder.is_dir() and folder.name not in validas:
@@ -115,9 +128,9 @@ def prune_categories(cfg: Config, lang: str, out: Path) -> list[str]:
     return removidas
 
 
-def build_categories(env, cfg: Config, lang: str, posts: list[dict], out: Path) -> None:
+def build_categories(env, cfg: Config, lang: str, posts: list[dict], out: Path, nav: list[dict]) -> None:
     t = strings(lang)
-    for category in cfg.categories(lang):
+    for category in nav:
         in_category = [p for p in posts if p.get("category") == category["key"]]
         description = t["category_description"].format(
             label=category["label"], niche=cfg.localized("niche.term", lang))
@@ -132,6 +145,7 @@ def build_categories(env, cfg: Config, lang: str, posts: list[dict], out: Path) 
             canonical=cfg.url(seo.category_path(lang, category["slug"])),
             alternates=[],
             legal_pages=legal_links(cfg, lang),
+            categories=nav,
         )
         write(out / lang / seo.CATEGORY_PREFIX / category["slug"] / "index.html",
               render(env, "category.html", context))
@@ -152,7 +166,7 @@ def legal_links(cfg: Config, lang: str) -> list[dict]:
             for p in load_pages(lang)]
 
 
-def build_pages(env, cfg: Config, lang: str, out: Path) -> list[dict]:
+def build_pages(env, cfg: Config, lang: str, out: Path, nav: list[dict]) -> list[dict]:
     built = []
     for page in load_pages(lang):
         enriched = humanize(page, lang)
@@ -164,6 +178,7 @@ def build_pages(env, cfg: Config, lang: str, out: Path) -> list[dict]:
             canonical=cfg.url(seo.page_path(lang, page["slug"])),
             alternates=[],
             legal_pages=legal_links(cfg, lang),
+            categories=nav,
         )
         write(out / lang / page["slug"] / "index.html", render(env, "page.html", context))
         built.append(page)
@@ -172,9 +187,10 @@ def build_pages(env, cfg: Config, lang: str, out: Path) -> list[dict]:
 
 # ------------------------------------------------------------------ feeds etc
 
-def build_sitemap(cfg: Config, lang: str, posts: list[dict], pages: list[dict], out: Path) -> None:
+def build_sitemap(cfg: Config, lang: str, posts: list[dict], pages: list[dict], out: Path,
+                  nav: list[dict]) -> None:
     urls = [(cfg.url(seo.home_path(lang)), isoformat(utcnow()), "daily", "1.0")]
-    for category in cfg.categories(lang):
+    for category in nav:
         urls.append((cfg.url(seo.category_path(lang, category["slug"])),
                      isoformat(utcnow()), "daily", "0.7"))
     for post in posts:
@@ -315,13 +331,14 @@ def run(cfg: Config, out: Path = ROOT) -> dict:
     for lang in cfg.languages:
         posts = [p for p in enriched_all if p["lang"] == lang]
         posts.sort(key=lambda p: p["published_at"], reverse=True)
-        built = build_posts(env, cfg, posts, out)
-        pages = build_pages(env, cfg, lang, out)
-        build_home(env, cfg, lang, [humanize(p, lang) for p in posts], out)
-        build_categories(env, cfg, lang, [humanize(p, lang) for p in posts], out)
-        for removida in prune_categories(cfg, lang, out):
-            print(f"  - editoria removida: /{removida}/")
-        build_sitemap(cfg, lang, posts, pages, out)
+        nav = nav_categories(cfg, lang, posts)
+        built = build_posts(env, cfg, posts, out, nav)
+        pages = build_pages(env, cfg, lang, out, nav)
+        build_home(env, cfg, lang, [humanize(p, lang) for p in posts], out, nav)
+        build_categories(env, cfg, lang, [humanize(p, lang) for p in posts], out, nav)
+        for removida in prune_categories(cfg, lang, out, nav):
+            print(f"  - editoria sem materia, pagina removida: /{removida}/")
+        build_sitemap(cfg, lang, posts, pages, out, nav)
         build_rss(cfg, lang, posts, out)
         stats["languages"][lang] = {"posts": len(built), "pages": len(pages)}
         stats["posts"] += len(built)

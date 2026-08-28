@@ -65,12 +65,12 @@
 {%- endfor %}
 {%- endif %}
 
-{%- if block == 'newsletter' %}
+{%- if block == 'newsletter' and newsletter.enabled and newsletter.action %}
 <section class="wrap newsletter" aria-labelledby="newsletter-title">
   <div class="newsletter-inner">
     <h2 id="newsletter-title">{{ t.newsletter_title }}</h2>
     <p>{{ t.newsletter_text }}</p>
-    <form class="newsletter-form" method="post" action="{{ newsletter_action|default('#') }}">
+    <form class="newsletter-form" method="post" action="{{ newsletter.action }}">
       <label class="visually-hidden" for="nl-email">{{ t.newsletter_placeholder }}</label>
       <input id="nl-email" type="email" name="email" required placeholder="{{ t.newsletter_placeholder }}" autocomplete="email">
       <button type="submit">{{ t.newsletter_button }}</button>

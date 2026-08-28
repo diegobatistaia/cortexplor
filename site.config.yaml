@@ -100,6 +100,14 @@ ads:
     en: Advertisement
     es: Continúa después de la publicidad
 
+newsletter:
+  # DESLIGADA ate existir ferramenta de verdade. Um formulario que aceita o
+  # e-mail e nao guarda em lugar nenhum e pior que formulario nenhum: o leitor
+  # sai achando que assinou. Para ligar, crie a lista (Beehiiv, Buttondown,
+  # Mailchimp), cole o endereco do formulario em `action` e ponha enabled: true.
+  enabled: false
+  action: ""
+
 editorial:
   categories:
     - slug: {pt: modelos, en: models, es: modelos}

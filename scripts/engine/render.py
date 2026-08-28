@@ -64,6 +64,7 @@ def base_context(cfg: Config, lang: str, **extra) -> dict:
         "t": strings(lang),
         "categories": cfg.categories(lang),
         "ads": cfg.get("ads", {}) or {},
+        "newsletter": cfg.get("newsletter", {}) or {},
         "ad_slot": ad_slot_factory(cfg, lang),
         "ad_after_paragraph": AD_AFTER_PARAGRAPH,
         "year": utcnow().year,
