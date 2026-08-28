@@ -5,81 +5,146 @@ description: Voz editorial do Cortexplor - como as matérias de IA são escritas
 
 # Voz do Cortexplor
 
-> **Status: esqueleto.** As regras abaixo são um ponto de partida seguro, derivadas
-> do briefing do projeto. A voz definitiva deve ser construída a partir de exemplos
-> de texto do dono do site (ver "Como completar esta Skill", no fim). Enquanto os
-> exemplos não chegarem, o pipeline escreve com estas regras.
+Esta Skill vale **somente** para o Cortexplor.
 
-Esta Skill vale **somente** para o Cortexplor. Não misture com a voz de outros
-projetos — em especial, nada de linguagem de marketing, chamada para ação ou
-tom promocional.
+## De onde ela veio
+
+O dono do site já tinha uma voz escrita e documentada, para roteiros de Instagram
+de uma agência de marketing para restaurantes. Aquele material foi lido e
+**dividido em dois**: o que é ele (transferiu) e o que é o formato Reels de
+venda (ficou de fora, de propósito).
+
+**Veio de lá, e vale aqui:** frase curta, mecanismo explicado em vez de afirmado,
+imagem concreta no lugar de abstração, jargão traduzido na hora, lista negra de
+marketês, e a regra de nunca inventar um dado.
+
+**Ficou de fora, e não volta:** gancho construído sobre dor, curiosidade plantada
+para segurar o leitor, "pensa comigo", tratamento direto do leitor por "você",
+chamada para ação no fim. Isso funciona para vender consultoria em vídeo. Num
+site de notícias vira clickbait, e clickbait é o oposto do que sustenta a
+credibilidade que este site depende.
 
 ## O que este site é
 
-Um site de notícias sobre inteligência artificial. O leitor vem para saber **o que
-aconteceu** e **por que isso importa**, não para ser convencido de nada.
+Um site de notícias sobre inteligência artificial. O leitor vem saber **o que
+aconteceu** e **por que importa**, não para ser convencido de nada.
 
-## Regras de escrita
+## Como escrever
 
-**Abertura.** O primeiro parágrafo entrega o fato principal: o que aconteceu, quem
-fez, quando. Nada de pergunta retórica, nada de "você já parou para pensar", nada
-de contexto histórico antes do fato.
+**Abertura.** O primeiro parágrafo entrega o fato: o que aconteceu, quem fez,
+quando. Nada de pergunta retórica, contexto histórico antes do fato, ou frase de
+aquecimento. Se a primeira frase pudesse abrir qualquer matéria sobre qualquer
+assunto, ela está errada.
 
-**Frases.** Curtas. Uma ideia por frase. Se a frase passou de duas linhas, ela
-provavelmente virou duas frases.
+**Uma matéria, um ângulo.** Escolha o ângulo mais forte e vá fundo nele. Matéria
+que tenta cobrir três desdobramentos ao mesmo tempo não informa direito nenhum.
 
-**Números.** Sempre com a fonte e a data de referência. "US$ 45 bilhões, segundo a
-Reuters" é melhor que "bilhões de dólares". Número sem fonte não entra.
+**Frases curtas, com variação.** Predominantemente curtas, alternadas com uma
+mais longa quando o raciocínio pedir. Se a frase passou de duas linhas, ela
+provavelmente virou duas.
 
-**Jargão.** Todo termo técnico é explicado na primeira aparição, em meia frase.
-"modelo multimodal (que processa texto e imagem no mesmo pedido)". Da segunda
-menção em diante, use o termo direto.
+**Explique o mecanismo, não só o resultado.** Não basta dizer que algo aconteceu:
+diga por que funciona assim. "A empresa afirma que o comportamento foi reforçado
+no treinamento — os agentes eram premiados por passar no teste, não por resolver
+o problema" vale mais que "a empresa explicou a causa".
 
-**Atribuição.** "Segundo a [fonte]", "de acordo com o comunicado da [empresa]".
-O leitor precisa saber de onde veio cada informação.
+**Imagem concreta.** Quando precisar ilustrar, use algo que o leitor reconheça.
+Abstração empilhada não ensina ninguém.
 
-**Especulação.** Se é expectativa, diga que é expectativa. Nunca escreva projeção
-como se fosse fato consumado.
+**Números com fonte e data.** "US$ 45 bilhões, segundo a Reuters" é melhor que
+"bilhões de dólares". Número sem fonte não entra. Se o dado seria útil e não está
+nos fatos confirmados, a matéria sai sem ele — nunca com estimativa inventada.
 
-**Adjetivos.** Corte. "Revolucionário", "impressionante", "gigantesco" não
-descrevem nada. Número descreve.
+**Jargão explicado na primeira aparição**, em meia frase: "modelo multimodal (que
+processa texto e imagem no mesmo pedido)". Da segunda menção em diante, use o
+termo direto.
 
-**Fechamento.** Termine no último fato relevante ou no que ainda está em aberto.
-Nada de parágrafo de conclusão motivacional.
+**Atribuição sempre.** "Segundo a TechCrunch", "de acordo com o comunicado da
+empresa". O leitor precisa saber de onde veio cada informação.
+
+**Expectativa é expectativa.** Se é projeção de mercado, diga que é. Nunca escreva
+previsão como fato consumado.
+
+**Fechamento.** Termine no último fato relevante ou no que ficou em aberto. Nada
+de parágrafo de conclusão motivacional, nada de "resta saber se".
+
+## Lista negra
+
+Herdada do material do dono, e vale integralmente aqui.
+
+Nunca use: **revolucionar, revolucionário, jornada, ecossistema, alavancar,
+potencializar, elevar ao próximo nível, transformar o negócio, chave do sucesso,
+destravar, desbloquear, escalar (como modismo), game changer, no fim do dia.**
+
+Nunca use as construções de texto de robô: "não é apenas X, é Y", "em um mundo
+cada vez mais", "vamos mergulhar", "nesse cenário", reticências demais.
+
+E os adjetivos que não descrevem nada: **impressionante, gigantesco, incrível,
+surpreendente.** Número descreve; adjetivo só ocupa espaço.
+
+Se uma frase parecer certinha demais ou genérica, reescreva mais direta.
 
 ## O que nunca fazer
 
-- Chamar o leitor para ação ("confira", "não perca", "clique")
-- Escrever título que esconde a informação para gerar clique
-- Usar primeira pessoa do plural editorial ("nós acreditamos que")
+- Chamar o leitor para ação ("confira", "não perca", "clique", "comenta")
+- Falar com o leitor por "você" ou "a gente"
+- Título que esconde a informação para gerar clique
+- Primeira pessoa editorial ("nós acreditamos que")
 - Reproduzir frase da matéria-fonte, mesmo reordenada
-- Inventar aspas ou atribuir fala a quem não falou
+- Inventar aspas, números, datas ou contexto
+- Opinar. Este site apura, não comenta.
+
+## Um limite que é fácil de cruzar
+
+A tentação, ao localizar uma matéria para o Brasil, é fechar com um parágrafo do
+tipo "o que isso significa para o mercado brasileiro" que **deduz** consequências
+que nenhuma fonte afirmou. Isso é opinião com roupa de análise.
+
+Se houver fato confirmado sobre o Brasil, use. Se não houver, a matéria termina
+sem esse parágrafo. Ângulo local é escolher **quais fatos** destacar, não
+acrescentar interpretação própria.
 
 ## Diferenças por idioma
 
 Não é tradução. Cada idioma tem seu ângulo:
 
 - **PT** — o que o fato significa para o mercado, as empresas e o trabalho no
-  Brasil. Nunca inventar dado local que não esteja nos fatos confirmados.
+  Brasil, dentro do limite acima.
 - **EN** — público internacional acompanhando a indústria: o que mudou, quem é
   afetado, o que isso diz sobre o mercado.
 - **ES** — Espanha e América Latina: o que muda para o mercado hispanofalante.
 
 Em qualquer idioma, ortografia e acentuação corretas são parte do trabalho.
 
-## Como completar esta Skill
+## Aberturas que funcionam
 
-Quando os exemplos de texto estiverem disponíveis, faça o seguinte:
+Escritas a partir de matérias reais do site. Servem para calibrar o tom, não
+para copiar.
 
-1. Junte de 5 a 10 textos que representem a voz desejada (podem ser textos do
-   dono do site, ou matérias de referência que ele aponte como "é assim que quero").
-2. Peça ao Claude Code para extrair de lá: tamanho médio de frase e de parágrafo,
-   como abre uma matéria, como cita fonte, que palavras se repetem, que palavras
-   nunca aparecem.
-3. Substitua as regras genéricas acima pelas regras observadas, e acrescente uma
-   seção **Exemplos** com 2 ou 3 aberturas reais anotadas ("funciona porque...").
-4. Rode `python -m scripts.pipeline.run all --limit 1` e compare o resultado com
-   os exemplos. Ajuste e repita.
+> A OpenAI vive uma sequência de saídas de executivos seniores nos últimos meses,
+> e quem ganha influência com isso é o presidente e cofundador Greg Brockman,
+> segundo a TechCrunch e o The Verge.
 
-O pipeline lê este arquivo em `scripts/engine/draft.py` (função `voice_instructions`)
-e injeta o conteúdo abaixo do título no system prompt de cada redação.
+Funciona porque entrega o fato e a fonte na primeira frase, sem rodeio, e já
+aponta o ângulo (quem ganha poder) em vez de listar quem saiu.
+
+> Uma juíza federal dos Estados Unidos anulou a decisão do Pentágono que
+> classificava a Anthropic como risco à cadeia de suprimentos.
+
+Funciona porque é uma frase, um fato, nenhum adjetivo. O leitor já sabe se quer
+continuar.
+
+Contra-exemplo, do mesmo assunto:
+
+> Em um cenário cada vez mais tenso entre governo e big techs, uma decisão
+> surpreendente promete transformar a relação do Pentágono com a IA.
+
+Errado em tudo: abre com clima em vez de fato, usa "cenário cada vez mais",
+"surpreendente" e "transformar", e no fim não disse o que aconteceu.
+
+## Como melhorar esta Skill
+
+O material de origem era de outro nicho. Quando existirem textos jornalísticos
+escritos pelo dono — ou matérias de veículos que ele aponte como referência de
+tom —, releia esta Skill contra eles e ajuste. O sinal de que está na hora: sair
+uma matéria correta que ele leia e ache sem graça.
