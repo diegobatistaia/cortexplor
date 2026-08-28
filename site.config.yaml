@@ -160,6 +160,11 @@ sources:
   # Feeds validados em 2026-08-28 (todos responderam com itens). Reuters e AP
   # fecharam o RSS publico: para ter agencia de noticia tier 1 na checagem
   # cruzada e preciso contratar a API delas - ver SETUP.md.
+  #
+  # O que importa aqui e a diversidade de OWNERS, nao o numero de feeds: a
+  # regra das duas fontes conta grupos, e um fato so vira materia se dois
+  # grupos diferentes o afirmarem. Genbeta e Xataka sao ambos Webedia; Wired
+  # e Ars Technica sao ambos Conde Nast - por isso dividem o mesmo owner.
   rss:
     - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, owner: techcrunch, tier: 2}
     - {name: MIT Technology Review AI, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", lang: en, owner: mit-tr, tier: 1}
@@ -175,6 +180,21 @@ sources:
     - {name: Xataka, url: "https://www.xataka.com/feedburner.xml", lang: es, owner: webedia, tier: 2}
     - {name: Hipertextual, url: "https://hipertextual.com/feed", lang: es, owner: hipertextual, tier: 2}
     - {name: El País Tecnología, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada", lang: es, owner: prisa, tier: 1}
+    - {name: Engadget, url: "https://www.engadget.com/rss.xml", lang: en, owner: yahoo, tier: 2}
+    - {name: CNBC Technology, url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910", lang: en, owner: nbcuniversal, tier: 1}
+    - {name: Axios, url: "https://api.axios.com/feed/", lang: en, owner: axios, tier: 1}
+    - {name: The Guardian Technology, url: "https://www.theguardian.com/uk/technology/rss", lang: en, owner: guardian, tier: 1}
+    - {name: TechRadar, url: "https://www.techradar.com/feeds/articletype/news", lang: en, owner: future-plc, tier: 2}
+    - {name: SiliconANGLE, url: "https://siliconangle.com/feed/", lang: en, owner: siliconangle, tier: 2}
+    - {name: Business Insider, url: "https://feeds.businessinsider.com/custom/all", lang: en, owner: axel-springer, tier: 2}
+    - {name: Fortune, url: "https://fortune.com/feed/", lang: en, owner: fortune, tier: 1}
+    - {name: Mobile Time, url: "https://www.mobiletime.com.br/feed/", lang: pt, owner: mobiletime, tier: 2}
+    - {name: Convergencia Digital, url: "https://www.convergenciadigital.com.br/rss/", lang: pt, owner: convergencia, tier: 2}
+    - {name: Startupi, url: "https://startupi.com.br/feed/", lang: pt, owner: startupi, tier: 2}
+    - {name: Genbeta, url: "https://www.genbeta.com/feedburner.xml", lang: es, owner: webedia, tier: 2}
+    - {name: Computer Hoy, url: "https://computerhoy.20minutos.es/rss", lang: es, owner: henneo, tier: 2}
+    - {name: El Confidencial Tecnologia, url: "https://rss.elconfidencial.com/tecnologia/", lang: es, owner: elconfidencial, tier: 1}
+    - {name: Xataka Mexico, url: "https://www.xataka.com.mx/feedburner.xml", lang: es, owner: webedia, tier: 2}
 
 keywords:
   # Filtro de coleta. Um item so entra na fila se casar com `include`
