@@ -1,0 +1,53 @@
+[
+  {
+    "at": "2026-08-28T17:13:25+00:00",
+    "id": "greg-brockman-concentra-poder-openai",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-08-28T17:13:25+00:00",
+    "id": "openai-explica-hackeamento-hugging-face",
+    "lang": "pt",
+    "passed": false,
+    "reasons": [
+      "imagem: unsplash: Unsplash sem resultado para 'server room data breach cybersecurity abstract technology abstract'; pexels: PEXELS_API_KEY não configurada",
+      "sem imagem de capa"
+    ]
+  },
+  {
+    "at": "2026-08-28T17:13:25+00:00",
+    "id": "openai-executive-exodus-brockman-power",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-08-28T17:13:25+00:00",
+    "id": "openai-report-hugging-face-hack",
+    "lang": "en",
+    "passed": false,
+    "reasons": [
+      "imagem: unsplash: Unsplash sem resultado para 'server room data breach cybersecurity abstract technology abstract'; pexels: PEXELS_API_KEY não configurada",
+      "sem imagem de capa"
+    ]
+  },
+  {
+    "at": "2026-08-28T17:13:26+00:00",
+    "id": "exodo-ejecutivos-openai-brockman",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-08-28T17:13:26+00:00",
+    "id": "openai-informe-ataque-hugging-face",
+    "lang": "es",
+    "passed": false,
+    "reasons": [
+      "imagem: unsplash: Unsplash sem resultado para 'server room data breach cybersecurity abstract technology abstract'; pexels: PEXELS_API_KEY não configurada",
+      "sem imagem de capa"
+    ]
+  }
+]

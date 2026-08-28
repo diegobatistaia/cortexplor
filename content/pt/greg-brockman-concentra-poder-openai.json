@@ -7,30 +7,109 @@
   "meta_description": "Enquanto executivos deixam a OpenAI, o presidente Greg Brockman amplia o controle sobre produto, infraestrutura e as áreas de consumo e empresas da companhia.",
   "keyword": "greg brockman openai executivos",
   "category": "mercado",
-  "tags": ["ia", "openai", "mercado", "executivos"],
+  "tags": [
+    "ia",
+    "openai",
+    "mercado",
+    "executivos"
+  ],
   "body": [
-    {"type": "p", "text": "A OpenAI vive uma sequência de saídas de executivos seniores nos últimos meses, e quem ganha influência com isso é o presidente e cofundador Greg Brockman, segundo reportagens da TechCrunch e do podcast Decoder, do The Verge.", "items": []},
-    {"type": "p", "text": "De acordo com a TechCrunch, mais de uma dúzia de executivos deixaram a empresa desde o início do ano, incluindo o principal assessor do CEO Sam Altman, o diretor de operações, a diretora de receita e a diretora de marketing. O mais recente foi Chris Malone, chefe de data centers, que saiu na semana passada após pouco mais de um ano no cargo, segundo o veículo.", "items": []},
-    {"type": "h2", "text": "Brockman concentra o comando do dia a dia", "items": []},
-    {"type": "p", "text": "As saídas coincidem com o crescimento do poder de Brockman dentro da empresa. Tanto a TechCrunch quanto o The Verge afirmam que ele hoje supervisiona as equipes de produto, infraestrutura e as áreas voltadas a consumidores e a empresas, praticamente todos os braços operacionais da OpenAI.", "items": []},
-    {"type": "p", "text": "\"Gosto de dizer que, no fim do dia, todo mundo se reporta ao Greg\", disse Thibault Sottiaux, que lidera as ofertas de API e aplicativos da empresa, à TechCrunch. Já a repórter sênior de IA do The Verge, Hayden Field, descreve Brockman como, na prática, o líder operacional do dia a dia da OpenAI, enquanto Altman concentra sua atenção em decisões estratégicas e no plano de abrir o capital da empresa.", "items": []},
-    {"type": "p", "text": "Segundo a TechCrunch, entre 2015 e 2019 Brockman também comandava a área de engenharia da OpenAI, até ser afastado das funções de gestão quando Altman assumiu o cargo de CEO. O veículo cita o livro \"Empire of AI\", da jornalista Karen Hao, para lembrar que Brockman teve um papel disruptivo nesse período intermediário, incluindo rivalidades internas que teriam ajudado a preceder o afastamento de Altman em 2023.", "items": []},
-    {"type": "h2", "text": "Uma história que vem do golpe de 2023", "items": []},
-    {"type": "p", "text": "O relacionamento entre os dois remonta ao episódio de 2023, quando o conselho da OpenAI afastou Altman do cargo de CEO por alguns dias. Segundo as duas publicações, Brockman pediu demissão em solidariedade ao colega assim que soube da decisão, e os dois só retornaram à empresa depois que o conselho recuou. Brockman tirou uma licença sabática em 2024 antes de voltar a assumir funções executivas.", "items": []},
-    {"type": "p", "text": "Segundo a TechCrunch, a saída de Malone também está ligada a uma reorganização da área de infraestrutura, agora liderada pelo vice-presidente Sachin Katti; Malone respondia antes diretamente a Brockman.", "items": []},
-    {"type": "p", "text": "A OpenAI protocolou em junho, de forma confidencial, os documentos para abrir capital na bolsa americana, segundo a TechCrunch. O veículo afirma que a abertura de capital não é esperada antes de 2027.", "items": []},
-    {"type": "p", "text": "O podcast do The Verge também associa o momento à disputa da OpenAI com a Anthropic pelo mercado corporativo, área em que a empresa vem perdendo espaço para a rival, segundo Hayden Field. Na entrevista, a repórter descreve que Brockman hoje comanda os quatro grandes braços da OpenAI — consumo, empresas, Codex e infraestrutura —, áreas que antes tinham chefias separadas.", "items": []},
-    {"type": "h2", "text": "O que isso significa para o mercado brasileiro", "items": []},
-    {"type": "p", "text": "Para empresas no Brasil que já usam ferramentas corporativas da OpenAI, como o ChatGPT empresarial e o Codex, a concentração de poder em Brockman é um sinal de que decisões sobre produto e infraestrutura devem passar cada vez mais por ele, e não apenas por Altman, à medida que a empresa se organiza para a abertura de capital e para disputar contratos corporativos com a Anthropic no mercado local.", "items": []},
-    {"type": "p", "text": "A OpenAI não comentou publicamente as mudanças mais amplas na hierarquia da empresa, segundo a TechCrunch. Procurada pelo veículo, a companhia limitou-se a confirmar a reorganização da área de infraestrutura em torno de Katti.", "items": []}
+    {
+      "type": "p",
+      "text": "A OpenAI vive uma sequência de saídas de executivos seniores nos últimos meses, e quem ganha influência com isso é o presidente e cofundador Greg Brockman, segundo reportagens da TechCrunch e do podcast Decoder, do The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acordo com a TechCrunch, mais de uma dúzia de executivos deixaram a empresa desde o início do ano, incluindo o principal assessor do CEO Sam Altman, o diretor de operações, a diretora de receita e a diretora de marketing. O mais recente foi Chris Malone, chefe de data centers, que saiu na semana passada após pouco mais de um ano no cargo, segundo o veículo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Brockman concentra o comando do dia a dia",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As saídas coincidem com o crescimento do poder de Brockman dentro da empresa. Tanto a TechCrunch quanto o The Verge afirmam que ele hoje supervisiona as equipes de produto, infraestrutura e as áreas voltadas a consumidores e a empresas, praticamente todos os braços operacionais da OpenAI.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Gosto de dizer que, no fim do dia, todo mundo se reporta ao Greg\", disse Thibault Sottiaux, que lidera as ofertas de API e aplicativos da empresa, à TechCrunch. Já a repórter sênior de IA do The Verge, Hayden Field, descreve Brockman como, na prática, o líder operacional do dia a dia da OpenAI, enquanto Altman concentra sua atenção em decisões estratégicas e no plano de abrir o capital da empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a TechCrunch, entre 2015 e 2019 Brockman também comandava a área de engenharia da OpenAI, até ser afastado das funções de gestão quando Altman assumiu o cargo de CEO. O veículo cita o livro \"Empire of AI\", da jornalista Karen Hao, para lembrar que Brockman teve um papel disruptivo nesse período intermediário, incluindo rivalidades internas que teriam ajudado a preceder o afastamento de Altman em 2023.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Uma história que vem do golpe de 2023",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O relacionamento entre os dois remonta ao episódio de 2023, quando o conselho da OpenAI afastou Altman do cargo de CEO por alguns dias. Segundo as duas publicações, Brockman pediu demissão em solidariedade ao colega assim que soube da decisão, e os dois só retornaram à empresa depois que o conselho recuou. Brockman tirou uma licença sabática em 2024 antes de voltar a assumir funções executivas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a TechCrunch, a saída de Malone também está ligada a uma reorganização da área de infraestrutura, agora liderada pelo vice-presidente Sachin Katti; Malone respondia antes diretamente a Brockman.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI protocolou em junho, de forma confidencial, os documentos para abrir capital na bolsa americana, segundo a TechCrunch. O veículo afirma que a abertura de capital não é esperada antes de 2027.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O podcast do The Verge também associa o momento à disputa da OpenAI com a Anthropic pelo mercado corporativo, área em que a empresa vem perdendo espaço para a rival, segundo Hayden Field. Na entrevista, a repórter descreve que Brockman hoje comanda os quatro grandes braços da OpenAI — consumo, empresas, Codex e infraestrutura —, áreas que antes tinham chefias separadas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que isso significa para o mercado brasileiro",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para empresas no Brasil que já usam ferramentas corporativas da OpenAI, como o ChatGPT empresarial e o Codex, a concentração de poder em Brockman é um sinal de que decisões sobre produto e infraestrutura devem passar cada vez mais por ele, e não apenas por Altman, à medida que a empresa se organiza para a abertura de capital e para disputar contratos corporativos com a Anthropic no mercado local.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI não comentou publicamente as mudanças mais amplas na hierarquia da empresa, segundo a TechCrunch. Procurada pelo veículo, a companhia limitou-se a confirmar a reorganização da área de infraestrutura em torno de Katti.",
+      "items": []
+    }
   ],
   "image": {
     "query": "corporate executive office silhouette business power",
-    "alt": "Ilustração de uma silhueta executiva em um escritório corporativo representando mudança de poder"
+    "alt": "Ilustração de uma silhueta executiva em um escritório corporativo representando mudança de poder",
+    "path": "/assets/img/greg-brockman-concentra-poder-openai-417268f7.jpg",
+    "credit": "Kazuo ota / Unsplash",
+    "author": "Kazuo ota",
+    "author_url": "https://unsplash.com/@kazuo513?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silhouette-of-man-standing-near-glass-window-3f8V-T7sWRQ"
   },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/", "title": "How do we explain OpenAI's executive exodus?"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus", "title": "OpenAI's executive exodus has one big winner"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "title": "How do we explain OpenAI's executive exodus?"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+      "title": "OpenAI's executive exodus has one big winner"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-08-28T17:13:25+00:00",
+  "updated_at": "2026-08-28T17:13:25+00:00"
 }
