@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Há rascunho para finalizar?
         id: check
@@ -43,7 +43,7 @@ jobs:
           echo "count=$count" >> "$GITHUB_OUTPUT"
           echo "$count rascunho(s) encontrado(s)."
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         if: steps.check.outputs.count != '0'
         with:
           python-version: "3.12"
