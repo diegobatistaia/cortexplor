@@ -5,6 +5,12 @@ name: Deploy
 on:
   push:
     branches: [main]
+    # Um push que so mexe em rascunho, dado interno ou documentacao nao muda o
+    # site publicado - nada disso e enviado ao servidor.
+    paths-ignore:
+      - "content/**"
+      - "data/**"
+      - "**.md"
   workflow_dispatch:
 
 concurrency:

@@ -14,6 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from scripts.engine import gate, seo  # noqa: E402
+from scripts.pipeline.run import draft_problems  # noqa: E402
 from scripts.engine.config import ConfigError, ROOT, load  # noqa: E402
 from scripts.engine.i18n import missing_keys, strings  # noqa: E402
 from scripts.engine.render import base_context, environment, humanize, render  # noqa: E402
@@ -143,6 +144,34 @@ def main() -> int:
           similarity("um dois tres quatro cinco seis", "um dois tres quatro cinco seis") == 1.0)
     check("trecho literal é medido",
           longest_common_run("a b c d e f g", "z a b c d e f g z") == 7)
+
+    print("\nRascunhos do modo Routine")
+    frase = ("Segundo a TechCrunch, o fato principal foi confirmado por duas fontes "
+             "independentes antes da publicação, e este texto valida a estrutura. ")
+    corpo = [{"type": "p", "text": frase * 6, "items": []} for _ in range(5)]
+    corpo.insert(2, {"type": "h2", "text": "Subtítulo", "items": []})
+    rascunho = {
+        "lang": "pt", "slug": "s", "story_id": "x", "title": "T", "dek": "d",
+        "keyword": "ia", "category": "modelos", "tags": ["ia"], "body": corpo,
+        "meta_description": ("Matéria de teste usada para validar toda a estrutura do arquivo "
+                             "de rascunho que é aceita pelo pipeline automatizado do site de "
+                             "notícias sobre IA hoje."),
+        "image": {"query": "tech", "alt": "Ilustração abstrata representando tecnologia"},
+        "sources": [{"name": "TechCrunch", "owner": "techcrunch", "url": "u", "title": "t"},
+                    {"name": "MIT Technology Review", "owner": "mit-tr", "url": "u", "title": "t"}],
+        "status": "draft",
+    }
+    check("rascunho correto passa", not draft_problems(rascunho, cfg),
+          "; ".join(draft_problems(rascunho, cfg)))
+    quebrados = {
+        "campo faltando reprova": {k: v for k, v in rascunho.items() if k != "body"},
+        "categoria inexistente reprova": {**rascunho, "category": "nao-existe"},
+        "fonte unica reprova": {**rascunho, "sources": rascunho["sources"][:1]},
+        "comecar com H2 reprova": {**rascunho, "body": corpo[2:] + corpo[:2]},
+        "alt-text curto reprova": {**rascunho, "image": {"query": "t", "alt": "curto"}},
+    }
+    for label, broken in quebrados.items():
+        check(label, bool(draft_problems(broken, cfg)))
 
     print("\nTemplates")
     env = environment()

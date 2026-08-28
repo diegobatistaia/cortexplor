@@ -38,7 +38,6 @@ Em **Settings > Secrets and variables > Actions > New repository secret**:
 | Secret | O que é | Onde conseguir |
 |---|---|---|
 | `HOSTINGER_SSH_KEY` | a **chave privada** de deploy | gerada para este projeto: `~/.ssh/cortexplor_deploy` |
-| `ANTHROPIC_API_KEY` | chave da API do Claude | console.anthropic.com |
 | `UNSPLASH_ACCESS_KEY` | banco de imagens | unsplash.com/developers |
 | `PEXELS_API_KEY` | banco de imagens (reserva) | pexels.com/api |
 
@@ -68,18 +67,26 @@ Run workflow**.
 O `default.php` da Hostinger some sozinho: o rsync roda com `--delete` e remove do
 servidor o que não pertence ao site.
 
-## 4. Ligar a publicação automática
+## 4. Ligar a publicação automática (modo Routine, sem custo de API)
 
-No `site.config.yaml`, preencha a data do lançamento — é ela que controla o ramp
-de volume:
+1. Instale o app do Claude no GitHub para o repositório `cortexplor`:
+   <https://claude.ai/code/onboarding?magic=github-app-setup>
+2. No `site.config.yaml`, preencha a data do lançamento — é ela que controla o
+   ramp de volume:
 
-```yaml
-publishing:
-  launch_date: "2026-09-01"
-```
+   ```yaml
+   publishing:
+     launch_date: "2026-08-29"
+   ```
 
-O workflow **Publicar** roda todo dia às 06:00 (horário de Brasília). Para testar
-antes: **Actions > Publicar > Run workflow**, com `limit = 1`.
+3. Crie a Routine diária em <https://claude.ai/code/routines> (ou peça para eu
+   criar). Ela roda `brief`, checa as pautas, escreve as matérias seguindo
+   `.claude/skills/redacao-diaria/SKILL.md` e dá push.
+4. O push aciona o workflow **Finalizar**, que busca a imagem, roda o gate e
+   publica. O **Deploy** sobe para a Hostinger em seguida.
+
+O workflow **Publicar (modo API)** existe mas está sem agendamento — ninguém
+paga por engano. Ver "Voltar para o modo API" no README.
 
 ---
 

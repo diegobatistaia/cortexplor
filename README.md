@@ -13,6 +13,20 @@ RSS/APIs  ->  checagem cruzada  ->  redação por idioma  ->  gate  ->  HTML  ->
              (2+ fontes indep.)     (Skill de voz)         (7 critérios)
 ```
 
+O site roda em **modo Routine**: a checagem e a redação são feitas por uma sessão
+do Claude Code agendada na nuvem, sob a assinatura, sem custo de API. Os scripts
+fazem o trabalho determinístico dos dois lados.
+
+| Etapa | Quem faz | Custo |
+|---|---|---|
+| coleta dos feeds | `run brief` | zero |
+| checagem e redação | a Routine, seguindo `redacao-diaria` | assinatura |
+| imagem, gate, build | GitHub Actions (`Finalizar`) | zero |
+| deploy | GitHub Actions (`Deploy`) | zero |
+
+O modo API — `run all`, que faz tudo sozinho chamando a API — continua no
+repositório para quando houver orçamento. Ver o fim deste arquivo.
+
 Uma pauta só vira matéria se **dois donos de fonte diferentes** confirmarem os fatos
 centrais. Veículos do mesmo grupo contam como uma fonte só — republicação não é
 confirmação. O que não passa no gate vai para `data/queue/` e espera revisão humana;
@@ -47,12 +61,16 @@ assets/                   logo, fontes, CSS e imagens
 ## Comandos
 
 ```bash
-python -m scripts.pipeline.run status     # fase do ramp, taxa do gate, fila
-python -m scripts.pipeline.run collect    # só olhar o que tem de pauta hoje
-python -m scripts.pipeline.run all        # o dia inteiro: coleta -> publicação
+python -m scripts.pipeline.run status     # modo, fase do ramp, taxa do gate, fila
+python -m scripts.pipeline.run brief      # coleta e baixa o texto das fontes
+python -m scripts.pipeline.run check      # valida os rascunhos antes do commit
+python -m scripts.pipeline.run finish     # imagem + gate + build (roda no Actions)
 python -m scripts.pipeline.run queue      # o que está esperando revisão
 python -m scripts.pipeline.run build      # só regerar o HTML
 ```
+
+O ciclo diário é `brief` → a Routine lê o briefing, checa e escreve → `check` →
+commit e push → o Actions faz `finish` e publica.
 
 Para ver o site localmente:
 
@@ -87,6 +105,19 @@ O motor não sabe que este site é de IA. Para lançar outro:
 
 Nenhum arquivo em `scripts/engine/` deveria precisar de mudança. Se precisar, aquilo
 provavelmente era configuração disfarçada de código.
+
+## Voltar para o modo API
+
+Quando fizer sentido pagar por uso (mais volume, ou vontade de tirar a Routine
+do caminho):
+
+1. Crie o secret `ANTHROPIC_API_KEY` no GitHub.
+2. Descomente o bloco `schedule` em `.github/workflows/publish.yml`.
+3. Desligue a Routine em <https://claude.ai/code/routines>.
+
+O `run all` já está escrito e testado; `verify.py` e `draft.py` continuam no
+repositório justamente para isso. Nada mais muda: gate, build e deploy são os
+mesmos nos dois modos.
 
 ## O que falta configurar
 

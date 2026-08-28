@@ -1,12 +1,17 @@
-name: Publicar
+name: Publicar (modo API - cobra por uso)
 
-# Runs the daily content pipeline in the cloud: collect, cross-check, write,
-# gate, build. Anything that passes the gate is committed; the push then
-# triggers the Deploy workflow. Anything that fails lands in data/queue/ and is
-# committed too, so the daily review can be done from the repository.
+# MODO API. Faz tudo sozinho - coleta, checagem, redacao, gate, build - chamando
+# a API do Claude, que e cobrada por uso.
+#
+# Hoje o site roda no MODO ROUTINE: a checagem e a redacao acontecem numa sessao
+# do Claude Code agendada na nuvem, sob a assinatura, e o workflow "Finalizar" faz
+# o resto. Por isso este aqui NAO tem agendamento: so roda se alguem clicar.
+#
+# Para voltar ao modo API: adicione o secret ANTHROPIC_API_KEY, descomente o
+# bloco schedule abaixo e desligue a Routine em claude.ai/code/routines.
 on:
-  schedule:
-    - cron: "0 9 * * *"   # 06:00 America/Sao_Paulo
+  # schedule:
+  #   - cron: "0 9 * * *"   # 06:00 America/Sao_Paulo
   workflow_dispatch:
     inputs:
       limit:
