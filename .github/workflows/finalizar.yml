@@ -39,7 +39,9 @@ jobs:
       - name: Há rascunho para finalizar?
         id: check
         run: |
-          count=$(grep -rl '"status": *"draft"' content/ 2>/dev/null | wc -l)
+          # `|| true` porque grep sem achar nada devolve 1, e o passo roda com
+          # set -e: sem isso, um dia sem rascunho derrubaria o workflow.
+          count=$(grep -rl '"status": *"draft"' content/ 2>/dev/null | wc -l || true)
           echo "count=$count" >> "$GITHUB_OUTPUT"
           echo "$count rascunho(s) encontrado(s)."
 

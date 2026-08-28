@@ -25,13 +25,22 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
+
+      # Python explicito: sem isto o passo seguinte depende do interpretador que
+      # a imagem do runner tiver no PATH e de ele ja trazer PyYAML instalado.
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet PyYAML
 
       - name: Ler o alvo de deploy do site.config.yaml
         id: target
         run: |
-          python - <<'PY' >> "$GITHUB_OUTPUT"
+          python - <<'PY' | tee -a "$GITHUB_OUTPUT"
           import yaml
           deploy = yaml.safe_load(open("site.config.yaml"))["deploy"]
           for key in ("host", "port", "user", "remote_path"):
@@ -42,21 +51,39 @@ jobs:
           for pattern in yaml.safe_load(open("site.config.yaml"))["deploy"]["exclude"]:
               print(pattern)
           PY
+          echo "--- nao sera enviado ---"
+          cat .rsync-exclude
 
       - name: Preparar a chave SSH
         run: |
           mkdir -p ~/.ssh
           printf '%s\n' "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -p ${{ steps.target.outputs.port }} -H ${{ steps.target.outputs.host }} >> ~/.ssh/known_hosts 2>/dev/null
+          # O ssh-keyscan as vezes nao responde a tempo. Como o passo roda com
+          # set -e, isso derrubava o deploy inteiro por um motivo transitorio.
+          # Se falhar, seguimos: o rsync aceita a chave do host na conexao.
+          if ssh-keyscan -T 10 -p "${{ steps.target.outputs.port }}" \
+               -H "${{ steps.target.outputs.host }}" >> ~/.ssh/known_hosts 2>/dev/null; then
+            echo "chave do host registrada"
+          else
+            echo "keyscan nao respondeu; o rsync vai aceitar a chave na conexao"
+          fi
 
       - name: Sincronizar com a Hostinger
         run: |
           rsync -rlvz --delete --compress-level=9 \
             --exclude-from=.rsync-exclude \
             --exclude='.rsync-exclude' \
-            -e "ssh -i ~/.ssh/deploy_key -p ${{ steps.target.outputs.port }}" \
+            -e "ssh -i ~/.ssh/deploy_key -p ${{ steps.target.outputs.port }} -o StrictHostKeyChecking=accept-new -o BatchMode=yes -o ConnectTimeout=20" \
             ./ "${{ steps.target.outputs.user }}@${{ steps.target.outputs.host }}:${{ steps.target.outputs.remote_path }}"
+
+      # O deploy so termina verde se o site realmente responder. Sem isto, um
+      # rsync que copia para o lugar errado passaria despercebido.
+      - name: Conferir que o site respondeu
+        run: |
+          codigo=$(curl -sS -o /dev/null -w '%{http_code}' -L --max-time 30 https://cortexplor.com/pt/ || echo 000)
+          echo "GET /pt/ -> $codigo"
+          test "$codigo" = "200"
 
       - name: Limpar a chave
         if: always()
