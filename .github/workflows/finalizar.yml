@@ -69,3 +69,10 @@ jobs:
       - name: Resumo
         if: always()
         run: python -m scripts.pipeline.run status >> "$GITHUB_STEP_SUMMARY" || true
+
+  publicar:
+    # O commit acima foi feito com o GITHUB_TOKEN, e o GitHub nao dispara
+    # workflows a partir dele. Chamamos o Deploy explicitamente.
+    needs: finalizar
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

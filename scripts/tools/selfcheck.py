@@ -14,6 +14,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from scripts.engine import gate, seo  # noqa: E402
+from scripts.engine.images import query_ladder  # noqa: E402
+from scripts.engine.store import queue_key  # noqa: E402
 from scripts.pipeline.run import draft_problems  # noqa: E402
 from scripts.engine.config import ConfigError, ROOT, load  # noqa: E402
 from scripts.engine.i18n import missing_keys, strings  # noqa: E402
@@ -172,6 +174,19 @@ def main() -> int:
     }
     for label, broken in quebrados.items():
         check(label, bool(draft_problems(broken, cfg)))
+
+    # Dois bugs que só apareceram no primeiro fechamento real.
+    print("\nFila e busca de imagem")
+    check("fila usa chave única por idioma",
+          queue_key({"lang": "pt", "slug": "x"}) != queue_key({"lang": "es", "slug": "x"}))
+    check("fila não colapsa em 'item' sem id",
+          queue_key({"lang": "pt", "slug": "x"}) == "pt-x")
+    ladder = query_ladder({"image": {"query": "server room data breach cybersecurity abstract"}}, cfg)
+    check("busca de imagem afunila até um termo genérico", len(ladder) >= 4 and len(ladder[-1].split()) <= 3,
+          str(ladder))
+    check("busca de imagem não repete tentativa", len(ladder) == len(set(ladder)))
+    check("query vazia ainda tenta o termo do nicho",
+          len(query_ladder({"image": {"query": ""}}, cfg)) >= 1)
 
     print("\nTemplates")
     env = environment()

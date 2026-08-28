@@ -1,8 +1,13 @@
 name: Deploy
 
-# Publishes the static site to Hostinger over SSH. Runs on every push to main,
-# including the commits the publish workflow makes on its own.
+# Publica o site estatico na Hostinger por SSH.
+#
+# Roda em push normal e tambem sob demanda, chamado pelo workflow Finalizar.
+# Essa segunda porta existe porque o GitHub, de proposito, nao dispara workflows
+# a partir de commits feitos por outro workflow - sem isso, o conteudo publicado
+# pelo Finalizar ficaria no repositorio sem nunca chegar ao servidor.
 on:
+  workflow_call:
   push:
     branches: [main]
     # Um push que so mexe em rascunho, dado interno ou documentacao nao muda o

@@ -94,24 +94,56 @@ def download(url: str, slug: str) -> str:
     return f"/assets/img/{name}"
 
 
+def query_ladder(post: dict, cfg: Config) -> list[str]:
+    """Buscas da mais específica para a mais genérica.
+
+    Um banco de imagens não tem foto de "server room data breach cybersecurity
+    abstract technology abstract" - e foi assim que três matérias boas caíram na
+    fila no primeiro dia. Vale mais uma imagem genérica e honesta do que matéria
+    parada. A última tentativa é sempre um termo amplo do nicho, que existe.
+    """
+    base = (post.get("image", {}).get("query") or "").strip()
+    suffix = (cfg.get("images.query_suffix") or "").strip()
+    words = base.split()
+    generic = cfg.localized("niche.term", "en") or "technology"
+
+    tentativas = [
+        f"{base} {suffix}".strip(),
+        base,
+        " ".join(words[:3]),
+        " ".join(words[:2]),
+        generic,
+    ]
+    vistas, ladder = set(), []
+    for q in tentativas:
+        q = " ".join(q.split())
+        if q and q.lower() not in vistas:
+            vistas.add(q.lower())
+            ladder.append(q)
+    return ladder
+
+
 def attach(post: dict, cfg: Config) -> dict:
     """Find, download and attach a cover image. Raises ImageError if none can be had."""
     provider = cfg.get("images.provider", "none")
     if provider == "none":
         return post
 
-    query = " ".join(filter(None, [
-        post.get("image", {}).get("query", ""),
-        cfg.get("images.query_suffix", ""),
-    ])).strip()
     orientation = cfg.get("images.orientation", "landscape")
-
     errors = []
     for name in [provider, cfg.get("images.fallback_provider")]:
         if not name or name not in PROVIDERS:
             continue
+        found = None
+        for query in query_ladder(post, cfg):
+            try:
+                found = PROVIDERS[name](query, orientation)
+                break
+            except (ImageError, requests.RequestException) as exc:
+                errors.append(f"{name} '{query}': {exc}")
+        if found is None:
+            continue
         try:
-            found = PROVIDERS[name](query, orientation)
             post["image"] = {
                 **post.get("image", {}),
                 "path": download(found["url"], post["slug"]),

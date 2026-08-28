@@ -106,11 +106,21 @@ def load_posts(lang: str) -> list[dict]:
 
 # ------------------------------------------------------------------------ queue
 
+def queue_key(item: dict) -> str:
+    """Nome de arquivo único para um item da fila.
+
+    Os rascunhos escritos pela Routine não trazem `id` - o campo é opcional no
+    formato. Sem derivar uma chave aqui, três reprovações no mesmo dia gravavam
+    todas em `item.json` e só a última sobrevivia.
+    """
+    return item.get("id") or f"{item.get('lang', 'xx')}-{item.get('slug', 'item')}"
+
+
 def enqueue(item: dict, reasons: list[str]) -> Path:
     payload = dict(item)
     payload["queued_at"] = isoformat(utcnow())
     payload["reasons"] = reasons
-    path = QUEUE / f"{item.get('id', 'item')}.json"
+    path = QUEUE / f"{queue_key(item)}.json"
     _write(path, payload)
     return path
 

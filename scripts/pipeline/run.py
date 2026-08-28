@@ -32,7 +32,7 @@ from ..engine import collect, draft, gate, images, seo, verify
 from ..engine.config import load
 from ..engine.llm import available as llm_available
 from ..engine.store import (DATA, enqueue, gate_pass_rate, load_posts, log_gate, mark_seen,
-                            queue_items, record_published, save_post)
+                            queue_items, queue_key, record_published, save_post)
 from ..engine.util import isoformat, parse_date, utcnow, word_count
 
 BRIEFING = DATA / "briefing.json"
@@ -347,7 +347,7 @@ def cmd_queue(cfg, args) -> int:
     print(f"{len(items)} item(ns) aguardando revisão:\n")
     for item in items:
         print(f"  [{item.get('lang')}] {item.get('title', '')[:70]}")
-        print(f"      arquivo: data/queue/{item.get('id')}.json")
+        print(f"      arquivo: data/queue/{queue_key(item)}.json")
         for reason in item.get("reasons", []):
             print(f"      - {reason}")
         print()
