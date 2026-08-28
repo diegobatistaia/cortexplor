@@ -37,7 +37,7 @@ Em **Settings > Secrets and variables > Actions > New repository secret**:
 
 | Secret | O que é | Onde conseguir |
 |---|---|---|
-| `HOSTINGER_SSH_KEY` | a **chave privada** de deploy | já existe: `~/.ssh/pontoesal_deploy` |
+| `HOSTINGER_SSH_KEY` | a **chave privada** de deploy | gerada para este projeto: `~/.ssh/cortexplor_deploy` |
 | `ANTHROPIC_API_KEY` | chave da API do Claude | console.anthropic.com |
 | `UNSPLASH_ACCESS_KEY` | banco de imagens | unsplash.com/developers |
 | `PEXELS_API_KEY` | banco de imagens (reserva) | pexels.com/api |
@@ -46,15 +46,18 @@ A chave privada você mesmo sobe — eu não movo credencial. No Git Bash, copie
 conteúdo dela para a área de transferência:
 
 ```bash
-cat ~/.ssh/pontoesal_deploy | clip
+cat ~/.ssh/cortexplor_deploy | clip
 ```
 
 e cole no campo Secret, da linha `BEGIN` até a linha `END`.
 
-> A chave `Deploy Claude` que já está na Hostinger foi testada em 28/08/2026:
-> conecta em `147.79.91.241:65002` como `u433721675`, e `cortexplor.com` já existe
-> na conta. É a mesma chave do Ponto e Sal — funciona, mas o ideal é gerar um par
-> exclusivo para este projeto e cadastrar a pública no painel da Hostinger.
+> O par `~/.ssh/cortexplor_deploy` foi gerado só para este projeto. A chave pública
+> precisa ser cadastrada uma vez no painel da Hostinger (**Avançado > Acesso SSH >
+> Chaves SSH > Adicionar chave SSH**, nome sugerido `Deploy Cortexplor`).
+>
+> A conta de hospedagem (`u433721675` em `147.79.91.241:65002`) é a mesma que abriga
+> os outros domínios — isso é do plano, não do projeto. O que fica isolado é a chave:
+> revogar a do Cortexplor não derruba o deploy de nenhum outro site.
 
 ## 3. Primeiro deploy
 
