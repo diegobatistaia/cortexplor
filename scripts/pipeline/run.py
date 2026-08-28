@@ -5,9 +5,14 @@ MODO ROUTINE (padrão hoje, sem custo de API)
     scripts fazem só o trabalho determinístico, e a Routine faz a checagem e a
     redação lendo .claude/skills/redacao-diaria/SKILL.md.
 
-        run brief     coleta, baixa o texto das fontes e escreve data/briefing.json
-        run check     valida os rascunhos que a Routine escreveu (sem API, sem imagem)
-        run finish    imagem + gate + build; publica ou manda para a fila
+    O sandbox da Routine não tem saída para a web (só PyPI e as APIs da
+    Anthropic), então a coleta acontece no GitHub Actions e chega até ela pelo
+    próprio repositório:
+
+        run brief     [Actions] coleta e escreve data/briefing.json
+        run briefing  [Routine] lê o briefing e recusa se estiver velho
+        run check     [Routine] valida os rascunhos escritos
+        run finish    [Actions] imagem + gate + build
         run build     só regera o HTML
 
 MODO API (para quando houver orçamento)
@@ -28,7 +33,7 @@ from ..engine.config import load
 from ..engine.llm import available as llm_available
 from ..engine.store import (DATA, enqueue, gate_pass_rate, load_posts, log_gate, mark_seen,
                             queue_items, record_published, save_post)
-from ..engine.util import isoformat, utcnow, word_count
+from ..engine.util import isoformat, parse_date, utcnow, word_count
 
 BRIEFING = DATA / "briefing.json"
 
@@ -89,6 +94,48 @@ def cmd_brief(cfg, args) -> int:
 
     print(f"\ndata/briefing.json  {len(payload)} pauta(s), teto de {wanted} por idioma hoje")
     print("Agora leia .claude/skills/redacao-diaria/SKILL.md e escreva os rascunhos.")
+    return 0
+
+
+MAX_BRIEFING_AGE_HOURS = 18
+
+
+def cmd_briefing(cfg, args) -> int:
+    """Mostra o briefing do dia e recusa se ele estiver velho.
+
+    A coleta roda no GitHub Actions, que tem internet; a Routine roda num
+    sandbox sem saída para a web e só lê o resultado. Se a coleta falhou, o
+    arquivo fica velho — e escrever em cima de notícia de ontem é pior do que
+    não publicar. Por isso este comando falha em vez de deixar passar.
+    """
+    if not BRIEFING.exists():
+        print("data/briefing.json não existe.")
+        print("A coleta roda no workflow 'Coletar' do GitHub Actions. "
+              "Rode-o e faça pull antes de continuar.")
+        return 1
+
+    data = json.loads(BRIEFING.read_text(encoding="utf-8"))
+    generated = parse_date(data.get("generated_at"))
+    age = (utcnow() - generated).total_seconds() / 3600 if generated else 999
+
+    print(f"Gerado em: {data.get('generated_at')}  ({age:.1f}h atrás)")
+    print(f"Teto de hoje: {data.get('posts_per_language_today')} pauta(s) por idioma")
+    print(f"Idiomas: {', '.join(data.get('languages', []))}")
+    print(f"\n{len(data.get('stories', []))} pauta(s) para avaliar:\n")
+    for story in data.get("stories", []):
+        legiveis = sum(1 for s in story["sources"] if s.get("text"))
+        print(f"  {story['title'][:66]}")
+        print(f"    owners: {', '.join(story['owners'])} | "
+              f"{legiveis}/{len(story['sources'])} fontes com texto integral")
+
+    if age > MAX_BRIEFING_AGE_HOURS:
+        print(f"\nBRIEFING VELHO ({age:.1f}h, limite {MAX_BRIEFING_AGE_HOURS}h).")
+        print("A coleta de hoje não rodou. Não escreva em cima deste material:")
+        print("avise no resumo e encerre sem commitar.")
+        return 1
+    if not data.get("stories"):
+        print("\nNenhuma pauta com fontes suficientes hoje. Encerre sem commitar.")
+        return 1
     return 0
 
 
@@ -336,6 +383,7 @@ def cmd_status(cfg, args) -> int:
 
 COMMANDS = {
     "brief": cmd_brief,
+    "briefing": cmd_briefing,
     "check": cmd_check,
     "finish": cmd_finish,
     "build": cmd_build,

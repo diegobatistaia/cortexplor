@@ -1,0 +1,55 @@
+name: Coletar
+
+# A Routine que escreve as matérias roda num sandbox sem saída para a web: só
+# PyPI e as APIs da Anthropic passam pelo proxy. Nenhum feed de notícia é
+# alcançável de lá.
+#
+# Então a coleta acontece aqui, onde há internet, e o resultado chega até a
+# Routine pelo próprio repositório: este workflow commita data/briefing.json e a
+# Routine lê o arquivo depois de clonar.
+#
+# Roda 30 minutos antes dela, para dar folga se um feed estiver lento.
+on:
+  schedule:
+    - cron: "30 8 * * *"   # 05:30 America/Sao_Paulo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coletar
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Coletar as pautas do dia
+        run: python -m scripts.pipeline.run brief
+
+      - name: Commitar o briefing
+        run: |
+          git config user.name "cortexplor-bot"
+          git config user.email "bot@cortexplor.com"
+          git add data/briefing.json
+          if git diff --cached --quiet; then
+            echo "Briefing inalterado."
+          else
+            git commit -m "briefing: coleta de $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Resumo
+        if: always()
+        run: python -m scripts.pipeline.run briefing >> "$GITHUB_STEP_SUMMARY" || true

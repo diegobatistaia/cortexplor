@@ -12,17 +12,25 @@ O que decide se o site é bom não é o volume publicado — é o que você **de
 Um dia sem matéria é um resultado aceitável. Uma matéria com fato não confirmado
 não é.
 
-## 1. Gerar o briefing
+## 1. Ler o briefing do dia
 
 ```bash
-python -m scripts.pipeline.run brief
+python -m scripts.pipeline.run briefing
 ```
 
-Isso coleta os feeds, agrupa o que fala do mesmo fato e baixa o texto integral
-das fontes. O resultado é `data/briefing.json`. Leia esse arquivo.
+**Não rode `brief`.** Esta sessão não tem saída para a web — só PyPI e as APIs da
+Anthropic passam pelo proxy, e qualquer feed de notícia volta com 403. A coleta
+já aconteceu no GitHub Actions meia hora antes, e o resultado veio junto no
+clone, em `data/briefing.json`.
 
-Cada pauta traz `sources[]`, e cada fonte tem `owner` (o grupo dono do veículo)
-e `text` (a matéria inteira, quando foi possível baixar).
+O comando acima mostra o resumo e **falha se o arquivo estiver com mais de 18
+horas** — sinal de que a coleta de hoje não rodou. Se ele falhar, pare aqui:
+escreva no resumo que o briefing está velho ou vazio e encerre sem commitar.
+Escrever em cima de notícia de ontem é pior do que não publicar.
+
+Depois de passar, leia `data/briefing.json` inteiro. Cada pauta traz `sources[]`,
+e cada fonte tem `owner` (o grupo dono do veículo) e `text` (a matéria inteira,
+quando foi possível baixar).
 
 ## 2. Checar — a parte que só você faz
 
@@ -141,8 +149,8 @@ git commit -m "content: <n> matérias de <data>"
 git push
 ```
 
-O push aciona o GitHub Actions, que busca a imagem licenciada, roda o gate de
-qualidade e publica no site. O que reprovar no gate vai para `data/queue/` em vez
+O push aciona o workflow **Finalizar** do GitHub Actions, que busca a imagem
+licenciada, roda o gate de qualidade e publica no site. O que reprovar no gate vai para `data/queue/` em vez
 de ir ao ar — e isso é o sistema funcionando, não um erro seu.
 
 ## O que nunca fazer
@@ -157,5 +165,15 @@ de ir ao ar — e isso é o sistema funcionando, não um erro seu.
 
 ## Se não houver pauta
 
-Rode `brief`, leia, e se nada resistir à checagem, escreva isso no resumo e
-encerre sem commitar. É um resultado legítimo e vai acontecer.
+Se o briefing vier vazio, vier velho, ou nada resistir à checagem: escreva isso
+no resumo e encerre sem commitar. É um resultado legítimo e vai acontecer.
+
+## Onde cada etapa roda
+
+| Etapa | Onde | Por quê |
+|---|---|---|
+| coleta dos feeds | GitHub Actions | é o único lugar com internet |
+| checagem e redação | esta sessão | é o trabalho de julgamento |
+| imagem, gate, build | GitHub Actions | precisa da chave do Unsplash e do gate determinístico |
+
+Você é a etapa do meio. Não tente fazer as outras duas.
