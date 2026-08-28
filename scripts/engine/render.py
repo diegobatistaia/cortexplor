@@ -30,11 +30,13 @@ def ad_slot_factory(cfg: Config, lang: str):
             # the day AdSense is approved, without touching the templates.
             return Markup(f"<!-- ad slot: {name} -->")
         label = (ads.get("labels") or {}).get(lang, "")
+        label_html = f"<span class='ad-label'>{label}</span>" if label else ""
+        client_id = ads["client_id"]
         return Markup(
             f'<div class="ad ad-{name}">'
-            f'{f"<span class=\'ad-label\'>{label}</span>" if label else ""}'
+            f"{label_html}"
             f'<ins class="adsbygoogle" style="display:block" '
-            f'data-ad-client="{ads["client_id"]}" data-ad-slot="{slot_id}" '
+            f'data-ad-client="{client_id}" data-ad-slot="{slot_id}" '
             f'data-ad-format="auto" data-full-width-responsive="true"></ins>'
             f"<script>(adsbygoogle=window.adsbygoogle||[]).push({{}});</script></div>")
 
