@@ -264,6 +264,7 @@ deploy:
   remote_path: /home/u433721675/domains/cortexplor.com/public_html/
   exclude:
     - ".git*"
+    - ".claude/"
     - "scripts/"
     - "templates/"
     - "content/"
