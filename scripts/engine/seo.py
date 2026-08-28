@@ -74,20 +74,32 @@ def home_alternates(cfg: Config) -> list[dict]:
 # --------------------------------------------------------------- related posts
 
 def related(post: dict, pool: list[dict], cfg: Config) -> list[dict]:
-    """Internal links: same category first, then keyword overlap, newest first."""
+    """Internal links: same category first, then keyword overlap, newest first.
+
+    Quando nada é de fato relacionado, cai para as matérias mais recentes do
+    mesmo idioma. É o que um site de notícias faz de verdade - e é melhor que a
+    alternativa que essa regra criava antes: uma matéria boa parada na fila
+    porque o assunto dela ainda não tinha vizinho no site.
+    """
     limit = cfg.get("editorial.related_posts", 3)
     mine = set(post.get("tags", [])) | set(content_words(post["title"], post["lang"]))
+    candidates = [o for o in pool
+                  if o["slug"] != post["slug"] and o["lang"] == post["lang"]]
+
     scored = []
-    for other in pool:
-        if other["slug"] == post["slug"] or other["lang"] != post["lang"]:
-            continue
+    for other in candidates:
         theirs = set(other.get("tags", [])) | set(content_words(other["title"], other["lang"]))
         score = (2 if other.get("category") == post.get("category") else 0) + len(mine & theirs)
         if score:
             scored.append((score, other.get("published_at", ""), other))
     scored.sort(key=lambda row: (row[0], row[1]), reverse=True)
+    chosen = [o for _, _, o in scored[:limit]]
+
+    if not chosen:
+        chosen = sorted(candidates, key=lambda o: o.get("published_at", ""), reverse=True)[:limit]
+
     return [{"title": o["title"], "url": post_path(o), "category": o.get("category", "")}
-            for _, _, o in scored[:limit]]
+            for o in chosen]
 
 
 # ----------------------------------------------------------------------- meta

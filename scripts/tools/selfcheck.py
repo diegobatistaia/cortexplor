@@ -135,8 +135,8 @@ def main() -> int:
     lonely = seo.enrich(fixture(cfg), [neighbour], cfg)
     check("site vazio não reprova por link interno",
           gate.evaluate(seo.enrich(fixture(cfg), [], cfg), cfg, [])["passed"])
-    check("com posts publicados, falta de link interno reprova",
-          not gate.evaluate(lonely, cfg, [])["passed"] or lonely["related"])
+    check("sem parente tematico, cai para as mais recentes",
+          len(lonely["related"]) >= 1, "materia boa nao pode parar por falta de vizinho")
 
     source_text = " ".join(["conteudo"] * 200)
     copied = seo.enrich(fixture(cfg), [], cfg)
