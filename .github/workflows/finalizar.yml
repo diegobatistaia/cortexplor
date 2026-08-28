@@ -14,6 +14,12 @@ on:
     branches: [main]
     paths:
       - "content/**"
+  # Rede de seguranca: num dia sem pauta nova, a Routine nao da push e este
+  # workflow nao seria acionado - e um rascunho que ficou pendente por causa ja
+  # corrigida esperaria indefinidamente. Roda 45 min depois dela, e sai em
+  # segundos quando nao ha rascunho.
+  schedule:
+    - cron: "45 9 * * *"   # 06:45 America/Sao_Paulo
   workflow_dispatch:
 
 permissions:
