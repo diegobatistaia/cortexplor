@@ -131,7 +131,7 @@ editorial:
 publishing:
   # Ramp progressivo. O motor le a fase pela data de lancamento e nao publica
   # acima do teto sem estabilidade comprovada no gate (ver quality_gate).
-  launch_date: ""      # AAAA-MM-DD - preencher no dia do primeiro deploy
+  launch_date: "2026-08-28"   # primeiro deploy do site
   ramp:
     - {from_day: 0,   posts_per_language: 2}
     - {from_day: 28,  posts_per_language: 3}
