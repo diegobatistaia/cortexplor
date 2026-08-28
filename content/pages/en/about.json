@@ -1,0 +1,59 @@
+{
+  "slug": "about",
+  "title": "About Cortexplor",
+  "description": "What Cortexplor is, and how our stories are produced and checked.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Cortexplor is a news site covering Artificial Intelligence: model releases, market moves, regulation and the practical use of AI inside companies, in Brazil and worldwide.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How our stories are produced",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Our editorial production is AI-assisted and runs on a fixed verification process. Every story follows the same path:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Collection of recent reporting from established news sources;",
+        "Cross-checking: a fact only enters the text if at least two mutually independent sources confirm it;",
+        "Original writing from the confirmed facts - never a copy or a close paraphrase of the source text;",
+        "Automated checks on originality, structure and source citation before publication."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Stories that fail any of these steps are not published: they are held for human review or dropped.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Transparency",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Every story lists the sources used. When sources disagree on a number or a detail, we say so in the text instead of hiding it.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Corrections",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Found an error? Write to <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a> with the link. Meaningful corrections are flagged on the page itself.",
+      "items": []
+    }
+  ],
+  "lang": "en",
+  "updated_at": "2026-08-28T11:35:52+00:00"
+}

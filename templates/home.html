@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block schema %}
+<script type="application/ld+json">{{ schema_website|safe }}</script>
+{% endblock %}
+{% block content %}
+{%- for block in home_layout %}
+
+{%- if block == 'hero' and hero %}
+<section class="hero wrap" aria-labelledby="hero-title">
+  <article class="hero-lead">
+    {%- if hero.image and hero.image.path %}
+    <a class="hero-media" href="{{ hero.url }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ hero.image.path }}" alt="" width="1200" height="675" fetchpriority="high" decoding="async">
+    </a>
+    {%- endif %}
+    <a class="kicker" href="{{ hero.category_url }}" style="--kicker:{{ hero.category_color }}">{{ hero.category_label }}</a>
+    <h1 class="hero-title" id="hero-title"><a href="{{ hero.url }}">{{ hero.title }}</a></h1>
+    {%- if hero.summary %}<p class="hero-dek">{{ hero.summary }}</p>{% endif %}
+    <p class="card-meta"><time datetime="{{ hero.published_at }}">{{ hero.published_human }}</time></p>
+  </article>
+  {%- if secondary %}
+  <div class="hero-side">
+    {%- for post in secondary %}
+    {% with post=post, variant='compact' %}{% include "partials/card.html" %}{% endwith %}
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</section>
+{%- endif %}
+
+{%- if block == 'ad_between_blocks' %}
+{{ ad_slot('home_between_blocks') }}
+{%- endif %}
+
+{%- if block == 'most_read' and most_read %}
+<section class="wrap block" aria-labelledby="most-read">
+  <h2 class="block-title" id="most-read">{{ t.most_read }}</h2>
+  <ol class="ranking">
+    {%- for post in most_read %}
+    <li>
+      <span class="rank">{{ loop.index }}</span>
+      <div>
+        <a class="kicker" href="{{ post.category_url }}" style="--kicker:{{ post.category_color }}">{{ post.category_label }}</a>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endif %}
+
+{%- if block == 'topic_modules' %}
+{%- for module in topic_modules %}
+<section class="wrap block" aria-labelledby="topic-{{ module.slug }}">
+  <div class="block-head">
+    <h2 class="block-title" id="topic-{{ module.slug }}" style="--kicker:{{ module.color }}">{{ module.label }}</h2>
+    <a class="block-more" href="/{{ lang }}/c/{{ module.slug }}/">{{ t.see_all }}</a>
+  </div>
+  <div class="grid">
+    {%- for post in module.posts %}
+    {% with post=post %}{% include "partials/card.html" %}{% endwith %}
+    {%- endfor %}
+  </div>
+</section>
+{%- endfor %}
+{%- endif %}
+
+{%- if block == 'newsletter' %}
+<section class="wrap newsletter" aria-labelledby="newsletter-title">
+  <div class="newsletter-inner">
+    <h2 id="newsletter-title">{{ t.newsletter_title }}</h2>
+    <p>{{ t.newsletter_text }}</p>
+    <form class="newsletter-form" method="post" action="{{ newsletter_action|default('#') }}">
+      <label class="visually-hidden" for="nl-email">{{ t.newsletter_placeholder }}</label>
+      <input id="nl-email" type="email" name="email" required placeholder="{{ t.newsletter_placeholder }}" autocomplete="email">
+      <button type="submit">{{ t.newsletter_button }}</button>
+    </form>
+    <p class="newsletter-note">{{ t.newsletter_note }}</p>
+  </div>
+</section>
+{%- endif %}
+
+{%- endfor %}
+{% endblock %}

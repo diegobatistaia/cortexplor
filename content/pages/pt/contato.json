@@ -1,0 +1,39 @@
+{
+  "slug": "contato",
+  "title": "Contato",
+  "description": "Fale com a redacao do Cortexplor: pautas, correcoes e imprensa.",
+  "body": [
+    {
+      "type": "p",
+      "text": "O canal oficial de contato do Cortexplor e o e-mail <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a>.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Para que serve cada assunto",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "<strong>Correcao</strong>: envie o link da materia e o ponto especifico a corrigir. Priorizamos esse tipo de mensagem.",
+        "<strong>Sugestao de pauta</strong>: conte o fato e indique onde ele foi publicado ou anunciado.",
+        "<strong>Imprensa e releases</strong>: aceitamos, mas releases nao viram materia sozinhos - dependem de confirmacao independente.",
+        "<strong>Publicidade</strong>: nossa monetizacao hoje e feita por redes de anuncio; nao vendemos conteudo patrocinado."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Prazo de resposta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lemos todas as mensagens. Correcoes sao respondidas em ate 2 dias uteis; os demais assuntos, conforme a disponibilidade da redacao.",
+      "items": []
+    }
+  ],
+  "lang": "pt",
+  "updated_at": "2026-08-28T11:35:52+00:00"
+}

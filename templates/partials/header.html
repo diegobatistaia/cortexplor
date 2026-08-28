@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/{{ lang }}/" aria-label="{{ cfg.get('site.name') }}">
+      <img class="brand-mark light" src="{{ cfg.get('brand.logo.lockup') }}" alt="{{ cfg.get('site.name') }}" width="180" height="42">
+      <img class="brand-mark dark" src="{{ cfg.get('brand.logo.lockup_dark') }}" alt="" aria-hidden="true" width="180" height="42">
+      <span class="tagline">{{ cfg.localized('site.tagline', lang) }}</span>
+    </a>
+    <nav class="nav" aria-label="{{ t.sections }}">
+      {%- for cat in categories %}
+      <a href="/{{ lang }}/c/{{ cat.slug }}/"{% if cat.key == active_category %} aria-current="page"{% endif %}>{{ cat.label }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>

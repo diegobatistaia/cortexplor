@@ -1,0 +1,39 @@
+{
+  "slug": "contacto",
+  "title": "Contacto",
+  "description": "Escribi a la redaccion de Cortexplor: temas, correcciones y prensa.",
+  "body": [
+    {
+      "type": "p",
+      "text": "El canal oficial de contacto de Cortexplor es <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a>.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Para que sirve cada asunto",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "<strong>Correccion</strong>: envia el enlace de la nota y el punto especifico a corregir. Priorizamos ese tipo de mensaje.",
+        "<strong>Sugerencia de tema</strong>: contanos el hecho e indica donde fue publicado o anunciado.",
+        "<strong>Prensa y comunicados</strong>: los recibimos, pero un comunicado solo no se convierte en nota: depende de confirmacion independiente.",
+        "<strong>Publicidad</strong>: hoy monetizamos con redes de anuncios; no vendemos contenido patrocinado."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Plazo de respuesta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Leemos todos los mensajes. Las correcciones se responden en hasta 2 dias habiles; los demas asuntos, segun la disponibilidad de la redaccion.",
+      "items": []
+    }
+  ],
+  "lang": "es",
+  "updated_at": "2026-08-28T11:35:52+00:00"
+}

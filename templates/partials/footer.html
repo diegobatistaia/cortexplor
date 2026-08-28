@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img class="brand-mark light" src="{{ cfg.get('brand.logo.lockup') }}" alt="{{ cfg.get('site.name') }}" width="150" height="35">
+      <img class="brand-mark dark" src="{{ cfg.get('brand.logo.lockup_dark') }}" alt="" aria-hidden="true" width="150" height="35">
+      <p class="tagline">{{ cfg.localized('site.tagline', lang) }}</p>
+      <p class="footer-note">{{ cfg.localized('site.description', lang) }}</p>
+    </div>
+    <nav class="footer-nav" aria-label="{{ t.sections }}">
+      <h2>{{ t.sections }}</h2>
+      {%- for cat in categories %}
+      <a href="/{{ lang }}/c/{{ cat.slug }}/">{{ cat.label }}</a>
+      {%- endfor %}
+    </nav>
+    <nav class="footer-nav" aria-label="{{ t.about_site }}">
+      <h2>{{ t.about_site }}</h2>
+      {%- for page in legal_pages %}
+      <a href="{{ page.url }}">{{ page.title }}</a>
+      {%- endfor %}
+      <a href="/rss-{{ lang }}.xml">RSS</a>
+    </nav>
+  </div>
+  <div class="wrap footer-legal">
+    <p>&copy; {{ year }} {{ cfg.get('site.name') }}. {{ t.rights }}</p>
+    <p>{{ t.ai_disclosure }}</p>
+  </div>
+</footer>

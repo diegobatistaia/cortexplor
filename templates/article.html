@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block schema %}
+<script type="application/ld+json">{{ post.schema_news_article|safe }}</script>
+<script type="application/ld+json">{{ post.schema_breadcrumb|safe }}</script>
+{% endblock %}
+{% block content %}
+<article class="article">
+  <header class="article-head wrap-narrow">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="/{{ lang }}/">{{ cfg.get('site.name') }}</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ post.category_url }}">{{ post.category_label }}</a>
+    </nav>
+    <a class="kicker" href="{{ post.category_url }}" style="--kicker:{{ post.category_color }}">{{ post.category_label }}</a>
+    <h1>{{ post.title }}</h1>
+    {%- if post.dek %}<p class="dek">{{ post.dek }}</p>{% endif %}
+    <p class="article-meta">
+      <time datetime="{{ post.published_at }}">{{ post.published_human }}</time>
+      <span aria-hidden="true">&middot;</span>
+      <span>{{ post.reading_time }} {{ t.min_read }}</span>
+    </p>
+  </header>
+
+  {%- if post.image and post.image.path %}
+  <figure class="article-media wrap">
+    <img src="{{ post.image.path }}" alt="{{ post.image.alt }}" width="1200" height="675" fetchpriority="high" decoding="async">
+    {%- if post.image.credit %}
+    {%- set author_url = post.image.get('author_url') %}
+    {%- set source_url = post.image.get('source_url') %}
+    {%- set author = post.image.get('author', '') %}
+    {%- set provider = post.image.get('provider', '') %}
+    <figcaption>{{ t.photo }}:
+      {%- if author_url %} <a href="{{ author_url }}" rel="nofollow noopener" target="_blank">{{ author }}</a>
+      {%- elif author %} {{ author }}
+      {%- else %} {{ post.image.credit }}
+      {%- endif %}
+      {%- if provider %} /
+        {%- if source_url %} <a href="{{ source_url }}" rel="nofollow noopener" target="_blank">{{ provider }}</a>
+        {%- else %} {{ provider }}
+        {%- endif %}
+      {%- endif %}
+    </figcaption>
+    {%- endif %}
+  </figure>
+  {%- endif %}
+
+  <div class="article-body wrap-narrow">
+    {%- set ns = namespace(paragraphs=0) %}
+    {%- for block in post.body %}
+    {%- if block.type == 'p' %}{% set ns.paragraphs = ns.paragraphs + 1 %}{% endif %}
+    {%- if block.type == 'p' %}<p>{{ block.text }}</p>
+    {%- elif block.type == 'h2' %}<h2>{{ block.text }}</h2>
+    {%- elif block.type == 'h3' %}<h3>{{ block.text }}</h3>
+    {%- elif block.type == 'quote' %}<blockquote><p>{{ block.text }}</p></blockquote>
+    {%- elif block.type == 'list' %}<ul>{% for item in block['items'] %}<li>{{ item }}</li>{% endfor %}</ul>
+    {%- endif %}
+    {%- if block.type == 'p' and ns.paragraphs == ad_after_paragraph %}{{ ad_slot('in_content') }}{% endif %}
+    {%- endfor %}
+  </div>
+
+  <section class="sources wrap-narrow" aria-labelledby="sources-title">
+    <h2 id="sources-title">{{ t.sources }}</h2>
+    <ul>
+      {%- for source in post.sources %}
+      <li><a href="{{ source.url }}" rel="nofollow noopener" target="_blank">{{ source.name }}</a> &mdash; <span>{{ source.title }}</span></li>
+      {%- endfor %}
+    </ul>
+    <p class="sources-note">{{ t.verification_note }}</p>
+  </section>
+</article>
+
+{%- if post.related %}
+<section class="wrap block" aria-labelledby="related-title">
+  <h2 class="block-title" id="related-title">{{ t.related }}</h2>
+  <div class="grid">
+    {%- for item in post.related %}
+    <article class="card compact">
+      <div class="card-body">
+        <h3 class="card-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+{% endblock %}

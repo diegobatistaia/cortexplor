@@ -1,0 +1,52 @@
+name: Deploy
+
+# Publishes the static site to Hostinger over SSH. Runs on every push to main,
+# including the commits the publish workflow makes on its own.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ler o alvo de deploy do site.config.yaml
+        id: target
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import yaml
+          deploy = yaml.safe_load(open("site.config.yaml"))["deploy"]
+          for key in ("host", "port", "user", "remote_path"):
+              print(f"{key}={deploy[key]}")
+          PY
+          python - <<'PY' > .rsync-exclude
+          import yaml
+          for pattern in yaml.safe_load(open("site.config.yaml"))["deploy"]["exclude"]:
+              print(pattern)
+          PY
+
+      - name: Preparar a chave SSH
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p ${{ steps.target.outputs.port }} -H ${{ steps.target.outputs.host }} >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Sincronizar com a Hostinger
+        run: |
+          rsync -rlvz --delete --compress-level=9 \
+            --exclude-from=.rsync-exclude \
+            --exclude='.rsync-exclude' \
+            -e "ssh -i ~/.ssh/deploy_key -p ${{ steps.target.outputs.port }}" \
+            ./ "${{ steps.target.outputs.user }}@${{ steps.target.outputs.host }}:${{ steps.target.outputs.remote_path }}"
+
+      - name: Limpar a chave
+        if: always()
+        run: rm -f ~/.ssh/deploy_key

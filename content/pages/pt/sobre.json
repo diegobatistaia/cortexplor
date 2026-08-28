@@ -1,0 +1,59 @@
+{
+  "slug": "sobre",
+  "title": "Sobre o Cortexplor",
+  "description": "O que e o Cortexplor, como as materias sao produzidas e checadas.",
+  "body": [
+    {
+      "type": "p",
+      "text": "O Cortexplor e um site de noticias dedicado a Inteligencia Artificial. Cobrimos lancamentos de modelos, movimentos de mercado, regulacao e aplicacoes praticas de IA em empresas, no Brasil e no mundo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como as materias sao produzidas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nossa producao editorial e assistida por inteligencia artificial e opera sobre um processo fixo de checagem. O fluxo e o mesmo para toda materia:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Coleta de noticias recentes em fontes jornalisticas estabelecidas;",
+        "Checagem cruzada: um fato so entra no texto se aparecer confirmado em pelo menos duas fontes independentes entre si;",
+        "Redacao original a partir dos fatos confirmados, sem copia ou parafrase proxima do texto-fonte;",
+        "Verificacao automatica de originalidade, estrutura e citacao de fontes antes da publicacao."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pautas que nao passam por todas essas etapas nao sao publicadas: ficam retidas para revisao humana ou sao descartadas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Transparencia",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Toda materia lista, ao final, as fontes usadas na apuracao. Quando as fontes divergem sobre um dado, isso e dito no texto em vez de escondido.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Correcoes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Encontrou um erro? Escreva para <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a> com o link da materia. Correcoes relevantes sao sinalizadas na propria pagina.",
+      "items": []
+    }
+  ],
+  "lang": "pt",
+  "updated_at": "2026-08-28T11:35:52+00:00"
+}

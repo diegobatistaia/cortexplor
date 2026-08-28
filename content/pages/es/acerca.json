@@ -1,0 +1,59 @@
+{
+  "slug": "acerca",
+  "title": "Acerca de Cortexplor",
+  "description": "Que es Cortexplor y como se producen y verifican nuestras notas.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Cortexplor es un sitio de noticias dedicado a la Inteligencia Artificial. Cubrimos lanzamientos de modelos, movimientos de mercado, regulacion y aplicaciones practicas de IA en empresas, en Brasil y en el mundo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como se producen las notas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nuestra produccion editorial es asistida por inteligencia artificial y opera sobre un proceso fijo de verificacion. El flujo es el mismo para toda nota:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Recoleccion de notas recientes en fuentes periodisticas establecidas;",
+        "Verificacion cruzada: un dato solo entra en el texto si aparece confirmado en al menos dos fuentes independientes entre si;",
+        "Redaccion original a partir de los datos confirmados, sin copia ni parafrasis cercana del texto fuente;",
+        "Verificacion automatica de originalidad, estructura y cita de fuentes antes de publicar."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Las notas que no pasan por todas esas etapas no se publican: quedan retenidas para revision humana o se descartan.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Transparencia",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Cada nota lista al final las fuentes usadas. Cuando las fuentes difieren sobre un dato, lo decimos en el texto en lugar de esconderlo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Correcciones",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Encontraste un error? Escribinos a <a href=\"mailto:contato@cortexplor.com\">contato@cortexplor.com</a> con el enlace de la nota. Las correcciones relevantes se senalan en la propia pagina.",
+      "items": []
+    }
+  ],
+  "lang": "es",
+  "updated_at": "2026-08-28T11:35:52+00:00"
+}

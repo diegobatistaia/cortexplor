@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 8.5 108.5 83" role="img" aria-label="Cortexplor">
+  <title>Cortexplor</title>
+    <style>@media (prefers-color-scheme: dark){.p{stroke:#8A94A6;fill:#8A94A6}.a{stroke:#B7C0CC;fill:#B7C0CC}}</style>
+    <g fill="none" stroke="#3A4556" class="p" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 42 L18 16 L36 24"/>
+      <path d="M6 58 L18 84 L36 76"/>
+      <path d="M36 76 L64 74"/>
+    </g>
+    <g fill="none" stroke="#6B7A8F" class="a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M64 26 L80 50 L64 74"/>
+      <path d="M96 26 L80 50 L96 74"/>
+    </g>
+    <circle cx="6" cy="50" r="8" fill="#3A4556" class="p"/>
+    <circle cx="36" cy="24" r="6" fill="#6B7A8F" class="a"/>
+    <circle cx="36" cy="76" r="6" fill="#6B7A8F" class="a"/>
+    <circle cx="80" cy="50" r="9" fill="#3A4556" class="p"/>
+</svg>

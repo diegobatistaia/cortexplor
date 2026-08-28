@@ -1,0 +1,272 @@
+# ---------------------------------------------------------------------------
+# Cortexplor - configuracao especifica DESTE site.
+#
+# Tudo que e especifico de nicho, marca, dominio ou idioma mora aqui.
+# O codigo em scripts/engine/ e generico: para lancar um site de outro nicho,
+# copie o repositorio, troque este arquivo e a Skill de voz. Nada de nicho
+# deve ser hardcoded nos scripts.
+# ---------------------------------------------------------------------------
+
+site:
+  name: Cortexplor
+  domain: cortexplor.com
+  base_url: https://cortexplor.com
+  default_language: pt
+  languages: [pt, en, es]
+  timezone: America/Sao_Paulo
+  # O nome da marca nao comunica o nicho sozinho: a tagline e obrigatoria no
+  # header, e o termo de nicho entra em todo title tag (ver seo.title_suffix).
+  tagline:
+    pt: Noticias e Tendencias de IA
+    en: AI News & Trends
+    es: Noticias y Tendencias de IA
+  description:
+    pt: Noticias, tendencias e numeros de Inteligencia Artificial no Brasil e no mundo.
+    en: AI news, trends and numbers from Brazil and around the world.
+    es: Noticias, tendencias y numeros de Inteligencia Artificial en Brasil y el mundo.
+  locale:
+    pt: pt_BR
+    en: en_US
+    es: es_ES
+  html_lang:
+    pt: pt-BR
+    en: en
+    es: es
+
+niche:
+  slug: ai
+  # Entra em title/meta/keywords para reforcar o nicho em cada idioma.
+  term:
+    pt: Inteligencia Artificial
+    en: Artificial Intelligence
+    es: Inteligencia Artificial
+  term_short:
+    pt: IA
+    en: AI
+    es: IA
+
+brand:
+  ink: "#14130F"
+  paper: "#FFFEFB"
+  primary: "#3A4556"
+  accent: "#6B7A8F"
+  surface: "#F7F6F3"
+  border: "#E4E2DB"
+  muted: "#6B6960"
+  # Modo escuro
+  ink_dark: "#EDECE8"
+  paper_dark: "#14130F"
+  primary_dark: "#8A94A6"
+  accent_dark: "#B7C0CC"
+  surface_dark: "#1C1B18"
+  border_dark: "#2E2C28"
+  muted_dark: "#9A978D"
+  fonts:
+    display: "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
+    mono: "'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace"
+  logo:
+    lockup: /assets/logo/cortexplor-logo-color.svg
+    lockup_dark: /assets/logo/cortexplor-logo-white.svg
+    icon: /assets/logo/cortexplor-icon-color.svg
+    favicon_svg: /assets/logo/favicon.svg
+    favicon_ico: /assets/logo/favicon.ico
+
+seo:
+  title_suffix:
+    pt: " | Cortexplor - Noticias de IA"
+    en: " | Cortexplor - AI News"
+    es: " | Cortexplor - Noticias de IA"
+  meta_description_range: [150, 160]
+  twitter_site: "@cortexplor"
+  organization_type: NewsMediaOrganization
+
+analytics:
+  # Preencher depois de criar a propriedade GA4. Vazio = tag nao e renderizada.
+  ga4_id: ""
+  search_console_verification: ""
+
+ads:
+  # enabled: false ate a aprovacao do AdSense. Os slots ficam no HTML como
+  # placeholders vazios (nao ocupam espaco) e ligam de uma vez so aqui.
+  enabled: false
+  client_id: ""
+  slots:
+    top_leaderboard: ""
+    in_content: ""
+    home_between_blocks: ""
+    footer: ""
+  labels:
+    pt: Continua apos a publicidade
+    en: Advertisement
+    es: Continua despues de la publicidad
+
+editorial:
+  categories:
+    - slug: {pt: modelos, en: models, es: modelos}
+      label: {pt: "Modelos & Lancamentos", en: "Models & Launches", es: "Modelos y Lanzamientos"}
+      color: "#3A4556"
+    - slug: {pt: mercado, en: market, es: mercado}
+      label: {pt: "Mercado de IA", en: "AI Market", es: "Mercado de IA"}
+      color: "#6B7A8F"
+    - slug: {pt: brasil, en: brazil, es: brasil}
+      label: {pt: "IA no Brasil", en: "AI in Brazil", es: "IA en Brasil"}
+      color: "#7A5C3E"
+    - slug: {pt: aplicacoes, en: applications, es: aplicaciones}
+      label: {pt: "Aplicacoes", en: "Applications", es: "Aplicaciones"}
+      color: "#4A6455"
+    - slug: {pt: politica, en: policy, es: politica}
+      label: {pt: "Regulacao", en: "Policy", es: "Regulacion"}
+      color: "#6B4F5B"
+  # Blocos da home, na ordem. O motor renderiza o que existir de conteudo.
+  home_layout:
+    - hero              # 1 destaque com imagem + 3 manchetes secundarias
+    - ad_between_blocks
+    - most_read         # ranking numerado
+    - topic_modules     # um bloco por categoria configurada
+    - newsletter
+  most_read_count: 5
+  topic_module_count: 4
+  related_posts: 3
+
+publishing:
+  # Ramp progressivo. O motor le a fase pela data de lancamento e nao publica
+  # acima do teto sem estabilidade comprovada no gate (ver quality_gate).
+  launch_date: ""      # AAAA-MM-DD - preencher no dia do primeiro deploy
+  ramp:
+    - {from_day: 0,   posts_per_language: 2}
+    - {from_day: 28,  posts_per_language: 3}
+    - {from_day: 56,  posts_per_language: 3}
+    - {from_day: 90,  posts_per_language: 4}
+    - {from_day: 150, posts_per_language: 5}
+  # So avanca de fase se a taxa de aprovacao do gate ficar acima disso
+  # pelos ultimos `ramp_window_days` dias.
+  ramp_gate_pass_rate: 0.80
+  ramp_window_days: 14
+
+collection:
+  lookback_hours: 48
+  max_candidates: 60
+  # Overlap minimo de palavras de titulo para juntar dois itens na mesma pauta.
+  cluster_threshold: 0.42
+  min_title_chars: 25
+  # Duas fontes independentes = dois donos diferentes. Veiculos do mesmo grupo
+  # contam como UMA fonte (evita "confirmacao" circular por republicacao).
+  independence_key: owner
+  tavily:
+    enabled: false     # ligar depois de configurar o MCP do Tavily
+    max_results: 8
+
+sources:
+  # Feeds validados em 2026-08-28 (todos responderam com itens). Reuters e AP
+  # fecharam o RSS publico: para ter agencia de noticia tier 1 na checagem
+  # cruzada e preciso contratar a API delas - ver SETUP.md.
+  rss:
+    - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, owner: techcrunch, tier: 2}
+    - {name: MIT Technology Review AI, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", lang: en, owner: mit-tr, tier: 1}
+    - {name: VentureBeat AI, url: "https://venturebeat.com/category/ai/feed/", lang: en, owner: venturebeat, tier: 2}
+    - {name: The Verge AI, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", lang: en, owner: vox-media, tier: 2}
+    - {name: Wired AI, url: "https://www.wired.com/feed/tag/ai/latest/rss", lang: en, owner: conde-nast, tier: 2}
+    - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/technology-lab", lang: en, owner: conde-nast, tier: 2}
+    - {name: ZDNet AI, url: "https://www.zdnet.com/topic/artificial-intelligence/rss.xml", lang: en, owner: ziff-davis, tier: 2}
+    - {name: The Register AI, url: "https://www.theregister.com/software/ai_ml/headlines.atom", lang: en, owner: situation-publishing, tier: 2}
+    - {name: Olhar Digital IA, url: "https://olhardigital.com.br/editorias/inteligencia-artificial/feed/", lang: pt, owner: olhar-digital, tier: 2}
+    - {name: Tecmundo, url: "https://rss.tecmundo.com.br/feed", lang: pt, owner: nzn, tier: 2}
+    - {name: Canaltech, url: "https://canaltech.com.br/rss/", lang: pt, owner: canaltech, tier: 2}
+    - {name: Xataka, url: "https://www.xataka.com/feedburner.xml", lang: es, owner: webedia, tier: 2}
+    - {name: Hipertextual, url: "https://hipertextual.com/feed", lang: es, owner: hipertextual, tier: 2}
+    - {name: El Pais Tecnologia, url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada", lang: es, owner: prisa, tier: 1}
+
+keywords:
+  # Filtro de coleta. Um item so entra na fila se casar com `include`
+  # e nao casar com `exclude`.
+  include:
+    - artificial intelligence
+    - inteligencia artificial
+    - inteligencia artificial
+    - machine learning
+    - aprendizado de maquina
+    - deep learning
+    - large language model
+    - llm
+    - generative ai
+    - ia generativa
+    - openai
+    - anthropic
+    - google deepmind
+    - claude
+    - chatgpt
+    - gemini
+    - nvidia
+    - agentes de ia
+    - ai agent
+    - modelo de linguagem
+    - red neuronal
+    - rede neural
+  exclude:
+    - cupom
+    - coupon
+    - black friday
+    - promocao
+    - oferta relampago
+    - horoscopo
+
+quality_gate:
+  min_independent_sources: 2
+  word_count: {min: 600, max: 1000}
+  # Similaridade maxima com o texto-fonte (shingles de 5 palavras).
+  max_source_similarity: 0.18
+  # Maior trecho literal permitido em comum com uma fonte, em palavras.
+  max_verbatim_run: 8
+  meta_description_range: [150, 160]
+  require:
+    - meta_description
+    - image_alt
+    - schema_news_article
+    - sources_cited
+    - h1_present
+    - internal_links
+  min_internal_links: 1
+
+images:
+  provider: unsplash          # unsplash | pexels | none
+  fallback_provider: pexels
+  orientation: landscape
+  attribution_required: true
+  # Query montada a partir da categoria + entidades do texto; este e o sufixo.
+  query_suffix: technology abstract
+
+model:
+  # Redacao e checagem semantica. Ver scripts/engine/draft.py.
+  id: claude-opus-5
+  effort: high
+  max_tokens: 16000
+
+voice:
+  # Skill de voz DESTE blog. Nao reaproveitar Skill de outro projeto.
+  skill: voz-cortexplor
+  skill_path: .claude/skills/voz-cortexplor/SKILL.md
+
+legal:
+  # Paginas institucionais exigidas pelo AdSense, uma versao por idioma.
+  pages: [sobre, privacidade, contato, termos]
+  contact_email: contato@cortexplor.com
+  publisher: Cortexplor
+
+deploy:
+  # Alvo na Hostinger - verificado por SSH em 2026-08-28 (conexao OK, dominio
+  # existe na conta, rsync 3.1.3 disponivel no servidor).
+  # A CHAVE PRIVADA nunca entra aqui: ela vai em GitHub > Secrets.
+  host: 147.79.91.241
+  port: 65002
+  user: u433721675
+  remote_path: /home/u433721675/domains/cortexplor.com/public_html/
+  exclude:
+    - ".git*"
+    - "scripts/"
+    - "templates/"
+    - "content/"
+    - "data/"
+    - "*.md"
+    - "site.config.yaml"
+    - "requirements.txt"
+    - "assets/logo/source/"

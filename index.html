@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cortexplor - Noticias e Tendencias de IA</title>
+<link rel="canonical" href="https://cortexplor.com/pt/">
+<link rel="alternate" hreflang="pt-BR" href="https://cortexplor.com/pt/">
+<link rel="alternate" hreflang="en" href="https://cortexplor.com/en/">
+<link rel="alternate" hreflang="es" href="https://cortexplor.com/es/">
+<link rel="alternate" hreflang="x-default" href="https://cortexplor.com/pt/">
+<meta http-equiv="refresh" content="0; url=/pt/">
+</head>
+<body>
+<p><a href="/pt/">Cortexplor</a></p>
+<script>
+  var supported = ["pt", "en", "es"];
+  var preferred = (navigator.languages || [navigator.language || ""])
+    .map(function (l) { return String(l).slice(0, 2).toLowerCase(); })
+    .filter(function (l) { return supported.indexOf(l) !== -1; })[0];
+  location.replace("/" + (preferred || "pt") + "/");
+</script>
+</body>
+</html>

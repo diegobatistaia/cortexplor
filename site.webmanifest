@@ -1,0 +1,21 @@
+{
+  "name": "Cortexplor",
+  "short_name": "Cortexplor",
+  "description": "Noticias, tendencias e numeros de Inteligencia Artificial no Brasil e no mundo.",
+  "start_url": "/pt/",
+  "display": "standalone",
+  "background_color": "#FFFEFB",
+  "theme_color": "#3A4556",
+  "icons": [
+    {
+      "src": "/assets/logo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
