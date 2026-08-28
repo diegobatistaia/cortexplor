@@ -360,6 +360,40 @@ def cmd_queue(cfg, args) -> int:
     return 0
 
 
+def adsense_readiness(cfg) -> dict:
+    """O site já tem lastro para pedir o AdSense?
+
+    Conteúdo fino é o motivo número um de reprovação, e reprovar atrasa a
+    próxima tentativa. Por isso os critérios são de lastro, não de pressa: volume
+    por idioma, tempo de vida, fila sob controle e gate estável.
+    """
+    limites = cfg.get("ads.readiness", {}) or {}
+    por_idioma = {lang: len([p for p in load_posts(lang) if p.get("status") == "published"])
+                  for lang in cfg.languages}
+    dias = 0
+    if cfg.get("publishing.launch_date"):
+        from datetime import datetime
+        inicio = datetime.strptime(str(cfg.get("publishing.launch_date")), "%Y-%m-%d").date()
+        dias = (date.today() - inicio).days
+    taxa, amostra = gate_pass_rate(cfg.get("publishing.ramp_window_days", 14))
+
+    criterios = [
+        (f"{min(por_idioma.values(), default=0)} matérias no idioma mais fraco",
+         f"mínimo {limites.get('min_posts_per_language', 10)}",
+         min(por_idioma.values(), default=0) >= limites.get("min_posts_per_language", 10)),
+        (f"{dias} dias no ar", f"mínimo {limites.get('min_days_live', 21)}",
+         dias >= limites.get("min_days_live", 21)),
+        (f"{len(queue_items())} na fila de exceção",
+         f"máximo {limites.get('max_queue_items', 5)}",
+         len(queue_items()) <= limites.get("max_queue_items", 5)),
+        (f"gate em {taxa:.0%}" if amostra else "gate sem dados",
+         f"mínimo {limites.get('min_gate_pass_rate', 0.7):.0%}",
+         bool(amostra) and taxa >= limites.get("min_gate_pass_rate", 0.7)),
+    ]
+    return {"pronto": all(ok for _, _, ok in criterios), "criterios": criterios,
+            "ja_ligado": bool(cfg.get("ads.enabled"))}
+
+
 def cmd_status(cfg, args) -> int:
     allowed = cfg.posts_per_language(date.today())
     window = cfg.get("publishing.ramp_window_days", 14)
@@ -384,6 +418,20 @@ def cmd_status(cfg, args) -> int:
         rascunhos = [p for p in posts if p.get("status") == "draft"]
         extra = f", {len(rascunhos)} rascunho(s)" if rascunhos else ""
         print(f"  /{lang}/  {len(pub)} matérias publicadas{extra}")
+
+    ads = adsense_readiness(cfg)
+    print()
+    if ads["ja_ligado"]:
+        print("AdSense: ligado")
+    elif ads["pronto"]:
+        print("*** ADSENSE: O SITE JÁ TEM LASTRO PARA PEDIR A ANÁLISE ***")
+        for atual, exigido, _ in ads["criterios"]:
+            print(f"    ok    {atual} ({exigido})")
+        print("    Peça a análise em adsense.google.com. Só ligue ads.enabled depois de aprovado.")
+    else:
+        print("AdSense: ainda não")
+        for atual, exigido, ok in ads["criterios"]:
+            print(f"    {'ok   ' if ok else 'falta'} {atual} ({exigido})")
     return 0
 
 

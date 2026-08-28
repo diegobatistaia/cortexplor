@@ -95,6 +95,14 @@ ads:
     in_content: ""
     home_between_blocks: ""
     footer: ""
+  # Criterios para pedir o AdSense. O comando `run status` avalia isso todo dia
+  # e avisa quando o site estiver pronto - conteudo fino e o motivo numero um de
+  # reprovacao, e reprovar atrasa a proxima tentativa.
+  readiness:
+    min_posts_per_language: 10
+    min_days_live: 21
+    max_queue_items: 5
+    min_gate_pass_rate: 0.70
   labels:
     pt: Continua após a publicidade
     en: Advertisement

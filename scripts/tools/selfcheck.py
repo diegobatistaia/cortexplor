@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.engine import gate, seo  # noqa: E402
 from scripts.engine.images import query_ladder  # noqa: E402
 from scripts.engine.store import queue_key  # noqa: E402
-from scripts.pipeline.run import draft_problems  # noqa: E402
+from scripts.pipeline.run import adsense_readiness, draft_problems  # noqa: E402
 from scripts.engine.config import ConfigError, ROOT, load  # noqa: E402
 from scripts.engine.i18n import missing_keys, strings  # noqa: E402
 from scripts.engine.render import base_context, environment, humanize, render  # noqa: E402
@@ -198,6 +198,14 @@ def main() -> int:
     check("busca de imagem não repete tentativa", len(ladder) == len(set(ladder)))
     check("query vazia ainda tenta o termo do nicho",
           len(query_ladder({"image": {"query": ""}}, cfg)) >= 1)
+
+    print("\nAviso de AdSense")
+    ads = adsense_readiness(cfg)
+    check("avaliação roda e devolve os critérios", len(ads["criterios"]) == 4)
+    check("não anuncia prontidão com o site novo", not ads["pronto"],
+          "site com poucos dias e poucas matérias não deveria dar como pronto")
+    check("cada critério diz o atual e o exigido",
+          all(atual and exigido for atual, exigido, _ in ads["criterios"]))
 
     print("\nTemplates")
     env = environment()

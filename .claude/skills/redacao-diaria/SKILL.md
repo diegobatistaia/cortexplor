@@ -161,6 +161,23 @@ O push aciona o workflow **Finalizar** do GitHub Actions, que busca a imagem
 licenciada, roda o gate de qualidade e publica no site. O que reprovar no gate vai para `data/queue/` em vez
 de ir ao ar — e isso é o sistema funcionando, não um erro seu.
 
+## 7. Antes de encerrar, verifique o AdSense
+
+```bash
+python -m scripts.pipeline.run status
+```
+
+Se a saída trouxer a linha **"ADSENSE: O SITE JÁ TEM LASTRO PARA PEDIR A ANÁLISE"**,
+mande uma notificação push avisando — o dono do site pediu para ser avisado nesse
+momento exato, e ele não fica olhando o painel todo dia.
+
+A mensagem deve dizer quantas matérias existem por idioma, há quantos dias o site
+está no ar, e que o próximo passo é pedir a análise em adsense.google.com. Mande
+uma vez só: se a linha aparecer de novo nos dias seguintes, ele já foi avisado.
+
+Se a linha não aparecer, não mande nada. Um push por dia dizendo "ainda não" é
+ruído.
+
 ## O que nunca fazer
 
 - Publicar fato com uma fonte só, por melhor que seja a fonte.
