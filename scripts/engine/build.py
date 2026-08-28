@@ -268,6 +268,14 @@ def build_root(cfg: Config, out: Path) -> None:
 """)
 
 
+def build_favicon(cfg: Config, out: Path) -> None:
+    """Browsers, feed readers and link previews ask for /favicon.ico at the root
+    regardless of what the <link> tags say. Keep a copy there."""
+    source = out / "assets" / "logo" / "favicon.ico"
+    if source.exists():
+        shutil.copyfile(source, out / "favicon.ico")
+
+
 def build_css(env, cfg: Config, out: Path) -> None:
     # CSS is not HTML: rendering it with autoescape on would turn the font
     # stack's quotes into entities.
@@ -302,6 +310,7 @@ def run(cfg: Config, out: Path = ROOT) -> dict:
     build_robots(cfg, out)
     build_manifest(cfg, out)
     build_root(cfg, out)
+    build_favicon(cfg, out)
     build_css(env, cfg, out)
     return stats
 
