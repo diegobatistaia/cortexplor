@@ -31,8 +31,8 @@ from ..engine import build as build_site
 from ..engine import collect, draft, gate, images, seo, verify
 from ..engine.config import load
 from ..engine.llm import available as llm_available
-from ..engine.store import (DATA, enqueue, gate_pass_rate, load_posts, log_gate, mark_seen,
-                            queue_items, queue_key, record_published, save_post)
+from ..engine.store import (DATA, dequeue, enqueue, gate_pass_rate, load_posts, log_gate,
+                            mark_seen, queue_items, queue_key, record_published, save_post)
 from ..engine.util import isoformat, parse_date, utcnow, word_count
 
 BRIEFING = DATA / "briefing.json"
@@ -278,6 +278,10 @@ def publish_one(post: dict, cfg, pool: list[dict]) -> tuple[bool, list[str]]:
     if reasons:
         enqueue(post, reasons)
         return (False, reasons)
+
+    # Se esta matéria já tinha caído na fila e agora passou, o registro antigo
+    # sai junto - senão a revisão diária mostra fantasma de coisa publicada.
+    dequeue(queue_key(post))
 
     post["status"] = "published"
     post["published_at"] = post.get("published_at") or isoformat(utcnow())
