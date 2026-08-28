@@ -96,6 +96,25 @@ def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path) -> Non
     write(out / lang / "index.html", render(env, "home.html", context))
 
 
+def prune_categories(cfg: Config, lang: str, out: Path) -> list[str]:
+    """Apaga páginas de editorias que não existem mais neste idioma.
+
+    Sem isso, tirar uma editoria do config deixa a página antiga no ar: órfã do
+    menu, mas acessível e indexável pelo Google. Aconteceu quando "IA no Brasil"
+    passou a ser exclusiva da edição em português.
+    """
+    root = out / lang / seo.CATEGORY_PREFIX
+    if not root.exists():
+        return []
+    validas = {c["slug"] for c in cfg.categories(lang)}
+    removidas = []
+    for folder in root.iterdir():
+        if folder.is_dir() and folder.name not in validas:
+            shutil.rmtree(folder)
+            removidas.append(f"{lang}/{seo.CATEGORY_PREFIX}/{folder.name}")
+    return removidas
+
+
 def build_categories(env, cfg: Config, lang: str, posts: list[dict], out: Path) -> None:
     t = strings(lang)
     for category in cfg.categories(lang):
@@ -300,6 +319,8 @@ def run(cfg: Config, out: Path = ROOT) -> dict:
         pages = build_pages(env, cfg, lang, out)
         build_home(env, cfg, lang, [humanize(p, lang) for p in posts], out)
         build_categories(env, cfg, lang, [humanize(p, lang) for p in posts], out)
+        for removida in prune_categories(cfg, lang, out):
+            print(f"  - editoria removida: /{removida}/")
         build_sitemap(cfg, lang, posts, pages, out)
         build_rss(cfg, lang, posts, out)
         stats["languages"][lang] = {"posts": len(built), "pages": len(pages)}

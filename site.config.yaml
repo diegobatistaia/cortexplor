@@ -108,9 +108,15 @@ editorial:
     - slug: {pt: mercado, en: market, es: mercado}
       label: {pt: "Mercado de IA", en: "AI Market", es: "Mercado de IA"}
       color: "#6B7A8F"
-    - slug: {pt: brasil, en: brazil, es: brasil}
-      label: {pt: "IA no Brasil", en: "AI in Brazil", es: "IA en Brasil"}
+    # Editoria regional: existe SO na edicao em portugues. Uma secao sobre o
+    # Brasil nao faz sentido para quem le a edicao internacional ou a espanhola
+    # - o rotulo traduzido nao resolve, a editoria inteira e que nao pertence
+    # aquele publico. Para dar uma editoria regional ao espanhol, crie outra
+    # entrada com languages: [es].
+    - slug: {pt: brasil}
+      label: {pt: "IA no Brasil"}
       color: "#7A5C3E"
+      languages: [pt]
     - slug: {pt: aplicacoes, en: applications, es: aplicaciones}
       label: {pt: "Aplicações", en: "Applications", es: "Aplicaciones"}
       color: "#4A6455"
@@ -124,6 +130,8 @@ editorial:
     - most_read         # ranking numerado
     - topic_modules     # um bloco por categoria configurada
     - newsletter
+  # Para onde vai uma materia cuja editoria nao existe no idioma dela.
+  fallback_category: mercado
   most_read_count: 5
   topic_module_count: 4
   related_posts: 3

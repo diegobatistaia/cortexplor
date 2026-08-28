@@ -69,9 +69,20 @@ def main() -> int:
         return 1
 
     check("idiomas configurados", len(cfg.languages) >= 1)
-    check("categorias cobrem todos os idiomas",
-          all(len(cfg.categories(l)) == len(cfg.get("editorial.categories"))
-              for l in cfg.languages))
+    check("toda edicao tem ao menos 3 editorias",
+          all(len(cfg.categories(l)) >= 3 for l in cfg.languages))
+    # Editoria regional nao pode vazar para as outras edicoes: um leitor
+    # americano nao tem por que ver uma secao sobre o Brasil.
+    regionais = [c for c in cfg.get("editorial.categories", []) if c.get("languages")]
+    check("editoria regional so aparece no idioma dela",
+          all(cfg.category(c["slug"][cfg.default_language], outro) is None
+              for c in regionais for outro in cfg.languages
+              if outro not in c["languages"]),
+          "uma editoria com languages: [..] apareceu em idioma fora da lista")
+    check("editoria fora do idioma cai na de reserva",
+          all(cfg.category_or_fallback(c["slug"][cfg.default_language], outro) is not None
+              for c in regionais for outro in cfg.languages
+              if outro not in c["languages"]))
     check("gate exige 2+ fontes independentes",
           cfg.get("quality_gate.min_independent_sources") >= 2)
     check("todas as fontes RSS têm owner",

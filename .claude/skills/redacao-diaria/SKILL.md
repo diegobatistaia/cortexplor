@@ -75,6 +75,10 @@ Não é tradução. É a mesma apuração com o ângulo que interessa a cada pú
   afetado, o que isso diz sobre o mercado.
 - **es** — Espanha e América Latina: o que muda para o mercado hispanofalante.
 
+Isso vale também para a editoria: a mesma pauta pode ser "IA no Brasil" em
+português e "Mercado de IA" em inglês, porque o recorte regional que interessa a
+um público não interessa ao outro.
+
 A voz do site está em `.claude/skills/voz-cortexplor/SKILL.md`. **Leia antes de
 escrever a primeira matéria.** Em resumo: primeiro parágrafo entrega o fato,
 frases curtas, número sempre com fonte, zero adjetivo de propaganda, nenhuma
@@ -124,7 +128,11 @@ Regras do arquivo:
 
 - `slug` em minúsculas, sem acento, 3 a 8 palavras, **diferente em cada idioma**.
 - `story_id` **igual nos três idiomas** — é o que liga as versões pelo hreflang.
-- `category` tem que ser uma das chaves em `categories` do briefing.
+- `category` tem que ser válida **para aquele idioma**: o briefing traz
+  `categories_by_language`, e as listas não são iguais. "IA no Brasil" só existe
+  em `pt` — uma pauta brasileira escrita em inglês ou espanhol vai para outra
+  editoria, normalmente `mercado` ou `politica`. Editoria regional não se
+  traduz, se troca.
 - Todo bloco tem exatamente três campos: `type`, `text`, `items`. Use `items`
   só em `list`, e `text` vazio nesse caso.
 - `sources` só com os owners que **confirmaram** os fatos.

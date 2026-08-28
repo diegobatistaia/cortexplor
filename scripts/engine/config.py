@@ -68,8 +68,17 @@ class Config:
         return f"{self.base_url}/{path.lstrip('/')}"
 
     def categories(self, lang: str) -> list[dict]:
+        """Editorias válidas para um idioma.
+
+        Uma editoria pode declarar `languages: [pt]` e existir só naquela
+        edição. Traduzir o rótulo não resolve o caso regional: uma seção sobre
+        o Brasil não pertence à edição em inglês, com rótulo nenhum.
+        """
         out = []
         for cat in self.get("editorial.categories", []):
+            allowed = cat.get("languages")
+            if allowed and lang not in allowed:
+                continue
             out.append({
                 "slug": cat["slug"].get(lang, cat["slug"][self.default_language]),
                 "label": cat["label"].get(lang, cat["label"][self.default_language]),
@@ -77,6 +86,18 @@ class Config:
                 "key": cat["slug"][self.default_language],
             })
         return out
+
+    def category_or_fallback(self, key: str, lang: str) -> dict | None:
+        """A editoria pedida, ou a de reserva quando ela não existe no idioma.
+
+        Acontece quando uma pauta regional é escrita nos três idiomas: em pt ela
+        é "IA no Brasil", e nas outras edições precisa ir para algum lugar.
+        """
+        found = self.category(key, lang)
+        if found:
+            return found
+        fallback = self.get("editorial.fallback_category")
+        return self.category(fallback, lang) if fallback else None
 
     def category(self, key: str, lang: str) -> dict | None:
         for cat in self.categories(lang):
@@ -120,8 +141,16 @@ def validate(data: dict, path: Path) -> None:
         raise ConfigError(f"{path.name}: site.default_language precisa estar em site.languages")
 
     for i, cat in enumerate(data["editorial"].get("categories", [])):
+        # Uma editoria pode valer só para alguns idiomas; só exigimos slug e
+        # label para aqueles em que ela de fato existe.
+        cobre = cat.get("languages") or languages
+        desconhecidos = [l for l in cobre if l not in languages]
+        if desconhecidos:
+            raise ConfigError(
+                f"{path.name}: editorial.categories[{i}].languages cita {desconhecidos}, "
+                "que não estão em site.languages")
         for field in ("slug", "label"):
-            missing_langs = [l for l in languages if l not in cat.get(field, {})]
+            missing_langs = [l for l in cobre if l not in cat.get(field, {})]
             if missing_langs:
                 raise ConfigError(
                     f"{path.name}: editorial.categories[{i}].{field} não cobre {missing_langs}")

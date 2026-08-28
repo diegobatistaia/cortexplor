@@ -208,7 +208,7 @@ def website_schema(cfg: Config, lang: str) -> str:
 def enrich(post: dict, pool: list[dict], cfg: Config) -> dict:
     """Attach everything the templates need. Pure function of post + pool."""
     lang = post["lang"]
-    category = cfg.category(post.get("category", ""), lang) or {}
+    category = cfg.category_or_fallback(post.get("category", ""), lang) or {}
     alts = alternates(post, pool, cfg)
     enriched = {
         **post,

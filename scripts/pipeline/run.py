@@ -85,8 +85,9 @@ def cmd_brief(cfg, args) -> int:
         "posts_per_language_today": wanted,
         "min_independent_sources": minimum,
         "languages": cfg.languages,
-        "categories": [{"key": c["key"], "label": c["label"]}
-                       for c in cfg.categories(cfg.default_language)],
+        "categories_by_language": {
+            lang: [{"key": c["key"], "label": c["label"]} for c in cfg.categories(lang)]
+            for lang in cfg.languages},
         "word_count": cfg.get("quality_gate.word_count"),
         "meta_description_range": cfg.get("quality_gate.meta_description_range"),
         "stories": payload,
@@ -149,8 +150,9 @@ def draft_problems(post: dict, cfg) -> list[str]:
     if post["lang"] not in cfg.languages:
         problems.append(f"idioma '{post['lang']}' não está em site.languages")
     if not cfg.category(post["category"], post["lang"]):
-        keys = [c["key"] for c in cfg.categories(cfg.default_language)]
-        problems.append(f"categoria '{post['category']}' não existe; use uma de {keys}")
+        keys = [c["key"] for c in cfg.categories(post["lang"])]
+        problems.append(f"categoria '{post['category']}' não existe em {post['lang']}; "
+                        f"use uma de {keys}")
 
     lo, hi = cfg.get("quality_gate.meta_description_range", [150, 160])
     meta = (post.get("meta_description") or "").strip()
