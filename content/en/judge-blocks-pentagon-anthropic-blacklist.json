@@ -1,0 +1,145 @@
+{
+  "lang": "en",
+  "slug": "judge-blocks-pentagon-anthropic-blacklist",
+  "story_id": "13f04dbeac18c842",
+  "title": "US judge strikes down Pentagon's blacklist of Anthropic",
+  "dek": "Rita Lin's 59-page ruling finds the supply-chain risk designation was unconstitutional retaliation.",
+  "meta_description": "A US federal judge strikes down the Pentagon's blacklisting of Anthropic as a supply-chain risk, ruling the designation was unconstitutional retaliation.",
+  "keyword": "Pentagon Anthropic blacklist",
+  "category": "politica",
+  "tags": [
+    "anthropic",
+    "pentagon",
+    "ai-regulation",
+    "united-states"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A federal judge in California struck down the Pentagon's designation of Anthropic as a \"supply-chain risk\" on Thursday. The ruling came from US District Judge Rita Lin, according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lin found that the government violated the First Amendment by punishing Anthropic for criticizing the Trump administration's positions on military use of artificial intelligence, according to CNBC, The Guardian and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a 59-page decision, the judge wrote that \"the empty invocation of national security is not a blank check to punish and retaliate against government critics,\" according to The Guardian and Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A fight over military use of Claude",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The dispute began earlier this year, when the Pentagon pressed Anthropic to allow unrestricted use of its Claude models for military purposes. The company refused to let the technology be used for fully autonomous weapons or domestic mass surveillance, according to CNBC, The Guardian and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Negotiations collapsed, and the Department of Defense designated Anthropic a supply-chain risk, making it the first American company to be publicly given that label. The designation barred defense contractors from using Anthropic's technology in their work with the agency, according to CNBC and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lin's ruling bars the agencies named in the lawsuit, including the Pentagon, from enforcing President Donald Trump's order for federal agencies to stop using Anthropic's tools, according to Engadget and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"We welcome the court's ruling that this supply chain risk designation was unlawful,\" an Anthropic spokesperson said. \"We remain focused on working productively with the government to harness AI for our national security so all Americans benefit from this technology,\" according to CNBC, Engadget and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What is still unresolved",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The win is partial. Anthropic filed two separate lawsuits against the government, one in California and one in a federal appeals court in Washington. The second is still pending, which keeps Anthropic technically classified as a supply-chain risk until that case is resolved, according to CNBC and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The ruling also does not force the Pentagon to resume using Claude; the agency remains free to choose other AI vendors. The government is expected to appeal, according to The Guardian and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The dispute unfolds as Anthropic prepares for an initial public offering expected to be among the largest ever, according to CNBC and Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Despite the designation, Anthropic has shown no signs of slowing down, according to CNBC and Engadget. The company kept signing deals and growing its customer base throughout the months-long litigation over the ban.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic had warned that the supply-chain risk label could cost it billions of dollars in lost business and reputational harm going forward, according to The Guardian and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why enterprise buyers are watching",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The ruling tests how far a government can go in using regulatory power to pressure an AI vendor into dropping safety limits the company itself has set on its models. Anthropic had argued the supply-chain risk label could cost it billions of dollars in lost business and reputational harm, according to The Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For enterprises and governments elsewhere weighing contracts with frontier AI labs, the case is a reminder that vendors like Anthropic have been willing to walk away from large government deals over usage restrictions, rather than concede on limits around autonomous weapons or mass surveillance, according to CNBC and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Thursday's ruling does not settle the broader clash over how AI labs should balance government contracts against restrictions they place on lethal or surveillance uses of their own models. That tension predates this case and is likely to resurface as the Pentagon and other governments keep pushing AI companies for broader access to frontier systems and their capabilities.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "courthouse gavel government building law",
+    "alt": "Facade of a US federal courthouse building with an American flag in the background"
+  },
+  "sources": [
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+      "title": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk"
+    },
+    {
+      "name": "The Guardian Technology",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai",
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules"
+    },
+    {
+      "name": "Wired AI",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
+      "title": "A Judge Has Blocked the Pentagon's Attempt to Blacklist Anthropic"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+      "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/illegal-and-baseless-us-judge-blocks-the-pentagon-blacklisting-of-anthropic-as-a-supply-chain-risk",
+      "title": "'Illegal and baseless': US judge blocks the Pentagon blacklisting of Anthropic as a supply chain risk"
+    }
+  ],
+  "status": "draft"
+}
