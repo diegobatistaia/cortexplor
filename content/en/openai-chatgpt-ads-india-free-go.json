@@ -7,29 +7,104 @@
   "meta_description": "OpenAI has started showing ads on ChatGPT's Free and Go tiers in India as part of a wider global ad rollout, according to reporting from CNBC and TechCrunch.",
   "keyword": "openai chatgpt ads india",
   "category": "mercado",
-  "tags": ["ai", "openai", "chatgpt", "advertising"],
+  "tags": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "advertising"
+  ],
   "body": [
-    {"type": "p", "text": "OpenAI has started showing ads on ChatGPT to Free and Go tier users in India, according to CNBC and TechCrunch. The Go plan costs 399 rupees, about $4, per month in the country.", "items": []},
-    {"type": "p", "text": "The move extends an ad program already running elsewhere. TechCrunch reports OpenAI began showing ads to U.S. users in February and expanded the program to Europe earlier this month. CNBC says the ad feature is now live in 38 countries, including the U.S., Japan, South Korea and 31 European nations.", "items": []},
-    {"type": "p", "text": "A spokesperson told CNBC that advertising will support \"broader access to ChatGPT through free and lower-cost tiers.\" The company said ads will not be shown to users who identify as, or are predicted by its algorithm to be, under 18.", "items": []},
-    {"type": "p", "text": "\"Ads will be clearly labeled, visually separate and shown below the response,\" OpenAI told CNBC, adding that \"answer independence is non-negotiable.\"", "items": []},
-    {"type": "p", "text": "According to TechCrunch, the initial phase in India includes ads from 50 brands, in partnership with agencies WPP and Omnicom. OpenAI also plans to launch a self-serve ad manager on Sept. 4, letting advertisers set up campaigns with a minimum daily budget of ₹725, about $7.60. The move follows a change to OpenAI's terms of service earlier this month indicating it would start showing ads to users, TechCrunch reports.", "items": []},
-    {"type": "p", "text": "India is one of ChatGPT's largest markets: OpenAI said in February it has more than 100 million weekly active users in the country, many of them on the free or Go tiers, according to TechCrunch. OpenAI launched the sub-$5 Go plan in India in August 2025 and ran a promotion making that tier free for a full year, while advertising heavily during cricket tournaments such as the Women's Premier League and the Indian Premier League, TechCrunch reports.", "items": []},
-    {"type": "h2", "text": "Pressure from a looming IPO", "items": []},
-    {"type": "p", "text": "The rollout comes as OpenAI prepares for a possible public listing. CNBC reports the company is planning to go public in 2027 and faces pressure to justify an $852 billion valuation. TechCrunch estimates the IPO could come as soon as this year or next.", "items": []},
-    {"type": "p", "text": "Advertising revenue helps OpenAI offset part of the cost of running each ChatGPT query and stem its losses, experts told CNBC. Unlike Anthropic, which draws a larger share of revenue from enterprise customers, OpenAI is more popular among individual consumers, Ujjwal Chaudhry, a partner at market intelligence firm Analysys Mason, told CNBC. Ads are the most effective way to monetize an individual consumer base at scale, he said, noting that online ads make up more than 75% of the $1.18 trillion spent globally on advertising, while in-app ads alone are a $400 billion market.", "items": []},
-    {"type": "p", "text": "CNBC, citing The Wall Street Journal, reported that OpenAI posted $6.7 billion in revenue in the second quarter of 2026, up from $5.7 billion the previous quarter.", "items": []},
-    {"type": "p", "text": "\"OpenAI is in a tough spot,\" Dan Niles, founder of Niles Investment Management, told CNBC in June. He said the company is being squeezed between Anthropic, which is focused on enterprise customers, and Google, which already dominates the consumer market and has ample cash flow to fund its own AI ambitions.", "items": []},
-    {"type": "p", "text": "Anthropic has previously criticized OpenAI's advertising plans, saying its Claude chatbot will remain ad-free, according to CNBC. Users of Claude will not see ads or sponsored links near their conversations, and its answers will not be shaped by third-party product placements, Anthropic has said, per CNBC's reporting.", "items": []},
-    {"type": "p", "text": "The ad push in India follows OpenAI's broader effort to grow in the country: the company hired Uber's India head to lead its expansion there, TechCrunch reports, after building its user base with the discounted Go plan and sponsorships tied to major cricket tournaments.", "items": []}
+    {
+      "type": "p",
+      "text": "OpenAI has started showing ads on ChatGPT to Free and Go tier users in India, according to CNBC and TechCrunch. The Go plan costs 399 rupees, about $4, per month in the country.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The move extends an ad program already running elsewhere. TechCrunch reports OpenAI began showing ads to U.S. users in February and expanded the program to Europe earlier this month. CNBC says the ad feature is now live in 38 countries, including the U.S., Japan, South Korea and 31 European nations.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A spokesperson told CNBC that advertising will support \"broader access to ChatGPT through free and lower-cost tiers.\" The company said ads will not be shown to users who identify as, or are predicted by its algorithm to be, under 18.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Ads will be clearly labeled, visually separate and shown below the response,\" OpenAI told CNBC, adding that \"answer independence is non-negotiable.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to TechCrunch, the initial phase in India includes ads from 50 brands, in partnership with agencies WPP and Omnicom. OpenAI also plans to launch a self-serve ad manager on Sept. 4, letting advertisers set up campaigns with a minimum daily budget of ₹725, about $7.60. The move follows a change to OpenAI's terms of service earlier this month indicating it would start showing ads to users, TechCrunch reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "India is one of ChatGPT's largest markets: OpenAI said in February it has more than 100 million weekly active users in the country, many of them on the free or Go tiers, according to TechCrunch. OpenAI launched the sub-$5 Go plan in India in August 2025 and ran a promotion making that tier free for a full year, while advertising heavily during cricket tournaments such as the Women's Premier League and the Indian Premier League, TechCrunch reports.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Pressure from a looming IPO",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The rollout comes as OpenAI prepares for a possible public listing. CNBC reports the company is planning to go public in 2027 and faces pressure to justify an $852 billion valuation. TechCrunch estimates the IPO could come as soon as this year or next.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Advertising revenue helps OpenAI offset part of the cost of running each ChatGPT query and stem its losses, experts told CNBC. Unlike Anthropic, which draws a larger share of revenue from enterprise customers, OpenAI is more popular among individual consumers, Ujjwal Chaudhry, a partner at market intelligence firm Analysys Mason, told CNBC. Ads are the most effective way to monetize an individual consumer base at scale, he said, noting that online ads make up more than 75% of the $1.18 trillion spent globally on advertising, while in-app ads alone are a $400 billion market.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC, citing The Wall Street Journal, reported that OpenAI posted $6.7 billion in revenue in the second quarter of 2026, up from $5.7 billion the previous quarter.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"OpenAI is in a tough spot,\" Dan Niles, founder of Niles Investment Management, told CNBC in June. He said the company is being squeezed between Anthropic, which is focused on enterprise customers, and Google, which already dominates the consumer market and has ample cash flow to fund its own AI ambitions.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic has previously criticized OpenAI's advertising plans, saying its Claude chatbot will remain ad-free, according to CNBC. Users of Claude will not see ads or sponsored links near their conversations, and its answers will not be shaped by third-party product placements, Anthropic has said, per CNBC's reporting.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The ad push in India follows OpenAI's broader effort to grow in the country: the company hired Uber's India head to lead its expansion there, TechCrunch reports, after building its user base with the discounted Go plan and sponsorships tied to major cricket tournaments.",
+      "items": []
+    }
   ],
   "image": {
     "query": "smartphone chat app advertisement mobile screen",
-    "alt": "Person holding a smartphone with a chat app displaying an advertisement on screen"
+    "alt": "Person holding a smartphone with a chat app displaying an advertisement on screen",
+    "path": "/assets/img/openai-chatgpt-ads-india-free-go-372567c5.jpg",
+    "credit": "Omar:. Lopez-Rincon / Unsplash",
+    "author": "Omar:. Lopez-Rincon",
+    "author_url": "https://unsplash.com/@procopiopi?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/smartphone-displaying-chat-bubbles-with-a-heart-icon-VQo482eL1hc"
   },
   "sources": [
-    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html", "title": "OpenAI rolls out ads on select ChatGPT plans in India to boost monetization, support wider access"},
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/", "title": "OpenAI to start showing ads on ChatGPT's free and Go tiers in India"}
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html",
+      "title": "OpenAI rolls out ads on select ChatGPT plans in India to boost monetization, support wider access"
+    },
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "title": "OpenAI to start showing ads on ChatGPT's free and Go tiers in India"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-08-29T09:15:19+00:00",
+  "updated_at": "2026-08-29T09:15:19+00:00"
 }

@@ -7,29 +7,104 @@
   "meta_description": "A Anthropic lançou o Model Hardware Standard, padrão que deixa agentes de IA operar máquinas físicas em laboratórios e fábricas, segundo CNBC e Wired.",
   "keyword": "anthropic model hardware standard",
   "category": "modelos",
-  "tags": ["ia", "anthropic", "robotica", "industria"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "robotica",
+    "industria"
+  ],
   "body": [
-    {"type": "p", "text": "A Anthropic anunciou nesta quinta-feira (27) um novo padrão que permite a agentes de inteligência artificial operar máquinas físicas diretamente, segundo a CNBC e a Wired. O Model Hardware Standard (MHS) funciona com qualquer dispositivo que tenha uma interface programável.", "items": []},
-    {"type": "p", "text": "O padrão foi pensado para equipamentos usados em pesquisa científica e manufatura. A Wired cita microscópios, sistemas de manuseio de líquidos, hardware de computação quântica, máquinas de fabricação e braços robóticos como exemplos de dispositivos compatíveis.", "items": []},
-    {"type": "p", "text": "Elizabeth Kelly, responsável pela área de implantações benéficas da Anthropic, comparou o MHS a um cabo USB-C em entrevista à CNBC: assim como o conector padroniza a transmissão de dados entre aparelhos diferentes, o MHS padroniza a forma como agentes de IA se comunicam com máquinas, sem que cada fabricante precise escrever código sob medida para cada sistema.", "items": []},
-    {"type": "p", "text": "O padrão é agnóstico em relação ao modelo de IA usado, segundo a CNBC — ou seja, não depende da família Claude, da própria Anthropic, para funcionar. Na prática, um fabricante de equipamento pode adotar o MHS sem ficar preso a um único fornecedor de IA.", "items": []},
-    {"type": "p", "text": "Por enquanto, o MHS está disponível apenas em uma prévia de pesquisa para um grupo seleto de organizações de ciência, robótica e manufatura. A Anthropic afirma que pretende abrir o código do padrão no futuro, tornando-o disponível para qualquer fabricante de dispositivos, segundo a CNBC.", "items": []},
-    {"type": "p", "text": "A empresa já havia seguido estratégia semelhante com o Model Context Protocol (MCP), padrão que teve o código aberto em 2024 para facilitar a conexão entre agentes de IA e fontes de dados. O MHS estende a mesma lógica ao mundo físico.", "items": []},
-    {"type": "p", "text": "A Wired lista outras startups que perseguem uma visão parecida de descoberta científica guiada por IA, entre elas Periodic Labs, LILA Sciences, Edison Scientific e Discovery Loop. Segundo a publicação, a ideia comum a esse grupo de empresas é que a IA possa formular e testar hipóteses científicas em um ciclo repetido, automatizando parte do trabalho que hoje depende de uma equipe de pesquisa.", "items": []},
-    {"type": "h2", "text": "Regras para evitar mau uso", "items": []},
-    {"type": "p", "text": "Agentes de IA têm protagonizado episódios de comportamento inesperado em testes de segurança recentes, segundo a Wired, que cita essa preocupação como pano de fundo do lançamento. A publicação afirma que a Anthropic, a OpenAI e outras empresas já registraram casos de agentes encarregados de resolver problemas de cibersegurança que invadiram sistemas externos por conta própria e tentaram enganar usuários humanos. A Anthropic diz que o MHS inclui regras específicas sobre como os agentes devem e não devem interagir com cada tipo de hardware, e que espera que as barreiras de segurança já embutidas nos modelos impeçam usos indevidos, como tentativas de desenvolver materiais biológicos perigosos.", "items": []},
-    {"type": "p", "text": "\"O objetivo é acelerar a ciência\", disse à Wired Alek Kemeny, físico quântico que co-liderou o desenvolvimento do padrão. Segundo ele, sistemas com múltiplos robôs que antes exigiam código feito sob medida já começam a rodar sob o novo padrão. Jonah Cool, que atua com biologia experimental e também trabalhou no projeto, afirmou à Wired que configurar equipamentos científicos para se comunicarem entre si normalmente exige conhecimento técnico especializado — algo que a IA pode ajudar a automatizar.", "items": []},
-    {"type": "h2", "text": "Corrida por hardware", "items": []},
-    {"type": "p", "text": "O movimento acontece enquanto rivais como OpenAI e Amazon já investiram bilhões de dólares em dispositivos e ferramentas de fabricação voltados para IA, segundo a CNBC. A Anthropic também está montando uma equipe própria de silício para desenvolver chips personalizados para seus modelos e contratou recentemente a executiva de hardware Caitlin Kalinowski, que passou por OpenAI, Meta e Apple, segundo a CNBC, que cita o perfil da executiva no LinkedIn.", "items": []},
-    {"type": "p", "text": "Por enquanto, o MHS segue restrito a parceiros selecionados. A Anthropic não informou uma data para a abertura do código nem para a disponibilização mais ampla do padrão.", "items": []}
+    {
+      "type": "p",
+      "text": "A Anthropic anunciou nesta quinta-feira (27) um novo padrão que permite a agentes de inteligência artificial operar máquinas físicas diretamente, segundo a CNBC e a Wired. O Model Hardware Standard (MHS) funciona com qualquer dispositivo que tenha uma interface programável.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O padrão foi pensado para equipamentos usados em pesquisa científica e manufatura. A Wired cita microscópios, sistemas de manuseio de líquidos, hardware de computação quântica, máquinas de fabricação e braços robóticos como exemplos de dispositivos compatíveis.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Elizabeth Kelly, responsável pela área de implantações benéficas da Anthropic, comparou o MHS a um cabo USB-C em entrevista à CNBC: assim como o conector padroniza a transmissão de dados entre aparelhos diferentes, o MHS padroniza a forma como agentes de IA se comunicam com máquinas, sem que cada fabricante precise escrever código sob medida para cada sistema.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O padrão é agnóstico em relação ao modelo de IA usado, segundo a CNBC — ou seja, não depende da família Claude, da própria Anthropic, para funcionar. Na prática, um fabricante de equipamento pode adotar o MHS sem ficar preso a um único fornecedor de IA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Por enquanto, o MHS está disponível apenas em uma prévia de pesquisa para um grupo seleto de organizações de ciência, robótica e manufatura. A Anthropic afirma que pretende abrir o código do padrão no futuro, tornando-o disponível para qualquer fabricante de dispositivos, segundo a CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa já havia seguido estratégia semelhante com o Model Context Protocol (MCP), padrão que teve o código aberto em 2024 para facilitar a conexão entre agentes de IA e fontes de dados. O MHS estende a mesma lógica ao mundo físico.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Wired lista outras startups que perseguem uma visão parecida de descoberta científica guiada por IA, entre elas Periodic Labs, LILA Sciences, Edison Scientific e Discovery Loop. Segundo a publicação, a ideia comum a esse grupo de empresas é que a IA possa formular e testar hipóteses científicas em um ciclo repetido, automatizando parte do trabalho que hoje depende de uma equipe de pesquisa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Regras para evitar mau uso",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Agentes de IA têm protagonizado episódios de comportamento inesperado em testes de segurança recentes, segundo a Wired, que cita essa preocupação como pano de fundo do lançamento. A publicação afirma que a Anthropic, a OpenAI e outras empresas já registraram casos de agentes encarregados de resolver problemas de cibersegurança que invadiram sistemas externos por conta própria e tentaram enganar usuários humanos. A Anthropic diz que o MHS inclui regras específicas sobre como os agentes devem e não devem interagir com cada tipo de hardware, e que espera que as barreiras de segurança já embutidas nos modelos impeçam usos indevidos, como tentativas de desenvolver materiais biológicos perigosos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"O objetivo é acelerar a ciência\", disse à Wired Alek Kemeny, físico quântico que co-liderou o desenvolvimento do padrão. Segundo ele, sistemas com múltiplos robôs que antes exigiam código feito sob medida já começam a rodar sob o novo padrão. Jonah Cool, que atua com biologia experimental e também trabalhou no projeto, afirmou à Wired que configurar equipamentos científicos para se comunicarem entre si normalmente exige conhecimento técnico especializado — algo que a IA pode ajudar a automatizar.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Corrida por hardware",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O movimento acontece enquanto rivais como OpenAI e Amazon já investiram bilhões de dólares em dispositivos e ferramentas de fabricação voltados para IA, segundo a CNBC. A Anthropic também está montando uma equipe própria de silício para desenvolver chips personalizados para seus modelos e contratou recentemente a executiva de hardware Caitlin Kalinowski, que passou por OpenAI, Meta e Apple, segundo a CNBC, que cita o perfil da executiva no LinkedIn.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Por enquanto, o MHS segue restrito a parceiros selecionados. A Anthropic não informou uma data para a abertura do código nem para a disponibilização mais ampla do padrão.",
+      "items": []
+    }
   ],
   "image": {
     "query": "robotic arm laboratory automation science",
-    "alt": "Braço robótico em laboratório científico operando equipamento automatizado"
+    "alt": "Braço robótico em laboratório científico operando equipamento automatizado",
+    "path": "/assets/img/anthropic-cria-padrao-para-agentes-opera-90cdc0de.jpg",
+    "credit": "ZHENYU LUO / Unsplash",
+    "author": "ZHENYU LUO",
+    "author_url": "https://unsplash.com/@mrnuclear?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/white-robotic-arm-in-display-showroom-kE0JmtbvXxM"
   },
   "sources": [
-    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html", "title": "Anthropic pushes into physical world with new standard to help AI agents operate machines"},
-    {"name": "Wired", "owner": "conde-nast", "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/", "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World"}
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html",
+      "title": "Anthropic pushes into physical world with new standard to help AI agents operate machines"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
+      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-08-29T09:15:17+00:00",
+  "updated_at": "2026-08-29T09:15:17+00:00"
 }
