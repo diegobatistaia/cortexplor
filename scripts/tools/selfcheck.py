@@ -16,7 +16,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.engine import gate, seo  # noqa: E402
 from scripts.engine.images import query_ladder  # noqa: E402
 from scripts.engine.store import queue_key  # noqa: E402
-from scripts.pipeline.run import adsense_readiness, draft_problems  # noqa: E402
+from scripts.pipeline.run import (adsense_readiness, draft_problems,  # noqa: E402
+                                  missing_primary_for)
 from scripts.engine.config import ConfigError, ROOT, load  # noqa: E402
 from scripts.engine.i18n import missing_keys, strings  # noqa: E402
 from scripts.engine.render import base_context, environment, humanize, render  # noqa: E402
@@ -198,6 +199,30 @@ def main() -> int:
     check("busca de imagem não repete tentativa", len(ladder) == len(set(ladder)))
     check("query vazia ainda tenta o termo do nicho",
           len(query_ladder({"image": {"query": ""}}, cfg)) >= 1)
+
+    print("\nHierarquia das fontes")
+    primarias = [s for s in cfg.get("sources.rss", []) if s.get("kind") == "primary"]
+    check("existem fontes primárias configuradas", len(primarias) >= 5,
+          f"só {len(primarias)}")
+    check("primárias declaram o dono real",
+          all(s.get("owner") for s in primarias))
+    alphabet = {s["name"] for s in primarias if s.get("owner") == "alphabet"}
+    check("feeds do mesmo grupo dividem o owner", len(alphabet) >= 2,
+          "DeepMind, blog.google e research.google precisam contar como uma fonte só")
+
+    pauta = {"sources": [
+        {"name": "OpenAI", "owner": "openai", "kind": "primary"},
+        {"name": "TechCrunch", "owner": "techcrunch", "kind": "press"}]}
+    so_imprensa = {"sources": [{"name": "TechCrunch", "owner": "techcrunch"}]}
+    com_primaria = {"sources": [{"name": "OpenAI", "owner": "openai"},
+                                {"name": "TechCrunch", "owner": "techcrunch"}]}
+    check("citar só o intermediário reprova",
+          bool(missing_primary_for(pauta, so_imprensa)))
+    check("citar a primária passa",
+          not missing_primary_for(pauta, com_primaria))
+    check("pauta sem primária não exige nada",
+          not missing_primary_for({"sources": [{"name": "X", "owner": "x", "kind": "press"}]},
+                                  so_imprensa))
 
     print("\nAviso de AdSense")
     ads = adsense_readiness(cfg)

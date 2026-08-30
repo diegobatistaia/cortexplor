@@ -169,6 +169,11 @@ publishing:
 
 collection:
   lookback_hours: 48
+  # A primaria publica primeiro e a imprensa escreve horas ou um dia depois.
+  # Com a mesma janela para as duas, o anuncio original cai fora justamente
+  # quando a cobertura esta no auge - foi o que aconteceu com o comunicado da
+  # OpenAI sobre o Cursor, de 52h, enquanto a imprensa dele estava com 20h.
+  lookback_hours_primary: 120
   max_candidates: 60
   # Overlap minimo de palavras de titulo para juntar dois itens na mesma pauta.
   cluster_threshold: 0.42
@@ -190,6 +195,42 @@ sources:
   # grupos diferentes o afirmarem. Genbeta e Xataka sao ambos Webedia; Wired
   # e Ars Technica sao ambos Conde Nast - por isso dividem o mesmo owner.
   rss:
+
+    # ---- FONTES PRIMARIAS ----------------------------------------------
+    # Quem faz a noticia, nao quem a noticia. Um lancamento de modelo, um
+    # resultado trimestral ou um relatorio de incidente nascem aqui; a
+    # imprensa depois escreve sobre. Citar o veiculo que leu o anuncio no
+    # lugar do anuncio e citar o intermediario.
+    #
+    # kind: primary muda duas coisas - a pauta e liderada por elas na coleta,
+    # e o gate exige que a materia cite a primaria quando ela existe.
+    #
+    # Atencao aos donos: DeepMind, blog.google e research.google sao todos
+    # Alphabet; Microsoft Research e Microsoft Source sao a mesma empresa;
+    # AWS e Amazon Science idem. Tres feeds do mesmo dono continuam sendo
+    # UMA fonte para a regra das duas.
+    - {name: OpenAI, url: "https://openai.com/news/rss.xml", lang: en, owner: openai, tier: 1, kind: primary}
+    - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", lang: en, owner: alphabet, tier: 1, kind: primary}
+    - {name: Google AI, url: "https://blog.google/technology/ai/rss/", lang: en, owner: alphabet, tier: 1, kind: primary}
+    - {name: Google Research, url: "https://research.google/blog/rss/", lang: en, owner: alphabet, tier: 1, kind: primary}
+    - {name: Hugging Face, url: "https://huggingface.co/blog/feed.xml", lang: en, owner: huggingface, tier: 1, kind: primary}
+    - {name: NVIDIA, url: "https://blogs.nvidia.com/feed/", lang: en, owner: nvidia, tier: 1, kind: primary}
+    - {name: Microsoft Research, url: "https://www.microsoft.com/en-us/research/feed/", lang: en, owner: microsoft, tier: 1, kind: primary}
+    - {name: Microsoft Source, url: "https://news.microsoft.com/source/feed/", lang: en, owner: microsoft, tier: 1, kind: primary}
+    - {name: Apple Machine Learning, url: "https://machinelearning.apple.com/rss.xml", lang: en, owner: apple, tier: 1, kind: primary}
+    - {name: AWS Machine Learning, url: "https://aws.amazon.com/blogs/machine-learning/feed/", lang: en, owner: amazon, tier: 1, kind: primary}
+    - {name: Amazon Science, url: "https://www.amazon.science/index.rss", lang: en, owner: amazon, tier: 1, kind: primary}
+    - {name: Meta Newsroom, url: "https://about.fb.com/news/feed/", lang: en, owner: meta, tier: 1, kind: primary}
+    - {name: Qwen (Alibaba), url: "https://qwenlm.github.io/blog/index.xml", lang: en, owner: alibaba, tier: 1, kind: primary}
+    - {name: Together AI, url: "https://www.together.ai/blog/rss.xml", lang: en, owner: togetherai, tier: 1, kind: primary}
+    - {name: Roboflow, url: "https://blog.roboflow.com/rss/", lang: en, owner: roboflow, tier: 2, kind: primary}
+
+    # Sem RSS publico, checado em 2026-08-28: Anthropic, Mistral, xAI, Cohere,
+    # DeepSeek, Perplexity, Stability, ElevenLabs, Runway. Todas devolvem HTML.
+    # Enquanto isso, anuncios dessas empresas chegam pela imprensa - o que
+    # significa que a materia cita o veiculo, nao o anuncio. Vale revisitar.
+
+    # ---- IMPRENSA -------------------------------------------------------
     - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, owner: techcrunch, tier: 2}
     - {name: MIT Technology Review AI, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", lang: en, owner: mit-tr, tier: 1}
     - {name: VentureBeat AI, url: "https://venturebeat.com/category/ai/feed/", lang: en, owner: venturebeat, tier: 2}
@@ -246,6 +287,48 @@ keywords:
     - modelo de linguagem
     - red neuronal
     - rede neural
+    - claude
+    - chatgpt
+    - gemini
+    - llama
+    - mistral
+    - qwen
+    - deepseek
+    - grok
+    - copilot
+    - midjourney
+    - sora
+    - stable diffusion
+    - hugging face
+    - open weights
+    - modelo aberto
+    - codigo aberto
+    - open source model
+    - fine-tuning
+    - ajuste fino
+    - prompt
+    - benchmark
+    - contexto longo
+    - multimodal
+    - inferencia
+    - inference
+    - gpu
+    - data center
+    - centro de dados
+    - assistente de ia
+    - ai assistant
+    - asistente de ia
+    - copiloto
+    - automacao
+    - automatizacion
+    - produtividade
+    - productivity
+    - caso de uso
+    - use case
+    - caso de uso
+    - lancamento de modelo
+    - model release
+    - atualizacao de modelo
   exclude:
     - cupom
     - coupon

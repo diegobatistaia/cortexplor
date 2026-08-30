@@ -71,10 +71,12 @@ def cmd_brief(cfg, args) -> int:
             "title": story["title"],
             "summary": story["summary"],
             "owners": story["owners"],
+            "primary_owners": story.get("primary_owners", []),
             "fingerprints": [i.get("fingerprint", "") for i in story["items"]],
             "sources": [{
                 "name": i["source"], "owner": i["owner"], "url": i["url"],
                 "title": i["title"], "published_at": i["published_at"],
+                "kind": i.get("kind", "press"),
                 "text": i.get("body", ""),
             } for i in story["items"]],
         })
@@ -126,8 +128,10 @@ def cmd_briefing(cfg, args) -> int:
     for story in data.get("stories", []):
         legiveis = sum(1 for s in story["sources"] if s.get("text"))
         print(f"  {story['title'][:66]}")
-        print(f"    owners: {', '.join(story['owners'])} | "
-              f"{legiveis}/{len(story['sources'])} fontes com texto integral")
+        prim = story.get("primary_owners") or []
+        marca = f"PRIMARIA ({', '.join(prim)})" if prim else "so imprensa"
+        print(f"    {marca} | owners: {', '.join(story['owners'])} | "
+              f"{legiveis}/{len(story['sources'])} com texto integral")
 
     if age > MAX_BRIEFING_AGE_HOURS:
         print(f"\nBRIEFING VELHO ({age:.1f}h, limite {MAX_BRIEFING_AGE_HOURS}h).")
@@ -140,9 +144,40 @@ def cmd_briefing(cfg, args) -> int:
     return 0
 
 
+def briefing_story(story_id: str) -> dict | None:
+    """A pauta do briefing que deu origem a um rascunho."""
+    if not story_id or not BRIEFING.exists():
+        return None
+    data = json.loads(BRIEFING.read_text(encoding="utf-8"))
+    return next((s for s in data.get("stories", []) if s.get("story_id") == story_id), None)
+
+
+def missing_primary_for(story: dict | None, post: dict) -> list[str]:
+    """A matéria deixou de citar a fonte primária que existia?
+
+    Se a OpenAI publicou o anúncio e a TechCrunch escreveu sobre ele, citar só
+    a TechCrunch é citar o intermediário. Quando a pauta traz uma primária, a
+    matéria tem que trazê-la também.
+    """
+    if not story:
+        return []
+    disponiveis = {s["owner"] for s in story.get("sources", []) if s.get("kind") == "primary"}
+    if not disponiveis:
+        return []
+    citadas = {s.get("owner") for s in post.get("sources", [])}
+    if disponiveis & citadas:
+        return []
+    nomes = sorted({s["name"] for s in story.get("sources", []) if s.get("kind") == "primary"})
+    return [f"a fonte primária ({', '.join(nomes)}) existe nesta pauta e não foi citada"]
+
+
+def missing_primary(post: dict) -> list[str]:
+    return missing_primary_for(briefing_story(post.get("story_id", "")), post)
+
+
 def draft_problems(post: dict, cfg) -> list[str]:
     """Erros estruturais que dá para pegar sem imagem e sem API."""
-    problems = []
+    problems = missing_primary(post)
     missing = [f for f in REQUIRED_FIELDS if f not in post]
     if missing:
         return [f"faltam os campos {missing}"]

@@ -38,18 +38,23 @@ def fetch_feed(source: dict, timeout: int = 20) -> list[dict]:
             "owner": source["owner"],
             "lang": source.get("lang", "en"),
             "tier": source.get("tier", 2),
+            "kind": source.get("kind", "press"),
             "domain": domain_of(link),
         })
     return items
 
 
+def blocked(item: dict, cfg: Config) -> bool:
+    """Promocao e cupom nao viram materia, venha de onde vier."""
+    haystack = f"{item['title']} {item['summary']}".lower()
+    return any(bad.lower() in haystack for bad in cfg.get("keywords.exclude", []))
+
+
 def matches_keywords(item: dict, cfg: Config) -> bool:
     haystack = f"{item['title']} {item['summary']}".lower()
-    include = [k.lower() for k in cfg.get("keywords.include", [])]
-    exclude = [k.lower() for k in cfg.get("keywords.exclude", [])]
-    if any(bad in haystack for bad in exclude):
+    if blocked(item, cfg):
         return False
-    return any(good in haystack for good in include)
+    return any(good.lower() in haystack for good in cfg.get("keywords.include", []))
 
 
 def is_recent(item: dict, hours: int) -> bool:
@@ -77,7 +82,11 @@ def cluster(items: list[dict], threshold: float = 0.5) -> list[dict]:
 
     out = []
     for group in clusters:
-        members = sorted(group["items"], key=lambda i: (i["tier"], i["published_at"]))
+        # A primaria lidera a pauta. O titulo e o resumo saem dela, nao do
+        # veiculo que a leu - e a diferenca entre noticiar o anuncio e
+        # noticiar quem falou do anuncio.
+        members = sorted(group["items"],
+                         key=lambda i: (i.get("kind") != "primary", i["tier"], i["published_at"]))
         lead = members[0]
         owners = sorted({m["owner"] for m in members})
         out.append({
@@ -87,6 +96,8 @@ def cluster(items: list[dict], threshold: float = 0.5) -> list[dict]:
             "lang_hint": lead["lang"],
             "owners": owners,
             "owner_count": len(owners),
+            "primary_owners": sorted({m["owner"] for m in members
+                                      if m.get("kind") == "primary"}),
             "items": members,
             "first_seen": isoformat(utcnow()),
             "keywords": content_words(lead["title"], lead["lang"])[:12],
@@ -99,14 +110,22 @@ def cluster(items: list[dict], threshold: float = 0.5) -> list[dict]:
 def run(cfg: Config, *, include_seen: bool = False) -> list[dict]:
     sources = cfg.get("sources.rss", [])
     hours = cfg.get("collection.lookback_hours", 48)
+    hours_primary = cfg.get("collection.lookback_hours_primary", hours)
     min_title = cfg.get("collection.min_title_chars", 25)
     seen = set() if include_seen else seen_fingerprints()
 
     raw: list[dict] = []
     for source in sources:
         items = fetch_feed(source)
+        primaria = source.get("kind") == "primary"
+        janela = hours_primary if primaria else hours
         kept = [i for i in items
-                if len(i["title"]) >= min_title and is_recent(i, hours) and matches_keywords(i, cfg)]
+                if len(i["title"]) >= min_title and is_recent(i, janela)
+                # Um blog corporativo de IA nao precisa dizer "IA" para ser
+                # sobre IA - ele fala em primeira pessoa. Exigir palavra-chave
+                # da primaria descarta justamente o anuncio original.
+                and (primaria or matches_keywords(i, cfg))
+                and not blocked(i, cfg)]
         raw.extend(kept)
         print(f"  {source['name']:28} {len(kept):3}/{len(items):3} itens no filtro")
 

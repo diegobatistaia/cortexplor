@@ -32,6 +32,37 @@ Depois de passar, leia `data/briefing.json` inteiro. Cada pauta traz `sources[]`
 e cada fonte tem `owner` (o grupo dono do veículo) e `text` (a matéria inteira,
 quando foi possível baixar).
 
+## 1.1 Hierarquia das fontes
+
+Cada fonte no briefing traz um campo `kind`:
+
+- **`primary`** — quem fez a notícia. O anúncio da OpenAI no site da OpenAI, o
+  resultado trimestral da Nvidia, o relatório de incidente da própria empresa,
+  o modelo publicado no Hugging Face.
+- **`press`** — quem noticiou. TechCrunch, The Verge, Guardian, Olhar Digital.
+
+**Quando existe primária, ela é a fonte da matéria.** A imprensa vira
+corroboração e contexto, não origem. Citar o TechCrunch pelo que a OpenAI
+anunciou é citar o intermediário — e é o erro que este site não comete.
+
+Na prática:
+
+- A primária **entra sempre** em `sources`. O `check` reprova se ela existia no
+  briefing e ficou de fora.
+- No texto, atribua ao autor do fato: "segundo o comunicado da OpenAI",
+  "de acordo com o relatório da empresa". A imprensa entra quando acrescenta
+  algo que a primária não tem — reação de mercado, contexto, contraponto.
+- A regra das duas fontes **não muda**. Um anúncio da OpenAI confirmado pela
+  OpenAI é uma fonte só. Continua precisando de um segundo dono independente
+  para virar matéria.
+- Cuidado com o dono: DeepMind, blog.google e research.google são todos
+  Alphabet. Três feeds, uma fonte.
+
+**Cuidado com o release.** Fonte primária é autoritativa sobre o que a empresa
+disse, não sobre se aquilo é verdade. "A empresa afirma que o modelo é 40% mais
+rápido" é fato; "o modelo é 40% mais rápido" é publicidade repetida. Número de
+desempenho que vem só do fabricante vai sempre atribuído.
+
 ## 2. Checar — a parte que só você faz
 
 Para cada pauta do briefing, leia o texto de todas as fontes e separe os **fatos
@@ -58,6 +89,13 @@ As regras que fazem essa conta ser honesta:
 Descarte a pauta quando: menos de dois owners confirmam os fatos centrais; as
 fontes só repetem um comunicado; o assunto é lançamento comercial disfarçado de
 notícia; ou você não entendeu o fato bem o suficiente para explicá-lo.
+
+**O que interessa ao leitor deste site.** Ele acompanha IA por curiosidade e por
+uso: quer saber que modelo saiu, o que ele faz de diferente, quanto custa, se dá
+para usar hoje e como. Entre duas pautas igualmente bem apuradas, prefira a que
+muda alguma coisa na vida de quem usa IA — um lançamento, uma mudança de preço,
+uma ferramenta nova, um recurso liberado — em vez de mais uma de bastidor
+corporativo. Movimento de mercado importa, mas não pode ser o site inteiro.
 
 Publique no máximo `posts_per_language_today` pautas (está no briefing). Se
 sobrarem boas, deixe para amanhã — elas continuam no feed.
@@ -135,7 +173,8 @@ Regras do arquivo:
   traduz, se troca.
 - Todo bloco tem exatamente três campos: `type`, `text`, `items`. Use `items`
   só em `list`, e `text` vazio nesse caso.
-- `sources` só com os owners que **confirmaram** os fatos.
+- `sources` só com os owners que **confirmaram** os fatos, e sempre incluindo a
+  primária quando o briefing tiver uma.
 - `status` sempre `"draft"`. Quem promove para publicado é o gate.
 - Corpo entre `word_count.min` e `word_count.max` palavras (está no briefing).
 
