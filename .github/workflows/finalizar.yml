@@ -19,7 +19,7 @@ on:
   # corrigida esperaria indefinidamente. Roda 45 min depois dela, e sai em
   # segundos quando nao ha rascunho.
   schedule:
-    - cron: "45 9 * * *"   # 06:45 America/Sao_Paulo
+    - cron: "45 7 * * *"   # 04:45 America/Sao_Paulo
   workflow_dispatch:
 
 permissions:

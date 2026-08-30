@@ -11,7 +11,7 @@ name: Coletar
 # Roda 30 minutos antes dela, para dar folga se um feed estiver lento.
 on:
   schedule:
-    - cron: "30 8 * * *"   # 05:30 America/Sao_Paulo
+    - cron: "30 6 * * *"   # 03:30 America/Sao_Paulo
   workflow_dispatch:
 
 permissions:
