@@ -21,6 +21,9 @@ STRINGS = {
         "sources": "Fontes",
         "verification_note": "Cada fato desta matéria foi confirmado em pelo menos "
                              "duas fontes independentes antes da publicação.",
+        "single_source_note": "Esta matéria foi publicada a partir de uma única fonte "
+                              "primária oficial, por autorização direta da direção do "
+                              "site, fora do processo padrão de checagem cruzada.",
         "related": "Leia também",
         "section": "Editoria",
         "empty_category": "Ainda não há matérias publicadas nesta editoria.",
@@ -48,6 +51,9 @@ STRINGS = {
         "sources": "Sources",
         "verification_note": "Every fact in this story was confirmed by at least two "
                              "independent sources before publication.",
+        "single_source_note": "This story was published from a single official primary "
+                              "source, by direct authorization from the site's owner, "
+                              "outside the standard cross-checking process.",
         "related": "Read next",
         "section": "Section",
         "empty_category": "No stories published in this section yet.",
@@ -75,6 +81,10 @@ STRINGS = {
         "sources": "Fuentes",
         "verification_note": "Cada dato de esta nota fue confirmado por al menos dos "
                              "fuentes independientes antes de publicarse.",
+        "single_source_note": "Esta nota fue publicada a partir de una única fuente "
+                              "primaria oficial, por autorización directa de la "
+                              "dirección del sitio, fuera del proceso estándar de "
+                              "verificación cruzada.",
         "related": "Lee también",
         "section": "Sección",
         "empty_category": "Todavía no hay notas publicadas en esta sección.",

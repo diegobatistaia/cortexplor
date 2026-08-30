@@ -14,6 +14,18 @@ from .util import longest_common_run, similarity, word_count
 
 
 def check_sources(post: dict, cfg: Config) -> list[str]:
+    # Exceção editorial: o dono do site pode autorizar, ao vivo numa conversa,
+    # a publicação de UMA matéria específica com uma única fonte primária - o
+    # canal oficial de uma empresa falando sobre si mesma (ex.: o blog da
+    # OpenAI anunciando o próprio produto). Nesse caso a fonte primária É a
+    # prova do fato "a empresa disse isso"; não existe segunda fonte que
+    # confirme a fala da própria empresa sobre ela mesma.
+    #
+    # Este campo NUNCA deve ser mencionado nas Skills lidas pela Routine
+    # automática - só existe quando um humano o define manualmente, artigo por
+    # artigo. Sem ele, a regra das duas fontes vale sempre, sem exceção.
+    if post.get("editorial_override") == "single_source_authorized":
+        return []
     minimum = cfg.get("quality_gate.min_independent_sources", 2)
     owners = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
     if len(owners) < minimum:

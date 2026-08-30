@@ -224,6 +224,33 @@ def main() -> int:
           not missing_primary_for({"sources": [{"name": "X", "owner": "x", "kind": "press"}]},
                                   so_imprensa))
 
+    print("\nExceção de fonte única (autorização manual do dono)")
+    unica = fixture(cfg, sources=[{"name": "Reuters", "owner": "reuters",
+                                   "url": "https://openai.com/x", "title": "A"}])
+    check("uma fonte sem autorização ainda reprova",
+          not gate.evaluate(seo.enrich(unica, [], cfg), cfg, [])["passed"])
+    autorizada = {**unica, "editorial_override": "single_source_authorized"}
+    check("a mesma matéria, autorizada, passa",
+          gate.evaluate(seo.enrich(autorizada, [], cfg), cfg, [])["passed"])
+    check("run.check também respeita a autorização",
+          not draft_problems({**rascunho, "sources": rascunho["sources"][:1],
+                              "editorial_override": "single_source_authorized"}, cfg))
+    html_normal = render(env := environment(), "article.html", base_context(
+        cfg, "pt", post=humanize(seo.enrich(fixture(cfg), [], cfg), "pt"),
+        page_title="t", page_description="d", page_keywords="k",
+        canonical="https://cortexplor.com/pt/x/", alternates=[], og_type="article",
+        legal_pages=[]))
+    html_unico = render(env, "article.html", base_context(
+        cfg, "pt", post=humanize(seo.enrich(autorizada, [], cfg), "pt"),
+        page_title="t", page_description="d", page_keywords="k",
+        canonical="https://cortexplor.com/pt/x/", alternates=[], og_type="article",
+        legal_pages=[]))
+    check("matéria normal mostra o aviso de checagem cruzada",
+          "duas fontes independentes" in html_normal)
+    check("matéria de fonte única mostra o aviso correto, não o de checagem cruzada",
+          "autorização direta da direção" in html_unico
+          and "duas fontes independentes" not in html_unico)
+
     print("\nAviso de AdSense")
     ads = adsense_readiness(cfg)
     check("avaliação roda e devolve os critérios", len(ads["criterios"]) == 4)

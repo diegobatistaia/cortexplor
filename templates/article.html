@@ -65,7 +65,11 @@
       <li><a href="{{ source.url }}" rel="nofollow noopener" target="_blank">{{ source.name }}</a> &mdash; <span>{{ source.title }}</span></li>
       {%- endfor %}
     </ul>
+    {%- if post.get('editorial_override') == 'single_source_authorized' %}
+    <p class="sources-note">{{ t.single_source_note }}</p>
+    {%- else %}
     <p class="sources-note">{{ t.verification_note }}</p>
+    {%- endif %}
   </section>
 </article>
 

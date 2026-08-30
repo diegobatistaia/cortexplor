@@ -213,10 +213,13 @@ def draft_problems(post: dict, cfg) -> list[str]:
     if not limits.get("min", 600) <= words <= limits.get("max", 1000):
         problems.append(f"{words} palavras, faixa {limits.get('min')}-{limits.get('max')}")
 
-    owners = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
-    minimum = cfg.get("quality_gate.min_independent_sources", 2)
-    if len(owners) < minimum:
-        problems.append(f"{len(owners)} fonte(s) independente(s), mínimo {minimum}")
+    # Mesma exceção de gate.py: só existe quando um humano autoriza, ao vivo,
+    # UMA matéria específica com fonte primária única. Nunca vem da Routine.
+    if post.get("editorial_override") != "single_source_authorized":
+        owners = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
+        minimum = cfg.get("quality_gate.min_independent_sources", 2)
+        if len(owners) < minimum:
+            problems.append(f"{len(owners)} fonte(s) independente(s), mínimo {minimum}")
 
     text = " ".join(b.get("text", "") for b in blocks).lower()
     if not any(s.get("name", "").split()[0].lower() in text for s in post.get("sources", [])):
