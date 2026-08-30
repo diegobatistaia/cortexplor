@@ -1,0 +1,109 @@
+{
+  "lang": "en",
+  "slug": "sony-music-warner-chappell-sue-anthropic-copyright",
+  "story_id": "6999b4a68d6ce8ec",
+  "title": "Sony Music and Warner Chappell Sue Anthropic Over Song Lyrics",
+  "dek": "The publishers accuse the AI lab of pirating tens of thousands of songs to train Claude, seeking up to $150,000 per work.",
+  "meta_description": "Sony Music and Warner Chappell are suing Anthropic, alleging the AI lab pirated tens of thousands of songs to help train its Claude AI models for profit.",
+  "keyword": "Sony Music Anthropic lawsuit",
+  "category": "politica",
+  "tags": [
+    "anthropic",
+    "sony-music",
+    "warner-chappell",
+    "copyright",
+    "claude"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Sony Music Publishing, Warner Chappell Music and a group of other major music publishers sued Anthropic on Friday, accusing the AI lab of running a \"brazen campaign\" of piracy to train its Claude models. The suit was filed in the U.S. District Court for the Northern District of California, according to The Verge and Xataka.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Sony Music Publishing and Warner Chappell are two of the largest music publishers in the world, controlling rights to catalogs that span decades of hit songs. Their case adds a new front to Anthropic's expanding legal exposure over how it built Claude.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The complaint names Anthropic co-founders Dario Amodei and Benjamin Mann as individual defendants alongside the company. It covers \"tens of thousands\" of copyrighted songs, and the publishers are seeking up to $150,000 in damages per work, plus up to $25,000 for every instance in which copyright management data was stripped or altered, both outlets reported. Removing that data is treated as its own violation under U.S. copyright law, separate from any infringement claim over the song itself.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Music publishers hold the rights to a song's composition, the melody and lyrics, which is a separate business from record labels, which own specific recordings. That split explains why the same songs can draw lawsuits from different companies holding different pieces of the rights, and why Anthropic is now facing parallel copyright cases from publishers and labels alike.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the publishers allege",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The complaint says Mann turned to BitTorrent to pull down more than five million pirated books on his own, while other Anthropic employees added at least two million further works taken from the Pirate Library Mirror archive, according to The Verge and Xataka. TechCrunch reported that some of those pirated books themselves contained song lyrics and sheet music.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The publishers also allege Anthropic scraped song lyrics directly from MusixMatch and LyricFind, two services that had paid the labels to license that same content, both outlets reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The suit lists specific songs the publishers say turned up in Anthropic's training data, among them Marvin Gaye and Tammi Terrell's \"Ain't No Mountain High Enough,\" Bon Jovi's \"Livin' On a Prayer,\" Leonard Cohen's \"Hallelujah\" and Taylor Swift's \"Paper Rings,\" according to The Verge and Xataka.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Not Anthropic's first copyright fight",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The music publishers' case follows a $1.5 billion settlement Anthropic reached with book authors and publishers last year in the Bartz case. A judge in that case found that training AI models on copyrighted material was legal, but that acquiring the material through piracy was not, according to The Verge, Xataka and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Some of the same lawyers behind the new suit also represent Universal Music Group and Concord Music Group in a separate case against Anthropic filed earlier this year, and led the Bartz litigation, TechCrunch and Xataka reported. BMG has a further, separate suit of its own pending against the company, and The Verge reported that ABKCO and Round Hill Music have sued Anthropic as well.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The new case adds to a growing list of music-industry lawsuits against AI labs over how their models were trained, with publishers and labels now pursuing Anthropic on overlapping but separate legal tracks in multiple courts. Each case can turn on different evidence, since a single song carries separate rights for its composition and its recording.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic told TechCrunch in a statement that it disagrees with the publishers' claims and intends to defend itself vigorously in court. The company has not said whether it plans to seek a settlement, as it did in the Bartz case, or fight the allegations through a full trial.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "vinyl records music studio recording",
+    "alt": "Vinyl records and studio equipment in a music recording space"
+  },
+  "sources": [
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "title": "Sony Music and Warner Chappell are suing Anthropic"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/robotica-e-ia/sony-warner-demandan-a-anthropic-pago-1-500-millones-libros-pirateados-ahora-le-piden-150-000-dolares-cancion",
+      "title": "Sony y Warner demandan a Anthropic"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "title": "Sony Music, Warner sue Anthropic, alleging a brazen campaign of intellectual property theft"
+    }
+  ],
+  "status": "draft"
+}
