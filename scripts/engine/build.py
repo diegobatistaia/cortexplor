@@ -69,20 +69,41 @@ def build_posts(env, cfg: Config, pool: list[dict], out: Path, nav: list[dict]) 
 
 
 def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path, nav: list[dict]) -> None:
+    """Monta a home sem repetir matéria entre os blocos.
+
+    Cada bloco só recebe o que ainda não apareceu acima dele. Sem isso, com
+    poucas matérias no site, a mesma manchete saía no destaque, nas mais lidas
+    e no módulo da editoria — e a home de 7 matérias parecia ter 3.
+    """
     counts = views()
-    ranked = sorted(posts, key=lambda p: (counts.get(p["url"], 0), p["published_at"]), reverse=True)
-    t = strings(lang)
+    hero = posts[0] if posts else None
+    secondary = posts[1:4]
+    usados = {p["slug"] for p in ([hero] if hero else []) + secondary}
+
+    # "Mais lidas" sem dado de audiência é só "mais recentes" com outro rótulo -
+    # que é exatamente o que o bloco acima já mostrou. Só aparece quando houver
+    # números de verdade em data/views.json.
+    most_read = []
+    if counts:
+        ranked = sorted((p for p in posts if p["slug"] not in usados),
+                        key=lambda p: (counts.get(p["url"], 0), p["published_at"]),
+                        reverse=True)
+        most_read = ranked[:cfg.get("editorial.most_read_count", 5)]
+        usados |= {p["slug"] for p in most_read}
+
     modules = []
     for category in cfg.categories(lang)[:cfg.get("editorial.topic_module_count", 4)]:
-        in_category = [p for p in posts if p.get("category") == category["key"]][:3]
+        in_category = [p for p in posts
+                       if p.get("category") == category["key"] and p["slug"] not in usados][:3]
         if in_category:
             modules.append({**category, "posts": in_category})
+            usados |= {p["slug"] for p in in_category}
 
     context = base_context(
         cfg, lang,
-        hero=posts[0] if posts else None,
-        secondary=posts[1:4],
-        most_read=ranked[:cfg.get("editorial.most_read_count", 5)],
+        hero=hero,
+        secondary=secondary,
+        most_read=most_read,
         topic_modules=modules,
         home_layout=cfg.get("editorial.home_layout", []),
         schema_website=seo.website_schema(cfg, lang),
