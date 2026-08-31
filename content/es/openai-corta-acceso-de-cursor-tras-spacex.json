@@ -1,0 +1,35 @@
+{
+  "lang": "es",
+  "slug": "openai-corta-acceso-de-cursor-tras-spacex",
+  "story_id": "93b8bdff5ebf99b2",
+  "title": "OpenAI cortará el acceso de Cursor a sus modelos tras compra de SpaceX",
+  "dek": "La empresa dará de baja el contrato el 12 de noviembre, alegando desconfianza por el historial de las compañías de Elon Musk.",
+  "meta_description": "OpenAI dejará de dar acceso a sus modelos de IA a Cursor tras la compra de la startup por SpaceX, con fecha de corte prevista para el 12 de noviembre de 2026.",
+  "keyword": "openai cursor spacex",
+  "category": "mercado",
+  "tags": ["ia", "openai", "cursor", "spacex", "anthropic"],
+  "body": [
+    {"type": "p", "text": "OpenAI notificó a SpaceX que dará por terminado el contrato que provee sus modelos de IA a Cursor, la herramienta de programación asistida por inteligencia artificial, según un comunicado publicado por la propia OpenAI. La fecha de corte propuesta es el 12 de noviembre de 2026.", "items": []},
+    {"type": "p", "text": "Según la empresa, la decisión se tomó porque OpenAI \"no puede confiar en que SpaceX use su tecnología dentro de los términos de servicio\", con base en su \"experiencia con empresas de Elon Musk que violan contratos\" —en referencia a la red social X (antes Twitter) y a xAI, ambas hoy bajo el control de SpaceX—. OpenAI también dijo que dejará de ofrecer futuros modelos a Cursor durante la transición, algo que la CNBC confirmó de forma independiente.", "items": []},
+    {"type": "p", "text": "La compañía explicó el mecanismo detrás del corte: \"nuestro acuerdo personalizado con Cursor nos da una ventana de tiempo limitada para cancelarlo tras un cambio de control\", dice el comunicado. Es decir, la cláusula que permite la rescisión solo se activó porque cambió el dueño de Cursor; de lo contrario, el contrato habría seguido vigente.", "items": []},
+    {"type": "h2", "text": "La adquisición detrás de la decisión", "items": []},
+    {"type": "p", "text": "SpaceX completó la adquisición de Cursor por 60.000 millones de dólares el 14 de agosto, según registros financieros citados por la CNBC. Antes de salir a bolsa en junio, SpaceX ya había incorporado a X y a xAI, ambas de Musk, en febrero.", "items": []},
+    {"type": "p", "text": "El director ejecutivo de Cursor, Michael Truell, dijo en una publicación en la red X que los modelos de OpenAI representan cerca del 5% del tráfico de usuarios de la herramienta y que la empresa está \"hablando con el equipo de OpenAI para resolver esto\", según la CNBC. Truell afirmó que Cursor \"confiaba en la plataforma de OpenAI como infraestructura neutral\" para su negocio.", "items": []},
+    {"type": "h2", "text": "Una disputa antigua entre Musk y OpenAI", "items": []},
+    {"type": "p", "text": "El corte se suma a un enfrentamiento que ya lleva años entre Musk y la cúpula de OpenAI, según la CNBC. Musk ayudó a fundar y financiar OpenAI como laboratorio de investigación sin fines de lucro en 2015, pero dejó la junta directiva de la empresa en 2018. Demandó a OpenAI, al CEO Sam Altman y al presidente Greg Brockman en 2024, alegando que la reestructuración de la compañía hacia un modelo con fines de lucro violó sus compromisos fundacionales; una demanda que perdió este año y que prometió apelar, de acuerdo con la CNBC.", "items": []},
+    {"type": "p", "text": "En respuesta al anuncio, Musk publicó en la red X que \"no podría importarle menos\" la decisión y volvió a calificar a Altman y Brockman de \"completamente indignos de confianza\", repitiendo su acusación de que ambos \"robaron una organización sin fines de lucro de código abierto\", según la CNBC.", "items": []},
+    {"type": "h2", "text": "Anthropic marca el camino contrario", "items": []},
+    {"type": "p", "text": "Mientras tanto, Anthropic —que hoy mantiene una asociación con SpaceX y alquila capacidad de cómputo a la empresa de Musk— tomó el rumbo opuesto. El cofundador Tom Brown escribió en la red X que Cursor \"ha sido un socio de confianza de Anthropic desde Sonnet 3.5\" y que la empresa va a \"seguir aumentando la capacidad de cómputo para dar soporte a los modelos Claude en Cursor\", diciéndose \"entusiasmado con lo que viene\" con la startup bajo control de SpaceX, según la CNBC.", "items": []},
+    {"type": "p", "text": "La publicación generó críticas de otros ejecutivos del sector: el CEO de Replit, Amjad Masad, recordó el propio historial de Anthropic con Windsurf, a la que la empresa le bloqueó el acceso en junio del año pasado, según la CNBC. El ejecutivo de Docker Mat Velloso respondió que \"esa era una gran oportunidad para quedarse callado\".", "items": []},
+    {"type": "p", "text": "El episodio ocurre en medio de la disputa entre los grandes laboratorios de IA por el mercado de herramientas de programación asistida, conocido como \"vibe coding\". OpenAI se prepara para salir a bolsa el próximo año, mientras que Anthropic ya habría sostenido reuniones preliminares con bancos para una posible oferta pública este año, con una valoración estimada de hasta 2 billones de dólares, según una reportería anterior de la CNBC.", "items": []}
+  ],
+  "image": {
+    "query": "rocket launch pad space company office",
+    "alt": "Cohete de SpaceX en una plataforma de lanzamiento, en referencia al conflicto con OpenAI"
+  },
+  "sources": [
+    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex", "title": "Our decision on Cursor following its acquisition by SpaceX"},
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html", "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX"}
+  ],
+  "status": "draft"
+}
