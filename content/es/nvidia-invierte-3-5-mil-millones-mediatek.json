@@ -1,0 +1,39 @@
+{
+  "lang": "es",
+  "slug": "nvidia-invierte-3-5-mil-millones-mediatek",
+  "story_id": "d340899390efe049",
+  "title": "Nvidia invierte US$3.500 millones en la taiwanesa MediaTek",
+  "dek": "El acuerdo amplía la alianza de chips de IA entre ambas empresas y da a MediaTek acceso a la tecnología NVLink Fusion de Nvidia, según TechCrunch y SiliconANGLE.",
+  "meta_description": "Nvidia invirtió US$3.500 millones en MediaTek como parte de una alianza ampliada de chips de inteligencia artificial, según TechCrunch y SiliconANGLE.",
+  "keyword": "Nvidia inversión MediaTek",
+  "category": "mercado",
+  "tags": ["nvidia", "mediatek", "chips", "mercado", "ia"],
+  "body": [
+    {"type": "p", "text": "Nvidia invertirá US$3.500 millones en la taiwanesa MediaTek, fabricante de procesadores para teléfonos móviles, como parte de una alianza ampliada en chips de inteligencia artificial entre ambas compañías, según TechCrunch y SiliconANGLE.", "items": []},
+    {"type": "p", "text": "Según SiliconANGLE, la inversión se estructuró como bonos convertibles, un instrumento de deuda que más adelante puede transformarse en acciones de MediaTek. El medio recuerda que Nvidia usó el mismo mecanismo este año para comprar una participación de US$2.000 millones en Marvell Technologies, competidora de MediaTek.", "items": []},
+    {"type": "h2", "text": "Chips personalizados que siguen dependiendo de Nvidia", "items": []},
+    {"type": "p", "text": "El acuerdo da a MediaTek acceso a NVLink Fusion, la tecnología de interconexión de Nvidia que permite que chips de otros fabricantes intercambien datos rápidamente con las unidades gráficas y centrales de Nvidia dentro del mismo centro de datos, según ambas fuentes.", "items": []},
+    {"type": "p", "text": "Eso permite que proveedores de nube y laboratorios de IA encarguen a MediaTek el diseño de aceleradores a medida sin dejar de usar la plataforma de Nvidia para el resto de su infraestructura, según TechCrunch y SiliconANGLE.", "items": []},
+    {"type": "p", "text": "MediaTek viene construyendo un negocio de chips personalizados para centros de datos y espera que esa unidad genere US$2.000 millones en ingresos en 2026, con planes de crecer en los próximos años, según TechCrunch y SiliconANGLE.", "items": []},
+    {"type": "p", "text": "Dion Harris, director sénior de Nvidia para infraestructura de hiperescala y computación de alto rendimiento, dijo a periodistas el lunes que \"prácticamente toda nube, todo desarrollador de modelos está implementando nuestra plataforma de alguna forma\", según TechCrunch. Según Harris, el acuerdo permite que los clientes de MediaTek estandaricen su infraestructura en la arquitectura a escala de rack de Nvidia y, al mismo tiempo, usen chips personalizados dentro del mismo entorno.", "items": []},
+    {"type": "p", "text": "TechCrunch señala además que la inversión sigue un patrón reciente en el financiamiento de Nvidia: parte del capital aportado a sus socios suele volver al propio negocio de la empresa, a medida que esas compañías compran más equipos y tecnología de Nvidia.", "items": []},
+    {"type": "h2", "text": "La alianza también llega a las computadoras y a los autos", "items": []},
+    {"type": "p", "text": "Además de los centros de datos, las empresas seguirán colaborando en otros dos frentes, según ambas fuentes: las computadoras para desarrolladores de IA como la DGX Spark y la RTX Spark, que ya incorporan componentes diseñados por MediaTek, y los chips para vehículos definidos por software, donde las plataformas automotrices de MediaTek ya usan tecnología gráfica de Nvidia para las pantallas de los autos.", "items": []},
+    {"type": "p", "text": "\"Juntos estamos construyendo plataformas que llevan la computación acelerada de Nvidia a nuevos mercados y dan a los clientes la libertad de crear sistemas de IA diferenciados a gran escala\", afirmó el consejero delegado de Nvidia, Jensen Huang, en un comunicado citado por TechCrunch y SiliconANGLE.", "items": []},
+    {"type": "h2", "text": "La respuesta de Nvidia a los chips propios de sus clientes", "items": []},
+    {"type": "p", "text": "TechCrunch enmarca el acuerdo dentro de una tendencia más amplia: empresas como Amazon, Google, Microsoft, OpenAI y Anthropic desarrollan sus propios chips de IA para depender menos de las unidades gráficas de Nvidia. Al ayudar a proveedores como MediaTek a diseñar esos chips a medida, Nvidia conserva un papel en el negocio incluso cuando no vende el procesador final.", "items": []},
+    {"type": "p", "text": "TechCrunch también señala que, una semana antes del acuerdo con MediaTek, Nvidia cerró una alianza similar con Amazon Web Services, sin inversión directa, por la cual AWS sumará otras 2 millones de unidades gráficas de Nvidia a su infraestructura.", "items": []},
+    {"type": "p", "text": "NVLink puede mover datos más de diez veces más rápido que una implementación estándar de PCIe 6.0, según SiliconANGLE. Nvidia actualizó recientemente esta tecnología con un nuevo diseño de memoria llamado NVHBM, que traslada el controlador de memoria al propio chip de memoria para reducir el consumo de energía, de acuerdo con el mismo medio.", "items": []},
+    {"type": "p", "text": "MediaTek no ha revelado públicamente la lista de clientes de su negocio de chips personalizados para IA, aunque su experiencia en procesadores para teléfonos, hogares conectados, automóviles y comunicaciones inalámbricas la coloca en una posición favorable en ese mercado, según TechCrunch.", "items": []},
+    {"type": "p", "text": "Los chips automotrices de MediaTek, vendidos bajo la marca Dimensity Auto, ya son usados por fabricantes de autos para las pantallas de los vehículos e incluyen un componente de renderizado gráfico de Nvidia, según SiliconANGLE.", "items": []}
+  ],
+  "image": {
+    "query": "semiconductor chip technology data center",
+    "alt": "Chip semiconductor usado en servidores de inteligencia artificial"
+  },
+  "sources": [
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/", "title": "Nvidia's $3.5B MediaTek bet reveals its plan for tackling Big Tech's AI chip buildout"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/08/31/nvidia-invests-3-5b-in-mediatek-as-part-of-expanded-ai-chip-partnership/", "title": "Nvidia invests $3.5B in MediaTek as part of expanded AI chip partnership"}
+  ],
+  "status": "draft"
+}
