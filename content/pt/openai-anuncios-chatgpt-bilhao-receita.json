@@ -7,37 +7,147 @@
   "meta_description": "A receita anualizada de anúncios do ChatGPT chegou a US$ 1 bilhão cerca de 200 dias após o lançamento, segundo a CNBC, a SiliconANGLE e a Mobile Time.",
   "keyword": "receita de anúncios do ChatGPT",
   "category": "mercado",
-  "tags": ["openai", "chatgpt", "anuncios", "mercado", "ia"],
+  "tags": [
+    "openai",
+    "chatgpt",
+    "anuncios",
+    "mercado",
+    "ia"
+  ],
   "body": [
-    {"type": "p", "text": "A receita anualizada do negócio de anúncios do ChatGPT chegou a US$ 1 bilhão, cerca de 200 dias depois do início do formato, segundo comunicado da OpenAI citado pela CNBC e pela SiliconANGLE.", "items": []},
-    {"type": "p", "text": "O número é uma taxa de receita anualizada: uma projeção calculada a partir do que a empresa arrecadou até agora e multiplicada para um período de 12 meses, e não o valor já faturado nesse intervalo, segundo o Tecmundo.", "items": []},
-    {"type": "p", "text": "Os testes de anúncios dentro do ChatGPT, restritos a um grupo pequeno de usuários nos Estados Unidos, começaram em fevereiro deste ano, segundo a Mobile Time, a CNBC e a SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Como o anúncio aparece na conversa", "items": []},
-    {"type": "p", "text": "Os anúncios são exibidos ao final das respostas do ChatGPT, identificados como conteúdo patrocinado, e não influenciam o que o modelo responde, segundo a CNBC e a SiliconANGLE. As duas fontes afirmam também que anunciantes não têm acesso às conversas privadas dos usuários.", "items": []},
-    {"type": "p", "text": "O formato aparece para assinantes do plano ChatGPT Go e para usuários do plano gratuito, que juntos formam a maior parte da base de 1 bilhão de usuários ativos semanais do ChatGPT, segundo a CNBC e a SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Presença em mais de 40 países, incluindo o Brasil", "items": []},
-    {"type": "p", "text": "O ChatGPT Ads já está disponível em mais de 40 países, entre eles o Brasil, segundo a CNBC e a Mobile Time. A OpenAI afirma que pretende ampliar esse número, de acordo com a Mobile Time.", "items": []},
-    {"type": "p", "text": "Um recurso de autoatendimento para compra de anúncios, até então restrito a poucos mercados, passou a valer também para a Índia e para países da Europa, do Oriente Médio e do norte da África, segundo a Mobile Time, a CNBC e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "O anúncio da marca de US$ 1 bilhão foi feito nesta segunda-feira (31), no mesmo comunicado em que a OpenAI detalhou a expansão do autoatendimento publicitário, segundo a CNBC e a SiliconANGLE. \"Nossa próxima fase de crescimento vai levar os anúncios do ChatGPT a mais mercados e trazer novos formatos, objetivos, opções de compra e recursos de mensuração\", disse a OpenAI, em trecho do comunicado citado pela CNBC.", "items": []},
-    {"type": "h2", "text": "Diversificação de receita sob pressão do IPO", "items": []},
-    {"type": "p", "text": "A OpenAI apresenta o negócio de anúncios como parte do que chama de \"modelo de negócio diversificado\", ao lado de assinaturas para consumidores, contratos corporativos e cobrança pelo uso de suas interfaces de programação, segundo a CNBC e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "O anúncio chega em um momento de pressão sobre a OpenAI para justificar sua avaliação de US$ 852 bilhões, às vésperas de uma oferta pública inicial de ações esperada para os próximos meses, segundo as mesmas duas fontes.", "items": []},
-    {"type": "p", "text": "A entrada da OpenAI em publicidade ocorre em meio a pressão financeira: a empresa registrou prejuízo operacional de US$ 12,3 bilhões e receita trimestral de US$ 6,7 bilhões, alta de 18% ante o trimestre anterior, segundo a SiliconANGLE. A publicação lembra que o resultado veio um dia depois de a rival Anthropic reportar receita trimestral de US$ 11,6 bilhões, alta de mais de 50%, além de um pequeno lucro.", "items": []},
-    {"type": "p", "text": "Publicidade digital é uma fonte de receita consolidada para outras gigantes de tecnologia, como Google e Meta, segundo a CNBC. A SiliconANGLE cita também a Amazon entre as empresas que já lucram com esse modelo.", "items": []},
-    {"type": "h2", "text": "Anthropic critica a decisão", "items": []},
-    {"type": "p", "text": "A Anthropic, dona do assistente Claude e principal rival da OpenAI, criticou a entrada de anúncios no ChatGPT e fez da decisão o tema de sua primeira campanha na Super Bowl, segundo a CNBC e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "A Tecmundo afirma que a Anthropic reforça publicamente o compromisso de não adotar esse formato de publicidade em seus próprios produtos.", "items": []},
-    {"type": "p", "text": "A OpenAI afirma ter parcerias publicitárias com mais de 50 marcas, firmadas por meio de agências como a Omnicom e a WPP, segundo a SiliconANGLE. A publicação também aponta que a empresa ampliou rapidamente o alcance dos anúncios desde o início dos testes, em fevereiro, até chegar à marca atual de receita anualizada.", "items": []}
+    {
+      "type": "p",
+      "text": "A receita anualizada do negócio de anúncios do ChatGPT chegou a US$ 1 bilhão, cerca de 200 dias depois do início do formato, segundo comunicado da OpenAI citado pela CNBC e pela SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O número é uma taxa de receita anualizada: uma projeção calculada a partir do que a empresa arrecadou até agora e multiplicada para um período de 12 meses, e não o valor já faturado nesse intervalo, segundo o Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os testes de anúncios dentro do ChatGPT, restritos a um grupo pequeno de usuários nos Estados Unidos, começaram em fevereiro deste ano, segundo a Mobile Time, a CNBC e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como o anúncio aparece na conversa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os anúncios são exibidos ao final das respostas do ChatGPT, identificados como conteúdo patrocinado, e não influenciam o que o modelo responde, segundo a CNBC e a SiliconANGLE. As duas fontes afirmam também que anunciantes não têm acesso às conversas privadas dos usuários.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O formato aparece para assinantes do plano ChatGPT Go e para usuários do plano gratuito, que juntos formam a maior parte da base de 1 bilhão de usuários ativos semanais do ChatGPT, segundo a CNBC e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Presença em mais de 40 países, incluindo o Brasil",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O ChatGPT Ads já está disponível em mais de 40 países, entre eles o Brasil, segundo a CNBC e a Mobile Time. A OpenAI afirma que pretende ampliar esse número, de acordo com a Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Um recurso de autoatendimento para compra de anúncios, até então restrito a poucos mercados, passou a valer também para a Índia e para países da Europa, do Oriente Médio e do norte da África, segundo a Mobile Time, a CNBC e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio da marca de US$ 1 bilhão foi feito nesta segunda-feira (31), no mesmo comunicado em que a OpenAI detalhou a expansão do autoatendimento publicitário, segundo a CNBC e a SiliconANGLE. \"Nossa próxima fase de crescimento vai levar os anúncios do ChatGPT a mais mercados e trazer novos formatos, objetivos, opções de compra e recursos de mensuração\", disse a OpenAI, em trecho do comunicado citado pela CNBC.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Diversificação de receita sob pressão do IPO",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI apresenta o negócio de anúncios como parte do que chama de \"modelo de negócio diversificado\", ao lado de assinaturas para consumidores, contratos corporativos e cobrança pelo uso de suas interfaces de programação, segundo a CNBC e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio chega em um momento de pressão sobre a OpenAI para justificar sua avaliação de US$ 852 bilhões, às vésperas de uma oferta pública inicial de ações esperada para os próximos meses, segundo as mesmas duas fontes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A entrada da OpenAI em publicidade ocorre em meio a pressão financeira: a empresa registrou prejuízo operacional de US$ 12,3 bilhões e receita trimestral de US$ 6,7 bilhões, alta de 18% ante o trimestre anterior, segundo a SiliconANGLE. A publicação lembra que o resultado veio um dia depois de a rival Anthropic reportar receita trimestral de US$ 11,6 bilhões, alta de mais de 50%, além de um pequeno lucro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Publicidade digital é uma fonte de receita consolidada para outras gigantes de tecnologia, como Google e Meta, segundo a CNBC. A SiliconANGLE cita também a Amazon entre as empresas que já lucram com esse modelo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Anthropic critica a decisão",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic, dona do assistente Claude e principal rival da OpenAI, criticou a entrada de anúncios no ChatGPT e fez da decisão o tema de sua primeira campanha na Super Bowl, segundo a CNBC e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Tecmundo afirma que a Anthropic reforça publicamente o compromisso de não adotar esse formato de publicidade em seus próprios produtos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI afirma ter parcerias publicitárias com mais de 50 marcas, firmadas por meio de agências como a Omnicom e a WPP, segundo a SiliconANGLE. A publicação também aponta que a empresa ampliou rapidamente o alcance dos anúncios desde o início dos testes, em fevereiro, até chegar à marca atual de receita anualizada.",
+      "items": []
+    }
   ],
   "image": {
     "query": "chatgpt smartphone app advertising",
-    "alt": "Tela de celular exibindo o aplicativo do ChatGPT"
+    "alt": "Tela de celular exibindo o aplicativo do ChatGPT",
+    "path": "/assets/img/openai-anuncios-chatgpt-bilhao-receita-8ac688bf.jpg",
+    "credit": "Jonathan Kemper / Unsplash",
+    "author": "Jonathan Kemper",
+    "author_url": "https://unsplash.com/@jupp?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-a-purple-background-N8AYH8R2rWQ"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html", "title": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/", "title": "OpenAI says its ad business has already hit $1B in annualized revenue"},
-    {"name": "Mobile Time", "owner": "mobiletime", "url": "https://www.mobiletime.com.br/noticias/31/08/2026/chatgpt-receita-anuncios/", "title": "ChatGPT atinge receita anual de US$ 1 bilhão com anúncios"},
-    {"name": "Tecmundo", "owner": "nzn", "url": "https://www.tecmundo.com.br/mercado/415678-anuncios-do-chatgpt-devem-render-us-1-bilhao-para-a-openai-em-2026.htm", "title": "Anúncios do ChatGPT devem render US$ 1 bilhão para a OpenAI em 2026"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "title": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/",
+      "title": "OpenAI says its ad business has already hit $1B in annualized revenue"
+    },
+    {
+      "name": "Mobile Time",
+      "owner": "mobiletime",
+      "url": "https://www.mobiletime.com.br/noticias/31/08/2026/chatgpt-receita-anuncios/",
+      "title": "ChatGPT atinge receita anual de US$ 1 bilhão com anúncios"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.tecmundo.com.br/mercado/415678-anuncios-do-chatgpt-devem-render-us-1-bilhao-para-a-openai-em-2026.htm",
+      "title": "Anúncios do ChatGPT devem render US$ 1 bilhão para a OpenAI em 2026"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-01T07:35:56+00:00",
+  "updated_at": "2026-09-01T07:35:56+00:00"
 }

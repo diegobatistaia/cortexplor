@@ -7,34 +7,130 @@
   "meta_description": "OpenAI's ChatGPT advertising business reached $1 billion in annualized revenue about 200 days after launch, as pressure builds ahead of an expected IPO.",
   "keyword": "OpenAI ChatGPT ad revenue",
   "category": "mercado",
-  "tags": ["openai", "chatgpt", "advertising", "market", "ai"],
+  "tags": [
+    "openai",
+    "chatgpt",
+    "advertising",
+    "market",
+    "ai"
+  ],
   "body": [
-    {"type": "p", "text": "OpenAI's advertising business inside ChatGPT has reached $1 billion in annualized revenue run rate, about 200 days after the format launched, according to CNBC and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "The figure is an annualized run rate: a projection based on what the company has collected so far this year, multiplied out to a full 12-month period, not revenue OpenAI has already booked over that span.", "items": []},
-    {"type": "p", "text": "OpenAI began testing ads with a small group of U.S. users in February, before scaling up the format rapidly since then, according to CNBC and SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "How the ads work", "items": []},
-    {"type": "p", "text": "Ads appear at the end of ChatGPT's responses, are clearly labeled as sponsored, and do not influence what the model answers, according to CNBC and SiliconANGLE. Both outlets report that advertisers do not get access to users' private conversations.", "items": []},
-    {"type": "p", "text": "The ads run for ChatGPT Go subscribers and free-tier users, who together make up the vast majority of ChatGPT's 1 billion weekly active users, CNBC and SiliconANGLE report.", "items": []},
-    {"type": "h2", "text": "Expanding to more than 40 countries", "items": []},
-    {"type": "p", "text": "ChatGPT Ads are already available in more than 40 countries, according to CNBC. A self-service option for buying ads, previously limited to a smaller set of markets, is now rolling out to India and countries across Europe, the Middle East and North Africa, according to CNBC and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "The $1 billion milestone was announced on Monday, the same day OpenAI detailed the expansion of self-service ad buying, according to CNBC and SiliconANGLE. \"Our next phase of growth will bring ChatGPT Ads to more markets and introduce additional formats, objectives, buying options, and measurement capabilities,\" OpenAI said in the release, according to CNBC.", "items": []},
-    {"type": "h2", "text": "Diversifying revenue ahead of an IPO", "items": []},
-    {"type": "p", "text": "OpenAI describes the ad business as part of what it calls a \"diversified business model,\" alongside consumer subscriptions, enterprise contracts and usage-based charges for its application programming interfaces, according to CNBC and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "The announcement lands as OpenAI faces pressure to justify its $852 billion valuation ahead of an initial public offering expected in the coming months, both outlets report.", "items": []},
-    {"type": "p", "text": "Digital advertising has long been a reliable revenue source for other technology giants, including Google and Meta, according to CNBC. SiliconANGLE also names Amazon among the companies that already profit from the model.", "items": []},
-    {"type": "h2", "text": "Anthropic's public pushback", "items": []},
-    {"type": "p", "text": "Anthropic, the maker of rival chatbot Claude, publicly criticized OpenAI's move into advertising and made the decision the centerpiece of its first-ever Super Bowl ad campaign, according to CNBC and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "SiliconANGLE reports that OpenAI has struck ad partnerships with more than 50 brands, working through agencies including Omnicom and WPP, and that the company scaled up the ad experiment rapidly after starting to test it with a small number of U.S. users in February.", "items": []},
-    {"type": "p", "text": "Despite the growth, the ad business still accounts for only a small share of OpenAI's total revenue, according to SiliconANGLE, which contrasts it with the far larger subscription, enterprise and API revenue lines OpenAI reports separately. The outlet frames the ad push as one of several levers the company is testing as it works to close the gap between its costs and its income before going public.", "items": []},
-    {"type": "p", "text": "The advertising expansion is not the only sign of financial pressure on OpenAI this year, according to SiliconANGLE: the company posted a $12.3 billion operating loss alongside $6.7 billion in second-quarter revenue, up 18% from the prior quarter. SiliconANGLE notes that figure came a day after rival Anthropic reported quarterly revenue of $11.6 billion, up more than 50%, alongside a small profit — a comparison the outlet frames as part of the backdrop to OpenAI's push for new revenue streams ahead of a planned IPO.", "items": []}
+    {
+      "type": "p",
+      "text": "OpenAI's advertising business inside ChatGPT has reached $1 billion in annualized revenue run rate, about 200 days after the format launched, according to CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The figure is an annualized run rate: a projection based on what the company has collected so far this year, multiplied out to a full 12-month period, not revenue OpenAI has already booked over that span.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI began testing ads with a small group of U.S. users in February, before scaling up the format rapidly since then, according to CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the ads work",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ads appear at the end of ChatGPT's responses, are clearly labeled as sponsored, and do not influence what the model answers, according to CNBC and SiliconANGLE. Both outlets report that advertisers do not get access to users' private conversations.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The ads run for ChatGPT Go subscribers and free-tier users, who together make up the vast majority of ChatGPT's 1 billion weekly active users, CNBC and SiliconANGLE report.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Expanding to more than 40 countries",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "ChatGPT Ads are already available in more than 40 countries, according to CNBC. A self-service option for buying ads, previously limited to a smaller set of markets, is now rolling out to India and countries across Europe, the Middle East and North Africa, according to CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The $1 billion milestone was announced on Monday, the same day OpenAI detailed the expansion of self-service ad buying, according to CNBC and SiliconANGLE. \"Our next phase of growth will bring ChatGPT Ads to more markets and introduce additional formats, objectives, buying options, and measurement capabilities,\" OpenAI said in the release, according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Diversifying revenue ahead of an IPO",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI describes the ad business as part of what it calls a \"diversified business model,\" alongside consumer subscriptions, enterprise contracts and usage-based charges for its application programming interfaces, according to CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The announcement lands as OpenAI faces pressure to justify its $852 billion valuation ahead of an initial public offering expected in the coming months, both outlets report.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Digital advertising has long been a reliable revenue source for other technology giants, including Google and Meta, according to CNBC. SiliconANGLE also names Amazon among the companies that already profit from the model.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Anthropic's public pushback",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic, the maker of rival chatbot Claude, publicly criticized OpenAI's move into advertising and made the decision the centerpiece of its first-ever Super Bowl ad campaign, according to CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE reports that OpenAI has struck ad partnerships with more than 50 brands, working through agencies including Omnicom and WPP, and that the company scaled up the ad experiment rapidly after starting to test it with a small number of U.S. users in February.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Despite the growth, the ad business still accounts for only a small share of OpenAI's total revenue, according to SiliconANGLE, which contrasts it with the far larger subscription, enterprise and API revenue lines OpenAI reports separately. The outlet frames the ad push as one of several levers the company is testing as it works to close the gap between its costs and its income before going public.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The advertising expansion is not the only sign of financial pressure on OpenAI this year, according to SiliconANGLE: the company posted a $12.3 billion operating loss alongside $6.7 billion in second-quarter revenue, up 18% from the prior quarter. SiliconANGLE notes that figure came a day after rival Anthropic reported quarterly revenue of $11.6 billion, up more than 50%, alongside a small profit — a comparison the outlet frames as part of the backdrop to OpenAI's push for new revenue streams ahead of a planned IPO.",
+      "items": []
+    }
   ],
   "image": {
     "query": "chatgpt smartphone app advertising",
-    "alt": "Smartphone screen showing the ChatGPT app interface"
+    "alt": "Smartphone screen showing the ChatGPT app interface",
+    "path": "/assets/img/openai-chatgpt-ads-hit-1-billion-revenue-8ac688bf.jpg",
+    "credit": "Jonathan Kemper / Unsplash",
+    "author": "Jonathan Kemper",
+    "author_url": "https://unsplash.com/@jupp?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-a-purple-background-N8AYH8R2rWQ"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html", "title": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/", "title": "OpenAI says its ad business has already hit $1B in annualized revenue"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "title": "OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/08/31/openai-says-its-ad-business-has-already-hit-1b-in-annualized-revenue/",
+      "title": "OpenAI says its ad business has already hit $1B in annualized revenue"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-01T07:35:56+00:00",
+  "updated_at": "2026-09-01T07:35:56+00:00"
 }
