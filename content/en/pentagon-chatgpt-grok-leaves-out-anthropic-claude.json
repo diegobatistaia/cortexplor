@@ -98,7 +98,13 @@
   ],
   "image": {
     "query": "pentagon building aerial washington government",
-    "alt": "Aerial view of the Pentagon building, headquarters of the U.S. Department of War"
+    "alt": "Aerial view of the Pentagon building, headquarters of the U.S. Department of War",
+    "path": "/assets/img/pentagon-chatgpt-grok-leaves-out-anthrop-c1e9eae2.jpg",
+    "credit": "Andy Feliciotti / Unsplash",
+    "author": "Andy Feliciotti",
+    "author_url": "https://unsplash.com/@someguy?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/high-rise-buildings-EmSWJzRYxG0"
   },
   "sources": [
     {
@@ -120,5 +126,7 @@
       "title": "Pentagon launches ChatGPT and Grok models tailored to 'warfighter needs'"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-02T07:30:24+00:00",
+  "updated_at": "2026-09-02T07:30:24+00:00"
 }

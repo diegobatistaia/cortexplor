@@ -265,5 +265,47 @@
     "lang": "es",
     "passed": true,
     "reasons": []
+  },
+  {
+    "at": "2026-09-02T07:30:23+00:00",
+    "id": "anthropic-lanca-claude-fable-5-1-corta-preco-cache",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-02T07:30:24+00:00",
+    "id": "pentagono-adota-chatgpt-grok-deixa-claude-de-fora",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-02T07:30:24+00:00",
+    "id": "anthropic-claude-fable-5-1-cuts-cache-price",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-02T07:30:24+00:00",
+    "id": "pentagon-chatgpt-grok-leaves-out-anthropic-claude",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-02T07:30:25+00:00",
+    "id": "anthropic-claude-fable-5-1-abarata-cache",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-02T07:30:25+00:00",
+    "id": "pentagono-chatgpt-grok-deja-fuera-anthropic-claude",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
   }
 ]

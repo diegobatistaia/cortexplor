@@ -113,7 +113,13 @@
   ],
   "image": {
     "query": "cloud computing data center server room blue light",
-    "alt": "Data center servers lit in blue, the kind of infrastructure that runs large AI models"
+    "alt": "Data center servers lit in blue, the kind of infrastructure that runs large AI models",
+    "path": "/assets/img/anthropic-claude-fable-5-1-cuts-cache-pr-413654f0.jpg",
+    "credit": "Tyler / Unsplash",
+    "author": "Tyler",
+    "author_url": "https://unsplash.com/@tylergm?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-server-in-a-server-room-vSprjjDbu60"
   },
   "sources": [
     {
@@ -159,5 +165,7 @@
       "title": "Anthropic launches Claude Fable 5.1 and says it's up to 45 percent cheaper for agentic work"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-02T07:30:24+00:00",
+  "updated_at": "2026-09-02T07:30:24+00:00"
 }
