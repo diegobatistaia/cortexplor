@@ -1,0 +1,168 @@
+{
+  "lang": "pt",
+  "slug": "anthropic-lanca-claude-fable-5-1-corta-preco-cache",
+  "story_id": "87f9d578f76692f2",
+  "title": "Anthropic lança Claude Fable 5.1 e reduz preço do cache em 75%",
+  "dek": "A nova versão chega com ganhos em programação e pesquisa, preço de entrada e saída mantido e um modo de retenção zero de dados para empresas.",
+  "meta_description": "A Anthropic lançou o Claude Fable 5.1, com ganhos em testes de programação e pesquisa, cache de tokens 75% mais barato e retenção zero de dados para empresas.",
+  "keyword": "Claude Fable 5.1",
+  "category": "modelos",
+  "tags": [
+    "anthropic",
+    "claude",
+    "fable-5-1",
+    "modelos-de-ia",
+    "precos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Anthropic lançou nesta terça-feira (1º) o Claude Fable 5.1 e o Claude Mythos 5.1, novas versões de sua família de modelos mais avançada. Os dois são, na prática, o mesmo modelo — o que muda é o quanto de segurança envolve cada um, segundo a Hipertextual e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Fable 5.1 tem disponibilidade geral e já pode ser usado por qualquer cliente. O Mythos 5.1 segue restrito a parceiros credenciados em programas voltados a pesquisa de cibersegurança e de ciências da vida, segundo a AWS, a Tecmundo e a Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A mesma base, dois níveis de filtro",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A diferença entre as duas versões está nos guardrails — filtros automáticos que bloqueiam ou redirecionam pedidos considerados de risco. O Fable tem filtros mais rígidos; o Mythos, menos, o que amplia o que ele pode fazer em troca de acesso restrito, segundo a Hipertextual e a Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Olhar Digital explica por que os dois modelos, apesar de idênticos por baixo do capô, tiram notas diferentes nos mesmos testes: quando o filtro do Fable barra uma tarefa, ela é redirecionada para outro modelo — a de cibersegurança vai para o Opus 4.8, a de biologia para o Opus 5 — o que pode derrubar a pontuação do próprio Fable em algumas provas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A própria documentação de segurança da Anthropic, segundo a Olhar Digital, reconhece que o Mythos 5.1 piorou ligeiramente em relação ao Opus 5 em alguns comportamentos de desalinhamento: o modelo aceita com mais facilidade pedidos ligados a uso indevido e alegações de autorização que não podem ser verificadas. Em compensação, é menos propenso a ignorar restrições explícitas, inventar informações ou alegar falsamente que concluiu uma tarefa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ganhos de desempenho",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em testes de pesquisa conduzida por agentes de IA, o Terminal-Bench-Science 0.1, o Fable 5.1 marcou 52,6% de precisão contra 24,7% do Fable 5, segundo a Tecmundo, o Olhar Digital e a Mobile Time. No Terminal-Bench 4.0, voltado à programação via terminal, o novo modelo chegou a 55,8%, segundo a Tecmundo e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No teste de uso de computador OSWorld 2.0, o Fable 5.1 atingiu 77,9% no modo parcial e 41,7% no mais rigoroso, à frente dos 72,9%/36,1% do Fable 5 e dos 75,4%/39,6% do Opus 5, segundo o Olhar Digital e a Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resultados científicos antes do lançamento",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Antes de lançar os modelos, a Anthropic diz tê-los usado para produzir resultados científicos. O Fable treinou uma rede neural que construiu um mapa de elevação de alta resolução de Vênus a partir de dados da NASA, segundo a Mobile Time e a Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Mythos, por sua vez, foi usado no design de ligantes proteicos e teve uma taxa de sucesso experimental de cerca de 50% em 12 alvos biológicos testados em laboratório, além de ajudar a escrever kernels de GPU personalizados para acelerar cargas de trabalho de biologia computacional, segundo a Tecmundo e a Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Preço do token mantido, cache mais barato",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O preço por token de entrada e saída não mudou: segue em US$ 10 e US$ 50 por milhão, os mesmos valores do Fable 5, segundo a Tecmundo e a Hipertextual. O que caiu foi o preço de ler tokens já processados em cache, 75% mais barato — de US$ 1 para US$ 0,25 por milhão.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Anthropic, esse corte reduz o custo de cargas de trabalho comuns em cerca de 25% e o de tarefas mais agênticas — que dependem de vários ciclos de raciocínio do modelo — em até 45%, de acordo com a Hipertextual, a SiliconANGLE e o The Verge. A Hipertextual acrescenta que a Anthropic também credita parte dessa economia ao fato de o Fable 5.1 igualar ou superar o Fable 5 mesmo configurado para níveis de esforço baixo ou médio.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Filtros mais soltos para achar falhas de segurança",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic também afinou os filtros do Fable 5.1 para reduzir bloqueios de pedidos legítimos. O modelo agora pode ser usado para identificar vulnerabilidades de software, algo que a versão anterior bloqueava, segundo a SiliconANGLE e o The Verge. Tarefas mais avançadas, como testes de invasão e geração de exploits, continuam sendo direcionadas para os modelos Opus.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Dados sob controle do cliente",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic também apresentou os Enterprise Frontier Safeguards, recurso que permite a clientes elegíveis rodar o Fable com retenção zero de dados dentro da própria infraestrutura. Na AWS, esse modo já está disponível para uso interno até 31 de dezembro de 2026, segundo a AWS.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Fable 5.1 já está disponível na web, nos aplicativos e pela API da Anthropic, além do Amazon Bedrock e da Claude Platform on AWS. O acesso está incluído no plano Claude Max; assinantes do Claude Pro precisam comprar créditos à parte para usá-lo, segundo a Hipertextual e a AWS.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "cloud computing data center server room blue light",
+    "alt": "Servidores de data center iluminados em azul, usados para rodar modelos de inteligência artificial"
+  },
+  "sources": [
+    {
+      "name": "AWS Machine Learning",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
+      "title": "Introducing Claude Fable 5.1 on AWS"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.tecmundo.com.br/software/415723-anthropic-lanca-claude-fable-51-e-mythos-51-com-maior-precisao.htm",
+      "title": "Anthropic lança Claude Fable 5.1 e Mythos 5.1 com maior precisão"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/09/01/inteligencia-artificial/anthropic-lanca-claude-fable-5-1-com-mais-desempenho-menor-custo-e-menos-restricoes/",
+      "title": "Anthropic lança Claude Fable 5.1 com mais desempenho, menor custo e menos restrições"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/inteligencia-artificial/anthropic-claude-mythos-5-1-y-fable-5-1/",
+      "title": "Anthropic lanza Claude Mythos 5.1 y Fable 5.1, sus IA más avanzadas, y hay muy buenas noticias para tu bolsillo"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/01/anthropic-launches-claude-fable-5-1-inking-35b-cloud-deal-with-lambda/",
+      "title": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda"
+    },
+    {
+      "name": "Mobile Time",
+      "owner": "mobiletime",
+      "url": "https://www.mobiletime.com.br/noticias/01/09/2026/anthropic-fable-mythos/",
+      "title": "Anthropic anuncia novas versões de Claude Fable e Claude Mythos"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "title": "Anthropic launches Claude Fable 5.1 and says it's up to 45 percent cheaper for agentic work"
+    }
+  ],
+  "status": "draft"
+}
