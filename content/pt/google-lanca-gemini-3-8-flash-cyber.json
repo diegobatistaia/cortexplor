@@ -1,0 +1,37 @@
+{
+  "lang": "pt",
+  "slug": "google-lanca-gemini-3-8-flash-cyber",
+  "story_id": "139f55adad98c982",
+  "title": "Google lança Gemini 3.8 Flash e uma versão para cibersegurança",
+  "dek": "Novo modelo chega poucas semanas após o Gemini 3.7 Flash, com preço de lançamento igual e reforço em tarefas de código e agentes, segundo Google e The Verge.",
+  "meta_description": "Google lança o Gemini 3.8 Flash e o Gemini 3.8 Flash Cyber, versão restrita a parceiros de segurança, com o mesmo preço de lançamento do modelo anterior.",
+  "keyword": "gemini 3.8 flash google",
+  "category": "modelos",
+  "tags": ["ia", "google", "gemini", "modelos"],
+  "body": [
+    {"type": "p", "text": "O Google lançou nesta semana o Gemini 3.8 Flash, em duas versões: a padrão e a Gemini 3.8 Flash Cyber, voltada para tarefas de segurança digital, segundo a própria empresa e o The Verge. O modelo chega poucas semanas depois do Gemini 3.7 Flash.", "items": []},
+    {"type": "p", "text": "Segundo o Google, o 3.8 Flash mantém a mesma base técnica das duas versões, mas foi reforçado por ciclos internos de treinamento voltados a agentes que executam tarefas longas e por um treinamento intensivo em cibersegurança, que também melhorou o desempenho geral do modelo em código e raciocínio.", "items": []},
+    {"type": "h2", "text": "Preço igual, mas uso pode sair mais caro", "items": []},
+    {"type": "p", "text": "O Gemini 3.8 Flash mantém, no lançamento, o mesmo preço do 3.7 Flash: US$ 0,75 por milhão de tokens de entrada e US$ 3,75 por milhão de tokens de saída, segundo o The Verge. A publicação avisa, porém, que o custo final por tarefa pode subir, já que o próprio Google reconhece que o modelo tende a usar mais tokens para chegar a respostas melhores, sobretudo em níveis de esforço mais altos.", "items": []},
+    {"type": "p", "text": "O The Verge cita a Artificial Analysis, empresa que testa modelos de IA de forma independente, segundo a qual o Gemini 3.8 Flash é o mais barato já medido pela empresa nesse nível de inteligência — mesmo com um salto de cerca de 40% no custo por tarefa em relação ao 3.7 Flash, atribuído a respostas mais longas e a mais interações em tarefas de agente.", "items": []},
+    {"type": "h2", "text": "Desempenho em código e áreas técnicas", "items": []},
+    {"type": "p", "text": "O Google afirma que o 3.8 Flash supera o 3.7 Flash e outros modelos de ponta no DeepSWE v1.1, benchmark de engenharia de software de longa duração, e também nos testes Vals Finance Agent V2 e Harvey Legal Agent Benchmark, voltados a tarefas financeiras e jurídicas, segundo a empresa e o The Verge. O The Verge observa que a comparação inclui o Fable 5, da Anthropic, que recebeu uma atualização de preço na mesma semana.", "items": []},
+    {"type": "p", "text": "Como os números vêm de testes conduzidos pela própria empresa, ainda não há confirmação independente desses resultados.", "items": []},
+    {"type": "h2", "text": "Versão restrita para defesa cibernética", "items": []},
+    {"type": "p", "text": "A versão Gemini 3.8 Flash Cyber chega junto com o Fairwind Program, iniciativa do Google restrita a governos e parceiros de confiança, segundo a empresa e o The Verge. O The Verge detalha que o programa reúne 650 organizações, entre elas a CrowdStrike e o Center for Internet Security, com acesso ao 3.8 Flash Cyber e ao agente CodeMender, ferramenta do Google para encontrar e corrigir vulnerabilidades.", "items": []},
+    {"type": "p", "text": "O Google afirma que o 3.8 Flash Cyber recebeu controles adicionais para uso responsável, com salvaguardas específicas contra uso indevido em áreas como armas químicas, biológicas, radiológicas e nucleares, além de ataques cibernéticos ofensivos — restrição que também vale para a versão padrão do modelo, segundo a empresa e o The Verge.", "items": []},
+    {"type": "p", "text": "Segundo o The Verge, o Gemini 3.8 Flash já está disponível para assinantes dos planos Google AI Pro e Ultra, além de desenvolvedores e clientes empresariais que usam a API do Google AI Studio.", "items": []},
+    {"type": "h2", "text": "Ritmo de lançamentos", "items": []},
+    {"type": "p", "text": "O Google afirma que o 3.8 Flash é o terceiro modelo da linha Flash lançado em seis semanas, sucedendo o 3.7 Flash, apresentado três semanas antes. O The Verge confirma que o novo modelo chegou poucas semanas depois do anterior, mantendo o ritmo acelerado de atualizações que a linha Flash vem tendo neste ano.", "items": []},
+    {"type": "p", "text": "O The Verge também recolheu reações de fora do Google: John Ennis, CEO da empresa de avaliação de IA Aigora.ai, comparou o novo modelo aos da Anthropic, avaliando que a qualidade de código do 3.8 Flash chega perto da do Opus 5, mas com custo bem menor e maior velocidade.", "items": []}
+  ],
+  "image": {
+    "query": "google gemini ai chip data center",
+    "alt": "Ilustração de chip de inteligência artificial em data center, remetendo ao Google Gemini"
+  },
+  "sources": [
+    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/", "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"},
+    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash", "title": "Google says its new Gemini 3.8 Flash model 'works harder' but might cost more"}
+  ],
+  "status": "draft"
+}
