@@ -7,33 +7,124 @@
   "meta_description": "Google launched Gemini 3.8 Flash and a restricted Gemini 3.8 Flash Cyber variant, keeping 3.7 Flash's launch pricing while token usage may run higher.",
   "keyword": "gemini 3.8 flash google",
   "category": "modelos",
-  "tags": ["ai", "google", "gemini", "models"],
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "models"
+  ],
   "body": [
-    {"type": "p", "text": "Google shipped Gemini 3.8 Flash this week in two variants: a standard release and Gemini 3.8 Flash Cyber, aimed at security work, according to the company and The Verge. The model arrives just weeks after Gemini 3.7 Flash.", "items": []},
-    {"type": "p", "text": "Google says both variants share the same underlying model, sharpened by agentic training loops built for long-running tasks and by heavy cybersecurity-focused training, which the company says also lifted general coding and reasoning performance.", "items": []},
-    {"type": "h2", "text": "Same sticker price, possibly pricier in practice", "items": []},
-    {"type": "p", "text": "Gemini 3.8 Flash keeps 3.7 Flash's launch pricing, The Verge reports: $0.75 for every million tokens fed into the model, and $3.75 for every million tokens it returns. The outlet notes the real cost per task could still climb, since Google itself says the model tends to burn more tokens chasing better answers, especially at higher effort settings.", "items": []},
-    {"type": "p", "text": "The Verge cites independent evaluator Artificial Analysis, which called Gemini 3.8 Flash the cheapest model it has measured at this intelligence tier, even as per-task cost rose roughly 40% versus 3.7 Flash, driven by longer answers and more back-and-forth turns on agentic tasks.", "items": []},
-    {"type": "h2", "text": "Coding and reasoning gains", "items": []},
-    {"type": "p", "text": "Google says 3.8 Flash beats both 3.7 Flash and other frontier models on DeepSWE v1.1, a benchmark for long-horizon software engineering work, as well as on the Vals Finance Agent V2 and Harvey Legal Agent benchmarks for financial and legal tasks, according to the company and The Verge. The Verge notes the comparison set includes Anthropic's Fable 5, which got its own pricing update the same week.", "items": []},
-    {"type": "p", "text": "Those figures come from testing run by Google itself; no outside lab has independently reproduced them.", "items": []},
-    {"type": "h2", "text": "A gated edition for cyber defenders", "items": []},
-    {"type": "p", "text": "Gemini 3.8 Flash Cyber launches alongside the Fairwind Program, a Google initiative restricted to governments and vetted partners, the company and The Verge confirm. The Verge reports Fairwind counts roughly 650 member organizations, including CrowdStrike and the Center for Internet Security, whose access covers the Cyber-tuned model plus CodeMender, a separate Google tool for finding and patching flaws automatically.", "items": []},
-    {"type": "p", "text": "Google says 3.8 Flash Cyber carries extra controls for responsible use, with safeguards against misuse in chemical, biological, radiological and nuclear domains as well as offensive cyber operations — restrictions the company says also apply to the standard 3.8 Flash release, per Google and The Verge.", "items": []},
-    {"type": "p", "text": "The Verge reports Gemini 3.8 Flash is already live for Google AI Pro and Ultra subscribers, alongside developers and enterprise customers building on the Google AI Studio API.", "items": []},
-    {"type": "h2", "text": "A fast release cadence", "items": []},
-    {"type": "p", "text": "Google describes 3.8 Flash as its third Flash-line release in six weeks, following 3.7 Flash three weeks earlier. The Verge confirms the new model landed just a few weeks after its predecessor, keeping up the rapid update pace the Flash line has held through the year.", "items": []},
-    {"type": "p", "text": "The Verge also gathered outside reaction: Aigora.ai chief executive John Ennis compared the new model to Anthropic's lineup, rating its coding quality close to Opus 5 while costing far less and running noticeably faster.", "items": []},
-    {"type": "p", "text": "Developers who want to keep token spending predictable still have an option, Google says: Gemini 3.7 Flash remains fully supported and keeps its own pricing, so teams running efficiency-first workloads can stay on it instead of moving straight to 3.8 Flash. The company frames the choice as effort versus cost, letting developers dial reasoning depth up or down per task rather than accepting one fixed trade-off across an entire application.", "items": []},
-    {"type": "p", "text": "Neither Google nor The Verge lists a broader rollout timeline for Fairwind beyond its current member roster, and Google has not said when, or whether, the program will open to organizations outside the cybersecurity and government space it currently serves.", "items": []}
+    {
+      "type": "p",
+      "text": "Google shipped Gemini 3.8 Flash this week in two variants: a standard release and Gemini 3.8 Flash Cyber, aimed at security work, according to the company and The Verge. The model arrives just weeks after Gemini 3.7 Flash.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says both variants share the same underlying model, sharpened by agentic training loops built for long-running tasks and by heavy cybersecurity-focused training, which the company says also lifted general coding and reasoning performance.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Same sticker price, possibly pricier in practice",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Gemini 3.8 Flash keeps 3.7 Flash's launch pricing, The Verge reports: $0.75 for every million tokens fed into the model, and $3.75 for every million tokens it returns. The outlet notes the real cost per task could still climb, since Google itself says the model tends to burn more tokens chasing better answers, especially at higher effort settings.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge cites independent evaluator Artificial Analysis, which called Gemini 3.8 Flash the cheapest model it has measured at this intelligence tier, even as per-task cost rose roughly 40% versus 3.7 Flash, driven by longer answers and more back-and-forth turns on agentic tasks.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Coding and reasoning gains",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says 3.8 Flash beats both 3.7 Flash and other frontier models on DeepSWE v1.1, a benchmark for long-horizon software engineering work, as well as on the Vals Finance Agent V2 and Harvey Legal Agent benchmarks for financial and legal tasks, according to the company and The Verge. The Verge notes the comparison set includes Anthropic's Fable 5, which got its own pricing update the same week.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Those figures come from testing run by Google itself; no outside lab has independently reproduced them.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A gated edition for cyber defenders",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Gemini 3.8 Flash Cyber launches alongside the Fairwind Program, a Google initiative restricted to governments and vetted partners, the company and The Verge confirm. The Verge reports Fairwind counts roughly 650 member organizations, including CrowdStrike and the Center for Internet Security, whose access covers the Cyber-tuned model plus CodeMender, a separate Google tool for finding and patching flaws automatically.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says 3.8 Flash Cyber carries extra controls for responsible use, with safeguards against misuse in chemical, biological, radiological and nuclear domains as well as offensive cyber operations — restrictions the company says also apply to the standard 3.8 Flash release, per Google and The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge reports Gemini 3.8 Flash is already live for Google AI Pro and Ultra subscribers, alongside developers and enterprise customers building on the Google AI Studio API.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A fast release cadence",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google describes 3.8 Flash as its third Flash-line release in six weeks, following 3.7 Flash three weeks earlier. The Verge confirms the new model landed just a few weeks after its predecessor, keeping up the rapid update pace the Flash line has held through the year.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge also gathered outside reaction: Aigora.ai chief executive John Ennis compared the new model to Anthropic's lineup, rating its coding quality close to Opus 5 while costing far less and running noticeably faster.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Developers who want to keep token spending predictable still have an option, Google says: Gemini 3.7 Flash remains fully supported and keeps its own pricing, so teams running efficiency-first workloads can stay on it instead of moving straight to 3.8 Flash. The company frames the choice as effort versus cost, letting developers dial reasoning depth up or down per task rather than accepting one fixed trade-off across an entire application.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Neither Google nor The Verge lists a broader rollout timeline for Fairwind beyond its current member roster, and Google has not said when, or whether, the program will open to organizations outside the cybersecurity and government space it currently serves.",
+      "items": []
+    }
   ],
   "image": {
     "query": "google gemini ai chip data center",
-    "alt": "Illustration of an AI chip inside a data center, evoking Google's Gemini models"
+    "alt": "Illustration of an AI chip inside a data center, evoking Google's Gemini models",
+    "path": "/assets/img/google-launches-gemini-3-8-flash-cyber-49316dab.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/an-abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0"
   },
   "sources": [
-    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/", "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash", "title": "Google says its new Gemini 3.8 Flash model 'works harder' but might cost more"}
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "title": "Google says its new Gemini 3.8 Flash model 'works harder' but might cost more"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-03T07:26:38+00:00",
+  "updated_at": "2026-09-03T07:26:38+00:00"
 }
