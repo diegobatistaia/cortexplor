@@ -16,6 +16,12 @@ on:
       - "content/**"
       - "data/**"
       - "**.md"
+  # Rede de seguranca contra o dia em que as 5 tentativas do rsync (abaixo)
+  # esgotam por uma instabilidade prolongada da Hostinger. Roda toda noite,
+  # bem depois do ciclo diario (04:00-04:45 BRT); se o repositorio ja estiver
+  # sincronizado, o rsync nao encontra o que copiar e o job so demora segundos.
+  schedule:
+    - cron: "0 3 * * *"   # 00:00 America/Sao_Paulo
   workflow_dispatch:
 
 concurrency:
@@ -71,11 +77,31 @@ jobs:
 
       - name: Sincronizar com a Hostinger
         run: |
-          rsync -rlvz --delete --compress-level=9 \
-            --exclude-from=.rsync-exclude \
-            --exclude='.rsync-exclude' \
-            -e "ssh -i ~/.ssh/deploy_key -p ${{ steps.target.outputs.port }} -o StrictHostKeyChecking=accept-new -o BatchMode=yes -o ConnectTimeout=20" \
-            ./ "${{ steps.target.outputs.user }}@${{ steps.target.outputs.host }}:${{ steps.target.outputs.remote_path }}"
+          # A Hostinger às vezes recusa a conexão SSH por alguns segundos sem
+          # motivo aparente (visto ao vivo em 2026-09-03: "Connection timed
+          # out" numa hora em que o servidor respondia normalmente logo
+          # depois). Isso derrubava a publicação do dia inteiro mesmo com o
+          # conteúdo já pronto. Tenta até 5 vezes, com espera crescente.
+          tentativa=0
+          ate_a_ultima=5
+          while true; do
+            tentativa=$((tentativa + 1))
+            if rsync -rlvz --delete --compress-level=9 \
+                 --exclude-from=.rsync-exclude \
+                 --exclude='.rsync-exclude' \
+                 -e "ssh -i ~/.ssh/deploy_key -p ${{ steps.target.outputs.port }} -o StrictHostKeyChecking=accept-new -o BatchMode=yes -o ConnectTimeout=20" \
+                 ./ "${{ steps.target.outputs.user }}@${{ steps.target.outputs.host }}:${{ steps.target.outputs.remote_path }}"; then
+              echo "sincronizado na tentativa $tentativa"
+              break
+            fi
+            if [ "$tentativa" -ge "$ate_a_ultima" ]; then
+              echo "falhou $ate_a_ultima vezes seguidas - desistindo"
+              exit 1
+            fi
+            espera=$((tentativa * 15))
+            echo "tentativa $tentativa falhou, tentando de novo em ${espera}s..."
+            sleep "$espera"
+          done
 
       # O deploy so termina verde se o site realmente responder. Sem isto, um
       # rsync que copia para o lugar errado passaria despercebido.
