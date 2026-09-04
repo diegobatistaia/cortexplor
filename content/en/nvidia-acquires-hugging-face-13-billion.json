@@ -1,0 +1,146 @@
+{
+  "lang": "en",
+  "slug": "nvidia-acquires-hugging-face-13-billion",
+  "story_id": "b8767d061518cae3",
+  "title": "Nvidia Agrees to Acquire Hugging Face for $12.9 Billion",
+  "dek": "The chipmaker will pay nearly $13 billion for the world's largest open platform for AI models and datasets.",
+  "meta_description": "Nvidia has agreed to buy Hugging Face for $12.93 billion. Here is what the acquisition includes, the negotiation history, and the concerns it has raised.",
+  "keyword": "nvidia acquires hugging face",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "nvidia",
+    "hugging-face",
+    "acquisition"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Nvidia has agreed to acquire Hugging Face for $12.93 billion, the chipmaker announced Thursday, according to Nvidia's own blog post, confirmed by Fortune, TechCrunch and The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hugging Face runs an open repository for artificial intelligence, often compared to GitHub: it hosts about 3 million models, 500,000 datasets and 1 million applications, used by more than 18 million developers and 200,000 companies, according to Nvidia and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Nvidia pledges to keep the platform open",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia CEO Jensen Huang said Hugging Face will remain an open platform and that Nvidia compute won't be required to build on or deploy through it, according to the company's announcement, also cited by The Verge and Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "From a rejected offer to a $12.9 billion deal",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hugging Face was founded in 2016 in New York by three French entrepreneurs and was last valued at $4.5 billion in a 2023 funding round, according to The Verge and Fortune. Last year, the company turned down a $500 million investment from Nvidia that would have valued it at $7 billion, a decision driven by concerns over ceding control to a single investor, according to a Financial Times report cited by Fortune and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why Nvidia wants the biggest open AI hub",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The deal reflects Nvidia's bet on open-weight models at a time when major customers such as OpenAI, Microsoft, Amazon and Meta are developing their own chips to reduce reliance on Nvidia GPUs, Fortune reported. Hugging Face itself is not yet a big earner: it generates roughly $150 million in annualized revenue, according to The Information, as cited by Fortune and TechCrunch — a fraction of the acquisition price.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Concerns about favoring Nvidia hardware",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The acquisition has revived questions about whether Hugging Face will informally favor its new owner's chips. Eric Hartford, creator of the open model Dolphin, told Fortune that Hugging Face runs the Transformers library, a gatekeeper for model releases, and that ownership by Nvidia will likely tilt incentives toward the company's hardware over rivals'.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Weeks of rumors before the confirmation",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Speculation about a sale began on August 23, when Business Insider reported Hugging Face was working with a bank to explore a $13 billion sale. Days later, the outlet reported direct talks between the two companies, while The Information said terms had already been agreed, according to The Verge and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says it is already the platform's largest contributor of open content, with more than 500 models and 250 datasets published on Hugging Face, according to TechCrunch. The deal is Nvidia's second-largest startup investment, behind only its $20 billion deal with Groq last year, according to SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Nvidia had already been betting on open models",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia has run its own line of open-weight models, called Nemotron, for years, and this month launched an initiative called SAFE (Shared AI Findings Exchange), meant to help companies share data on AI security incidents, according to Wired. Earlier in September, Jensen Huang also led an open letter signed by more than 80 companies advocating for the importance of open-weight models to the US government, Wired confirms.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Wired also notes that Hugging Face's individual investors include OpenAI cofounder Greg Brockman, researcher Richard Socher and basketball player Kevin Durant, alongside funds such as Sequoia Ventures and Coatue.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The move comes as some of Nvidia's biggest customers try to reduce their dependence on it. Wired points out that Amazon and Meta, along with frontier labs like OpenAI and Anthropic, are working on their own custom chips, which makes owning a hub that shapes how open models are built and shared a strategic asset for Nvidia beyond hardware sales.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "server room data center blue light",
+    "alt": "Data center server racks lit in blue, representing cloud and AI infrastructure"
+  },
+  "sources": [
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "title": "NVIDIA to Acquire Hugging Face"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/09/03/hugging-face-goes-from-a-scrappy-startup-named-after-an-emoji-to-13-billion-nvidia-acquisition/",
+      "title": "Hugging Face goes from a ‘scrappy’ startup named after an emoji to $13 billion Nvidia acquisition"
+    },
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "title": "Nvidia is buying Hugging Face for almost $13 billion"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/03/nvidia-confirms-12-9b-acquisition-of-ai-hosting-platform-hugging-face/",
+      "title": "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
+      "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI"
+    }
+  ],
+  "status": "draft"
+}
