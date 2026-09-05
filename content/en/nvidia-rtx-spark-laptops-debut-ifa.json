@@ -1,0 +1,103 @@
+{
+  "lang": "en",
+  "slug": "nvidia-rtx-spark-laptops-debut-ifa",
+  "story_id": "809e54bcb672219b",
+  "title": "Nvidia's RTX Spark Chip Debuts in Real Laptops at IFA 2026",
+  "dek": "Lenovo, Dell, Asus, HP and Microsoft showed the first laptops built around the AI-focused chip; pricing has not been announced.",
+  "meta_description": "Nvidia's RTX Spark chip has debuted in real laptops at IFA 2026, with up to 128GB of memory for local AI use; manufacturers have not disclosed pricing yet.",
+  "keyword": "Nvidia RTX Spark",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "nvidia",
+    "hardware",
+    "laptops"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Nvidia's RTX Spark chip has reached its first publicly shown laptops, at the IFA 2026 trade show in Berlin, according to reports from Wired, Hipertextual and Computer Hoy. The chip was announced earlier by Nvidia and now appears built into notebooks from manufacturers including Lenovo, Dell, Asus, HP and Microsoft, with more expected to follow.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In its top configuration, RTX Spark combines an Nvidia Grace CPU with up to 20 cores and a Blackwell-architecture RTX GPU with up to 6,144 cores, plus up to 128GB of unified memory — a design in which the processor and the graphics chip share the very same pool of memory instead of using separate reserves as in a conventional laptop. According to all three outlets, that configuration reaches up to 1 petaflop of AI performance in the FP4 data format, a unit used to measure raw processing capacity for this kind of workload.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "RTX Spark is a \"system-on-a-chip\": the CPU, GPU and memory are packaged together in a single component rather than assembled as separate parts on a motherboard, as in a traditional Windows laptop. According to Computer Hoy, this Arm-based design — the same chip family used in phones — puts Nvidia in direct competition with Apple's Silicon chips in MacBooks and with Qualcomm's Arm chips used in other Windows laptops.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The first laptops",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lenovo showed two models built around RTX Spark: the Yoga Pro 9n and the Yoga 9n 2-in-1. According to Wired and Hipertextual, the Yoga 9n 2-in-1 has a 16-inch touch OLED screen and, in this version, memory is capped at 64GB — a step down from the chip's 128GB ceiling. The Yoga Pro 9n also appears on Nvidia's official list of RTX Spark partners, cited by Computer Hoy.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Other manufacturers confirmed models with the same chip, according to Wired and Computer Hoy: the Dell XPS 16, the Asus ProArt P16, the HP OmniBook X 14 and the Microsoft Surface Laptop Ultra. Both outlets describe these devices as aimed at people who create content or use AI tools as part of their daily work.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Built to run AI on the device itself",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "All three outlets describe RTX Spark as a chip meant to process AI models directly on the computer, rather than sending that work to a remote data center. Wired ties the launch to the growing use of AI agents that carry out tasks locally, using the device's own processing power instead of relying on servers over the internet — which Wired says also helps keep sensitive data, such as financial information, off the cloud.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Running an AI model locally means the computation happens on the laptop itself, instead of sending the conversation or task to a tech company's servers to be processed and returned over the internet. The practical upside is less dependence on a connection and more control over where information is stored — but that requires hardware powerful enough to run the model on its own, which is why RTX Spark packs in as much memory and processing power as it does.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Price and release date still unclear",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "None of the three outlets had access to pricing for these laptops as of publication. Wired wrote that price is the most important piece of information still missing, and Hipertextual and Computer Hoy both confirmed that manufacturers had not disclosed figures for any of the models shown at IFA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On timing, Wired pointed to a fall launch, while Computer Hoy separately cited October as the month Nvidia intends to start selling the first Windows PCs built around the new chip. Neither outlet named a specific day for any individual laptop model to go on sale.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "laptop computer chip technology trade show",
+    "alt": "Thin touchscreen laptop shown on stage at a technology trade show"
+  },
+  "sources": [
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+      "title": "Nvidia RTX Spark 'Superchip': The First AI PCs Are Here"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/tecnologia/lenovo-lanza-sus-primeros-portatiles-con-el-chip-rtx-spark-de-nvidia/",
+      "title": "Lenovo lanza sus primeros portátiles con el chip RTX Spark de NVIDIA"
+    },
+    {
+      "name": "Computer Hoy",
+      "owner": "henneo",
+      "url": "https://computerhoy.20minutos.es/dispositivos/los-portatiles-nvidia-rtx-spark-con-windows-11-saldran-mercado-con-dos-variantes-n1x_7032862_0.html",
+      "title": "Los portátiles NVIDIA RTX Spark con Windows 11 saldrán al mercado con dos variantes N1X"
+    }
+  ],
+  "status": "draft"
+}

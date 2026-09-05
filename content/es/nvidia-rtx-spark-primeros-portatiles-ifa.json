@@ -1,0 +1,103 @@
+{
+  "lang": "es",
+  "slug": "nvidia-rtx-spark-primeros-portatiles-ifa",
+  "story_id": "809e54bcb672219b",
+  "title": "El chip Nvidia RTX Spark llega a los primeros portátiles",
+  "dek": "Lenovo, Dell, Asus, HP y Microsoft mostraron los primeros portátiles con el chip pensado para IA local; el precio aún no se conoce.",
+  "meta_description": "El chip Nvidia RTX Spark llegó a los primeros portátiles de la IFA 2026, con hasta 128 GB de memoria para IA local; los fabricantes no revelaron precios aún.",
+  "keyword": "Nvidia RTX Spark",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "nvidia",
+    "hardware",
+    "portatiles"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "El chip Nvidia RTX Spark llegó a sus primeros portátiles mostrados en público, en la feria IFA 2026, en Berlín, según reportajes de Wired, Hipertextual y Computer Hoy. El procesador había sido anunciado antes por Nvidia y ahora aparece integrado en notebooks de fabricantes como Lenovo, Dell, Asus, HP y Microsoft.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En su configuración más avanzada, el RTX Spark combina una CPU Nvidia Grace con hasta 20 núcleos y una GPU Blackwell RTX con hasta 6.144 núcleos, además de hasta 128 GB de memoria unificada — un diseño en el que el procesador y la tarjeta gráfica comparten el mismo bloque de memoria, en lugar de usar reservas separadas como en un portátil convencional. Según las tres publicaciones, esa configuración alcanza hasta 1 petaflop de rendimiento en tareas de inteligencia artificial en formato de datos FP4, una unidad usada para medir la capacidad bruta de procesamiento de ese tipo de tarea.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El RTX Spark es un \"system-on-a-chip\": la CPU, la GPU y la memoria vienen soldadas en un solo componente, en lugar de piezas separadas montadas en la placa base como en un portátil con Windows tradicional. Según Computer Hoy, este diseño basado en Arm — la misma familia de arquitectura usada en chips de móviles — pone a Nvidia a competir directamente con los procesadores Apple Silicon de los MacBook y con los chips Arm de Qualcomm usados en otros portátiles con Windows.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Los primeros portátiles",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lenovo presentó dos modelos con el RTX Spark: el Yoga Pro 9n y el Yoga 9n 2-en-1. Según Wired e Hipertextual, el Yoga 9n 2-en-1 tiene una pantalla OLED táctil de 16 pulgadas y, en esta versión, la memoria queda limitada a 64 GB — un escalón por debajo del tope de 128 GB del chip. El Yoga Pro 9n también aparece en la lista oficial de socios de Nvidia para el RTX Spark, citada por Computer Hoy.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Otros fabricantes confirmaron modelos con el mismo chip, según Wired y Computer Hoy: el Dell XPS 16, el Asus ProArt P16, el HP OmniBook X 14 y el Microsoft Surface Laptop Ultra. Ambas publicaciones describen estos equipos como pensados para quienes crean contenido o usan herramientas de inteligencia artificial en su trabajo diario.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Pensado para ejecutar la IA en el propio equipo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Las tres publicaciones describen el RTX Spark como un chip pensado para procesar modelos de inteligencia artificial directamente en el ordenador, en lugar de enviar ese trabajo a un centro de datos remoto. Según Wired, el lanzamiento acompaña el crecimiento de agentes de IA que ejecutan tareas de forma local, usando la capacidad de procesamiento del propio equipo en vez de depender de servidores en internet — algo que, según Wired, también ayuda a mantener datos sensibles, como información financiera, fuera de la nube.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ejecutar un modelo de IA de forma local significa que los cálculos ocurren en el propio portátil, sin enviar la conversación o la tarea a los servidores de una empresa tecnológica para que los procese y devuelva la respuesta por internet. La ventaja práctica es menos dependencia de la conexión y más control sobre dónde queda almacenada la información — pero eso exige hardware lo bastante potente como para ejecutar el modelo por sí solo, lo que explica la cantidad de memoria y núcleos de procesamiento reunidos en el RTX Spark.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Precio y fecha de llegada, todavía sin confirmar",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ninguna de las tres publicaciones tuvo acceso al precio de estos portátiles al cierre de sus reportajes. Wired escribió que el precio es el dato más importante que todavía falta, e Hipertextual y Computer Hoy confirmaron que los fabricantes no habían revelado cifras para ninguno de los modelos mostrados en la IFA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Sobre la fecha de llegada al mercado, Wired señaló un lanzamiento en otoño del hemisferio norte, mientras que Computer Hoy citó octubre como el mes en que Nvidia planea empezar a vender los primeros PC con Windows equipados con el nuevo chip. Ninguna de las dos publicaciones dio una fecha concreta para algún modelo en particular.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "laptop computer chip technology trade show",
+    "alt": "Portátil fino con pantalla táctil mostrado en una feria tecnológica"
+  },
+  "sources": [
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+      "title": "Nvidia RTX Spark 'Superchip': The First AI PCs Are Here"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/tecnologia/lenovo-lanza-sus-primeros-portatiles-con-el-chip-rtx-spark-de-nvidia/",
+      "title": "Lenovo lanza sus primeros portátiles con el chip RTX Spark de NVIDIA"
+    },
+    {
+      "name": "Computer Hoy",
+      "owner": "henneo",
+      "url": "https://computerhoy.20minutos.es/dispositivos/los-portatiles-nvidia-rtx-spark-con-windows-11-saldran-mercado-con-dos-variantes-n1x_7032862_0.html",
+      "title": "Los portátiles NVIDIA RTX Spark con Windows 11 saldrán al mercado con dos variantes N1X"
+    }
+  ],
+  "status": "draft"
+}

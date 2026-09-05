@@ -1,0 +1,113 @@
+{
+  "lang": "pt",
+  "slug": "openai-lanca-gpt-6-astra-avancado",
+  "story_id": "d39d306d61fd8ea8",
+  "title": "OpenAI lança GPT-6 Astra, seu modelo mais avançado até agora",
+  "dek": "A liberação do novo modelo começa por clientes do programa de segurança Daybreak, antes de chegar aos assinantes do ChatGPT.",
+  "meta_description": "A OpenAI começou a liberar o GPT-6 Astra, seu modelo mais avançado, com benchmarks recordes e preço por token divulgado; veja o cronograma de acesso ao ChatGPT.",
+  "keyword": "GPT-6 Astra",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "openai",
+    "gpt-6-astra",
+    "modelos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A OpenAI lançou o GPT-6 Astra, descrito pela empresa como seu modelo de inteligência artificial mais avançado até hoje. Segundo o anúncio publicado no site da OpenAI, o acesso começou por um grupo limitado de organizações inscritas no programa de cibersegurança Daybreak, com previsão de chegar nos próximos dias aos assinantes dos planos ChatGPT Plus, Pro, Business e Enterprise, além da API da OpenAI, do Microsoft Azure e da AWS Bedrock.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O mesmo cronograma de liberação em etapas foi confirmado pelos sites Hipertextual e Mobile Time em suas coberturas do lançamento.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que muda no uso do computador",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O setor chama esse tipo de recurso de \"computer use\": em vez de só responder perguntas em texto, o modelo enxerga a tela do computador e age nela sozinho, clicando, digitando e navegando entre programas como faria uma pessoa. Segundo a OpenAI, o GPT-6 Astra foi treinado para operar diretamente aplicativos e navegadores, em vez de apenas orientar o usuário sobre o que fazer.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Entre os exemplos citados pela empresa, e reproduzidos pelo Mobile Time, estão o preenchimento de formulários on-line, a atualização de registros em sistemas de CRM (os softwares usados por empresas para gerenciar contato com clientes), a organização de calendários, a realização de pesquisas na internet e a execução de testes automatizados em softwares.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI também afirma que o modelo lida melhor com instruções ambíguas: quando falta uma informação, o Astra usa o contexto disponível para preencher a lacuna sozinho, e só pergunta ao usuário quando a dúvida pode mudar significativamente o resultado da tarefa. O Mobile Time descreveu o mesmo comportamento em sua cobertura do lançamento. Na prática, isso significa depender menos de instruções detalhadas para tarefas do dia a dia, como organizar uma agenda ou preencher um cadastro, e reservar a confirmação humana para decisões que realmente mudam o resultado do trabalho.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resultados em testes de referência",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nos números divulgados pela OpenAI e confirmados pelo Mobile Time, o GPT-6 Astra atingiu 98% de acerto no FrontierMath Tier 4, conjunto de problemas avançados de matemática que costuma levar semanas para ser resolvido por especialistas humanos. O modelo também marcou 99,9% no ARC-AGI-3, teste que avalia a capacidade de aprender tarefas novas sem treinamento específico para elas, e 100% no ExploitBench, benchmark voltado à identificação de falhas de segurança em sistemas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O GPT-6 Astra sucede o GPT-5.6 Sol na linha de modelos da OpenAI, e é justamente contra essa versão anterior que a empresa mede os ganhos de desempenho anunciados.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No OSWorld 2.0, teste que mede o desempenho de um modelo operando um computador de forma autônoma, a OpenAI relata 72,6% de acerto em cerca de 40 minutos por tarefa. O Mobile Time registrou resultado próximo, de cerca de 73%, com tarefas concluídas 35 minutos mais rápido que com o modelo anterior. Ambas as fontes citam o GPT-5.6 Sol, modelo anterior da OpenAI, com 65,7% de acerto em cerca de 75 minutos por tarefa, como parâmetro de comparação.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Preço por token na API",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Um token é a unidade de texto que um modelo de linguagem processa — em média, um pedaço menor que uma palavra inteira. Para quem usa o GPT-6 Astra pela API — a via de acesso pela qual empresas conectam seus próprios sistemas à inteligência artificial da OpenAI, sem passar pelo ChatGPT —, a OpenAI cobrará US$ 10 por milhão de tokens de entrada e US$ 50 por milhão de tokens de saída no modo padrão, segundo os valores confirmados pelo Hipertextual e pelo Mobile Time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As duas fontes também citam um segundo nível de preço, mais caro, para usos que exigem mais capacidade — mas divergem sobre os valores exatos dessa camada, então esses números não entram nesta matéria.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Por enquanto, o GPT-6 Astra segue restrito ao grupo inicial de organizações do programa Daybreak. A OpenAI não divulgou uma data para a liberação do modelo aos usuários gratuitos do ChatGPT.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "computer screen artificial intelligence agent working",
+    "alt": "Interface de um assistente de inteligência artificial operando um computador"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "title": "GPT-6 Astra: A new generation of intelligence"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/inteligencia-artificial/openai-lanza-gpt-6-astra-su-ia-mas-potente-pero-no-te-emociones-todavia/",
+      "title": "OpenAI lanza GPT-6 Astra, su IA más potente, pero no te emociones todavía"
+    },
+    {
+      "name": "Mobile Time",
+      "owner": "mobiletime",
+      "url": "https://www.mobiletime.com.br/noticias/04/09/2026/openai-lanca-gpt-6-astra/",
+      "title": "OpenAI lança seu novo modelo de ponta, GPT-6 Astra"
+    }
+  ],
+  "status": "draft"
+}
