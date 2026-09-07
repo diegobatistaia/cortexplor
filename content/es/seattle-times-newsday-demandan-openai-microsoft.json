@@ -103,7 +103,13 @@
   ],
   "image": {
     "query": "newspaper printing press journalism",
-    "alt": "Pilas de periódicos impresos saliendo de una rotativa en una redacción"
+    "alt": "Pilas de periódicos impresos saliendo de una rotativa en una redacción",
+    "path": "/assets/img/seattle-times-newsday-demandan-openai-mi-88d07c47.jpg",
+    "credit": "Bank Phrom / Unsplash",
+    "author": "Bank Phrom",
+    "author_url": "https://unsplash.com/@bank_phrom?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/printing-machine-Tzm3Oyu_6sk"
   },
   "sources": [
     {
@@ -119,5 +125,7 @@
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-07T07:22:59+00:00",
+  "updated_at": "2026-09-07T07:22:59+00:00"
 }
