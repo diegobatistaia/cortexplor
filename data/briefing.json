@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:46:41+00:00",
+  "generated_at": "2026-09-08T06:45:38+00:00",
   "posts_per_language_today": 2,
   "min_independent_sources": 2,
   "languages": [
@@ -75,40 +75,5 @@
     150,
     160
   ],
-  "stories": [
-    {
-      "story_id": "04ed0fd49e4f9048",
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "owners": [
-        "techcrunch",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "a5bf96dbe6d60c06",
-        "2f083f991a7ffb8c"
-      ],
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-          "published_at": "2026-09-05T22:49:55+00:00",
-          "kind": "press",
-          "text": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI. A lawsuit filed by The Seattle Times and Newsday argued that with the advent of AI, the journalism industry could become “broken beyond repair.” The lawsuit described generative AI as “a snake eating its own tail” that could “destroy the very organizations” that produce the content it’s trained on. “AI products like ChatGPT and CoPilot are touted as producers of content, but in fact they are rapacious consumers, devouring human-authored content and delivering back to the world copies and derivative imitations of that same original content they consumed to achieve their commercial objectives,” the lawsuit said. Back in 2023, The New York Times sued OpenAI and its partner/investor Microsoft over alleged copyright infringement; other publications have followed suit as the case continued. The Seattle Times’ lawsuit is particularly notable because Microsoft and OpenAI have funded some of the organization’s journalism projects and fellowships. A Microsoft spokesperson told GeekWire that the company is “surprised by the lawsuit” but is “always happy to sit down and explore solutions to this type of dispute.” Don’t miss out . The startup community will gather to answer a pivotal question: How do you build sustainably in the AI era? Subscribe for the industry’s biggest tech news"
-        },
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-          "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-          "published_at": "2026-09-06T23:36:04+00:00",
-          "kind": "press",
-          "text": "They want the AI models built on their works destroyed. They want the AI models built on their works destroyed. The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement . The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by The New York Times , Ziff Davis , Merriam-Webster, and Encyclopedia Britannica against OpenAI. The Seattle Times and Newsday also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI’s technology. The publishers join a list of nearly 400 local newspapers that recently sued the two companies, saying that because the chatbots reduce the need to visit their sites for reporting and answers, they cost them valuable subscription revenue. As part of the suit, The Seattle Times ​and Newsday are ⁠seeking the destruction of any copies of their works the companies are holding, as well as training datasets and AI models that incorporate them. OpenAI and Microsoft did not immediately respond to a request for comment."
-        }
-      ]
-    }
-  ]
+  "stories": []
 }
