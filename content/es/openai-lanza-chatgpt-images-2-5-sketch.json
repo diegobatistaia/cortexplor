@@ -7,33 +7,125 @@
   "meta_description": "OpenAI lanzó el martes ChatGPT Images 2.5, con ediciones más precisas, menor latencia y la nueva herramienta Sketch para dibujar referencias visuales.",
   "keyword": "chatgpt images 2.5",
   "category": "modelos",
-  "tags": ["ia", "openai", "chatgpt", "imagenes"],
+  "tags": [
+    "ia",
+    "openai",
+    "chatgpt",
+    "imagenes"
+  ],
   "body": [
-    {"type": "p", "text": "OpenAI lanzó el martes ChatGPT Images 2.5, nueva versión de su modelo de generación de imágenes, con ediciones más precisas y hasta un 50% menos de latencia frente a Images 2.0, según la empresa.", "items": []},
-    {"type": "p", "text": "La actualización ya está disponible para usuarios de ChatGPT, ChatGPT Work y Codex en escritorio, móvil y web, según OpenAI y The Verge.", "items": []},
-    {"type": "h2", "text": "Ediciones más precisas y consistentes", "items": []},
-    {"type": "p", "text": "Según OpenAI, el nuevo modelo produce una iluminación más natural y texturas más detalladas, y conserva mejor los elementos de las fotos de referencia que sube el usuario. La empresa afirma que las ediciones también se mantienen más estables a lo largo de conversaciones con varios turnos: un cambio hecho antes permanece intacto cuando el usuario pide un ajuste nuevo después, sin degradar el resto de la imagen.", "items": []},
-    {"type": "p", "text": "OpenAI dice además que el modelo mejoró en la comprensión de instrucciones visuales complejas, incluidos diseños más elaborados e imágenes con fondo transparente, y que sigue con mayor fidelidad estilos visuales específicos pedidos por el usuario.", "items": []},
-    {"type": "h2", "text": "Sketch: dibujar para generar una imagen", "items": []},
-    {"type": "p", "text": "La principal novedad de producto es Sketch, una función que permite dibujar directamente dentro de ChatGPT y usar ese dibujo como referencia visual. Para activarla, el usuario escribe \"@Sketch\" en el chat, según OpenAI. The Verge probó la herramienta y contó que un garabato mal hecho de un gato, dibujado con el mouse, se convirtió en una foto realista tras sumar instrucciones de texto.", "items": []},
-    {"type": "p", "text": "SiliconANGLE señala que Sketch funciona mejor con un lápiz digital, como el Apple Pencil, ya que dibujar con el dedo directamente en la pantalla suele ser menos preciso, aunque la herramienta acepta cualquier tipo de trazo, incluido uno hecho con el mouse.", "items": []},
-    {"type": "p", "text": "La actualización también añade plantillas para formatos habituales como pósteres y fotos de producto —entre las opciones están \"Poster\" y \"Merch\", que el usuario personaliza con información, elementos de diseño y estilo antes de generar el resultado final—. También se suma la posibilidad de dejar comentarios directamente sobre partes de una imagen para pedir ajustes puntuales, y de compartir el prompt usado junto con la imagen generada, para que otra persona repita la creación con sus propias fotos y datos.", "items": []},
-    {"type": "h2", "text": "Lo que cambia para quienes desarrollan productos", "items": []},
-    {"type": "p", "text": "Para quienes usan la API, la consistencia entre ediciones también resuelve un problema de producción: según OpenAI, la actualización permite modificar un solo elemento —un producto, el fondo o un texto— sin rehacer toda la pieza, manteniendo intacto el resto de la composición. La empresa menciona como beneficiados a equipos que necesitan mantener la identidad visual de una marca a lo largo de una serie de piezas creativas, conceptos de interfaz que conservan una jerarquía definida y materiales de presentación con estructura fija.", "items": []},
-    {"type": "h2", "text": "Dos modelos nuevos para desarrolladores", "items": []},
-    {"type": "p", "text": "Para quienes usan la API, OpenAI abrió acceso a dos modelos: GPT-Image-2.5 Flare, presentado como la opción por defecto para la mayoría de aplicaciones, y GPT-Image-2.5 Sunburst, pensado para ediciones que exigen más precisión y aceptan tiempos de generación más largos, según la empresa y SiliconANGLE.", "items": []},
-    {"type": "p", "text": "OpenAI afirma que Images 2.5 mantiene las mismas capas de seguridad usadas en versiones anteriores, con verificación de prompts e imágenes, metadatos C2PA y una marca de agua invisible para identificar contenido generado con la herramienta.", "items": []},
-    {"type": "p", "text": "En el anuncio, OpenAI menciona a equipos de creación, marketing, retail y medios entre los públicos que ya construyen flujos de trabajo con su API de imágenes — el sector que probablemente note primero el cambio, ya que los dos modelos nuevos se integran directamente en esos procesos. La empresa dice que la suma de ChatGPT Images y los modelos GPT-Image de la API supera los 3.000 millones de imágenes generadas por semana.", "items": []},
-    {"type": "p", "text": "Images 2.5 sucede a Images 2.0, lanzado en abril, según SiliconANGLE.", "items": []}
+    {
+      "type": "p",
+      "text": "OpenAI lanzó el martes ChatGPT Images 2.5, nueva versión de su modelo de generación de imágenes, con ediciones más precisas y hasta un 50% menos de latencia frente a Images 2.0, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La actualización ya está disponible para usuarios de ChatGPT, ChatGPT Work y Codex en escritorio, móvil y web, según OpenAI y The Verge.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ediciones más precisas y consistentes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según OpenAI, el nuevo modelo produce una iluminación más natural y texturas más detalladas, y conserva mejor los elementos de las fotos de referencia que sube el usuario. La empresa afirma que las ediciones también se mantienen más estables a lo largo de conversaciones con varios turnos: un cambio hecho antes permanece intacto cuando el usuario pide un ajuste nuevo después, sin degradar el resto de la imagen.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI dice además que el modelo mejoró en la comprensión de instrucciones visuales complejas, incluidos diseños más elaborados e imágenes con fondo transparente, y que sigue con mayor fidelidad estilos visuales específicos pedidos por el usuario.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Sketch: dibujar para generar una imagen",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La principal novedad de producto es Sketch, una función que permite dibujar directamente dentro de ChatGPT y usar ese dibujo como referencia visual. Para activarla, el usuario escribe \"@Sketch\" en el chat, según OpenAI. The Verge probó la herramienta y contó que un garabato mal hecho de un gato, dibujado con el mouse, se convirtió en una foto realista tras sumar instrucciones de texto.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE señala que Sketch funciona mejor con un lápiz digital, como el Apple Pencil, ya que dibujar con el dedo directamente en la pantalla suele ser menos preciso, aunque la herramienta acepta cualquier tipo de trazo, incluido uno hecho con el mouse.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La actualización también añade plantillas para formatos habituales como pósteres y fotos de producto —entre las opciones están \"Poster\" y \"Merch\", que el usuario personaliza con información, elementos de diseño y estilo antes de generar el resultado final—. También se suma la posibilidad de dejar comentarios directamente sobre partes de una imagen para pedir ajustes puntuales, y de compartir el prompt usado junto con la imagen generada, para que otra persona repita la creación con sus propias fotos y datos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Lo que cambia para quienes desarrollan productos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para quienes usan la API, la consistencia entre ediciones también resuelve un problema de producción: según OpenAI, la actualización permite modificar un solo elemento —un producto, el fondo o un texto— sin rehacer toda la pieza, manteniendo intacto el resto de la composición. La empresa menciona como beneficiados a equipos que necesitan mantener la identidad visual de una marca a lo largo de una serie de piezas creativas, conceptos de interfaz que conservan una jerarquía definida y materiales de presentación con estructura fija.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Dos modelos nuevos para desarrolladores",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para quienes usan la API, OpenAI abrió acceso a dos modelos: GPT-Image-2.5 Flare, presentado como la opción por defecto para la mayoría de aplicaciones, y GPT-Image-2.5 Sunburst, pensado para ediciones que exigen más precisión y aceptan tiempos de generación más largos, según la empresa y SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI afirma que Images 2.5 mantiene las mismas capas de seguridad usadas en versiones anteriores, con verificación de prompts e imágenes, metadatos C2PA y una marca de agua invisible para identificar contenido generado con la herramienta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En el anuncio, OpenAI menciona a equipos de creación, marketing, retail y medios entre los públicos que ya construyen flujos de trabajo con su API de imágenes — el sector que probablemente note primero el cambio, ya que los dos modelos nuevos se integran directamente en esos procesos. La empresa dice que la suma de ChatGPT Images y los modelos GPT-Image de la API supera los 3.000 millones de imágenes generadas por semana.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Images 2.5 sucede a Images 2.0, lanzado en abril, según SiliconANGLE.",
+      "items": []
+    }
   ],
   "image": {
     "query": "person sketching digital illustration on tablet with AI generated image",
-    "alt": "Ilustración de una persona dibujando en una pantalla para generar una imagen con inteligencia artificial"
+    "alt": "Ilustración de una persona dibujando en una pantalla para generar una imagen con inteligencia artificial",
+    "path": "/assets/img/openai-lanza-chatgpt-images-2-5-sketch-14a5056c.jpg",
+    "credit": "Kelly Sikkema / Unsplash",
+    "author": "Kelly Sikkema",
+    "author_url": "https://unsplash.com/@kellysikkema?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-holding-white-ipad-with-black-case-2d-ZQjDhH94"
   },
   "sources": [
-    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-chatgpt-images-2-5", "title": "Introducing ChatGPT Images 2.5"},
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch", "title": "ChatGPT Sketch turns your bad drawings into detailed AI images"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/08/openais-chatgpt-images-gets-faster-with-sharper-details-and-more-refined-edits/", "title": "OpenAI's ChatGPT Images gets faster, with sharper details and more refined edits"}
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "title": "Introducing ChatGPT Images 2.5"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/08/openais-chatgpt-images-gets-faster-with-sharper-details-and-more-refined-edits/",
+      "title": "OpenAI's ChatGPT Images gets faster, with sharper details and more refined edits"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-09T07:21:50+00:00",
+  "updated_at": "2026-09-09T07:21:50+00:00"
 }

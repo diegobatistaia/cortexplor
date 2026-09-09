@@ -7,35 +7,136 @@
   "meta_description": "OpenAI rolled out ChatGPT Images 2.5 on Tuesday, adding sharper editing, lower latency and a new Sketch tool for drawing visual references inside ChatGPT.",
   "keyword": "chatgpt images 2.5",
   "category": "modelos",
-  "tags": ["ai", "openai", "chatgpt", "image generation"],
+  "tags": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "image generation"
+  ],
   "body": [
-    {"type": "p", "text": "OpenAI released ChatGPT Images 2.5 on Tuesday, a new version of its image generation model that brings more precise editing and up to 50% lower generation latency compared with Images 2.0, according to the company.", "items": []},
-    {"type": "p", "text": "The update is live for ChatGPT, ChatGPT Work and Codex users on desktop, mobile and web, OpenAI and The Verge reported.", "items": []},
-    {"type": "h2", "text": "Sharper, more consistent edits", "items": []},
-    {"type": "p", "text": "OpenAI says the new model produces more natural lighting and richer textures, and is better at preserving subjects from reference photos. According to the company, edits also hold up more reliably across multi-turn conversations: an earlier change stays intact when the user asks for another adjustment later, without degrading the rest of the image.", "items": []},
-    {"type": "p", "text": "OpenAI also says the model better understands complex visual instructions, including elaborate layouts and transparent backgrounds, and follows specific visual styles more faithfully.", "items": []},
-    {"type": "h2", "text": "Sketch: drawing as a prompt", "items": []},
-    {"type": "p", "text": "The main product addition is Sketch, a feature that lets people draw directly inside ChatGPT and use that drawing as a visual reference. Users activate it by typing \"@Sketch\" in the chat box, per OpenAI. The Verge tested the tool and said a rough mouse-drawn doodle of a cat turned into a realistic photo once paired with text instructions.", "items": []},
-    {"type": "p", "text": "SiliconANGLE notes that Sketch likely works best with a stylus, such as an Apple Pencil, since drawing with a finger on a touchscreen tends to be less precise — though the tool accepts any kind of input, including a mouse-drawn doodle.", "items": []},
-    {"type": "p", "text": "The release also adds templates for common formats such as posters and product photos — options include \"Poster\" and \"Merch\", which users customize with information, design elements and style before generating the final result. It also became possible to leave comments directly on parts of an image to request targeted edits, and to share the prompt behind a generated image so someone else can remix it with their own photos and details.", "items": []},
-    {"type": "h2", "text": "What it means for production workflows", "items": []},
-    {"type": "p", "text": "For API users, consistency across edits also solves a production problem: according to OpenAI, the update lets teams update a single element — a product, a background or a piece of copy — without rebuilding the entire asset, keeping the rest of the composition intact. The company points to teams that need to maintain brand identity across a series of creative assets, UI concepts that preserve a defined hierarchy, and presentation visuals that fit a fixed structure.", "items": []},
-    {"type": "h2", "text": "Two new models for developers", "items": []},
-    {"type": "p", "text": "For the API, OpenAI opened access to two models: GPT-Image-2.5 Flare, pitched as the default choice for most applications, and GPT-Image-2.5 Sunburst, aimed at edits that need more precision and can tolerate longer generation times, according to the company and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "OpenAI says Images 2.5 keeps the same safety layers used in earlier versions, including prompt and image checks, C2PA metadata and an invisible watermark to flag content made with the tool.", "items": []},
-    {"type": "p", "text": "In its announcement, OpenAI pointed to creative, marketing, retail and media teams as groups already building workflows on its Images API — the segment most likely to feel the update first, since both new models plug directly into those pipelines. The company says combined weekly output across ChatGPT Images and the GPT-Image API models tops 3 billion images.", "items": []},
-    {"type": "p", "text": "Images 2.5 succeeds Images 2.0, which debuted in April, according to SiliconANGLE.", "items": []},
-    {"type": "p", "text": "OpenAI is also highlighting a specific prompt that turns a person's own photo into an image styled as if it were taken in the 1980s, which the company says is going viral among early users. Sharing that prompt alongside a generated image is itself one of the update's new features, letting other people plug in their own photos and reproduce the effect.", "items": []}
+    {
+      "type": "p",
+      "text": "OpenAI released ChatGPT Images 2.5 on Tuesday, a new version of its image generation model that brings more precise editing and up to 50% lower generation latency compared with Images 2.0, according to the company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The update is live for ChatGPT, ChatGPT Work and Codex users on desktop, mobile and web, OpenAI and The Verge reported.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Sharper, more consistent edits",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says the new model produces more natural lighting and richer textures, and is better at preserving subjects from reference photos. According to the company, edits also hold up more reliably across multi-turn conversations: an earlier change stays intact when the user asks for another adjustment later, without degrading the rest of the image.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI also says the model better understands complex visual instructions, including elaborate layouts and transparent backgrounds, and follows specific visual styles more faithfully.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Sketch: drawing as a prompt",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The main product addition is Sketch, a feature that lets people draw directly inside ChatGPT and use that drawing as a visual reference. Users activate it by typing \"@Sketch\" in the chat box, per OpenAI. The Verge tested the tool and said a rough mouse-drawn doodle of a cat turned into a realistic photo once paired with text instructions.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE notes that Sketch likely works best with a stylus, such as an Apple Pencil, since drawing with a finger on a touchscreen tends to be less precise — though the tool accepts any kind of input, including a mouse-drawn doodle.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The release also adds templates for common formats such as posters and product photos — options include \"Poster\" and \"Merch\", which users customize with information, design elements and style before generating the final result. It also became possible to leave comments directly on parts of an image to request targeted edits, and to share the prompt behind a generated image so someone else can remix it with their own photos and details.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What it means for production workflows",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For API users, consistency across edits also solves a production problem: according to OpenAI, the update lets teams update a single element — a product, a background or a piece of copy — without rebuilding the entire asset, keeping the rest of the composition intact. The company points to teams that need to maintain brand identity across a series of creative assets, UI concepts that preserve a defined hierarchy, and presentation visuals that fit a fixed structure.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Two new models for developers",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For the API, OpenAI opened access to two models: GPT-Image-2.5 Flare, pitched as the default choice for most applications, and GPT-Image-2.5 Sunburst, aimed at edits that need more precision and can tolerate longer generation times, according to the company and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says Images 2.5 keeps the same safety layers used in earlier versions, including prompt and image checks, C2PA metadata and an invisible watermark to flag content made with the tool.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In its announcement, OpenAI pointed to creative, marketing, retail and media teams as groups already building workflows on its Images API — the segment most likely to feel the update first, since both new models plug directly into those pipelines. The company says combined weekly output across ChatGPT Images and the GPT-Image API models tops 3 billion images.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Images 2.5 succeeds Images 2.0, which debuted in April, according to SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI is also highlighting a specific prompt that turns a person's own photo into an image styled as if it were taken in the 1980s, which the company says is going viral among early users. Sharing that prompt alongside a generated image is itself one of the update's new features, letting other people plug in their own photos and reproduce the effect.",
+      "items": []
+    }
   ],
   "image": {
     "query": "person sketching digital illustration on tablet with AI generated image",
-    "alt": "Illustration of a person drawing on a screen to generate an image with artificial intelligence"
+    "alt": "Illustration of a person drawing on a screen to generate an image with artificial intelligence",
+    "path": "/assets/img/openai-launches-chatgpt-images-2-5-sketc-14a5056c.jpg",
+    "credit": "Kelly Sikkema / Unsplash",
+    "author": "Kelly Sikkema",
+    "author_url": "https://unsplash.com/@kellysikkema?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-holding-white-ipad-with-black-case-2d-ZQjDhH94"
   },
   "sources": [
-    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-chatgpt-images-2-5", "title": "Introducing ChatGPT Images 2.5"},
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch", "title": "ChatGPT Sketch turns your bad drawings into detailed AI images"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/08/openais-chatgpt-images-gets-faster-with-sharper-details-and-more-refined-edits/", "title": "OpenAI's ChatGPT Images gets faster, with sharper details and more refined edits"},
-    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/09/08/inteligencia-artificial/chatgpt-images-2-5-chega-com-imagens-mais-rapidas-e-precisas/", "title": "ChatGPT Images 2.5 chega com imagens mais rápidas e precisas"}
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "title": "Introducing ChatGPT Images 2.5"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/08/openais-chatgpt-images-gets-faster-with-sharper-details-and-more-refined-edits/",
+      "title": "OpenAI's ChatGPT Images gets faster, with sharper details and more refined edits"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/09/08/inteligencia-artificial/chatgpt-images-2-5-chega-com-imagens-mais-rapidas-e-precisas/",
+      "title": "ChatGPT Images 2.5 chega com imagens mais rápidas e precisas"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-09T07:21:50+00:00",
+  "updated_at": "2026-09-09T07:21:50+00:00"
 }
