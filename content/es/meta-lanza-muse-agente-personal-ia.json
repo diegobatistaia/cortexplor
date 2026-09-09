@@ -1,0 +1,37 @@
+{
+  "lang": "es",
+  "slug": "meta-lanza-muse-agente-personal-ia",
+  "story_id": "c2dbdd50db47e1d0",
+  "title": "Meta lanza Muse, un agente personal de IA que actúa por ti",
+  "dek": "El agente corre en una máquina virtual aislada, puede comprar y negociar en nombre del usuario y debuta dentro de WhatsApp en Estados Unidos.",
+  "meta_description": "Meta lanzó Muse, un agente personal de IA que envía correos, reserva viajes y hace compras por el usuario, disponible en EE. UU. vía app, web y WhatsApp.",
+  "keyword": "meta muse agente de ia",
+  "category": "aplicacoes",
+  "tags": ["ia", "meta", "agentes", "whatsapp"],
+  "body": [
+    {"type": "p", "text": "Meta anunció el martes Muse, un agente personal de inteligencia artificial que ejecuta tareas cotidianas a partir de instrucciones en lenguaje natural, según la propia empresa, Wired y SiliconANGLE.", "items": []},
+    {"type": "p", "text": "El agente ya está disponible en Estados Unidos a través de una aplicación dedicada para iOS y Android, del sitio muse.ai y directamente dentro de WhatsApp. Meta dice que el acceso desde sus gafas de IA llegará pronto.", "items": []},
+    {"type": "h2", "text": "Qué puede hacer Muse", "items": []},
+    {"type": "p", "text": "Según Meta, basta con decirle a Muse qué hay que hacer para que el agente actúe: puede enviar correos, reservar viajes, completar formularios, abrir un navegador y negociar en nombre del usuario, por ejemplo para vender un auto o reducir una factura. Para tareas más largas, el agente sigue trabajando después de que se cierra la app y vuelve a interactuar cuando necesita una aprobación, como antes de enviar un correo o hacer una compra.", "items": []},
+    {"type": "p", "text": "Las compras pasan por una infraestructura de pago construida con Stripe, llamada Link, que genera un número de tarjeta de un solo uso para cada transacción, de modo que Muse nunca expone los datos financieros reales del usuario. Meta afirma que Muse es el primer agente de IA cubierto por las protecciones de compra de Link, que incluyen devoluciones sin costo y cobertura por artículos dañados, perdidos o con baja de precio.", "items": []},
+    {"type": "h2", "text": "Una máquina virtual aislada para cada usuario", "items": []},
+    {"type": "p", "text": "Muse corre sobre una arquitectura llamada Secure VM, que aísla los datos y la actividad de cada usuario en su propia máquina virtual, según Meta, Wired y SiliconANGLE. La empresa creó una capa llamada Sentinel para vigilar todo lo que sale de esa máquina virtual: si la acción coincide con una política ya autorizada, avanza sola; si no, el sistema le pide aprobación directa al usuario, sin pasar por el propio modelo de IA, una forma de protegerse contra ataques de inyección de prompts, según el vicepresidente de ingeniería de Meta Superintelligence Labs, David Singleton, en declaraciones a Wired.", "items": []},
+    {"type": "p", "text": "Meta afirma que Muse también recuerda datos que el usuario mencionó una sola vez, para hacer sugerencias sin que tenga que pedirlas de nuevo: por ejemplo, convertir una receta guardada en Instagram en una lista de compras, o recordar las restricciones alimentarias de un amigo antes de enviar la invitación a una cena.", "items": []},
+    {"type": "p", "text": "Meta planea lanzar este mismo año una versión llamada Muse Confidential VM, en la que toda la máquina virtual —datos y conversaciones incluidos— se cifra con una clave que solo controla el usuario, de modo que ni la propia empresa podría acceder al contenido, según Meta, Wired y SiliconANGLE. Según Wired, Meta pretende dar a empresas de seguridad acceso al código de la Confidential VM para auditorías independientes y publicar un registro de transparencia, para que el usuario pueda verificar la integridad de su propia conexión con Muse.", "items": []},
+    {"type": "p", "text": "Wired informa que la arquitectura de seguridad de Muse ya fue revisada por los equipos humanos y automatizados de seguridad de Meta y por un programa privado de recompensas por vulnerabilidades antes del lanzamiento, y que la empresa amplió su programa público de recompensas para incluir al agente.", "items": []},
+    {"type": "h2", "text": "Competencia y contexto", "items": []},
+    {"type": "p", "text": "Muse nace de Meta Superintelligence Labs, la unidad de IA que el consejero delegado Mark Zuckerberg formó hace aproximadamente un año para que la empresa compitiera con OpenAI y Anthropic, según Wired y SiliconANGLE. El lanzamiento ubica a Muse frente a otros agentes de IA que se activan por mensaje para automatizar tareas digitales, como OpenClaw, citado tanto por Wired como por SiliconANGLE como producto comparable.", "items": []},
+    {"type": "p", "text": "Meta afirma que el uso de Muse es gratuito para la mayoría de las necesidades, con planes de suscripción para quienes quieran automatizar un volumen mayor de tareas.", "items": []},
+    {"type": "p", "text": "Para el público hispanohablante, el lanzamiento todavía no llega a España ni a América Latina: Meta confirma la disponibilidad solo en Estados Unidos en esta primera etapa, lo que deja a esos mercados fuera de la carrera por agentes personales de IA por ahora.", "items": []}
+  ],
+  "image": {
+    "query": "smartphone with AI assistant chat bubble and digital shield icon representing secure personal agent",
+    "alt": "Ilustración de un teléfono con un asistente de inteligencia artificial personal protegido por un escudo digital"
+  },
+  "sources": [
+    {"name": "Meta Newsroom", "owner": "meta", "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/", "title": "Introducing Muse: The World's First Personal AI Agent Built for Everyone"},
+    {"name": "Wired AI", "owner": "conde-nast", "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/", "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/08/meta-debuts-its-secure-by-design-personal-ai-agent-muse/", "title": "Meta debuts its 'secure by design' personal AI agent Muse"}
+  ],
+  "status": "draft"
+}
