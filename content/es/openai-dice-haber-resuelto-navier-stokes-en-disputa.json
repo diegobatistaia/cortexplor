@@ -1,0 +1,109 @@
+{
+  "lang": "es",
+  "story_id": "3b0a5e1cad2d5ac1",
+  "title": "OpenAI dice haber resuelto un problema matemático de 90 años",
+  "dek": "La empresa afirma que 10.000 agentes de IA resolvieron el problema de Navier-Stokes, pero un matemático de la NYU sostiene que se usó trabajo suyo sin reconocimiento.",
+  "meta_description": "OpenAI dice que un sistema interno resolvió el problema de Navier-Stokes, pero un matemático de la NYU cuestiona si se usó su investigación sin crédito.",
+  "keyword": "openai navier-stokes",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "openai",
+    "matematicas",
+    "investigacion"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI afirmó el martes 8 haber resuelto el problema de existencia y suavidad de Navier-Stokes, uno de los siete Problemas del Milenio definidos por el Clay Mathematics Institute en 2000, según la propia empresa, The Guardian y CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El problema seguía abierto desde la década de 1930, cuando el matemático francés Jean Leray demostró que existen soluciones en un sentido generalizado, pero dejó sin responder si esas soluciones permanecen suaves para siempre. Las ecuaciones, nombradas en honor a Claude-Louis Navier y George Gabriel Stokes en el siglo XIX, describen cómo se mueven los líquidos y los gases, y se usan en el diseño de aviones, la previsión meteorológica y el estudio del flujo sanguíneo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Diez mil agentes para una sola demostración",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según OpenAI y The Guardian, la prueba fue producida por un sistema interno que todavía no se ha lanzado al público, más capaz que GPT-6 Astra, el modelo más avanzado que la empresa ofrece hoy a sus clientes. Cerca de 10.000 agentes de IA trabajaron al mismo tiempo, organizados en grupos que se comunicaban entre sí. Cada grupo recibió una variante distinta del problema: unos debían probar que las soluciones suaves siempre existen, otros debían probar lo contrario.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La demostración muestra que un fluido tridimensional incompresible, que parte de un estado suave y en reposo, puede desarrollar una \"singularidad\" en tiempo finito: la velocidad del fluido crece sin límite incluso con la presencia de la viscosidad, una fuerza que normalmente suaviza el movimiento. OpenAI describe la solución como un vórtice que gira cada vez más rápido mientras se estira, como un hilo de espagueti, hasta que su núcleo, cada vez más pequeño, colapsa, mientras la energía total se mantiene finita.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los agentes llegaron a la solución en unas 88 horas, según The Guardian y CNBC. OpenAI dice que el esfuerzo comenzó el 1 de septiembre, después de que la empresa escuchara rumores de que otro grupo había resuelto dos Problemas del Milenio. La compañía publicó tanto una explicación escrita como una formalización en Lean, un sistema que verifica demostraciones matemáticas mediante código. Según The Guardian y MIT Technology Review, OpenAI afirma que no piensa reclamar el premio de un millón de dólares asociado a la solución.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa asegura que el mismo grupo de agentes resolvió antes, como resultado adicional, una versión más simple ligada a las ecuaciones de Euler, que se obtiene al eliminar el término de viscosidad de la ecuación original. Según OpenAI, unos 100 agentes trabajaron 50 horas en esa demostración previa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "La disputa por el crédito",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El anuncio fue cuestionado por Tristan Buckmaster, matemático de la Universidad de Nueva York (NYU). Según The Guardian, CNBC y MIT Technology Review, Buckmaster dijo que llevaba casi un año trabajando con Levent Alpöge, empleado de Anthropic, rival de OpenAI, en un enfoque parecido para el mismo problema, usando modelos de ambas empresas. Afirmó haber recibido información de que datos sobre ese trabajo habrían llegado al equipo de OpenAI antes del anuncio.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Buckmaster relató que empleados de OpenAI le plantearon dos opciones: publicar su propio trabajo el mismo día en que OpenAI difundiera su solución, o firmar un artículo junto con OpenAI que excluyera a Alpöge como autor, debido a su vínculo con Anthropic, según CNBC y MIT Technology Review. Dijo que todavía no sabe si el sistema de OpenAI tuvo acceso a los registros de las conversaciones que él y Alpöge mantuvieron con modelos de la propia OpenAI mientras trabajaban en el problema.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En una rueda de prensa el martes, el investigador de OpenAI Sébastien Bubeck negó que la empresa hubiera usado el trabajo de la pareja o accedido a su material privado, según The Guardian. Mark Chen, director de investigación de OpenAI, repitió la negativa sobre el acceso directo a esas conversaciones, según MIT Technology Review. Aun así, OpenAI reconoció que no puede descartar que datos anonimizados del uso de sus productos por parte de Buckmaster y Alpöge hayan ayudado a mejorar sus modelos, según CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según The Guardian, el modelo público GPT-6 Astra de OpenAI se usó para verificar la demostración, un proceso que tardó unas 17 horas.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "fluid dynamics vortex simulation abstract",
+    "alt": "Representación abstracta de un vórtice de fluido, en alusión a las ecuaciones de Navier-Stokes"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "title": "On the Navier–Stokes Millennium Prize Problem"
+    },
+    {
+      "name": "The Guardian Technology",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades",
+      "title": "OpenAI claims to have solved maths problem that stumped humans for decades"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html",
+      "title": "OpenAI claims to have solved the 90-year-old Navier-Stokes math problem in 88 hours"
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "owner": "mit-tr",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "title": "What OpenAI's latest controversy tells us about the future of math"
+    }
+  ],
+  "status": "draft",
+  "slug": "openai-dice-haber-resuelto-navier-stokes-en-disputa"
+}

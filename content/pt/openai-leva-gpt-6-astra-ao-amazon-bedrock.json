@@ -1,0 +1,98 @@
+{
+  "lang": "pt",
+  "story_id": "f48499efa61bb7dd",
+  "title": "GPT-6 Astra, da OpenAI, chega à nuvem da Amazon",
+  "dek": "O modelo mais avançado da OpenAI agora roda dentro do Amazon Bedrock, com preço definido e classificação de risco crítica em cibersegurança.",
+  "meta_description": "O GPT-6 Astra, modelo mais avançado da OpenAI, já está disponível na nuvem Amazon Bedrock, com preço por token e novos controles de segurança para empresas.",
+  "keyword": "gpt-6 astra amazon bedrock",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "openai",
+    "amazon",
+    "aws",
+    "modelos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "O GPT-6 Astra, modelo mais recente e mais capaz da OpenAI, está disponível de forma geral na nuvem Amazon Bedrock, segundo comunicados publicados pela própria OpenAI e pela Amazon Web Services (AWS).",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O modelo pode ser chamado diretamente pelas APIs do Bedrock ou usado por meio do ChatGPT Work e do Codex, agente de programação da OpenAI, configurados para rodar sobre a infraestrutura da AWS. Segundo a AWS, o Astra também aceita até 1 milhão de tokens de entrada em uma única solicitação — o suficiente, segundo a empresa, para revisar centenas de páginas de um contrato de uma só vez e apontar as cláusulas de maior risco.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Preço e capacidades",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, o Astra custa US$ 10 por milhão de tokens de entrada e US$ 50 por milhão de tokens de saída. A empresa diz que o modelo foi treinado para completar tarefas com menos tokens e menos tentativas, o que reduziria o retrabalho e o custo por tarefa executada. A OpenAI afirma ainda que o Astra ocupa boa parte da fronteira de custo-benefício em avaliações de programação e trabalho profissional, como o Terminal Bench 4.0.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No Codex, o modelo pode investigar problemas em bases de código extensas, mapear dependências entre arquivos e acompanhar uma correção desde o diagnóstico até os testes, segundo a AWS. No ChatGPT Work, ele pode reunir informações de diferentes aplicativos e arquivos, navegar na web e produzir planilhas, apresentações, documentos e páginas, de acordo com a OpenAI.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Segurança e classificação de risco",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, o Astra é o primeiro modelo da empresa a atingir a classificação \"Crítica\" de capacidade em cibersegurança dentro do Preparedness Framework, o sistema interno que avalia riscos de modelos de fronteira. Por causa disso, a empresa diz ter reforçado salvaguardas automáticas que monitoram uso indevido em tempo real e podem pausar ou interromper atividades que ultrapassem limites definidos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Do lado da infraestrutura, a AWS afirma que aplica o que chama de \"acesso zero de operador\": nem mesmo funcionários da própria Amazon conseguem acessar os textos enviados ou as respostas geradas durante a inferência. Segundo a empresa, os dados são criptografados em trânsito e em repouso, o acesso é controlado por políticas de identidade (IAM) e cada chamada ao modelo fica registrada no serviço de auditoria AWS CloudTrail. A AWS diz também que os dados de clientes não são usados para treinar os modelos da OpenAI, e que o uso do Astra não exige compartilhar dados com a OpenAI.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI lança, junto com a disponibilidade geral do modelo, novos plugins empresariais para o ChatGPT Work. Segundo a AWS, os primeiros plugins cobrem ferramentas como Workday e Navan; segundo a própria OpenAI, a lista inclui ainda Oracle Analytics, Power BI e Avalara. As duas empresas concordam que os plugins ampliam o uso do navegador do Astra para tarefas de análise de dados, operações e finanças, dentro das permissões já configuradas pelos administradores de cada empresa cliente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a AWS, o Bedrock também oferece cache de prompt para o Astra, recurso pensado para tarefas que reaproveitam o mesmo contexto em pedidos sucessivos, como revisão recorrente de documentos ou análise contínua de uma base de código. Com pontos de cache definidos manualmente, reaproveitar o mesmo contexto em chamadas seguintes reduziria o reprocessamento, o custo e o tempo de resposta, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tanto a AWS quanto a OpenAI afirmam que os dados de inferência dos clientes não servem para treinar os modelos. A AWS acrescenta que tráfego sinalizado por seus classificadores automáticos de abuso fica retido por até 30 dias para análise programática, e que empresas clientes podem pedir retenção zero de dados à própria equipe de conta da AWS. Segundo a OpenAI, esse mesmo regime de retenção zero também está disponível para clientes elegíveis que usam a API do Astra diretamente, mediante aprovação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, o Astra havia sido apresentado publicamente na semana anterior ao lançamento no Bedrock, e o acesso empresarial ao modelo fica desligado por padrão até que cada organização decida ativá-lo.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "cloud computing data center server racks",
+    "alt": "Corredor de servidores em data center de nuvem, iluminado em azul"
+  },
+  "sources": [
+    {
+      "name": "AWS Machine Learning",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
+      "title": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock"
+    },
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "title": "GPT-6 Astra: The next generation in intelligence for work"
+    }
+  ],
+  "status": "draft",
+  "slug": "openai-leva-gpt-6-astra-ao-amazon-bedrock"
+}
