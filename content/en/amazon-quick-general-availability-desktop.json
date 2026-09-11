@@ -7,32 +7,120 @@
   "meta_description": "Amazon says its Quick AI assistant for workplaces is now generally available on desktop for macOS and Windows, with a new mobile activity feed for teams.",
   "keyword": "amazon quick general availability",
   "category": "aplicacoes",
-  "tags": ["ai", "amazon", "aws", "ai assistant", "productivity"],
+  "tags": [
+    "ai",
+    "amazon",
+    "aws",
+    "ai assistant",
+    "productivity"
+  ],
   "body": [
-    {"type": "p", "text": "Amazon said Thursday that the desktop app for Quick, its workplace AI assistant, is now generally available on macOS and Windows, according to Amazon and SiliconANGLE. The company also updated its mobile app, for iOS and Android, with a new activity feed.", "items": []},
-    {"type": "p", "text": "The feed pulls updates from email, calendar, CRM (customer relationship management software) and messaging into a single prioritized view, according to Amazon and SiliconANGLE. Whatever an agent already handled is filtered out automatically, so the list a person sees shrinks down to the decisions that actually need a human, both sources say.", "items": []},
-    {"type": "p", "text": "Quick runs on AWS, Amazon's own cloud infrastructure. The company says each customer's data stays inside the environment that customer already controls, and that conversations remain private. All activity is auditable through Amazon CloudWatch and AWS CloudTrail, according to Amazon and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Amazon says the product ships with compliance certifications including HIPAA (which governs health data in the United States), FedRAMP (a security standard for cloud providers serving the U.S. government), SOC 2 and ISO 27001. The company did not specify whether every plan available at today's launch includes all of them.", "items": []},
-    {"type": "h2", "text": "A response to \"shadow AI\"", "items": []},
-    {"type": "p", "text": "In its announcement, Amazon frames Quick as a response to what it calls shadow AI: employees using AI tools the company has not approved to work faster, which pulls data outside the environment IT departments control. Amazon says the answer is not to restrict access to AI, but to offer a corporate option that already runs inside infrastructure IT already controls.", "items": []},
-    {"type": "p", "text": "Both Amazon and SiliconANGLE describe Quick agents that keep working after a user closes their computer — for example, an agent set to scan an email inbox before the workday starts and prepare a summary of what happened overnight.", "items": []},
-    {"type": "h2", "text": "Continuity between phone and desktop", "items": []},
-    {"type": "p", "text": "According to Amazon and SiliconANGLE, the goal is for work to carry over between devices: a person can approve an item on their phone in the morning and find the rest of the task finished on their desktop later, without repeating it on each device.", "items": []},
-    {"type": "p", "text": "Amazon says entire teams can share the dashboards, agents and automations one person builds, turning an individual feature into something the whole team can reuse — a departure from AI assistants used in isolation by each employee.", "items": []},
-    {"type": "p", "text": "SiliconANGLE notes that Quick competes with other enterprise agentic AI platforms (tools that carry out multistep tasks on their own, rather than just answering questions), in a market where cloud providers and AI model makers are chasing the same corporate customers.", "items": []},
-    {"type": "h2", "text": "Fewer notifications, more context", "items": []},
-    {"type": "p", "text": "According to SiliconANGLE, the number of alerts an employee gets during a workday has grown alongside the number of tools they use — from a handful of priority messages to hundreds of combined pings from email, chat and other apps before lunch. Quick's activity feed tries to cut that volume by surfacing what relates to a project the user has already flagged as high priority, the outlet reports.", "items": []},
-    {"type": "p", "text": "Lower-priority notifications do not disappear; they sit in a separate space the user can return to later, according to SiliconANGLE. Amazon says the feed also learns a user's relationships and patterns over time, so it surfaces what matters most rather than just what arrived most recently.", "items": []},
-    {"type": "p", "text": "Amazon also describes another use for Quick's autonomous agents: preparing a summary of a team's weekly reports every Monday without anyone having to ask for it manually. The company says this kind of automation is meant for repetitive tasks that currently eat into time that could go toward decisions requiring human judgment.", "items": []},
-    {"type": "p", "text": "Amazon and SiliconANGLE both describe Quick as built for enterprise IT departments trying to balance productivity against control over company data, rather than for individual consumers. Pricing for the desktop app was not disclosed by either source.", "items": []}
+    {
+      "type": "p",
+      "text": "Amazon said Thursday that the desktop app for Quick, its workplace AI assistant, is now generally available on macOS and Windows, according to Amazon and SiliconANGLE. The company also updated its mobile app, for iOS and Android, with a new activity feed.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The feed pulls updates from email, calendar, CRM (customer relationship management software) and messaging into a single prioritized view, according to Amazon and SiliconANGLE. Whatever an agent already handled is filtered out automatically, so the list a person sees shrinks down to the decisions that actually need a human, both sources say.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Quick runs on AWS, Amazon's own cloud infrastructure. The company says each customer's data stays inside the environment that customer already controls, and that conversations remain private. All activity is auditable through Amazon CloudWatch and AWS CloudTrail, according to Amazon and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Amazon says the product ships with compliance certifications including HIPAA (which governs health data in the United States), FedRAMP (a security standard for cloud providers serving the U.S. government), SOC 2 and ISO 27001. The company did not specify whether every plan available at today's launch includes all of them.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A response to \"shadow AI\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In its announcement, Amazon frames Quick as a response to what it calls shadow AI: employees using AI tools the company has not approved to work faster, which pulls data outside the environment IT departments control. Amazon says the answer is not to restrict access to AI, but to offer a corporate option that already runs inside infrastructure IT already controls.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both Amazon and SiliconANGLE describe Quick agents that keep working after a user closes their computer — for example, an agent set to scan an email inbox before the workday starts and prepare a summary of what happened overnight.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Continuity between phone and desktop",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Amazon and SiliconANGLE, the goal is for work to carry over between devices: a person can approve an item on their phone in the morning and find the rest of the task finished on their desktop later, without repeating it on each device.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Amazon says entire teams can share the dashboards, agents and automations one person builds, turning an individual feature into something the whole team can reuse — a departure from AI assistants used in isolation by each employee.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE notes that Quick competes with other enterprise agentic AI platforms (tools that carry out multistep tasks on their own, rather than just answering questions), in a market where cloud providers and AI model makers are chasing the same corporate customers.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Fewer notifications, more context",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to SiliconANGLE, the number of alerts an employee gets during a workday has grown alongside the number of tools they use — from a handful of priority messages to hundreds of combined pings from email, chat and other apps before lunch. Quick's activity feed tries to cut that volume by surfacing what relates to a project the user has already flagged as high priority, the outlet reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lower-priority notifications do not disappear; they sit in a separate space the user can return to later, according to SiliconANGLE. Amazon says the feed also learns a user's relationships and patterns over time, so it surfaces what matters most rather than just what arrived most recently.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Amazon also describes another use for Quick's autonomous agents: preparing a summary of a team's weekly reports every Monday without anyone having to ask for it manually. The company says this kind of automation is meant for repetitive tasks that currently eat into time that could go toward decisions requiring human judgment.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Amazon and SiliconANGLE both describe Quick as built for enterprise IT departments trying to balance productivity against control over company data, rather than for individual consumers. Pricing for the desktop app was not disclosed by either source.",
+      "items": []
+    }
   ],
   "image": {
     "query": "office worker laptop dashboard notifications productivity app",
-    "alt": "Office worker using a laptop with a notifications dashboard, illustrating Amazon's Quick AI assistant"
+    "alt": "Office worker using a laptop with a notifications dashboard, illustrating Amazon's Quick AI assistant",
+    "path": "/assets/img/amazon-quick-general-availability-deskto-2e43b888.jpg",
+    "credit": "Lukas Blazek / Unsplash",
+    "author": "Lukas Blazek",
+    "author_url": "https://unsplash.com/@goumbik?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/turned-on-black-and-grey-laptop-computer-mcSDtbWXUZU"
   },
   "sources": [
-    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/", "title": "Amazon Quick is now generally available on desktop"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/10/amazon-makes-its-agentic-ai-platform-quick-generally-available-for-desktop-on-windows-and-macos/", "title": "Amazon makes its agentic AI platform Quick generally available for desktop on Windows and macOS"}
+    {
+      "name": "AWS Machine Learning",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
+      "title": "Amazon Quick is now generally available on desktop"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/10/amazon-makes-its-agentic-ai-platform-quick-generally-available-for-desktop-on-windows-and-macos/",
+      "title": "Amazon makes its agentic AI platform Quick generally available for desktop on Windows and macOS"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-11T07:22:26+00:00",
+  "updated_at": "2026-09-11T07:22:26+00:00"
 }

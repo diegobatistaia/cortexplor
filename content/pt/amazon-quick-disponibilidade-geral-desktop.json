@@ -7,31 +7,115 @@
   "meta_description": "A Amazon anunciou que o Quick, seu assistente de IA para empresas, chegou à disponibilidade geral em desktop no macOS e no Windows nesta quinta-feira.",
   "keyword": "amazon quick disponibilidade geral",
   "category": "aplicacoes",
-  "tags": ["ia", "amazon", "aws", "assistente de ia", "produtividade"],
+  "tags": [
+    "ia",
+    "amazon",
+    "aws",
+    "assistente de ia",
+    "produtividade"
+  ],
   "body": [
-    {"type": "p", "text": "A Amazon anunciou nesta quinta-feira que o aplicativo de desktop do Quick, seu assistente de IA corporativo, chegou à disponibilidade geral no macOS e no Windows, segundo a Amazon e a SiliconANGLE. A empresa também atualizou o aplicativo móvel, para iOS e Android, com um novo feed de atividades.", "items": []},
-    {"type": "p", "text": "Esse feed reúne em um só lugar as atualizações de e-mail, calendário, CRM (sistema de gestão de relacionamento com clientes) e mensagens, segundo a Amazon e a SiliconANGLE. Itens que os agentes de IA resolvem sozinhos somem da lista; o que sobra é uma fila curta com o que só uma pessoa pode decidir, segundo as duas fontes.", "items": []},
-    {"type": "p", "text": "O Quick roda sobre a infraestrutura da AWS, a nuvem da própria Amazon. A empresa diz que os dados de cada cliente ficam dentro do ambiente que ele já controla, e que as conversas permanecem privadas. Toda a atividade é auditável pelas ferramentas Amazon CloudWatch e AWS CloudTrail, segundo a Amazon e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "A Amazon afirma que o produto já nasce com certificações de conformidade como HIPAA (que rege dados de saúde nos Estados Unidos), FedRAMP (padrão de segurança do governo americano para provedores de nuvem), SOC 2 e ISO 27001. A empresa não detalhou se todas se aplicam a todos os planos disponíveis desde o lançamento de hoje.", "items": []},
-    {"type": "h2", "text": "Resposta ao problema da \"IA paralela\"", "items": []},
-    {"type": "p", "text": "No anúncio, a Amazon descreve o Quick como resposta ao que chama de shadow AI: funcionários que usam ferramentas de inteligência artificial não aprovadas pela empresa para trabalhar mais rápido, o que tira dados do ambiente controlado pelo setor de TI. Segundo a empresa, a alternativa não é bloquear o acesso à IA, e sim oferecer uma opção corporativa que já nasça dentro da infraestrutura que o TI controla.", "items": []},
-    {"type": "p", "text": "Tanto a Amazon quanto a SiliconANGLE descrevem agentes do Quick que continuam funcionando depois que o usuário fecha o computador — por exemplo, um agente configurado para varrer a caixa de entrada de e-mail antes do início do expediente e preparar um resumo do que aconteceu durante a noite.", "items": []},
-    {"type": "h2", "text": "Trabalho contínuo entre celular e computador", "items": []},
-    {"type": "p", "text": "Segundo a Amazon e a SiliconANGLE, o objetivo é que o trabalho continue entre dispositivos: uma pessoa pode aprovar um item no celular de manhã e encontrar o restante do trabalho pronto no computador mais tarde, sem repetir a tarefa em cada aparelho.", "items": []},
-    {"type": "p", "text": "A Amazon diz que equipes inteiras podem compartilhar os painéis, agentes e automações criados por uma única pessoa, o que transforma um recurso individual em algo reaproveitável pelo time inteiro — uma diferença em relação a assistentes de IA usados de forma isolada por cada funcionário.", "items": []},
-    {"type": "p", "text": "A SiliconANGLE observa que o Quick concorre com outras plataformas de IA agentic (que executam tarefas de várias etapas de forma autônoma, não só respondem perguntas) voltadas a empresas, num mercado em que fornecedores de nuvem e provedores de modelos de linguagem disputam o mesmo tipo de cliente corporativo.", "items": []},
-    {"type": "h2", "text": "Menos notificações, mais contexto", "items": []},
-    {"type": "p", "text": "Segundo a SiliconANGLE, o volume de avisos que um funcionário recebe ao longo do dia cresceu junto com o número de ferramentas de trabalho — de poucas mensagens prioritárias a centenas de alertas somados de e-mail, chat e outros aplicativos antes mesmo do meio-dia. O feed de atividades do Quick tenta reduzir esse volume mostrando primeiro o que está relacionado ao que o usuário já está fazendo, como um projeto marcado como prioridade alta, segundo o veículo.", "items": []},
-    {"type": "p", "text": "As notificações de prioridade mais baixa não desaparecem: ficam reservadas num espaço separado, e o usuário pode voltar a elas depois, segundo a SiliconANGLE. A Amazon diz que o feed também aprende com o tempo os relacionamentos e padrões de cada usuário, para priorizar o que importa e não apenas o que chegou por último.", "items": []},
-    {"type": "p", "text": "A Amazon também descreve outro uso possível dos agentes autônomos do Quick: preparar, toda segunda-feira, um resumo dos relatórios semanais de uma equipe, sem que ninguém precise pedir isso manualmente. Segundo a empresa, esse tipo de automação é pensado para tarefas repetitivas que hoje consomem o tempo que poderia ir para decisões que exigem julgamento humano.", "items": []}
+    {
+      "type": "p",
+      "text": "A Amazon anunciou nesta quinta-feira que o aplicativo de desktop do Quick, seu assistente de IA corporativo, chegou à disponibilidade geral no macOS e no Windows, segundo a Amazon e a SiliconANGLE. A empresa também atualizou o aplicativo móvel, para iOS e Android, com um novo feed de atividades.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Esse feed reúne em um só lugar as atualizações de e-mail, calendário, CRM (sistema de gestão de relacionamento com clientes) e mensagens, segundo a Amazon e a SiliconANGLE. Itens que os agentes de IA resolvem sozinhos somem da lista; o que sobra é uma fila curta com o que só uma pessoa pode decidir, segundo as duas fontes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Quick roda sobre a infraestrutura da AWS, a nuvem da própria Amazon. A empresa diz que os dados de cada cliente ficam dentro do ambiente que ele já controla, e que as conversas permanecem privadas. Toda a atividade é auditável pelas ferramentas Amazon CloudWatch e AWS CloudTrail, segundo a Amazon e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Amazon afirma que o produto já nasce com certificações de conformidade como HIPAA (que rege dados de saúde nos Estados Unidos), FedRAMP (padrão de segurança do governo americano para provedores de nuvem), SOC 2 e ISO 27001. A empresa não detalhou se todas se aplicam a todos os planos disponíveis desde o lançamento de hoje.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resposta ao problema da \"IA paralela\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No anúncio, a Amazon descreve o Quick como resposta ao que chama de shadow AI: funcionários que usam ferramentas de inteligência artificial não aprovadas pela empresa para trabalhar mais rápido, o que tira dados do ambiente controlado pelo setor de TI. Segundo a empresa, a alternativa não é bloquear o acesso à IA, e sim oferecer uma opção corporativa que já nasça dentro da infraestrutura que o TI controla.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tanto a Amazon quanto a SiliconANGLE descrevem agentes do Quick que continuam funcionando depois que o usuário fecha o computador — por exemplo, um agente configurado para varrer a caixa de entrada de e-mail antes do início do expediente e preparar um resumo do que aconteceu durante a noite.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Trabalho contínuo entre celular e computador",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Amazon e a SiliconANGLE, o objetivo é que o trabalho continue entre dispositivos: uma pessoa pode aprovar um item no celular de manhã e encontrar o restante do trabalho pronto no computador mais tarde, sem repetir a tarefa em cada aparelho.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Amazon diz que equipes inteiras podem compartilhar os painéis, agentes e automações criados por uma única pessoa, o que transforma um recurso individual em algo reaproveitável pelo time inteiro — uma diferença em relação a assistentes de IA usados de forma isolada por cada funcionário.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A SiliconANGLE observa que o Quick concorre com outras plataformas de IA agentic (que executam tarefas de várias etapas de forma autônoma, não só respondem perguntas) voltadas a empresas, num mercado em que fornecedores de nuvem e provedores de modelos de linguagem disputam o mesmo tipo de cliente corporativo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Menos notificações, mais contexto",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a SiliconANGLE, o volume de avisos que um funcionário recebe ao longo do dia cresceu junto com o número de ferramentas de trabalho — de poucas mensagens prioritárias a centenas de alertas somados de e-mail, chat e outros aplicativos antes mesmo do meio-dia. O feed de atividades do Quick tenta reduzir esse volume mostrando primeiro o que está relacionado ao que o usuário já está fazendo, como um projeto marcado como prioridade alta, segundo o veículo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As notificações de prioridade mais baixa não desaparecem: ficam reservadas num espaço separado, e o usuário pode voltar a elas depois, segundo a SiliconANGLE. A Amazon diz que o feed também aprende com o tempo os relacionamentos e padrões de cada usuário, para priorizar o que importa e não apenas o que chegou por último.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Amazon também descreve outro uso possível dos agentes autônomos do Quick: preparar, toda segunda-feira, um resumo dos relatórios semanais de uma equipe, sem que ninguém precise pedir isso manualmente. Segundo a empresa, esse tipo de automação é pensado para tarefas repetitivas que hoje consomem o tempo que poderia ir para decisões que exigem julgamento humano.",
+      "items": []
+    }
   ],
   "image": {
     "query": "office worker laptop dashboard notifications productivity app",
-    "alt": "Profissional usando um laptop com painel de notificações, ilustrando o assistente de IA Quick da Amazon"
+    "alt": "Profissional usando um laptop com painel de notificações, ilustrando o assistente de IA Quick da Amazon",
+    "path": "/assets/img/amazon-quick-disponibilidade-geral-deskt-2e43b888.jpg",
+    "credit": "Lukas Blazek / Unsplash",
+    "author": "Lukas Blazek",
+    "author_url": "https://unsplash.com/@goumbik?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/turned-on-black-and-grey-laptop-computer-mcSDtbWXUZU"
   },
   "sources": [
-    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/", "title": "Amazon Quick is now generally available on desktop"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/10/amazon-makes-its-agentic-ai-platform-quick-generally-available-for-desktop-on-windows-and-macos/", "title": "Amazon makes its agentic AI platform Quick generally available for desktop on Windows and macOS"}
+    {
+      "name": "AWS Machine Learning",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
+      "title": "Amazon Quick is now generally available on desktop"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/10/amazon-makes-its-agentic-ai-platform-quick-generally-available-for-desktop-on-windows-and-macos/",
+      "title": "Amazon makes its agentic AI platform Quick generally available for desktop on Windows and macOS"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-11T07:22:25+00:00",
+  "updated_at": "2026-09-11T07:22:25+00:00"
 }
