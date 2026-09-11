@@ -1,0 +1,40 @@
+{
+  "lang": "en",
+  "slug": "openai-chatgpt-financial-services-wall-street",
+  "story_id": "1df583dae139fec4",
+  "title": "OpenAI Launches ChatGPT for Financial Services, Targets Wall Street",
+  "dek": "The tool runs on GPT-6 Astra and bundles financial data from providers including Daloopa, PitchBook and LSEG News, OpenAI says.",
+  "meta_description": "OpenAI launched ChatGPT for Financial Services, built with Morgan Stanley and Evercore, aiming its GPT-6 Astra model at Wall Street investment banking work.",
+  "keyword": "chatgpt for financial services",
+  "category": "aplicacoes",
+  "tags": ["ai", "openai", "chatgpt", "wall street", "enterprise ai"],
+  "body": [
+    {"type": "p", "text": "OpenAI released ChatGPT for Financial Services on Thursday, a version of its ChatGPT Work product built for investment banks, according to CNBC and SiliconANGLE. The tool was developed with Morgan Stanley and Evercore as design partners, OpenAI, CNBC and SiliconANGLE reported.", "items": []},
+    {"type": "p", "text": "The product runs on OpenAI's GPT-6 Astra model and comes with financial data built in from providers including Daloopa, PitchBook and LSEG News, according to OpenAI and CNBC. OpenAI says banks that subscribe get that data access without negotiating separate contracts or setting up connectors themselves.", "items": []},
+    {"type": "p", "text": "The tool generates citations that let users trace each figure in an analysis back to its original source, according to OpenAI, CNBC and SiliconANGLE. For a banker checking an earnings model, that means being able to see which filing or transcript a number came from, rather than taking it on faith.", "items": []},
+    {"type": "h2", "text": "A push into junior bankers' work", "items": []},
+    {"type": "p", "text": "OpenAI's vice president of product, Nick Turley, told reporters the goal is to have the tool \"research like an analyst\" and justify its findings the same way a human analyst would, according to CNBC. The initial focus is investment banking and equity research — analysis of publicly traded companies — work long handled by newly hired analysts and associates.", "items": []},
+    {"type": "p", "text": "Asked by CNBC whether the tool would reduce banks' need to hire junior staff, Turley compared the release to the historical effect of Microsoft Excel on the industry, arguing that this kind of technology tends to raise output per employee rather than eliminate roles outright.", "items": []},
+    {"type": "p", "text": "OpenAI and SiliconANGLE both point to roughly 50 connectors built on the Model Context Protocol, a standard that lets the model pull data from other systems without manual integration, extending the tool's reach beyond the data already built in.", "items": []},
+    {"type": "h2", "text": "Catching up to Anthropic", "items": []},
+    {"type": "p", "text": "OpenAI is not the first major AI lab to target Wall Street. According to CNBC and SiliconANGLE, Anthropic has offered a comparable financial-services product since 2025 — though the two outlets name it differently, a discrepancy this reporting could not resolve.", "items": []},
+    {"type": "p", "text": "Turley told SiliconANGLE he wants ChatGPT for Financial Services to become the \"canonical product\" that the whole industry standardizes on. For now, access requires an enterprise ChatGPT subscription and OpenAI's approval for each institution, according to SiliconANGLE.", "items": []},
+    {"type": "p", "text": "OpenAI says its work with Morgan Stanley and Evercore will shape the model's further training and the product's expansion into other financial-services categories beyond investment banking.", "items": []},
+    {"type": "h2", "text": "How it works in practice", "items": []},
+    {"type": "p", "text": "In a live demo attended by CNBC, Turley showed ChatGPT for Financial Services analyzing a potential merger-and-acquisition target: the tool picked comparable companies, pulled prices into a spreadsheet, checked a chart against the underlying data and built a PowerPoint deck following a bank's own formatting style. Turley told CNBC that making slides \"look good\" is the easy part; the harder problem, he said, is producing a deck that actually holds up to scrutiny.", "items": []},
+    {"type": "p", "text": "SiliconANGLE describes another feature of the product: users can choose a high, medium or low effort level for each response. The higher the effort, the more computing the tool uses and the slower the response, but the outlet says the result tends to be more thorough.", "items": []},
+    {"type": "p", "text": "OpenAI also says it integrated the product with data providers that banks already subscribe to — Moody's and MSCI among them, plus LSEG, Dow Jones Factiva and S&P Capital IQ — through shared sign-in: a user logs in through their ChatGPT account, and the system automatically recognizes which data they are already entitled to access.", "items": []},
+    {"type": "p", "text": "According to CNBC, the launch is also part of OpenAI's fight for enterprise customers against Anthropic and Google, as the company prepares for an initial public offering widely expected by the market.", "items": []},
+    {"type": "p", "text": "Neither OpenAI, CNBC nor SiliconANGLE disclosed pricing for ChatGPT for Financial Services, and OpenAI has not said which banks beyond its two design partners have signed on.", "items": []}
+  ],
+  "image": {
+    "query": "financial analyst office skyscraper trading screens",
+    "alt": "Financial analyst in front of market screens, illustrating OpenAI's new AI product for investment banks"
+  },
+  "sources": [
+    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-chatgpt-financial-services", "title": "Introducing ChatGPT for Financial Services"},
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html", "title": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/", "title": "OpenAI targets Wall Street bankers with a new version of ChatGPT"}
+  ],
+  "status": "draft"
+}
