@@ -7,41 +7,148 @@
   "meta_description": "Google released a native Gemini desktop app for Windows 10 and 11, with a keyboard shortcut and Gmail and Drive integration, Engadget and Canaltech report.",
   "keyword": "gemini app windows",
   "category": "aplicacoes",
-  "tags": ["ai", "google", "gemini", "windows"],
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "windows"
+  ],
   "body": [
-    {"type": "p", "text": "Google has released a native Gemini app for Windows 10 and 11 computers, according to Engadget and Canaltech. The app is now available for download worldwide.", "items": []},
-    {"type": "p", "text": "Per Engadget, the Windows rollout follows a Mac version launched earlier this year, and the app works the same way on both systems. Users can pull it up with the keyboard shortcut Alt + Space, which opens Gemini on top of whatever window is currently open, without switching programs or losing their place.", "items": []},
-    {"type": "h2", "text": "Tied into Gmail and Google Drive", "items": []},
-    {"type": "p", "text": "The app can pull information from everyday Google services such as Gmail and Google Drive, according to Canaltech. That lets users ask Gemini for a project summary, a review of a piece of writing, help organizing files, or suggestions for a presentation title, all without leaving what they are already working on.", "items": []},
-    {"type": "p", "text": "Google describes the app as useful for quick day-to-day tasks, such as when people 'need a quick fact-check on a document or a few catchy title ideas for a presentation,' per Engadget.", "items": []},
-    {"type": "p", "text": "The Gemini window opens on top of whatever is already on screen, so users do not need to minimize or close other programs to ask a question, according to Canaltech. Once answered, the window can be closed, returning the user to what they were doing before.", "items": []},
-    {"type": "p", "text": "The package bundles other Google tools into the same app:", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Gemini Spark, which the company describes as an AI agent available around the clock;",
-      "Nano Banana, used to generate images;",
-      "Gemini Omni, aimed at generating video."
-    ]},
-    {"type": "p", "text": "Canaltech describes Gemini Spark as a personal AI agent available 24 hours a day, to which users can send tasks directly from the app.", "items": []},
-    {"type": "p", "text": "In an official post cited by Engadget, Google described the launch as bringing 'instant Gemini assistance right to your desktop alongside your favorite apps and tools.'", "items": []},
-    {"type": "p", "text": "Google, quoted by both Engadget and Canaltech, says the app was built to be 'lightweight and quiet' and should not slow down the computer while it runs in the background, waiting for the keyboard shortcut.", "items": []},
-    {"type": "h2", "text": "How to install it", "items": []},
-    {"type": "p", "text": "Installation happens through gemini.google/desktop, according to Canaltech. Once opened via the keyboard shortcut, Gemini can be closed at any time, returning users to whatever app they had open before calling the assistant.", "items": []},
-    {"type": "p", "text": "Google says the Windows release marks the start of an expansion of the assistant on desktop, with more native features planned in the coming months, according to Canaltech.", "items": []},
-    {"type": "h2", "text": "One platform at a time", "items": []},
-    {"type": "p", "text": "Gemini reached Mac first, per Engadget, and only now gets its own Windows version. Before the native app, using the assistant on a Windows PC meant going through a browser or the Gemini website.", "items": []},
-    {"type": "p", "text": "Canaltech's own headline on the launch draws a comparison to ChatGPT, noting that OpenAI's assistant already had its own Windows app before Gemini got one.", "items": []},
-    {"type": "p", "text": "Canaltech also notes that Nano Banana, bundled into the app, is used to generate custom images directly on the computer, alongside Gemini Omni for video.", "items": []},
-    {"type": "p", "text": "Engadget reports Google says more native desktop capabilities are still coming, without giving a timeline beyond describing the Windows launch as an early step in that expansion.", "items": []},
-    {"type": "p", "text": "Engadget frames the release mainly as a faster way to reach Gemini from the desktop, alongside whatever else is already open on screen. Canaltech frames it, in its own headline, as Gemini catching up with a Windows client ChatGPT already had.", "items": []},
-    {"type": "p", "text": "Both outlets agree on the core feature set: the Alt + Space shortcut, the Gmail and Drive integration, and the three bundled tools, Gemini Spark, Nano Banana and Gemini Omni, all now reachable from the same downloaded app instead of a browser tab.", "items": []}
+    {
+      "type": "p",
+      "text": "Google has released a native Gemini app for Windows 10 and 11 computers, according to Engadget and Canaltech. The app is now available for download worldwide.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per Engadget, the Windows rollout follows a Mac version launched earlier this year, and the app works the same way on both systems. Users can pull it up with the keyboard shortcut Alt + Space, which opens Gemini on top of whatever window is currently open, without switching programs or losing their place.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Tied into Gmail and Google Drive",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The app can pull information from everyday Google services such as Gmail and Google Drive, according to Canaltech. That lets users ask Gemini for a project summary, a review of a piece of writing, help organizing files, or suggestions for a presentation title, all without leaving what they are already working on.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google describes the app as useful for quick day-to-day tasks, such as when people 'need a quick fact-check on a document or a few catchy title ideas for a presentation,' per Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Gemini window opens on top of whatever is already on screen, so users do not need to minimize or close other programs to ask a question, according to Canaltech. Once answered, the window can be closed, returning the user to what they were doing before.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The package bundles other Google tools into the same app:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Gemini Spark, which the company describes as an AI agent available around the clock;",
+        "Nano Banana, used to generate images;",
+        "Gemini Omni, aimed at generating video."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Canaltech describes Gemini Spark as a personal AI agent available 24 hours a day, to which users can send tasks directly from the app.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In an official post cited by Engadget, Google described the launch as bringing 'instant Gemini assistance right to your desktop alongside your favorite apps and tools.'",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google, quoted by both Engadget and Canaltech, says the app was built to be 'lightweight and quiet' and should not slow down the computer while it runs in the background, waiting for the keyboard shortcut.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How to install it",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Installation happens through gemini.google/desktop, according to Canaltech. Once opened via the keyboard shortcut, Gemini can be closed at any time, returning users to whatever app they had open before calling the assistant.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says the Windows release marks the start of an expansion of the assistant on desktop, with more native features planned in the coming months, according to Canaltech.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "One platform at a time",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Gemini reached Mac first, per Engadget, and only now gets its own Windows version. Before the native app, using the assistant on a Windows PC meant going through a browser or the Gemini website.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech's own headline on the launch draws a comparison to ChatGPT, noting that OpenAI's assistant already had its own Windows app before Gemini got one.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech also notes that Nano Banana, bundled into the app, is used to generate custom images directly on the computer, alongside Gemini Omni for video.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget reports Google says more native desktop capabilities are still coming, without giving a timeline beyond describing the Windows launch as an early step in that expansion.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget frames the release mainly as a faster way to reach Gemini from the desktop, alongside whatever else is already open on screen. Canaltech frames it, in its own headline, as Gemini catching up with a Windows client ChatGPT already had.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both outlets agree on the core feature set: the Alt + Space shortcut, the Gmail and Drive integration, and the three bundled tools, Gemini Spark, Nano Banana and Gemini Omni, all now reachable from the same downloaded app instead of a browser tab.",
+      "items": []
+    }
   ],
   "image": {
     "query": "google gemini app windows desktop laptop",
-    "alt": "Illustration of a laptop screen showing an AI assistant interface on a desktop"
+    "alt": "Illustration of a laptop screen showing an AI assistant interface on a desktop",
+    "path": "/assets/img/google-launches-native-gemini-app-window-dc460232.jpg",
+    "credit": "Nathana Rebouças / Unsplash",
+    "author": "Nathana Rebouças",
+    "author_url": "https://unsplash.com/@nathanareboucas?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-screen-showing-google-search-c4aT8MfEzdw"
   },
   "sources": [
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2255197/a-native-gemini-app-is-finally-available-for-windows-pcs/", "title": "A native Gemini app is finally available for Windows PCs"},
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/igual-o-chatgpt-gemini-agora-tambem-tem-um-app-para-windows/", "title": "Igual o ChatGPT, Gemini agora também tem um app para Windows"}
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2255197/a-native-gemini-app-is-finally-available-for-windows-pcs/",
+      "title": "A native Gemini app is finally available for Windows PCs"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/igual-o-chatgpt-gemini-agora-tambem-tem-um-app-para-windows/",
+      "title": "Igual o ChatGPT, Gemini agora também tem um app para Windows"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-12T07:20:44+00:00",
+  "updated_at": "2026-09-12T07:20:44+00:00"
 }
