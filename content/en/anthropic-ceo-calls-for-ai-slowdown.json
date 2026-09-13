@@ -93,7 +93,13 @@
   ],
   "image": {
     "query": "server room data center dark blue lights",
-    "alt": "Server room lit in blue, illustrating the call to slow down AI development"
+    "alt": "Server room lit in blue, illustrating the call to slow down AI development",
+    "path": "/assets/img/anthropic-ceo-calls-for-ai-slowdown-1c728d56.jpg",
+    "credit": "Winston Chen / Unsplash",
+    "author": "Winston Chen",
+    "author_url": "https://unsplash.com/@winstonchen?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/close-up-of-server-cooling-fans-in-a-vibrant-data-center-iZe21DzHnUg"
   },
   "sources": [
     {
@@ -109,5 +115,7 @@
       "title": "Anthropic CEO outlines plan to slow AI development"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-13T07:23:00+00:00",
+  "updated_at": "2026-09-13T07:23:00+00:00"
 }
