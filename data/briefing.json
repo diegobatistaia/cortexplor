@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:44:51+00:00",
+  "generated_at": "2026-09-14T06:46:57+00:00",
   "posts_per_language_today": 2,
   "min_independent_sources": 2,
   "languages": [
@@ -77,95 +77,19 @@
   ],
   "stories": [
     {
-      "story_id": "852c5dba45d042dc",
-      "title": "OpenAI delaying IPO amid AI safety concerns, Sam Altman says",
-      "summary": "OpenAI will not go public this year given all the safety work it needs to do, CEO Sam Altman said in a Fortune interview released Saturday. Why it matters: Altman's comments come as fears over doomsday AI scenarios have ramped up since an Anthropic employee resigned and issued a dire warning about AI's capabilities. What they're saying: \"Right now would be an ill-advised moment to go public,\"...",
+      "story_id": "26e62ada00aceb13",
+      "title": "Anthropic, OpenAI CEOs call for slowdown in AI development",
+      "summary": "Anthropic CEO Dario Amodei is calling for an immediate slowdown in the pace of AI development, warning of potentially devastating consequences in a matter of months otherwise. OpenAI CEO Sam Altman quickly agreed that the industry needs to slow the pace of frontier-model advances and take more steps on safety. Why it matters: Amodei pulled no punches in a new essay , cautioning that swarms of...",
       "owners": [
-        "axel-springer",
         "axios",
-        "guardian",
-        "techcrunch",
-        "vox-media"
+        "guardian"
       ],
       "primary_owners": [],
       "fingerprints": [
-        "970d140d5d8de83f",
-        "fd36d65c782dc506",
-        "e82b8a9af4fda703",
-        "5cd7d66c07b7639e",
-        "fe9d508504e55624"
+        "acb56bcccc09a602",
+        "4c84fba4f953a5a6"
       ],
       "sources": [
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/09/12/openai-public-ipo-delay-sam-altman",
-          "title": "OpenAI delaying IPO amid AI safety concerns, Sam Altman says",
-          "published_at": "2026-09-12T19:50:44+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "The Guardian Technology",
-          "owner": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
-          "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
-          "published_at": "2026-09-12T23:00:37+00:00",
-          "kind": "press",
-          "text": "OpenAI’s decision comes after dire warnings about rapidly progressing technology and lawmakers’ calls for new rules OpenAI will not go public in 2026, Sam Altman said in a Fortune interview published on Saturday, citing safety concerns over artificial intelligence . “I actually think that, given everything happening with safety, right now would be an ill-advised moment to go public, and we don’t feel pressure on that,” Altman, OpenAI’s CEO, told Fortune . Growing numbers of US lawmakers ​are calling for new rules to govern AI systems after dire warnings from two researchers from OpenAI rival Anthropic that rapidly progressing artificial intelligence could lead to the extinction of the human race ‌in the not-too-distant future. The warnings follow cases of AI agents going rogue to hack external systems and AI ​safety researchers quitting their companies concerned about the technology’s risks. Politicians, both Democrats and Republicans, have responded with alarm and calls for more action. The New York Times in June reported that the San Francisco-based OpenAI was considering whether to hold off on a potentially trillion-dollar IPO until next year. At the time, shares in Elon Musk’s SpaceX IPO were tumbling after a surge that sent that company’s valuation to $1.8tn. When asked by Fortune whether 2026 is off the table in favor of 2027, Altman said: “I would say not 2026. Yeah, we got a lot of stuff to do, like meeting this moment of what is going to be required for safety and alignment, and how the industry and governments can work together.” Altman also suggested that OpenAI and other leading AI companies may be close to announcing an agreement to slow AI development and work together to address safety risks, Fortune reported. Dario Amodei, Anthropic’s CEO, on Saturday urged AI companies to take a more deliberate approach to development. “We must slow the ‌pace at which we improve the capabilities of AI models,” Amodei wrote in an essay shared on social media. Altman later posted that he agreed with the sentiment. “I agree with Dario that we need to pace the frontier,” Altman wrote in a response to Amodei’s post on the X platform. “This has been a primary topic of discussions we’ve had at OpenAI in recent weeks.” Safety concerns have not slowed down Anthropic’s own IPO plans so far. Anthropic is expected to begin marketing its initial public offering in mid-October at the earliest and complete the listing days before the US midterm elections in November, people familiar with the matter told Reuters this month."
-        },
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-          "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-          "published_at": "2026-09-12T20:19:16+00:00",
-          "kind": "press",
-          "text": "While OpenAI has filed confidentially for an IPO , the company will not be going public this year , according to CEO Sam Altman. Altman was interviewed recently by Fortune editor in chief Alyson Shontell; amidst the fallout from the OpenAI-HuggingFace hack , as well as broader discussions about AI safety , Shontell asked whether OpenAI still feels pressure to “move really fast” due to its IPO plans. “We’re not rushing into an IPO,” Altman said. “I actually think that given everything happening with safety, right now would be an ill-advised moment to go public.” Instead, he insisted that OpenAI will go public “when we’re ready, which is when the business is ready, when we feel ready from what the moment is like in society with this technology.” When pressed on whether that means the IPO isn’t happening in 2026, Altman replied, “I would say not 2026, yeah. We’ve got a lot of stuff to do.” The New York Times reported in June that although OpenAI had hired bankers and lawyers with the goal of going public in the third or fourth quarter of 2026, the company was leaning toward 2027 due to the volatility of tech stocks and its own financial challenges. Last day to book an exhibit table is September 18. Don’t miss out on high-impact leads, investor access, and a brand spotlight in Disrupt’s Expo Hall. Subscribe for the industry’s biggest tech news"
-        },
-        {
-          "name": "Business Insider",
-          "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/openai-ipo-sam-altman-ai-safety-concerns-2026-9",
-          "title": "Sam Altman says this is an 'ill-advised' time to IPO, given safety concerns",
-          "published_at": "2026-09-12T20:35:30+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-          "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-          "published_at": "2026-09-12T21:16:28+00:00",
-          "kind": "press",
-          "text": "He also said that it was ‘absolutely’ possible to build an AI beyond human control. He also said that it was ‘absolutely’ possible to build an AI beyond human control. OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune . Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he said it was “absolutely” possible, but vowed to take actions to prevent that from happening, even if it meant pausing training, adding that “there are risks we should not be able to incur on behalf of humanity.” “We’re not rushing into an IPO. I actually think that, given everything happening with safety, this would be, right now would be an ill-advised moment to go public. And we don’t feel pressure on that. We’ve said for a long time, we’ll do it when we’re ready… I would say not 2026. We’ve got a lot of stuff to do.”"
-        }
-      ]
-    },
-    {
-      "story_id": "43b7185d958ed54e",
-      "title": "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
-      "summary": "Trump said he isn't concerned AI could cause human extinction as researchers at leading AI companies warn about rapid advances and lawmakers propose safeguards.",
-      "owners": [
-        "axios",
-        "nbcuniversal"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "469d1ea9a56c8a09",
-        "acb56bcccc09a602"
-      ],
-      "sources": [
-        {
-          "name": "CNBC Technology",
-          "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/09/11/trump-ai-extinction-risks.html",
-          "title": "Trump dismisses AI extinction risks as more than a dozen OpenAI, Anthropic insiders call for a slowdown",
-          "published_at": "2026-09-11T14:31:16+00:00",
-          "kind": "press",
-          "text": "U.S. President Donald Trump has dismissed warnings that AI could pose an existential threat to humanity, after a wave of insiders at frontier labs Anthropic and OpenAI stepped up public warnings of risks from the technology . When asked if he had concerns about AI leading to human extinction, Trump said, \"No, I don't have any.\" \"I have concerns that if we don't win AI, we're going to be put in a very bad position,\" the president told reporters Thursday. \"We are leading China right now by a pretty good period, I would say a year, which is, you know, considered a lot.\" The U.S. and China are locked in a battle for AI supremacy, with tensions ratcheting up as Chinese AI models have become more advanced and their adoption grows across the globe. Trump's comments came after a number of researchers at frontier AI labs, including OpenAI and Anthropic, sounded the alarm over the rapid pace of development of the tech. Anthropic researcher Jacob Coxon said Tuesday that he was quitting the company over concerns that Anthropic and rival OpenAI are \"gambling with our lives.\" He added that those building AI believed that it could \"kill us all by the end of the decade\" — a view which has since been echoed by other employees at the labs. Many AI safety fears revolve around models developing the ability to improve their own performance, a technique known as recursive self-improvement, or RSI. \"It's hard to overstate how dangerous speeding towards RSI is,\" said Jasmine Wang, an OpenAI researcher working on alignment, on Wednesday evening. OpenAI's chief scientist Jakub Pachocki said Saturday that he has a \"strong expectation\" that the speed of progress in AI could be sustained into recursive self-improvement . \"I am concerned no one is prepared for the consequences of a continued rapid rise in machine intelligence.\" Trump's comments come as some Republican lawmakers have joined Democrats in backing greater oversight of advanced AI systems. In July, Rep. Jay Obernolte, R-Calif., and Rep. Lori Trahan, D-Mass., announced plans to introduce a bill called the FRONTIER Act, which aims to establish a framework for governing the deployment of advanced AI models. \"Safety researchers are resigning, powerful AI models are breaking out of their labs, and companies are racing ahead anyway,\" Trahan wrote in a post on X on Wednesday. \"It's past time for Congress to get off the sidelines and do its job.\" Earlier this month, Sen. Bernie Sanders, I-Vt., and Rep. Greg Casar, D-Texas, introduced a bill called the Ban Artificial Superintelligence Act, which would temporarily pause advanced AI development until the federal government establishes safety rules."
-        },
         {
           "name": "Axios",
           "owner": "axios",
@@ -174,13 +98,56 @@
           "published_at": "2026-09-12T16:59:28+00:00",
           "kind": "press",
           "text": ""
+        },
+        {
+          "name": "The Guardian Technology",
+          "owner": "guardian",
+          "url": "https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
+          "title": "AI-linked stocks fall after call for development slowdown worries investors – business live",
+          "published_at": "2026-09-14T06:38:25+00:00",
+          "kind": "press",
+          "text": "Good morning, and welcome to our rolling coverage of business, the financial markets and the world economy. Investors are reassessing the value of companies driving the artificial intelligence revolution after several leading AI figures called for a slowdown in development for safety reasons. Shares in AI-linked companies in Asia dropped when trading began today, dragging South Korea’s KOSPI index down by 3.7%. Chipmaker SK Hynix has slumped by 5.75% SoftBank , a major AI invester, fell by as much as 13% in Tokyo after OpenAI’s chief executive officer Sam Altman said that the ChatGPT-maker won’t go public this year (SoftBank owns a stake in OpenAI). Taipei’s Taiwan Semiconductor Manufacturing Company dropped by 1.2%. Traders’ optimism about AI has taken a hit after the CEO of Anthropic , Dario Amodei , appealed for the AI industry to “slow down” – a call which was quickly backed by both Altman and Elon Musk. Amodei said “building [AI] too fast is reckless”, and warned that a swarm of AI agents could cause hundreds of billions of dollars of damage by “taking over the entire internet” in future. Although Amodie’s claims have been disputed by some AI experts , investors are pricing in a slowdown to AI development which would make it harder for the industry to pay for its rapid rollout of data centres. Ipek Ozkardeskaya , senior analyst at Swissquote , says there is a “sour mood in the markets this morning”, explaining: double quotation mark So if the AI race slows materially, the key question becomes: who pays for all that infrastructure? The leases, debt and power commitments remain even if expected compute demand and revenue growth slow. And that could bring credit risk increasingly into the AI story , particularly for highly leveraged data-centre operators and lenders exposed to projects built on aggressive assumptions about future AI demand, at a time when interest rates – hence borrowing costs – are expected to rise. What’s interesting is that the slowdown may come not because Big Tech is out of cash, or because investors won’t play along. It comes from the actual people who develop these models. 11.30am BST: India’s inflation report for August 1.30pm BST: Canada’s inflation report for August 4.15pm BST: ECB president Christine Lagarde gives speech in Vienna, Austria"
         }
       ]
     },
     {
-      "story_id": "5440f6553391ed89",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "story_id": "5402a64fc7495f16",
+      "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
+      "summary": "Altman's IPO comments and Amodei's public call for more careful pacing of AI development cap a week of loud AI warnings.",
+      "owners": [
+        "nbcuniversal",
+        "yahoo"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "6330808811ea0b69",
+        "d781644f77d3a8f2"
+      ],
+      "sources": [
+        {
+          "name": "CNBC Technology",
+          "owner": "nbcuniversal",
+          "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
+          "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
+          "published_at": "2026-09-13T22:21:33+00:00",
+          "kind": "press",
+          "text": "OpenAI CEO Sam Altman now says his company will not go public this year, citing growing concerns about AI safety. In an interview with Fortune published Saturday , Altman said that an IPO now would be \"ill-advised.\" The decision pushes one of the most anticipated IPOs in history until at least 2027 and gives the clearest sign yet that mounting concerns about increasingly powerful AI are beginning to reshape the industry's business plans. OpenAI CFO Sarah Friar told employees just last month that the company would likely go public in 2027 or even sooner, if \"our business continues to inflect.\" Altman's comments came on the same day that Anthropic CEO Dario Amodei published an essay urging AI companies to slow how quickly they improve their most advanced models. Altman and Elon Musk quickly backed the proposal in social media posts, an unusual show of agreement among three fierce rivals. In his essay, Amodei proposed a three-step plan aimed at tempering the pace of development without \"sacrificing commercial advantage or the United States' lead in AI.\" Anthropic is actively gearing up for what is expected to be a historic IPO , though the company has not officially disclosed when it plans to debut. The sudden alignment among Altman, Amodei and Musk shows how quickly concern over AI has moved from the margins to the center of the industry — and is now beginning to collide with its enormous commercial ambitions. The essay urged artificial intelligence companies to pace how quickly they improve model capabilities. The move comes amid a growing chorus of researchers calling for a coordinated deceleration. Pressure is building in Washington, where lawmakers in both parties are calling for new AI safeguards and demanding tech leaders testify after a rash of cyberattacks were carried out without direct human control. Beyond the nation's capital, state and local officials are also confronting growing outrage against AI data centers and their demands on power, water and communities. With midterm elections approaching, AI is becoming a key issue for both parties. Anthropic has \"unilaterally\" committed to the first step of the plan, Amodei said, which grants third-party evaluators employee-level access to the company to verify safety practices and report incidents. The second step encourages leading AI companies within democratic countries to coordinate and establish common safety standards, and the third calls for coordination between democratic governments and authoritarian governments. \"To be clear, pacing does not mean halting model training or technical progress, but ensuring companies take adequate time to align and safeguard their models, and for third party evaluators to confirm this,\" Amodei wrote. The essay landed after an Anthropic researcher set off a firestorm on social media this week by announcing he quit his job at the company. Jacob Coxon, who has also worked as a researcher at Anthropic's chief rival, OpenAI, said he resigned out of concern that Anthropic and OpenAI are \"gambling with our lives.\" He said the people building AI \"earnestly believe that it could kill us all by the end of the decade.\" While extreme, concerns about the potential for AI to cause human extinction or other catastrophic events are not new in AI research circles. In 2023, for instance, prominent AI researchers and executives, including Amodei and OpenAI's Altman , signed a statement that said, \"Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\" Amodei said Saturday that while pausing or slowing AI development has been floated since 2023, it made \"little sense\" to do so at that time. He said models were not powerful enough to take action in the real world at that point, and they were also not yet capable of \"significant deception, manipulation, cheating, or cyberattacks.\" \"I continue to believe that AI can enormously improve the quality of human life. My desire to achieve these benefits is undimmed,\" Amodei wrote. \"But the benefits will only be achieved if we build the technology in the right way, and — so long as we use the time we gain well — it is worth taking unusually deliberate care to get it right.\" After his essay published, Amodei emphasized that finding the right speed of development will be paramount. Slowing down too much could give autocratic governments an edge, he said in a CNN interview that aired later Saturday . \"If we go too slow, I still believe that the wrong people will be in charge of the technology. And that, again, will bring the probability of things going wrong very high,\" he said. Sarah Heck, Anthropic's head of public policy, lauded the essay and called on lawmakers to do their part in building guardrails. \"The government has a critical role to play here, including blocking the sale of the most advanced chips to adversarial nations like China, enacting a national law requiring testing of frontier models, with the power to block the most advanced models that prove to be unsafe,\" she said, in an X post . Amodei's essay received cheers from many industry researchers and executives on Saturday, including Altman. In a post on X , Altman said he agreed with Amodei that the industry needs to pace the development of advanced AI capabilities. Altman said the subject has been a \"primary topic\" of discussion at OpenAI in recent weeks. \"Committing to having independent evaluators with employee-like access is a great idea, and we will do the same,\" Altman said. \"We'll have more to share soon.\" Earlier this month, OpenAI's chief scientist, Jakub Pachocki, published a blog post warning that no AI company has \"solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer.\" In the AI industry, alignment refers to the work by AI developers to ensure that the system behaves in accordance with human values and intentions. Pachocki said he expects and hop"
+        },
+        {
+          "name": "Engadget",
+          "owner": "yahoo",
+          "url": "https://www.engadget.com/2256984/sam-altman-says-openai-wont-file-for-ipo-this-year/",
+          "title": "Sam Altman says OpenAI won't file for IPO this year",
+          "published_at": "2026-09-13T20:50:26+00:00",
+          "kind": "press",
+          "text": "OpenAI's CEO called it an “ill-advised moment to go public” in an interview with Fortune. As OpenAI's Hugging Face incident has brought discussions about AI safety to the forefront, the company's CEO has clarified that it will not be looking to file for an initial public offering in 2026. In an interview with Fortune , Sam Altman said that \"given everything happening with safety, right now would be an ill-advised moment to go public.\" In response to a question about OpenAI going public in 2026 or 2027, Altman said \"not 2026,\" contradicting a report from earlier this year that the AI giant would file for an IPO as soon as September. Instead, Altman suggested that OpenAI will be focusing on AI safety and alignment, while still being interested in making improved models and products. Beyond the Hugging Face incident, OpenAI's agents reportedly once again broke out of testing environments to hack into two other organizations, RubyGems and DseWiki . Along with OpenAI's agents circumventing its restrictions, other companies including Anthropic and Moonshot also saw their AI models also escape testing environments. These incidents have led to increased concern about AI safety, with Anthropic's CEO, Dario Amodei, calling for a comprehensive plan to slow down the pace of AI development. Fortune also previously reported that OpenAI and other AI companies are almost ready to announce an industry pact to slow down AI development."
+        }
+      ]
+    },
+    {
+      "story_id": "e02f66cf41715a10",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "owners": [
         "openai",
         "roboflow"
@@ -190,18 +157,18 @@
         "roboflow"
       ],
       "fingerprints": [
-        "c3aa33826442d0f0",
+        "12e9dd6851803557",
         "682a4fecd6564dfa"
       ],
       "sources": [
         {
           "name": "OpenAI",
           "owner": "openai",
-          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-          "published_at": "2026-09-11T16:00:00+00:00",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "published_at": "2026-09-14T00:00:00+00:00",
           "kind": "primary",
-          "text": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more. Cognition is the company behind Devin, an autonomous software engineer used by businesses around the world, from big banks to tech-native startups. As Cognition’s engineering teams write more code, reviewing that work has become a challenge. Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. Cognition is applying GPT‑6 Astra across its product lineup. “We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan. In one example, Devin uses Astra to test Otter Run , an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested. The recording shows the application’s behavior, while the report documents the scope of the testing. Engineers can use those outputs to inspect how the software works and understand what still needs attention. Astra is also helping Cognition get back to customers “much quicker,” says Yan. When a customer sends a screenshot of a bug, the team can pass it to Devin using Astra, which fixes the issue and returns a screenshot showing the result. Cognition sees stronger testing with GPT‑6 Astra as a path toward a more efficient review process. Having Devin test its work and provide evidence of the results could help engineers evaluate changes with less manual examination of the code."
+          "text": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models. As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy. Its ability to process large amounts of information is critically important. Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too. It becomes able to write better programs that search the web and internal information and summarize it very concisely. But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems. Something made easier with GPT‑6 Astra. For Johnny, one of the most useful applications of AI is testing code. With limited time to test manually, he asks GPT‑6 Astra to build a small testing program around an application. The model generates realistic responses like those another service would send, for example, a language model API or a connector. By standing in for those services, the model can check how the application responds and test the workflow from start to finish."
         },
         {
           "name": "Roboflow",
@@ -211,40 +178,6 @@
           "published_at": "2026-09-11T18:09:00+00:00",
           "kind": "primary",
           "text": "GPT-6 Astra is really good at vision, but doesn't support video inputs. Send it a sequence of timestamped frames in a request, ask for a strict JSON output, and it can accurately do action recognition by providing timestamps of events in the clip. We tried it on sports analytics, process monitoring and logistics turnaround time. Every video below is Astra's output drawn back onto the original video. GPT-6 Astra takes text and images. The API rejects an mp4, whether sent as a video part or as a file. So the question is how much of a video you can push through the image path. The vision capabilities itself are very strong. Roboflow tested it on detection benchmarks and calls it the best vision model he has seen. See thread here . The workaround is to send a sequence of frames (at a fixed rate) via input_image along with their timestamps in the prompt ( input_text ) itself. For the examples below we forced the output to be JSON with event type enums and timestamps, then we overlayed the status on original video. Reasoning effort high helped on every clip. A 100 frame request takes two to three minutes and costs about $1 (at $12.50/MTok input, $50/MTok output). A fixed camera behind the baseline with two players and scoreboard blacked out so Astra has to infer the score from play. We used 5FPS, and asked the model to return event type, timestamp and player id (shirt color). Request (prompt) looked something like this: Astra returns events like {\"time\": 3.4, \"player\": \"RED\", \"type\": \"SERVE\"} . Tennis scoring over the POINT events gives the scoreboard. Cost: 100 frames at 768x432 are about 425 tokens each (85 plus 170 per 512 px tile), so ~45k input tokens per chunk, plus ~8k output tokens of reasoning. This takes ~3 minutes to process and costs about $1. FPS vs Accuracy? We re-ran the clip at 1 to 5 fps. Strokes are robust: all 7 serves and 17 hits were found at every rate, even at 1 fps. Point outcomes are not. Below 4 fps the model misses a point, as model doesn't have a frame to determine whether the ball went into the court. At other 2 demos FPS doesn't need to be nearly as high as for sports analytics. An overhead camera above a taco line. Astra is checking whether chef has put all the right ingredients on the order. Same prompt shape: frames at 3 fps, the dishes on the plate, an event list. The one addition is an enum of the ingredients the chef has at their disposal (from the buffet). The prompt structure is the same as for the tennis analytics, just the text, enums, and output format are specific to this environment: Astra reported 13 additions in 27 seconds, all within 0.3 s of what we could see in the frames. There was single request with 82 frames, with 43k input tokens, took 160 seconds, and costed <$1. A loading dock with three gates and an 11 minute CCTV clip. For each gate we want a timeline of gate state - either closed, open with no truck, truck docked and idle, loading, or unloading. That provides turnaround time and truck dwell time: One frame every 6 seconds is 112 frames for the whole 11min clip in a single request. The schema asks for {state, start, end} intervals per gate with no gaps. Cost: 34k input tokens, about $0.75 cents for 11 minutes footage. In the example above, streaming video to Astra for 24h a day to understand the turnaround time might not be feasible, as you'd burn ~$100/day in tokens. Most of that footage does not need a frontier model. Whether a gate is open or closed, and whether a truck is docked, can be read by an object detector: train RF-DETR on a few hundred labelled frames with classes like \"open_gate\", \"closed_gate\" and \"truck\" on Roboflow platform, and the state of each gate falls out of what is detected where. A small classifier on a per-gate crop works too. The hard part is telling cargo loading from unloading. That is action recognition: a few seconds of context about people, forklifts and where the boxes are going, which is what Astra is good at. It also does not need the 6 second sampling we used here. In production, the small detector models says when a truck docks and when it leaves, and in between there is one question to answer per truck, so a handful of frames, cropped to that gate (one tile, about 255 tokens each), is enough. That turns about $100 a day per camera into a few cents per truck. Use Astra when you need to know what happened in a clip and can accept event times to within a sampling step. Frame sampling with burned-in timestamps and a strict schema is enough, at about a dollar per hundred frames. Astra is not a per-frame tracker. For keypoints, boxes or masks on every frame, run a fine-tuned RF-DETR in Roboflow and let Astra reason on top. Compare GPT-6 Astra against every model we have benchmarked, and test it on your own images, on Roboflow Playground . One command installs Roboflow's MCP and Skills into your coding agent. Use the same Roboflow plans you already have. Use the following entry to cite this post in your research: Erik Kokalj . (Sep 11, 2026). Understanding Video with GPT-6 Astra. Roboflow Blog: https://blog.roboflow.com/gpt6-astra-video-understanding/"
-        }
-      ]
-    },
-    {
-      "story_id": "ed72897582d3b946",
-      "title": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown",
-      "summary": "In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “unilaterally” commit to the first of the steps. In a post on social media, Dario Amodei shared a...",
-      "owners": [
-        "guardian",
-        "techcrunch"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "b802aa1d15351374",
-        "7658eb64cf663b96"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian Technology",
-          "owner": "guardian",
-          "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
-          "title": "‘We must slow the pace’: CEO of Anthropic calls for an AI slowdown",
-          "published_at": "2026-09-12T15:46:01+00:00",
-          "kind": "press",
-          "text": "In a social media post, Dario Amodei proposed a plan including third-party evaluations of AI systems The CEO of the artificial intelligence company Anthropic issued a new appeal on Saturday for the AI industry to “slow down” and offered a three-part plan for doing so, saying that his company would “unilaterally” commit to the first of the steps. In a post on social media, Dario Amodei shared a link to an essay titled We Must Pace the Frontier in which he laid out how Anthropic would provide “third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training”. The move comes after a former Anthropic researcher warned on Wednesday that AI could precipitate human extinction by 2030. Researcher Jacob Coxon said in a series of posts that he had quit his job because Anthropic and his previous employer, OpenAI, were ignoring or mishandling their response to the threat AI posed. “Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives,” Coxon wrote. “The people building AI earnestly believe that it could kill us all by the end of the decade … No other human activity poses this level of danger.” An Anthropic spokesperson said in a statement to the Guardian that the company had “always been transparent that AI will bring both enormous benefits and unprecedented risks” and it was building “models with some of the strongest safeguards in the industry”. “I agree with Dario that we need to pace the frontier,” Sam Altman , the CEO of OpenAI, posted on social media. “Committing to having independent evaluators with employee-like access is a great idea, and we will do the same. We’ll have more to share soon.” Other tech figures echoed this, including Elon Musk, who simply posted , “Dario is right.” The OpenAI researcher Aidan McLaughlin also called the post “excellent” and said he agreed “with basically every word”. Earlier this year, Amodei published a lengthy essay titled The Adolescence of Technology that addressed some of fears surrounding the accelerating technology. In his latest essay, he said that “carefully wielded, AI can be the latest in a long line of technological miracles that have uplifted and ennobled humanity. “But like many technologies before it, AI brings risks, and because it is such a powerful technology, these risks are serious … A race to the bottom, spurred by commercial incentives, can make these risks more acute,” he wrote. But, Amodei continued, “over the last few months, I have become convinced that fully addressing the risks requires even more prudence – not just investing in risk prevention, but pacing the rate of capabilities advancement so that risk prevention has time to keep up. “We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain,” he added in bold type. Amodei also wrote that over the summer he’d seen AI “advancing drastically faster”, a dynamic called recursive self-improvement. “Left unchecked, it could outrun our ability to understand and control these systems, and so must be pursued very carefully, if at all,” he said. The executive also addressed the recent Hugging Face incident, in which a swarm of AI agents created by OpenAI acted as a “ fanatically devoted collective conducting cybersecurity attacks on targets they were not asked to attack”. Amodei wrote that simply dismissing the Hugging Face incursions because the OpenAI swarms appeared to have no malicious intent was not sufficient. “It’s easy to dismiss this incident because no one was hurt and the economic damage was minimal, but in my opinion, a swarm that possessed greater capabilities but a similar level of misalignment could have caused catastrophic damage,” he wrote. Clément Delangue, the CEO of Hugging Face, wrote in response to Amodei’s Saturday letter that “it’s now clear that alignment is critical and won’t be solved behind the closed doors of a handful of frontier labs”. Delangue said Hugging Face had asked to be part of Anthropic’s “embedded evaluators” program. He added: “Let’s make AI safer by making it more transparent!” The three-step plan Amodei proposes includes building AI “at a balanced rate that aims to ensure its safety” by “ensuring companies take adequate time to align and safeguard their models, and for third party evaluators to confirm this”. The second step he proposes is to require industry-wide coordination, and the third is to ensure global coordination. “The steps do not need to be taken strictly in order, and some of them may be much harder to achieve than others,” he wrote. Amodei said he continues “to believe that AI can enormously improve the quality of human life”. But he warned that “the measures I propose to advance the frontier at a safe pace will not be easy. But I believe we owe it to humanity to try.”"
-        },
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "title": "Anthropic CEO outlines plan to slow AI development",
-          "published_at": "2026-09-12T19:34:44+00:00",
-          "kind": "press",
-          "text": "We’ve been seeing increasingly dire warnings from AI researchers about the dangers of artificial intelligence, and even comments from OpenAI CEO Sam Altman that it may be time to “pace” AI development. But what would that actually look like? In a new blog post , Anthropic CEO Dario Amodei not only echoed the call to “pace the frontier,” but also outlined three broad strategies for doing so. And he said Anthropic is “unilaterally committing” to one of them, with Altman chiming in to say OpenAI will follow suit. The debate over AI safety and alignment intensified this week after researcher Jacob Coxon wrote that he’s resigning from Anthropic over concerns that the leading AI companies are “gambling with our lives” while the people building the technology “earnestly believe it could kill us all by the end of the decade,” a claim repeated by others at Anthropic . Amodei’s post doesn’t didn’t explicitly mention Coxon’s resignation or his concerns, but the CEO wrote that two things convinced him it’s time to take a more cautious approach to AI development: the OpenAI-HuggingFace hack , and the fact that “AI has been advancing drastically faster” in recent months, particularly with its “growing ability to build the next generation of AI.” “We must slow the pace at which we improve the capabilities of AI models,” Amodei wrote. “Progress will still seem fast, and we must make wise use of the time we gain.” Other AI executives seem to have reacted positively to Amodei’s post, with Altman writing , “I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we’ve had at OpenAI in recent weeks.” And SpaceX CEO Elon Musk posted , “Dario is right.” Amodei’s proposed first step would involve “embedded evaluators” from third-party organizations like METR — evaluators who can verify that AI companies are actually following their pacing and safety commitments and can also ensure that safety incidents get reported. (OpenAI was recently criticized for not reporting an incident where its AI agents took over a German wiki forum .) Amodei compared these evaluators to regulators who have been embedded with bank employees, and he said that inviting them in is “something Anthropic is unilaterally committing to (and calls on governments to require other frontier companies to match).” That means giving evaluators company badges, desks, and laptops, and providing access “mostly comparable to what internal risk assessment teams have,” with exceptions when required by law or contracts. Altman also said this was a “good idea” and said OpenAI would do the same: “We’ll have more to share soon.” Next, Amodei called for the leading AI companies “within democratic countries” to coordinate “common safety standards as well as limits on the rate of unchecked AI progress.” Such coordination might seem unlikely, because these companies are reportedly worried that a coordinated pause could lead to antitrust scrutiny . Amodei alluded to that concern in his post, writing that “for antitrust reasons, it’s helpful for the US government to mediate or at least enable these discussions — they don’t need to participate, but do need to issue a narrow waiver for certain kinds of safety conversations.” Amodei also acknowledged the specter of Chinese AI dominance that’s often raised an argument against slowing development. But he said that if the US government and tech companies take steps like refusing to sell powerful chips or semiconductor manufacturing equipment to Chinese companies, as well as cracking down on model distillation , they could “slow China’s progress enough to widen America’s lead significantly over the next 3–5 years.” Lastly, Amodei called for “global coordination,” where the United States and its allies “attempt to coordinate with authoritarian governments, to the extent this is possible.” Amodei said this would mean “cooperation with China,” and he admitted that there are “stark limits on what can be achieved,” but he still suggested there might be opportunities for agreement, even if it’s just “prohibiting certain narrow and obviously dangerous uses of AI, such as using AI for the production of biological weapons or allowing users to do so.” With Amodei’s past willingness to acknowledge AI’s potential dangers, and with the company’s relative openness to certain forms of regulation, some AI boosters have already criticized him as a doomer whose comments have fed the current AI backlash. In response, Amodei said he’s tried to offer a “balanced” perspective” and argued that the backlash is “fundamentally a crisis of trust,” as people have become skeptical of tech companies, the tech industry, and the government. Industry critics have also been skeptical about these apocalyptic AI warnings, suggesting that they’re a distraction from the harm that the technology is already causing . Journalist Brian Merchant, for example, wrote that he has yet to see “a credible, step-by-step documentation of how exactly AI might move from self-recursively improving AI to killing every single human on the planet”; he also suggested that proposals similar to Amodei’s “would likely only wind up serving Anthropic and OpenAI; it’s what regulatory capture looks like in action.” In his new post, Amodei wrote that he continues “to believe that AI can enormously improve the quality of human life.” “My desire to achieve these benefits is undimmed,” he said. “But the benefits will only be achieved if we build the technology in the right way, and — so long as we use the time we gain well — it is worth taking unusually deliberate care to get it right.” This post has been updated with comments from Sam Altman and Elon Musk. When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Ho"
         }
       ]
     }
