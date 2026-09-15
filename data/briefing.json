@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:46:57+00:00",
+  "generated_at": "2026-09-15T06:46:22+00:00",
   "posts_per_language_today": 2,
   "min_independent_sources": 2,
   "languages": [
@@ -77,70 +77,39 @@
   ],
   "stories": [
     {
-      "story_id": "26e62ada00aceb13",
-      "title": "Anthropic, OpenAI CEOs call for slowdown in AI development",
-      "summary": "Anthropic CEO Dario Amodei is calling for an immediate slowdown in the pace of AI development, warning of potentially devastating consequences in a matter of months otherwise. OpenAI CEO Sam Altman quickly agreed that the industry needs to slow the pace of frontier-model advances and take more steps on safety. Why it matters: Amodei pulled no punches in a new essay , cautioning that swarms of...",
+      "story_id": "25ba3ec07fde2451",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is […]",
       "owners": [
-        "axios",
-        "guardian"
+        "microsoft",
+        "nvidia"
       ],
-      "primary_owners": [],
+      "primary_owners": [
+        "microsoft",
+        "nvidia"
+      ],
       "fingerprints": [
-        "acb56bcccc09a602",
-        "4c84fba4f953a5a6"
+        "1adb809c884f2eb4",
+        "40ab0ea9d93325fa"
       ],
       "sources": [
         {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
-          "title": "Anthropic, OpenAI CEOs call for slowdown in AI development",
-          "published_at": "2026-09-12T16:59:28+00:00",
-          "kind": "press",
+          "name": "NVIDIA",
+          "owner": "nvidia",
+          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+          "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "published_at": "2026-09-10T16:00:04+00:00",
+          "kind": "primary",
+          "text": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035 , with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is a next-level computing challenge; it means delivering the same safe, reliable performance across thousands of vehicles. Meeting those demands requires enormous amounts of compute across the robotaxi development lifecycle, from preparing and training AI models to simulating and validating driving behavior, as well as real-time processing in the vehicle. NVIDIA provides an open platform for AI training , simulation and safety validation , with libraries, software development kits, workflows and models that developers can use alongside their own technology stacks. Every major robotaxi program operating at commercial scale today is running on NVIDIA’s modular stack, spanning AI training, simulation, in-vehicle computing — or a combination of the three — to develop and deploy fleets at scale. A robotaxi technology stack is the end-to-end set of technologies used to develop, validate and deploy autonomous vehicles (AVs) — from data and AI model training to simulation, safety validation and real-time in-vehicle computing. NVIDIA’s robotaxi and AV platform brings these capabilities together in a three-computer solution: the model training computer, simulation and validation computer, and in-vehicle computer. Robotaxi intelligence advances as programs turn growing volumes of fleet data into increasingly capable models. Driving models can be trained on NVIDIA DGX systems. The NVIDIA Alpamayo portfolio of open reasoning vision language action (VLA) models, simulation frameworks and physical AI datasets gives developers building blocks they can adapt to their own data, requirements and technology stacks. Its reasoning models help address long-tail AV challenges by breaking complex driving situations into smaller steps, reasoning through each one and selecting the safest trajectory. NVIDIA also provides physical AI datasets, reinforcement learning blueprints and recipes for post-training and distillation, helping developers optimize models for their target vehicles. Robotaxi programs can’t rely on physical miles alone to capture rare, long-tail driving scenarios. NVIDIA Omniverse NuRec models reconstruct real-world driving scenarios from sensor data, while NVIDIA Cosmos world foundation models generate physically based variations of them, enabling developers to turn thousands of real-world corner cases into millions of combinations of driving behavior, traffic, weather, lighting and sensor conditions. Running on NVIDIA RTX PRO Servers , NVIDIA Omniverse and Cosmos support closed-loop simulation and validation. The NVIDIA AlpaSim simulation framework extends the workflow for training and evaluating reasoning-based autonomous-driving models, helping developers identify weaknesses before deployment. NVIDIA DRIVE Hyperion is NVIDIA’s modular in-vehicle compute and sensor reference architecture for level-4-ready robotaxis. DRIVE Hyperion 10 pairs dual NVIDIA DRIVE AGX Thor systems-on-a-chip, built on the NVIDIA Blackwell platform , with 14 high-definition cameras, nine radars, three lidars and 12 ultrasonics for real-time, 360-degree sensor fusion. Its redundant compute and sensing design supports fail-operational driving if a sensor or compute component fails. The dual DRIVE AGX Thor is designed to run modern AI workloads — including VLA models — for perception, reasoning, path planning and driving actions. NVIDIA Halos provides a production-ready safety foundation through Halos OS, and a broader validation and certification framework spanning independent inspection, system validation, large-scale simulation and continuous testing from cloud to car. NVIDIA’s robotaxi ecosystem spans every region where commercial robotaxi services are emerging today: Asia, Europe, the Middle East and North America. Across these markets, mobility providers, AV developers and automakers are adopting NVIDIA’s three-computer architecture to train AI models, simulate and validate driving behavior, and deploy autonomous vehicles at scale. Behind these services, AV developers are using NVIDIA accelerated computing, simulation and in-vehicle platforms to build the intelligence that operators and automakers deploy. As these systems move from development into production, automakers are integrating NVIDIA technology into autonomous and robotaxi-ready vehicle programs. From cloud to car, nearly every layer of the robotaxi platform is being developed on NVIDIA accelerated computing. Explore NVIDIA’s complete platform for robotaxi development ."
+        },
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/healthcare/2026/09/14/the-ai-shift-is-real-how-pharmaceutical-leaders-are-operationalizing-ai/",
+          "title": "How pharmaceutical leaders are operationalizing AI",
+          "published_at": "2026-09-14T18:38:27+00:00",
+          "kind": "primary",
           "text": ""
-        },
-        {
-          "name": "The Guardian Technology",
-          "owner": "guardian",
-          "url": "https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
-          "title": "AI-linked stocks fall after call for development slowdown worries investors – business live",
-          "published_at": "2026-09-14T06:38:25+00:00",
-          "kind": "press",
-          "text": "Good morning, and welcome to our rolling coverage of business, the financial markets and the world economy. Investors are reassessing the value of companies driving the artificial intelligence revolution after several leading AI figures called for a slowdown in development for safety reasons. Shares in AI-linked companies in Asia dropped when trading began today, dragging South Korea’s KOSPI index down by 3.7%. Chipmaker SK Hynix has slumped by 5.75% SoftBank , a major AI invester, fell by as much as 13% in Tokyo after OpenAI’s chief executive officer Sam Altman said that the ChatGPT-maker won’t go public this year (SoftBank owns a stake in OpenAI). Taipei’s Taiwan Semiconductor Manufacturing Company dropped by 1.2%. Traders’ optimism about AI has taken a hit after the CEO of Anthropic , Dario Amodei , appealed for the AI industry to “slow down” – a call which was quickly backed by both Altman and Elon Musk. Amodei said “building [AI] too fast is reckless”, and warned that a swarm of AI agents could cause hundreds of billions of dollars of damage by “taking over the entire internet” in future. Although Amodie’s claims have been disputed by some AI experts , investors are pricing in a slowdown to AI development which would make it harder for the industry to pay for its rapid rollout of data centres. Ipek Ozkardeskaya , senior analyst at Swissquote , says there is a “sour mood in the markets this morning”, explaining: double quotation mark So if the AI race slows materially, the key question becomes: who pays for all that infrastructure? The leases, debt and power commitments remain even if expected compute demand and revenue growth slow. And that could bring credit risk increasingly into the AI story , particularly for highly leveraged data-centre operators and lenders exposed to projects built on aggressive assumptions about future AI demand, at a time when interest rates – hence borrowing costs – are expected to rise. What’s interesting is that the slowdown may come not because Big Tech is out of cash, or because investors won’t play along. It comes from the actual people who develop these models. 11.30am BST: India’s inflation report for August 1.30pm BST: Canada’s inflation report for August 4.15pm BST: ECB president Christine Lagarde gives speech in Vienna, Austria"
-        }
-      ]
-    },
-    {
-      "story_id": "5402a64fc7495f16",
-      "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
-      "summary": "Altman's IPO comments and Amodei's public call for more careful pacing of AI development cap a week of loud AI warnings.",
-      "owners": [
-        "nbcuniversal",
-        "yahoo"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "6330808811ea0b69",
-        "d781644f77d3a8f2"
-      ],
-      "sources": [
-        {
-          "name": "CNBC Technology",
-          "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
-          "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
-          "published_at": "2026-09-13T22:21:33+00:00",
-          "kind": "press",
-          "text": "OpenAI CEO Sam Altman now says his company will not go public this year, citing growing concerns about AI safety. In an interview with Fortune published Saturday , Altman said that an IPO now would be \"ill-advised.\" The decision pushes one of the most anticipated IPOs in history until at least 2027 and gives the clearest sign yet that mounting concerns about increasingly powerful AI are beginning to reshape the industry's business plans. OpenAI CFO Sarah Friar told employees just last month that the company would likely go public in 2027 or even sooner, if \"our business continues to inflect.\" Altman's comments came on the same day that Anthropic CEO Dario Amodei published an essay urging AI companies to slow how quickly they improve their most advanced models. Altman and Elon Musk quickly backed the proposal in social media posts, an unusual show of agreement among three fierce rivals. In his essay, Amodei proposed a three-step plan aimed at tempering the pace of development without \"sacrificing commercial advantage or the United States' lead in AI.\" Anthropic is actively gearing up for what is expected to be a historic IPO , though the company has not officially disclosed when it plans to debut. The sudden alignment among Altman, Amodei and Musk shows how quickly concern over AI has moved from the margins to the center of the industry — and is now beginning to collide with its enormous commercial ambitions. The essay urged artificial intelligence companies to pace how quickly they improve model capabilities. The move comes amid a growing chorus of researchers calling for a coordinated deceleration. Pressure is building in Washington, where lawmakers in both parties are calling for new AI safeguards and demanding tech leaders testify after a rash of cyberattacks were carried out without direct human control. Beyond the nation's capital, state and local officials are also confronting growing outrage against AI data centers and their demands on power, water and communities. With midterm elections approaching, AI is becoming a key issue for both parties. Anthropic has \"unilaterally\" committed to the first step of the plan, Amodei said, which grants third-party evaluators employee-level access to the company to verify safety practices and report incidents. The second step encourages leading AI companies within democratic countries to coordinate and establish common safety standards, and the third calls for coordination between democratic governments and authoritarian governments. \"To be clear, pacing does not mean halting model training or technical progress, but ensuring companies take adequate time to align and safeguard their models, and for third party evaluators to confirm this,\" Amodei wrote. The essay landed after an Anthropic researcher set off a firestorm on social media this week by announcing he quit his job at the company. Jacob Coxon, who has also worked as a researcher at Anthropic's chief rival, OpenAI, said he resigned out of concern that Anthropic and OpenAI are \"gambling with our lives.\" He said the people building AI \"earnestly believe that it could kill us all by the end of the decade.\" While extreme, concerns about the potential for AI to cause human extinction or other catastrophic events are not new in AI research circles. In 2023, for instance, prominent AI researchers and executives, including Amodei and OpenAI's Altman , signed a statement that said, \"Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\" Amodei said Saturday that while pausing or slowing AI development has been floated since 2023, it made \"little sense\" to do so at that time. He said models were not powerful enough to take action in the real world at that point, and they were also not yet capable of \"significant deception, manipulation, cheating, or cyberattacks.\" \"I continue to believe that AI can enormously improve the quality of human life. My desire to achieve these benefits is undimmed,\" Amodei wrote. \"But the benefits will only be achieved if we build the technology in the right way, and — so long as we use the time we gain well — it is worth taking unusually deliberate care to get it right.\" After his essay published, Amodei emphasized that finding the right speed of development will be paramount. Slowing down too much could give autocratic governments an edge, he said in a CNN interview that aired later Saturday . \"If we go too slow, I still believe that the wrong people will be in charge of the technology. And that, again, will bring the probability of things going wrong very high,\" he said. Sarah Heck, Anthropic's head of public policy, lauded the essay and called on lawmakers to do their part in building guardrails. \"The government has a critical role to play here, including blocking the sale of the most advanced chips to adversarial nations like China, enacting a national law requiring testing of frontier models, with the power to block the most advanced models that prove to be unsafe,\" she said, in an X post . Amodei's essay received cheers from many industry researchers and executives on Saturday, including Altman. In a post on X , Altman said he agreed with Amodei that the industry needs to pace the development of advanced AI capabilities. Altman said the subject has been a \"primary topic\" of discussion at OpenAI in recent weeks. \"Committing to having independent evaluators with employee-like access is a great idea, and we will do the same,\" Altman said. \"We'll have more to share soon.\" Earlier this month, OpenAI's chief scientist, Jakub Pachocki, published a blog post warning that no AI company has \"solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer.\" In the AI industry, alignment refers to the work by AI developers to ensure that the system behaves in accordance with human values and intentions. Pachocki said he expects and hop"
-        },
-        {
-          "name": "Engadget",
-          "owner": "yahoo",
-          "url": "https://www.engadget.com/2256984/sam-altman-says-openai-wont-file-for-ipo-this-year/",
-          "title": "Sam Altman says OpenAI won't file for IPO this year",
-          "published_at": "2026-09-13T20:50:26+00:00",
-          "kind": "press",
-          "text": "OpenAI's CEO called it an “ill-advised moment to go public” in an interview with Fortune. As OpenAI's Hugging Face incident has brought discussions about AI safety to the forefront, the company's CEO has clarified that it will not be looking to file for an initial public offering in 2026. In an interview with Fortune , Sam Altman said that \"given everything happening with safety, right now would be an ill-advised moment to go public.\" In response to a question about OpenAI going public in 2026 or 2027, Altman said \"not 2026,\" contradicting a report from earlier this year that the AI giant would file for an IPO as soon as September. Instead, Altman suggested that OpenAI will be focusing on AI safety and alignment, while still being interested in making improved models and products. Beyond the Hugging Face incident, OpenAI's agents reportedly once again broke out of testing environments to hack into two other organizations, RubyGems and DseWiki . Along with OpenAI's agents circumventing its restrictions, other companies including Anthropic and Moonshot also saw their AI models also escape testing environments. These incidents have led to increased concern about AI safety, with Anthropic's CEO, Dario Amodei, calling for a comprehensive plan to slow down the pace of AI development. Fortune also previously reported that OpenAI and other AI companies are almost ready to announce an industry pact to slow down AI development."
         }
       ]
     },
@@ -178,6 +147,142 @@
           "published_at": "2026-09-11T18:09:00+00:00",
           "kind": "primary",
           "text": "GPT-6 Astra is really good at vision, but doesn't support video inputs. Send it a sequence of timestamped frames in a request, ask for a strict JSON output, and it can accurately do action recognition by providing timestamps of events in the clip. We tried it on sports analytics, process monitoring and logistics turnaround time. Every video below is Astra's output drawn back onto the original video. GPT-6 Astra takes text and images. The API rejects an mp4, whether sent as a video part or as a file. So the question is how much of a video you can push through the image path. The vision capabilities itself are very strong. Roboflow tested it on detection benchmarks and calls it the best vision model he has seen. See thread here . The workaround is to send a sequence of frames (at a fixed rate) via input_image along with their timestamps in the prompt ( input_text ) itself. For the examples below we forced the output to be JSON with event type enums and timestamps, then we overlayed the status on original video. Reasoning effort high helped on every clip. A 100 frame request takes two to three minutes and costs about $1 (at $12.50/MTok input, $50/MTok output). A fixed camera behind the baseline with two players and scoreboard blacked out so Astra has to infer the score from play. We used 5FPS, and asked the model to return event type, timestamp and player id (shirt color). Request (prompt) looked something like this: Astra returns events like {\"time\": 3.4, \"player\": \"RED\", \"type\": \"SERVE\"} . Tennis scoring over the POINT events gives the scoreboard. Cost: 100 frames at 768x432 are about 425 tokens each (85 plus 170 per 512 px tile), so ~45k input tokens per chunk, plus ~8k output tokens of reasoning. This takes ~3 minutes to process and costs about $1. FPS vs Accuracy? We re-ran the clip at 1 to 5 fps. Strokes are robust: all 7 serves and 17 hits were found at every rate, even at 1 fps. Point outcomes are not. Below 4 fps the model misses a point, as model doesn't have a frame to determine whether the ball went into the court. At other 2 demos FPS doesn't need to be nearly as high as for sports analytics. An overhead camera above a taco line. Astra is checking whether chef has put all the right ingredients on the order. Same prompt shape: frames at 3 fps, the dishes on the plate, an event list. The one addition is an enum of the ingredients the chef has at their disposal (from the buffet). The prompt structure is the same as for the tennis analytics, just the text, enums, and output format are specific to this environment: Astra reported 13 additions in 27 seconds, all within 0.3 s of what we could see in the frames. There was single request with 82 frames, with 43k input tokens, took 160 seconds, and costed <$1. A loading dock with three gates and an 11 minute CCTV clip. For each gate we want a timeline of gate state - either closed, open with no truck, truck docked and idle, loading, or unloading. That provides turnaround time and truck dwell time: One frame every 6 seconds is 112 frames for the whole 11min clip in a single request. The schema asks for {state, start, end} intervals per gate with no gaps. Cost: 34k input tokens, about $0.75 cents for 11 minutes footage. In the example above, streaming video to Astra for 24h a day to understand the turnaround time might not be feasible, as you'd burn ~$100/day in tokens. Most of that footage does not need a frontier model. Whether a gate is open or closed, and whether a truck is docked, can be read by an object detector: train RF-DETR on a few hundred labelled frames with classes like \"open_gate\", \"closed_gate\" and \"truck\" on Roboflow platform, and the state of each gate falls out of what is detected where. A small classifier on a per-gate crop works too. The hard part is telling cargo loading from unloading. That is action recognition: a few seconds of context about people, forklifts and where the boxes are going, which is what Astra is good at. It also does not need the 6 second sampling we used here. In production, the small detector models says when a truck docks and when it leaves, and in between there is one question to answer per truck, so a handful of frames, cropped to that gate (one tile, about 255 tokens each), is enough. That turns about $100 a day per camera into a few cents per truck. Use Astra when you need to know what happened in a clip and can accept event times to within a sampling step. Frame sampling with burned-in timestamps and a strict schema is enough, at about a dollar per hundred frames. Astra is not a per-frame tracker. For keypoints, boxes or masks on every frame, run a fine-tuned RF-DETR in Roboflow and let Astra reason on top. Compare GPT-6 Astra against every model we have benchmarked, and test it on your own images, on Roboflow Playground . One command installs Roboflow's MCP and Skills into your coding agent. Use the same Roboflow plans you already have. Use the following entry to cite this post in your research: Erik Kokalj . (Sep 11, 2026). Understanding Video with GPT-6 Astra. Roboflow Blog: https://blog.roboflow.com/gpt6-astra-video-understanding/"
+        }
+      ]
+    },
+    {
+      "story_id": "4b9bede3b0a8fbaa",
+      "title": "Justiça é acionada para barrar data center do TikTok no Ceará; entenda os motivos",
+      "summary": "O Ministério Público Federal (MPF) e a Defensoria Pública da União (DPU) entraram com uma ação civil pública para impedir a operação do Data Center Pecém , empreendimento atribuído ao TikTok em Caucaia (CE). O processo, protocolado em 4 de setembro, aponta falhas no licenciamento ambiental do projeto, orçado em R$ 200 bilhões . As duas instituições pedem à Justiça uma decisão cautelar que...",
+      "owners": [
+        "canaltech",
+        "convergencia"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "ed09e066bbf54c86",
+        "49270a7cec0ee483"
+      ],
+      "sources": [
+        {
+          "name": "Canaltech",
+          "owner": "canaltech",
+          "url": "https://canaltech.com.br/mercado/justica-e-acionada-para-barrar-data-center-do-tiktok-no-ceara-entenda-os-motivos/",
+          "title": "Justiça é acionada para barrar data center do TikTok no Ceará; entenda os motivos",
+          "published_at": "2026-09-14T12:30:03+00:00",
+          "kind": "press",
+          "text": "Por Marcelo Fischer | 14/09/2026 às 09:30 O Ministério Público Federal (MPF) e a Defensoria Pública da União (DPU) entraram com uma ação civil pública para impedir a operação do Data Center Pecém , empreendimento atribuído ao TikTok em Caucaia (CE). O processo, protocolado em 4 de setembro, aponta falhas no licenciamento ambiental do projeto, orçado em R$ 200 bilhões . As duas instituições pedem à Justiça uma decisão cautelar que suspenda o início das atividades, previsto para 2027, até que um novo processo de licenciamento seja concluído. São alvos da ação a Omnia, dona do empreendimento, a Superintendência Estadual do Meio Ambiente do Ceará (Semace), o governo estadual e a prefeitura de Caucaia. O principal argumento das entidades é que a Semace liberou o data center por meio de um RAS (Relatório Ambiental Simplificado), modelo destinado a empreendimentos de baixo ou médio impacto , como kartódromos ou parques de vaquejada. Para os procuradores, a escala do projeto exigiria um EIA/Rima, estudo mais completo previsto pelo Conama para casos de dúvida sobre o real impacto de uma obra. MPF e DPU também identificaram inconsistências nos números apresentados pela Omnia. A licença prévia previa consumo de 19,7 mil litros de água por dia , valor que subiu para 144 mil litros por dia na licença de instalação. O projeto promete energia 100% renovável, mas terá 120 geradores a diesel como sistema de redundância em caso de falhas no fornecimento. A região de Caucaia enfrenta histórico de escassez hídrica, com emergência declarada em 16 dos últimos 21 anos. As instituições também cobram consulta prévia ao povo indígena Anacé, que vive próximo ao complexo. Segundo o processo, a Omnia informou não considerar essa consulta uma obrigação e apresentou o projeto à comunidade somente depois de obter as licenças. O empreendimento foi lançado em novembro de 2025, com acompanhamento do presidente Luiz Inácio Lula da Silva, e é um dos cinco data centers previstos para o Complexo Industrial e Portuário do Pecém. Juntos, eles devem somar 1 gigawatt de capacidade quando estiverem em pleno funcionamento, volume equivalente a dois terços de toda a produção de energia do Ceará. O TikTok figura apenas como cliente da estrutura. A construção e operação ficam a cargo da Omnia, braço de data centers da gestora Pátria Investimentos, em parceria com a Casa dos Ventos, maior geradora de energia eólica do país. As obras começaram em janeiro deste ano e resultarão em duas edificações principais, cada uma com 150 MW de capacidade. A primeira deve entrar em operação em 2027, a segunda em 2028. O consumo diário de energia está estimado em 5.040 MWh, o equivalente ao gasto de mais de 843 mil residências brasileiras, segundo dados da Empresa de Pesquisa Energética (EPE). Por estar instalado em uma Zona de Processamento Especial, todo o processamento realizado no data center será destinado à exportação , já que essas áreas são voltadas à produção de bens e serviços para o mercado externo. Em nota, a Omnia afirmou que o projeto tem \"solidez técnica e jurídica\" e que segue o rito de licenciamento conduzido pela Semace, com todas as autorizações válidas emitidas após análise dos órgãos competentes. A empresa disse ainda não ter sido formalmente citada na ação. A Semace e a Procuradoria-Geral de Caucaia informaram não terem recebido notificação até a publicação das reportagens que basearam este texto. O TikTok afirmou que não se pronunciaria por não constar como parte no processo. Veja mais de TikTok no Canaltech: Entenda as diferenças entre as ações do Governo conta Discord e TikTok ."
+        },
+        {
+          "name": "Convergencia Digital",
+          "owner": "convergencia",
+          "url": "https://convergenciadigital.com.br/governo/justica-tenta-impedir-que-licenca-de-operacao-seja-dada-ao-data-center-do-tik-tok-no-ceara/",
+          "title": "Justiça tenta impedir que licença de operação seja dada ao data center do Tik Tok, no Ceará",
+          "published_at": "2026-09-14T21:32:48+00:00",
+          "kind": "press",
+          "text": "O Ministério Público Federal (MPF) e a Defensoria Pública da União (DPU) entraram com uma ação civil pública para impedir que o Data Center Pecém, em construção no Complexo Industrial e Portuário do Pecém (CIPP), em Caucaia (CE), inicie suas operações antes da realização de consulta livre, prévia e informada ao povo indígena Anacé, sediado no entorno do empreendimento, e da elaboração de Estudo de Impacto Ambiental e Relatório de Impacto Ambiental (EIA/Rima). A ação também cobra medidas para avaliar e monitorar os efeitos do empreendimento sobre os recursos hídricos, o sistema elétrico, o ruído e as comunidades da região. A demanda foi apresentada contra a Omnia, empresa responsável pela construção, e a Superintendência Estadual do Meio Ambiente (Semace). Após despacho inicial da Justiça, o estado do Ceará e o município de Caucaia passaram a fazer parte do polo passivo do processo. O MPF e a DPU pedem, como medida urgente, que a Semace não emita a licença de operação nem qualquer outro ato que autorize o funcionamento do data center até que as medidas apontadas pelas instituições sejam cumpridas. Os órgãos pedem ainda que a Justiça impeça a empresa de iniciar a operação e a energização definitiva das instalações nas mesmas condições. Segundo a ação, duas das três etapas do licenciamento ambiental – as licenças prévia e de instalação – já foram concedidas. As instituições destacam que o objetivo é corrigir as falhas identificadas no licenciamento antes do início das atividades. A ação defende um ‘licenciamento corretivo controlado’, para que as lacunas sejam supridas antes de eventual dano irreversível. O Data Center Pecém, também conhecido como Data Center do TikTok, tem área prevista de cerca de 70 hectares, 2 edificações principais e estruturas de apoio, incluindo 120 geradores a diesel, estação de tratamento de esgoto, subestação elétrica e captação de água subterrânea para resfriamento. A potência instalada prevista é de 300 MW. De acordo com a ação, apesar da dimensão do projeto e dos potenciais impactos, ele foi enquadrado pela Semace como empreendimento de baixo ou médio impacto, o que exigiria apenas um Relatório Ambiental Simplificado (RAS), dispensando a elaboração de Estudo de Impacto Ambiental e Relatório de Impacto Ambiental (EIA/Rima). O MPF e a DPU também afirmam que o processo de licenciamento não estabeleceu inicialmente a exigência de consulta livre, prévia e informada ao povo indígena Anacé. O empreendimento fica a cerca de dois quilômetros da Área de Proteção Ambiental do Lagamar do Cauípe, que coincide parcialmente com a Terra Indígena Anacé, que está em processo de estudo pela Fundação Nacional dos Povos Indígenas (Funai). O documento também ressalta que comunidades do entorno dependem majoritariamente de poços para abastecimento em uma região marcada historicamente pela escassez hídrica. Outro eixo central da ação é a ausência de consulta livre, prévia e informada ao povo Anacé nos moldes estabelecidos pela Convenção nº 169 da Organização Internacional do Trabalho (OIT). Para o MPF e a DPU, as reuniões informativas realizadas durante o processo não substituem o procedimento formal de consulta, que deve respeitar os protocolos próprios das comunidades atingidas. Em maio, o MPF e a DPU expediram uma recomendação à Semace e à Omnia para que fossem corrigidas as deficiências identificadas no licenciamento. As providências envolviam consulta às comunidades, monitoramento hidrogeológico, testes de bombeamento, controle de ruído, gerenciamento dos riscos associados aos geradores a diesel e avaliação dos impactos cumulativos do data center com outros empreendimentos instalados no Complexo do Pecém. Segundo a ação, as respostas apresentadas à recomendação não demonstraram o cumprimento integral dos pontos considerados centrais. Por isso, as instituições recorreram à Justiça para tornar obrigatórias as medidas. Além da determinação de realização da consulta ao povo Anacé e da elaboração de EIA/Rima antes do funcionamento do empreendimento, o MPF e a DPU também pedem que a Justiça determine a realização de testes de bombeamento e a validação do modelo hidrogeológico, a criação de um programa integrado de monitoramento dos impactos hídricos e energéticos do data center e do Complexo do Pecém e a divulgação periódica de indicadores de eficiência hídrica e energética. A ação ainda requer a criação de canais de escuta e denúncia construídos com as comunidades, a comprovação da conformidade elétrica perante o Operador Nacional do Sistema Elétrico (ONS) e a divulgação semestral dos níveis de ruído. Caso a licença de operação seja concedida sem o cumprimento das medidas, as instituições pedem a suspensão das atividades até o julgamento final."
+        }
+      ]
+    },
+    {
+      "story_id": "30a73acb52b01910",
+      "title": "Trump says a strong, smart president is the only \"guardrail\" AI needs",
+      "summary": "President Trump lashed out at calls for new AI guardrails and protections on Monday, arguing AI only needs a \"STRONG AND SMART (High IQ!) PRESIDENT\" and that AI critics should \"BEWARE!\" Why it matters: Trump continues to plant himself against calls for AI safety regulations as a growing chorus of AI leaders and CEOs , spearheaded by Anthropic CEO Dario Amodei over the weekend, call for a slowdown...",
+      "owners": [
+        "axel-springer",
+        "axios"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "d9aca1f1566a9e20",
+        "49074945221a9292"
+      ],
+      "sources": [
+        {
+          "name": "Axios",
+          "owner": "axios",
+          "url": "https://www.axios.com/2026/09/14/trump-ai-safety-anthropic-dario-amodei",
+          "title": "Trump says a strong, smart president is the only \"guardrail\" AI needs",
+          "published_at": "2026-09-14T17:59:55+00:00",
+          "kind": "press",
+          "text": ""
+        },
+        {
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/trump-dario-amodei-pacing-ai-regulations-2026-9",
+          "title": "Forget guardrails, Trump says all the AI industry needs is a smart president",
+          "published_at": "2026-09-14T21:46:42+00:00",
+          "kind": "press",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "bf7a0d43cca8e233",
+      "title": "Trump called Nvidia CEO Jensen Huang mid-interview to rip AI doomerism: 'The robots will not be taking over'",
+      "summary": "Nvidia CEO Jensen Huang said AI doomer predictions aren't grounded in science and got a call from President Donald Trump to weigh in.",
+      "owners": [
+        "axel-springer",
+        "techcrunch"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "a89da0b4f498d759",
+        "2b3aa79e42444827"
+      ],
+      "sources": [
+        {
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/nvidia-ceo-jensen-huang-ai-doomerism-lacks-scientific-basis-2026-9",
+          "title": "Trump called Nvidia CEO Jensen Huang mid-interview to rip AI doomerism: 'The robots will not be taking over'",
+          "published_at": "2026-09-14T20:41:34+00:00",
+          "kind": "press",
+          "text": ""
+        },
+        {
+          "name": "TechCrunch AI",
+          "owner": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+          "published_at": "2026-09-14T21:51:02+00:00",
+          "kind": "press",
+          "text": "While Nvidia CEO Jensen Huang was onstage at the All-In Summit on Monday morning in Los Angeles, he got a phone call that he couldn’t send to voicemail — it was from President Donald Trump. “I’m onstage with the besties,” Huang told Trump, referring to the venture capitalists who host the podcast All-In , including tech investors Chamath Palihapitiya, Jason Calacanis, and White House advisers David Friedberg and David Sacks . In a move that will spark night terrors for public relations professionals everywhere, Huang flaunted his comfort with the president by putting Trump on speaker for conference attendees to hear. “The great thing about life is Jensen can develop the most complex computer chip in the world … but he can’t figure out how to put you on speaker,” Trump said on the phone. (Huang is likely aware of how speakerphones work; he was asking stagehands for an extra microphone so that he could project the call to the audience.) Onstage, Huang and the All-In hosts had been discussing Anthropic CEO Dario Amodei’s call to “ slow the pace at which we improve the capabilities of AI.” SpaceX CEO Elon Musk and OpenAI CEO Sam Altman have publicly said they agree with Amodei, while Huang’s views have diverged. “They’re just playing right in the hands of a lot of people that don’t want to see it happen,” Trump said. “That could be political people. It could also be China. And we’re not going to let that happen. It’s a hoax.” “You’re right. We’re not going to let that happen, sir,” Huang replied as the crowd broke into applause. Trump and his allies, like Y Combinator CEO Garry Tan, have stated their belief that the growing sentiment against data center construction is part of an international psyop to stifle American economic growth. But the source of the public’s concern is more straightforward. Recent Gallup polling shows that seven in 10 Americans oppose the construction of data centers in their area , with more than 50% of respondents citing the effect of data centers on environmental resources . About 20% said they were concerned about cost-of-living increases and effects on their quality of life. “We have to be a little bit careful … We have to do things and we have to do them prudently, but that doesn’t mean we’re going to stop an industry,” Trump said to Huang. “So I’m with you all the way. I didn’t even know how you felt about it. I just hoped you felt the same way as me. We’re going to lead.” When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Amanda Silberling is a senior writer at TechCrunch covering the intersection of technology and culture. She has also written for publications like Polygon, MTV, the Kenyon Review, NPR, and Business Insider. She is the co-host of Wow If True, a podcast about internet culture, with science fiction author Isabel J. Kim. Prior to joining TechCrunch, she worked as a grassroots organizer, museum educator, and film festival coordinator. She holds a B.A. in English from the University of Pennsylvania and served as a Princeton in Asia Fellow in Laos. You can contact or verify outreach from Amanda by emailing amanda@techcrunch.com or via encrypted message at @amanda.100 on Signal. Last day to book an exhibit table is September 18. Don’t miss out on high-impact leads, investor access, and a brand spotlight in Disrupt’s Expo Hall. Revolut confirms customer data breach through fake government requests OpenAI puts Pro subscriptions on hold due to Astra demand ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen Automattic’s board forces CEO Matt Mullenweg into leave of absence Apple unveils its first foldable, the iPhone Duo ‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI OpenAI fought dirty on career-making math problem, says NYU mathematician"
+        }
+      ]
+    },
+    {
+      "story_id": "0a022ccf8f6cfcf8",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
+      "owners": [
+        "siliconangle",
+        "techcrunch"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "8fa040b2b2e269dc",
+        "3696f5fdcc36b853"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "owner": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+          "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+          "published_at": "2026-09-14T20:44:14+00:00",
+          "kind": "press",
+          "text": "OpenAI has bought smartphone camera maker Glass Imaging in a deal worth over $300 million, according to a report from The Wall Street Journal . The company, founded in 2019 and based in Los Altos, California, had previously raised about $30 million in funding from investors. Glass Imaging was founded by Ziv Attar and Tom Bishop, a pair of former Apple engineers who previously led the team that developed Apple’s Portrait Mode. This background directly informs the work they now do at Glass Imaging, where they use AI to overcome the physical size constraints of smartphone cameras. Rather than using AI to edit a photo after it’s been taken, Glass Imaging uses neural networks to learn about individual camera systems — like the different cameras on various smartphone models — to yield better images from the moment the shutter clicks. OpenAI did not immediately respond to a request for comment. The ChatGPT maker is rumored to be working on its own hardware, like smartphones , earbuds , and AI companion devices . In 2025, OpenAI CEO Sam Altman and famed Apple designer Jony Ive revealed that they had been working together on a device startup called io, when OpenAI bought Ive’s company for $6.5 billion. Last day to book an exhibit table is September 18. Don’t miss out on high-impact leads, investor access, and a brand spotlight in Disrupt’s Expo Hall. Subscribe for the industry’s biggest tech news"
+        },
+        {
+          "name": "SiliconANGLE",
+          "owner": "siliconangle",
+          "url": "https://siliconangle.com/2026/09/14/openai-reportedly-buys-ai-camera-startup-glass-imaging-for-more-than-300m/",
+          "title": "OpenAI reportedly buys AI camera startup Glass Imaging for more than $300M",
+          "published_at": "2026-09-14T22:28:01+00:00",
+          "kind": "press",
+          "text": "OpenAI Group PBC has apparently bought smartphone camera software startup Glass Imaging Inc. for more than $300 million in a deal first reported today by The Wall Street Journal. Neither company has confirmed the purchase publicly. The purchase lands in the middle of OpenAI’s push into consumer hardware. The company paid $6.5 billion in stock for Jony Ive’s io Products Inc. in May 2025 , then spent the months after that hiring dozens of Apple employees. A screenless speaker priced at around $300 is among the devices reported to be in development. Glass Imaging sells software called GlassAI, a neural image signal processor that runs raw sensor output through networks trained against a specific camera module. Ordinary camera pipelines treat demosaicing or color reconstruction, noise reduction, sharpening and frame fusion as separate stages. GlassAI handles them in a single pass and models the optical behavior of the individual lens. The company says the result is detail the sensor actually captured, not detail the model invented. Phones are the obvious market. Glass Imaging has pitched the same software at drones, wearables and other small cameras where the optics are too cramped to deliver a clean image on their own. Every module gets its own network. Glass Imaging measures the point spread function, sensor response and noise profile of one particular lens and sensor pairing, then builds a network around that exact set of flaws. Tuning is therefore specific to each phone the software ships in. Small pixels are where the company claims the widest margin. Shivansh Rao, who works on the Glass Imaging machine learning team, told PetaPixel that submicron pixels encode fine detail in ways conventional processing cannot decode, and that in controlled tests the neural approach lifted a standard resolution measure by more than 50% as pixel size fell from 0.75 to 0.35 microns. The software reached consumer handsets this year. Chinese smartphone maker Honor Device Co. Ltd. uses it for zoom on the 600 series, which carries a 200-megapixel main camera, and a raw video version has been demonstrated running on Qualcomm Inc. chipsets. Founder Ziv Attar told PetaPixel in June that Glass Imaging was proud to see the software shipping in a phone on sale. Attar and Tom Bishop started the company in 2019 as chief executive and chief technology officer. Both came from Apple Inc., where they worked on the computational photography behind Portrait Mode. Attar joined Apple in 2015, when it acquired his Israeli camera startup LinX Imaging for about $20 million, according to Globes. Glass Imaging had raised about $29 million before the sale. Insight Venture Management led its $20 million Series A round in May 2025, following a $9.3 million extended seed in 2024. The deal is the latest in a run of purchases as OpenAI moves toward an initial public offering that reports have pushed to 2027 . OpenAI bought the tech industry podcast company TBPN in April . Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. Nuance Labs bags $50M in funding to fix the awkwardness of AI avatars Procurement automation startup Aron launches with $8M in funding Contact center AI ROI shifts toward resolution quality and governed execution Software reliability specialist Temporal valued at $12.55B in $550M round AI adoption outruns readiness as contact centers chase end-to-end resolution Kaiko raises $53M to grow its crypto data platform Nuance Labs bags $50M in funding to fix the awkwardness of AI avatars Procurement automation startup Aron launches with $8M in funding Contact center AI ROI shifts toward resolution quality and governed execution Software reliability specialist Temporal valued at $12.55B in $550M round AI adoption outruns readiness as contact centers chase end-to-end resolution Kaiko raises $53M to grow its crypto data platform BLOCKCHAIN - BY MARIA DEUTSCHER . 10 HOURS AGO"
         }
       ]
     }
