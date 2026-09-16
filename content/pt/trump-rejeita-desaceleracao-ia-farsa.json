@@ -7,32 +7,120 @@
   "meta_description": "Trump chamou de farsa os alertas de segurança em IA e rejeitou a desaceleração pedida pela OpenAI e pela Anthropic, dias antes de se reunir com Xi Jinping.",
   "keyword": "Trump desaceleração IA farsa",
   "category": "politica",
-  "tags": ["trump", "anthropic", "openai", "regulacao", "seguranca-ia"],
+  "tags": [
+    "trump",
+    "anthropic",
+    "openai",
+    "regulacao",
+    "seguranca-ia"
+  ],
   "body": [
-    {"type": "p", "text": "O presidente dos Estados Unidos, Donald Trump, publicou na segunda-feira uma série de mensagens na Truth Social rejeitando pedidos da indústria de inteligência artificial por uma desaceleração no desenvolvimento de modelos avançados, segundo a CNBC e a Fortune. \"O único controle ou 'proteção' de que a IA precisa é um PRESIDENTE FORTE E INTELIGENTE (com QI alto!), e os EUA têm isso, em dobro\", escreveu Trump, segundo as duas publicações.", "items": []},
-    {"type": "p", "text": "A publicação chega dias depois de Dario Amodei, presidente-executivo da Anthropic, divulgar um ensaio no fim de semana pedindo que as empresas de IA reduzam o ritmo de melhoria de seus modelos mais avançados, de acordo com a CNBC e a Fortune.", "items": []},
-    {"type": "p", "text": "Segundo a CNBC, Amodei escreveu o texto depois que os pesquisadores de segurança Jacob Coxon e Joe Benton deixaram a Anthropic citando temor de que sistemas de IA pudessem, no limite, matar toda a humanidade. A Fortune relata que uma publicação nas redes sociais de um ex-pesquisador da Anthropic sobre esse mesmo risco viralizou nos dias anteriores ao ensaio de Amodei.", "items": []},
-    {"type": "p", "text": "Sam Altman, da OpenAI, e Elon Musk apoiaram publicamente o chamado de Amodei por uma pausa no ritmo de desenvolvimento, segundo a CNBC. Em entrevista à própria Fortune na semana anterior, Altman disse acreditar que Trump e o presidente chinês Xi Jinping poderiam ganhar o Prêmio Nobel da Paz caso os dois países fechassem um acordo sobre segurança em IA.", "items": []},
-    {"type": "h2", "text": "Encontro com Xi Jinping em pauta", "items": []},
-    {"type": "p", "text": "Segundo a Fortune, Trump e Xi Jinping devem se encontrar em 24 de setembro, e ambos os líderes já rejeitaram publicamente a ideia de uma desaceleração no desenvolvimento da tecnologia.", "items": []},
-    {"type": "h2", "text": "Críticas à proposta de autorregulação", "items": []},
-    {"type": "p", "text": "Nem todos veem o plano de Amodei como suficiente. Tom Wheeler, ex-presidente da Comissão Federal de Comunicações dos Estados Unidos e hoje pesquisador da Brookings Institution, disse à CNBC que a proposta de supervisão do setor é vaga demais para funcionar, questionando quem definiria os padrões de segurança e quem faria a fiscalização. Ele chamou a ideia de \"vaso vazio\".", "items": []},
-    {"type": "p", "text": "David Sacks, assessor de Trump para IA, também criticou o movimento. Em publicação citada pela CNBC, ele disse que as duas maiores desenvolvedoras de modelos deveriam se autorregular em vez de pedir a intervenção do governo.", "items": []},
-    {"type": "p", "text": "A CNBC também lembra que a Anthropic já foi alvo de medidas do governo Trump neste ano: a empresa chegou a ser classificada pelo Departamento de Guerra como risco à cadeia de suprimentos e foi orientada a desativar o acesso a dois de seus modelos para cumprir uma diretriz de controle de exportação.", "items": []},
-    {"type": "p", "text": "Segundo a CNBC, Trump já havia assinado, em junho, uma ordem executiva pedindo que as empresas de IA submetam voluntariamente seus modelos ao governo antes do lançamento — mesmo se opondo a qualquer regulação federal obrigatória.", "items": []},
-    {"type": "p", "text": "A publicação também lembra que outros executivos se posicionaram na mesma linha de Amodei: o presidente-executivo da Microsoft, Satya Nadella, escreveu no domingo a favor de um \"ritmo deliberado\" de desenvolvimento, enquanto Mark Zuckerberg, da Meta, permaneceu em silêncio sobre o tema, segundo a CNBC.", "items": []},
-    {"type": "h2", "text": "China também reage", "items": []},
-    {"type": "p", "text": "A China também se manifestou sobre o debate. Segundo a Fortune, a porta-voz do Ministério das Relações Exteriores chinês, Guo Jiakun, chamou o discurso americano sobre riscos da IA de \"alarmismo\" que atrapalha os esforços por uma governança global da tecnologia.", "items": []},
-    {"type": "p", "text": "No ensaio que motivou a repercussão, Amodei defende que Washington e Pequim cheguem a um acordo mínimo para não usar IA no desenvolvimento de armas biológicas, e reitera que os Estados Unidos não deveriam vender chips avançados à China, comparando a corrida tecnológica entre os dois países à disputa por armas nucleares durante a Guerra Fria, segundo a Fortune.", "items": []},
-    {"type": "p", "text": "Um post atribuído a um engenheiro da DeepSeek, Shengyu Liu, também ganhou repercussão ao comparar o avanço da Anthropic rumo a uma IA mais avançada à obtenção de tecnologia de bomba atômica pela Alemanha nazista antes dos Aliados, segundo a Fortune.", "items": []}
+    {
+      "type": "p",
+      "text": "O presidente dos Estados Unidos, Donald Trump, publicou na segunda-feira uma série de mensagens na Truth Social rejeitando pedidos da indústria de inteligência artificial por uma desaceleração no desenvolvimento de modelos avançados, segundo a CNBC e a Fortune. \"O único controle ou 'proteção' de que a IA precisa é um PRESIDENTE FORTE E INTELIGENTE (com QI alto!), e os EUA têm isso, em dobro\", escreveu Trump, segundo as duas publicações.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A publicação chega dias depois de Dario Amodei, presidente-executivo da Anthropic, divulgar um ensaio no fim de semana pedindo que as empresas de IA reduzam o ritmo de melhoria de seus modelos mais avançados, de acordo com a CNBC e a Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a CNBC, Amodei escreveu o texto depois que os pesquisadores de segurança Jacob Coxon e Joe Benton deixaram a Anthropic citando temor de que sistemas de IA pudessem, no limite, matar toda a humanidade. A Fortune relata que uma publicação nas redes sociais de um ex-pesquisador da Anthropic sobre esse mesmo risco viralizou nos dias anteriores ao ensaio de Amodei.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Sam Altman, da OpenAI, e Elon Musk apoiaram publicamente o chamado de Amodei por uma pausa no ritmo de desenvolvimento, segundo a CNBC. Em entrevista à própria Fortune na semana anterior, Altman disse acreditar que Trump e o presidente chinês Xi Jinping poderiam ganhar o Prêmio Nobel da Paz caso os dois países fechassem um acordo sobre segurança em IA.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Encontro com Xi Jinping em pauta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Fortune, Trump e Xi Jinping devem se encontrar em 24 de setembro, e ambos os líderes já rejeitaram publicamente a ideia de uma desaceleração no desenvolvimento da tecnologia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Críticas à proposta de autorregulação",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nem todos veem o plano de Amodei como suficiente. Tom Wheeler, ex-presidente da Comissão Federal de Comunicações dos Estados Unidos e hoje pesquisador da Brookings Institution, disse à CNBC que a proposta de supervisão do setor é vaga demais para funcionar, questionando quem definiria os padrões de segurança e quem faria a fiscalização. Ele chamou a ideia de \"vaso vazio\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "David Sacks, assessor de Trump para IA, também criticou o movimento. Em publicação citada pela CNBC, ele disse que as duas maiores desenvolvedoras de modelos deveriam se autorregular em vez de pedir a intervenção do governo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A CNBC também lembra que a Anthropic já foi alvo de medidas do governo Trump neste ano: a empresa chegou a ser classificada pelo Departamento de Guerra como risco à cadeia de suprimentos e foi orientada a desativar o acesso a dois de seus modelos para cumprir uma diretriz de controle de exportação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a CNBC, Trump já havia assinado, em junho, uma ordem executiva pedindo que as empresas de IA submetam voluntariamente seus modelos ao governo antes do lançamento — mesmo se opondo a qualquer regulação federal obrigatória.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A publicação também lembra que outros executivos se posicionaram na mesma linha de Amodei: o presidente-executivo da Microsoft, Satya Nadella, escreveu no domingo a favor de um \"ritmo deliberado\" de desenvolvimento, enquanto Mark Zuckerberg, da Meta, permaneceu em silêncio sobre o tema, segundo a CNBC.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "China também reage",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A China também se manifestou sobre o debate. Segundo a Fortune, a porta-voz do Ministério das Relações Exteriores chinês, Guo Jiakun, chamou o discurso americano sobre riscos da IA de \"alarmismo\" que atrapalha os esforços por uma governança global da tecnologia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No ensaio que motivou a repercussão, Amodei defende que Washington e Pequim cheguem a um acordo mínimo para não usar IA no desenvolvimento de armas biológicas, e reitera que os Estados Unidos não deveriam vender chips avançados à China, comparando a corrida tecnológica entre os dois países à disputa por armas nucleares durante a Guerra Fria, segundo a Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Um post atribuído a um engenheiro da DeepSeek, Shengyu Liu, também ganhou repercussão ao comparar o avanço da Anthropic rumo a uma IA mais avançada à obtenção de tecnologia de bomba atômica pela Alemanha nazista antes dos Aliados, segundo a Fortune.",
+      "items": []
+    }
   ],
   "image": {
     "query": "donald trump press conference white house",
-    "alt": "Donald Trump discursando em coletiva de imprensa na Casa Branca"
+    "alt": "Donald Trump discursando em coletiva de imprensa na Casa Branca",
+    "path": "/assets/img/trump-rejeita-desaceleracao-ia-farsa-51974ce0.jpg",
+    "credit": "Nils Huenerfuerst / Unsplash",
+    "author": "Nils Huenerfuerst",
+    "author_url": "https://unsplash.com/@nhuenerfuerst?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/the-white-house-press-briefing-room-is-empty-clkMKJLGrww"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html", "title": "Trump's opposition to AI rules undercuts industry's calls for a slowdown"},
-    {"name": "Fortune", "owner": "fortune", "url": "https://fortune.com/2026/09/15/ai-slowdown-agenda-trump-xi-jinping-meeting/", "title": "Urgent calls from OpenAI, Anthropic for an AI slowdown fall on deaf ears with Trump, Xi ahead of next week's meeting"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
+      "title": "Trump's opposition to AI rules undercuts industry's calls for a slowdown"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/09/15/ai-slowdown-agenda-trump-xi-jinping-meeting/",
+      "title": "Urgent calls from OpenAI, Anthropic for an AI slowdown fall on deaf ears with Trump, Xi ahead of next week's meeting"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-16T07:12:35+00:00",
+  "updated_at": "2026-09-16T07:12:35+00:00"
 }

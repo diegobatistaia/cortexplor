@@ -7,34 +7,130 @@
   "meta_description": "Trump called AI safety warnings a hoax and rejected the slowdown urged by OpenAI and Anthropic leaders, days before a planned meeting with Xi Jinping.",
   "keyword": "Trump AI slowdown hoax",
   "category": "politica",
-  "tags": ["trump", "anthropic", "openai", "regulation", "ai-safety"],
+  "tags": [
+    "trump",
+    "anthropic",
+    "openai",
+    "regulation",
+    "ai-safety"
+  ],
   "body": [
-    {"type": "p", "text": "U.S. President Donald Trump posted a series of messages on Truth Social on Monday rejecting the AI industry's calls for a slowdown in advanced model development, according to CNBC and Fortune. \"The only control or 'guardrails' that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!\" Trump wrote, both outlets reported.", "items": []},
-    {"type": "p", "text": "The posts came days after Anthropic chief executive Dario Amodei published a weekend essay urging AI companies to slow the pace at which they improve their most advanced models, CNBC and Fortune reported.", "items": []},
-    {"type": "p", "text": "According to CNBC, Amodei wrote the essay after safety researchers Jacob Coxon and Joe Benton resigned from Anthropic, citing fears that AI systems could ultimately kill all of humanity. Fortune reported that a viral social media post from a former Anthropic researcher raising the same fear circulated in the days before Amodei's essay.", "items": []},
-    {"type": "p", "text": "OpenAI's Sam Altman and Elon Musk publicly backed Amodei's call for a slower pace, according to CNBC. In an interview with Fortune the previous week, Altman said he believed Trump and Chinese President Xi Jinping could win the Nobel Peace Prize if the two countries struck a deal on AI safety.", "items": []},
-    {"type": "h2", "text": "A meeting with Xi on the agenda", "items": []},
-    {"type": "p", "text": "Fortune reported that Trump and Xi are scheduled to meet on September 24, and that both leaders have already rejected the idea of a slowdown.", "items": []},
-    {"type": "h2", "text": "Pushback on the self-regulation plan", "items": []},
-    {"type": "p", "text": "Not everyone views Amodei's proposal as sufficient. Tom Wheeler, a former chair of the U.S. Federal Communications Commission now at the Brookings Institution, told CNBC that the industry's oversight proposal is too vague to work, questioning who would set safety standards and who would enforce them. He called it an \"empty vessel.\"", "items": []},
-    {"type": "p", "text": "David Sacks, Trump's AI adviser, also criticized the effort. In a post cited by CNBC, he said the two leading model developers should police themselves rather than ask the government to step in.", "items": []},
-    {"type": "p", "text": "CNBC also noted that Anthropic has already faced action from the Trump administration this year: the Department of Defense classified the company as a supply-chain risk, and it was ordered to disable access to two of its models to comply with an export-control directive.", "items": []},
-    {"type": "p", "text": "According to CNBC, Trump had already signed an executive order in June asking AI companies to voluntarily submit their models to the government before release, even as he opposes any mandatory federal regulation.", "items": []},
-    {"type": "p", "text": "CNBC also reported that other executives have taken Amodei's side: Microsoft chief executive Satya Nadella wrote on Sunday in favor of \"deliberate pacing,\" while Meta's Mark Zuckerberg has stayed quiet on the matter.", "items": []},
-    {"type": "h2", "text": "China weighs in too", "items": []},
-    {"type": "p", "text": "China also responded to the debate. Fortune reported that Chinese Foreign Ministry spokesperson Guo Jiakun called the U.S. discourse on AI risk \"fear-mongering\" that hampers efforts toward sound global AI governance.", "items": []},
-    {"type": "p", "text": "In the essay that sparked the reaction, Amodei argues that Washington and Beijing should agree on a minimum standard against using AI to develop biological weapons, and he reiterates that the U.S. should not sell advanced chips to China, comparing the two countries' technology race to the Cold War nuclear arms race, according to Fortune.", "items": []},
-    {"type": "p", "text": "A post attributed to DeepSeek engineer Shengyu Liu also gained traction by comparing Anthropic's progress toward more advanced AI to Nazi Germany obtaining atomic-bomb technology before the Allies, Fortune reported.", "items": []},
-    {"type": "p", "text": "CNBC noted that most major U.S. industries, from media and telecom to autos, pharmaceuticals and financial services, face stricter federal oversight, while AI remains regulated mostly at the state level. California Governor Gavin Newsom, for instance, recently signed several AI bills, including one requiring chatbot makers to protect minors from harmful interactions.", "items": []},
-    {"type": "p", "text": "Sandeep Johri, chief executive of cybersecurity firm Checkmarx, told CNBC that one challenge in rallying the industry behind Amodei's proposal is the fear that if one company slows down, a rival could take advantage.", "items": []}
+    {
+      "type": "p",
+      "text": "U.S. President Donald Trump posted a series of messages on Truth Social on Monday rejecting the AI industry's calls for a slowdown in advanced model development, according to CNBC and Fortune. \"The only control or 'guardrails' that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!\" Trump wrote, both outlets reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The posts came days after Anthropic chief executive Dario Amodei published a weekend essay urging AI companies to slow the pace at which they improve their most advanced models, CNBC and Fortune reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to CNBC, Amodei wrote the essay after safety researchers Jacob Coxon and Joe Benton resigned from Anthropic, citing fears that AI systems could ultimately kill all of humanity. Fortune reported that a viral social media post from a former Anthropic researcher raising the same fear circulated in the days before Amodei's essay.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI's Sam Altman and Elon Musk publicly backed Amodei's call for a slower pace, according to CNBC. In an interview with Fortune the previous week, Altman said he believed Trump and Chinese President Xi Jinping could win the Nobel Peace Prize if the two countries struck a deal on AI safety.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A meeting with Xi on the agenda",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fortune reported that Trump and Xi are scheduled to meet on September 24, and that both leaders have already rejected the idea of a slowdown.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Pushback on the self-regulation plan",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Not everyone views Amodei's proposal as sufficient. Tom Wheeler, a former chair of the U.S. Federal Communications Commission now at the Brookings Institution, told CNBC that the industry's oversight proposal is too vague to work, questioning who would set safety standards and who would enforce them. He called it an \"empty vessel.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "David Sacks, Trump's AI adviser, also criticized the effort. In a post cited by CNBC, he said the two leading model developers should police themselves rather than ask the government to step in.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC also noted that Anthropic has already faced action from the Trump administration this year: the Department of Defense classified the company as a supply-chain risk, and it was ordered to disable access to two of its models to comply with an export-control directive.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to CNBC, Trump had already signed an executive order in June asking AI companies to voluntarily submit their models to the government before release, even as he opposes any mandatory federal regulation.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC also reported that other executives have taken Amodei's side: Microsoft chief executive Satya Nadella wrote on Sunday in favor of \"deliberate pacing,\" while Meta's Mark Zuckerberg has stayed quiet on the matter.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "China weighs in too",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "China also responded to the debate. Fortune reported that Chinese Foreign Ministry spokesperson Guo Jiakun called the U.S. discourse on AI risk \"fear-mongering\" that hampers efforts toward sound global AI governance.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In the essay that sparked the reaction, Amodei argues that Washington and Beijing should agree on a minimum standard against using AI to develop biological weapons, and he reiterates that the U.S. should not sell advanced chips to China, comparing the two countries' technology race to the Cold War nuclear arms race, according to Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A post attributed to DeepSeek engineer Shengyu Liu also gained traction by comparing Anthropic's progress toward more advanced AI to Nazi Germany obtaining atomic-bomb technology before the Allies, Fortune reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC noted that most major U.S. industries, from media and telecom to autos, pharmaceuticals and financial services, face stricter federal oversight, while AI remains regulated mostly at the state level. California Governor Gavin Newsom, for instance, recently signed several AI bills, including one requiring chatbot makers to protect minors from harmful interactions.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Sandeep Johri, chief executive of cybersecurity firm Checkmarx, told CNBC that one challenge in rallying the industry behind Amodei's proposal is the fear that if one company slows down, a rival could take advantage.",
+      "items": []
+    }
   ],
   "image": {
     "query": "donald trump press conference white house",
-    "alt": "Donald Trump speaking at a White House press conference"
+    "alt": "Donald Trump speaking at a White House press conference",
+    "path": "/assets/img/trump-dismisses-ai-safety-warnings-51974ce0.jpg",
+    "credit": "Nils Huenerfuerst / Unsplash",
+    "author": "Nils Huenerfuerst",
+    "author_url": "https://unsplash.com/@nhuenerfuerst?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/the-white-house-press-briefing-room-is-empty-clkMKJLGrww"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html", "title": "Trump's opposition to AI rules undercuts industry's calls for a slowdown"},
-    {"name": "Fortune", "owner": "fortune", "url": "https://fortune.com/2026/09/15/ai-slowdown-agenda-trump-xi-jinping-meeting/", "title": "Urgent calls from OpenAI, Anthropic for an AI slowdown fall on deaf ears with Trump, Xi ahead of next week's meeting"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/15/trump-opposition-to-ai-rules-undercuts-industrys-calls-for-a-slowdown.html",
+      "title": "Trump's opposition to AI rules undercuts industry's calls for a slowdown"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/09/15/ai-slowdown-agenda-trump-xi-jinping-meeting/",
+      "title": "Urgent calls from OpenAI, Anthropic for an AI slowdown fall on deaf ears with Trump, Xi ahead of next week's meeting"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-16T07:12:35+00:00",
+  "updated_at": "2026-09-16T07:12:35+00:00"
 }

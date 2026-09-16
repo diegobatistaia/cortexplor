@@ -7,33 +7,127 @@
   "meta_description": "OpenAI, Google e Anthropic confirmam conversas sobre segurança em IA há semanas, com avaliadores externos e apoio a um projeto de lei de auditorias externas.",
   "keyword": "OpenAI Google Anthropic segurança IA",
   "category": "politica",
-  "tags": ["openai", "anthropic", "google", "seguranca-ia", "regulacao"],
+  "tags": [
+    "openai",
+    "anthropic",
+    "google",
+    "seguranca-ia",
+    "regulacao"
+  ],
   "body": [
-    {"type": "p", "text": "Chris Lehane, chefe de política global da OpenAI, confirmou nesta terça-feira que a empresa vem conversando com a Anthropic e o Google DeepMind há várias semanas sobre segurança de inteligência artificial, segundo a CNBC, a TechCrunch, a SiliconANGLE e o Olhar Digital.", "items": []},
-    {"type": "p", "text": "As tratativas remontam a julho, quando Demis Hassabis, presidente do Google DeepMind, publicou uma proposta pedindo a criação de um órgão de padrões liderado pelos Estados Unidos para supervisionar riscos da tecnologia, de acordo com a CNBC e a TechCrunch.", "items": []},
-    {"type": "p", "text": "A confirmação de Lehane vem dias depois de Dario Amodei, presidente-executivo da Anthropic, publicar um ensaio no sábado defendendo que a indústria desacelere o ritmo de desenvolvimento dos modelos mais avançados para evitar o que chamou de riscos catastróficos, segundo as quatro publicações. Sam Altman, da OpenAI, e o próprio Hassabis apoiaram publicamente o texto de Amodei, assim como Elon Musk, segundo a TechCrunch, a SiliconANGLE e o Olhar Digital.", "items": []},
-    {"type": "h2", "text": "Avaliadores externos e o risco antitruste", "items": []},
-    {"type": "p", "text": "Altman afirmou que a OpenAI está disposta a seguir o exemplo da Anthropic e incorporar avaliadores externos às suas equipes para monitorar a segurança dos modelos, segundo a TechCrunch e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "A cooperação entre concorrentes diretos, porém, esbarra em um problema jurídico. Segundo a TechCrunch e a SiliconANGLE, especialistas alertam que a coordenação entre as empresas pode ser interpretada como restrição de mercado e violar a lei antitruste americana. Amodei chegou a propor que o governo concedesse uma isenção limitada para permitir esse tipo de cooperação sem risco legal, mas Lehane disse que a OpenAI não considera essa isenção necessária, de acordo com a TechCrunch, o Olhar Digital e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "As três empresas também apoiam um dispositivo do FRONTIER Act, projeto de lei que obrigaria laboratórios de IA de fronteira a permitir a entrada de organizações de verificação independentes para auditar a segurança de seus modelos, segundo a TechCrunch, o Olhar Digital e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Lehane já havia adiantado o movimento no início do mês, ao publicar um texto dizendo que a OpenAI trabalha para avançar padrões liderados pela indústria e que vai construir esse esforço voluntário ao lado de outras empresas, \"com ou sem apoio do governo\", segundo a CNBC.", "items": []},
-    {"type": "h2", "text": "Dois projetos de lei em tramitação", "items": []},
-    {"type": "p", "text": "Segundo a SiliconANGLE, que cita a Reuters, o líder da maioria no Senado, John Thune, trabalha com os senadores Ted Cruz e Amy Klobuchar em um projeto de lei separado que daria ao secretário de Comércio poder para submeter novos modelos a auditorias de segurança antes do lançamento. A publicação também menciona uma proposta anterior, dos senadores Jim Banks e Adam Schiff, para permitir que laboratórios de IA cooperem em segurança mesmo que isso contrarie a lei antitruste.", "items": []},
-    {"type": "p", "text": "O governo dos Estados Unidos já iniciou, em agosto, um processo próprio de avaliação de novos modelos de IA, mas a participação é voluntária e a metodologia usada não foi divulgada, segundo o Olhar Digital.", "items": []},
-    {"type": "p", "text": "O Olhar Digital também observa que a preocupação cresceu dentro do próprio setor: Jacob Coxon, que deixou o cargo de desenvolvedor na Anthropic, disse que as empresas de IA estão \"brincando com nossas vidas\", enquanto Bilal Chughtai, ex-pesquisador do Google DeepMind, afirmou acreditar que a IA pode ter potencial para matar a humanidade.", "items": []},
-    {"type": "h2", "text": "Reação contrária no mercado", "items": []},
-    {"type": "p", "text": "Nem todo o setor recebeu bem o movimento. Aidan Gomez, presidente-executivo da Cohere, escreveu que o discurso de segurança das grandes empresas de IA esconde uma tentativa de restringir a concorrência e impor regras próprias ao resto da indústria, chamando a manobra de cartel com outro nome, segundo a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "O movimento das três empresas também ocorre em um momento de resistência do governo americano a qualquer forma de regulação. O presidente Donald Trump classificou as preocupações com segurança da IA como uma farsa e rejeitou a ideia de novas regras, argumentando que uma desaceleração daria vantagem à China na corrida tecnológica, segundo a CNBC e o Olhar Digital.", "items": []}
+    {
+      "type": "p",
+      "text": "Chris Lehane, chefe de política global da OpenAI, confirmou nesta terça-feira que a empresa vem conversando com a Anthropic e o Google DeepMind há várias semanas sobre segurança de inteligência artificial, segundo a CNBC, a TechCrunch, a SiliconANGLE e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As tratativas remontam a julho, quando Demis Hassabis, presidente do Google DeepMind, publicou uma proposta pedindo a criação de um órgão de padrões liderado pelos Estados Unidos para supervisionar riscos da tecnologia, de acordo com a CNBC e a TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A confirmação de Lehane vem dias depois de Dario Amodei, presidente-executivo da Anthropic, publicar um ensaio no sábado defendendo que a indústria desacelere o ritmo de desenvolvimento dos modelos mais avançados para evitar o que chamou de riscos catastróficos, segundo as quatro publicações. Sam Altman, da OpenAI, e o próprio Hassabis apoiaram publicamente o texto de Amodei, assim como Elon Musk, segundo a TechCrunch, a SiliconANGLE e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Avaliadores externos e o risco antitruste",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Altman afirmou que a OpenAI está disposta a seguir o exemplo da Anthropic e incorporar avaliadores externos às suas equipes para monitorar a segurança dos modelos, segundo a TechCrunch e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A cooperação entre concorrentes diretos, porém, esbarra em um problema jurídico. Segundo a TechCrunch e a SiliconANGLE, especialistas alertam que a coordenação entre as empresas pode ser interpretada como restrição de mercado e violar a lei antitruste americana. Amodei chegou a propor que o governo concedesse uma isenção limitada para permitir esse tipo de cooperação sem risco legal, mas Lehane disse que a OpenAI não considera essa isenção necessária, de acordo com a TechCrunch, o Olhar Digital e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As três empresas também apoiam um dispositivo do FRONTIER Act, projeto de lei que obrigaria laboratórios de IA de fronteira a permitir a entrada de organizações de verificação independentes para auditar a segurança de seus modelos, segundo a TechCrunch, o Olhar Digital e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lehane já havia adiantado o movimento no início do mês, ao publicar um texto dizendo que a OpenAI trabalha para avançar padrões liderados pela indústria e que vai construir esse esforço voluntário ao lado de outras empresas, \"com ou sem apoio do governo\", segundo a CNBC.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Dois projetos de lei em tramitação",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a SiliconANGLE, que cita a Reuters, o líder da maioria no Senado, John Thune, trabalha com os senadores Ted Cruz e Amy Klobuchar em um projeto de lei separado que daria ao secretário de Comércio poder para submeter novos modelos a auditorias de segurança antes do lançamento. A publicação também menciona uma proposta anterior, dos senadores Jim Banks e Adam Schiff, para permitir que laboratórios de IA cooperem em segurança mesmo que isso contrarie a lei antitruste.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O governo dos Estados Unidos já iniciou, em agosto, um processo próprio de avaliação de novos modelos de IA, mas a participação é voluntária e a metodologia usada não foi divulgada, segundo o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Olhar Digital também observa que a preocupação cresceu dentro do próprio setor: Jacob Coxon, que deixou o cargo de desenvolvedor na Anthropic, disse que as empresas de IA estão \"brincando com nossas vidas\", enquanto Bilal Chughtai, ex-pesquisador do Google DeepMind, afirmou acreditar que a IA pode ter potencial para matar a humanidade.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Reação contrária no mercado",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nem todo o setor recebeu bem o movimento. Aidan Gomez, presidente-executivo da Cohere, escreveu que o discurso de segurança das grandes empresas de IA esconde uma tentativa de restringir a concorrência e impor regras próprias ao resto da indústria, chamando a manobra de cartel com outro nome, segundo a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O movimento das três empresas também ocorre em um momento de resistência do governo americano a qualquer forma de regulação. O presidente Donald Trump classificou as preocupações com segurança da IA como uma farsa e rejeitou a ideia de novas regras, argumentando que uma desaceleração daria vantagem à China na corrida tecnológica, segundo a CNBC e o Olhar Digital.",
+      "items": []
+    }
   ],
   "image": {
     "query": "artificial intelligence companies collaboration safety meeting",
-    "alt": "Logotipos da OpenAI, Google e Anthropic lado a lado, representando cooperação em segurança de IA"
+    "alt": "Logotipos da OpenAI, Google e Anthropic lado a lado, representando cooperação em segurança de IA",
+    "path": "/assets/img/openai-google-anthropic-conversas-segura-05ca6ac0.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/an-abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html", "title": "OpenAI, Google, Anthropic discussing collaboration on AI safety issues"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/", "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks"},
-    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/09/15/inteligencia-artificial/rivais-se-unem-em-segredo-para-criar-regras-para-inteligencia-artificial/", "title": "OpenAI, Anthropic e Google discutem órgão para supervisionar riscos da IA"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/15/openai-anthropic-and-google-secretly-joined-forces-to-collaborate-on-ai-safety/", "title": "OpenAI, Anthropic and Google secretly joined forces to collaborate on AI safety"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
+      "title": "OpenAI, Google, Anthropic discussing collaboration on AI safety issues"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/09/15/inteligencia-artificial/rivais-se-unem-em-segredo-para-criar-regras-para-inteligencia-artificial/",
+      "title": "OpenAI, Anthropic e Google discutem órgão para supervisionar riscos da IA"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/15/openai-anthropic-and-google-secretly-joined-forces-to-collaborate-on-ai-safety/",
+      "title": "OpenAI, Anthropic and Google secretly joined forces to collaborate on AI safety"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-16T07:12:34+00:00",
+  "updated_at": "2026-09-16T07:12:34+00:00"
 }
