@@ -1,0 +1,109 @@
+{
+  "lang": "es",
+  "slug": "anthropic-unifica-claude-y-cowork",
+  "story_id": "c9df6cf3c82dfdd8",
+  "title": "Anthropic une el chat de Claude y Cowork en una sola app",
+  "dek": "La empresa también lanzó Claude Docs y Claude Slides en beta, llegando primero a los planes Pro y Max.",
+  "meta_description": "Anthropic unió el chat de Claude y Cowork en una sola interfaz y lanzó Claude Docs y Claude Slides en beta, según TechCrunch, ZDNet y SiliconANGLE esta semana.",
+  "keyword": "anthropic claude cowork unificacion",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "productividad",
+    "cowork"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic unió el chat de Claude y Cowork en una sola interfaz esta semana, según TechCrunch, ZDNet y SiliconANGLE. Quien usa el asistente ya no elige entre pestañas separadas para una pregunta rápida y una tarea más larga: ahora es el propio Claude el que decide qué modo necesita cada pedido y lo resuelve en la misma ventana.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El cambio también alcanza a Artifacts, el espacio de trabajo interactivo de Claude para cosas como código y documentos, y a Claude Design, la herramienta de diseño de sitios y prototipos que la empresa lanzó este año. Los tres funcionan ahora desde cualquier conversación, en lugar de vivir cada uno detrás de su propia pantalla, según TechCrunch y ZDNet.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por qué Anthropic unió las herramientas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Antes del cambio, los clientes solían tener problemas para saber qué pestaña usar para cada tarea, según TechCrunch y SiliconANGLE. Cowork se había creado como un espacio aparte para trabajos más largos y con varios pasos, como organizar los archivos de un proyecto entero, mientras que el chat común resolvía pedidos más rápidos y directos. Esa división obligaba al usuario a adivinar de antemano el tamaño de la tarea antes incluso de empezar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Con la fusión, Claude dirige cada pedido al modo correcto por su cuenta, sin que el usuario cambie de ventana ni pierda el contexto que ya había construido en la conversación, según los tres medios. La apuesta de la empresa es que quitarle esa decisión previa al usuario haga que el asistente sea más rápido también en las tareas del día a día, y no solo en las más complejas para las que se pensó Cowork.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Claude Docs y Claude Slides, en beta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Junto con la fusión, Anthropic lanzó dos funciones nuevas en beta: Claude Docs y Claude Slides, según ZDNet y SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Con Claude Slides, el usuario le pide al asistente que redacte, edite y presente una presentación de diapositivas directamente en Claude, y luego puede descargar el resultado en PDF o PowerPoint, informaron TechCrunch, ZDNet y SiliconANGLE. Eso convierte una tarea que antes requería cambiar a un programa de presentaciones aparte en algo resuelto dentro de la misma conversación donde ya se había hecho la investigación o el texto.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Claude Docs, por su parte, trabaja junto al usuario para redactar partes de un documento, responder preguntas sobre lo ya escrito y comentar secciones ya terminadas, según TechCrunch y SiliconANGLE. SiliconANGLE agregó que varias personas pueden editar el mismo documento al mismo tiempo, lo que acerca a Claude a un espacio de trabajo compartido, y ya no a un chat de una sola persona.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los documentos y presentaciones creados así quedan disponibles en un único enlace para compartir, que se puede abrir y editar desde el teléfono, según TechCrunch y ZDNet. Se puede empezar un documento en la computadora y revisar su avance después desde la aplicación móvil, de acuerdo con TechCrunch, sin tener que enviar el archivo de un lado a otro por correo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "El lanzamiento empieza por los planes Pro y Max",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La interfaz unificada y las nuevas funciones llegan primero a los suscriptores de los planes Pro y Max de Claude, en la web, la computadora y el móvil, según TechCrunch y SiliconANGLE. Ambos medios informaron que Anthropic planea extender el cambio a los planes Team y gratuito en las próximas semanas, aunque ninguno de los dos dio una fecha exacta para ese lanzamiento más amplio.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic no informó si dirigir más pedidos hacia el procesamiento más pesado de Cowork dentro de la interfaz única cambia la forma en que se cobra el consumo a los suscriptores de los planes más simples, una duda abierta para quien depende del asistente en el trabajo diario.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "unified AI assistant interface merging chat and document collaboration tools",
+    "alt": "Ilustración de una interfaz de chat fusionándose con herramientas de documentos y diapositivas"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "title": "Anthropic merges Claude chat and Cowork in one interface"
+    },
+    {
+      "name": "ZDNet",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic/",
+      "title": "Anthropic merges Claude chat and Cowork into one"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/16/anthropic-brings-cowork-directly-inside-claudes-chat-interface/",
+      "title": "Anthropic brings Cowork directly inside Claude's chat interface"
+    }
+  ],
+  "status": "draft"
+}

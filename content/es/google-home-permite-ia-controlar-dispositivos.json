@@ -1,0 +1,98 @@
+{
+  "lang": "es",
+  "slug": "google-home-permite-ia-controlar-dispositivos",
+  "story_id": "350591a882054481",
+  "title": "Google Home ya deja que agentes de IA externos controlen la casa",
+  "dek": "Un nuevo servidor MCP en acceso anticipado conecta agentes como Claude a los datos y controles del hogar, por ahora solo en Estados Unidos.",
+  "meta_description": "Google lanzó acceso anticipado a un servidor MCP de Google Home que permite a agentes de IA como Claude controlar la casa, según TechCrunch y The Verge.",
+  "keyword": "google home mcp agentes de ia",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "google",
+    "hogar inteligente",
+    "mcp",
+    "agentes"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google lanzó acceso anticipado a un servidor de Model Context Protocol (MCP) para Google Home, que permite a agentes de inteligencia artificial externos conectarse a los dispositivos del hogar inteligente del usuario y a su historial de eventos, según TechCrunch y The Verge. Hasta ahora, que un asistente de IA funcionara con el hogar inteligente dependía de la integración que una sola empresa decidiera construir.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "MCP es un estándar que permite a un agente de IA conectarse al producto de una empresa sin necesidad de una integración a medida para cada caso. Como Google construyó su servidor sobre ese estándar abierto, cualquier agente compatible puede conectarse de la misma manera, informaron TechCrunch y The Verge: entre los ejemplos que citan ambos medios están Claude, Hermes, OpenClaw y Antigravity, del propio Google, en lugar de un único asistente atado a la marca.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Qué pueden hacer los agentes una vez conectados",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Una vez conectado, el agente puede analizar datos de los dispositivos del usuario, incluidas cámaras e historial de actividad, controlar esos dispositivos directamente y armar paneles personalizados para el hogar inteligente, según TechCrunch y The Verge. Eso convierte al hogar inteligente de un conjunto de interruptores que una aplicación enciende y apaga en algo sobre lo que un agente puede razonar a lo largo del tiempo, usando patrones del historial que tiene a la vista.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Antes de esto, para ver lo que grabó una cámara mientras el residente estaba afuera, o para saber cuántas veces quedó una luz encendida durante la noche, había que abrir una aplicación dedicada solo a eso. Con Home MCP, ese mismo historial de eventos pasa a ser algo que un agente que ya se ocupa de otras partes del día de la persona, como el correo o la agenda, también puede leer y usar dentro de la misma conversación, sin una aplicación distinta para cada pregunta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para configurarlo, el usuario crea un proyecto en Google Cloud y lo ajusta para usar Home MCP, y luego entrega esos datos de configuración al agente que elija, de acuerdo con ambos medios. Es un proceso más técnico que instalar una aplicación común de hogar inteligente, lo que sugiere que el acceso anticipado apunta primero a quienes ya están acostumbrados a configurar herramientas de desarrollador, y no al usuario promedio de Google Home.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por ahora, solo para suscriptores de pago en Estados Unidos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El acceso comienza con los suscriptores de Google Home Premium Advanced, el plan de 20 dólares al mes, en Estados Unidos, según TechCrunch y The Verge. El lanzamiento empezó esta semana, y Google dijo que seguirá ampliando el acceso en las próximas semanas, aunque la empresa no se comprometió con un plazo fijo para esa expansión.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google no informó si, o cuándo, el servidor MCP llegará a otros planes o a otros países, señaló TechCrunch, lo que deja abierto si el servicio saldrá pronto de Estados Unidos para llegar a suscriptores de España o América Latina.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Parte de una tendencia más amplia",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google ya ofrece soporte de MCP en otras partes de su negocio, incluidos Google Cloud y Google Workspace, según TechCrunch. La integración con Home extiende ese mismo enfoque a un producto de consumo que se usa dentro de la casa de las personas, y se suma a una lista creciente de empresas que abrieron sus plataformas a agentes de IA externos mediante el protocolo este año, en lugar de construir un único asistente propio para cada tarea.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El enfoque cambia dónde queda la inteligencia: en vez de que Google Home lance su propio agente para cada función nueva, expone los datos y los controles de fondo, para que el asistente que la persona ya usa en otras partes, como mensajería o agenda, también pueda encargarse del hogar inteligente como una tarea más.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "smart home devices connected to AI assistant dashboard on smartphone",
+    "alt": "Ilustración de dispositivos del hogar inteligente conectados a un asistente de IA en el celular"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/17/your-ai-agents-can-now-control-your-google-home-devices/",
+      "title": "Your AI agents can now control your Google Home devices"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/google-home-mcp-ai-agents",
+      "title": "Google will now let any AI agent run your smart home"
+    }
+  ],
+  "status": "draft"
+}

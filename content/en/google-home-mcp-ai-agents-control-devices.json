@@ -1,0 +1,103 @@
+{
+  "lang": "en",
+  "slug": "google-home-mcp-ai-agents-control-devices",
+  "story_id": "350591a882054481",
+  "title": "Google Home Now Lets Outside AI Agents Control Your Devices",
+  "dek": "Early access to a new MCP server connects agents like Claude to smart home data and controls, starting with paying US subscribers.",
+  "meta_description": "Google launched early access to a Google Home MCP server that lets AI agents like Claude control smart devices, according to TechCrunch and The Verge.",
+  "keyword": "google home mcp ai agents",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "google",
+    "smart home",
+    "mcp",
+    "agents"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google rolled out early access to a Model Context Protocol (MCP) server for Google Home, letting outside AI agents connect to a user's smart home devices and their event history, according to TechCrunch and The Verge. Until now, getting an AI assistant to work with a smart home meant relying on whatever integration a single company decided to build.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "MCP is a standardized way for an AI agent to plug into a company's product without custom integration work for each one. Because Google built its server on that open standard, any compatible agent can connect the same way, TechCrunch and The Verge reported: examples both outlets named include Claude, Hermes, OpenClaw and Google's own Antigravity, rather than a single assistant tied exclusively to Google Home.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What agents can do once connected",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Once linked, an agent can analyze data from a user's connected devices, including camera and activity history, control those devices directly, and build custom dashboards for the smart home, TechCrunch and The Verge reported. That moves a smart home from a set of switches an app turns on and off to something an agent can reason about across time, drawing on patterns in the history it can see.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Before this, checking what a camera recorded while a resident was out, or figuring out how many times a light was left on overnight, meant opening a dedicated app built for that single purpose. With Home MCP, that same event history becomes something an agent already handling other parts of a person's day, such as email or a calendar, can also read and act on inside the same conversation, without a separate app for each question.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "To set it up, a user creates a Google Cloud project and configures it to use Home MCP, then hands the configuration details to the agent of their choice, according to both outlets. That is a more technical process than installing a typical smart home app, which suggests the early access is aimed first at people already comfortable configuring developer tools rather than at the average Google Home owner.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Limited to paying US subscribers, for now",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Access is starting with subscribers to Google Home Premium Advanced, the $20-a-month tier, in the United States, TechCrunch and The Verge reported. The rollout began this week and Google said it will keep expanding access over the coming weeks, though the company has not committed to a firm timeline for that expansion.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google has not said whether or when the MCP server will reach other subscription tiers or other countries, TechCrunch reported, leaving open how soon this capability might extend beyond the US market or the top-tier plan to reach the broader base of Google Home users worldwide.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Part of a broader push toward agent-ready products",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google already supports MCP in other parts of its business, including Google Cloud and Google Workspace, TechCrunch reported. The Home integration extends that same approach to a consumer product used inside people's houses, joining a growing list of companies that have opened their platforms to outside AI agents through the protocol this year rather than building a single in-house assistant for every task.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The approach shifts where the intelligence sits: instead of Google Home shipping its own agent for every new capability, it exposes the underlying data and controls so whichever assistant a person already uses elsewhere, for messaging or scheduling, can pick up the smart home as one more thing it handles, rather than staying confined to its own dedicated app.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Neither outlet specified how much a household's routine would need to change to make use of Home MCP beyond the initial Google Cloud setup, so it remains a feature aimed at early adopters willing to configure it themselves rather than a switch anyone with a Nest camera can flip on today.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "smart home devices connected to AI assistant dashboard on smartphone",
+    "alt": "Illustration of smart home devices linked to an AI assistant on a smartphone screen"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/17/your-ai-agents-can-now-control-your-google-home-devices/",
+      "title": "Your AI agents can now control your Google Home devices"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/google-home-mcp-ai-agents",
+      "title": "Google will now let any AI agent run your smart home"
+    }
+  ],
+  "status": "draft"
+}
