@@ -727,5 +727,47 @@
     "lang": "es",
     "passed": true,
     "reasons": []
+  },
+  {
+    "at": "2026-09-17T07:15:10+00:00",
+    "id": "anthropic-unifica-claude-e-cowork",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-17T07:15:10+00:00",
+    "id": "google-home-libera-ia-para-controlar-dispositivos",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-17T07:15:11+00:00",
+    "id": "anthropic-merges-claude-cowork-interface",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-17T07:15:11+00:00",
+    "id": "google-home-mcp-ai-agents-control-devices",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-17T07:15:11+00:00",
+    "id": "anthropic-unifica-claude-y-cowork",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-09-17T07:15:11+00:00",
+    "id": "google-home-permite-ia-controlar-dispositivos",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
   }
 ]
