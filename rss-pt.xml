@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 17 Sep 2026 07:15:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 07:14:17 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI lança Astra for Law, versão do GPT-6 para escritórios</title>
+      <link>https://cortexplor.com/pt/openai-lanca-astra-for-law/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/openai-lanca-astra-for-law/</guid>
+      <description>OpenAI lança o Astra for Law, configuração do GPT-6 Astra para pesquisa jurídica dos EUA, com acesso inicial restrito a escritórios de advocacia selecionados.</description>
+      <category>Modelos &amp; Lançamentos</category>
+      <pubDate>Fri, 18 Sep 2026 07:14:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI revela seis incidentes de mau comportamento de IA</title>
+      <link>https://cortexplor.com/pt/openai-revela-seis-incidentes-de-seguranca/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/openai-revela-seis-incidentes-de-seguranca/</guid>
+      <description>OpenAI divulga seis novos incidentes de comportamento preocupante em modelos de IA nos últimos seis meses e estreia um novo processo para relatar casos assim.</description>
+      <category>Regulação</category>
+      <pubDate>Fri, 18 Sep 2026 07:14:16 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic une o chat do Claude e o Cowork numa só interface</title>
       <link>https://cortexplor.com/pt/anthropic-unifica-claude-e-cowork/</link>
@@ -230,22 +246,6 @@
       <description>Sony Music e Warner Chappell processam a Anthropic, acusando a empresa de piratear dezenas de milhares de músicas para treinar seus modelos de IA Claude.</description>
       <category>Regulação</category>
       <pubDate>Sun, 30 Aug 2026 09:22:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI começa a exibir anúncios no ChatGPT na Índia</title>
-      <link>https://cortexplor.com/pt/openai-testa-anuncios-chatgpt-india/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/openai-testa-anuncios-chatgpt-india/</guid>
-      <description>A OpenAI começou a exibir anúncios no ChatGPT para usuários da Índia nos planos Gratuito e Go, como parte de uma expansão global, segundo CNBC e TechCrunch.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Sat, 29 Aug 2026 09:15:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic cria padrão para IA operar máquinas físicas</title>
-      <link>https://cortexplor.com/pt/anthropic-cria-padrao-para-agentes-operarem-maquinas/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/anthropic-cria-padrao-para-agentes-operarem-maquinas/</guid>
-      <description>A Anthropic lançou o Model Hardware Standard, padrão que deixa agentes de IA operar máquinas físicas em laboratórios e fábricas, segundo CNBC e Wired.</description>
-      <category>Modelos &amp; Lançamentos</category>
-      <pubDate>Sat, 29 Aug 2026 09:15:17 +0000</pubDate>
     </item>
   </channel>
 </rss>
