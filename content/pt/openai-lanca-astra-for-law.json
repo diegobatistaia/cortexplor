@@ -1,0 +1,98 @@
+{
+  "lang": "pt",
+  "slug": "openai-lanca-astra-for-law",
+  "story_id": "f043aa37f4fc34df",
+  "title": "OpenAI lança Astra for Law, versão do GPT-6 para escritórios",
+  "dek": "A configuração usa um índice com mais de 230 milhões de fontes jurídicas dos EUA e já foi testada por escritórios como Sullivan & Cromwell e Cooley, segundo a OpenAI e a SiliconANGLE.",
+  "meta_description": "OpenAI lança o Astra for Law, configuração do GPT-6 Astra para pesquisa jurídica dos EUA, com acesso inicial restrito a escritórios de advocacia selecionados.",
+  "keyword": "astra for law openai",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "openai",
+    "gpt-6",
+    "direito",
+    "advocacia"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A OpenAI lançou o Astra for Law, uma configuração do GPT-6 Astra voltada para pesquisa e redação jurídicas, segundo comunicado da empresa e a SiliconANGLE. O produto é destinado a escritórios de advocacia e empresas de tecnologia jurídica que queiram construir ferramentas e fluxos de trabalho em cima dele.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Não é um modelo novo. A SiliconANGLE explicou o mecanismo: a OpenAI pegou o GPT-6 Astra, seu modelo mais avançado, e envolveu ele com um índice de pesquisa jurídica e instruções específicas para análise legal. O índice cobre jurisprudência, leis, regulamentos e decisões administrativas dos Estados Unidos, somando mais de 230 milhões de URLs, atualizados diariamente. Parte desse acervo vem da parceria com a Free Law Project, organização sem fins lucrativos por trás do CourtListener, que reúne mais de 99,9% da jurisprudência americana já publicada, segundo a OpenAI.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que o teste da OpenAI mostrou",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para medir o ganho, a OpenAI testou o Astra for Law em 200 perguntas de pesquisa jurídica do conjunto de validação privado do Legal Research Bench, da Vals AI. Com o nível mais alto de raciocínio dos dois sistemas, o Astra for Law passou na checagem de correção geral em 54% das perguntas, contra 38,7% do GPT-6 Astra usando só busca na web, de acordo com a OpenAI e a SiliconANGLE. Em perguntas sobre jurisprudência, o Astra for Law encontrou 24% mais casos de referência e recuperou até 54% mais trechos relevantes dos julgamentos corretos, segundo os mesmos dados.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Acesso restrito, sem data para a API",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O acesso inicial é limitado. Escritórios selecionados chegam ao Astra for Law por um programa de acesso confiável dentro do ChatGPT e do Codex, onde a ferramenta aparece como GPT-6 Astra Law. A versão para desenvolvedores, chamada gpt-6-astra-law na API, ainda não tem data nem preço definidos, informou a SiliconANGLE. A Harvey e a Legora já entraram como clientes de API para construir seus próprios produtos sobre o Astra for Law, segundo a OpenAI e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para os escritórios elegíveis, a oferta inclui retenção zero de dados na API e exclui o uso do ChatGPT Enterprise da revisão humana por padrão. A OpenAI afirma estar trabalhando com o escritório Latham & Watkins no desenho de permissões de acesso à informação, muralhas éticas entre clientes e instruções de cada firma, segundo as duas fontes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que já está em uso em escritórios reais",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI e a SiliconANGLE descrevem três ferramentas já construídas por engenheiros da empresa dentro de escritórios específicos. A Sullivan & Cromwell criou um analisador de contratos que cruza as minutas de negociação e os precedentes do próprio escritório para revisar um novo negócio, apontando riscos e propondo mudanças no texto. A Ropes & Gray montou um sistema de due diligence que rastreia cada achado até a fonte original e aponta questões que podem afetar uma aquisição, como a exigência de consentimento em contratos com clientes. Já a Cooley construiu o GO Public, voltado à preparação de aberturas de capital: a ferramenta ajuda a redigir o pedido de listagem e propaga qualquer mudança no negócio para todo o documento.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O lançamento também trouxe 26 novos plugins que conectam o ChatGPT a ferramentas que escritórios já usam no dia a dia, como Relativity e Clio, segundo a OpenAI. O GPT-6 Astra, modelo por trás de toda a configuração, começou a ser distribuído duas semanas antes deste lançamento, em 3 de setembro, de acordo com a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Parceria com a Thomson Reuters",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A SiliconANGLE relatou ainda que a Thomson Reuters, dona de produtos jurídicos usados por escritórios em todo o mundo, está trazendo o contexto de casos do seu sistema HighQ para dentro do ChatGPT e testando um conector para o CoCounsel Legal, outra ferramenta da empresa. Joel Hron, diretor de tecnologia da Thomson Reuters, disse à SiliconANGLE que conectar o ChatGPT a ferramentas jurídicas não basta sozinho: para ele, escritórios precisam de inteligência confiável, contexto de cada caso e governança para trabalhos de alto risco, não só acesso à informação.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "law firm lawyer using AI legal research software on laptop",
+    "alt": "Advogado usando computador com software de pesquisa jurídica baseado em IA"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/astra-for-law",
+      "title": "Introducing Astra for Law"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/17/openai-launches-astra-for-law-a-gpt-6-configuration-for-legal-research/",
+      "title": "OpenAI launches Astra for Law, a GPT-6 configuration for legal research"
+    }
+  ],
+  "status": "draft"
+}
