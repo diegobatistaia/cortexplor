@@ -7,32 +7,120 @@
   "meta_description": "Anthropic eligió a Accenture como su primera evaluadora externa de seguridad, con una inversión de 1.000 millones de dólares en cinco años, según CNBC.",
   "keyword": "Anthropic Accenture evaluadora de seguridad",
   "category": "politica",
-  "tags": ["ia", "anthropic", "accenture", "seguridad de la ia", "regulacion"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "accenture",
+    "seguridad de la ia",
+    "regulacion"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic anunció el viernes que eligió a Accenture como su primera \"evaluadora integrada\" (embedded evaluator): personal externo que pasa a trabajar dentro de la empresa para revisar la seguridad de sus modelos de inteligencia artificial, según CNBC y TechCrunch.", "items": []},
-    {"type": "p", "text": "La alianza es el primer paso concreto para poner en marcha el plan de tres etapas que el CEO de Anthropic, Dario Amodei, publicó el fin de semana anterior para frenar el ritmo de desarrollo de la IA de frontera, de acuerdo con ambos medios.", "items": []},
-    {"type": "h2", "text": "1.000 millones de dólares en cinco años", "items": []},
-    {"type": "p", "text": "Anthropic y Accenture se comprometieron a invertir al menos 1.000 millones de dólares durante los próximos cinco años en el proyecto, según CNBC y TechCrunch. Según el comunicado de Anthropic, citado por CNBC, Accenture incorporará personal de su división de inteligencia artificial, Faculty, dentro de Anthropic.", "items": []},
-    {"type": "p", "text": "Según TechCrunch y CNBC, el personal de Faculty evaluará y pondrá a prueba (red-team) los modelos de Anthropic, realizará evaluaciones de alineación y verificará si el comportamiento de los sistemas coincide con valores humanos.", "items": []},
-    {"type": "h2", "text": "El primer paso de un plan mayor", "items": []},
-    {"type": "p", "text": "La primera etapa del plan de Amodei otorga a evaluadores externos un acceso equivalente al de un empleado, para verificar prácticas de seguridad y reportar incidentes, según CNBC. Anthropic dijo que se comprometió a este paso de forma \"unilateral\" y animó a otras empresas de IA a hacer lo mismo.", "items": []},
-    {"type": "p", "text": "Según CNBC y TechCrunch, Anthropic también está en conversaciones con la organización sin fines de lucro METR y otros terceros para sumar más evaluadores. La empresa afirmó que la alianza con Accenture no es exclusiva.", "items": []},
-    {"type": "h2", "text": "Qué es el red-teaming", "items": []},
-    {"type": "p", "text": "El término \"red-teaming\", usado por CNBC y TechCrunch, describe la práctica de formar un equipo cuya función es intentar romper las defensas de un sistema a propósito, simulando ataques o usos indebidos antes de que ocurran fuera del laboratorio. Aplicado a modelos de inteligencia artificial, significa probar si el sistema puede ser inducido a comportarse de forma peligrosa o a ignorar sus propias reglas de seguridad.", "items": []},
-    {"type": "p", "text": "Tanto CNBC como TechCrunch reportaron que todavía no existen estándares definidos para el nivel de acceso o la forma de comunicación de los evaluadores externos, y que Anthropic espera que ese modelo evolucione a medida que el sector madure.", "items": []},
-    {"type": "p", "text": "Según TechCrunch, la elección de Accenture sorprendió a parte de los observadores del mercado, ya que el debate sobre evaluadores integrados hasta ahora giraba en torno a organizaciones dedicadas específicamente a la investigación de seguridad en IA. El medio también citó a críticos para quienes el plan de autorregulación propuesto por Amodei podría servir para que la industria evite una fiscalización más estricta, una lectura que Anthropic rechaza.", "items": []},
-    {"type": "p", "text": "Según TechCrunch, las evaluaciones externas ya forman parte del proceso de lanzamiento de nuevos modelos de lenguaje, pero el formato de evaluador integrado amplía ese seguimiento más allá del lanzamiento, con el personal de Faculty manteniendo una presencia constante dentro de Anthropic. El medio también informó que una de las opciones en discusión con METR y otras organizaciones es probar elementos de este modelo de evaluación usando financiamiento propio de los evaluadores, antes de cualquier arreglo de financiamiento más amplio.", "items": []},
-    {"type": "h2", "text": "Quién paga la cuenta", "items": []},
-    {"type": "p", "text": "Anthropic dijo que, por ahora, financiará directamente el trabajo de Accenture, ya que todavía no existe un fondo público o conjunto del sector para pagar este tipo de evaluación, según CNBC. La empresa afirmó que espera que, a largo plazo, ese financiamiento provenga de fuentes públicas o compartidas entre compañías.", "items": []},
-    {"type": "p", "text": "Anthropic subrayó, según CNBC y TechCrunch, que la presencia de evaluadores externos no reduce su propia responsabilidad sobre la seguridad de sus modelos de inteligencia artificial.", "items": []}
+    {
+      "type": "p",
+      "text": "Anthropic anunció el viernes que eligió a Accenture como su primera \"evaluadora integrada\" (embedded evaluator): personal externo que pasa a trabajar dentro de la empresa para revisar la seguridad de sus modelos de inteligencia artificial, según CNBC y TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La alianza es el primer paso concreto para poner en marcha el plan de tres etapas que el CEO de Anthropic, Dario Amodei, publicó el fin de semana anterior para frenar el ritmo de desarrollo de la IA de frontera, de acuerdo con ambos medios.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "1.000 millones de dólares en cinco años",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic y Accenture se comprometieron a invertir al menos 1.000 millones de dólares durante los próximos cinco años en el proyecto, según CNBC y TechCrunch. Según el comunicado de Anthropic, citado por CNBC, Accenture incorporará personal de su división de inteligencia artificial, Faculty, dentro de Anthropic.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch y CNBC, el personal de Faculty evaluará y pondrá a prueba (red-team) los modelos de Anthropic, realizará evaluaciones de alineación y verificará si el comportamiento de los sistemas coincide con valores humanos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "El primer paso de un plan mayor",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La primera etapa del plan de Amodei otorga a evaluadores externos un acceso equivalente al de un empleado, para verificar prácticas de seguridad y reportar incidentes, según CNBC. Anthropic dijo que se comprometió a este paso de forma \"unilateral\" y animó a otras empresas de IA a hacer lo mismo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según CNBC y TechCrunch, Anthropic también está en conversaciones con la organización sin fines de lucro METR y otros terceros para sumar más evaluadores. La empresa afirmó que la alianza con Accenture no es exclusiva.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Qué es el red-teaming",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El término \"red-teaming\", usado por CNBC y TechCrunch, describe la práctica de formar un equipo cuya función es intentar romper las defensas de un sistema a propósito, simulando ataques o usos indebidos antes de que ocurran fuera del laboratorio. Aplicado a modelos de inteligencia artificial, significa probar si el sistema puede ser inducido a comportarse de forma peligrosa o a ignorar sus propias reglas de seguridad.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tanto CNBC como TechCrunch reportaron que todavía no existen estándares definidos para el nivel de acceso o la forma de comunicación de los evaluadores externos, y que Anthropic espera que ese modelo evolucione a medida que el sector madure.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch, la elección de Accenture sorprendió a parte de los observadores del mercado, ya que el debate sobre evaluadores integrados hasta ahora giraba en torno a organizaciones dedicadas específicamente a la investigación de seguridad en IA. El medio también citó a críticos para quienes el plan de autorregulación propuesto por Amodei podría servir para que la industria evite una fiscalización más estricta, una lectura que Anthropic rechaza.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch, las evaluaciones externas ya forman parte del proceso de lanzamiento de nuevos modelos de lenguaje, pero el formato de evaluador integrado amplía ese seguimiento más allá del lanzamiento, con el personal de Faculty manteniendo una presencia constante dentro de Anthropic. El medio también informó que una de las opciones en discusión con METR y otras organizaciones es probar elementos de este modelo de evaluación usando financiamiento propio de los evaluadores, antes de cualquier arreglo de financiamiento más amplio.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Quién paga la cuenta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic dijo que, por ahora, financiará directamente el trabajo de Accenture, ya que todavía no existe un fondo público o conjunto del sector para pagar este tipo de evaluación, según CNBC. La empresa afirmó que espera que, a largo plazo, ese financiamiento provenga de fuentes públicas o compartidas entre compañías.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic subrayó, según CNBC y TechCrunch, que la presencia de evaluadores externos no reduce su propia responsabilidad sobre la seguridad de sus modelos de inteligencia artificial.",
+      "items": []
+    }
   ],
   "image": {
     "query": "office consultants reviewing data screens",
-    "alt": "Consultores revisando pantallas de datos en una oficina, sobre evaluación de seguridad de IA"
+    "alt": "Consultores revisando pantallas de datos en una oficina, sobre evaluación de seguridad de IA",
+    "path": "/assets/img/anthropic-elige-accenture-evaluadora-int-51355222.jpg",
+    "credit": "Mahdi Bafande / Unsplash",
+    "author": "Mahdi Bafande",
+    "author_url": "https://unsplash.com/@mahdibafande?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/abstract-streaks-of-light-at-night-_rP721Jydtw"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html", "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/", "title": "Anthropic's first embedded evaluator is … Accenture?"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+      "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+      "title": "Anthropic's first embedded evaluator is … Accenture?"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-19T07:14:06+00:00",
+  "updated_at": "2026-09-19T07:14:06+00:00"
 }
