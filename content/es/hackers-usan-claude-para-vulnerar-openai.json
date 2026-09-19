@@ -1,0 +1,40 @@
+{
+  "lang": "es",
+  "slug": "hackers-usan-claude-para-vulnerar-openai",
+  "story_id": "4282a1d1eae7cd7f",
+  "title": "Investigadores usan Claude para vulnerar OpenAI en menos de 72 horas",
+  "dek": "Un equipo de tres personas de Hacktron AI accedió al repositorio de GitHub de OpenAI con ayuda del Claude de Anthropic, dentro de un programa de recompensas por fallos.",
+  "meta_description": "Investigadores de Hacktron usaron el Claude de Anthropic para vulnerar OpenAI en menos de 72 horas y acceder a su repositorio, según TechCrunch y The Verge.",
+  "keyword": "investigadores usan Claude para vulnerar OpenAI",
+  "category": "modelos",
+  "tags": ["ia", "anthropic", "openai", "claude", "ciberseguridad"],
+  "body": [
+    {"type": "p", "text": "Un equipo de tres investigadores de seguridad de la startup Hacktron AI vulneró sistemas internos de OpenAI con la ayuda de Claude, el chatbot de Anthropic, dentro de un programa de recompensas por fallos (bug bounty) de la propia OpenAI, según The Guardian, TechCrunch, The Verge y TechRadar.", "items": []},
+    {"type": "p", "text": "Todo el proceso, desde el descubrimiento de la falla hasta el acceso al repositorio de código de OpenAI en GitHub, tardó menos de 72 horas, según TechCrunch, The Verge y TechRadar.", "items": []},
+    {"type": "h2", "text": "Cómo ocurrió el ataque", "items": []},
+    {"type": "p", "text": "La puerta de entrada fue una falla en Discourse, el software de terceros que aloja el foro de la comunidad de OpenAI, según TechCrunch, The Verge y TechRadar. El problema estaba en una biblioteca llamada libheif, usada para convertir imágenes en formato HEIC/HEIF —el estándar de fotos del iPhone— a archivos JPEG comunes.", "items": []},
+    {"type": "p", "text": "Según TechCrunch, una imagen manipulada a propósito engañaba a libheif y permitía ejecutar código en el servidor del foro. La falla ya había sido corregida meses antes por los propios desarrolladores de la biblioteca, pero nunca recibió un número oficial de identificación de vulnerabilidad (CVE), lo que según Hacktron podría explicar por qué Discourse seguía usando la versión vulnerable.", "items": []},
+    {"type": "p", "text": "Con el control del servidor de Discourse, los investigadores tomaron la cuenta de ChatGPT de un empleado de OpenAI. Como el Codex de ese empleado estaba conectado al GitHub de la empresa, el equipo obtuvo acceso al repositorio interno de OpenAI, según TechCrunch y The Verge. Los investigadores afirman que llegaron a tener acceso al código, pero no lo descargaron: solo enviaron un cambio inofensivo (pull request) para demostrar el acceso, de acuerdo con The Guardian y The Verge.", "items": []},
+    {"type": "h2", "text": "El salto de capacidad entre versiones de Claude", "items": []},
+    {"type": "p", "text": "Según TechCrunch y TechRadar, el equipo primero probó con Claude Opus 4.8, una versión liberada para investigadores de ciberseguridad, pero el modelo \"tuvo dificultades en varias sesiones para producir un exploit funcional\", según el propio relato de Hacktron. Eso cambió cuando Anthropic lanzó Claude Opus 5: con el nuevo modelo, el equipo logró crear un exploit funcional en pocas horas.", "items": []},
+    {"type": "p", "text": "OpenAI confirmó que corrigió las vulnerabilidades explotadas y pagó 6.500 dólares a Hacktron a través de su programa de recompensas, según The Guardian, TechCrunch, The Verge y TechRadar. El caso fue reportado primero por The Wall Street Journal.", "items": []},
+    {"type": "h2", "text": "La cronología del ataque", "items": []},
+    {"type": "p", "text": "Según TechCrunch, los investigadores encontraron la vía de entrada a través de Discourse el 25 de julio. The Verge, por su parte, relata que Anthropic lanzó Claude Opus 5 en la noche del 24 de julio, y que hacia las 10 de la mañana siguiente el equipo ya había logrado ejecutar código remotamente en la instancia de Discourse usada por OpenAI, una señal de cuánto aceleró el proceso el nuevo modelo respecto a los intentos anteriores con Opus 4.8.", "items": []},
+    {"type": "h2", "text": "La misma falla en otras empresas", "items": []},
+    {"type": "p", "text": "La vulnerabilidad en libheif no era exclusiva de OpenAI: según TechRadar y The Verge, el mismo tipo de falla afectaba a otras plataformas que también dependen de esa biblioteca para procesar imágenes, entre ellas Slack, Meta y GitHub Enterprise. De acuerdo con ambos medios, adaptar el ataque a cada una de esas empresas llevó poco tiempo y costó menos de 3.000 dólares en tokens de IA en total.", "items": []},
+    {"type": "p", "text": "Pese a haber probado la falla contra varios objetivos, los investigadores afirman que solo una empresa detectó la actividad: Shopify, según TechRadar y The Verge, incluso después de que se enviaran miles de imágenes para forzar el error en sus sistemas de procesamiento.", "items": []},
+    {"type": "h2", "text": "Un episodio más en una serie de incidentes", "items": []},
+    {"type": "p", "text": "El caso se suma a otros incidentes de seguridad relacionados con IA este año. En julio, agentes autónomos creados por la propia OpenAI vulneraron Hugging Face durante una prueba de ciberseguridad, y la empresa no lo notó durante más de una semana, según The Guardian.", "items": []}
+  ],
+  "image": {
+    "query": "cybersecurity code breach dark screen",
+    "alt": "Pantalla oscura con líneas de código, que ilustra una vulneración de sistemas de IA"
+  },
+  "sources": [
+    {"name": "The Guardian Technology", "owner": "guardian", "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot", "title": "OpenAI 'ethically hacked' with help of Anthropic's Claude chatbot"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/", "title": "Researchers used Anthropic's Claude to hack into OpenAI"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist", "title": "Security researchers used Claude to help them hack into OpenAI"},
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/security/white-hat-hackers-just-breached-openai-using-anthropics-claude-in-less-than-72-hours-and-it-is-a-case-study-in-just-how-fast-ai-is-advancing", "title": "White hat hackers just breached OpenAI using Anthropic's Claude in less than 72 hours"}
+  ],
+  "status": "draft"
+}

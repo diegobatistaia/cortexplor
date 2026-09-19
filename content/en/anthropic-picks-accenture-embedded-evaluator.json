@@ -1,0 +1,38 @@
+{
+  "lang": "en",
+  "slug": "anthropic-picks-accenture-embedded-evaluator",
+  "story_id": "2cada67080cb8dc6",
+  "title": "Anthropic Picks Accenture as Its First Embedded Safety Evaluator",
+  "dek": "Anthropic and Accenture will each invest at least $1 billion over five years to embed outside staff who will red-team Claude models, a step tied to Dario Amodei's slowdown plan.",
+  "meta_description": "Anthropic selected Accenture as its first embedded safety evaluator, with a $1 billion, five-year investment, according to CNBC and TechCrunch reports.",
+  "keyword": "Anthropic Accenture embedded evaluator",
+  "category": "politica",
+  "tags": ["ai", "anthropic", "accenture", "ai safety", "policy"],
+  "body": [
+    {"type": "p", "text": "Anthropic announced on Friday that it selected Accenture as its first \"embedded evaluator\" — outside staff who work inside the company to check the safety of its AI models — according to CNBC and TechCrunch.", "items": []},
+    {"type": "p", "text": "The partnership marks the first concrete step toward implementing the three-part plan that Anthropic CEO Dario Amodei published the previous weekend, proposing to slow the pace of frontier AI development, both outlets reported.", "items": []},
+    {"type": "h2", "text": "$1 billion over five years", "items": []},
+    {"type": "p", "text": "Anthropic and Accenture have committed to invest at least $1 billion over the next five years in the effort, according to CNBC and TechCrunch. Per Anthropic's own release, cited by CNBC, Accenture will embed staff from Faculty, its AI division, inside Anthropic.", "items": []},
+    {"type": "p", "text": "Faculty's staff will evaluate and red-team Anthropic's models, conduct alignment assessments, and test whether the systems' behavior lines up with human values, according to both TechCrunch and CNBC. That work will run alongside Anthropic's own internal safety testing, not replace it, the two outlets reported.", "items": []},
+    {"type": "h2", "text": "The first step of a larger plan", "items": []},
+    {"type": "p", "text": "The first step of Amodei's plan grants third-party evaluators employee-level access to verify safety practices and report incidents, CNBC reported. Anthropic said it \"unilaterally\" committed to this step and encouraged other AI companies to follow suit.", "items": []},
+    {"type": "p", "text": "Anthropic is also in discussions with the nonprofit research group METR and other third parties about bringing on more evaluators, according to CNBC and TechCrunch. The company said the Accenture partnership is not exclusive, and that it expects to add further evaluators as its approach to embedded evaluation develops.", "items": []},
+    {"type": "h2", "text": "What red-teaming means", "items": []},
+    {"type": "p", "text": "The term \"red-teaming,\" used by both CNBC and TechCrunch, describes the practice of setting up a team whose job is to try to break a system's defenses on purpose, simulating attacks or misuse before they happen in the real world. Applied to AI models, that means testing whether a system can be pushed into behaving dangerously or into ignoring its own safety rules.", "items": []},
+    {"type": "p", "text": "Both CNBC and TechCrunch reported that no standards yet exist for how much access outside evaluators get or how they communicate, and that Anthropic expects the approach to evolve as the field matures. Neither outlet described a fixed timeline for when such standards might be set, only that Anthropic plans to share more details as the work with Faculty begins.", "items": []},
+    {"type": "p", "text": "According to TechCrunch, the choice of Accenture surprised some industry watchers, since the discussion around embedded evaluators had until now centered on organizations dedicated specifically to AI safety research. The outlet also cited critics who see Amodei's self-regulation plan as a way for the industry to dodge tougher oversight — a reading Anthropic rejects.", "items": []},
+    {"type": "p", "text": "According to TechCrunch, external evaluations are already a major part of the release process for new large language models, but the embedded evaluator format extends that oversight beyond launch, with Faculty staff maintaining a constant presence inside Anthropic. The outlet also reported that one option under discussion with METR and other organizations is to pilot elements of this evaluation model using the evaluators' own funding, ahead of any broader funding arrangement.", "items": []},
+    {"type": "h2", "text": "Who foots the bill", "items": []},
+    {"type": "p", "text": "Anthropic said it will fund Accenture's work directly for now, since no pooled industry or government fund exists yet to pay for this kind of evaluation, per CNBC. The company said it expects that funding to eventually come from public or shared sources instead.", "items": []},
+    {"type": "p", "text": "Anthropic stressed that bringing in outside evaluators does not reduce its own responsibility for the safety of its models, according to CNBC and TechCrunch. The company said it remains accountable for what its AI systems do, even as external teams get a closer look at how those systems are built and tested.", "items": []}
+  ],
+  "image": {
+    "query": "office consultants reviewing data screens",
+    "alt": "Consultants reviewing data screens in an office, illustrating AI safety evaluation work"
+  },
+  "sources": [
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html", "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/", "title": "Anthropic's first embedded evaluator is … Accenture?"}
+  ],
+  "status": "draft"
+}
