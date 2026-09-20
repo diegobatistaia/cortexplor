@@ -7,31 +7,115 @@
   "meta_description": "Google, Nvidia and Emerald AI have launched an alliance for AI data centers that adjust their power use to the electric grid, according to Nvidia and TechRadar.",
   "keyword": "ai energy management alliance",
   "category": "mercado",
-  "tags": ["ai", "nvidia", "google", "data-centers", "energy"],
+  "tags": [
+    "ai",
+    "nvidia",
+    "google",
+    "data-centers",
+    "energy"
+  ],
   "body": [
-    {"type": "p", "text": "Emerald AI, Google and Nvidia announced the launch of the AI Energy Management Alliance (AEMA), a coalition focused on AI data centers that dynamically adjust their electricity use based on grid conditions, according to a Nvidia announcement confirmed by TechRadar.", "items": []},
-    {"type": "p", "text": "Power has become a defining constraint on the expansion of AI infrastructure in the United States, according to Nvidia. TechRadar adds that limited grid capacity is already causing years-long delays for new data center projects in the country.", "items": []},
-    {"type": "p", "text": "According to Nvidia, traditional grid interconnection processes were designed for facilities with flat, static electricity demand — not for computing infrastructure that can respond intelligently when the power system is under strain.", "items": []},
-    {"type": "h2", "text": "How a flexible data center works", "items": []},
-    {"type": "p", "text": "A flexible data center can adjust how much power it draws from the grid in several ways: shifting computing workloads to different times, discharging stored batteries, using its own paired generation, or responding to grid emergencies, according to Nvidia. TechRadar reports that this includes shifting high-compute tasks like model training to off-peak hours.", "items": []},
-    {"type": "p", "text": "Josh Parker, Nvidia's head of sustainability, said in a statement quoted by TechRadar that these future facilities will be able to change how much electricity they draw at any given moment. \"By creating a common framework for performance, reliability and collaboration, AEMA aims to help the US build the infrastructure of intelligence at the speed and sustainability the moment demands,\" Parker said, according to TechRadar.", "items": []},
-    {"type": "p", "text": "Nvidia and Emerald AI have already built their own software to manage power consumption in relation to the grid, according to TechRadar. The alliance, per Nvidia, brings together companies across the computing and power value chain: AI platforms, infrastructure providers, data center operators, power producers, utilities and regional grid operators.", "items": []},
-    {"type": "p", "text": "The alliance describes itself as \"technology-neutral and performance-based,\" according to Nvidia: the focus is on the measurable service each facility can deliver — response speed, duration, predictability and behavior during an emergency — rather than the specific hardware or software used. Grid reliability remains the top priority, the company says.", "items": []},
-    {"type": "p", "text": "Making more efficient use of existing grid capacity reduces environmental impact per watt and helps keep energy more affordable, according to Nvidia. The company expects that flexibility will also give utilities and grid operators more confidence to connect new AI facilities on shorter timelines, instead of waiting years for a new grid connection.", "items": []},
-    {"type": "p", "text": "These capabilities let a large electricity customer act as a controllable resource for the grid rather than a fixed, inflexible load, according to Nvidia. Nvidia and Emerald AI are already working with energy and infrastructure companies on AI facilities designed to respond to grid conditions in real time, and the alliance aims to broaden that work with a common approach that can be deployed nationwide.", "items": []},
-    {"type": "p", "text": "Together, the founding members plan to develop technical and operational approaches, work with utilities on interconnection solutions, and advocate for policies that recognize grid-responsive demand as a legitimate way to manage the power system, according to Nvidia.", "items": []},
-    {"type": "h2", "text": "More partners expected", "items": []},
-    {"type": "p", "text": "Only Emerald AI, Google and Nvidia are founding members so far, but other partners are expected to join the group, according to TechRadar, which cites reporting from SiliconANGLE that Anthropic will be one of them.", "items": []},
-    {"type": "p", "text": "The pressure on the grid is mounting: Bloomberg data cited by TechRadar suggests US data centers alone could use as much natural gas as Germany and Japan combined by 2035. A Moody's study, also cited by TechRadar, projects total US data center energy consumption could top 426 terawatt-hours by 2030.", "items": []},
-    {"type": "p", "text": "TechRadar notes the concept of grid flexibility isn't new: Google itself announced earlier this year that it had more than 1 gigawatt of demand-response capacity. The alliance's aim is to scale that practice and set common standards across the industry.", "items": []}
+    {
+      "type": "p",
+      "text": "Emerald AI, Google and Nvidia announced the launch of the AI Energy Management Alliance (AEMA), a coalition focused on AI data centers that dynamically adjust their electricity use based on grid conditions, according to a Nvidia announcement confirmed by TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Power has become a defining constraint on the expansion of AI infrastructure in the United States, according to Nvidia. TechRadar adds that limited grid capacity is already causing years-long delays for new data center projects in the country.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Nvidia, traditional grid interconnection processes were designed for facilities with flat, static electricity demand — not for computing infrastructure that can respond intelligently when the power system is under strain.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How a flexible data center works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A flexible data center can adjust how much power it draws from the grid in several ways: shifting computing workloads to different times, discharging stored batteries, using its own paired generation, or responding to grid emergencies, according to Nvidia. TechRadar reports that this includes shifting high-compute tasks like model training to off-peak hours.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Josh Parker, Nvidia's head of sustainability, said in a statement quoted by TechRadar that these future facilities will be able to change how much electricity they draw at any given moment. \"By creating a common framework for performance, reliability and collaboration, AEMA aims to help the US build the infrastructure of intelligence at the speed and sustainability the moment demands,\" Parker said, according to TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia and Emerald AI have already built their own software to manage power consumption in relation to the grid, according to TechRadar. The alliance, per Nvidia, brings together companies across the computing and power value chain: AI platforms, infrastructure providers, data center operators, power producers, utilities and regional grid operators.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The alliance describes itself as \"technology-neutral and performance-based,\" according to Nvidia: the focus is on the measurable service each facility can deliver — response speed, duration, predictability and behavior during an emergency — rather than the specific hardware or software used. Grid reliability remains the top priority, the company says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Making more efficient use of existing grid capacity reduces environmental impact per watt and helps keep energy more affordable, according to Nvidia. The company expects that flexibility will also give utilities and grid operators more confidence to connect new AI facilities on shorter timelines, instead of waiting years for a new grid connection.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "These capabilities let a large electricity customer act as a controllable resource for the grid rather than a fixed, inflexible load, according to Nvidia. Nvidia and Emerald AI are already working with energy and infrastructure companies on AI facilities designed to respond to grid conditions in real time, and the alliance aims to broaden that work with a common approach that can be deployed nationwide.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Together, the founding members plan to develop technical and operational approaches, work with utilities on interconnection solutions, and advocate for policies that recognize grid-responsive demand as a legitimate way to manage the power system, according to Nvidia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "More partners expected",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Only Emerald AI, Google and Nvidia are founding members so far, but other partners are expected to join the group, according to TechRadar, which cites reporting from SiliconANGLE that Anthropic will be one of them.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The pressure on the grid is mounting: Bloomberg data cited by TechRadar suggests US data centers alone could use as much natural gas as Germany and Japan combined by 2035. A Moody's study, also cited by TechRadar, projects total US data center energy consumption could top 426 terawatt-hours by 2030.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar notes the concept of grid flexibility isn't new: Google itself announced earlier this year that it had more than 1 gigawatt of demand-response capacity. The alliance's aim is to scale that practice and set common standards across the industry.",
+      "items": []
+    }
   ],
   "image": {
     "query": "data center electricity grid power lines",
-    "alt": "Row of server racks in a data center with power cables in the background"
+    "alt": "Row of server racks in a data center with power cables in the background",
+    "path": "/assets/img/google-nvidia-ai-energy-alliance-data-ce-a4da52b1.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "author": "Taylor Vick",
+    "author_url": "https://unsplash.com/@tvick?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/", "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/google-nvidia-and-emerald-ai-launch-alliance-to-advance-data-centers-that-dynamically-adjust-electricity-use-based-on-grid-conditions", "title": "Google, Nvidia and Emerald AI launch alliance to advance data centers that dynamically adjust electricity use based on grid conditions"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/google-nvidia-and-emerald-ai-launch-alliance-to-advance-data-centers-that-dynamically-adjust-electricity-use-based-on-grid-conditions",
+      "title": "Google, Nvidia and Emerald AI launch alliance to advance data centers that dynamically adjust electricity use based on grid conditions"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-20T07:28:20+00:00",
+  "updated_at": "2026-09-20T07:28:20+00:00"
 }

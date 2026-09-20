@@ -7,29 +7,105 @@
   "meta_description": "Google, Nvidia e Emerald AI lançaram uma aliança para data centers de IA que ajustam o consumo de energia à rede elétrica, segundo a Nvidia e a TechRadar.",
   "keyword": "alianca energia data centers ia",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "google", "datacenters", "energia"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "google",
+    "datacenters",
+    "energia"
+  ],
   "body": [
-    {"type": "p", "text": "A Emerald AI, o Google e a Nvidia anunciaram o lançamento da AI Energy Management Alliance (AEMA), uma coalizão voltada a data centers de inteligência artificial que ajustam dinamicamente o consumo de eletricidade conforme as condições da rede elétrica, segundo comunicado da Nvidia confirmado pela TechRadar.", "items": []},
-    {"type": "p", "text": "A energia elétrica se tornou um fator que limita a expansão da infraestrutura de IA nos Estados Unidos, segundo a Nvidia. A TechRadar acrescenta que a escassez de capacidade disponível na rede já provoca atrasos de anos em novos projetos de data centers no país.", "items": []},
-    {"type": "p", "text": "Segundo a Nvidia, os processos tradicionais de conexão à rede elétrica foram desenhados para instalações com demanda constante de energia — não para uma infraestrutura de computação capaz de reagir de forma inteligente quando o sistema elétrico está sob pressão.", "items": []},
-    {"type": "h2", "text": "Como um data center flexível funciona", "items": []},
-    {"type": "p", "text": "Um data center flexível pode ajustar quanto consome da rede de várias formas: transferindo cargas de processamento para outros horários, usando baterias armazenadas, recorrendo a geração própria de energia ou reagindo a situações de emergência do sistema elétrico, segundo a Nvidia. A TechRadar detalha que isso inclui deslocar tarefas de alto consumo, como o treinamento de modelos, para períodos de menor demanda na rede.", "items": []},
-    {"type": "p", "text": "Josh Parker, chefe de sustentabilidade da Nvidia, afirmou em comunicado, citado pela TechRadar, que essas futuras instalações poderão mudar a forma como consomem eletricidade a qualquer momento. \"Ao criar um framework comum para desempenho, confiabilidade e colaboração, a AEMA busca ajudar os Estados Unidos a construir a infraestrutura da inteligência na velocidade e sustentabilidade que o momento exige\", disse Parker, segundo a TechRadar.", "items": []},
-    {"type": "p", "text": "A Nvidia e a Emerald AI já desenvolveram softwares próprios para administrar o consumo de energia em relação à rede elétrica, segundo a TechRadar. A aliança reúne, segundo a Nvidia, empresas de toda a cadeia entre computação e energia: plataformas de IA, provedores de infraestrutura, operadores de data centers, produtoras de energia, distribuidoras e operadores regionais da rede.", "items": []},
-    {"type": "p", "text": "A aliança se define como \"neutra em tecnologia e baseada em desempenho\", segundo a Nvidia: o foco está no serviço mensurável que cada instalação consegue entregar — velocidade de resposta, duração, previsibilidade e comportamento em situações de emergência — e não em qual hardware ou software é usado. A confiabilidade da rede elétrica continua sendo prioridade, segundo a empresa.", "items": []},
-    {"type": "p", "text": "Usar de forma mais eficiente a capacidade já instalada na rede reduz o impacto ambiental por watt consumido e ajuda a manter a energia mais acessível, segundo a Nvidia. A expectativa da empresa é que a flexibilidade também dê às concessionárias e aos operadores da rede elétrica mais confiança para conectar novas instalações de inteligência artificial em prazos mais curtos, em vez de esperar anos por uma nova ligação à rede.", "items": []},
-    {"type": "h2", "text": "Mais parceiros a caminho", "items": []},
-    {"type": "p", "text": "Só Emerald AI, Google e Nvidia integram a aliança desde o lançamento, mas outros parceiros devem se juntar ao grupo, segundo a TechRadar. O veículo cita reportagem da SiliconANGLE segundo a qual a Anthropic será um deles.", "items": []},
-    {"type": "p", "text": "A pressão sobre a rede elétrica é crescente: dados da Bloomberg citados pela TechRadar apontam que os data centers dos Estados Unidos, sozinhos, podem consumir até 2035 tanto gás natural quanto Alemanha e Japão somados. Um estudo da Moody's, também citado pela TechRadar, projeta que o consumo total de energia dos data centers americanos pode ultrapassar 426 terawatts-hora até 2030.", "items": []},
-    {"type": "p", "text": "A TechRadar lembra que o conceito de flexibilidade energética não é novo: o próprio Google já havia anunciado, no início deste ano, mais de 1 gigawatt em capacidade de resposta de demanda. A expectativa da aliança é que a prática passe a valer em maior escala e com padrões comuns entre as empresas do setor.", "items": []}
+    {
+      "type": "p",
+      "text": "A Emerald AI, o Google e a Nvidia anunciaram o lançamento da AI Energy Management Alliance (AEMA), uma coalizão voltada a data centers de inteligência artificial que ajustam dinamicamente o consumo de eletricidade conforme as condições da rede elétrica, segundo comunicado da Nvidia confirmado pela TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A energia elétrica se tornou um fator que limita a expansão da infraestrutura de IA nos Estados Unidos, segundo a Nvidia. A TechRadar acrescenta que a escassez de capacidade disponível na rede já provoca atrasos de anos em novos projetos de data centers no país.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Nvidia, os processos tradicionais de conexão à rede elétrica foram desenhados para instalações com demanda constante de energia — não para uma infraestrutura de computação capaz de reagir de forma inteligente quando o sistema elétrico está sob pressão.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como um data center flexível funciona",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Um data center flexível pode ajustar quanto consome da rede de várias formas: transferindo cargas de processamento para outros horários, usando baterias armazenadas, recorrendo a geração própria de energia ou reagindo a situações de emergência do sistema elétrico, segundo a Nvidia. A TechRadar detalha que isso inclui deslocar tarefas de alto consumo, como o treinamento de modelos, para períodos de menor demanda na rede.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Josh Parker, chefe de sustentabilidade da Nvidia, afirmou em comunicado, citado pela TechRadar, que essas futuras instalações poderão mudar a forma como consomem eletricidade a qualquer momento. \"Ao criar um framework comum para desempenho, confiabilidade e colaboração, a AEMA busca ajudar os Estados Unidos a construir a infraestrutura da inteligência na velocidade e sustentabilidade que o momento exige\", disse Parker, segundo a TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia e a Emerald AI já desenvolveram softwares próprios para administrar o consumo de energia em relação à rede elétrica, segundo a TechRadar. A aliança reúne, segundo a Nvidia, empresas de toda a cadeia entre computação e energia: plataformas de IA, provedores de infraestrutura, operadores de data centers, produtoras de energia, distribuidoras e operadores regionais da rede.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A aliança se define como \"neutra em tecnologia e baseada em desempenho\", segundo a Nvidia: o foco está no serviço mensurável que cada instalação consegue entregar — velocidade de resposta, duração, previsibilidade e comportamento em situações de emergência — e não em qual hardware ou software é usado. A confiabilidade da rede elétrica continua sendo prioridade, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Usar de forma mais eficiente a capacidade já instalada na rede reduz o impacto ambiental por watt consumido e ajuda a manter a energia mais acessível, segundo a Nvidia. A expectativa da empresa é que a flexibilidade também dê às concessionárias e aos operadores da rede elétrica mais confiança para conectar novas instalações de inteligência artificial em prazos mais curtos, em vez de esperar anos por uma nova ligação à rede.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Mais parceiros a caminho",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Só Emerald AI, Google e Nvidia integram a aliança desde o lançamento, mas outros parceiros devem se juntar ao grupo, segundo a TechRadar. O veículo cita reportagem da SiliconANGLE segundo a qual a Anthropic será um deles.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A pressão sobre a rede elétrica é crescente: dados da Bloomberg citados pela TechRadar apontam que os data centers dos Estados Unidos, sozinhos, podem consumir até 2035 tanto gás natural quanto Alemanha e Japão somados. Um estudo da Moody's, também citado pela TechRadar, projeta que o consumo total de energia dos data centers americanos pode ultrapassar 426 terawatts-hora até 2030.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A TechRadar lembra que o conceito de flexibilidade energética não é novo: o próprio Google já havia anunciado, no início deste ano, mais de 1 gigawatt em capacidade de resposta de demanda. A expectativa da aliança é que a prática passe a valer em maior escala e com padrões comuns entre as empresas do setor.",
+      "items": []
+    }
   ],
   "image": {
     "query": "data center electricity grid power lines",
-    "alt": "Corredor de servidores em um data center com cabos de energia ao fundo"
+    "alt": "Corredor de servidores em um data center com cabos de energia ao fundo",
+    "path": "/assets/img/google-nvidia-alianca-energia-datacenter-a4da52b1.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "author": "Taylor Vick",
+    "author_url": "https://unsplash.com/@tvick?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/", "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/google-nvidia-and-emerald-ai-launch-alliance-to-advance-data-centers-that-dynamically-adjust-electricity-use-based-on-grid-conditions", "title": "Google, Nvidia and Emerald AI launch alliance to advance data centers that dynamically adjust electricity use based on grid conditions"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/google-nvidia-and-emerald-ai-launch-alliance-to-advance-data-centers-that-dynamically-adjust-electricity-use-based-on-grid-conditions",
+      "title": "Google, Nvidia and Emerald AI launch alliance to advance data centers that dynamically adjust electricity use based on grid conditions"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-20T07:28:19+00:00",
+  "updated_at": "2026-09-20T07:28:19+00:00"
 }
