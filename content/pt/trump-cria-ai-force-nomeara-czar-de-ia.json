@@ -7,32 +7,119 @@
   "meta_description": "Donald Trump disse que vai criar a 'AI Force' e nomear um czar de IA, chamando temores sobre riscos da tecnologia de farsa, segundo Guardian e SiliconANGLE.",
   "keyword": "Trump AI Force czar de IA",
   "category": "politica",
-  "tags": ["ia", "trump", "regulacao", "politica"],
+  "tags": [
+    "ia",
+    "trump",
+    "regulacao",
+    "politica"
+  ],
   "body": [
-    {"type": "p", "text": "Donald Trump disse no sábado que vai criar uma \"AI Force\", nos moldes da Space Force lançada em seu primeiro mandato, e que vai nomear um \"czar\" de inteligência artificial, segundo o Guardian e o SiliconANGLE. Ele deu poucos detalhes sobre os dois planos.", "items": []},
-    {"type": "p", "text": "O anúncio veio em uma publicação de Trump na sua rede social Truth Social, na qual ele também chamou a preocupação global com os riscos da IA de \"farsa\", atribuída por ele a opositores da \"esquerda radical\", segundo as duas fontes.", "items": []},
-    {"type": "p", "text": "\"Estou formando a AI Force, assim como fiz com a Space Force, que foi um sucesso tremendo no meu primeiro mandato\", escreveu Trump, acrescentando que anunciaria o czar de IA \"em um futuro próximo\", de acordo com o Guardian.", "items": []},
-    {"type": "p", "text": "Ele prometeu que seu governo \"não vai de forma alguma dificultar ou sufocar\" o crescimento do setor de IA, e argumentou que os sistemas de justiça criminal e civil já existentes são suficientes para lidar com eventuais \"maus atores\" na área, segundo o Guardian e o SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Na mesma publicação, Trump previu que a IA pode chegar a representar até 25% do Produto Interno Bruto dos Estados Unidos, chamando-a de \"a próxima Revolução Industrial, ou a Internet, só que ainda maior e mais impactante\". O número é uma projeção do próprio Trump, e nenhuma das duas fontes o atribuiu a outra origem.", "items": []},
-    {"type": "h2", "text": "Uma resposta a alertas crescentes de segurança", "items": []},
-    {"type": "p", "text": "O anúncio vem depois de semanas de alarme crescente dentro do próprio setor de IA. O executivo-chefe da Anthropic, Dario Amodei, pediu uma desaceleração coordenada no desenvolvimento dos modelos mais avançados, depois que um ex-pesquisador da Anthropic afirmou que as empresas de IA estão \"apostando com nossas vidas\", segundo o Guardian e o SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Outras figuras importantes do setor, como o executivo-chefe da OpenAI, Sam Altman, o dono da SpaceX, Elon Musk, e o presidente do conselho da Google DeepMind, Demis Hassabis, também apoiaram algum tipo de desaceleração, segundo o SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Trump vem rejeitando qualquer pausa, argumentando que desacelerar daria vantagem à China na corrida pelo desenvolvimento de sistemas avançados de IA, segundo as duas fontes. \"O único controle ou 'proteção' de que a IA precisa é um PRESIDENTE FORTE E INTELIGENTE, e os EUA têm isso de sobra\", escreveu, de acordo com o Guardian.", "items": []},
-    {"type": "h2", "text": "Anúncio coincide com semana decisiva com a China", "items": []},
-    {"type": "p", "text": "O plano surge dias antes da visita do presidente chinês, Xi Jinping, a Washington, que coincide com a Assembleia Geral das Nações Unidas, segundo o Guardian e o SiliconANGLE. O SiliconANGLE informou que a Casa Branca planeja um jantar de Estado ligado à visita, e que a segurança da IA está na pauta das conversas de Trump com Xi.", "items": []},
-    {"type": "p", "text": "O SiliconANGLE também lembrou que o cargo de czar de IA não é novo: o investidor de risco David Sacks ocupou brevemente a função no início do mandato de Trump, antes de deixá-la em março, embora continue assessorando o presidente por meio do conselho de ciência e tecnologia da Casa Branca.", "items": []},
-    {"type": "p", "text": "Segundo o Guardian, a proposta de um órgão formal para IA também surge em meio a divergências dentro do próprio partido de Trump, com governadores republicanos pedindo regras de segurança em nível estadual. Trump não disse quando o czar de IA será nomeado nem que poderes a AI Force terá.", "items": []},
-    {"type": "h2", "text": "Estados americanos já avançam por conta própria", "items": []},
-    {"type": "p", "text": "O Guardian informou que a publicação de Trump veio um dia depois de o governador da Califórnia, Gavin Newsom, anunciar um plano separado para um painel estadual que vai elaborar regras de segurança para a IA, incluindo o desenvolvimento de um possível \"botão de desligamento\" para sistemas que fujam do controle humano.", "items": []},
-    {"type": "p", "text": "Esse avanço em nível estadual mostra a lacuna que o plano de Trump precisaria preencher. Nem o Guardian nem o SiliconANGLE mencionaram qualquer legislação federal associada à AI Force ou ao cargo de czar, e as duas fontes notaram que Trump já se posicionou contra regras federais obrigatórias para o setor, preferindo deixar as próprias empresas se autorregularem enquanto insiste que os Estados Unidos precisam manter a liderança sobre a China.", "items": []}
+    {
+      "type": "p",
+      "text": "Donald Trump disse no sábado que vai criar uma \"AI Force\", nos moldes da Space Force lançada em seu primeiro mandato, e que vai nomear um \"czar\" de inteligência artificial, segundo o Guardian e o SiliconANGLE. Ele deu poucos detalhes sobre os dois planos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio veio em uma publicação de Trump na sua rede social Truth Social, na qual ele também chamou a preocupação global com os riscos da IA de \"farsa\", atribuída por ele a opositores da \"esquerda radical\", segundo as duas fontes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Estou formando a AI Force, assim como fiz com a Space Force, que foi um sucesso tremendo no meu primeiro mandato\", escreveu Trump, acrescentando que anunciaria o czar de IA \"em um futuro próximo\", de acordo com o Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ele prometeu que seu governo \"não vai de forma alguma dificultar ou sufocar\" o crescimento do setor de IA, e argumentou que os sistemas de justiça criminal e civil já existentes são suficientes para lidar com eventuais \"maus atores\" na área, segundo o Guardian e o SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Na mesma publicação, Trump previu que a IA pode chegar a representar até 25% do Produto Interno Bruto dos Estados Unidos, chamando-a de \"a próxima Revolução Industrial, ou a Internet, só que ainda maior e mais impactante\". O número é uma projeção do próprio Trump, e nenhuma das duas fontes o atribuiu a outra origem.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Uma resposta a alertas crescentes de segurança",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio vem depois de semanas de alarme crescente dentro do próprio setor de IA. O executivo-chefe da Anthropic, Dario Amodei, pediu uma desaceleração coordenada no desenvolvimento dos modelos mais avançados, depois que um ex-pesquisador da Anthropic afirmou que as empresas de IA estão \"apostando com nossas vidas\", segundo o Guardian e o SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Outras figuras importantes do setor, como o executivo-chefe da OpenAI, Sam Altman, o dono da SpaceX, Elon Musk, e o presidente do conselho da Google DeepMind, Demis Hassabis, também apoiaram algum tipo de desaceleração, segundo o SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Trump vem rejeitando qualquer pausa, argumentando que desacelerar daria vantagem à China na corrida pelo desenvolvimento de sistemas avançados de IA, segundo as duas fontes. \"O único controle ou 'proteção' de que a IA precisa é um PRESIDENTE FORTE E INTELIGENTE, e os EUA têm isso de sobra\", escreveu, de acordo com o Guardian.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Anúncio coincide com semana decisiva com a China",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O plano surge dias antes da visita do presidente chinês, Xi Jinping, a Washington, que coincide com a Assembleia Geral das Nações Unidas, segundo o Guardian e o SiliconANGLE. O SiliconANGLE informou que a Casa Branca planeja um jantar de Estado ligado à visita, e que a segurança da IA está na pauta das conversas de Trump com Xi.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O SiliconANGLE também lembrou que o cargo de czar de IA não é novo: o investidor de risco David Sacks ocupou brevemente a função no início do mandato de Trump, antes de deixá-la em março, embora continue assessorando o presidente por meio do conselho de ciência e tecnologia da Casa Branca.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Guardian, a proposta de um órgão formal para IA também surge em meio a divergências dentro do próprio partido de Trump, com governadores republicanos pedindo regras de segurança em nível estadual. Trump não disse quando o czar de IA será nomeado nem que poderes a AI Force terá.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Estados americanos já avançam por conta própria",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Guardian informou que a publicação de Trump veio um dia depois de o governador da Califórnia, Gavin Newsom, anunciar um plano separado para um painel estadual que vai elaborar regras de segurança para a IA, incluindo o desenvolvimento de um possível \"botão de desligamento\" para sistemas que fujam do controle humano.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Esse avanço em nível estadual mostra a lacuna que o plano de Trump precisaria preencher. Nem o Guardian nem o SiliconANGLE mencionaram qualquer legislação federal associada à AI Force ou ao cargo de czar, e as duas fontes notaram que Trump já se posicionou contra regras federais obrigatórias para o setor, preferindo deixar as próprias empresas se autorregularem enquanto insiste que os Estados Unidos precisam manter a liderança sobre a China.",
+      "items": []
+    }
   ],
   "image": {
     "query": "white house press conference american flag",
-    "alt": "Púlpito com o brasão presidencial na sala de imprensa da Casa Branca"
+    "alt": "Púlpito com o brasão presidencial na sala de imprensa da Casa Branca",
+    "path": "/assets/img/trump-cria-ai-force-nomeara-czar-de-ia-22793807.jpg",
+    "credit": "Ari Gardinier / Unsplash",
+    "author": "Ari Gardinier",
+    "author_url": "https://unsplash.com/@riptide444?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/the-white-house-with-a-crowd-gathered-outside-zbz0f4xbeVw"
   },
   "sources": [
-    {"name": "The Guardian Technology", "owner": "guardian", "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force", "title": "Trump to create 'AI Force' to monitor technology as fears over out-of-control agents grow"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/20/trump-says-hes-planning-to-create-an-ai-force-and-hire-a-new-ai-czar/", "title": "Trump says he's planning to create an 'AI Force' and hire a new AI czar"}
+    {
+      "name": "The Guardian Technology",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+      "title": "Trump to create 'AI Force' to monitor technology as fears over out-of-control agents grow"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/20/trump-says-hes-planning-to-create-an-ai-force-and-hire-a-new-ai-czar/",
+      "title": "Trump says he's planning to create an 'AI Force' and hire a new AI czar"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-21T07:26:00+00:00",
+  "updated_at": "2026-09-21T07:26:00+00:00"
 }
