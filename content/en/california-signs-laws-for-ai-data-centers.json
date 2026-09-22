@@ -1,0 +1,36 @@
+{
+  "lang": "en",
+  "slug": "california-signs-laws-for-ai-data-centers",
+  "story_id": "53ee9822c545caca",
+  "title": "California Signs Seven Bills to Regulate AI Data Centers",
+  "dek": "The new rules target data centers' electricity and water use and aim to keep the cost off residents' utility bills.",
+  "meta_description": "California Governor Newsom signed seven bills regulating AI data centers in the state, requiring them to disclose their energy and water use to regulators.",
+  "keyword": "California AI data centers law",
+  "category": "politica",
+  "tags": ["ai", "data centers", "regulation", "california"],
+  "body": [
+    {"type": "p", "text": "California Governor Gavin Newsom signed seven separate bills on Monday regulating AI data centers across the state, according to Convergência Digital and The Verge.", "items": []},
+    {"type": "p", "text": "The new laws require data centers to disclose their electricity use, water consumption, land use and labor needs before local governments approve new projects, Convergência Digital reports. The Verge adds that projects must also share energy-efficiency plans and drought-management details.", "items": []},
+    {"type": "h2", "text": "The goal: keep the bill off residents' tab", "items": []},
+    {"type": "p", "text": "The package's core aim is to stop the cost of grid and water-system upgrades needed for data centers from being passed on to other customers, both outlets report. \"While the Trump administration moves toward deregulation, communities are left to deal with the consequences — higher electricity demand, grid constraints, water use, and pollution,\" Newsom said in the press release, according to The Verge. \"With these laws, we are ensuring that Californians remain in the driver's seat — and that those profiting from data centers aren't doing so at our expense,\" he added, in the part of the statement also cited by Convergência Digital.", "items": []},
+    {"type": "p", "text": "According to The Verge, one of the laws also requires the California Public Utilities Commission to create a new rate classification specifically for data centers, with the cost of grid upgrades falling on the operators themselves. Convergência Digital adds that the package also requires data centers to follow state clean-energy procurement rules and help bring new clean power sources onto the grid.", "items": []},
+    {"type": "h2", "text": "A faster track for those who comply", "items": []},
+    {"type": "p", "text": "The new laws aren't only about restrictions. According to The Verge, data centers that meet certain energy, water and fuel consumption requirements will be able to use a streamlined approval process. Convergência Digital notes that the disclosure rules also serve another purpose: giving local communities more information to evaluate proposed projects before they're approved.", "items": []},
+    {"type": "h2", "text": "A split reaction", "items": []},
+    {"type": "p", "text": "Convergência Digital cites data-center industry groups warning that stricter rules will push investment to other states. The Verge notes that Newsom signed an executive order the week before to speed up the creation of an AI \"kill switch\" — a mechanism meant to let officials shut down or pause AI systems quickly if they pose a risk.", "items": []},
+    {"type": "p", "text": "The Los Angeles Times was first to report on the signings, according to The Verge. In practical terms, the new rate classification means that when a utility needs to build a new substation or expand water infrastructure to serve a data center, the cost falls on that data center's own rate class rather than being spread across everyone else's bill, as has often happened up to now.", "items": []},
+    {"type": "p", "text": "The package doesn't ban new data centers outright. It sets conditions: disclose the numbers, meet efficiency and water thresholds, and in exchange, qualifying projects can move through permitting faster. That trade-off, more transparency and efficiency requirements in return for a smoother path to approval, is what Newsom's office describes as keeping \"Californians in the driver's seat.\"", "items": []},
+    {"type": "h2", "text": "Part of a bigger fight over who pays", "items": []},
+    {"type": "p", "text": "The rapid buildout of data centers to train and run AI models has drawn growing pushback in California and elsewhere in the US, with residents and consumer advocates pointing to rising electricity bills, water use, pollution and strain on local infrastructure, according to Convergência Digital. The outlet notes that the tougher rules arrive just as tech companies race to expand their AI capacity, adding pressure on electricity and water demand across the country.", "items": []},
+    {"type": "p", "text": "The California package lands amid a national debate over who should cover the rising cost of AI infrastructure — and, per The Verge, the state government is framing it as a direct counterpoint to the Trump administration's deregulatory approach on data centers.", "items": []}
+  ],
+  "image": {
+    "query": "data center server room rows",
+    "alt": "Rows of server racks lined up inside a data center"
+  },
+  "sources": [
+    {"name": "Convergencia Digital", "owner": "convergencia", "url": "https://convergenciadigital.com.br/governo/california-endurece-regras-para-data-centers/", "title": "Califórnia endurece regras para data centers"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills", "title": "California tightens rules on AI data center energy and water use"}
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,40 @@
+{
+  "lang": "en",
+  "slug": "amazon-blocks-metas-shopping-ai-agent",
+  "story_id": "8b75c71ed5ef9c95",
+  "title": "Amazon Blocks Meta's Muse AI Agent From Shopping",
+  "dek": "The retailer says the agent doesn't identify itself as an AI and can capture user login data while browsing its store.",
+  "meta_description": "Amazon has blocked Meta's Muse AI shopping agent from buying on its US store. Here's why, and how Meta's Sentinel system is meant to keep user data safe.",
+  "keyword": "Amazon blocks Muse",
+  "category": "mercado",
+  "tags": ["ai", "meta", "amazon", "ai agents"],
+  "body": [
+    {"type": "p", "text": "Amazon has blocked Meta's AI shopping agent, Muse, from making purchases on Amazon.com. The block took effect Sunday night, according to TechCrunch, SiliconANGLE and Hipertextual.", "items": []},
+    {"type": "p", "text": "Users who tried to buy something through Muse began seeing an error message: \"Continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" All three outlets say the news site GeekWire was first to report the block.", "items": []},
+    {"type": "h2", "text": "Why Amazon says it pulled the plug", "items": []},
+    {"type": "p", "text": "According to SiliconANGLE, Amazon's terms require shopping agents to identify themselves through a text tag embedded in the web requests they send — something Muse doesn't do. Amazon also said the agent can view a user's account pages and purchase history when asked, which the company described to GeekWire, in comments cited by SiliconANGLE, as \"an undisclosed third party moving through customer accounts.\"", "items": []},
+    {"type": "p", "text": "In a statement also cited by Hipertextual, Amazon said \"third-party applications that offer to make purchases on behalf of customers from other businesses should operate openly and respect service provider decisions about whether or not to participate.\"", "items": []},
+    {"type": "h2", "text": "Meta's answer: a second agent watching the first", "items": []},
+    {"type": "p", "text": "Meta launched Muse in the US on September 8 as an assistant that can complete full tasks on a phone or computer — filling out forms, organizing email, browsing the web like a person would. To contain that access, Meta built a second, security-focused agent called Sentinel, which reviews sensitive actions such as payments before they go through. According to Hipertextual and SiliconANGLE, Sentinel keeps Muse from directly touching passwords or card numbers. The agent also connects to a user's email, calendar and notes, and browses inside that secure virtual machine using its own browser, Hipertextual reports.", "items": []},
+    {"type": "p", "text": "Amazon disagrees on the practical result. The company says Muse still captures and stores customer credentials while it browses — one of the concerns behind Sunday's block, Hipertextual reports.", "items": []},
+    {"type": "h2", "text": "Why Amazon might want the ban", "items": []},
+    {"type": "p", "text": "TechCrunch points to a practical motive: if Muse places a bad order, it's Amazon that has to deal with an unhappy customer and an aggrieved seller. Hipertextual adds another possible commercial reason. Amazon's advertising business, which the outlet says brings in $68 billion a year, depends on users browsing store pages and seeing sponsored products, something that doesn't happen when an AI agent buys directly on a user's behalf.", "items": []},
+    {"type": "h2", "text": "A more locked-down Muse is coming", "items": []},
+    {"type": "p", "text": "According to SiliconANGLE, Meta is testing a hardened version of Muse's isolation, called the Muse Confidential VM, with a limited group of users. The new setup would make it impossible even for Meta itself to access the data inside each Muse instance. The company says it's working to expand Muse's data-protection guardrails, a move that could be part of an effort to get Amazon's ban lifted.", "items": []},
+    {"type": "h2", "text": "A repeat pattern with shopping agents", "items": []},
+    {"type": "p", "text": "This isn't Amazon's first fight over agentic shopping. The company sued Perplexity AI last year over its Comet browser, which also buys on users' behalf. An appeals court dismissed that case in August, according to SiliconANGLE, but the ruling didn't stop Amazon from blocking agents that breach its rules. Amazon runs its own AI shopping tools, including Alexa for Shopping and Buy for Me, which it says identify themselves as AI to merchants.", "items": []},
+    {"type": "h2", "text": "The block lands as Muse is on a hot streak", "items": []},
+    {"type": "p", "text": "Muse has grown fast since its September 8 launch. It overtook ChatGPT as the top free app on the US iOS App Store last Friday, TechCrunch and SiliconANGLE report. That same day, according to SiliconANGLE, Meta's stock rose more than 11%.", "items": []},
+    {"type": "p", "text": "For now, Muse's shopping feature only works in the US, through third-party services like Stripe and 1Password. Meta hasn't set a date to bring it to other countries.", "items": []}
+  ],
+  "image": {
+    "query": "amazon delivery boxes warehouse",
+    "alt": "Stacked Amazon delivery boxes inside a distribution warehouse"
+  },
+  "sources": [
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/", "title": "Meta’s AI agent has been blocked from using Amazon.com"},
+    {"name": "Hipertextual", "owner": "hipertextual", "url": "https://hipertextual.com/inteligencia-artificial/amazon-bloquea-muse-asistente-ia-meta/", "title": "Amazon bloquea a Muse, la IA de Meta que puede comprar en línea por ti"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/21/amazon-blocks-metas-muse-agent-from-shopping-on-users-behalf/", "title": "Amazon blocks Meta’s Muse agent from shopping on users’ behalf"}
+  ],
+  "status": "draft"
+}
