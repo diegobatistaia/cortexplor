@@ -7,29 +7,104 @@
   "meta_description": "Newsom firmó siete leyes que regulan los centros de datos de inteligencia artificial en California y que exigen revelar su consumo de energía y de agua.",
   "keyword": "California leyes centros de datos IA",
   "category": "politica",
-  "tags": ["ia", "centros de datos", "regulacion", "california"],
+  "tags": [
+    "ia",
+    "centros de datos",
+    "regulacion",
+    "california"
+  ],
   "body": [
-    {"type": "p", "text": "El gobernador de California, Gavin Newsom, firmó el lunes siete leyes que regulan los centros de datos de inteligencia artificial en el estado, según Convergência Digital y The Verge.", "items": []},
-    {"type": "p", "text": "Las nuevas normas exigen que los centros de datos revelen su consumo de electricidad, uso de agua, ocupación del suelo y necesidades de mano de obra antes de que los gobiernos locales aprueben nuevos proyectos, según Convergência Digital. The Verge añade que los proyectos también deberán presentar planes de eficiencia energética y de gestión del agua en época de sequía.", "items": []},
-    {"type": "h2", "text": "El objetivo: que la factura no caiga sobre los vecinos", "items": []},
-    {"type": "p", "text": "El fin principal del paquete es evitar que el costo de ampliar la red eléctrica y el sistema de agua —necesario para atender la demanda de los centros de datos— se traslade a otros consumidores, según ambas publicaciones. Según The Verge, Newsom dijo en el comunicado que \"mientras el gobierno de Trump avanza hacia la desregulación, las comunidades quedan a cargo de las consecuencias: mayor demanda de electricidad, restricciones en la red, uso de agua y contaminación\". Y añadió: \"Con estas leyes, garantizamos que los californianos mantengan el control de la situación, y que quienes se benefician de los centros de datos no lo hagan a costa nuestra\", en la parte del comunicado también citada por Convergência Digital.", "items": []},
-    {"type": "p", "text": "Según The Verge, una de las leyes también obliga a la Comisión de Servicios Públicos de California a crear una nueva categoría de tarifa específica para centros de datos, con el costo de las obras de red cayendo sobre los propios operadores. Convergência Digital añade que el paquete también exige que los centros de datos cumplan las normas estatales de compra de energía y ayuden a incorporar nuevas fuentes de energía limpia a la red eléctrica.", "items": []},
-    {"type": "h2", "text": "Un camino más rápido para quien cumpla", "items": []},
-    {"type": "p", "text": "Las nuevas leyes no son solo restricción. Según The Verge, los centros de datos que cumplan ciertos requisitos de consumo de energía, agua y combustible podrán acceder a un proceso de aprobación simplificado. Convergência Digital señala que la divulgación de datos prevista en la ley también tiene otro objetivo: dar a las comunidades locales más información para evaluar los proyectos propuestos antes de que sean aprobados.", "items": []},
-    {"type": "h2", "text": "Reacciones encontradas", "items": []},
-    {"type": "p", "text": "Convergência Digital cita a entidades del sector que advierten que normas más estrictas empujarán las inversiones hacia otros estados. The Verge recuerda que Newsom había firmado, la semana anterior, una orden ejecutiva para acelerar la creación de un mecanismo de apagado de emergencia para sistemas de IA: el \"kill switch\", que permitiría detener o pausar rápidamente esos sistemas en caso de riesgo.", "items": []},
-    {"type": "p", "text": "Según The Verge, el diario Los Angeles Times fue el primero en informar sobre las firmas. En la práctica, la nueva categoría de tarifa significa que, cuando una empresa eléctrica necesite construir una nueva subestación o ampliar la infraestructura de agua para atender a un centro de datos, el costo recae sobre la propia categoría tarifaria del centro de datos, y no se reparte entre el resto de los consumidores, como solía ocurrir hasta ahora.", "items": []},
-    {"type": "h2", "text": "Parte de una disputa más amplia en Estados Unidos", "items": []},
-    {"type": "p", "text": "La expansión acelerada de los centros de datos para entrenar y operar modelos de IA ha generado una resistencia creciente en California y en otras partes de Estados Unidos, con vecinos y grupos de defensa del consumidor que señalan el impacto en las facturas de luz, el uso del agua, la contaminación y la infraestructura local, según Convergência Digital. La publicación señala que el endurecimiento de las normas llega justo cuando las empresas tecnológicas corren para ampliar su capacidad de inteligencia artificial, lo que presiona la demanda de electricidad y agua en buena parte del país.", "items": []},
-    {"type": "p", "text": "El paquete californiano llega en medio de un debate nacional sobre quién debe pagar la infraestructura de IA y, según The Verge, el propio estado lo presenta como un contrapunto a la postura desreguladora del gobierno de Trump.", "items": []}
+    {
+      "type": "p",
+      "text": "El gobernador de California, Gavin Newsom, firmó el lunes siete leyes que regulan los centros de datos de inteligencia artificial en el estado, según Convergência Digital y The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Las nuevas normas exigen que los centros de datos revelen su consumo de electricidad, uso de agua, ocupación del suelo y necesidades de mano de obra antes de que los gobiernos locales aprueben nuevos proyectos, según Convergência Digital. The Verge añade que los proyectos también deberán presentar planes de eficiencia energética y de gestión del agua en época de sequía.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "El objetivo: que la factura no caiga sobre los vecinos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El fin principal del paquete es evitar que el costo de ampliar la red eléctrica y el sistema de agua —necesario para atender la demanda de los centros de datos— se traslade a otros consumidores, según ambas publicaciones. Según The Verge, Newsom dijo en el comunicado que \"mientras el gobierno de Trump avanza hacia la desregulación, las comunidades quedan a cargo de las consecuencias: mayor demanda de electricidad, restricciones en la red, uso de agua y contaminación\". Y añadió: \"Con estas leyes, garantizamos que los californianos mantengan el control de la situación, y que quienes se benefician de los centros de datos no lo hagan a costa nuestra\", en la parte del comunicado también citada por Convergência Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según The Verge, una de las leyes también obliga a la Comisión de Servicios Públicos de California a crear una nueva categoría de tarifa específica para centros de datos, con el costo de las obras de red cayendo sobre los propios operadores. Convergência Digital añade que el paquete también exige que los centros de datos cumplan las normas estatales de compra de energía y ayuden a incorporar nuevas fuentes de energía limpia a la red eléctrica.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Un camino más rápido para quien cumpla",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Las nuevas leyes no son solo restricción. Según The Verge, los centros de datos que cumplan ciertos requisitos de consumo de energía, agua y combustible podrán acceder a un proceso de aprobación simplificado. Convergência Digital señala que la divulgación de datos prevista en la ley también tiene otro objetivo: dar a las comunidades locales más información para evaluar los proyectos propuestos antes de que sean aprobados.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Reacciones encontradas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Convergência Digital cita a entidades del sector que advierten que normas más estrictas empujarán las inversiones hacia otros estados. The Verge recuerda que Newsom había firmado, la semana anterior, una orden ejecutiva para acelerar la creación de un mecanismo de apagado de emergencia para sistemas de IA: el \"kill switch\", que permitiría detener o pausar rápidamente esos sistemas en caso de riesgo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según The Verge, el diario Los Angeles Times fue el primero en informar sobre las firmas. En la práctica, la nueva categoría de tarifa significa que, cuando una empresa eléctrica necesite construir una nueva subestación o ampliar la infraestructura de agua para atender a un centro de datos, el costo recae sobre la propia categoría tarifaria del centro de datos, y no se reparte entre el resto de los consumidores, como solía ocurrir hasta ahora.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Parte de una disputa más amplia en Estados Unidos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La expansión acelerada de los centros de datos para entrenar y operar modelos de IA ha generado una resistencia creciente en California y en otras partes de Estados Unidos, con vecinos y grupos de defensa del consumidor que señalan el impacto en las facturas de luz, el uso del agua, la contaminación y la infraestructura local, según Convergência Digital. La publicación señala que el endurecimiento de las normas llega justo cuando las empresas tecnológicas corren para ampliar su capacidad de inteligencia artificial, lo que presiona la demanda de electricidad y agua en buena parte del país.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El paquete californiano llega en medio de un debate nacional sobre quién debe pagar la infraestructura de IA y, según The Verge, el propio estado lo presenta como un contrapunto a la postura desreguladora del gobierno de Trump.",
+      "items": []
+    }
   ],
   "image": {
     "query": "data center server room rows",
-    "alt": "Filas de servidores dentro de un centro de datos"
+    "alt": "Filas de servidores dentro de un centro de datos",
+    "path": "/assets/img/california-firma-leyes-para-centros-de-d-91c2c6c8.jpg",
+    "credit": "Winston Chen / Unsplash",
+    "author": "Winston Chen",
+    "author_url": "https://unsplash.com/@winstonchen?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/close-up-of-server-cooling-fans-in-a-vibrant-data-center-iZe21DzHnUg"
   },
   "sources": [
-    {"name": "Convergencia Digital", "owner": "convergencia", "url": "https://convergenciadigital.com.br/governo/california-endurece-regras-para-data-centers/", "title": "Califórnia endurece regras para data centers"},
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills", "title": "California tightens rules on AI data center energy and water use"}
+    {
+      "name": "Convergencia Digital",
+      "owner": "convergencia",
+      "url": "https://convergenciadigital.com.br/governo/california-endurece-regras-para-data-centers/",
+      "title": "Califórnia endurece regras para data centers"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "title": "California tightens rules on AI data center energy and water use"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-22T07:34:47+00:00",
+  "updated_at": "2026-09-22T07:34:47+00:00"
 }
