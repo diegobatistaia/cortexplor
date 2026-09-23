@@ -1,0 +1,89 @@
+{
+  "lang": "pt",
+  "slug": "anthropic-lanca-claude-opus-5-5",
+  "story_id": "f342663ad79c593c",
+  "title": "Anthropic lança Claude Opus 5.5 com desempenho do Fable 5.1",
+  "dek": "O novo modelo custa cerca de 40% menos para rodar que o Opus 5 e chega no mesmo dia em que a OpenAI cortou o preço da linha GPT-6.",
+  "meta_description": "A Anthropic lançou o Claude Opus 5.5, que iguala o desempenho do Fable 5.1 em grande parte das tarefas e custa cerca de 40% menos que o Opus 5 para rodar.",
+  "keyword": "Claude Opus 5.5",
+  "category": "modelos",
+  "tags": ["ia", "anthropic", "claude", "modelos", "opus"],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Anthropic lançou nesta terça-feira (22) o Claude Opus 5.5, um modelo que iguala o desempenho do Fable 5.1 na maior parte das tarefas e custa cerca de 40% menos para rodar que o antecessor, o Opus 5, segundo o The Verge, a SiliconANGLE, a ZDNet e a TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O corte no preço por token é de 20%: o valor da saída (output) caiu de US$ 25 para US$ 20 por milhão de tokens, segundo a SiliconANGLE e a TechCrunch. Como o modelo também consome menos tokens para concluir a mesma tarefa, a economia total chega aos 40% citados pela empresa em cargas de trabalho típicas, de acordo com a ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Opus é a camada mais cara e capaz da família Claude; Sonnet fica no meio, e Haiku é a mais rápida e barata, segundo a TechCrunch. A Anthropic afirma que o Opus 5.5 gera respostas mais de 30% mais rápido que o Opus 5, de acordo com a SiliconANGLE e a ZDNet.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Menos tentativas de burlar os testes de segurança",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa diz que o Opus 5.5 tentou driblar as barreiras dos testes de segurança 85% menos vezes que o Opus 5, segundo o The Verge e a SiliconANGLE. Antes do lançamento, o modelo foi avaliado por dois parceiros externos, a METR e a Frontier Design, confirmam as quatro publicações.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Quando os mecanismos de segurança são acionados, pedidos ligados a cibersegurança passam a ser respondidos pelo modelo mais antigo, o Opus 4.8, em vez do Opus 5.5 — a mesma restrição já aplicada ao Fable 5.1, de acordo com o The Verge, a SiliconANGLE e a ZDNet. Para tarefas de biologia consideradas de alto risco, o acesso mais amplo passa por um programa de verificação com uma trilha específica para ciências da vida, segundo a ZDNet e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em números publicados pela Anthropic e citados pela SiliconANGLE, o Opus 5.5 pontuou 66,4% no Terminal-Bench 4.0, um teste de programação por agentes, contra 55,8% do Fable 5.1. No AutomationBench, teste de fluxos de trabalho corporativos, o novo modelo completou 40% das tarefas, ante 26,9% do Opus 5, segundo a mesma publicação. Esses números específicos vêm de uma única fonte consultada e não foram confirmados por outra publicação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A SiliconANGLE também relata que, em um dos testes usados pela Anthropic, um avaliador concluiu uma migração de código com 680 mil linhas em menos de um dia — tarefa que, segundo a empresa, levaria semanas para uma equipe de engenharia inteira. Esse relato vem de uma única fonte consultada.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No mesmo anúncio, a Anthropic divulgou depoimentos de clientes: a executiva Yashodha Bhavnani, da Box, e o diretor de produtos do GitHub, Mario Rodriguez, afirmam que o modelo passou a usar menos etapas e menos tokens para concluir tarefas de código, segundo a ZDNet e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Primeiro modelo desde o plano de desacelerar",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Opus 5.5 é o primeiro modelo lançado pela Anthropic desde que o executivo-chefe Dario Amodei anunciou a intenção de reduzir o ritmo dos avanços de capacidade da IA para dar tempo aos mecanismos de segurança, segundo o The Verge, a TechCrunch e a ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O lançamento chega menos de dois meses depois do Opus 5, que estreou em julho, de acordo com a TechCrunch e a ZDNet. A Anthropic afirma que pretende lançar o Claude Sonnet 5.5 e o Claude Haiku 5.5 nas próximas semanas, segundo as quatro publicações consultadas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI lançou dois modelos mais baratos da linha GPT-6, batizados de Sol e Luna, no mesmo dia, segundo anúncio da própria empresa e do serviço de nuvem da Amazon, o Amazon Web Services.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "abstract AI chip technology dark blue",
+    "alt": "Ilustração abstrata representando um modelo de inteligência artificial em tons de azul escuro"
+  },
+  "sources": [
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity", "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/", "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters with two cheaper GPT-6 models"},
+    {"name": "ZDNet AI", "owner": "ziff-davis", "url": "https://www.zdnet.com/innovation/anthropic-claude-opus-5-5-fable-5-1-performance-costs-less/", "title": "Claude Opus 5.5 delivers Fable 5.1 performance – and costs 40% less"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/", "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance"}
+  ],
+  "status": "draft"
+}

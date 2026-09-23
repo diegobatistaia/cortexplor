@@ -1,0 +1,107 @@
+{
+  "lang": "en",
+  "slug": "openai-launches-gpt-6-sol-luna-cheaper-models",
+  "story_id": "1051d1b98576a28c",
+  "title": "OpenAI Launches Cheaper GPT-6 Sol and Luna Models",
+  "dek": "Both models went live the same day on Amazon Bedrock, with OpenAI saying prices dropped 50% from the previous generation.",
+  "meta_description": "OpenAI launched GPT-6 Sol and GPT-6 Luna, cheaper models below flagship Astra, with prices down 50%. Both are also live on Amazon Bedrock, AWS's AI platform.",
+  "keyword": "GPT-6 Sol and Luna",
+  "category": "modelos",
+  "tags": ["ai", "openai", "gpt-6", "models", "amazon"],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI released two new models on Tuesday, GPT-6 Sol and GPT-6 Luna, expanding the GPT-6 lineup beyond its flagship model, Astra. The same day, Amazon confirmed both models were available on Amazon Bedrock, AWS's AI platform, according to announcements from both companies.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The two models target different workloads, OpenAI and AWS say. GPT-6 Sol is built for complex, recurring work such as coding and multistep tasks across tools. GPT-6 Luna is designed for simpler, high-volume jobs, including document extraction, summarization and classification.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Prices down 50%, OpenAI says",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says API prices for Sol and Luna dropped 50% compared with the promotional pricing of the previous generation, GPT-5.6. AWS does not confirm that specific figure, but it also describes both models as significantly cheaper than their predecessors.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to OpenAI, prompt caching — reusing instructions and documents already processed in earlier requests — now comes with a 90% discount on cached input tokens. AWS confirms that Sol and Luna support explicit prompt caching on Bedrock, a feature that cuts latency and cost by reusing repeated content across calls to the model.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Comparisons to rivals, according to OpenAI",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says GPT-6 Sol outperformed Anthropic's Claude Opus 5 on AutomationBench, a test of business workflows, using just 9% of the cost per task that the rival model required. The company also says Sol makes about half as many factual mistakes as its predecessor, based on an internal evaluation of real user conversations.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company also says that on DeepSWE v1.1, a test of complex software-engineering tasks, Sol at max effort scored 68.8% — within 1.1 percentage points of Claude Fable 5's best mark, 69.9% — at roughly 80% lower cost per task. According to OpenAI, Luna at higher reasoning-effort settings matches the older GPT-5.6 Sol's performance at about a hundredth of the cost.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "These performance comparisons come from OpenAI's own evaluations and have not been independently verified by another source.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On OSWorld 2.0, a test of autonomous computer use, OpenAI says Sol at its highest effort level scored close to Claude Opus 5 at medium effort — 60.5% versus 60.3% — at roughly 80% lower cost per task. The company also says Sol and Luna communicate more directly, with less jargon and shorter answers, a shift AWS also describes, saying the models deliver clearer reporting on their own work.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Where Sol and Luna fit in the GPT-6 lineup",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to OpenAI, Astra remains the most advanced model in the GPT-6 family, reserved for the most demanding projects, and was introduced by the company earlier in September. Sol and Luna were trained using methods similar to Astra's but tuned for lower cost and faster responses, OpenAI says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI describes Astra as the most intelligent and aligned model it has built, and used similar language when introducing Sol and Luna as a way to bring some of that same technology to less demanding, more cost-sensitive tasks.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company also points to growing internal demand for coding agents as one reason cost matters: OpenAI says its own researchers' daily token usage, valued at API prices, now exceeds $600 for the median researcher and $7,000 for those in the 90th percentile.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Also live on Amazon's cloud",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to AWS, Sol and Luna are available now through the Amazon Bedrock console and API, with data processed inside Amazon's own infrastructure and not used to train the models. The company says access can be governed through AWS Identity and Access Management policies and audited through AWS CloudTrail.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The launch landed the same day Anthropic announced Claude Opus 5.5, also priced lower than its predecessor, according to announcements from both companies.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "cloud computing servers data center blue light",
+    "alt": "Illustration of cloud computing servers with blue lighting"
+  },
+  "sources": [
+    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna", "title": "Introducing GPT-6 Sol and Luna"},
+    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/", "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock"}
+  ],
+  "status": "draft"
+}
