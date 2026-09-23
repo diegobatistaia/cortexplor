@@ -7,7 +7,13 @@
   "meta_description": "A OpenAI lançou o GPT-6 Sol e o GPT-6 Luna, versões mais baratas do GPT-6 Astra, com preço 50% menor. Os modelos já estão disponíveis também no Amazon Bedrock.",
   "keyword": "GPT-6 Sol e Luna",
   "category": "modelos",
-  "tags": ["ia", "openai", "gpt-6", "modelos", "amazon"],
+  "tags": [
+    "ia",
+    "openai",
+    "gpt-6",
+    "modelos",
+    "amazon"
+  ],
   "body": [
     {
       "type": "p",
@@ -87,11 +93,29 @@
   ],
   "image": {
     "query": "cloud computing servers data center blue light",
-    "alt": "Ilustração de servidores de computação em nuvem com luzes azuis"
+    "alt": "Ilustração de servidores de computação em nuvem com luzes azuis",
+    "path": "/assets/img/openai-lanca-gpt-6-sol-luna-mais-baratos-d7d7cfc5.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/icon-VofYoHuMWyc"
   },
   "sources": [
-    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna", "title": "Introducing GPT-6 Sol and Luna"},
-    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/", "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock"}
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "title": "Introducing GPT-6 Sol and Luna"
+    },
+    {
+      "name": "AWS Machine Learning",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+      "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-23T07:26:24+00:00",
+  "updated_at": "2026-09-23T07:26:24+00:00"
 }

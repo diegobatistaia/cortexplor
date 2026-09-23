@@ -7,7 +7,13 @@
   "meta_description": "Anthropic lanzó Claude Opus 5.5, que iguala el rendimiento de Fable 5.1 en la mayoría de las tareas y cuesta cerca de un 40% menos de ejecutar que Opus 5.",
   "keyword": "Claude Opus 5.5",
   "category": "modelos",
-  "tags": ["ia", "anthropic", "claude", "modelos", "opus"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "modelos",
+    "opus"
+  ],
   "body": [
     {
       "type": "p",
@@ -77,13 +83,41 @@
   ],
   "image": {
     "query": "abstract AI chip technology dark blue",
-    "alt": "Ilustración abstracta que representa un modelo de inteligencia artificial en tonos azul oscuro"
+    "alt": "Ilustración abstracta que representa un modelo de inteligencia artificial en tonos azul oscuro",
+    "path": "/assets/img/anthropic-lanza-claude-opus-5-5-e25c49b0.jpg",
+    "credit": "vackground.com / Unsplash",
+    "author": "vackground.com",
+    "author_url": "https://unsplash.com/@vackground?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-computer-keyboard-with-a-blue-background-SfDofjXtxHE"
   },
   "sources": [
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity", "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/", "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters with two cheaper GPT-6 models"},
-    {"name": "ZDNet AI", "owner": "ziff-davis", "url": "https://www.zdnet.com/innovation/anthropic-claude-opus-5-5-fable-5-1-performance-costs-less/", "title": "Claude Opus 5.5 delivers Fable 5.1 performance – and costs 40% less"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/", "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance"}
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/",
+      "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters with two cheaper GPT-6 models"
+    },
+    {
+      "name": "ZDNet AI",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/anthropic-claude-opus-5-5-fable-5-1-performance-costs-less/",
+      "title": "Claude Opus 5.5 delivers Fable 5.1 performance – and costs 40% less"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-23T07:26:25+00:00",
+  "updated_at": "2026-09-23T07:26:25+00:00"
 }
