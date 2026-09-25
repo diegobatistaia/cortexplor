@@ -1,0 +1,118 @@
+{
+  "lang": "pt",
+  "slug": "google-lanca-satelite-de-ia-para-o-espaco",
+  "story_id": "dfee600df920a269",
+  "title": "Google lança primeiro satélite de IA do Project Suncatcher",
+  "dek": "O satélite MVP leva quatro chips TPU ao espaço para testar se a inteligência artificial pode rodar em órbita movida a energia solar, segundo The Verge, SiliconANGLE e Engadget.",
+  "meta_description": "O Google vai lançar seu primeiro satélite de IA do Project Suncatcher em 1º de outubro, levando quatro chips TPU para testar computação de IA em órbita.",
+  "keyword": "Google Project Suncatcher satélite IA",
+  "category": "mercado",
+  "tags": [
+    "ia",
+    "google",
+    "project suncatcher",
+    "espaço"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "O Google vai lançar seu primeiro satélite do Project Suncatcher, batizado de MVP, a bordo de um foguete Falcon 9 da SpaceX no dia 1º de outubro, segundo o The Verge, a SiliconANGLE e o Engadget. O projeto testa se é possível rodar inteligência artificial em órbita, usando energia solar captada no espaço.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O MVP carrega quatro processadores TPU (unidades de processamento tensorial, os chips que o Google usa para treinar e rodar modelos de IA) e será colocado em órbita baixa da Terra, segundo as três fontes. Os painéis solares do satélite vão gerar cerca de um quilowatt de energia — o suficiente para alimentar um secador de cabelo, comparam o The Verge e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Quinze minutos de uso, depois é preciso esfriar",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os quatro chips só conseguem rodar por cerca de 15 minutos seguidos antes de precisarem ser desligados para esfriar, confirmam as três fontes. Sem ar para circular no vácuo do espaço, o Google testa um sistema de resfriamento com tubos de calor e radiadores, segundo o The Verge e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Antes do lançamento, o Google já havia exposto seus chips TPU a um feixe de prótons no Laboratório Nuclear Crocker, da Universidade da Califórnia em Davis, relatam a SiliconANGLE e o Engadget. Segundo a SiliconANGLE, os chips receberam, no teste, uma dose de radiação maior do que enfrentariam ao longo de cinco anos de missão espacial, e tiveram desempenho considerado bom pela equipe.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um satélite pequeno para um plano bem maior",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a SiliconANGLE, o satélite MVP tem o tamanho aproximado de uma geladeira e foi construído pela empresa Planet Labs, que normalmente fabrica satélites para capturar imagens de alta definição da superfície da Terra. O Google planeja colocar mais dois satélites em órbita no ano que vem para testar comunicação por laser de alta velocidade, segundo o The Verge e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Travis Beals, diretor sênior do Project Suncatcher, escreveu em comunicado do Google, citado pelo The Verge e pela SiliconANGLE, que “esse primeiro lançamento é sobre ver o que funciona, identificar pontos de falha e aplicar esses aprendizados a missões futuras”.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ceticismo sobre o quanto isso escala",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Engadget cita James Manyika, vice-presidente sênior de pesquisa do Google, dizendo que a empresa “não espera, para ser bem franco, ter algo utilmente operacional nos próximos anos”. O mesmo texto cita Brandon Lucia, professor de engenharia elétrica e da computação da Carnegie Mellon, para quem passar de um satélite para uma rede que funcione como um data center gigante “vai levar anos e recursos enormes”.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Engadget, o Google planeja eventualmente lançar 80 satélites voando em formatação e já estuda um satélite bem maior, do tamanho de um campo de futebol americano. O veículo não é, portanto, um data center completo: são quatro chips equivalentes à potência de um único servidor, e não de uma instalação inteira.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Google enfrenta concorrentes nessa corrida por computação orbital, entre eles a SpaceX de Elon Musk e as startups Starcloud e Orbital, que levantaram rodadas de investimento relevantes neste ano, segundo a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Radiação é o maior risco técnico",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Engadget explica que a radiação cósmica pode causar “bit flips” nos chips — quando um zero vira um em no código binário, ou o contrário, corrompendo dados. A solução do Google, segundo a reportagem, é simplesmente reiniciar os chips quando isso acontecer, a mesma saída usada em problemas de computador na Terra.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O plano é deixar o satélite MVP respondendo consultas simples de IA por cerca de um ano, embora ele continue orbitando a Terra por seis anos até se desintegrar ao reentrar na atmosfera, segundo o Engadget. Um único lançamento do foguete Falcon 9 custa cerca de US$ 74 milhões, lembra a reportagem, o que mostra o tamanho do investimento necessário mesmo para um teste inicial como este.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "satellite orbit earth space technology",
+    "alt": "Satélite em órbita da Terra com painéis solares abertos"
+  },
+  "sources": [
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+      "title": "Google is sending an AI satellite into space next week"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/24/googles-first-project-suncatcher-ai-satellite-set-to-blast-off-into-orbit-next-week/",
+      "title": "Google’s first Project Suncatcher AI satellite set to blast off into orbit next week"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2267975/google-is-sending-a-teensy-tiny-ai-data-center-to-space/",
+      "title": "Google is sending a teensy-tiny AI data center to space"
+    }
+  ],
+  "status": "draft"
+}
