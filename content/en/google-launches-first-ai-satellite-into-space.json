@@ -97,7 +97,13 @@
   ],
   "image": {
     "query": "satellite orbit earth space technology",
-    "alt": "Satellite orbiting Earth with solar panels extended"
+    "alt": "Satellite orbiting Earth with solar panels extended",
+    "path": "/assets/img/google-launches-first-ai-satellite-into--812a72d0.jpg",
+    "credit": "NASA / Unsplash",
+    "author": "NASA",
+    "author_url": "https://unsplash.com/@nasa?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/view-of-earth-and-satellite-yZygONrUBe8"
   },
   "sources": [
     {
@@ -119,5 +125,7 @@
       "title": "Google is sending a teensy-tiny AI data center to space"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-25T07:35:10+00:00",
+  "updated_at": "2026-09-25T07:35:10+00:00"
 }

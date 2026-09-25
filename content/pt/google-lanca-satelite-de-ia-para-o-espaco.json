@@ -92,7 +92,13 @@
   ],
   "image": {
     "query": "satellite orbit earth space technology",
-    "alt": "Satélite em órbita da Terra com painéis solares abertos"
+    "alt": "Satélite em órbita da Terra com painéis solares abertos",
+    "path": "/assets/img/google-lanca-satelite-de-ia-para-o-espac-812a72d0.jpg",
+    "credit": "NASA / Unsplash",
+    "author": "NASA",
+    "author_url": "https://unsplash.com/@nasa?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/view-of-earth-and-satellite-yZygONrUBe8"
   },
   "sources": [
     {
@@ -114,5 +120,7 @@
       "title": "Google is sending a teensy-tiny AI data center to space"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-09-25T07:35:09+00:00",
+  "updated_at": "2026-09-25T07:35:09+00:00"
 }
