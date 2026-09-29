@@ -1,0 +1,37 @@
+{
+  "lang": "en",
+  "slug": "anthropic-launches-claude-sonnet-5-5",
+  "story_id": "bfff3e9fde959eaa",
+  "title": "Anthropic Launches Claude Sonnet 5.5, Its Fastest Model Yet",
+  "dek": "The mid-tier model runs over 30% faster and needs fewer tokens per task, at the same price as Sonnet 5, according to Amazon Web Services and SiliconANGLE.",
+  "meta_description": "Anthropic's Claude Sonnet 5.5 is now live on AWS, Google Cloud and Azure, running 30% faster at lower cost per task while keeping the same token prices.",
+  "keyword": "Claude Sonnet 5.5",
+  "category": "modelos",
+  "tags": ["ai", "anthropic", "claude", "models"],
+  "body": [
+    {"type": "p", "text": "Anthropic released Claude Sonnet 5.5 on Monday, a mid-tier model the company says runs more than 30% faster than its predecessor while typically cutting the cost of a task by a similar margin, according to Amazon Web Services and SiliconANGLE. The model is the second release in the Claude 5.5 family, following Opus 5.5 on Sept. 22, SiliconANGLE reported.", "items": []},
+    {"type": "p", "text": "Sonnet 5.5 is available immediately on Amazon Bedrock and Claude Platform on AWS, according to AWS, and also through Google Cloud and Microsoft Azure, according to Olhar Digital and Canaltech. Pricing is unchanged from Sonnet 5: $2 per million input tokens, $10 per million output tokens and $0.20 per million tokens read from cache, according to SiliconANGLE and Hipertextual.", "items": []},
+    {"type": "h2", "text": "Same price, fewer tokens", "items": []},
+    {"type": "p", "text": "The savings come from efficiency rather than a price cut. Anthropic says Sonnet 5.5 needs up to 30% fewer tokens than Sonnet 5 to complete comparable work, which lowers the total cost of a task even though the per-token rate stays the same, according to SiliconANGLE, Hipertextual and Canaltech. Tokens are the small chunks of text a model processes to read a request and write a response.", "items": []},
+    {"type": "p", "text": "Output generation is also more than 30% faster than the previous generation, which Anthropic and SiliconANGLE describe as the fastest Sonnet model the company has shipped. AWS says the model is built for well-scoped, high-volume work, including first response to engineering alerts, always-on monitoring of other agents, SQL generation, and fast coding agents running inside an IDE with a fixed budget.", "items": []},
+    {"type": "h2", "text": "Coding and visual benchmarks jump", "items": []},
+    {"type": "p", "text": "On Terminal-Bench 4.0, a benchmark that scores how well a model completes multi-step tasks from a command line, Sonnet 5.5 reached 70.6%, up from Sonnet 5's 10.3%, according to SiliconANGLE, Olhar Digital and Canaltech. Canaltech reported that score edges out Anthropic's own flagship, Opus 5.5, which scored 66.4% on the same test, a figure Hipertextual also cited.", "items": []},
+    {"type": "p", "text": "Canaltech also reported a jump on Chartography, a benchmark for reading charts and tables, from 15.6% for Sonnet 5 to 61.6% for Sonnet 5.5 without external tools. SiliconANGLE and Canaltech both reported that Sonnet 5.5 is the first Sonnet model to beat the video game Pokémon Red using only screenshots, a test researchers use to gauge long-horizon reasoning and image understanding.", "items": []},
+    {"type": "h2", "text": "New safeguards, and a smaller model still to come", "items": []},
+    {"type": "p", "text": "Sonnet 5.5 is the first model in the Sonnet line to ship with the cybersecurity safeguards and fallback systems Anthropic built for more capable models such as Opus 5.5, according to SiliconANGLE and Olhar Digital. Those protections can redirect prompts that touch on cybersecurity or biology to more restricted handling, though the companies said most software development and life sciences work goes through unaffected.", "items": []},
+    {"type": "p", "text": "\"We fed Claude Sonnet 5.5 hundreds of real support use cases across replies and escalation requests,\" Zendesk's director of AI, Abhinay Kathuria, said, according to SiliconANGLE. \"It made fewer wrong decisions and resolved tickets faster than the Claude models we use in production today.\" Slack's principal engineer, Curtis Allen, told Olhar Digital that Sonnet 5.5 outperformed Sonnet 5 on nearly all of the company's internal Slackbot evaluations without any change to its prompts.", "items": []},
+    {"type": "p", "text": "Anthropic plans to release Haiku 5.5, the smallest and cheapest model in the new family, in the coming weeks, according to SiliconANGLE, Olhar Digital and Canaltech. AWS said usage of Sonnet 5.5 can be tracked through Amazon CloudWatch and AWS Cost Explorer, and that the model works with the identity, audit and monitoring tools AWS customers already use, including IAM, CloudTrail and Bedrock Guardrails.", "items": []}
+  ],
+  "image": {
+    "query": "abstract AI chip speed data processing blue",
+    "alt": "Abstract illustration of a fast data processing chip in blue tones, representing an AI model update"
+  },
+  "sources": [
+    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/", "title": "Introducing Claude Sonnet 5.5 on AWS"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/", "title": "Anthropic debuts Claude Sonnet 5.5 running 30% faster than the previous-generation AI model"},
+    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/09/28/inteligencia-artificial/anthropic-lanca-claude-sonnet-5-5-mais-rapido-e-ate-30-mais-barato-para-tarefas-do-dia-a-dia/", "title": "Anthropic lança Claude Sonnet 5.5 mais rápido e até 30% mais barato para tarefas do dia a dia"},
+    {"name": "Hipertextual", "owner": "hipertextual", "url": "https://hipertextual.com/inteligencia-artificial/anthropic-lanza-claude-sonnet-5-5-sus-principales-caracteristicas/", "title": "Anthropic estrena Claude Sonnet 5.5: consume menos tokens y trae importantes mejoras de rendimiento"},
+    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/quase-um-opus-por-uma-fracao-do-preco-novo-claude-sonnet-55-chega-30-mais-barato/", "title": "Quase um Opus por uma fração do preço: novo Claude Sonnet 5.5 chega 30% mais barato"}
+  ],
+  "status": "draft"
+}

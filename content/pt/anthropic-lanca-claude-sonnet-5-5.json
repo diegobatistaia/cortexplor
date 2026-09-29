@@ -1,0 +1,36 @@
+{
+  "lang": "pt",
+  "slug": "anthropic-lanca-claude-sonnet-5-5",
+  "story_id": "bfff3e9fde959eaa",
+  "title": "Anthropic lança Claude Sonnet 5.5, mais rápido e mais barato",
+  "dek": "O novo modelo intermediário chega às plataformas de nuvem usadas por empresas brasileiras com o mesmo preço por token do Sonnet 5, mas custo menor por tarefa.",
+  "meta_description": "A Anthropic lançou o Claude Sonnet 5.5, disponível na AWS, no Google Cloud e no Azure, com ganhos de até 30% em velocidade e custo por tarefa, diz a empresa.",
+  "keyword": "Claude Sonnet 5.5",
+  "category": "modelos",
+  "tags": ["ia", "anthropic", "claude", "modelos"],
+  "body": [
+    {"type": "p", "text": "A Anthropic lançou nesta segunda-feira o Claude Sonnet 5.5, segundo modelo da nova família Claude 5.5, com a promessa de respostas mais de 30% mais rápidas e custo por tarefa até 30% menor que o do Sonnet 5, segundo a AWS Machine Learning e a Canaltech. O lançamento segue o do modelo de topo Opus 5.5, em 22 de setembro, de acordo com a SiliconANGLE.", "items": []},
+    {"type": "p", "text": "O modelo já está disponível no Amazon Bedrock e no Claude Platform on AWS, segundo a própria AWS, além do Google Cloud e da Microsoft Azure, conforme a Olhar Digital e a Canaltech — os três provedores de nuvem mais usados por empresas no Brasil. Os preços por token não mudaram em relação ao Sonnet 5: US$ 2 por milhão de tokens de entrada, US$ 10 por milhão de saída e US$ 0,20 por milhão em leituras de cache, o equivalente a cerca de R$ 10,42, R$ 52,10 e R$ 1,04, segundo a conversão feita pela Olhar Digital.", "items": []},
+    {"type": "h2", "text": "Mesmo preço por token, menos tokens por tarefa", "items": []},
+    {"type": "p", "text": "A economia não vem de um corte no preço, mas de eficiência: segundo a SiliconANGLE, a Hipertextual e a Canaltech, o Sonnet 5.5 costuma precisar de até 30% menos tokens que o Sonnet 5 para concluir o mesmo trabalho, o que reduz o custo total mesmo com o valor por token mantido. Tokens são as pequenas unidades de texto que um modelo processa para entender um pedido e gerar uma resposta.", "items": []},
+    {"type": "p", "text": "A velocidade de geração de respostas também subiu mais de 30% frente à geração anterior, tornando o Sonnet 5.5 o modelo Sonnet mais rápido já lançado pela empresa, segundo a SiliconANGLE e a Olhar Digital. A Canaltech destaca que, no nível de esforço padrão dos aplicativos Claude, o modelo supera a pontuação máxima do Sonnet 5 gastando cerca de um décimo do custo por tarefa.", "items": []},
+    {"type": "h2", "text": "Salto em programação e leitura de gráficos", "items": []},
+    {"type": "p", "text": "No Terminal-Bench 4.0, teste que mede a capacidade de completar tarefas em várias etapas usando linha de comando, o Sonnet 5.5 atingiu 70,6% de acerto, ante 10,3% do Sonnet 5, segundo a SiliconANGLE, a Olhar Digital e a Canaltech. A Canaltech afirma que o resultado supera até o do próprio Opus 5.5, que marcou 66,4% no mesmo teste — número também citado pela Hipertextual.", "items": []},
+    {"type": "p", "text": "A Canaltech relatou ainda um salto no Chartography, benchmark que mede a leitura de gráficos e tabelas: de 15,6% no Sonnet 5 para 61,6% no Sonnet 5.5, sem uso de ferramentas externas. A SiliconANGLE e a Canaltech afirmam que o Sonnet 5.5 é o primeiro modelo da linha a zerar o jogo Pokémon Red usando apenas capturas de tela, teste usado por pesquisadores para medir raciocínio de longo prazo e compreensão de imagens.", "items": []},
+    {"type": "h2", "text": "Novas salvaguardas e o Haiku 5.5 a caminho", "items": []},
+    {"type": "p", "text": "O Sonnet 5.5 é o primeiro modelo da linha a ser lançado com salvaguardas de cibersegurança e mecanismos de fallback semelhantes aos criados para modelos mais avançados, como o Opus 5.5, segundo a SiliconANGLE e a Olhar Digital. Essas proteções podem direcionar pedidos ligados a cibersegurança ou biologia para um tratamento mais restrito, embora as empresas afirmem que a maior parte do trabalho de desenvolvimento de software e de ciências da vida segue sem alteração.", "items": []},
+    {"type": "p", "text": "\"Sem alterar nossos prompts, o Claude Sonnet 5.5 teve desempenho melhor que o Sonnet 5 em quase todas as nossas avaliações internas do Slackbot\", disse Curtis Allen, engenheiro principal do Slack, à Olhar Digital. A Anthropic também confirmou, segundo a SiliconANGLE, a Olhar Digital e a Canaltech, que vai lançar o Claude Haiku 5.5, modelo mais barato e rápido da nova família, nas próximas semanas.", "items": []}
+  ],
+  "image": {
+    "query": "abstract AI chip speed data processing blue",
+    "alt": "Ilustração abstrata de um chip de processamento de dados em tons de azul, representando atualização de modelo de IA"
+  },
+  "sources": [
+    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/", "title": "Introducing Claude Sonnet 5.5 on AWS"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/", "title": "Anthropic debuts Claude Sonnet 5.5 running 30% faster than the previous-generation AI model"},
+    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/09/28/inteligencia-artificial/anthropic-lanca-claude-sonnet-5-5-mais-rapido-e-ate-30-mais-barato-para-tarefas-do-dia-a-dia/", "title": "Anthropic lança Claude Sonnet 5.5 mais rápido e até 30% mais barato para tarefas do dia a dia"},
+    {"name": "Hipertextual", "owner": "hipertextual", "url": "https://hipertextual.com/inteligencia-artificial/anthropic-lanza-claude-sonnet-5-5-sus-principales-caracteristicas/", "title": "Anthropic estrena Claude Sonnet 5.5: consume menos tokens y trae importantes mejoras de rendimiento"},
+    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/quase-um-opus-por-uma-fracao-do-preco-novo-claude-sonnet-55-chega-30-mais-barato/", "title": "Quase um Opus por uma fração do preço: novo Claude Sonnet 5.5 chega 30% mais barato"}
+  ],
+  "status": "draft"
+}
