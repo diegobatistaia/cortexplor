@@ -1,0 +1,115 @@
+{
+  "lang": "en",
+  "slug": "openai-launches-dots-always-on-agents-chatgpt",
+  "story_id": "e28602a1770a6a86",
+  "title": "OpenAI Launches Dots, Always-On AI Agents in ChatGPT",
+  "dek": "The new feature, limited to $100-a-month-and-up plans, puts OpenAI in direct competition with Meta's Muse personal agent, SiliconANGLE, Wired and CNBC report.",
+  "meta_description": "OpenAI launched Dots, its new always-on ChatGPT agents that compete with Meta's Muse, starting on plans priced at $100 a month and up, three outlets report.",
+  "keyword": "OpenAI Dots",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "ai agents",
+    "automation"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI launched Dots on Tuesday at its DevDay developer conference in San Francisco: always-on AI agents inside ChatGPT that can carry a task or project forward without a prompt at every step, according to SiliconANGLE, Wired and CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE and Wired confirm the Dots run on OpenAI's own GPT-6 Astra model. Both outlets report that users can message their agent through ChatGPT on desktop, web or mobile, and can also reach it directly in Slack and Microsoft Teams, with context carrying over between channels.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar reports OpenAI used the same event to launch ChatGPT Spaces, a shared environment where colleagues can collaborate with each other and with OpenAI's own tools, including Codex and Dots. TechRadar says Spaces replaces the old Library tab for Pro, Business and Enterprise users, and that documents created there — called Pages — combine text, images, charts and live connections to apps like Slack, email and calendars, keeping the data current.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Access starts at the priciest tier",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE, Wired and CNBC confirm access to Dots began with the $100-a-month ChatGPT Pro plan and with Business Premium. SiliconANGLE adds that Pro subscribers in the European Union, Switzerland and the UK were left out of this first rollout, and that some accounts may wait several days before the feature appears.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI also introduced so-called \"specialist Dots\": agents with their own identity and credentials, set up by a company for one defined job. SiliconANGLE cites internal tests in invoice processing and procurement, while Wired reports that chief executive Sam Altman mentioned accounting, email marketing and legal analysis as use cases at DevDay — a combined list drawn from both outlets.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A direct answer to Meta's Muse",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC and SiliconANGLE confirm the Dots launch puts OpenAI in direct competition with Meta, which released its own personal agent, Muse, in the U.S. on September 8. Both outlets report that Muse also runs on a dedicated cloud computer, is free up to a usage limit, and costs $20 a month and up for heavier users.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC reports that Meta's stock rose 29% in September, its best month since 2013, as investors rallied around personal AI agents. The report does not attribute the rally to a single cause but ties the move to momentum building around the category.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI is already using Dots internally: SiliconANGLE reports that when a bug is flagged in the company's Slack, agents start investigating right away. Wired describes the Dots interface as customizable visual characters — \"cute blobs\" — and explains that, absent a specific task, an agent can go looking for ways to help on its own, though with only read-only access to connected apps, unable to send messages or change anything in that mode.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In one example Wired cites from OpenAI's own demo, a user's Dot noticed from their calendar that they were working through dinner and messaged back two delivery options with prices; the user replied with a choice and a delivery time. SiliconANGLE separately reports that one early tester's agent noticed he had forgotten to bill a client, drafted the invoice on its own, and waited for his approval before sending it.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "More sensitive actions, such as installing software or changing a password, require explicit user approval first, SiliconANGLE and Wired confirm. A monitoring system can pause or stop an agent over a safety concern, according to SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE reports that every Pro or Business Premium plan already includes one agent at no extra cost, and that Dots usage should not count against plan allowances during the first month, with rules varying by plan after that. OpenAI has not yet disclosed pricing for additional agents or for more speed and monthly capacity on an existing one, the same outlet says.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "AI agent assistant digital interface technology",
+    "alt": "Illustration of an AI assistant shown inside a digital interface"
+  },
+  "sources": [
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/29/openai-launches-dots-always-on-ai-agents-in-chatgpt-with-their-own-cloud-computers/",
+      "title": "OpenAI launches Dots, always-on AI agents in ChatGPT with their own cloud computers"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/openai-launches-chatgpt-spaces-to-help-humans-and-agents-work-together",
+      "title": "OpenAI launches ChatGPT Spaces to help humans and agents work together"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+      "title": "OpenAI follows Meta into the red-hot market for personal agents. But will users pay?"
+    },
+    {
+      "name": "Wired AI",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+      "title": "OpenAI's Dots Are Always-On AI Agents—and Its Answer to Meta's Muse"
+    }
+  ],
+  "status": "draft"
+}

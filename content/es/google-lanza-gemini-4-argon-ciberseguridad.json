@@ -1,0 +1,125 @@
+{
+  "lang": "es",
+  "slug": "google-lanza-gemini-4-argon-ciberseguridad",
+  "story_id": "76468a712cb93e4e",
+  "title": "Google lanza el Gemini 4 Argon, su modelo más avanzado",
+  "dek": "El nuevo modelo cuesta menos que sus rivales directos, pero empieza restringido a socios de ciberseguridad, según CNBC, SiliconANGLE, TechCrunch y Engadget.",
+  "meta_description": "Google lanzó el Gemini 4 Argon con un precio menor al de Claude Opus 5.5 y GPT-6 Astra, aunque el acceso inicial es solo para socios de ciberseguridad.",
+  "keyword": "Gemini 4 Argon",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "modelos",
+    "ciberseguridad"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google lanzó este miércoles (30) el Gemini 4 Argon, descrito por CNBC como el modelo de inteligencia artificial más avanzado que la empresa ha creado hasta ahora. Según CNBC, Argon marca un nuevo récord en tareas reales de ingeniería de software y empata en el primer puesto en pruebas de ciberseguridad.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El acceso, sin embargo, comienza limitado. CNBC, SiliconANGLE, TechCrunch y Engadget confirman que Google está entregando Argon primero a socios de ciberseguridad verificados dentro de su Fairwind Program, mientras trabaja con el gobierno de Estados Unidos en evaluaciones de seguridad antes de un lanzamiento público más amplio.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Un precio por debajo de los rivales directos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según SiliconANGLE y Engadget, Argon cuesta, en su lanzamiento, 2 dólares por millón de tokens de entrada y 10 dólares por millón de tokens de salida. SiliconANGLE recuerda que Anthropic cobra 4 y 20 dólares por los mismos conceptos en Claude Opus 5.5, mientras que Engadget compara el precio con el del GPT-6 Astra, de OpenAI, que cuesta 10 y 50 dólares.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ambos medios confirman además que el límite de salida del nuevo modelo llega a 1 millón de tokens. SiliconANGLE señala que eso es cerca de 16 veces el tope de 64.000 tokens de los Gemini anteriores, mientras que Engadget lo compara con el límite de 128.000 tokens del GPT-6 Astra.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En cifras reportadas solo por SiliconANGLE, Argon obtuvo 77,9% en DeepSWE v1.1, un benchmark de tareas largas de programación, frente a 74,2% de Claude Opus 5.5, de Anthropic, y una décima menos para el GPT-6 Astra, de OpenAI. En AutomationBench, que mide tareas completas de negocio, la misma fuente registró 51,3% para Argon contra 42,5% para Opus 5.5. Esas cifras específicas no fueron confirmadas por otra fuente.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Entrenado para encontrar vulnerabilidades solo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE y Engadget relatan que, en una demostración previa al lanzamiento, Argon encontró por sí solo una falla crítica en un software de salud usado por hospitales de todo el mundo, que exponía datos de pacientes y que los modelos anteriores no habían detectado. En la prueba de remediación de vulnerabilidades CWE-bench, el modelo empató con el GPT-6 Astra, según ambas fuentes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC y Engadget confirman que Google ya utiliza Argon en investigaciones internas de computación cuántica. SiliconANGLE agrega, en un detalle reportado solo por ese medio, que equipos de Google usan los agentes del modelo para migrar código de C y C++ a Rust, incluidas partes del núcleo Zircon de su sistema operativo Fuchsia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cientos de terabytes de memoria liberados",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC, SiliconANGLE y Engadget confirman que Argon ya ayudó a Google a liberar más de 300 tebibytes de memoria en sus centros de datos sin comprar hardware adicional, al detectar un uso ineficiente de recursos en sistemas internos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Barreras contra el mal uso antes de un lanzamiento más amplio",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC y Engadget confirman que Google reforzó Argon contra ataques de inyección de prompt — instrucciones ocultas que intentan manipular a un modelo para que actúe fuera de lo que pidió el usuario — e incorporó mecanismos para reducir el riesgo de que el sistema actúe por su cuenta sin haber sido solicitado. Tulsee Doshi, responsable del producto Gemini en Google, dijo a CNBC que empezar el lanzamiento así \"nos da más confianza\" y, a la vez, permite poner cuanto antes en manos de los defensores un modelo fuerte en defensa cibernética.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según CNBC, Gemini 4 llega casi un año después de Gemini 3, el lanzamiento que devolvió a Google al frente de la carrera por los modelos de punta, y llega tras un período en que la empresa se concentró en modelos más rápidos y baratos de la línea Flash. Doshi describió Argon ante CNBC como un modelo \"extremadamente equilibrado\", con buen desempeño en tareas largas de varios pasos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El lanzamiento llega un día después de que el consejero delegado de Google, Sundar Pichai, firmara, junto a otros ejecutivos tecnológicos, un acuerdo voluntario sobre seguridad en IA en la Casa Blanca, según CNBC. Google todavía no fijó una fecha para que desarrolladores de pago y suscriptores de Google AI Ultra accedan a Argon.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "abstract AI network blue technology",
+    "alt": "Ilustracion abstracta de una red neuronal en tonos azules que representa un modelo de IA"
+  },
+  "sources": [
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
+      "title": "Google rolls out Gemini 4 Argon, its most advanced AI model"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
+      "title": "Google's new frontier AI model Gemini 4 Argon goes to cybersecurity defenders first"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
+      "title": "Google's first Gemini 4 model is 'Argon'"
+    }
+  ],
+  "status": "draft"
+}
