@@ -83,9 +83,17 @@ def _ga4_report(creds, property_id: str, days: int) -> dict:
         "metrics": [{"name": "activeUsers"}, {"name": "screenPageViews"},
                     {"name": "engagementRate"}],
         "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
-        "limit": 250,
+        "limit": 5000,
     })
     rows = paged_data.get("rows", [])
+
+    # Visualizacoes por pagina, para o bloco "Mais lidas" da home. O mesmo
+    # artigo chega com ?ref=... de quem compartilhou: soma tudo na URL limpa.
+    views_by_path: dict[str, int] = {}
+    for r in rows:
+        path = r["dimensionValues"][0]["value"].split("?", 1)[0].split("#", 1)[0]
+        path = path if path.endswith("/") else f"{path}/"
+        views_by_path[path] = views_by_path.get(path, 0) + int(r["metricValues"][1]["value"])
 
     top_pages = [{
         "path": r["dimensionValues"][0]["value"],
@@ -103,7 +111,9 @@ def _ga4_report(creds, property_id: str, days: int) -> dict:
         bucket["active_users"] += int(r["metricValues"][0]["value"])
         bucket["page_views"] += int(r["metricValues"][1]["value"])
 
-    return {"totals": totals, "top_pages": top_pages, "by_language": by_language}
+    return {"totals": totals, "top_pages": top_pages, "by_language": by_language,
+            "views_by_path": dict(sorted(views_by_path.items(),
+                                         key=lambda kv: kv[1], reverse=True))}
 
 
 # --------------------------------------------------------- Search Console --

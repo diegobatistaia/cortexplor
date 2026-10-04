@@ -8,9 +8,12 @@ from __future__ import annotations
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup
 
+from . import seo
 from .config import ROOT, Config
-from .i18n import strings
+from .i18n import LANGUAGE_NAMES, strings
 from .util import format_date, parse_date, utcnow
+
+THEMES = ("light", "dark", "system")
 
 TEMPLATES = ROOT / "templates"
 
@@ -69,13 +72,37 @@ def base_context(cfg: Config, lang: str, **extra) -> dict:
         "ad_after_paragraph": AD_AFTER_PARAGRAPH,
         "year": utcnow().year,
         "active_category": None,
+        "is_home": False,
         "alternates": [],
         "og_image": None,
         "page_keywords": "",
         "legal_pages": [],
     }
     context.update(extra)
+    context["x_default"] = seo.x_default(cfg, context["alternates"])
+    context["lang_links"] = language_links(cfg, lang, context["alternates"])
+    theme = cfg.get("brand.default_theme", "light")
+    context["default_theme"] = theme if theme in THEMES else "light"
     return context
+
+
+def language_links(cfg: Config, lang: str, alternates: list[dict]) -> list[dict]:
+    """Um link por idioma para o seletor do topo.
+
+    Leva à mesma página na outra edição quando ela existe; quando não existe
+    (editoria regional, por exemplo), leva à capa daquela edição. Nunca
+    redireciona sozinho: quem decide o idioma é o leitor, e o Google indexa cada
+    versão pela URL dela.
+    """
+    by_lang = {a["lang"]: a["url"] for a in alternates}
+    return [{
+        "lang": other,
+        "code": other.upper(),
+        "name": LANGUAGE_NAMES.get(other, other),
+        "hreflang": cfg.get(f"site.html_lang.{other}", other),
+        "url": by_lang.get(other) or cfg.url(seo.home_path(other)),
+        "current": other == lang,
+    } for other in cfg.languages]
 
 
 def humanize(post: dict, lang: str) -> dict:

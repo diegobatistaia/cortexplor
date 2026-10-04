@@ -36,6 +36,13 @@ STRINGS = {
         "newsletter_note": "Sem spam. Cancele quando quiser.",
         "home_title": "Notícias de Inteligência Artificial",
         "category_description": "Últimas notícias e análises sobre {label} em {niche}.",
+        "home": "Início",
+        "language": "Idioma",
+        "dark_theme": "Tema escuro",
+        "updated": "Atualizado",
+        "timeline": "Linha do tempo",
+        "highlights": "Destaques da semana",
+        "by_section": "Por editoria",
     },
     "en": {
         "skip_to_content": "Skip to content",
@@ -66,6 +73,13 @@ STRINGS = {
         "newsletter_note": "No spam. Unsubscribe anytime.",
         "home_title": "Artificial Intelligence News",
         "category_description": "Latest news and analysis on {label} in {niche}.",
+        "home": "Home",
+        "language": "Language",
+        "dark_theme": "Dark theme",
+        "updated": "Updated",
+        "timeline": "Timeline",
+        "highlights": "This week's highlights",
+        "by_section": "By section",
     },
     "es": {
         "skip_to_content": "Ir al contenido",
@@ -97,8 +111,20 @@ STRINGS = {
         "newsletter_note": "Sin spam. Cancela cuando quieras.",
         "home_title": "Noticias de Inteligencia Artificial",
         "category_description": "Últimas noticias y análisis sobre {label} en {niche}.",
+        "home": "Inicio",
+        "language": "Idioma",
+        "dark_theme": "Tema oscuro",
+        "updated": "Actualizado",
+        "timeline": "Línea de tiempo",
+        "highlights": "Destacados de la semana",
+        "by_section": "Por sección",
     },
 }
+
+
+# Endonimos: cada idioma pelo proprio nome, que e como o leitor o procura num
+# seletor de idioma.
+LANGUAGE_NAMES = {"pt": "Português", "en": "English", "es": "Español"}
 
 
 class Strings(dict):

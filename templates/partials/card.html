@@ -11,6 +11,6 @@
     {%- if variant == 'lead' and post.summary %}
     <p class="card-dek">{{ post.summary }}</p>
     {%- endif %}
-    <p class="card-meta"><time datetime="{{ post.published_at }}">{{ post.published_human }}</time></p>
+    <p class="card-meta"><time datetime="{{ post.published_at }}" data-relative>{{ post.published_human }}</time></p>
   </div>
 </article>

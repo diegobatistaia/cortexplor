@@ -12,8 +12,8 @@
 {%- for alt in alternates %}
 <link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ alt.url }}">
 {%- endfor %}
-{%- if alternates %}
-<link rel="alternate" hreflang="x-default" href="{{ site.url(('/' ~ cfg.default_language ~ '/')) }}">
+{%- if x_default %}
+<link rel="alternate" hreflang="x-default" href="{{ x_default }}">
 {%- endif %}
 <meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 {%- if cfg.get('analytics.search_console_verification') %}
@@ -35,6 +35,8 @@
 <meta name="twitter:site" content="{{ cfg.get('seo.twitter_site') }}">
 {%- endif %}
 
+{#- Roda antes do CSS para a página já nascer no tema certo, sem piscar. #}
+<script>(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem("theme")}catch(e){}if(t!=="light"&&t!=="dark"){t="{{ default_theme }}";if(t==="system"){t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}}d.setAttribute("data-theme",t)})();</script>
 <link rel="icon" type="image/svg+xml" href="{{ cfg.get('brand.logo.favicon_svg') }}">
 <link rel="icon" type="image/x-icon" href="{{ cfg.get('brand.logo.favicon_ico') }}">
 <link rel="apple-touch-icon" href="/assets/logo/apple-touch-icon.png">
@@ -43,6 +45,7 @@
 <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/fonts.css">
 <link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
 {%- block schema %}{% endblock %}
 {%- if cfg.get('analytics.ga4_id') %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.get('analytics.ga4_id') }}"></script>

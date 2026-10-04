@@ -3,24 +3,156 @@
 <script type="application/ld+json">{{ schema_website|safe }}</script>
 {% endblock %}
 {% block content %}
+{%- macro kicker_line(post) -%}
+<p class="kicker-line"><a class="kicker" href="{{ post.category_url }}" style="--kicker:{{ post.category_color }}">{{ post.category_label }}</a><time class="meta" datetime="{{ post.published_at }}" data-relative>{{ post.published_human }}</time></p>
+{%- endmacro -%}
+{%- macro media(post, eager=false) -%}
+{%- if post.image and post.image.path %}
+<a class="media" href="{{ post.url }}" tabindex="-1" aria-hidden="true"><img src="{{ post.image.path }}" alt="" width="1200" height="675"{% if eager %} fetchpriority="high"{% else %} loading="lazy"{% endif %} decoding="async"></a>
+{%- endif %}
+{%- endmacro -%}
+{%- set sidebar_ad = ads.get('enabled') and ads.get('client_id') and (ads.get('slots') or {}).get('home_sidebar') -%}
 {%- for block in home_layout %}
 
-{%- if block == 'hero' and hero %}
+{%- if block == 'today' and blocks.today and blocks.today.lead %}
+{%- set lead = blocks.today.lead %}
+<section class="today wrap" aria-labelledby="today-title">
+  <div class="today-head">
+    <h1 class="today-title" id="today-title">{{ today_label or t.home }}</h1>
+    {%- if latest_published %}
+    <p class="updated"><span class="live-dot" aria-hidden="true"></span>{{ t.updated }} <time datetime="{{ latest_published }}" data-relative>{{ latest_published|date(lang) }}</time></p>
+    {%- endif %}
+  </div>
+  <article class="today-lead{% if not (lead.image and lead.image.path) %} no-media{% endif %}">
+    {{ media(lead, eager=true) }}
+    <div class="today-lead-body">
+      <span class="num" aria-hidden="true">01</span>
+      {{ kicker_line(lead) }}
+      <h2 class="today-lead-title"><a href="{{ lead.url }}">{{ lead.title }}</a></h2>
+      {%- if lead.summary %}<p class="today-dek">{{ lead.summary }}</p>{% endif %}
+    </div>
+  </article>
+  {%- if blocks.today.rest %}
+  <ol class="today-list" start="2">
+    {%- for post in blocks.today.rest %}
+    <li>
+      <span class="num" aria-hidden="true">{{ '%02d' % (loop.index + 1) }}</span>
+      <div>
+        {{ kicker_line(post) }}
+        <h3 class="today-item-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {%- if post.summary %}<p class="today-item-dek">{{ post.summary }}</p>{% endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- endif %}
+</section>
+{%- endif %}
+
+{%- if block == 'feed' and blocks.feed and (blocks.feed.timeline or blocks.feed.highlights or blocks.feed.most_read or sidebar_ad) %}
+{%- set feed = blocks.feed %}
+<div class="feed">
+  <div class="wrap feed-grid">
+    {%- if feed.timeline %}
+    <section class="feed-col timeline-col" aria-labelledby="timeline-title">
+      <h2 class="sec-title" id="timeline-title">{{ t.timeline }}</h2>
+      <ol class="timeline">
+        {%- for post in feed.timeline %}
+        <li style="--kicker:{{ post.category_color }}">
+          <p class="meta"><time datetime="{{ post.published_at }}" data-relative>{{ post.published_human }}</time> &middot; {{ post.category_label }}</p>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+    {%- endif %}
+
+    {%- if feed.highlights %}
+    {%- set big = feed.highlights[0] %}
+    <section class="feed-col highlights-col" aria-labelledby="highlights-title">
+      <h2 class="sec-title" id="highlights-title">{{ t.highlights }}</h2>
+      <article class="highlight-lead">
+        {{ media(big) }}
+        {{ kicker_line(big) }}
+        <h3 class="highlight-title"><a href="{{ big.url }}">{{ big.title }}</a></h3>
+        {%- if big.summary %}<p class="card-dek">{{ big.summary }}</p>{% endif %}
+      </article>
+      {%- if feed.highlights|length > 1 %}
+      <div class="highlight-row">
+        {%- for post in feed.highlights[1:] %}
+        <article class="highlight-card">
+          {{ media(post) }}
+          {{ kicker_line(post) }}
+          <h3 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </article>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </section>
+    {%- endif %}
+
+    {%- if feed.most_read or sidebar_ad %}
+    <aside class="feed-col rank-col"{% if feed.most_read %} aria-labelledby="most-read-title"{% endif %}>
+      {%- if feed.most_read %}
+      <h2 class="sec-title" id="most-read-title">{{ t.most_read }}</h2>
+      <ol class="ranking">
+        {%- for post in feed.most_read %}
+        <li>
+          <span class="rank" aria-hidden="true">{{ loop.index }}</span>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </li>
+        {%- endfor %}
+      </ol>
+      {%- endif %}
+      {{ ad_slot('home_sidebar') }}
+    </aside>
+    {%- endif %}
+  </div>
+</div>
+{%- endif %}
+
+{%- if block == 'ad_between_blocks' %}
+<div class="ad-band">{{ ad_slot('home_between_blocks') }}</div>
+{%- endif %}
+
+{%- if block == 'by_section' and blocks.by_section %}
+<section class="wrap block by-section" aria-labelledby="by-section-title">
+  <h2 class="block-title" id="by-section-title">{{ t.by_section }}</h2>
+  <div class="section-cols">
+    {%- for module in blocks.by_section %}
+    {%- set first = module.posts[0] %}
+    <section class="section-col" style="--kicker:{{ module.color }}" aria-labelledby="section-{{ module.slug }}">
+      <h3 class="section-name" id="section-{{ module.slug }}"><a href="/{{ lang }}/c/{{ module.slug }}/">{{ module.label }}</a></h3>
+      <article class="section-lead">
+        {{ media(first) }}
+        <h4><a href="{{ first.url }}">{{ first.title }}</a></h4>
+      </article>
+      {%- if module.posts|length > 1 %}
+      <ul class="section-list">
+        {%- for post in module.posts[1:] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      <a class="more" href="/{{ lang }}/c/{{ module.slug }}/">{{ t.see_all }}<span class="visually-hidden">: {{ module.label }}</span> <span aria-hidden="true">&rarr;</span></a>
+    </section>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+
+{%- if block == 'hero' and blocks.hero and blocks.hero.lead %}
+{%- set hero = blocks.hero.lead %}
 <section class="hero wrap" aria-labelledby="hero-title">
   <article class="hero-lead">
-    {%- if hero.image and hero.image.path %}
-    <a class="hero-media" href="{{ hero.url }}" tabindex="-1" aria-hidden="true">
-      <img src="{{ hero.image.path }}" alt="" width="1200" height="675" fetchpriority="high" decoding="async">
-    </a>
-    {%- endif %}
-    <a class="kicker" href="{{ hero.category_url }}" style="--kicker:{{ hero.category_color }}">{{ hero.category_label }}</a>
+    {{ media(hero, eager=true) }}
+    {{ kicker_line(hero) }}
     <h1 class="hero-title" id="hero-title"><a href="{{ hero.url }}">{{ hero.title }}</a></h1>
     {%- if hero.summary %}<p class="hero-dek">{{ hero.summary }}</p>{% endif %}
-    <p class="card-meta"><time datetime="{{ hero.published_at }}">{{ hero.published_human }}</time></p>
   </article>
-  {%- if secondary %}
+  {%- if blocks.hero.rest %}
   <div class="hero-side">
-    {%- for post in secondary %}
+    {%- for post in blocks.hero.rest %}
     {% with post=post, variant='compact' %}{% include "partials/card.html" %}{% endwith %}
     {%- endfor %}
   </div>
@@ -28,17 +160,13 @@
 </section>
 {%- endif %}
 
-{%- if block == 'ad_between_blocks' %}
-{{ ad_slot('home_between_blocks') }}
-{%- endif %}
-
-{%- if block == 'most_read' and most_read %}
+{%- if block == 'most_read' and blocks.most_read %}
 <section class="wrap block" aria-labelledby="most-read">
   <h2 class="block-title" id="most-read">{{ t.most_read }}</h2>
   <ol class="ranking">
-    {%- for post in most_read %}
+    {%- for post in blocks.most_read %}
     <li>
-      <span class="rank">{{ loop.index }}</span>
+      <span class="rank" aria-hidden="true">{{ loop.index }}</span>
       <div>
         <a class="kicker" href="{{ post.category_url }}" style="--kicker:{{ post.category_color }}">{{ post.category_label }}</a>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -50,15 +178,15 @@
 {%- endif %}
 
 {%- if block == 'topic_modules' %}
-{%- for module in topic_modules %}
+{%- for module in blocks.topic_modules or [] %}
 <section class="wrap block" aria-labelledby="topic-{{ module.slug }}">
   <div class="block-head">
     <h2 class="block-title" id="topic-{{ module.slug }}" style="--kicker:{{ module.color }}">{{ module.label }}</h2>
-    <a class="block-more" href="/{{ lang }}/c/{{ module.slug }}/">{{ t.see_all }}</a>
+    <a class="more" href="/{{ lang }}/c/{{ module.slug }}/">{{ t.see_all }}<span class="visually-hidden">: {{ module.label }}</span> <span aria-hidden="true">&rarr;</span></a>
   </div>
   <div class="grid">
     {%- for post in module.posts %}
-    {% with post=post %}{% include "partials/card.html" %}{% endwith %}
+    {% with post=post, variant=('lead' if loop.first else '') %}{% include "partials/card.html" %}{% endwith %}
     {%- endfor %}
   </div>
 </section>

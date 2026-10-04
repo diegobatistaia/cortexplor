@@ -143,7 +143,7 @@ def parse_date(value) -> datetime | None:
 
 
 MONTHS = {
-    "pt": ["janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto",
+    "pt": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
            "setembro", "outubro", "novembro", "dezembro"],
     "en": ["January", "February", "March", "April", "May", "June", "July", "August",
            "September", "October", "November", "December"],
