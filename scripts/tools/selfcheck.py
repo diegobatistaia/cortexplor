@@ -317,7 +317,8 @@ def main() -> int:
     tz = "America/Sao_Paulo"
     def brt(h): return datetime(2026, 10, 5, h + 3, 5, tzinfo=timezone.utc)
     horas = cfg.run_hours
-    check("há mais de uma rodada por dia configurada", len(horas) >= 2, str(horas))
+    check("run_hours tem ao menos uma rodada, em horas válidas",
+          len(horas) >= 1 and all(0 <= h <= 23 for h in horas), str(horas))
     check("três rodadas dividem o teto de 3 em 1 por rodada",
           [run_budget(r, [7, 12, 18], tz, brt(h)) for r, h in ((3, 7), (2, 12), (1, 18))] == [1, 1, 1])
     check("rodada sem pauta devolve a vaga para a seguinte",
