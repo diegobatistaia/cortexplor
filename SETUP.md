@@ -132,6 +132,33 @@ Os quatro slots já estão posicionados no HTML como comentários
 (`<!-- ad slot: ... -->`). Preencher o config liga todos de uma vez, sem tocar em
 template.
 
+## 8. Métricas automáticas (GA4 + Search Console)
+
+Feito uma vez, não precisa mexer de novo:
+
+1. Crie um projeto no [Google Cloud Console](https://console.cloud.google.com)
+   e ative a **Google Analytics Data API** e a **Search Console API**.
+2. Crie uma conta de serviço nesse projeto e gere uma chave **JSON**.
+3. Dê acesso de leitura pra essa conta de serviço:
+   - No GA4: Administrador → Gerenciamento de acesso à propriedade → papel
+     "Leitor".
+   - No Search Console: Configurações → Usuários e permissões → qualquer
+     nível, "Restrita" já basta pra ler relatório.
+4. Cole o conteúdo inteiro do arquivo `.json` como secret do repositório,
+   nome `GA_SEARCH_CONSOLE_CREDENTIALS` (Settings → Secrets and variables →
+   Actions). O valor nunca fica no código.
+5. Preencha em `site.config.yaml` (não são segredo, só identificadores):
+   ```yaml
+   analytics:
+     ga4_property_id: "123456789"
+     search_console_site: "https://cortexplor.com/"
+   ```
+
+O workflow **Métricas** roda toda segunda-feira, busca os números das duas
+APIs e commita `data/analytics.json` — mesmo padrão do `briefing.json`: coleta
+onde há internet, a Routine só lê o resultado. Pra rodar na hora, dispare o
+workflow manualmente em Actions → Métricas → Run workflow.
+
 ## 8. Skill de voz
 
 O arquivo `.claude/skills/voz-cortexplor/SKILL.md` está com regras genéricas

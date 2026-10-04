@@ -14,6 +14,7 @@ MODO ROUTINE (padrão hoje, sem custo de API)
         run check     [Routine] valida os rascunhos escritos
         run finish    [Actions] imagem + gate + build
         run build     só regera o HTML
+        run analytics [Actions] busca GA4 + Search Console, escreve data/analytics.json
 
 MODO API (para quando houver orçamento)
         run all       faz tudo sozinho chamando a API do Claude
@@ -27,6 +28,7 @@ import json
 import sys
 from datetime import date
 
+from ..engine import analytics as analytics_engine
 from ..engine import build as build_site
 from ..engine import collect, draft, gate, images, seo, verify
 from ..engine.config import load
@@ -36,6 +38,7 @@ from ..engine.store import (DATA, dequeue, enqueue, gate_pass_rate, load_posts, 
 from ..engine.util import isoformat, parse_date, utcnow, word_count
 
 BRIEFING = DATA / "briefing.json"
+ANALYTICS = DATA / "analytics.json"
 
 # Campos que todo rascunho precisa ter. A Routine escreve o arquivo; `check`
 # confere antes de qualquer coisa cara acontecer.
@@ -375,6 +378,24 @@ def cmd_all(cfg, args) -> int:
 
 # --------------------------------------------------------------- informativos
 
+def cmd_analytics(cfg, args) -> int:
+    """Busca metricas do GA4 e do Search Console. So roda no GitHub Actions
+    (precisa de internet); a Routine le o resultado em data/analytics.json."""
+    banner("Métricas de tráfego (GA4 + Search Console)")
+    report = analytics_engine.run(cfg)
+    ANALYTICS.parent.mkdir(parents=True, exist_ok=True)
+    ANALYTICS.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    ga4, sc = report["ga4"]["totals"], report["search_console"]["totals"]
+    print(f"\nJanela: últimos {report['window_days']} dias")
+    print(f"GA4            {ga4['active_users']} usuários ativos, "
+          f"{ga4['page_views']} visualizações, "
+          f"{ga4['engagement_rate']:.0%} engajamento")
+    print(f"Search Console {sc['clicks']} cliques, {sc['impressions']} impressões, "
+          f"posição média {sc['avg_position']}")
+    print(f"\ndata/analytics.json salvo.")
+    return 0
+
+
 def cmd_build(cfg, args) -> int:
     banner("Build do site")
     stats = build_site.run(cfg)
@@ -479,6 +500,7 @@ COMMANDS = {
     "check": cmd_check,
     "finish": cmd_finish,
     "build": cmd_build,
+    "analytics": cmd_analytics,
     "queue": cmd_queue,
     "status": cmd_status,
     "all": cmd_all,

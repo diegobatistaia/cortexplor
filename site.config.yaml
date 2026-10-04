@@ -84,6 +84,11 @@ analytics:
   # Preencher depois de criar a propriedade GA4. Vazio = tag nao e renderizada.
   ga4_id: "G-H9FBLT5986"
   search_console_verification: ""
+  # Usados só por `run analytics` (roda no GitHub Actions) pra buscar metricas
+  # pelas APIs do GA4 e do Search Console. Nao sao segredo - a credencial fica
+  # no secret GA_SEARCH_CONSOLE_CREDENTIALS, nunca aqui.
+  ga4_property_id: "551989507"
+  search_console_site: "https://cortexplor.com/"
 
 ads:
   # enabled: false ate a aprovacao do AdSense. Os slots ficam no HTML como
