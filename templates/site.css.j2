@@ -18,6 +18,12 @@
   --kicker-mix: #FFFFFF;
   --kicker-amount: 42%;
 {%- endset %}
+{%- macro dark_rules(scope) %}
+{{ scope }} .brand-mark.light { display: none; }
+{{ scope }} .brand-mark.dark { display: block; }
+{{ scope }} .icon-sun { display: block; }
+{{ scope }} .icon-moon { display: none; }
+{%- endmacro %}
 
 :root {
   color-scheme: light;
@@ -46,13 +52,14 @@
 :root[data-theme="dark"] {
 {{- dark_tokens }}
 }
-{%- if b.default_theme == 'system' %}
+{%- if default_theme == 'system' %}
 
 /* Sem JavaScript, segue o aparelho. Com JavaScript, o <head> ja decidiu. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
 {{- dark_tokens }}
   }
+{{- dark_rules(':root:not([data-theme])') }}
 }
 {%- endif %}
 
@@ -106,8 +113,6 @@ p { margin: 0; }
 .theme-toggle:hover { background: var(--surface); }
 .theme-toggle[hidden] { display: none; }
 .icon-sun { display: none; }
-[data-theme="dark"] .icon-sun { display: block; }
-[data-theme="dark"] .icon-moon { display: none; }
 
 /* ------------------------------------------------------------------ header */
 .site-header { border-bottom: 1px solid var(--ink); background: var(--paper); }
@@ -115,8 +120,7 @@ p { margin: 0; }
 .brand { display: inline-flex; text-decoration: none; }
 .brand-mark { height: 44px; width: auto; }
 .brand-mark.dark { display: none; }
-[data-theme="dark"] .brand-mark.light { display: none; }
-[data-theme="dark"] .brand-mark.dark { display: block; }
+{{- dark_rules('[data-theme="dark"]') }}
 .tagline {
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--muted);
@@ -226,7 +230,7 @@ h2 a:hover, h3 a:hover, h4 a:hover { text-decoration: underline; text-underline-
 
 /* ----------------------------------------------------------- by section */
 .ad-band:empty { display: none; }
-.section-cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; }
+.section-cols { display: grid; grid-template-columns: repeat({{ section_columns }}, minmax(0, 1fr)); gap: 32px; }
 .section-col {
   border-top: 4px solid color-mix(in srgb, var(--kicker, var(--primary)) var(--kicker-amount), var(--kicker-mix));
   padding-top: 16px; display: flex; flex-direction: column;
@@ -375,6 +379,7 @@ h2 a:hover, h3 a:hover, h4 a:hover { text-decoration: underline; text-underline-
 /* Rodape escuro nos dois temas: fecha a pagina como a capa de um jornal. */
 .site-footer { background: var(--footer-bg); color: var(--footer-ink); margin-top: 56px; }
 .site-footer a { color: var(--footer-ink); }
+.site-footer :focus-visible { outline-color: var(--footer-ink); }
 .footer-inner {
   display: grid; gap: 36px; padding-block: 46px;
   grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr));
@@ -450,6 +455,17 @@ h2 a:hover, h3 a:hover, h4 a:hover { text-decoration: underline; text-underline-
   .article-body { font-size: 1.08rem; }
   .footer-inner { grid-template-columns: 1fr; }
 }
+/* Navegador sem color-mix: uma declaracao com var() nunca e descartada na
+   leitura, entao a anterior nao serve de reserva - quando color-mix falha, a
+   propriedade vira "unset". Aqui as cores de editoria voltam puras. */
+@supports not (color: color-mix(in srgb, red 50%, blue)) {
+  .kicker, .section-name a { color: var(--kicker, var(--primary)); }
+  .timeline li::before, .block-title::before { background: var(--kicker, var(--primary)); }
+  .section-col { border-top-color: var(--kicker, var(--primary)); }
+  .nav a { border-bottom-color: var(--border); }
+  .nav a[aria-current] { border-bottom-color: var(--kicker, var(--ink)); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }

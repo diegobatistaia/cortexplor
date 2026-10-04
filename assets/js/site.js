@@ -29,6 +29,9 @@
   var rtf = null, short = null;
   try { rtf = new Intl.RelativeTimeFormat(lang, { numeric: "auto", style: "short" }); } catch (e) {}
   try { short = new Intl.DateTimeFormat(lang, { day: "numeric", month: "short" }); } catch (e) {}
+  // Inicio do dia no fuso de quem le: "ontem" e o dia anterior no calendario,
+  // nao "entre 24 e 48 horas atras".
+  function startOfDay(t) { var d = new Date(t); return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime(); }
   if (rtf) {
     var now = Date.now();
     var times = document.querySelectorAll("time[data-relative]");
@@ -36,18 +39,30 @@
       var el = times[i];
       var at = Date.parse(el.getAttribute("datetime"));
       if (isNaN(at)) continue;
-      var seconds = Math.min((at - now) / 1000, -60);
+      var diff = (at - now) / 1000;
+      if (diff > 300) continue;  // no futuro de verdade: fica a data absoluta
+      var seconds = Math.min(diff, -60);  // relogio adiantado alguns minutos
       var abs = Math.abs(seconds);
-      var text = null;
+      var text = null, relative = true;
       if (abs < 3600) text = rtf.format(Math.round(seconds / 60), "minute");
       else if (abs < 86400) text = rtf.format(Math.round(seconds / 3600), "hour");
-      else if (abs < 7 * 86400) text = rtf.format(Math.round(seconds / 86400), "day");
-      // Mais velho que uma semana: data curta ("25 de set."). Ano so quando
-      // nao e o atual - numa coluna estreita a data longa quebra em duas linhas.
-      else if (short && new Date(at).getFullYear() === new Date(now).getFullYear()) text = short.format(at);
+      else {
+        var days = Math.max(1, Math.round((startOfDay(now) - startOfDay(at)) / 86400000));
+        if (days < 7) text = rtf.format(-days, "day");
+        // Mais velho que uma semana: data curta ("25 de set."). Ano so quando
+        // nao e o atual - numa coluna estreita a data longa quebra em duas linhas.
+        else if (short && new Date(at).getFullYear() === new Date(now).getFullYear()) {
+          text = short.format(at);
+          relative = false;
+        }
+      }
       if (text) {
         if (!el.title) el.title = el.textContent.trim();
         el.textContent = text;
+        // "Atualizado em 2 de outubro" vira "Atualizado ha 2 h": a preposicao
+        // so serve para a data absoluta.
+        var label = relative && el.parentNode && el.parentNode.querySelector("[data-relative-label]");
+        if (label) label.textContent = label.getAttribute("data-relative-label");
       }
     }
   }
@@ -66,15 +81,17 @@
         String(d.getDate()).padStart(2, "0");
       for (var j = 0; j < today.length; j++) {
         var node = today[j];
-        node.setAttribute("datetime", iso);
-        node.textContent = "";
+        var time = document.createElement("time");
+        time.setAttribute("datetime", iso);
         if (weekday) {
           var wd = document.createElement("span");
           wd.className = "weekday";
           wd.textContent = weekday + ", ";
-          node.appendChild(wd);
+          time.appendChild(wd);
         }
-        node.appendChild(document.createTextNode(date));
+        time.appendChild(document.createTextNode(date));
+        node.textContent = "";
+        node.appendChild(time);
         node.hidden = false;
       }
     }

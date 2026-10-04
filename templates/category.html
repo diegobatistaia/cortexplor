@@ -9,7 +9,7 @@
   {%- if posts %}
   <div class="grid">
     {%- for post in posts %}
-    {% with post=post, variant=('lead' if loop.first else '') %}{% include "partials/card.html" %}{% endwith %}
+    {% with post=post, variant=('lead' if loop.first else ''), eager=loop.first, hlevel=2 %}{% include "partials/card.html" %}{% endwith %}
     {%- endfor %}
   </div>
   {%- else %}

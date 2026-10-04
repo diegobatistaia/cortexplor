@@ -1,13 +1,14 @@
 {% set variant = variant|default('') %}
+{% set hlevel = hlevel|default(3) %}
 <article class="card {{ variant }}">
   {%- if post.image and post.image.path and variant != 'compact' %}
   <a class="card-media" href="{{ post.url }}" tabindex="-1" aria-hidden="true">
-    <img src="{{ post.image.path }}" alt="" loading="lazy" decoding="async" width="1200" height="675">
+    <img src="{{ post.image.path }}" alt=""{% if eager|default(false) %} fetchpriority="high"{% else %} loading="lazy"{% endif %} decoding="async" width="1200" height="675">
   </a>
   {%- endif %}
   <div class="card-body">
     <a class="kicker" href="{{ post.category_url }}" style="--kicker:{{ post.category_color }}">{{ post.category_label }}</a>
-    <h3 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h{{ hlevel }} class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h{{ hlevel }}>
     {%- if variant == 'lead' and post.summary %}
     <p class="card-dek">{{ post.summary }}</p>
     {%- endif %}

@@ -17,7 +17,7 @@ from xml.sax.saxutils import escape
 from . import seo
 from .config import ROOT, Config
 from .i18n import strings
-from .render import base_context, environment, humanize, render
+from .render import base_context, default_theme, environment, humanize, render
 from .store import CONTENT, DATA, load_posts
 from .util import excerpt, isoformat, parse_date, utcnow
 
@@ -55,22 +55,25 @@ def views() -> dict[str, int]:
         try:
             for path, value in json.loads(manual.read_text(encoding="utf-8")).items():
                 add(path, value)
-        except (json.JSONDecodeError, AttributeError):
+        except (json.JSONDecodeError, AttributeError, OSError, UnicodeDecodeError):
             pass
 
     weekly = DATA / "analytics.json"
     if weekly.exists():
         try:
-            ga4 = json.loads(weekly.read_text(encoding="utf-8")).get("ga4", {})
-        except json.JSONDecodeError:
-            ga4 = {}
+            raw = json.loads(weekly.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError, UnicodeDecodeError):
+            raw = {}
+        ga4 = raw.get("ga4") if isinstance(raw, dict) else None
+        ga4 = ga4 if isinstance(ga4, dict) else {}
         by_path = ga4.get("views_by_path")
         if isinstance(by_path, dict):
             for path, value in by_path.items():
                 add(path, value)
-        else:
-            for row in ga4.get("top_pages", []):
-                add(row.get("path", ""), row.get("page_views", 0))
+        elif isinstance(ga4.get("top_pages"), list):
+            for row in ga4["top_pages"]:
+                if isinstance(row, dict):
+                    add(row.get("path", ""), row.get("page_views", 0))
     return counts
 
 
@@ -79,10 +82,12 @@ def owner_count(post: dict) -> int:
     return len({s.get("owner") or s.get("name") for s in post.get("sources", [])})
 
 
-def rank_most_read(pool: list[dict], counts: dict[str, int], limit: int) -> list[dict]:
-    """Só entra o que tem visualização medida: "mais lidas" sem dado de
-    audiência seria "mais recentes" com outro rótulo."""
-    read = [p for p in pool if counts.get(p["url"], 0) > 0]
+def rank_most_read(pool: list[dict], counts: dict[str, int], limit: int,
+                   min_views: int = 1) -> list[dict]:
+    """Só entra o que tem audiência medida acima do piso: "mais lidas" sem dado
+    de audiência seria "mais recentes" com outro rótulo, e uma visita isolada
+    em 28 dias é ruído, não leitura."""
+    read = [p for p in pool if counts.get(p["url"], 0) >= max(min_views, 1)]
     read.sort(key=lambda p: (counts[p["url"]], p["published_at"]), reverse=True)
     return read[:limit]
 
@@ -157,40 +162,48 @@ def home_blocks(cfg: Config, posts: list[dict], nav: list[dict], counts: dict[st
         used.update(p["slug"] for p in items)
         return items
 
-    def sections(per_column: int) -> list[dict]:
-        out = []
-        for category in nav:
-            if len(out) >= cfg.get("editorial.topic_module_count", 4):
-                break
-            in_category = [p for p in fresh() if p.get("category") == category["key"]]
+    def sections(per_column: int, columns: int) -> list[dict]:
+        """As editorias com matéria mais recente ganham as colunas; a ordem na
+        tela segue o config, para cada editoria ter lugar previsível."""
+        per_column, columns = max(per_column, 0), max(columns, 0)
+        candidates = []
+        for position, category in enumerate(nav):
+            in_category = [p for p in fresh() if p.get("category") == category["key"]][:per_column]
             if in_category:
-                out.append({**category, "posts": take(in_category[:per_column])})
-        return out
+                candidates.append((in_category[0]["published_at"], position, category, in_category))
+        chosen = sorted(candidates, key=lambda c: c[0], reverse=True)[:columns]
+        return [{**category, "posts": take(items)}
+                for _, _, category, items in sorted(chosen, key=lambda c: c[1])]
 
     most_read_count = cfg.get("editorial.most_read_count", 5)
+    min_views = cfg.get("editorial.most_read_min_views", 2)
+    module_count = cfg.get("editorial.topic_module_count", 4)
     blocks: dict = {}
     for block in cfg.get("editorial.home_layout", []):
+        if block in blocks:
+            continue  # o config.validate já recusa; aqui só não consome matéria
         if block in ("today", "hero"):
             count = cfg.get("editorial.today_count", 4) if block == "today" else 4
             items = take(fresh()[:count])
             blocks[block] = {"lead": items[0] if items else None, "rest": items[1:]}
         elif block == "feed":
-            # Ordem de escolha, do critério mais escasso para o mais farto: as mais
-            # lidas dependem de audiência medida, os destaques precisam ser da
-            # semana, e a linha do tempo aceita qualquer coisa recente. Na ordem
-            # inversa, a linha do tempo esvaziava os outros dois.
-            most_read = take(rank_most_read(fresh(), counts, most_read_count))
+            # Ordem de escolha, do critério mais escasso para o mais farto: os
+            # destaques precisam ser da semana, as mais lidas precisam de
+            # audiência medida, e a linha do tempo aceita qualquer coisa recente.
+            # Na ordem inversa, a linha do tempo esvaziava os outros dois.
             highlights = take(pick_highlights(fresh(), cfg.get("editorial.highlights_count", 3),
                                               cfg.get("editorial.highlights_days", 7)))
+            most_read = take(rank_most_read(fresh(), counts, most_read_count, min_views))
             timeline = take(fresh()[:cfg.get("editorial.timeline_count", 7)])
             blocks["feed"] = {"timeline": timeline, "highlights": highlights,
                               "most_read": most_read}
         elif block == "most_read":
-            blocks["most_read"] = take(rank_most_read(fresh(), counts, most_read_count))
+            blocks["most_read"] = take(rank_most_read(fresh(), counts, most_read_count, min_views))
         elif block == "by_section":
-            blocks["by_section"] = sections(cfg.get("editorial.section_posts", 3))
+            blocks["by_section"] = sections(cfg.get("editorial.section_posts", 3),
+                                            cfg.get("editorial.section_columns", module_count))
         elif block == "topic_modules":
-            blocks["topic_modules"] = sections(3)
+            blocks["topic_modules"] = sections(3, module_count)
     return blocks
 
 
@@ -201,6 +214,7 @@ def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path, nav: l
         blocks=home_blocks(cfg, posts, nav, views()),
         latest_published=posts[0]["published_at"] if posts else "",
         today_label=cfg.localized("editorial.today_label", lang, ""),
+        highlights_label=cfg.localized("editorial.highlights_label", lang, ""),
         home_layout=cfg.get("editorial.home_layout", []),
         schema_website=seo.website_schema(cfg, lang),
         page_title=f"{cfg.get('site.name')} - {cfg.localized('site.tagline', lang)}",
@@ -438,15 +452,34 @@ def build_css(env, cfg: Config, out: Path) -> None:
     # CSS is not HTML: rendering it with autoescape on would turn the font
     # stack's quotes into entities.
     plain = env.overlay(autoescape=False)
-    css = plain.get_template("site.css.j2").render(b=cfg.get("brand", {}))
+    css = plain.get_template("site.css.j2").render(
+        b=cfg.get("brand", {}), default_theme=default_theme(cfg),
+        section_columns=max(1, cfg.get("editorial.section_columns",
+                                       cfg.get("editorial.topic_module_count", 4))))
     write(out / "assets" / "css" / "site.css", css)
 
 
 # ----------------------------------------------------------------------- main
 
+def normalize(post: dict, cfg: Config) -> dict:
+    """Resolve uma vez o que todo o resto do build assume.
+
+    - Editoria: uma pauta "IA no Brasil" escrita em inglês vai para a editoria
+      de reserva daquele idioma. Resolvendo aqui, menu, página da editoria,
+      capa e rótulo concordam sobre onde ela está.
+    - Imagem: matéria sem foto ainda tem o campo, vazio, e os templates tratam
+      a ausência em vez de quebrar.
+    """
+    category = cfg.category_or_fallback(post.get("category", ""), post["lang"])
+    image = post.get("image") if isinstance(post.get("image"), dict) else {}
+    return {**post,
+            "category": category["key"] if category else post.get("category", ""),
+            "image": {"path": "", "alt": "", "credit": "", **image}}
+
+
 def run(cfg: Config, out: Path = ROOT) -> dict:
     env = environment()
-    everything = [p for lang in cfg.languages for p in load_posts(lang)
+    everything = [normalize(p, cfg) for lang in cfg.languages for p in load_posts(lang)
                   if p.get("status") == "published"]
     enriched_all = [seo.enrich(p, everything, cfg) for p in everything]
 

@@ -1,6 +1,7 @@
+<header class="site-header">
 <div class="topbar">
   <div class="wrap topbar-inner">
-    <p class="topbar-date"><time data-today hidden></time></p>
+    <p class="topbar-date"><span data-today hidden></span></p>
     <div class="topbar-tools">
       <nav class="lang-switch" aria-label="{{ t.language }}">
         {%- for link in lang_links %}
@@ -14,7 +15,6 @@
     </div>
   </div>
 </div>
-<header class="site-header">
   <div class="wrap masthead">
     <a class="brand" href="/{{ lang }}/" aria-label="{{ cfg.get('site.name') }}">
       <img class="brand-mark light" src="{{ cfg.get('brand.logo.lockup') }}" alt="{{ cfg.get('site.name') }}" width="190" height="44">

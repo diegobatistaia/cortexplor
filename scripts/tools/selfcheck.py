@@ -274,6 +274,43 @@ def main() -> int:
     except Exception as exc:  # noqa: BLE001 - the point is to report any failure
         check("article.html renderiza", False, f"{type(exc).__name__}: {exc}")
 
+    print("\nCapa, idiomas e tema")
+    from scripts.engine import build as site_build  # noqa: E402
+    from scripts.engine.build import home_blocks, load_pages  # noqa: E402
+    pages = {l: load_pages(l) for l in cfg.languages}
+    keys = {l: {p.get("key") for p in pages[l]} for l in cfg.languages}
+    check("toda página institucional tem key",
+          all(p.get("key") for l in cfg.languages for p in pages[l]))
+    check("as mesmas páginas institucionais existem em todos os idiomas",
+          len({frozenset(k) for k in keys.values()}) == 1, str(keys))
+    check("tema padrão válido", cfg.get("brand.default_theme", "light") in ("light", "dark", "system"))
+    for lang in cfg.languages:
+        check(f"rótulo do bloco do dia em {lang}",
+              "today" not in cfg.get("editorial.home_layout", [])
+              or bool(cfg.localized("editorial.today_label", lang, "")))
+    pool = [humanize({**seo.enrich(fixture(cfg, slug=f"p{i}", id=f"pt-p{i}",
+                                             category=c, published_at=isoformat(utcnow())), [], cfg)},
+                     "pt")
+            for i, c in enumerate(["modelos", "mercado", "aplicacoes", "politica"] * 5)]
+    nav = site_build.nav_categories(cfg, "pt", pool)
+    blocks = home_blocks(cfg, pool, nav, {})
+    shown = [p["slug"] for b in blocks.values() if isinstance(b, dict)
+             for key in ("rest", "timeline", "highlights", "most_read")
+             for p in (b.get(key) or [])]
+    shown += [b["lead"]["slug"] for b in blocks.values() if isinstance(b, dict) and b.get("lead")]
+    shown += [p["slug"] for m in blocks.get("by_section", []) for p in m["posts"]]
+    check("capa não repete matéria entre blocos", len(shown) == len(set(shown)))
+    html_home = render(env, "home.html", base_context(
+        cfg, "pt", blocks=blocks, latest_published=pool[0]["published_at"], is_home=True,
+        today_label="Hoje", highlights_label="", home_layout=cfg.get("editorial.home_layout", []),
+        schema_website="{}", page_title="t", page_description="d",
+        canonical="https://cortexplor.com/pt/", alternates=seo.home_alternates(cfg),
+        legal_pages=[], categories=nav))
+    check("home.html renderiza", "today-title" in html_home)
+    check("seletor de idioma com um link por idioma",
+          all(f'hreflang="{cfg.get(f"site.html_lang.{l}", l)}" lang=' in html_home for l in cfg.languages))
+    check("botão de tema presente", "data-theme-toggle" in html_home)
+
     print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} verificações passaram")
     if FAILURES:
         print("Falhas: " + ", ".join(FAILURES))

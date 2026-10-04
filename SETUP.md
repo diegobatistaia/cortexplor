@@ -125,12 +125,13 @@ ads:
     top_leaderboard: "1234567890"
     in_content: "1234567891"
     home_between_blocks: "1234567892"
+    home_sidebar: "1234567894"
     footer: "1234567893"
 ```
 
-Os quatro slots já estão posicionados no HTML como comentários
-(`<!-- ad slot: ... -->`). Preencher o config liga todos de uma vez, sem tocar em
-template.
+Todos os slots listados em `ads.slots` já estão posicionados no HTML como
+comentários (`<!-- ad slot: ... -->`). Preencher o config liga todos de uma vez,
+sem tocar em template.
 
 ## 8. Métricas automáticas (GA4 + Search Console)
 
@@ -204,3 +205,24 @@ python -m http.server 4173
 - [ ] páginas institucionais revisadas (`/pt/sobre/`, `/pt/privacidade/`,
       `/pt/contato/`, `/pt/termos/` e equivalentes em EN e ES)
 - [ ] e-mail `contato@cortexplor.com` criado e funcionando
+
+## 9. Capa, tema e idiomas (para replicar em outro nicho)
+
+Tudo que muda de um nicho para outro fica no `site.config.yaml`:
+
+- `editorial.home_layout`: a ordem dos blocos da capa. Blocos disponíveis:
+  `today`, `feed`, `by_section`, `hero`, `most_read`, `topic_modules`,
+  `ad_between_blocks`, `newsletter`. Um bloco de conteúdo não pode aparecer duas
+  vezes (o build recusa).
+- `editorial.today_label` e `editorial.highlights_label`: os nomes dos blocos
+  ("Hoje em IA" vira "Hoje no Esporte", por exemplo).
+- `editorial.today_count`, `timeline_count`, `highlights_count`,
+  `highlights_days`, `section_posts`, `section_columns`, `most_read_min_views`.
+- `brand.default_theme`: `light`, `dark` ou `system`. O leitor troca pelo botão
+  do topo e a escolha fica no navegador dele.
+- `newsletter.title` e `newsletter.text`: o texto da chamada de e-mail.
+
+As páginas institucionais (`content/pages/<idioma>/*.json`) precisam do campo
+`key` (`about`, `privacy`, `contact`, `terms`), igual nos três idiomas: é ele que
+liga "Sobre" a "About" e "Acerca" no hreflang e no seletor de idioma.
+`scripts/tools/make_pages.py` já gera o campo.

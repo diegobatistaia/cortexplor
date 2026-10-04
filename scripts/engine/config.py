@@ -155,6 +155,17 @@ def validate(data: dict, path: Path) -> None:
                 raise ConfigError(
                     f"{path.name}: editorial.categories[{i}].{field} não cobre {missing_langs}")
 
+    # Um bloco de conteudo repetido na home mostraria as mesmas materias duas
+    # vezes e esconderia as mais novas. Anuncio e newsletter podem repetir.
+    layout = data["editorial"].get("home_layout") or []
+    repetidos = sorted({b for b in layout if layout.count(b) > 1
+                        and b not in ("ad_between_blocks", "newsletter")})
+    if repetidos:
+        raise ConfigError(f"{path.name}: editorial.home_layout repete {repetidos}")
+    theme = (data.get("brand") or {}).get("default_theme", "light")
+    if theme not in ("light", "dark", "system"):
+        raise ConfigError(f"{path.name}: brand.default_theme deve ser light, dark ou system")
+
     seen = set()
     for src in data.get("sources", {}).get("rss", []):
         for field in ("name", "url", "owner"):

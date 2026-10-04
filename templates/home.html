@@ -20,7 +20,7 @@
   <div class="today-head">
     <h1 class="today-title" id="today-title">{{ today_label or t.home }}</h1>
     {%- if latest_published %}
-    <p class="updated"><span class="live-dot" aria-hidden="true"></span>{{ t.updated }} <time datetime="{{ latest_published }}" data-relative>{{ latest_published|date(lang) }}</time></p>
+    <p class="updated"><span class="live-dot" aria-hidden="true"></span><span data-relative-label="{{ t.updated }}">{{ t.updated_on }}</span> <time datetime="{{ latest_published }}" data-relative>{{ latest_published|date(lang) }}</time></p>
     {%- endif %}
   </div>
   <article class="today-lead{% if not (lead.image and lead.image.path) %} no-media{% endif %}">
@@ -70,7 +70,7 @@
     {%- if feed.highlights %}
     {%- set big = feed.highlights[0] %}
     <section class="feed-col highlights-col" aria-labelledby="highlights-title">
-      <h2 class="sec-title" id="highlights-title">{{ t.highlights }}</h2>
+      <h2 class="sec-title" id="highlights-title">{{ highlights_label or t.highlights }}</h2>
       <article class="highlight-lead">
         {{ media(big) }}
         {{ kicker_line(big) }}
@@ -196,8 +196,8 @@
 {%- if block == 'newsletter' and newsletter.enabled and newsletter.action %}
 <section class="wrap newsletter" aria-labelledby="newsletter-title">
   <div class="newsletter-inner">
-    <h2 id="newsletter-title">{{ t.newsletter_title }}</h2>
-    <p>{{ t.newsletter_text }}</p>
+    <h2 id="newsletter-title">{{ cfg.localized('newsletter.title', lang, '') or t.newsletter_title }}</h2>
+    <p>{{ cfg.localized('newsletter.text', lang, '') or t.newsletter_text }}</p>
     <form class="newsletter-form" method="post" action="{{ newsletter.action }}">
       <label class="visually-hidden" for="nl-email">{{ t.newsletter_placeholder }}</label>
       <input id="nl-email" type="email" name="email" required placeholder="{{ t.newsletter_placeholder }}" autocomplete="email">
