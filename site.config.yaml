@@ -61,6 +61,10 @@ brand:
   surface_dark: "#1C1B18"
   border_dark: "#2E2C28"
   muted_dark: "#9A978D"
+  # Tema de quem chega pela primeira vez: light | dark | system (segue o
+  # aparelho). O leitor troca no botao do topo e a escolha fica salva no
+  # navegador dele.
+  default_theme: light
   fonts:
     display: "'Space Grotesk', 'Helvetica Neue', Arial, sans-serif"
     mono: "'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace"
@@ -102,6 +106,7 @@ ads:
     top_leaderboard: ""
     in_content: ""
     home_between_blocks: ""
+    home_sidebar: ""
     footer: ""
   # Criterios para pedir o AdSense. O comando `run status` avalia isso todo dia
   # e avisa quando o site estiver pronto - conteudo fino e o motivo numero um de
@@ -123,6 +128,14 @@ newsletter:
   # Mailchimp), cole o endereco do formulario em `action` e ponha enabled: true.
   enabled: false
   action: ""
+  title:
+    pt: Receba as novidades de IA por e-mail
+    en: Get AI news by email
+    es: Recibe las novedades de IA por correo
+  text:
+    pt: Um resumo do que importa em inteligência artificial, sem ruído e sem hype.
+    en: A digest of what actually matters in artificial intelligence - no noise, no hype.
+    es: Un resumen de lo que importa en inteligencia artificial, sin ruido y sin hype.
 
 editorial:
   categories:
@@ -147,13 +160,35 @@ editorial:
     - slug: {pt: politica, en: policy, es: politica}
       label: {pt: "Regulação", en: "Policy", es: "Regulación"}
       color: "#6B4F5B"
-  # Blocos da home, na ordem. O motor renderiza o que existir de conteudo.
+  # Blocos da home, na ordem. O motor renderiza o que existir de conteudo, e
+  # cada bloco so recebe materias que ainda nao apareceram acima dele.
+  # Disponiveis: today, feed, by_section, hero, most_read, topic_modules,
+  # ad_between_blocks, newsletter.
   home_layout:
-    - hero              # 1 destaque com imagem + 3 manchetes secundarias
+    - today             # "Hoje em ...": destaque com imagem + manchetes numeradas
+    - feed              # linha do tempo | destaques da semana | mais lidas
     - ad_between_blocks
-    - most_read         # ranking numerado
-    - topic_modules     # um bloco por categoria configurada
+    - by_section        # uma coluna por editoria
     - newsletter
+  # Nome do bloco do dia. Fica fixo mesmo quando a ultima materia e de ontem:
+  # o "atualizado ha X" ao lado conta a verdade sobre a data.
+  today_label:
+    pt: Hoje em IA
+    en: Today in AI
+    es: Hoy en IA
+  today_count: 4        # 1 destaque + 3 numeradas
+  timeline_count: 7
+  highlights_count: 3   # 1 grande + 2 menores
+  highlights_days: 7
+  # Rotulo dos destaques. Se mudar highlights_days, mude o rotulo junto.
+  highlights_label:
+    pt: Destaques da semana
+    en: This week's highlights
+    es: Destacados de la semana
+  section_posts: 3      # por coluna em "Por editoria"
+  section_columns: 4    # quantas editorias cabem em "Por editoria"
+  # Visualizacoes minimas (GA4, ultimos 28 dias) para entrar em "Mais lidas".
+  most_read_min_views: 2
   # Para onde vai uma materia cuja editoria nao existe no idioma dela.
   fallback_category: mercado
   most_read_count: 5

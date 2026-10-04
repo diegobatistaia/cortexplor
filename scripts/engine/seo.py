@@ -71,6 +71,51 @@ def home_alternates(cfg: Config) -> list[dict]:
             for lang in cfg.languages]
 
 
+def category_alternates(cfg: Config, key: str) -> list[dict]:
+    """A mesma editoria nas outras edições, pela chave - o slug muda por idioma.
+
+    Editoria regional (languages: [pt]) só tem a própria versão: apontar a
+    seção sobre o Brasil para outra editoria da edição em inglês diria ao Google
+    que as duas páginas são a mesma coisa, e não são.
+    """
+    out = []
+    for lang in cfg.languages:
+        category = cfg.category(key, lang)
+        if category:
+            out.append({"lang": lang,
+                        "hreflang": cfg.get(f"site.html_lang.{lang}", lang),
+                        "url": absolute(cfg, category_path(lang, category["slug"]))})
+    return out if len(out) > 1 else []
+
+
+def page_alternates(cfg: Config, page: dict, pages_by_lang: dict[str, list[dict]]) -> list[dict]:
+    """Páginas institucionais equivalentes (sobre/about/acerca), pelo campo `key`."""
+    key = page.get("key")
+    if not key:
+        return []
+    out = []
+    for lang in cfg.languages:
+        for other in pages_by_lang.get(lang, []):
+            if other.get("key") == key:
+                out.append({"lang": lang,
+                            "hreflang": cfg.get(f"site.html_lang.{lang}", lang),
+                            "url": absolute(cfg, page_path(lang, other["slug"]))})
+                break
+    return out if len(out) > 1 else []
+
+
+def x_default(cfg: Config, alts: list[dict]) -> str | None:
+    """Versão para quem fala um idioma que o site não tem.
+
+    É a mesma página no idioma padrão, não a home: mandar quem chegou numa
+    matéria para a capa jogaria fora o motivo de ele ter chegado.
+    """
+    if not alts:
+        return None
+    by_lang = {a["lang"]: a["url"] for a in alts}
+    return by_lang.get(cfg.default_language) or alts[0]["url"]
+
+
 # --------------------------------------------------------------- related posts
 
 def related(post: dict, pool: list[dict], cfg: Config) -> list[dict]:

@@ -8,9 +8,12 @@ from __future__ import annotations
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup
 
+from . import seo
 from .config import ROOT, Config
-from .i18n import strings
+from .i18n import LANGUAGE_NAMES, strings
 from .util import format_date, parse_date, utcnow
+
+THEMES = ("light", "dark", "system")
 
 TEMPLATES = ROOT / "templates"
 
@@ -63,19 +66,53 @@ def base_context(cfg: Config, lang: str, **extra) -> dict:
         "html_lang": cfg.get(f"site.html_lang.{lang}", lang),
         "t": strings(lang),
         "categories": cfg.categories(lang),
-        "ads": cfg.get("ads", {}) or {},
-        "newsletter": cfg.get("newsletter", {}) or {},
+        # Defaults para os templates (StrictUndefined) não quebrarem num site
+        # cujo config ainda não tem anúncio ou newsletter.
+        "ads": {"enabled": False, "client_id": "", "slots": {}, "labels": {},
+                **(cfg.get("ads") or {})},
+        "newsletter": {"enabled": False, "action": "", **(cfg.get("newsletter") or {})},
         "ad_slot": ad_slot_factory(cfg, lang),
         "ad_after_paragraph": AD_AFTER_PARAGRAPH,
         "year": utcnow().year,
         "active_category": None,
+        "is_home": False,
         "alternates": [],
         "og_image": None,
         "page_keywords": "",
         "legal_pages": [],
     }
     context.update(extra)
+    context["x_default"] = seo.x_default(cfg, context["alternates"])
+    context["lang_links"] = language_links(cfg, lang, context["alternates"],
+                                           context.get("canonical"))
+    context["default_theme"] = default_theme(cfg)
     return context
+
+
+def default_theme(cfg: Config) -> str:
+    theme = cfg.get("brand.default_theme", "light")
+    return theme if theme in THEMES else "light"
+
+
+def language_links(cfg: Config, lang: str, alternates: list[dict],
+                   canonical: str | None = None) -> list[dict]:
+    """Um link por idioma para o seletor do topo.
+
+    Leva à mesma página na outra edição quando ela existe; quando não existe
+    (editoria regional, por exemplo), leva à capa daquela edição. Nunca
+    redireciona sozinho: quem decide o idioma é o leitor, e o Google indexa cada
+    versão pela URL dela.
+    """
+    by_lang = {a["lang"]: a["url"] for a in alternates}
+    return [{
+        "lang": other,
+        "code": other.upper(),
+        "name": LANGUAGE_NAMES.get(other, other),
+        "hreflang": cfg.get(f"site.html_lang.{other}", other),
+        "url": by_lang.get(other) or (canonical if other == lang and canonical
+                                      else cfg.url(seo.home_path(other))),
+        "current": other == lang,
+    } for other in cfg.languages]
 
 
 def humanize(post: dict, lang: str) -> dict:

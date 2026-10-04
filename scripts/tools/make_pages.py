@@ -42,7 +42,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
 
     if lang == "pt":
         return [
-            {"slug": "sobre", "title": f"Sobre o {name}",
+            {"slug": "sobre", "key": "about", "title": f"Sobre o {name}",
              "description": f"O que é o {name}, como as matérias são produzidas e checadas.",
              "body": [
                  p(f"O {name} é um site de notícias dedicado à {niche}. Cobrimos lançamentos "
@@ -67,7 +67,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
                  p(f"Encontrou um erro? Escreva para {mail} com o link da matéria. "
                    f"Correções relevantes são sinalizadas na própria página."),
              ]},
-            {"slug": "privacidade", "title": "Política de Privacidade",
+            {"slug": "privacidade", "key": "privacy", "title": "Política de Privacidade",
              "description": f"Como o {name} trata dados de navegação, cookies e publicidade.",
              "body": [
                  p(f"Esta política descreve como o {name} ({domain}) trata informações de "
@@ -99,7 +99,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
                  p("Mudanças nesta política são publicadas nesta mesma página, com a data de "
                    "atualização no topo."),
              ]},
-            {"slug": "contato", "title": "Contato",
+            {"slug": "contato", "key": "contact", "title": "Contato",
              "description": f"Fale com a redação do {name}: pautas, correções e imprensa.",
              "body": [
                  p(f"O canal oficial de contato do {name} é o e-mail {mail}."),
@@ -116,7 +116,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
                  p("Lemos todas as mensagens. Correções são respondidas em até 2 dias úteis; "
                    "os demais assuntos, conforme a disponibilidade da redação."),
              ]},
-            {"slug": "termos", "title": "Termos de Uso",
+            {"slug": "termos", "key": "terms", "title": "Termos de Uso",
              "description": f"Condições de uso do conteúdo publicado no {name}.",
              "body": [
                  p(f"Ao navegar em {domain} você concorda com os termos abaixo."),
@@ -143,7 +143,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
 
     if lang == "en":
         return [
-            {"slug": "about", "title": f"About {name}",
+            {"slug": "about", "key": "about", "title": f"About {name}",
              "description": f"What {name} is, and how our stories are produced and checked.",
              "body": [
                  p(f"{name} is a news site covering {niche}: model releases, market moves, "
@@ -168,7 +168,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
                  p(f"Found an error? Write to {mail} with the link. Meaningful corrections are "
                    f"flagged on the page itself."),
              ]},
-            {"slug": "privacy", "title": "Privacy Policy",
+            {"slug": "privacy", "key": "privacy", "title": "Privacy Policy",
              "description": f"How {name} handles browsing data, cookies and advertising.",
              "body": [
                  p(f"This policy explains how {name} ({domain}) handles information about "
@@ -200,7 +200,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
                  p("Any change to this policy is published on this page, with the update "
                    "date at the top."),
              ]},
-            {"slug": "contact", "title": "Contact",
+            {"slug": "contact", "key": "contact", "title": "Contact",
              "description": f"Reach the {name} newsroom: tips, corrections and press.",
              "body": [
                  p(f"The official contact channel for {name} is {mail}."),
@@ -217,7 +217,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
                  p("We read everything. Corrections are answered within two business days; "
                    "other subjects as the newsroom's schedule allows."),
              ]},
-            {"slug": "terms", "title": "Terms of Use",
+            {"slug": "terms", "key": "terms", "title": "Terms of Use",
              "description": f"Conditions for using content published on {name}.",
              "body": [
                  p(f"By browsing {domain} you agree to the terms below."),
@@ -242,7 +242,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
         ]
 
     return [
-        {"slug": "acerca", "title": f"Acerca de {name}",
+        {"slug": "acerca", "key": "about", "title": f"Acerca de {name}",
          "description": f"Qué es {name} y cómo se producen y verifican nuestras notas.",
          "body": [
              p(f"{name} es un sitio de noticias dedicado a la {niche}. Cubrimos lanzamientos "
@@ -267,7 +267,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
              p(f"¿Encontraste un error? Escríbenos a {mail} con el enlace de la nota. Las "
                f"correcciones relevantes se señalan en la propia página."),
          ]},
-        {"slug": "privacidad", "title": "Política de Privacidad",
+        {"slug": "privacidad", "key": "privacy", "title": "Política de Privacidad",
          "description": f"Cómo {name} trata datos de navegación, cookies y publicidad.",
          "body": [
              p(f"Esta política describe cómo {name} ({domain}) trata la información de quienes "
@@ -299,7 +299,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
              p("Los cambios en esta política se publican en esta misma página, con la fecha de "
                "actualización arriba."),
          ]},
-        {"slug": "contacto", "title": "Contacto",
+        {"slug": "contacto", "key": "contact", "title": "Contacto",
          "description": f"Escribe a la redacción de {name}: temas, correcciones y prensa.",
          "body": [
              p(f"El canal oficial de contacto de {name} es {mail}."),
@@ -316,7 +316,7 @@ def pages_for(lang: str, cfg) -> list[dict]:
              p("Leemos todos los mensajes. Las correcciones se responden en hasta 2 días "
                "hábiles; los demás asuntos, según la disponibilidad de la redacción."),
          ]},
-        {"slug": "terminos", "title": "Términos de Uso",
+        {"slug": "terminos", "key": "terms", "title": "Términos de Uso",
          "description": f"Condiciones de uso del contenido publicado en {name}.",
          "body": [
              p(f"Al navegar en {domain} aceptas los términos siguientes."),

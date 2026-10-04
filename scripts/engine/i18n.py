@@ -28,14 +28,19 @@ STRINGS = {
         "section": "Editoria",
         "empty_category": "Ainda não há matérias publicadas nesta editoria.",
         "updated_on": "Atualizado em",
-        "newsletter_title": "Receba as novidades de IA por e-mail",
-        "newsletter_text": "Um resumo do que importa em inteligência artificial, "
-                           "sem ruído e sem hype.",
+        "newsletter_title": "Receba as novidades por e-mail",
+        "newsletter_text": "Um resumo do que importa, sem ruído e sem hype.",
         "newsletter_placeholder": "seu@email.com",
         "newsletter_button": "Assinar",
         "newsletter_note": "Sem spam. Cancele quando quiser.",
-        "home_title": "Notícias de Inteligência Artificial",
         "category_description": "Últimas notícias e análises sobre {label} em {niche}.",
+        "home": "Início",
+        "language": "Idioma",
+        "dark_theme": "Tema escuro",
+        "updated": "Atualizado",
+        "timeline": "Linha do tempo",
+        "highlights": "Destaques da semana",
+        "by_section": "Por editoria",
     },
     "en": {
         "skip_to_content": "Skip to content",
@@ -58,14 +63,19 @@ STRINGS = {
         "section": "Section",
         "empty_category": "No stories published in this section yet.",
         "updated_on": "Updated on",
-        "newsletter_title": "Get AI news by email",
-        "newsletter_text": "A digest of what actually matters in artificial intelligence "
-                           "- no noise, no hype.",
+        "newsletter_title": "Get the news by email",
+        "newsletter_text": "A digest of what actually matters - no noise, no hype.",
         "newsletter_placeholder": "you@email.com",
         "newsletter_button": "Subscribe",
         "newsletter_note": "No spam. Unsubscribe anytime.",
-        "home_title": "Artificial Intelligence News",
         "category_description": "Latest news and analysis on {label} in {niche}.",
+        "home": "Home",
+        "language": "Language",
+        "dark_theme": "Dark theme",
+        "updated": "Updated",
+        "timeline": "Timeline",
+        "highlights": "This week's highlights",
+        "by_section": "By section",
     },
     "es": {
         "skip_to_content": "Ir al contenido",
@@ -89,16 +99,26 @@ STRINGS = {
         "section": "Sección",
         "empty_category": "Todavía no hay notas publicadas en esta sección.",
         "updated_on": "Actualizado el",
-        "newsletter_title": "Recibe las novedades de IA por correo",
-        "newsletter_text": "Un resumen de lo que importa en inteligencia artificial, "
-                           "sin ruido y sin hype.",
+        "newsletter_title": "Recibe las novedades por correo",
+        "newsletter_text": "Un resumen de lo que importa, sin ruido y sin hype.",
         "newsletter_placeholder": "tu@email.com",
         "newsletter_button": "Suscribirme",
         "newsletter_note": "Sin spam. Cancela cuando quieras.",
-        "home_title": "Noticias de Inteligencia Artificial",
         "category_description": "Últimas noticias y análisis sobre {label} en {niche}.",
+        "home": "Inicio",
+        "language": "Idioma",
+        "dark_theme": "Tema oscuro",
+        "updated": "Actualizado",
+        "timeline": "Línea de tiempo",
+        "highlights": "Destacados de la semana",
+        "by_section": "Por sección",
     },
 }
+
+
+# Endonimos: cada idioma pelo proprio nome, que e como o leitor o procura num
+# seletor de idioma.
+LANGUAGE_NAMES = {"pt": "Português", "en": "English", "es": "Español"}
 
 
 class Strings(dict):
