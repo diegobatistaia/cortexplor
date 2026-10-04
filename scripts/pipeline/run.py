@@ -130,19 +130,34 @@ def run_budget(remaining: int, run_hours: list[int], tz_name: str, now=None) -> 
     return -(-remaining // left)
 
 
-# O briefing tem que ser da rodada atual: a Routine roda ~30 min depois da
-# coleta. Mais velho que isso é sinal de coleta que falhou, e a próxima rodada
-# do dia se encarrega de recuperar.
-MAX_BRIEFING_AGE_HOURS = 3
+def same_local_day(when, tz_name: str, now=None) -> bool:
+    """O briefing é do dia de hoje no fuso do site?
+
+    Vale o dia, não as horas: coleta que falha de manhã é coberta pelo briefing
+    da rodada anterior do mesmo dia. O que não vale é notícia de ontem escrita
+    como se fosse de hoje.
+    """
+    from zoneinfo import ZoneInfo
+    if not when:
+        return False
+    tz = ZoneInfo(tz_name)
+    return when.astimezone(tz).date() == (now or utcnow()).astimezone(tz).date()
+
+
+def already_written_story_ids(cfg) -> set[str]:
+    """Pautas que já viraram matéria (publicada ou rascunho) em qualquer idioma."""
+    return {p.get("story_id") for lang in cfg.languages for p in load_posts(lang)
+            if p.get("story_id")}
 
 
 def cmd_briefing(cfg, args) -> int:
-    """Mostra o briefing do dia e recusa se ele estiver velho.
+    """Mostra o briefing do dia e recusa se ele não for de hoje.
 
     A coleta roda no GitHub Actions, que tem internet; a Routine roda num
-    sandbox sem saída para a web e só lê o resultado. Se a coleta falhou, o
-    arquivo fica velho — e escrever em cima de notícia de ontem é pior do que
-    não publicar. Por isso este comando falha em vez de deixar passar.
+    sandbox sem saída para a web e só lê o resultado. Briefing de ontem é pior
+    do que não publicar, mas o de uma rodada anterior de hoje serve: este
+    comando tira dele o que já virou matéria e refaz o teto desta rodada, que o
+    briefing velho trazia calculado para outro horário.
     """
     if not BRIEFING.exists():
         print("data/briefing.json não existe.")
@@ -153,8 +168,22 @@ def cmd_briefing(cfg, args) -> int:
     data = json.loads(BRIEFING.read_text(encoding="utf-8"))
     generated = parse_date(data.get("generated_at"))
     age = (utcnow() - generated).total_seconds() / 3600 if generated else 999
+    tz_name = cfg.get("site.timezone", "UTC")
+    from_today = same_local_day(generated, tz_name)
 
     print(f"Gerado em: {data.get('generated_at')}  ({age:.1f}h atrás)")
+    if from_today:
+        written = already_written_story_ids(cfg)
+        before = len(data.get("stories", []))
+        data["stories"] = [st for st in data.get("stories", []) if st["story_id"] not in written]
+        daily_cap = cfg.posts_per_language(date.today())
+        used = max(used_today(cfg.languages, tz_name).values(), default=0)
+        data.update({"daily_cap_per_language": daily_cap, "already_written_today": used,
+                     "posts_per_language_today":
+                         run_budget(daily_cap - used, cfg.run_hours, tz_name)})
+        if len(data["stories"]) != before:
+            print(f"{before - len(data['stories'])} pauta(s) já viraram matéria e foram tiradas.")
+        BRIEFING.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Teto desta rodada: {data.get('posts_per_language_today')} pauta(s) por idioma "
           f"(dia: {data.get('daily_cap_per_language', '?')}, "
           f"já escritas hoje: {data.get('already_written_today', '?')})")
@@ -168,16 +197,15 @@ def cmd_briefing(cfg, args) -> int:
         print(f"    {marca} | owners: {', '.join(story['owners'])} | "
               f"{legiveis}/{len(story['sources'])} com texto integral")
 
-    if age > MAX_BRIEFING_AGE_HOURS:
-        print(f"\nBRIEFING VELHO ({age:.1f}h, limite {MAX_BRIEFING_AGE_HOURS}h).")
-        print("A coleta de hoje não rodou. Não escreva em cima deste material:")
-        print("avise no resumo e encerre sem commitar.")
+    if not from_today:
+        print("\nBRIEFING DE OUTRO DIA. A coleta de hoje ainda não rodou.")
+        print("Não escreva em cima deste material: avise no resumo e encerre sem commitar.")
         return 1
     if not data.get("posts_per_language_today"):
         print("\nTeto do dia já atingido. Encerre sem commitar.")
         return 1
     if not data.get("stories"):
-        print("\nNenhuma pauta com fontes suficientes nesta rodada. Encerre sem commitar.")
+        print("\nNenhuma pauta nova com fontes suficientes. Encerre sem commitar.")
         return 1
     return 0
 

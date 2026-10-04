@@ -238,5 +238,6 @@ roda 30 minutos depois de cada uma. Três pontos precisam andar juntos:
 
 O teto diário (`publishing.ramp`) é dividido entre as rodadas que ainda faltam:
 com teto 3, a manhã escreve 1, o meio-dia 1 e a noite 1. Uma rodada sem pauta boa
-devolve a vaga e a seguinte escreve mais. O briefing mais velho que 3 horas é
-recusado; uma coleta que falha é recuperada pela rodada seguinte do mesmo dia.
+devolve a vaga e a seguinte escreve mais. O briefing de outro dia é recusado; o de
+uma rodada anterior do mesmo dia serve (as pautas já escritas saem dele e o teto é
+recalculado), então uma coleta que falha não custa a rodada.

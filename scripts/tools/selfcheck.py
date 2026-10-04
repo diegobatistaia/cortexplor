@@ -324,6 +324,15 @@ def main() -> int:
           run_budget(3, [7, 12, 18], tz, brt(12)) == 2 and run_budget(3, [7, 12, 18], tz, brt(18)) == 3)
     check("teto atingido zera a rodada", run_budget(0, [7, 12, 18], tz, brt(12)) == 0)
     check("nunca passa do que resta", run_budget(1, [7, 12, 18], tz, brt(7)) == 1)
+    from datetime import datetime as _dt
+    from scripts.pipeline.run import same_local_day
+    check("briefing das 7h ainda vale no meio-dia do mesmo dia",
+          same_local_day(brt(7), tz, now=brt(12)))
+    check("briefing das 22h de ontem não vale às 7h de hoje",
+          not same_local_day(_dt(2026, 10, 5, 1, 0, tzinfo=timezone.utc), tz, now=brt(7)))
+    check("dia é o do fuso do site, não o UTC",
+          same_local_day(_dt(2026, 10, 5, 2, 0, tzinfo=timezone.utc), tz,
+                         now=_dt(2026, 10, 5, 0, 30, tzinfo=timezone.utc)))
 
     print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} verificações passaram")
     if FAILURES:

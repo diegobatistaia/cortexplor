@@ -23,9 +23,11 @@ Anthropic passam pelo proxy, e qualquer feed de notícia volta com 403. A coleta
 já aconteceu no GitHub Actions meia hora antes, e o resultado veio junto no
 clone, em `data/briefing.json`.
 
-O comando acima mostra o resumo e **falha se o arquivo estiver com mais de 3
-horas** — sinal de que a coleta desta rodada não rodou. (A coleta e esta sessão
-rodam três vezes por dia; a rodada seguinte recupera uma que falhou.) Se ele falhar, pare aqui:
+O comando acima mostra o resumo e **falha se o briefing não for de hoje** (no
+fuso do site) — sinal de que a coleta de hoje não rodou. Briefing de uma rodada
+anterior **do mesmo dia** serve: se a coleta desta rodada falhou, escreva em cima
+dele. O comando já tira as pautas que viraram matéria e recalcula o teto desta
+rodada. (A coleta e esta sessão rodam três vezes por dia.) Se ele falhar, pare aqui:
 escreva no resumo que o briefing está velho ou vazio e encerre sem commitar.
 Escrever em cima de notícia de ontem é pior do que não publicar.
 
