@@ -1,0 +1,356 @@
+{
+  "generated_at": "2026-10-04T11:19:36+00:00",
+  "window_days": 28,
+  "ga4": {
+    "totals": {
+      "active_users": 165,
+      "page_views": 195,
+      "engagement_rate": 0.1371,
+      "avg_session_seconds": 19.3
+    },
+    "top_pages": [
+      {
+        "path": "/en/",
+        "active_users": 141,
+        "page_views": 145,
+        "engagement_rate": 0.078
+      },
+      {
+        "path": "/pt/",
+        "active_users": 5,
+        "page_views": 12,
+        "engagement_rate": 0.4167
+      },
+      {
+        "path": "/en/oracle-sends-force-majeure-notice-data-center/?ref=quanta_daily",
+        "active_users": 5,
+        "page_views": 10,
+        "engagement_rate": 0.6667
+      },
+      {
+        "path": "/es/openai-lanza-gpt-6-astra-avanzado/",
+        "active_users": 5,
+        "page_views": 6,
+        "engagement_rate": 0.2
+      },
+      {
+        "path": "/en/c/models/",
+        "active_users": 5,
+        "page_views": 4,
+        "engagement_rate": 0.2
+      },
+      {
+        "path": "/en/c/market/",
+        "active_users": 5,
+        "page_views": 3,
+        "engagement_rate": 0.2
+      },
+      {
+        "path": "/en/meta-unveils-muse-charm-ai-wearable/",
+        "active_users": 2,
+        "page_views": 2,
+        "engagement_rate": 0.5
+      },
+      {
+        "path": "/en/oracle-sends-force-majeure-notice-data-center/?ref=quanta_dailyOracle",
+        "active_users": 2,
+        "page_views": 2,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/anthropic-escolhe-accenture-avaliadora-independente/",
+        "active_users": 1,
+        "page_views": 2,
+        "engagement_rate": 0.5
+      },
+      {
+        "path": "/pt/c/aplicacoes/",
+        "active_users": 1,
+        "page_views": 2,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/ceo-da-anthropic-pede-desaceleracao-da-ia/",
+        "active_users": 1,
+        "page_views": 2,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/anthropic-lanca-claude-fable-5-1-corta-preco-cache/",
+        "active_users": 1,
+        "page_views": 1,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/pt/anthropic-lanca-claude-opus-5-5/",
+        "active_users": 1,
+        "page_views": 1,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/pt/anthropic-lanca-claude-sonnet-5-5/",
+        "active_users": 1,
+        "page_views": 1,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/pt/openai-adia-ipo-por-seguranca/",
+        "active_users": 1,
+        "page_views": 1,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/openai-lanca-chatgpt-images-2-5-sketch/",
+        "active_users": 1,
+        "page_views": 1,
+        "engagement_rate": 0.5
+      }
+    ],
+    "by_language": {
+      "en": {
+        "active_users": 160,
+        "page_views": 166
+      },
+      "pt": {
+        "active_users": 13,
+        "page_views": 23
+      },
+      "es": {
+        "active_users": 5,
+        "page_views": 6
+      }
+    }
+  },
+  "search_console": {
+    "totals": {
+      "clicks": 6,
+      "impressions": 745,
+      "ctr": 0.0081,
+      "avg_position": 21.5
+    },
+    "top_queries": [
+      {
+        "query": "openai",
+        "clicks": 5,
+        "impressions": 48,
+        "avg_position": 1
+      },
+      {
+        "query": "\"introducing gemini 3.8 flash and 3.8 flash cyber\"",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 9
+      },
+      {
+        "query": "%\"introducing muse\" \"personal ai agent\" meta",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 9
+      },
+      {
+        "query": "3.8",
+        "clicks": 0,
+        "impressions": 4,
+        "avg_position": 89
+      },
+      {
+        "query": "ai charm",
+        "clicks": 0,
+        "impressions": 2,
+        "avg_position": 69
+      },
+      {
+        "query": "alek kemeny anthropic linkedin",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 10
+      },
+      {
+        "query": "amazon quick",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 37
+      },
+      {
+        "query": "anthropic hardware engineer",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 66
+      },
+      {
+        "query": "anthropic model hardware standard",
+        "clicks": 0,
+        "impressions": 2,
+        "avg_position": 80.5
+      },
+      {
+        "query": "app gemini windows",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 46
+      },
+      {
+        "query": "astra legal",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 91
+      },
+      {
+        "query": "calude fable",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 79
+      },
+      {
+        "query": "center for financial services innovation",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 74
+      },
+      {
+        "query": "chat gpt 6 release",
+        "clicks": 0,
+        "impressions": 2,
+        "avg_position": 74.5
+      },
+      {
+        "query": "chat gpt 6 release date",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 82
+      },
+      {
+        "query": "chat gpt drawing",
+        "clicks": 0,
+        "impressions": 6,
+        "avg_position": 47
+      },
+      {
+        "query": "chat gpt imagem desenho",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 56
+      },
+      {
+        "query": "chat gpt-6",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 80
+      },
+      {
+        "query": "chatgpt 6",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 70
+      },
+      {
+        "query": "chatgpt advertising revenue milestone",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 84
+      }
+    ],
+    "top_pages": [
+      {
+        "page": "https://cortexplor.com/es/openai-lanza-gpt-6-astra-avanzado/",
+        "clicks": 5,
+        "impressions": 55
+      },
+      {
+        "page": "https://cortexplor.com/en/meta-unveils-muse-charm-ai-wearable/",
+        "clicks": 1,
+        "impressions": 32
+      },
+      {
+        "page": "https://cortexplor.com/en/amazon-blocks-metas-shopping-ai-agent/",
+        "clicks": 0,
+        "impressions": 25
+      },
+      {
+        "page": "https://cortexplor.com/en/amazon-quick-general-availability-desktop/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-ai-agent-stuck-on-captcha/",
+        "clicks": 0,
+        "impressions": 3
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-claude-fable-5-1-cuts-cache-price/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-merges-claude-cowork-interface/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-model-hardware-standard-ai-agents/",
+        "clicks": 0,
+        "impressions": 10
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-picks-accenture-embedded-evaluator/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-releases-claude-opus-5-5/",
+        "clicks": 0,
+        "impressions": 4
+      },
+      {
+        "page": "https://cortexplor.com/en/c/models/",
+        "clicks": 0,
+        "impressions": 3
+      },
+      {
+        "page": "https://cortexplor.com/en/california-signs-laws-for-ai-data-centers/",
+        "clicks": 0,
+        "impressions": 7
+      },
+      {
+        "page": "https://cortexplor.com/en/google-launches-first-ai-satellite-into-space/",
+        "clicks": 0,
+        "impressions": 12
+      },
+      {
+        "page": "https://cortexplor.com/en/google-launches-gemini-3-8-flash-cyber/",
+        "clicks": 0,
+        "impressions": 19
+      },
+      {
+        "page": "https://cortexplor.com/en/google-launches-native-gemini-app-windows/",
+        "clicks": 0,
+        "impressions": 11
+      },
+      {
+        "page": "https://cortexplor.com/en/google-nvidia-ai-energy-alliance-data-centers/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "page": "https://cortexplor.com/en/google-tests-gemini-calling-businesses-for-you/",
+        "clicks": 0,
+        "impressions": 6
+      },
+      {
+        "page": "https://cortexplor.com/en/gpt-6-astra-now-available-on-amazon-bedrock/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "page": "https://cortexplor.com/en/meta-launches-muse-personal-ai-agent/",
+        "clicks": 0,
+        "impressions": 9
+      },
+      {
+        "page": "https://cortexplor.com/en/nvidia-acquires-hugging-face-13-billion/",
+        "clicks": 0,
+        "impressions": 3
+      }
+    ]
+  }
+}
