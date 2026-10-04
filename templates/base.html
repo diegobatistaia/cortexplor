@@ -48,7 +48,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.get('analytics.ga4_id') }}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ cfg.get("analytics.ga4_id") }}');</script>
 {%- endif %}
-{%- if ads.enabled and ads.client_id %}
+{%- if ads.client_id %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ ads.client_id }}" crossorigin="anonymous"></script>
 {%- endif %}
 </head>

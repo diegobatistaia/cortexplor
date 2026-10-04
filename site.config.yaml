@@ -93,8 +93,11 @@ analytics:
 ads:
   # enabled: false ate a aprovacao do AdSense. Os slots ficam no HTML como
   # placeholders vazios (nao ocupam espaco) e ligam de uma vez so aqui.
+  # client_id pode ser preenchido antes da aprovacao: o Google pede o snippet
+  # de verificacao no <head> de todas as paginas antes de revisar o site. O
+  # template so exibe anuncios de verdade quando enabled=true (ver base.html).
   enabled: false
-  client_id: ""
+  client_id: "ca-pub-2992387596445121"
   slots:
     top_leaderboard: ""
     in_content: ""
