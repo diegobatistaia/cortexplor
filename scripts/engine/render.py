@@ -58,6 +58,17 @@ def environment() -> Environment:
     return env
 
 
+def asset_version(name: str) -> str:
+    """Hash curto do arquivo, para o endereço mudar quando o conteúdo mudar.
+
+    Sem isso o navegador segue usando o CSS antigo com o HTML novo, e a página
+    aparece sem estilo até o leitor forçar a atualização.
+    """
+    import hashlib
+    path = ROOT / "assets" / name
+    return hashlib.sha1(path.read_bytes()).hexdigest()[:8] if path.exists() else "0"
+
+
 def base_context(cfg: Config, lang: str, **extra) -> dict:
     context = {
         "cfg": cfg,
@@ -72,6 +83,7 @@ def base_context(cfg: Config, lang: str, **extra) -> dict:
                 **(cfg.get("ads") or {})},
         "newsletter": {"enabled": False, "action": "", **(cfg.get("newsletter") or {})},
         "ad_slot": ad_slot_factory(cfg, lang),
+        "asset_version": asset_version,
         "ad_after_paragraph": AD_AFTER_PARAGRAPH,
         "year": utcnow().year,
         "active_category": None,
