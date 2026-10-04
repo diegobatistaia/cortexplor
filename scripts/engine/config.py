@@ -112,6 +112,12 @@ class Config:
         return None
 
     # -- publishing ramp ---------------------------------------------------
+    @property
+    def run_hours(self) -> list[int]:
+        """Horários (no fuso do site) em que a coleta roda a cada dia."""
+        hours = self.get("publishing.run_hours") or [7]
+        return sorted(int(h) for h in hours)
+
     def posts_per_language(self, today: date | None = None) -> int:
         """How many posts per language today's ramp phase allows."""
         launch = self.get("publishing.launch_date") or ""

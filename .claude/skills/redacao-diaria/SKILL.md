@@ -23,8 +23,9 @@ Anthropic passam pelo proxy, e qualquer feed de notícia volta com 403. A coleta
 já aconteceu no GitHub Actions meia hora antes, e o resultado veio junto no
 clone, em `data/briefing.json`.
 
-O comando acima mostra o resumo e **falha se o arquivo estiver com mais de 18
-horas** — sinal de que a coleta de hoje não rodou. Se ele falhar, pare aqui:
+O comando acima mostra o resumo e **falha se o arquivo estiver com mais de 3
+horas** — sinal de que a coleta desta rodada não rodou. (A coleta e esta sessão
+rodam três vezes por dia; a rodada seguinte recupera uma que falhou.) Se ele falhar, pare aqui:
 escreva no resumo que o briefing está velho ou vazio e encerre sem commitar.
 Escrever em cima de notícia de ontem é pior do que não publicar.
 
@@ -97,8 +98,11 @@ muda alguma coisa na vida de quem usa IA — um lançamento, uma mudança de pre
 uma ferramenta nova, um recurso liberado — em vez de mais uma de bastidor
 corporativo. Movimento de mercado importa, mas não pode ser o site inteiro.
 
-Publique no máximo `posts_per_language_today` pautas (está no briefing). Se
-sobrarem boas, deixe para amanhã — elas continuam no feed.
+Publique no máximo `posts_per_language_today` pautas (está no briefing). Esse
+número é o teto **desta rodada**, não do dia: o briefing também traz
+`daily_cap_per_language` e `already_written_today`, e o código já dividiu o que
+sobra do dia entre as rodadas que faltam. Se sobrarem boas, deixe para a
+próxima rodada — elas continuam no feed.
 
 ## 3. Escrever
 
@@ -225,7 +229,7 @@ ruído.
 - Traduzir literalmente de um idioma para os outros.
 - Editar arquivos em `pt/`, `en/`, `es/` (esses são gerados) ou mexer no gate
   para fazer uma matéria passar.
-- Publicar acima do teto do dia.
+- Publicar acima do teto da rodada.
 
 ## Se não houver pauta
 

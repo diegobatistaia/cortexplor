@@ -75,6 +75,30 @@ def record_published(post: dict) -> None:
     _write(DATA / "published.json", rows)
 
 
+def used_today(languages, tz_name: str, now=None) -> dict[str, int]:
+    """Matérias do dia de hoje (no fuso do site) por idioma.
+
+    Conta o publicado hoje e o rascunho ainda pendente: o teto diário é de quem
+    escreve, e um rascunho que o Finalizar ainda não publicou já gastou a vaga.
+    """
+    from zoneinfo import ZoneInfo
+    from .util import parse_date
+    tz = ZoneInfo(tz_name)
+    today = (now or utcnow()).astimezone(tz).date()
+    counts = {}
+    for lang in languages:
+        n = 0
+        for post in load_posts(lang):
+            if post.get("status") == "draft":
+                n += 1
+                continue
+            when = parse_date(post.get("published_at"))
+            if when and when.astimezone(tz).date() == today:
+                n += 1
+        counts[lang] = n
+    return counts
+
+
 def published_in(lang: str) -> list[dict]:
     return [p for p in published() if p["lang"] == lang]
 

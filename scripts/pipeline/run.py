@@ -34,7 +34,8 @@ from ..engine import collect, draft, gate, images, seo, verify
 from ..engine.config import load
 from ..engine.llm import available as llm_available
 from ..engine.store import (DATA, dequeue, enqueue, gate_pass_rate, load_posts, log_gate,
-                            mark_seen, queue_items, queue_key, record_published, save_post)
+                            mark_seen, queue_items, queue_key, record_published, save_post,
+                            used_today)
 from ..engine.util import isoformat, parse_date, utcnow, word_count
 
 BRIEFING = DATA / "briefing.json"
@@ -60,8 +61,16 @@ def cmd_brief(cfg, args) -> int:
     plausible = [s for s in stories if s["owner_count"] >= minimum]
     print(f"\n{len(stories)} pautas coletadas, {len(plausible)} com {minimum}+ fontes independentes")
 
-    wanted = args.limit or cfg.posts_per_language(date.today())
-    selected = plausible[:wanted * 3]
+    daily_cap = cfg.posts_per_language(date.today())
+    tz_name = cfg.get("site.timezone", "UTC")
+    used = max(used_today(cfg.languages, tz_name).values(), default=0)
+    if args.limit:
+        wanted = args.limit
+    else:
+        wanted = run_budget(daily_cap - used, cfg.run_hours, tz_name)
+    print(f"Teto do dia: {daily_cap} por idioma · já escritas hoje: {used} · "
+          f"desta rodada: {wanted}")
+    selected = plausible[:wanted * 3] if wanted else []
 
     banner("2. Baixando o texto integral das fontes")
     payload = []
@@ -88,6 +97,8 @@ def cmd_brief(cfg, args) -> int:
     BRIEFING.write_text(json.dumps({
         "generated_at": isoformat(utcnow()),
         "posts_per_language_today": wanted,
+        "daily_cap_per_language": daily_cap,
+        "already_written_today": used,
         "min_independent_sources": minimum,
         "languages": cfg.languages,
         "categories_by_language": {
@@ -103,7 +114,26 @@ def cmd_brief(cfg, args) -> int:
     return 0
 
 
-MAX_BRIEFING_AGE_HOURS = 18
+def run_budget(remaining: int, run_hours: list[int], tz_name: str, now=None) -> int:
+    """Quantas matérias por idioma cabem NESTA rodada.
+
+    O teto é do dia, e a coleta roda várias vezes. Dar tudo à primeira rodada
+    deixaria o meio-dia e a noite sem nada; dividir o que sobrou pelas rodadas
+    que faltam espalha a publicação, e uma rodada sem pauta boa devolve a vaga
+    para a seguinte.
+    """
+    from zoneinfo import ZoneInfo
+    if remaining <= 0:
+        return 0
+    hour = (now or utcnow()).astimezone(ZoneInfo(tz_name)).hour
+    left = max(1, sum(1 for h in run_hours if h + 1 > hour))
+    return -(-remaining // left)
+
+
+# O briefing tem que ser da rodada atual: a Routine roda ~30 min depois da
+# coleta. Mais velho que isso é sinal de coleta que falhou, e a próxima rodada
+# do dia se encarrega de recuperar.
+MAX_BRIEFING_AGE_HOURS = 3
 
 
 def cmd_briefing(cfg, args) -> int:
@@ -125,7 +155,9 @@ def cmd_briefing(cfg, args) -> int:
     age = (utcnow() - generated).total_seconds() / 3600 if generated else 999
 
     print(f"Gerado em: {data.get('generated_at')}  ({age:.1f}h atrás)")
-    print(f"Teto de hoje: {data.get('posts_per_language_today')} pauta(s) por idioma")
+    print(f"Teto desta rodada: {data.get('posts_per_language_today')} pauta(s) por idioma "
+          f"(dia: {data.get('daily_cap_per_language', '?')}, "
+          f"já escritas hoje: {data.get('already_written_today', '?')})")
     print(f"Idiomas: {', '.join(data.get('languages', []))}")
     print(f"\n{len(data.get('stories', []))} pauta(s) para avaliar:\n")
     for story in data.get("stories", []):
@@ -141,8 +173,11 @@ def cmd_briefing(cfg, args) -> int:
         print("A coleta de hoje não rodou. Não escreva em cima deste material:")
         print("avise no resumo e encerre sem commitar.")
         return 1
+    if not data.get("posts_per_language_today"):
+        print("\nTeto do dia já atingido. Encerre sem commitar.")
+        return 1
     if not data.get("stories"):
-        print("\nNenhuma pauta com fontes suficientes hoje. Encerre sem commitar.")
+        print("\nNenhuma pauta com fontes suficientes nesta rodada. Encerre sem commitar.")
         return 1
     return 0
 

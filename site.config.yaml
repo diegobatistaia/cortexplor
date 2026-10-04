@@ -207,6 +207,10 @@ publishing:
     - {from_day: 150, posts_per_language: 5}
   # So avanca de fase se a taxa de aprovacao do gate ficar acima disso
   # pelos ultimos `ramp_window_days` dias.
+  # Horarios (fuso do site) em que a coleta roda. O teto de cada dia e dividido
+  # entre as rodadas que ainda faltam. Se mudar aqui, mude o cron do workflow
+  # Coletar e o horario da Routine (30 min depois de cada coleta).
+  run_hours: [7, 12, 18]
   ramp_gate_pass_rate: 0.80
   ramp_window_days: 14
 

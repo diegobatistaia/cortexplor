@@ -311,6 +311,20 @@ def main() -> int:
           all(f'hreflang="{cfg.get(f"site.html_lang.{l}", l)}" lang=' in html_home for l in cfg.languages))
     check("botão de tema presente", "data-theme-toggle" in html_home)
 
+    print("\nRodadas do dia e teto compartilhado")
+    from datetime import datetime, timezone
+    from scripts.pipeline.run import run_budget
+    tz = "America/Sao_Paulo"
+    def brt(h): return datetime(2026, 10, 5, h + 3, 5, tzinfo=timezone.utc)
+    horas = cfg.run_hours
+    check("há mais de uma rodada por dia configurada", len(horas) >= 2, str(horas))
+    check("três rodadas dividem o teto de 3 em 1 por rodada",
+          [run_budget(r, [7, 12, 18], tz, brt(h)) for r, h in ((3, 7), (2, 12), (1, 18))] == [1, 1, 1])
+    check("rodada sem pauta devolve a vaga para a seguinte",
+          run_budget(3, [7, 12, 18], tz, brt(12)) == 2 and run_budget(3, [7, 12, 18], tz, brt(18)) == 3)
+    check("teto atingido zera a rodada", run_budget(0, [7, 12, 18], tz, brt(12)) == 0)
+    check("nunca passa do que resta", run_budget(1, [7, 12, 18], tz, brt(7)) == 1)
+
     print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} verificações passaram")
     if FAILURES:
         print("Falhas: " + ", ".join(FAILURES))

@@ -8,10 +8,15 @@ name: Coletar
 # Routine pelo próprio repositório: este workflow commita data/briefing.json e a
 # Routine lê o arquivo depois de clonar.
 #
-# Roda 30 minutos antes dela, para dar folga se um feed estiver lento.
+# Roda tres vezes por dia, cada uma 30 minutos antes de uma rodada da Routine,
+# para dar folga se um feed estiver lento. O teto diario de materias e dividido
+# entre as rodadas (ver publishing.run_hours no site.config.yaml), e uma coleta
+# que falha e recuperada pela rodada seguinte do mesmo dia.
 on:
   schedule:
-    - cron: "30 6 * * *"   # 03:30 America/Sao_Paulo
+    - cron: "0 10 * * *"   # 07:00 America/Sao_Paulo
+    - cron: "0 15 * * *"   # 12:00
+    - cron: "0 21 * * *"   # 18:00
   workflow_dispatch:
 
 permissions:

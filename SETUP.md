@@ -226,3 +226,17 @@ As páginas institucionais (`content/pages/<idioma>/*.json`) precisam do campo
 `key` (`about`, `privacy`, `contact`, `terms`), igual nos três idiomas: é ele que
 liga "Sobre" a "About" e "Acerca" no hreflang e no seletor de idioma.
 `scripts/tools/make_pages.py` já gera o campo.
+
+## 10. Publicação ao longo do dia
+
+A coleta roda três vezes por dia (07h, 12h e 18h no fuso do site) e a Routine
+roda 30 minutos depois de cada uma. Três pontos precisam andar juntos:
+
+1. `publishing.run_hours` no `site.config.yaml` (ex.: `[7, 12, 18]`).
+2. Os `cron` do workflow **Coletar** (em UTC; Brasília é UTC-3).
+3. O horário da Routine em claude.ai/code/routines (30 min depois de cada coleta).
+
+O teto diário (`publishing.ramp`) é dividido entre as rodadas que ainda faltam:
+com teto 3, a manhã escreve 1, o meio-dia 1 e a noite 1. Uma rodada sem pauta boa
+devolve a vaga e a seguinte escreve mais. O briefing mais velho que 3 horas é
+recusado; uma coleta que falha é recuperada pela rodada seguinte do mesmo dia.
