@@ -446,6 +446,12 @@ def check_spec(spec: dict, render: bool = True) -> tuple[list[str], list[str]]:
         err.extend(f"encaixe {p}" for p in fit.fit_problems(spec, carousel.STYLES))
     elif render:
         warn.append("encaixe nos slides não conferido: corrija os erros acima primeiro")
+    try:
+        from rotation import photo_report
+
+        warn.extend(photo_report(spec)[0])
+    except Exception as ex:  # foto ausente já é erro acima
+        warn.append(f"foto não analisada: {ex}")
     return err, warn
 
 

@@ -81,6 +81,10 @@ erradas, texto alternativo longo e, no fim, **texto que não cabe nos slides** e
 qualquer um dos 8 estilos (mede no navegador). Corrija e rode de novo até sair
 `OK`. Avisos (`!`) pedem conferência, não bloqueiam.
 
+O `check` também avisa sobre a foto (escura demais ou pequena). Foto muito escura tira
+o estilo `meiatinta` da matéria automaticamente: o renderizador e o rodízio usam só os
+estilos elegíveis (`rotation.eligible_styles`).
+
 Não afrouxe o `check` para um spec passar. Se uma regra estiver errada, avise o dono.
 
 ## 6. Renderizar e montar a legenda
@@ -89,6 +93,12 @@ Não afrouxe o `check` para um spec passar. Se uma regra estiver errada, avise o
 python scripts/social/carousel.py <slug> [estilo]
 python scripts/social/redacao.py caption <slug>
 ```
+
+Sem estilo informado, renderiza só os estilos elegíveis para a foto da matéria.
+O comando único que faz tudo (check, foto e render) é `python scripts/social/check.py build <slug>`.
+
+Se alguém mexer em `styles_a.py`, `styles_b.py`, `carousel_core.py` ou `carousel_lab.py`, rode
+`python scripts/social/check.py golden`: ele compara com os estilos aprovados e reprova se algum mudou.
 
 Saída: `social/out/<slug>/<estilo>/01..06.png`, a folha `folha-<estilo>.png`,
 `legenda-<idioma>.txt` e `alt-<idioma>.txt`. Olhe a folha antes de entregar.

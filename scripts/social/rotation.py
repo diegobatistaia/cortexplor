@@ -1,7 +1,34 @@
 """Rodízio de estilos de carrossel: nunca o mesmo estilo duas vezes seguidas."""
 import random
+from pathlib import Path
 
 STYLES = ["edicao", "terminal", "dossie", "duotone", "jornal", "cobalto", "meiatinta", "cartao"]
+
+
+PHOTO_MIN_W, PHOTO_MIN_H = 800, 500
+DARK_PHOTO = 45  # luminância média (0-255) abaixo da qual a capa em meia-tinta fica ilegível
+ROOT = Path(__file__).resolve().parents[2]
+
+
+def photo_report(spec):
+    """Avisos sobre a foto da matéria e estilos que ela exclui: (avisos, excluidos)."""
+    from PIL import Image, ImageStat
+
+    im = Image.open(ROOT / spec["image"]["path"])
+    warns, excluded = [], []
+    if im.width < PHOTO_MIN_W or im.height < PHOTO_MIN_H:
+        warns.append(f"foto pequena ({im.width}x{im.height}); mínimo {PHOTO_MIN_W}x{PHOTO_MIN_H}")
+    lum = ImageStat.Stat(im.convert("L")).mean[0]
+    if lum < DARK_PHOTO:
+        excluded.append("meiatinta")
+        warns.append(f"foto muito escura (luminância {lum:.0f}); estilo meiatinta fora do rodízio desta matéria")
+    return warns, excluded
+
+
+def eligible_styles(spec):
+    """Estilos que podem ser usados nesta matéria (a rotação do dia sorteia só entre eles)."""
+    excl = photo_report(spec)[1]
+    return [s for s in STYLES if s not in excl]
 
 
 def pick_styles(n, styles=STYLES, last=None, rng=None):

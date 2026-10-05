@@ -14,6 +14,7 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Rodízio de estilos | Pronto (`scripts/social/rotation.py`) |
 | Gerador de slides a partir de spec JSON | Pronto (`scripts/social/carousel.py`) |
 | Padrão de legenda e hashtags | Definido neste documento (seção 4) |
+| Controle de qualidade (validação, layout, fotos, referências) | Pronto (`scripts/social/check.py`, seção 7) |
 | Geração do spec e da legenda a partir da matéria | Pronta: skill `instagram-carrossel` + `scripts/social/redacao.py` (prepare, check, caption) |
 | Checagem de encaixe do texto nos 8 estilos | Pronta (`scripts/social/fit.py`, roda dentro do `check`) |
 | Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
@@ -163,6 +164,44 @@ Também confere: orçamentos dos slides, fontes iguais às da matéria, todo nú
 
 ## 5. Link na bio
 Fica para depois. A ideia do dono: uma página de links do próprio site, **sem listar as matérias**, para depois poder incluir grupos de WhatsApp e Telegram e formar a comunidade. Nada disso muda a legenda: o aviso é sempre "link na bio".
+
+---
+
+## 7. Controle de qualidade (para o dono não precisar monitorar)
+
+Os slides são desenhados por código fixo: o visual não muda de um dia para o outro. O que pode variar é o texto e a foto da matéria. Duas ferramentas, e `social/CLAUDE.md` com as regras para qualquer Claude que trabalhe aqui.
+
+- **`scripts/social/redacao.py check <slug>`** (spec, legenda e encaixe): limites de texto, fontes iguais às da matéria, todo número presente na matéria, lista negra, legenda sem link e com hashtags corretas, e medição no navegador de estouro, sobreposição e texto cortado em todos os estilos (`fit.py`).
+- **`scripts/social/check.py`** (foto e referências):
+  - `photo <slug>`: foto muito escura (luminância < 45) tira o estilo `meiatinta` da matéria; foto menor que 800x500 gera aviso.
+  - `build <slug>`: roda `redacao.py check`, a análise da foto e renderiza só os estilos elegíveis.
+  - `golden`: renderiza uma matéria de referência congelada (`social/golden/spec-referencia.json`) em todos os estilos e compara com as imagens aprovadas em `social/golden/`; reprova se algum estilo mudou. `golden --update` só com aprovação do dono.
+
+| Risco | Proteção |
+|---|---|
+| Texto grande demais | `redacao.py check`: limites + medição de encaixe em todos os estilos |
+| Foto ruim | `check.py photo` (escura, pequena) |
+| Texto fora do padrão | `redacao.py check` (fatos, números, voz, legenda) |
+| Alguém mexer no código dos estilos | `check.py golden` |
+| Publicar algo errado | Aprovação manual por carrossel antes de qualquer publicação |
+
+Fluxo por matéria: `check.py build <slug>` (precisa terminar sem erro) → carrossel fica "pendente de aprovação" → dono aprova → publica.
+Teste de 05/10/2026: os 8 estilos passam na comparação com as referências; uma troca de cor em um estilo foi detectada (diferença 8,8 contra 0,2 normal).
+
+---
+
+## 8. Perfis (criados em 05/10/2026)
+
+Imagens do perfil: `social/perfil/perfil-escuro.png`, `perfil-claro.png`, `perfil-cor.png` (1080x1080, ícone C+X com margem para o corte circular).
+
+| | Português | Inglês |
+|---|---|---|
+| Nome (busca, até 30 caracteres) | Cortexplor \| Notícias de IA | Cortexplor \| AI News |
+| Categoria | Site de notícias | News & Media Website |
+| Bio (até 150 caracteres) | Notícias de inteligência artificial em linguagem clara.<br>Cada matéria com no mínimo 2 fontes independentes.<br>Site no link ↓ (121) | AI news in plain language.<br>Every story backed by at least 2 independent sources.<br>Site in the link ↓ (99) |
+| Alternativa | O que aconteceu em IA e por que importa.<br>Cada matéria com pelo menos 2 fontes independentes.<br>Site no link ↓ (107) | What happened in AI and why it matters.<br>Every story backed by at least 2 independent sources.<br>Site in the link ↓ (112) |
+
+Usuário sugerido: `@cortexplor` (PT) e `@cortexplor.en` (EN); disponibilidade não verificada. Link da bio: o próprio site, por enquanto. As contas devem ser **profissionais** (necessário para a publicação pela API e para o Google indexar os posts).
 
 ---
 
