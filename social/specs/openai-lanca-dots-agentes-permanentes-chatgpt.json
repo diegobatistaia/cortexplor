@@ -8,9 +8,18 @@
   "headline": "OpenAI lança Dots, agentes de IA sempre ativos no ChatGPT",
   "headline_hl": "Dots",
   "dek": "O recurso, restrito a planos a partir de US$ 100 por mês, entra em disputa direta com o Muse, agente pessoal da Meta, segundo SiliconANGLE, Wired e CNBC.",
-  "image": {"path": "assets/img/openai-lanca-dots-agentes-permanentes-ch-65413b97.jpg", "credit": "Steve A Johnson / Unsplash", "pos": "50% 50%"},
+  "image": {
+    "path": "assets/img/openai-lanca-dots-agentes-permanentes-ch-65413b97.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "pos": "50% 50%"
+  },
   "stamp": "Lançado<br>29/09",
-  "sources": ["SiliconANGLE", "TechRadar", "CNBC Technology", "Wired AI"],
+  "sources": [
+    "SiliconANGLE",
+    "TechRadar",
+    "CNBC Technology",
+    "Wired AI"
+  ],
   "s2": {
     "label": "O que aconteceu",
     "title": "A OpenAI pôs agentes que trabalham o tempo todo dentro do ChatGPT",
@@ -24,9 +33,18 @@
     "title": "Um agente que age sozinho, mas pede licença",
     "body": "Fora de uma tarefa específica, o agente pode procurar formas de ajudar por conta própria, mas só com acesso de leitura aos apps conectados, sem enviar mensagens nem alterar dados (Wired).",
     "points": [
-      {"h": "Aviso da agenda", "t": "Em demonstração da OpenAI, o Dot viu na agenda que o usuário trabalharia até o jantar e sugeriu duas opções de comida com preço (Wired)."},
-      {"h": "Fatura esquecida", "t": "O agente notou que o usuário esqueceu de cobrar um cliente, preparou a fatura e esperou a aprovação para enviar (SiliconANGLE)."},
-      {"h": "Ações sensíveis", "t": "Instalar programa ou trocar senha exige aprovação explícita, e um sistema de monitoramento pode pausar o agente (SiliconANGLE, Wired)."}
+      {
+        "h": "Aviso da agenda",
+        "t": "Em demonstração da OpenAI, o Dot viu na agenda que o usuário trabalharia até o jantar e sugeriu duas opções de comida com preço (Wired)."
+      },
+      {
+        "h": "Fatura esquecida",
+        "t": "O agente notou que o usuário esqueceu de cobrar um cliente, preparou a fatura e esperou a aprovação para enviar (SiliconANGLE)."
+      },
+      {
+        "h": "Ações sensíveis",
+        "t": "Instalar programa ou trocar senha exige aprovação explícita, e um sistema de monitoramento pode pausar o agente (SiliconANGLE, Wired)."
+      }
     ]
   },
   "s4": {
@@ -36,15 +54,50 @@
       "O acesso começou pelo plano ChatGPT Pro, de US$ 100 por mês, e pelo Business Premium. Cada assinatura inclui um agente sem custo extra, e o uso dos Dots não deve contar no limite mensal do plano no primeiro mês (SiliconANGLE).",
       "Assinantes Pro na União Europeia, na Suíça e no Reino Unido ficaram de fora por enquanto. A OpenAI ainda não divulgou o preço de agentes extras (SiliconANGLE)."
     ],
-    "stat": {"big": "US$ 100/mês", "cap": "plano ChatGPT Pro, onde os Dots começaram"}
+    "stat": {
+      "big": "US$ 100/mês",
+      "cap": "plano ChatGPT Pro, onde os Dots começaram"
+    }
   },
   "s5": {
     "label": "O que vem agora",
     "title": "A disputa com o Muse, da Meta",
     "items": [
-      {"h": "8 set", "t": "A Meta lança o Muse, agente pessoal que roda num computador dedicado na nuvem: grátis até um limite, depois a partir de US$ 20 por mês (CNBC, SiliconANGLE)."},
-      {"h": "Setembro", "t": "As ações da Meta sobem 29%, o melhor mês da empresa desde 2013, embaladas pelo entusiasmo com agentes pessoais (CNBC)."},
-      {"h": "29/09", "t": "A OpenAI responde com os Dots e lança o ChatGPT Spaces, onde colegas colaboram entre si e com agentes (TechRadar)."}
+      {
+        "h": "8 set",
+        "t": "A Meta lança o Muse, agente pessoal que roda num computador dedicado na nuvem: grátis até um limite, depois a partir de US$ 20 por mês (CNBC, SiliconANGLE)."
+      },
+      {
+        "h": "Setembro",
+        "t": "As ações da Meta sobem 29%, o melhor mês da empresa desde 2013, embaladas pelo entusiasmo com agentes pessoais (CNBC)."
+      },
+      {
+        "h": "29/09",
+        "t": "A OpenAI responde com os Dots e lança o ChatGPT Spaces, onde colegas colaboram entre si e com agentes (TechRadar)."
+      }
     ]
-  }
+  },
+  "caption": {
+    "hook": "A OpenAI lançou os Dots, agentes de IA que trabalham o tempo todo dentro do ChatGPT, sem esperar um comando a cada etapa.",
+    "body": [
+      "Além do agente pessoal, a empresa apresentou os specialist Dots: agentes com identidade e credenciais próprias, configurados por uma empresa para uma função específica. A SiliconANGLE cita testes internos com faturas e compras. Segundo a Wired, Sam Altman mencionou contabilidade, marketing por e-mail e análise jurídica.",
+      "A OpenAI já usa os agentes internamente: quando alguém reporta um bug no Slack da empresa, os Dots começam a investigar na hora, segundo a SiliconANGLE."
+    ],
+    "cta_variant": "A",
+    "cta": "Quais tarefas de trabalho seriam as primeiras a passar para um agente como os Dots?",
+    "hashtags": [
+      "#cortexplor",
+      "#chatgpt",
+      "#openai",
+      "#agentesdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre os Dots, agentes de IA sempre ativos lançados pela OpenAI no ChatGPT",
+    "Slide 2: a OpenAI lança os Dots, agentes que tocam tarefas sozinhos dentro do ChatGPT",
+    "Slide 3: como os Dots agem por conta própria e quando pedem aprovação, em três exemplos",
+    "Slide 4: os Dots começam no ChatGPT Pro, de US$ 100 por mês, e no Business Premium",
+    "Slide 5: a disputa entre os Dots, da OpenAI, e o Muse, agente pessoal da Meta",
+    "Slide 6: fontes da matéria sobre os Dots: SiliconANGLE, TechRadar, CNBC e Wired"
+  ]
 }
