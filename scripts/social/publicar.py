@@ -16,7 +16,7 @@ Na sessão (Claude):
 
 No GitHub Actions:
     python scripts/social/publicar.py executar
-        Lê o pedido, renova a chave, publica o carrossel e marca "publicado".
+        Lê o pedido, confere a chave, publica o carrossel e marca "publicado".
 """
 from __future__ import annotations
 
@@ -170,7 +170,8 @@ def cmd_executar(args) -> int:
     me = call("GET", "me", token, fields="user_id,username")
     ig = me["user_id"]
     print(f"conta: @{me.get('username')}")
-    renovar(token)
+    # A renovação devolve outra chave, e o Actions não consegue regravar o secret:
+    # renovar aqui não adiantaria. A chave do secret é trocada à mão antes de vencer.
     resultado = {"pedido": pedido, "conta": me.get("username"), "em": diario.now_iso()}
     if pedido.get("acao") == "teste":
         resultado["ok"] = True
