@@ -12,7 +12,7 @@ Na sessão (Claude):
     python scripts/social/publicar.py pedir <slug>
     python scripts/social/publicar.py pedir --teste
     python scripts/social/publicar.py proximo
-        Horário fixo (8h, 12h, 19h): escolhe o aprovado mais antigo da fila
+        Horário fixo (8h, 11h, 16h): escolhe o aprovado mais antigo da fila
         que já tem mídia pública e grava o pedido dele. Sem aprovado, não faz nada.
         Grava social/publicar/pedido.json. O push desse arquivo no branch
         instagram dispara o workflow, que publica (ou só testa a chave).
