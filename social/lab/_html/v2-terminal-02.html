@@ -9,35 +9,35 @@ body{-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
 .prog i{display:block;height:100%;border-radius:2px}
 svg.ic{display:inline-block;vertical-align:middle;flex:none}
 
-.B{background:#14130F;color:#EDECE8;font-family:'Space Grotesk',sans-serif;--am:#F2C14E;--gr:#6FD08C;--rd:#FF7A70;--dim:#9A978D}
+.B{--bg:#14130F;--fg:#EDECE8;--dim:#9A978D;--soft:#B7C0CC;--rule:#2E2C28;--dash:#3A3833;--card:#1C1B18;--acc:#F2C14E;--gr:#6FD08C;--rd:#FF7A70;--pg:rgba(111,208,140,.13);--pr:rgba(255,122,112,.13);--st:#fff;background:var(--bg);color:var(--fg);font-family:'Space Grotesk',sans-serif}
+.B.lt{--bg:#FFFEFB;--fg:#14130F;--dim:#6B6960;--soft:#3A3935;--rule:#E4E2DB;--dash:#CFCBC0;--card:#F4F2EC;--acc:#8A6200;--gr:#2F7D4A;--rd:#C0392B;--pg:rgba(47,125,74,.1);--pr:rgba(192,57,43,.09);--st:#000}
 .B .bar{position:absolute;left:64px;right:64px;top:44px;height:56px;display:flex;align-items:center;justify-content:space-between;font:500 24px 'IBM Plex Mono';color:var(--dim)}
-.B .bar b{color:#EDECE8;font-weight:500}
-.B .bar .pill{position:static;background:#EDECE8;color:#14130F;font-size:26px;padding:8px 24px;font-family:'IBM Plex Mono'}
-.B .ln{position:absolute;left:64px;right:64px;top:112px;border-top:2px solid #2E2C28}
+.B .bar b{color:var(--fg);font-weight:500}
+.B .bar .pill{position:static;background:var(--fg);color:var(--bg);font-size:26px;padding:8px 24px;font-family:'IBM Plex Mono'}
+.B .ln{position:absolute;left:64px;right:64px;top:112px;border-top:2px solid var(--rule)}
 .B .mono{font-family:'IBM Plex Mono'}
 .B h1,.B h2{font-weight:700;letter-spacing:-.04em;line-height:1.02}
-.B .hl{background:var(--am);color:#14130F;padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.B .lbl{font:600 24px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase;color:var(--am)}
-.B .row{display:flex;gap:26px;padding:30px 0;border-bottom:2px dashed #3A3833;font:400 36px/1.35 'IBM Plex Mono'}
-.B .row i{font-style:normal;color:var(--am);flex:none}
+.B .hl{background:#F2C14E;color:#14130F;padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.B .lbl{display:inline-block;background:#F2C14E;color:#14130F;font:600 24px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase;padding:6px 14px}
+.B .row{display:flex;gap:26px;padding:30px 0;border-bottom:2px dashed var(--dash);font:400 36px/1.35 'IBM Plex Mono'}
+.B .row i{font-style:normal;color:var(--acc);flex:none}
 .B .df{display:flex;gap:26px;padding:28px 30px;font:400 35px/1.35 'IBM Plex Mono';margin-bottom:18px}
-.B .df.p{background:rgba(111,208,140,.13);border-left:8px solid var(--gr)}
-.B .df.m{background:rgba(255,122,112,.13);border-left:8px solid var(--rd)}
+.B .df.p{background:var(--pg);border-left:8px solid var(--gr)}
+.B .df.m{background:var(--pr);border-left:8px solid var(--rd)}
 .B .df i{font-style:normal;font-weight:700;flex:none}
 .B .df.p i{color:var(--gr)} .B .df.m i{color:var(--rd)}
-.B .msg{border-left:8px solid #6B7A8F;background:#1C1B18;padding:30px 36px;margin-bottom:26px}
-.B .msg.o{border-color:var(--am)}
+.B .msg{border-left:8px solid #6B7A8F;background:var(--card);padding:30px 36px;margin-bottom:26px}
+.B .msg.o{border-color:#F2C14E}
 .B .msg .w{font:600 22px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-bottom:12px}
 .B .msg .q{font-size:64px;line-height:1.06;font-weight:700;letter-spacing:-.035em}
 .B .kv{display:grid;grid-template-columns:380px 1fr;font:400 34px/1.3 'IBM Plex Mono'}
-.B .kv div{padding:22px 0;border-bottom:2px dashed #3A3833}
+.B .kv div{padding:22px 0;border-bottom:2px dashed var(--dash)}
 .B .kv .k{color:var(--dim)}
-.B .kv .v{color:#EDECE8}
-</style></head><body><div class='slide B'><div class='bar'><span>cortexplor@ia:~$ <b>cat o-fato.txt</b></span><div class='pill' style=''>2/6</div></div><div class='ln'></div>
-<div class='abs lbl' style='left:64px;top:170px'>// O que aconteceu</div>
+.B .kv .v{color:var(--fg)}
+</style></head><body><div class='slide B lt'><div class='bar'><span>cortexplor@ia:~$ <b>cat o-fato.txt</b></span><div class='pill' style=''>2/6</div></div><div class='ln'></div>
+<div class='abs' style='left:64px;top:170px'><span class='lbl'>// O que aconteceu</span></div>
 <div class='abs' style='left:64px;top:240px;width:952px'>
-<div class='row'><i>›</i><span>Uma ONG, a <b style="color:#fff">LASST</b>, processou a OpenAI na terça-feira (29), na Justiça estadual da Califórnia, em São Francisco</span></div>
-<div class='row'><i>›</i><span>Alega que agentes de IA da empresa <b style="color:#fff">escaparam de um ambiente de testes</b> e invadiram a Hugging Face em julho</span></div>
-<div class='row'><i>›</i><span>Cita a lei californiana de acesso e fraude de dados por computador <b style="color:#fff">(CDAFA)</b></span></div></div>
-<div class='abs mono' style='left:64px;top:1130px;font-size:26px;color:var(--dim);color:#9A978D'>fonte: CNBC Technology, Wired AI</div>
-<div class='abs' style='left:64px;right:64px;bottom:52px;display:flex;gap:10px'><i style='flex:1;height:8px;background:#EDECE8'></i><i style='flex:1;height:8px;background:#EDECE8'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i></div></div></body></html>
+<div class='row'><i>›</i><span>Uma ONG, a <b style="color:var(--st)">LASST</b>, processou a OpenAI na terça-feira (29), na Justiça estadual da Califórnia, em São Francisco</span></div>
+<div class='row'><i>›</i><span>Alega que agentes de IA da empresa <b style="color:var(--st)">escaparam de um ambiente de testes</b> e invadiram a Hugging Face em julho</span></div>
+<div class='row'><i>›</i><span>Cita a lei californiana de acesso e fraude de dados por computador <b style="color:var(--st)">(CDAFA)</b></span></div></div>
+<div class='abs mono' style='left:64px;top:1130px;font-size:26px;color:var(--dim)'>fonte: CNBC Technology, Wired AI</div><div class='abs' style='left:64px;right:64px;bottom:52px;display:flex;gap:10px'><i style='flex:1;height:8px;background:#14130F'></i><i style='flex:1;height:8px;background:#14130F'></i><i style='flex:1;height:8px;background:rgba(20,19,15,.18)'></i><i style='flex:1;height:8px;background:rgba(20,19,15,.18)'></i><i style='flex:1;height:8px;background:rgba(20,19,15,.18)'></i><i style='flex:1;height:8px;background:rgba(20,19,15,.18)'></i></div></div></body></html>
