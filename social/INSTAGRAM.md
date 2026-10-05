@@ -190,6 +190,21 @@ Teste de 05/10/2026: os 8 estilos passam na comparação com as referências; um
 
 ---
 
+## 8. Perfis (criados em 05/10/2026)
+
+Imagens do perfil: `social/perfil/perfil-escuro.png`, `perfil-claro.png`, `perfil-cor.png` (1080x1080, ícone C+X com margem para o corte circular).
+
+| | Português | Inglês |
+|---|---|---|
+| Nome (busca, até 30 caracteres) | Cortexplor \| Notícias de IA | Cortexplor \| AI News |
+| Categoria | Site de notícias | News & Media Website |
+| Bio (até 150 caracteres) | Notícias de inteligência artificial em linguagem clara.<br>Cada matéria com no mínimo 2 fontes independentes.<br>Site no link ↓ (121) | AI news in plain language.<br>Every story backed by at least 2 independent sources.<br>Site in the link ↓ (99) |
+| Alternativa | O que aconteceu em IA e por que importa.<br>Cada matéria com pelo menos 2 fontes independentes.<br>Site no link ↓ (107) | What happened in AI and why it matters.<br>Every story backed by at least 2 independent sources.<br>Site in the link ↓ (112) |
+
+Usuário sugerido: `@cortexplor` (PT) e `@cortexplor.en` (EN); disponibilidade não verificada. Link da bio: o próprio site, por enquanto. As contas devem ser **profissionais** (necessário para a publicação pela API e para o Google indexar os posts).
+
+---
+
 ## 6. O que falta (em ordem)
 
 1. ~~Geração do spec e da legenda~~ (feito em 05/10/2026: skill `instagram-carrossel`, `redacao.py`, `fit.py`).
