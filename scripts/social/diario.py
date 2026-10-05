@@ -8,10 +8,12 @@
 
     (a redação escreve os specs: skill instagram-carrossel)
 
-    python scripts/social/diario.py fechar <slug> [<slug> ...]
+    python scripts/social/diario.py fechar [--aprovar] <slug> [<slug> ...]
         Para cada matéria, na ordem dada: escolhe o estilo pelo rodízio, roda o
         controle completo (redacao.py check + foto), renderiza só o estilo
         escolhido, monta a legenda e põe o carrossel na fila como "pendente".
+        Com --aprovar, entra já "aprovado": o dono dispensou a aprovação por
+        carrossel em 05/10/2026 e o check passou a ser o controle.
 
     python scripts/social/diario.py fila
         Mostra a fila (pendentes primeiro).
@@ -157,14 +159,15 @@ def cmd_fechar(args) -> int:
             "no": spec.get("no"),
             "style": style,
             "cta_variant": spec["caption"]["cta_variant"],
-            "status": "pendente",
+            "status": "aprovado" if args.aprovar else "pendente",
             "criado": now_iso(),
+            **({"aprovado_em": now_iso(), "aprovado_por": "automatico"} if args.aprovar else {}),
             "slides": f"social/out/{slug}/{style}",
             "folha": f"social/out/{slug}/folha-{style}.png",
             "legenda": f"social/out/{slug}/legenda-{lang}.txt",
         })
         save_fila(fila)
-        print(f"{slug}: na fila, estilo {style}, chamada {spec['caption']['cta_variant']}")
+        print(f"{slug}: na fila ({fila[-1]['status']}), estilo {style}, chamada {spec['caption']['cta_variant']}")
     return 1 if bad else 0
 
 
@@ -205,6 +208,7 @@ def main(argv=None) -> int:
     p.add_argument("--data")
     p.add_argument("--lang", default="pt")
     p = sub.add_parser("fechar")
+    p.add_argument("--aprovar", action="store_true", help="entra na fila já aprovado")
     p.add_argument("slugs", nargs="+")
     sub.add_parser("fila")
     for name in ("aprovar", "descartar"):

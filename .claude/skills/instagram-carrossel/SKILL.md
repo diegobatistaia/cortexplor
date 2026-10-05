@@ -108,7 +108,7 @@ Saída: `social/out/<slug>/<estilo>/01..06.png`, a folha `folha-<estilo>.png`,
 ```bash
 python scripts/social/diario.py novas            # matérias publicadas hoje no main → specs vazios
 # escreva cada spec (passos 2 a 5 acima)
-python scripts/social/diario.py fechar <slug> ... # rodízio + check + render do estilo + legenda → fila
+python scripts/social/diario.py fechar --aprovar <slug> ... # rodízio + check + render + legenda → fila (aprovado)
 python scripts/social/diario.py fila
 ```
 
@@ -117,10 +117,10 @@ para o `main`). `fechar` escolhe o estilo pelo rodízio (menos usado entre os
 elegíveis, nunca igual ao anterior), renderiza só esse estilo e põe o carrossel em
 `social/fila.json` como `pendente`.
 
-Aprovação: mande ao dono a folha do estilo escolhido e a legenda de cada pendente
-e espere a resposta. Ele usa o celular: texto simples, sem cartões. Com o "pode",
-rode `diario.py aprovar <slug>`; com recusa, `diario.py descartar <slug>`. Nada é
-publicado sem `aprovado`.
+Aprovação: desde 05/10/2026 o dono dispensou o "pode" por carrossel (pode corrigir
+depois, nos próximos). Use sempre `fechar --aprovar`: o que passa no `check` entra
+aprovado; o que não passa fica fora da fila. `diario.py descartar <slug>` tira da fila
+um carrossel que o dono vetar. Nada é publicado sem `aprovado`.
 
 ## Publicar (só o que está `aprovado`)
 
@@ -132,7 +132,9 @@ python scripts/social/publicar.py pedir <slug>   # depois: commit e push de soci
 
 O push do pedido dispara `.github/workflows/instagram.yml`, que publica com o secret
 `INSTAGRAM_TOKEN` e grava `publicado` na fila e o resultado em `social/publicar/ultimo.json`.
-Um pedido por vez, espaçados ao longo do dia. `pedir --teste` só confere a chave.
+Horários fixos: 8h, 12h e 19h (BRT), um carrossel por horário, com
+`publicar.py proximo` (o aprovado mais antigo da fila) no lugar de `pedir <slug>`.
+`pedir --teste` só confere a chave.
 Antes de publicar, confirme que o dono não postou à mão.
 
 ## O que nunca fazer

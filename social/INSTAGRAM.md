@@ -2,7 +2,7 @@
 
 Branch: `instagram` (isolada; `main` e a Routine do site não são afetadas — os workflows só disparam em `main`).
 Objetivo: um carrossel por matéria publicada, em contas separadas (PT e EN), para criar uma comunidade em torno do site.
-Fluxo final: matéria publicada → spec do carrossel → render dos slides → legenda → aprovação manual → publicação.
+Fluxo final: matéria publicada → spec do carrossel → render dos slides → legenda → check → publicação automática às 8h, 12h e 19h (BRT).
 
 ---
 
@@ -19,8 +19,8 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Checagem de encaixe do texto nos 8 estilos | Pronta (`scripts/social/fit.py`, roda dentro do `check`) |
 | Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
 | Rotina diária (matérias do dia → fila) | Pronta: `scripts/social/diario.py` (novas, fechar, fila) |
-| Aprovação manual | Pronta: fila em `social/fila.json`, `diario.py aprovar/descartar`; o dono aprova pelo chat |
-| Publicação pela Instagram Graph API | A fazer (depende de contas e app Meta) |
+| Aprovação | Automática desde 05/10/2026 (decisão do dono): passou no `check`, entra na fila como aprovado |
+| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por horário às 8h, 12h e 19h (BRT) |
 | Página de links da bio | Fica para depois, decisão do dono |
 
 ---
@@ -184,9 +184,9 @@ Os slides são desenhados por código fixo: o visual não muda de um dia para o 
 | Foto ruim | `check.py photo` (escura, pequena) |
 | Texto fora do padrão | `redacao.py check` (fatos, números, voz, legenda) |
 | Alguém mexer no código dos estilos | `check.py golden` |
-| Publicar algo errado | Aprovação manual por carrossel antes de qualquer publicação |
+| Publicar algo errado | O `check` reprova antes da fila; o dono avisa erros e a correção vale para os próximos |
 
-Fluxo por matéria: `check.py build <slug>` (precisa terminar sem erro) → carrossel fica "pendente de aprovação" → dono aprova → publica.
+Fluxo por matéria: `diario.py fechar --aprovar <slug>` (check sem erro) → `publicar.py midia` → fila aprovada → `publicar.py proximo` às 8h, 12h e 19h → workflow publica.
 Teste de 05/10/2026: os 8 estilos passam na comparação com as referências; uma troca de cor em um estilo foi detectada (diferença 8,8 contra 0,2 normal).
 
 ---

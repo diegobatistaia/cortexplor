@@ -11,6 +11,9 @@ Na sessão (Claude):
         e grava na fila o endereço público. Depois: commit e push no midia.
     python scripts/social/publicar.py pedir <slug>
     python scripts/social/publicar.py pedir --teste
+    python scripts/social/publicar.py proximo
+        Horário fixo (8h, 12h, 19h): escolhe o aprovado mais antigo da fila
+        que já tem mídia pública e grava o pedido dele. Sem aprovado, não faz nada.
         Grava social/publicar/pedido.json. O push desse arquivo no branch
         instagram dispara o workflow, que publica (ou só testa a chave).
 
@@ -84,6 +87,20 @@ def cmd_pedir(args) -> int:
     PEDIDO.write_text(json.dumps(pedido, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"pedido gravado: {pedido}")
     return 0
+
+
+def cmd_proximo(args) -> int:
+    fila = diario.load_fila()
+    prontos = [e for e in fila if e["status"] == "aprovado"]
+    if not prontos:
+        print("nada: nenhum carrossel aprovado na fila")
+        return 0
+    entry = min(prontos, key=lambda e: (e.get("criado", ""), e.get("no") or 0))
+    if not entry.get("midia"):
+        print(f"{entry['slug']}: sem mídia pública; rode 'midia' e o push do cortexplor-midia antes")
+        return 1
+    args.slug, args.teste = entry["slug"], False
+    return cmd_pedir(args)
 
 
 # ----------------------------------------------------------------------------
@@ -206,11 +223,12 @@ def main(argv=None) -> int:
     p = sub.add_parser("pedir")
     p.add_argument("slug", nargs="?")
     p.add_argument("--teste", action="store_true")
+    sub.add_parser("proximo")
     sub.add_parser("executar")
     args = ap.parse_args(argv)
     if args.cmd == "pedir" and not (args.slug or args.teste):
         ap.error("pedir precisa de um slug ou --teste")
-    return {"midia": cmd_midia, "pedir": cmd_pedir, "executar": cmd_executar}[args.cmd](args)
+    return {"midia": cmd_midia, "pedir": cmd_pedir, "proximo": cmd_proximo, "executar": cmd_executar}[args.cmd](args)
 
 
 if __name__ == "__main__":
