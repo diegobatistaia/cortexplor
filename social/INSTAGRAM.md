@@ -2,7 +2,7 @@
 
 Branch: `instagram` (isolada; `main` e a Routine do site não são afetadas — os workflows só disparam em `main`).
 Objetivo: um carrossel por matéria publicada, em contas separadas (PT e EN), para criar uma comunidade em torno do site.
-Fluxo final: matéria publicada → spec do carrossel → render dos slides → legenda → check → publicação automática às 8h, 11h e 16h (BRT).
+Fluxo final: matéria publicada → spec do carrossel → render dos slides → legenda → check → publicação automática às 9h, 14h e 20h (BRT).
 
 ---
 
@@ -20,7 +20,7 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
 | Rotina diária (matérias do dia → fila) | Pronta: `scripts/social/diario.py` (novas, fechar, fila) |
 | Aprovação | Automática desde 05/10/2026 (decisão do dono): passou no `check`, entra na fila como aprovado |
-| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por horário às 8h, 11h e 16h (BRT) |
+| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por horário às 9h, 14h e 20h (BRT) |
 | Página de links da bio | Fica para depois, decisão do dono |
 
 ---
@@ -186,7 +186,7 @@ Os slides são desenhados por código fixo: o visual não muda de um dia para o 
 | Alguém mexer no código dos estilos | `check.py golden` |
 | Publicar algo errado | O `check` reprova antes da fila; o dono avisa erros e a correção vale para os próximos |
 
-Fluxo por matéria: `diario.py fechar --aprovar <slug>` (check sem erro) → `publicar.py midia` → fila aprovada → `publicar.py proximo` às 8h, 11h e 16h → workflow publica.
+Fluxo por matéria: `diario.py fechar --aprovar <slug>` (check sem erro) → `publicar.py midia` → fila aprovada → `publicar.py proximo` às 9h, 14h e 20h → workflow publica.
 Teste de 05/10/2026: os 8 estilos passam na comparação com as referências; uma troca de cor em um estilo foi detectada (diferença 8,8 contra 0,2 normal).
 
 ---

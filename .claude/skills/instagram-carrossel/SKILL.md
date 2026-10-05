@@ -132,9 +132,9 @@ python scripts/social/publicar.py pedir <slug>   # depois: commit e push de soci
 
 O push do pedido dispara `.github/workflows/instagram.yml`, que publica com o secret
 `INSTAGRAM_TOKEN` e grava `publicado` na fila e o resultado em `social/publicar/ultimo.json`.
-Horários fixos: 8h, 11h e 16h (BRT), um carrossel por horário, com
+Horários fixos: 9h, 14h e 20h (BRT), um carrossel por horário, com
 `publicar.py proximo` (o aprovado mais antigo da fila) no lugar de `pedir <slug>`.
-Com mais de 3 no dia, os horários extras (13h, 19h, 21h; `EXTRAS` em `publicar.py`)
+Com mais de 3 no dia, os horários extras (10h, 15h, 21h; `EXTRAS` em `publicar.py`)
 publicam o excedente para tudo sair no mesmo dia.
 `pedir --teste` só confere a chave.
 Antes de publicar, confirme que o dono não postou à mão.

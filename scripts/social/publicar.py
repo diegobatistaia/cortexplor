@@ -47,8 +47,8 @@ RAW = f"https://raw.githubusercontent.com/{MIDIA_REPO}/main"
 API = "https://graph.instagram.com/v23.0"
 # Horas (BRT) em que sai um carrossel. Fixos: sempre que houver fila. Extras: só
 # quando houver mais carrosséis do que horários fixos restantes no dia.
-HORARIOS = [8, 11, 16]
-EXTRAS = [13, 19, 21]
+HORARIOS = [9, 14, 20]
+EXTRAS = [10, 15, 21]
 
 
 # ----------------------------------------------------------------------------
