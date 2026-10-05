@@ -134,8 +134,10 @@ a.btn:hover{background:var(--tile-hi);border-color:var(--line-hi);transform:tran
 .txt span{display:block;color:var(--muted);font-size:12.5px;margin-top:1px;line-height:1.35}
 .arr{flex:none;color:var(--faint);transition:transform .2s,color .2s}
 a.btn:hover .arr{transform:translate(2px,-2px);color:var(--steel)}
-.soon{flex:none;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
-  padding:5px 9px;border-radius:var(--r-pill);border:1px dashed var(--line-hi);color:var(--steel)}
+.soon{flex:none;display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;
+  font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;border-radius:var(--r-pill);
+  background:var(--steel);color:var(--bg)}
+.soon::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.55}
 .wa{background:linear-gradient(135deg,rgba(127,184,154,.12),var(--tile) 60%)}
 .wa .ic{color:var(--green)}
 .tg{background:linear-gradient(135deg,rgba(138,148,166,.12),var(--tile) 60%)}
