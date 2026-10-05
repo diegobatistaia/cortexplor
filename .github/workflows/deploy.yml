@@ -33,7 +33,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # Sem `ref`, o checkout pega o commit que disparou o fluxo. Quando o
+      # Finalizar chama este deploy, esse commit é o rascunho, anterior ao
+      # commit em que o Finalizar gerou as páginas, e a matéria nova não era
+      # enviada ao servidor até o deploy da meia-noite.
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref }}
 
       # Python explicito: sem isto o passo seguinte depende do interpretador que
       # a imagem do runner tiver no PATH e de ele ja trazer PyYAML instalado.
