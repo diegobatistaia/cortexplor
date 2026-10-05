@@ -39,7 +39,7 @@ def ticks(n, on, off, h=8, gap=10, bottom=52, right=64):
     return f"<div class='abs' style='left:64px;right:{right}px;bottom:{bottom}px;display:flex;gap:{gap}px'>{segs}</div>"
 
 
-def duotone(box, size, name, dark=(20, 19, 15), mid=(74, 86, 106), light=(205, 212, 222)):
+def duotone(box, size, name, dark=(20, 19, 15), mid=(88, 86, 80), light=(214, 212, 205)):
     d = L.HT
     d.mkdir(parents=True, exist_ok=True)
     out = d / f"{name}.png"
@@ -265,7 +265,7 @@ def v_dossie(pat=None):
     pat = pat or PATTERNS[0]  # pat[i] = slide i+1 escuro
     css = """
 .C{--out:#E4E1D8;--panel:#FFFEFB;--fg:#14130F;--mu:#6B6960;--soft:#3A3935;--acc:#4A4843;--red:#B3261E;--tabbg:#14130F;--tabfg:#FFFEFB;background:var(--out);color:var(--fg);font-family:'Space Grotesk',sans-serif}
-.C.dk{--out:#45433E;--panel:#14130F;--fg:#EDECE8;--mu:#9A978D;--soft:#C9C7BF;--acc:#C9C7BF;--red:#FF6B5E;--tabbg:#EDECE8;--tabfg:#14130F}
+.C.dk{--out:#E4E1D8;--panel:#14130F;--fg:#EDECE8;--mu:#9A978D;--soft:#C9C7BF;--acc:#C9C7BF;--red:#FF6B5E;--tabbg:#EDECE8;--tabfg:#14130F}
 .C .panel{position:absolute;left:40px;right:40px;top:132px;bottom:40px;background:var(--panel);border:3px solid var(--fg);border-radius:0 18px 18px 18px}
 .C .tab{position:absolute;left:40px;top:86px;height:46px;padding:0 26px;background:var(--tabbg);color:var(--tabfg);font:600 22px 'IBM Plex Mono';letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;border-radius:14px 14px 0 0}
 .C .pill{background:#14130F;color:#fff;top:40px}
@@ -362,11 +362,11 @@ def v_dossie(pat=None):
 # ==========================================================================
 def v_duotone():
     cover = duotone((420, 0, 996, 720), (1080, 1350), "d_cover")
-    band = duotone((0, 120, 1080, 600), (1080, 560), "d_band", mid=(80, 94, 116))
+    band = duotone((0, 120, 1080, 600), (1080, 560), "d_band", mid=(92, 90, 84))
     strip = duotone((560, 0, 860, 720), (400, 960), "d_strip")
     css = """
 .D{background:#FFFEFB;color:#14130F;font-family:'Space Grotesk',sans-serif}
-.D.sl{background:#3A4556;color:#F4F5F7}
+.D.sl{background:#45433E;color:#F4F5F7}
 .D.ik{background:#14130F;color:#EDECE8}
 .D .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.13) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.13) 1px,transparent 1px);background-size:90px 90px}
 .D .m{position:absolute;width:44px;height:44px;border-color:#fff;border-style:solid}
@@ -377,7 +377,7 @@ def v_duotone():
 .D h1,.D h2{font-weight:700;letter-spacing:-.04em;line-height:1}
 .D .body{font-size:38px;line-height:1.4}
 .D .card{border:3px solid rgba(255,255,255,.55);padding:28px 30px}
-.D .card .n{font-size:84px;font-weight:700;letter-spacing:-.05em;line-height:.95;color:#B7C0CC}
+.D .card .n{font-size:84px;font-weight:700;letter-spacing:-.05em;line-height:.95;color:#C9C7BF}
 .D .card .t{font:600 22px 'IBM Plex Mono';letter-spacing:.1em;text-transform:uppercase;margin-top:14px;opacity:.9}
 .D .card .d{font-size:28px;line-height:1.3;margin-top:8px;opacity:.9}
 """
@@ -413,11 +413,11 @@ def v_duotone():
 <div class='grid' style='opacity:.5'></div>{marks()}
 <div class='top'>Cortexplor · O pedido</div>{pill(3)}
 <div class='abs' style='left:30px;top:130px;font-size:600px;font-weight:700;letter-spacing:-.07em;line-height:.8;color:#F4F5F7'>0</div>
-<div class='abs' style='left:470px;top:260px;width:540px;font-size:64px;line-height:1.02;font-weight:700;letter-spacing:-.035em'>pedido de indenização</div>
+<div class='abs' style='left:470px;top:260px;width:540px;font-size:64px;line-height:1.02;font-weight:700;letter-spacing:-.035em'>pedido é liminar, não dinheiro</div>
 <div class='abs' style='left:470px;top:440px;width:540px;font-size:32px;line-height:1.3;color:#D5DAE0'>A LASST não pede reparação financeira.</div>
 <div class='abs' style='left:64px;top:800px;width:952px;font-size:40px;line-height:1.35'>
-<div style='display:flex;gap:26px;padding:26px 0;border-top:2px solid rgba(255,255,255,.4)'>{ic(CHECK, 44, '#B7C0CC')}<span><b>Liminar</b> que proíba a OpenAI de operar agentes capazes de invadir outras organizações sozinhos</span></div>
-<div style='display:flex;gap:26px;padding:26px 0;border-top:2px solid rgba(255,255,255,.4);border-bottom:2px solid rgba(255,255,255,.4)'>{ic(CHECK, 44, '#B7C0CC')}<span>Pagamento das <b>custas legais</b></span></div></div>
+<div style='display:flex;gap:26px;padding:26px 0;border-top:2px solid rgba(255,255,255,.4)'>{ic(CHECK, 44, '#C9C7BF')}<span><b>Liminar</b> que proíba a OpenAI de operar agentes capazes de invadir outras organizações sozinhos</span></div>
+<div style='display:flex;gap:26px;padding:26px 0;border-top:2px solid rgba(255,255,255,.4);border-bottom:2px solid rgba(255,255,255,.4)'>{ic(CHECK, 44, '#C9C7BF')}<span>Pagamento das <b>custas legais</b></span></div></div>
 {ticks(3, '#fff', 'rgba(255,255,255,.28)', bottom=62)}</div>"""
     )
     s.append(
