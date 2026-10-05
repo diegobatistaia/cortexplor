@@ -7,17 +7,22 @@ telling the same story. A cluster is what the next step tries to verify.
 from __future__ import annotations
 
 import json
+import re
+import warnings
+from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse
 
 import feedparser
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
 from .config import Config
 from .store import seen_fingerprints
 from .util import (content_words, domain_of, excerpt, fingerprint, isoformat, parse_date,
                    strip_tags, title_overlap, utcnow)
 
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 HTML_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; CortexplorBot/1.0; +https://cortexplor.com)"}
 
@@ -41,11 +46,25 @@ def _page_date(soup: BeautifulSoup):
     return parse_date(tag["datetime"]) if tag else None
 
 
+def _url_date(url: str, pattern: str | None):
+    match = re.search(pattern, url) if pattern else None
+    if not match:
+        return None
+    year = int(match["y"])
+    try:
+        return datetime(year + 2000 if year < 100 else year, int(match["m"]), int(match["d"]),
+                        12, tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
 def fetch_listing(source: dict, timeout: int = 20) -> list[dict]:
     """Empresa sem RSS: lê a página de notícias e abre os links mais recentes.
 
-    `link_prefix` diz quais links da página são matérias (ex.: "/news/"). Só
-    entra o que a própria página do anúncio data; sem data, fica de fora.
+    `link_prefix` diz quais links da página são matérias (ex.: "/news/");
+    `exclude` tira caminhos que não são matéria (ex.: "/category/"). Só entra o
+    que tem data: a da própria página ou, se a página não declara, a que a
+    empresa põe no endereço (`url_date`, regex com os grupos y, m e d).
     """
     try:
         page = requests.get(source["url"], headers=HTML_HEADERS, timeout=timeout)
@@ -60,20 +79,22 @@ def fetch_listing(source: dict, timeout: int = 20) -> list[dict]:
         url = urljoin(source["url"], a["href"]).split("#")[0].split("?")[0]
         parts = urlparse(url)
         if (parts.netloc == base.netloc and parts.path.startswith(prefix)
-                and parts.path.rstrip("/") != prefix.rstrip("/") and url not in links):
+                and parts.path.rstrip("/") != prefix.rstrip("/") and url not in links
+                and not any(x in parts.path for x in source.get("exclude", []))):
             links.append(url)
     items = []
-    for link in links[:source.get("max_links", 12)]:
+    for link in links[:source.get("max_links", 20)]:
         try:
             resp = requests.get(link, headers=HTML_HEADERS, timeout=timeout)
             resp.raise_for_status()
         except requests.RequestException:
             continue
         soup = BeautifulSoup(resp.text, "html.parser")
-        published = _page_date(soup)
+        published = _page_date(soup) or _url_date(link, source.get("url_date"))
         og_title = soup.find("meta", attrs={"property": "og:title"})
         title = strip_tags((og_title.get("content") if og_title else "")
                            or (soup.title.string if soup.title else "") or "").strip()
+        title = title.split(" | ")[0].strip()  # "Título | Mistral AI" -> "Título"
         og_desc = (soup.find("meta", attrs={"property": "og:description"})
                    or soup.find("meta", attrs={"name": "description"}))
         if not published or not title:

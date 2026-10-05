@@ -251,6 +251,36 @@ def main() -> int:
           "autorização direta da direção" in html_unico
           and "duas fontes independentes" not in html_unico)
 
+    print("\nAnúncio oficial como fonte única (decisão do dono, 05/10/2026)")
+    oficial = fixture(cfg, sources=[{"name": "OpenAI", "owner": "openai",
+                                     "url": "https://openai.com/x", "title": "A"}],
+                      fonte_unica="anuncio_oficial")
+    oficial["body"] = [{**b, "text": b["text"].replace("Reuters", "OpenAI")} for b in oficial["body"]]
+    check("anúncio oficial marcado passa no gate",
+          gate.evaluate(seo.enrich(oficial, [], cfg), cfg, [])["passed"])
+    check("a mesma fonte oficial sem a marca reprova",
+          not gate.evaluate(seo.enrich({**oficial, "fonte_unica": None}, [], cfg), cfg, [])["passed"])
+    imprensa = {**oficial, "sources": [{"name": "Reuters", "owner": "reuters",
+                                        "url": "https://r.com/", "title": "A"}]}
+    check("marca de anúncio oficial com fonte de imprensa reprova",
+          not gate.evaluate(seo.enrich(imprensa, [], cfg), cfg, [])["passed"])
+    check("run.check aceita o anúncio oficial marcado",
+          not [p for p in draft_problems({**rascunho, "sources": [{"name": "OpenAI", "owner": "openai",
+                                          "url": "https://openai.com/x", "title": "A"}],
+                                          "fonte_unica": "anuncio_oficial"}, cfg)
+               if "fonte" in p and "independente" in p or "oficial" in p])
+    html_oficial = render(environment(), "article.html", base_context(
+        cfg, "pt", post=humanize(seo.enrich(oficial, [], cfg), "pt"),
+        page_title="t", page_description="d", page_keywords="k",
+        canonical="https://cortexplor.com/pt/x/", alternates=[], og_type="article",
+        legal_pages=[]))
+    check("matéria de anúncio oficial mostra o aviso próprio",
+          "anúncio oficial da própria empresa" in html_oficial
+          and "duas fontes independentes" not in html_oficial)
+    html_listing = [s for s in cfg.get("sources.rss", []) if s.get("type") == "html"]
+    check("páginas sem RSS declaram link_prefix",
+          all(s.get("link_prefix") for s in html_listing))
+
     print("\nAviso de AdSense")
     ads = adsense_readiness(cfg)
     check("avaliação roda e devolve os critérios", len(ads["criterios"]) == 4)
