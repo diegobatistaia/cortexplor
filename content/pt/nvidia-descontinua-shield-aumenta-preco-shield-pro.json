@@ -1,0 +1,36 @@
+{
+  "lang": "pt",
+  "slug": "nvidia-descontinua-shield-aumenta-preco-shield-pro",
+  "story_id": "534bd18590fbf4b8",
+  "title": "Nvidia descontinua o Shield TV e aumenta preço do Shield Pro em 50%",
+  "dek": "A empresa atribui o reajuste ao custo mais alto de memória em toda a indústria, em meio à demanda crescente por componentes para IA, segundo TechRadar e Wired.",
+  "meta_description": "A Nvidia descontinuou o Shield TV padrão e subiu o preço do Shield Pro em 50% por causa do custo maior de memória ligado à demanda de IA, segundo dois veículos.",
+  "keyword": "Nvidia Shield TV Pro aumento de preço",
+  "category": "mercado",
+  "tags": ["nvidia", "mercado", "hardware", "ia", "memória"],
+  "body": [
+    {"type": "p", "text": "A Nvidia descontinuou a versão padrão do Shield TV, seu aparelho de streaming, e aumentou em 50% o preço do modelo Shield TV Pro, de US$ 199 para US$ 299, segundo o TechRadar e a Wired.", "items": []},
+    {"type": "p", "text": "A mudança de preço vale a partir de 2 de outubro, segundo a Wired, que cita um porta-voz da Nvidia: \"o custo dos componentes, incluindo memória, aumentou substancialmente em toda a indústria\". O TechRadar reproduz a mesma justificativa, atribuída ao comunicado oficial da empresa.", "items": []},
+    {"type": "p", "text": "Segundo a Wired, o Shield TV Pro foi lançado em 2019 por US$ 199,99, com uma versão sem o sufixo \"Pro\" vendida por US$ 149,99. Essa versão mais barata já havia sido descontinuada antes do anúncio atual, restando apenas o modelo Pro no catálogo da empresa — agora também mais caro.", "items": []},
+    {"type": "h2", "text": "O que o aparelho ainda oferece", "items": []},
+    {"type": "p", "text": "Mesmo sem atualização de hardware há anos, o Shield TV Pro roda em um chip Tegra X1, com GPU de 256 núcleos, 3 GB de RAM e 16 GB de armazenamento, segundo o TechRadar. O aparelho suporta vídeo 4K com HDR e Dolby Vision, além de um recurso de upscaling por IA capaz de entregar conteúdo em 4K a 60 quadros por segundo.", "items": []},
+    {"type": "h2", "text": "Memória mais cara por causa da IA", "items": []},
+    {"type": "p", "text": "A Wired atribui o aumento a uma tendência mais ampla: segundo a publicação, 2026 tem uma regra praticamente inflexível no setor de tecnologia — qualquer produto com memória ou armazenamento está ficando mais caro, inclusive aparelhos com componentes de anos atrás, por causa da demanda da indústria de inteligência artificial generativa por chips e memória.", "items": []},
+    {"type": "p", "text": "A Wired cita ainda o caso de consoles de videogame como exemplo da mesma pressão: o PS5 Pro, da Sony, subiu de US$ 699,99 no lançamento, em 2024, para US$ 899,99 atualmente. Segundo a publicação, Nintendo, Microsoft e Sony aumentaram os preços de seus consoles da geração atual nos últimos meses.", "items": []},
+    {"type": "p", "text": "Segundo o TechRadar, a Nvidia continua fabricando e vendendo cada unidade do Shield que produz, sem estoque de componentes anteriores ao boom da IA para amortecer o reajuste. A publicação observa que a própria Nvidia é uma das maiores beneficiárias do mercado de aceleradores de IA e GPUs que, segundo a reportagem, ajuda a pressionar o preço dos componentes para cima.", "items": []},
+    {"type": "p", "text": "O TechRadar observa que a Nvidia também mantém o serviço de jogos em nuvem GeForce Now, disponível em computadores, celulares e smart TVs, como alternativa ao hardware dedicado do Shield.", "items": []},
+    {"type": "h2", "text": "Sinais de que o fim estava próximo", "items": []},
+    {"type": "p", "text": "O TechRadar lembra que já havia noticiado, no meio do ano, que a versão padrão do Shield TV estava indisponível nos canais oficiais de venda, sem qualquer sinal de reposição de estoque — um indício, segundo a publicação, de que a descontinuação já vinha sendo preparada. A Wired reforça esse ponto: segundo a reportagem, o estoque do Shield TV Pro também andava escasso nos últimos meses, provavelmente porque havia ficado caro demais fabricar novas unidades com o custo de componentes subindo tão rápido.", "items": []},
+    {"type": "p", "text": "A Wired cita ainda uma entrevista anterior da Ars Technica com o executivo da Nvidia Andrew Bell, em que ele descreveu o Shield como um \"projeto de paixão\" dentro da empresa — mas que, segundo a reportagem, projetos desse tipo também precisam se sustentar financeiramente. A Nvidia revelou recentemente outro produto para o mesmo público, o \"superchip\" RTX Spark, voltado a notebooks e consoles portáteis de jogos, que a empresa descreve como \"um novo começo\" para esse mercado, segundo o TechRadar.", "items": []},
+    {"type": "p", "text": "Segundo a Wired, a menos que o usuário dependa do suporte amplo a codecs do Shield ou de sua capacidade de rodar um servidor Plex, compensa mais buscar um aparelho de streaming mais barato no mercado atual.", "items": []}
+  ],
+  "image": {
+    "query": "streaming device remote control living room tv",
+    "alt": "Controle remoto de aparelho de streaming em frente a uma televisão"
+  },
+  "sources": [
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/televisions/streaming-devices/the-nvidia-shield-has-been-discontinued-at-last-but-the-shield-pro-lives-on-only-with-a-50-percent-price-hike-due-to-the-memory-crisis", "title": "The Nvidia Shield has been discontinued at last, but the Shield Pro lives on with a 50% price hike"},
+    {"name": "Wired AI", "owner": "conde-nast", "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/", "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike"}
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,36 @@
+{
+  "lang": "pt",
+  "slug": "apple-restringe-acesso-total-disco-mac-ia",
+  "story_id": "a0bc0695358be581",
+  "title": "Apple vai exigir ação explícita para apps acessarem todo o Mac",
+  "dek": "A mudança no macOS responde a casos recentes envolvendo agentes de IA com acesso irrestrito a arquivos e mensagens, segundo TechCrunch, The Verge e Ars Technica.",
+  "meta_description": "A Apple vai reforçar os controles do Full Disk Access no macOS, citando riscos crescentes de agentes de IA, segundo TechCrunch, The Verge e Ars Technica.",
+  "keyword": "Apple Full Disk Access agentes de IA",
+  "category": "aplicacoes",
+  "tags": ["apple", "ia", "agentes de ia", "segurança", "macos"],
+  "body": [
+    {"type": "p", "text": "A Apple anunciou que vai reforçar os controles do recurso Full Disk Access (acesso total ao disco) no macOS, citando o crescimento dos riscos ligados a agentes de inteligência artificial com esse nível de permissão, segundo o TechCrunch, o The Verge e a Ars Technica.", "items": []},
+    {"type": "p", "text": "Full Disk Access é uma permissão do macOS que dá a um aplicativo acesso ao sistema inteiro do usuário: arquivos, e-mails, mensagens e até o histórico de navegação. Segundo a Apple, o recurso foi criado para permitir que programas de backup funcionassem corretamente, mas hoje \"alguns desenvolvedores o usam de formas que podem colocar os usuários em risco [...] sem o conhecimento e entendimento completo deles\".", "items": []},
+    {"type": "p", "text": "A partir de agora, segundo a empresa, apps só poderão obter esse nível de acesso mediante \"ação explícita\" do usuário. \"À medida que os agentes de IA se tornam cada vez mais capazes e autônomos, os riscos associados a esse nível de acesso vão crescer substancialmente\", disse a Apple, segundo as três publicações. A empresa não informou quando a mudança entra em vigor, de acordo com o TechCrunch e o The Verge.", "items": []},
+    {"type": "h2", "text": "O caso que motivou a mudança", "items": []},
+    {"type": "p", "text": "O anúncio veio depois que o colunista Jason Aten, da Inc., relatou que o assistente de IA Muse, da Meta, soube do conteúdo de uma conversa sua no aplicativo Mensagens mesmo sem ele ter concedido permissão explícita para isso, segundo as três publicações. O episódio repercutiu nas redes sociais na semana anterior ao comunicado da Apple, de acordo com a Ars Technica.", "items": []},
+    {"type": "p", "text": "A Meta contestou a versão do colunista. O porta-voz Andy Stone afirmou que o acesso às Mensagens pelo Muse é \"totalmente opcional\" e exige que o usuário ative tanto o Full Disk Access quanto um conector específico de Mensagens dentro do app, segundo o The Verge. O diretor de tecnologia da Meta, David Singleton, repetiu a mesma explicação à Ars Technica, atribuindo o episódio a uma configuração feita pelo próprio usuário.", "items": []},
+    {"type": "h2", "text": "Dúvidas técnicas sobre a resposta da Meta", "items": []},
+    {"type": "p", "text": "A Ars Technica ouviu o pesquisador de segurança do macOS Patrick Wardle, que questionou a explicação da Meta: segundo ele, qualquer aplicativo com Full Disk Access pode ler qualquer arquivo não protegido do sistema, incluindo histórico de navegação, cookies e conversas, independentemente de conectores adicionais. A Meta não respondeu às novas perguntas enviadas pela Ars Technica sobre essa contradição.", "items": []},
+    {"type": "p", "text": "Ainda segundo a Ars Technica, o comunicado da Apple veio 11 dias depois de Wardle ter revelado uma falha de configuração do Muse que permitia a qualquer código rodando no Mac, inclusive comandos injetados por ataques do tipo ClickFix, assumir o controle total do assistente de IA. A publicação também cita que a Amazon já havia removido o Muse de sua loja de aplicativos antes do episódio, alegando que esse tipo de assistente deveria operar de forma aberta e respeitar as decisões das plataformas.", "items": []},
+    {"type": "p", "text": "O TechCrunch observa ainda que o comunicado da Apple ocorre na esteira de um relatório da Wired sobre uma falha no aplicativo do ChatGPT para Mac que, segundo essa reportagem, poderia ter permitido a hackers acessar dados sensíveis dos usuários. A Apple não citou a Meta, o Muse ou qualquer outro desenvolvedor por nome em seu comunicado, voltado a desenvolvedores de aplicativos para macOS.", "items": []},
+    {"type": "p", "text": "O comunicado da Apple também trata especificamente de aplicativos de comunicação, alertando que o uso indevido do Full Disk Access \"também pode comprometer a privacidade das pessoas com quem os usuários se comunicam\", não só a do dono do aparelho, segundo a Ars Technica. O The Verge destaca que a permissão \"praticamente contorna\" os controles de privacidade que o macOS normalmente exibe ao usuário, já que foi criada originalmente para que softwares de backup funcionassem direito.", "items": []},
+    {"type": "p", "text": "O TechCrunch incluiu depois uma correção em sua reportagem: uma versão anterior do texto descrevia a Apple como estando \"limitando\" permissões, formulação revisada pela publicação para deixar claro que a mudança diz respeito a exigir consentimento informado, e não a impor um novo limite técnico ao que o Full Disk Access pode fazer.", "items": []},
+    {"type": "p", "text": "Procurada pelo TechCrunch e pelo The Verge, a Apple não respondeu aos pedidos de comentário adicionais sobre a mudança.", "items": []}
+  ],
+  "image": {
+    "query": "macos security permission dialog laptop",
+    "alt": "Laptop com tela exibindo um ícone de permissão e cadeado de segurança"
+  },
+  "sources": [
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/", "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents", "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk"},
+    {"name": "Ars Technica", "owner": "conde-nast", "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/", "title": "Apple changes full-disk access permissions to curb abuse from AI agents"}
+  ],
+  "status": "draft"
+}

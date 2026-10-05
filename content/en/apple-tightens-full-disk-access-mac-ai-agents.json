@@ -1,0 +1,37 @@
+{
+  "lang": "en",
+  "slug": "apple-tightens-full-disk-access-mac-ai-agents",
+  "story_id": "a0bc0695358be581",
+  "title": "Apple Will Require Explicit Action for Full Mac Disk Access",
+  "dek": "The macOS change follows a dispute over whether Meta's Muse AI agent read private messages without clear permission, according to TechCrunch, The Verge and Ars Technica.",
+  "meta_description": "Apple is tightening macOS Full Disk Access controls after a dispute over Meta's Muse AI agent, citing rising risks from AI agents, per three news outlets.",
+  "keyword": "Apple Full Disk Access AI agents",
+  "category": "aplicacoes",
+  "tags": ["apple", "ai-agents", "security", "macos", "privacy"],
+  "body": [
+    {"type": "p", "text": "Apple is tightening controls around Full Disk Access, the macOS permission that gives an app unrestricted access to a user's system, citing growing risks from AI agents, according to TechCrunch, The Verge and Ars Technica.", "items": []},
+    {"type": "p", "text": "Full Disk Access lets an app reach a user's files, mail, messages and even browsing history. Apple says the setting was originally built so backup software could work properly, but \"some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems [...] without users' full knowledge and understanding.\"", "items": []},
+    {"type": "p", "text": "Desktop AI agents, as TechCrunch describes them, work by having users adjust macOS settings so their chosen app gains broader access to files, messages and other personal content stored on the computer, rather than requesting each piece of data individually.", "items": []},
+    {"type": "p", "text": "Going forward, apps will only be able to obtain that level of access through \"very explicit user action,\" Apple said, according to all three outlets. \"As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially,\" the company said. Apple has not said when the change takes effect, TechCrunch and The Verge reported.", "items": []},
+    {"type": "h2", "text": "The incident behind the change", "items": []},
+    {"type": "p", "text": "The announcement followed a report from Inc. columnist Jason Aten, who said Meta's Muse AI agent appeared to know the contents of a private conversation on his Mac even though he had not knowingly granted it permission to read his messages, according to all three publications. The episode drew wide attention on social media in the days before Apple's statement, Ars Technica reported.", "items": []},
+    {"type": "p", "text": "Meta disputed Aten's account. Spokesperson Andy Stone said Messages access through Muse is \"entirely opt-in\" and requires a user to enable both Full Disk Access and a separate Messages connector inside the app, according to The Verge. Meta CTO David Singleton gave Ars Technica the same explanation, pointing to a configuration choice made by the user.", "items": []},
+    {"type": "h2", "text": "A technical challenge to Meta's explanation", "items": []},
+    {"type": "p", "text": "Ars Technica spoke with macOS security researcher Patrick Wardle, who pushed back on Meta's account: he said any app with Full Disk Access can read any non-root file on the system, including browsing history, cookies and chats, regardless of additional connectors. Meta did not respond to Ars Technica's follow-up questions about that contradiction.", "items": []},
+    {"type": "p", "text": "Apple's statement came 11 days after Wardle disclosed a Muse configuration that let any code running on a Mac, including commands injected through so-called ClickFix attacks, take full control of the assistant, Ars Technica said. The outlet also noted that Amazon had already pulled Muse from its app store before the episode, saying such assistants should \"operate openly and respect service provider decisions about whether or not to participate.\"", "items": []},
+    {"type": "p", "text": "TechCrunch noted that Apple's announcement also comes after a separate Wired report described a flaw in the ChatGPT Mac app that, according to that report, could have let hackers access sensitive user data. Apple did not name Meta, Muse or any other developer in its statement, which was addressed to macOS app developers.", "items": []},
+    {"type": "p", "text": "Apple's statement also addressed communication apps specifically, warning that mishandled Full Disk Access \"can also compromise the privacy of the people users are communicating with,\" not just the device owner, according to Ars Technica. The Verge noted that the permission \"largely sidesteps\" the privacy controls macOS otherwise shows users, since it was originally built to let backup software work properly.", "items": []},
+    {"type": "p", "text": "TechCrunch later appended a correction to its article: an earlier version described Apple as \"limiting\" permissions, which the outlet revised to clarify that the change is about requiring informed consent rather than imposing a new technical cap on what Full Disk Access can do.", "items": []},
+    {"type": "p", "text": "Apple did not respond to requests for comment from either TechCrunch or The Verge.", "items": []}
+  ],
+  "image": {
+    "query": "macos security permission dialog laptop",
+    "alt": "Laptop screen showing a security permission and lock icon"
+  },
+  "sources": [
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/", "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents", "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk"},
+    {"name": "Ars Technica", "owner": "conde-nast", "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/", "title": "Apple changes full-disk access permissions to curb abuse from AI agents"}
+  ],
+  "status": "draft"
+}
