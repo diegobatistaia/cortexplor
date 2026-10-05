@@ -55,9 +55,25 @@ Na prática:
 - No texto, atribua ao autor do fato: "segundo o comunicado da OpenAI",
   "de acordo com o relatório da empresa". A imprensa entra quando acrescenta
   algo que a primária não tem — reação de mercado, contexto, contraponto.
-- A regra das duas fontes **não muda**. Um anúncio da OpenAI confirmado pela
-  OpenAI é uma fonte só. Continua precisando de um segundo dono independente
-  para virar matéria.
+- Com duas fontes independentes, a matéria segue a regra das duas fontes
+  (seção 2), e a primária conta como uma delas.
+- **Anúncio oficial sozinho** (decisão do dono em 05/10/2026; vale enquanto
+  o briefing trouxer `official_announcement_alone: true`): quando a pauta é o
+  anúncio que a **própria empresa** publicou no canal oficial dela e ainda não
+  há segundo dono, ela pode virar matéria com essa fonte só. Condições, todas
+  obrigatórias:
+  - o fato é o que a empresa anunciou **sobre ela mesma** (produto, modelo,
+    preço, parceria, pesquisa, política). Afirmação sobre outra empresa, sobre
+    pessoas ou sobre o mercado continua exigindo duas fontes;
+  - a fonte tem `kind: primary` e texto (`text`) no briefing; título sozinho
+    não basta;
+  - o texto atribui à empresa tudo o que ela afirma: "segundo a Anthropic",
+    "a OpenAI afirma". Desempenho, números e promessas vão sempre como fala da
+    empresa, nunca como fato;
+  - a matéria leva o campo `"fonte_unica": "anuncio_oficial"` (o `check` e o
+    gate conferem que a fonte é um canal oficial, e o site mostra um aviso
+    próprio no rodapé).
+  Se a imprensa também cobriu, use as duas fontes e não marque `fonte_unica`.
 - Cuidado com o dono: DeepMind, blog.google e research.google são todos
   Alphabet. Três feeds, uma fonte.
 
@@ -89,7 +105,8 @@ As regras que fazem essa conta ser honesta:
 - **Fonte sem `text`** (não foi possível baixar) só vale pelo título. Título não
   confirma fato.
 
-Descarte a pauta quando: menos de dois owners confirmam os fatos centrais; as
+Descarte a pauta quando: menos de dois owners confirmam os fatos centrais (salvo
+o anúncio oficial sozinho, nas condições da seção 1.1); as
 fontes só repetem um comunicado; o assunto é lançamento comercial disfarçado de
 notícia; ou você não entendeu o fato bem o suficiente para explicá-lo.
 
@@ -181,6 +198,8 @@ Regras do arquivo:
   só em `list`, e `text` vazio nesse caso.
 - `sources` só com os owners que **confirmaram** os fatos, e sempre incluindo a
   primária quando o briefing tiver uma.
+- `fonte_unica` só existe na matéria de anúncio oficial sozinho (seção 1.1), com o
+  valor `"anuncio_oficial"`. Nas demais, não ponha o campo.
 - `status` sempre `"draft"`. Quem promove para publicado é o gate.
 - Corpo entre `word_count.min` e `word_count.max` palavras (está no briefing).
 

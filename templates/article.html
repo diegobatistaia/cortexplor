@@ -67,6 +67,8 @@
     </ul>
     {%- if post.get('editorial_override') == 'single_source_authorized' %}
     <p class="sources-note">{{ t.single_source_note }}</p>
+    {%- elif post.get('fonte_unica') == 'anuncio_oficial' %}
+    <p class="sources-note">{{ t.official_note }}</p>
     {%- else %}
     <p class="sources-note">{{ t.verification_note }}</p>
     {%- endif %}

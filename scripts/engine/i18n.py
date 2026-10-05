@@ -24,6 +24,9 @@ STRINGS = {
         "single_source_note": "Esta matéria foi publicada a partir de uma única fonte "
                               "primária oficial, por autorização direta da direção do "
                               "site, fora do processo padrão de checagem cruzada.",
+        "official_note": "Esta matéria se baseia no anúncio oficial da própria empresa. "
+                         "O que ela afirma, inclusive números e desempenho, está "
+                         "atribuído a ela no texto.",
         "related": "Leia também",
         "section": "Editoria",
         "empty_category": "Ainda não há matérias publicadas nesta editoria.",
@@ -59,6 +62,9 @@ STRINGS = {
         "single_source_note": "This story was published from a single official primary "
                               "source, by direct authorization from the site's owner, "
                               "outside the standard cross-checking process.",
+        "official_note": "This story is based on the company's own official announcement. "
+                         "Its claims, including figures and performance, are attributed "
+                         "to the company in the text.",
         "related": "Read next",
         "section": "Section",
         "empty_category": "No stories published in this section yet.",
@@ -95,6 +101,9 @@ STRINGS = {
                               "primaria oficial, por autorización directa de la "
                               "dirección del sitio, fuera del proceso estándar de "
                               "verificación cruzada.",
+        "official_note": "Esta nota se basa en el anuncio oficial de la propia empresa. "
+                         "Lo que afirma, incluidas cifras y rendimiento, está atribuido "
+                         "a ella en el texto.",
         "related": "Lee también",
         "section": "Sección",
         "empty_category": "Todavía no hay notas publicadas en esta sección.",

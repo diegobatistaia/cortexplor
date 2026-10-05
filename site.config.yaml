@@ -274,10 +274,15 @@ sources:
     - {name: Together AI, url: "https://www.together.ai/blog/rss.xml", lang: en, owner: togetherai, tier: 1, kind: primary}
     - {name: Roboflow, url: "https://blog.roboflow.com/rss/", lang: en, owner: roboflow, tier: 2, kind: primary}
 
-    # Sem RSS publico, checado em 2026-08-28: Anthropic, Mistral, xAI, Cohere,
-    # DeepSeek, Perplexity, Stability, ElevenLabs, Runway. Todas devolvem HTML.
-    # Enquanto isso, anuncios dessas empresas chegam pela imprensa - o que
-    # significa que a materia cita o veiculo, nao o anuncio. Vale revisitar.
+    # Sem RSS publico (checado em 2026-08-28). Desde 05/10/2026 a coleta le a
+    # pagina de noticias delas (type: html): abre os links que comecam com
+    # link_prefix e usa a data que a propria pagina declara. Ainda sem coleta:
+    # Cohere, Stability, ElevenLabs, Runway.
+    - {name: Anthropic, url: "https://www.anthropic.com/news", type: html, link_prefix: "/news/", lang: en, owner: anthropic, tier: 1, kind: primary}
+    - {name: Mistral AI, url: "https://mistral.ai/news", type: html, link_prefix: "/news/", max_links: 40, lang: en, owner: mistral, tier: 1, kind: primary}
+    - {name: xAI, url: "https://x.ai/news", type: html, link_prefix: "/news/", lang: en, owner: xai, tier: 1, kind: primary}
+    - {name: DeepSeek, url: "https://api-docs.deepseek.com/", type: html, link_prefix: "/news/", url_date: 'news(?P<y>\d{2})(?P<m>\d{2})(?P<d>\d{2})', lang: en, owner: deepseek, tier: 1, kind: primary}
+    - {name: Perplexity, url: "https://www.perplexity.ai/hub/blog", type: html, link_prefix: "/hub/blog/", exclude: ["/category/"], lang: en, owner: perplexity, tier: 1, kind: primary}
 
     # ---- IMPRENSA -------------------------------------------------------
     - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, owner: techcrunch, tier: 2}
@@ -388,6 +393,12 @@ keywords:
 
 quality_gate:
   min_independent_sources: 2
+  # Decisão do dono em 05/10/2026: o anúncio que a própria empresa publica no
+  # canal oficial dela (fonte `kind: primary`) basta sozinho para a matéria
+  # "a empresa anunciou X". A matéria marca `fonte_unica: anuncio_oficial`,
+  # atribui tudo à empresa e mostra um aviso próprio no rodapé. Qualquer
+  # outra notícia continua exigindo duas fontes independentes.
+  official_announcement_alone: true
   word_count: {min: 600, max: 1000}
   # Similaridade maxima com o texto-fonte (shingles de 5 palavras).
   max_source_similarity: 0.18
