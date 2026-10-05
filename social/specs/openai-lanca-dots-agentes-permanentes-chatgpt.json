@@ -1,0 +1,81 @@
+{
+  "slug": "openai-lanca-dots-agentes-permanentes-chatgpt",
+  "lang": "pt",
+  "date": "02 out 2026",
+  "no": 3,
+  "category": "Aplicações",
+  "kicker": "Aplicações de IA · OpenAI",
+  "headline": "OpenAI lança Dots, agentes de IA sempre ativos no ChatGPT",
+  "headline_hl": "Dots",
+  "dek": "Novo recurso, restrito a planos a partir de US$ 100 por mês, entra em disputa direta com o Muse, agente pessoal da Meta, segundo SiliconANGLE, Wired e CNBC.",
+  "dek_short": "Agentes sempre ativos no ChatGPT, só para planos a partir de US$ 100 por mês.",
+  "image": {"path": "assets/img/openai-lanca-dots-agentes-permanentes-ch-65413b97.jpg", "credit": "Steve A Johnson / Unsplash", "pos": "50% 50%"},
+  "stamp": "Lançado<br>29/09",
+  "sources": ["SiliconANGLE", "TechRadar", "CNBC Technology", "Wired AI"],
+  "fact": {
+    "label": "O fato",
+    "title": "Agentes sempre ativos dentro do ChatGPT",
+    "title_hl": "sempre ativos",
+    "paras": [
+      "A OpenAI lançou na terça-feira (29), no DevDay, em São Francisco, os Dots: agentes de IA “sempre ativos” dentro do ChatGPT, segundo SiliconANGLE, Wired e CNBC.",
+      "Movidos pelo GPT-6 Astra, funcionam no computador, na web e no celular, e também pelo Slack e pelo Microsoft Teams, com o mesmo contexto.",
+      "Ações sensíveis, como instalar um programa ou trocar uma senha, exigem aprovação explícita do usuário."
+    ],
+    "bullets": [
+      "A OpenAI lançou os <b>Dots</b> na terça-feira (29), no DevDay: agentes de IA sempre ativos no ChatGPT",
+      "Movidos pelo <b>GPT-6 Astra</b>, também respondem pelo Slack e pelo Microsoft Teams",
+      "Ações sensíveis, como trocar uma senha, exigem <b>aprovação</b> do usuário"
+    ],
+    "short": "A OpenAI lançou os <b>Dots</b> no DevDay, na terça-feira (29): agentes que tocam tarefas sem comando a cada etapa, movidos pelo <b>GPT-6 Astra</b>, segundo SiliconANGLE, Wired e CNBC."
+  },
+  "points": {
+    "label": "O acesso",
+    "title": "Só entra quem paga a partir de US$ 100",
+    "title_hl": "US$ 100",
+    "note": "A OpenAI ainda não divulgou o preço de agentes extras, segundo a SiliconANGLE.",
+    "tail": "A OpenAI ainda não divulgou o preço de agentes extras.",
+    "items": [
+      {"kind": "ok", "t": "Plano <b>ChatGPT Pro</b>, de US$ 100 por mês, e <b>Business Premium</b>"},
+      {"kind": "ok", "t": "<b>Um agente</b> incluído sem custo extra; uso fora do limite no 1º mês"},
+      {"kind": "no", "t": "<b>Pro na UE, Suíça e Reino Unido</b> ficaram de fora no início"}
+    ]
+  },
+  "voice": {
+    "label": "Em números",
+    "mark": "",
+    "big": "US$ 100 por mês",
+    "by": "Plano ChatGPT Pro, onde os Dots começaram, segundo SiliconANGLE, Wired e CNBC",
+    "bullets": [
+      "Meta Muse: grátis até um limite, depois <b>a partir de US$ 20 por mês</b>",
+      "Ações da Meta: <b>+29% em setembro</b>, o melhor mês desde 2013 (CNBC)"
+    ],
+    "cards": [
+      {"who": "ChatGPT Pro · Dots", "text": "US$ 100 por mês"},
+      {"who": "Meta · Muse, segundo CNBC e SiliconANGLE", "text": "A partir de US$ 20", "extra": "Grátis até um limite de uso; depois, pago por quem usa mais."}
+    ],
+    "detail": "O Muse, da Meta, é grátis até um limite e passa a custar <b>a partir de US$ 20 por mês</b>. As ações da Meta subiram <b>29% em setembro</b>, o melhor mês desde 2013 (CNBC)."
+  },
+  "timeline": {
+    "title": "Os Dots em quatro datas",
+    "title3": "O que pesa no lançamento",
+    "items": [
+      {"when": "8 set", "tag": "Muse", "text": "Meta lança o agente pessoal Muse nos Estados Unidos"},
+      {"when": "Set.", "tag": "Meta na bolsa", "text": "Ações da Meta sobem 29%, o melhor mês desde 2013 (CNBC)"},
+      {"when": "29/09", "tag": "Dots", "text": "OpenAI lança os Dots no DevDay, em São Francisco"},
+      {"when": "1º mês", "tag": "Uso livre", "text": "Uso dos Dots não conta no limite mensal do plano (SiliconANGLE)"}
+    ]
+  },
+  "table": {
+    "label": "Ficha do lançamento",
+    "rows": [
+      {"k": "recurso", "v": "<b>Dots</b>"},
+      {"k": "empresa", "v": "OpenAI"},
+      {"k": "lançado em", "v": "Terça-feira, 29/09, no DevDay"},
+      {"k": "modelo", "v": "GPT-6 Astra"},
+      {"k": "canais", "v": "ChatGPT, Slack e Microsoft Teams"},
+      {"k": "planos", "v": "Pro (US$ 100/mês) e Business Premium"},
+      {"k": "rival", "v": "Muse, agente pessoal da Meta"},
+      {"k": "fora no início", "v": "Pro na UE, Suíça e Reino Unido", "neg": true}
+    ]
+  }
+}

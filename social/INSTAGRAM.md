@@ -25,3 +25,9 @@ em sequência no dia (nem entre o último de ontem e o primeiro de hoje).
 ## Claro/escuro dinâmico
 Cada carrossel usa um padrão de `PATTERNS` (carousel_lab2.py), irregular de propósito: sem alternância exata e
 nunca 3 slides iguais seguidos. Na produção, sortear um padrão por matéria.
+
+## Gerador (versão final)
+- `social/specs/<slug>.json`: texto de cada carrossel (contrato entre a redação e o renderizador).
+- `python scripts/social/carousel.py <slug>` ou `--all` → `social/out/<slug>/<estilo>/01..06.png` + `folha-<estilo>.png`.
+- Duotone: fotos mantêm a cor original; o fundo sólido do slide 3 é cinza.
+- Próximo: gerar o spec automaticamente a partir do JSON da matéria (Routine/Claude), legenda e hashtags, publicação.
