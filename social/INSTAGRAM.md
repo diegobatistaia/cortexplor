@@ -3,9 +3,9 @@
 Branch: `instagram` (isolada; `main` e a Routine não são afetadas — os workflows só disparam em `main`).
 
 ## Estilos aprovados (6 slides, 1080x1350)
-1. **edicao** — editorial, alterna claro/escuro (claro nos ímpares).
-2. **terminal** — mono, alterna escuro/claro (escuro nos ímpares).
-3. **dossie** — ficha de caso, alterna claro/escuro.
+1. **edicao** — editorial, mistura claro e escuro.
+2. **terminal** — mono, mistura escuro e claro.
+3. **dossie** — ficha de caso, mistura claro e escuro.
 4. **duotone** — foto em tons de slate, como aprovado.
 
 Protótipos: `scripts/social/carousel_lab.py` (helpers) e `carousel_lab2.py` (estilos).
@@ -21,3 +21,7 @@ em sequência no dia (nem entre o último de ontem e o primeiro de hoje).
 - Publicação via Instagram Graph API (conta profissional + Página do Facebook + app Meta +
   token renovado a cada ~60 dias em secret do GitHub; imagens precisam de URL pública).
 - Etapa de aprovação manual antes de publicar.
+
+## Claro/escuro dinâmico
+Cada carrossel usa um padrão de `PATTERNS` (carousel_lab2.py), irregular de propósito: sem alternância exata e
+nunca 3 slides iguais seguidos. Na produção, sortear um padrão por matéria.

@@ -52,7 +52,19 @@ def duotone(box, size, name, dark=(20, 19, 15), mid=(74, 86, 106), light=(205, 2
 # ==========================================================================
 # A. EDIÇÃO: primeira página de jornal. Alterna papel e tinta a cada slide
 # ==========================================================================
-def v_edicao():
+# Padrões claro/escuro (True = escuro): irregulares, sem 3 iguais seguidos.
+PATTERNS = [
+    [False, True, True, False, False, True],
+    [True, False, False, True, False, True],
+    [False, False, True, False, True, True],
+    [True, True, False, True, False, False],
+    [False, True, False, False, True, False],
+    [True, False, True, True, False, False],
+]
+
+
+def v_edicao(pat=None):
+    pat = pat or PATTERNS[0]  # pat[i] = slide i+1 escuro
     css = """
 .A{--bg:#FFFEFB;--fg:#14130F;--soft:#3A3935;--mu:#6B6960;--rule:#E4E2DB;--red:#C8362B;background:var(--bg);color:var(--fg);font-family:'Space Grotesk',sans-serif}
 .A.dk{--bg:#14130F;--fg:#EDECE8;--soft:#C9C7BF;--mu:#9A978D;--rule:#2E2C28;--red:#FF6B5E}
@@ -87,7 +99,7 @@ def v_edicao():
 
     s = []
     s.append(
-        sl(1, False, f"""
+        sl(1, pat[0], f"""
 <div class='abs' style='left:64px;top:172px;display:flex;gap:20px;align-items:center'><span class='sec'>Política</span><span class='lab'>Agentes de IA · Justiça</span></div>
 <h1 class='abs' style='left:64px;top:240px;width:952px;font-size:98px'>OpenAI é processada por ataque de agente à Hugging Face</h1>
 <div class='abs' style='left:64px;top:560px;width:952px;font-size:37px;line-height:1.3;color:var(--soft);border-top:2px solid var(--fg);padding-top:26px'>Ação não pede indenização, mas quer proibir a empresa de operar agentes capazes de invadir outras organizações sozinhos, segundo CNBC e Wired.</div>
@@ -95,7 +107,7 @@ def v_edicao():
 <div class='abs lab' style='left:64px;top:1226px;font-size:20px'>{CREDIT}</div>""")
     )
     s.append(
-        sl(2, True, """
+        sl(2, pat[1], """
 <div class='abs lab' style='left:64px;top:172px'>O fato</div>
 <h2 class='abs' style='left:64px;top:216px;width:952px;font-size:80px'>Uma ONG processou a OpenAI na <span class='red'>Califórnia</span></h2>
 <div class='abs cols' style='left:64px;top:520px;width:952px'>
@@ -105,27 +117,26 @@ def v_edicao():
 <div class='abs strip' style='left:64px;top:1130px;width:952px'>Duas fontes independentes confirmam os fatos centrais</div>""")
     )
     s.append(
-        sl(3, False, f"""
+        sl(3, pat[2], f"""
 <div class='abs lab' style='left:64px;top:172px'>O pedido</div>
-<div class='abs' style='left:48px;top:200px;font-size:500px;font-weight:700;letter-spacing:-.06em;line-height:.85'>0</div>
-<div class='abs' style='left:420px;top:330px;width:596px;font-size:58px;line-height:1.02;font-weight:700;letter-spacing:-.035em'>pedido é <span class='red'>liminar</span>, não dinheiro</div>
-<div class='abs' style='left:420px;top:500px;width:596px;font-size:34px;line-height:1.3;color:var(--soft)'>A LASST não pede reparação financeira, segundo CNBC e Wired.</div>
+<div class='abs' style='left:64px;top:230px;width:952px;font-size:96px;line-height:.98;font-weight:700;letter-spacing:-.045em'>O pedido é <span class='red'>liminar</span>, não dinheiro</div>
+<div class='abs' style='left:64px;top:560px;width:800px;font-size:36px;line-height:1.3;color:var(--soft)'>A LASST não pede reparação financeira, segundo CNBC e Wired.</div>
 <div class='abs' style='left:64px;top:760px;width:952px;border-top:2px solid var(--fg)'>
 <div class='li'><b class='n'>01</b><span><b>Liminar</b> que proíba a OpenAI de operar agentes capazes de invadir outras organizações sozinhos</span></div>
 <div class='li'><b class='n'>02</b><span>Pagamento das <b>custas legais</b></span></div></div>""")
     )
     s.append(
-        sl(4, True, f"""
+        sl(4, pat[3], f"""
 <div class='abs lab' style='left:64px;top:172px'>A resposta</div>
-<div class='abs red' style='left:56px;top:190px;font-size:380px;line-height:1;font-weight:700'>“</div>
-<div class='abs' style='left:64px;top:470px;width:952px;font-size:104px;line-height:.98;font-weight:700;letter-spacing:-.045em'>Completamente sem fundamento</div>
-<div class='abs lab' style='left:64px;top:800px'>Porta-voz da OpenAI, segundo CNBC e Wired</div>
-<div class='abs' style='left:64px;top:880px;width:952px;border-top:2px solid var(--fg)'>
+<div class='abs red' style='left:56px;top:190px;font-size:150px;line-height:1;font-weight:700'>“</div>
+<div class='abs' style='left:64px;top:360px;width:952px;font-size:104px;line-height:.98;font-weight:700;letter-spacing:-.045em'>Completamente sem fundamento</div>
+<div class='abs lab' style='left:64px;top:690px'>Porta-voz da OpenAI, segundo CNBC e Wired</div>
+<div class='abs' style='left:64px;top:770px;width:952px;border-top:2px solid var(--fg)'>
 <div class='li'>{ic(ARROW, 40, '#FF6B5E')}<span>Reconhece que o episódio na Hugging Face foi <b>“um incidente sério”</b></span></div>
 <div class='li'>{ic(ARROW, 40, '#FF6B5E')}<span>Diz ter tomado <b>“uma série de medidas”</b></span></div></div>""")
     )
     s.append(
-        sl(5, False, """
+        sl(5, pat[4], """
 <div class='abs lab' style='left:64px;top:172px'>Linha do tempo</div>
 <div class='abs' style='left:64px;top:230px;width:952px;border-bottom:2px solid var(--fg)'>
 <div class='ev'><div class='d'>1º JAN</div><div class='t'>Lei da Califórnia sobre IA entra em vigor: alegar que a IA agiu sozinha não é defesa válida (Wired)</div></div>
@@ -134,7 +145,7 @@ def v_edicao():
 <div class='ev'><div class='d'>29 SET</div><div class='t'>LASST abre o processo na Justiça estadual da Califórnia</div></div></div>""")
     )
     s.append(
-        sl(6, True, f"""
+        sl(6, pat[5], f"""
 <div class='abs lab' style='left:64px;top:300px'>Fontes</div>
 <div class='abs' style='left:64px;top:350px;width:952px;border-top:2px solid var(--fg)'>
 <div class='li' style='font-size:64px;font-weight:700;letter-spacing:-.04em;padding:34px 0'><b class='n' style='width:80px'>1</b><span>CNBC Technology</span></div>
@@ -148,7 +159,8 @@ def v_edicao():
 # ==========================================================================
 # B. TERMINAL: mono, marca-texto âmbar, diff. Alterna escuro e claro
 # ==========================================================================
-def v_terminal():
+def v_terminal(pat=None):
+    pat = pat or PATTERNS[0]  # pat[i] = slide i+1 escuro
     css = """
 .B{--bg:#14130F;--fg:#EDECE8;--dim:#9A978D;--soft:#B7C0CC;--rule:#2E2C28;--dash:#3A3833;--card:#1C1B18;--acc:#F2C14E;--gr:#6FD08C;--rd:#FF7A70;--pg:rgba(111,208,140,.13);--pr:rgba(255,122,112,.13);--st:#fff;background:var(--bg);color:var(--fg);font-family:'Space Grotesk',sans-serif}
 .B.lt{--bg:#FFFEFB;--fg:#14130F;--dim:#6B6960;--soft:#3A3935;--rule:#E4E2DB;--dash:#CFCBC0;--card:#F4F2EC;--acc:#8A6200;--gr:#2F7D4A;--rd:#C0392B;--pg:rgba(47,125,74,.1);--pr:rgba(192,57,43,.09);--st:#000}
@@ -188,7 +200,7 @@ def v_terminal():
     src = "<div class='abs mono' style='left:64px;top:1130px;font-size:26px;color:var(--dim)'>fonte: CNBC Technology, Wired AI</div>"
     s = []
     s.append(
-        sl(1, False, "cat politica/hugging-face.txt", f"""
+        sl(1, not pat[0], "cat politica/hugging-face.txt", f"""
 <h1 class='abs' style='left:64px;top:170px;width:952px;font-size:84px;line-height:1.12'>OpenAI é processada por ataque de agente à <span class='hl'>Hugging Face</span></h1>
 <div class='abs mono' style='left:64px;top:560px;width:952px;font-size:31px;line-height:1.45;color:var(--soft)'>&gt; Ação não pede indenização, mas quer proibir a empresa de operar agentes capazes de invadir outras organizações sozinhos.<span style='background:#F2C14E;color:#F2C14E'>_</span></div>
 <div class='abs' style='left:64px;top:840px;width:952px;height:350px;overflow:hidden;border:2px solid var(--dash)'>
@@ -197,7 +209,7 @@ def v_terminal():
 <div class='abs mono' style='left:64px;top:1206px;font-size:20px;color:var(--dim)'>{CREDIT}</div>""")
     )
     s.append(
-        sl(2, True, "cat o-fato.txt", f"""
+        sl(2, not pat[1], "cat o-fato.txt", f"""
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// O que aconteceu</span></div>
 <div class='abs' style='left:64px;top:240px;width:952px'>
 <div class='row'><i>›</i><span>Uma ONG, a <b style="color:var(--st)">LASST</b>, processou a OpenAI na terça-feira (29), na Justiça estadual da Califórnia, em São Francisco</span></div>
@@ -206,7 +218,7 @@ def v_terminal():
 {src}""")
     )
     s.append(
-        sl(3, False, "diff pedido.patch", f"""
+        sl(3, not pat[2], "diff pedido.patch", f"""
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// O que a ação pede</span></div>
 <div class='abs' style='left:64px;top:250px;width:952px'>
 <div class='df p'><i>+</i><span>liminar: proibir a OpenAI de operar agentes capazes de invadir outras organizações sozinhos</span></div>
@@ -216,7 +228,7 @@ def v_terminal():
 {src}""")
     )
     s.append(
-        sl(4, True, "log declaracoes.txt", """
+        sl(4, not pat[3], "log declaracoes.txt", """
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// O que dizem as partes</span></div>
 <div class='abs' style='left:64px;top:250px;width:952px'>
 <div class='msg'><div class='w'>LASST · segundo a CNBC</div><div class='q'>“A OpenAI é responsável pela conduta de seus agentes.”</div></div>
@@ -224,7 +236,7 @@ def v_terminal():
 <div class='mono' style='font-size:30px;line-height:1.4;color:var(--soft);margin-top:20px'>Reconhece que o episódio foi “um incidente sério” e diz ter tomado “uma série de medidas”.</div></div></div>""")
     )
     s.append(
-        sl(5, False, "status caso.json", """
+        sl(5, not pat[4], "status caso.json", """
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// Ficha do caso</span></div>
 <div class='abs kv' style='left:64px;top:250px;width:952px'>
 <div class='k'>autora</div><div class='v'>LASST (ONG)</div>
@@ -237,7 +249,7 @@ def v_terminal():
 <div class='k'>não pede</div><div class='v' style='color:var(--rd)'>indenização</div></div>""")
     )
     s.append(
-        sl(6, True, "exit 0", f"""
+        sl(6, not pat[5], "exit 0", f"""
 <div class='abs' style='left:64px;top:300px'><span class='lbl'>// Fontes</span></div>
 <h1 class='abs' style='left:64px;top:370px;width:952px;font-size:104px'>CNBC Technology<br>Wired AI</h1>
 <div class='abs mono' style='left:64px;top:700px;width:952px;font-size:36px;line-height:1.4;color:var(--soft)'>&gt; Matéria completa e links das fontes em <span class='hl' style='font-weight:700'>cortexplor.com</span></div>
@@ -249,7 +261,8 @@ def v_terminal():
 # ==========================================================================
 # C. DOSSIÊ: pasta, ficha, checkbox, carimbo. Alterna papel e ardósia/tinta
 # ==========================================================================
-def v_dossie():
+def v_dossie(pat=None):
+    pat = pat or PATTERNS[0]  # pat[i] = slide i+1 escuro
     css = """
 .C{--out:#E4E1D8;--panel:#FFFEFB;--fg:#14130F;--mu:#6B6960;--soft:#3A3935;--acc:#3A4556;--red:#B3261E;--tabbg:#14130F;--tabfg:#FFFEFB;background:var(--out);color:var(--fg);font-family:'Space Grotesk',sans-serif}
 .C.dk{--out:#3A4556;--panel:#14130F;--fg:#EDECE8;--mu:#9A978D;--soft:#C9C7BF;--acc:#B7C0CC;--red:#FF6B5E;--tabbg:#EDECE8;--tabfg:#14130F}
@@ -283,7 +296,7 @@ def v_dossie():
 
     s = []
     s.append(
-        sl(1, False, f"""
+        sl(1, pat[0], f"""
 <div class='stamp' style='right:86px;top:176px'>Processo aberto<br>29/09</div>
 <h1 class='abs' style='left:88px;top:230px;width:760px;font-size:90px'>OpenAI é processada por ataque de agente à Hugging Face</h1>
 <div class='abs' style='left:88px;top:660px;width:900px;font-size:36px;line-height:1.3;color:var(--soft)'>Ação não pede indenização, mas quer proibir a empresa de operar agentes capazes de invadir outras organizações sozinhos, segundo CNBC e Wired.</div>
@@ -293,7 +306,7 @@ def v_dossie():
 <div class='abs lab' style='left:88px;top:1200px;font-size:19px'>Anexo A · {CREDIT}</div>""")
     )
     s.append(
-        sl(2, True, """
+        sl(2, pat[1], """
 <div class='abs lab' style='left:88px;top:176px'>Ficha do caso</div>
 <div class='abs' style='left:88px;top:224px;width:904px;border-bottom:2px solid var(--fg)'>
 <div class='f'><div class='k'>Autora</div><div class='v'><b>LASST</b> (Legal Advocates for Safe Science and Technology), ONG</div></div>
@@ -305,7 +318,7 @@ def v_dossie():
 <div class='f'><div class='k'>Com</div><div class='v'>Escritório Gerstein Harrow (Wired)</div></div></div>""")
     )
     s.append(
-        sl(3, False, f"""
+        sl(3, pat[2], f"""
 <div class='abs lab' style='left:88px;top:176px'>O que a ação pede</div>
 <h2 class='abs' style='left:88px;top:224px;width:904px;font-size:84px'>Liminar sim, indenização não</h2>
 <div class='abs' style='left:88px;top:470px;width:904px;border-bottom:2px solid var(--fg)'>
@@ -315,7 +328,7 @@ def v_dossie():
 <div class='abs' style='left:88px;top:1080px;width:904px;font-size:32px;line-height:1.35;color:var(--mu)'>A LASST não pede reparação financeira, segundo CNBC e Wired.</div>""")
     )
     s.append(
-        sl(4, True, """
+        sl(4, pat[3], """
 <div class='abs lab' style='left:88px;top:176px'>Declarações</div>
 <div class='abs' style='left:88px;top:228px;width:904px'>
 <div class='card'><div class='lab'>Autora · LASST, segundo a CNBC</div><div class='q'>“A OpenAI é responsável pela conduta de seus agentes.”</div></div>
@@ -323,7 +336,7 @@ def v_dossie():
 <div style='font-size:31px;line-height:1.35;margin-top:16px;color:var(--soft)'>Reconhece que o episódio na Hugging Face foi “um incidente sério” e diz ter tomado “uma série de medidas”.</div></div></div>""")
     )
     s.append(
-        sl(5, False, """
+        sl(5, pat[4], """
 <div class='abs lab' style='left:88px;top:176px'>Contexto</div>
 <h2 class='abs' style='left:88px;top:224px;width:904px;font-size:80px'>O que pesa no caso</h2>
 <div class='abs' style='left:88px;top:420px;width:904px;border-bottom:2px solid var(--fg)'>
@@ -332,7 +345,7 @@ def v_dossie():
 <div class='num'><b>~US$ 13 bi</b><span>Valor que a Nvidia concordou em pagar pela Hugging Face, que não é parte no processo (CNBC)</span></div></div>""")
     )
     s.append(
-        sl(6, True, f"""
+        sl(6, pat[5], f"""
 <div class='abs lab' style='left:88px;top:300px'>Fontes consultadas</div>
 <div class='abs' style='left:88px;top:350px;width:904px;border-bottom:2px solid var(--fg)'>
 <div class='f' style='grid-template-columns:110px 1fr'><div class='k' style='font-size:34px;color:var(--acc)'>01</div><div class='v' style='font-size:64px;font-weight:700;letter-spacing:-.04em;padding:8px 0 22px'>CNBC Technology</div></div>
@@ -453,7 +466,12 @@ STYLES = {
 
 def main(argv):
     names = argv or list(STYLES)
-    jobs = {f"{OUT}/{n}": STYLES[n]() for n in names}
+    import random
+    rng = random.Random(11)
+    jobs = {}
+    for n in names:
+        kw = {} if n == "duotone" else {"pat": rng.choice(PATTERNS)}
+        jobs[f"{OUT}/{n}"] = STYLES[n](**kw)
     L.render(jobs)
     for n in names:
         print(n, len(list((L.LAB / OUT / n).glob("*.png"))), "slides")
