@@ -11,9 +11,12 @@ Na sessão (Claude):
         e grava na fila o endereço público. Depois: commit e push no midia.
     python scripts/social/publicar.py pedir <slug>
     python scripts/social/publicar.py pedir --teste
-    python scripts/social/publicar.py proximo
-        Horário fixo (8h, 11h, 16h): escolhe o aprovado mais antigo da fila
-        que já tem mídia pública e grava o pedido dele. Sem aprovado, não faz nada.
+    python scripts/social/publicar.py proximo [--hora H]
+        Horário fixo: escolhe o aprovado mais antigo da fila que já tem mídia
+        pública e grava o pedido dele. Sem aprovado, não faz nada. Nos horários
+        fixos (HORARIOS) sai sempre um; nos extras (EXTRAS) só sai se a fila tiver
+        mais carrosséis do que os horários fixos que ainda faltam no dia, para
+        que tudo saia no mesmo dia.
         Grava social/publicar/pedido.json. O push desse arquivo no branch
         instagram dispara o workflow, que publica (ou só testa a chave).
 
@@ -42,6 +45,10 @@ RESULTADO = ROOT / "social" / "publicar" / "ultimo.json"
 MIDIA_REPO = "diegobatistaia/cortexplor-midia"
 RAW = f"https://raw.githubusercontent.com/{MIDIA_REPO}/main"
 API = "https://graph.instagram.com/v23.0"
+# Horas (BRT) em que sai um carrossel. Fixos: sempre que houver fila. Extras: só
+# quando houver mais carrosséis do que horários fixos restantes no dia.
+HORARIOS = [8, 11, 16]
+EXTRAS = [13, 19, 21]
 
 
 # ----------------------------------------------------------------------------
@@ -95,6 +102,15 @@ def cmd_proximo(args) -> int:
     if not prontos:
         print("nada: nenhum carrossel aprovado na fila")
         return 0
+    hora = args.hora
+    if hora is None:
+        agora = diario.datetime.now(diario.TZ)
+        hora = agora.hour + (1 if agora.minute >= 30 else 0)  # a rotina dispara às :57
+    if hora in EXTRAS:
+        fixos_restantes = sum(1 for h in HORARIOS if h > hora)
+        if len(prontos) <= fixos_restantes:
+            print(f"nada: horário extra das {hora}h; os {len(prontos)} da fila cabem nos fixos que faltam")
+            return 0
     entry = min(prontos, key=lambda e: (e.get("criado", ""), e.get("no") or 0))
     if not entry.get("midia"):
         print(f"{entry['slug']}: sem mídia pública; rode 'midia' e o push do cortexplor-midia antes")
@@ -223,7 +239,8 @@ def main(argv=None) -> int:
     p = sub.add_parser("pedir")
     p.add_argument("slug", nargs="?")
     p.add_argument("--teste", action="store_true")
-    sub.add_parser("proximo")
+    p = sub.add_parser("proximo")
+    p.add_argument("--hora", type=int, help="hora do horário (BRT); padrão: a hora cheia mais próxima")
     sub.add_parser("executar")
     args = ap.parse_args(argv)
     if args.cmd == "pedir" and not (args.slug or args.teste):
