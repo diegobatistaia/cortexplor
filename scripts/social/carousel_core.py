@@ -94,7 +94,8 @@ class Ctx:
 
     def __init__(self, spec):
         self.d = spec
-        self.u = UI[spec.get("lang", "pt")]
+        # "ui" no spec troca textos fixos só deste carrossel (ex.: post de apresentação, sem matéria)
+        self.u = {**UI[spec.get("lang", "pt")], **spec.get("ui", {})}
         img = spec["image"]
         self.photo = ROOT / img["path"]
         self.ph = uri(self.photo)

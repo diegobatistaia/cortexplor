@@ -1,0 +1,112 @@
+{
+  "slug": "cortexplor-apresentacao",
+  "lang": "pt",
+  "date": "05 out 2026",
+  "no": 1,
+  "category": "Apresentação",
+  "kicker": "Cortexplor · Notícias de IA",
+  "headline": "Isto é o Cortexplor",
+  "headline_hl": "Cortexplor",
+  "dek": "Notícias de inteligência artificial, explicadas em linguagem clara.",
+  "image": {
+    "path": "assets/img/cortexplor-apresentacao-capa.jpg",
+    "credit": "Cortexplor",
+    "pos": "50% 36%"
+  },
+  "stamp": "Primeiro<br>post",
+  "sources": [
+    "cortexplor.com",
+    "Instagram @cortexplor",
+    "WhatsApp (em breve)",
+    "Telegram (em breve)"
+  ],
+  "ui": {
+    "sources": "Onde acompanhar",
+    "sources_long": "Onde acompanhar",
+    "full": "Matérias completas, com as fontes, em",
+    "confirm": "Notícias de IA todos os dias, no site e aqui",
+    "read": "Acesse o site",
+    "photo": "Arte"
+  },
+  "s2": {
+    "label": "O que é",
+    "title": "Um site de notícias só sobre IA",
+    "body": [
+      "O Cortexplor cobre lançamentos de modelos, movimentos de mercado, regulação e o uso de IA nas empresas, no Brasil e no mundo.",
+      "Cada matéria explica o que aconteceu e por que importa, sem jargão e sem exagero."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Nenhum fato entra sem confirmação",
+    "body": "Toda matéria segue o mesmo processo antes de ir ao ar.",
+    "points": [
+      {
+        "h": "Coleta",
+        "t": "Notícias recentes de fontes jornalísticas estabelecidas."
+      },
+      {
+        "h": "Checagem",
+        "t": "Um fato só entra se duas fontes independentes confirmarem."
+      },
+      {
+        "h": "Redação",
+        "t": "Texto original, com as fontes listadas no fim da matéria."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Informação checada antes de publicar",
+    "body": [
+      "A IA muda rápido, e boa parte do que circula é anúncio, rumor ou exagero.",
+      "Quando as fontes divergem sobre um dado, o texto diz isso em vez de esconder."
+    ],
+    "stat": {
+      "big": "2+",
+      "cap": "fontes independentes por fato"
+    }
+  },
+  "s5": {
+    "label": "O que tem aqui",
+    "title": "Três formas de acompanhar",
+    "items": [
+      {
+        "h": "Carrosséis",
+        "t": "Resumos das principais notícias de IA, para entender sem sair do Instagram."
+      },
+      {
+        "h": "Site",
+        "t": "Matérias completas em português, inglês e espanhol, com as fontes."
+      },
+      {
+        "h": "Grupos",
+        "t": "Grupo no WhatsApp e canal no Telegram, em breve."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Cortexplor é um site de notícias sobre inteligência artificial, agora também no Instagram.",
+    "body": [
+      "Aqui entram lançamentos de modelos, movimentos de mercado, regulação e o uso de IA nas empresas, no Brasil e no mundo. Cada notícia vem explicada em linguagem clara: o que aconteceu, como funciona e por que importa.",
+      "O método é o mesmo em toda matéria. Um fato só entra no texto quando duas fontes independentes confirmam, e as fontes aparecem no fim de cada matéria.",
+      "Neste perfil, os carrosséis resumem as principais notícias de IA. O site traz as matérias completas em português, inglês e espanhol."
+    ],
+    "cta_variant": "A",
+    "cta": "Qual assunto de IA merece mais atenção por aqui?",
+    "link": "Site completo no link da bio.",
+    "hashtags": [
+      "#cortexplor",
+      "#inteligenciaartificial",
+      "#noticiasdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa de apresentação do Cortexplor, site de notícias de inteligência artificial",
+    "Slide 2: o Cortexplor é um site de notícias só sobre IA, no Brasil e no mundo",
+    "Slide 3: como o Cortexplor checa cada notícia: coleta, checagem em duas fontes e redação",
+    "Slide 4: cada fato publicado pelo Cortexplor tem duas ou mais fontes independentes",
+    "Slide 5: três formas de acompanhar o Cortexplor: carrosséis, site e comunidade",
+    "Slide 6: onde acompanhar o Cortexplor: site cortexplor.com e Instagram @cortexplor"
+  ]
+}
