@@ -44,7 +44,21 @@ def build(slug, names=None, seed=11, spec=None):
     spec = spec or json.loads((SPECS / f"{slug}.json").read_text(encoding="utf-8"))
     c = Ctx(spec)
     rng = random.Random(f"{slug}-{seed}")
-    names = names or list(STYLES)
+    from rotation import eligible_styles, photo_report
+
+    for w in photo_report(spec)[0]:
+        print("AVISO:", w)
+    elig = eligible_styles(spec)
+    names = names or [n for n in STYLES if n in elig]
+    skipped = [n for n in names if n not in elig]
+    if skipped:
+        print("AVISO: estilos não elegíveis para esta foto:", ", ".join(skipped))
+    import shutil
+
+    for n in STYLES:  # remove saídas antigas de estilos que esta foto não permite
+        if n not in elig:
+            shutil.rmtree(OUT / slug / n, ignore_errors=True)
+            (OUT / slug / f"folha-{n}.png").unlink(missing_ok=True)
     jobs = {}
     for n in names:
         pat = rng.choice(PATTERNS)

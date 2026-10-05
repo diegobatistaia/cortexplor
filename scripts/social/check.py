@@ -19,31 +19,11 @@ from PIL import Image, ImageChops, ImageStat
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import carousel  # noqa: E402
 from carousel_core import ROOT  # noqa: E402
-from rotation import STYLES  # noqa: E402
+from rotation import STYLES, eligible_styles, photo_report  # noqa: E402
 
 SPECS = ROOT / "social" / "specs"
 GOLDEN = ROOT / "social" / "golden"
 GOLDEN_SPEC = GOLDEN / "spec-referencia.json"  # cópia congelada: mudar o texto das matérias não afeta a comparação
-PHOTO_MIN_W, PHOTO_MIN_H = 800, 500
-DARK_PHOTO = 45  # luminância média (0-255) abaixo da qual a capa em meia-tinta fica ilegível
-
-
-def photo_report(spec: dict) -> tuple[list[str], list[str]]:
-    """Devolve (avisos, estilos excluídos por causa da foto)."""
-    p = ROOT / spec["image"]["path"]
-    im = Image.open(p)
-    warns, excluded = [], []
-    if im.width < PHOTO_MIN_W or im.height < PHOTO_MIN_H:
-        warns.append(f"foto pequena ({im.width}x{im.height}); mínimo {PHOTO_MIN_W}x{PHOTO_MIN_H}")
-    lum = ImageStat.Stat(im.convert("L")).mean[0]
-    if lum < DARK_PHOTO:
-        excluded.append("meiatinta")
-        warns.append(f"foto muito escura (luminância {lum:.0f}); estilo meiatinta fora do rodízio desta matéria")
-    return warns, excluded
-
-
-def eligible_styles(spec: dict) -> list[str]:
-    return [s for s in STYLES if s not in photo_report(spec)[1]]
 
 
 def load(slug: str) -> dict:
