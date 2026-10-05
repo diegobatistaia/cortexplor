@@ -613,7 +613,7 @@ def render(jobs: dict[str, tuple[str, list[str]]]):
             for old in out.glob("*.png"):
                 old.unlink()
             for i, body in enumerate(slides, 1):
-                f = HTML / f"{name}-{i:02d}.html"
+                f = HTML / f"{name.replace(chr(47), chr(45))}-{i:02d}.html"
                 f.write_text(page(css, body), encoding="utf-8")
                 pg.goto(f.as_uri())
                 pg.evaluate("document.fonts.ready.then(() => true)")
