@@ -152,7 +152,9 @@ def v_terminal(c: Ctx, pat):
             f"{body}{ticks(n, on, off)}</div>"
         )
 
-    cmd1 = f"cat {_slug(d['category'])}/{_slug(d.get('headline_hl') or c.slug)}.txt"
+    # Pedido do dono em 05/10/2026: nada de nome de arquivo (".txt", ".log")
+    # no topo. O prompt mostra só o rótulo do slide, em palavras.
+    cmd1 = d.get("kicker") or d["category"]
     s = []
     s.append(sl(1, not pat[0], cmd1, f"""
 <h1 class='abs' style='left:64px;top:170px;width:952px;font-size:84px;line-height:1.12'>{hl(d['headline'], d.get('headline_hl'))}</h1>
@@ -164,14 +166,14 @@ def v_terminal(c: Ctx, pat):
 
     x = d["s2"]
     rows = "".join(f"<div class='row'><i>›</i><span>{p}</span></div>" for p in x["body"])
-    s.append(sl(2, not pat[1], "cat o-que-aconteceu.txt", f"""
+    s.append(sl(2, not pat[1], d["s2"]["label"], f"""
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// {x['label']}</span></div>
 <h2 class='abs' style='left:64px;top:236px;width:952px;font-size:64px'>{x['title']}</h2>
 <div class='abs' style='left:64px;top:480px;width:952px'>{rows}</div>"""))
 
     x = d["s3"]
     dfs = "".join(f"<div class='df p'><i>+</i><span><b>{p['h']}</b>{p['t']}</span></div>" for p in x["points"])
-    s.append(sl(3, not pat[2], "diff como-funciona.patch", f"""
+    s.append(sl(3, not pat[2], d["s3"]["label"], f"""
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// {x['label']}</span></div>
 <h2 class='abs' style='left:64px;top:230px;width:952px;font-size:54px'>{x['title']}</h2>
 <div class='abs mono' style='left:64px;top:380px;width:952px;font-size:26px;line-height:1.45;color:var(--soft)'>{x['body']}</div>
@@ -180,7 +182,7 @@ def v_terminal(c: Ctx, pat):
     x = d["s4"]
     st = x["stat"]
     rows = "".join(f"<div class='row'><i>›</i><span>{p}</span></div>" for p in x["body"])
-    s.append(sl(4, not pat[3], "log por-que-importa.txt", f"""
+    s.append(sl(4, not pat[3], d["s4"]["label"], f"""
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// {x['label']}</span></div>
 <h2 class='abs' style='left:64px;top:236px;width:952px;font-size:60px'>{x['title']}</h2>
 <div class='abs' style='left:64px;top:410px;width:952px'>{rows}
@@ -188,13 +190,13 @@ def v_terminal(c: Ctx, pat):
 
     x = d["s5"]
     kv = "".join(f"<div class='k'>{e['h']}</div><div class='v'>{e['t']}</div>" for e in x["items"])
-    s.append(sl(5, not pat[4], "tail -n 3 proximos.log", f"""
+    s.append(sl(5, not pat[4], d["s5"]["label"], f"""
 <div class='abs' style='left:64px;top:170px'><span class='lbl'>// {x['label']}</span></div>
 <h2 class='abs' style='left:64px;top:236px;width:952px;font-size:64px'>{x['title']}</h2>
 <div class='abs kv' style='left:64px;top:430px;width:952px'>{kv}</div>"""))
 
     fs = c.fs(104, 64)
-    s.append(sl(6, not pat[5], "exit 0", f"""
+    s.append(sl(6, not pat[5], c.u["sources"], f"""
 <div class='abs' style='left:64px;top:300px'><span class='lbl'>// {c.u['sources']}</span></div>
 <h1 class='abs' style='left:64px;top:370px;width:952px;font-size:{fs}px'>{'<br>'.join(c.src)}</h1>
 <div class='abs mono' style='left:64px;top:800px;width:952px;font-size:36px;line-height:1.4;color:var(--soft)'>&gt; {c.u['full']} <span class='hl' style='font-weight:700'>cortexplor.com</span></div>
