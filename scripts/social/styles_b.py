@@ -108,7 +108,7 @@ def v_jornal(c: Ctx, pat):
 def v_poster(c: Ctx, pat):
     d = c.d
     css = """
-.P{font-family:'Archivo',sans-serif;--y:#E6FF3B;--k:#0E0E0E;--w:#F5F2EA;--r:#FF4A1C}
+.P{font-family:'Archivo',sans-serif;--y:#D8D0BE;--k:#0E0E0E;--w:#F5F2EA;--r:#A8432A}
 .P.y{background:var(--y);color:var(--k);--ac:var(--k);--soft:#262626;--pb:#0E0E0E;--pt:var(--y)}
 .P.k{background:var(--k);color:#fff;--ac:var(--y);--soft:#D9D9D4;--pb:var(--y);--pt:#0E0E0E}
 .P.w{background:var(--w);color:var(--k);--ac:var(--r);--soft:#2A2A2A;--pb:#0E0E0E;--pt:var(--w)}
@@ -122,7 +122,7 @@ def v_poster(c: Ctx, pat):
 .P .blk{background:var(--pb);color:var(--pt);padding:22px 28px;margin-bottom:16px}
 .P .blk h4{font:400 40px/1 'Anton';text-transform:uppercase;letter-spacing:.01em;margin-bottom:8px;color:var(--pt)}
 .P .blk p{font-size:28px;line-height:1.38;font-weight:500}
-.P .sticker{position:absolute;background:#FF4A1C;color:#fff;font:800 26px/1.15 'Archivo';letter-spacing:.06em;text-transform:uppercase;padding:14px 22px;transform:rotate(-6deg);text-align:center}
+.P .sticker{position:absolute;background:#A8432A;color:#fff;font:800 26px/1.15 'Archivo';letter-spacing:.06em;text-transform:uppercase;padding:14px 22px;transform:rotate(-6deg);text-align:center}
 .P .row{display:grid;grid-template-columns:230px 1fr;gap:20px;padding:24px 0;border-top:6px solid var(--pb);align-items:start}
 .P .row b{font:400 62px/.95 'Anton';text-transform:uppercase}
 .P .row p{font-size:31px;line-height:1.38;font-weight:500;color:var(--soft)}
@@ -192,13 +192,13 @@ def v_poster(c: Ctx, pat):
 def v_cobalto(c: Ctx, pat):
     d = c.d
     css = """
-.K{font-family:'Archivo',sans-serif;--or:#FF6A2B}
-.K.dk{background:#2B3BD2;color:#F1EBDD;--fg:#F1EBDD;--soft:#E3DEF5;--card:rgba(241,235,221,.12);--cardb:rgba(241,235,221,.4);--ac:#FFB38A}
-.K.lt{background:#F1EBDD;color:#1B2699;--fg:#1B2699;--soft:#2E3A8C;--card:#2B3BD2;--cardb:#2B3BD2;--ac:#FF6A2B}
+.K{font-family:'Archivo',sans-serif;--or:#C8693A}
+.K.dk{background:#243352;color:#F1EBDD;--fg:#F1EBDD;--soft:#DCE0EA;--card:rgba(241,235,221,.12);--cardb:rgba(241,235,221,.4);--ac:#E0B08A}
+.K.lt{background:#F1EBDD;color:#17233F;--fg:#17233F;--soft:#33456B;--card:#243352;--cardb:#243352;--ac:#C8693A}
 .K .top{position:absolute;left:56px;right:56px;top:46px;display:flex;justify-content:space-between;align-items:center}
 .K .top img{height:36px}
-.K .top .pill{position:static;background:var(--fg);color:var(--ac);font:800 24px 'Archivo';padding:8px 22px;color:#2B3BD2}
-.K.lt .top .pill{background:#2B3BD2;color:#F1EBDD}
+.K .top .pill{position:static;background:var(--fg);color:var(--ac);font:800 24px 'Archivo';padding:8px 22px;color:#243352}
+.K.lt .top .pill{background:#243352;color:#F1EBDD}
 .K .sf{font:italic 400 46px/1 'Instrument Serif';color:var(--ac)}
 .K .h{font:800 78px/.98 'Archivo';font-stretch:112%;letter-spacing:-.035em}
 .K .bd{font-size:34px;line-height:1.45;font-weight:500;color:var(--soft)}
@@ -206,11 +206,11 @@ def v_cobalto(c: Ctx, pat):
 .K .cd{border-radius:30px;padding:24px 30px;margin-bottom:18px;background:var(--card);border:2px solid var(--cardb)}
 .K.lt .cd{color:#F1EBDD}
 .K .cd h4{font:800 36px/1.05 'Archivo';letter-spacing:-.02em;margin-bottom:8px}
-.K.lt .cd h4{color:#FFB38A}
+.K.lt .cd h4{color:#E0B08A}
 .K .cd p{font-size:28px;line-height:1.4;font-weight:500}
 .K .num{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--or);color:#fff;font:800 24px Archivo;margin-right:14px;vertical-align:middle}
 .K .big{font:900 150px/.9 'Archivo';font-stretch:112%;letter-spacing:-.05em;color:var(--or);white-space:nowrap}
-.K .or{color:#FF6A2B}
+.K .or{color:#C8693A}
 .K .tm{display:grid;grid-template-columns:260px 1fr;gap:18px;padding:26px 0;border-top:3px solid var(--fg)}
 .K .tm b{font:800 46px/1 'Archivo';letter-spacing:-.03em;color:var(--ac)}
 .K .tm p{font-size:31px;line-height:1.4;font-weight:500;color:var(--soft)}
@@ -220,7 +220,7 @@ def v_cobalto(c: Ctx, pat):
         wm = WM_W if dark else WM_B
         return (
             f"<div class='slide K {'dk' if dark else 'lt'}'><div class='top'><img src='{wm}'>{pill(n)}</div>"
-            f"{body}{_tick(n, dark, left=56, right=56, bottom=48) if dark else ticks(n, '#2B3BD2', 'rgba(43,59,210,.2)', left=56, right=56, bottom=48)}</div>"
+            f"{body}{_tick(n, dark, left=56, right=56, bottom=48) if dark else ticks(n, '#243352', 'rgba(36,51,82,.2)', left=56, right=56, bottom=48)}</div>"
         )
 
     s = []
@@ -380,10 +380,10 @@ def v_cartao(c: Ctx, pat):
     d = c.d
     css = """
 .T{font-family:'DM Sans',sans-serif}
-.T.lt{background:#ECEBE5;color:#12281F;--card:#fff;--soft:#34453D;--chip:#C8F169;--chipt:#12281F;--sub:#F3F2EC;--ac:#0E5A43}
-.T.dk{background:#0E3B2E;color:#F3F5EE;--card:rgba(255,255,255,.09);--soft:#CFDCD4;--chip:#C8F169;--chipt:#12281F;--sub:rgba(255,255,255,.08);--ac:#C8F169}
+.T.lt{background:#ECEBE5;color:#1B1D20;--card:#fff;--soft:#44494F;--chip:#D9D2C2;--chipt:#1B1D20;--sub:#F3F2EC;--ac:#2F3A44}
+.T.dk{background:#22252A;color:#F3F2EE;--card:rgba(255,255,255,.09);--soft:#D0D2D4;--chip:#D9D2C2;--chipt:#1B1D20;--sub:rgba(255,255,255,.08);--ac:#D9D2C2}
 .T .hd{position:absolute;left:56px;right:56px;top:44px;height:72px;display:flex;align-items:center;gap:18px}
-.T .av{width:64px;height:64px;border-radius:50%;background:#C8F169;display:grid;place-items:center}
+.T .av{width:64px;height:64px;border-radius:50%;background:#D9D2C2;display:grid;place-items:center}
 .T .av img{height:34px}
 .T .hd .nm{font:700 30px/1.1 'DM Sans'}
 .T .hd .nm span{display:block;font:500 22px 'DM Sans';opacity:.65}
@@ -398,7 +398,7 @@ def v_cartao(c: Ctx, pat):
 .T .sub h4{font:700 34px/1.1 'DM Sans';margin-bottom:6px;color:inherit}
 .T .sub p{font-size:27px;line-height:1.4;color:var(--soft);font-weight:500}
 .T .sub .nb{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--ac);color:#fff;font:700 22px 'DM Sans';margin-right:12px;vertical-align:middle}
-.T.dk .sub .nb{color:#12281F}
+.T.dk .sub .nb{color:#1B1D20 !important}
 .T .big{font:700 120px/.95 'DM Sans';letter-spacing:-.05em;color:var(--ac);white-space:nowrap}
 .T .tm{display:grid;grid-template-columns:240px 1fr;gap:16px;padding:22px 0;border-top:2px solid rgba(127,140,132,.3)}
 .T .tm b{font:700 40px/1 'DM Sans';letter-spacing:-.03em;color:var(--ac)}
@@ -407,7 +407,7 @@ def v_cartao(c: Ctx, pat):
     user = f"@cortexplor · {d['date']}"
 
     def sl(n, dark, inner):
-        on, off = ("#C8F169", "rgba(255,255,255,.2)") if dark else ("#0E5A43", "rgba(14,58,46,.18)")
+        on, off = ("#D9D2C2", "rgba(255,255,255,.2)") if dark else ("#2F3A44", "rgba(34,37,42,.18)")
         return (
             f"<div class='slide T {'dk' if dark else 'lt'}'><div class='hd'><div class='av'><img src='{ICON_B}'></div>"
             f"<div class='nm'>Cortexplor<span>{user}</span></div>{pill(n)}</div>"
@@ -466,91 +466,10 @@ def v_cartao(c: Ctx, pat):
     return css, s
 
 
-# ============================================================================
-# 10. VIDRO — foto em tela cheia + painéis de vidro fosco
-# ============================================================================
-def v_vidro(c: Ctx, pat):
-    d = c.d
-    css = """
-.G{font-family:'Inter',sans-serif}
-.G .ov{position:absolute;inset:0}
-.G.dk{color:#fff;--soft:rgba(255,255,255,.88);--ac:#FFD98A}
-.G.lt{color:#101417;--soft:#1F262B;--ac:#7A3B00}
-.G .top{position:absolute;left:56px;right:56px;top:46px;display:flex;justify-content:space-between;align-items:center}
-.G .top img{height:36px}
-.G .top .pill{position:static;font:600 24px Inter;padding:8px 22px;background:rgba(255,255,255,.22);backdrop-filter:blur(14px);border:1.5px solid rgba(255,255,255,.35);color:inherit}
-.G .gl{position:absolute;left:44px;right:44px;border-radius:44px;padding:44px 48px;backdrop-filter:blur(34px) saturate(1.35);-webkit-backdrop-filter:blur(34px) saturate(1.35)}
-.G.dk .gl{background:rgba(14,18,24,.46);border:2px solid rgba(255,255,255,.28)}
-.G.lt .gl{background:rgba(255,255,255,.58);border:2px solid rgba(255,255,255,.8)}
-.G .lab{font:600 22px Inter;letter-spacing:.18em;text-transform:uppercase;color:var(--ac)}
-.G .h{font:700 62px/1.04 Inter;letter-spacing:-.035em;margin-top:14px}
-.G .bd{font-size:33px;line-height:1.46;color:var(--soft);font-weight:400}
-.G .bd p{margin-bottom:20px}
-.G .pt{padding:20px 0;border-top:1.5px solid rgba(127,127,127,.4)}
-.G .pt h4{font:650 33px/1.1 Inter;letter-spacing:-.02em;margin-bottom:6px}
-.G .pt p{font-size:27px;line-height:1.4;color:var(--soft)}
-.G .big{font:700 118px/.95 Inter;letter-spacing:-.05em;color:var(--ac);white-space:nowrap}
-.G .tm{display:grid;grid-template-columns:250px 1fr;gap:16px;padding:22px 0;border-top:1.5px solid rgba(127,127,127,.4)}
-.G .tm b{font:700 38px/1 Inter;letter-spacing:-.03em;color:var(--ac)}
-.G .tm p{font-size:29px;line-height:1.4;color:var(--soft)}
-"""
-    fx = [0.5, 0.25, 0.75, 0.4, 0.65, 0.5]
-    bgs = [photo_crop(c, 1080 / 1350, (1080, 1350), f"gl{i}", fx=fx[i], blur=0 if i == 0 else 14, bright=1.12 if (i and not pat[i]) else 1.0) for i in range(6)]
-
-    def sl(n, dark, inner, gl_top, gl_bottom, shade=None):
-        wm = WM_W
-        on, off = ("#fff", "rgba(255,255,255,.3)") if dark else ("#101417", "rgba(16,20,23,.22)")
-        shade = shade or ("rgba(10,12,16,.35)" if dark else "rgba(255,255,255,.18)")
-        return (
-            f"<div class='slide G {'dk' if dark else 'lt'}'><div class='ov' style='background:url({bgs[n-1]}) center/cover'></div><div class='ov' style='background:{shade}'></div>"
-            f"<div class='top'><img src='{wm}'>{pill(n)}</div>"
-            f"<div class='gl' style='top:{gl_top}px;bottom:{gl_bottom}px'>{inner}</div>{ticks(n, on, off, left=56, right=56, bottom=48)}</div>"
-        )
-
-    s = []
-    nlen = len(d["headline"])
-    hs = 70 if nlen <= 62 else 60
-    s.append(sl(1, True, f"""
-<div class='lab'>{d['category']} · {d['kicker'].split('·')[-1].strip()}</div>
-<div class='h' style='font-size:{hs}px;margin-top:16px'>{d['headline']}</div>
-<div class='bd' style='font-size:29px;line-height:1.4;margin-top:22px'>{d['dek']}</div>""", 760, 100,
-              "linear-gradient(180deg,rgba(10,12,16,.6),rgba(10,12,16,.1) 18%,rgba(10,12,16,.3))"))
-
-    x = d["s2"]
-    s.append(sl(2, pat[1], f"""
-<div class='lab'>{x['label']}</div><div class='h'>{x['title']}</div>
-<div class='bd' style='margin-top:26px'>{paras(x['body'])}</div>""", 150, 110))
-
-    x = d["s3"]
-    pts = "".join(f"<div class='pt'><h4>{i}. {p['h']}</h4><p>{p['t']}</p></div>" for i, p in enumerate(x["points"], 1))
-    s.append(sl(3, pat[2], f"""
-<div class='lab'>{x['label']}</div><div class='h' style='font-size:50px'>{x['title']}</div>
-<div class='bd' style='font-size:28px;line-height:1.4;margin:16px 0 14px'>{x['body']}</div>{pts}""", 150, 100))
-
-    x = d["s4"]
-    s.append(sl(4, pat[3], f"""
-<div class='lab'>{x['label']}</div><div class='h' style='font-size:52px'>{x['title']}</div>
-<div style='margin:26px 0 18px'><div class='big' style='font-size:118px'>{x['stat']['big']}</div><div style='font-size:25px;color:var(--soft);margin-top:6px'>{x['stat']['cap']}</div></div>
-<div class='bd' style='font-size:29px;line-height:1.42'>{paras(x['body'])}</div>""", 150, 110))
-
-    x = d["s5"]
-    rows = "".join(f"<div class='tm'><b>{e['h']}</b><p>{e['t']}</p></div>" for e in x["items"])
-    s.append(sl(5, pat[4], f"""
-<div class='lab'>{x['label']}</div><div class='h' style='font-size:56px'>{x['title']}</div>
-<div style='margin-top:30px'>{rows}</div>""", 150, 160))
-
-    srcs = "".join(f"<div class='pt' style='font:700 42px/1.1 Inter;letter-spacing:-.03em'>{nm}</div>" for nm in c.src)
-    s.append(sl(6, pat[5], f"""
-<div class='lab'>{c.u['sources']}</div><div style='margin-top:14px'>{srcs}</div>
-<div class='bd' style='margin-top:30px;font-weight:600'>{c.u['full']} <span style='color:var(--ac)'>cortexplor.com</span></div>""", 150, 180))
-    return css, s
-
-
 STYLES_B = {
     "jornal": v_jornal,
     "poster": v_poster,
     "cobalto": v_cobalto,
     "meiatinta": v_meiatinta,
     "cartao": v_cartao,
-    "vidro": v_vidro,
 }
