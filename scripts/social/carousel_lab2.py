@@ -412,9 +412,8 @@ def v_duotone():
         f"""<div class='slide D sl'>
 <div class='grid' style='opacity:.5'></div>{marks()}
 <div class='top'>Cortexplor · O pedido</div>{pill(3)}
-<div class='abs' style='left:30px;top:130px;font-size:600px;font-weight:700;letter-spacing:-.07em;line-height:.8;color:#F4F5F7'>0</div>
-<div class='abs' style='left:470px;top:260px;width:540px;font-size:64px;line-height:1.02;font-weight:700;letter-spacing:-.035em'>pedido é liminar, não dinheiro</div>
-<div class='abs' style='left:470px;top:440px;width:540px;font-size:32px;line-height:1.3;color:#D5DAE0'>A LASST não pede reparação financeira.</div>
+<div class='abs' style='left:64px;top:210px;width:952px;font-size:100px;line-height:.98;font-weight:700;letter-spacing:-.045em'>O pedido é liminar, não dinheiro</div>
+<div class='abs' style='left:64px;top:560px;width:800px;font-size:36px;line-height:1.3;color:#D5DAE0'>A LASST não pede reparação financeira.</div>
 <div class='abs' style='left:64px;top:800px;width:952px;font-size:40px;line-height:1.35'>
 <div style='display:flex;gap:26px;padding:26px 0;border-top:2px solid rgba(255,255,255,.4)'>{ic(CHECK, 44, '#C9C7BF')}<span><b>Liminar</b> que proíba a OpenAI de operar agentes capazes de invadir outras organizações sozinhos</span></div>
 <div style='display:flex;gap:26px;padding:26px 0;border-top:2px solid rgba(255,255,255,.4);border-bottom:2px solid rgba(255,255,255,.4)'>{ic(CHECK, 44, '#C9C7BF')}<span>Pagamento das <b>custas legais</b></span></div></div>
