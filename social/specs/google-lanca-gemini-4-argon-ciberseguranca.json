@@ -7,75 +7,44 @@
   "kicker": "Modelos de IA · Google",
   "headline": "Google lança o Gemini 4 Argon, seu modelo mais avançado",
   "headline_hl": "Gemini 4 Argon",
-  "dek": "Novo modelo custa menos que os concorrentes diretos, mas começa restrito a parceiros de cibersegurança, segundo CNBC, SiliconANGLE, TechCrunch e Engadget.",
-  "dek_short": "Custa menos que os concorrentes diretos, mas começa restrito a parceiros de cibersegurança.",
+  "dek": "O novo modelo custa menos que os concorrentes, mas por enquanto só parceiros de cibersegurança têm acesso, segundo CNBC, SiliconANGLE, TechCrunch e Engadget.",
   "image": {"path": "assets/img/google-lanca-gemini-4-argon-ciberseguran-21526704.jpg", "credit": "Conny Schneider / Unsplash", "pos": "50% 50%"},
   "stamp": "Lançado<br>30/09",
   "sources": ["CNBC Technology", "SiliconANGLE", "TechCrunch AI", "Engadget"],
-  "fact": {
-    "label": "O fato",
-    "title": "O Argon chega primeiro aos defensores de cibersegurança",
-    "title_hl": "cibersegurança",
-    "paras": [
-      "O Google lançou na quarta-feira (30) o Gemini 4 Argon, descrito pela CNBC como o modelo de IA mais avançado já feito pela empresa.",
-      "Segundo a CNBC, ele bate recordes em tarefas reais de engenharia de software e empata em primeiro lugar em testes de cibersegurança.",
-      "O acesso começa restrito: parceiros de cibersegurança verificados, no Fairwind Program, enquanto o Google faz avaliações de segurança com o governo dos EUA."
-    ],
-    "bullets": [
-      "O Google lançou na quarta-feira (30) o <b>Gemini 4 Argon</b>, seu modelo mais avançado, segundo a CNBC",
-      "Bate recordes em <b>engenharia de software</b> e empata em 1º em testes de cibersegurança",
-      "Começa restrito a <b>parceiros de cibersegurança</b> do Fairwind Program"
-    ],
-    "short": "O Google lançou o <b>Gemini 4 Argon</b> na quarta-feira (30). Ele bate recordes em engenharia de software e começa restrito a <b>parceiros de cibersegurança</b>, segundo CNBC, SiliconANGLE, TechCrunch e Engadget."
-  },
-  "points": {
-    "label": "O acesso",
-    "title": "Primeiro os defensores, depois o público",
-    "title_hl": "defensores",
-    "note": "A liberação ampla depende de avaliações de segurança com o governo dos EUA.",
-    "tail": "A liberação ampla depende de avaliações de segurança com o governo dos EUA.",
-    "items": [
-      {"kind": "ok", "t": "<b>Parceiros de cibersegurança</b> verificados, no Fairwind Program"},
-      {"kind": "ok", "t": "<b>US$ 2 e US$ 10</b> por milhão de tokens de entrada e de saída"},
-      {"kind": "no", "t": "Sem data para devs pagantes e assinantes do <b>Google AI Ultra</b>"}
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O Argon chegou, mas ainda não é para todos",
+    "body": [
+      "Na quarta-feira (30), o Google lançou o Gemini 4 Argon, que a CNBC descreve como o modelo de inteligência artificial mais avançado já feito pela empresa. Segundo a CNBC, ele bate recordes em tarefas reais de engenharia de software e empata em primeiro lugar em testes de cibersegurança.",
+      "O acesso, porém, começa restrito: por enquanto, só parceiros de cibersegurança verificados, dentro do Fairwind Program, podem usá-lo. O Google diz que trabalha com o governo dos Estados Unidos em avaliações de segurança antes de abrir o modelo ao público."
     ]
   },
-  "voice": {
-    "label": "Em números",
-    "mark": "",
-    "big": "US$ 2 / US$ 10",
-    "by": "Preço por milhão de tokens, entrada e saída, segundo SiliconANGLE e Engadget",
-    "bullets": [
-      "Claude Opus 5.5, da Anthropic: <b>US$ 4 / US$ 20</b>",
-      "GPT-6 Astra, da OpenAI: <b>US$ 10 / US$ 50</b>"
-    ],
-    "cards": [
-      {"who": "Gemini 4 Argon · SiliconANGLE e Engadget", "text": "US$ 2 / US$ 10"},
-      {"who": "Concorrentes · mesmos itens", "text": "Opus 5.5: US$ 4 / US$ 20", "extra": "GPT-6 Astra, da OpenAI: US$ 10 / US$ 50."}
-    ],
-    "detail": "O Claude Opus 5.5, da Anthropic, cobra <b>US$ 4 e US$ 20</b> pelos mesmos itens; o GPT-6 Astra, da OpenAI, <b>US$ 10 e US$ 50</b>."
-  },
-  "timeline": {
-    "title": "O Argon em quatro datas",
-    "title3": "O que pesa no lançamento",
-    "items": [
-      {"when": "Há ~1 ano", "tag": "Gemini 3", "text": "Lançamento que recolocou o Google na disputa pela liderança (CNBC)"},
-      {"when": "29/09", "tag": "Acordo", "text": "Pichai assina acordo voluntário de segurança em IA na Casa Branca (CNBC)"},
-      {"when": "30/09", "tag": "Lançamento", "text": "Google lança o Argon para parceiros de cibersegurança"},
-      {"when": "Sem data", "tag": "Acesso amplo", "text": "Devs pagantes e assinantes do Google AI Ultra ainda aguardam"}
+  "s3": {
+    "label": "Como funciona",
+    "title": "Por que ele começa nas mãos de quem defende sistemas",
+    "body": "Segundo Tulsee Doshi, responsável pelo Gemini no Google, começar assim dá mais confiança à empresa e põe um modelo forte em defesa cibernética nas mãos de defensores o quanto antes (CNBC).",
+    "points": [
+      {"h": "Achou uma falha sozinho", "t": "Em demonstração, encontrou uma falha crítica em software de saúde usado por hospitais, que expunha dados de pacientes (SiliconANGLE, Engadget)."},
+      {"h": "Reforçado contra abuso", "t": "Foi blindado contra injeção de prompt, comandos escondidos que tentam fazer o modelo agir fora do que o usuário pediu (CNBC, Engadget)."},
+      {"h": "Já trabalha no Google", "t": "Ajudou a liberar mais de 300 tebibytes de memória nos data centers, sem comprar hardware (CNBC, SiliconANGLE, Engadget)."}
     ]
   },
-  "table": {
-    "label": "Ficha do modelo",
-    "rows": [
-      {"k": "modelo", "v": "<b>Gemini 4 Argon</b>"},
-      {"k": "empresa", "v": "Google"},
-      {"k": "lançado em", "v": "Quarta-feira, 30/09"},
-      {"k": "acesso", "v": "Parceiros de cibersegurança (Fairwind Program)"},
-      {"k": "preço", "v": "US$ 2 / US$ 10 por milhão de tokens"},
-      {"k": "resposta", "v": "Até 1 milhão de tokens (SiliconANGLE, Engadget)"},
-      {"k": "uso interno", "v": "+300 TiB de memória liberados nos data centers"},
-      {"k": "ainda sem data", "v": "devs pagantes e Google AI Ultra", "neg": true}
+  "s4": {
+    "label": "Por que importa",
+    "title": "Um modelo de ponta com preço abaixo dos rivais",
+    "body": [
+      "O Argon custa US$ 2 por milhão de tokens lidos e US$ 10 por milhão escritos. Token é o pedaço de texto que o modelo processa, e é por ele que se paga. O Claude Opus 5.5 cobra US$ 4 e US$ 20 (SiliconANGLE); o GPT-6 Astra, US$ 10 e US$ 50 (Engadget).",
+      "Para quem desenvolve com IA, o preço de lançamento indica um modelo de ponta mais barato que os rivais. Desenvolvedores pagantes e assinantes do Google AI Ultra, porém, ainda não têm data para acessá-lo (CNBC)."
+    ],
+    "stat": {"big": "US$ 2 / US$ 10", "cap": "por milhão de tokens, entrada e saída"}
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Do acordo na Casa Branca ao acesso amplo",
+    "items": [
+      {"h": "29/09", "t": "Sundar Pichai, presidente-executivo do Google, assina com outros executivos de tecnologia um acordo voluntário de segurança em IA na Casa Branca (CNBC)."},
+      {"h": "30/09", "t": "O Google lança o Argon para parceiros de cibersegurança verificados, quase um ano depois do Gemini 3 (CNBC)."},
+      {"h": "Sem data", "t": "O acesso para desenvolvedores pagantes e assinantes do Google AI Ultra ainda não tem data (CNBC)."}
     ]
   }
 }

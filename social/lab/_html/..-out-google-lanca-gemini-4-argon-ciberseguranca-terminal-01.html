@@ -9,37 +9,34 @@ body{-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
 .prog i{display:block;height:100%;border-radius:2px}
 svg.ic{display:inline-block;vertical-align:middle;flex:none}
 
-.B{--bg:#14130F;--fg:#EDECE8;--dim:#9A978D;--soft:#B7C0CC;--rule:#2E2C28;--dash:#3A3833;--card:#1C1B18;--acc:#F2C14E;--gr:#6FD08C;--rd:#FF7A70;--pg:rgba(111,208,140,.13);--pr:rgba(255,122,112,.13);--st:#fff;background:var(--bg);color:var(--fg);font-family:'Space Grotesk',sans-serif}
+.B{--bg:#14130F;--fg:#EDECE8;--dim:#9A978D;--soft:#C9C7BF;--rule:#2E2C28;--dash:#3A3833;--card:#1C1B18;--acc:#F2C14E;--gr:#6FD08C;--rd:#FF7A70;--pg:rgba(111,208,140,.13);--pr:rgba(255,122,112,.13);--st:#fff;background:var(--bg);color:var(--fg);font-family:'Space Grotesk',sans-serif}
 .B.lt{--bg:#FFFEFB;--fg:#14130F;--dim:#6B6960;--soft:#3A3935;--rule:#E4E2DB;--dash:#CFCBC0;--card:#F4F2EC;--acc:#8A6200;--gr:#2F7D4A;--rd:#C0392B;--pg:rgba(47,125,74,.1);--pr:rgba(192,57,43,.09);--st:#000}
 .B .bar{position:absolute;left:64px;right:64px;top:44px;height:56px;display:flex;align-items:center;justify-content:space-between;font:500 24px 'IBM Plex Mono';color:var(--dim)}
 .B .bar b{color:var(--fg);font-weight:500}
 .B .bar .pill{position:static;background:var(--fg);color:var(--bg);font-size:26px;padding:8px 24px;font-family:'IBM Plex Mono'}
 .B .ln{position:absolute;left:64px;right:64px;top:112px;border-top:2px solid var(--rule)}
 .B .mono{font-family:'IBM Plex Mono'}
-.B h1,.B h2{font-weight:700;letter-spacing:-.04em;line-height:1.02}
+.B h1,.B h2{font-weight:700;letter-spacing:-.04em;line-height:1.05}
 .B .hl{background:#F2C14E;color:#14130F;padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .B .lbl{display:inline-block;background:#F2C14E;color:#14130F;font:600 24px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase;padding:6px 14px}
-.B .row{display:flex;gap:26px;padding:30px 0;border-bottom:2px dashed var(--dash);font:400 36px/1.35 'IBM Plex Mono'}
+.B .row{display:flex;gap:22px;padding:22px 0;border-bottom:2px dashed var(--dash);font:400 29px/1.45 'IBM Plex Mono';color:var(--soft)}
 .B .row i{font-style:normal;color:var(--acc);flex:none}
 .B .row b,.B .df b{color:var(--st)}
-.B .df{display:flex;gap:26px;padding:28px 30px;font:400 33px/1.35 'IBM Plex Mono';margin-bottom:18px}
+.B .df{display:flex;gap:22px;padding:22px 26px;font:400 27px/1.42 'IBM Plex Mono';margin-bottom:14px;color:var(--soft)}
 .B .df.p{background:var(--pg);border-left:8px solid var(--gr)}
-.B .df.m{background:var(--pr);border-left:8px solid var(--rd)}
-.B .df i{font-style:normal;font-weight:700;flex:none}
-.B .df.p i{color:var(--gr)} .B .df.m i{color:var(--rd)}
-.B .msg{border-left:8px solid #6B7A8F;background:var(--card);padding:30px 36px;margin-bottom:26px}
-.B .msg.o{border-color:#F2C14E}
-.B .msg .w{font:600 22px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-bottom:12px}
-.B .msg .q{font-size:60px;line-height:1.06;font-weight:700;letter-spacing:-.035em}
-.B .kv{display:grid;grid-template-columns:330px 1fr;font:400 32px/1.3 'IBM Plex Mono'}
-.B .kv div{padding:20px 0;border-bottom:2px dashed var(--dash)}
-.B .kv .k{color:var(--dim)}
-.B .kv .v{color:var(--fg)}
-.B .kv .v b{font-weight:600}
+.B .df b{display:block;font-size:30px;margin-bottom:4px}
+.B .df i{font-style:normal;font-weight:700;flex:none;color:var(--gr)}
+.B .msg{border-left:8px solid #F2C14E;background:var(--card);padding:26px 34px;margin-top:30px}
+.B .msg .w{font:600 22px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+.B .msg .q{font-size:76px;line-height:1.02;font-weight:700;letter-spacing:-.04em}
+.B .kv{display:grid;grid-template-columns:210px 1fr;font:400 29px/1.45 'IBM Plex Mono'}
+.B .kv div{padding:24px 0;border-bottom:2px dashed var(--dash)}
+.B .kv .k{color:var(--acc);font-weight:600}
+.B .kv .v{color:var(--soft)}
 </style></head><body><div class='slide B'><div class='bar'><span>cortexplor@ia:~$ <b>cat modelos/gemini-4-argon.txt</b></span><div class='pill' style=''>1/6</div></div><div class='ln'></div>
 <h1 class='abs' style='left:64px;top:170px;width:952px;font-size:84px;line-height:1.12'>Google lança o <span class='hl'>Gemini 4 Argon</span>, seu modelo mais avançado</h1>
-<div class='abs mono' style='left:64px;top:560px;width:952px;font-size:31px;line-height:1.45;color:var(--soft)'>&gt; Custa menos que os concorrentes diretos, mas começa restrito a parceiros de cibersegurança.<span style='background:#F2C14E;color:#F2C14E'>_</span></div>
-<div class='abs' style='left:64px;top:840px;width:952px;height:350px;overflow:hidden;border:2px solid var(--dash)'>
+<div class='abs mono' style='left:64px;top:540px;width:952px;font-size:30px;line-height:1.5;color:var(--soft)'>&gt; O novo modelo custa menos que os concorrentes, mas por enquanto só parceiros de cibersegurança têm acesso, segundo CNBC, SiliconANGLE, TechCrunch e Engadget.<span style='background:#F2C14E;color:#F2C14E'>_</span></div>
+<div class='abs' style='left:64px;top:860px;width:952px;height:330px;overflow:hidden;border:2px solid var(--dash)'>
 <img src='file:///home/claude/cortexplor/assets/img/google-lanca-gemini-4-argon-ciberseguran-21526704.jpg' style='width:100%;height:100%;object-fit:cover;object-position:50% 50%;filter:grayscale(1) contrast(1.15) brightness(.85)'>
 <div class='abs' style='inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.3) 0 2px,transparent 2px 5px)'></div></div>
 <div class='abs mono' style='left:64px;top:1206px;font-size:20px;color:var(--dim)'>Foto: Conny Schneider / Unsplash</div><div class='abs' style='left:64px;right:64px;bottom:52px;display:flex;gap:10px'><i style='flex:1;height:8px;background:#EDECE8'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i><i style='flex:1;height:8px;background:rgba(237,236,232,.18)'></i></div></div></body></html>
