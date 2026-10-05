@@ -264,8 +264,8 @@ def v_terminal(pat=None):
 def v_dossie(pat=None):
     pat = pat or PATTERNS[0]  # pat[i] = slide i+1 escuro
     css = """
-.C{--out:#E4E1D8;--panel:#FFFEFB;--fg:#14130F;--mu:#6B6960;--soft:#3A3935;--acc:#3A4556;--red:#B3261E;--tabbg:#14130F;--tabfg:#FFFEFB;background:var(--out);color:var(--fg);font-family:'Space Grotesk',sans-serif}
-.C.dk{--out:#3A4556;--panel:#14130F;--fg:#EDECE8;--mu:#9A978D;--soft:#C9C7BF;--acc:#B7C0CC;--red:#FF6B5E;--tabbg:#EDECE8;--tabfg:#14130F}
+.C{--out:#E4E1D8;--panel:#FFFEFB;--fg:#14130F;--mu:#6B6960;--soft:#3A3935;--acc:#4A4843;--red:#B3261E;--tabbg:#14130F;--tabfg:#FFFEFB;background:var(--out);color:var(--fg);font-family:'Space Grotesk',sans-serif}
+.C.dk{--out:#45433E;--panel:#14130F;--fg:#EDECE8;--mu:#9A978D;--soft:#C9C7BF;--acc:#C9C7BF;--red:#FF6B5E;--tabbg:#EDECE8;--tabfg:#14130F}
 .C .panel{position:absolute;left:40px;right:40px;top:132px;bottom:40px;background:var(--panel);border:3px solid var(--fg);border-radius:0 18px 18px 18px}
 .C .tab{position:absolute;left:40px;top:86px;height:46px;padding:0 26px;background:var(--tabbg);color:var(--tabfg);font:600 22px 'IBM Plex Mono';letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;border-radius:14px 14px 0 0}
 .C .pill{background:#14130F;color:#fff;top:40px}
@@ -288,7 +288,7 @@ def v_dossie(pat=None):
 """
 
     def sl(n, dark, body, tab="Dossiê nº 001 · Política"):
-        on, off = ("#B7C0CC", "rgba(237,236,232,.18)") if dark else (SLATE, "rgba(20,19,15,.15)")
+        on, off = ("#C9C7BF", "rgba(237,236,232,.18)") if dark else ("#4A4843", "rgba(20,19,15,.15)")
         return (
             f"<div class='slide C{' dk' if dark else ''}'><div class='tab'>{tab}</div><div class='panel'></div>{pill(n)}"
             f"{body}{ticks(n, on, off, bottom=62)}</div>"
