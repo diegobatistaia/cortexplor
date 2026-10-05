@@ -202,9 +202,10 @@ publishing:
   ramp:
     - {from_day: 0,   posts_per_language: 2}
     - {from_day: 28,  posts_per_language: 3}
-    - {from_day: 56,  posts_per_language: 3}
-    - {from_day: 90,  posts_per_language: 4}
-    - {from_day: 150, posts_per_language: 5}
+    # Antecipado pelo dono em 05/10/2026: 4 a partir de 06/10 (dia 39) e 5 a
+    # partir de 01/11 (dia 65). Antes: 4 no dia 90 e 5 no dia 150.
+    - {from_day: 39,  posts_per_language: 4}
+    - {from_day: 65,  posts_per_language: 5}
   # So avanca de fase se a taxa de aprovacao do gate ficar acima disso
   # pelos ultimos `ramp_window_days` dias.
   # Horarios (fuso do site) em que a coleta roda. O teto de cada dia e dividido
