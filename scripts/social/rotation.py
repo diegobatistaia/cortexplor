@@ -1,7 +1,7 @@
 """Rodízio de estilos de carrossel: nunca o mesmo estilo duas vezes seguidas."""
 import random
 
-STYLES = ["edicao", "terminal", "dossie", "duotone", "jornal", "poster", "cobalto", "meiatinta", "cartao"]
+STYLES = ["edicao", "terminal", "dossie", "duotone", "jornal", "cobalto", "meiatinta", "cartao"]
 
 
 def pick_styles(n, styles=STYLES, last=None, rng=None):

@@ -1,4 +1,4 @@
-"""Estilos 5-10: jornal, poster, cobalto, meia-tinta, cartão, vidro."""
+"""Estilos extras: jornal, cobalto, meia-tinta, cartão."""
 from __future__ import annotations
 
 import carousel_lab as L
@@ -99,90 +99,6 @@ def v_jornal(c: Ctx, pat):
 <div class='abs' style='left:64px;top:340px;width:952px'>{srcs}</div>
 <div class='abs' style='left:64px;top:900px;width:952px;font:italic 400 48px/1.2 "Instrument Serif";color:var(--soft)'>{c.u['full']} <span style='color:var(--ac)'>cortexplor.com</span></div>
 <div class='abs' style='left:64px;top:1226px;font:500 19px Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--mu)'>{c.credit}</div>"""))
-    return css, s
-
-
-# ============================================================================
-# 6. POSTER — Anton em caixa-alta, amarelo ácido
-# ============================================================================
-def v_poster(c: Ctx, pat):
-    d = c.d
-    css = """
-.P{font-family:'Archivo',sans-serif;--y:#D8D0BE;--k:#4A4C4F;--w:#F5F2EA;--r:#A8432A}
-.P.y{background:var(--y);color:var(--k);--ac:var(--k);--soft:#4A4C4F;--pb:#4A4C4F;--pt:var(--y)}
-.P.k{background:var(--k);color:#fff;--ac:var(--y);--soft:#D9D9D4;--pb:var(--y);--pt:#4A4C4F}
-.P.w{background:var(--w);color:var(--k);--ac:var(--r);--soft:#4A4C4F;--pb:#4A4C4F;--pt:var(--w)}
-.P .an{font-family:'Anton';text-transform:uppercase;font-weight:400;line-height:.96;letter-spacing:.002em}
-.P .top{position:absolute;left:56px;right:56px;top:44px;display:flex;justify-content:space-between;align-items:center}
-.P .top img{height:36px}
-.P .top .pill{position:static;background:var(--pb);color:var(--pt);font:800 24px 'Archivo';padding:8px 22px;border-radius:0}
-.P .lb{display:inline-block;background:var(--pb);color:var(--pt);font:800 26px 'Archivo';letter-spacing:.06em;text-transform:uppercase;padding:8px 18px}
-.P .bd{font-size:35px;line-height:1.42;font-weight:500;color:var(--soft)}
-.P .bd p{margin-bottom:22px}
-.P .blk{background:var(--pb);color:var(--pt);padding:22px 28px;margin-bottom:16px}
-.P .blk h4{font:400 40px/1 'Anton';text-transform:uppercase;letter-spacing:.01em;margin-bottom:8px;color:var(--pt)}
-.P .blk p{font-size:28px;line-height:1.38;font-weight:500}
-.P .sticker{position:absolute;background:#A8432A;color:#fff;font:800 26px/1.15 'Archivo';letter-spacing:.06em;text-transform:uppercase;padding:14px 22px;transform:rotate(-6deg);text-align:center}
-.P .row{display:grid;grid-template-columns:230px 1fr;gap:20px;padding:24px 0;border-top:6px solid var(--pb);align-items:start}
-.P .row b{font:400 62px/.95 'Anton';text-transform:uppercase}
-.P .row p{font-size:31px;line-height:1.38;font-weight:500;color:var(--soft)}
-"""
-    theme = lambda n, dark: "k" if dark else ("y" if n % 2 == 1 else "w")
-
-    def sl(n, dark, body):
-        th = theme(n, dark)
-        wm = WM_W if th == "k" else WM_B
-        return (
-            f"<div class='slide P {th}'><div class='top'><img src='{wm}'>{pill(n)}</div>"
-            f"{body}{_tick(n, th == 'k', left=56, right=56, bottom=48)}</div>"
-        )
-
-    s = []
-    nlen = len(d["headline"])
-    hs = 128 if nlen <= 50 else (112 if nlen <= 62 else 100)
-    s.append(sl(1, False, f"""
-<div class='sticker' style='right:56px;top:690px'>{d['stamp']}</div>
-<div class='abs lb' style='left:56px;top:140px'>{d['category']}</div>
-<div class='abs an' style='left:56px;top:210px;width:900px;font-size:{hs}px'>{d['headline']}</div>
-<div class='abs' style='left:56px;top:790px;width:968px;font-size:30px;line-height:1.38;font-weight:600'>{d['dek']}</div>
-<div class='abs' style='left:56px;top:950px;width:968px;height:300px;background:url({c.ph}) {c.pos}/cover;border:6px solid var(--k)'></div>"""))
-
-    x = d["s2"]
-    s.append(sl(2, pat[1], f"""
-<div class='abs lb' style='left:56px;top:140px'>{x['label']}</div>
-<div class='abs an' style='left:56px;top:210px;width:968px;font-size:84px'>{x['title']}</div>
-<div class='abs bd' style='left:56px;top:560px;width:968px'>{paras(x['body'])}</div>"""))
-
-    x = d["s3"]
-    blks = "".join(f"<div class='blk'><h4>{p['h']}</h4><p>{p['t']}</p></div>" for p in x["points"])
-    s.append(sl(3, pat[2], f"""
-<div class='abs lb' style='left:56px;top:140px'>{x['label']}</div>
-<div class='abs an' style='left:56px;top:204px;width:968px;font-size:66px'>{x['title']}</div>
-<div class='abs bd' style='left:56px;top:400px;width:968px;font-size:29px;line-height:1.4'>{x['body']}</div>
-<div class='abs' style='left:56px;top:600px;width:968px'>{blks}</div>"""))
-
-    x = d["s4"]
-    st = x["stat"]
-    s.append(sl(4, pat[3], f"""
-<div class='abs lb' style='left:56px;top:140px'>{x['label']}</div>
-<div class='abs an' style='left:56px;top:204px;width:968px;font-size:72px'>{x['title']}</div>
-<div class='abs' style='left:0;top:470px;width:1080px;background:var(--pb);color:var(--pt);padding:26px 56px'>
-<div class='an' style='font-size:128px;white-space:nowrap'>{st['big']}</div>
-<div style='font:700 24px Archivo;letter-spacing:.08em;text-transform:uppercase;margin-top:8px'>{st['cap']}</div></div>
-<div class='abs bd' style='left:56px;top:760px;width:968px;font-size:31px'>{paras(x['body'])}</div>"""))
-
-    x = d["s5"]
-    rows = "".join(f"<div class='row'><b>{e['h']}</b><p>{e['t']}</p></div>" for e in x["items"])
-    s.append(sl(5, pat[4], f"""
-<div class='abs lb' style='left:56px;top:140px'>{x['label']}</div>
-<div class='abs an' style='left:56px;top:204px;width:968px;font-size:78px'>{x['title']}</div>
-<div class='abs' style='left:56px;top:460px;width:968px;border-bottom:6px solid var(--pb)'>{rows}</div>"""))
-
-    fs = c.fs(110, 80)
-    s.append(sl(6, pat[5], f"""
-<div class='abs lb' style='left:56px;top:140px'>{c.u['sources']}</div>
-<div class='abs an' style='left:56px;top:220px;width:968px;font-size:{fs}px'>{'<br>'.join(c.src)}</div>
-<div class='abs bd' style='left:56px;top:900px;width:968px;font-weight:700'>{c.u['full']} <span style='background:var(--pb);color:var(--pt);padding:0 10px'>cortexplor.com</span></div>"""))
     return css, s
 
 
@@ -468,7 +384,6 @@ def v_cartao(c: Ctx, pat):
 
 STYLES_B = {
     "jornal": v_jornal,
-    "poster": v_poster,
     "cobalto": v_cobalto,
     "meiatinta": v_meiatinta,
     "cartao": v_cartao,

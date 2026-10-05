@@ -33,9 +33,9 @@ nunca 3 slides iguais seguidos. Na produção, sortear um padrão por matéria.
 - Próximo: gerar o spec automaticamente a partir do JSON da matéria (Routine/Claude), legenda e hashtags, publicação.
 
 
-## Atualização — 10 estilos e spec narrativo
+## Atualização — 8 estilos e spec narrativo
 
-- Estilos (ids em `scripts/social/rotation.py::STYLES`): edicao, terminal, dossie, duotone, jornal, poster, cobalto, meiatinta, cartao, vidro.
+- Estilos (ids em `scripts/social/rotation.py::STYLES`): edicao, terminal, dossie, duotone, jornal, cobalto, meiatinta, cartao.
 - Código: `carousel_core.py` (Ctx/UI/helpers), `styles_a.py` (4 originais), `styles_b.py` (6 novos), CLI `carousel.py`.
 - Princípio de conteúdo: o carrossel é um resumo que faz sentido sozinho, com texto corrido. Slides: 1 capa; 2 "O que aconteceu"; 3 "Como funciona" (3 pontos); 4 "Por que importa" (+ número âncora); 5 "O que vem agora" (3 itens); 6 fontes + CTA.
 - Spec: `social/specs/<slug>.json` (ver exemplos). Render: `python scripts/social/carousel.py --all [estilos]`.
