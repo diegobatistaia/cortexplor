@@ -322,7 +322,8 @@ def check_spec(spec: dict, render: bool = True) -> tuple[list[str], list[str]]:
         out = set()
         for n in names:
             out.add(n.lower())
-            out.add(re.sub(r"\s+(technology|ai|tech)$", "", n.lower()))
+            base = re.sub(r"\s+(technology|ai|tech)$", "", n.lower())
+            out.update({base, re.sub(r"^the\s+", "", base)})  # "The Guardian" citado como "Guardian"
         return out
 
     srcs = short_names()

@@ -103,6 +103,25 @@ Se alguém mexer em `styles_a.py`, `styles_b.py`, `carousel_core.py` ou `carouse
 Saída: `social/out/<slug>/<estilo>/01..06.png`, a folha `folha-<estilo>.png`,
 `legenda-<idioma>.txt` e `alt-<idioma>.txt`. Olhe a folha antes de entregar.
 
+## Rotina diária (várias matérias de uma vez)
+
+```bash
+python scripts/social/diario.py novas            # matérias publicadas hoje no main → specs vazios
+# escreva cada spec (passos 2 a 5 acima)
+python scripts/social/diario.py fechar <slug> ... # rodízio + check + render do estilo + legenda → fila
+python scripts/social/diario.py fila
+```
+
+`novas` traz do `main` só a matéria e a foto de cada carrossel novo (insumo; nada vai
+para o `main`). `fechar` escolhe o estilo pelo rodízio (menos usado entre os
+elegíveis, nunca igual ao anterior), renderiza só esse estilo e põe o carrossel em
+`social/fila.json` como `pendente`.
+
+Aprovação: mande ao dono a folha do estilo escolhido e a legenda de cada pendente
+e espere a resposta. Ele usa o celular: texto simples, sem cartões. Com o "pode",
+rode `diario.py aprovar <slug>`; com recusa, `diario.py descartar <slug>`. Nada é
+publicado sem `aprovado`.
+
 ## O que nunca fazer
 
 - Inventar número, data, aspas ou contexto que não estão na matéria.

@@ -18,7 +18,8 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Geração do spec e da legenda a partir da matéria | Pronta: skill `instagram-carrossel` + `scripts/social/redacao.py` (prepare, check, caption) |
 | Checagem de encaixe do texto nos 8 estilos | Pronta (`scripts/social/fit.py`, roda dentro do `check`) |
 | Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
-| Aprovação manual | A fazer |
+| Rotina diária (matérias do dia → fila) | Pronta: `scripts/social/diario.py` (novas, fechar, fila) |
+| Aprovação manual | Pronta: fila em `social/fila.json`, `diario.py aprovar/descartar`; o dono aprova pelo chat |
 | Publicação pela Instagram Graph API | A fazer (depende de contas e app Meta) |
 | Página de links da bio | Fica para depois, decisão do dono |
 
@@ -209,8 +210,9 @@ Usuário sugerido: `@cortexplor` (PT) e `@cortexplor.en` (EN); disponibilidade n
 
 1. ~~Geração do spec e da legenda~~ (feito em 05/10/2026: skill `instagram-carrossel`, `redacao.py`, `fit.py`).
 2. **Textos fixos em EN** (rótulos dos slides, "Sources", chamada do slide 6) em `carousel_core.py::UI`.
-3. **Integração diária:** para cada matéria do dia, escolher o estilo pelo rodízio (lembrando o último usado), renderizar e salvar slides + legenda por conta.
-4. **Aprovação manual** antes de publicar (página de prévia ou arquivos enviados ao dono).
+3. ~~Integração diária~~ (feito em 05/10/2026: `diario.py`).
+   Antes: para cada matéria do dia, escolher o estilo pelo rodízio (lembrando o último usado), renderizar e salvar slides + legenda por conta.
+4. ~~Aprovação manual~~ (feito em 05/10/2026: fila + aprovação pelo chat). Antes: (página de prévia ou arquivos enviados ao dono).
 5. **Publicação pela Instagram Graph API**, que exige (parte do dono):
    - contas profissionais de Instagram (PT e EN);
    - uma Página do Facebook ligada a cada conta;

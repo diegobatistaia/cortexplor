@@ -1,0 +1,102 @@
+{
+  "slug": "apple-restringe-acesso-total-disco-mac-ia",
+  "lang": "pt",
+  "date": "05 out 2026",
+  "no": 6,
+  "category": "Aplicações",
+  "kicker": "Privacidade · Apple",
+  "headline": "Apple aperta o Full Disk Access do Mac por causa de agentes de IA",
+  "headline_hl": "Full Disk Access",
+  "dek": "Apps só terão acesso total ao Mac com ação explícita do usuário, após o caso do Muse, da Meta, segundo TechCrunch, The Verge e Ars Technica.",
+  "image": {
+    "path": "assets/img/apple-restringe-acesso-total-disco-mac-i-ca0ea420.jpg",
+    "credit": "Dmitry Chernyshov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Vigência<br>sem data",
+  "sources": [
+    "TechCrunch AI",
+    "The Verge AI",
+    "Ars Technica"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Acesso total ao Mac só com aval do usuário",
+    "body": [
+      "A Apple anunciou que vai reforçar o Full Disk Access (acesso total ao disco) do macOS. A permissão abre a um app arquivos, e-mails, mensagens e histórico de navegação (TechCrunch, The Verge, Ars Technica).",
+      "Apps só vão obter esse acesso com “ação explícita” do usuário. A empresa cita os agentes de IA, cada vez mais capazes e autônomos, e não disse quando a mudança começa (TechCrunch, The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Uma permissão feita para backup",
+    "body": "O recurso nasceu para programas de backup, mas, segundo a Apple, hoje há quem o use de formas que põem usuários em risco sem que eles saibam (The Verge).",
+    "points": [
+      {
+        "h": "Passa por cima",
+        "t": "A permissão praticamente contorna os avisos de privacidade que o macOS costuma exibir ao usuário (The Verge)."
+      },
+      {
+        "h": "Lê quase tudo",
+        "t": "Para o pesquisador Patrick Wardle, um app com essa permissão lê qualquer arquivo não protegido, como cookies e conversas (Ars Technica)."
+      },
+      {
+        "h": "Atinge terceiros",
+        "t": "Em apps de comunicação, o abuso pode expor também quem conversa com o dono do Mac, alerta a Apple (Ars Technica)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O caso do Muse acendeu o alerta",
+    "body": [
+      "O colunista Jason Aten, da Inc., relatou que o Muse, assistente da Meta, soube de uma conversa sua no app Mensagens sem permissão explícita (TechCrunch, The Verge, Ars Technica).",
+      "A Meta diz que o acesso é opcional e exige ativar o Full Disk Access e um conector de Mensagens (The Verge). Wardle contesta: com a permissão, o conector é dispensável (Ars Technica)."
+    ],
+    "stat": {
+      "big": "11 dias",
+      "cap": "da falha no Muse revelada por Wardle ao anúncio"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que ainda está em aberto",
+    "items": [
+      {
+        "h": "Sem data",
+        "t": "A Apple não informou quando a exigência de ação explícita entra em vigor (TechCrunch, The Verge)."
+      },
+      {
+        "h": "Amazon",
+        "t": "A Amazon já tinha tirado o Muse da sua loja de apps antes do episódio (Ars Technica)."
+      },
+      {
+        "h": "ChatGPT",
+        "t": "O anúncio vem após a Wired relatar uma falha no app do ChatGPT para Mac que poderia expor dados de usuários (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Apple vai exigir ação explícita do usuário para apps terem Full Disk Access, o acesso total ao Mac, citando agentes de IA.",
+    "body": [
+      "Segundo a Apple, “à medida que os agentes de IA se tornam cada vez mais capazes e autônomos, os riscos associados a esse nível de acesso vão crescer substancialmente”. A frase foi reproduzida por TechCrunch, The Verge e Ars Technica.",
+      "O TechCrunch corrigiu a própria reportagem: a mudança exige consentimento informado e não impõe um novo limite técnico ao que a permissão pode fazer. A Apple não citou a Meta nem qualquer desenvolvedor por nome."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#apple",
+      "#macos",
+      "#privacidade"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Apple exigir ação explícita para o Full Disk Access no Mac",
+    "Slide 2: apps só terão Full Disk Access no macOS com aval explícito do usuário",
+    "Slide 3: por que o Full Disk Access, feito para backup, preocupa a Apple",
+    "Slide 4: o caso do Muse, da Meta, que motivou a mudança no Full Disk Access",
+    "Slide 5: o que segue em aberto na mudança do Full Disk Access do Mac",
+    "Slide 6: fontes sobre o Full Disk Access: TechCrunch, The Verge e Ars Technica"
+  ]
+}
