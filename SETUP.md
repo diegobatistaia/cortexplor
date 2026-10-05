@@ -229,10 +229,8 @@ liga "Sobre" a "About" e "Acerca" no hreflang e no seletor de idioma.
 
 ## 10. Publicação ao longo do dia
 
-O código já suporta três rodadas por dia (coleta às 07h, 12h e 18h no fuso do
-site, Routine 30 minutos depois de cada uma), mas **hoje roda uma só**
-(coleta 03:30, Routine ~04:00). Para ligar as três, três pontos precisam andar
-juntos (os cron já estão comentados nos workflows):
+A coleta roda três vezes por dia (07h, 12h e 18h no fuso do site) e a Routine
+roda 30 minutos depois de cada uma. Três pontos precisam andar juntos:
 
 1. `publishing.run_hours` no `site.config.yaml` (ex.: `[7, 12, 18]`).
 2. Os `cron` do workflow **Coletar** (em UTC; Brasília é UTC-3).

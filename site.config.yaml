@@ -211,8 +211,7 @@ publishing:
   # Horarios (fuso do site) em que a coleta roda. O teto de cada dia e dividido
   # entre as rodadas que ainda faltam. Se mudar aqui, mude o cron do workflow
   # Coletar e o horario da Routine (30 min depois de cada coleta).
-  # Hoje a Routine roda uma vez (coleta 03:30). Para tres rodadas: [7, 12, 18].
-  run_hours: [3]
+  run_hours: [7, 12, 18]
   ramp_gate_pass_rate: 0.80
   ramp_window_days: 14
 
