@@ -14,6 +14,7 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Rodízio de estilos | Pronto (`scripts/social/rotation.py`) |
 | Gerador de slides a partir de spec JSON | Pronto (`scripts/social/carousel.py`) |
 | Padrão de legenda e hashtags | Definido neste documento (seção 4) |
+| Controle de qualidade (validação, layout, fotos, referências) | Pronto (`scripts/social/check.py`, seção 7) |
 | Geração automática do spec e da legenda a partir da matéria | A fazer |
 | Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
 | Aprovação manual | A fazer |
@@ -160,9 +161,26 @@ Fica para depois. A ideia do dono: uma página de links do próprio site, **sem 
 
 ---
 
+## 7. Controle de qualidade (para o dono não precisar monitorar)
+
+Os slides são desenhados por código fixo: o visual não muda de um dia para o outro. O que pode variar é o texto e a foto da matéria. O controle fica em `scripts/social/check.py` e `social/CLAUDE.md` (regras para qualquer Claude que trabalhe aqui).
+
+| Risco | Proteção |
+|---|---|
+| Texto grande demais | `check.py spec`: limites de caracteres e palavras por campo (constantes no topo do arquivo); `check.py build`: o render mede estouro nas bordas, sobreposição de textos e texto cortado em cada slide de cada estilo |
+| Foto ruim | `photo_report`: foto muito escura (luminância < 45) tira o estilo `meiatinta` da matéria; foto menor que 800x500 gera aviso |
+| Texto fora do padrão | Validação do spec e da legenda: 2 a 5 fontes, 3 pontos, 3 itens, 2 parágrafos, sem URL, hashtags, tamanho da legenda, texto alternativo |
+| Alguém mexer no código dos estilos | `check.py golden`: renderiza a matéria de referência em todos os estilos e compara com as imagens aprovadas em `social/golden/`; reprova se mudou |
+| Publicar algo errado | Aprovação manual por carrossel antes de qualquer publicação |
+
+Fluxo por matéria: `check.py build <slug>` (precisa terminar com código 0) → carrossel fica "pendente de aprovação" → dono aprova → publica.
+Teste feito em 05/10/2026: as 16 combinações aprovadas (8 estilos x 2 matérias) passam sem alarmes; um texto propositalmente grande foi pego em todos os estilos testados.
+
+---
+
 ## 6. O que falta (em ordem)
 
-1. **Geração automática do spec e da legenda** a partir do JSON da matéria (Routine/Claude), seguindo a skill `voz-cortexplor`, os orçamentos de texto e as validações da seção 4.6.
+1. **Geração automática do spec e da legenda** a partir do JSON da matéria (Routine/Claude), seguindo a skill `voz-cortexplor`, os limites da seção 7 e as validações da seção 4.6. Cada carrossel só avança se `check.py build` passar.
 2. **Textos fixos em EN** (rótulos dos slides, "Sources", chamada do slide 6) em `carousel_core.py::UI`.
 3. **Integração diária:** para cada matéria do dia, escolher o estilo pelo rodízio (lembrando o último usado), renderizar e salvar slides + legenda por conta.
 4. **Aprovação manual** antes de publicar (página de prévia ou arquivos enviados ao dono).

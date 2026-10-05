@@ -49,7 +49,8 @@ def build(slug, names=None, seed=11):
     for n in names:
         pat = rng.choice(PATTERNS)
         jobs[f"../out/{slug}/{n}"] = STYLES[n](c, pat)
-    L.render(jobs)
+    issues = L.render(jobs)
+    build.issues = issues
     sheets = []
     for n in names:
         dest = OUT / slug / f"folha-{n}.png"
