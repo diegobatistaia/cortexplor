@@ -108,10 +108,10 @@ def v_jornal(c: Ctx, pat):
 def v_poster(c: Ctx, pat):
     d = c.d
     css = """
-.P{font-family:'Archivo',sans-serif;--y:#D8D0BE;--k:#0E0E0E;--w:#F5F2EA;--r:#A8432A}
-.P.y{background:var(--y);color:var(--k);--ac:var(--k);--soft:#262626;--pb:#0E0E0E;--pt:var(--y)}
-.P.k{background:var(--k);color:#fff;--ac:var(--y);--soft:#D9D9D4;--pb:var(--y);--pt:#0E0E0E}
-.P.w{background:var(--w);color:var(--k);--ac:var(--r);--soft:#2A2A2A;--pb:#0E0E0E;--pt:var(--w)}
+.P{font-family:'Archivo',sans-serif;--y:#D8D0BE;--k:#3A362F;--w:#F5F2EA;--r:#A8432A}
+.P.y{background:var(--y);color:var(--k);--ac:var(--k);--soft:#3A362F;--pb:#3A362F;--pt:var(--y)}
+.P.k{background:var(--k);color:#fff;--ac:var(--y);--soft:#D9D9D4;--pb:var(--y);--pt:#3A362F}
+.P.w{background:var(--w);color:var(--k);--ac:var(--r);--soft:#3A362F;--pb:#3A362F;--pt:var(--w)}
 .P .an{font-family:'Anton';text-transform:uppercase;font-weight:400;line-height:.96;letter-spacing:.002em}
 .P .top{position:absolute;left:56px;right:56px;top:44px;display:flex;justify-content:space-between;align-items:center}
 .P .top img{height:36px}
