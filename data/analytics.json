@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-04T11:19:36+00:00",
+  "generated_at": "2026-10-05T17:46:12+00:00",
   "window_days": 28,
   "ga4": {
     "totals": {
-      "active_users": 165,
-      "page_views": 195,
-      "engagement_rate": 0.1371,
-      "avg_session_seconds": 19.3
+      "active_users": 168,
+      "page_views": 278,
+      "engagement_rate": 0.1503,
+      "avg_session_seconds": 51.6
     },
     "top_pages": [
       {
         "path": "/en/",
-        "active_users": 141,
-        "page_views": 145,
-        "engagement_rate": 0.078
+        "active_users": 140,
+        "page_views": 146,
+        "engagement_rate": 0.1056
       },
       {
         "path": "/pt/",
-        "active_users": 5,
-        "page_views": 12,
-        "engagement_rate": 0.4167
+        "active_users": 7,
+        "page_views": 57,
+        "engagement_rate": 0.3704
       },
       {
         "path": "/en/oracle-sends-force-majeure-notice-data-center/?ref=quanta_daily",
@@ -34,10 +34,46 @@
         "engagement_rate": 0.2
       },
       {
+        "path": "/pt/c/mercado/",
+        "active_users": 2,
+        "page_views": 5,
+        "engagement_rate": 1.0
+      },
+      {
         "path": "/en/c/models/",
         "active_users": 5,
         "page_views": 4,
         "engagement_rate": 0.2
+      },
+      {
+        "path": "/en/meta-unveils-muse-charm-ai-wearable/",
+        "active_users": 4,
+        "page_views": 4,
+        "engagement_rate": 0.25
+      },
+      {
+        "path": "/pt/c/aplicacoes/",
+        "active_users": 3,
+        "page_views": 4,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/bio.pt/",
+        "active_users": 2,
+        "page_views": 4,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/pt/c/modelos/",
+        "active_users": 2,
+        "page_views": 4,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/bio.pt/?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlD7JSbCt3IgFrf6Elekq61RE94-WbxzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadojeansHBiOylUWzxs4UK1lt3o-Er9lAjbbbjFp7BDv2ZwkNnySPkvXLfBQQ_aem_1uH0yzdoYioDXSCG8vDx0A",
+        "active_users": 1,
+        "page_views": 4,
+        "engagement_rate": 0.0
       },
       {
         "path": "/en/c/market/",
@@ -46,13 +82,25 @@
         "engagement_rate": 0.2
       },
       {
-        "path": "/en/meta-unveils-muse-charm-ai-wearable/",
+        "path": "/pt/ceo-da-anthropic-pede-desaceleracao-da-ia/",
         "active_users": 2,
-        "page_views": 2,
-        "engagement_rate": 0.5
+        "page_views": 3,
+        "engagement_rate": 1.0
       },
       {
         "path": "/en/oracle-sends-force-majeure-notice-data-center/?ref=quanta_dailyOracle",
+        "active_users": 2,
+        "page_views": 2,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/es/",
+        "active_users": 2,
+        "page_views": 2,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/google-lanca-gemini-4-argon-ciberseguranca/",
         "active_users": 2,
         "page_views": 2,
         "engagement_rate": 1.0
@@ -64,82 +112,87 @@
         "engagement_rate": 0.5
       },
       {
-        "path": "/pt/c/aplicacoes/",
-        "active_users": 1,
-        "page_views": 2,
-        "engagement_rate": 1.0
-      },
-      {
-        "path": "/pt/ceo-da-anthropic-pede-desaceleracao-da-ia/",
-        "active_users": 1,
-        "page_views": 2,
-        "engagement_rate": 1.0
-      },
-      {
-        "path": "/pt/anthropic-lanca-claude-fable-5-1-corta-preco-cache/",
+        "path": "/bio.pt/?fbclid=IwZXh0bgNhZW0CMTEAcGRvZgRzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR4Gifiggm_cIaXhzKGRZa6N-R2jzdGx6kvaQnsdCW7nUSWGg-jxpKUztJCdXQ_aem_AeJCqAAg_xyOzquNt0S8eg",
         "active_users": 1,
         "page_views": 1,
         "engagement_rate": 0.0
       },
       {
-        "path": "/pt/anthropic-lanca-claude-opus-5-5/",
+        "path": "/bio.pt/?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlD7RnS8X6z5NWU26sCV-YXoiedaEilzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAady1F8sLUiooGlsIYmKlRB-NIMkrp43Wr_XwENyq_OweAFlxSI1_YlFKBcOPw_aem_OrZ1iVSrnjvJon4TJGF3Gw",
         "active_users": 1,
         "page_views": 1,
         "engagement_rate": 0.0
       },
       {
-        "path": "/pt/anthropic-lanca-claude-sonnet-5-5/",
+        "path": "/bio.pt/?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlD7oNu3g7t9pwY9TKQujp0Kr1Q2N6FzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAacYyk-pTVJBdPD8-RScGf-FmMJUQ8Vpr9aJP6nmfZiB0DvLz2y2_VNAqJykgA_aem_bgYzjHTwWHegt6rhoyfPVw",
         "active_users": 1,
         "page_views": 1,
         "engagement_rate": 0.0
-      },
-      {
-        "path": "/pt/openai-adia-ipo-por-seguranca/",
-        "active_users": 1,
-        "page_views": 1,
-        "engagement_rate": 1.0
-      },
-      {
-        "path": "/pt/openai-lanca-chatgpt-images-2-5-sketch/",
-        "active_users": 1,
-        "page_views": 1,
-        "engagement_rate": 0.5
       }
     ],
     "by_language": {
       "en": {
-        "active_users": 160,
-        "page_views": 166
+        "active_users": 161,
+        "page_views": 169
       },
       "pt": {
-        "active_users": 13,
-        "page_views": 23
+        "active_users": 31,
+        "page_views": 89
       },
       "es": {
-        "active_users": 5,
-        "page_views": 6
+        "active_users": 7,
+        "page_views": 8
       }
+    },
+    "views_by_path": {
+      "/en/": 146,
+      "/pt/": 57,
+      "/en/oracle-sends-force-majeure-notice-data-center/": 12,
+      "/bio.pt/": 12,
+      "/es/openai-lanza-gpt-6-astra-avanzado/": 6,
+      "/pt/c/mercado/": 5,
+      "/en/c/models/": 4,
+      "/en/meta-unveils-muse-charm-ai-wearable/": 4,
+      "/pt/c/aplicacoes/": 4,
+      "/pt/c/modelos/": 4,
+      "/en/c/market/": 3,
+      "/pt/ceo-da-anthropic-pede-desaceleracao-da-ia/": 3,
+      "/es/": 2,
+      "/pt/google-lanca-gemini-4-argon-ciberseguranca/": 2,
+      "/pt/anthropic-escolhe-accenture-avaliadora-independente/": 2,
+      "/pt/anthropic-lanca-claude-fable-5-1-corta-preco-cache/": 1,
+      "/pt/anthropic-lanca-claude-opus-5-5/": 1,
+      "/pt/anthropic-lanca-claude-sonnet-5-5/": 1,
+      "/pt/apple-restringe-acesso-total-disco-mac-ia/": 1,
+      "/pt/c/politica/": 1,
+      "/pt/contato/": 1,
+      "/pt/openai-adia-ipo-por-seguranca/": 1,
+      "/pt/openai-lanca-chatgpt-images-2-5-sketch/": 1,
+      "/pt/openai-lanca-dots-agentes-permanentes-chatgpt/": 1,
+      "/pt/privacidade/": 1,
+      "/pt/prospecto-ipo-anthropic-perda-42-bilhoes/": 1,
+      "/pt/termos/": 1
     }
   },
   "search_console": {
     "totals": {
       "clicks": 6,
-      "impressions": 745,
-      "ctr": 0.0081,
-      "avg_position": 21.5
+      "impressions": 781,
+      "ctr": 0.0077,
+      "avg_position": 21.0
     },
     "top_queries": [
       {
         "query": "openai",
         "clicks": 5,
-        "impressions": 48,
+        "impressions": 41,
         "avg_position": 1
       },
       {
-        "query": "\"introducing gemini 3.8 flash and 3.8 flash cyber\"",
+        "query": "\"claude opus 5.5\" anthropic",
         "clicks": 0,
         "impressions": 1,
-        "avg_position": 9
+        "avg_position": 10
       },
       {
         "query": "%\"introducing muse\" \"personal ai agent\" meta",
@@ -154,16 +207,22 @@
         "avg_position": 89
       },
       {
+        "query": "agente de meta muse",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 80
+      },
+      {
         "query": "ai charm",
         "clicks": 0,
         "impressions": 2,
         "avg_position": 69
       },
       {
-        "query": "alek kemeny anthropic linkedin",
+        "query": "ai keychain",
         "clicks": 0,
         "impressions": 1,
-        "avg_position": 10
+        "avg_position": 72
       },
       {
         "query": "amazon quick",
@@ -178,10 +237,10 @@
         "avg_position": 66
       },
       {
-        "query": "anthropic model hardware standard",
+        "query": "anthropic ipo reveals $42 billion loss",
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 80.5
+        "impressions": 23,
+        "avg_position": 9.4
       },
       {
         "query": "app gemini windows",
@@ -242,29 +301,23 @@
         "clicks": 0,
         "impressions": 1,
         "avg_position": 70
-      },
-      {
-        "query": "chatgpt advertising revenue milestone",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 84
       }
     ],
     "top_pages": [
       {
         "page": "https://cortexplor.com/es/openai-lanza-gpt-6-astra-avanzado/",
         "clicks": 5,
-        "impressions": 55
+        "impressions": 47
       },
       {
         "page": "https://cortexplor.com/en/meta-unveils-muse-charm-ai-wearable/",
         "clicks": 1,
-        "impressions": 32
+        "impressions": 39
       },
       {
         "page": "https://cortexplor.com/en/amazon-blocks-metas-shopping-ai-agent/",
         "clicks": 0,
-        "impressions": 25
+        "impressions": 34
       },
       {
         "page": "https://cortexplor.com/en/amazon-quick-general-availability-desktop/",
@@ -282,6 +335,16 @@
         "impressions": 1
       },
       {
+        "page": "https://cortexplor.com/en/anthropic-ipo-prospectus-42-billion-loss/",
+        "clicks": 0,
+        "impressions": 25
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-launches-claude-sonnet-5-5/",
+        "clicks": 0,
+        "impressions": 19
+      },
+      {
         "page": "https://cortexplor.com/en/anthropic-merges-claude-cowork-interface/",
         "clicks": 0,
         "impressions": 1
@@ -289,7 +352,7 @@
       {
         "page": "https://cortexplor.com/en/anthropic-model-hardware-standard-ai-agents/",
         "clicks": 0,
-        "impressions": 10
+        "impressions": 7
       },
       {
         "page": "https://cortexplor.com/en/anthropic-picks-accenture-embedded-evaluator/",
@@ -314,12 +377,17 @@
       {
         "page": "https://cortexplor.com/en/google-launches-first-ai-satellite-into-space/",
         "clicks": 0,
-        "impressions": 12
+        "impressions": 23
       },
       {
         "page": "https://cortexplor.com/en/google-launches-gemini-3-8-flash-cyber/",
         "clicks": 0,
-        "impressions": 19
+        "impressions": 13
+      },
+      {
+        "page": "https://cortexplor.com/en/google-launches-gemini-4-argon-cybersecurity/",
+        "clicks": 0,
+        "impressions": 1
       },
       {
         "page": "https://cortexplor.com/en/google-launches-native-gemini-app-windows/",
@@ -335,21 +403,6 @@
         "page": "https://cortexplor.com/en/google-tests-gemini-calling-businesses-for-you/",
         "clicks": 0,
         "impressions": 6
-      },
-      {
-        "page": "https://cortexplor.com/en/gpt-6-astra-now-available-on-amazon-bedrock/",
-        "clicks": 0,
-        "impressions": 1
-      },
-      {
-        "page": "https://cortexplor.com/en/meta-launches-muse-personal-ai-agent/",
-        "clicks": 0,
-        "impressions": 9
-      },
-      {
-        "page": "https://cortexplor.com/en/nvidia-acquires-hugging-face-13-billion/",
-        "clicks": 0,
-        "impressions": 3
       }
     ]
   }
