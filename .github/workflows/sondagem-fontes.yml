@@ -1,0 +1,39 @@
+name: Sondagem fontes (temporário)
+on:
+  push:
+    branches: [fontes-oficiais]
+jobs:
+  sondar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q requests beautifulsoup4 feedparser PyYAML
+      - run: |
+          python - <<'PY'
+          from scripts.engine.collect import fetch_listing
+          import requests
+          from bs4 import BeautifulSoup
+          from urllib.parse import urljoin
+          cands = [
+            ("Anthropic", "https://www.anthropic.com/news", "/news/"),
+            ("Mistral", "https://mistral.ai/news", "/news/"),
+            ("xAI", "https://x.ai/news", "/news/"),
+            ("DeepSeek", "https://api-docs.deepseek.com/", "/news/"),
+            ("DeepSeek2", "https://api-docs.deepseek.com/news/news250120", "/news/"),
+            ("Perplexity", "https://www.perplexity.ai/hub", "/hub/blog/"),
+            ("Perplexity2", "https://www.perplexity.ai/hub/blog", "/hub/blog/"),
+          ]
+          for name, url, prefix in cands:
+              try:
+                  r = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (compatible; CortexplorBot/1.0; +https://cortexplor.com)"}, timeout=20)
+                  hrefs = sorted({a["href"] for a in BeautifulSoup(r.text, "html.parser").find_all("a", href=True)})
+                  print(f"== {name} {r.status_code} {len(r.text)} bytes; {len(hrefs)} links; amostra: {[h for h in hrefs if prefix.strip('/') in h][:8]}")
+              except Exception as e:
+                  print(f"== {name} ERRO {e}")
+                  continue
+              its = fetch_listing({"name": name, "url": url, "link_prefix": prefix, "owner": name.lower(), "kind": "primary"})
+              for i in its[:6]:
+                  print("   ", i["published_at"][:10], i["title"][:80])
+          PY

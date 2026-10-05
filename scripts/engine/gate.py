@@ -13,6 +13,29 @@ from .seo import body_text
 from .util import longest_common_run, similarity, word_count
 
 
+def primary_owners(cfg: Config) -> set[str]:
+    """Donos com canal oficial configurado (fontes `kind: primary`)."""
+    return {s["owner"] for s in cfg.get("sources.rss", []) if s.get("kind") == "primary"}
+
+
+def official_announcement_problems(post: dict, cfg: Config) -> list[str]:
+    """Matéria marcada como anúncio oficial: vale com uma fonte só, a da empresa.
+
+    Decisão do dono em 05/10/2026: quando a notícia é o anúncio que a própria
+    empresa publicou no canal oficial dela (o blog da OpenAI anunciando o
+    produto da OpenAI), o canal oficial é a prova do fato "a empresa anunciou
+    isso". O texto atribui tudo à empresa; o que for afirmação sobre terceiros
+    continua exigindo duas fontes.
+    """
+    if not cfg.get("quality_gate.official_announcement_alone", False):
+        return ["anúncio oficial como fonte única está desligado em quality_gate"]
+    oficiais = primary_owners(cfg)
+    citadas = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
+    if not citadas & oficiais:
+        return ["marcada como anúncio oficial, mas nenhuma fonte é canal oficial (kind: primary)"]
+    return []
+
+
 def check_sources(post: dict, cfg: Config) -> list[str]:
     # Exceção editorial: o dono do site pode autorizar, ao vivo numa conversa,
     # a publicação de UMA matéria específica com uma única fonte primária - o
@@ -29,6 +52,8 @@ def check_sources(post: dict, cfg: Config) -> list[str]:
     minimum = cfg.get("quality_gate.min_independent_sources", 2)
     owners = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
     if len(owners) < minimum:
+        if post.get("fonte_unica") == "anuncio_oficial":
+            return official_announcement_problems(post, cfg)
         return [f"apenas {len(owners)} fonte(s) independente(s), mínimo {minimum}"]
     return []
 

@@ -58,8 +58,15 @@ def cmd_brief(cfg, args) -> int:
     banner("1. Coleta")
     stories = collect.run(cfg)
     minimum = cfg.get("quality_gate.min_independent_sources", 2)
+    oficial = cfg.get("quality_gate.official_announcement_alone", False)
+    # Duas fontes independentes primeiro; depois, se ligado, o anúncio que só
+    # o canal oficial da empresa trouxe (vale como fonte única, ver gate.py).
     plausible = [s for s in stories if s["owner_count"] >= minimum]
-    print(f"\n{len(stories)} pautas coletadas, {len(plausible)} com {minimum}+ fontes independentes")
+    so_oficial = [s for s in stories if s["owner_count"] < minimum and s.get("primary_owners")]
+    print(f"\n{len(stories)} pautas coletadas, {len(plausible)} com {minimum}+ fontes independentes"
+          + (f", {len(so_oficial)} só com o anúncio oficial" if oficial else ""))
+    if oficial:
+        plausible += so_oficial
 
     daily_cap = cfg.posts_per_language(date.today())
     tz_name = cfg.get("site.timezone", "UTC")
@@ -100,6 +107,7 @@ def cmd_brief(cfg, args) -> int:
         "daily_cap_per_language": daily_cap,
         "already_written_today": used,
         "min_independent_sources": minimum,
+        "official_announcement_alone": oficial,
         "languages": cfg.languages,
         "categories_by_language": {
             lang: [{"key": c["key"], "label": c["label"]} for c in cfg.categories(lang)]
@@ -285,7 +293,10 @@ def draft_problems(post: dict, cfg) -> list[str]:
         owners = {s.get("owner") for s in post.get("sources", []) if s.get("owner")}
         minimum = cfg.get("quality_gate.min_independent_sources", 2)
         if len(owners) < minimum:
-            problems.append(f"{len(owners)} fonte(s) independente(s), mínimo {minimum}")
+            if post.get("fonte_unica") == "anuncio_oficial":
+                problems.extend(gate.official_announcement_problems(post, cfg))
+            else:
+                problems.append(f"{len(owners)} fonte(s) independente(s), mínimo {minimum}")
 
     text = " ".join(b.get("text", "") for b in blocks).lower()
     if not any(s.get("name", "").split()[0].lower() in text for s in post.get("sources", [])):
