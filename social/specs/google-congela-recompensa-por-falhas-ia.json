@@ -1,0 +1,103 @@
+{
+  "slug": "google-congela-recompensa-por-falhas-ia",
+  "lang": "pt",
+  "date": "05 out 2026",
+  "no": 8,
+  "category": "Aplicações",
+  "kicker": "Segurança · Google",
+  "headline": "Google congela recompensa por falhas por causa da IA",
+  "headline_hl": "recompensa por falhas",
+  "dek": "O programa parou por excesso de relatórios automatizados e inválidos, segundo TechCrunch e BleepingComputer.",
+  "image": {
+    "path": "assets/img/google-congela-recompensa-por-falhas-ia-61929af3.jpg",
+    "credit": "Jakub Żerdzicki / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Pausa<br>01/10",
+  "sources": [
+    "TechCrunch",
+    "BleepingComputer",
+    "Help Net Security",
+    "Infosecurity Magazine"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Novos relatórios pararam de entrar",
+    "body": [
+      "Desde 01/10, o Google não aceita novos relatórios de falhas de produto no OSS VRP, seu programa de recompensas para software de código aberto (TechCrunch, BleepingComputer).",
+      "A empresa diz que houve “um aumento significativo de envios automatizados, a grande maioria dos quais não é válida”. O aviso saiu no X e no site Bug Hunters (Help Net Security)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Cada relatório exige uma pessoa",
+    "body": "Programas de recompensa pagam quem acha uma brecha de segurança antes de alguém explorá-la. Mas cada envio precisa ser conferido à mão.",
+    "points": [
+      {
+        "h": "Reproduzir",
+        "t": "Alguém da equipe ou um mantenedor do projeto tenta repetir o problema descrito no relatório."
+      },
+      {
+        "h": "Confirmar",
+        "t": "Se a falha não existe, todo o trabalho de checagem é descartado e a fila anda mais devagar."
+      },
+      {
+        "h": "Alucinação",
+        "t": "Engenheiros e mantenedores recebiam relatórios com trechos inventados pela IA (TechCrunch, citando o Tom's Hardware)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Enviar ficou barato, checar não",
+    "body": [
+      "O OSS VRP existe desde agosto de 2022 e cobre projetos como Go, Angular e Protocol Buffers (BleepingComputer, Help Net Security).",
+      "A pausa veio após meses de queixas sobre envios de baixa qualidade feitos com IA em programas de recompensa e projetos abertos (Help Net Security). O Google não disse quantos relatórios recebeu."
+    ],
+    "stat": {
+      "big": "US$ 31.337",
+      "cap": "teto pago por falha no programa (BleepingComputer)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que segue aberto",
+    "items": [
+      {
+        "h": "Anteriores",
+        "t": "Relatórios enviados antes da pausa continuam em análise (BleepingComputer, Help Net Security)."
+      },
+      {
+        "h": "Outros",
+        "t": "Cloud VRP e Patch Rewards Program seguem recebendo relatórios (BleepingComputer, Infosecurity Magazine)."
+      },
+      {
+        "h": "2027",
+        "t": "O Google promete uma atualização no primeiro trimestre de 2027 e quer reformular o programa (Infosecurity Magazine)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Google congelou seu programa de recompensa por falhas em código aberto, o OSS VRP, após uma onda de relatórios de IA.",
+    "body": [
+      "O programa paga de US$ 100 a US$ 31.337 por falha, conforme a gravidade e a importância do projeto, segundo BleepingComputer e Infosecurity Magazine.",
+      "Relatórios sobre a cadeia de suprimentos de software, ou seja, a forma como o código é montado e distribuído, ficaram fora da pausa, segundo o BleepingComputer. O Google orienta os pesquisadores a usar os outros programas enquanto este estiver parado."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#bugbounty",
+      "#codigoaberto"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Google congelar o programa de recompensa por falhas OSS VRP",
+    "Slide 2: desde 01/10 o OSS VRP do Google não aceita novos relatórios de falhas",
+    "Slide 3: como relatórios feitos por IA sobrecarregam quem confere cada falha",
+    "Slide 4: por que a pausa do OSS VRP importa e quanto o programa paga",
+    "Slide 5: o que segue aberto e a atualização do OSS VRP prevista para 2027",
+    "Slide 6: fontes sobre a pausa do OSS VRP: TechCrunch, BleepingComputer e outras"
+  ]
+}
