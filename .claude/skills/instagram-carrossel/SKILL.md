@@ -122,9 +122,22 @@ e espere a resposta. Ele usa o celular: texto simples, sem cartões. Com o "pode
 rode `diario.py aprovar <slug>`; com recusa, `diario.py descartar <slug>`. Nada é
 publicado sem `aprovado`.
 
+## Publicar (só o que está `aprovado`)
+
+```bash
+python scripts/social/publicar.py midia <slug> --repo /home/claude/cortexplor-midia
+git -C /home/claude/cortexplor-midia add -A && git -C /home/claude/cortexplor-midia commit -m "<slug>" && git -C /home/claude/cortexplor-midia push
+python scripts/social/publicar.py pedir <slug>   # depois: commit e push de social/publicar/pedido.json no branch instagram
+```
+
+O push do pedido dispara `.github/workflows/instagram.yml`, que publica com o secret
+`INSTAGRAM_TOKEN` e grava `publicado` na fila e o resultado em `social/publicar/ultimo.json`.
+Um pedido por vez, espaçados ao longo do dia. `pedir --teste` só confere a chave.
+Antes de publicar, confirme que o dono não postou à mão.
+
 ## O que nunca fazer
 
 - Inventar número, data, aspas ou contexto que não estão na matéria.
 - Opinar, prever como fato, ou deduzir "o que isso significa para o Brasil" sem fonte.
-- Publicar no Instagram: a publicação passa pela aprovação manual do dono.
+- Publicar no Instagram o que não está `aprovado` na fila.
 - Commitar no `main`.
