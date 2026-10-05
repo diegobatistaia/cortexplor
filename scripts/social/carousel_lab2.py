@@ -40,12 +40,13 @@ def ticks(n, on, off, h=8, gap=10, bottom=52, right=64):
 
 
 import os
-# Cor do duotone (escuro, meio, claro); trocar com DUO=ambar|terracota|cinza
+# Cor do duotone (escuro, meio, claro); trocar com DUO=azul|ambar|terracota|cinza
 DUO = {
+    "azul": ((20, 19, 15), (74, 86, 106), (205, 212, 222)),  # original aprovado
     "ambar": ((24, 18, 10), (150, 100, 36), (250, 224, 165)),
     "terracota": ((26, 15, 13), (156, 70, 52), (246, 208, 190)),
     "cinza": ((20, 19, 15), (88, 86, 80), (214, 212, 205)),
-}[os.environ.get("DUO", "ambar")]
+}[os.environ.get("DUO", "azul")]
 
 
 def duotone(box, size, name, dark=None, mid=None, light=None):
