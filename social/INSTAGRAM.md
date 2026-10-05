@@ -169,18 +169,24 @@ Fica para depois. A ideia do dono: uma página de links do próprio site, **sem 
 
 ## 7. Controle de qualidade (para o dono não precisar monitorar)
 
-Os slides são desenhados por código fixo: o visual não muda de um dia para o outro. O que pode variar é o texto e a foto da matéria. O controle fica em `scripts/social/check.py` e `social/CLAUDE.md` (regras para qualquer Claude que trabalhe aqui).
+Os slides são desenhados por código fixo: o visual não muda de um dia para o outro. O que pode variar é o texto e a foto da matéria. Duas ferramentas, e `social/CLAUDE.md` com as regras para qualquer Claude que trabalhe aqui.
+
+- **`scripts/social/redacao.py check <slug>`** (spec, legenda e encaixe): limites de texto, fontes iguais às da matéria, todo número presente na matéria, lista negra, legenda sem link e com hashtags corretas, e medição no navegador de estouro, sobreposição e texto cortado em todos os estilos (`fit.py`).
+- **`scripts/social/check.py`** (foto e referências):
+  - `photo <slug>`: foto muito escura (luminância < 45) tira o estilo `meiatinta` da matéria; foto menor que 800x500 gera aviso.
+  - `build <slug>`: roda `redacao.py check`, a análise da foto e renderiza só os estilos elegíveis.
+  - `golden`: renderiza uma matéria de referência congelada (`social/golden/spec-referencia.json`) em todos os estilos e compara com as imagens aprovadas em `social/golden/`; reprova se algum estilo mudou. `golden --update` só com aprovação do dono.
 
 | Risco | Proteção |
 |---|---|
-| Texto grande demais | `check.py spec`: limites de caracteres e palavras por campo (constantes no topo do arquivo); `check.py build`: o render mede estouro nas bordas, sobreposição de textos e texto cortado em cada slide de cada estilo |
-| Foto ruim | `photo_report`: foto muito escura (luminância < 45) tira o estilo `meiatinta` da matéria; foto menor que 800x500 gera aviso |
-| Texto fora do padrão | Validação do spec e da legenda: 2 a 5 fontes, 3 pontos, 3 itens, 2 parágrafos, sem URL, hashtags, tamanho da legenda, texto alternativo |
-| Alguém mexer no código dos estilos | `check.py golden`: renderiza a matéria de referência em todos os estilos e compara com as imagens aprovadas em `social/golden/`; reprova se mudou |
+| Texto grande demais | `redacao.py check`: limites + medição de encaixe em todos os estilos |
+| Foto ruim | `check.py photo` (escura, pequena) |
+| Texto fora do padrão | `redacao.py check` (fatos, números, voz, legenda) |
+| Alguém mexer no código dos estilos | `check.py golden` |
 | Publicar algo errado | Aprovação manual por carrossel antes de qualquer publicação |
 
-Fluxo por matéria: `check.py build <slug>` (precisa terminar com código 0) → carrossel fica "pendente de aprovação" → dono aprova → publica.
-Teste feito em 05/10/2026: as 16 combinações aprovadas (8 estilos x 2 matérias) passam sem alarmes; um texto propositalmente grande foi pego em todos os estilos testados.
+Fluxo por matéria: `check.py build <slug>` (precisa terminar sem erro) → carrossel fica "pendente de aprovação" → dono aprova → publica.
+Teste de 05/10/2026: os 8 estilos passam na comparação com as referências; uma troca de cor em um estilo foi detectada (diferença 8,8 contra 0,2 normal).
 
 ---
 

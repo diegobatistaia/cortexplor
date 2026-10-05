@@ -40,8 +40,8 @@ def sheet(folder: Path, dest: Path):
     w.save(dest)
 
 
-def build(slug, names=None, seed=11):
-    spec = json.loads((SPECS / f"{slug}.json").read_text(encoding="utf-8"))
+def build(slug, names=None, seed=11, spec=None):
+    spec = spec or json.loads((SPECS / f"{slug}.json").read_text(encoding="utf-8"))
     c = Ctx(spec)
     rng = random.Random(f"{slug}-{seed}")
     names = names or list(STYLES)
@@ -49,8 +49,7 @@ def build(slug, names=None, seed=11):
     for n in names:
         pat = rng.choice(PATTERNS)
         jobs[f"../out/{slug}/{n}"] = STYLES[n](c, pat)
-    issues = L.render(jobs)
-    build.issues = issues
+    L.render(jobs)
     sheets = []
     for n in names:
         dest = OUT / slug / f"folha-{n}.png"

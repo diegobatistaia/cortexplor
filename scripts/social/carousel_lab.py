@@ -597,45 +597,7 @@ STYLES = {
 }
 
 
-
-LAYOUT_JS = """
-() => {
-  const W = 1080, LIMIT = 1292, out = [];
-  const sl = document.querySelector('.slide');
-  const skip = new Set(['STYLE','SCRIPT','svg','path','IMG']);
-  const els = [...sl.querySelectorAll('*')].filter(e => !skip.has(e.tagName) &&
-    [...e.childNodes].some(n => n.nodeType === 3 && n.textContent.trim().length > 0));
-  const rectsOf = e => { const r = document.createRange(); r.selectNodeContents(e);
-    return [...r.getClientRects()].filter(b => b.width > 2 && b.height > 2).map(b => {
-      const pad = b.height * 0.18; return {left: b.left, right: b.right, top: b.top + pad, bottom: b.bottom - pad}; }); };
-  const items = els.map(e => ({e, rs: rectsOf(e)})).filter(x => x.rs.length);
-  const label = e => (e.className || e.tagName) + ': ' + e.textContent.trim().slice(0, 40);
-  for (const {e, rs} of items) {
-    if (rs.some(b => b.right > W - 24 || b.left < 24)) out.push(['lateral', label(e)]);
-    if (rs.some(b => b.bottom > LIMIT)) out.push(['inferior', label(e)]);
-  }
-  for (let i = 0; i < items.length; i++) for (let j = i + 1; j < items.length; j++) {
-    const a = items[i], c = items[j];
-    if (a.e.contains(c.e) || c.e.contains(a.e)) continue;
-    let hit = false;
-    for (const x of a.rs) { for (const y of c.rs) {
-      const w = Math.min(x.right, y.right) - Math.max(x.left, y.left);
-      const h = Math.min(x.bottom, y.bottom) - Math.max(x.top, y.top);
-      if (w > 6 && h > 3) { hit = true; break; } } if (hit) break; }
-    if (hit) out.push(['sobreposicao', label(a.e) + ' x ' + label(c.e)]);
-  }
-  for (const e of sl.querySelectorAll('*')) {
-    const cs = getComputedStyle(e);
-    if ((cs.overflow === 'hidden' || cs.overflowY === 'hidden') && e !== sl && e.scrollHeight > e.clientHeight + 4 && e.textContent.trim())
-      out.push(['cortado', label(e)]);
-  }
-  return out;
-}
-"""
-
 def render(jobs: dict[str, tuple[str, list[str]]]):
-    """Renderiza os slides e devolve a lista de problemas de layout (estouro, sobreposição, corte)."""
-    issues = []
     from playwright.sync_api import sync_playwright
 
     HTML.mkdir(parents=True, exist_ok=True)
@@ -656,11 +618,8 @@ def render(jobs: dict[str, tuple[str, list[str]]]):
                 pg.goto(f.as_uri())
                 pg.evaluate("document.fonts.ready.then(() => true)")
                 pg.wait_for_timeout(200)
-                for kind, what in pg.evaluate(LAYOUT_JS):
-                    issues.append((name.split('/')[-1], i, kind, what))
                 pg.screenshot(path=str(out / f"{i:02d}.png"))
         b.close()
-    return issues
 
 
 def main(argv):
