@@ -1,0 +1,140 @@
+{
+  "lang": "es",
+  "slug": "google-congela-recompensas-fallos-informes-ia",
+  "story_id": "1a3150c16e036561",
+  "title": "Google congela su programa de recompensas por fallos por informes de IA",
+  "dek": "La empresa dejó de aceptar nuevos informes en su programa para software de código abierto y afirma que la mayoría de los envíos automatizados no eran válidos.",
+  "meta_description": "Google suspendió el programa que paga por fallos en su software de código abierto tras un alza de informes automatizados, casi todos no válidos. Vuelve en 2027.",
+  "keyword": "Google programa de recompensas por fallos IA",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "google",
+    "seguridad",
+    "codigo-abierto",
+    "bug-bounty"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google dejó de aceptar, desde el 1 de octubre de 2026, nuevos informes de vulnerabilidades en su programa de recompensas para software de código abierto, el OSS VRP. Según TechCrunch y BleepingComputer, la empresa atribuyó la pausa a un fuerte aumento de envíos automatizados, en su gran mayoría no válidos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google comunicó la decisión en X y en su sitio Bug Hunters. En la declaración, citada por Help Net Security e Infosecurity Magazine, la compañía afirma que la pausa se debe a \"un aumento significativo de envíos automatizados, la gran mayoría de los cuales no son válidos\". La empresa promete una actualización sobre el programa en el primer trimestre de 2027.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Qué es el programa y cuánto paga",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los programas de recompensas por fallos, conocidos como bug bounty, pagan a investigadores independientes que encuentran y reportan brechas de seguridad antes de que alguien las aproveche. Para la empresa, pagar a quien detecta el defecto sale más barato que responder a un ataque.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El OSS VRP se lanzó en agosto de 2022 y paga entre 100 y 31.337 dólares por fallo, según la gravedad y la importancia del proyecto, de acuerdo con BleepingComputer e Infosecurity Magazine. Cubre proyectos de código abierto mantenidos por Google, como el lenguaje Go, el framework Angular y Protocol Buffers, un formato para intercambiar datos entre sistemas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por qué los informes automatizados son un problema",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Cada informe recibido lo tiene que revisar una persona. Alguien del equipo de seguridad o un mantenedor del proyecto debe reproducir el problema, confirmar que el fallo existe y decidir si corresponde un pago. Si el informe es falso, todo ese trabajo se pierde.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La IA generativa permite redactar en segundos informes con apariencia técnica, incluso sobre fallos que no existen. TechCrunch, citando a Tom's Hardware, relata que ingenieros de Google y mantenedores de proyectos abiertos venían recibiendo muchos informes no válidos con contenido inventado por la IA, las llamadas alucinaciones. Help Net Security señala que la pausa llega tras meses de quejas por envíos de baja calidad hechos con ayuda de IA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google no informó cuántos informes recibió ni qué proporción era inválida. Su declaración habla solo de la \"gran mayoría\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El desequilibrio explica la decisión. Enviar un informe ahora cuesta casi nada, mientras que verificarlo sigue exigiendo horas de trabajo especializado. Cuando crece el volumen de informes falsos, el costo recae sobre el equipo que los revisa, y los informes válidos esperan más tiempo en la misma fila.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Qué sigue funcionando",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La pausa afecta a los informes de vulnerabilidades de producto dentro del OSS VRP. Según BleepingComputer, Help Net Security e Infosecurity Magazine, quedan fuera de la suspensión:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "los informes enviados antes del 1 de octubre de 2026, que siguen en análisis;",
+        "los informes sobre la cadena de suministro de software, es decir, fallos en cómo se construye y distribuye el código, según BleepingComputer e Infosecurity Magazine;",
+        "el Cloud VRP, que cubre los repositorios de código abierto de Google Cloud;",
+        "el Patch Rewards Program, que paga por mejoras de seguridad en proyectos abiertos."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Google recomienda a los investigadores usar esos programas mientras el OSS VRP siga detenido. Infosecurity Magazine informa que la empresa planea reformular el programa antes de reabrirlo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Qué cambia para el mercado hispanohablante",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para empresas y desarrolladores de España y América Latina que usan Go, Angular o Protocol Buffers, el software no cambia: los proyectos siguen mantenidos y las correcciones se siguen publicando. Lo que queda suspendido, hasta la actualización prevista para el primer trimestre de 2027, es el pago a quien encuentre nuevos fallos de producto en esos proyectos a través del OSS VRP.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los investigadores de la región que participan en estos programas deben dirigir sus hallazgos a los canales que siguen abiertos. Google no explicó qué criterios usará el programa reformulado para filtrar los envíos automatizados.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "computer code security screen dark",
+    "alt": "Pantalla de ordenador con líneas de código sobre fondo oscuro"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "title": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions"
+    },
+    {
+      "name": "BleepingComputer",
+      "owner": "bleepingcomputer",
+      "url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+      "title": "Google halts open-source bug bounty program amid AI spam surge"
+    },
+    {
+      "name": "Help Net Security",
+      "owner": "help-net-security",
+      "url": "https://www.helpnetsecurity.com/2026/10/05/google-ai-generated-vulnerability-reports-pause/",
+      "title": "AI slop submissions force Google to freeze its open-source bug bounty"
+    },
+    {
+      "name": "Infosecurity Magazine",
+      "owner": "infosecurity-magazine",
+      "url": "https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/",
+      "title": "Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports"
+    }
+  ],
+  "status": "draft"
+}
