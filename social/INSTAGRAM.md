@@ -15,7 +15,8 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Gerador de slides a partir de spec JSON | Pronto (`scripts/social/carousel.py`) |
 | Padrão de legenda e hashtags | Definido neste documento (seção 4) |
 | Controle de qualidade (validação, layout, fotos, referências) | Pronto (`scripts/social/check.py`, seção 7) |
-| Geração automática do spec e da legenda a partir da matéria | A fazer |
+| Geração do spec e da legenda a partir da matéria | Pronta: skill `instagram-carrossel` + `scripts/social/redacao.py` (prepare, check, caption) |
+| Checagem de encaixe do texto nos 8 estilos | Pronta (`scripts/social/fit.py`, roda dentro do `check`) |
 | Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
 | Aprovação manual | A fazer |
 | Publicação pela Instagram Graph API | A fazer (depende de contas e app Meta) |
@@ -86,6 +87,10 @@ Exemplos reais: `social/specs/google-lanca-gemini-4-argon-ciberseguranca.json` e
 
 ### 2.6 Como gerar
 ```
+python scripts/social/redacao.py prepare <slug>   # cria o spec a partir da matéria
+# (a redação escreve os campos; ver skill instagram-carrossel)
+python scripts/social/redacao.py check <slug>     # valida e mede o encaixe
+python scripts/social/redacao.py caption <slug>   # legenda-<idioma>.txt e alt-<idioma>.txt
 python scripts/social/carousel.py <slug> [estilo ...]
 python scripts/social/carousel.py --all [estilo ...]
 ```
@@ -152,7 +157,8 @@ Sem excesso de emojis (no máximo 1, opcional).
 "alt": ["slide 1…", "slide 2…", "slide 3…", "slide 4…", "slide 5…", "slide 6…"]
 ```
 Montagem final: `hook` + `body` + `cta` + "Matéria completa no link da bio." + linha em branco + hashtags.
-Validações automáticas planejadas: hook ≤ 125 caracteres; corpo entre 600 e 800; até 4 hashtags; nenhum "http" ou domínio; alt ≤ 100 caracteres cada.
+Validações automáticas (`python scripts/social/redacao.py check <slug>`): hook ≤ 125 caracteres; legenda montada sem as hashtags entre 600 e 800; 2 a 4 hashtags, `#cortexplor` primeiro, minúsculas, sem genéricas; nenhum link ou domínio; alt com 6 itens começando por "Slide N: ", ≤ 100 caracteres cada; variante da chamada coerente com o `no` (A ímpar, B par; B com texto fixo, A uma pergunta só).
+Também confere: orçamentos dos slides, fontes iguais às da matéria, todo número presente na matéria, trecho com número sempre com fonte, lista negra e "você" fora da chamada, nada de exclamação, legenda sem repetir frase do carrossel e, por fim, se o texto cabe nos slides dos 8 estilos (medido no Chromium: texto fora da tela, sobreposto, cortado ou invadindo o rodapé).
 
 ---
 
@@ -180,7 +186,7 @@ Teste feito em 05/10/2026: as 16 combinações aprovadas (8 estilos x 2 matéria
 
 ## 6. O que falta (em ordem)
 
-1. **Geração automática do spec e da legenda** a partir do JSON da matéria (Routine/Claude), seguindo a skill `voz-cortexplor`, os limites da seção 7 e as validações da seção 4.6. Cada carrossel só avança se `check.py build` passar.
+1. ~~Geração do spec e da legenda~~ (feito em 05/10/2026: skill `instagram-carrossel`, `redacao.py`, `fit.py`).
 2. **Textos fixos em EN** (rótulos dos slides, "Sources", chamada do slide 6) em `carousel_core.py::UI`.
 3. **Integração diária:** para cada matéria do dia, escolher o estilo pelo rodízio (lembrando o último usado), renderizar e salvar slides + legenda por conta.
 4. **Aprovação manual** antes de publicar (página de prévia ou arquivos enviados ao dono).
