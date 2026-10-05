@@ -39,7 +39,17 @@ def ticks(n, on, off, h=8, gap=10, bottom=52, right=64):
     return f"<div class='abs' style='left:64px;right:{right}px;bottom:{bottom}px;display:flex;gap:{gap}px'>{segs}</div>"
 
 
-def duotone(box, size, name, dark=(20, 19, 15), mid=(88, 86, 80), light=(214, 212, 205)):
+import os
+# Cor do duotone (escuro, meio, claro); trocar com DUO=ambar|terracota|cinza
+DUO = {
+    "ambar": ((24, 18, 10), (150, 100, 36), (250, 224, 165)),
+    "terracota": ((26, 15, 13), (156, 70, 52), (246, 208, 190)),
+    "cinza": ((20, 19, 15), (88, 86, 80), (214, 212, 205)),
+}[os.environ.get("DUO", "ambar")]
+
+
+def duotone(box, size, name, dark=None, mid=None, light=None):
+    dark, mid, light = dark or DUO[0], mid or DUO[1], light or DUO[2]
     d = L.HT
     d.mkdir(parents=True, exist_ok=True)
     out = d / f"{name}.png"
@@ -362,7 +372,7 @@ def v_dossie(pat=None):
 # ==========================================================================
 def v_duotone():
     cover = duotone((420, 0, 996, 720), (1080, 1350), "d_cover")
-    band = duotone((0, 120, 1080, 600), (1080, 560), "d_band", mid=(92, 90, 84))
+    band = duotone((0, 120, 1080, 600), (1080, 560), "d_band")
     strip = duotone((560, 0, 860, 720), (400, 960), "d_strip")
     css = """
 .D{background:#FFFEFB;color:#14130F;font-family:'Space Grotesk',sans-serif}
