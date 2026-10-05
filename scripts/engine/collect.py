@@ -76,7 +76,7 @@ def fetch_listing(source: dict, timeout: int = 20) -> list[dict]:
     prefix = source.get("link_prefix", "/")
     links: list[str] = []
     for a in BeautifulSoup(page.text, "html.parser").find_all("a", href=True):
-        url = urljoin(source["url"], a["href"]).split("#")[0].split("?")[0]
+        url = urljoin(source["url"], a["href"]).split("#")[0].split("?")[0].rstrip("/")
         parts = urlparse(url)
         if (parts.netloc == base.netloc and parts.path.startswith(prefix)
                 and parts.path.rstrip("/") != prefix.rstrip("/") and url not in links
