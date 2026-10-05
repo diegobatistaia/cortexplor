@@ -106,43 +106,42 @@
   .spot:hover .go{transform:translateX(3px)}
   @keyframes spin{to{transform:rotate(1turn)}}
 
-  /* Grade bento */
+  /* Listas */
   .label{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
-    color:var(--faint);margin:28px 4px 12px;display:flex;align-items:center;gap:10px}
+    color:var(--faint);margin:30px 4px 12px;display:flex;align-items:center;gap:10px}
   .label::after{content:"";flex:1;height:1px;background:var(--line)}
-  .bento{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-  .tile{position:relative;border-radius:var(--r);padding:16px;background:var(--tile);
-    border:1px solid var(--line);min-height:150px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;
-    overflow:hidden;transition:background .2s,border-color .2s,transform .2s}
-  a.tile:hover{background:var(--tile-hi);border-color:var(--line-hi);transform:translateY(-2px)}
-  .wide{grid-column:span 2;min-height:118px}
-  .tile .ic{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;
+  .links{display:grid;gap:10px}
+  .btn{display:flex;align-items:center;gap:14px;min-height:66px;padding:12px 16px 12px 12px;
+    border-radius:var(--r);background:var(--tile);border:1px solid var(--line);
+    transition:background .2s,border-color .2s,transform .2s}
+  a.btn:hover{background:var(--tile-hi);border-color:var(--line-hi);transform:translateY(-2px)}
+  .ic{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
     background:rgba(255,254,251,.05);border:1px solid var(--line);color:var(--steel)}
-  .tile .ic svg{width:19px;height:19px}
-  .tile b{display:block;font-weight:500;font-size:15.5px;letter-spacing:-.01em;line-height:1.25}
-  .tile small{display:block;color:var(--muted);font-size:12.5px;margin-top:3px;line-height:1.35}
-  .tile .corner{position:absolute;top:16px;right:16px;color:var(--faint);transition:color .2s,transform .2s}
-  a.tile:hover .corner{color:var(--steel);transform:translate(2px,-2px)}
-  .soon{position:absolute;top:16px;right:16px;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
-    text-transform:uppercase;padding:5px 9px;border-radius:999px;border:1px dashed rgba(183,192,204,.32);color:var(--steel)}
-
-  .wa{background:linear-gradient(135deg,rgba(127,184,154,.13),#141412 60%)}
+  .ic svg{width:19px;height:19px}
+  .txt{flex:1;min-width:0}
+  .txt b{display:block;font-weight:500;font-size:15.5px;letter-spacing:-.01em}
+  .txt span{display:block;color:var(--muted);font-size:12.5px;margin-top:1px;line-height:1.35}
+  .arr{flex:none;color:var(--faint);transition:transform .2s,color .2s}
+  a.btn:hover .arr{transform:translate(2px,-2px);color:var(--steel)}
+  .soon{flex:none;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+    padding:5px 9px;border-radius:999px;border:1px dashed rgba(183,192,204,.32);color:var(--steel)}
+  .wa{background:linear-gradient(135deg,rgba(127,184,154,.12),#141412 60%)}
   .wa .ic{color:var(--green)}
+  .tg{background:linear-gradient(135deg,rgba(138,148,166,.12),#141412 60%)}
 
-  .trust{background:linear-gradient(160deg,#1A1F28,#131311 75%)}
-  .trust .big{font-size:54px;font-weight:600;letter-spacing:-.04em;line-height:.9;
-    background:linear-gradient(180deg,#EDECE8,#8A94A6);-webkit-background-clip:text;background-clip:text;color:transparent}
-
-  .langs{display:flex;gap:6px;margin-top:10px}
-  .langs a{flex:1;text-align:center;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;
-    padding:8px 0;border-radius:10px;background:rgba(255,254,251,.05);border:1px solid var(--line);transition:all .2s}
-  .langs a:hover{border-color:var(--line-hi);background:rgba(255,254,251,.1)}
+  .lang{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .lang a{display:flex;flex-direction:column;gap:2px;padding:14px 14px 13px;border-radius:var(--r);
+    background:var(--tile);border:1px solid var(--line);transition:background .2s,border-color .2s,transform .2s}
+  .lang a:hover{background:var(--tile-hi);border-color:var(--line-hi);transform:translateY(-2px)}
+  .lang em{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--steel)}
+  .lang b{font-weight:500;font-size:14px}
+  @media (max-width:360px){ .lang{grid-template-columns:1fr} }
 
   a:focus-visible,button:focus-visible{outline:2px solid var(--steel);outline-offset:3px}
 
-  footer{text-align:center;margin-top:36px;color:var(--faint);font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+  footer{text-align:center;margin-top:40px;color:var(--faint);font-family:var(--mono);font-size:12px;letter-spacing:.04em}
   footer a{color:var(--muted)}
-  footer .sep{margin:0 8px;opacity:.5}
+  footer img{width:118px;opacity:.55;display:block;margin:0 auto 12px}
 
   .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translate(-50%,20px);
     background:var(--ink);color:var(--bg);font-size:13.5px;font-weight:500;padding:10px 16px;border-radius:999px;
@@ -237,45 +236,48 @@
   </a>
 
   <p class="label rise d3">Comunidade</p>
-  <div class="bento rise d3">
-    <div class="tile wide wa" aria-disabled="true">
-      <span class="soon">Em breve</span>
+  <div class="links rise d3">
+    <div class="btn wa" aria-disabled="true">
       <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9.2c.2 2.6 2.4 5 5.3 5.6l1-1.1 1.8.8c-.2 1-1 1.7-2 1.7C11 16.2 7.8 13 7.8 9c0-1 .8-1.8 1.7-2l.8 1.8z"/></svg></span>
-      <div><b>Comunidade no WhatsApp</b><small>As principais notícias do dia, direto no seu celular.</small></div>
-    </div>
-    <div class="tile" aria-disabled="true">
+      <span class="txt"><b>Grupo no WhatsApp</b><span>As principais notícias do dia no seu celular</span></span>
       <span class="soon">Em breve</span>
-      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4.5L3 11.3l5.8 2.1L18 7.6l-7.2 7.1.3 5.1 3.1-3.3 4.1 3z"/></svg></span>
-      <div><b>Telegram</b><small>Resumo diário, sem ruído e sem hype.</small></div>
     </div>
-    <a class="tile trust" href="https://cortexplor.com/pt/sobre/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio">
-      <svg class="corner" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
-      <span class="big">2+</span>
-      <div><b>fontes por matéria</b><small>Como checamos cada notícia.</small></div>
+    <div class="btn tg" aria-disabled="true">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4.5L3 11.3l5.8 2.1L18 7.6l-7.2 7.1.3 5.1 3.1-3.3 4.1 3z"/></svg></span>
+      <span class="txt"><b>Canal no Telegram</b><span>Resumo diário, sem ruído e sem hype</span></span>
+      <span class="soon">Em breve</span>
+    </div>
+  </div>
+
+  <p class="label rise d4">Siga</p>
+  <div class="links rise d4">
+    <a class="btn" href="https://www.instagram.com/cortexplor/" target="_blank" rel="noopener">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg></span>
+      <span class="txt"><b>Instagram</b><span>@cortexplor</span></span>
+      <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
+    </a>
+    <a class="btn" href="https://x.com/cortexplor" target="_blank" rel="noopener">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4h4.2l10.8 16h-4.2z"/><path d="M19.2 4l-6.4 7.2M4.8 20l6.4-7.2"/></svg></span>
+      <span class="txt"><b>X</b><span>@cortexplor</span></span>
+      <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
+    </a>
+    <a class="btn" href="mailto:adm@cortexplor.com">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></span>
+      <span class="txt"><b>Contato</b><span>Pautas, correções e parcerias</span></span>
+      <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
     </a>
   </div>
 
-  <p class="label rise d4">Mais</p>
-  <div class="bento rise d4">
-    <div class="tile">
-      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.8 5.8 3.8 9s-1.2 6.2-3.8 9c-2.6-2.8-3.8-5.8-3.8-9S9.4 5.8 12 3z"/></svg></span>
-      <div><b>3 edições</b>
-        <div class="langs">
-          <a href="https://cortexplor.com/pt/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio" hreflang="pt-BR">PT</a>
-          <a href="https://cortexplor.com/en/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio" hreflang="en">EN</a>
-          <a href="https://cortexplor.com/es/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio" hreflang="es">ES</a>
-        </div>
-      </div>
-    </div>
-    <a class="tile" href="mailto:adm@cortexplor.com">
-      <svg class="corner" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
-      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></span>
-      <div><b>Contato</b><small>Pautas, correções e parcerias.</small></div>
-    </a>
-  </div>
+  <p class="label rise d5">Edições</p>
+  <nav class="lang rise d5" aria-label="Edições">
+    <a href="https://cortexplor.com/pt/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio" hreflang="pt-BR"><em>PT</em><b>Português</b></a>
+    <a href="https://cortexplor.com/en/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio" hreflang="en"><em>EN</em><b>English</b></a>
+    <a href="https://cortexplor.com/es/?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=bio" hreflang="es"><em>ES</em><b>Español</b></a>
+  </nav>
 
   <footer class="rise d5">
-    <a href="https://cortexplor.com/">cortexplor.com</a><span class="sep">·</span><span>© Cortexplor</span>
+    <img src="/assets/logo/cortexplor-logo-white.svg" alt="Cortexplor">
+    <a href="https://cortexplor.com/">cortexplor.com</a>
   </footer>
 </main>
 <div class="toast" id="toast" role="status">Link copiado</div>
