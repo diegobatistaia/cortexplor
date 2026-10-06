@@ -7,30 +7,110 @@
   "meta_description": "OpenAI vai testar um novo formato de anúncios durante a geração de imagens no ChatGPT, nos Estados Unidos, sem data para chegar ao mercado brasileiro.",
   "keyword": "anúncios ChatGPT gerador de imagens",
   "category": "brasil",
-  "tags": ["ia", "openai", "chatgpt", "anuncios", "brasil"],
+  "tags": [
+    "ia",
+    "openai",
+    "chatgpt",
+    "anuncios",
+    "brasil"
+  ],
   "body": [
-    {"type": "p", "text": "A OpenAI vai testar um novo formato de anúncios no ChatGPT, exibidos durante o processo de geração de imagens. Os testes começam ainda em outubro, nos Estados Unidos, com um grupo limitado de anunciantes, segundo o Canaltech e o Olhar Digital.", "items": []},
-    {"type": "p", "text": "Os anúncios aparecerão separados da imagem criada pela inteligência artificial, com identificação de conteúdo publicitário, e podem trazer imagens de produtos, inspirações de uso e experiências relacionadas ao que o usuário está criando, segundo o Canaltech. A OpenAI afirma que a publicidade não interfere no resultado gerado pelo modelo nem na resposta do ChatGPT, de acordo com o Canaltech e o Olhar Digital.", "items": []},
-    {"type": "p", "text": "Em um exemplo divulgado pela própria OpenAI, uma peça publicitária aparece de forma separada na interface durante o processo de geração. Isso não significa que marcas poderão inserir produtos diretamente dentro da imagem pedida pelo usuário, segundo o Canaltech.", "items": []},
-    {"type": "h2", "text": "Como funciona a proteção das conversas", "items": []},
-    {"type": "p", "text": "A empresa diz usar sistemas de proteção para decidir em quais conversas um anúncio pode aparecer — assuntos sensíveis e situações de vulnerabilidade emocional ficam de fora da veiculação, segundo o Canaltech. As conversas não são compartilhadas com os anunciantes, que recebem apenas dados agregados sobre o desempenho das campanhas, enquanto as respostas do ChatGPT continuam funcionando de forma independente do sistema de publicidade.", "items": []},
-    {"type": "h2", "text": "O que já existe e o que ainda não tem data", "items": []},
-    {"type": "p", "text": "Hoje, os anúncios tradicionais do ChatGPT aparecem abaixo das respostas, com nome e logotipo do anunciante, título, descrição, link e imagem, segundo o Canaltech. O novo formato amplia essa estratégia para um momento específico de uso do aplicativo — a criação de imagens —, começando pelos Estados Unidos.", "items": []},
-    {"type": "p", "text": "No Brasil, a publicidade convencional do ChatGPT já aparece para quem usa os planos gratuito e Go desde agosto; assinantes dos planos Plus, Pro, Business, Enterprise e Edu não recebem anúncios, segundo o Canaltech. A OpenAI não informou quando o novo formato, voltado à geração de imagens, chega ao mercado brasileiro.", "items": []},
-    {"type": "p", "text": "Segundo o Canaltech, os primeiros testes de publicidade no ChatGPT começaram nos Estados Unidos em fevereiro de 2026 e depois chegaram a mercados como o próprio Brasil, o Reino Unido, o México, o Japão e a Coreia do Sul; em agosto, o serviço também foi ampliado para 31 países europeus. Em setembro, a OpenAI anunciou novas ferramentas para anunciantes, incluindo os chamados agentes patrocinados — que permitem ao usuário iniciar uma conversa com um sistema criado por uma empresa depois de clicar em um anúncio — e ferramentas de IA para criação e gerenciamento de campanhas.", "items": []},
-    {"type": "p", "text": "O Olhar Digital registra, separadamente, que a publicidade do ChatGPT também chegou à Índia em agosto.", "items": []},
-    {"type": "h2", "text": "Por que a OpenAI está ampliando a publicidade", "items": []},
-    {"type": "p", "text": "A empresa afirma que o ChatGPT alcança 1,2 bilhão de pessoas por semana, segundo o Canaltech e o Olhar Digital, e vê a publicidade como forma de financiar o acesso gratuito ou de menor custo ao serviço. Segundo o Olhar Digital, a OpenAI iniciou projetos-piloto com a DoubleVerify e a Integral Ad Science para avaliar a adequação dos anúncios ao contexto de cada conversa.", "items": []},
-    {"type": "p", "text": "A iniciativa chega em um momento de maior concorrência no mercado de IA — o Olhar Digital cita o lançamento do Muse, aplicativo de IA da Meta disponível gratuitamente, como parte desse cenário.", "items": []},
-    {"type": "p", "text": "O Olhar Digital destaca ainda que a DoubleVerify e a Integral Ad Science vão ajudar a OpenAI a desenvolver formas de analisar o contexto dos anúncios e a segurança de sua exibição dentro do ChatGPT. Com a ampliação dos formatos publicitários e das ferramentas de mensuração, a empresa diz que pretende tornar o serviço mais atrativo para anunciantes e, no futuro, expandir as possibilidades de publicidade para um público global — sem, até aqui, citar uma data para isso.", "items": []}
+    {
+      "type": "p",
+      "text": "A OpenAI vai testar um novo formato de anúncios no ChatGPT, exibidos durante o processo de geração de imagens. Os testes começam ainda em outubro, nos Estados Unidos, com um grupo limitado de anunciantes, segundo o Canaltech e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os anúncios aparecerão separados da imagem criada pela inteligência artificial, com identificação de conteúdo publicitário, e podem trazer imagens de produtos, inspirações de uso e experiências relacionadas ao que o usuário está criando, segundo o Canaltech. A OpenAI afirma que a publicidade não interfere no resultado gerado pelo modelo nem na resposta do ChatGPT, de acordo com o Canaltech e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em um exemplo divulgado pela própria OpenAI, uma peça publicitária aparece de forma separada na interface durante o processo de geração. Isso não significa que marcas poderão inserir produtos diretamente dentro da imagem pedida pelo usuário, segundo o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como funciona a proteção das conversas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa diz usar sistemas de proteção para decidir em quais conversas um anúncio pode aparecer — assuntos sensíveis e situações de vulnerabilidade emocional ficam de fora da veiculação, segundo o Canaltech. As conversas não são compartilhadas com os anunciantes, que recebem apenas dados agregados sobre o desempenho das campanhas, enquanto as respostas do ChatGPT continuam funcionando de forma independente do sistema de publicidade.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que já existe e o que ainda não tem data",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hoje, os anúncios tradicionais do ChatGPT aparecem abaixo das respostas, com nome e logotipo do anunciante, título, descrição, link e imagem, segundo o Canaltech. O novo formato amplia essa estratégia para um momento específico de uso do aplicativo — a criação de imagens —, começando pelos Estados Unidos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No Brasil, a publicidade convencional do ChatGPT já aparece para quem usa os planos gratuito e Go desde agosto; assinantes dos planos Plus, Pro, Business, Enterprise e Edu não recebem anúncios, segundo o Canaltech. A OpenAI não informou quando o novo formato, voltado à geração de imagens, chega ao mercado brasileiro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Canaltech, os primeiros testes de publicidade no ChatGPT começaram nos Estados Unidos em fevereiro de 2026 e depois chegaram a mercados como o próprio Brasil, o Reino Unido, o México, o Japão e a Coreia do Sul; em agosto, o serviço também foi ampliado para 31 países europeus. Em setembro, a OpenAI anunciou novas ferramentas para anunciantes, incluindo os chamados agentes patrocinados — que permitem ao usuário iniciar uma conversa com um sistema criado por uma empresa depois de clicar em um anúncio — e ferramentas de IA para criação e gerenciamento de campanhas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Olhar Digital registra, separadamente, que a publicidade do ChatGPT também chegou à Índia em agosto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por que a OpenAI está ampliando a publicidade",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa afirma que o ChatGPT alcança 1,2 bilhão de pessoas por semana, segundo o Canaltech e o Olhar Digital, e vê a publicidade como forma de financiar o acesso gratuito ou de menor custo ao serviço. Segundo o Olhar Digital, a OpenAI iniciou projetos-piloto com a DoubleVerify e a Integral Ad Science para avaliar a adequação dos anúncios ao contexto de cada conversa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A iniciativa chega em um momento de maior concorrência no mercado de IA — o Olhar Digital cita o lançamento do Muse, aplicativo de IA da Meta disponível gratuitamente, como parte desse cenário.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Olhar Digital destaca ainda que a DoubleVerify e a Integral Ad Science vão ajudar a OpenAI a desenvolver formas de analisar o contexto dos anúncios e a segurança de sua exibição dentro do ChatGPT. Com a ampliação dos formatos publicitários e das ferramentas de mensuração, a empresa diz que pretende tornar o serviço mais atrativo para anunciantes e, no futuro, expandir as possibilidades de publicidade para um público global — sem, até aqui, citar uma data para isso.",
+      "items": []
+    }
   ],
   "image": {
     "query": "advertisement icon image generation interface abstract",
-    "alt": "Interface abstrata de geração de imagens por IA com elemento de publicidade"
+    "alt": "Interface abstrata de geração de imagens por IA com elemento de publicidade",
+    "path": "/assets/img/chatgpt-anuncios-durante-geracao-de-imag-39a924e2.jpg",
+    "credit": "Zach M / Unsplash",
+    "author": "Zach M",
+    "author_url": "https://unsplash.com/@zachmmalin?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/the-letters-ai-glow-with-orange-light-Tyt5Z03BoaI"
   },
   "sources": [
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-comeca-a-exibir-mais-anuncios-agora-no-gerador-de-imagens/", "title": "ChatGPT começa a exibir mais anúncios, agora no gerador de imagens"},
-    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/10/05/inteligencia-artificial/chatgpt-comeca-a-exibir-anuncios-ao-lado-de-imagens-geradas/", "title": "ChatGPT começa a exibir anúncios ao lado de imagens geradas"}
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-comeca-a-exibir-mais-anuncios-agora-no-gerador-de-imagens/",
+      "title": "ChatGPT começa a exibir mais anúncios, agora no gerador de imagens"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/10/05/inteligencia-artificial/chatgpt-comeca-a-exibir-anuncios-ao-lado-de-imagens-geradas/",
+      "title": "ChatGPT começa a exibir anúncios ao lado de imagens geradas"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-06T22:29:00+00:00",
+  "updated_at": "2026-10-06T22:29:00+00:00"
 }
