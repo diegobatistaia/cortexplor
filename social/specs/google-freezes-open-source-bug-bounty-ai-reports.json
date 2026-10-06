@@ -1,0 +1,103 @@
+{
+  "slug": "google-freezes-open-source-bug-bounty-ai-reports",
+  "lang": "en",
+  "date": "05 Oct 2026",
+  "no": 5,
+  "category": "Applications",
+  "kicker": "Security · Google",
+  "headline": "Google freezes its bug bounty because of AI",
+  "headline_hl": "bug bounty",
+  "dek": "The program stopped after a flood of automated, invalid reports, according to TechCrunch and BleepingComputer.",
+  "image": {
+    "path": "assets/img/google-freezes-open-source-bug-bounty-ai-61929af3.jpg",
+    "credit": "Jakub Żerdzicki / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Paused<br>01/10",
+  "sources": [
+    "TechCrunch",
+    "BleepingComputer",
+    "Help Net Security",
+    "Infosecurity Magazine"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "New reports stopped coming in",
+    "body": [
+      "Since October 1, Google no longer accepts new product vulnerability reports in OSS VRP, its reward program for open source software (TechCrunch, BleepingComputer).",
+      "The company cites “a significant rise in automated submissions, the vast majority of which are not valid.” The notice went out on X and on its Bug Hunters site (Help Net Security)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Every report needs a person",
+    "body": "Bounty programs pay people who find a security flaw before someone exploits it. But every submission has to be checked by hand.",
+    "points": [
+      {
+        "h": "Reproduce",
+        "t": "Someone on the team or a project maintainer tries to repeat the issue described in the report."
+      },
+      {
+        "h": "Confirm",
+        "t": "If the flaw is not real, all the checking work is thrown away and the queue moves slower."
+      },
+      {
+        "h": "Hallucination",
+        "t": "Engineers and maintainers were getting reports with details made up by AI (TechCrunch, citing Tom’s Hardware)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Sending got cheap, checking did not",
+    "body": [
+      "OSS VRP has run since August 2022 and covers projects such as Go, Angular and Protocol Buffers (BleepingComputer).",
+      "The pause follows months of complaints about low-quality, AI-assisted reports hitting bounty programs and open source projects (Help Net Security). Google did not say how many it received."
+    ],
+    "stat": {
+      "big": "$31,337",
+      "cap": "top payout per flaw (BleepingComputer)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What is still open",
+    "items": [
+      {
+        "h": "Earlier",
+        "t": "Reports sent before the pause are still being processed (BleepingComputer, Help Net Security)."
+      },
+      {
+        "h": "Others",
+        "t": "Cloud VRP and the Patch Rewards Program still accept reports (BleepingComputer, Infosecurity Magazine)."
+      },
+      {
+        "h": "2027",
+        "t": "Google promises an update in the first quarter of 2027 and plans to restructure the program (Infosecurity Magazine)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google froze OSS VRP, its bug bounty program for open source code, after a wave of AI-generated reports.",
+    "body": [
+      "The program pays between $100 and $31,337 per flaw, depending on severity and how critical the project is, according to BleepingComputer and Infosecurity Magazine.",
+      "Supply chain reports, about how code is built and distributed, are not affected by the pause, according to BleepingComputer. Google is pointing researchers to its other programs while this one is on hold. Google has not said what filters the restructured program will use to keep automated reports out."
+    ],
+    "cta_variant": "A",
+    "cta": "How should bug bounty programs separate real findings from automated reports?",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#bugbounty",
+      "#opensource"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Google freezing its OSS VRP bug bounty program",
+    "Slide 2: since October 1, Google OSS VRP no longer accepts new flaw reports",
+    "Slide 3: how AI-made reports overload the people who check each flaw",
+    "Slide 4: why the OSS VRP pause matters and how much the program pays",
+    "Slide 5: what is still open and the OSS VRP update planned for 2027",
+    "Slide 6: sources on the OSS VRP pause: TechCrunch, BleepingComputer and others"
+  ]
+}

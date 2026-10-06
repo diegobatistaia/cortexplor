@@ -30,6 +30,7 @@ UI = {
         "read": "Leia a matéria completa",
         # Uma fonte só passa no gate quando é o anúncio oficial da própria empresa.
         "confirm_one": "Fonte: anúncio oficial da própria empresa",
+        "topic": "IA",
     },
     "en": {
         "sources": "Sources",
@@ -43,6 +44,7 @@ UI = {
         "dossier": "File no.",
         "read": "Read the full story",
         "confirm_one": "Source: the company's own official announcement",
+        "topic": "AI",
     },
 }
 

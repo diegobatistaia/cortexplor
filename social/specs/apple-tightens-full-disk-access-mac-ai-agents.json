@@ -1,0 +1,102 @@
+{
+  "slug": "apple-tightens-full-disk-access-mac-ai-agents",
+  "lang": "en",
+  "date": "05 Oct 2026",
+  "no": 3,
+  "category": "Applications",
+  "kicker": "Privacy · Apple",
+  "headline": "Apple tightens the Mac's Full Disk Access because of AI agents",
+  "headline_hl": "Full Disk Access",
+  "dek": "Apps will only get full Mac access through explicit user action, after the Meta Muse episode, according to TechCrunch, The Verge and Ars Technica.",
+  "image": {
+    "path": "assets/img/apple-tightens-full-disk-access-mac-ai-a-ca0ea420.jpg",
+    "credit": "Dmitry Chernyshov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Start date<br>not set",
+  "sources": [
+    "TechCrunch AI",
+    "The Verge AI",
+    "Ars Technica"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Full Mac access only with user approval",
+    "body": [
+      "Apple announced it will tighten Full Disk Access on macOS. The permission opens an app to files, mail, messages and browsing history (TechCrunch, The Verge, Ars Technica).",
+      "Apps will only get that access through “very explicit user action.” The company points to increasingly capable, autonomous AI agents and has not said when the change starts (TechCrunch, The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "A permission built for backups",
+    "body": "The setting was created for backup software, but, according to Apple, some developers now use it in ways that put users at risk without their knowledge (The Verge).",
+    "points": [
+      {
+        "h": "Goes around",
+        "t": "The permission largely sidesteps the privacy prompts macOS normally shows users (The Verge)."
+      },
+      {
+        "h": "Reads nearly all",
+        "t": "Researcher Patrick Wardle says an app with this permission can read any non-root file, such as cookies and chats (Ars Technica)."
+      },
+      {
+        "h": "Hits others",
+        "t": "In communication apps, misuse can also expose the people who talk with the Mac owner, Apple warns (Ars Technica)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The Muse episode raised the alarm",
+    "body": [
+      "Inc. columnist Jason Aten said Meta's Muse agent knew about a private Messages conversation of his without explicit permission (TechCrunch, The Verge, Ars Technica).",
+      "Meta says the access is opt-in and requires turning on Full Disk Access and a Messages connector (The Verge). Wardle disputes it: with the permission, the connector is not needed (Ars Technica)."
+    ],
+    "stat": {
+      "big": "11 days",
+      "cap": "from Wardle's Muse disclosure to the announcement"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What is still open",
+    "items": [
+      {
+        "h": "No date",
+        "t": "Apple has not said when the explicit-action requirement takes effect (TechCrunch, The Verge)."
+      },
+      {
+        "h": "Amazon",
+        "t": "Amazon had already pulled Muse from its app store before the episode (Ars Technica)."
+      },
+      {
+        "h": "ChatGPT",
+        "t": "The announcement follows a Wired report on a flaw in the ChatGPT Mac app that could expose user data (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Apple will require explicit user action before apps get Full Disk Access, full access to the Mac, citing AI agents.",
+    "body": [
+      "According to Apple, “as AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially.” The line was quoted by TechCrunch, The Verge and Ars Technica.",
+      "TechCrunch corrected its own story: the change is about informed consent and does not impose a new technical cap on what the permission can do. Apple did not name Meta or any other developer."
+    ],
+    "cta_variant": "A",
+    "cta": "Should AI agents on a computer need a separate approval for each type of personal data?",
+    "hashtags": [
+      "#cortexplor",
+      "#apple",
+      "#macos",
+      "#privacy"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Apple requiring explicit action for Full Disk Access on the Mac",
+    "Slide 2: apps will only get Full Disk Access on macOS with explicit user approval",
+    "Slide 3: why Full Disk Access, built for backups, worries Apple",
+    "Slide 4: the Meta Muse episode that led to the Full Disk Access change",
+    "Slide 5: what is still open in the Mac Full Disk Access change",
+    "Slide 6: sources on Full Disk Access: TechCrunch, The Verge and Ars Technica"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "lang": "en",
+  "slug": "google-freezes-open-source-bug-bounty-ai-reports",
+  "story_id": "1a3150c16e036561",
+  "title": "Google Freezes Open Source Bug Bounty After Flood of AI Reports",
+  "dek": "Google stopped taking new product vulnerability reports in its OSS VRP, saying most automated submissions it received were not valid.",
+  "meta_description": "Google paused its open source bug bounty program after a significant rise in automated submissions, most of them invalid. An update is promised for early 2027.",
+  "keyword": "Google open source bug bounty AI",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "google",
+    "security",
+    "open-source",
+    "bug-bounty"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google has stopped accepting new product vulnerability reports in its Open Source Software Vulnerability Reward Program, known as OSS VRP, as of October 1, 2026. According to TechCrunch and BleepingComputer, the company blamed a surge of automated submissions, most of which turned out to be invalid.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google announced the pause on X and on its Bug Hunters site. In the statement, quoted by Help Net Security and Infosecurity Magazine, the company said the pause is \"due to a significant rise in automated submissions, the vast majority of which are not valid.\" Google said it will share an update on the program in the first quarter of 2027.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the program covers",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OSS VRP launched in August 2022. It pays between $100 and $31,337 per vulnerability, depending on severity and on how critical the affected project is, according to BleepingComputer and Infosecurity Magazine. Its scope includes Google-maintained open source projects such as Go, Angular and Protocol Buffers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Bug bounties exist because outside researchers find flaws that internal teams miss. The trade only works if the reports are worth reading: every submission has to be triaged by a person who tries to reproduce the issue, confirms whether it is real and decides on a payout.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why automated reports break the model",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Generative AI makes it cheap to produce reports that look technical, including ones describing bugs that do not exist. TechCrunch, citing Tom's Hardware, reports that Google engineers and open source maintainers had been dealing with large numbers of invalid reports containing AI hallucinations. Help Net Security notes the pause follows months of complaints about low-quality, AI-assisted submissions hitting bug bounty programs and open source maintainers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The economics are lopsided. Sending a report now costs almost nothing, while verifying one still takes skilled human time. When the volume of junk rises, the cost lands on the triage team, and valid reports wait longer in the same queue.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google did not disclose how many reports it received or what share was invalid. Its statement says only that the \"vast majority\" were not valid.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The timing matters because OSS VRP covers code that sits deep inside other products. Go is used to build server software and cloud tools, Angular runs the front end of many web applications and Protocol Buffers is a common format for exchanging data between services. A real flaw in any of them can travel far beyond Google, which is why a channel that pays outsiders to report such flaws has value, and why clogging it with false reports has a cost for everyone downstream.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What is still open",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The freeze applies to product vulnerability reports inside OSS VRP. According to BleepingComputer, Help Net Security and Infosecurity Magazine, these remain unaffected:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "reports submitted before October 1, 2026, which are still being processed;",
+        "supply chain reports, covering flaws in how code is built and distributed, per BleepingComputer and Infosecurity Magazine;",
+        "the Cloud VRP, which covers Google Cloud's open source repositories;",
+        "the Patch Rewards Program, which pays for security improvements to open source projects."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Google is pointing researchers to those programs in the meantime. Infosecurity Magazine reports that the company plans to restructure OSS VRP before reopening it.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What it says about the industry",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The decision puts a large company on record saying that AI-generated noise made one of its security programs unworkable in its current form. Bug bounty platforms and individual maintainers have raised the same complaint, as Help Net Security points out, but a pause by Google affects a program that has paid researchers since 2022.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For teams that depend on Go, Angular or Protocol Buffers, nothing changes in the software itself. What stops, until the update promised for the first quarter of 2027, is the payout channel for new product flaws found in those projects through OSS VRP. Google has not said what filters the restructured program will use to keep automated submissions out.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "computer code security screen dark",
+    "alt": "Computer screen showing lines of code on a dark background",
+    "path": "/assets/img/google-freezes-open-source-bug-bounty-ai-61929af3.jpg",
+    "credit": "Jakub Żerdzicki / Unsplash",
+    "author": "Jakub Żerdzicki",
+    "author_url": "https://unsplash.com/@jakubzerdzicki?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-screen-displaying-lines-of-code-n3ba57RKVNs"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "title": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions"
+    },
+    {
+      "name": "BleepingComputer",
+      "owner": "bleepingcomputer",
+      "url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+      "title": "Google halts open-source bug bounty program amid AI spam surge"
+    },
+    {
+      "name": "Help Net Security",
+      "owner": "help-net-security",
+      "url": "https://www.helpnetsecurity.com/2026/10/05/google-ai-generated-vulnerability-reports-pause/",
+      "title": "AI slop submissions force Google to freeze its open-source bug bounty"
+    },
+    {
+      "name": "Infosecurity Magazine",
+      "owner": "infosecurity-magazine",
+      "url": "https://www.infosecurity-magazine.com/news/google-suspends-opensource-bug/",
+      "title": "Google Suspends Open-Source Bug Bounty Due to AI Vulnerability Reports"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-05T17:37:16+00:00",
+  "updated_at": "2026-10-05T17:37:16+00:00"
+}

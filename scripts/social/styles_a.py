@@ -46,7 +46,7 @@ def v_edicao(c: Ctx, pat):
         on, off = ("#EDECE8", "rgba(237,236,232,.2)") if dark else (INK, "rgba(20,19,15,.18)")
         return (
             f"<div class='slide A{' dk' if dark else ''}'>"
-            f"<div class='mast'><img src='{wm}'><span class='ed'>{d['date']} · IA</span>{pill(n)}</div><div class='dbl'></div>"
+            f"<div class='mast'><img src='{wm}'><span class='ed'>{d['date']} · {c.u['topic']}</span>{pill(n)}</div><div class='dbl'></div>"
             f"{body}{ticks(n, on, off)}</div>"
         )
 
@@ -148,7 +148,7 @@ def v_terminal(c: Ctx, pat):
         on, off = (INK, "rgba(20,19,15,.18)") if light else ("#EDECE8", "rgba(237,236,232,.18)")
         return (
             f"<div class='slide B{' lt' if light else ''}'>"
-            f"<div class='bar'><span>cortexplor@ia:~$ <b>{cmd}</b></span>{pill(n)}</div><div class='ln'></div>"
+            f"<div class='bar'><span>cortexplor@{c.u['topic'].lower()}:~$ <b>{cmd}</b></span>{pill(n)}</div><div class='ln'></div>"
             f"{body}{ticks(n, on, off)}</div>"
         )
 
@@ -333,7 +333,7 @@ def v_duotone(c: Ctx, pat=None):
     s.append(f"""<div class='slide D ik'>
 <div class='abs' style='inset:0;background:url({cover}) center/cover'></div><div class='grid'></div>
 <div class='abs' style='inset:0;background:linear-gradient(180deg,rgba(20,19,15,.35) 0%,rgba(20,19,15,0) 25%,rgba(20,19,15,.6) 52%,rgba(20,19,15,.97) 100%)'></div>
-{marks()}<div class='top'>Cortexplor · {d['category']} · IA</div>{pill(1)}
+{marks()}<div class='top'>Cortexplor · {d['category']} · {c.u['topic']}</div>{pill(1)}
 <h1 class='abs' style='left:64px;top:730px;width:952px;font-size:84px;line-height:1.02;color:#fff'>{d['headline']}</h1>
 <div class='abs' style='left:64px;top:1090px;width:940px;font-size:31px;line-height:1.36;color:#E4E8EE'>{d['dek']}</div>
 {ticks(1, '#fff', 'rgba(255,255,255,.3)', bottom=62)}</div>""")

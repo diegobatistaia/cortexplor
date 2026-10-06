@@ -1,0 +1,101 @@
+{
+  "slug": "nvidia-discontinues-shield-tv-raises-shield-pro-price",
+  "lang": "en",
+  "date": "05 Oct 2026",
+  "no": 2,
+  "category": "Market",
+  "kicker": "Hardware · Nvidia",
+  "headline": "Nvidia ends the Shield TV and raises the Shield TV Pro price by 50%",
+  "headline_hl": "Shield TV Pro",
+  "dek": "The company blames industry-wide memory costs, driven by demand for AI components, according to TechRadar and Wired.",
+  "image": {
+    "path": "assets/img/nvidia-discontinues-shield-tv-raises-shi-198b995e.jpg",
+    "credit": "Jonas Leupe / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Price hike<br>02/10",
+  "sources": [
+    "TechRadar",
+    "Wired AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The base model is gone, the Pro costs more",
+    "body": [
+      "Nvidia discontinued the standard Shield TV, its streaming device, and raised the Shield TV Pro price from $199 to $299 (TechRadar, Wired). The new price took effect October 2 (Wired).",
+      "An Nvidia spokesperson explained: “the cost of components, including memory, has increased substantially across the industry” (Wired). TechRadar attributes the same explanation to the official announcement."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Why an old device gets more expensive",
+    "body": "Generative AI's demand for chips and memory is raising the price of anything with memory or storage, even with years-old parts (Wired).",
+    "points": [
+      {
+        "h": "No old stock",
+        "t": "Nvidia builds every Shield it sells and has no stockpile of pre-AI-era parts to cushion the increase (TechRadar)."
+      },
+      {
+        "h": "Same hardware",
+        "t": "The Pro still runs a Tegra X1 chip with 3GB of RAM and 16GB of storage, with no refresh in years (TechRadar)."
+      },
+      {
+        "h": "Both sides",
+        "t": "Nvidia itself is among the biggest winners of the GPU market that is pushing component prices higher (TechRadar)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The AI bill reaches consumers",
+    "body": [
+      "The case shows AI pressure on the price of everyday electronics. According to Wired, in 2026 almost anything with memory or storage is getting more expensive.",
+      "Consoles follow the same path: Sony's PS5 Pro launched at $699.99 in 2024 and now costs $899.99. Nintendo, Microsoft and Sony all raised prices in recent months (Wired)."
+    ],
+    "stat": {
+      "big": "+50%",
+      "cap": "from $199 to $299 for the Shield TV Pro"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "The slow end of a passion project",
+    "items": [
+      {
+        "h": "Summer",
+        "t": "The standard Shield TV vanished from official retail channels, with no sign of restocking (TechRadar)."
+      },
+      {
+        "h": "02/10",
+        "t": "The Shield TV Pro moves to $299 and the standard model is discontinued (TechRadar, Wired)."
+      },
+      {
+        "h": "Now",
+        "t": "Nvidia keeps GeForce Now, cloud gaming on PC, mobile and smart TV, and bets on its RTX Spark chip (TechRadar)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia discontinued the Shield TV and raised the Shield TV Pro price by 50%, from $199 to $299.",
+    "body": [
+      "Launched in 2019, the Shield TV Pro plays 4K HDR video with Dolby Vision and uses AI to upscale content to 4K at 60 frames per second, according to TechRadar.",
+      "Wired recalls that Nvidia executive Andrew Bell once called the Shield a “passion project” inside the company. For the outlet, the device still makes sense mainly for buyers who need its broad codec support or a Plex server. TechRadar adds that a new Apple TV is reportedly expected soon, so shoppers may want to compare first."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#nvidiashield",
+      "#streaming"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Nvidia ending the Shield TV and raising the Shield TV Pro price by 50%",
+    "Slide 2: Nvidia discontinues the Shield TV and moves the Shield TV Pro from $199 to $299",
+    "Slide 3: why pricier memory makes the Nvidia Shield TV Pro cost more, in three points",
+    "Slide 4: the Shield TV Pro increase and rising prices for consoles such as the PS5 Pro",
+    "Slide 5: timeline of the Nvidia Shield TV ending, up to the cloud gaming alternative",
+    "Slide 6: sources for the story on the Nvidia Shield TV Pro: TechRadar and Wired"
+  ]
+}

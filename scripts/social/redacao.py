@@ -45,7 +45,10 @@ MONTHS = {
 CATEGORY = {
     "pt": {"modelos": "Modelos", "mercado": "Mercado", "brasil": "IA no Brasil",
            "aplicacoes": "Aplicações", "politica": "Regulação"},
-    "en": {"models": "Models", "market": "Market", "applications": "Applications",
+    # As matérias usam as chaves em português em todos os idiomas.
+    "en": {"modelos": "Models", "mercado": "Market", "brasil": "AI in Brazil",
+           "aplicacoes": "Applications", "politica": "Policy",
+           "models": "Models", "market": "Market", "applications": "Applications",
            "policy": "Policy"},
 }
 LINK = {"pt": "Matéria completa no link da bio.", "en": "Full story: link in bio."}
