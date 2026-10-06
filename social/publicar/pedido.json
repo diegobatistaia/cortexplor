@@ -1,5 +1,10 @@
 {
-  "acao": "teste",
-  "lang": "en",
-  "pedido_em": "2026-10-05T23:08:35-03:00"
+  "acao": "publicar",
+  "itens": [
+    {
+      "slug": "cortexplor-introduction",
+      "lang": "en"
+    }
+  ],
+  "pedido_em": "2026-10-05T23:20:35-03:00"
 }
