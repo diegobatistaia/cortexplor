@@ -1,35 +1,10 @@
 {
   "pedido": {
-    "acao": "publicar",
-    "itens": [
-      {
-        "slug": "openai-marca-dagua-invisivel-textos-chatgpt",
-        "lang": "pt"
-      },
-      {
-        "slug": "openai-watermarks-chatgpt-text-eu",
-        "lang": "en"
-      }
-    ],
-    "pedido_em": "2026-10-06T08:58:56-03:00"
+    "acao": "teste",
+    "lang": "pt",
+    "pedido_em": "2026-10-06T13:11:22-03:00"
   },
-  "em": "2026-10-06T08:59:16-03:00",
-  "ok": false,
-  "itens": [
-    {
-      "slug": "openai-marca-dagua-invisivel-textos-chatgpt",
-      "lang": "pt",
-      "conta": "cortexplor",
-      "ok": false,
-      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"Abvzb5UnkSgLvG_wTsYzni6\"}}"
-    },
-    {
-      "slug": "openai-watermarks-chatgpt-text-eu",
-      "lang": "en",
-      "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "18041073863835198",
-      "permalink": "https://www.instagram.com/p/DeJu7EbEVUi/"
-    }
-  ]
+  "em": "2026-10-06T13:11:41-03:00",
+  "ok": true,
+  "conta": "cortexplor"
 }
