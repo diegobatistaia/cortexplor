@@ -3,22 +3,21 @@
     "acao": "publicar",
     "itens": [
       {
-        "slug": "openai-safety-leader-resigns-broken-culture",
+        "slug": "google-freezes-open-source-bug-bounty-ai-reports",
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-10-05T23:24:40-03:00"
+    "pedido_em": "2026-10-05T23:25:36-03:00"
   },
-  "em": "2026-10-05T23:24:56-03:00",
-  "ok": true,
+  "em": "2026-10-05T23:26:00-03:00",
+  "ok": false,
   "itens": [
     {
-      "slug": "openai-safety-leader-resigns-broken-culture",
+      "slug": "google-freezes-open-source-bug-bounty-ai-reports",
       "lang": "en",
       "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "17922008889442476",
-      "permalink": "https://www.instagram.com/p/DeItMKzFoOE/"
+      "ok": false,
+      "erro": "HTTP 500 em 17841420475465882/media_publish: "
     }
   ]
 }
