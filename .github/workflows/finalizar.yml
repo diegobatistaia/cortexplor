@@ -23,6 +23,8 @@ on:
     - cron: "15 16 * * *"   # 13:15
     - cron: "15 22 * * *"   # 19:15
   workflow_dispatch:
+  # Chamado pelo Promover, quando a Routine deixou os rascunhos num branch.
+  workflow_call:
 
 permissions:
   contents: write
@@ -36,7 +38,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # Sempre o main, inclusive quando chamado pelo Promover a partir de um
+      # branch claude/*.
       - uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Há rascunho para finalizar?
         id: check
