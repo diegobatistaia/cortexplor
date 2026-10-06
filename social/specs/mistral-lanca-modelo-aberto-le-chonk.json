@@ -1,0 +1,102 @@
+{
+  "slug": "mistral-lanca-modelo-aberto-le-chonk",
+  "lang": "pt",
+  "date": "06 out 2026",
+  "no": 12,
+  "category": "Modelos",
+  "kicker": "Modelos · Mistral",
+  "headline": "Mistral lança o Le Chonk, modelo aberto de 1 trilhão de parâmetros",
+  "headline_hl": "Le Chonk",
+  "dek": "A francesa diz ter o modelo de peso aberto mais forte fora da China, treinado com menos GPUs que os rivais, segundo CNBC, Wired e TechCrunch.",
+  "image": {
+    "path": "assets/img/mistral-lanca-modelo-aberto-le-chonk-6f61eb8d.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Lançado<br>06/10",
+  "sources": [
+    "CNBC Technology",
+    "Wired AI",
+    "TechCrunch AI"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um modelo aberto feito na Europa",
+    "body": [
+      "A francesa Mistral lançou nesta terça o Mistral Large 4, apelidado de “Le Chonk”, com 1 trilhão de parâmetros (CNBC, Wired, TechCrunch). A empresa diz que é o modelo de peso aberto mais forte já feito fora da China.",
+      "Peso aberto quer dizer que o modelo pode ser baixado e rodado pelo próprio usuário. Por enquanto, o acesso é só por um endpoint público com barreiras de segurança (TechCrunch)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Treinado para código e cibersegurança",
+    "body": "O Le Chonk foi treinado inteiramente em data centers da própria Mistral na Europa, com 4.000 GPUs da Nvidia (CNBC, TechCrunch).",
+    "points": [
+      {
+        "h": "Foco",
+        "t": "Código, cibersegurança e finanças são as prioridades, segundo as três publicações (CNBC, Wired, TechCrunch)."
+      },
+      {
+        "h": "Outros usos",
+        "t": "A CNBC cita manufatura e tarefas multimodais; o TechCrunch aponta o design de chips."
+      },
+      {
+        "h": "Liberação controlada",
+        "t": "Os pesos sairão com governos e parceiros de confiança, para defesa e não ataque, disse Pierre Stock (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Menos GPUs e uma terceira via",
+    "body": [
+      "Segundo Pierre Stock, vice-presidente de ciência da Mistral, foram de duas a três vezes menos GPUs que as dos concorrentes chineses (TechCrunch).",
+      "Para empresas, modelo aberto custa só a computação usada para rodá-lo, sem assinatura (Wired). Emmanuel Macron chamou o lançamento de “uma terceira via em IA”, entre EUA e China (TechCrunch)."
+    ],
+    "stat": {
+      "big": "4.000 GPUs",
+      "cap": "usadas no treino do Le Chonk (CNBC, TechCrunch)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Pesos, testes e concorrência",
+    "items": [
+      {
+        "h": "Pesos",
+        "t": "Liberação prevista em cerca de três semanas, após testes de segurança (TechCrunch); CNBC e Wired dizem “ainda este mês”."
+      },
+      {
+        "h": "Benchmark",
+        "t": "Os resultados de desempenho do modelo ainda não tinham sido divulgados (TechCrunch)."
+      },
+      {
+        "h": "Rivais",
+        "t": "Modelos abertos chineses, como o GLM, ganham adoção no mundo (CNBC)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Mistral lançou o Mistral Large 4, o Le Chonk, modelo de peso aberto com 1 trilhão de parâmetros.",
+    "body": [
+      "Em setembro, a empresa francesa fechou uma rodada Série D que a avaliou em 21 bilhões de euros (CNBC, TechCrunch). A Wired classifica a captação como a maior já feita por uma empresa de tecnologia europeia.",
+      "A Mistral ganha dinheiro cobrando pelo uso de sua nuvem e cedendo engenheiros para ajustar os modelos a cada cliente (Wired). O cofundador Guillaume Lample disse à Wired que, com modelo fechado, não há garantia de que ele continue disponível amanhã."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#mistral",
+      "#lechonk",
+      "#codigoaberto"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Le Chonk, modelo aberto de 1 trilhão de parâmetros da Mistral",
+    "Slide 2: a Mistral lança o Mistral Large 4, o Le Chonk, com acesso inicial limitado",
+    "Slide 3: como o Le Chonk foi treinado e para quais usos a Mistral o otimizou",
+    "Slide 4: por que o Le Chonk importa: menos GPUs e uma alternativa europeia",
+    "Slide 5: o que vem para o Le Chonk: pesos liberados, benchmarks e rivais chineses",
+    "Slide 6: fontes sobre o Le Chonk, da Mistral: CNBC, Wired e TechCrunch"
+  ]
+}

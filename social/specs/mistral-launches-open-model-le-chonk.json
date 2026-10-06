@@ -1,0 +1,102 @@
+{
+  "slug": "mistral-launches-open-model-le-chonk",
+  "lang": "en",
+  "date": "06 Oct 2026",
+  "no": 9,
+  "category": "Models",
+  "kicker": "Models · Mistral",
+  "headline": "Mistral launches Le Chonk, a 1-trillion-parameter open model",
+  "headline_hl": "Le Chonk",
+  "dek": "Mistral Large 4 enters preview, and the French lab calls it the strongest open-weight model built outside China (CNBC, Wired, TechCrunch).",
+  "image": {
+    "path": "assets/img/mistral-launches-open-model-le-chonk-6f61eb8d.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Launched<br>06/10",
+  "sources": [
+    "CNBC Technology",
+    "Wired AI",
+    "TechCrunch AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "An open model from Europe",
+    "body": [
+      "French AI lab Mistral released Mistral Large 4 on Tuesday, a 1-trillion-parameter model nicknamed Le Chonk inside the company (CNBC, Wired, TechCrunch).",
+      "For now, access runs only through a public endpoint with guardrails. The weights, which let anyone run the model locally, are due in about three weeks, after safety testing (TechCrunch)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Trained in-house, tuned for niches",
+    "body": "Open-weight means the trained model can be downloaded and run by anyone. Mistral trained it on its own hardware (CNBC, TechCrunch).",
+    "points": [
+      {
+        "h": "Own GPUs",
+        "t": "Training used 4,000 Nvidia GPUs in Mistral's own European data centers (CNBC, TechCrunch)."
+      },
+      {
+        "h": "Focus",
+        "t": "The model is strongest in coding, cybersecurity and finance, with chip design as another priority (TechCrunch)."
+      },
+      {
+        "h": "Audit",
+        "t": "Open weights let outside experts inspect the model's inner workings directly, unlike a closed model (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A third option beside the US and China",
+    "body": [
+      "Mistral's science VP Pierre Stock says its GPU count is two to three times lower than what Chinese rivals use (TechCrunch).",
+      "For businesses, an open model costs only the compute needed to run it, with no subscription. Chinese open models such as GLM are gaining ground worldwide (Wired, CNBC)."
+    ],
+    "stat": {
+      "big": "€21 billion",
+      "cap": "Mistral's valuation after its Series D (CNBC)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Weights",
+        "t": "Mistral plans to publish the weights in about three weeks, once safety testing ends (TechCrunch)."
+      },
+      {
+        "h": "Partners",
+        "t": "The rollout will go through trusted partners and governments, aimed at defense rather than attacks (TechCrunch)."
+      },
+      {
+        "h": "No date",
+        "t": "Benchmark results had not been released when the outlets reported on the launch (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Mistral released Le Chonk, or Mistral Large 4, a 1-trillion-parameter open-weight model, now in preview.",
+    "body": [
+      "Mistral co-founder Guillaume Lample told Wired that owning a model matters even for US companies, since a closed model may not be available tomorrow. He said the lab targets areas larger labs tend to skip.",
+      "French President Emmanuel Macron called the release a third way in AI, alongside US and Chinese models (TechCrunch). Wired links Mistral's momentum to tighter US limits on how American companies distribute advanced models."
+    ],
+    "cta_variant": "A",
+    "cta": "Which tasks would most justify running an open-weight model on in-house hardware?",
+    "hashtags": [
+      "#cortexplor",
+      "#mistral",
+      "#lechonk",
+      "#openweights"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Mistral launching Le Chonk, a 1-trillion-parameter open model",
+    "Slide 2: Mistral releases Le Chonk in preview, with weights due after safety testing",
+    "Slide 3: how Mistral trained Le Chonk on its own GPUs and what it is built for",
+    "Slide 4: why Le Chonk matters as an open model beside US and Chinese rivals",
+    "Slide 5: what comes next for Le Chonk: weights, partners and benchmarks",
+    "Slide 6: sources on Mistral's Le Chonk: CNBC, Wired and TechCrunch"
+  ]
+}
