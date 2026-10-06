@@ -12,6 +12,7 @@ Na sessão (Claude):
         e grava na fila o endereço público. Depois: commit e push no midia.
     python scripts/social/publicar.py pedir <slug>
     python scripts/social/publicar.py pedir --teste [--lang en]
+    python scripts/social/publicar.py pedir --conferir [--lang en]   (só lê os últimos posts)
     python scripts/social/publicar.py proximo [--hora H]
         Horário fixo: para cada conta ativa, escolhe o aprovado mais antigo
         daquele idioma que já tem mídia pública e grava o pedido (as duas contas
@@ -97,6 +98,8 @@ def gravar_pedido(pedido: dict) -> int:
 
 
 def cmd_pedir(args) -> int:
+    if args.conferir:
+        return gravar_pedido({"acao": "conferir", "lang": args.lang})
     if args.teste:
         return gravar_pedido({"acao": "teste", "lang": args.lang})
     entry = next((e for e in diario.load_fila() if e["slug"] == args.slug), None)
@@ -234,6 +237,24 @@ def conta_da_chave(lang: str) -> tuple[str, str]:
 def cmd_executar(args) -> int:
     pedido = json.loads(PEDIDO.read_text(encoding="utf-8"))
     resultado = {"pedido": pedido, "em": diario.now_iso()}
+    if pedido.get("acao") == "conferir":
+        # Só leitura: os últimos posts da conta, para saber se um erro da API
+        # publicou mesmo assim (evita post duplicado ao tentar de novo).
+        lang = pedido.get("lang", "pt")
+        try:
+            token, ig = conta_da_chave(lang)
+            media = call("GET", f"{ig}/media", token, fields="caption,permalink,timestamp", limit=8).get("data", [])
+        except ApiError as e:
+            resultado.update(ok=False, erro=str(e))
+            print(f"ERRO: {e}")
+        else:
+            resultado.update(ok=True, conta=CONTAS[lang]["usuario"], ultimos=[
+                {"quando": m.get("timestamp"), "link": m.get("permalink"),
+                 "inicio": (m.get("caption") or "").split("\n", 1)[0][:90]} for m in media])
+            print(json.dumps(resultado["ultimos"], ensure_ascii=False, indent=1))
+        RESULTADO.write_text(json.dumps(resultado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return 0 if resultado["ok"] else 1
+
     if pedido.get("acao") == "teste":
         lang = pedido.get("lang", "pt")
         try:
@@ -287,12 +308,13 @@ def main(argv=None) -> int:
     p = sub.add_parser("pedir")
     p.add_argument("slug", nargs="?")
     p.add_argument("--teste", action="store_true")
-    p.add_argument("--lang", default="pt", choices=sorted(CONTAS), help="conta do teste")
+    p.add_argument("--conferir", action="store_true", help="só lista os últimos posts da conta")
+    p.add_argument("--lang", default="pt", choices=sorted(CONTAS), help="conta do teste ou da conferência")
     p = sub.add_parser("proximo")
     p.add_argument("--hora", type=int, help="hora do horário (BRT); padrão: a hora cheia mais próxima")
     sub.add_parser("executar")
     args = ap.parse_args(argv)
-    if args.cmd == "pedir" and not (args.slug or args.teste):
+    if args.cmd == "pedir" and not (args.slug or args.teste or args.conferir):
         ap.error("pedir precisa de um slug ou --teste")
     return {"midia": cmd_midia, "pedir": cmd_pedir, "proximo": cmd_proximo, "executar": cmd_executar}[args.cmd](args)
 
