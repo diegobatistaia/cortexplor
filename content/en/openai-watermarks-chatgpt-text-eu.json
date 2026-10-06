@@ -1,0 +1,136 @@
+{
+  "lang": "en",
+  "slug": "openai-watermarks-chatgpt-text-eu",
+  "story_id": "6cde8e268932be29",
+  "title": "OpenAI adds invisible watermarks to ChatGPT text in the EU",
+  "dek": "The textGrain watermark arrives for ChatGPT and Codex users in the European Union to meet the AI Act, while API customers worldwide can opt in.",
+  "meta_description": "OpenAI is watermarking ChatGPT and Codex text in the EU to comply with the AI Act. How textGrain works, where it fails and who gets access to the detector.",
+  "keyword": "OpenAI text watermark",
+  "category": "politica",
+  "tags": [
+    "openai",
+    "chatgpt",
+    "watermark",
+    "eu ai act",
+    "codex"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI will embed an invisible watermark in text produced by ChatGPT and Codex for users in the European Union, the company said Monday in a blog post. The rollout reaches eligible users on every plan in the bloc over the coming weeks, according to TechCrunch. The move is meant to satisfy the transparency rules of the EU AI Act, which require AI-generated content to be marked in a way other systems can detect.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The watermark stays regional for now. OpenAI said it is not making text watermarking a global default at launch, describing the EU-only approach as a way to learn from real-world use, The Verge reported. Developers are the exception: API customers anywhere in the world can opt in to watermarked output for select models starting this week. The setting is off by default.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Steering word choice instead of stamping the page",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The technique, called textGrain, adds no visible mark, hidden character or invisible space. It works on word choice. A language model writes by predicting the next word, and at most steps several candidates are plausible. According to the technical report OpenAI released with the announcement, described by TechCrunch, a secret key sorts those next-word predictions and nudges the model slightly toward certain options.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A single nudge proves nothing. Hundreds of them add up to a statistical pattern that a detector holding the same key can spot using only the text. Because the signal lives in the words themselves, it survives copy and paste.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says the watermark does not identify the user. It also published benchmark scores showing similar performance with and without the watermark, The Verge noted, and TechCrunch reported that the company saw no meaningful change in model quality.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The limits OpenAI spells out",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The announcement is unusually candid about weaknesses. Editing erodes the watermark: in one OpenAI test, swapping 10% of words for synonyms cut detection from about 92% to 66%, according to TechCrunch and Xataka. Short passages, math answers and translated text are also harder to detect.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI also listed what a detection result cannot establish:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "A missing watermark does not prove a human wrote the text. The passage may be too short, heavily edited, or produced by another company's model.",
+        "A positive result shows an OpenAI system generated or processed part of a passage, not how much human judgment or editing went into it.",
+        "The watermark does not determine who owns a text or whether its content is accurate."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Detector access is gated",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Citing the risk of false positives and missed watermarks, OpenAI is not releasing its detection tool publicly. Approved researchers and expert organizations can apply now, with access granted case by case under the EU Code of Practice, according to The Verge. The tool reports only whether it finds an OpenAI watermark and does not reveal the user, prompts or conversations.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said it is also working with cloud partners to bring watermarking to its models when they are accessed through those providers in the coming weeks, The Verge reported. The company already labels images and audio with C2PA metadata and SynthID marks, according to Xataka.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Following Anthropic, with a narrower footprint",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The decision comes two months after Anthropic said it would watermark text generated by Claude, also to comply with the AI Act, TechCrunch and The Verge reported. Anthropic applies its watermark worldwide; OpenAI starts with the EU only. Anthropic's move drew pushback from some Claude users, who argued they supplied the instructions and decisions while the model was merely the tool.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For businesses building on the API, watermarking is now a switch they control, which lets them decide how it fits their own transparency obligations. For consumers outside Europe, ChatGPT output is unchanged. OpenAI said it will revisit its approach as watermarking technology, standards and evidence mature, without giving a date for any wider rollout.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "digital text code screen abstract",
+    "alt": "Lines of digital text on a screen, illustrating invisible watermarks in AI-generated content",
+    "path": "/assets/img/openai-watermarks-chatgpt-text-eu-aa2ec08f.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "author": "Markus Spiske",
+    "author_url": "https://unsplash.com/@markusspiske?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-coding-screengrab-hvSr_CVecVI"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "title": "OpenAI is adding text watermarking in ChatGPT and Codex"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/robotica-e-ia/chatgpt-va-a-esconder-marca-invisible-sus-textos-europa",
+      "title": "OpenAI anuncia una \"marca de agua\" invisible para todos los textos generados por ChatGPT en Europa"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-06T11:31:25+00:00",
+  "updated_at": "2026-10-06T11:31:25+00:00"
+}

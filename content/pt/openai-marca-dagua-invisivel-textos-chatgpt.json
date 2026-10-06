@@ -1,0 +1,142 @@
+{
+  "lang": "pt",
+  "slug": "openai-marca-dagua-invisivel-textos-chatgpt",
+  "story_id": "6cde8e268932be29",
+  "title": "OpenAI põe marca d'água invisível em textos do ChatGPT na Europa",
+  "dek": "A marcação chega ao ChatGPT e ao Codex na União Europeia por causa do AI Act; fora do bloco, só desenvolvedores da API podem ativá-la.",
+  "meta_description": "OpenAI vai marcar textos do ChatGPT e do Codex com marca d'água invisível na União Europeia. Veja como o textGrain funciona e o que ele não consegue provar.",
+  "keyword": "marca d'água ChatGPT",
+  "category": "politica",
+  "tags": [
+    "openai",
+    "chatgpt",
+    "marca d'água",
+    "ai act",
+    "união europeia"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A OpenAI vai inserir uma marca d'água invisível nos textos produzidos pelo ChatGPT e pelo Codex na União Europeia. O anúncio saiu na segunda-feira (5), em post no blog da empresa, e a mudança chega nas próximas semanas para usuários elegíveis de todos os planos no bloco, segundo o TechCrunch e o Olhar Digital. O motivo é o AI Act, a lei europeia de inteligência artificial, cujas regras de transparência exigem que conteúdo gerado por IA possa ser reconhecido por outros sistemas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fora da Europa, nada muda por enquanto no aplicativo. A empresa disse que não vai transformar a marca d'água em padrão global no lançamento, de acordo com o The Verge. A exceção é a API, a porta usada por desenvolvedores para colocar os modelos da OpenAI dentro dos próprios produtos: clientes de qualquer país já podem ligar a marcação em alguns modelos desde segunda, mas ela vem desligada de fábrica.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como funciona uma marca que ninguém vê",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O sistema se chama textGrain e não acrescenta símbolo, caractere oculto ou espaço invisível ao texto. Ele age na escolha das palavras. Um modelo de linguagem escreve prevendo, a cada passo, qual palavra vem a seguir, e quase sempre há várias opções plausíveis. Segundo o relatório técnico publicado pela OpenAI e descrito pelo TechCrunch, uma chave secreta organiza essas previsões e empurra o modelo, de leve, para certas alternativas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Uma escolha isolada não diz nada. Centenas delas somadas formam um padrão estatístico que um detector, com acesso à mesma chave, consegue reconhecer olhando só o texto. Como o sinal mora nas próprias palavras, ele acompanha o conteúdo quando alguém copia e cola, observa o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI afirma que a marca não identifica o usuário e que, em seus testes, os modelos não tiveram mudança relevante de desempenho com o recurso ligado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Os limites admitidos pela própria empresa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio é cheio de ressalvas, e elas vêm da OpenAI. A marcação enfraquece quando o texto é editado. Num dos testes da empresa, trocar 10% das palavras por sinônimos derrubou a taxa de detecção de cerca de 92% para 66%, segundo o TechCrunch, o Olhar Digital e o Xataka. Textos curtos, respostas de matemática e conteúdo traduzido também são mais difíceis de reconhecer.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa lista ainda o que a marca d'água não prova:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "A ausência da marca não comprova que um texto foi escrito por uma pessoa. Ele pode ser curto demais, ter sido muito editado ou ter saído da IA de outra empresa.",
+        "A detecção indica que um sistema da OpenAI gerou ou processou parte do texto, mas não mede quanto houve de edição ou julgamento humano.",
+        "O sinal não diz quem é o dono do texto nem se a informação é verdadeira."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Detector só para pesquisadores aprovados",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Por causa do risco de falsos positivos e de marcas que passam despercebidas, a ferramenta de detecção não será aberta ao público no lançamento. O acesso inicial fica restrito a pesquisadores e organizações especializadas aprovados caso a caso, de acordo com o The Verge e o TechCrunch. O detector vai informar apenas se encontrou uma marca da OpenAI, sem revelar quem é o usuário, quais foram os comandos ou as conversas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para imagens e áudio, a OpenAI já usa outros padrões de identificação, como o C2PA e as marcas SynthID, segundo o Xataka.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A Anthropic saiu na frente",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A decisão chega dois meses depois de a Anthropic anunciar uma marca d'água nos textos gerados pelo Claude, também para cumprir a lei europeia, segundo o TechCrunch e o The Verge. A diferença está no alcance: a Anthropic aplica a marcação no mundo inteiro, enquanto a OpenAI começa só pela União Europeia. A medida da Anthropic provocou reclamações de parte dos usuários do Claude, que argumentaram ter fornecido as instruções e as decisões, com a IA servindo apenas como ferramenta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para quem usa o ChatGPT no Brasil, o efeito imediato é nenhum: a marcação no aplicativo vale só para contas na União Europeia. Empresas brasileiras que usam a API passam a ter a opção de ligar o recurso em alguns modelos, se quiserem sinalizar que seus textos foram gerados por IA. A OpenAI diz que vai revisar a abordagem conforme a tecnologia e os padrões evoluírem, e não deu data para levar a marca d'água a outras regiões.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "digital text code screen abstract",
+    "alt": "Texto digital em uma tela, ilustrando a marca d'água invisível em conteúdo gerado por IA",
+    "path": "/assets/img/openai-marca-dagua-invisivel-textos-chat-aa2ec08f.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "author": "Markus Spiske",
+    "author_url": "https://unsplash.com/@markusspiske?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-coding-screengrab-hvSr_CVecVI"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "title": "OpenAI is adding text watermarking in ChatGPT and Codex"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/10/05/inteligencia-artificial/openai-vai-colocar-marca-dagua-invisivel-em-textos-do-chatgpt/",
+      "title": "OpenAI vai colocar marca d’água invisível em textos do ChatGPT"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/robotica-e-ia/chatgpt-va-a-esconder-marca-invisible-sus-textos-europa",
+      "title": "OpenAI anuncia una \"marca de agua\" invisible para todos los textos generados por ChatGPT en Europa"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-06T11:31:25+00:00",
+  "updated_at": "2026-10-06T11:31:25+00:00"
+}
