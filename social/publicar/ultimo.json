@@ -1,10 +1,24 @@
 {
   "pedido": {
-    "acao": "teste",
-    "lang": "pt",
-    "pedido_em": "2026-10-06T13:11:22-03:00"
+    "acao": "publicar",
+    "itens": [
+      {
+        "slug": "openai-marca-dagua-invisivel-textos-chatgpt",
+        "lang": "pt"
+      }
+    ],
+    "pedido_em": "2026-10-06T13:12:02-03:00"
   },
-  "em": "2026-10-06T13:11:41-03:00",
+  "em": "2026-10-06T13:12:19-03:00",
   "ok": true,
-  "conta": "cortexplor"
+  "itens": [
+    {
+      "slug": "openai-marca-dagua-invisivel-textos-chatgpt",
+      "lang": "pt",
+      "conta": "cortexplor",
+      "ok": true,
+      "media_id": "18134615005679257",
+      "permalink": "https://www.instagram.com/p/DeKL29ilEkh/"
+    }
+  ]
 }
