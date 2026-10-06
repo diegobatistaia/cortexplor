@@ -56,7 +56,7 @@ EXTRAS = [10, 15, 21]
 # conta inativa não ganha carrossel (diario.py novas) nem publicação.
 CONTAS = {
     "pt": {"usuario": "cortexplor", "secret": "INSTAGRAM_TOKEN", "ativa": True},
-    "en": {"usuario": "cortexplor.en", "secret": "INSTAGRAM_TOKEN_EN", "ativa": False},
+    "en": {"usuario": "cortexplor.en", "secret": "INSTAGRAM_TOKEN_EN", "ativa": True},
 }
 
 

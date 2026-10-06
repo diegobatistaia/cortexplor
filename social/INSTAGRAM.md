@@ -20,7 +20,7 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Textos fixos dos slides em EN | Prontos (06/10/2026, `carousel_core.py::UI`). Com uma fonte só (anúncio oficial), a faixa de confirmação diz "Fonte: anúncio oficial da própria empresa" |
 | Rotina diária (matérias do dia → fila) | Pronta: `scripts/social/diario.py` (novas, fechar, fila) |
 | Aprovação | Automática desde 05/10/2026 (decisão do dono): passou no `check`, entra na fila como aprovado |
-| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por conta e por horário às 9h, 14h e 20h (BRT). Duas contas: @cortexplor (secret `INSTAGRAM_TOKEN`) e @cortexplor.en (secret `INSTAGRAM_TOKEN_EN`, ligada quando o teste da chave passar; `CONTAS` no `publicar.py`) |
+| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por conta e por horário às 9h, 14h e 20h (BRT). Duas contas: @cortexplor (secret `INSTAGRAM_TOKEN`) e @cortexplor.en (secret `INSTAGRAM_TOKEN_EN`, ligada em 05/10/2026 depois do teste da chave; `CONTAS` no `publicar.py`) |
 | Página de links da bio | No ar: /bio.pt e /bio.en (branch `links`) |
 
 ---
@@ -213,7 +213,7 @@ Contas: `@cortexplor` (PT) e `@cortexplor.en` (EN, criada pelo dono em 05/10/202
 3. ~~Integração diária~~ (feito em 05/10/2026: `diario.py`).
    Antes: para cada matéria do dia, escolher o estilo pelo rodízio (lembrando o último usado), renderizar e salvar slides + legenda por conta.
 4. ~~Aprovação manual~~ (feito em 05/10/2026: fila + aprovação pelo chat). Antes: (página de prévia ou arquivos enviados ao dono).
-5. ~~Publicação pela Instagram API~~ (PT no ar em 05/10/2026; EN espera a chave `INSTAGRAM_TOKEN_EN`). Plano original:
+5. ~~Publicação pela Instagram API~~ (PT no ar em 05/10/2026; EN ligada em 05/10/2026). Plano original:
    - contas profissionais de Instagram (PT e EN);
    - uma Página do Facebook ligada a cada conta;
    - um app na Meta e token de acesso (≈ 60 dias, renovado e guardado em secret do GitHub);
