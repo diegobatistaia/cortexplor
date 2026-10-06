@@ -102,7 +102,13 @@
   ],
   "image": {
     "query": "digital text code screen abstract",
-    "alt": "Texto digital en una pantalla, que ilustra la marca de agua invisible en contenido generado por IA"
+    "alt": "Texto digital en una pantalla, que ilustra la marca de agua invisible en contenido generado por IA",
+    "path": "/assets/img/openai-marca-agua-invisible-textos-chatg-aa2ec08f.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "author": "Markus Spiske",
+    "author_url": "https://unsplash.com/@markusspiske?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-coding-screengrab-hvSr_CVecVI"
   },
   "sources": [
     {
@@ -124,5 +130,7 @@
       "title": "OpenAI anuncia una \"marca de agua\" invisible para todos los textos generados por ChatGPT en Europa"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-06T11:31:26+00:00",
+  "updated_at": "2026-10-06T11:31:26+00:00"
 }
