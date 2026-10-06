@@ -18,6 +18,8 @@ STRINGS = {
         "see_all": "Ver tudo",
         "min_read": "min de leitura",
         "photo": "Foto",
+        "image": "Imagem",
+        "press": "divulgação",
         "sources": "Fontes",
         "verification_note": "Cada fato desta matéria foi confirmado em pelo menos "
                              "duas fontes independentes antes da publicação.",
@@ -56,6 +58,8 @@ STRINGS = {
         "see_all": "See all",
         "min_read": "min read",
         "photo": "Photo",
+        "image": "Image",
+        "press": "handout",
         "sources": "Sources",
         "verification_note": "Every fact in this story was confirmed by at least two "
                              "independent sources before publication.",
@@ -94,6 +98,8 @@ STRINGS = {
         "see_all": "Ver todo",
         "min_read": "min de lectura",
         "photo": "Foto",
+        "image": "Imagen",
+        "press": "divulgación",
         "sources": "Fuentes",
         "verification_note": "Cada dato de esta nota fue confirmado por al menos dos "
                              "fuentes independientes antes de publicarse.",
