@@ -1,0 +1,36 @@
+{
+  "lang": "en",
+  "slug": "chatgpt-ads-image-generator-test",
+  "story_id": "5def64d6c012625d",
+  "title": "OpenAI's ChatGPT Will Show Ads While It Generates Images",
+  "dek": "OpenAI's new ad format starts testing in the US this October, as the company leans further on advertising to fund free access.",
+  "meta_description": "OpenAI is testing a new ad format shown during ChatGPT image generation in the US, part of its wider push to fund free access with advertising revenue.",
+  "keyword": "ChatGPT image generator ads",
+  "category": "mercado",
+  "tags": ["ai", "openai", "chatgpt", "advertising", "monetization"],
+  "body": [
+    {"type": "p", "text": "OpenAI will test a new advertising format inside ChatGPT, shown to users while the chatbot generates images for them. Testing starts this October in the United States with a limited group of advertisers, according to Canaltech and Olhar Digital. Neither outlet's report said how many advertisers are taking part in the initial test, or how long the test will run before any wider release.", "items": []},
+    {"type": "p", "text": "The ads will appear separately from the AI-generated image, labeled as sponsored content, and may show product images, usage ideas or related experiences tied to what the user is creating, Canaltech reported. OpenAI says the ads do not affect the image the model produces or its response, according to Canaltech and Olhar Digital.", "items": []},
+    {"type": "p", "text": "In an example OpenAI itself released, a sponsored piece appears separately in the interface during the generation process, alongside the image being made, rather than layered on top of it. That does not mean brands can insert products directly inside the image a user requested, Canaltech reported.", "items": []},
+    {"type": "h2", "text": "How OpenAI says it protects conversations", "items": []},
+    {"type": "p", "text": "The company says it uses safeguards to decide which conversations can show an ad — sensitive topics and moments of emotional vulnerability are excluded from ad placement, Canaltech reported. Conversations are not shared with advertisers, who only receive aggregated performance data about their own campaigns, while ChatGPT's answers keep working independently of the ad system, according to Canaltech.", "items": []},
+    {"type": "h2", "text": "An existing format, a new placement", "items": []},
+    {"type": "p", "text": "Today, ChatGPT's standard ads appear below answers, with the advertiser's name, logo, title, description, link and an image, according to Canaltech. The new format extends that strategy to a specific moment in the product — image generation — starting in the US, rather than replacing the existing below-answer placement.", "items": []},
+    {"type": "p", "text": "OpenAI has not said exactly when the new ad format will reach other markets. Standard ChatGPT ads already run in Brazil for free and Go plan users since August, while Plus, Pro, Business, Enterprise and Edu subscribers see none at all, Canaltech reported.", "items": []},
+    {"type": "p", "text": "According to Canaltech, OpenAI's first ad tests started in the US in February 2026 and later reached markets including Brazil, the UK, Mexico, Japan and South Korea; in August, the service also expanded to 31 European countries. In September, OpenAI announced new advertiser tools, including so-called sponsored agents — which let a user start a conversation with a system built by a company after clicking an ad — along with AI tools for building and managing campaigns.", "items": []},
+    {"type": "p", "text": "Separately, Olhar Digital reported that ChatGPT advertising also reached India in August. Neither outlet's report said whether that India rollout used the exact same ad format already running elsewhere, or a different one.", "items": []},
+    {"type": "h2", "text": "Why OpenAI keeps expanding advertising", "items": []},
+    {"type": "p", "text": "OpenAI says ChatGPT reaches 1.2 billion people a week, according to Canaltech and Olhar Digital, and views advertising as a way to fund free and lower-cost access to the service for that entire user base. OpenAI has started pilot programs with DoubleVerify and Integral Ad Science to assess brand suitability for ads across different conversation contexts, Olhar Digital reported.", "items": []},
+    {"type": "p", "text": "The move lands amid intensifying competition in AI: Olhar Digital pointed to the free launch of Meta's Muse app as part of that backdrop.", "items": []},
+    {"type": "p", "text": "Olhar Digital also noted that DoubleVerify and Integral Ad Science will help OpenAI build ways to analyze ad context and placement safety inside ChatGPT. As it expands both ad formats and measurement tools, OpenAI says it wants to make the service more attractive to advertisers and, eventually, extend advertising to a global audience — though it has not given a timeline for that broader rollout, nor said which product surfaces beyond image generation and standard chat answers might carry ads next.", "items": []}
+  ],
+  "image": {
+    "query": "advertisement icon image generation interface abstract",
+    "alt": "Abstract AI image-generation interface with an advertising element shown beside it"
+  },
+  "sources": [
+    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-comeca-a-exibir-mais-anuncios-agora-no-gerador-de-imagens/", "title": "ChatGPT começa a exibir mais anúncios, agora no gerador de imagens"},
+    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/10/05/inteligencia-artificial/chatgpt-comeca-a-exibir-anuncios-ao-lado-de-imagens-geradas/", "title": "ChatGPT começa a exibir anúncios ao lado de imagens geradas"}
+  ],
+  "status": "draft"
+}

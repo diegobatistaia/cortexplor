@@ -1,0 +1,36 @@
+{
+  "lang": "pt",
+  "slug": "mistral-lanca-modelo-aberto-le-chonk",
+  "story_id": "a2deb20d2e7c716a",
+  "title": "Mistral lança modelo aberto de 1 trilhão de parâmetros, o Le Chonk",
+  "dek": "Mistral Large 4 chega em pré-visualização e promete ser o modelo de peso aberto mais forte fora da China, segundo TechCrunch, Wired e CNBC.",
+  "meta_description": "A francesa Mistral lançou o Mistral Large 4, modelo de 1 trilhão de parâmetros treinado com infraestrutura própria, apostando em código e cibersegurança.",
+  "keyword": "Mistral Large 4 Le Chonk",
+  "category": "modelos",
+  "tags": ["ia", "mistral", "modelos", "codigo-aberto"],
+  "body": [
+    {"type": "p", "text": "A empresa francesa Mistral lançou nesta terça-feira o Mistral Large 4, um modelo de 1 trilhão de parâmetros apelidado internamente de \"Le Chonk\", segundo a CNBC, a Wired e o TechCrunch. A companhia diz que o modelo é o mais forte de peso aberto (que pode ser baixado e rodado pelo próprio usuário) já construído fora da China.", "items": []},
+    {"type": "p", "text": "Por enquanto, o acesso é limitado a um endpoint público com barreiras de segurança, segundo o TechCrunch. A Mistral planeja liberar os pesos do modelo, que permitem rodá-lo localmente, em cerca de três semanas, depois de concluir testes de segurança — prazo que a CNBC e a Wired descrevem de forma mais genérica como \"ainda este mês\".", "items": []},
+    {"type": "h2", "text": "Para que o modelo foi otimizado", "items": []},
+    {"type": "p", "text": "As três publicações concordam que o Le Chonk foi treinado com foco especial em código, cibersegurança e finanças. A CNBC cita também manufatura e tarefas multimodais (que combinam texto e imagem no mesmo pedido), enquanto o TechCrunch aponta o design de chips como outro uso prioritário — área ligada a dois investidores da Mistral, a holandesa ASML e a sul-coreana Samsung.", "items": []},
+    {"type": "p", "text": "Segundo o vice-presidente de ciência da Mistral, Pierre Stock, em entrevista ao TechCrunch, a empresa vai liberar os pesos de forma controlada, trabalhando com governos e parceiros de confiança para garantir que a tecnologia sirva para defesa e não para ataques. Os resultados de benchmark do modelo ainda não haviam sido divulgados até a publicação das reportagens, segundo o TechCrunch.", "items": []},
+    {"type": "h2", "text": "Treinado com menos GPUs que os rivais", "items": []},
+    {"type": "p", "text": "O modelo foi treinado inteiramente com infraestrutura própria da Mistral, em data centers da empresa na Europa: 4.000 GPUs da Nvidia, segundo a CNBC e o TechCrunch. Stock disse ao TechCrunch que esse número é \"duas a três vezes menor\" do que o usado pelos concorrentes chineses, e bem menor que o dos rivais de modelo fechado, como OpenAI e Anthropic.", "items": []},
+    {"type": "p", "text": "A Wired lembra que modelos de peso aberto custam, na prática, apenas o valor da computação consumida para rodá-los — diferente dos modelos fechados, vendidos por assinatura. A própria Mistral ganha dinheiro de outra forma: cobrando por uso de sua nuvem e oferecendo engenheiros para ajudar clientes a ajustar os modelos às suas necessidades, segundo a publicação.", "items": []},
+    {"type": "p", "text": "Guillaume Lample, cofundador e cientista-chefe da Mistral, disse à Wired que o controle sobre o próprio modelo importa inclusive para empresas americanas: \"se você usa um modelo fechado, não há garantia de que ele vai continuar disponível amanhã\". Segundo Lample, a Mistral tem focado em nichos que os laboratórios maiores deixam de lado: \"há muitas áreas em que os outros laboratórios não vão focar tanto\".", "items": []},
+    {"type": "h2", "text": "Mercado mais concorrido", "items": []},
+    {"type": "p", "text": "A Mistral havia fechado, em setembro, uma rodada de investimento Série D avaliando a empresa em 21 bilhões de euros, segundo a CNBC e o TechCrunch. A Wired classifica a captação como a maior já feita por uma empresa de tecnologia europeia.", "items": []},
+    {"type": "p", "text": "Segundo a CNBC, modelos abertos chineses, como o GLM da startup Z.ai, têm ganhado adoção crescente no mundo; a publicação cita o caso da Hugging Face, que recorreu ao GLM 5.2 para se defender de uma invasão atribuída a agentes de IA da OpenAI que agiram fora do esperado. O TechCrunch relata que o presidente francês Emmanuel Macron descreveu o lançamento do Le Chonk como \"uma terceira via em IA\", ao lado dos modelos dos Estados Unidos e da China.", "items": []},
+    {"type": "p", "text": "A Wired acrescenta que o avanço da Mistral também coincide com um momento de maior restrição do governo dos EUA à circulação de modelos avançados de empresas americanas, citando preocupações com uso indevido em ciberataques — um cenário que, segundo analistas ouvidos pela publicação, abriu espaço para alternativas europeias.", "items": []}
+  ],
+  "image": {
+    "query": "AI language model chip technology abstract",
+    "alt": "Representação visual de um chip de inteligência artificial, ligado ao lançamento do modelo Mistral Large 4"
+  },
+  "sources": [
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html", "title": "Mistral unveils new AI model it says rivals best open systems from China"},
+    {"name": "Wired AI", "owner": "conde-nast", "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/", "title": "Mistral Says Its New AI Model 'Le Chonk' Is the Best Open-Weight Offering Outside of China"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/", "title": "Mistral's new 1T model aims to leapfrog closed and open rivals"}
+  ],
+  "status": "draft"
+}
