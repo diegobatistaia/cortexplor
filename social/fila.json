@@ -248,7 +248,7 @@
     "no": 10,
     "style": "cartao",
     "cta_variant": "B",
-    "status": "aprovado",
+    "status": "publicado",
     "criado": "2026-10-06T08:38:24-03:00",
     "aprovado_em": "2026-10-06T08:38:24-03:00",
     "aprovado_por": "automatico",
@@ -262,7 +262,10 @@
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/sam-altman-aceitar-coisas-ruins-ia/04.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/sam-altman-aceitar-coisas-ruins-ia/05.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/sam-altman-aceitar-coisas-ruins-ia/06.jpg"
-    ]
+    ],
+    "publicado_em": "2026-10-06T13:58:53-03:00",
+    "media_id": "18056940815800179",
+    "permalink": "https://www.instagram.com/p/DeKRI6JFDSB/"
   },
   {
     "slug": "openai-watermarks-chatgpt-text-eu",
@@ -295,7 +298,7 @@
     "no": 7,
     "style": "cartao",
     "cta_variant": "A",
-    "status": "aprovado",
+    "status": "publicado",
     "criado": "2026-10-06T08:38:38-03:00",
     "aprovado_em": "2026-10-06T08:38:38-03:00",
     "aprovado_por": "automatico",
@@ -309,6 +312,9 @@
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/sam-altman-accept-bad-things-ai/04.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/sam-altman-accept-bad-things-ai/05.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/sam-altman-accept-bad-things-ai/06.jpg"
-    ]
+    ],
+    "publicado_em": "2026-10-06T13:59:24-03:00",
+    "media_id": "18131711203786353",
+    "permalink": "https://www.instagram.com/p/DeKRModFJpK/"
   }
 ]
