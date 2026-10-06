@@ -68,8 +68,8 @@ def cmd_brief(cfg, args) -> int:
     if oficial:
         plausible += so_oficial
 
-    daily_cap = cfg.posts_per_language(date.today())
     tz_name = cfg.get("site.timezone", "UTC")
+    daily_cap = cfg.posts_per_language(local_today(tz_name))
     used = max(used_today(cfg.languages, tz_name).values(), default=0)
     if args.limit:
         wanted = args.limit
@@ -138,6 +138,17 @@ def run_budget(remaining: int, run_hours: list[int], tz_name: str, now=None) -> 
     return -(-remaining // left)
 
 
+def local_today(tz_name: str, now=None) -> date:
+    """O dia de hoje no fuso do site.
+
+    O GitHub Actions e a Routine rodam em UTC: depois das 21h de Brasília o
+    date.today() deles já é amanhã, e a virada do ritmo (4 para 5 por dia)
+    chegaria três horas antes.
+    """
+    from zoneinfo import ZoneInfo
+    return (now or utcnow()).astimezone(ZoneInfo(tz_name)).date()
+
+
 def same_local_day(when, tz_name: str, now=None) -> bool:
     """O briefing é do dia de hoje no fuso do site?
 
@@ -180,11 +191,22 @@ def cmd_briefing(cfg, args) -> int:
     from_today = same_local_day(generated, tz_name)
 
     print(f"Gerado em: {data.get('generated_at')}  ({age:.1f}h atrás)")
+    if not from_today:
+        # As contas gravadas nele são do dia em que foi gerado. Mostrá-las aqui
+        # fazia parecer que o teto de hoje tinha acabado ("4 de 4"), quando o
+        # que falta é só a coleta de hoje: cada dia tem o teto inteiro.
+        hoje = local_today(tz_name)
+        print(f"\nBRIEFING DE OUTRO DIA. A coleta de hoje ({hoje:%d/%m}) ainda não chegou.")
+        print(f"O teto de hoje está intacto: {cfg.posts_per_language(hoje)} por idioma, "
+              f"já escritas hoje: {max(used_today(cfg.languages, tz_name).values(), default=0)}.")
+        print("Não escreva em cima deste material: avise no resumo que a coleta de hoje "
+              "atrasou e encerre sem commitar. A rodada seguinte recupera as vagas.")
+        return 1
     if from_today:
         written = already_written_story_ids(cfg)
         before = len(data.get("stories", []))
         data["stories"] = [st for st in data.get("stories", []) if st["story_id"] not in written]
-        daily_cap = cfg.posts_per_language(date.today())
+        daily_cap = cfg.posts_per_language(local_today(tz_name))
         used = max(used_today(cfg.languages, tz_name).values(), default=0)
         data.update({"daily_cap_per_language": daily_cap, "already_written_today": used,
                      "posts_per_language_today":
@@ -205,10 +227,6 @@ def cmd_briefing(cfg, args) -> int:
         print(f"    {marca} | owners: {', '.join(story['owners'])} | "
               f"{legiveis}/{len(story['sources'])} com texto integral")
 
-    if not from_today:
-        print("\nBRIEFING DE OUTRO DIA. A coleta de hoje ainda não rodou.")
-        print("Não escreva em cima deste material: avise no resumo e encerre sem commitar.")
-        return 1
     if not data.get("posts_per_language_today"):
         print("\nTeto do dia já atingido. Encerre sem commitar.")
         return 1
@@ -423,7 +441,7 @@ def cmd_all(cfg, args) -> int:
     stories = collect.run(cfg)
     minimum = cfg.get("quality_gate.min_independent_sources", 2)
     plausible = [s for s in stories if s["owner_count"] >= minimum]
-    wanted = args.limit or cfg.posts_per_language(date.today())
+    wanted = args.limit or cfg.posts_per_language(local_today(cfg.get("site.timezone", "UTC")))
     checked = verify.run(plausible[:wanted * 3], cfg, limit=wanted * 3)
     verified = [c for c in checked if c["verdict"] == "verified"][:wanted]
     if not verified:
@@ -507,7 +525,7 @@ def adsense_readiness(cfg) -> dict:
     if cfg.get("publishing.launch_date"):
         from datetime import datetime
         inicio = datetime.strptime(str(cfg.get("publishing.launch_date")), "%Y-%m-%d").date()
-        dias = (date.today() - inicio).days
+        dias = (local_today(cfg.get("site.timezone", "UTC")) - inicio).days
     taxa, amostra = gate_pass_rate(cfg.get("publishing.ramp_window_days", 14))
 
     criterios = [
@@ -528,7 +546,7 @@ def adsense_readiness(cfg) -> dict:
 
 
 def cmd_status(cfg, args) -> int:
-    allowed = cfg.posts_per_language(date.today())
+    allowed = cfg.posts_per_language(local_today(cfg.get("site.timezone", "UTC")))
     window = cfg.get("publishing.ramp_window_days", 14)
     rate, sample = gate_pass_rate(window)
     target = cfg.get("publishing.ramp_gate_pass_rate", 0.8)

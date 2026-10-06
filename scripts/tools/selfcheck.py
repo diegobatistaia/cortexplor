@@ -360,6 +360,11 @@ def main() -> int:
           same_local_day(brt(7), tz, now=brt(12)))
     check("briefing das 22h de ontem não vale às 7h de hoje",
           not same_local_day(_dt(2026, 10, 5, 1, 0, tzinfo=timezone.utc), tz, now=brt(7)))
+    from scripts.pipeline.run import local_today
+    check("coleta antecipada das 6h já divide o teto pelas três rodadas",
+          run_budget(4, [7, 12, 18], tz, brt(6)) == 2)
+    check("depois das 21h de Brasília ainda é o mesmo dia para o teto",
+          str(local_today(tz, now=_dt(2026, 11, 1, 1, 0, tzinfo=timezone.utc))) == "2026-10-31")
     check("dia é o do fuso do site, não o UTC",
           same_local_day(_dt(2026, 10, 5, 2, 0, tzinfo=timezone.utc), tz,
                          now=_dt(2026, 10, 5, 0, 30, tzinfo=timezone.utc)))
