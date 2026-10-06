@@ -1,0 +1,37 @@
+{
+  "lang": "en",
+  "slug": "ghost-ai-raises-11-million-personal-computer",
+  "story_id": "27f76b0a45af49b8",
+  "title": "Ghost AI raises $11 million for a dedicated personal-agent computer",
+  "dek": "Core, the startup's $3,499 \"brain in a box,\" is designed to run personal AI agents entirely offline, according to SiliconANGLE and TechRadar.",
+  "meta_description": "Ghost AI raised $11 million led by Andreessen Horowitz for Core, a dedicated computer built to run personal AI agents without relying on the cloud at all.",
+  "keyword": "Ghost AI Core computer",
+  "category": "aplicacoes",
+  "tags": ["ai", "hardware", "ai agents", "startups"],
+  "body": [
+    {"type": "p", "text": "AI hardware startup Ghost AI raised $11 million in a round led by Andreessen Horowitz, with participation from Nova and other investors, according to SiliconANGLE and TechRadar. The company, founded by 19-year-old CEO Zain Javaid, spent the past year building Core, a computer dedicated to running personal AI agents.", "items": []},
+    {"type": "p", "text": "Core has no monitor or traditional peripherals. Per SiliconANGLE, it's meant to work as a \"brain in a box\" — a home device whose only job is to keep AI agents running continuously on the user's behalf, without relying on servers controlled by outside companies.", "items": []},
+    {"type": "h2", "text": "Everything runs locally, nothing goes to the cloud", "items": []},
+    {"type": "p", "text": "Javaid told TechCrunch, in an interview cited by SiliconANGLE, that he decided to build Core after concluding there was a market for a powerful, locally hosted machine that could continuously learn about its user and process private data without sending a single byte to the cloud. \"All of the source code, logic, and model weights live on the device, not the services,\" he said.", "items": []},
+    {"type": "p", "text": "In Ghost's first-ever post on X, cited by SiliconANGLE, the company summed up its pitch: \"we are building an ecosystem around personal intelligence you own. The more of your life agents understand, the more capable they will become. But a system with this much access should not live on infrastructure someone else owns.\"", "items": []},
+    {"type": "p", "text": "The device ships with an Nvidia RTX Pro 4000 Blackwell GPU and comes preloaded with open-source models including Alibaba's Qwen-3.8 and Qwen-3.8-2.7B and Google's Gemma-4-31B, according to SiliconANGLE. Users can also download additional models from Hugging Face and similar repositories. Since Core has no screen of its own, it's controlled through a dedicated phone or web app.", "items": []},
+    {"type": "h2", "text": "An aggressive price point", "items": []},
+    {"type": "p", "text": "TechRadar frames the price as the launch's main hook: for $3,499, buyers get an Nvidia RTX Pro 4000 Blackwell SFF GPU with 24GB of memory, an AMD Ryzen 5 processor, 64GB of DDR5 RAM and a 1TB SSD — a bundle the outlet estimates would cost around $5,000 if bought separately.", "items": []},
+    {"type": "p", "text": "Replying to a post on X cited by TechRadar, Javaid said Ghost locked in supply of the GPU when it still cost $1,700, before prices doubled industry-wide, and that the company is \"happy to pass on our savings to the customer\" — at least until the next batch, when prices are expected to rise.", "items": []},
+    {"type": "p", "text": "TechRadar says the GPU is rated at 770 TOPS (trillions of operations per second) and the CPU is a six-core AMD Ryzen 5 7600. The outlet compares Core to the 64GB version of Nvidia's rival DGX Spark workstation, which goes on sale October 23rd for $4,999 — a notably higher price that helps explain the buzz around Ghost's launch.", "items": []},
+    {"type": "p", "text": "Asked about established competitors, Javaid downplayed their edge in the TechCrunch interview cited by TechRadar: \"people sometimes give incumbents credit for having already built the product because they have the ingredients.\" Unlike rivals such as Framework, which manufacture their own parts, Ghost assembles Core from off-the-shelf components and bases its intellectual property on its own software layer, browser and file system, according to TechRadar.", "items": []},
+    {"type": "h2", "text": "Security and privacy as the pitch", "items": []},
+    {"type": "p", "text": "According to SiliconANGLE, all user data is stored encrypted inside Core itself, and only the user holds the access keys — not even Ghost can see what's stored on the machine. The device also runs a dedicated firewall that monitors AI agents' outgoing requests to prevent data from being sent out without authorization.", "items": []},
+    {"type": "p", "text": "The device receives automatic over-the-air updates, similar to how Tesla updates its vehicles' software, per SiliconANGLE. Javaid also told the outlet that Core was built to keep working normally even if Ghost itself ceases to exist, since all of its code, logic and model weights run on the machine itself.", "items": []},
+    {"type": "p", "text": "The first batch of Core has already sold out, both outlets report; TechRadar says shipping is expected to begin on October 31. Ghost has opened a waitlist for the second batch, backed by a refundable $499 deposit, according to TechRadar.", "items": []}
+  ],
+  "image": {
+    "query": "small AI computer device desktop hardware",
+    "alt": "A compact AI-dedicated computer on a desk, similar to Ghost AI's Core device"
+  },
+  "sources": [
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/05/ai-agent-hardware-startup-ghost-led-by-its-19-year-old-founder-raises-11m/", "title": "AI agent hardware startup Ghost, led by its 19-year-old-founder, raises $11M"},
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/buy-this-24gb-nvidia-rtx-5080-class-gpu-and-get-a-free-ai-pc-generous-19-year-old-us-startup-ceo-happy-to-pass-on-our-savings-to-the-customer-as-he-raises-usd11m-from-andreessen-horowitz-and-others", "title": "Buy this 24GB Nvidia RTX 5080-class GPU and get a 'free' AI PC"}
+  ],
+  "status": "draft"
+}

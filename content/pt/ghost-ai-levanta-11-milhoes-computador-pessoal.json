@@ -1,0 +1,37 @@
+{
+  "lang": "pt",
+  "slug": "ghost-ai-levanta-11-milhoes-computador-pessoal",
+  "story_id": "27f76b0a45af49b8",
+  "title": "Startup Ghost AI levanta US$ 11 milhões para computador de agentes de IA",
+  "dek": "Core, o \"cérebro em uma caixa\" da Ghost AI vendido a US$ 3.499, promete rodar agentes de IA pessoais sem depender da nuvem, segundo SiliconANGLE e TechRadar.",
+  "meta_description": "A Ghost AI levantou US$ 11 milhões liderados pela Andreessen Horowitz para o Core, computador dedicado a rodar agentes de IA pessoais sem depender da nuvem.",
+  "keyword": "Ghost AI Core computador IA",
+  "category": "aplicacoes",
+  "tags": ["ia", "hardware", "agentes-de-ia", "startups"],
+  "body": [
+    {"type": "p", "text": "A startup de hardware Ghost AI levantou US$ 11 milhões em uma rodada liderada pela Andreessen Horowitz, com participação da Nova e de outros investidores, segundo o SiliconANGLE e o TechRadar. A empresa foi fundada pelo CEO Zain Javaid, de 19 anos, e passou o último ano desenvolvendo o Core, um computador dedicado a rodar agentes de IA pessoais.", "items": []},
+    {"type": "p", "text": "O Core não tem monitor nem periféricos tradicionais. Segundo o SiliconANGLE, a ideia é que funcione como um \"cérebro em uma caixa\": um aparelho que fica em casa só para manter agentes de IA rodando continuamente em nome do usuário, sem depender de servidores de terceiros.", "items": []},
+    {"type": "h2", "text": "Tudo roda localmente, nada vai para a nuvem", "items": []},
+    {"type": "p", "text": "Javaid disse ao TechCrunch, em entrevista citada pelo SiliconANGLE, que decidiu construir o Core depois de concluir que existe mercado para uma máquina potente e hospedada localmente, capaz de aprender continuamente sobre o usuário e processar dados privados sem enviar nenhum byte para a nuvem. \"Todo o código-fonte, a lógica e os pesos dos modelos ficam no dispositivo, não nos serviços\", afirmou o fundador.", "items": []},
+    {"type": "p", "text": "Em sua primeira publicação no X, citada pelo SiliconANGLE, a Ghost resumiu a tese da empresa: \"estamos construindo um ecossistema em torno de inteligência pessoal que você possui. Quanto mais os agentes entendem da sua vida, mais capazes eles se tornam. Mas um sistema com tanto acesso não deveria viver em uma infraestrutura que pertence a outra pessoa\".", "items": []},
+    {"type": "p", "text": "O aparelho vem com uma GPU Nvidia RTX Pro 4000 Blackwell e já inclui modelos de código aberto como o Qwen-3.8 e o Qwen-3.8-2.7B, da Alibaba, e o Gemma-4-31B, do Google, segundo o SiliconANGLE. Usuários também podem baixar outros modelos do Hugging Face e de repositórios semelhantes. O controle do Core é feito por aplicativo de celular ou web, já que o dispositivo não tem tela própria.", "items": []},
+    {"type": "h2", "text": "Preço agressivo chamou atenção", "items": []},
+    {"type": "p", "text": "O TechRadar destaca o preço como o principal gancho do lançamento: por US$ 3.499, o comprador leva uma GPU Nvidia RTX Pro 4000 Blackwell SFF com 24 GB de memória, um processador AMD Ryzen 5, 64 GB de RAM DDR5 e um SSD de 1 TB — um conjunto que a publicação avalia valer cerca de US$ 5 mil se comprado separadamente.", "items": []},
+    {"type": "p", "text": "Em resposta a uma publicação no X citada pelo TechRadar, Javaid disse que a Ghost conseguiu garantir fornecimento da GPU quando ela ainda custava US$ 1.700, antes de o preço dobrar no mercado, e que a empresa está \"feliz em repassar essa economia ao cliente\" — ao menos até o próximo lote, quando os preços devem subir.", "items": []},
+    {"type": "p", "text": "Segundo o TechRadar, a GPU é capaz de 770 TOPS (trilhões de operações por segundo) e o processador é um AMD Ryzen 5 7600, de seis núcleos. A publicação compara o Core à versão de 64 GB do Nvidia DGX Spark, workstation rival que começa a ser vendida em 23 de outubro por US$ 4.999 — preço bem mais alto, o que ajuda a explicar a repercussão em torno do lançamento da Ghost.", "items": []},
+    {"type": "p", "text": "Questionado sobre concorrentes estabelecidos, Javaid minimizou a vantagem deles em entrevista ao TechCrunch, citada pelo TechRadar: \"às vezes as pessoas dão crédito às empresas já estabelecidas por já terem construído o produto, só porque elas têm os ingredientes\". Diferente de rivais como a Framework, que fabricam peças próprias, a Ghost monta o Core com componentes prontos de mercado e aposta sua propriedade intelectual na camada de software, no navegador e no sistema de arquivos próprios, segundo o TechRadar.", "items": []},
+    {"type": "h2", "text": "Segurança e privacidade como diferencial", "items": []},
+    {"type": "p", "text": "Segundo o SiliconANGLE, todos os dados do usuário ficam armazenados de forma criptografada dentro do próprio Core, e só o usuário detém as chaves de acesso — nem a própria Ghost consegue ver o que está guardado na máquina. O dispositivo também tem um firewall dedicado a monitorar as requisições dos agentes de IA, para impedir que dados sejam enviados para fora sem autorização.", "items": []},
+    {"type": "p", "text": "O aparelho recebe atualizações automáticas pela internet, de forma parecida com o que a Tesla faz com o software de seus carros, segundo o SiliconANGLE. Javaid também afirmou à publicação que o Core foi projetado para continuar funcionando normalmente mesmo que a própria Ghost deixe de existir, já que todo o código, a lógica e os pesos dos modelos rodam no próprio computador.", "items": []},
+    {"type": "p", "text": "O primeiro lote do Core já está esgotado, segundo as duas publicações; a TechRadar afirma que o início dos envios está previsto para 31 de outubro. A Ghost já abriu lista de interesse para o segundo lote, mediante um depósito reembolsável de US$ 499, segundo o TechRadar.", "items": []}
+  ],
+  "image": {
+    "query": "small AI computer device desktop hardware",
+    "alt": "Computador compacto dedicado a inteligência artificial sobre uma mesa, similar ao Core da Ghost AI"
+  },
+  "sources": [
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/05/ai-agent-hardware-startup-ghost-led-by-its-19-year-old-founder-raises-11m/", "title": "AI agent hardware startup Ghost, led by its 19-year-old-founder, raises $11M"},
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/buy-this-24gb-nvidia-rtx-5080-class-gpu-and-get-a-free-ai-pc-generous-19-year-old-us-startup-ceo-happy-to-pass-on-our-savings-to-the-customer-as-he-raises-usd11m-from-andreessen-horowitz-and-others", "title": "Buy this 24GB Nvidia RTX 5080-class GPU and get a 'free' AI PC"}
+  ],
+  "status": "draft"
+}
