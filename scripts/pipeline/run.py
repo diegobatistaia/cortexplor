@@ -149,6 +149,15 @@ def local_today(tz_name: str, now=None) -> date:
     return (now or utcnow()).astimezone(ZoneInfo(tz_name)).date()
 
 
+def last_chance(cfg, tz_name: str, now=None) -> bool:
+    """Esta já é a última rodada do dia e nenhuma matéria automática saiu hoje?"""
+    from zoneinfo import ZoneInfo
+    hour = (now or utcnow()).astimezone(ZoneInfo(tz_name)).hour
+    if hour < max(cfg.run_hours):
+        return False
+    return max(used_today(cfg.languages, tz_name, now).values(), default=0) == 0
+
+
 def same_local_day(when, tz_name: str, now=None) -> bool:
     """O briefing é do dia de hoje no fuso do site?
 
@@ -191,6 +200,13 @@ def cmd_briefing(cfg, args) -> int:
     from_today = same_local_day(generated, tz_name)
 
     print(f"Gerado em: {data.get('generated_at')}  ({age:.1f}h atrás)")
+    if not from_today and last_chance(cfg, tz_name) and age <= 24 and data.get("stories"):
+        # Rede de segurança: nove tentativas de coleta falharam e esta é a
+        # última rodada do dia. O dono prefere material das últimas 24 horas
+        # a um dia sem matéria nenhuma; o que já virou matéria sai da lista.
+        print("\nÚLTIMA RODADA SEM COLETA DE HOJE: usando o briefing das últimas 24 horas.")
+        print("Escreva só o que ainda é notícia hoje e date cada fato pelo que as fontes dizem.")
+        from_today = True
     if not from_today:
         # As contas gravadas nele são do dia em que foi gerado. Mostrá-las aqui
         # fazia parecer que o teto de hoje tinha acabado ("4 de 4"), quando o

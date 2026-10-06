@@ -31,6 +31,12 @@ rodada. (A coleta e esta sessão rodam três vezes por dia.) Se ele falhar, pare
 escreva no resumo que o briefing está velho ou vazio e encerre sem commitar.
 Escrever em cima de notícia de ontem é pior do que não publicar.
 
+A única exceção é a rede de segurança da última rodada do dia (18h30): se
+nenhuma das tentativas de coleta de hoje chegou e o dia ainda não tem nenhuma
+matéria automática, o comando aceita o briefing das últimas 24 horas e avisa
+isso na saída. O dono prefere isso a um dia sem matéria. Escreva só o que ainda
+é notícia e date cada fato pelo que as fontes dizem ("na segunda-feira (5)").
+
 Depois de passar, leia `data/briefing.json` inteiro. Cada pauta traz `sources[]`,
 e cada fonte tem `owner` (o grupo dono do veículo) e `text` (a matéria inteira,
 quando foi possível baixar).
@@ -202,6 +208,19 @@ Regras do arquivo:
   valor `"anuncio_oficial"`. Nas demais, não ponha o campo.
 - `status` sempre `"draft"`. Quem promove para publicado é o gate.
 - Corpo entre `word_count.min` e `word_count.max` palavras (está no briefing).
+
+## 4.1 Matéria pedida pelo dono: extra
+
+Quando o Diego pede uma matéria específica (algo que viu e quer no ar, ou um
+teste), ela entra **por fora do teto**: ponha `"extra": true` no arquivo dos
+três idiomas. O `used_today` não conta matéria extra, então as automáticas do
+dia (4 por idioma, 5 a partir de 01/11) continuam inteiras.
+
+- A checagem é a mesma: duas fontes independentes ou o anúncio oficial da
+  seção 1.1. Pedido do dono não dispensa apuração; se não resistir, diga a ele
+  por quê.
+- Só quem pediu marca `extra`. A Routine nunca marca uma matéria própria como
+  extra para escrever acima do teto.
 
 ## 5. Conferir antes de commitar
 

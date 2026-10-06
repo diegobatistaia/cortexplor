@@ -80,6 +80,9 @@ def used_today(languages, tz_name: str, now=None) -> dict[str, int]:
 
     Conta o publicado hoje e o rascunho ainda pendente: o teto diário é de quem
     escreve, e um rascunho que o Finalizar ainda não publicou já gastou a vaga.
+
+    Matéria com "extra": true (pedida pelo dono, teste ou pauta em cima da
+    hora) não entra na conta: as automáticas do dia continuam inteiras.
     """
     from zoneinfo import ZoneInfo
     from .util import parse_date
@@ -89,6 +92,8 @@ def used_today(languages, tz_name: str, now=None) -> dict[str, int]:
     for lang in languages:
         n = 0
         for post in load_posts(lang):
+            if post.get("extra"):
+                continue
             if post.get("status") == "draft":
                 n += 1
                 continue
