@@ -3,22 +3,21 @@
     "acao": "publicar",
     "itens": [
       {
-        "slug": "nvidia-discontinues-shield-tv-raises-shield-pro-price",
+        "slug": "apple-tightens-full-disk-access-mac-ai-agents",
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-10-05T23:21:42-03:00"
+    "pedido_em": "2026-10-05T23:22:49-03:00"
   },
-  "em": "2026-10-05T23:22:02-03:00",
-  "ok": true,
+  "em": "2026-10-05T23:23:05-03:00",
+  "ok": false,
   "itens": [
     {
-      "slug": "nvidia-discontinues-shield-tv-raises-shield-pro-price",
+      "slug": "apple-tightens-full-disk-access-mac-ai-agents",
       "lang": "en",
       "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "18122693011926508",
-      "permalink": "https://www.instagram.com/p/DeIs3utmpX-/"
+      "ok": false,
+      "erro": "HTTP 500 em 18128087950682516: "
     }
   ]
 }
