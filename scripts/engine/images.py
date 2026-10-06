@@ -22,7 +22,7 @@ import re
 from pathlib import Path
 
 import requests
-from PIL import Image
+from PIL import Image, ImageEnhance, ImageFilter
 
 from .config import ROOT, Config
 from .util import fingerprint
@@ -32,7 +32,7 @@ MAX_WIDTH = 1200
 QUALITY = 82
 TIMEOUT = 25
 USER_AGENT = "CortexplorBot/1.0 (https://cortexplor.com; bot@cortexplor.com)"
-MIN_WIDTH = 800
+MIN_WIDTH = 360
 
 
 class ImageError(RuntimeError):
@@ -236,14 +236,29 @@ PROVIDERS = {"unsplash": _unsplash, "pexels": _pexels}
 
 
 def crop_16_9(image: Image.Image) -> Image.Image:
-    """Corta para 16:9, a proporção da capa. Foto em pé (retrato de pessoa) é
-    cortada perto do topo, para não decapitar ninguém; as outras, no centro."""
-    target = round(image.width * 9 / 16)
-    if image.height <= target:
-        return image
-    bias = 0.2 if image.height > image.width else 0.5
-    top = round((image.height - target) * bias)
-    return image.crop((0, top, image.width, top + target))
+    """Deixa a imagem em 16:9, a proporção da capa.
+
+    Foto horizontal é cortada no centro. Retrato (a foto de pessoa da
+    Wikipedia costuma ser em pé e pequena) não aguenta o corte sem perder a
+    cabeça: vai inteiro no meio, sobre um fundo feito da própria foto
+    ampliada, desfocada e escurecida.
+    """
+    ratio = image.width / image.height
+    if ratio >= 1.3:
+        target_w = min(image.width, round(image.height * 16 / 9))
+        target_h = min(image.height, round(image.width * 9 / 16))
+        left = (image.width - target_w) // 2
+        top = (image.height - target_h) // 2
+        return image.crop((left, top, left + target_w, top + target_h))
+    width, height = MAX_WIDTH, round(MAX_WIDTH * 9 / 16)
+    scale = max(width / image.width, height / image.height)
+    background = image.resize((round(image.width * scale), round(image.height * scale)), Image.LANCZOS)
+    left, top = (background.width - width) // 2, (background.height - height) // 2
+    background = background.crop((left, top, left + width, top + height))
+    background = ImageEnhance.Brightness(background.filter(ImageFilter.GaussianBlur(28))).enhance(0.55)
+    front = image.resize((round(image.width * height / image.height), height), Image.LANCZOS)
+    background.paste(front, ((width - front.width) // 2, 0))
+    return background
 
 
 def download(url: str, slug: str) -> str:
@@ -251,7 +266,7 @@ def download(url: str, slug: str) -> str:
     response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
     response.raise_for_status()
     image = crop_16_9(Image.open(io.BytesIO(response.content)).convert("RGB"))
-    if image.width < 600:
+    if image.width < MIN_WIDTH:
         raise ImageError(f"imagem pequena demais ({image.width}px)")
     if image.width > MAX_WIDTH:
         height = round(image.height * MAX_WIDTH / image.width)

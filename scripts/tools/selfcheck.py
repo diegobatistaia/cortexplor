@@ -218,7 +218,7 @@ def main() -> int:
     escolha = pick_commons([
         page("File:Sam Altman portrait.jpg", 2000, 3000, "CC BY 2.0"),
         page("File:Sam Altman TechCrunch 2019.jpg", 3000, 2000, "CC BY 2.0"),
-        page("File:Sam Altman tiny.jpg", 400, 300, "CC BY 2.0"),
+        page("File:Sam Altman tiny.jpg", 300, 200, "CC BY 2.0"),
         page("File:Sam Altman NC.jpg", 4000, 2000, "CC BY-NC 2.0"),
         page("File:Microphone.jpg", 4000, 2000, "CC0"),
         page("File:Sam Altman logo.svg", 4000, 2000, "CC0", mime="image/svg+xml"),
@@ -235,10 +235,13 @@ def main() -> int:
           and og_image("<p>nada</p>") == "")
 
     from PIL import Image
-    retrato = crop_16_9(Image.new("RGB", (900, 1600)))
+    retrato = crop_16_9(Image.new("RGB", (390, 520)))
     paisagem = crop_16_9(Image.new("RGB", (1600, 900)))
-    check("retrato é cortado em 16:9", retrato.size == (900, 506), str(retrato.size))
-    check("foto já horizontal não é cortada", paisagem.size == (1600, 900))
+    tres_por_dois = crop_16_9(Image.new("RGB", (1500, 1000)))
+    check("retrato vira capa 16:9 inteira, sem corte", retrato.size == (1200, 675), str(retrato.size))
+    check("foto já em 16:9 não muda", paisagem.size == (1600, 900))
+    check("foto 3:2 é cortada no centro para 16:9",
+          abs(tres_por_dois.width / tres_por_dois.height - 16 / 9) < 0.01, str(tres_por_dois.size))
 
     com_assunto = {"slug": "x", "image": {"subject": "Sam Altman", "query": "us capitol"},
                    "sources": [{"name": "OpenAI", "url": "https://openai.com/x"}]}
