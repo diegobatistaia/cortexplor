@@ -1,23 +1,37 @@
 {
   "pedido": {
-    "acao": "publicar",
-    "itens": [
-      {
-        "slug": "google-freezes-open-source-bug-bounty-ai-reports",
-        "lang": "en"
-      }
-    ],
-    "pedido_em": "2026-10-05T23:25:36-03:00"
+    "acao": "conferir",
+    "lang": "en",
+    "pedido_em": "2026-10-05T23:27:12-03:00"
   },
-  "em": "2026-10-05T23:26:00-03:00",
-  "ok": false,
-  "itens": [
+  "em": "2026-10-05T23:27:30-03:00",
+  "ok": true,
+  "conta": "cortexplor.en",
+  "ultimos": [
     {
-      "slug": "google-freezes-open-source-bug-bounty-ai-reports",
-      "lang": "en",
-      "conta": "cortexplor.en",
-      "ok": false,
-      "erro": "HTTP 500 em 17841420475465882/media_publish: "
+      "quando": "2026-10-06T02:26:39+0000",
+      "link": "https://www.instagram.com/p/DeItU8_EQYJ/",
+      "inicio": "Google froze OSS VRP, its bug bounty program for open source code, after a wave of AI-gene"
+    },
+    {
+      "quando": "2026-10-06T02:25:27+0000",
+      "link": "https://www.instagram.com/p/DeItMKzFoOE/",
+      "inicio": "David Robinson, who led OpenAI's safety reports, has left the company and says its interna"
+    },
+    {
+      "quando": "2026-10-06T02:24:30+0000",
+      "link": "https://www.instagram.com/p/DeItFR3DQ6U/",
+      "inicio": "Apple will require explicit user action before apps get Full Disk Access, full access to t"
+    },
+    {
+      "quando": "2026-10-06T02:22:40+0000",
+      "link": "https://www.instagram.com/p/DeIs3utmpX-/",
+      "inicio": "Nvidia discontinued the Shield TV and raised the Shield TV Pro price by 50%, from $199 to "
+    },
+    {
+      "quando": "2026-10-06T02:21:28+0000",
+      "link": "https://www.instagram.com/p/DeIsu6zjSrm/",
+      "inicio": "Cortexplor is a news site about artificial intelligence, now on Instagram in English too."
     }
   ]
 }
