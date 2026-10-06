@@ -1,6 +1,6 @@
 name: Instagram
 
-# Publica no Instagram só o carrossel que o dono aprovou. Quem pede é a sessão
+# Publica no Instagram (@cortexplor e @cortexplor.en) só o carrossel aprovado. Quem pede é a sessão
 # do Claude, gravando social/publicar/pedido.json no branch instagram (ver
 # scripts/social/publicar.py). Vive só no branch instagram; nada disso vai ao main.
 on:
@@ -32,6 +32,7 @@ jobs:
       - name: Publicar
         env:
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          INSTAGRAM_TOKEN_EN: ${{ secrets.INSTAGRAM_TOKEN_EN }}
         run: python scripts/social/publicar.py executar
 
       - name: Registrar resultado na fila

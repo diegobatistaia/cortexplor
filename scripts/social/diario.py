@@ -86,6 +86,10 @@ def git(*args: str, binary: bool = False):
 def cmd_novas(args) -> int:
     day = date.fromisoformat(args.data) if args.data else datetime.now(TZ).date()
     lang = args.lang
+    import publicar  # aqui dentro: publicar importa este módulo
+    if not publicar.CONTAS.get(lang, {}).get("ativa"):
+        print(f"nada: a conta do Instagram em {lang} ainda não está ligada (CONTAS no publicar.py)")
+        return 0
     git("fetch", "-q", "origin", "main")
     ref = "FETCH_HEAD"
     files = [f for f in git("ls-tree", "--name-only", ref, f"content/{lang}/").split() if f.endswith(".json")]

@@ -28,7 +28,22 @@ UI = {
         "archived": "Arquivado<br>Cortexplor",
         "dossier": "Dossiê nº",
         "read": "Leia a matéria completa",
-    }
+        # Uma fonte só passa no gate quando é o anúncio oficial da própria empresa.
+        "confirm_one": "Fonte: anúncio oficial da própria empresa",
+    },
+    "en": {
+        "sources": "Sources",
+        "sources_long": "Sources checked",
+        "full": "Full story and source links at",
+        "confirm": "{n} independent sources confirm the core facts",
+        "annex": "Annex A",
+        "photo": "Photo",
+        "numbers": {2: "Two", 3: "Three", 4: "Four", 5: "Five"},
+        "archived": "Archived<br>Cortexplor",
+        "dossier": "File no.",
+        "read": "Read the full story",
+        "confirm_one": "Source: the company's own official announcement",
+    },
 }
 
 # Padrões claro/escuro (True = escuro): irregulares, nunca 3 iguais seguidos.
@@ -110,4 +125,6 @@ class Ctx:
         return big if self.n <= 2 else small
 
     def confirm(self):
+        if self.n == 1:
+            return self.u["confirm_one"]
         return self.u["confirm"].format(n=self.u["numbers"].get(self.n, str(self.n)))

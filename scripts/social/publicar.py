@@ -3,17 +3,19 @@
 
 As imagens precisam de endereço público: ficam no repositório público
 diegobatistaia/cortexplor-midia. A chamada à API roda no GitHub Actions
-(.github/workflows/instagram.yml), que é quem tem a chave INSTAGRAM_TOKEN.
+(.github/workflows/instagram.yml), que é quem tem as chaves: uma por conta
+(CONTAS abaixo; PT em INSTAGRAM_TOKEN, EN em INSTAGRAM_TOKEN_EN).
 
 Na sessão (Claude):
     python scripts/social/publicar.py midia <slug> --repo <clone do cortexplor-midia>
         Converte os 6 slides do estilo escolhido em JPEG, copia para o clone
         e grava na fila o endereço público. Depois: commit e push no midia.
     python scripts/social/publicar.py pedir <slug>
-    python scripts/social/publicar.py pedir --teste
+    python scripts/social/publicar.py pedir --teste [--lang en]
     python scripts/social/publicar.py proximo [--hora H]
-        Horário fixo: escolhe o aprovado mais antigo da fila que já tem mídia
-        pública e grava o pedido dele. Sem aprovado, não faz nada. Nos horários
+        Horário fixo: para cada conta ativa, escolhe o aprovado mais antigo
+        daquele idioma que já tem mídia pública e grava o pedido (as duas contas
+        saem no mesmo horário). Sem aprovado, não faz nada. Nos horários
         fixos (HORARIOS) sai sempre um; nos extras (EXTRAS) só sai se a fila tiver
         mais carrosséis do que os horários fixos que ainda faltam no dia, para
         que tudo saia no mesmo dia.
@@ -22,7 +24,8 @@ Na sessão (Claude):
 
 No GitHub Actions:
     python scripts/social/publicar.py executar
-        Lê o pedido, confere a chave, publica o carrossel e marca "publicado".
+        Lê o pedido, confere a chave e se ela é da conta certa, publica cada
+        carrossel e marca "publicado".
 """
 from __future__ import annotations
 
@@ -49,6 +52,12 @@ API = "https://graph.instagram.com/v23.0"
 # quando houver mais carrosséis do que horários fixos restantes no dia.
 HORARIOS = [9, 14, 20]
 EXTRAS = [10, 15, 21]
+# Uma conta por idioma. "ativa" só vira True depois que o teste da chave passa;
+# conta inativa não ganha carrossel (diario.py novas) nem publicação.
+CONTAS = {
+    "pt": {"usuario": "cortexplor", "secret": "INSTAGRAM_TOKEN", "ativa": True},
+    "en": {"usuario": "cortexplor.en", "secret": "INSTAGRAM_TOKEN_EN", "ativa": False},
+}
 
 
 # ----------------------------------------------------------------------------
@@ -63,60 +72,74 @@ def cmd_midia(args) -> int:
         print(f"{args.slug}: não está na fila")
         return 1
     src = ROOT / entry["slides"]
-    dest = Path(args.repo) / args.slug
+    lang = entry.get("lang", "pt")
+    rel = args.slug if lang == "pt" else f"{lang}/{args.slug}"  # PT ficou na raiz
+    dest = Path(args.repo) / rel
     dest.mkdir(parents=True, exist_ok=True)
     urls = []
     for i in range(1, 7):
         im = Image.open(src / f"{i:02d}.png").convert("RGB")  # a API só aceita JPEG
         out = dest / f"{i:02d}.jpg"
         im.save(out, "JPEG", quality=92, optimize=True)
-        urls.append(f"{RAW}/{args.slug}/{i:02d}.jpg")
+        urls.append(f"{RAW}/{rel}/{i:02d}.jpg")
     entry["midia"] = urls
     diario.save_fila(fila)
     print("\n".join(urls))
     return 0
 
 
-def cmd_pedir(args) -> int:
+def gravar_pedido(pedido: dict) -> int:
     PEDIDO.parent.mkdir(parents=True, exist_ok=True)
-    if args.teste:
-        pedido = {"acao": "teste"}
-    else:
-        entry = next((e for e in diario.load_fila() if e["slug"] == args.slug), None)
-        if not entry or entry["status"] != "aprovado":
-            print(f"{args.slug}: só se pede publicação de carrossel aprovado")
-            return 1
-        if not entry.get("midia"):
-            print(f"{args.slug}: rode 'midia' antes (imagens no repositório público)")
-            return 1
-        pedido = {"acao": "publicar", "slug": args.slug}
     pedido["pedido_em"] = diario.now_iso()
     PEDIDO.write_text(json.dumps(pedido, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"pedido gravado: {pedido}")
     return 0
 
 
+def cmd_pedir(args) -> int:
+    if args.teste:
+        return gravar_pedido({"acao": "teste", "lang": args.lang})
+    entry = next((e for e in diario.load_fila() if e["slug"] == args.slug), None)
+    if not entry or entry["status"] != "aprovado":
+        print(f"{args.slug}: só se pede publicação de carrossel aprovado")
+        return 1
+    if not entry.get("midia"):
+        print(f"{args.slug}: rode 'midia' antes (imagens no repositório público)")
+        return 1
+    return gravar_pedido({"acao": "publicar", "itens": [{"slug": args.slug, "lang": entry.get("lang", "pt")}]})
+
+
 def cmd_proximo(args) -> int:
     fila = diario.load_fila()
-    prontos = [e for e in fila if e["status"] == "aprovado"]
-    if not prontos:
-        print("nada: nenhum carrossel aprovado na fila")
-        return 0
     hora = args.hora
     if hora is None:
         agora = diario.datetime.now(diario.TZ)
         hora = agora.hour + (1 if agora.minute >= 30 else 0)  # a rotina dispara às :57
-    if hora in EXTRAS:
-        fixos_restantes = sum(1 for h in HORARIOS if h > hora)
-        if len(prontos) <= fixos_restantes:
-            print(f"nada: horário extra das {hora}h; os {len(prontos)} da fila cabem nos fixos que faltam")
-            return 0
-    entry = min(prontos, key=lambda e: (e.get("criado", ""), e.get("no") or 0))
-    if not entry.get("midia"):
-        print(f"{entry['slug']}: sem mídia pública; rode 'midia' e o push do cortexplor-midia antes")
+    itens, falta_midia = [], []
+    for lang, conta in CONTAS.items():
+        if not conta["ativa"]:
+            continue
+        prontos = [e for e in fila if e["status"] == "aprovado" and e.get("lang", "pt") == lang]
+        if not prontos:
+            continue
+        if hora in EXTRAS:
+            fixos_restantes = sum(1 for h in HORARIOS if h > hora)
+            if len(prontos) <= fixos_restantes:
+                print(f"{lang}: horário extra das {hora}h; os {len(prontos)} da fila cabem nos fixos que faltam")
+                continue
+        entry = min(prontos, key=lambda e: (e.get("criado", ""), e.get("no") or 0))
+        if not entry.get("midia"):
+            falta_midia.append(entry["slug"])
+            continue
+        itens.append({"slug": entry["slug"], "lang": lang})
+    for slug in falta_midia:
+        print(f"{slug}: sem mídia pública; rode 'midia' e o push do cortexplor-midia antes")
+    if falta_midia:
         return 1
-    args.slug, args.teste = entry["slug"], False
-    return cmd_pedir(args)
+    if not itens:
+        print("nada: nenhum carrossel aprovado na fila para este horário")
+        return 0
+    return gravar_pedido({"acao": "publicar", "itens": itens})
 
 
 # ----------------------------------------------------------------------------
@@ -194,40 +217,65 @@ def publicar(entry: dict, ig: str, token: str) -> dict:
     return {"media_id": pub["id"], "permalink": info.get("permalink")}
 
 
-def cmd_executar(args) -> int:
-    token = os.environ.get("INSTAGRAM_TOKEN", "").strip()
+def conta_da_chave(lang: str) -> tuple[str, str]:
+    """Chave e id da conta do idioma. Recusa se a chave for de outra conta."""
+    conta = CONTAS[lang]
+    token = os.environ.get(conta["secret"], "").strip()
     if not token:
-        print("ERRO: secret INSTAGRAM_TOKEN ausente")
-        return 1
-    pedido = json.loads(PEDIDO.read_text(encoding="utf-8"))
+        raise ApiError(f"secret {conta['secret']} ausente")
     me = call("GET", "me", token, fields="user_id,username")
-    ig = me["user_id"]
-    print(f"conta: @{me.get('username')}")
-    # A renovação devolve outra chave, e o Actions não consegue regravar o secret:
-    # renovar aqui não adiantaria. A chave do secret é trocada à mão antes de vencer.
-    resultado = {"pedido": pedido, "conta": me.get("username"), "em": diario.now_iso()}
+    if me.get("username") != conta["usuario"]:
+        # Nunca publicar o carrossel EN na conta PT (ou o contrário).
+        raise ApiError(f"a chave {conta['secret']} é da conta @{me.get('username')}, não de @{conta['usuario']}")
+    print(f"{lang}: conta @{me['username']}")
+    return token, me["user_id"]
+
+
+def cmd_executar(args) -> int:
+    pedido = json.loads(PEDIDO.read_text(encoding="utf-8"))
+    resultado = {"pedido": pedido, "em": diario.now_iso()}
     if pedido.get("acao") == "teste":
-        resultado["ok"] = True
-        print("teste ok: a chave funciona e a conta foi encontrada")
-    else:
-        fila = diario.load_fila()
-        entry = next((e for e in fila if e["slug"] == pedido.get("slug")), None)
-        if not entry or entry["status"] != "aprovado" or not entry.get("midia"):
-            print(f"ERRO: {pedido.get('slug')} não está aprovado com mídia pública; nada publicado")
-            return 1
+        lang = pedido.get("lang", "pt")
         try:
-            out = publicar(entry, ig, token)
+            conta_da_chave(lang)
         except ApiError as e:
             resultado.update(ok=False, erro=str(e))
-            RESULTADO.write_text(json.dumps(resultado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             print(f"ERRO: {e}")
-            return 1
-        entry.update(status="publicado", publicado_em=diario.now_iso(), **out)
-        diario.save_fila(fila)
-        resultado.update(ok=True, **out)
-        print(f"publicado: {out.get('permalink')}")
+        else:
+            resultado.update(ok=True, conta=CONTAS[lang]["usuario"])
+            print("teste ok: a chave funciona e é da conta certa")
+        RESULTADO.write_text(json.dumps(resultado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return 0 if resultado["ok"] else 1
+
+    # Pedido antigo, de um item só: {"slug": ...}
+    itens = pedido.get("itens") or [{"slug": pedido.get("slug"), "lang": "pt"}]
+    fila = diario.load_fila()
+    saidas, falhou = [], False
+    for item in itens:
+        saida = {"slug": item["slug"], "lang": item["lang"], "conta": CONTAS[item["lang"]]["usuario"]}
+        entry = next((e for e in fila if e["slug"] == item["slug"]), None)
+        try:
+            if not entry or entry["status"] != "aprovado" or not entry.get("midia"):
+                raise ApiError(f"{item['slug']} não está aprovado com mídia pública; nada publicado")
+            if entry.get("lang", "pt") != item["lang"]:
+                raise ApiError(f"{item['slug']} é do idioma {entry.get('lang', 'pt')}, não {item['lang']}")
+            # A renovação devolve outra chave, e o Actions não consegue regravar o
+            # secret: a chave é trocada à mão antes de vencer.
+            token, ig = conta_da_chave(item["lang"])
+            out = publicar(entry, ig, token)
+        except ApiError as e:
+            saida.update(ok=False, erro=str(e))
+            falhou = True
+            print(f"ERRO ({item['slug']}): {e}")
+        else:
+            entry.update(status="publicado", publicado_em=diario.now_iso(), **out)
+            diario.save_fila(fila)
+            saida.update(ok=True, **out)
+            print(f"publicado ({item['lang']}): {out.get('permalink')}")
+        saidas.append(saida)
+    resultado.update(ok=not falhou, itens=saidas)
     RESULTADO.write_text(json.dumps(resultado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return 0
+    return 1 if falhou else 0
 
 
 def main(argv=None) -> int:
@@ -239,6 +287,7 @@ def main(argv=None) -> int:
     p = sub.add_parser("pedir")
     p.add_argument("slug", nargs="?")
     p.add_argument("--teste", action="store_true")
+    p.add_argument("--lang", default="pt", choices=sorted(CONTAS), help="conta do teste")
     p = sub.add_parser("proximo")
     p.add_argument("--hora", type=int, help="hora do horário (BRT); padrão: a hora cheia mais próxima")
     sub.add_parser("executar")

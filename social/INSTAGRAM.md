@@ -17,11 +17,11 @@ Fluxo final: matéria publicada → spec do carrossel → render dos slides → 
 | Controle de qualidade (validação, layout, fotos, referências) | Pronto (`scripts/social/check.py`, seção 7) |
 | Geração do spec e da legenda a partir da matéria | Pronta: skill `instagram-carrossel` + `scripts/social/redacao.py` (prepare, check, caption) |
 | Checagem de encaixe do texto nos 8 estilos | Pronta (`scripts/social/fit.py`, roda dentro do `check`) |
-| Textos fixos dos slides em EN | A fazer (hoje só PT, em `carousel_core.py::UI`) |
+| Textos fixos dos slides em EN | Prontos (06/10/2026, `carousel_core.py::UI`). Com uma fonte só (anúncio oficial), a faixa de confirmação diz "Fonte: anúncio oficial da própria empresa" |
 | Rotina diária (matérias do dia → fila) | Pronta: `scripts/social/diario.py` (novas, fechar, fila) |
 | Aprovação | Automática desde 05/10/2026 (decisão do dono): passou no `check`, entra na fila como aprovado |
-| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por horário às 9h, 14h e 20h (BRT) |
-| Página de links da bio | Fica para depois, decisão do dono |
+| Publicação pela Instagram API | Pronta (05/10/2026): `publicar.py` + `.github/workflows/instagram.yml`, imagens no repo público `cortexplor-midia`, um post por conta e por horário às 9h, 14h e 20h (BRT). Duas contas: @cortexplor (secret `INSTAGRAM_TOKEN`) e @cortexplor.en (secret `INSTAGRAM_TOKEN_EN`, ligada quando o teste da chave passar; `CONTAS` no `publicar.py`) |
+| Página de links da bio | No ar: /bio.pt e /bio.en (branch `links`) |
 
 ---
 
@@ -202,21 +202,21 @@ Imagens do perfil: `social/perfil/perfil-escuro.png`, `perfil-claro.png`, `perfi
 | Bio (até 150 caracteres) | Notícias de inteligência artificial em linguagem clara.<br>Cada matéria com no mínimo 2 fontes independentes.<br>Site no link ↓ (121) | AI news in plain language.<br>Every story backed by at least 2 independent sources.<br>Site in the link ↓ (99) |
 | Alternativa | O que aconteceu em IA e por que importa.<br>Cada matéria com pelo menos 2 fontes independentes.<br>Site no link ↓ (107) | What happened in AI and why it matters.<br>Every story backed by at least 2 independent sources.<br>Site in the link ↓ (112) |
 
-Usuário sugerido: `@cortexplor` (PT) e `@cortexplor.en` (EN); disponibilidade não verificada. Link da bio: o próprio site, por enquanto. As contas devem ser **profissionais** (necessário para a publicação pela API e para o Google indexar os posts).
+Contas: `@cortexplor` (PT) e `@cortexplor.en` (EN, criada pelo dono em 05/10/2026). Link da bio: o próprio site, por enquanto. As contas devem ser **profissionais** (necessário para a publicação pela API e para o Google indexar os posts).
 
 ---
 
 ## 6. O que falta (em ordem)
 
 1. ~~Geração do spec e da legenda~~ (feito em 05/10/2026: skill `instagram-carrossel`, `redacao.py`, `fit.py`).
-2. **Textos fixos em EN** (rótulos dos slides, "Sources", chamada do slide 6) em `carousel_core.py::UI`.
+2. ~~Textos fixos em EN~~ (feito em 06/10/2026, `carousel_core.py::UI`).
 3. ~~Integração diária~~ (feito em 05/10/2026: `diario.py`).
    Antes: para cada matéria do dia, escolher o estilo pelo rodízio (lembrando o último usado), renderizar e salvar slides + legenda por conta.
 4. ~~Aprovação manual~~ (feito em 05/10/2026: fila + aprovação pelo chat). Antes: (página de prévia ou arquivos enviados ao dono).
-5. **Publicação pela Instagram Graph API**, que exige (parte do dono):
+5. ~~Publicação pela Instagram API~~ (PT no ar em 05/10/2026; EN espera a chave `INSTAGRAM_TOKEN_EN`). Plano original:
    - contas profissionais de Instagram (PT e EN);
    - uma Página do Facebook ligada a cada conta;
    - um app na Meta e token de acesso (≈ 60 dias, renovado e guardado em secret do GitHub);
    - imagens em URL pública para a API buscar.
 6. **Medição do teste A/B** das chamadas finais, depois de algumas semanas de posts.
-7. Página de links da bio (decisão do dono, depois).
+7. ~~Página de links da bio~~ (no ar: /bio.pt e /bio.en).

@@ -130,13 +130,17 @@ git -C /home/claude/cortexplor-midia add -A && git -C /home/claude/cortexplor-mi
 python scripts/social/publicar.py pedir <slug>   # depois: commit e push de social/publicar/pedido.json no branch instagram
 ```
 
-O push do pedido dispara `.github/workflows/instagram.yml`, que publica com o secret
-`INSTAGRAM_TOKEN` e grava `publicado` na fila e o resultado em `social/publicar/ultimo.json`.
-Horários fixos: 9h, 14h e 20h (BRT), um carrossel por horário, com
-`publicar.py proximo` (o aprovado mais antigo da fila) no lugar de `pedir <slug>`.
+O push do pedido dispara `.github/workflows/instagram.yml`, que publica com a chave
+da conta do idioma (`INSTAGRAM_TOKEN` para @cortexplor, `INSTAGRAM_TOKEN_EN` para
+@cortexplor.en; `CONTAS` em `publicar.py`) e grava `publicado` na fila e o resultado
+em `social/publicar/ultimo.json`. Chave de outra conta é recusada.
+Horários fixos: 9h, 14h e 20h (BRT), um carrossel por conta e por horário, com
+`publicar.py proximo` (o aprovado mais antigo de cada idioma) no lugar de `pedir <slug>`.
+Para o EN, rode `diario.py novas --lang en` e escreva o spec a partir da matéria EN
+(conta inativa: o comando avisa e não faz nada).
 Com mais de 3 no dia, os horários extras (10h, 15h, 21h; `EXTRAS` em `publicar.py`)
 publicam o excedente para tudo sair no mesmo dia.
-`pedir --teste` só confere a chave.
+`pedir --teste [--lang en]` só confere a chave e a conta.
 Antes de publicar, confirme que o dono não postou à mão.
 
 ## O que nunca fazer
