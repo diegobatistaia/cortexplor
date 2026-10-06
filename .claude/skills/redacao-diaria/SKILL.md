@@ -174,6 +174,7 @@ Um arquivo por matéria, em `content/<idioma>/<slug>.json`:
     {"type": "list", "text": "", "items": ["Item um", "Item dois"]}
   ],
   "image": {
+    "subject": "Sam Altman",
     "query": "busca em inglês para o banco de imagens",
     "alt": "Descrição da imagem no idioma do texto, com pelo menos 15 caracteres"
   },
@@ -200,6 +201,16 @@ Regras do arquivo:
   primária quando o briefing tiver uma.
 - `fonte_unica` só existe na matéria de anúncio oficial sozinho (seção 1.1), com o
   valor `"anuncio_oficial"`. Nas demais, não ponha o campo.
+- `image.subject` é o nome próprio de quem ou do que a matéria trata e que pode
+  ter foto: uma pessoa ("Sam Altman", "Jensen Huang"), um lugar ("The Pentagon"),
+  um produto físico ("Nvidia Shield"). Vai do jeito que aparece na Wikipedia em
+  inglês, de 1 a 3 palavras. Com ele, o Finalizar procura uma foto de licença
+  livre no Wikimedia Commons antes do banco de imagens. Modelo de IA, aplicativo
+  ou empresa sem rosto não têm foto: deixe `""`.
+- `image.query` é a reserva, para o banco de imagens: descreva uma cena concreta
+  ligada ao fato, nunca uma metáfora. Matéria sobre o Altman falando de
+  regulação não vira "microfone num palco"; vira, por exemplo,
+  "us capitol building" ou "tech ceo interview".
 - `status` sempre `"draft"`. Quem promove para publicado é o gate.
 - Corpo entre `word_count.min` e `word_count.max` palavras (está no briefing).
 

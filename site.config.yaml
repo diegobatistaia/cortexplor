@@ -418,8 +418,16 @@ images:
   fallback_provider: pexels
   orientation: landscape
   attribution_required: true
-  # Query montada a partir da categoria + entidades do texto; este e o sufixo.
-  query_suffix: technology abstract
+  # Foto do Wikimedia Commons de image.subject (pessoa, lugar, produto), antes
+  # do banco de imagens. So entra foto com licenca livre, com autor e licenca
+  # no credito.
+  commons: true
+  # Imagem do proprio anuncio da empresa (og:image da fonte kind: primary),
+  # creditada como divulgacao. Desligado ate o Diego decidir.
+  official: false
+  # Sufixo da busca no banco de imagens. Era "technology abstract", e
+  # "abstract" puxava para foto generica; a busca agora vai como foi escrita.
+  query_suffix: ""
 
 model:
   # Redacao e checagem semantica. Ver scripts/engine/draft.py.

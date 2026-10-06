@@ -14,7 +14,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from scripts.engine import gate, seo  # noqa: E402
-from scripts.engine.images import query_ladder  # noqa: E402
+from scripts.engine.images import (candidates, crop_16_9, free_license,  # noqa: E402
+                                   og_image, pick_commons, query_ladder)
 from scripts.engine.store import queue_key  # noqa: E402
 from scripts.pipeline.run import (adsense_readiness, draft_problems,  # noqa: E402
                                   missing_primary_for)
@@ -199,6 +200,55 @@ def main() -> int:
     check("busca de imagem não repete tentativa", len(ladder) == len(set(ladder)))
     check("query vazia ainda tenta o termo do nicho",
           len(query_ladder({"image": {"query": ""}}, cfg)) >= 1)
+
+    print("\nImagem ligada ao assunto")
+    check("licença livre aceita CC BY-SA e domínio público",
+          free_license("CC BY-SA 4.0") and free_license("Public domain") and free_license("CC0"))
+    check("licença NC, ND ou desconhecida é recusada",
+          not free_license("CC BY-NC 2.0") and not free_license("CC BY-ND 3.0")
+          and not free_license("All rights reserved") and not free_license(""))
+
+    def page(title, w, h, lic, mime="image/jpeg"):
+        return {"title": title, "imageinfo": [{
+            "mime": mime, "width": w, "height": h, "url": f"https://x/{title}",
+            "thumburl": f"https://x/thumb/{title}", "descriptionurl": f"https://c/{title}",
+            "extmetadata": {"LicenseShortName": {"value": lic},
+                            "Artist": {"value": '<a href="u">Fulano</a>'},
+                            "LicenseUrl": {"value": "https://creativecommons.org/licenses/by/2.0"}}}]}
+    escolha = pick_commons([
+        page("File:Sam Altman portrait.jpg", 2000, 3000, "CC BY 2.0"),
+        page("File:Sam Altman TechCrunch 2019.jpg", 3000, 2000, "CC BY 2.0"),
+        page("File:Sam Altman tiny.jpg", 400, 300, "CC BY 2.0"),
+        page("File:Sam Altman NC.jpg", 4000, 2000, "CC BY-NC 2.0"),
+        page("File:Microphone.jpg", 4000, 2000, "CC0"),
+        page("File:Sam Altman logo.svg", 4000, 2000, "CC0", mime="image/svg+xml"),
+    ], "Sam Altman")
+    check("Commons escolhe a foto horizontal, livre e com o nome no título",
+          bool(escolha) and "TechCrunch" in escolha["url"], str(escolha))
+    check("Commons limpa o HTML do autor e guarda a licença",
+          bool(escolha) and escolha["author"] == "Fulano" and escolha["license"] == "CC BY 2.0")
+    check("Commons sem foto do assunto não escolhe nada",
+          pick_commons([page("File:Microphone.jpg", 4000, 2000, "CC0")], "Sam Altman") is None)
+    check("og:image lido nas duas ordens de atributo",
+          og_image('<meta property="og:image" content="https://a/1.png">') == "https://a/1.png"
+          and og_image("<meta content='https://a/2.png' property='og:image' />") == "https://a/2.png"
+          and og_image("<p>nada</p>") == "")
+
+    from PIL import Image
+    retrato = crop_16_9(Image.new("RGB", (900, 1600)))
+    paisagem = crop_16_9(Image.new("RGB", (1600, 900)))
+    check("retrato é cortado em 16:9", retrato.size == (900, 506), str(retrato.size))
+    check("foto já horizontal não é cortada", paisagem.size == (1600, 900))
+
+    com_assunto = {"slug": "x", "image": {"subject": "Sam Altman", "query": "us capitol"},
+                   "sources": [{"name": "OpenAI", "url": "https://openai.com/x"}]}
+    ordem = [nome.split()[0] for nome, _ in candidates(com_assunto, cfg)]
+    oficial = cfg.get("images.official", False)
+    check("ordem: oficial (se ligada), Commons e depois banco de imagens",
+          ordem[:2] == (["oficial", "commons"] if oficial else ["commons", cfg.get("images.provider")]),
+          str(ordem))
+    sem_assunto = [n.split()[0] for n, _ in candidates({"slug": "x", "image": {"query": "a b"}}, cfg)]
+    check("sem image.subject não busca no Commons", "commons" not in sem_assunto, str(sem_assunto))
 
     print("\nHierarquia das fontes")
     primarias = [s for s in cfg.get("sources.rss", []) if s.get("kind") == "primary"]

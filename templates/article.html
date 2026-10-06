@@ -29,15 +29,21 @@
     {%- set source_url = post.image.get('source_url') %}
     {%- set author = post.image.get('author', '') %}
     {%- set provider = post.image.get('provider', '') %}
-    <figcaption>{{ t.photo }}:
+    {%- set press = provider == 'press' %}
+    <figcaption>{{ t.image if press else t.photo }}:
       {%- if author_url %} <a href="{{ author_url }}" rel="nofollow noopener" target="_blank">{{ author }}</a>
       {%- elif author %} {{ author }}
       {%- else %} {{ post.image.credit }}
       {%- endif %}
       {%- if provider %} /
-        {%- if source_url %} <a href="{{ source_url }}" rel="nofollow noopener" target="_blank">{{ provider }}</a>
-        {%- else %} {{ provider }}
+        {%- if source_url %} <a href="{{ source_url }}" rel="nofollow noopener" target="_blank">{{ t.press if press else provider }}</a>
+        {%- else %} {{ t.press if press else provider }}
         {%- endif %}
+      {%- endif %}
+      {%- if post.image.get('license') %} (
+        {%- if post.image.get('license_url') %}<a href="{{ post.image.license_url }}" rel="nofollow noopener license" target="_blank">{{ post.image.license }}</a>
+        {%- else %}{{ post.image.license }}
+        {%- endif %})
       {%- endif %}
     </figcaption>
     {%- endif %}
