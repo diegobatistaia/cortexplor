@@ -5,9 +5,9 @@ Ordem de tentativa, da mais ligada ao assunto para a mais genérica:
 1. Imagem oficial da empresa (og:image do anúncio em fonte `kind: primary`),
    só com `images.official: true`. É material de divulgação da própria empresa
    sobre o próprio anúncio, creditado como tal.
-2. Foto do Wikimedia Commons de `image.subject` (pessoa, lugar, produto), só com
-   licença livre (domínio público, CC0, CC BY, CC BY-SA) e com autor e licença
-   no crédito.
+2. A foto do verbete da Wikipedia de `image.subject` (pessoa, lugar, produto),
+   só se estiver no Wikimedia Commons com licença livre (domínio público, CC0,
+   CC BY, CC BY-SA), com autor e licença no crédito.
 3. Unsplash / Pexels pela `image.query`, como antes.
 
 Nunca se pega a foto de uma matéria de imprensa: ela é licenciada ao veículo,
@@ -32,7 +32,7 @@ MAX_WIDTH = 1200
 QUALITY = 82
 TIMEOUT = 25
 USER_AGENT = "CortexplorBot/1.0 (https://cortexplor.com; bot@cortexplor.com)"
-MIN_WIDTH = 1000
+MIN_WIDTH = 800
 
 
 class ImageError(RuntimeError):
@@ -142,17 +142,39 @@ def pick_commons(pages: list[dict], subject: str) -> dict | None:
     }
 
 
+WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
+
+
 def _commons(subject: str) -> dict:
-    response = requests.get(COMMONS_API, params={
-        "action": "query", "format": "json", "generator": "search",
-        "gsrsearch": f"{subject} filetype:bitmap", "gsrnamespace": 6, "gsrlimit": 20,
-        "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1600,
-    }, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT)
+    """A foto principal do verbete da Wikipedia em inglês (a do quadro ao lado
+    do texto), se ela estiver no Commons com licença livre.
+
+    A busca livre no Commons foi testada e erra demais: "Hugging Face" trazia
+    uma pessoa abraçando um globo; "Donald Trump", uma foto dele jovem com o
+    pai. A foto do verbete é escolhida a dedo pelos editores da Wikipedia.
+    """
+    headers = {"User-Agent": USER_AGENT}
+    response = requests.get(WIKIPEDIA_API, params={
+        "action": "query", "format": "json", "titles": subject, "redirects": 1,
+        "prop": "pageimages", "piprop": "name",
+    }, headers=headers, timeout=TIMEOUT)
     response.raise_for_status()
     pages = list(((response.json().get("query") or {}).get("pages") or {}).values())
-    found = pick_commons(pages, subject)
+    name = (pages[0].get("pageimage") if pages else "") or ""
+    if not name:
+        raise ImageError(f"Wikipedia sem foto no verbete '{subject}'")
+    # Arquivo que só existe na Wikipedia (e não no Commons) é de uso restrito:
+    # logotipo, capa, foto com direitos. Só o Commons garante licença livre.
+    response = requests.get(COMMONS_API, params={
+        "action": "query", "format": "json", "titles": f"File:{name}",
+        "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1600,
+    }, headers=headers, timeout=TIMEOUT)
+    response.raise_for_status()
+    pages = [p for p in ((response.json().get("query") or {}).get("pages") or {}).values()
+             if p.get("imageinfo")]
+    found = pick_commons(pages, "")
     if not found:
-        raise ImageError(f"Commons sem foto livre de '{subject}'")
+        raise ImageError(f"foto do verbete '{subject}' não tem licença livre no Commons")
     return found
 
 
