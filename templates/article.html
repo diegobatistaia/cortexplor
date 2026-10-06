@@ -22,7 +22,7 @@
   </header>
 
   {%- if post.image and post.image.path %}
-  <figure class="article-media wrap">
+  <figure class="article-media wrap-narrow">
     <img src="{{ post.image.path }}" alt="{{ post.image.alt }}" width="1200" height="675" fetchpriority="high" decoding="async">
     {%- if post.image.credit %}
     {%- set author_url = post.image.get('author_url') %}
