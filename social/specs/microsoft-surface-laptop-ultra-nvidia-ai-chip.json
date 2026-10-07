@@ -1,0 +1,104 @@
+{
+  "slug": "microsoft-surface-laptop-ultra-nvidia-ai-chip",
+  "lang": "en",
+  "date": "07 Oct 2026",
+  "no": 13,
+  "category": "Models",
+  "kicker": "Hardware · Microsoft",
+  "headline": "Microsoft's Surface Laptop Ultra runs on Nvidia's RTX Spark chip",
+  "headline_hl": "Surface Laptop Ultra",
+  "dek": "The laptop starts at $2,599 and runs AI models on the device, not in the cloud (CNBC, The Verge).",
+  "image": {
+    "path": "assets/img/microsoft-surface-laptop-ultra-nvidia-ai-c558f4f0.jpg",
+    "credit": "Adi Goldstein / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Ships<br>16/10",
+  "sources": [
+    "CNBC Technology",
+    "The Verge AI",
+    "TechCrunch AI",
+    "Hipertextual",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A laptop built around an Nvidia chip",
+    "body": [
+      "Microsoft unveiled the Surface Laptop Ultra on Wednesday at an event in San Francisco. It is its first laptop built around Nvidia's RTX Spark chip, starting at $2,599 and shipping October 16 (CNBC, The Verge).",
+      "The laptop has a 15-inch touchscreen with up to 2,000 nits of peak brightness and HDR support (CNBC, The Verge, Engadget, Hipertextual). It weighs about 4.4 pounds, roughly 2 kilograms (CNBC, Engadget)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "AI that runs on the device",
+    "body": "RTX Spark is an Arm-based chip designed to run AI models directly on the laptop instead of sending the work to the cloud (CNBC, The Verge, Hipertextual).",
+    "points": [
+      {
+        "h": "Memory",
+        "t": "24GB of unified memory, one pool shared by processor and graphics chip, rising to 128GB on higher-end models (CNBC, The Verge)."
+      },
+      {
+        "h": "Magnetic Connect",
+        "t": "A magnetic USB-C port detaches if someone trips on the cable, similar to Apple's MagSafe (CNBC, The Verge)."
+      },
+      {
+        "h": "Agent sandbox",
+        "t": "Windows 11 Execution Containers isolate AI agents to block unwanted access to the rest of the system (CNBC, TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A bid for developers' desks",
+    "body": [
+      "Microsoft and Nvidia are placing RTX Spark laptops at the premium end of the market, aimed at creative software, gaming and local AI work (Engadget).",
+      "Microsoft is offering up to $1,000 off to buyers who trade in a MacBook Pro, aiming at developers who favor Apple's computers for AI and coding work (TechCrunch)."
+    ],
+    "stat": {
+      "big": "$5,899.99",
+      "cap": "Top configuration with 128GB (Hipertextual)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "16/10",
+        "t": "The Surface Laptop Ultra ships; the top-end version had already sold out in the US on launch day (TechCrunch)."
+      },
+      {
+        "h": "November",
+        "t": "The Surface RTX Spark Dev Box, a developer mini PC with the same chip, ships starting at $5,999 (The Verge, TechCrunch)."
+      },
+      {
+        "h": "No date",
+        "t": "Meta is bringing a Windows version of its Muse AI agent, currently available only on Mac (CNBC, The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Microsoft unveiled the Surface Laptop Ultra, its first laptop built around Nvidia's RTX Spark chip, at $2,599.",
+    "body": [
+      "Pricing climbs with memory: Hipertextual listed a 64GB configuration at $4,699. Dell also revealed its XPS 16 Creator Edition with the same Nvidia chip, priced at $3,800, according to TechCrunch.",
+      "It is not Microsoft's first push to tie hardware to AI. In 2024 it introduced the Copilot+ PC standard, which required a dedicated AI chip (CNBC). A new Windows feature, Hybrid Intelligence, lets Copilot use files stored on the PC to carry out tasks, according to The Verge and Engadget."
+    ],
+    "cta_variant": "A",
+    "cta": "For local AI work, which matters more in a laptop like this: memory, price or the chip itself?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#nvidia",
+      "#surface"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Microsoft's Surface Laptop Ultra with Nvidia's RTX Spark chip",
+    "Slide 2: Microsoft unveils the Surface Laptop Ultra at a San Francisco event",
+    "Slide 3: how the Surface Laptop Ultra runs AI on the device: memory, port and agent sandbox",
+    "Slide 4: why the Surface Laptop Ultra matters: premium market and a pitch to developers",
+    "Slide 5: what comes next: Surface Laptop Ultra shipping, Dev Box and Muse for Windows",
+    "Slide 6: sources on the Surface Laptop Ultra: CNBC, The Verge, TechCrunch, Hipertextual, Engadget"
+  ]
+}

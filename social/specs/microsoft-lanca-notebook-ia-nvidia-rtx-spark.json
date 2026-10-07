@@ -1,0 +1,104 @@
+{
+  "slug": "microsoft-lanca-notebook-ia-nvidia-rtx-spark",
+  "lang": "pt",
+  "date": "07 out 2026",
+  "no": 16,
+  "category": "Modelos",
+  "kicker": "Hardware · Microsoft",
+  "headline": "Microsoft lança Surface Laptop Ultra com chip RTX Spark",
+  "headline_hl": "Surface Laptop Ultra",
+  "dek": "Primeiro notebook da marca com chip de IA da Nvidia custa a partir de US$ 2.599 (CNBC, The Verge).",
+  "image": {
+    "path": "assets/img/microsoft-lanca-notebook-ia-nvidia-rtx-s-c558f4f0.jpg",
+    "credit": "Adi Goldstein / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Lançado<br>07/10",
+  "sources": [
+    "CNBC Technology",
+    "The Verge AI",
+    "TechCrunch AI",
+    "Hipertextual",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um notebook feito para rodar IA",
+    "body": [
+      "A Microsoft apresentou o Surface Laptop Ultra em evento em San Francisco. É o primeiro notebook da marca com o chip Nvidia RTX Spark, a partir de US$ 2.599, com entregas em 16 de outubro (CNBC, The Verge).",
+      "No mesmo evento, a empresa revelou um mini PC para desenvolvedores com o mesmo chip e atualizou o Windows 11 com recursos para agentes de IA, programas que executam tarefas sozinhos (CNBC, The Verge, TechCrunch)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "IA no próprio computador",
+    "body": "O RTX Spark é um chip da Nvidia com arquitetura Arm, feito para rodar modelos de IA no computador, sem depender da nuvem (CNBC, The Verge, Hipertextual).",
+    "points": [
+      {
+        "h": "Memória unificada",
+        "t": "Um bloco só, compartilhado entre processador e placa gráfica: 24 GB na entrada, até 128 GB (CNBC, The Verge)."
+      },
+      {
+        "h": "Tela",
+        "t": "Touchscreen de 15 polegadas, brilho de até 2.000 nits e suporte a HDR, com cerca de 2 kg (CNBC, Engadget)."
+      },
+      {
+        "h": "Magnetic Connect",
+        "t": "Conector USB-C magnético que se solta quando alguém tropeça no cabo, como o MagSafe da Apple (CNBC, The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "A disputa pelo computador de quem programa",
+    "body": [
+      "Para quem desenvolve com IA, a Microsoft oferece até US$ 1.000 de desconto na troca de um MacBook Pro usado, para atrair quem hoje prefere a Apple (TechCrunch).",
+      "A versão de ponta, com 128 GB e processador de 20 núcleos, custa US$ 5.899,99 e já estava esgotada nos EUA no dia do lançamento (Hipertextual, TechCrunch)."
+    ],
+    "stat": {
+      "big": "US$ 2.599",
+      "cap": "preço inicial do notebook (CNBC, The Verge)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Entregas, mini PC e concorrência",
+    "items": [
+      {
+        "h": "16/10",
+        "t": "Começam as entregas do Surface Laptop Ultra (CNBC, The Verge)."
+      },
+      {
+        "h": "Novembro",
+        "t": "Envio previsto do Surface RTX Spark Dev Box, mini PC a partir de US$ 5.999 (The Verge, TechCrunch)."
+      },
+      {
+        "h": "Sem data",
+        "t": "A Meta vai lançar para Windows o agente de IA Muse, hoje só para Mac (CNBC, The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Microsoft lançou o Surface Laptop Ultra, primeiro notebook da marca com o chip de IA RTX Spark, da Nvidia.",
+    "body": [
+      "O Windows 11 ganhou o Execution Containers, que isola agentes de IA do resto do sistema (CNBC, TechCrunch). Já o Hybrid Intelligence deixa o Copilot usar arquivos guardados no computador para executar tarefas (The Verge, Engadget).",
+      "A Dell também detalhou um modelo com o chip, o XPS 16 Creator Edition, por US$ 3.800 (TechCrunch). Em 2024, a Microsoft havia criado o padrão Copilot+ PC; segundo a CNBC, a empresa simplificou os nomes para priorizar a marca Surface."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#nvidia",
+      "#surface"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Surface Laptop Ultra, notebook da Microsoft com chip RTX Spark da Nvidia",
+    "Slide 2: a Microsoft lança o Surface Laptop Ultra em evento em San Francisco",
+    "Slide 3: como funciona o chip RTX Spark no Surface Laptop Ultra: memória, tela e conector",
+    "Slide 4: por que o Surface Laptop Ultra importa: preço e disputa por desenvolvedores",
+    "Slide 5: próximos passos do Surface Laptop Ultra: entregas, mini PC e agente Muse",
+    "Slide 6: fontes sobre o Surface Laptop Ultra: CNBC, The Verge, TechCrunch, Hipertextual e Engadget"
+  ]
+}
