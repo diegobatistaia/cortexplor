@@ -1,0 +1,101 @@
+{
+  "slug": "google-restricts-free-gemini-flash-lite",
+  "lang": "en",
+  "date": "07 Oct 2026",
+  "no": 10,
+  "category": "Market",
+  "kicker": "Market · Google",
+  "headline": "Google limits free Gemini to Flash-Lite starting October 9",
+  "headline_hl": "Gemini",
+  "dek": "Flash and Pro leave the free plan, and the $4.99 Plus tier loses Pro too, pushing top-model access up to paid tiers, according to The Verge and Hipertextual.",
+  "image": {
+    "path": "assets/img/google-restricts-free-gemini-flash-lite-0966f6a3.jpg",
+    "credit": "Omar:. Lopez-Rincon / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Cutoff<br>09/10",
+  "sources": [
+    "The Verge AI",
+    "Hipertextual"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Free Gemini drops to one model",
+    "body": [
+      "Google will restrict its free Gemini plan to the Flash-Lite model starting October 9. Free users can pick Flash-Lite, Flash or Pro today; after the cutoff only Flash-Lite remains (The Verge, Hipertextual).",
+      "Paying users are hit too. Google AI Plus subscribers, at $4.99 a month, keep Flash and Flash-Lite but lose Gemini Pro. Google says it will email them with the exact date (The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Three models, now split by price",
+    "body": "The models differ mainly in capability, not in message quotas. Flash-Lite stays uncapped on the free tier (Hipertextual).",
+    "points": [
+      {
+        "h": "Flash-Lite",
+        "t": "Tuned for faster, lighter answers. The only model left for free users (Hipertextual)."
+      },
+      {
+        "h": "Flash",
+        "t": "Balances speed with somewhat deeper reasoning. Kept by Plus subscribers at $4.99 a month (The Verge)."
+      },
+      {
+        "h": "Pro",
+        "t": "The most capable of the three, built for multi-step analysis. Reserved for Google AI Pro and Ultra (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Pro access gets more expensive",
+    "body": [
+      "Keeping Gemini Pro and Deep Think, a mode that makes the model run more reasoning steps before answering, now takes Google AI Pro at $19.99 a month or Ultra at $99.99 (The Verge, Hipertextual).",
+      "Those most affected relied on the free or Plus tier for Pro-level reasoning on complex tasks. For them, the cheapest path to Pro is a fourfold jump from the Plus price (The Verge, Hipertextual)."
+    ],
+    "stat": {
+      "big": "$19.99",
+      "cap": "a month, the new entry price for Pro (The Verge)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "08/10",
+        "t": "Last day free users can switch between Flash-Lite, Flash and Pro inside the Gemini app (The Verge, Hipertextual)."
+      },
+      {
+        "h": "09/10",
+        "t": "The free tier drops Flash and Pro, leaving Flash-Lite with no message cap (The Verge, Hipertextual)."
+      },
+      {
+        "h": "By email",
+        "t": "Google will tell Plus subscribers exactly when they lose Gemini Pro access (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google will limit free Gemini to Flash-Lite from October 9, and the $4.99 Plus plan loses Gemini Pro as well.",
+    "body": [
+      "Hipertextual calls it the biggest overhaul of Gemini since Google added a model picker to the app. Google had already introduced a dual rate limit, one cap resetting every 5 hours and another building over the week, the same structure Anthropic uses for Claude, and applied a similar restriction to NotebookLM.",
+      "The Pro and Ultra plans also differ on usage limits per model, cloud storage and bundled Google services (Hipertextual). Google keeps low, medium and high effort settings for each model; The Verge says high-effort Deep Think burns through limits faster."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#gemini",
+      "#chatbots"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Google limiting free Gemini to Flash-Lite from October 9",
+    "Slide 2: free Gemini drops Flash and Pro, and Google AI Plus loses Gemini Pro",
+    "Slide 3: how Gemini Flash-Lite, Flash and Pro differ and which plans keep them",
+    "Slide 4: why Gemini Pro now starts at the $19.99 Google AI Pro plan",
+    "Slide 5: what comes next for free Gemini: October 8, October 9 and Plus emails",
+    "Slide 6: sources on the free Gemini change: The Verge and Hipertextual"
+  ]
+}
