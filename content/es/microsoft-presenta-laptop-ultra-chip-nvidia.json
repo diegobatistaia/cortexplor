@@ -1,0 +1,42 @@
+{
+  "lang": "es",
+  "slug": "microsoft-presenta-laptop-ultra-chip-nvidia",
+  "story_id": "40e5536654ca866b",
+  "title": "Microsoft presenta su laptop con el chip RTX Spark de Nvidia",
+  "dek": "El Surface Laptop Ultra cuesta desde 2.599 dólares y llega el 16 de octubre, según CNBC y The Verge.",
+  "meta_description": "Microsoft presentó el Surface Laptop Ultra con el chip RTX Spark de Nvidia, desde 2.599 dólares y con envíos desde el 16 de octubre, según CNBC y The Verge.",
+  "keyword": "Surface Laptop Ultra",
+  "category": "modelos",
+  "tags": ["ia", "microsoft", "nvidia", "hardware"],
+  "body": [
+    {"type": "p", "text": "Microsoft presentó el miércoles el Surface Laptop Ultra, su primera laptop construida alrededor del chip RTX Spark de Nvidia, durante un evento en San Francisco. El equipo cuesta desde 2.599 dólares y empieza a enviarse el 16 de octubre, según CNBC y The Verge.", "items": []},
+    {"type": "p", "text": "El RTX Spark es un chip con arquitectura Arm, pensado para ejecutar modelos de inteligencia artificial directamente en el equipo, sin depender de la nube. La configuración básica incluye 24 GB de memoria unificada —un mismo bloque de memoria compartido entre el procesador y la tarjeta gráfica—, que puede llegar a 128 GB en las versiones más caras, según CNBC, The Verge y el medio español Hipertextual.", "items": []},
+    {"type": "p", "text": "La laptop tiene una pantalla táctil de 15 pulgadas, con brillo pico de hasta 2.000 nits y soporte HDR, según CNBC, The Verge, Engadget e Hipertextual. Pesa cerca de 4,4 libras, unos 2 kilogramos, según CNBC y Engadget.", "items": []},
+    {"type": "h2", "text": "El precio sube rápido con más memoria", "items": []},
+    {"type": "p", "text": "El precio aumenta con rapidez según la memoria elegida. Hipertextual registró una versión intermedia, con 64 GB de memoria, por 4.699 dólares, y la configuración más avanzada, con 128 GB de memoria y procesador de 20 núcleos, por 5.899,99 dólares. TechCrunch confirmó que esa versión tope de gama ya se había agotado en Estados Unidos el día del lanzamiento.", "items": []},
+    {"type": "p", "text": "La laptop tiene tres puertos USB-C, un puerto USB-A, salida HDMI y lector de tarjetas SD, según Engadget e Hipertextual.", "items": []},
+    {"type": "h2", "text": "Un conector magnético y un equipo para desarrolladores", "items": []},
+    {"type": "p", "text": "La laptop estrena un puerto USB-C magnético que Microsoft llama Magnetic Connect. Se desconecta si alguien tropieza con el cable, de forma parecida al MagSafe de Apple, aunque sigue funcionando como un puerto USB-C normal, según CNBC y The Verge.", "items": []},
+    {"type": "p", "text": "Microsoft también presentó el Surface RTX Spark Dev Box, una mini PC para desarrolladores con el mismo chip, desde 5.999 dólares y con envíos previstos para noviembre. El equipo está pensado para quienes necesitan ejecutar modelos de inteligencia artificial directamente en el propio dispositivo, según The Verge y TechCrunch.", "items": []},
+    {"type": "p", "text": "Microsoft no fue la única fabricante en detallar computadoras con el chip RTX Spark ese mismo día. Dell también reveló precio y fecha de lanzamiento de su Dell XPS 16 Creator Edition, equipada con el mismo chip de Nvidia y a la venta por 3.800 dólares, según TechCrunch.", "items": []},
+    {"type": "h2", "text": "Más control para los agentes de IA en Windows 11", "items": []},
+    {"type": "p", "text": "Microsoft también actualizó Windows 11 con una función llamada Execution Containers, que aísla a los agentes de inteligencia artificial para impedir el acceso indebido al resto del sistema, según CNBC y TechCrunch. Otra función, llamada Hybrid Intelligence, permite que el asistente Copilot use archivos guardados en el equipo para realizar tareas, según The Verge y Engadget.", "items": []},
+    {"type": "p", "text": "Meta también lanzará una versión para Windows de su agente de inteligencia artificial Muse, hoy disponible solo en Mac, según CNBC y The Verge.", "items": []},
+    {"type": "p", "text": "TechCrunch informó que Microsoft ofrece hasta 1.000 dólares de descuento a quienes entreguen un MacBook Pro usado como parte de pago, en un intento de atraer a desarrolladores que hoy prefieren las computadoras de Apple.", "items": []},
+    {"type": "h2", "text": "Un segundo intento de unir hardware e IA", "items": []},
+    {"type": "p", "text": "No es el primer intento de Microsoft de vincular su hardware con la inteligencia artificial. En 2024 la empresa creó el estándar Copilot+ PC, que exigía un chip dedicado a IA en los equipos participantes. Según CNBC, un portavoz de la empresa dijo que Microsoft simplificó desde entonces el nombre de sus productos para priorizar la marca Surface.", "items": []},
+    {"type": "p", "text": "Durante el evento, el director ejecutivo de Microsoft, Satya Nadella, dijo que la industria empezará a replantear la forma de la computación en el borde —el procesamiento que ocurre en el propio dispositivo, cerca del usuario— en los próximos años, según CNBC. \"Ese límite clásico de que la computación distribuida siempre seguirá distribuida se va a volver aún más cierto\", afirmó, de acuerdo con el medio.", "items": []}
+  ],
+  "image": {
+    "query": "laptop computer chip technology event presentation",
+    "alt": "Laptop Surface Laptop Ultra de Microsoft con chip Nvidia RTX Spark"
+  },
+  "sources": [
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html", "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced", "title": "Everything announced at Microsoft's Surface Laptop Ultra event"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/", "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11"},
+    {"name": "Hipertextual", "owner": "hipertextual", "url": "https://hipertextual.com/hardware/nuevo-microsoft-surface-ultra-rtx-spark/", "title": "Microsoft anuncia el Surface Laptop Ultra con NVIDIA RTX Spark: tiene un detalle novedoso y un precio que asusta"},
+    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2279642/microsoft-windows-surface-event-2026-live-blog-nvidia-rtx-spark-laptop-ultra/", "title": "Microsoft Windows and Surface event 2026: Live updates on the Surface Laptop Ultra and NVIDIA RTX Spark"}
+  ],
+  "status": "draft"
+}
