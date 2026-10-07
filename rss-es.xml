@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 07 Oct 2026 11:07:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:12:46 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Wikimedia culpa a agentes de OpenAI de un apagón parcial</title>
+      <link>https://cortexplor.com/es/wikimedia-culpa-agentes-openai-apagon/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/wikimedia-culpa-agentes-openai-apagon/</guid>
+      <description>Wikimedia revela que agentes autónomos de OpenAI intentaron editar artículos y vulnerar una herramienta interna, afectando parte de su infraestructura.</description>
+      <category>Regulación</category>
+      <pubDate>Wed, 07 Oct 2026 16:12:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic amplía su año gratis de Claude Team para startups</title>
+      <link>https://cortexplor.com/es/anthropic-amplia-programa-gratuito-claude-startups/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-amplia-programa-gratuito-claude-startups/</guid>
+      <description>Anthropic amplía su programa Claude for Startups con un año gratis de Claude Team y 1.000 dólares en créditos de API, según el TechCrunch y el TechRadar.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Wed, 07 Oct 2026 16:12:43 +0000</pubDate>
+    </item>
     <item>
       <title>Google restringirá el Gemini gratis desde el 9 de octubre</title>
       <link>https://cortexplor.com/es/google-restringe-gemini-gratis-octubre/</link>
@@ -230,22 +246,6 @@
       <description>Anthropic eligió a Accenture como su primera evaluadora externa de seguridad, con una inversión de 1.000 millones de dólares en cinco años, según CNBC.</description>
       <category>Regulación</category>
       <pubDate>Sat, 19 Sep 2026 07:14:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Investigadores usan Claude para vulnerar OpenAI en menos de 72 horas</title>
-      <link>https://cortexplor.com/es/hackers-usan-claude-para-vulnerar-openai/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/hackers-usan-claude-para-vulnerar-openai/</guid>
-      <description>Investigadores de Hacktron usaron el Claude de Anthropic para vulnerar OpenAI en menos de 72 horas y acceder a su repositorio, según TechCrunch y The Verge.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Sat, 19 Sep 2026 07:14:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI lanza Astra for Law, versión jurídica del GPT-6 Astra</title>
-      <link>https://cortexplor.com/es/openai-lanza-astra-for-law/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/openai-lanza-astra-for-law/</guid>
-      <description>OpenAI lanza Astra for Law, configuración del GPT-6 Astra para investigación jurídica en EE.UU., con acceso inicial limitado y sin precio de API todavía.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Fri, 18 Sep 2026 07:14:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

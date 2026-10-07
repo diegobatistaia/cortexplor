@@ -7,33 +7,124 @@
   "meta_description": "Anthropic is expanding Claude for Startups with a free year of Claude Team and $1,000 in API credits, according to new TechCrunch and TechRadar reports.",
   "keyword": "Claude for Startups Anthropic",
   "category": "mercado",
-  "tags": ["ai", "anthropic", "claude", "startups"],
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "startups"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic announced an expansion of its Claude for Startups program, offering subsidized access to its AI models and other benefits to qualifying early-stage companies, according to reports from TechCrunch and TechRadar.", "items": []},
-    {"type": "p", "text": "TechCrunch reports the announcement came on a Tuesday, during SF Tech Week, an annual technology event held in San Francisco. TechRadar describes the change as a new version of the existing program that now covers more startup types than the previous one did.", "items": []},
-    {"type": "h2", "text": "What the program includes", "items": []},
-    {"type": "p", "text": "Both outlets confirm the same core benefits: a full free year of Claude Team, Anthropic's paid subscription plan built for groups, covering up to five premium seats, plus $1,000 in API credits to build with Claude.", "items": []},
-    {"type": "p", "text": "According to TechRadar, the API credits become available as soon as a startup is approved and expire six months later. The five premium Claude Team seats, meanwhile, are only available to companies that are not already Claude Team customers.", "items": []},
-    {"type": "p", "text": "TechCrunch adds that approved startups also get access to Claude Marketplace, a storefront for plug-ins built on top of Claude, and can book virtual office hours with Anthropic's Applied AI team. TechRadar confirms that same marketplace access, framing it as a way for startups to reach more users through their own connectors, and specifies that those office hours are meant to cover practical use cases and technical limitations of AI for each startup's specific business needs. The outlet also mentions in-person events, such as hackathons and meet-ups, meant to connect founders with each other.", "items": []},
-    {"type": "h2", "text": "Who qualifies", "items": []},
-    {"type": "p", "text": "The eligibility bar is identical in both reports: companies founded within the last five years, or that received funding within the last two years, can apply. Applications go through the Claude for Startups program page directly.", "items": []},
-    {"type": "h2", "text": "How Anthropic frames the program", "items": []},
-    {"type": "p", "text": "TechCrunch quotes Anthropic's own explanation: the company says it believes AI's benefits reach most people through the companies that build on top of its models, rather than through the models alone, which is why it describes partnering closely with founders and developers as central to its mission.", "items": []},
-    {"type": "p", "text": "TechRadar also reports Anthropic's reasoning behind the eligibility window: the company says AI will help more startups bring society faster scientific discoveries, entirely new categories of products and more capable businesses, which is the rationale it gives for opening the program to companies founded up to five years ago.", "items": []},
-    {"type": "p", "text": "TechRadar quotes a separate line from the company: Anthropic says many fast-growing AI-native companies have already joined the program, and that this next phase opens it up to more.", "items": []},
-    {"type": "h2", "text": "Extra perks, according to TechRadar", "items": []},
-    {"type": "p", "text": "Only TechRadar breaks down the full value of the package: up to $7,000 combining the API credits and the year of Claude Team, plus up to $45,000 in partner offers and up to $100,000 in additional API credits available through partner venture capital funds, where applicable. The outlet does not name which funds take part in that extra tier, and specifies that the $45,000 and $100,000 figures depend on a startup going through one of those VC partners rather than applying directly, which means not every accepted company will see the full package.", "items": []},
-    {"type": "h2", "text": "Competing for early-stage developers", "items": []},
-    {"type": "p", "text": "The move adds to a string of recent Anthropic initiatives aimed at businesses and developers, as AI vendors compete to win over customers while they are still small, betting that early platform choices tend to stick as a company grows.", "items": []},
-    {"type": "p", "text": "Claude for Startups already existed before this update. Both outlets describe the announcement as a new version of that existing program rather than a brand-new initiative, with a noticeably wider eligibility window than the version it replaces.", "items": []}
+    {
+      "type": "p",
+      "text": "Anthropic announced an expansion of its Claude for Startups program, offering subsidized access to its AI models and other benefits to qualifying early-stage companies, according to reports from TechCrunch and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch reports the announcement came on a Tuesday, during SF Tech Week, an annual technology event held in San Francisco. TechRadar describes the change as a new version of the existing program that now covers more startup types than the previous one did.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the program includes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both outlets confirm the same core benefits: a full free year of Claude Team, Anthropic's paid subscription plan built for groups, covering up to five premium seats, plus $1,000 in API credits to build with Claude.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to TechRadar, the API credits become available as soon as a startup is approved and expire six months later. The five premium Claude Team seats, meanwhile, are only available to companies that are not already Claude Team customers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch adds that approved startups also get access to Claude Marketplace, a storefront for plug-ins built on top of Claude, and can book virtual office hours with Anthropic's Applied AI team. TechRadar confirms that same marketplace access, framing it as a way for startups to reach more users through their own connectors, and specifies that those office hours are meant to cover practical use cases and technical limitations of AI for each startup's specific business needs. The outlet also mentions in-person events, such as hackathons and meet-ups, meant to connect founders with each other.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Who qualifies",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The eligibility bar is identical in both reports: companies founded within the last five years, or that received funding within the last two years, can apply. Applications go through the Claude for Startups program page directly.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How Anthropic frames the program",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch quotes Anthropic's own explanation: the company says it believes AI's benefits reach most people through the companies that build on top of its models, rather than through the models alone, which is why it describes partnering closely with founders and developers as central to its mission.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar also reports Anthropic's reasoning behind the eligibility window: the company says AI will help more startups bring society faster scientific discoveries, entirely new categories of products and more capable businesses, which is the rationale it gives for opening the program to companies founded up to five years ago.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar quotes a separate line from the company: Anthropic says many fast-growing AI-native companies have already joined the program, and that this next phase opens it up to more.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Extra perks, according to TechRadar",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Only TechRadar breaks down the full value of the package: up to $7,000 combining the API credits and the year of Claude Team, plus up to $45,000 in partner offers and up to $100,000 in additional API credits available through partner venture capital funds, where applicable. The outlet does not name which funds take part in that extra tier, and specifies that the $45,000 and $100,000 figures depend on a startup going through one of those VC partners rather than applying directly, which means not every accepted company will see the full package.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Competing for early-stage developers",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The move adds to a string of recent Anthropic initiatives aimed at businesses and developers, as AI vendors compete to win over customers while they are still small, betting that early platform choices tend to stick as a company grows.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Claude for Startups already existed before this update. Both outlets describe the announcement as a new version of that existing program rather than a brand-new initiative, with a noticeably wider eligibility window than the version it replaces.",
+      "items": []
+    }
   ],
   "image": {
     "query": "startup team working on laptops office",
-    "alt": "Startup team working on laptops in a shared office"
+    "alt": "Startup team working on laptops in a shared office",
+    "path": "/assets/img/anthropic-expands-free-claude-team-start-e0c437d9.jpg",
+    "credit": "Lyubomyr Reverchuk / Unsplash",
+    "author": "Lyubomyr Reverchuk",
+    "author_url": "https://unsplash.com/@lreverchuk?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-group-of-people-sitting-around-a-table-with-laptops-rtD_lcsN6_U"
   },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/", "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/anthropic-offers-a-free-year-of-claude-team-and-usd1-000-in-credits-to-startups", "title": "Anthropic is offering startups a free year of Claude Team and $1,000 in credits to kickstart their AI journey"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/anthropic-offers-a-free-year-of-claude-team-and-usd1-000-in-credits-to-startups",
+      "title": "Anthropic is offering startups a free year of Claude Team and $1,000 in credits to kickstart their AI journey"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-07T16:12:43+00:00",
+  "updated_at": "2026-10-07T16:12:43+00:00"
 }
