@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import shutil
+from datetime import timedelta
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -207,12 +208,36 @@ def home_blocks(cfg: Config, posts: list[dict], nav: list[dict], counts: dict[st
     return blocks
 
 
+def recent_times(posts: list[dict], days: int = 7) -> list[str]:
+    cutoff = utcnow() - timedelta(days=days)
+    return [p["published_at"] for p in posts
+            if (parse_date(p.get("published_at")) or cutoff) > cutoff]
+
+
+def home_stats(cfg: Config, times: list[str]) -> dict:
+    """Contagem do topo na hora do build, no fuso do site. Vale para quem lê
+    sem JavaScript; com ele, o site.js refaz a conta pelo relógio do leitor."""
+    try:
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo(cfg.get("site.timezone", "UTC"))
+    except Exception:
+        tz = None
+    today = utcnow().astimezone(tz).date()
+    days = [parse_date(t).astimezone(tz).date() for t in times if parse_date(t)]
+    return {"today": sum(1 for d in days if d == today), "week": len(days)}
+
+
 def build_home(env, cfg: Config, lang: str, posts: list[dict], out: Path, nav: list[dict]) -> None:
     context = base_context(
         cfg, lang,
         is_home=True,
         blocks=home_blocks(cfg, posts, nav, views()),
         latest_published=posts[0]["published_at"] if posts else "",
+        # Datas da última semana para os contadores do topo. O HTML fica no ar
+        # por dias; o JavaScript recalcula "hoje" pelo relógio de quem lê.
+        recent_times=recent_times(posts),
+        stats=home_stats(cfg, recent_times(posts)),
+        edition_count=len(cfg.languages),
         today_label=cfg.localized("editorial.today_label", lang, ""),
         highlights_label=cfg.localized("editorial.highlights_label", lang, ""),
         home_layout=cfg.get("editorial.home_layout", []),

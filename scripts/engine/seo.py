@@ -143,8 +143,14 @@ def related(post: dict, pool: list[dict], cfg: Config) -> list[dict]:
     if not chosen:
         chosen = sorted(candidates, key=lambda o: o.get("published_at", ""), reverse=True)[:limit]
 
-    return [{"title": o["title"], "url": post_path(o), "category": o.get("category", "")}
-            for o in chosen]
+    def card(o: dict) -> dict:
+        category = cfg.category_or_fallback(o.get("category", ""), o["lang"]) or {}
+        return {"title": o["title"], "url": post_path(o), "category": o.get("category", ""),
+                "category_label": category.get("label", ""),
+                "image": (o.get("image") or {}).get("path", ""),
+                "published_at": o.get("published_at", "")}
+
+    return [card(o) for o in chosen]
 
 
 # ----------------------------------------------------------------------- meta

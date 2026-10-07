@@ -96,4 +96,54 @@
       }
     }
   }
+
+  // Contadores da capa ("matérias hoje", "nesta semana"): o build deixou a
+  // conta da hora em que rodou; aqui ela é refeita pelo relógio de quem lê.
+  var stats = document.querySelector("[data-stats]");
+  if (stats) {
+    var stamps = (stats.getAttribute("data-times") || "").split(",");
+    var dayStart = new Date(); dayStart.setHours(0, 0, 0, 0);
+    var weekAgo = Date.now() - 7 * 86400000, todayN = 0, weekN = 0;
+    for (var k = 0; k < stamps.length; k++) {
+      var ts = Date.parse(stamps[k]);
+      if (isNaN(ts)) continue;
+      if (ts >= weekAgo) weekN++;
+      if (ts >= dayStart.getTime()) todayN++;
+    }
+    var outToday = stats.querySelector('[data-stat="today"]');
+    var outWeek = stats.querySelector('[data-stat="week"]');
+    if (outToday) outToday.textContent = todayN;
+    if (outWeek) outWeek.textContent = weekN;
+  }
+
+  // Compartilhar: folha nativa quando o aparelho tem; senão, copia o link.
+  var toast = document.querySelector("[data-toast]");
+  function copied() {
+    if (!toast) return;
+    toast.classList.add("on");
+    setTimeout(function () { toast.classList.remove("on"); }, 1800);
+  }
+  function copy(url) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(copied, function () { window.prompt("", url); });
+    } else {
+      window.prompt("", url);
+    }
+  }
+  var copyButtons = document.querySelectorAll("[data-copy]");
+  for (var c = 0; c < copyButtons.length; c++) {
+    copyButtons[c].addEventListener("click", function () { copy(this.getAttribute("data-copy")); });
+  }
+  var shareButtons = document.querySelectorAll("[data-share]");
+  for (var s = 0; s < shareButtons.length; s++) {
+    shareButtons[s].addEventListener("click", function () {
+      var url = this.getAttribute("data-share");
+      if (navigator.share) {
+        navigator.share({ title: this.getAttribute("data-share-title") || document.title, url: url })
+          .catch(function () {});
+      } else {
+        copy(url);
+      }
+    });
+  }
 })();

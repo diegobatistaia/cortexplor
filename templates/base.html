@@ -57,6 +57,9 @@
 </head>
 <body>
 <a class="skip" href="#main">{{ t.skip_to_content }}</a>
+{%- if is_home %}
+{% include "partials/sky.html" %}
+{%- endif %}
 {% include "partials/header.html" %}
 {{ ad_slot('top_leaderboard') }}
 <main id="main">
@@ -64,5 +67,6 @@
 </main>
 {{ ad_slot('footer') }}
 {% include "partials/footer.html" %}
+<div class="toast" role="status" aria-live="polite" data-toast>{{ t.link_copied }}</div>
 </body>
 </html>

@@ -75,6 +75,13 @@ brand:
     favicon_svg: /assets/logo/favicon.svg
     favicon_ico: /assets/logo/favicon.ico
 
+# Perfis e contato mostrados no rodapé, na coluna da home e na matéria.
+# O que estiver vazio não aparece.
+social:
+  instagram: https://www.instagram.com/cortexplor/
+  instagram_handle: "@cortexplor"
+  email: adm@cortexplor.com
+
 seo:
   title_suffix:
     pt: " | Cortexplor - Notícias de IA"
@@ -163,12 +170,13 @@ editorial:
   # Blocos da home, na ordem. O motor renderiza o que existir de conteudo, e
   # cada bloco so recebe materias que ainda nao apareceram acima dele.
   # Disponiveis: today, feed, by_section, hero, most_read, topic_modules,
-  # ad_between_blocks, newsletter.
+  # community, ad_between_blocks, newsletter.
   home_layout:
     - today             # "Hoje em ...": destaque com imagem + manchetes numeradas
     - feed              # linha do tempo | destaques da semana | mais lidas
     - ad_between_blocks
     - by_section        # uma coluna por editoria
+    - community         # faixa "Receba no celular" (WhatsApp, Telegram, Instagram)
     - newsletter
   # Nome do bloco do dia. Fica fixo mesmo quando a ultima materia e de ontem:
   # o "atualizado ha X" ao lado conta a verdade sobre a data.
