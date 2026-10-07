@@ -1,0 +1,107 @@
+{
+  "lang": "es",
+  "slug": "google-restringe-gemini-gratis-octubre",
+  "story_id": "5ad1ed7c1438f858",
+  "title": "Google restringirá el Gemini gratis desde el 9 de octubre",
+  "dek": "Los usuarios gratuitos quedarán solo con Flash-Lite, y los suscriptores de Plus también perderán Gemini Pro, según The Verge e Hipertextual.",
+  "meta_description": "Google limitará el Gemini gratuito al modelo Flash-Lite desde el 9 de octubre y quitará el acceso a Pro incluso del plan Plus, según The Verge e Hipertextual.",
+  "keyword": "Gemini gratis Flash-Lite",
+  "category": "mercado",
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "suscripciones"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Desde el 9 de octubre, quienes usen el plan gratuito de Gemini solo podrán acceder al modelo Flash-Lite, según confirman The Verge e Hipertextual. Hasta ahora, los usuarios sin suscripción podían elegir entre Flash-Lite, Flash y Pro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hipertextual señala que el uso de Flash-Lite seguirá sin tope en el plan gratuito: lo que se pierde es el acceso a un modelo más potente, no una cuota de mensajes. Las tres versiones se diferencian por capacidad: Flash-Lite está optimizado para respuestas más rápidas, Flash equilibra velocidad y profundidad de razonamiento, y Pro es el modelo más capaz, pensado para tareas que requieren más pasos de análisis.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El cambio también afecta a quienes ya pagan. Los suscriptores del plan Google AI Plus, de 4,99 dólares al mes, perderán el acceso a Gemini Pro; Google avisa que enviará un correo a cada suscriptor con la fecha exacta en que esto ocurre, según The Verge. El plan Plus seguirá dando acceso a Flash y Flash-Lite.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Quién conserva el acceso a Pro",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tras el cambio, Gemini Pro y el modo de razonamiento avanzado “Deep Think” quedarán reservados a quienes paguen el plan Google AI Pro, de 19,99 dólares al mes, o el Google AI Ultra, de 99,99 dólares, según ambas fuentes. Deep Think hace que el modelo dedique más pasos de razonamiento a cada respuesta antes de entregarla; por eso, según The Verge, usarlo con esfuerzo alto consume el límite de uso más rápido. Google mantiene la opción de elegir el nivel de esfuerzo —bajo, medio o alto— de cada modelo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hipertextual describe el cambio como la mayor reformulación de Gemini desde que se introdujo el selector de modelos en la aplicación. El medio recuerda que Google ya había sumado, semanas atrás, una doble barrera de uso —un tope que se renueva cada 5 horas y otro que se acumula a lo largo de la semana—, el mismo esquema que usa Anthropic en Claude, y aplicó una restricción similar en Gemini Notebook (NotebookLM).",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hasta el 8 de octubre, un usuario del plan gratuito puede alternar libremente entre Flash-Lite, Flash y Pro dentro de la aplicación de Gemini. A partir del día siguiente, esa opción desaparece para quien no paga: solo queda Flash-Lite. Quien paga los 4,99 dólares del plan Plus conserva Flash, pero pierde Pro, según The Verge e Hipertextual.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Los planes, de un vistazo",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Gratis: solo el modelo Flash-Lite, sin límite de mensajes.",
+        "Google AI Plus (4,99 dólares/mes): Flash-Lite y Flash, sin acceso a Pro.",
+        "Google AI Pro (19,99 dólares/mes): Flash-Lite, Flash, Pro y el modo Deep Think.",
+        "Google AI Ultra (99,99 dólares/mes): los mismos modelos del plan Pro, con límites de uso más altos."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Los planes de pago no son iguales entre sí",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Hipertextual, los planes Google AI Pro y Google AI Ultra no solo se diferencian por el acceso a Gemini Pro: también tienen límites de uso distintos para cada modelo, además de cantidades diferentes de almacenamiento en la nube y acceso a otros servicios de Google incluidos en la suscripción. El medio señala que quien no quiera pagar ninguna de las dos suscripciones deberá conformarse con Flash-Lite o migrar a la competencia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Qué cambia para el usuario hispanohablante",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Quien use la versión gratuita de Gemini para tareas cotidianas pasará de elegir entre Flash o Pro a depender solo de Flash-Lite, salvo que pague una suscripción. Y quien ya paga los 4,99 dólares del plan Plus deberá subir al plan de 19,99 dólares si quiere seguir usando Pro después del cambio. Flash-Lite seguirá disponible de forma gratuita y sin tope de mensajes, según ambas fuentes; lo que cambia es qué modelo responde por defecto una vez que el plan gratuito pierde Flash y Pro, y el plan Plus pierde Pro.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "smartphone chat app interface blue gradient",
+    "alt": "Persona usando una aplicación de chatbot de inteligencia artificial en el celular"
+  },
+  "sources": [
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+      "title": "Google is about to remove free access to Gemini Flash and Pro"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/inteligencia-artificial/google-ya-no-te-permitira-usar-gemini-flash-y-pro-sin-pagar/",
+      "title": "Google cambia las reglas: dile adiós a usar Gemini Flash y Pro sin pagar"
+    }
+  ],
+  "status": "draft"
+}
