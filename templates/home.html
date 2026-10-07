@@ -57,11 +57,21 @@
     {%- if blocks.today.rest %}
     <div class="lead-side">
       {%- for post in blocks.today.rest %}
+      {%- if post.image and post.image.path %}
+      <article class="side-item has-thumb">
+        <span class="thumb t-side" aria-hidden="true"><img src="{{ post.image.path }}" alt="" width="1200" height="675" loading="lazy" decoding="async"></span>
+        <div class="side-body">
+          {{ kick(post) }}
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </div>
+      </article>
+      {%- else %}
       <article class="side-item">
         {{ kick(post) }}
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {%- if post.summary %}<p>{{ post.summary }}</p>{% endif %}
       </article>
+      {%- endif %}
       {%- endfor %}
     </div>
     {%- endif %}
@@ -77,13 +87,17 @@
     {%- if feed.timeline %}
     <ol class="timeline">
       {%- for post in feed.timeline %}
-      <li>
+      {%- set has_img = post.image and post.image.path %}
+      <li{% if has_img %} class="has-thumb"{% endif %}>
         <time class="date" datetime="{{ post.published_at }}" data-relative>{{ post.published_human }}</time>
         <span class="rail" aria-hidden="true"><i></i></span>
         <div>
           <p class="cat">{{ post.category_label }}</p>
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         </div>
+        {%- if has_img %}
+        <a class="thumb t-tl" href="{{ post.url }}" tabindex="-1" aria-hidden="true"><img src="{{ post.image.path }}" alt="" width="1200" height="675" loading="lazy" decoding="async"></a>
+        {%- endif %}
         <a class="ghostgo" href="{{ post.url }}" tabindex="-1" aria-hidden="true">{{ ic.arrow() }}</a>
       </li>
       {%- endfor %}
@@ -95,8 +109,12 @@
     <h2 class="sect" id="most-read-title"><span>{{ t.most_read }}</span></h2>
     <ol class="ranking">
       {%- for post in feed.most_read %}
-      <li>
+      {%- set has_img = post.image and post.image.path %}
+      <li{% if has_img %} class="has-thumb"{% endif %}>
         <span class="rank" aria-hidden="true">{{ '%02d' % loop.index }}</span>
+        {%- if has_img %}
+        <span class="thumb t-rank" aria-hidden="true"><img src="{{ post.image.path }}" alt="" width="1200" height="675" loading="lazy" decoding="async"></span>
+        {%- endif %}
         <div>
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <p class="cat">{{ post.category_label }}</p>
@@ -197,8 +215,12 @@
   <h2 class="sect" id="most-read"><span>{{ t.most_read }}</span></h2>
   <ol class="ranking">
     {%- for post in blocks.most_read %}
-    <li>
+    {%- set has_img = post.image and post.image.path %}
+    <li{% if has_img %} class="has-thumb"{% endif %}>
       <span class="rank" aria-hidden="true">{{ '%02d' % loop.index }}</span>
+      {%- if has_img %}
+      <span class="thumb t-rank" aria-hidden="true"><img src="{{ post.image.path }}" alt="" width="1200" height="675" loading="lazy" decoding="async"></span>
+      {%- endif %}
       <div>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p class="cat">{{ post.category_label }}</p>
