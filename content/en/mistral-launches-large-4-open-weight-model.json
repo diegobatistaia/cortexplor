@@ -1,0 +1,102 @@
+{
+  "lang": "en",
+  "slug": "mistral-launches-large-4-open-weight-model",
+  "story_id": "4ee750d1bc34d7ad",
+  "title": "Mistral Launches Large 4, Its Biggest Open-Weight Model Yet",
+  "dek": "The preview is live via API today; full open weights are due by the end of October, Mistral and SiliconANGLE report.",
+  "meta_description": "Mistral released a preview of Large 4, a 1-trillion-parameter open model leading cybersecurity benchmarks among open models, the company and SiliconANGLE say.",
+  "keyword": "Mistral Large 4",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "mistral",
+    "open models",
+    "open source"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Mistral AI released a public preview of Mistral Large 4, its largest model to date, the company said in a post confirmed by SiliconANGLE. The model is available today through Mistral's API; the open weights needed to run it on private infrastructure are due by the end of October.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Internally nicknamed “Le Chonk,” Large 4 is a mixture-of-experts model with 1 trillion parameters in total but only 49 billion active per request, a design both Mistral and SiliconANGLE say lowers the computing cost of each answer. Mistral trained it on 3,800 Nvidia Grace Blackwell chips inside the company's own European data centers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In practice, that architecture splits the model into specialized blocks, or “experts,” and picks only the relevant ones to answer a given prompt instead of firing up the full trillion parameters every time. That selective routing is what makes each answer cheaper to process than it would be in a dense model of the same size, according to both Mistral and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Where it leads, and where it doesn't",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Mistral and SiliconANGLE both point to cybersecurity as the model's strongest area. Large 4 ranks among the top five models worldwide on the Artificial Analysis Cyber Index, an independent benchmark that measures how well AI systems find and patch software vulnerabilities. On one of the index's tests — reproducing a real vulnerability in open-source software and then fixing it — the model scored 82%, the highest of any model tested, according to Mistral.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Outside security, SiliconANGLE confirms Large 4 trails closed frontier models such as OpenAI's GPT-6 Astra on the most widely used coding benchmarks, but beats open rivals including Qwen3.8 Max and DeepSeek V4 Pro — the same ranking Mistral reports in its own materials.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A training pipeline built to keep running",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to both sources, Mistral built an internal system that runs tens of thousands of training simulations, called rollouts, in parallel. Together they generated 33 billion tokens a day; less than half of that volume went into refining the model, through an asynchronous process both the company and SiliconANGLE say sped up development.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Mistral says Large 4 was trained on data spanning more than 160 languages, including every official language of the European Union. The company and SiliconANGLE also confirm training didn't stop after this release: Mistral already plans larger versions of Large 4 and a new family of specialized models built on top of it, using the same rollout pipeline that produced this one.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A step forward in vision, too",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Mistral says Large 4 is also a step change in how its models read images, documents and charts. SiliconANGLE confirms the model edged out OpenAI's GPT-6 Astra by one percentage point on Dense200, a benchmark that measures how well a model locates specific objects inside an image — the kind of skill used to pull data out of a photographed spreadsheet or a chart buried in a PDF. Today's access runs on the same cloud platform Mistral operates for its customers — which the company calls Mistral Studio — according to both sources.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What it means for the open-weight race",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For enterprises weighing open alternatives to closed models from OpenAI, Anthropic and Google, Large 4 adds a competitive option in security, vision and coding workloads. For now, access is limited to Mistral's preview API; the ability to run the model on a company's own servers, one of the main draws of open weights, depends on the full release scheduled for the end of October. Running the model locally, without relying on an outside provider's cloud, matters most to industries that handle sensitive data and need to keep processing inside their own infrastructure.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "abstract technology data pattern blue",
+    "alt": "Abstract illustration representing an artificial intelligence neural network"
+  },
+  "sources": [
+    {
+      "name": "Mistral AI",
+      "owner": "mistral",
+      "url": "https://mistral.ai/news/mistral-large-4",
+      "title": "Introducing Mistral Large 4"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap/",
+      "title": "Mistral launches open-source Mistral Large 4, details AI roadmap"
+    }
+  ],
+  "status": "draft"
+}

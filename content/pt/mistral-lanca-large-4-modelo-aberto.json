@@ -1,0 +1,102 @@
+{
+  "lang": "pt",
+  "slug": "mistral-lanca-large-4-modelo-aberto",
+  "story_id": "4ee750d1bc34d7ad",
+  "title": "Mistral lança Large 4, seu maior modelo aberto até hoje",
+  "dek": "A pré-visualização já está disponível por API; os pesos abertos saem até o fim de outubro, segundo a Mistral e a SiliconANGLE.",
+  "meta_description": "A Mistral lançou o Large 4 em pré-visualização, modelo aberto de 1 trilhão de parâmetros líder em testes de cibersegurança, segundo a empresa e a SiliconANGLE.",
+  "keyword": "Mistral Large 4",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "mistral",
+    "modelos abertos",
+    "codigo aberto"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Mistral AI lançou nesta terça-feira (6) uma pré-visualização pública do Mistral Large 4, seu modelo mais avançado até hoje, segundo comunicado da empresa confirmado pela SiliconANGLE. O acesso inicial é só por API; os pesos abertos, que permitem rodar o modelo em servidor próprio, saem até o final de outubro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Apelidado internamente de “Le Chonk”, o modelo usa arquitetura de mistura de especialistas: tem 1 trilhão de parâmetros no total, mas ativa só 49 bilhões a cada resposta, o que reduz o custo computacional de cada consulta, segundo as duas fontes. O treinamento rodou em 3.800 GPUs Nvidia Grace Blackwell nos data centers que a própria Mistral opera na Europa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Na prática, essa arquitetura divide o modelo em blocos especializados — os “experts” — e escolhe, a cada pergunta, só os blocos relevantes para respondê-la, em vez de acionar o trilhão de parâmetros inteiro de uma vez. É esse recorte que torna cada resposta mais barata de processar do que seria em um modelo do mesmo tamanho sem essa divisão, segundo a Mistral e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Onde o modelo se destaca",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O ponto forte citado pela empresa é segurança digital. O Large 4 ficou entre os cinco melhores modelos do mundo no AA Cyber Index, benchmark independente que mede a capacidade de encontrar e corrigir falhas em software, segundo a Mistral e a SiliconANGLE. Em um teste do índice — reproduzir uma vulnerabilidade real de um projeto de código aberto e depois corrigi-la —, o modelo marcou 82%, a maior nota entre os modelos avaliados, de acordo com a Mistral.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fora da cibersegurança, a SiliconANGLE confirma que o Large 4 fica atrás de modelos fechados de ponta, como o GPT-6 Astra, nos testes mais populares de programação, mas supera rivais abertos como o Qwen3.8 Max e o DeepSeek V4 Pro — o mesmo ranking que a Mistral descreve em seu próprio material.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um treinamento que não parou",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a empresa e a SiliconANGLE, a Mistral construiu uma infraestrutura própria para rodar dezenas de milhares de simulações de treinamento em paralelo, chamadas de “rollouts”. Juntas, elas produziram 33 bilhões de tokens por dia; menos da metade foi usada para ajustar o modelo, em um processo assíncrono que, segundo as duas fontes, acelerou o desenvolvimento do Large 4.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Mistral afirma que treinou o modelo com dados em mais de 160 idiomas, incluindo todas as línguas oficiais da União Europeia. A empresa e a SiliconANGLE também confirmam que o treinamento continuou depois deste lançamento: a Mistral já prevê versões maiores do Large 4 e uma nova família de modelos especializados construída sobre ele.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Também avança em visão computacional",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Mistral diz que o Large 4 deu um salto na compreensão de imagens, documentos e gráficos complexos. A SiliconANGLE confirma que o modelo superou o GPT-6 Astra, da OpenAI, por um ponto percentual no Dense200, benchmark que mede a capacidade de localizar objetos específicos dentro de uma imagem — uma habilidade usada, por exemplo, para extrair dados de uma planilha fotografada ou de um gráfico dentro de um PDF. O acesso de hoje passa pela mesma plataforma em nuvem que a Mistral opera para seus clientes — chamada Mistral Studio pela empresa —, segundo as duas fontes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que isso significa para quem avalia modelos abertos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para empresas e desenvolvedores que comparam alternativas às IAs fechadas, o lançamento soma mais uma opção aberta com desempenho competitivo em segurança, visão computacional e código. Por enquanto, o Large 4 só pode ser testado pela API de pré-visualização da Mistral; a possibilidade de rodá-lo em infraestrutura própria, um dos principais atrativos de pesos abertos, depende da publicação completa prevista para o fim de outubro. Rodar o modelo localmente, sem depender da nuvem de um fornecedor externo, é o que interessa sobretudo a setores que lidam com dados sensíveis e precisam manter o processamento dentro da própria infraestrutura.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "abstract technology data pattern blue",
+    "alt": "Ilustração abstrata representando uma rede neural de inteligência artificial"
+  },
+  "sources": [
+    {
+      "name": "Mistral AI",
+      "owner": "mistral",
+      "url": "https://mistral.ai/news/mistral-large-4",
+      "title": "Introducing Mistral Large 4"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/06/mistral-launches-open-source-mistral-large-4-details-ai-roadmap/",
+      "title": "Mistral launches open-source Mistral Large 4, details AI roadmap"
+    }
+  ],
+  "status": "draft"
+}
