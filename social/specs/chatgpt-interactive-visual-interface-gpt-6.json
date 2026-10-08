@@ -1,0 +1,101 @@
+{
+  "slug": "chatgpt-interactive-visual-interface-gpt-6",
+  "lang": "en",
+  "date": "08 Oct 2026",
+  "no": 17,
+  "category": "Models",
+  "kicker": "Models · OpenAI",
+  "headline": "ChatGPT swaps text for visual answers with GPT-6",
+  "headline_hl": "visual answers",
+  "dek": "A new interface builds diagrams and calculators in the chat, per TechCrunch and Canaltech.",
+  "image": {
+    "path": "assets/img/chatgpt-interactive-visual-interface-gpt-ee4d54d1.jpg",
+    "credit": "Sufyan / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Free from<br>Oct 8",
+  "sources": [
+    "TechCrunch",
+    "Canaltech"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Less text, more visuals",
+    "body": [
+      "OpenAI began rolling out Intelligent UI, a new ChatGPT interface that launches alongside the GPT-6 model (TechCrunch, Canaltech).",
+      "Answers can now include tappable buttons, custom calculators, editable charts and diagrams that users manipulate inside the chat (TechCrunch, Canaltech)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The screen is built with the answer",
+    "body": "The system assembles visual components while it writes, instead of writing text first and illustrating it later (Canaltech).",
+    "points": [
+      {
+        "h": "Airplane wing",
+        "t": "In a press demo, a question about how a wing generates lift became a set of interactive diagrams (TechCrunch, Canaltech)."
+      },
+      {
+        "h": "Calculations",
+        "t": "A request involving math can generate a tool built for that specific problem, per Canaltech."
+      },
+      {
+        "h": "Adjustable",
+        "t": "Users who prefer text can reduce the visual elements in ChatGPT's settings (TechCrunch, Canaltech)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Who gets it first",
+    "body": [
+      "Pro, Plus, Business and Enterprise subscribers got it first, running GPT-6 Sol. Free and Go accounts use GPT-6 Luna (Canaltech).",
+      "For now it stays in the chat tab, not in Work or Codex. On Enterprise, admins control availability (Canaltech)."
+    ],
+    "stat": {
+      "big": "Oct 8",
+      "cap": "rollout to Free and Go accounts (TechCrunch)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Examples",
+        "t": "OpenAI showed a bicycle mechanics diagram, a recipe walkthrough and a financial simulator (TechCrunch, Canaltech)."
+      },
+      {
+        "h": "Audience",
+        "t": "TechCrunch says the change could bring ChatGPT a wider audience. OpenAI did not say so."
+      },
+      {
+        "h": "GPT-6",
+        "t": "OpenAI says the model got faster, searches the web better and resists jailbreaks more (Canaltech)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "The ChatGPT visual interface arrived with GPT-6: answers now come with diagrams, calculators and editable charts.",
+    "body": [
+      "OpenAI product manager Aarush Selvan said the most helpful answers \"aren't just text,\" according to TechCrunch. The company wants to help with everyday tasks, from planning a trip to learning a new subject.",
+      "Intelligent UI reached paid subscribers on Wednesday, October 7, and Free and Go accounts on Thursday, per TechCrunch and Canaltech. Users who prefer plain text can turn the visuals down in settings."
+    ],
+    "cta_variant": "A",
+    "cta": "Which everyday task would you rather see as a diagram than as text in ChatGPT?",
+    "hashtags": [
+      "#cortexplor",
+      "#chatgpt",
+      "#openai",
+      "#gpt6"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on ChatGPT swapping text for visual answers with GPT-6",
+    "Slide 2: what Intelligent UI is and which visual elements appear in ChatGPT answers",
+    "Slide 3: how the ChatGPT visual interface builds diagrams and tools on the fly",
+    "Slide 4: which ChatGPT plans have the visual interface and on which model",
+    "Slide 5: what comes next: demo examples, audience and GPT-6 improvements",
+    "Slide 6: sources on the ChatGPT visual interface: TechCrunch and Canaltech"
+  ]
+}
