@@ -1,0 +1,102 @@
+{
+  "lang": "en",
+  "slug": "claude-haiku-5-5-launches-aws-cheaper",
+  "story_id": "dbd35c518ced3a26",
+  "title": "Anthropic Launches Claude Haiku 5.5 With 75% Lower AWS Pricing",
+  "dek": "The newest model in Anthropic's Claude 5.5 family lands on Amazon Bedrock with adjustable effort controls and a sharply lower price, AWS and SiliconANGLE report.",
+  "meta_description": "Anthropic's Claude Haiku 5.5 is now live on Amazon Bedrock at roughly 75% lower cost, with a new per-task effort control, AWS and SiliconANGLE report.",
+  "keyword": "Claude Haiku 5.5",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "aws"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic has shipped Claude Haiku 5.5, the smallest model in its Claude 5.5 lineup. Amazon has already turned the model on inside Amazon Bedrock and the Claude Platform on AWS, an AWS blog post says, and SiliconANGLE's own reporting backs up the rollout.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AWS positions the new release around subagent duty: routing coding requests to a cheaper worker, reviewing pull requests, sorting long documents, and answering quick lookups against a knowledge base. SiliconANGLE frames Anthropic's own pitch in similar terms, pointing to bulk summarization, classification jobs and browser automation as the intended workload, while reserving harder reasoning for the larger Opus 5.5 and Sonnet 5.5 models in the same family.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Running costs drop by roughly three quarters",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Price is the headline. AWS says the new model runs about 75% cheaper than its Haiku 4.5 predecessor on typical workloads; SiliconANGLE lands on the same figure from a different angle, calling Haiku 5.5 roughly a quarter of the older model's running cost. Per SiliconANGLE, prompts up to 100,000 tokens — the range Anthropic says covers nine in ten Haiku 4.5 requests — now bill at ten cents per million input tokens and fifty cents per million output tokens, down from a dollar and five dollars under the old rate card. Prompts beyond that length still get a 50% discount against the standard price.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An adjustable effort dial, a first for Haiku",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Haiku 5.5 is also the first Haiku release with a tunable effort setting, letting a given task trade intelligence for speed and cost on its own rather than forcing one setting across an entire pipeline. SiliconANGLE's write-up confirms the same capability, describing it as an adjustable effort control. Anthropic pitches the small model as a partner to Claude Opus 5.5, which launched September 22: AWS says Opus handles planning and the harder judgment calls, leaving Haiku to carry out already well-defined work at volume.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Pricing lands right next to OpenAI's budget model",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE's numbers put Haiku 5.5's new rate card — ten and fifty cents per million tokens — level with what OpenAI charges for GPT-6 Luna, its own low-cost model that shipped last month. The outlet cites benchmark scores Anthropic published itself: on OSWorld 2.1, a test that has agents operate a real computer across long multistep jobs, Haiku 5.5 reportedly reached 72.4% against Luna's 48.9%; on the Terminal-Bench 4.0 coding benchmark, the gap was 39.2% versus 16.4%. Because the scores come from Anthropic's own testing, the comparison is the company grading its model against a rival on criteria it picked.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A customer trial before the public release",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE reports that Asana put Haiku 5.5 through the evaluation suite built for its AI Teammates agent ahead of launch. Task completion latency fell more than 30% against the model Asana had been running, and each agent turn executed up to two and a half times faster, the outlet says. Aaron Vinh, a staff software engineer at Asana, is quoted telling the publication the upgrade feels markedly snappier in daily use.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A quieter price cut lands on Sonnet 5.5 too",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Haiku release arrived alongside a separate price change on Claude Sonnet 5.5: SiliconANGLE reports cache-read pricing on that model fell from twenty cents to ten cents per million tokens, a cut Anthropic estimates will trim roughly a fifth off the cost of most agentic workloads built on Sonnet. Claude Max and Team subscribers also begin receiving monthly API credit this week, per the outlet — $100 on Max 5x, double that on Max 20x, and up to $500 split across a Team account.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Inside AWS, Haiku 5.5 can already be tried from the Amazon Bedrock console or called through the API via Claude Platform on AWS, under the same identity, audit and monitoring tooling — IAM, CloudTrail and CloudWatch — the cloud provider applies to its other services, according to its own announcement. SiliconANGLE adds that the model is live on Google Cloud and Microsoft Azure as well.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "cloud computing data center server room technology",
+    "alt": "Data center server racks representing cloud computing infrastructure for AI"
+  },
+  "sources": [
+    {
+      "name": "AWS Machine Learning",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+      "title": "Introducing Claude Haiku 5.5 on AWS"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/07/anthropic-releases-claude-haiku-5-5-small-model-and-halves-sonnet-5-5-cache-read-prices/",
+      "title": "Anthropic releases Claude Haiku 5.5 small model and halves Sonnet 5.5 cache read prices"
+    }
+  ],
+  "status": "draft"
+}
