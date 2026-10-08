@@ -1,0 +1,95 @@
+{
+  "lang": "pt",
+  "slug": "nvidia-microsoft-ia-local-pcs-windows",
+  "story_id": "c881b74c57c83748",
+  "title": "Nvidia e Microsoft trazem IA local para PCs com Windows",
+  "dek": "RTX Spark e DGX Station for Windows chegam com pré-venda já aberta, enquanto o Copilot passa a rodar tarefas sem depender da nuvem, segundo Nvidia e Fortune.",
+  "meta_description": "Nvidia e Microsoft lançam hardware e software para rodar agentes de IA em PCs com Windows, com RTX Spark à venda a partir de outubro, segundo Nvidia e Fortune.",
+  "keyword": "IA local no Windows",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "nvidia",
+    "microsoft",
+    "windows"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Nvidia e a Microsoft apresentaram, numa quarta-feira em São Francisco, um conjunto de hardware e software para rodar agentes de inteligência artificial diretamente em computadores com Windows, segundo publicações da própria Nvidia e da revista Fortune. O evento reuniu o presidente da Nvidia, Jensen Huang, e o presidente-executivo da Microsoft, Satya Nadella, nos estúdios Dogpatch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft anunciou a disponibilidade geral dos Microsoft Execution Containers (MXC), uma camada do próprio Windows que permite a agentes de IA rodar em segundo plano de forma persistente e sob controle do sistema operacional, segundo o relato publicado pela Nvidia sobre o evento. Pavan Davuluri, vice-presidente da Microsoft para Windows e dispositivos, descreveu o recurso como parte de uma arquitetura voltada a dar segurança e governança aos agentes que passam a operar no sistema.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O coração da novidade: a placa RTX Spark",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O novo hardware se chama RTX Spark, e combina uma GPU Nvidia Blackwell RTX de até 6.144 núcleos com uma CPU Grace de até 20 núcleos, ligadas a 600 gigabytes por segundo, segundo a Nvidia. O conjunto entrega até um petaflop de desempenho de IA em FP4 e até 128 gigabytes de memória unificada, o que permite rodar modelos que não cabem num computador comum sem depender da nuvem. As encomendas da versão em notebook abriram na quarta-feira, com venda a partir de 16 de outubro; a versão de mesa compacta chega às lojas em novembro, de acordo com as duas publicações.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft usou o RTX Spark como base do Surface Laptop Ultra, seu notebook voltado a desenvolvedores, com até 128 gigabytes de memória unificada e um petaflop de capacidade de IA, segundo a Nvidia. A Fortune acrescenta os preços: o Surface Laptop Ultra custará US$ 2.599, e sua versão de mesa, o Surface RTX Spark Dev Box, saíra por US$ 5.999 — com as mesmas datas de disponibilidade citadas pela Nvidia. Outros fabricantes também vão vender máquinas com o RTX Spark, entre eles Acer, Asus, Dell, HP, Lenovo, MSI e Gigabyte, segundo a Nvidia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um supercomputador de mesa que chega ao Windows",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia também mostrou o DGX Station for Windows, que a empresa descreve como o primeiro supercomputador de mesa de classe GB300 Grace Blackwell a funcionar nativamente no Windows. Até agora, o DGX Station só rodava Linux — o que obrigava equipes de desenvolvimento a manter dois ambientes separados, um para cargas pesadas de IA e outro para o trabalho cotidiano em Windows. Segundo a Nvidia, a máquina roda o superchip GB300 Grace Blackwell Ultra Desktop, com 748 gigabytes de memória compartilhada e até 20 petaflops de desempenho em FP4, o suficiente para rodar localmente modelos da escala de um trilhão de parâmetros.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Copilot ganha tarefas que rodam sem depender da nuvem",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Do lado do software, a Fortune relata que a Microsoft está reformulando o aplicativo Copilot para que ele funcione como uma interface central dentro do Windows, com tarefas simples processadas localmente em vez de na nuvem. Segundo a reportagem, Jacob Andreou, responsável pelo Copilot na empresa, descreveu um exemplo em que o assistente reúne sozinho, no próprio computador, os arquivos necessários para a declaração de impostos do usuário, sem enviar nada à nuvem. A Fortune também descreve um recurso ainda não totalmente disponível chamado Autopilot, que deixaria o usuário nomear um agente, atribuir a ele um objetivo e deixá-lo cuidar de tarefas como lembrar prazos e preparar materiais para reuniões.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Fortune cita ainda que o Microsoft 365 Copilot havia superado 30 milhões de assinaturas pagas em julho, com o ritmo de novas contas dobrando a cada trimestre, segundo números que a própria Microsoft informou à publicação. O pano de fundo do evento, segundo a Fortune, é a disputa da Microsoft por um lugar de destaque num mercado de IA hoje liderado em modelos por Google, OpenAI e Anthropic, enquanto a Meta avança com seu próprio assistente, o Muse.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "gaming laptop computer chip technology desk",
+    "alt": "Notebook com chip gráfico Nvidia usado para processar inteligência artificial localmente",
+    "path": "/assets/img/nvidia-microsoft-ia-local-pcs-windows-c47e5e26.jpg",
+    "credit": "Nat / Unsplash",
+    "author": "Nat",
+    "author_url": "https://unsplash.com/@nattgw?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-computer-motherboard-hwcMLF374mY"
+  },
+  "sources": [
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/10/07/microsoft-unveils-windows-hybrid-intelligence-satya-nadella-surface-ultra-laptop/",
+      "title": "Microsoft shows off new Windows software, revamped for agentic AI"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-08T11:04:56+00:00",
+  "updated_at": "2026-10-08T11:04:56+00:00"
+}
