@@ -1,0 +1,102 @@
+{
+  "slug": "claude-haiku-5-5-mais-barato-aws",
+  "lang": "pt",
+  "date": "08 out 2026",
+  "no": 17,
+  "category": "Modelos",
+  "kicker": "Modelos · Anthropic",
+  "headline": "Anthropic lança Claude Haiku 5.5 com custo 75% menor na AWS",
+  "headline_hl": "Claude Haiku 5.5",
+  "dek": "Modelo mais barato da família Claude 5.5 chega à Amazon Bedrock com controle de esforço ajustável por tarefa, segundo AWS e SiliconANGLE.",
+  "image": {
+    "path": "assets/img/claude-haiku-5-5-mais-barato-aws-8f7b3cc1.jpg",
+    "credit": "Albert Stoynov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Corte<br>de 75%",
+  "sources": [
+    "AWS Machine Learning",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um Haiku novo, por um quarto do preço",
+    "body": [
+      "A Anthropic lançou o Claude Haiku 5.5, o modelo mais barato e rápido da família Claude 5.5. Ele já pode ser usado na Amazon Bedrock e na Claude Platform on AWS (AWS, SiliconANGLE).",
+      "O alvo são tarefas de alto volume: classificar documentos longos, revisar código, resumir em massa e automatizar navegador. O que pede julgamento fica com o Opus 5.5 e o Sonnet 5.5 (AWS, SiliconANGLE)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Esforço ajustado tarefa a tarefa",
+    "body": "É o primeiro Haiku com controle de esforço: cada tarefa define quanto raciocínio usar, em vez de uma configuração fixa para o fluxo inteiro (AWS, SiliconANGLE).",
+    "points": [
+      {
+        "h": "Custo contra raciocínio",
+        "t": "Cada tarefa equilibra separadamente o gasto e a capacidade de raciocínio, segundo a AWS."
+      },
+      {
+        "h": "Dupla com o Opus 5.5",
+        "t": "O Opus, lançado em 22/09, planeja e toma as decisões delicadas. O Haiku executa em escala o que já está definido, segundo a AWS."
+      },
+      {
+        "h": "Subagentes",
+        "t": "Agentes menores acionados por um agente principal são um dos usos indicados para o modelo, segundo a AWS."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Mesmo preço do modelo barato da OpenAI",
+    "body": [
+      "Para pedidos de até 100 mil tokens, o preço por milhão de tokens caiu de um dólar na entrada e cinco na saída para dez e cinquenta centavos. Pedidos longos têm metade de desconto (SiliconANGLE).",
+      "O valor coincide com o do GPT-6 Luna, da OpenAI. Em teste divulgado pela própria Anthropic, o Haiku 5.5 marcou 72,4% no OSWorld 2.1, contra 48,9% do Luna (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "-75%",
+      "cap": "de custo frente ao Haiku 4.5 (AWS)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Sonnet 5.5",
+        "t": "A leitura de cache caiu de vinte para dez centavos por milhão de tokens, cerca de 20% a menos no trabalho agêntico (SiliconANGLE)."
+      },
+      {
+        "h": "Créditos",
+        "t": "Assinantes Max e Team passam a receber créditos mensais de API nesta semana, até quinhentos dólares no Team (SiliconANGLE)."
+      },
+      {
+        "h": "Nuvens",
+        "t": "Além da AWS, o Haiku 5.5 também está disponível no Google Cloud e no Microsoft Azure (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Anthropic lançou o Claude Haiku 5.5, que custa cerca de 75% menos que o Haiku 4.5 e já está disponível na AWS.",
+    "body": [
+      "A Asana testou o modelo antes do lançamento no agente AI Teammates e registrou queda de mais de 30% na latência de conclusão de tarefas, segundo a SiliconANGLE. Cada turno do agente rodou até duas vezes e meia mais rápido.",
+      "No Terminal-Bench 4.0, teste de programação autônoma, a Anthropic diz que o Haiku 5.5 marcou 39,2% contra 16,4% do GPT-6 Luna. Os números são do próprio fabricante.",
+      "Na AWS, o modelo roda com os mesmos controles de identidade, auditoria e monitoramento que a Amazon mantém para outros serviços, segundo a empresa."
+    ],
+    "cta_variant": "A",
+    "cta": "Em quais tarefas um modelo menor e mais barato como o Haiku 5.5 pode substituir os modelos maiores?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#aws"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o lançamento do Claude Haiku 5.5 da Anthropic com custo 75% menor na AWS",
+    "Slide 2: o que é o Claude Haiku 5.5, onde está disponível e para quais tarefas foi feito",
+    "Slide 3: como funciona o controle de esforço do Claude Haiku 5.5 e a dupla com o Opus 5.5",
+    "Slide 4: preço do Claude Haiku 5.5 por milhão de tokens e comparação com o GPT-6 Luna",
+    "Slide 5: o que vem agora: Sonnet 5.5 mais barato, créditos de API e Haiku 5.5 em outras nuvens",
+    "Slide 6: fontes sobre o Claude Haiku 5.5: AWS Machine Learning e SiliconANGLE"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "nvidia-microsoft-ia-local-pcs-windows",
+  "lang": "pt",
+  "date": "08 out 2026",
+  "no": 18,
+  "category": "Aplicações",
+  "kicker": "Hardware · Nvidia",
+  "headline": "Nvidia e Microsoft levam IA local ao Windows com DGX Station",
+  "headline_hl": "DGX Station",
+  "dek": "Supercomputador de mesa da Nvidia passa a rodar Windows, e o Copilot ganha tarefas feitas no próprio PC, sem nuvem (NVIDIA, Fortune).",
+  "image": {
+    "path": "assets/img/nvidia-microsoft-ia-local-pcs-windows-c47e5e26.jpg",
+    "credit": "Nat / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Anunciado<br>07/10",
+  "sources": [
+    "NVIDIA",
+    "Fortune"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Hardware e software para agentes",
+    "body": [
+      "Nvidia e Microsoft apresentaram em São Francisco hardware e software para rodar agentes de IA, programas que executam tarefas sozinhos, direto em PCs com Windows. Jensen Huang e Satya Nadella dividiram o palco (NVIDIA, Fortune).",
+      "A Microsoft liberou para todos os Microsoft Execution Containers (MXC), camada do Windows que mantém agentes rodando em segundo plano sob controle do sistema. A Nvidia levou o DGX Station ao Windows (NVIDIA)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Um supercomputador sem Linux",
+    "body": "Até agora o DGX Station só rodava Linux, e equipes mantinham dois ambientes: um para IA pesada, outro para o trabalho do dia a dia em Windows (NVIDIA).",
+    "points": [
+      {
+        "h": "Superchip GB300",
+        "t": "Roda o GB300 Grace Blackwell Ultra Desktop, com 748 GB de memória compartilhada (NVIDIA)."
+      },
+      {
+        "h": "20 petaflops",
+        "t": "Até 20 petaflops em FP4, formato numérico enxuto usado para acelerar cálculos de IA (NVIDIA)."
+      },
+      {
+        "h": "Modelos gigantes",
+        "t": "Roda localmente modelos da escala de um trilhão de parâmetros, sem servidor externo (NVIDIA)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Copilot trabalha sem a nuvem",
+    "body": [
+      "A Microsoft reformula o Copilot como interface central do Windows, com tarefas simples feitas no computador. Num exemplo, ele reúne os arquivos da declaração de impostos sem enviar nada à nuvem (Fortune).",
+      "Para quem desenvolve com IA, o chip RTX Spark, base do Surface Laptop Ultra, também vai equipar máquinas de Acer, Asus, Dell, HP, Lenovo, MSI e Gigabyte (NVIDIA)."
+    ],
+    "stat": {
+      "big": "30 milhões",
+      "cap": "assinaturas do Microsoft 365 Copilot (Fortune)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Vendas e próximos recursos",
+    "items": [
+      {
+        "h": "16/10",
+        "t": "Começam as vendas dos notebooks com RTX Spark, com encomendas já abertas (NVIDIA, Fortune)."
+      },
+      {
+        "h": "Novembro",
+        "t": "Chega às lojas a versão de mesa compacta do RTX Spark (NVIDIA, Fortune)."
+      },
+      {
+        "h": "Sem data",
+        "t": "O Autopilot, ainda não totalmente disponível, deixa nomear um agente e dar a ele um objetivo, como lembrar prazos (Fortune)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia e Microsoft levaram o DGX Station ao Windows e mostraram um Copilot que faz tarefas sem depender da nuvem.",
+    "body": [
+      "O Microsoft 365 Copilot passou de 30 milhões de assinaturas pagas em julho, e o ritmo de novas contas dobra a cada trimestre, segundo números da Microsoft à Fortune.",
+      "Pavan Davuluri, vice-presidente de Windows e dispositivos, ligou o MXC a uma arquitetura de segurança e governança para agentes (NVIDIA). Segundo a Fortune, a Microsoft disputa espaço com Google, OpenAI e Anthropic, enquanto a Meta avança com o assistente Muse."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#microsoft",
+      "#windows"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o DGX Station no Windows e a IA local de Nvidia e Microsoft",
+    "Slide 2: Nvidia e Microsoft apresentam hardware e software para agentes de IA no Windows",
+    "Slide 3: como funciona o DGX Station no Windows: superchip GB300, memória e desempenho",
+    "Slide 4: por que importa: Copilot com tarefas locais no Windows e RTX Spark em outras marcas",
+    "Slide 5: próximos passos da IA local no Windows: vendas do RTX Spark e recurso Autopilot",
+    "Slide 6: fontes sobre o DGX Station e a IA local no Windows: NVIDIA e Fortune"
+  ]
+}

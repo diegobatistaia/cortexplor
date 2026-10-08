@@ -1,0 +1,101 @@
+{
+  "slug": "claude-haiku-5-5-launches-aws-cheaper",
+  "lang": "en",
+  "date": "08 Oct 2026",
+  "no": 14,
+  "category": "Models",
+  "kicker": "Models · Anthropic",
+  "headline": "Anthropic launches Claude Haiku 5.5 at about 75% lower cost",
+  "headline_hl": "Claude Haiku 5.5",
+  "dek": "The smallest Claude 5.5 model is live on Amazon Bedrock with a per-task effort control and a much lower price, according to AWS and SiliconANGLE.",
+  "image": {
+    "path": "assets/img/claude-haiku-5-5-launches-aws-cheaper-8f7b3cc1.jpg",
+    "credit": "Albert Stoynov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Live on<br>Bedrock",
+  "sources": [
+    "AWS Machine Learning",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A small model, priced to run at volume",
+    "body": [
+      "Anthropic released Claude Haiku 5.5, the smallest model in its Claude 5.5 family. Amazon has already switched it on in Amazon Bedrock and the Claude Platform on AWS (AWS Machine Learning, SiliconANGLE).",
+      "The target is subagent work, where a cheaper model takes tasks handed down by a larger one: routing coding requests, reviewing pull requests, bulk summaries, browser automation. Harder reasoning stays with Opus 5.5 and Sonnet 5.5 (AWS Machine Learning, SiliconANGLE)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Effort on a dial, work split by size",
+    "body": "Haiku 5.5 is the first Haiku with a tunable effort setting: each task can trade intelligence for speed and cost on its own (AWS Machine Learning, SiliconANGLE).",
+    "points": [
+      {
+        "h": "Per-task effort",
+        "t": "Each step of a pipeline picks its own level, instead of one setting forced across the whole chain (AWS Machine Learning)."
+      },
+      {
+        "h": "Opus plans",
+        "t": "Claude Opus 5.5, launched September 22, handles planning and the harder judgment calls (AWS Machine Learning)."
+      },
+      {
+        "h": "Haiku executes",
+        "t": "The small model carries out work that is already well defined, at volume, as the cheaper worker (AWS Machine Learning)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Priced level with OpenAI's budget model",
+    "body": [
+      "Prompts up to 100,000 tokens (the text units models bill by), which Anthropic says cover nine in ten Haiku 4.5 requests, now cost ten cents per million input tokens and fifty cents per million output, down from one and five dollars (SiliconANGLE).",
+      "That matches OpenAI's GPT-6 Luna. In Anthropic's own tests, Haiku 5.5 scored 72.4% on OSWorld 2.1, where agents run a real computer, against Luna's 48.9% (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "75% less",
+      "cap": "running cost vs. Haiku 4.5 (AWS, SiliconANGLE)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Sonnet 5.5",
+        "t": "Cache-read pricing, the rate for reusing stored context, fell from twenty to ten cents per million tokens (SiliconANGLE)."
+      },
+      {
+        "h": "This week",
+        "t": "Claude Max and Team subscribers start getting monthly API credit: $100 on Max 5x, double on Max 20x, up to $500 on Team (SiliconANGLE)."
+      },
+      {
+        "h": "Clouds",
+        "t": "Beyond AWS, the model is live on Google Cloud and Microsoft Azure (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic launched Claude Haiku 5.5, its smallest Claude 5.5 model, now on Amazon Bedrock at about 75% lower cost.",
+    "body": [
+      "Asana ran Haiku 5.5 through the evaluation suite of its AI Teammates agent ahead of launch. Task completion latency dropped more than 30%, and each agent turn ran up to two and a half times faster, SiliconANGLE reports.",
+      "The comparison with GPT-6 Luna relies on benchmarks Anthropic picked and ran itself. On Terminal-Bench 4.0, a coding test, Haiku 5.5 reportedly scored 39.2% against 16.4%. Anthropic also estimates the Sonnet 5.5 cache cut trims about a fifth off most agentic workloads, per SiliconANGLE."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#aws"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Anthropic launching Claude Haiku 5.5 at about 75% lower cost",
+    "Slide 2: what happened: Claude Haiku 5.5 arrives on Amazon Bedrock for subagent work",
+    "Slide 3: how Claude Haiku 5.5 works: per-task effort control, Opus plans and Haiku executes",
+    "Slide 4: why Claude Haiku 5.5 matters: new token prices level with OpenAI's GPT-6 Luna",
+    "Slide 5: what comes next: Sonnet 5.5 cache cut, API credits and Claude Haiku 5.5 on other clouds",
+    "Slide 6: sources on Claude Haiku 5.5: AWS Machine Learning and SiliconANGLE"
+  ]
+}

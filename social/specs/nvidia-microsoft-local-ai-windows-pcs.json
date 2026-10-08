@@ -1,0 +1,101 @@
+{
+  "slug": "nvidia-microsoft-local-ai-windows-pcs",
+  "lang": "en",
+  "date": "08 Oct 2026",
+  "no": 15,
+  "category": "Applications",
+  "kicker": "Hardware · Nvidia",
+  "headline": "Nvidia and Microsoft bring local AI hardware to Windows PCs",
+  "headline_hl": "local AI",
+  "dek": "New chips, a Windows desk-side supercomputer and an on-device Copilot are built to run AI agents without the cloud (Nvidia, Fortune).",
+  "image": {
+    "path": "assets/img/nvidia-microsoft-local-ai-windows-pcs-c47e5e26.jpg",
+    "credit": "Nat / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "On sale<br>16/10",
+  "sources": [
+    "NVIDIA",
+    "Fortune"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Agents that live on the PC",
+    "body": [
+      "Nvidia and Microsoft laid out hardware and Windows software built to run AI agents directly on the machine, at an event in San Francisco where Jensen Huang joined Satya Nadella on stage (Nvidia, Fortune).",
+      "Microsoft announced general availability of Microsoft Execution Containers, a layer of the operating system that keeps agents running in the background under its control, so they can be secured and governed (Nvidia)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Data-center parts on a desk",
+    "body": "RTX Spark pairs a Blackwell RTX GPU of up to 6,144 cores with a Grace CPU of up to 20 cores, linked at 600 gigabytes per second (Nvidia).",
+    "points": [
+      {
+        "h": "Memory",
+        "t": "Up to 128GB of unified memory, enough for models that would not fit on a personal machine without the cloud (Nvidia)."
+      },
+      {
+        "h": "DGX Station",
+        "t": "The Windows version uses a GB300 Grace Blackwell Ultra superchip with 748GB of shared memory (Nvidia)."
+      },
+      {
+        "h": "WSL",
+        "t": "Linux AI tools keep running inside Windows through WSL, a compatibility layer, so teams keep their workflows (Nvidia)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "One machine instead of two",
+    "body": [
+      "DGX Station only ran Linux until now, so teams kept two setups: one for heavy AI work, another for everyday Windows tools (Nvidia).",
+      "Copilot now handles simple jobs on the device. It can gather the files for a tax filing from the laptop without any of them touching Microsoft's servers, Copilot head Jacob Andreou told Fortune."
+    ],
+    "stat": {
+      "big": "20 petaflops",
+      "cap": "FP4 compute of DGX Station for Windows (Nvidia)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "16/10",
+        "t": "RTX Spark laptops go on sale, including the Surface Laptop Ultra at $2,599; preorders are already open (Nvidia, Fortune)."
+      },
+      {
+        "h": "November",
+        "t": "Compact RTX Spark desktops reach stores, among them the Surface RTX Spark Dev Box at $5,999 (Nvidia, Fortune)."
+      },
+      {
+        "h": "No date",
+        "t": "Autopilot, not yet fully available, would let someone name an agent and hand it a goal to pursue alone (Fortune)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia and Microsoft unveiled hardware and Windows software to run AI agents as local AI on PCs, not in the cloud.",
+    "body": [
+      "Acer, Asus, Dell, HP, Lenovo, MSI and Gigabyte are building their own RTX Spark machines, according to Nvidia. The chip delivers up to one petaflop of FP4 AI throughput, the company says.",
+      "Microsoft is rebuilding the Copilot app into a single interface woven through Windows, Fortune reports. Microsoft 365 Copilot passed 30 million paid seats by July, with new signups doubling each quarter, a figure the company gave Fortune. Google, OpenAI and Anthropic currently lead on frontier models, the outlet notes."
+    ],
+    "cta_variant": "A",
+    "cta": "Which AI tasks would make the most sense to run on a PC instead of in the cloud?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#microsoft",
+      "#windows"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Nvidia and Microsoft bringing local AI hardware to Windows PCs",
+    "Slide 2: Nvidia and Microsoft unveil local AI agents for Windows at a San Francisco event",
+    "Slide 3: how local AI hardware works: RTX Spark, DGX Station for Windows and WSL",
+    "Slide 4: why local AI on Windows matters: one machine for AI work and an on-device Copilot",
+    "Slide 5: what comes next for local AI on Windows: RTX Spark laptops, desktops and Autopilot",
+    "Slide 6: sources on local AI for Windows PCs: Nvidia and Fortune"
+  ]
+}
