@@ -1,0 +1,101 @@
+{
+  "slug": "anthropic-restructures-cyber-access-security-teams",
+  "lang": "en",
+  "date": "08 Oct 2026",
+  "no": 16,
+  "category": "Applications",
+  "kicker": "Applications · Anthropic",
+  "headline": "Anthropic restructures Claude access for security teams",
+  "headline_hl": "security teams",
+  "dek": "A new three-tier program, according to Anthropic and SiliconANGLE.",
+  "image": {
+    "path": "assets/img/anthropic-restructures-cyber-access-secu-04789a36.jpg",
+    "credit": "Rostislav Uzunov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Three<br>tiers",
+  "sources": [
+    "Anthropic",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Two programs become one",
+    "body": [
+      "Anthropic folded two programs that gave vetted security teams easier access to Claude into a single three-tier structure (Anthropic, SiliconANGLE).",
+      "By default, Opus 5.5 and Sonnet 5.5 block most security work. Anthropic treats the field as dual-use: what helps a defender find a flaw can help an attacker exploit it."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Three access tiers",
+    "body": "Each tier allows more work and requires tougher vetting of whoever applies (Anthropic, SiliconANGLE).",
+    "points": [
+      {
+        "h": "Defense Access",
+        "t": "Incident response and malware reverse-engineering for teams defending their own systems. Anthropic aims to answer within days."
+      },
+      {
+        "h": "Red Team Access",
+        "t": "Adds authorized penetration testing, for organizations only. Ransomware stays blocked in real time (Anthropic, SiliconANGLE)."
+      },
+      {
+        "h": "Specialized Access",
+        "t": "Fewest blocks, for testing power grids, telecom or interbank networks. Vetted with the US government (Anthropic)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The company's own numbers",
+    "body": [
+      "Across ten attack scenarios run five times each, Defense Access stopped 46 of 50 attempts. In Red Team, none were blocked and the model completed 34 (SiliconANGLE, citing Anthropic).",
+      "Anthropic credits the earlier Project Glasswing with at least 129,000 verified vulnerabilities from April to July, per partners, plus 5,500 from its own scans."
+    ],
+    "stat": {
+      "big": "33,000",
+      "cap": "critical or high-severity flaws, per Anthropic"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Migration",
+        "t": "Project Glasswing members move into Specialized Access without reapproval for current models (Anthropic)."
+      },
+      {
+        "h": "Data",
+        "t": "Enrolled organizations must allow data retention so Anthropic can monitor for misuse (Anthropic)."
+      },
+      {
+        "h": "This fall",
+        "t": "Enterprise Frontier Safeguards should let customers keep that data on their own infrastructure, the company says."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic launched the Anthropic Cyber Verification Program, folding two Claude access programs into three tiers.",
+    "body": [
+      "Eligible for the entry tier: corporate, university and government security teams, critical-infrastructure operators such as a regional hospital, independent researchers and small security firms (Anthropic, SiliconANGLE).",
+      "SiliconANGLE says that when Opus 5.5 launched on Sept. 22, most security tasks sent to it were routed to the older Opus 4.8. Anthropic expects the real impact of Glasswing to be at least five times higher than counted."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#cybersecurity"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Anthropic restructuring Claude access for security teams",
+    "Slide 2: what changed in Claude access for security work and why it is blocked by default",
+    "Slide 3: the three tiers: Defense, Red Team and Specialized Access",
+    "Slide 4: Anthropic test results and 33,000 critical flaws credited to Glasswing",
+    "Slide 5: what comes next: Glasswing migration, data retention and on-premise data",
+    "Slide 6: sources on Anthropic's security program: Anthropic and SiliconANGLE"
+  ]
+}

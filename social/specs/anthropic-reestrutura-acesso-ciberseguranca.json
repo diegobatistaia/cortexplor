@@ -1,0 +1,102 @@
+{
+  "slug": "anthropic-reestrutura-acesso-ciberseguranca",
+  "lang": "pt",
+  "date": "08 out 2026",
+  "no": 19,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Anthropic",
+  "headline": "Anthropic une acesso do Claude para equipes de segurança",
+  "headline_hl": "equipes de segurança",
+  "dek": "Novo programa tem três níveis, segundo a Anthropic e a SiliconANGLE.",
+  "image": {
+    "path": "assets/img/anthropic-reestrutura-acesso-cibersegura-04789a36.jpg",
+    "credit": "Rostislav Uzunov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Três<br>níveis",
+  "sources": [
+    "Anthropic",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Dois programas viram um só",
+    "body": [
+      "A Anthropic juntou dois programas de acesso facilitado ao Claude para segurança cibernética em um único programa, dividido em três níveis (Anthropic, SiliconANGLE).",
+      "Por padrão, o Opus 5.5 e o Sonnet 5.5 bloqueiam boa parte do trabalho de segurança. A empresa trata a área como de duplo uso: o que ajuda a achar uma falha também ajuda a explorá-la (Anthropic)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Três níveis de acesso",
+    "body": "Cada nível libera mais tarefas e exige uma avaliação mais rigorosa de quem pede acesso (Anthropic, SiliconANGLE).",
+    "points": [
+      {
+        "h": "Defense Access",
+        "t": "Resposta a incidentes e engenharia reversa de malware, para equipes que defendem os próprios sistemas. Resposta em poucos dias, diz a Anthropic."
+      },
+      {
+        "h": "Red Team Access",
+        "t": "Acrescenta testes de invasão autorizados, só para organizações. Ransomware segue bloqueado em tempo real (Anthropic, SiliconANGLE)."
+      },
+      {
+        "h": "Specialized Access",
+        "t": "Menos bloqueios, para quem testa redes elétricas, de telecomunicações ou bancárias. Avaliação junto ao governo dos EUA (Anthropic)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Os números da própria empresa",
+    "body": [
+      "Em dez cenários de ataque repetidos cinco vezes, o nível Defense Access interrompeu 46 de 50 tentativas. No Red Team, nenhuma foi bloqueada e o modelo concluiu 34 (SiliconANGLE, citando a Anthropic).",
+      "A Anthropic atribui ao programa anterior, o Project Glasswing, pelo menos 129 mil vulnerabilidades verificadas entre abril e julho, segundo parceiros, mais 5.500 achadas pela própria varredura."
+    ],
+    "stat": {
+      "big": "33 mil",
+      "cap": "falhas críticas ou graves, segundo a Anthropic"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Migração",
+        "t": "Integrantes do Project Glasswing passam ao nível Specialized Access sem nova aprovação para os modelos atuais (Anthropic)."
+      },
+      {
+        "h": "Dados",
+        "t": "Inscritos precisam permitir que a Anthropic guarde dados para monitorar uso indevido (Anthropic)."
+      },
+      {
+        "h": "Outono",
+        "t": "A empresa diz que lança ainda neste outono do hemisfério norte uma opção para manter os dados em infraestrutura própria (Anthropic)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Saiu o Programa de Verificação Cibernética da Anthropic, que junta dois programas de acesso do Claude em três níveis.",
+    "body": [
+      "O nível de entrada aceita equipes de segurança, operadoras de infraestrutura crítica, pesquisadores independentes e pequenas empresas de segurança (Anthropic, SiliconANGLE).",
+      "Segundo a SiliconANGLE, quando o Opus 5.5 saiu, em 22/09, boa parte das tarefas de segurança enviadas a ele ia para o modelo anterior, o Opus 4.8.",
+      "A Anthropic diz esperar impacto real ao menos cinco vezes maior que o contado, porque menos da metade dos parceiros informou quantas falhas corrigiu."
+    ],
+    "cta_variant": "A",
+    "cta": "Quem deveria decidir até onde uma IA pode ir em testes de invasão: a empresa que faz o modelo ou um órgão independente?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#ciberseguranca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Anthropic unir o acesso do Claude para equipes de segurança",
+    "Slide 2: o que mudou no acesso ao Claude para segurança e por que ele bloqueia esse trabalho",
+    "Slide 3: os três níveis do programa: Defense, Red Team e Specialized Access",
+    "Slide 4: testes da Anthropic e 33 mil falhas críticas ou graves atribuídas ao Glasswing",
+    "Slide 5: o que vem agora: migração do Glasswing, retenção de dados e dados em infraestrutura própria",
+    "Slide 6: fontes sobre o programa de segurança da Anthropic: Anthropic e SiliconANGLE"
+  ]
+}
