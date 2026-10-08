@@ -11,9 +11,9 @@
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-10-08T14:57:45-03:00"
+    "pedido_em": "2026-10-08T19:58:10-03:00"
   },
-  "em": "2026-10-08T14:58:07-03:00",
+  "em": "2026-10-08T19:58:30-03:00",
   "ok": false,
   "itens": [
     {
@@ -21,14 +21,14 @@
       "lang": "pt",
       "conta": "cortexplor",
       "ok": false,
-      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AIeW1J7_CuzSUWK5zYY2Rgc\"}}"
+      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A_J7Iyf2tXMGmnH2fW1Mo1d\"}}"
     },
     {
       "slug": "claude-haiku-5-5-launches-aws-cheaper",
       "lang": "en",
       "conta": "cortexplor.en",
       "ok": false,
-      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A3Y6oNqyTGgTvHk40rFIbLp\"}}"
+      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A6BCg3oUu4nE5vpuqMs1nTP\"}}"
     }
   ]
 }
