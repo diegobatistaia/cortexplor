@@ -82,7 +82,13 @@
   ],
   "image": {
     "query": "cloud computing data center server room technology",
-    "alt": "Servidores de data center representando computação em nuvem para inteligência artificial"
+    "alt": "Servidores de data center representando computação em nuvem para inteligência artificial",
+    "path": "/assets/img/claude-haiku-5-5-mais-barato-aws-8f7b3cc1.jpg",
+    "credit": "Albert Stoynov / Unsplash",
+    "author": "Albert Stoynov",
+    "author_url": "https://unsplash.com/@albertstoynov?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/yellow-and-green-cables-are-neatly-connected-yhJVLxcquEY"
   },
   "sources": [
     {
@@ -98,5 +104,7 @@
       "title": "Anthropic releases Claude Haiku 5.5 small model and halves Sonnet 5.5 cache read prices"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-08T11:04:55+00:00",
+  "updated_at": "2026-10-08T11:04:55+00:00"
 }

@@ -1483,5 +1483,47 @@
     "lang": "es",
     "passed": true,
     "reasons": []
+  },
+  {
+    "at": "2026-10-08T11:04:55+00:00",
+    "id": "claude-haiku-5-5-mais-barato-aws",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-10-08T11:04:56+00:00",
+    "id": "nvidia-microsoft-ia-local-pcs-windows",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-10-08T11:04:56+00:00",
+    "id": "claude-haiku-5-5-launches-aws-cheaper",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-10-08T11:04:56+00:00",
+    "id": "nvidia-microsoft-local-ai-windows-pcs",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-10-08T11:04:56+00:00",
+    "id": "claude-haiku-5-5-llega-aws-mas-barato",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-10-08T11:04:57+00:00",
+    "id": "nvidia-microsoft-ia-local-pc-windows",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
   }
 ]
