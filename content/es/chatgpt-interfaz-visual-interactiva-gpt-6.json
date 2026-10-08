@@ -1,0 +1,38 @@
+{
+  "lang": "es",
+  "slug": "chatgpt-interfaz-visual-interactiva-gpt-6",
+  "story_id": "e472b922096c3489",
+  "title": "ChatGPT estrena interfaz visual interactiva junto al nuevo GPT-6",
+  "dek": "Intelligent UI cambia el texto corrido por diagramas, calculadoras y gráficos editables en las respuestas del chatbot.",
+  "meta_description": "OpenAI lanza Intelligent UI, la nueva interfaz de ChatGPT con diagramas y calculadoras interactivas, junto al modelo GPT-6, según TechCrunch y Canaltech.",
+  "keyword": "interfaz visual de ChatGPT",
+  "category": "modelos",
+  "tags": ["ia", "openai", "chatgpt", "gpt-6"],
+  "body": [
+    {"type": "p", "text": "OpenAI comenzó a distribuir el miércoles (7) Intelligent UI, la nueva interfaz de ChatGPT que sustituye los bloques de texto por elementos visuales interactivos, según TechCrunch y Canaltech. La función llega junto con el lanzamiento del modelo GPT-6 y alcanza a las cuentas gratuitas a partir de este jueves (8).", "items": []},
+    {"type": "p", "text": "Hasta ahora, ChatGPT respondía sobre todo con texto, a veces acompañado de imágenes estáticas. Con Intelligent UI, las respuestas pueden incluir botones pulsables, calculadoras a medida, gráficos editables, diagramas y mapas que el usuario manipula directamente dentro de la conversación.", "items": []},
+    {"type": "h2", "text": "Un diagrama de un ala de avión explica el cambio", "items": []},
+    {"type": "p", "text": "En una demostración ante la prensa, OpenAI mostró a ChatGPT respondiendo a la pregunta de cómo un ala de avión genera sustentación con una serie de diagramas interactivos generados en el momento. TechCrunch y Canaltech citan el mismo ejemplo: la herramienta construye la explicación visual mientras redacta la respuesta, en lugar de describir el fenómeno solo con palabras.", "items": []},
+    {"type": "p", "text": "Según TechCrunch, Aarush Selvan, gerente de producto de OpenAI, afirmó que ChatGPT ha sido predominantemente una interfaz basada en texto y que la empresa quiere ayudar a resolver tareas cotidianas — desde planear un viaje hasta aprender un tema nuevo — con respuestas que van más allá del texto plano. La meta, según TechCrunch, es que aprender temas complejos resulte más fácil.", "items": []},
+    {"type": "h2", "text": "Cómo la interfaz construye una respuesta", "items": []},
+    {"type": "p", "text": "Canaltech describe el mecanismo detrás de la novedad: el sistema combina distintos componentes visuales y construye la interfaz mientras se genera la respuesta, en lugar de escribir primero el texto e ilustrarlo después. Una pregunta sobre un tema complejo puede producir un diagrama interactivo, mientras que una solicitud que implique cálculos puede generar una herramienta específica para resolver ese problema, según el medio.", "items": []},
+    {"type": "h2", "text": "Qué puede aparecer ahora en una respuesta", "items": []},
+    {"type": "p", "text": "Según ambas publicaciones, entre los elementos que pueden aparecer en una conversación están:", "items": []},
+    {"type": "list", "text": "", "items": ["Diagramas interactivos para explicar fenómenos complejos", "Calculadoras personalizadas para una tarea concreta", "Gráficos y tablas editables", "Mapas para planear viajes o rutas", "Botones pulsables para avanzar una tarea sin escribir"]},
+    {"type": "p", "text": "TechCrunch citó además, entre los ejemplos mostrados por OpenAI, un diagrama sobre mecánica de bicicletas y una guía ilustrada para preparar una receta. Canaltech, en cambio, mencionó simuladores de planificación financiera y comparadores de asientos de avión en la misma demostración. TechCrunch señala además que el cambio también podría hacer a ChatGPT más accesible y atraer un público más amplio, aunque OpenAI no lo haya afirmado directamente.", "items": []},
+    {"type": "h2", "text": "Quién ya puede usarlo y quién todavía espera", "items": []},
+    {"type": "p", "text": "Intelligent UI llegó de forma global junto con GPT-6 para quienes pagan los planes Pro, Plus, Business y Enterprise de ChatGPT. Las cuentas de los planes gratuito y Go, la opción de entrada más económica, reciben la función a partir de este jueves (8), según TechCrunch y Canaltech.", "items": []},
+    {"type": "p", "text": "Según Canaltech, en las cuentas Pro, Plus, Business y Enterprise la función corre sobre la versión identificada como GPT-6 Sol, mientras que las cuentas Free y Go usan GPT-6 Luna. En las cuentas Enterprise, el medio señala que la disponibilidad de Intelligent UI todavía depende de la configuración que definan los administradores de la organización.", "items": []},
+    {"type": "p", "text": "Canaltech señala además que la actualización, por ahora, queda limitada a la pestaña de chat de ChatGPT y no llega a los productos Work y Codex de OpenAI. El medio reporta también que la propia OpenAI afirma haber mejorado la velocidad, la búsqueda web y la seguridad de GPT-6, con mayor resistencia a intentos de eludir sus reglas.", "items": []},
+    {"type": "p", "text": "La interfaz también se puede ajustar. Quien prefiera menos elementos visuales y mantener las respuestas más cercanas al formato de texto tradicional puede reducir la cantidad de componentes interactivos en la configuración de ChatGPT, de la misma forma en que ya se ajustan otros aspectos de personalidad del chatbot, de acuerdo con ambas publicaciones.", "items": []}
+  ],
+  "image": {
+    "query": "interactive chat interface diagrams on screen",
+    "alt": "Pantalla de computadora con una conversación de chatbot que muestra diagramas y gráficos interactivos"
+  },
+  "sources": [
+    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/", "title": "ChatGPT is getting a lot more visual, with the launch of a new interface"},
+    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-passa-por-transformacao-e-libera-nova-interface-visual-para-todos/", "title": "ChatGPT passa por transformação e libera nova interface visual para todos"}
+  ],
+  "status": "draft"
+}
