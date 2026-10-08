@@ -3,34 +3,32 @@
     "acao": "publicar",
     "itens": [
       {
-        "slug": "microsoft-lanca-notebook-ia-nvidia-rtx-spark",
+        "slug": "claude-haiku-5-5-mais-barato-aws",
         "lang": "pt"
       },
       {
-        "slug": "microsoft-surface-laptop-ultra-nvidia-ai-chip",
+        "slug": "claude-haiku-5-5-launches-aws-cheaper",
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-10-07T20:58:20-03:00"
+    "pedido_em": "2026-10-08T13:58:05-03:00"
   },
-  "em": "2026-10-07T20:58:38-03:00",
-  "ok": true,
+  "em": "2026-10-08T13:58:34-03:00",
+  "ok": false,
   "itens": [
     {
-      "slug": "microsoft-lanca-notebook-ia-nvidia-rtx-spark",
+      "slug": "claude-haiku-5-5-mais-barato-aws",
       "lang": "pt",
       "conta": "cortexplor",
-      "ok": true,
-      "media_id": "17917302978459769",
-      "permalink": "https://www.instagram.com/p/DeNmCkxjlvV/"
+      "ok": false,
+      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AlVfDSZtLjq6rCWCRz5tUaB\"}}"
     },
     {
-      "slug": "microsoft-surface-laptop-ultra-nvidia-ai-chip",
+      "slug": "claude-haiku-5-5-launches-aws-cheaper",
       "lang": "en",
       "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "18627836992045850",
-      "permalink": "https://www.instagram.com/p/DeNmIJ6Dgtg/"
+      "ok": false,
+      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AcHjPcB5TBc1XY-LLohG7z4\"}}"
     }
   ]
 }
