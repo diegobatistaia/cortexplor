@@ -7,32 +7,125 @@
   "meta_description": "OpenAI rolls out Intelligent UI, a ChatGPT interface with interactive diagrams and calculators, alongside GPT-6, according to TechCrunch and Canaltech.",
   "keyword": "ChatGPT visual interface",
   "category": "modelos",
-  "tags": ["ai", "openai", "chatgpt", "gpt-6"],
+  "tags": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "gpt-6"
+  ],
   "body": [
-    {"type": "p", "text": "OpenAI began rolling out Intelligent UI, a new ChatGPT interface that replaces plain text with interactive visual elements, on Wednesday, October 7, according to TechCrunch and Canaltech. The feature launches alongside the new GPT-6 model and reaches free and lower-cost Go accounts starting Thursday, October 8.", "items": []},
-    {"type": "p", "text": "Until now, ChatGPT answered mostly in text, sometimes with static images attached. With Intelligent UI, the chatbot can generate tappable buttons, custom calculators, editable charts and interactive diagrams that users manipulate directly inside the conversation, adapting the format to whatever task is being asked.", "items": []},
-    {"type": "h2", "text": "An airplane wing becomes the example", "items": []},
-    {"type": "p", "text": "In a press briefing, OpenAI demonstrated the feature by asking ChatGPT how an airplane wing generates lift, prompting the model to build a set of interactive diagrams in real time. Both TechCrunch and Canaltech describe the same example as evidence of how the interface assembles visuals while it writes an answer, instead of only describing a phenomenon in words. TechCrunch reports OpenAI staff gave journalists a live demonstration of several such diagrams during the same call.", "items": []},
-    {"type": "p", "text": "According to TechCrunch, OpenAI product manager Aarush Selvan said ChatGPT has predominantly been a text-based interface and that the company wants to help users get things done — from planning a trip to learning a new subject. He added that the most helpful answers \"aren't just text,\" according to the outlet's direct quote. The goal, per TechCrunch, is making it easier to learn complex topics through the new visual layer.", "items": []},
-    {"type": "h2", "text": "How the interface builds an answer", "items": []},
-    {"type": "p", "text": "Canaltech describes the mechanism behind the feature: the system combines different visual components and assembles the interface while the answer is being generated, rather than writing the text first and illustrating it afterward. A question about a complex topic can produce an interactive diagram, while a request involving calculations can generate a specific tool built to solve that problem, according to the outlet.", "items": []},
-    {"type": "h2", "text": "What shows up in an answer now", "items": []},
-    {"type": "p", "text": "Per both outlets, elements that can appear in a conversation include:", "items": []},
-    {"type": "list", "text": "", "items": ["Interactive diagrams for explaining complex phenomena", "Custom calculators built for a specific task", "Editable charts and graphs", "Maps for trip planning or routes", "Tappable buttons that move a task forward without typing"]},
-    {"type": "p", "text": "TechCrunch also pointed to examples OpenAI showed off, such as a diagram explaining bicycle mechanics and a recipe walkthrough. Canaltech, for its part, mentioned financial-planning simulators and flight-seat comparison tools shown during the same briefing. TechCrunch also notes the change could make ChatGPT more accessible and help bring in a wider audience, though OpenAI did not say so directly.", "items": []},
-    {"type": "h2", "text": "Rollout across ChatGPT's tiers", "items": []},
-    {"type": "p", "text": "Intelligent UI rolled out globally alongside GPT-6 for ChatGPT's Pro, Plus, Business and Enterprise subscribers first. Free and Go tier accounts — the cheaper entry option — gain access a day later, according to TechCrunch and Canaltech.", "items": []},
-    {"type": "p", "text": "Per Canaltech, Pro, Plus, Business and Enterprise accounts run the feature on a model version identified as GPT-6 Sol, while Free and Go accounts use GPT-6 Luna. On Enterprise accounts, the outlet reports availability still depends on settings controlled by an organization's administrators. That administrator-controlled rollout means not every organization's users will see the new interface on the same day.", "items": []},
-    {"type": "p", "text": "Canaltech also notes the update is, for now, limited to ChatGPT's chat tab and does not extend to OpenAI's Work and Codex products. The outlet reports OpenAI also says GPT-6 itself received speed, web-search and safety improvements, including stronger resistance to jailbreak attempts and a better sense of when it lacks enough information to answer a question.", "items": []},
-    {"type": "p", "text": "The feature can also be dialed back. Users who prefer fewer visual elements and a more traditional text-based experience can reduce how many interactive components appear, the same way they adjust other ChatGPT personality settings, per both outlets.", "items": []}
+    {
+      "type": "p",
+      "text": "OpenAI began rolling out Intelligent UI, a new ChatGPT interface that replaces plain text with interactive visual elements, on Wednesday, October 7, according to TechCrunch and Canaltech. The feature launches alongside the new GPT-6 model and reaches free and lower-cost Go accounts starting Thursday, October 8.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Until now, ChatGPT answered mostly in text, sometimes with static images attached. With Intelligent UI, the chatbot can generate tappable buttons, custom calculators, editable charts and interactive diagrams that users manipulate directly inside the conversation, adapting the format to whatever task is being asked.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An airplane wing becomes the example",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a press briefing, OpenAI demonstrated the feature by asking ChatGPT how an airplane wing generates lift, prompting the model to build a set of interactive diagrams in real time. Both TechCrunch and Canaltech describe the same example as evidence of how the interface assembles visuals while it writes an answer, instead of only describing a phenomenon in words. TechCrunch reports OpenAI staff gave journalists a live demonstration of several such diagrams during the same call.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to TechCrunch, OpenAI product manager Aarush Selvan said ChatGPT has predominantly been a text-based interface and that the company wants to help users get things done — from planning a trip to learning a new subject. He added that the most helpful answers \"aren't just text,\" according to the outlet's direct quote. The goal, per TechCrunch, is making it easier to learn complex topics through the new visual layer.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the interface builds an answer",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech describes the mechanism behind the feature: the system combines different visual components and assembles the interface while the answer is being generated, rather than writing the text first and illustrating it afterward. A question about a complex topic can produce an interactive diagram, while a request involving calculations can generate a specific tool built to solve that problem, according to the outlet.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What shows up in an answer now",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per both outlets, elements that can appear in a conversation include:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Interactive diagrams for explaining complex phenomena",
+        "Custom calculators built for a specific task",
+        "Editable charts and graphs",
+        "Maps for trip planning or routes",
+        "Tappable buttons that move a task forward without typing"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch also pointed to examples OpenAI showed off, such as a diagram explaining bicycle mechanics and a recipe walkthrough. Canaltech, for its part, mentioned financial-planning simulators and flight-seat comparison tools shown during the same briefing. TechCrunch also notes the change could make ChatGPT more accessible and help bring in a wider audience, though OpenAI did not say so directly.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Rollout across ChatGPT's tiers",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Intelligent UI rolled out globally alongside GPT-6 for ChatGPT's Pro, Plus, Business and Enterprise subscribers first. Free and Go tier accounts — the cheaper entry option — gain access a day later, according to TechCrunch and Canaltech.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per Canaltech, Pro, Plus, Business and Enterprise accounts run the feature on a model version identified as GPT-6 Sol, while Free and Go accounts use GPT-6 Luna. On Enterprise accounts, the outlet reports availability still depends on settings controlled by an organization's administrators. That administrator-controlled rollout means not every organization's users will see the new interface on the same day.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech also notes the update is, for now, limited to ChatGPT's chat tab and does not extend to OpenAI's Work and Codex products. The outlet reports OpenAI also says GPT-6 itself received speed, web-search and safety improvements, including stronger resistance to jailbreak attempts and a better sense of when it lacks enough information to answer a question.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The feature can also be dialed back. Users who prefer fewer visual elements and a more traditional text-based experience can reduce how many interactive components appear, the same way they adjust other ChatGPT personality settings, per both outlets.",
+      "items": []
+    }
   ],
   "image": {
     "query": "interactive chat interface diagrams on screen",
-    "alt": "Computer screen showing a chatbot conversation with interactive diagrams and charts"
+    "alt": "Computer screen showing a chatbot conversation with interactive diagrams and charts",
+    "path": "/assets/img/chatgpt-interactive-visual-interface-gpt-ee4d54d1.jpg",
+    "credit": "Sufyan / Unsplash",
+    "author": "Sufyan",
+    "author_url": "https://unsplash.com/@blenderdesigner?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-KYxj3CxT_u0"
   },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/", "title": "ChatGPT is getting a lot more visual, with the launch of a new interface"},
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-passa-por-transformacao-e-libera-nova-interface-visual-para-todos/", "title": "ChatGPT passa por transformação e libera nova interface visual para todos"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-passa-por-transformacao-e-libera-nova-interface-visual-para-todos/",
+      "title": "ChatGPT passa por transformação e libera nova interface visual para todos"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-08T22:02:56+00:00",
+  "updated_at": "2026-10-08T22:02:56+00:00"
 }
