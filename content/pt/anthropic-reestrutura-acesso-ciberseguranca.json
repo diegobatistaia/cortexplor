@@ -1,0 +1,101 @@
+{
+  "lang": "pt",
+  "slug": "anthropic-reestrutura-acesso-ciberseguranca",
+  "story_id": "e0570f18a10470b9",
+  "title": "Anthropic reestrutura acesso a modelos para equipes de segurança",
+  "dek": "A empresa uniu dois programas de acesso cibernético em um só, com três níveis e novos números sobre vulnerabilidades encontradas.",
+  "meta_description": "A Anthropic uniu dois programas de acesso facilitado ao Claude para segurança cibernética em um único programa de verificação com três níveis de acesso.",
+  "keyword": "Programa de Verificação Cibernética da Anthropic",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "ciberseguranca",
+    "seguranca"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Anthropic uniu dois programas de acesso facilitado aos modelos Claude para tarefas de segurança cibernética em um só, agora dividido em três níveis, segundo comunicado da própria empresa confirmado pela SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O novo Programa de Verificação Cibernética (CVP, na sigla em inglês) existe porque os modelos Claude de uso geral, como o Opus 5.5 e o Sonnet 5.5, trazem bloqueios conservadores para a maior parte do trabalho de segurança por padrão, de acordo com a Anthropic. A empresa trata a área como de duplo uso: a mesma capacidade que ajuda um analista a encontrar uma falha também ajuda um invasor a explorá-la.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A SiliconANGLE afirma que o Project Glasswing, antecessor do novo programa, começou em abril e foi ampliado para mais 150 organizações em junho — detalhe que não consta no comunicado da própria Anthropic. A mesma fonte diz que, quando o Claude Opus 5.5 foi lançado em 22 de setembro, boa parte das tarefas de segurança enviadas a ele eram redirecionadas automaticamente para o modelo mais antigo, o Opus 4.8.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Três níveis de acesso",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O nível de entrada, chamado Defense Access, libera tarefas defensivas como resposta a incidentes e engenharia reversa de malware. Segundo a Anthropic e a SiliconANGLE, podem se candidatar equipes de segurança de empresas, universidades e órgãos públicos que defendem os próprios sistemas, operadoras de infraestrutura crítica de qualquer porte, pesquisadores independentes com histórico de vulnerabilidades reportadas e pequenas empresas de segurança. A Anthropic diz que pretende responder às solicitações em poucos dias.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O segundo nível, Red Team Access, acrescenta testes de invasão autorizados contra sistemas que a organização tem permissão para testar. Mesmo nesse nível, ações como a implantação de ransomware continuam bloqueadas em tempo real, afirma a Anthropic. A avaliação leva algumas semanas, e a empresa mantém o solicitante no nível Defense Access enquanto analisa o pedido. Por ora, esse nível vale só para organizações, não para pesquisadores individuais, segundo a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O nível mais alto, Specialized Access, tem o menor número de bloqueios e é reservado a organizações autorizadas a testar sistemas cuja falha pode afetar vidas ou mercados, como redes elétricas, de telecomunicações ou de transferência interbancária. A Anthropic diz que avalia cada candidato em conjunto com o governo dos Estados Unidos, e que integrantes do antigo Project Glasswing migram para esse nível sem precisar de nova aprovação para os modelos atuais.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que os testes da própria empresa mostraram",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic diz ter testado o Claude Opus 5.5 em um conjunto de dez cenários de operações cibernéticas de múltiplas etapas, repetindo cada um cinco vezes por nível de acesso. Segundo a SiliconANGLE, que cita o relatório da empresa, toda tentativa sem acesso ao programa foi bloqueada já no primeiro comando; no nível Defense Access, 46 das 50 tentativas foram interrompidas em algum ponto; no nível Red Team, nenhuma foi bloqueada, e o modelo concluiu 34 das 50 tentativas — resultado que, segundo a Anthropic, equivale à taxa de sucesso de 67,6% do modelo sem nenhuma salvaguarda.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa também atribui ao programa anterior, o Project Glasswing, a identificação de pelo menos 129 mil vulnerabilidades verificadas entre abril e julho, segundo parceiros do programa, mais 5.500 encontradas pela própria varredura da Anthropic em código aberto até outubro. Mais de 33 mil do total combinado foram classificadas como críticas ou de alta severidade, com base em 33 relatórios de parceiros — e a empresa diz esperar que o impacto real seja ao menos cinco vezes maior, já que menos da metade dos parceiros chegou a informar quantas falhas corrigiu.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Organizações inscritas no programa precisam permitir retenção de dados para que a Anthropic monitore uso indevido. Isso deve mudar com o Enterprise Frontier Safeguards, solução que a empresa diz pretender lançar ainda este outono (no hemisfério norte) e que vai permitir manter os dados em infraestrutura própria sem abrir mão das mesmas salvaguardas.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "cybersecurity shield digital network dark blue",
+    "alt": "Ilustração abstrata representando segurança cibernética e redes digitais",
+    "path": "/assets/img/anthropic-reestrutura-acesso-cibersegura-04789a36.jpg",
+    "credit": "Rostislav Uzunov / Unsplash",
+    "author": "Rostislav Uzunov",
+    "author_url": "https://unsplash.com/@rostislavuznv?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-glass-object-with-a-blue-background-3G03lBTzjA8"
+  },
+  "sources": [
+    {
+      "name": "Anthropic",
+      "owner": "anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "title": "Expanding the Cyber Verification Program"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/06/anthropic-folds-project-glasswing-into-an-expanded-three-tier-cyber-verification-program/",
+      "title": "Anthropic folds Project Glasswing into an expanded three-tier Cyber Verification Program"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-08T16:00:46+00:00",
+  "updated_at": "2026-10-08T16:00:46+00:00"
+}
