@@ -7,32 +7,123 @@
   "meta_description": "Anthropic lanzó Cyber Mission, una iniciativa para usar IA en la defensa de infraestructura crítica y software de código abierto, según la empresa y Tecmundo.",
   "keyword": "Cyber Mission",
   "category": "aplicacoes",
-  "tags": ["ia", "anthropic", "ciberseguridad", "infraestructura-critica"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "ciberseguridad",
+    "infraestructura-critica"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic lanzó el jueves Cyber Mission, una iniciativa de largo plazo para aplicar inteligencia artificial a la defensa de sistemas de los que depende la sociedad, según el anuncio de la propia empresa, corroborado por Tecmundo.", "items": []},
-    {"type": "p", "text": "El programa arranca en dos frentes: la protección de infraestructura crítica, como redes eléctricas y sistemas de agua, y el triaje de vulnerabilidades en software de código abierto.", "items": []},
-    {"type": "p", "text": "Anthropic y Tecmundo describen el mismo contexto detrás del lanzamiento: las herramientas de defensa más avanzadas todavía no llegan a suficientes defensores, mientras los ciberataques se vuelven más sofisticados al usar la propia inteligencia artificial como arma.", "items": []},
-    {"type": "p", "text": "Según Anthropic, Cyber Mission nace del trabajo hecho en Project Glasswing, un programa anterior de la empresa para escanear vulnerabilidades. La compañía afirma que esta misma semana fusionó Glasswing en una versión ampliada de su Cyber Verification Program, que ahora da a más defensores acceso a los modelos más capaces de Anthropic.", "items": []},
-    {"type": "h2", "text": "Infraestructura crítica", "items": []},
-    {"type": "p", "text": "El primer frente es el Critical Infrastructure Defense Program. Según Anthropic, suma los modelos Claude, ingenieros presenciales y la investigación de amenazas de la empresa a las compañías que los operadores de infraestructura crítica ya contratan para decidir qué correcciones aplicar en sistemas que no pueden apagarse para actualizarse, un equipamiento que, según la empresa, puede funcionar décadas sin un parche.", "items": []},
-    {"type": "p", "text": "Anthropic afirma que once compañías se sumaron como socias fundadoras, divididas por el tipo de trabajo que realizan:", "items": []},
-    {"type": "list", "text": "", "items": ["Consultoría: Accenture, Booz Allen, Deloitte, PwC", "Seguridad: CrowdStrike, Dragos, Insane Cyber, Nozomi Networks, Palo Alto Networks", "Fabricantes de equipamiento: Hitachi, Rockwell Automation"]},
-    {"type": "p", "text": "Anthropic y Tecmundo confirman que parte de estos socios ya usa Claude para corregir vulnerabilidades y ayudar a sus propios clientes a hacer lo mismo, y que el grupo de proveedores puede crecer a medida que las estrategias demuestren ser eficaces.", "items": []},
-    {"type": "p", "text": "La empresa dice que el frente de infraestructura crítica se apoya en un programa más antiguo: desde junio, según Anthropic, ya ofrece modelos Claude y soporte técnico a gobiernos estatales, locales y tribales de Estados Unidos, con cobertura hoy en más de la mitad de los estados del país y en algunos de los mayores operadores públicos de infraestructura crítica, para escaneo de código, corrección de fallas, respuesta a incidentes y ejercicios de simulación de ataques.", "items": []},
-    {"type": "h2", "text": "Código abierto", "items": []},
-    {"type": "p", "text": "El segundo frente es OSS Scanner, un servicio gratuito y opcional que envía a los proyectos de código abierto inscritos escaneos periódicos realizados por los modelos más avanzados de Anthropic. La empresa dice que el servicio se inspiró en OSS-Fuzz, una herramienta de Google para encontrar fallas en software libre.", "items": []},
-    {"type": "p", "text": "Según Anthropic, OSS Scanner surgió de un efecto colateral de Project Glasswing: al recibir los primeros informes privados de vulnerabilidades, algunos mantenedores de proyectos pidieron ver todo lo que los modelos de la empresa habían encontrado, revisado o no. El nuevo servicio convierte ese pedido puntual en una opción permanente para los proyectos inscritos.", "items": []},
-    {"type": "p", "text": "Según Anthropic, cada informe de OSS Scanner incluye una demostración de cómo podría explotarse la falla y, cuando es posible, una sugerencia de corrección. La empresa dice que espera una tasa de verdaderos positivos superior al 90% —dato también citado por Tecmundo— y afirma que trabajará para mejorar esa cifra con el tiempo.", "items": []},
-    {"type": "p", "text": "Anthropic dice que los informes son generados por el modelo y se envían sin revisión humana, lo que acelera la entrega a los mantenedores de los proyectos, pero también puede traer imprecisiones, como una clasificación de gravedad equivocada. Para los proyectos fuera de OSS Scanner, la empresa dice que seguirá compartiendo solo informes revisados por humanos, mediante el proceso de divulgación coordinada que ya usaba antes.", "items": []},
-    {"type": "p", "text": "Anthropic dice además haber financiado organizaciones detrás de código abierto muy usado, como la Python Software Foundation, la Apache Software Foundation y OpenSSF, administrada por la Linux Foundation. Según Tecmundo, la empresa espera que, en dos años, las mejoras de esta iniciativa dejen a la defensa por delante de los ataques que usan inteligencia artificial —una expectativa de la propia Anthropic, no un resultado ya observado.", "items": []}
+    {
+      "type": "p",
+      "text": "Anthropic lanzó el jueves Cyber Mission, una iniciativa de largo plazo para aplicar inteligencia artificial a la defensa de sistemas de los que depende la sociedad, según el anuncio de la propia empresa, corroborado por Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El programa arranca en dos frentes: la protección de infraestructura crítica, como redes eléctricas y sistemas de agua, y el triaje de vulnerabilidades en software de código abierto.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic y Tecmundo describen el mismo contexto detrás del lanzamiento: las herramientas de defensa más avanzadas todavía no llegan a suficientes defensores, mientras los ciberataques se vuelven más sofisticados al usar la propia inteligencia artificial como arma.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Anthropic, Cyber Mission nace del trabajo hecho en Project Glasswing, un programa anterior de la empresa para escanear vulnerabilidades. La compañía afirma que esta misma semana fusionó Glasswing en una versión ampliada de su Cyber Verification Program, que ahora da a más defensores acceso a los modelos más capaces de Anthropic.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Infraestructura crítica",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El primer frente es el Critical Infrastructure Defense Program. Según Anthropic, suma los modelos Claude, ingenieros presenciales y la investigación de amenazas de la empresa a las compañías que los operadores de infraestructura crítica ya contratan para decidir qué correcciones aplicar en sistemas que no pueden apagarse para actualizarse, un equipamiento que, según la empresa, puede funcionar décadas sin un parche.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic afirma que once compañías se sumaron como socias fundadoras, divididas por el tipo de trabajo que realizan:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Consultoría: Accenture, Booz Allen, Deloitte, PwC",
+        "Seguridad: CrowdStrike, Dragos, Insane Cyber, Nozomi Networks, Palo Alto Networks",
+        "Fabricantes de equipamiento: Hitachi, Rockwell Automation"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Anthropic y Tecmundo confirman que parte de estos socios ya usa Claude para corregir vulnerabilidades y ayudar a sus propios clientes a hacer lo mismo, y que el grupo de proveedores puede crecer a medida que las estrategias demuestren ser eficaces.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa dice que el frente de infraestructura crítica se apoya en un programa más antiguo: desde junio, según Anthropic, ya ofrece modelos Claude y soporte técnico a gobiernos estatales, locales y tribales de Estados Unidos, con cobertura hoy en más de la mitad de los estados del país y en algunos de los mayores operadores públicos de infraestructura crítica, para escaneo de código, corrección de fallas, respuesta a incidentes y ejercicios de simulación de ataques.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Código abierto",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El segundo frente es OSS Scanner, un servicio gratuito y opcional que envía a los proyectos de código abierto inscritos escaneos periódicos realizados por los modelos más avanzados de Anthropic. La empresa dice que el servicio se inspiró en OSS-Fuzz, una herramienta de Google para encontrar fallas en software libre.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Anthropic, OSS Scanner surgió de un efecto colateral de Project Glasswing: al recibir los primeros informes privados de vulnerabilidades, algunos mantenedores de proyectos pidieron ver todo lo que los modelos de la empresa habían encontrado, revisado o no. El nuevo servicio convierte ese pedido puntual en una opción permanente para los proyectos inscritos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Anthropic, cada informe de OSS Scanner incluye una demostración de cómo podría explotarse la falla y, cuando es posible, una sugerencia de corrección. La empresa dice que espera una tasa de verdaderos positivos superior al 90% —dato también citado por Tecmundo— y afirma que trabajará para mejorar esa cifra con el tiempo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic dice que los informes son generados por el modelo y se envían sin revisión humana, lo que acelera la entrega a los mantenedores de los proyectos, pero también puede traer imprecisiones, como una clasificación de gravedad equivocada. Para los proyectos fuera de OSS Scanner, la empresa dice que seguirá compartiendo solo informes revisados por humanos, mediante el proceso de divulgación coordinada que ya usaba antes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic dice además haber financiado organizaciones detrás de código abierto muy usado, como la Python Software Foundation, la Apache Software Foundation y OpenSSF, administrada por la Linux Foundation. Según Tecmundo, la empresa espera que, en dos años, las mejoras de esta iniciativa dejen a la defensa por delante de los ataques que usan inteligencia artificial —una expectativa de la propia Anthropic, no un resultado ya observado.",
+      "items": []
+    }
   ],
   "image": {
     "query": "cybersecurity critical infrastructure power grid network",
-    "alt": "Panel de control de infraestructura crítica con líneas de código superpuestas"
+    "alt": "Panel de control de infraestructura crítica con líneas de código superpuestas",
+    "path": "/assets/img/anthropic-lanza-cyber-mission-infraestru-bb42e120.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
   },
   "sources": [
-    {"name": "Anthropic", "owner": "anthropic", "url": "https://www.anthropic.com/news/anthropic-cyber-mission", "title": "Introducing the Anthropic Cyber Mission"},
-    {"name": "Tecmundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/cyber-mission-anthropic-anuncia-iniciativa-para-usar-ia-na-defesa-cibernetica/", "title": "Cyber Mission: Anthropic anuncia iniciativa para usar IA na defesa cibernética"}
+    {
+      "name": "Anthropic",
+      "owner": "anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "title": "Introducing the Anthropic Cyber Mission"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/cyber-mission-anthropic-anuncia-iniciativa-para-usar-ia-na-defesa-cibernetica/",
+      "title": "Cyber Mission: Anthropic anuncia iniciativa para usar IA na defesa cibernética"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-09T21:43:38+00:00",
+  "updated_at": "2026-10-09T21:43:38+00:00"
 }
