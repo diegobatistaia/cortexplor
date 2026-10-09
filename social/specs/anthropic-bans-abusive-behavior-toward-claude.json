@@ -1,0 +1,102 @@
+{
+  "slug": "anthropic-bans-abusive-behavior-toward-claude",
+  "lang": "en",
+  "date": "09 Oct 2026",
+  "no": 18,
+  "category": "Policy",
+  "kicker": "Policy · Anthropic",
+  "headline": "Anthropic bans abusive behavior toward Claude",
+  "headline_hl": "abusive behavior",
+  "dek": "The usage policy update also tightens weapons, surveillance and election rules, per three outlets.",
+  "image": {
+    "path": "assets/img/anthropic-bans-abusive-behavior-toward-c-3a075155.jpg",
+    "credit": "Paris Bilal / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Policy<br>update",
+  "sources": [
+    "The Guardian Technology",
+    "The Verge AI",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A ban on cruelty toward the model",
+    "body": [
+      "Anthropic updated its usage policy to ban \"sustained and needless abusive or cruel behavior\" toward Claude. It is the first broad revision in over a year (The Guardian, The Verge, Engadget).",
+      "The rule targets \"extreme cases\" of repeated cruelty with no discernible purpose. Frustration, pushback, dark creative themes and model testing are excluded (The Guardian, The Verge, Engadget)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the rule is enforced",
+    "body": "Ending the conversation stays the main enforcement tool (The Verge).",
+    "points": [
+      {
+        "h": "August policy",
+        "t": "Claude can already end chats with persistently harmful or abusive users, as part of Anthropic's model welfare research (The Guardian, The Verge)."
+      },
+      {
+        "h": "Open question",
+        "t": "Anthropic did not say what counts as abusive or cruel, nor whether account bans could follow (The Guardian, The Verge)."
+      },
+      {
+        "h": "Hardware rule",
+        "t": "If Claude controls equipment that can cause injury, a qualified operator must be able to observe and stop it (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Beyond the welfare rule",
+    "body": [
+      "The update bars deceptive commercial or political campaigns, extends the weapons ban to software and components such as arming drones, and prohibits tracking people without consent (The Verge).",
+      "Claude also cannot be used to decide who to investigate, arrest or charge. Election rules now target lies about candidates or voting and impersonation of officials (The Verge, Engadget)."
+    ],
+    "stat": {
+      "big": "Over a year",
+      "cap": "since the last broad policy revision (The Verge)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Unclear",
+        "t": "Anthropic has not defined what counts as abusive or cruel behavior (The Guardian)."
+      },
+      {
+        "h": "Bans?",
+        "t": "The company did not comment on enforcement beyond ending chats, such as account bans (The Verge)."
+      },
+      {
+        "h": "Government",
+        "t": "Usage limits can be adjusted for government customers if contractual safeguards are judged adequate (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic updated its Claude usage policy to ban sustained and needless abusive or cruel behavior toward the model.",
+    "body": [
+      "The change comes amid a debate over whether AI models could be conscious. The Guardian notes CEO Dario Amodei has said he cannot rule it out, while Kyle Fish leads Anthropic's model welfare research (The Verge).",
+      "Engadget reports the election policy is now titled \"Do Not Undermine Democratic Processes\" and drops a blanket ban on personalized voter targeting that also blocked uses like translating voter guides. The Verge says Microsoft's AI code of conduct rejects the idea that models have welfare."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#aipolicy"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Anthropic banning abusive behavior toward Claude in its usage policy",
+    "Slide 2: Anthropic's new rule against cruel behavior toward Claude and its exceptions",
+    "Slide 3: how the abusive behavior ban is enforced, and the new hardware oversight rule",
+    "Slide 4: other Anthropic policy changes on weapons, surveillance and elections",
+    "Slide 5: open questions on Anthropic's abusive behavior rule and government exceptions",
+    "Slide 6: sources on Anthropic's Claude policy: The Guardian, The Verge and Engadget"
+  ]
+}

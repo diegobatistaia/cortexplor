@@ -1,0 +1,103 @@
+{
+  "slug": "anthropic-proibe-abuso-contra-o-claude",
+  "lang": "pt",
+  "date": "09 out 2026",
+  "no": 21,
+  "category": "Regulação",
+  "kicker": "Regulação · Anthropic",
+  "headline": "Anthropic proíbe abuso e crueldade contra o Claude",
+  "headline_hl": "abuso e crueldade",
+  "dek": "Política de uso também mexe em armas, vigilância e eleições, segundo The Guardian, The Verge e Engadget.",
+  "image": {
+    "path": "assets/img/anthropic-proibe-abuso-contra-o-claude-3a075155.jpg",
+    "credit": "Paris Bilal / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Nova<br>política",
+  "sources": [
+    "The Guardian Technology",
+    "The Verge AI",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Política de uso ganha nova regra",
+    "body": [
+      "A Anthropic atualizou sua política de uso e passou a proibir \"comportamento abusivo ou cruel sustentado e sem necessidade\" contra o Claude (The Guardian, The Verge, Engadget).",
+      "É a primeira revisão ampla da política em mais de um ano, segundo o The Verge. A empresa diz que a regra vale só para casos extremos, sem propósito identificável (The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Quando a regra se aplica",
+    "body": "A Anthropic descreve a regra como restrita a usuários que agem repetidamente de forma cruel com os modelos (The Guardian, Engadget).",
+    "points": [
+      {
+        "h": "O que fica de fora",
+        "t": "Frustração comum, contestação, temas criativos sombrios e testes ou pesquisa com o modelo não são proibidos (The Guardian, The Verge, Engadget)."
+      },
+      {
+        "h": "Como é aplicada",
+        "t": "Encerrar a conversa segue como principal mecanismo, política anunciada em agosto para o bem-estar do modelo (The Verge)."
+      },
+      {
+        "h": "O que não se sabe",
+        "t": "A empresa não respondeu o que seria \"abusivo ou cruel\" nem se haverá suspensão de contas (The Guardian, The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Debate sobre bem-estar de modelos",
+    "body": [
+      "A atualização ocorre em meio ao debate sobre a possível consciência dos modelos. Segundo o The Guardian, Dario Amodei, executivo-chefe da Anthropic, já disse não poder descartar essa possibilidade.",
+      "A Microsoft adotou posição diferente em seu código de conduta de IA: rejeita que modelos possam ter bem-estar ou personalidade jurídica (The Verge)."
+    ],
+    "stat": {
+      "big": "Casos extremos",
+      "cap": "é onde a regra vale, diz a Anthropic"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Outras mudanças no texto",
+    "items": [
+      {
+        "h": "Armas",
+        "t": "A proibição agora inclui software e componentes que tornam armas operacionais, como o armamento de drones (The Verge)."
+      },
+      {
+        "h": "Vigilância",
+        "t": "Fica vetado rastrear pessoas sem consentimento e usar o Claude para decidir quem investigar, prender ou indiciar (The Verge)."
+      },
+      {
+        "h": "Hardware",
+        "t": "Em ações físicas autônomas com risco de lesão, um operador qualificado precisa poder interromper o equipamento (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Anthropic passou a proibir abuso e crueldade sustentados contra o Claude em sua política de uso.",
+    "body": [
+      "A atualização também reúne regras sobre campanhas comerciais ou políticas enganosas e amplia o veto a armas, segundo o The Verge.",
+      "Segundo o Engadget, a política eleitoral ganhou o título \"Não Comprometer Processos Democráticos\" e perdeu a proibição geral de segmentação personalizada, que também barrava usos como traduzir guias de voto.",
+      "O The Verge lembra que a política prevê ajustes das restrições para clientes governamentais, se a empresa julgar suficientes as salvaguardas."
+    ],
+    "cta_variant": "A",
+    "cta": "Modelos de IA devem ter regras de uso que protejam o próprio modelo, e não só as pessoas?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#politicadeuso"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Anthropic proibir abuso e crueldade contra o Claude",
+    "Slide 2: a Anthropic atualiza a política de uso e proíbe abuso contra o Claude",
+    "Slide 3: quando a regra contra abuso ao Claude se aplica e o que fica de fora",
+    "Slide 4: debate sobre bem-estar de modelos e a posição da Microsoft",
+    "Slide 5: outras mudanças na política da Anthropic: armas, vigilância e hardware",
+    "Slide 6: fontes sobre a política de uso da Anthropic: Guardian, Verge e Engadget"
+  ]
+}

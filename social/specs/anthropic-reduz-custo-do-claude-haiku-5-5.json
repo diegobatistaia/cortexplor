@@ -1,0 +1,102 @@
+{
+  "slug": "anthropic-reduz-custo-do-claude-haiku-5-5",
+  "lang": "pt",
+  "date": "09 out 2026",
+  "no": 22,
+  "category": "Modelos",
+  "kicker": "Modelos · Anthropic",
+  "headline": "Claude Haiku 5.5 cobra US$ 0,10 por milhão de tokens de entrada",
+  "headline_hl": "Claude Haiku 5.5",
+  "dek": "Faixa de até 100 mil tokens concentra a queda de preço de 90% do modelo compacto, segundo Olhar Digital IA e Canaltech.",
+  "image": {
+    "path": "assets/img/anthropic-reduz-custo-do-claude-haiku-5--944de66b.jpg",
+    "credit": "Omar:. Lopez-Rincon / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Lançado<br>07/10",
+  "sources": [
+    "Olhar Digital IA",
+    "Canaltech"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Haiku novo completa a família 5.5",
+    "body": [
+      "A Anthropic lançou o Claude Haiku 5.5, modelo compacto para tarefas de alto volume e baixo custo. Ele completa a família Claude 5.5, que já tinha Opus 5.5 e Sonnet 5.5 (Olhar Digital IA, Canaltech).",
+      "Segundo a empresa, operar o Haiku 5.5 custa em média 75% menos que o Haiku 4.5. O modelo está na plataforma da Anthropic, na AWS, no Google Cloud e no Azure (Olhar Digital IA, Canaltech)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Preço muda conforme o tamanho do pedido",
+    "body": "O valor por token depende do volume de cada solicitação, e o modelo ganhou um ajuste de esforço (Olhar Digital IA, Canaltech).",
+    "points": [
+      {
+        "h": "Até 100 mil tokens",
+        "t": "Custam US$ 0,10 por milhão na entrada e US$ 0,50 na saída. A queda por token chega a 90% (Olhar Digital IA)."
+      },
+      {
+        "h": "Acima disso",
+        "t": "Os preços sobem para US$ 0,50 na entrada e US$ 2,50 na saída, por milhão de tokens (Olhar Digital IA)."
+      },
+      {
+        "h": "Esforço ajustável",
+        "t": "Primeira vez na linha Haiku: define quanto raciocínio o modelo usa antes de responder (Olhar Digital IA, Canaltech)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Faixa barata cobre a maior parte do uso",
+    "body": [
+      "A Anthropic diz que pedidos de até 100 mil tokens representam cerca de 90% do uso registrado pelo modelo anterior (Olhar Digital IA).",
+      "O Canaltech indica o Haiku 5.5 para resumos, classificação de dados e consultas a bancos de dados, além de atendimento ao cliente em tempo real. Sonnet e Opus ficam com tarefas de mais raciocínio (Canaltech, Olhar Digital IA)."
+    ],
+    "stat": {
+      "big": "90%",
+      "cap": "de queda por token até 100 mil (Olhar Digital IA)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Testes e créditos para assinantes",
+    "items": [
+      {
+        "h": "Benchmarks",
+        "t": "No OSWorld 2.1, o Haiku 5.5 foi de 15,7% para 72,4%. Os testes são da própria Anthropic, sem avaliação independente (Olhar Digital IA, Canaltech)."
+      },
+      {
+        "h": "Créditos",
+        "t": "US$ 100 mensais de API no Max 5x, US$ 200 no Max 20x e até US$ 500 no Team (Olhar Digital IA, Canaltech)."
+      },
+      {
+        "h": "SDKs",
+        "t": "Os SDKs de Python e TypeScript ganharam suporte beta para agentes usarem computador e navegador (Olhar Digital IA, Canaltech)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Claude Haiku 5.5, da Anthropic, cobra US$ 0,10 por milhão de tokens de entrada em pedidos de até 100 mil tokens.",
+    "body": [
+      "Token é a unidade de texto que o modelo lê e escreve. O Olhar Digital IA diz que a documentação da Anthropic lista uma janela de contexto de um milhão de tokens para o Haiku 5.5.",
+      "O Canaltech descreve o modelo como o mais rápido da empresa na configuração padrão e aponta uso como subagente de programação ao lado do Opus 5.5 e do Sonnet 5.5.",
+      "Segundo o Olhar Digital IA, a Anthropic afirma que o Haiku 5.5 teve menos episódios de comportamento desalinhado que o Haiku 4.5. Os dados vêm da própria empresa."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#haiku"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Claude Haiku 5.5, da Anthropic, que cobra US$ 0,10 por milhão de tokens",
+    "Slide 2: o Claude Haiku 5.5 completa a família Claude 5.5 e chega a quatro plataformas",
+    "Slide 3: preço do Claude Haiku 5.5 por faixa de tokens e ajuste de esforço do modelo",
+    "Slide 4: por que a faixa de até 100 mil tokens importa no custo do Claude Haiku 5.5",
+    "Slide 5: testes da Anthropic, créditos para assinantes e SDKs do Claude Haiku 5.5",
+    "Slide 6: fontes sobre o Claude Haiku 5.5: Olhar Digital IA e Canaltech"
+  ]
+}

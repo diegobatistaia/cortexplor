@@ -1,0 +1,101 @@
+{
+  "slug": "anthropic-cuts-claude-haiku-5-5-api-costs",
+  "lang": "en",
+  "date": "09 Oct 2026",
+  "no": 19,
+  "category": "Models",
+  "kicker": "Models · Anthropic",
+  "headline": "Claude Haiku 5.5 cuts API prices with two token tiers",
+  "headline_hl": "Claude Haiku 5.5",
+  "dek": "Anthropic's compact model costs about 75% less than Haiku 4.5, per Olhar Digital and Canaltech.",
+  "image": {
+    "path": "assets/img/anthropic-cuts-claude-haiku-5-5-api-cost-944de66b.jpg",
+    "credit": "Omar:. Lopez-Rincon / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Launched<br>Wednesday",
+  "sources": [
+    "Olhar Digital IA",
+    "Canaltech"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Cheaper by tier, not by flat rate",
+    "body": [
+      "Anthropic released Claude Haiku 5.5 on Wednesday, a compact model for high-volume work. It completes the Claude 5.5 lineup next to Opus 5.5 and Sonnet 5.5 (Olhar Digital, Canaltech).",
+      "Running it costs 75% less on average than Haiku 4.5, according to Anthropic. Its identifier is claude-haiku-5-5, and it is on Anthropic's platform, AWS, Google Cloud and Azure (Olhar Digital, Canaltech)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Two prices, split at 100,000 tokens",
+    "body": "Tokens are the text units models bill by. The rate depends on how long the prompt is (Olhar Digital).",
+    "points": [
+      {
+        "h": "Short prompts",
+        "t": "Up to 100,000 tokens: $0.10 per million input and $0.50 per million output, down by up to 90% (Olhar Digital IA)"
+      },
+      {
+        "h": "Long prompts",
+        "t": "Above that size: $0.50 per million input tokens and $2.50 per million output (Olhar Digital IA)"
+      },
+      {
+        "h": "Why 90%",
+        "t": "Anthropic says about 90% of Haiku 4.5 requests fell under 100,000 tokens (Olhar Digital)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Gains come from Anthropic's own tests",
+    "body": [
+      "On OSWorld 2.1, which measures agents operating a computer, Haiku 5.5 scored 72.4%, up from 15.7%. On Terminal-Bench 4.0, a terminal coding test, it went from 0% to 39.2% (Olhar Digital, Canaltech).",
+      "Humanity's Last Exam: 45.9% without tools and 57.4% with tools, against 10.2% and 18.7%. Both outlets note the results are not an independent evaluation (Olhar Digital, Canaltech)."
+    ],
+    "stat": {
+      "big": "72.4%",
+      "cap": "OSWorld 2.1 score, from 15.7% (Olhar Digital IA)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Credits",
+        "t": "Monthly API credits: $100 for Max 5x, $200 for Max 20x, up to $500 for Team (Olhar Digital, Canaltech)."
+      },
+      {
+        "h": "SDKs",
+        "t": "The Python and TypeScript SDKs gained beta support for agents that use a computer or browser (Olhar Digital, Canaltech)."
+      },
+      {
+        "h": "Safeguards",
+        "t": "Cybersecurity limits are stricter than Haiku 4.5's but looser than on newer, larger models (Olhar Digital)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Claude Haiku 5.5 launched with API prices up to 90% lower on short prompts, according to Olhar Digital.",
+    "body": [
+      "Canaltech describes the model as built for repetitive, cost-sensitive tasks such as summarization, classification and database queries. It can also run as a coding sub-agent beside Opus 5.5 and Sonnet 5.5.",
+      "Anthropic's documentation, cited by Olhar Digital, lists a one-million-token context window. Haiku 5.5 is the first Haiku-tier model with adjustable effort levels, which set how much reasoning it applies before answering (Olhar Digital, Canaltech)."
+    ],
+    "cta_variant": "A",
+    "cta": "Which of its listed tasks, such as classification or summarization, would a cheaper model change most for a team?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#haiku"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Claude Haiku 5.5 cutting API prices with two token tiers",
+    "Slide 2: what happened: Anthropic releases Claude Haiku 5.5 at about 75% lower cost",
+    "Slide 3: how Claude Haiku 5.5 pricing works: two tiers split at 100,000 tokens",
+    "Slide 4: why Claude Haiku 5.5 matters: benchmark gains reported by Anthropic",
+    "Slide 5: what comes next: API credits, SDK beta and safeguards for Claude Haiku 5.5",
+    "Slide 6: sources on Claude Haiku 5.5: Olhar Digital and Canaltech"
+  ]
+}
