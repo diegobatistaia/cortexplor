@@ -1,0 +1,101 @@
+{
+  "slug": "anthropic-launches-cyber-mission-critical-infrastructure",
+  "lang": "en",
+  "date": "09 Oct 2026",
+  "no": 21,
+  "category": "Applications",
+  "kicker": "Security · Anthropic",
+  "headline": "Anthropic launches Cyber Mission to defend critical systems",
+  "headline_hl": "Cyber Mission",
+  "dek": "The initiative pairs Claude and on-site engineers with infrastructure defenders, per Anthropic and Tecmundo.",
+  "image": {
+    "path": "assets/img/anthropic-launches-cyber-mission-critica-bb42e120.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Launched<br>Thursday",
+  "sources": [
+    "Anthropic",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Defense for grids and open source",
+    "body": [
+      "Anthropic launched Cyber Mission on Thursday, a long-term initiative to apply AI to defending systems society depends on (Anthropic, Tecmundo).",
+      "It starts on two fronts: protecting critical infrastructure such as power grids and water systems, and triaging vulnerabilities in open-source software (Anthropic, Tecmundo)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Two programs, one goal",
+    "body": "Both fronts put Anthropic's models in defenders' hands (Anthropic).",
+    "points": [
+      {
+        "h": "Infrastructure",
+        "t": "Claude, on-site engineers and threat research go to firms that decide which fixes are safe for systems that cannot go offline (Anthropic)."
+      },
+      {
+        "h": "Partners",
+        "t": "Eleven founding partners, including Accenture, CrowdStrike, Dragos, Hitachi and Rockwell Automation, split by consulting, security and equipment (Anthropic)."
+      },
+      {
+        "h": "OSS Scanner",
+        "t": "A free, opt-in service sends enrolled open-source projects periodic scans, each with an exploit demonstration and a suggested fix (Anthropic)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Defenders are still behind",
+    "body": [
+      "Anthropic and Tecmundo describe the same backdrop: the most advanced defensive tools have not reached enough defenders, while attackers use AI as a weapon (Anthropic, Tecmundo).",
+      "OSS Scanner reports are model-generated and sent without human review. That speeds delivery but can bring errors, such as a wrong severity rating (Anthropic)."
+    ],
+    "stat": {
+      "big": "Above 90%",
+      "cap": "expected true-positive rate (Anthropic, Tecmundo)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Partners",
+        "t": "The group of providers may grow as strategies prove effective (Anthropic, Tecmundo)."
+      },
+      {
+        "h": "Accuracy",
+        "t": "Anthropic says it will work to improve the true-positive rate over time (Anthropic)."
+      },
+      {
+        "h": "Two years",
+        "t": "Anthropic expects the gains to put defense ahead of AI-enabled attacks; this is its expectation, not an observed result (Tecmundo)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic launched Cyber Mission, an initiative using AI to defend critical infrastructure, per Anthropic and Tecmundo.",
+    "body": [
+      "Cyber Mission grows out of Project Glasswing, an earlier vulnerability-scanning program. Anthropic says it merged Glasswing that same week into an expanded Cyber Verification Program, which gives more defenders access to its most capable models.",
+      "Since June, Anthropic says it has offered Claude models to US state, local and tribal governments, now covering more than half of US states. For outside projects, it will keep sharing only human-verified disclosures (Anthropic)."
+    ],
+    "cta_variant": "A",
+    "cta": "Which would matter more for defenders, scanning open-source code or fixing industrial systems that cannot go offline?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#cybersecurity"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Anthropic launching Cyber Mission to defend critical systems",
+    "Slide 2: what happened: Anthropic launches Cyber Mission for grids, water and open source",
+    "Slide 3: how Cyber Mission works: infrastructure program, partners and OSS Scanner",
+    "Slide 4: why Cyber Mission matters: defenders lag, OSS Scanner expects 90% accuracy",
+    "Slide 5: what comes next for Cyber Mission: partners, accuracy and a two-year goal",
+    "Slide 6: sources on Cyber Mission: Anthropic and Tecmundo"
+  ]
+}

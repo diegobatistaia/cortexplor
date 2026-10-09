@@ -1,0 +1,101 @@
+{
+  "slug": "anthropic-lanca-cyber-mission-infraestrutura-critica",
+  "lang": "pt",
+  "date": "09 out 2026",
+  "no": 24,
+  "category": "Aplicações",
+  "kicker": "Segurança · Anthropic",
+  "headline": "Anthropic lança o Cyber Mission para defender infraestrutura crítica",
+  "headline_hl": "Cyber Mission",
+  "dek": "Iniciativa leva modelos Claude a parceiros que protegem redes elétricas e água, segundo a Anthropic e o Tecmundo.",
+  "image": {
+    "path": "assets/img/anthropic-lanca-cyber-mission-infraestru-bb42e120.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Lançado<br>08/10",
+  "sources": [
+    "Anthropic",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Iniciativa de longo prazo em defesa",
+    "body": [
+      "A Anthropic lançou na quinta-feira (8) o Cyber Mission, iniciativa para aplicar IA na defesa de sistemas dos quais a sociedade depende (Anthropic, Tecmundo).",
+      "O programa começa em duas frentes: infraestrutura crítica, como redes elétricas e sistemas de água, e triagem de vulnerabilidades em código aberto (Anthropic, Tecmundo)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Duas frentes de atuação",
+    "body": "O Cyber Mission nasce do Project Glasswing, programa anterior de varredura de vulnerabilidades (Anthropic).",
+    "points": [
+      {
+        "h": "Infraestrutura",
+        "t": "Leva Claude, engenheiros e pesquisa de ameaças às empresas que operadores já contratam para indicar correções (Anthropic)."
+      },
+      {
+        "h": "Parceiros",
+        "t": "São onze parceiros fundadores, entre eles Accenture, CrowdStrike, Deloitte, Hitachi e Palo Alto Networks (Anthropic)."
+      },
+      {
+        "h": "OSS Scanner",
+        "t": "Serviço gratuito que envia a projetos de código aberto inscritos varreduras periódicas, com demonstração da falha (Anthropic)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Defesa chega a poucos defensores",
+    "body": [
+      "Segundo a Anthropic e o Tecmundo, as ferramentas de defesa mais avançadas não chegam a defensores suficientes, enquanto ataques usam IA (Anthropic, Tecmundo).",
+      "Muitos equipamentos de infraestrutura não podem ser desligados para atualização e, segundo a empresa, ficam décadas sem correção (Anthropic)."
+    ],
+    "stat": {
+      "big": "90%",
+      "cap": "acerto esperado pela Anthropic (Tecmundo)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Expectativa de dois anos",
+    "items": [
+      {
+        "h": "Parceiros",
+        "t": "O grupo de fornecedores pode crescer conforme as estratégias se mostrem eficazes (Anthropic, Tecmundo)."
+      },
+      {
+        "h": "Relatórios",
+        "t": "Os do OSS Scanner saem sem revisão humana e podem errar a gravidade; fora dele, seguem revisados (Anthropic)."
+      },
+      {
+        "h": "Dois anos",
+        "t": "A empresa espera deixar a defesa em vantagem sobre ataques com IA, uma expectativa dela (Tecmundo)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Anthropic lançou o Cyber Mission, iniciativa de IA para defender infraestrutura crítica e código aberto.",
+    "body": [
+      "Desde junho, segundo a Anthropic, a empresa oferece o Claude e suporte técnico a governos estaduais, locais e tribais dos Estados Unidos, hoje em mais da metade dos estados. O uso inclui varredura de código, correção de falhas, resposta a incidentes e simulação de ataques.",
+      "O OSS Scanner foi inspirado no OSS-Fuzz, do Google, e a Anthropic diz ter financiado entidades como a Python Software Foundation, a Apache Software Foundation e a OpenSSF."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#ciberseguranca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o lançamento do Cyber Mission pela Anthropic, para infraestrutura crítica",
+    "Slide 2: a Anthropic lança o Cyber Mission, iniciativa de IA na defesa cibernética",
+    "Slide 3: como o Cyber Mission funciona: infraestrutura, parceiros e OSS Scanner",
+    "Slide 4: por que o Cyber Mission importa: defesa e infraestrutura sem atualização",
+    "Slide 5: o que vem agora no Cyber Mission: parceiros, relatórios e meta de dois anos",
+    "Slide 6: fontes sobre o Cyber Mission: Anthropic e Tecmundo"
+  ]
+}
