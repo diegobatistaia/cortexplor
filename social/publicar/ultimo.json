@@ -1,34 +1,52 @@
 {
   "pedido": {
-    "acao": "publicar",
-    "itens": [
-      {
-        "slug": "claude-haiku-5-5-mais-barato-aws",
-        "lang": "pt"
-      },
-      {
-        "slug": "claude-haiku-5-5-launches-aws-cheaper",
-        "lang": "en"
-      }
-    ],
-    "pedido_em": "2026-10-09T08:58:11-03:00"
+    "acao": "conferir",
+    "lang": "pt",
+    "pedido_em": "2026-10-09T08:59:55-03:00"
   },
-  "em": "2026-10-09T08:58:36-03:00",
-  "ok": false,
-  "itens": [
+  "em": "2026-10-09T09:00:22-03:00",
+  "ok": true,
+  "conta": "cortexplor",
+  "ultimos": [
     {
-      "slug": "claude-haiku-5-5-mais-barato-aws",
-      "lang": "pt",
-      "conta": "cortexplor",
-      "ok": false,
-      "erro": "HTTP 403 em 17841424687773066/media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"ArRibZK2I68z6E98AOAVqeQ\"}}"
+      "quando": "2026-10-09T11:59:04+0000",
+      "link": "https://www.instagram.com/p/DeRdOFuFg4x/",
+      "inicio": "A Anthropic lançou o Claude Haiku 5.5, que custa cerca de 75% menos que o Haiku 4.5 e já e"
     },
     {
-      "slug": "claude-haiku-5-5-launches-aws-cheaper",
-      "lang": "en",
-      "conta": "cortexplor.en",
-      "ok": false,
-      "erro": "HTTP 403 em 17841420475465882/media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AMY5trv-BJh52wpEggQFcUm\"}}"
+      "quando": "2026-10-07T23:59:11+0000",
+      "link": "https://www.instagram.com/p/DeNmCkxjlvV/",
+      "inicio": "A Microsoft lançou o Surface Laptop Ultra, primeiro notebook da marca com o chip de IA RTX"
+    },
+    {
+      "quando": "2026-10-07T22:58:44+0000",
+      "link": "https://www.instagram.com/p/DeNfH83IP6n/",
+      "inicio": "A Wikimedia diz que agentes de IA da OpenAI provocaram a queda parcial de um serviço da Wi"
+    },
+    {
+      "quando": "2026-10-07T17:07:23+0000",
+      "link": "https://www.instagram.com/p/DeM26pwFAjP/",
+      "inicio": "A Anthropic ampliou o Claude for Startups: um ano grátis do Claude Team e US$ 1.000 em cré"
+    },
+    {
+      "quando": "2026-10-07T11:58:32+0000",
+      "link": "https://www.instagram.com/p/DeMTkZfm1zS/",
+      "inicio": "O Google vai limitar o Gemini grátis ao Flash-Lite a partir de 9 de outubro e tirar o Pro "
+    },
+    {
+      "quando": "2026-10-06T23:59:11+0000",
+      "link": "https://www.instagram.com/p/DeLBPkCDiWA/",
+      "inicio": "A Mistral lançou o Mistral Large 4, o Le Chonk, modelo de peso aberto com 1 trilhão de par"
+    },
+    {
+      "quando": "2026-10-06T22:58:27+0000",
+      "link": "https://www.instagram.com/p/DeK6TY1Ecu5/",
+      "inicio": "A OpenAI vai testar anúncios no ChatGPT exibidos durante a geração de imagens, começando p"
+    },
+    {
+      "quando": "2026-10-06T16:58:48+0000",
+      "link": "https://www.instagram.com/p/DeKRI6JFDSB/",
+      "inicio": "Sam Altman, da OpenAI, disse que o mundo deve aceitar golpes e invasões como custo dos ben"
     }
   ]
 }
