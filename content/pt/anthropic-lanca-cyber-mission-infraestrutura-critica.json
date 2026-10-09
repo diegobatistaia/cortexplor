@@ -1,0 +1,129 @@
+{
+  "lang": "pt",
+  "slug": "anthropic-lanca-cyber-mission-infraestrutura-critica",
+  "story_id": "f6baaa71cafa98c6",
+  "title": "Anthropic lança Cyber Mission para proteger infraestrutura crítica",
+  "dek": "Iniciativa de longo prazo leva modelos Claude e engenheiros a parceiros que defendem redes elétricas e sistemas de água, além de varreduras gratuitas em código aberto.",
+  "meta_description": "A Anthropic lançou o Cyber Mission, iniciativa para usar IA na defesa de infraestrutura crítica e software de código aberto, segundo a empresa e o Tecmundo.",
+  "keyword": "Cyber Mission",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "anthropic",
+    "ciberseguranca",
+    "infraestrutura-critica"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Anthropic lançou nesta quinta-feira (8) o Cyber Mission, iniciativa de longo prazo para aplicar inteligência artificial na defesa de sistemas dos quais a sociedade depende, segundo comunicado da empresa confirmado pelo Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O programa começa em duas frentes: proteção de infraestrutura crítica, como redes elétricas e sistemas de água, e triagem de vulnerabilidades em software de código aberto.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic e o Tecmundo descrevem o mesmo cenário por trás do lançamento: as ferramentas de defesa mais avançadas ainda não chegaram a um número suficiente de defensores, enquanto ataques cibernéticos têm ficado mais sofisticados ao usar a própria inteligência artificial como arma.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Anthropic, o Cyber Mission nasce do trabalho feito no Project Glasswing, programa anterior da empresa de varredura de vulnerabilidades. A companhia afirma que, nesta mesma semana, fundiu o Glasswing em uma versão ampliada do seu Cyber Verification Program, que passa a dar a mais defensores acesso aos modelos mais capazes da Anthropic.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Infraestrutura crítica",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A primeira frente é o Critical Infrastructure Defense Program. Segundo a Anthropic, ele leva os modelos Claude, engenheiros presenciais e pesquisa de ameaças da empresa às companhias que operadores de infraestrutura crítica já contratam para indicar quais correções aplicar em sistemas que não podem ser desligados para atualização — equipamento que, segundo a empresa, pode ficar décadas em operação sem patch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic afirma que os parceiros fundadores do programa são onze companhias, divididas por tipo de atuação:",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Consultoria: Accenture, Booz Allen, Deloitte, PwC",
+        "Segurança: CrowdStrike, Dragos, Insane Cyber, Nozomi Networks, Palo Alto Networks",
+        "Fabricantes de equipamento: Hitachi, Rockwell Automation"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic e o Tecmundo confirmam que parte desses parceiros já usa o Claude para corrigir vulnerabilidades e ajudar clientes a fazer o mesmo, e que o grupo de fornecedores pode crescer conforme as estratégias se mostrem eficazes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa afirma que a frente de infraestrutura crítica se apoia em um programa mais antigo: desde junho, segundo a Anthropic, ela já oferece os modelos Claude e suporte técnico a governos estaduais, locais e tribais dos Estados Unidos, cobrindo hoje mais da metade dos estados americanos e alguns dos maiores operadores públicos de infraestrutura crítica do país, com uso em varredura de código, correção de falhas, resposta a incidentes e exercícios de simulação de ataque.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Código aberto",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A segunda frente é o OSS Scanner, serviço gratuito e opcional que envia a projetos de código aberto inscritos varreduras periódicas feitas pelos modelos mais avançados da Anthropic. A empresa diz que o serviço foi inspirado no OSS-Fuzz, ferramenta do Google para achar falhas em software livre.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Anthropic, o OSS Scanner nasceu de um efeito colateral do Project Glasswing: ao receber os primeiros relatórios privados de vulnerabilidades, alguns mantenedores de projetos pediram para ver tudo o que os modelos da empresa haviam encontrado, revisado ou não. O novo serviço transforma esse pedido pontual em algo permanente para projetos inscritos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Anthropic, cada relatório do OSS Scanner traz uma demonstração de como a falha pode ser explorada e, quando possível, uma sugestão de correção. A empresa afirma esperar uma taxa de verdadeiros positivos acima de 90% — dado também citado pelo Tecmundo — e diz que vai trabalhar para melhorar esse número com o tempo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic diz que os relatórios são gerados pelo modelo e enviados sem revisão humana, o que acelera a entrega aos mantenedores de projetos, mas também pode trazer imprecisões, como uma classificação de gravidade errada. Para projetos fora do OSS Scanner, a empresa afirma que vai continuar enviando apenas relatórios revisados por humanos, pelo processo de divulgação coordenada que já usava antes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic diz ainda ter financiado entidades que mantêm código aberto amplamente usado, como a Python Software Foundation, a Apache Software Foundation e a OpenSSF, administrada pela Linux Foundation. Segundo o Tecmundo, a empresa espera que, em dois anos, os avanços oferecidos pela iniciativa deixem a defesa em vantagem sobre ataques que usam inteligência artificial — uma expectativa da própria Anthropic, não um resultado já observado.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "cybersecurity critical infrastructure power grid network",
+    "alt": "Painel de controle de infraestrutura crítica com linhas de código sobrepostas",
+    "path": "/assets/img/anthropic-lanca-cyber-mission-infraestru-bb42e120.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
+  },
+  "sources": [
+    {
+      "name": "Anthropic",
+      "owner": "anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "title": "Introducing the Anthropic Cyber Mission"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/cyber-mission-anthropic-anuncia-iniciativa-para-usar-ia-na-defesa-cibernetica/",
+      "title": "Cyber Mission: Anthropic anuncia iniciativa para usar IA na defesa cibernética"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-09T21:43:38+00:00",
+  "updated_at": "2026-10-09T21:43:38+00:00"
+}
