@@ -1,10 +1,34 @@
 {
   "pedido": {
-    "acao": "teste",
-    "lang": "pt",
-    "pedido_em": "2026-10-09T08:04:05-03:00"
+    "acao": "publicar",
+    "itens": [
+      {
+        "slug": "claude-haiku-5-5-mais-barato-aws",
+        "lang": "pt"
+      },
+      {
+        "slug": "claude-haiku-5-5-launches-aws-cheaper",
+        "lang": "en"
+      }
+    ],
+    "pedido_em": "2026-10-09T08:58:11-03:00"
   },
-  "em": "2026-10-09T08:04:25-03:00",
-  "ok": true,
-  "conta": "cortexplor"
+  "em": "2026-10-09T08:58:36-03:00",
+  "ok": false,
+  "itens": [
+    {
+      "slug": "claude-haiku-5-5-mais-barato-aws",
+      "lang": "pt",
+      "conta": "cortexplor",
+      "ok": false,
+      "erro": "HTTP 403 em 17841424687773066/media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"ArRibZK2I68z6E98AOAVqeQ\"}}"
+    },
+    {
+      "slug": "claude-haiku-5-5-launches-aws-cheaper",
+      "lang": "en",
+      "conta": "cortexplor.en",
+      "ok": false,
+      "erro": "HTTP 403 em 17841420475465882/media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AMY5trv-BJh52wpEggQFcUm\"}}"
+    }
+  ]
 }
