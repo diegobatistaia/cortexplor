@@ -31,6 +31,7 @@ No GitHub Actions:
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import sys
@@ -215,9 +216,36 @@ def publicar(entry: dict, ig: str, token: str) -> dict:
         esperar(c, token)
     car = call("POST", f"{ig}/media", token, media_type="CAROUSEL", children=",".join(children), caption=caption)
     esperar(car["id"], token)
-    pub = call("POST", f"{ig}/media_publish", token, creation_id=car["id"])
+    inicio = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(minutes=2)
+    try:
+        pub = call("POST", f"{ig}/media_publish", token, creation_id=car["id"])
+    except ApiError as e:
+        # O Instagram às vezes devolve erro (500, ou 403 "Application request limit
+        # reached") e publica mesmo assim. Antes de dar o item como falho, confere se o
+        # post já está na conta; só então segue como publicado.
+        achado = achar_publicado(ig, token, caption, inicio)
+        if not achado:
+            raise
+        print(f"AVISO: a API devolveu erro, mas o post está no ar: {achado['permalink']} ({str(e)[:80]})")
+        return {"media_id": achado["id"], "permalink": achado["permalink"]}
     info = call("GET", pub["id"], token, fields="permalink")
     return {"media_id": pub["id"], "permalink": info.get("permalink")}
+
+
+def achar_publicado(ig: str, token: str, caption: str, desde: datetime.datetime) -> dict | None:
+    """Procura nos últimos posts da conta um criado desde `desde` com a mesma primeira linha."""
+    primeira = caption.split("\n", 1)[0].strip()
+    for _ in range(3):
+        time.sleep(10)
+        try:
+            media = call("GET", f"{ig}/media", token, fields="caption,permalink,timestamp", limit=5).get("data", [])
+        except ApiError:
+            continue
+        for m in media:
+            quando = datetime.datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
+            if quando >= desde and (m.get("caption") or "").split("\n", 1)[0].strip() == primeira:
+                return m
+    return None
 
 
 def conta_da_chave(lang: str) -> tuple[str, str]:
