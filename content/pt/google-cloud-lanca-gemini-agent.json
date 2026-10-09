@@ -1,0 +1,139 @@
+{
+  "lang": "pt",
+  "slug": "google-cloud-lanca-gemini-agent",
+  "story_id": "6613babdde7a6885",
+  "title": "Google Cloud lança o Gemini Agent, agente de IA para o trabalho",
+  "dek": "Ferramenta roda em qualquer dispositivo e já aceita modelos Claude da Anthropic, segundo TechRadar, The Verge, SiliconANGLE e Tecmundo.",
+  "meta_description": "Google Cloud lança o Gemini Agent, assistente de inteligência artificial autônomo acessível em qualquer dispositivo, com Claude da Anthropic integrado.",
+  "keyword": "Gemini Agent",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "agentes"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "O Google Cloud apresentou nesta quinta-feira (8) o Gemini Agent, um assistente de inteligência artificial que executa tarefas de forma autônoma e pode ser acionado de qualquer dispositivo, segundo o TechRadar, o The Verge, a SiliconANGLE e o Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O lançamento aconteceu durante o evento Gemini at Work, promovido pela própria empresa. Segundo o The Verge, a ferramenta roda dentro do aplicativo Gemini Enterprise e já permite que usuários conversem com o agente e deleguem tarefas a partir de uma única interface.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um agente só, vários canais",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acordo com a SiliconANGLE, o The Verge e o TechRadar, o Gemini Agent pode ser usado pela linha de comando, por dentro do Google Workspace, do Microsoft 365 ou do Slack, além de aplicativos de terceiros, sem precisar de uma interface própria. Como roda na nuvem, segundo a SiliconANGLE e o The Verge, ele mantém a mesma memória e o mesmo contexto da conversa em qualquer um desses canais.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o The Verge, a ferramenta já funciona dentro de aplicativos do Google Workspace como Gmail, Drive, Docs, Sheets e Calendar. A SiliconANGLE acrescenta que o Gemini Agent também se conecta a ferramentas corporativas como Confluence, Git, Jira, Salesforce e ServiceNow, a bancos de dados como BigQuery, Databricks, Postgres e Snowflake, e a arquivos salvos no computador do usuário.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O presidente do Google Cloud, Thomas Kurian, resumiu a proposta durante o evento: \"você dá objetivos, não instruções. Você delega um resultado e volta para encontrar o trabalho pronto\", disse, segundo a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Equipe de agentes com e-mail próprio",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Gemini Agent pode criar agentes menores para tarefas específicas, cada um com identidade própria e um e-mail no formato @agents.company.com, conforme descrevem a SiliconANGLE, o The Verge e o TechRadar. Esses subagentes têm acesso apenas ao contexto que o usuário ou a equipe autorizar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A ferramenta também escolhe o modelo mais adequado para cada tarefa: tarefas simples rodam em modelos menores e mais rápidos, enquanto trabalhos mais longos usam modelos de ponta, segundo a SiliconANGLE e o TechRadar. As duas publicações confirmam que, além dos modelos do próprio Google, os modelos Claude da Anthropic já estão disponíveis dentro do Gemini Agent, com outros modelos abertos e privados prometidos para depois.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Habilidades reutilizáveis e controle de gastos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A SiliconANGLE descreve um recurso de \"habilidades\" reutilizáveis: usuários podem transformar uma tarefa recorrente em um modelo que o agente repete depois, e o Gemini Agent já vem com uma biblioteca própria de habilidades prontas para uso, que os clientes podem ampliar com as suas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ainda segundo a SiliconANGLE, as empresas podem definir um limite de gastos com IA diretamente no painel de cobrança do Google Cloud. Se o limite for atingido, o agente pausa o trabalho até que alguém aprove ultrapassar o teto definido, o que permite também dividir o custo por equipe ou departamento.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ainda restrito a clientes corporativos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Gemini Agent não está disponível ao público em geral. Segundo o The Verge e o TechRadar, a ferramenta está em pré-visualização privada, limitada a alguns clientes corporativos do Google Cloud.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O The Verge lembra que o Google já havia lançado, em maio, o Gemini Spark, uma versão do mesmo tipo de agente voltada a assinantes individuais, acessível por uma interface separada dentro do aplicativo Gemini.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O TechRadar descreve a aposta do Google como parte de uma visão de \"funcionários digitais\" totalmente autônomos. Segundo o site, Kurian chamou o Gemini Agent de \"uma plataforma à prova do futuro, que roda em qualquer lugar, executa qualquer tarefa, aceita o modelo de escolha do cliente e aplica o controle corporativo\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O lançamento chega pouco depois de anúncios semelhantes da concorrência. O TechRadar e o Tecmundo citam o Dots, da OpenAI, e o Muse, da Meta, agentes com propostas parecidas lançados no mês passado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Google ainda não divulgou uma data para a disponibilidade geral do Gemini Agent.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "business professional using laptop with cloud technology interface",
+    "alt": "Pessoa trabalhando em laptop com interface de nuvem ao fundo"
+  },
+  "sources": [
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/08/google-cloud-introduces-gemini-agent-to-change-enterprise-work/",
+      "title": "Google Cloud introduces Gemini agent to change enterprise work"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+      "title": "Google is launching a one-stop Gemini agent for your work tasks"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/google-reveals-gemini-agents-a-single-universal-agent-for-work-which-will-even-get-their-own-gmail-account",
+      "title": "Google reveals Gemini Agents — 'a single universal agent for work', which will even get their own Gmail account"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/gemini-agent-google-lanca-agente-de-ia-universal-para-o-trabalho/",
+      "title": "Gemini Agent: Google lança agente de IA ‘universal para o trabalho’"
+    }
+  ],
+  "status": "draft"
+}
