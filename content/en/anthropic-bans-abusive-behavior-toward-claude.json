@@ -1,0 +1,121 @@
+{
+  "lang": "en",
+  "slug": "anthropic-bans-abusive-behavior-toward-claude",
+  "story_id": "c6f761e5cc19362e",
+  "title": "Anthropic Bans Abusive Behavior Toward Claude in Policy Update",
+  "dek": "The revised usage policy also tightens rules on weapons, surveillance and election campaigns, three outlets report.",
+  "meta_description": "Anthropic banned abusive behavior toward Claude in a usage policy update, according to The Guardian, The Verge and Engadget. Here is what changed and why.",
+  "keyword": "Anthropic usage policy",
+  "category": "politica",
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "usage-policy"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic updated its usage policy to ban \"sustained and needless abusive or cruel behavior\" toward Claude, according to The Guardian, The Verge and Engadget. It is the company's first broad policy revision in more than a year, The Verge reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic says the new rule applies only to \"extreme cases,\" where users repeatedly act cruelly toward its models with no discernible purpose. The company states the ban does not cover common user frustration, pushback, \"dark creative themes,\" or model testing and research — all three outlets confirm this list of exceptions.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The backstory: ending conversations as a welfare measure",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The change follows a policy Anthropic announced in August, when it let Claude end conversations with \"persistently harmful or abusive\" users as part of its research into what it calls model welfare. The Verge, The Guardian and Engadget all confirm that history, and The Verge notes that ending the conversation remains the \"primary enforcement mechanism\" for the new rule.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic did not immediately respond to an inquiry about what specifically counts as \"abusive or cruel,\" according to The Guardian, nor did it comment on whether further enforcement mechanisms, such as account bans, could follow, The Verge reports.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Other changes in the same update",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge reports that the same update consolidates previously scattered rules into a clearer ban on deceptive commercial or political campaigns, and expands the weapons-development ban to cover software and components that make weapons work, including arming drones. The outlet also cites a new surveillance rule barring the tracking of people without consent and the use of Claude to decide or recommend who to investigate, arrest or charge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget confirms the election policy was also updated, now titled \"Do Not Undermine Democratic Processes,\" focused on blocking lies about candidates or how to vote and impersonation of candidates or election officials. According to the outlet, Anthropic removed a blanket ban on personalized voter targeting that had also inadvertently blocked unrelated uses, such as translating voter guides.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The backdrop: a debate over whether AI models can suffer",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The update lands amid Anthropic's own debate over whether its models could be conscious. The Guardian notes that chief executive Dario Amodei has said he cannot rule out the possibility, while OpenAI president Sam Altman wrote in a post on X that he considers it \"a real safety issue\" to ascribe religious force to AI models or treat them as a substitute for human judgment.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge cites Kyle Fish, who leads Anthropic's model welfare research, telling the outlet in February that questions about consciousness and moral status are serious ones the company is investigating as models grow more capable. The outlet also reports that Microsoft took a different stance in its AI code of conduct, rejecting the idea that models could have welfare or legal personhood.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A new rule for AI connected to physical hardware",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge reports the update also created a rule for cases where Anthropic's models are connected to hardware capable of taking autonomous physical actions that might cause injury: a qualified operator must be able to observe the equipment and stop it if needed. According to the outlet, it is not clear whether that operator must be human, and the requirement may reflect growing investment by AI labs in robotics.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The outlet also notes that Anthropic has previously held contracts with the US military, and that the policy itself allows usage restrictions to be adjusted for government customers if the company judges that contractual controls and safeguards are adequate to mitigate the risks. The Verge says this detail was added alongside the rest of this year's policy revision, without elaborating further on how it would apply in practice.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "robot hand chatbot interface dark minimal",
+    "alt": "Dark-toned illustration of a chatbot interface representing AI usage rules",
+    "path": "/assets/img/anthropic-bans-abusive-behavior-toward-c-3a075155.jpg",
+    "credit": "Paris Bilal / Unsplash",
+    "author": "Paris Bilal",
+    "author_url": "https://unsplash.com/@parisbilal?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-with-monitor-head-on-bed-2A_HyOCyB_U"
+  },
+  "sources": [
+    {
+      "name": "The Guardian Technology",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
+      "title": "Anthropic bans users from 'needless abusive or cruel behavior' towards Claude"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "title": "Anthropic bans 'abusive or cruel behavior' toward Claude"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+      "title": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-09T10:59:53+00:00",
+  "updated_at": "2026-10-09T10:59:53+00:00"
+}
