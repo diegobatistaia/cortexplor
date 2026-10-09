@@ -1,5 +1,14 @@
 {
-  "acao": "conferir",
-  "lang": "en",
-  "pedido_em": "2026-10-09T15:00:09-03:00"
+  "acao": "publicar",
+  "itens": [
+    {
+      "slug": "anthropic-proibe-abuso-contra-o-claude",
+      "lang": "pt"
+    },
+    {
+      "slug": "anthropic-bans-abusive-behavior-toward-claude",
+      "lang": "en"
+    }
+  ],
+  "pedido_em": "2026-10-09T19:57:47-03:00"
 }
