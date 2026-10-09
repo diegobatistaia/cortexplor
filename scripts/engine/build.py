@@ -416,20 +416,124 @@ def build_robots(cfg: Config, out: Path) -> None:
     write(out / "robots.txt", "\n".join(lines) + "\n")
 
 
-def build_manifest(cfg: Config, out: Path) -> None:
-    write(out / "site.webmanifest", json.dumps({
-        "name": cfg.get("site.name"),
+def manifest_data(cfg: Config, lang: str) -> dict:
+    """Manifesto do app instalável (PWA) de um idioma.
+
+    Um manifesto por idioma: quem instala lendo em inglês abre o app em /en/.
+    O `id` diferente faz o navegador tratar cada idioma como um app próprio.
+    O ícone tem fundo cheio e o desenho no miolo, por isso serve também como
+    "maskable" (Android recorta em círculo ou gota sem cortar o logo).
+    """
+    icons = []
+    for size in (192, 512):
+        icons.append({"src": f"/assets/logo/icon-{size}.png", "sizes": f"{size}x{size}",
+                      "type": "image/png", "purpose": "any"})
+        icons.append({"src": f"/assets/logo/icon-{size}.png", "sizes": f"{size}x{size}",
+                      "type": "image/png", "purpose": "maskable"})
+    home = seo.home_path(lang)
+    return {
+        "id": home,
+        "name": f"{cfg.get('site.name')} - {cfg.localized('site.tagline', lang)}",
         "short_name": cfg.get("site.name"),
-        "description": cfg.localized("site.description", cfg.default_language),
-        "start_url": seo.home_path(cfg.default_language),
+        "description": cfg.localized("site.description", lang),
+        "lang": cfg.get(f"site.html_lang.{lang}", lang),
+        "start_url": home,
+        "scope": "/",
         "display": "standalone",
+        "orientation": "any",
         "background_color": cfg.get("brand.paper"),
         "theme_color": cfg.get("brand.primary"),
-        "icons": [
-            {"src": "/assets/logo/icon-192.png", "sizes": "192x192", "type": "image/png"},
-            {"src": "/assets/logo/icon-512.png", "sizes": "512x512", "type": "image/png"},
-        ],
-    }, ensure_ascii=False, indent=2) + "\n")
+        "categories": ["news"],
+        "icons": icons,
+    }
+
+
+def build_manifest(cfg: Config, out: Path) -> None:
+    for lang in cfg.languages:
+        write(out / f"manifest-{lang}.webmanifest",
+              json.dumps(manifest_data(cfg, lang), ensure_ascii=False, indent=2) + "\n")
+    # Endereço antigo, que navegadores e apps já instalados podem ter guardado.
+    write(out / "site.webmanifest",
+          json.dumps(manifest_data(cfg, cfg.default_language), ensure_ascii=False, indent=2) + "\n")
+
+
+OFFLINE_TEXT = {
+    "pt": ("Sem conexão", "Você está sem internet. As matérias que você já abriu continuam aqui; "
+           "as novas aparecem assim que a conexão voltar.", "Tentar de novo", "Ir para a capa"),
+    "en": ("You're offline", "No internet connection. Stories you already opened are still here; "
+           "new ones show up as soon as you're back online.", "Try again", "Go to the front page"),
+    "es": ("Sin conexión", "No tienes internet. Las noticias que ya abriste siguen aquí; "
+           "las nuevas aparecen en cuanto vuelva la conexión.", "Intentar de nuevo", "Ir a la portada"),
+}
+
+
+def build_offline(cfg: Config, out: Path) -> None:
+    """Página que o app mostra quando não há internet e a página pedida nunca
+    foi aberta antes. Autocontida (estilo embutido) para funcionar sem rede."""
+    b = cfg.get("brand", {})
+    for lang in cfg.languages:
+        title, body, retry, home = OFFLINE_TEXT.get(lang, OFFLINE_TEXT["en"])
+        write(out / f"offline-{lang}.html", f"""<!DOCTYPE html>
+<html lang="{cfg.get(f'site.html_lang.{lang}', lang)}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>{escape(title)} - {escape(str(cfg.get('site.name')))}</title>
+<link rel="icon" type="image/svg+xml" href="{cfg.get('brand.logo.favicon_svg')}">
+<style>
+:root{{--ink:{b.get('ink')};--paper:{b.get('paper')};--primary:{b.get('primary')};--muted:{b.get('muted')}}}
+@media (prefers-color-scheme: dark){{:root{{--ink:{b.get('ink_dark')};--paper:{b.get('paper_dark')};--primary:{b.get('primary_dark')};--muted:{b.get('muted_dark')}}}}}
+*{{box-sizing:border-box}}
+body{{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;
+background:var(--paper);color:var(--ink);font-family:{b.get('fonts', {}).get('display', 'sans-serif')}}}
+main{{max-width:28rem;text-align:center}}
+img{{width:72px;height:72px;border-radius:16px}}
+h1{{font-size:1.6rem;margin:20px 0 8px}}
+p{{color:var(--muted);line-height:1.5;margin:0 0 24px}}
+a,button{{display:inline-block;margin:4px;padding:10px 18px;border-radius:999px;font:inherit;font-size:.95rem;
+cursor:pointer;text-decoration:none;border:1px solid var(--primary)}}
+button{{background:var(--primary);color:var(--paper)}}
+a{{background:transparent;color:var(--primary)}}
+</style>
+</head>
+<body>
+<main>
+<img src="/assets/logo/icon-192.png" alt="{escape(str(cfg.get('site.name')))}">
+<h1>{escape(title)}</h1>
+<p>{escape(body)}</p>
+<button type="button" onclick="location.reload()">{escape(retry)}</button>
+<a href="{seo.home_path(lang)}">{escape(home)}</a>
+</main>
+</body>
+</html>
+""")
+
+
+def build_service_worker(cfg: Config, out: Path) -> None:
+    """Service worker na raiz (/sw.js), para cobrir o site inteiro.
+
+    A versão é o hash do próprio script e dos arquivos que ele guarda na
+    instalação: quando CSS, JS ou fontes mudam, o navegador baixa o sw novo,
+    que troca o cache antigo sozinho.
+    """
+    import hashlib
+    precache = ["/assets/css/fonts.css", "/assets/css/site.css", "/assets/js/site.js",
+                "/assets/fonts/space-grotesk-latin.woff2", "/assets/fonts/ibm-plex-mono-latin.woff2",
+                "/assets/logo/icon-192.png", "/assets/logo/favicon.svg"]
+    precache += [f"/offline-{lang}.html" for lang in cfg.languages]
+    source = (ROOT / "templates" / "sw.js").read_text(encoding="utf-8")
+    digest = hashlib.sha1(source.encode())
+    for url in precache:
+        path = out / url.lstrip("/")
+        if path.exists():
+            digest.update(path.read_bytes())
+    script = (source
+              .replace("__VERSION__", digest.hexdigest()[:10])
+              .replace("__PRECACHE__", json.dumps(precache))
+              .replace("__LANGS__", json.dumps(cfg.languages))
+              .replace("__DEFAULT_LANG__", cfg.default_language))
+    write(out / "sw.js", script)
 
 
 def build_root(cfg: Config, out: Path) -> None:
@@ -538,6 +642,8 @@ def run(cfg: Config, out: Path = ROOT) -> dict:
     build_root(cfg, out)
     build_favicon(cfg, out)
     build_css(env, cfg, out)
+    build_offline(cfg, out)
+    build_service_worker(cfg, out)
     return stats
 
 
