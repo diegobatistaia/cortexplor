@@ -87,7 +87,13 @@
   ],
   "image": {
     "query": "robot hand chatbot interface dark minimal",
-    "alt": "Ilustración en tonos oscuros de una interfaz de chatbot que representa reglas de uso de IA"
+    "alt": "Ilustración en tonos oscuros de una interfaz de chatbot que representa reglas de uso de IA",
+    "path": "/assets/img/anthropic-prohibe-el-abuso-contra-claude-3a075155.jpg",
+    "credit": "Paris Bilal / Unsplash",
+    "author": "Paris Bilal",
+    "author_url": "https://unsplash.com/@parisbilal?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-with-monitor-head-on-bed-2A_HyOCyB_U"
   },
   "sources": [
     {
@@ -109,5 +115,7 @@
       "title": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-09T10:59:53+00:00",
+  "updated_at": "2026-10-09T10:59:53+00:00"
 }
