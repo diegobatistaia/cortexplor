@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 09 Oct 2026 10:59:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 15:58:49 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google Cloud lanza Gemini Agent, un asistente de IA universal</title>
+      <link>https://cortexplor.com/es/google-cloud-lanza-agente-gemini/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/google-cloud-lanza-agente-gemini/</guid>
+      <description>Google Cloud lanza Gemini Agent, un asistente de IA autónomo disponible en cualquier dispositivo, ya compatible con los modelos Claude de Anthropic hoy.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Fri, 09 Oct 2026 15:58:48 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic lanza Claude Haiku 5.5 y reduce el costo un 75%</title>
       <link>https://cortexplor.com/es/anthropic-reduce-costo-de-claude-haiku-5-5/</link>
@@ -238,14 +246,6 @@
       <description>Meta presentó Muse Charm, un colgante que activa a su agente de IA Muse sin usar el celular, junto a las nuevas gafas Meta VR Glasses, según TechCrunch y CNBC.</description>
       <category>Aplicaciones</category>
       <pubDate>Thu, 24 Sep 2026 07:23:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic lanza Claude Opus 5.5 con un 40% menos de costo</title>
-      <link>https://cortexplor.com/es/anthropic-lanza-claude-opus-5-5/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-lanza-claude-opus-5-5/</guid>
-      <description>Anthropic lanzó Claude Opus 5.5, que iguala el rendimiento de Fable 5.1 en la mayoría de las tareas y cuesta cerca de un 40% menos de ejecutar que Opus 5.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Wed, 23 Sep 2026 07:26:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

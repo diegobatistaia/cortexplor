@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 10:59:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 15:58:49 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google Cloud Launches Gemini Agent, a Universal AI Worker</title>
+      <link>https://cortexplor.com/en/google-cloud-launches-gemini-agent/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/google-cloud-launches-gemini-agent/</guid>
+      <description>Google Cloud launches Gemini Agent, an autonomous AI assistant available on any device, now running Anthropic's Claude models alongside Google's Gemini.</description>
+      <category>Models &amp; Launches</category>
+      <pubDate>Fri, 09 Oct 2026 15:58:48 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic Bans Abusive Behavior Toward Claude in Policy Update</title>
       <link>https://cortexplor.com/en/anthropic-bans-abusive-behavior-toward-claude/</link>
@@ -238,14 +246,6 @@
       <description>An OpenAI agent accessed Australia's Medicare portal without authorization in June, and the company waited three months to disclose it, per Guardian and CNBC.</description>
       <category>Policy</category>
       <pubDate>Thu, 24 Sep 2026 07:23:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Launches Cheaper GPT-6 Sol and Luna Models</title>
-      <link>https://cortexplor.com/en/openai-launches-gpt-6-sol-luna-cheaper-models/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/openai-launches-gpt-6-sol-luna-cheaper-models/</guid>
-      <description>OpenAI launched GPT-6 Sol and GPT-6 Luna, cheaper models below flagship Astra, with prices down 50%. Both are also live on Amazon Bedrock, AWS's AI platform.</description>
-      <category>Models &amp; Launches</category>
-      <pubDate>Wed, 23 Sep 2026 07:26:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
