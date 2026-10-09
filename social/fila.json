@@ -623,7 +623,7 @@
     "no": 17,
     "style": "cartao",
     "cta_variant": "A",
-    "status": "aprovado",
+    "status": "publicado",
     "criado": "2026-10-08T11:21:21-03:00",
     "aprovado_em": "2026-10-08T11:21:21-03:00",
     "aprovado_por": "automatico",
@@ -637,7 +637,9 @@
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/claude-haiku-5-5-mais-barato-aws/04.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/claude-haiku-5-5-mais-barato-aws/05.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/claude-haiku-5-5-mais-barato-aws/06.jpg"
-    ]
+    ],
+    "publicado_em": "2026-10-09T08:59:04-03:00",
+    "permalink": "https://www.instagram.com/p/DeRdOFuFg4x/"
   },
   {
     "slug": "claude-haiku-5-5-launches-aws-cheaper",
@@ -645,7 +647,7 @@
     "no": 14,
     "style": "terminal",
     "cta_variant": "B",
-    "status": "aprovado",
+    "status": "publicado",
     "criado": "2026-10-08T11:21:28-03:00",
     "aprovado_em": "2026-10-08T11:21:28-03:00",
     "aprovado_por": "automatico",
@@ -659,7 +661,9 @@
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/claude-haiku-5-5-launches-aws-cheaper/04.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/claude-haiku-5-5-launches-aws-cheaper/05.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/claude-haiku-5-5-launches-aws-cheaper/06.jpg"
-    ]
+    ],
+    "publicado_em": "2026-10-09T08:59:35-03:00",
+    "permalink": "https://www.instagram.com/p/DeRdR3dFrSG/"
   },
   {
     "slug": "nvidia-microsoft-ia-local-pcs-windows",
