@@ -1,5 +1,14 @@
 {
-  "acao": "conferir",
-  "lang": "en",
-  "pedido_em": "2026-10-09T09:00:29-03:00"
+  "acao": "publicar",
+  "itens": [
+    {
+      "slug": "nvidia-microsoft-ia-local-pcs-windows",
+      "lang": "pt"
+    },
+    {
+      "slug": "nvidia-microsoft-local-ai-windows-pcs",
+      "lang": "en"
+    }
+  ],
+  "pedido_em": "2026-10-09T09:58:15-03:00"
 }
