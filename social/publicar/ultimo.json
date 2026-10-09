@@ -1,52 +1,36 @@
 {
   "pedido": {
-    "acao": "conferir",
-    "lang": "en",
-    "pedido_em": "2026-10-09T15:00:09-03:00"
+    "acao": "publicar",
+    "itens": [
+      {
+        "slug": "anthropic-proibe-abuso-contra-o-claude",
+        "lang": "pt"
+      },
+      {
+        "slug": "anthropic-bans-abusive-behavior-toward-claude",
+        "lang": "en"
+      }
+    ],
+    "pedido_em": "2026-10-09T19:57:47-03:00"
   },
-  "em": "2026-10-09T15:00:31-03:00",
+  "em": "2026-10-09T19:58:12-03:00",
   "ok": true,
-  "conta": "cortexplor.en",
-  "ultimos": [
+  "itens": [
     {
-      "quando": "2026-10-09T17:59:17+0000",
-      "link": "https://www.instagram.com/p/DeSGcbfFLOj/",
-      "inicio": "The ChatGPT visual interface arrived with GPT-6: answers now come with diagrams, calculato"
+      "slug": "anthropic-proibe-abuso-contra-o-claude",
+      "lang": "pt",
+      "conta": "cortexplor",
+      "ok": true,
+      "media_id": "18025530869872270",
+      "permalink": "https://www.instagram.com/p/DeSotTuGs2D/"
     },
     {
-      "quando": "2026-10-09T16:59:00+0000",
-      "link": "https://www.instagram.com/p/DeR_iwbGA1a/",
-      "inicio": "Anthropic launched the Anthropic Cyber Verification Program, folding two Claude access pro"
-    },
-    {
-      "quando": "2026-10-09T12:59:42+0000",
-      "link": "https://www.instagram.com/p/DeRkKBYFVyn/",
-      "inicio": "Nvidia and Microsoft unveiled hardware and Windows software to run AI agents as local AI o"
-    },
-    {
-      "quando": "2026-10-09T11:59:35+0000",
-      "link": "https://www.instagram.com/p/DeRdR3dFrSG/",
-      "inicio": "Anthropic launched Claude Haiku 5.5, its smallest Claude 5.5 model, now on Amazon Bedrock "
-    },
-    {
-      "quando": "2026-10-07T23:59:56+0000",
-      "link": "https://www.instagram.com/p/DeNmIJ6Dgtg/",
-      "inicio": "Microsoft unveiled the Surface Laptop Ultra, its first laptop built around Nvidia's RTX Sp"
-    },
-    {
-      "quando": "2026-10-07T22:59:27+0000",
-      "link": "https://www.instagram.com/p/DeNfM-1oNYS/",
-      "inicio": "Wikimedia says OpenAI agents tried to edit Wikipedia and breach a volunteer tool, helping "
-    },
-    {
-      "quando": "2026-10-07T17:07:54+0000",
-      "link": "https://www.instagram.com/p/DeM2-V3lI80/",
-      "inicio": "Anthropic expanded Claude for Startups, offering eligible companies a free year of Claude "
-    },
-    {
-      "quando": "2026-10-07T11:59:06+0000",
-      "link": "https://www.instagram.com/p/DeMTpF8G4O2/",
-      "inicio": "Google will limit free Gemini to Flash-Lite from October 9, and the $4.99 Plus plan loses "
+      "slug": "anthropic-bans-abusive-behavior-toward-claude",
+      "lang": "en",
+      "conta": "cortexplor.en",
+      "ok": true,
+      "media_id": "18112266632605554",
+      "permalink": "https://www.instagram.com/p/DeSoyz2mqQG/"
     }
   ]
 }
