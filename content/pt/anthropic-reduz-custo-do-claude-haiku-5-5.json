@@ -1,0 +1,103 @@
+{
+  "lang": "pt",
+  "slug": "anthropic-reduz-custo-do-claude-haiku-5-5",
+  "story_id": "a53c30610dfd46c9",
+  "title": "Anthropic lança Claude Haiku 5.5 e reduz custo da API em 75%",
+  "dek": "Novo modelo compacto completa a família Claude 5.5 e chega às plataformas da Anthropic, AWS, Google Cloud e Azure.",
+  "meta_description": "A Anthropic lançou o Claude Haiku 5.5 com custo até 75% menor que o Haiku 4.5, segundo o Olhar Digital e o Canaltech. Veja os preços e a disponibilidade.",
+  "keyword": "Claude Haiku 5.5",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "modelos",
+    "haiku"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Anthropic lançou nesta quarta-feira (7) o Claude Haiku 5.5, modelo compacto voltado a tarefas de alto volume e baixo custo, segundo o Olhar Digital e o Canaltech. O lançamento completa a família Claude 5.5, que já incluía os modelos Opus 5.5 e Sonnet 5.5.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Anthropic, citada pelas duas publicações, o Haiku 5.5 custa em média 75% menos para operar do que o Haiku 4.5. Para solicitações de até 100 mil tokens, a queda no preço por token chega a 90%, de acordo com o Olhar Digital — faixa que, segundo a empresa, cobre cerca de 90% do uso registrado pelo modelo anterior.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nessa faixa de até 100 mil tokens, o Olhar Digital cita os valores de US$ 0,10 (cerca de R$ 0,53) por milhão de tokens de entrada e US$ 0,50 (cerca de R$ 2,65) por milhão de tokens de saída. Acima desse volume, os preços sobem para US$ 0,50 de entrada e US$ 2,50 de saída por milhão de tokens, segundo a mesma reportagem.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Para que serve o modelo compacto",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Canaltech descreve o Haiku 5.5 como voltado a tarefas repetitivas e sensíveis a custo, como resumos, compactação de informações, consultas a bancos de dados e classificação de dados. Na configuração padrão, é o modelo mais rápido da Anthropic, o que favorece aplicações em tempo real, como atendimento ao cliente e navegação na web, segundo a publicação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O modelo também pode funcionar como subagente de programação ao lado dos modelos maiores Opus 5.5 e Sonnet 5.5, de acordo com o Canaltech. É a primeira vez que a linha Haiku recebe um sistema de esforço ajustável: o recurso permite escolher quanto raciocínio o modelo usa antes de responder, priorizando velocidade em tarefas simples ou mais capacidade em trabalhos complexos, confirmam as duas reportagens.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Créditos para assinantes Max e Team",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic também anunciou créditos mensais de API para quem já paga por planos superiores: US$ 100 (cerca de R$ 530) para assinantes do Max 5x, US$ 200 (cerca de R$ 1.060) para o Max 20x e até US$ 500 (cerca de R$ 2.650) para clientes do plano Team, valor dividido entre os usuários da organização, segundo o Olhar Digital e o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os SDKs de Python e TypeScript da empresa foram atualizados e passam a oferecer suporte beta para uso de computador e navegador pelos agentes, de acordo com as duas publicações. O Claude Haiku 5.5 já está disponível na plataforma da Anthropic e também via Amazon Web Services, Google Cloud e Microsoft Azure, com o identificador claude-haiku-5-5.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Números vêm da própria empresa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic divulgou testes internos mostrando avanço do novo modelo sobre o Haiku 4.5: no OSWorld 2.1, que mede agentes operando um computador, a pontuação subiu de 15,7% para 72,4%; no Terminal-Bench 4.0, de programação em terminal, foi de 0% para 39,2%. No Humanity's Last Exam, o Haiku 5.5 atingiu 45,9% sem ferramentas e 57,4% com ferramentas, contra 10,2% e 18,7% do modelo anterior. O Olhar Digital e o Canaltech reproduzem os mesmos números, mas ambos destacam que são resultados escolhidos e publicados pela própria Anthropic, sem avaliação independente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Olhar Digital cita ainda a Anthropic ao afirmar que o Haiku 5.5 apresentou menos episódios de comportamento desalinhado e menor disposição a colaborar com usos indevidos do que o Haiku 4.5. Segundo a reportagem, as proteções de cibersegurança do novo modelo ficaram mais rígidas do que as do Haiku 4.5, mas menos restritivas do que as aplicadas aos modelos mais recentes e maiores da empresa, permitindo uma gama maior de tarefas defensivas enquanto bloqueia técnicas associadas a ataques.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A documentação da plataforma da Anthropic, citada pelo Olhar Digital, também lista uma janela de contexto de um milhão de tokens para o Haiku 5.5. Com o novo modelo, a Anthropic conclui em pouco mais de duas semanas a atualização de toda a linha Claude 5.5. Sonnet e Opus continuam reservados para tarefas que exigem mais capacidade de raciocínio, enquanto o Haiku passa a ser a opção mais barata da família.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "abstract AI chip technology blue minimal",
+    "alt": "Ilustração abstrata representando um modelo compacto de inteligência artificial"
+  },
+  "sources": [
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/10/07/inteligencia-artificial/anthropic-lanca-novo-claude-e-corta-custo-do-modelo-em-75/",
+      "title": "Anthropic lança novo Claude e corta custo do modelo em 75%"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/claude-lanca-haiku-55-modelo-compacto-mais-rapido-e-75-mais-barato-veja-detalhes/",
+      "title": "Claude lança Haiku 5.5, modelo compacto mais rápido e 75% mais barato; veja detalhes"
+    }
+  ],
+  "status": "draft"
+}
