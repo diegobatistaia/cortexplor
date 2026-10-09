@@ -1,0 +1,103 @@
+{
+  "slug": "google-cloud-launches-gemini-agent",
+  "lang": "en",
+  "date": "09 Oct 2026",
+  "no": 20,
+  "category": "Models",
+  "kicker": "Agents · Google Cloud",
+  "headline": "Google Cloud launches Gemini Agent, a universal AI worker",
+  "headline_hl": "Gemini Agent",
+  "dek": "The agent runs across any device and already supports Claude models, SiliconANGLE, The Verge, TechRadar and Tecmundo report.",
+  "image": {
+    "path": "assets/img/google-cloud-launches-gemini-agent-2397bb31.jpg",
+    "credit": "Route4design / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Launched<br>08/10",
+  "sources": [
+    "SiliconANGLE",
+    "The Verge AI",
+    "TechRadar",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "One agent for every channel",
+    "body": [
+      "Google Cloud introduced Gemini Agent, an assistant built to work autonomously across any device or channel. It was unveiled at Google's Gemini at Work event (SiliconANGLE, The Verge, TechRadar, Tecmundo).",
+      "It is in private preview for a subset of Google Cloud's enterprise customers. Google has not announced a general availability date (The Verge, TechRadar)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Sub-agents and model choice",
+    "body": "The agent runs in the cloud, so it keeps the same memory and context on every channel (SiliconANGLE, The Verge).",
+    "points": [
+      {
+        "h": "Sub-agents",
+        "t": "It spins off smaller agents for specific jobs, each with its own email address and only the context shared with it (SiliconANGLE, The Verge, TechRadar)."
+      },
+      {
+        "h": "Model choice",
+        "t": "Smaller models handle everyday requests, frontier models the long jobs. Anthropic's Claude models are already available (SiliconANGLE, TechRadar)."
+      },
+      {
+        "h": "Skills",
+        "t": "A recurring task can become a reusable template the agent repeats, from a library customers can expand (SiliconANGLE)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Control for companies",
+    "body": [
+      "Companies can set a hard cap on AI spending in the Google Cloud Billing Console. At the cap, the agent pauses until someone approves going over budget (SiliconANGLE).",
+      "Google says every action is logged with real-time monitoring, and role-based permissions help teams spot unusual agent behavior early (Tecmundo)."
+    ],
+    "stat": {
+      "big": "Private",
+      "cap": "preview, enterprise customers only (The Verge)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "No date",
+        "t": "Google has not announced when Gemini Agent will reach general availability (The Verge, TechRadar)."
+      },
+      {
+        "h": "Models",
+        "t": "Other private and open models are promised alongside Claude and Gemini (SiliconANGLE, TechRadar)."
+      },
+      {
+        "h": "Rivals",
+        "t": "OpenAI's Dots and Meta's Muse launched last month with similar pitches (TechRadar, Tecmundo)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google Cloud launched Gemini Agent, a universal AI worker for enterprises that already runs Claude models.",
+    "body": [
+      "Thomas Kurian, Google Cloud's chief executive, said the pitch is to delegate an outcome and come back to finished work, according to SiliconANGLE. TechRadar frames the launch as part of a push toward autonomous \"digital employees.\"",
+      "The Verge reports Google already launched a consumer version, Gemini Spark, in May. SiliconANGLE adds that Gemini Agent connects to Jira, Salesforce, BigQuery and Snowflake, and to files on a user's desktop."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#gemini",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Google Cloud launching Gemini Agent, a universal AI worker",
+    "Slide 2: Gemini Agent unveiled at Gemini at Work, in private preview for enterprises",
+    "Slide 3: how Gemini Agent uses sub-agents, model choice and reusable skills",
+    "Slide 4: spending caps and audit logs that let companies control Gemini Agent",
+    "Slide 5: what comes next for Gemini Agent: no date, more models, rival agents",
+    "Slide 6: sources on Gemini Agent: SiliconANGLE, The Verge, TechRadar and Tecmundo"
+  ]
+}
