@@ -1,34 +1,52 @@
 {
   "pedido": {
-    "acao": "publicar",
-    "itens": [
-      {
-        "slug": "anthropic-reestrutura-acesso-ciberseguranca",
-        "lang": "pt"
-      },
-      {
-        "slug": "anthropic-restructures-cyber-access-security-teams",
-        "lang": "en"
-      }
-    ],
-    "pedido_em": "2026-10-09T13:57:27-03:00"
+    "acao": "conferir",
+    "lang": "pt",
+    "pedido_em": "2026-10-09T13:59:28-03:00"
   },
-  "em": "2026-10-09T13:57:52-03:00",
-  "ok": false,
-  "itens": [
+  "em": "2026-10-09T13:59:52-03:00",
+  "ok": true,
+  "conta": "cortexplor",
+  "ultimos": [
     {
-      "slug": "anthropic-reestrutura-acesso-ciberseguranca",
-      "lang": "pt",
-      "conta": "cortexplor",
-      "ok": false,
-      "erro": "HTTP 403 em 17841424687773066/media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"Ao__xqwqN403kDDAmInQMB5\"}}"
+      "quando": "2026-10-09T16:58:18+0000",
+      "link": "https://www.instagram.com/p/DeR_eWnGK1u/",
+      "inicio": "Saiu o Programa de Verificação Cibernética da Anthropic, que junta dois programas de acess"
     },
     {
-      "slug": "anthropic-restructures-cyber-access-security-teams",
-      "lang": "en",
-      "conta": "cortexplor.en",
-      "ok": false,
-      "erro": "HTTP 403 em 17841420475465882/media_publish: {\"error\":{\"message\":\"Application request limit reached\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":4,\"error_subcode\":2207051,\"error_user_title\":\"action is blocked\",\"error_user_msg\":\"We restrict certain activity to protect our community. Tell us if you think we made a mistake.\",\"fbtrace_id\":\"AyAlqEXRjMJgJ-hReo5y9yl\"}}"
+      "quando": "2026-10-09T12:59:08+0000",
+      "link": "https://www.instagram.com/p/DeRkF-rFSvS/",
+      "inicio": "Nvidia e Microsoft levaram o DGX Station ao Windows e mostraram um Copilot que faz tarefas"
+    },
+    {
+      "quando": "2026-10-09T11:59:04+0000",
+      "link": "https://www.instagram.com/p/DeRdOFuFg4x/",
+      "inicio": "A Anthropic lançou o Claude Haiku 5.5, que custa cerca de 75% menos que o Haiku 4.5 e já e"
+    },
+    {
+      "quando": "2026-10-07T23:59:11+0000",
+      "link": "https://www.instagram.com/p/DeNmCkxjlvV/",
+      "inicio": "A Microsoft lançou o Surface Laptop Ultra, primeiro notebook da marca com o chip de IA RTX"
+    },
+    {
+      "quando": "2026-10-07T22:58:44+0000",
+      "link": "https://www.instagram.com/p/DeNfH83IP6n/",
+      "inicio": "A Wikimedia diz que agentes de IA da OpenAI provocaram a queda parcial de um serviço da Wi"
+    },
+    {
+      "quando": "2026-10-07T17:07:23+0000",
+      "link": "https://www.instagram.com/p/DeM26pwFAjP/",
+      "inicio": "A Anthropic ampliou o Claude for Startups: um ano grátis do Claude Team e US$ 1.000 em cré"
+    },
+    {
+      "quando": "2026-10-07T11:58:32+0000",
+      "link": "https://www.instagram.com/p/DeMTkZfm1zS/",
+      "inicio": "O Google vai limitar o Gemini grátis ao Flash-Lite a partir de 9 de outubro e tirar o Pro "
+    },
+    {
+      "quando": "2026-10-06T23:59:11+0000",
+      "link": "https://www.instagram.com/p/DeLBPkCDiWA/",
+      "inicio": "A Mistral lançou o Mistral Large 4, o Le Chonk, modelo de peso aberto com 1 trilhão de par"
     }
   ]
 }
