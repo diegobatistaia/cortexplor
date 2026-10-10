@@ -1,0 +1,104 @@
+{
+  "slug": "openai-mantem-demissao-pesquisadores-seguranca",
+  "lang": "pt",
+  "date": "10 out 2026",
+  "no": 28,
+  "category": "Mercado",
+  "kicker": "Segurança · OpenAI",
+  "headline": "OpenAI mantém demissão de três pesquisadores",
+  "headline_hl": "OpenAI",
+  "dek": "Empresa nega retaliação; trio diz que o caso intimida quem fala de riscos, segundo CNBC e The Verge.",
+  "image": {
+    "path": "assets/img/openai-mantem-demissao-pesquisadores-seg-219fab28.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Mantida<br>09/10",
+  "sources": [
+    "CNBC",
+    "The Verge",
+    "Tecmundo",
+    "Olhar Digital"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Empresa diz que não houve retaliação",
+    "body": [
+      "A OpenAI manteve a demissão dos pesquisadores de segurança Jasmine Wang, Tomek Korbak e Mikita Balesni e nega que tenha sido retaliação por alertas sobre riscos da IA (CNBC, The Verge).",
+      "Em publicação no X na sexta-feira (9), a empresa disse que uma investigação interna achou \"quebra significativa de confiança\" e violações às regras sobre informações sensíveis (CNBC, Tecmundo)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Duas versões para o mesmo caso",
+    "body": "A resposta da empresa veio um dia depois de uma carta aberta do trio, publicada na quinta-feira (8) (CNBC, Tecmundo).",
+    "points": [
+      {
+        "h": "Versão da empresa",
+        "t": "Diz que a investigação achou violações além das descritas na carta, sem detalhar quais (The Verge, Tecmundo)."
+      },
+      {
+        "h": "Versão do trio",
+        "t": "A carta afirma que o caso leva ex-colegas a temer falar sobre riscos da tecnologia (CNBC)."
+      },
+      {
+        "h": "Vazamento",
+        "t": "O trio nega ser a fonte de um vazamento sobre arquiteturas de modelos, apontado internamente como motivo paralelo (Tecmundo)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Debate sobre quem pode alertar",
+    "body": [
+      "Os três já haviam publicado alertas no X em setembro, pedindo que laboratórios reduzissem o ritmo de modelos avançados (CNBC, Olhar Digital).",
+      "O caso ocorre após um ataque de agentes da OpenAI à Hugging Face, em julho. Desde então cresceram pedidos internos para desacelerar sistemas que se auto-aprimoram (CNBC, The Verge)."
+    ],
+    "stat": {
+      "big": "Sexta (9)",
+      "cap": "dia da resposta da OpenAI no X (CNBC, Tecmundo)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Pontos em aberto",
+    "items": [
+      {
+        "h": "Violações",
+        "t": "A OpenAI não detalhou as violações que cita além da carta (The Verge, Tecmundo)."
+      },
+      {
+        "h": "Monitorar",
+        "t": "A empresa diz concordar com preservar a capacidade de monitorar modelos de fronteira (CNBC)."
+      },
+      {
+        "h": "Regulação",
+        "t": "Altman e Amodei apoiam regulamentação; Trump rejeita mais regras (CNBC)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI manteve a demissão de três pesquisadores de segurança e nega ter agido por retaliação.",
+    "body": [
+      "A carta aberta do trio, endereçada ao conselho e aos comitês de segurança da OpenAI, tem o título \"A OpenAI não pode tornar a IA segura sozinha\", segundo o Tecmundo. Nela, os pesquisadores dizem temer que o caso iniba colegas.",
+      "Em nota à imprensa citada pelo Tecmundo, a empresa negou tentar silenciar funcionários e disse incentivar o debate interno sobre riscos. A CNBC registra que ela concorda com o princípio de monitorar modelos de fronteira.",
+      "O Tecmundo informa que a carta detalha a atuação do grupo em investigações internas de incidentes, como o da Hugging Face."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#segurancaia",
+      "#governanca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a OpenAI, que mantém a demissão de três pesquisadores e nega retaliação",
+    "Slide 2: a OpenAI diz que investigação interna achou quebra de confiança nas demissões",
+    "Slide 3: versão da OpenAI e versão dos três pesquisadores demitidos sobre o caso",
+    "Slide 4: por que o caso da OpenAI importa para o debate sobre alertas de segurança",
+    "Slide 5: pontos em aberto no caso das demissões da OpenAI",
+    "Slide 6: fontes sobre a OpenAI: CNBC, The Verge, Tecmundo e Olhar Digital"
+  ]
+}

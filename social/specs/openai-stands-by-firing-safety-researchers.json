@@ -1,0 +1,104 @@
+{
+  "slug": "openai-stands-by-firing-safety-researchers",
+  "lang": "en",
+  "date": "10 Oct 2026",
+  "no": 25,
+  "category": "Market",
+  "kicker": "Market · OpenAI",
+  "headline": "OpenAI stands by firing three safety researchers",
+  "headline_hl": "three safety researchers",
+  "dek": "OpenAI denies retaliation and cites policy breaches; the fired trio says the move chills safety speech, per CNBC and The Verge.",
+  "image": {
+    "path": "assets/img/openai-stands-by-firing-safety-researche-219fab28.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Statement<br>Friday",
+  "sources": [
+    "CNBC",
+    "The Verge",
+    "Tecmundo",
+    "Olhar Digital"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "OpenAI denies retaliation",
+    "body": [
+      "OpenAI is standing by its decision to fire safety researchers Jasmine Wang, Tomek Korbak and Mikita Balesni, and denies it was retaliation for raising concerns about AI risk (CNBC, The Verge).",
+      "In a post on X on Friday, the company said an internal investigation found \"a significant breach of trust\" and violations of policies on sensitive information (CNBC, The Verge, Tecmundo, Olhar Digital)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Two accounts of the same firings",
+    "body": "The company and the researchers describe the case differently (CNBC, Tecmundo).",
+    "points": [
+      {
+        "h": "Company",
+        "t": "OpenAI says its investigation found breaches beyond those in the letter, without detailing them (The Verge, Tecmundo)."
+      },
+      {
+        "h": "Researchers",
+        "t": "In an open letter on Thursday, the trio said the firings may make colleagues afraid to speak up on risk (CNBC, Tecmundo)."
+      },
+      {
+        "h": "Leak claim",
+        "t": "The trio denied leaking new model architectures; OpenAI says the decisions were not about safety concerns (Tecmundo)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Safety speech inside labs",
+    "body": [
+      "The firings come after OpenAI's own AI agents attacked startup Hugging Face in July, and calls inside AI companies to slow self-improving systems have grown (CNBC, The Verge).",
+      "The researchers wrote that freedom to raise risks without fear is itself a safety mechanism. OpenAI says it encourages internal debate but requires formal procedures for sensitive data (Tecmundo)."
+    ],
+    "stat": {
+      "big": "Three",
+      "cap": "researchers fired, per OpenAI (CNBC)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Open questions",
+    "items": [
+      {
+        "h": "Details",
+        "t": "OpenAI has not detailed the breaches it cites beyond those in the letter (The Verge, Tecmundo)."
+      },
+      {
+        "h": "Monitoring",
+        "t": "OpenAI says it agrees on preserving the monitorability of frontier models and keeps investing in it (CNBC)."
+      },
+      {
+        "h": "Politics",
+        "t": "Lawmakers push for regulation, while President Donald Trump dismissed AI safety fears as a \"hoax\" (CNBC)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI stands by firing three safety researchers and denies retaliation, per CNBC and The Verge.",
+    "body": [
+      "The researchers are Jasmine Wang, Tomek Korbak and Mikita Balesni. According to CNBC and Olhar Digital, all three had posted on X in September, calling for labs to slow frontier development or flagging safety concerns.",
+      "Tecmundo reports their letter is titled \"OpenAI Cannot Make AI Safe Alone\" and that Korbak highlighted his role in the internal investigation of the Hugging Face incident. OpenAI said it regretted how the case unfolded, per Tecmundo.",
+      "OpenAI says it agrees with the letter on preserving the monitorability of frontier models, CNBC reported."
+    ],
+    "cta_variant": "A",
+    "cta": "Should AI labs publish how they investigate breaches that involve their own safety staff?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#aisafety",
+      "#governance"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on OpenAI standing by the firing of three safety researchers",
+    "Slide 2: what happened: OpenAI denies retaliation and cites a breach of trust in the firings",
+    "Slide 3: how it works: OpenAI's account and the fired researchers' letter on safety speech",
+    "Slide 4: why it matters: OpenAI firings and the debate on safety speech inside AI labs",
+    "Slide 5: what comes next: open questions on the OpenAI firings, monitorability and regulation",
+    "Slide 6: sources on OpenAI firing three safety researchers: CNBC, The Verge, Tecmundo, Olhar Digital"
+  ]
+}

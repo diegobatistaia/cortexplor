@@ -1,0 +1,102 @@
+{
+  "slug": "anthropic-free-scanner-open-source-code",
+  "lang": "en",
+  "date": "10 Oct 2026",
+  "no": 24,
+  "category": "Applications",
+  "kicker": "Security · Anthropic",
+  "headline": "Anthropic launches free vulnerability scanner for open source",
+  "headline_hl": "vulnerability scanner",
+  "dek": "OSS Scanner sends AI-written reports straight to maintainers, per The Verge and SiliconANGLE.",
+  "image": {
+    "path": "assets/img/anthropic-free-scanner-open-source-code-07913d0e.jpg",
+    "credit": "Philipp Katzenberger / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Launched<br>10/10",
+  "sources": [
+    "The Verge",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Scans with no human triage",
+    "body": [
+      "Anthropic launched OSS Scanner, a free service that scans open-source projects for vulnerabilities. Projects that opt in receive periodic reports (The Verge, SiliconANGLE).",
+      "The reports come from its strongest models, including Claude Mythos, with no human review before reaching maintainers. Anthropic's usual process has an expert confirm a flaw first (The Verge, SiliconANGLE)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "From a backlog to a service",
+    "body": "The tool grew out of a pile of unreviewed findings in Anthropic's own disclosure pipeline (SiliconANGLE).",
+    "points": [
+      {
+        "h": "The backlog",
+        "t": "In six months, models flagged over 29,000 candidate flaws and staff reviewed about 6,000 (SiliconANGLE)."
+      },
+      {
+        "h": "The accuracy test",
+        "t": "Penetration testers checked 97 critical and high-severity findings in 48 projects and cleared 85 (SiliconANGLE)."
+      },
+      {
+        "h": "Enrollment",
+        "t": "Maintainers join with a pull request to an Anthropic GitHub repository, under rules modeled on OSS-Fuzz (SiliconANGLE)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Speed against verification",
+    "body": [
+      "Dropping human review means more frequent scans and earlier alerts. The cost is that some reports will be wrong, including severity ratings, so maintainers must verify each one (The Verge, SiliconANGLE).",
+      "Wolfssl, an encryption library, told SiliconANGLE that all but two of its 74 trial reports were valid, and five became CVEs, the public IDs for confirmed flaws."
+    ],
+    "stat": {
+      "big": "85 of 97",
+      "cap": "findings cleared for disclosure (SiliconANGLE)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Part of a wider push",
+    "items": [
+      {
+        "h": "Also",
+        "t": "The Critical Infrastructure Defense Program targets security firms serving power grids and water systems (SiliconANGLE)."
+      },
+      {
+        "h": "Partners",
+        "t": "Eleven providers signed on as founding partners, including Booz Allen Hamilton, CrowdStrike and Palo Alto Networks (SiliconANGLE)."
+      },
+      {
+        "h": "Two years",
+        "t": "Anthropic expects AI to tilt the balance toward defenders within two years, it told SiliconANGLE."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic OSS Scanner is a free tool that checks open-source code for flaws, with no human review.",
+    "body": [
+      "According to The Verge and SiliconANGLE, projects that opt in get periodic scans, and reports come straight from Anthropic's strongest models, including Claude Mythos.",
+      "SiliconANGLE reports the service is funded by the Defender Advantage Fund, set up in August. The Verge notes that maintainers such as Linus Torvalds have reported struggling with the volume of AI-generated bug reports.",
+      "Anton Arapov of OpenSSL, an early tester, told SiliconANGLE that a report with a working exploit attached is \"basically job done for an engineer.\""
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#opensource"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Anthropic launching a free vulnerability scanner for open source",
+    "Slide 2: OSS Scanner sends AI-written vulnerability reports to maintainers without human review",
+    "Slide 3: how OSS Scanner grew from a backlog of 29,000 flagged flaws, with accuracy test",
+    "Slide 4: why the scanner matters: speed against verification, 85 of 97 findings cleared",
+    "Slide 5: what comes next: the infrastructure program, eleven partners and Anthropic's two-year view",
+    "Slide 6: sources on Anthropic's OSS Scanner: The Verge and SiliconANGLE"
+  ]
+}
