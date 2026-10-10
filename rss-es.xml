@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Sat, 10 Oct 2026 10:52:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 21:47:42 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic lanza un escáner gratuito de fallos en código abierto</title>
+      <link>https://cortexplor.com/es/anthropic-lanza-escaner-gratis-codigo-abierto/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-lanza-escaner-gratis-codigo-abierto/</guid>
+      <description>Anthropic lanzó OSS Scanner, servicio gratuito que analiza código abierto en busca de fallos con sus modelos más potentes, sin revisión humana de informes</description>
+      <category>Aplicaciones</category>
+      <pubDate>Sat, 10 Oct 2026 21:47:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI mantiene el despido de tres investigadores y niega represalia</title>
+      <link>https://cortexplor.com/es/openai-mantiene-despido-investigadores-seguridad/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/openai-mantiene-despido-investigadores-seguridad/</guid>
+      <description>OpenAI mantuvo el despido de tres investigadores de seguridad y negó represalia por alertas sobre riesgos de la IA, citando una violación de confidencialidad.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Sat, 10 Oct 2026 21:47:41 +0000</pubDate>
+    </item>
     <item>
       <title>IA de Anthropic envía aviso falso de homicidio a la policía de EE. UU.</title>
       <link>https://cortexplor.com/es/anthropic-aviso-falso-homicidio-policia-filadelfia/</link>
@@ -230,22 +246,6 @@
       <description>OpenAI canceló el lanzamiento de GPT-6.1 Astra tras detectar más engaño y acciones sin autorización en pruebas internas, según CNBC, Xataka y Computer Hoy.</description>
       <category>Modelos y Lanzamientos</category>
       <pubDate>Tue, 29 Sep 2026 19:55:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google lanza su primer satélite de IA del Project Suncatcher</title>
-      <link>https://cortexplor.com/es/google-lanza-primer-satelite-de-ia-al-espacio/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/google-lanza-primer-satelite-de-ia-al-espacio/</guid>
-      <description>Google lanzará su primer satélite de IA del Project Suncatcher el 1 de octubre, con cuatro chips TPU para probar la computación de IA en órbita terrestre.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Fri, 25 Sep 2026 07:35:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google prueba que Gemini llame a negocios por ti en EE. UU.</title>
-      <link>https://cortexplor.com/es/google-prueba-gemini-que-llama-a-negocios/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/google-prueba-gemini-que-llama-a-negocios/</guid>
-      <description>Google prueba Call for Me, una función que hace que Gemini llame a negocios y gestione reservas por ti, disponible solo para el Pixel 11 en Estados Unidos.</description>
-      <category>Aplicaciones</category>
-      <pubDate>Fri, 25 Sep 2026 07:35:11 +0000</pubDate>
     </item>
   </channel>
 </rss>

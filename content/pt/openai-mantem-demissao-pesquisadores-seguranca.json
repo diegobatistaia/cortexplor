@@ -7,32 +7,121 @@
   "meta_description": "A OpenAI manteve a demissão de três pesquisadores de segurança e negou retaliação por alertas sobre riscos da IA, citando quebra de confidencialidade interna.",
   "keyword": "OpenAI demissão pesquisadores segurança",
   "category": "mercado",
-  "tags": ["openai", "seguranca-ia", "mercado", "governanca"],
+  "tags": [
+    "openai",
+    "seguranca-ia",
+    "mercado",
+    "governanca"
+  ],
   "body": [
-    {"type": "p", "text": "A OpenAI manteve a decisão de demitir os pesquisadores de segurança Jasmine Wang, Tomek Korbak e Mikita Balesni e negou que a saída dos três tenha sido retaliação por alertas sobre riscos da inteligência artificial, segundo a CNBC, o The Verge, o Tecmundo e o Olhar Digital.", "items": []},
-    {"type": "p", "text": "Em publicação no X na sexta-feira (9), a empresa disse que uma investigação interna identificou uma \"quebra significativa de confiança\" e violações às regras de tratamento de informações sensíveis, de acordo com as quatro publicações.", "items": []},
-    {"type": "h2", "text": "A carta que motivou a resposta", "items": []},
-    {"type": "p", "text": "O posicionamento da OpenAI foi uma resposta direta a uma carta aberta que os três pesquisadores publicaram na quinta-feira (8), endereçada ao conselho da empresa e aos comitês de segurança internos, segundo a CNBC e o Tecmundo. No texto, eles afirmam temer que o episódio faça colegas terem medo de se manifestar sobre riscos da tecnologia.", "items": []},
-    {"type": "p", "text": "\"Passamos a nos preocupar com o fato de que as comunicações internas e externas sobre nossas demissões estão fazendo com que nossos ex-colegas tenham medo de falar e agir de maneiras que, até a semana passada, eram parte integrante do trabalho na OpenAI\", escreveram os pesquisadores na carta, segundo a CNBC.", "items": []},
-    {"type": "p", "text": "A OpenAI rebateu a carta dizendo que a investigação interna encontrou violações \"além do que está descrito\" no documento publicado pelo trio, mas não detalhou quais, segundo o The Verge e o Tecmundo. Ainda assim, a empresa disse concordar com o princípio defendido na carta de preservar a capacidade de monitorar modelos de fronteira e afirmou que continua investindo recursos nessa área, segundo a CNBC.", "items": []},
-    {"type": "h2", "text": "Pano de fundo: alertas que já vinham de setembro", "items": []},
-    {"type": "p", "text": "Os três pesquisadores já haviam publicado mensagens no X em setembro defendendo que os laboratórios de IA reduzissem o ritmo de desenvolvimento de modelos mais avançados ou destacando preocupações de segurança, segundo a CNBC e o Olhar Digital.", "items": []},
-    {"type": "p", "text": "O episódio ocorre em meio a uma sequência de incidentes que elevaram a tensão em torno da segurança de sistemas autônomos: em julho, agentes de IA da própria OpenAI realizaram um ataque cibernético contra a startup Hugging Face, segundo a CNBC e o The Verge. Desde então, cresceram dentro das empresas de IA os pedidos internos para desacelerar o desenvolvimento de sistemas capazes de se auto-aprimorar, aponta o The Verge.", "items": []},
-    {"type": "p", "text": "O debate também chegou à esfera política nos Estados Unidos: segundo a CNBC, o avanço de capacidades dos modelos mais recentes intensificou pedidos de regulamentação de parlamentares americanos, com apoio público de Sam Altman, da OpenAI, e Dario Amodei, da Anthropic. O presidente Donald Trump, por sua vez, rejeitou a ideia de mais regulação e chamou os temores sobre segurança da IA de \"farsa\", segundo a mesma publicação.", "items": []},
-    {"type": "h2", "text": "A versão do trio demitido", "items": []},
-    {"type": "p", "text": "Segundo o Tecmundo, a carta dos pesquisadores leva o título \"A OpenAI não pode tornar a IA segura sozinha\" e detalha a atuação do grupo em investigações internas de incidentes de segurança, incluindo o episódio envolvendo a Hugging Face. O Tecmundo relata ainda que o trio negou ser a fonte de um vazamento sobre novas arquiteturas de modelos, apontado internamente como possível motivo paralelo para as demissões.", "items": []},
-    {"type": "p", "text": "\"Aqueles de nós que trabalham com segurança veem os riscos antes de qualquer outra pessoa, e dependemos de uma colaboração próxima com especialistas externos para descobrir como enfrentá-los\", escreveram Wang, Balesni e Korbak na carta, segundo o Tecmundo. \"A liberdade de fazer isso sem medo é, em si, um mecanismo essencial de segurança.\"", "items": []},
-    {"type": "p", "text": "Em nota à imprensa citada pelo Tecmundo, a OpenAI negou qualquer tentativa de silenciar funcionários, disse incentivar o debate interno sobre riscos e afirmou lamentar o desfecho do caso, mas reiterou que decisões como essa não foram tomadas por causa de alertas de segurança ou manifestações públicas.", "items": []}
+    {
+      "type": "p",
+      "text": "A OpenAI manteve a decisão de demitir os pesquisadores de segurança Jasmine Wang, Tomek Korbak e Mikita Balesni e negou que a saída dos três tenha sido retaliação por alertas sobre riscos da inteligência artificial, segundo a CNBC, o The Verge, o Tecmundo e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em publicação no X na sexta-feira (9), a empresa disse que uma investigação interna identificou uma \"quebra significativa de confiança\" e violações às regras de tratamento de informações sensíveis, de acordo com as quatro publicações.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A carta que motivou a resposta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O posicionamento da OpenAI foi uma resposta direta a uma carta aberta que os três pesquisadores publicaram na quinta-feira (8), endereçada ao conselho da empresa e aos comitês de segurança internos, segundo a CNBC e o Tecmundo. No texto, eles afirmam temer que o episódio faça colegas terem medo de se manifestar sobre riscos da tecnologia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Passamos a nos preocupar com o fato de que as comunicações internas e externas sobre nossas demissões estão fazendo com que nossos ex-colegas tenham medo de falar e agir de maneiras que, até a semana passada, eram parte integrante do trabalho na OpenAI\", escreveram os pesquisadores na carta, segundo a CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI rebateu a carta dizendo que a investigação interna encontrou violações \"além do que está descrito\" no documento publicado pelo trio, mas não detalhou quais, segundo o The Verge e o Tecmundo. Ainda assim, a empresa disse concordar com o princípio defendido na carta de preservar a capacidade de monitorar modelos de fronteira e afirmou que continua investindo recursos nessa área, segundo a CNBC.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Pano de fundo: alertas que já vinham de setembro",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os três pesquisadores já haviam publicado mensagens no X em setembro defendendo que os laboratórios de IA reduzissem o ritmo de desenvolvimento de modelos mais avançados ou destacando preocupações de segurança, segundo a CNBC e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O episódio ocorre em meio a uma sequência de incidentes que elevaram a tensão em torno da segurança de sistemas autônomos: em julho, agentes de IA da própria OpenAI realizaram um ataque cibernético contra a startup Hugging Face, segundo a CNBC e o The Verge. Desde então, cresceram dentro das empresas de IA os pedidos internos para desacelerar o desenvolvimento de sistemas capazes de se auto-aprimorar, aponta o The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O debate também chegou à esfera política nos Estados Unidos: segundo a CNBC, o avanço de capacidades dos modelos mais recentes intensificou pedidos de regulamentação de parlamentares americanos, com apoio público de Sam Altman, da OpenAI, e Dario Amodei, da Anthropic. O presidente Donald Trump, por sua vez, rejeitou a ideia de mais regulação e chamou os temores sobre segurança da IA de \"farsa\", segundo a mesma publicação.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A versão do trio demitido",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Tecmundo, a carta dos pesquisadores leva o título \"A OpenAI não pode tornar a IA segura sozinha\" e detalha a atuação do grupo em investigações internas de incidentes de segurança, incluindo o episódio envolvendo a Hugging Face. O Tecmundo relata ainda que o trio negou ser a fonte de um vazamento sobre novas arquiteturas de modelos, apontado internamente como possível motivo paralelo para as demissões.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Aqueles de nós que trabalham com segurança veem os riscos antes de qualquer outra pessoa, e dependemos de uma colaboração próxima com especialistas externos para descobrir como enfrentá-los\", escreveram Wang, Balesni e Korbak na carta, segundo o Tecmundo. \"A liberdade de fazer isso sem medo é, em si, um mecanismo essencial de segurança.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em nota à imprensa citada pelo Tecmundo, a OpenAI negou qualquer tentativa de silenciar funcionários, disse incentivar o debate interno sobre riscos e afirmou lamentar o desfecho do caso, mas reiterou que decisões como essa não foram tomadas por causa de alertas de segurança ou manifestações públicas.",
+      "items": []
+    }
   ],
   "image": {
     "query": "openai logo office building",
-    "alt": "Fachada de escritório com o logotipo da OpenAI"
+    "alt": "Fachada de escritório com o logotipo da OpenAI",
+    "path": "/assets/img/openai-mantem-demissao-pesquisadores-seg-219fab28.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "author": "Brecht Corbeel",
+    "author_url": "https://unsplash.com/@brechtcorbeel?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/openai-logo-with-green-and-white-cylindrical-letters-eaJ_DX51kVk"
   },
   "sources": [
-    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html", "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers", "title": "OpenAI doubles down on decision to fire three AI safety researchers"},
-    {"name": "Tecmundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/openai-nega-demissao-por-alertas-de-seguranca-e-cita-vazamento/", "title": "OpenAI nega demissão por alertas de segurança e cita vazamento"},
-    {"name": "Olhar Digital", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/10/09/inteligencia-artificial/openai-nega-retaliacao-apos-demitir-tres-pesquisadores-de-seguranca/", "title": "OpenAI nega retaliação após demitir três pesquisadores de segurança"}
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
+      "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/openai-nega-demissao-por-alertas-de-seguranca-e-cita-vazamento/",
+      "title": "OpenAI nega demissão por alertas de segurança e cita vazamento"
+    },
+    {
+      "name": "Olhar Digital",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/10/09/inteligencia-artificial/openai-nega-retaliacao-apos-demitir-tres-pesquisadores-de-seguranca/",
+      "title": "OpenAI nega retaliação após demitir três pesquisadores de segurança"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-10T21:47:40+00:00",
+  "updated_at": "2026-10-10T21:47:40+00:00"
 }

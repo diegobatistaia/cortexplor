@@ -7,30 +7,109 @@
   "meta_description": "Anthropic lanzó OSS Scanner, servicio gratuito que analiza código abierto en busca de fallos con sus modelos más potentes, sin revisión humana de informes",
   "keyword": "Anthropic OSS Scanner",
   "category": "aplicacoes",
-  "tags": ["anthropic", "seguridad", "codigo-abierto", "claude"],
+  "tags": [
+    "anthropic",
+    "seguridad",
+    "codigo-abierto",
+    "claude"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic lanzó OSS Scanner, un servicio gratuito de análisis de vulnerabilidades para proyectos de código abierto, según The Verge y SiliconANGLE. Los proyectos que se suman al programa empiezan a recibir análisis periódicos de seguridad sin costo.", "items": []},
-    {"type": "p", "text": "Los informes salen directamente de los modelos más potentes de la empresa, incluido Claude Mythos, sin ninguna revisión humana antes de llegar a los mantenedores de los proyectos, según ambas publicaciones. Eso rompe con el proceso habitual de divulgación de Anthropic, en el que un experto confirma la vulnerabilidad antes de avisar al proyecto afectado.", "items": []},
-    {"type": "h2", "text": "Velocidad a cambio de la revisión humana", "items": []},
-    {"type": "p", "text": "Quitar la revisión humana permite correr análisis con más frecuencia y avisar antes. La contrapartida, según The Verge y SiliconANGLE, es que parte de los informes puede salir equivocada, con calificaciones de gravedad incorrectas, por ejemplo. Son los propios mantenedores quienes deben verificar cada alerta antes de actuar.", "items": []},
-    {"type": "p", "text": "SiliconANGLE informa que OSS Scanner nació de una acumulación en el propio proceso de divulgación de Anthropic: en los últimos seis meses, sus modelos detectaron más de 29.000 vulnerabilidades candidatas en software de código abierto muy usado, de las cuales el equipo revisó manualmente unas 6.000. Ante mantenedores que pedían acceso al lote completo sin revisar, la empresa convirtió esa demanda en un servicio permanente.", "items": []},
-    {"type": "p", "text": "La misma publicación indica que Anthropic probó la precisión del escáner antes de abrirlo a más proyectos: los expertos que normalmente validan las divulgaciones coordinadas de la empresa revisaron 97 hallazgos de gravedad crítica o alta en 48 proyectos y autorizaron la divulgación de 85. De los otros 12, casi todos eran errores reales que duplicaban problemas ya conocidos.", "items": []},
-    {"type": "h2", "text": "Lo que dicen los primeros proyectos que lo probaron", "items": []},
-    {"type": "p", "text": "La desarrolladora de la biblioteca de cifrado wolfSSL dijo a SiliconANGLE que, de los 74 informes recibidos durante las pruebas iniciales, todos menos dos eran válidos, y cinco se convirtieron en CVE, los identificadores públicos de vulnerabilidades confirmadas. Anton Arapov, de OpenSSL, quien probó el servicio desde el inicio, dijo a la publicación que un informe con un exploit real adjunto es \"prácticamente el trabajo hecho para un ingeniero\".", "items": []},
-    {"type": "p", "text": "The Verge señala que las herramientas de IA ya han ayudado a descubrir fallos graves en código abierto en los últimos meses, pero que mantenedores como Linus Torvalds también han reportado dificultades para procesar el volumen de informes generados por IA. OSS Scanner amplía esa tendencia al automatizar también la redacción de los informes, no solo la búsqueda de los fallos.", "items": []},
-    {"type": "p", "text": "Según SiliconANGLE, el servicio se financia con el Defender Advantage Fund, creado por Anthropic en agosto, y los mantenedores pueden inscribirse mediante una solicitud directa en un repositorio de la empresa en GitHub, con criterios de elegibilidad similares a los de OSS-Fuzz, el proyecto de Google que inspiró el formato.", "items": []},
-    {"type": "h2", "text": "Parte de un paquete de seguridad más amplio", "items": []},
-    {"type": "p", "text": "SiliconANGLE relata que el lanzamiento de OSS Scanner llegó junto a otro programa, el Critical Infrastructure Defense Program, dirigido a las empresas de seguridad que atienden a operadores de redes eléctricas, sistemas de agua y otras infraestructuras críticas. Ambos forman parte de lo que Anthropic llama Anthropic Cyber Mission.", "items": []},
-    {"type": "p", "text": "Once proveedores se sumaron como socios fundadores del programa de infraestructura crítica, entre ellos la consultora Booz Allen Hamilton y las empresas de seguridad CrowdStrike y Palo Alto Networks, según SiliconANGLE. Andrew Turner, presidente de ciberseguridad comercial de Booz Allen, calificó el equipamiento de plantas y subestaciones como \"la próxima frontera para ataques autónomos habilitados por IA\", según la publicación.", "items": []},
-    {"type": "p", "text": "Anthropic dijo a SiliconANGLE que espera que la IA incline la balanza hacia los defensores dentro de dos años, aunque reconoció que, por ahora, el costo de explotar un fallo sigue bajando mientras que verificarlo y corregirlo sigue siendo un trabajo lento que depende de personas.", "items": []}
+    {
+      "type": "p",
+      "text": "Anthropic lanzó OSS Scanner, un servicio gratuito de análisis de vulnerabilidades para proyectos de código abierto, según The Verge y SiliconANGLE. Los proyectos que se suman al programa empiezan a recibir análisis periódicos de seguridad sin costo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los informes salen directamente de los modelos más potentes de la empresa, incluido Claude Mythos, sin ninguna revisión humana antes de llegar a los mantenedores de los proyectos, según ambas publicaciones. Eso rompe con el proceso habitual de divulgación de Anthropic, en el que un experto confirma la vulnerabilidad antes de avisar al proyecto afectado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Velocidad a cambio de la revisión humana",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Quitar la revisión humana permite correr análisis con más frecuencia y avisar antes. La contrapartida, según The Verge y SiliconANGLE, es que parte de los informes puede salir equivocada, con calificaciones de gravedad incorrectas, por ejemplo. Son los propios mantenedores quienes deben verificar cada alerta antes de actuar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE informa que OSS Scanner nació de una acumulación en el propio proceso de divulgación de Anthropic: en los últimos seis meses, sus modelos detectaron más de 29.000 vulnerabilidades candidatas en software de código abierto muy usado, de las cuales el equipo revisó manualmente unas 6.000. Ante mantenedores que pedían acceso al lote completo sin revisar, la empresa convirtió esa demanda en un servicio permanente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La misma publicación indica que Anthropic probó la precisión del escáner antes de abrirlo a más proyectos: los expertos que normalmente validan las divulgaciones coordinadas de la empresa revisaron 97 hallazgos de gravedad crítica o alta en 48 proyectos y autorizaron la divulgación de 85. De los otros 12, casi todos eran errores reales que duplicaban problemas ya conocidos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Lo que dicen los primeros proyectos que lo probaron",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La desarrolladora de la biblioteca de cifrado wolfSSL dijo a SiliconANGLE que, de los 74 informes recibidos durante las pruebas iniciales, todos menos dos eran válidos, y cinco se convirtieron en CVE, los identificadores públicos de vulnerabilidades confirmadas. Anton Arapov, de OpenSSL, quien probó el servicio desde el inicio, dijo a la publicación que un informe con un exploit real adjunto es \"prácticamente el trabajo hecho para un ingeniero\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge señala que las herramientas de IA ya han ayudado a descubrir fallos graves en código abierto en los últimos meses, pero que mantenedores como Linus Torvalds también han reportado dificultades para procesar el volumen de informes generados por IA. OSS Scanner amplía esa tendencia al automatizar también la redacción de los informes, no solo la búsqueda de los fallos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según SiliconANGLE, el servicio se financia con el Defender Advantage Fund, creado por Anthropic en agosto, y los mantenedores pueden inscribirse mediante una solicitud directa en un repositorio de la empresa en GitHub, con criterios de elegibilidad similares a los de OSS-Fuzz, el proyecto de Google que inspiró el formato.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Parte de un paquete de seguridad más amplio",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE relata que el lanzamiento de OSS Scanner llegó junto a otro programa, el Critical Infrastructure Defense Program, dirigido a las empresas de seguridad que atienden a operadores de redes eléctricas, sistemas de agua y otras infraestructuras críticas. Ambos forman parte de lo que Anthropic llama Anthropic Cyber Mission.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Once proveedores se sumaron como socios fundadores del programa de infraestructura crítica, entre ellos la consultora Booz Allen Hamilton y las empresas de seguridad CrowdStrike y Palo Alto Networks, según SiliconANGLE. Andrew Turner, presidente de ciberseguridad comercial de Booz Allen, calificó el equipamiento de plantas y subestaciones como \"la próxima frontera para ataques autónomos habilitados por IA\", según la publicación.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic dijo a SiliconANGLE que espera que la IA incline la balanza hacia los defensores dentro de dos años, aunque reconoció que, por ahora, el costo de explotar un fallo sigue bajando mientras que verificarlo y corregirlo sigue siendo un trabajo lento que depende de personas.",
+      "items": []
+    }
   ],
   "image": {
     "query": "open source code security scan laptop",
-    "alt": "Líneas de código en una pantalla que representan un análisis de seguridad"
+    "alt": "Líneas de código en una pantalla que representan un análisis de seguridad",
+    "path": "/assets/img/anthropic-lanza-escaner-gratis-codigo-ab-07913d0e.jpg",
+    "credit": "Philipp Katzenberger / Unsplash",
+    "author": "Philipp Katzenberger",
+    "author_url": "https://unsplash.com/@fantasyflip?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/closeup-photo-of-turned-on-blue-and-white-laptop-computer-iIJrUoeRoCQ"
   },
   "sources": [
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner", "title": "Anthropic launches free AI security scans for open-source projects"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/08/anthropic-launches-critical-infrastructure-program-and-free-oss-scanner-for-open-source/", "title": "Anthropic launches critical infrastructure program and free OSS Scanner for open source"}
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "title": "Anthropic launches free AI security scans for open-source projects"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/08/anthropic-launches-critical-infrastructure-program-and-free-oss-scanner-for-open-source/",
+      "title": "Anthropic launches critical infrastructure program and free OSS Scanner for open source"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-10T21:47:41+00:00",
+  "updated_at": "2026-10-10T21:47:41+00:00"
 }
