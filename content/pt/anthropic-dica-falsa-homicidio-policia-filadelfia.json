@@ -88,7 +88,13 @@
   ],
   "image": {
     "query": "police crime scene tape investigation",
-    "alt": "Fita de isolamento policial em um local de investigação"
+    "alt": "Fita de isolamento policial em um local de investigação",
+    "path": "/assets/img/anthropic-dica-falsa-homicidio-policia-f-78c3d266.jpg",
+    "credit": "Daniel von Appen / Unsplash",
+    "author": "Daniel von Appen",
+    "author_url": "https://unsplash.com/@daniel_von_appen?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-yellow-police-line-behind-bars-WW-4bspunFY"
   },
   "sources": [
     {
@@ -110,5 +116,7 @@
       "title": "An Anthropic model submitted a false homicide tip to Philadelphia police"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-10T10:52:43+00:00",
+  "updated_at": "2026-10-10T10:52:43+00:00"
 }
