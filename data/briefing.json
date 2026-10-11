@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:59:46+00:00",
+  "generated_at": "2026-10-11T19:34:43+00:00",
   "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
   "already_written_today": 3,
@@ -151,27 +151,36 @@
       ]
     },
     {
-      "story_id": "eb94b31340295dd0",
-      "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
-      "summary": "Off-the-shelf AI assistants forget you between conversations. This post shows how to build a personal assistant that accumulates context using OpenClaw on Amazon Bedrock AgentCore runtime, with AgentCore memory turning disposable chats into durable, structured knowledge you can retrieve with metadata filters.",
+      "story_id": "602e80edfd8b14aa",
+      "title": "Silicon Valley's horror shows",
+      "summary": "Hollywood's hottest villain right now is the tech billionaire. Four films hitting theaters this fall put some of Silicon Valley's most powerful and controversial figures in the spotlight: Elon Musk, Mark Zuckerberg, Sam Altman and Elizabeth Holmes. Why it matters: Hollywood's portrayal of Silicon Valley and its leaders is getting darker as negative headlines about the tech industry seep into pop...",
       "owners": [
-        "amazon"
+        "axios",
+        "vox-media"
       ],
-      "primary_owners": [
-        "amazon"
-      ],
+      "primary_owners": [],
       "fingerprints": [
-        "83a7693e78da0004"
+        "1d4e5b2b7cbdff30",
+        "7ec8afeed3530ddc"
       ],
       "sources": [
         {
-          "name": "AWS Machine Learning",
-          "owner": "amazon",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/",
-          "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
-          "published_at": "2026-10-06T19:19:15+00:00",
-          "kind": "primary",
-          "text": "Off-the-shelf AI assistants answer individual questions well, but they fall short on a different axis: continuity. Ask a stateless assistant about your garden today and it has no idea that you mentioned your fast-draining raised beds three weeks ago, that you only use organic fertilizer, or that your petunias were struggling through a heat wave. Every conversation starts from zero, and the burden of re-explaining context falls on the user. The problem isn’t the quality of the answers, but that the assistant has no memory of you. This post shows how to build a personal assistant that accumulates context using OpenClaw , an open source agentic system, running on AgentCore runtime, a capability of Amazon Bedrock AgentCore. AgentCore memory, a capability of Amazon Bedrock AgentCore, turns disposable chats into durable knowledge. You will also see how to tag those memories with structured metadata to retrieve records that matter for the question at hand. Our running example is Sprout, a gardening assistant, but the architecture is domain-agnostic. Swap the persona and the skills manifest, and the same pipeline serves a support bot, a fitness coach, or an internal help desk. The entire system lives in a single AWS CloudFormation template, deploys with one command, and runs on a consumption-based model that costs a few dollars a month for light personal use. Along the way, we share design guidelines you can apply to assistants you build on this stack. AgentCore is a platform to build, connect, and optimize agents at scale, with any framework or model. The following diagram shows the end-to-end request flow, from an inbound Telegram webhook through the AgentCore runtime, and its supporting AWS services. Figure 1: Telegram webhooks and Amazon EventBridge schedules both invoke the same AgentCore runtime agent, which coordinates the OpenClaw gateway, AgentCore memory, and Amazon Bedrock Two entry points converge on one agent. Telegram messages arrive through Amazon API Gateway and a webhook AWS Lambda function, while scheduled jobs such as morning watering reminders arrive through Amazon EventBridge Scheduler and a cronjob Lambda function. Both call the InvokeAgentRuntime API on the AgentCore runtime, where a thin server.py process coordinates the OpenClaw gateway, AgentCore memory, and the Amazon Bedrock Converse API. Amazon Simple Storage Service (Amazon S3) provides workspace storage, AWS Key Management Service (AWS KMS) handles encryption, AWS Secrets Manager holds the bot token, and Amazon CloudWatch captures logs and metrics. To deploy your own version using the Launch Stack button or scripts/ deploy.sh (described in the Grow your own section), you will need: Every component lives in a single CloudFormation template, and no build tooling is required to launch. The following sections walk through the load-bearing decisions. The agent lives in a container on AgentCore runtime, which uses consumption-based pricing. You’re billed for the compute your agent actively consumes, not for wall-clock uptime, and you don’t pay for the time when waiting for I/O such as model response. For a personal assistant used in short bursts, that is the difference between an approximately $1–2/month baseline and an approximately $35/month always-on Amazon Elastic Compute Cloud (Amazon EC2) instance. These figures are estimates for light personal use as of July 2026. Refer to AgentCore pricing for current rates. The runtime enforces a minimal container contract: listen on port 8080, and expose GET /ping for health and POST /invocations as the agent entry point. Our container is linux/arm64 , built multi-stage from the official OpenClaw image plus a Python layer. OpenClaw provides the agent loop, tool use, and a skills system. It runs a wrapper ( server.py ) that adapts it to AgentCore HTTP protocol contract : This wrapper pattern generalizes to other use cases. Any agent framework that runs as a local process can be adapted to the AgentCore runtime the same way, without modifying the framework itself. Text chat and image understanding have different cost and quality tradeoffs, so the assistant routes them to different Claude models on Bedrock : Text turns flow through the OpenClaw gateway, which brings skills and session state. Image turns call the large language model (LLM) from Bedrock directly from server.py , passing the image bytes as multimodal content blocks. We route images around the gateway deliberately: the in-container OpenClaw build dropped the image_url content parts before they reached Bedrock, so calling the Converse API directly from server.py makes sure the model sees the actual pixels. Both paths share the same system prompt (persona plus memory), so the experience stays consistent. The model IDs are environment variables ( MODEL_ID , VISION_MODEL_ID ), so you can swap models per deployment without rebuilding the image. Capabilities are declared as skills in a community-skills.json manifest. A deploy-time script materializes them into the container and registers them in the OpenClaw config before the image is built. Sprout ships with weather, reminders, and plant notes skills at the time of publishing this post. Swap the manifest and the same pipeline serves a different domain. This is what makes the whole thing a reusable pattern and not only one bot. Telegram is a practical channel for a personal assistant since it’s webhook-based, and it keeps everything serverless. It requires no client development, works on every device the user already owns, and supports text, images, and rich formatting through a straightforward bot API. BotFather issues a bot token, which is stored in Secrets Manager. The deployment registers a webhook that points Telegram at the API gateway endpoint. When the user sends a message, Telegram delivers it to the webhook Lambda function to validate the payload and call InvokeAgentRuntime . The reply travels back through the telegram bot API. One formatting lesson to note: Teleg"
+          "name": "Axios",
+          "owner": "axios",
+          "url": "https://www.axios.com/2026/10/11/silicon-valley-tech-founder-movies",
+          "title": "Silicon Valley's horror shows",
+          "published_at": "2026-10-11T12:50:43+00:00",
+          "kind": "press",
+          "text": ""
+        },
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+          "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+          "published_at": "2026-10-11T18:33:56+00:00",
+          "kind": "press",
+          "text": "Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. When President Donald Trump announced his plans to rebrand artificial intelligence as “ super intelligence ,” you’d be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley’s most powerful are falling in line and trying to give Trump the great AI rebrand he so desires. That Elon Musk was quick to jump on board , promising to rename SpaceXAI to SpaceXSI, isn’t surprising. When, hours after Donald Trump declared that “The White House considers anyone that uses the term, ‘Artificial Intelligence,’ as opposed to the highly accepted new and more accurate term, ‘Super Intelligence,’ THE ENEMY!” Marc Benioff announced that Salesforce would rename AIForce to SIForce ; it seemed like a quick capitulation, but not entirely out of character. Nvidia CEO Jensen Huang attended the summit where the executive order requiring government agencies to use the term “super intelligence” was announced. He’s also aligned himself with Trump, saying he believes the danger posed by AI is overblown. So it was somewhat predictable that when Nvidia declared that it would “commit” $1 billion to scientific advancement, that included “ super intelligence research .” Of course, Huang has a lot to lose if he gets on Trump’s bad side. The latest to cave is Microsoft’s Satya Nadella, who attended the same AI summit as Huang along with Mark Zuckerberg, Sundar Pichai, Jeff Bezos, Dario Amodei, and Musk. In a post calling for building an “ emergency brake ” for AI yesterday, Nadella repeatedly referred to the technology as “super intelligence.” During Trump’s second term, Silicon Valley has repeatedly tried to ingratiate itself with the administration, after having a much more contentious relationship during his first term."
         }
       ]
     }
