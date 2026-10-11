@@ -1,0 +1,102 @@
+{
+  "slug": "anthropic-vai-banir-quem-for-cruel-com-claude",
+  "lang": "pt",
+  "date": "11 out 2026",
+  "no": 31,
+  "category": "Regulação",
+  "kicker": "Regulação · Anthropic",
+  "headline": "Anthropic vai banir usuários cruéis com o Claude",
+  "headline_hl": "banir usuários cruéis",
+  "dek": "Nova política prevê advertência, suspensão e banimento a partir de 12 de novembro, segundo Olhar Digital e Canaltech.",
+  "image": {
+    "path": "assets/img/anthropic-vai-banir-quem-for-cruel-com-c-d02b73a1.jpg",
+    "credit": "kuu akura / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Anunciado<br>08/10",
+  "sources": [
+    "Olhar Digital IA",
+    "Canaltech"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Abuso contra o chatbot passa a ter punição",
+    "body": [
+      "A Anthropic atualizou a política de uso do Claude para punir quem tratar o chatbot de forma cruel de maneira persistente e sem necessidade. A mudança vale a partir de 12 de novembro (Olhar Digital, Canaltech).",
+      "As sanções vão de advertência e limitação de funções à suspensão e ao encerramento total do acesso. A atualização foi divulgada na quinta-feira (8) e mira só casos extremos (Canaltech)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Quem fica de fora e quem aplica",
+    "body": "A regra mira hostilidade repetida sem motivo identificável, não o uso comum do Claude (Olhar Digital, Canaltech).",
+    "points": [
+      {
+        "h": "Fora da regra",
+        "t": "Reclamações comuns, discordância das respostas, arte com temas sombrios e testes de segurança de pesquisadores (Olhar Digital, Canaltech)."
+      },
+      {
+        "h": "Quem aplica",
+        "t": "Na prática, o próprio Claude, que já pode interromper conversa com abuso sem resposta a tentativas de redirecionar (Canaltech)."
+      },
+      {
+        "h": "Antecedente",
+        "t": "Em agosto de 2025, o Claude Opus 4 e 4.1 ganharam o poder de encerrar conversas extremamente nocivas (Canaltech)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Risco de perder a conta, e o debate",
+    "body": [
+      "Para empresas e usuários no Brasil que usam o Claude em produtos e operações, a mudança traz um novo risco de conformidade: hostilidade recorrente pode custar o acesso à conta (Olhar Digital).",
+      "A Anthropic não afirma que o Claude tenha consciência e não detalhou os critérios que separam abuso de frustração. Críticos veem humanização de software; defensores, precaução (Olhar Digital)."
+    ],
+    "stat": {
+      "big": "12 de novembro",
+      "cap": "data em que a nova política passa a valer"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que está em aberto",
+    "items": [
+      {
+        "h": "12/11",
+        "t": "A política entra em vigor, com advertência, suspensão e banimento previstos (Olhar Digital, Canaltech)."
+      },
+      {
+        "h": "Sem data",
+        "t": "A Anthropic não detalhou publicamente os critérios que vão separar abuso de frustração comum (Olhar Digital)."
+      },
+      {
+        "h": "Outros",
+        "t": "A revisão também proíbe desinformação, interferência em eleições, vigilância indevida e armas (Olhar Digital, Canaltech)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Anthropic vai banir usuários repetidamente cruéis com o Claude em sua política de uso, a partir de 12 de novembro.",
+    "body": [
+      "Segundo a Olhar Digital, Aaron Levie, da Box, chamou a regra de precaução razoável: treinar modelos com muita interação grosseira pode afetar o comportamento futuro deles. Bill Gurley perguntou se a empresa treina modelos com conversas de clientes, hipótese que ela não confirma.",
+      "Michael Shellenberger e Barry Scannell criticaram a medida por humanizar software. Scott Stevenson, da Spellbook, vê risco no oposto: supor empatia na IA pode ampliar sua influência (Olhar Digital).",
+      "Lachlan Phillips sugeriu que o Claude ignore insultos (Olhar Digital)."
+    ],
+    "cta_variant": "A",
+    "cta": "Punir usuários por hostilidade contra um chatbot é uma medida de segurança ou de conduta?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#politicadeuso"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Anthropic banir usuários cruéis com o Claude",
+    "Slide 2: Anthropic atualiza a política do Claude e prevê advertência, suspensão e banimento",
+    "Slide 3: o que fica fora da regra contra abuso ao Claude e quem a aplica",
+    "Slide 4: risco de perder a conta no Claude e o debate sobre a regra da Anthropic",
+    "Slide 5: o que está em aberto na política da Anthropic a partir de 12/11",
+    "Slide 6: fontes sobre a Anthropic banir quem for cruel com o Claude: Olhar Digital e Canaltech"
+  ]
+}

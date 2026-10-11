@@ -1,0 +1,106 @@
+{
+  "lang": "en",
+  "slug": "anthropic-to-ban-users-cruel-to-claude",
+  "story_id": "af3c3145d911f1e0",
+  "title": "Anthropic will ban users who are cruel to Claude starting in November",
+  "dek": "A revised usage policy allows warnings, suspension and account termination for persistent, needless hostility toward the chatbot, Olhar Digital and Canaltech report.",
+  "meta_description": "Anthropic will punish users who are repeatedly cruel to Claude starting November 12, with warnings, account suspension and bans, under a revised usage policy.",
+  "keyword": "Anthropic Claude usage policy",
+  "category": "politica",
+  "tags": [
+    "anthropic",
+    "claude",
+    "usage policy",
+    "ai safety",
+    "ai"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic has updated Claude's usage policy to allow penalties for users who treat the chatbot in an abusive or cruel way persistently and without need. The change takes effect on November 12, according to Olhar Digital and Canaltech.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Planned sanctions range from warnings to limited functionality, suspended accounts or full termination of access to the service. Canaltech reports the update was disclosed on Thursday, October 8, and applies only to extreme cases, in which a person insists on hostile behavior without an identifiable purpose.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the rule does not cover",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both outlets confirm the rule does not reach ordinary complaints about how Claude performs, disagreement with its answers, dark-themed creative writing, or security research testing. Enforcement, Canaltech notes, is expected to keep relying mainly on Claude itself, which can already end a conversation when it detects a pattern of abusive messages that does not respond to attempts to redirect it.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The policy revision goes beyond how users treat the chatbot. Olhar Digital and Canaltech both report that Anthropic also moved to ban using Claude in disinformation campaigns, attempts to deceive voters or interfere with elections, unauthorized surveillance operations, and weapons development.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A dispute over machines and suffering",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The part of the policy aimed at hostility toward the chatbot split opinion outside the company. Per Olhar Digital, Box chief executive Aaron Levie called the move a reasonable precaution, even without believing AI is conscious: training future models on large volumes of rude interactions, he argued, could still shape how those systems behave later. Investor Bill Gurley publicly asked whether the new rule signaled that Anthropic uses customer conversations to train its models, a suggestion the company does not confirm.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic frames the change as part of its own harm-prevention and responsible-use efforts, without claiming Claude has feelings or consciousness. Critics pushed back on that framing. Olhar Digital reports that activist Michael Shellenberger objected that the rule attributes human traits to software, while lawyer Barry Scannell made a similar point, saying no one can be cruel to numbers and math. Spellbook chief executive Scott Stevenson argued the opposite risk matters more: attributing human empathy to AI, without proof it exists, could expand these systems' ability to influence people's behavior.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech notes Anthropic tested a narrower version of the idea in August 2025, when it gave the Claude Opus 4 and 4.1 models the ability to end, on their own, conversations judged extremely harmful; until now, the outlet reports, that tool had only been triggered in exceptional situations. Reaction spread to other AI companies: Olhar Digital recorded that Microsoft AI chief Mustafa Suleyman responded to the announcement on social media with a melting-face emoji, without elaborating. Entrepreneur Lachlan Phillips proposed a different fix than punishing users: have Claude simply ignore insults and keep completing the requested task. Anthropic says it intends to act only in extreme cases, but has not publicly detailed the criteria that will separate abuse from ordinary frustration.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Part of a wider industry debate",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The announcement lands in an industry already arguing over how seriously to take chatbot courtesy. Olhar Digital recalls that OpenAI chief executive Sam Altman last year defended the processing cost of polite messages, such as users typing \"please\" and \"thank you,\" calling that spending money \"well spent.\" Anthropic's new policy takes a different, more formal route: instead of just encouraging civility, it writes consequences for its absence directly into the rules governing who gets to keep using Claude.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For companies building products on top of Claude outside the United States, the practical takeaway is a new compliance detail to track ahead of November 12: accounts can now be limited, suspended or closed over how a chatbot is treated, separate from any policy violation involving a third party.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "robot chatbot interface conversation screen",
+    "alt": "A chat interface with an AI assistant open on a laptop screen",
+    "path": "/assets/img/anthropic-to-ban-users-cruel-to-claude-d02b73a1.jpg",
+    "credit": "kuu akura / Unsplash",
+    "author": "kuu akura",
+    "author_url": "https://unsplash.com/@akurakuu?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/speech-bubbles-on-translucent-screen-pnK6Q-QTHM4"
+  },
+  "sources": [
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/10/09/inteligencia-artificial/anthropic-vai-banir-quem-xingar-o-claude-a-partir-de-novembro/",
+      "title": "Anthropic vai banir quem xingar o Claude a partir de novembro"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/proibido-xingar-a-ia-anthropic-muda-regras-e-ameaca-banir-quem-for-cruel-com-o-claude/",
+      "title": "Proibido xingar a IA: Anthropic muda regras e ameaça banir quem for 'cruel' com o Claude"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-11T15:50:25+00:00",
+  "updated_at": "2026-10-11T15:50:25+00:00"
+}
