@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 10:45:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 15:50:27 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic cuts off internet access for internal evaluations</title>
+      <link>https://cortexplor.com/en/anthropic-cuts-internet-access-after-false-police-tip/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/anthropic-cuts-internet-access-after-false-police-tip/</guid>
+      <description>Anthropic says it can't reliably control its AI agents and is cutting off live internet access for all internal evaluations after an agent's false police tip.</description>
+      <category>Policy</category>
+      <pubDate>Sun, 11 Oct 2026 15:50:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic will ban users who are cruel to Claude starting in November</title>
+      <link>https://cortexplor.com/en/anthropic-to-ban-users-cruel-to-claude/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/anthropic-to-ban-users-cruel-to-claude/</guid>
+      <description>Anthropic will punish users who are repeatedly cruel to Claude starting November 12, with warnings, account suspension and bans, under a revised usage policy.</description>
+      <category>Policy</category>
+      <pubDate>Sun, 11 Oct 2026 15:50:25 +0000</pubDate>
+    </item>
     <item>
       <title>Microsoft Cuts OneDrive Storage, Opens Copilot to Family Plans</title>
       <link>https://cortexplor.com/en/microsoft-365-family-cuts-onedrive-shares-copilot/</link>
@@ -230,22 +246,6 @@
       <description>Google launched Gemini 4 Argon priced below Claude Opus 5.5 and GPT-6 Astra, but initial access is limited to cybersecurity partners, four outlets report.</description>
       <category>Models &amp; Launches</category>
       <pubDate>Fri, 02 Oct 2026 07:32:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic's Leaked IPO Filing Reveals a $42 Billion Loss</title>
-      <link>https://cortexplor.com/en/anthropic-ipo-prospectus-42-billion-loss/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/anthropic-ipo-prospectus-42-billion-loss/</guid>
-      <description>A leaked Anthropic IPO filing shows a $42 billion loss in 2025 and warns of existential AI risks, as the company seeks a $2 trillion valuation, Fortune reports.</description>
-      <category>AI Market</category>
-      <pubDate>Tue, 29 Sep 2026 19:55:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Launches Claude Sonnet 5.5, Its Fastest Model Yet</title>
-      <link>https://cortexplor.com/en/anthropic-launches-claude-sonnet-5-5/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/anthropic-launches-claude-sonnet-5-5/</guid>
-      <description>Anthropic's Claude Sonnet 5.5 is now live on AWS, Google Cloud and Azure, running 30% faster at lower cost per task while keeping the same token prices.</description>
-      <category>Models &amp; Launches</category>
-      <pubDate>Tue, 29 Sep 2026 19:55:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
