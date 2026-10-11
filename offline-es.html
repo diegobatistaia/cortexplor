@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Sin conexión - Cortexplor</title>
+<link rel="icon" type="image/svg+xml" href="/assets/logo/favicon.svg">
+<style>
+:root{--ink:#14130F;--paper:#FFFEFB;--primary:#3A4556;--muted:#6B6960}
+@media (prefers-color-scheme: dark){:root{--ink:#EDECE8;--paper:#14130F;--primary:#8A94A6;--muted:#9A978D}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;
+background:var(--paper);color:var(--ink);font-family:'Space Grotesk', 'Helvetica Neue', Arial, sans-serif}
+main{max-width:28rem;text-align:center}
+img{width:72px;height:72px;border-radius:16px}
+h1{font-size:1.6rem;margin:20px 0 8px}
+p{color:var(--muted);line-height:1.5;margin:0 0 24px}
+a,button{display:inline-block;margin:4px;padding:10px 18px;border-radius:999px;font:inherit;font-size:.95rem;
+cursor:pointer;text-decoration:none;border:1px solid var(--primary)}
+button{background:var(--primary);color:var(--paper)}
+a{background:transparent;color:var(--primary)}
+</style>
+</head>
+<body>
+<main>
+<img src="/assets/logo/icon-192.png" alt="Cortexplor">
+<h1>Sin conexión</h1>
+<p>No tienes internet. Las noticias que ya abriste siguen aquí; las nuevas aparecen en cuanto vuelva la conexión.</p>
+<button type="button" onclick="location.reload()">Intentar de nuevo</button>
+<a href="/es/">Ir a la portada</a>
+</main>
+</body>
+</html>

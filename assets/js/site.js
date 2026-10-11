@@ -146,4 +146,13 @@
       }
     });
   }
+
+  // App instalavel: o service worker guarda as paginas ja abertas para ler
+  // sem internet e deixa o navegador oferecer "Instalar". Registrado depois do
+  // carregamento para nao disputar banda com a pagina.
+  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("/sw.js").catch(function () { /* sem app, site segue normal */ });
+    });
+  }
 })();

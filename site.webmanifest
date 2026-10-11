@@ -1,21 +1,42 @@
 {
-  "name": "Cortexplor",
+  "id": "/pt/",
+  "name": "Cortexplor - Notícias e Tendências de IA",
   "short_name": "Cortexplor",
   "description": "Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.",
+  "lang": "pt-BR",
   "start_url": "/pt/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#FFFEFB",
   "theme_color": "#3A4556",
+  "categories": [
+    "news"
+  ],
   "icons": [
     {
       "src": "/assets/logo/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/assets/logo/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
