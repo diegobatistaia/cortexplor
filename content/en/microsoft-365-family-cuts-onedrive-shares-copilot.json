@@ -1,0 +1,117 @@
+{
+  "lang": "en",
+  "slug": "microsoft-365-family-cuts-onedrive-shares-copilot",
+  "story_id": "2aa45ac4a11b5bad",
+  "title": "Microsoft Cuts OneDrive Storage, Opens Copilot to Family Plans",
+  "dek": "Starting in 2027, Microsoft 365 Family subscribers will share 2 TB on OneDrive instead of the current 6 TB, but gain shared access to Copilot.",
+  "meta_description": "Microsoft is cutting its Family plan OneDrive storage from 6 TB to a shared 2 TB pool, while opening up Copilot AI access to up to five family members.",
+  "keyword": "microsoft 365 family onedrive storage",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "microsoft",
+    "copilot",
+    "onedrive"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Microsoft is cutting the OneDrive storage bundled with the Microsoft 365 Family plan from 6 TB to a shared 2 TB pool, while opening its Copilot AI assistant in Office to up to five additional people on the same subscription at no extra cost. The change was detailed in a notice sent to subscribers and first reported by The Verge this week, according to Canaltech and Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Under the previous rules, the Family plan gave each of up to six people on an account 1 TB of individual storage, for a potential total of 6 TB per subscription. The new policy replaces that with a single 2 TB pool shared by the whole group, a cut of more than 66%, Canaltech reports.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A staggered rollout",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The OneDrive change already applies to new subscriptions. For existing subscribers, the cut only takes effect at the first renewal on or after May 2, 2027, according to both Canaltech and Tecmundo, who cite Microsoft's own support documentation for the date. Microsoft says it will notify affected customers by email before the change takes effect.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Families currently using close to the old 6 TB ceiling will need to trim their files or buy extra storage to keep the same amount of data saved. Tecmundo reports that Microsoft has promised temporary storage bonuses and transition support for subscribers most affected by the reduction.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Copilot becomes a shared family benefit",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In exchange for the smaller storage allowance, Microsoft is letting account holders share Copilot access with up to five other family members. Tecmundo reports the move answers a long-standing request from subscribers: until now, the Office AI features were limited to whoever managed the main account.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Share your Copilot benefits and AI usage with other members on your plan, and manage access for younger family members,\" Microsoft said in the notice sent to subscribers, according to Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The way AI usage is metered is changing too. Instead of separate limits for basic chat, advanced reasoning and image generation, Microsoft 365 Family now uses a single usage allowance shared across the whole group, covering apps like Word, Excel and PowerPoint, Canaltech and Tecmundo both report. If a family's monthly allowance runs out before renewal, members can buy additional credits.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Parental controls stay in place",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft kept age-based restrictions that stop children and teenagers from using certain content-generation features without supervision. Parents and guardians can manage those permissions through the account's family safety dashboard, according to Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why Microsoft calls the shared pool more flexible",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In official documentation cited by Tecmundo, Microsoft explains the switch from individual to shared storage this way: \"your cloud storage allowance will change to 2 TB of shared storage, so everyone on the plan can use the free space while keeping their own accounts and private files.\" In practice, that means a member who stores little content frees up room for one who uses more — but the total pool available to the group is far smaller than under the old model.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Canaltech, subscribers who need more room can buy extra capacity to reach up to 10 TB on the Family plan, and files belonging to anyone who goes over the new quota won't be deleted right away: the company has promised to keep that content accessible during an adjustment period before any removal.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The update also reaches Microsoft 365 Premium, which moves to the same shared 2 TB pool in place of its previous individual storage allotments. Microsoft 365 Pro, aimed at smaller groups, will offer 5 TB to split among its users, Canaltech reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tecmundo adds that subscribers will get the email notice at least 30 days before any impact on their renewal or billing.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "family sharing cloud storage on laptop and phone",
+    "alt": "Family using a laptop and phone to access files stored in the cloud"
+  },
+  "sources": [
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/apps/corte-pesado-microsoft-365-familia-vai-reduzir-espaco-do-onedrive-de-6-tb-para-apenas-2-tb/",
+      "title": "Corte pesado: Microsoft 365 Família vai reduzir espaço do OneDrive de 6 TB para apenas 2 TB"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/microsoft-libera-copilot-em-familia-e-reduz-espaco-no-onedrive/",
+      "title": "Microsoft libera Copilot em família e reduz espaço no OneDrive"
+    }
+  ],
+  "status": "draft"
+}
