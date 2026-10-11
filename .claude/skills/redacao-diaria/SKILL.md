@@ -110,6 +110,17 @@ o anúncio oficial sozinho, nas condições da seção 1.1); as
 fontes só repetem um comunicado; o assunto é lançamento comercial disfarçado de
 notícia; ou você não entendeu o fato bem o suficiente para explicá-lo.
 
+**Não repita fato já publicado.** O comando `briefing` lista as matérias dos
+últimos 3 dias (também em `recent_posts` no `data/briefing.json`). Uma pauta nova
+no feed pode ser o mesmo acontecimento contado por outros veículos horas
+depois, com outro título. Antes de aprovar, compare o fato central com essa
+lista: se ele já saiu, descarte a pauta. Só escreva sobre o mesmo assunto se
+houver um fato novo de verdade (anúncio novo, decisão nova, número novo que muda
+a história); aí o título e o primeiro parágrafo dizem o que é novo, e o resto
+retoma o que já foi publicado em uma ou duas frases. Detalhe a mais sobre o
+mesmo episódio não é fato novo. Na dúvida, descarte: vale mais uma vaga vazia
+do que duas matérias iguais no mesmo dia.
+
 **O que interessa ao leitor deste site.** Ele acompanha IA por curiosidade e por
 uso: quer saber que modelo saiu, o que ele faz de diferente, quanto custa, se dá
 para usar hoje e como. Entre duas pautas igualmente bem apuradas, prefira a que
