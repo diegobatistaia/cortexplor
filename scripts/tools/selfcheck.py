@@ -369,6 +369,13 @@ def main() -> int:
           same_local_day(_dt(2026, 10, 5, 2, 0, tzinfo=timezone.utc), tz,
                          now=_dt(2026, 10, 5, 0, 30, tzinfo=timezone.utc)))
 
+    from scripts.pipeline.run import recent_posts
+    recentes = recent_posts(cfg, days=36500)
+    check("lista de publicadas recentes tem uma entrada por story_id",
+          len(recentes) == len({p["story_id"] for p in recentes}))
+    check("lista de publicadas recentes vem da mais nova para a mais velha",
+          [p["published_at"] for p in recentes] == sorted((p["published_at"] for p in recentes), reverse=True))
+
     print(f"\n{CHECKS - len(FAILURES)}/{CHECKS} verificações passaram")
     if FAILURES:
         print("Falhas: " + ", ".join(FAILURES))

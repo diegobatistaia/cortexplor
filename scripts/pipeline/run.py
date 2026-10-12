@@ -169,6 +169,28 @@ def already_written_story_ids(cfg) -> set[str]:
             if p.get("story_id")}
 
 
+def recent_posts(cfg, days: int = 3, now=None) -> list[dict]:
+    """Matérias publicadas nos últimos dias, uma por story_id, mais novas primeiro.
+
+    Pautas diferentes no feed (clusters diferentes) podem ser o mesmo fato
+    contado de novo por outros veículos horas depois; o story_id não pega isso.
+    A Routine compara cada pauta com esta lista antes de escrever.
+    """
+    limit = (now or utcnow()).timestamp() - days * 86400
+    lang = cfg.languages[0]
+    found = {}
+    for post in load_posts(lang):
+        when = parse_date(post.get("published_at"))
+        if post.get("status") != "published" or not when or when.timestamp() < limit:
+            continue
+        sid = post.get("story_id") or post.get("slug")
+        if sid not in found:
+            found[sid] = {"published_at": post.get("published_at"), "story_id": sid,
+                          "title": post.get("title", ""),
+                          "summary": post.get("dek") or post.get("meta_description", "")}
+    return sorted(found.values(), key=lambda p: p["published_at"], reverse=True)
+
+
 def cmd_briefing(cfg, args) -> int:
     """Mostra o briefing do dia e recusa se ele não for de hoje.
 
@@ -213,6 +235,7 @@ def cmd_briefing(cfg, args) -> int:
                          run_budget(daily_cap - used, cfg.run_hours, tz_name)})
         if len(data["stories"]) != before:
             print(f"{before - len(data['stories'])} pauta(s) já viraram matéria e foram tiradas.")
+        data["recent_posts"] = recent_posts(cfg)
         BRIEFING.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Teto desta rodada: {data.get('posts_per_language_today')} pauta(s) por idioma "
           f"(dia: {data.get('daily_cap_per_language', '?')}, "
@@ -226,6 +249,11 @@ def cmd_briefing(cfg, args) -> int:
         marca = f"PRIMARIA ({', '.join(prim)})" if prim else "so imprensa"
         print(f"    {marca} | owners: {', '.join(story['owners'])} | "
               f"{legiveis}/{len(story['sources'])} com texto integral")
+
+    if data.get("recent_posts"):
+        print("\nJá publicadas nos últimos 3 dias (não repita o mesmo fato, ver seção 2):\n")
+        for post in data["recent_posts"]:
+            print(f"  {post['published_at'][:10]}  {post['title'][:70]}")
 
     if not data.get("posts_per_language_today"):
         print("\nTeto do dia já atingido. Encerre sem commitar.")
