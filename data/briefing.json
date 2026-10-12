@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T09:43:14+00:00",
-  "posts_per_language_today": 2,
+  "generated_at": "2026-10-12T14:44:06+00:00",
+  "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 0,
+  "already_written_today": 2,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,6 +80,53 @@
   ],
   "stories": [
     {
+      "story_id": "86adb2eb60654f11",
+      "title": "Introducing Microsoft’s latest custom chip: Maia 300",
+      "summary": "The post Introducing Microsoft’s latest custom chip: Maia 300 appeared first on Source .",
+      "owners": [
+        "canaltech",
+        "future-plc",
+        "microsoft"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "5a6d73fa70f63e19",
+        "64fce5d30b5552a8",
+        "e2d286cd86e192f2"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://news.microsoft.com/maia-2026/",
+          "title": "Introducing Microsoft’s latest custom chip: Maia 300",
+          "published_at": "2026-10-12T13:14:40+00:00",
+          "kind": "primary",
+          "text": ""
+        },
+        {
+          "name": "Canaltech",
+          "owner": "canaltech",
+          "url": "https://canaltech.com.br/inteligencia-artificial/maia-300-novo-chip-da-microsoft-promete-mais-ia-sem-gastar-mais-energia/",
+          "title": "Maia 300: novo chip da Microsoft promete mais IA sem gastar mais energia",
+          "published_at": "2026-10-12T13:00:00+00:00",
+          "kind": "press",
+          "text": "A Microsoft revelou, nesta segunda-feira (12), o seu novo chip de IA para servidores. Conhecido como o Maia 300 , o componente processa 40% mais tokens por megawatt do que infraestruturas baseadas em GPUs , permitindo atender mais demandas de IA com a mesma capacidade elétrica . A novidade dá sequência ao Maia 200 , apresentado em janeiro de 2026 , que atende atende cargas de trabalho do Microsoft 365 Copilot e da equipe responsável pelos modelos de IA da empresa. Com a atualização, o chip é voltado para processos de inferência , etapa em que um modelo já treinado recebe informações e produz respostas. O foco inclui conversas extensas, tarefas que exigem raciocínio e agentes capazes de executar várias ações em sequência. Uma das principais mudanças está na organização dos componentes. O Maia 300 utiliza pequenos blocos especializados fabricados pelo processo N2P da TSMC , chamados chiplets, que separam funções como cálculos, controle da memória e comunicação. A arquitetura também procura manter os dados próximos de onde serão utilizados . Essa técnica encurta o caminho percorrido pelas informações, o que reduz a energia gasta para movimentá-las dentro do sistema. Cada acelerador conta com 288 GB de memória HBM4 , com capacidade de transferência de até 18 TB por segundo . A empresa afirma que a combinação ajuda a executar modelos maiores, lidar com conversas mais longas e atender mais solicitações simultaneamente. As mudanças também alcançam os racks, estruturas que abrigam os equipamentos em data centers. Na configuração completa, o sistema reúne 96 aceleradores e promete processar até sete vezes mais tokens que um rack Maia 200 . A implantação do chip está prevista para começar em 2027 ."
+        },
+        {
+          "name": "TechRadar",
+          "owner": "future-plc",
+          "url": "https://www.techradar.com/pro/microsoft-unveils-maia-300-its-most-powerful-ai-chip-yet-and-it-might-make-using-teams-copilot-and-cowork-much-better-at-last",
+          "title": "Microsoft unveils Maia 300, its most powerful AI chip yet - and it might make using Teams, Copilot and Cowork much better at last",
+          "published_at": "2026-10-12T13:00:00+00:00",
+          "kind": "press",
+          "text": "Microsoft has revealed Maia 300, the next generation of its Azure hardware as it prepares to scale up its in-house AI infrastructure to multi-gigawatt deployments. The company says Maia 300, set to begin deployment in 2027, will deliver 40% more tokens per megawatt than other leading GPU-based system - designed primarily for inference, the new release targets long-context reasoning, responsive conversational AI and sustained, multi-step agent tasks. Microsoft says a rack containing 96 Maia 300 accelerators will provide up to seven times the rack-scale token throughput of a Maia 200 rack. Interestingly Microsoft says it expects Maia 300 to help support a new generation of AI across its products and services, from agentic coding in GitHub to large-scale model serving through Microsoft Foundry. But it also expects improved inference and data generation for its Microsoft AI team, and improvements in the likes of Copilot and Cowork, as well as individual products such as Microsoft Teams. Designed with what Microsoft says is an \"inference-first architecture\", Maia 300 is built to improve performance by reducing data movement and making more efficient use of computing, memory and networking resources, Microsoft says, with its software-defined dataflow architecture, combined with AI-assisted kernel optimization, designed to keep data close to the parts of the system that need it. Unsurprisingly, memory is central to the design, as Maia 300 will use a huge eight stacks of HBM4, with a claimed peak bandwidth of 18TB/s within a 950W thermal design power. Microsoft says specialized software can use on-chip SRAM as a scratchpad, easing pressure on HBM during demanding workloads. Sign up to the TechRadar Pro newsletter to get all the top news, opinion, features and guidance your business needs to succeed! The accelerator also introduces a multi-chiplet architecture that separates compute, memory-controller and input/output functions. Its compute chiplets will be built using TSMC’s N2P process. Microsoft says support for low-precision formats, including an enhanced MXFP4, will reduce memory and bandwidth demands, helping the system run larger context windows and increase throughput within the same power envelope. Networking is designed to operate as part of the system’s dataflow rather than as a separate layer. Maia 300 will use high-bandwidth connections between accelerators for tensor parallelism, alongside a custom AI transport based on Ethernet infrastructure. Microsoft says this approach can scale from a single rack to data-center deployments. A Maia 300 rack will contain 96 accelerators within a 167kW power envelope, with 27.6TB of HBM capacity and 1.7 petabytes per second of aggregate HBM bandwidth. Microsoft says that density will let it serve more simultaneous AI interactions and larger workloads from each rack. The launch builds on Maia 200 , which Microsoft says is already running production workloads including Microsoft 365 Copilot and models developed by its Microsoft AI team. The company says Maia 200 delivers up to 1.7 times more tokens per watt than leading GPU infrastructure for built-in AI features in Teams, Copilot and Cowork. GitHub Copilot and Microsoft Foundry are expected to follow by the end of this year. Follow TechRadar on Google News and add us as a preferred source to get our expert news, reviews, and opinion in your feeds. Mike Moore is Deputy Editor at TechRadar Pro. He has worked as a B2B and B2C tech journalist for over a decade, including at one of the UK's leading national newspapers and fellow Future title ITProPortal. When he's not keeping track of all the latest enterprise and workplace trends, he can most likely be found watching, following or taking part in some kind of sport. You must confirm your public display name before commenting Please logout and then login again, you will then be prompted to enter your display name."
+        }
+      ]
+    },
+    {
       "story_id": "7b42b38206079f8b",
       "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
       "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.",
@@ -147,106 +194,6 @@
           "published_at": "2026-10-11T18:33:56+00:00",
           "kind": "press",
           "text": "Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. When President Donald Trump announced his plans to rebrand artificial intelligence as “ super intelligence ,” you’d be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley’s most powerful are falling in line and trying to give Trump the great AI rebrand he so desires. That Elon Musk was quick to jump on board , promising to rename SpaceXAI to SpaceXSI, isn’t surprising. When, hours after Donald Trump declared that “The White House considers anyone that uses the term, ‘Artificial Intelligence,’ as opposed to the highly accepted new and more accurate term, ‘Super Intelligence,’ THE ENEMY!” Marc Benioff announced that Salesforce would rename AIForce to SIForce ; it seemed like a quick capitulation, but not entirely out of character. Nvidia CEO Jensen Huang attended the summit where the executive order requiring government agencies to use the term “super intelligence” was announced. He’s also aligned himself with Trump, saying he believes the danger posed by AI is overblown. So it was somewhat predictable that when Nvidia declared that it would “commit” $1 billion to scientific advancement, that included “ super intelligence research .” Of course, Huang has a lot to lose if he gets on Trump’s bad side. The latest to cave is Microsoft’s Satya Nadella, who attended the same AI summit as Huang along with Mark Zuckerberg, Sundar Pichai, Jeff Bezos, Dario Amodei, and Musk. In a post calling for building an “ emergency brake ” for AI yesterday, Nadella repeatedly referred to the technology as “super intelligence.” During Trump’s second term, Silicon Valley has repeatedly tried to ingratiate itself with the administration, after having a much more contentious relationship during his first term."
-        }
-      ]
-    },
-    {
-      "story_id": "a3d6336fcb4825fc",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "owners": [
-        "openai"
-      ],
-      "primary_owners": [
-        "openai"
-      ],
-      "fingerprints": [
-        "ad4e14640e358f44"
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "owner": "openai",
-          "url": "https://openai.com/index/teens-learn-and-plan",
-          "title": "Helping teens learn, plan, and shape the future of AI",
-          "published_at": "2026-10-07T12:00:00+00:00",
-          "kind": "primary",
-          "text": "College Planner is coming to ChatGPT for teens, alongside a new teen AI council and more tools for learning. Since we introduced ChatGPT for Teens —the default experience automatically applied to accounts identified as under 18—we’ve seen young people use it to learn, explore ideas and solve everyday problems. Today, we’re sharing early progress on ChatGPT for Teens, including how teens are using its learning tools, along with new ways for teens to study and prepare for college. ChatGPT’s 1.2 billion users span many countries, communities and backgrounds. That reach makes it especially important to build tools that help young people with different resources and opportunities learn and prepare for their futures. ChatGPT for Teens is designed to help young people learn, think critically and deepen their understanding. As ChatGPT for Teens became available to more teens globally, those with access sent about 2.7 million more learning-related messages on average than those who didn’t have it yet. Once enrolled, teens use ChatGPT for Teens’ learning tools at scale. The most selected conversation starter prompts are “ask questions to develop my ideas,” “give feedback on my draft,” and “help me check my evidence.” In one week, nearly 1.2 million teens used Learning Visualizations to better understand math and science concepts, and more than 180,000 used Study Mode for step-by-step learning support. ChatGPT for Teens includes built-in reminders to encourage teens to take breaks. On average, teens spend under 15 minutes a day on ChatGPT. While less than 2% of teens spend more than three consecutive hours on ChatGPT, in almost half of teen conversations with a break reminder, teens took a break or ended their conversation within five minutes. These usage patterns remain well below the publicly reported ⁠ (opens in a new window) average of 5 hours for teen social media usage, and reflect a different kind of experience: ChatGPT is designed for learning, building, and creativity, rather than passive scrolling. Among teens with sessions longer than three consecutive hours, over 80% had at least one prompt related to learning. These early signs are encouraging and we’ll continue to evaluate the experience and learn from teens, families and educators to improve ChatGPT for Teens. Hundreds of thousands of US teens use ChatGPT each week to plan for college. They’re using it to plan applications, track deadlines, research schools and understand financial aid. That’s why we’ll soon be adding College Planner to ChatGPT for Teens. We’re designing it to help students manage the practical steps of applying to college, without taking over the personal work of figuring out where they want to apply. Students have different levels of access to support with college applications. Our goal is to make help more accessible, regardless of financial circumstances, alongside guidance from counselors, advisers, and families. College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student’s list in one plan. Students applying to several colleges can return to it to update their progress, use the timeline to plan ahead and see what’s left to do. They can also ask ChatGPT questions along the way, from what a requirement means to how to get started. By bringing these steps together, we aim to save students and families time and make a stressful process feel more manageable. We’re designing the initial US experience for high-school students in grades 10–12 who are planning to attend a four-year college. We plan to bring College Planner to students in more countries and expand support to two-year colleges, technical colleges, trade schools and more over time. College Planner also helps students figure out how to pay for college. They can get help understanding financial aid requirements, track each school’s aid deadlines, and explore scholarships and fee waivers. Keeping track of an application is only one part of preparing for college. Many students also need someone to help them make sense of their options. Alongside College Planner, we’re supporting College Advising Corps ⁠ (opens in a new window) , a nonprofit that places recent college graduates as advisers in under-resourced high schools to help students navigate the path to higher education. OpenAI’s contribution will help the organization expand into new states and create an AI fellowship program. Through the fellowship, advisers across participating states will test and share practical ways to use AI to help more students navigate the path to college. AI can help students manage application and enrollment tasks. Advisers can help them consider their options and decide what to do next. When we introduced ChatGPT for Teens , we committed to keep improving the experience. We’re supporting Boston Children’s Hospital’s Digital Wellness Lab ⁠ (opens in a new window) and its independent Student Advisory Council ⁠ (opens in a new window) over the next three years to learn directly from young people about how AI fits into their lives and to give teenagers a meaningful stake at the table as AI is being designed. For the 2026–27 school year, the Lab will bring together ~22 students across two tracks: ~12 students ages 14–18 working on digital wellbeing projects in their communities and ~10 students ages 16–20, focused on building AI chatbots and emerging technology. These students will work alongside researchers and clinicians on digital wellbeing and AI projects. Students in the AI track will test tools and recommend changes based on how they use AI in learning and their personal lives. We expect to seek feedback on teen safety defaults, parental controls and notifications and AI literacy. Teens should play a central role in developing the tools that will shape their future. Teens will test tools and develop recommendations for the people building them. Our aim is to bring those recommendations into product and model dec"
-        }
-      ]
-    },
-    {
-      "story_id": "7f79fe5c0ed1dad0",
-      "title": "Introducing Playground: Create and play custom games",
-      "summary": "Overview of Playground",
-      "owners": [
-        "alphabet"
-      ],
-      "primary_owners": [
-        "alphabet"
-      ],
-      "fingerprints": [
-        "22643d6fcb195220"
-      ],
-      "sources": [
-        {
-          "name": "Google AI",
-          "owner": "alphabet",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "title": "Introducing Playground: Create and play custom games",
-          "published_at": "2026-10-07T12:00:00+00:00",
-          "kind": "primary",
-          "text": "If you can think it, you can play it. Create, play, and share custom games — no coding required. Software Engineer, AI Innovation + Research Your browser does not support the audio element. You can now build, play, and share custom games without any coding experience using the new Playground platform. Simply describe your ideas through text prompts to create games, then challenge your friends or publish them to the community gallery. Visit playground.google to start creating today, and keep an eye out for upcoming professional-grade tools from Unity Spark. Playground is a new platform that lets you build your own games just by typing what you want. You don't need to know how to code to create characters, rules, or entire worlds. Once you're done, you can easily share your games with friends or play what others have made. It’s a simple way to turn your ideas into real games right in your web browser. Games are one of the most creative forms of expression, and the gaming community keeps growing. But game creation has historically been limited to a select group of people who have technical experience and knowledge of complex game engines. Today, we’re introducing Playground, an experimental gaming platform that lets you create, play, and share custom games. Playground lowers the barriers to creation, so bringing game ideas to life can now be as easy as describing it through a few prompts — no coding experience required. With Playground’s conversational interface, you can direct the game just by typing what you want to build. Start from a blank canvas, remix starter prompts, or use guided support to shape your concept — and then test it right away. Want to tweak the physics, rewrite the rules, customize the characters, or overhaul the environment? Just ask. You stay in complete control of the creative direction from rough concept to final product. Create games in Playground using text prompts The fun doesn’t stop at creation. Playground is home to an ever-growing catalog of community games. And because it’s browser-based, you can play these games on your phone or laptop. Once your game is ready, you can keep your game private, drop a shareable link to challenge friends and family, or publish it to the Playground Explore gallery for the broader Playground community. To have fun with your friends, Playground games support in-game leaderboards and multiplayer gameplay in select genres. With a Play Games profile, you can claim a custom handle, like your favorite games, battle for the top spot, and follow creators to catch their latest releases. Our gallery uses player ratings and play activity to spotlight games that are fresh, creative, and fun. To keep the experience safe and welcoming, every published game undergoes safety screenings aligned with our Community Guidelines , along with user reporting. For dedicated creators ready to expand their concepts, Playground will soon offer an integration with Unity Spark. Unity Spark unlocks robust, professional-level mechanics, high-fidelity 3D capabilities, and the flexibility of the Unity runtime. The accessibility of Playground and the world-class, game-building expertise of Unity provides the building blocks for an ecosystem where you can start with a simple text prompt and eventually grow into building immersive experiences with Unity. And these games will be available for everyone using Playground to enjoy. Unity Spark is currently in testing, with closed beta coming soon. Check out the demo games on playground.google , and learn more at unity.com/spark . Playground is an early experiment designed to make game creation more approachable and ignite everyday creativity. Playground will continue to evolve alongside our community, and we invite you to share your games and your feedback. Playground launches today for users in the U.S. (18+) at playground.google, with tiered creation access rolling out based on your Google AI subscription. Sign up for our newsletters with product updates, event information, special offers, and more. Check your inbox to confirm your subscription. You can also subscribe with a different email address . Your information will be used in accordance with Google's privacy policy. You may opt out at any time."
-        }
-      ]
-    },
-    {
-      "story_id": "21906814b06760e2",
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "summary": "",
-      "owners": [
-        "huggingface"
-      ],
-      "primary_owners": [
-        "huggingface"
-      ],
-      "fingerprints": [
-        "5bdd694c62903534"
-      ],
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "owner": "huggingface",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-          "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-          "published_at": "2026-10-07T12:45:31+00:00",
-          "kind": "primary",
-          "text": "The International Olympiad in Informatics (IOI) and the International Mathematical Olympiad (IMO) test different skills. IOI requires algorithms and code that pass hidden tests under strict time and submission limits. IMO demands rigorous natural-language proofs. Success at either competition is difficult. Success at both points to something broader. Our recent results show that Nemotron is a strong, adaptable foundation for building world-class specialist models. Starting from Nemotron 3, our teams used supervised fine-tuning (SFT), reinforcement learning (RL), and feedback-driven inference to create systems that reached gold-medal level at both IMO 2026 and IOI 2026 . The IOI result came from a live, prospective run under the same time, internet-access, and submission constraints as human contestants. It was an unofficial, unsupervised benchmark and was not included in the official IOI ranking. The IMO system’s submitted proofs were graded by official IMO graders. \"Easy to fine-tune\" should mean more than making a checkpoint trainable. It should mean that a capable foundation model can be adapted to a demanding domain with a clear, reusable recipe. Across the two projects, that recipe had four parts: The training and inference runs were substantial, but the underlying approach is familiar and reproducible. We did not need to build a new foundation model for every challenge. We specialized Nemotron for the task. For competitive programming, we curated 22,000 problems and generated synthetic reasoning traces to train two specialists. Nemotron-3-Nano-CC, with 30 billion total parameters and 3 billion active parameters, received both SFT and RL. Nemotron-3-Ultra-CC, with 550 billion total parameters and 55 billion active parameters, received SFT. The progression on IOI 2025 makes the value of specialization easy to see. Nano improved from 130 points before post-training to 280 after SFT and 291 after RL. With GenCorrect, our iterative generate-evaluate-refine strategy, it reached 468 points and crossed the gold threshold of 438.3. Ultra-CC reached 502 points with the same test-time strategy. These experiments also showed that adaptation does not have to look the same at every scale. SFT produced most of Nano's gain, with RL adding a smaller but consistent improvement. For the stronger Ultra model, one SFT epoch was enough to outperform the fully post-trained Nano model across IOI, ICPC, and LiveCodeBench Pro. That finding guided the competition-specific Ultra-CC system used for IOI 2026, which scored 535.4 out of 600. The IMO project applied the same idea to olympiad mathematics. Starting from Nemotron 3 Ultra, we trained one specialist with SFT and another with RL. The SFT corpus contained 414,890 quality-filtered examples across 15,818 unique proof problems. It did more than teach final answers. The data covered proof generation, refinement, verification, and meta-verification, so the model learned to construct arguments, identify gaps, respond to critiques, and judge whether a proof was complete. The RL model was trained on 9,597 proof problems selected near the model's capability frontier. Both post-trained checkpoints outperformed the general-availability model in the development experiments. The SFT checkpoint was strongest in the first search round, while the RL checkpoint achieved the best overall single-checkpoint result. Their strengths were complementary, so the final system used both specialists alongside the general model. For each IMO problem, the models generated candidate proofs, scored them, produced critiques, and refined the most promising attempts. A separate high-compute stage selected the final submission. The entire system worked in natural language, with no formal prover, external tools, or internet access. It scored 30 out of 42 points, including full credit on four of the six problems, and exceeded the official gold-medal threshold. Our earlier IOI 2025 Hugging Face post showed how test-time compute can push open-weight models to gold-level performance. The new results add an important piece: better specialization gives the inference system better candidates, better critics, and better refinements. At IOI, GenCorrect turned the gains from fine-tuning into larger improvements over multiple feedback rounds. At IMO, using complementary SFT and RL checkpoints was more valuable than simply drawing more samples from one checkpoint. In both cases, the best outcome came from combining a capable specialist with a system that could search, verify, and improve. This distinction matters. The medals were not produced by fine-tuning alone, and they were not produced by brute-force sampling alone. They came from co-designing the model, the data, and the inference loop. We want these results to be useful beyond the competitions. The Nemotron Labs IMO 2026 collection brings together the SFT and RL checkpoints, both training datasets, and Nemotron-IMO-Bench, a new benchmark of 200 olympiad-level problems. The IMO paper describes the training approach and generate-verify-refine system, while the NeMo-Skills repository includes the IMO inference pipeline, prompts, submitted proofs, and a reproducible quickstart. For competitive programming, the Nemotron-3-Ultra-CC model is available on Hugging Face, and the IOI paper provides the training recipe and the GenCorrect methodology. The IOI evaluation and inference pipeline are also available in NeMo-Skills . Together, IMO and IOI provide unusually demanding evidence for a simple idea: Nemotron can be fine-tuned into world-class domain specialists, then composed with transparent inference workflows to solve problems at the frontier of human competition. We are excited to see what the Hugging Face community builds next."
-        }
-      ]
-    },
-    {
-      "story_id": "ed705674afd621ae",
-      "title": "Measures We’ve Put in Place to Fight Child Exploitation",
-      "summary": "Today we're sharing the additional measures we've put in place to strengthen our efforts to combat child sexual exploitation on our platforms. The post Measures We’ve Put in Place to Fight Child Exploitation appeared first on Meta Newsroom .",
-      "owners": [
-        "meta"
-      ],
-      "primary_owners": [
-        "meta"
-      ],
-      "fingerprints": [
-        "cd30791e5de6904e"
-      ],
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "owner": "meta",
-          "url": "https://about.fb.com/news/2026/10/measures-weve-put-in-place-to-fight-child-exploitation/",
-          "title": "Measures We’ve Put in Place to Fight Child Exploitation",
-          "published_at": "2026-10-07T13:03:19+00:00",
-          "kind": "primary",
-          "text": "Keeping young people safe on our apps is among the most important work we do, and it never stops. Sophisticated bad actors who try to exploit children online don’t stay in one place. These determined predators move across different platforms, and change their tactics to evade detection. Staying ahead requires constant adaptation and that is why we are continuously evolving our tools, sharing signals across the industry, and reporting offenders to law enforcement so they can be held accountable. Whenever we detect or are made aware of potential child sexual abuse or exploitative content on our platform, we investigate it. If the content violates our policies, we remove it and in cases where the signals indicate malicious sharing by predators, we disable the accounts behind it. We then report the content to the National Center for Missing & Exploited Children (NCMEC), in line with applicable law. But we haven’t stopped there. We have been doing strategic network disruptions on child safety for years – our team of experts including former FBI investigators who conduct manual investigations to proactively uncover, remove and report networks of predatory accounts. We continue to investigate how these networks behave so we can act against them at a network level, not just account by account. Today we’re sharing the additional measures we’ve put in place to strengthen our efforts to combat child sexual exploitation on our platforms. Online predators have shifted their tactics, and advertising is one of the surfaces where we have seen this play out. Bad actors persistently try to exploit the systems, often with content designed specifically to evade detection. An ad can look harmless on its own while directing people towards illegal material hosted off our platforms in a covert way to avoid detection. Once we understood the design of this malicious advertising scheme, we didn’t stop at the ones reported to us. We widened our investigation to find related activity across our platforms, disabled the violating accounts behind it, and blocked the off-platform links involved. We then deployed additional measures, including new AI tools, to address the adversarial tactics we identified and improve the efficacy of our systems for identifying ads that either feature CSAM or that direct people to violating activity off-platform. These included: Our range of AI and automated tools work to proactively detect CSAM and related child safety violations: Globally between January to June 2026, we actioned 33.2 million pieces of child sexual exploitation content from Facebook and Instagram, over 97% found and proactively addressed before anyone reported it, while in India, we actioned 5.3 million pieces of child sexual exploitation content on Facebook and Instagram for the same duration, with over 98% found and proactively addressed before anyone reported it. We’re consistently working with the authorities to hold the people behind these crimes accountable. This September, we announced that Meta will report child safety cases directly to the National Cyber Crime Reporting Portal ( cybercrime.gov.in ) run by the Indian Cybercrime Coordination Centre (I4C). This builds on our existing reporting where we report child sexual abuse material to Law Enforcement through the National Cyber Crime Reporting Portal with the assistance of National Center for Missing & Exploited Children (NCMEC) ."
         }
       ]
     }
