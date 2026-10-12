@@ -94,7 +94,13 @@
   ],
   "image": {
     "query": "person creating video game on laptop screen colorful",
-    "alt": "Persona creando un videojuego en una laptop, sobre la nueva plataforma Playground de Google"
+    "alt": "Persona creando un videojuego en una laptop, sobre la nueva plataforma Playground de Google",
+    "path": "/assets/img/google-playground-juegos-creados-con-ia-1e0c3939.jpg",
+    "credit": ". . / Unsplash",
+    "author": ". .",
+    "author_url": "https://unsplash.com/@visualsofdusk?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/people-sitting-on-chair-watching-concert-5_I8lRiZAtc"
   },
   "sources": [
     {
@@ -104,5 +110,7 @@
       "title": "Introducing Playground: Create and play custom games"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-12T10:52:15+00:00",
+  "updated_at": "2026-10-12T10:52:15+00:00"
 }
