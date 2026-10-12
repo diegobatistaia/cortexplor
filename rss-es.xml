@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 12 Oct 2026 13:02:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:45:44 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft presenta el Maia 300, su chip de IA para inferencia</title>
+      <link>https://cortexplor.com/es/microsoft-presenta-chip-maia-300/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/microsoft-presenta-chip-maia-300/</guid>
+      <description>Microsoft presentó el Maia 300, chip de IA con un 40% más de tokens por megavatio que las GPU líderes, según la empresa, con llegada prevista para 2027.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Mon, 12 Oct 2026 15:45:43 +0000</pubDate>
+    </item>
     <item>
       <title>Google lanza Playground, plataforma de juegos creados con IA</title>
       <link>https://cortexplor.com/es/google-playground-juegos-creados-con-ia/</link>
@@ -238,14 +246,6 @@
       <description>Nvidia descontinuó el Shield TV estándar y subió el precio del Shield Pro un 50% por el mayor costo de memoria ligado a la demanda de IA, según dos medios.</description>
       <category>Mercado de IA</category>
       <pubDate>Mon, 05 Oct 2026 09:28:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google lanza el Gemini 4 Argon, su modelo más avanzado</title>
-      <link>https://cortexplor.com/es/google-lanza-gemini-4-argon-ciberseguridad/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/google-lanza-gemini-4-argon-ciberseguridad/</guid>
-      <description>Google lanzó el Gemini 4 Argon con un precio menor al de Claude Opus 5.5 y GPT-6 Astra, aunque el acceso inicial es solo para socios de ciberseguridad.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Fri, 02 Oct 2026 07:32:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

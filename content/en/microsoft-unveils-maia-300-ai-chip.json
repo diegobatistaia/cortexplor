@@ -7,7 +7,12 @@
   "meta_description": "Microsoft unveiled its Maia 300 AI chip, claiming 40% more tokens per megawatt than leading GPU systems, according to the company, with rollout set for 2027.",
   "keyword": "Microsoft Maia 300 chip",
   "category": "modelos",
-  "tags": ["ai", "microsoft", "chips", "infrastructure"],
+  "tags": [
+    "ai",
+    "microsoft",
+    "chips",
+    "infrastructure"
+  ],
   "body": [
     {
       "type": "p",
@@ -87,12 +92,35 @@
   ],
   "image": {
     "query": "AI server chip data center rack",
-    "alt": "Server rack in a data center with cables and blue lights, used for AI processing"
+    "alt": "Server rack in a data center with cables and blue lights, used for AI processing",
+    "path": "/assets/img/microsoft-unveils-maia-300-ai-chip-766d46bf.jpg",
+    "credit": "Kvistholt Photography / Unsplash",
+    "author": "Kvistholt Photography",
+    "author_url": "https://unsplash.com/@freeche?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/photo-of-computer-cables-oZPwn40zCK4"
   },
   "sources": [
-    {"name": "Microsoft Source", "owner": "microsoft", "url": "https://news.microsoft.com/maia-2026/", "title": "Introducing Microsoft's latest custom chip: Maia 300"},
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/maia-300-novo-chip-da-microsoft-promete-mais-ia-sem-gastar-mais-energia/", "title": "Maia 300: novo chip da Microsoft promete mais IA sem gastar mais energia"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/microsoft-unveils-maia-300-its-most-powerful-ai-chip-yet-and-it-might-make-using-teams-copilot-and-cowork-much-better-at-last", "title": "Microsoft unveils Maia 300, its most powerful AI chip yet - and it might make using Teams, Copilot and Cowork much better at last"}
+    {
+      "name": "Microsoft Source",
+      "owner": "microsoft",
+      "url": "https://news.microsoft.com/maia-2026/",
+      "title": "Introducing Microsoft's latest custom chip: Maia 300"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/maia-300-novo-chip-da-microsoft-promete-mais-ia-sem-gastar-mais-energia/",
+      "title": "Maia 300: novo chip da Microsoft promete mais IA sem gastar mais energia"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/microsoft-unveils-maia-300-its-most-powerful-ai-chip-yet-and-it-might-make-using-teams-copilot-and-cowork-much-better-at-last",
+      "title": "Microsoft unveils Maia 300, its most powerful AI chip yet - and it might make using Teams, Copilot and Cowork much better at last"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-12T15:45:43+00:00",
+  "updated_at": "2026-10-12T15:45:43+00:00"
 }
