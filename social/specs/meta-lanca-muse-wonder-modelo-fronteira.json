@@ -1,0 +1,102 @@
+{
+  "slug": "meta-lanca-muse-wonder-modelo-fronteira",
+  "lang": "pt",
+  "date": "12 out 2026",
+  "no": 36,
+  "category": "Modelos",
+  "kicker": "Modelos de IA · Meta",
+  "headline": "Meta lança o Muse Wonder, seu primeiro modelo de fronteira",
+  "headline_hl": "Muse Wonder",
+  "dek": "O Wonder já está na API e no Muse Code, e a Meta diz que ele rivaliza com os líderes, segundo Meta Newsroom, TechCrunch e The Verge.",
+  "image": {
+    "path": "assets/img/meta-lanca-muse-wonder-modelo-fronteira-9ef4833a.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Lançado<br>12/10",
+  "sources": [
+    "Meta Newsroom",
+    "TechCrunch AI",
+    "The Verge AI"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Wonder e Wonder Full chegam à Meta",
+    "body": [
+      "Na segunda-feira (12), a Meta lançou o Muse Wonder e o Muse Wonder Full, os primeiros modelos de fronteira (os mais capazes da empresa) da divisão Meta Superintelligence Labs (Meta Newsroom, TechCrunch, The Verge).",
+      "O Wonder já está na Meta Model API e para assinantes do Muse Code. O Wonder Full fica restrito a esses assinantes e não será oferecido pela API (TechCrunch). Os dois sucedem o Muse Spark, modelo leve (TechCrunch)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Memória, foco e confirmação antes de agir",
+    "body": "A Meta aposta em agentes que cuidam de tarefas longas e delicadas, como direito, finanças e saúde, e descreve três recursos para isso (Meta Newsroom).",
+    "points": [
+      {
+        "h": "Active Memory",
+        "t": "Retém entre conversas diferentes o que importa para a tarefa em andamento, como entender um contrato de aluguel (Meta Newsroom, TechCrunch)."
+      },
+      {
+        "h": "Active Focus",
+        "t": "Faz o modelo testar outras abordagens quando a tarefa fica difícil e se recuperar de erros sem perder o objetivo original (Meta Newsroom)."
+      },
+      {
+        "h": "Pede confirmação",
+        "t": "Os modelos foram treinados para confirmar antes de agir sobre algo importante e recusar ajuda em atos prejudiciais (Meta Newsroom)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Meta entra na disputa com preço de rival",
+    "body": [
+      "O Wonder custa US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de saída. Token é o pedaço de texto que o modelo processa, e é por ele que se paga. A TechCrunch aproxima o valor do cobrado por GPT-6 Sol e Claude Opus 5.5.",
+      "Em testes internos, a Meta afirma que os modelos se aproximam do GPT-6 Astra e do Claude Fable 5.1 (TechCrunch, The Verge). Ainda não há comparação com o Gemini 4 Argon, que segue em avaliação (The Verge)."
+    ],
+    "stat": {
+      "big": "US$ 4 / US$ 20",
+      "cap": "por milhão de tokens, entrada e saída"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Do agente Muse ao relatório de segurança",
+    "items": [
+      {
+        "h": "12/10",
+        "t": "Wonder disponível na Meta Model API e no Muse Code; Wonder Full só no Muse Code (Meta Newsroom, TechCrunch, The Verge)."
+      },
+      {
+        "h": "Sem data",
+        "t": "Os dois modelos passam a operar o agente Muse da Meta, começando pelos assinantes (Meta Newsroom, TechCrunch, The Verge)."
+      },
+      {
+        "h": "Em breve",
+        "t": "A Meta diz que divulgará um relatório com avaliações de segurança adicionais (Meta Newsroom)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Meta lançou o Muse Wonder, seu primeiro modelo de fronteira, e o Wonder Full, restrito a assinantes do Muse Code.",
+    "body": [
+      "Segundo a TechCrunch, este é o primeiro modelo de fronteira da Meta desde que Alexandr Wang, fundador da Scale AI, reestruturou a área de IA da empresa, em agosto do ano passado. Os modelos foram treinados no centro de dados Prometheus, em Ohio.",
+      "No MemoryBench, teste de aprendizado contínuo e memória, a Meta afirma que o Muse Wonder supera Fable, Opus e Astra (TechCrunch). A pesquisadora Kavya Kopparapu disse que a equipe se esforçou para o modelo lembrar o que importa ao usuário por dias, semanas e meses."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#meta",
+      "#musewonder",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o lançamento do Muse Wonder, primeiro modelo de fronteira da Meta",
+    "Slide 2: a Meta lança o Muse Wonder e o Wonder Full, com acesso pela API e pelo Muse Code",
+    "Slide 3: como funciona o Muse Wonder, com Active Memory, Active Focus e confirmação",
+    "Slide 4: preço do Muse Wonder, US$ 4 e US$ 20 por milhão de tokens, e a comparação com rivais",
+    "Slide 5: o que vem depois do Muse Wonder, do agente Muse ao relatório de segurança",
+    "Slide 6: fontes da matéria sobre o Muse Wonder: Meta Newsroom, TechCrunch, The Verge"
+  ]
+}

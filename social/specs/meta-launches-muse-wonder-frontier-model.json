@@ -1,0 +1,103 @@
+{
+  "slug": "meta-launches-muse-wonder-frontier-model",
+  "lang": "en",
+  "date": "12 Oct 2026",
+  "no": 33,
+  "category": "Models",
+  "kicker": "Models · Meta",
+  "headline": "Meta launches Muse Wonder, its first frontier AI model",
+  "headline_hl": "Muse Wonder",
+  "dek": "Wonder and Wonder Full ship through the API and Muse Code, and Meta says they match rivals (Meta, TechCrunch, The Verge).",
+  "image": {
+    "path": "assets/img/meta-launches-muse-wonder-frontier-model-9ef4833a.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Launched<br>12/10",
+  "sources": [
+    "Meta Newsroom",
+    "TechCrunch AI",
+    "The Verge AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Meta's first frontier release",
+    "body": [
+      "Meta announced on Monday Muse Wonder and Muse Wonder Full, the first frontier models from Meta Superintelligence Labs (Meta Newsroom, TechCrunch, The Verge).",
+      "Wonder is available through the Meta Model API and to Muse Code subscribers. Wonder Full is limited to Muse Code subscribers and is not served through the API (TechCrunch)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Memory, focus and guardrails",
+    "body": "Meta says the models target agentic tasks, where an AI carries out multi-step work for the user (Meta Newsroom).",
+    "points": [
+      {
+        "h": "Active Memory",
+        "t": "Keeps details relevant to an ongoing task across separate conversations, such as a lease review (Meta Newsroom)."
+      },
+      {
+        "h": "Active Focus",
+        "t": "Lets a model try different approaches on a hard task and recover from errors without losing the goal (Meta Newsroom)."
+      },
+      {
+        "h": "Guardrails",
+        "t": "Trained to ask confirmation before important actions and refuse harmful requests (Meta Newsroom)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A benchmark claim against rivals",
+    "body": [
+      "Meta claims, in internal tests from its model card, that the models score comparably to GPT-6 Astra and Claude Fable 5.1 (TechCrunch, The Verge).",
+      "Pricing is roughly in line with GPT-6 Sol and Claude Opus 5.5, per TechCrunch. The Verge says the comparison with Google's Gemini 4 Argon is still unclear."
+    ],
+    "stat": {
+      "big": "$4 / $20",
+      "cap": "Per million input/output tokens (TechCrunch)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Muse agent",
+        "t": "Both models will power Meta's Muse AI agent, rolling out first to subscribers (Meta Newsroom, TechCrunch, The Verge)."
+      },
+      {
+        "h": "Soon",
+        "t": "Meta says a fuller safety report with additional evaluations will be published soon (Meta Newsroom)."
+      },
+      {
+        "h": "No date",
+        "t": "Wonder Full is not served through the API, and no change was announced (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Meta launched Muse Wonder and Muse Wonder Full, the first frontier models from Meta Superintelligence Labs.",
+    "body": [
+      "TechCrunch notes this is the first frontier-level release since Scale AI founder Alexandr Wang restructured Meta's AI efforts in August of last year. The models follow Muse Spark, which Meta describes as a lightweight model built for low latency.",
+      "Research scientist Kavya Kopparapu told TechCrunch the team put effort into making sure the model can remember what matters to a user over days, weeks and months. According to TechCrunch, training took place at Meta's Prometheus data center in Ohio.",
+      "Meta says developers can also use Wonder to find flaws in their code."
+    ],
+    "cta_variant": "A",
+    "cta": "Which long-running tasks would most benefit from a model that remembers across sessions?",
+    "hashtags": [
+      "#cortexplor",
+      "#meta",
+      "#muse",
+      "#frontiermodel"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Meta launching Muse Wonder, its first frontier AI model",
+    "Slide 2: Meta releases Muse Wonder and Wonder Full, with different access through API and Muse Code",
+    "Slide 3: how Muse Wonder uses Active Memory, Active Focus and guardrails",
+    "Slide 4: why Muse Wonder matters: Meta's benchmark claims and API pricing",
+    "Slide 5: what comes next for Muse Wonder: the Muse agent and a safety report",
+    "Slide 6: sources on Meta's Muse Wonder: Meta Newsroom, TechCrunch and The Verge"
+  ]
+}
