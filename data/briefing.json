@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T14:44:06+00:00",
+  "generated_at": "2026-10-12T19:09:06+00:00",
   "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 2,
+  "already_written_today": 3,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,49 +80,94 @@
   ],
   "stories": [
     {
-      "story_id": "86adb2eb60654f11",
-      "title": "Introducing Microsoft’s latest custom chip: Maia 300",
-      "summary": "The post Introducing Microsoft’s latest custom chip: Maia 300 appeared first on Source .",
+      "story_id": "602e80edfd8b14aa",
+      "title": "Silicon Valley's horror shows",
+      "summary": "Hollywood's hottest villain right now is the tech billionaire. Four films hitting theaters this fall put some of Silicon Valley's most powerful and controversial figures in the spotlight: Elon Musk , Mark Zuckerberg, Sam Altman and Elizabeth Holmes. Why it matters: Hollywood's portrayal of Silicon Valley and its leaders is getting darker as negative headlines about the tech industry seep into pop...",
       "owners": [
-        "canaltech",
-        "future-plc",
-        "microsoft"
+        "axios",
+        "siliconangle",
+        "vox-media"
       ],
-      "primary_owners": [
-        "microsoft"
-      ],
+      "primary_owners": [],
       "fingerprints": [
-        "5a6d73fa70f63e19",
-        "64fce5d30b5552a8",
-        "e2d286cd86e192f2"
+        "1d4e5b2b7cbdff30",
+        "7ec8afeed3530ddc",
+        "0c591967cd372520"
       ],
       "sources": [
         {
-          "name": "Microsoft Source",
-          "owner": "microsoft",
-          "url": "https://news.microsoft.com/maia-2026/",
-          "title": "Introducing Microsoft’s latest custom chip: Maia 300",
-          "published_at": "2026-10-12T13:14:40+00:00",
-          "kind": "primary",
+          "name": "Axios",
+          "owner": "axios",
+          "url": "https://www.axios.com/2026/10/11/silicon-valley-tech-founder-movies",
+          "title": "Silicon Valley's horror shows",
+          "published_at": "2026-10-11T12:50:43+00:00",
+          "kind": "press",
           "text": ""
         },
         {
-          "name": "Canaltech",
-          "owner": "canaltech",
-          "url": "https://canaltech.com.br/inteligencia-artificial/maia-300-novo-chip-da-microsoft-promete-mais-ia-sem-gastar-mais-energia/",
-          "title": "Maia 300: novo chip da Microsoft promete mais IA sem gastar mais energia",
-          "published_at": "2026-10-12T13:00:00+00:00",
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+          "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+          "published_at": "2026-10-11T18:33:56+00:00",
           "kind": "press",
-          "text": "A Microsoft revelou, nesta segunda-feira (12), o seu novo chip de IA para servidores. Conhecido como o Maia 300 , o componente processa 40% mais tokens por megawatt do que infraestruturas baseadas em GPUs , permitindo atender mais demandas de IA com a mesma capacidade elétrica . A novidade dá sequência ao Maia 200 , apresentado em janeiro de 2026 , que atende atende cargas de trabalho do Microsoft 365 Copilot e da equipe responsável pelos modelos de IA da empresa. Com a atualização, o chip é voltado para processos de inferência , etapa em que um modelo já treinado recebe informações e produz respostas. O foco inclui conversas extensas, tarefas que exigem raciocínio e agentes capazes de executar várias ações em sequência. Uma das principais mudanças está na organização dos componentes. O Maia 300 utiliza pequenos blocos especializados fabricados pelo processo N2P da TSMC , chamados chiplets, que separam funções como cálculos, controle da memória e comunicação. A arquitetura também procura manter os dados próximos de onde serão utilizados . Essa técnica encurta o caminho percorrido pelas informações, o que reduz a energia gasta para movimentá-las dentro do sistema. Cada acelerador conta com 288 GB de memória HBM4 , com capacidade de transferência de até 18 TB por segundo . A empresa afirma que a combinação ajuda a executar modelos maiores, lidar com conversas mais longas e atender mais solicitações simultaneamente. As mudanças também alcançam os racks, estruturas que abrigam os equipamentos em data centers. Na configuração completa, o sistema reúne 96 aceleradores e promete processar até sete vezes mais tokens que um rack Maia 200 . A implantação do chip está prevista para começar em 2027 ."
+          "text": "Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. When President Donald Trump announced his plans to rebrand artificial intelligence as “ super intelligence ,” you’d be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley’s most powerful are falling in line and trying to give Trump the great AI rebrand he so desires. That Elon Musk was quick to jump on board , promising to rename SpaceXAI to SpaceXSI, isn’t surprising. When, hours after Donald Trump declared that “The White House considers anyone that uses the term, ‘Artificial Intelligence,’ as opposed to the highly accepted new and more accurate term, ‘Super Intelligence,’ THE ENEMY!” Marc Benioff announced that Salesforce would rename AIForce to SIForce ; it seemed like a quick capitulation, but not entirely out of character. Nvidia CEO Jensen Huang attended the summit where the executive order requiring government agencies to use the term “super intelligence” was announced. He’s also aligned himself with Trump, saying he believes the danger posed by AI is overblown. So it was somewhat predictable that when Nvidia declared that it would “commit” $1 billion to scientific advancement, that included “ super intelligence research .” Of course, Huang has a lot to lose if he gets on Trump’s bad side. The latest to cave is Microsoft’s Satya Nadella, who attended the same AI summit as Huang along with Mark Zuckerberg, Sundar Pichai, Jeff Bezos, Dario Amodei, and Musk. In a post calling for building an “ emergency brake ” for AI yesterday, Nadella repeatedly referred to the technology as “super intelligence.” During Trump’s second term, Silicon Valley has repeatedly tried to ingratiate itself with the administration, after having a much more contentious relationship during his first term."
         },
         {
-          "name": "TechRadar",
-          "owner": "future-plc",
-          "url": "https://www.techradar.com/pro/microsoft-unveils-maia-300-its-most-powerful-ai-chip-yet-and-it-might-make-using-teams-copilot-and-cowork-much-better-at-last",
-          "title": "Microsoft unveils Maia 300, its most powerful AI chip yet - and it might make using Teams, Copilot and Cowork much better at last",
-          "published_at": "2026-10-12T13:00:00+00:00",
+          "name": "SiliconANGLE",
+          "owner": "siliconangle",
+          "url": "https://siliconangle.com/2026/10/12/dells-ai-partner-ecosystem-adapts-silicon-valley-build-it-yourself-buyers-dellaileadershipsymposium/",
+          "title": "Dell’s AI partner ecosystem adapts to Silicon Valley’s build-it-yourself buyers",
+          "published_at": "2026-10-12T18:16:07+00:00",
           "kind": "press",
-          "text": "Microsoft has revealed Maia 300, the next generation of its Azure hardware as it prepares to scale up its in-house AI infrastructure to multi-gigawatt deployments. The company says Maia 300, set to begin deployment in 2027, will deliver 40% more tokens per megawatt than other leading GPU-based system - designed primarily for inference, the new release targets long-context reasoning, responsive conversational AI and sustained, multi-step agent tasks. Microsoft says a rack containing 96 Maia 300 accelerators will provide up to seven times the rack-scale token throughput of a Maia 200 rack. Interestingly Microsoft says it expects Maia 300 to help support a new generation of AI across its products and services, from agentic coding in GitHub to large-scale model serving through Microsoft Foundry. But it also expects improved inference and data generation for its Microsoft AI team, and improvements in the likes of Copilot and Cowork, as well as individual products such as Microsoft Teams. Designed with what Microsoft says is an \"inference-first architecture\", Maia 300 is built to improve performance by reducing data movement and making more efficient use of computing, memory and networking resources, Microsoft says, with its software-defined dataflow architecture, combined with AI-assisted kernel optimization, designed to keep data close to the parts of the system that need it. Unsurprisingly, memory is central to the design, as Maia 300 will use a huge eight stacks of HBM4, with a claimed peak bandwidth of 18TB/s within a 950W thermal design power. Microsoft says specialized software can use on-chip SRAM as a scratchpad, easing pressure on HBM during demanding workloads. Sign up to the TechRadar Pro newsletter to get all the top news, opinion, features and guidance your business needs to succeed! The accelerator also introduces a multi-chiplet architecture that separates compute, memory-controller and input/output functions. Its compute chiplets will be built using TSMC’s N2P process. Microsoft says support for low-precision formats, including an enhanced MXFP4, will reduce memory and bandwidth demands, helping the system run larger context windows and increase throughput within the same power envelope. Networking is designed to operate as part of the system’s dataflow rather than as a separate layer. Maia 300 will use high-bandwidth connections between accelerators for tensor parallelism, alongside a custom AI transport based on Ethernet infrastructure. Microsoft says this approach can scale from a single rack to data-center deployments. A Maia 300 rack will contain 96 accelerators within a 167kW power envelope, with 27.6TB of HBM capacity and 1.7 petabytes per second of aggregate HBM bandwidth. Microsoft says that density will let it serve more simultaneous AI interactions and larger workloads from each rack. The launch builds on Maia 200 , which Microsoft says is already running production workloads including Microsoft 365 Copilot and models developed by its Microsoft AI team. The company says Maia 200 delivers up to 1.7 times more tokens per watt than leading GPU infrastructure for built-in AI features in Teams, Copilot and Cowork. GitHub Copilot and Microsoft Foundry are expected to follow by the end of this year. Follow TechRadar on Google News and add us as a preferred source to get our expert news, reviews, and opinion in your feeds. Mike Moore is Deputy Editor at TechRadar Pro. He has worked as a B2B and B2C tech journalist for over a decade, including at one of the UK's leading national newspapers and fellow Future title ITProPortal. When he's not keeping track of all the latest enterprise and workplace trends, he can most likely be found watching, following or taking part in some kind of sport. You must confirm your public display name before commenting Please logout and then login again, you will then be prompted to enter your display name."
+          "text": "Silicon Valley’s AI partner ecosystem is changing as enterprises push artificial intelligence projects out of pilots and into production. In the region where much of the AI stack is invented, infrastructure providers are learning that selling to builders takes a different playbook. That shift is reshaping how Dell Technologies Inc. approaches its West Coast customers. Buyers in the region are among the most technically sophisticated anywhere and often prefer assembling their own stacks to buying packaged solutions, according to Sean O’Connor (pictured), regional manager of ENT West, large enterprise and acquisition, at Dell. “Silicon Valley is interesting because everybody here wants to build versus buy,” he said. “They’re very, very sharp and they’re very, very savvy when it comes to technology.” O’Connor spoke with theCUBE Research’s John Furrier at the Dell “ AI Leadership Symposium, ” during an exclusive broadcast on theCUBE, SiliconANGLE Media’s livestreaming studio. They discussed how Dell sells to Silicon Valley’s builders, its widening AI partner ecosystem and how quickly it can deploy AI infrastructure. (* Disclosure below.) Winning over those builders means demystifying consultative services rather than leading with them, O’Connor explained. Dell’s technology partnerships remain central to that effort, but the company’s definition of an ecosystem is widening. Proximity to Dell Technologies Capital, the company’s venture arm, gives Dell a line into the startups and developer communities its customers already talk to, he noted. “For us, that notion of ecosystem is starting to change,” he said. “Today we’re here with Intel [Corp.], we’re here with SHI [International Corp.], we’re here with Microsoft [Corp]. But that ecosystem also now is starting to bleed into private equity and venture capital.” Deployment speed is another priority for Dell’s AI partner ecosystem. Long-standing relationships with Nvidia Corp., Advanced Micro Devices Inc., Taiwan Semiconductor Manufacturing Co. Ltd. and Micron Technology Inc. give Dell’s field teams credibility in customer conversations, O’Connor explained. Dell also expanded its Dell AI Factory with Nvidia portfolio at its Dell Technologies World conference in May. “We’re rolling out 350 racks within two weeks,” he said. “There’s a lot of new partnerships that are coming up, and they’re coming up to speed very, very fast.” Here’s the complete video interview, part of SiliconANGLE’s and theCUBE’s coverage of Dell’s “ AI Leadership Symposium “: (* Disclosure: TheCUBE is a paid media partner for Dell’s “AI Leadership Symposium.” Neither Dell, the sponsor of theCUBE’s event coverage, nor other sponsors have editorial control over content on theCUBE or SiliconANGLE.) Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. Exclusive: Akuity adds Fleet Management to Kargo Enterprise to replace per-cluster pipelines Phasis develops platform for agentic orientation using World APIs and reality layers Nvidia tackles AI factory scaling bottlenecks with open rack designs and networking advances Cisco Systems scales programmable AI network capacity with new silicon and repluggable optics innovations Mistlabs takes its Ambi AI system out of beta on Apple devices with $26M in funding E-commerce AI startup Loops raises $3.5M to create smoother online shopping experiences Exclusive: Akuity adds Fleet Management to Kargo Enterprise to replace per-cluster pipelines Phasis develops platform for agentic orientation using World APIs and reality layers Nvidia tackles AI factory scaling bottlenecks with open rack designs and networking advances Cisco Systems scales programmable AI network capacity with new silicon and repluggable optics innovations Mistlabs takes its Ambi AI system out of beta on Apple devices with $26M in funding E-commerce AI startup Loops raises $3.5M to create smoother online shopping experiences"
+        }
+      ]
+    },
+    {
+      "story_id": "02a2428830bf09dc",
+      "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+      "owners": [
+        "meta",
+        "techcrunch",
+        "vox-media"
+      ],
+      "primary_owners": [
+        "meta"
+      ],
+      "fingerprints": [
+        "96ebc43c0cf5528f",
+        "5b0bbc20b589187e",
+        "80d24e11891767c4"
+      ],
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "owner": "meta",
+          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+          "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+          "published_at": "2026-10-12T17:08:05+00:00",
+          "kind": "primary",
+          "text": "Fourteen months ago, we began an overhaul of our AI efforts, and in that time we’ve gone from rebuilding our foundations to pushing the frontier. Today, Meta is introducing the Muse Wonder series with Muse Wonder and Muse Wonder Full, our most capable models to date, built on the groundwork we laid with Muse Spark . The models deliver state-of-the-art performance on personal and professional agentic tasks. Whether the job is navigating an insurance claim, understanding a lease, or making sense of someone’s finances, a model has to interpret the information in front of it and work through the problem. Muse Wonder and Muse Wonder Full bring that capability to expert domains including law, finance, and health, along with frontier coding performance for people building everything from a game to an app for a new business. Real work also unfolds over time. That’s why we’ve built our new models to have Active Memory, the ability to carry what matters to you across conversations and bring back the details that are relevant to the task at hand. They’re also equipped with Active Focus, the ability to keep working toward your goal when a task gets hard, try other approaches, recover from errors, and follow through, asking for clarification when needed and checking in before following through on anything important. A personal agent can take on real tasks for you, which often means working across your messages, calendars, and documents. That’s why we trained the Muse Wonder family to avoid sharing private information without permission; turn down requests to assist in performing actually harmful acts; and work to improve security and strengthen defenses against cyber attacks. Developers and security teams can use models like Muse Wonder to find flaws in their own code and strengthen their systems, so we made sure the models can still do that work. We train, evaluate, and release our most capable AI models in line with the standards set out in our Meta Superintelligence Scaling Framework . A full report with additional safety evaluations will be available soon. Muse Wonder is available today through the Meta Model API and Muse Code. It will soon power more of Muse , rolling out first to subscribers. This is a major step toward personal superintelligence for everyone, with much more to come. For a closer look at how these models were built, how they were tested and what they can do, head to our research blog ."
+        },
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "title": "Meta has some Wonder Full new AI models",
+          "published_at": "2026-10-12T17:00:00+00:00",
+          "kind": "press",
+          "text": "Meta says the models compete with the industry’s best and will soon power its Muse agent. Meta says the models compete with the industry’s best and will soon power its Muse agent. Meta is making up for lost time in the AI race. After launching Muse Spark , the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse , it’s now launching two new models it claims can go toe-to-toe with the industry’s best. The new models, Muse Wonder and Muse Wonder Full, are available for Muse Code subscribers starting today. Wonder can also be accessed through the Meta Model API, Meta said. Meta says it eventually plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it “can bring to everyone using Muse.” It hasn’t shared specifics or provided a timeline for either. The company says its new models can rival leading models from OpenAI and Anthropic, including GPT-6 Astra, Claude Opus 5.5, and Claude Fable 5.1, pointing to results from internal testing on several industry benchmarks. It’s unclear how they stack up against Google’s Gemini 4 Argon , whose capabilities are still coming into focus. The launches are part of Meta’s aggressive push to reestablish itself as a major force in AI. The company has poured billions into talent and infrastructure and has been steadily expanding its AI lineup, including with image model Muse Image and a heavy focus on bringing useful AI agents to the masses through Muse ."
+        },
+        {
+          "name": "TechCrunch AI",
+          "owner": "techcrunch",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "published_at": "2026-10-12T17:56:56+00:00",
+          "kind": "press",
+          "text": "Meta’s Superintelligence Lab released a pair of new state-of-the-art models on Monday, Muse Wonder and Muse Wonder Full, representing the company’s first attempt at a frontier model. Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding. According to Meta’s testing (presented in the model card ), Wonder and Wonder Full achieve comparable benchmark scores to Fable 5.1 and GPT-6 Astra. “Together, they mark the next step on our scaling ladder and a major leap toward personal superintelligence,” Meta’s blog post about the models reads. That scale is reflected in the pricing: Accessed through the Meta Model API, Wonder will cost $4 per million input tokens and $20 per million output tokens, making it roughly equivalent in cost to GPT-6 Sol or Opus 5.5. Notably, Wonder Full will only be available to Muse Code subscribers and will not be served through the API. Both models will also be used to power the Muse agent. In keeping with Meta’s interest in developing personal assistants that can perform tasks over a long period, the company placed particular emphasis on the new models’ ability to retain and synthesize information given by the user, a property Meta calls “active memory.” To achieve better recall, Meta highlighted the MemoryBench benchmark , which challenges continual learning and memory construction frameworks. According to the company’s testing, Muse Wonder now scores higher on MemoryBench than Fable, Opus, or Astra. “We put a tremendous amount of effort into making sure your model can remember what’s important to you over days, weeks, months, and beyond,” said research scientist Kavya Kopparapu in a video accompanying the launch. The new models are the first frontier model release since Scale AI founder Alexandr Wang restructured Meta’s AI efforts in August of last year . Since then, Meta has released its lightweight Muse Spark model and Muse agent but has avoided the kind of state-of-the-art model releases OpenAI and Anthropic are known for. According to the post, the models were trained at Meta’s Prometheus data center in central Ohio , which came online earlier this year. When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Get 50% off a second pass The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem. Elon Musk intensifies attack on Ambani over Starlink India launch delay Remember Orkut? Its founder wants to bring it back US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers Elon Musk questions Ambani’s influence as Starlink India launch stalls Cal AI’s 19-year-old founder just raised $10M for his new AI startup Google releases a new local-first Granola competitor Anthropic is giving startups a free year of Claude Team and $1,000 in credits"
         }
       ]
     },
@@ -160,40 +205,6 @@
           "published_at": "2026-10-09T15:20:29+00:00",
           "kind": "primary",
           "text": "Building a cluster scheduler to prioritize high-impact research while maintaining full occupancy On the AI Infrastructure team at Ai2, we’re responsible for providing the institute’s GPU compute capacity, specifically targeting large, distributed training workloads. We think about this task as a pyramid of four metrics that build on each other. The foundation is availability : how often the hardware is healthy and ready for work. Above this is occupancy : the fraction of available time assigned to a specific workload. Next is impact : how often the most valuable workloads are chosen to receive resources. The capstone of the pyramid is utilization : the fraction of GPU capacity used over the lifetime of a workload. This post is about improving the impact of our scheduling decisions. We recently replaced a priority-based scheduler with a system including GPU time budgets, hierarchical fair-share allocation, and a time-slicing contract. As a result, we shifted the debate about how much GPU time each research project deserves from a case-by-case operational task to a transparent administrative budgeting process. At Ai2, we manage thousands of NVIDIA H100, B200, and B300 GPUs arranged in clusters ranging in size from 88 to 1024 GPUs. These clusters are built for large-scale distributed training of AI models, and they serve a group of about 150 internal researchers whose work covers a diverse set of AI domains, including the full model flow of LLM and VLM training, robotics reinforcement learning (RL) simulation, and post-training for scientific agentic use cases. Like many labs, we have demand for GPU time that far exceeds supply. Based on submitted workloads, at any moment in time we have outstanding requests for 2-3x more GPUs than are available. One way to think about this is that every available GPU hour on our cluster has 2-3 different research workloads competing for it. Historically, we used a priority-based scheduler, and we allowed workloads to opt out of preemptability. Each team had a limit on concurrent GPUs that could be used by workloads which were protected from preemption. Preemptible workloads could exceed that limit on idle GPUs. This strategy produced predictable pathologies. For example, we observed instances of GPU “squatting” where users would park no-op workloads they could connect to when the need arose. This occurred because researchers found they could not launch debugging workloads with low enough latency to tackle problems in real time. We also observed priority inflation, where eventually 100% of scheduled workloads used HIGH priority. This meant that lower priority levels were starved of GPU time altogether. Since preemptability was optional, we also found that our on-call engineers spent a majority of their ticket response time negotiating the organized shutdown of non-preemptable workloads running on hosts with known maintenance problems. When these problems emerged, we were slow to identify their root causes. Our initial attempts to ensure the most important work received GPU time were focused on tighter control of how priorities were set, and, ultimately, working around the priority-based scheduler by explicitly assigning GPU monopolies to important projects. While we didn’t recognize it at first, we had built a perfect laboratory for observing the “tragedy of the commons.” Individuals were competing over a scarce, shared resource and, by seeking to maximize individual outcomes, achieving a non-optimal global result and abusing the underlying resource. We were far from the first to observe this kind of interaction. Resource allocation is a fascinating research domain that mixes algorithm development, economics, and system management. A central problem is that users often know the value of their own jobs better than the organization does, but they may have incentives to hide that value or hold on to resources even when doing so hurts total performance. For example, in their 2011 paper introducing Dominant Resource Fairness , Ghodsi et al. recount an anecdote in which a search company provided dedicated machines to jobs only if their users could guarantee high utilization. They soon discovered “users would sprinkle their code with infinite loops to artificially inflate utilization levels.” The hardware changes, but the fundamental problems that make resource allocation complex persist. The classic solution to a tragedy of the commons is to privatize the shared resource—owners are incentivized to maximize the value of their property. When we assigned teams monopolies over sets of GPUs, we were already doing a version of this, but it was too coarse. It caused GPUs to sit idle due to the seasonality of research. Teams are ready to run experiments and training at different times, so assigning a monopoly would ensure that there would be times when no jobs were ready to execute, with another team left waiting for capacity. We were manually solving a knapsack problem , trying to fit dynamically changing research needs into a static schedule. We wanted the ownership incentive, but we also wanted to maintain full occupancy of the GPUs. We decided to iterate on the ownership model. Instead of issuing teams GPUs, we chose to allocate a portion of GPU time. Predicting demand into the future would require knowing the result of novel science experiments, so it cannot be forecast with precision. Priority across research efforts, however, is a question of strategy, and it can be more easily debated and decided in advance. Instead of trying to solve the scheduling puzzle, we enabled leadership to think like investors. Before the workloads exist, decide how to fund each research effort with GPU time based on their judgment of its likely impact. The scheduler could then use that information when prioritizing arriving workloads. With this in mind, we devised a hierarchical system where managers could proportionally allocate GPU time to the projects and researchers they were respon"
-        }
-      ]
-    },
-    {
-      "story_id": "602e80edfd8b14aa",
-      "title": "Silicon Valley's horror shows",
-      "summary": "Hollywood's hottest villain right now is the tech billionaire. Four films hitting theaters this fall put some of Silicon Valley's most powerful and controversial figures in the spotlight: Elon Musk , Mark Zuckerberg, Sam Altman and Elizabeth Holmes. Why it matters: Hollywood's portrayal of Silicon Valley and its leaders is getting darker as negative headlines about the tech industry seep into pop...",
-      "owners": [
-        "axios",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "1d4e5b2b7cbdff30",
-        "7ec8afeed3530ddc"
-      ],
-      "sources": [
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/10/11/silicon-valley-tech-founder-movies",
-          "title": "Silicon Valley's horror shows",
-          "published_at": "2026-10-11T12:50:43+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-          "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-          "published_at": "2026-10-11T18:33:56+00:00",
-          "kind": "press",
-          "text": "Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand. When President Donald Trump announced his plans to rebrand artificial intelligence as “ super intelligence ,” you’d be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley’s most powerful are falling in line and trying to give Trump the great AI rebrand he so desires. That Elon Musk was quick to jump on board , promising to rename SpaceXAI to SpaceXSI, isn’t surprising. When, hours after Donald Trump declared that “The White House considers anyone that uses the term, ‘Artificial Intelligence,’ as opposed to the highly accepted new and more accurate term, ‘Super Intelligence,’ THE ENEMY!” Marc Benioff announced that Salesforce would rename AIForce to SIForce ; it seemed like a quick capitulation, but not entirely out of character. Nvidia CEO Jensen Huang attended the summit where the executive order requiring government agencies to use the term “super intelligence” was announced. He’s also aligned himself with Trump, saying he believes the danger posed by AI is overblown. So it was somewhat predictable that when Nvidia declared that it would “commit” $1 billion to scientific advancement, that included “ super intelligence research .” Of course, Huang has a lot to lose if he gets on Trump’s bad side. The latest to cave is Microsoft’s Satya Nadella, who attended the same AI summit as Huang along with Mark Zuckerberg, Sundar Pichai, Jeff Bezos, Dario Amodei, and Musk. In a post calling for building an “ emergency brake ” for AI yesterday, Nadella repeatedly referred to the technology as “super intelligence.” During Trump’s second term, Silicon Valley has repeatedly tried to ingratiate itself with the administration, after having a much more contentious relationship during his first term."
         }
       ]
     }
