@@ -1,0 +1,40 @@
+{
+  "lang": "pt",
+  "slug": "meta-lanca-muse-wonder-modelo-fronteira",
+  "story_id": "02a2428830bf09dc",
+  "title": "Meta lança Muse Wonder, seu primeiro modelo de fronteira",
+  "dek": "Wonder e Wonder Full chegam hoje à API e ao Muse Code, e a empresa diz que rivalizam com GPT-6 Astra e Claude Opus 5.5, segundo TechCrunch e The Verge.",
+  "meta_description": "A Meta lançou os modelos Wonder e Wonder Full, segundo comunicado da empresa, TechCrunch e The Verge. Veja preço, disponibilidade e o que a empresa promete.",
+  "keyword": "Meta Muse Wonder",
+  "category": "modelos",
+  "tags": ["ia", "meta", "modelos", "agentes"],
+  "body": [
+    {"type": "p", "text": "A Meta anunciou nesta segunda-feira (12) o lançamento do Muse Wonder e do Muse Wonder Full, os primeiros modelos de fronteira da divisão Meta Superintelligence Labs, segundo comunicado da própria empresa. A TechCrunch e o The Verge confirmam o lançamento.", "items": []},
+    {"type": "p", "text": "Os dois modelos sucedem o Muse Spark, descrito pela Meta como um modelo leve voltado a respostas rápidas. Segundo a TechCrunch, Wonder e Wonder Full são maiores e, segundo a empresa, mais capazes, com desempenho superior em tarefas complexas como programação.", "items": []},
+    {"type": "h2", "text": "Disponibilidade e preço", "items": []},
+    {"type": "p", "text": "O Wonder já pode ser usado hoje pela Meta Model API e também está liberado para assinantes do Muse Code, segundo a Meta, a TechCrunch e o The Verge. O Wonder Full, por sua vez, fica restrito aos assinantes do Muse Code e não será oferecido pela API, de acordo com a TechCrunch.", "items": []},
+    {"type": "p", "text": "A TechCrunch informa que o acesso ao Wonder pela API custa US$ 4 por milhão de tokens de entrada e US$ 20 por milhão de tokens de saída, valor que a publicação aproxima do cobrado por GPT-6 Sol e Claude Opus 5.5.", "items": []},
+    {"type": "h2", "text": "O que a Meta diz sobre o desempenho", "items": []},
+    {"type": "p", "text": "Segundo a Meta, os novos modelos atingem desempenho de ponta em tarefas de agentes pessoais e profissionais, com foco em domínios como direito, finanças e saúde. A empresa afirma, em testes internos apresentados no cartão do modelo, que o desempenho de Wonder e Wonder Full se aproxima do GPT-6 Astra e do Claude Fable 5.1 — comparação citada tanto pela TechCrunch quanto pelo The Verge.", "items": []},
+    {"type": "p", "text": "O The Verge observa que ainda não é possível comparar os novos modelos ao Gemini 4 Argon, do Google, porque as capacidades do modelo da rival seguem em avaliação.", "items": []},
+    {"type": "h2", "text": "Memória que atravessa conversas", "items": []},
+    {"type": "p", "text": "A Meta chama de Active Memory a capacidade de reter, entre conversas diferentes, as informações que importam para a tarefa em andamento — útil, segundo a empresa, para processos longos como entender um contrato de aluguel ou organizar as finanças de alguém. A TechCrunch cita o MemoryBench, teste voltado a avaliar aprendizado contínuo e construção de memória, no qual a empresa afirma que o Muse Wonder supera o Fable, o Opus e o Astra.", "items": []},
+    {"type": "h2", "text": "Segurança e autonomia controlada", "items": []},
+    {"type": "p", "text": "Segundo a Meta, os dois modelos foram treinados para pedir confirmação antes de agir sobre qualquer coisa importante, recusar pedidos de ajuda em atos prejudiciais e evitar compartilhar informações privadas sem permissão. A empresa afirma que o recurso batizado de Active Focus permite que os modelos continuem tentando abordagens diferentes quando uma tarefa fica difícil, e que se recuperem de erros sem abandonar o objetivo original.", "items": []},
+    {"type": "p", "text": "A Meta diz ainda que equipes de segurança podem usar o Wonder para encontrar falhas no próprio código e reforçar defesas contra ataques. Segundo a empresa, o treinamento, a avaliação e o lançamento dos modelos seguem os parâmetros do que ela chama de Meta Superintelligence Scaling Framework, e um relatório com avaliações de segurança adicionais será divulgado em breve.", "items": []},
+    {"type": "h2", "text": "Próximo passo é o agente Muse", "items": []},
+    {"type": "p", "text": "Meta, TechCrunch e The Verge confirmam que os dois modelos vão passar a operar o agente de IA Muse da empresa, começando pelos assinantes. A TechCrunch destaca que este é o primeiro lançamento de um modelo de fronteira desde que o fundador da Scale AI, Alexandr Wang, reestruturou a área de inteligência artificial da Meta, em agosto do ano passado.", "items": []},
+    {"type": "p", "text": "A pesquisadora da Meta Kavya Kopparapu disse à TechCrunch que a equipe dedicou \"um esforço tremendo para garantir que o modelo possa lembrar o que é importante para o usuário ao longo de dias, semanas, meses e mais\". Segundo o The Verge, a Meta já vinha investindo bilhões em talento e infraestrutura e expandindo seu portfólio de IA com o modelo de imagem Muse Image e o agente Muse, lançados antes do Wonder.", "items": []},
+    {"type": "p", "text": "Segundo a TechCrunch, os modelos foram treinados no centro de dados Prometheus, da Meta, em Ohio, que entrou em operação ainda este ano.", "items": []}
+  ],
+  "image": {
+    "query": "AI language model chip technology abstract",
+    "alt": "Representação abstrata de um chip de inteligência artificial em tons azuis"
+  },
+  "sources": [
+    {"name": "Meta Newsroom", "owner": "meta", "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/", "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/", "title": "Meta releases its first frontier model, Muse Wonder"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model", "title": "Meta has some Wonder Full new AI models"}
+  ],
+  "status": "draft"
+}
