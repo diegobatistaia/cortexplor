@@ -1,0 +1,103 @@
+{
+  "slug": "microsoft-revela-chip-maia-300",
+  "lang": "pt",
+  "date": "12 out 2026",
+  "no": 35,
+  "category": "Modelos",
+  "kicker": "Chips · Microsoft",
+  "headline": "Microsoft revela o Maia 300, chip de IA para inferência",
+  "headline_hl": "Maia 300",
+  "dek": "Segundo a Canaltech e a TechRadar, o chip processa 40% mais tokens por megawatt que GPUs líderes e chega em 2027.",
+  "image": {
+    "path": "assets/img/microsoft-revela-chip-maia-300-766d46bf.jpg",
+    "credit": "Kvistholt Photography / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Revelado<br>12/10",
+  "sources": [
+    "Microsoft Source",
+    "Canaltech",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um chip novo para responder",
+    "body": [
+      "A Microsoft revelou em 12/10 o Maia 300, chip voltado à inferência, etapa em que um modelo já treinado responde a pedidos. Ele substitui o Maia 200, lançado em janeiro (Canaltech, TechRadar).",
+      "A implantação nos data centers da empresa está prevista para 2027. A Microsoft afirma que o chip processa 40% mais tokens por megawatt que as infraestruturas líderes baseadas em GPU (Canaltech, TechRadar)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Chiplets, memória e rede própria",
+    "body": "O Maia 300 foi desenhado para conversas longas, raciocínio em várias etapas e agentes (Canaltech, TechRadar).",
+    "points": [
+      {
+        "h": "Chiplets",
+        "t": "Blocos menores, fabricados no processo N2P da TSMC, dividem cálculo, memória e comunicação (Canaltech, TechRadar)."
+      },
+      {
+        "h": "Memória",
+        "t": "Cada acelerador tem 288 GB de memória HBM4 e transfere até 18 terabytes por segundo (Canaltech)."
+      },
+      {
+        "h": "Rack",
+        "t": "São 96 aceleradores por rack, com até sete vezes mais tokens que um rack do Maia 200 (Canaltech, TechRadar)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Mais respostas por energia gasta",
+    "body": [
+      "Tokens são as unidades de texto que o modelo consome e produz. A métrica por megawatt indica quantas respostas o chip entrega por energia gasta, central para conter o consumo elétrico da IA (Canaltech, TechRadar).",
+      "O Maia 200 já roda cargas do Microsoft 365 Copilot e de modelos da equipe de IA da Microsoft, segundo a Canaltech e a TechRadar. A empresa diz que ele entrega até 1,7 vez mais tokens por watt (TechRadar)."
+    ],
+    "stat": {
+      "big": "40%",
+      "cap": "mais tokens por megawatt, segundo a Microsoft"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Copilot primeiro, chip em 2027",
+    "items": [
+      {
+        "h": "2027",
+        "t": "Previsão para a implantação do Maia 300 nos data centers da Microsoft (Canaltech, TechRadar)."
+      },
+      {
+        "h": "Fim do ano",
+        "t": "A empresa prevê que o GitHub Copilot e o Microsoft Foundry comecem a usar o chip (TechRadar)."
+      },
+      {
+        "h": "Sem data",
+        "t": "Preço e venda a clientes externos não foram informados pela Microsoft nem pelas fontes (Canaltech, TechRadar)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Microsoft revelou o Maia 300, chip de IA para inferência com 40% mais tokens por megawatt que GPUs.",
+    "body": [
+      "Segundo a TechRadar, cada chip opera com 950 watts, e o rack de 96 aceleradores funciona com até 167 kW. A Microsoft adicionou suporte a formatos de baixa precisão, como uma versão aprimorada do MXFP4, para reduzir a demanda de memória.",
+      "A comunicação entre os aceleradores usa conexões dedicadas ao paralelismo de tensores (divide um modelo entre vários chips) e transporte próprio de IA sobre Ethernet, de acordo com a TechRadar.",
+      "Nem a Canaltech nem a TechRadar informaram o preço ou se o Maia 300 será vendido a clientes externos."
+    ],
+    "cta_variant": "A",
+    "cta": "O consumo de energia deve ser a principal métrica para comparar chips de IA em data centers?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#maia300",
+      "#chips"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Microsoft revelar o Maia 300, chip de IA para inferência",
+    "Slide 2: a Microsoft revela o Maia 300, que substitui o Maia 200 e chega em 2027",
+    "Slide 3: como o Maia 300 funciona: chiplets, memória HBM4 e racks de 96 aceleradores",
+    "Slide 4: o Maia 300 processa 40% mais tokens por megawatt, segundo a Microsoft",
+    "Slide 5: Maia 300 chega aos data centers em 2027; preço e venda externa sem informação",
+    "Slide 6: fontes sobre o Maia 300 da Microsoft: Microsoft Source, Canaltech e TechRadar"
+  ]
+}
