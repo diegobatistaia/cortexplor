@@ -3,34 +3,33 @@
     "acao": "publicar",
     "itens": [
       {
-        "slug": "character-ai-pede-falencia-vende-disney",
+        "slug": "reino-unido-alerta-ataque-cibernetico-ia",
         "lang": "pt"
       },
       {
-        "slug": "character-ai-files-bankruptcy-disney-sale",
+        "slug": "uk-minister-warns-ai-cyberattack-risk",
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-10-13T13:57:47-03:00"
+    "pedido_em": "2026-10-13T19:58:07-03:00"
   },
-  "em": "2026-10-13T13:58:12-03:00",
-  "ok": true,
+  "em": "2026-10-13T19:58:28-03:00",
+  "ok": false,
   "itens": [
     {
-      "slug": "character-ai-pede-falencia-vende-disney",
+      "slug": "reino-unido-alerta-ataque-cibernetico-ia",
       "lang": "pt",
       "conta": "cortexplor",
-      "ok": true,
-      "media_id": "17972144184170171",
-      "permalink": "https://www.instagram.com/p/DecSrIXlCAr/"
+      "ok": false,
+      "erro": "HTTP 400 em 17841424687773066/media_publish: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"APyXF8Vn4G66rBi2r2aDnOg\"}}"
     },
     {
-      "slug": "character-ai-files-bankruptcy-disney-sale",
+      "slug": "uk-minister-warns-ai-cyberattack-risk",
       "lang": "en",
       "conta": "cortexplor.en",
       "ok": true,
-      "media_id": "18110877125165627",
-      "permalink": "https://www.instagram.com/p/DecSvDHlM9r/"
+      "media_id": "18073547384753769",
+      "permalink": "https://www.instagram.com/p/Dec8BLAFB1t/"
     }
   ]
 }
