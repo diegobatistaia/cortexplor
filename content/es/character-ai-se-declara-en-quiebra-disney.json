@@ -7,29 +7,105 @@
   "meta_description": "Character.AI se declaró en quiebra en EE. UU. y aceptó a Disney como primer postor por sus activos, con una oferta de 20 millones de dólares, según dos medios.",
   "keyword": "Character.AI quiebra Disney",
   "category": "mercado",
-  "tags": ["ia", "character-ai", "disney", "quiebra", "chatbots"],
+  "tags": [
+    "ia",
+    "character-ai",
+    "disney",
+    "quiebra",
+    "chatbots"
+  ],
   "body": [
-    {"type": "p", "text": "La startup de chatbots Character.AI se declaró en quiebra bajo el Capítulo 11 en Estados Unidos —un proceso legal que permite a una empresa reorganizarse o vender activos bajo protección de acreedores— para facilitar la venta de la compañía, según The Verge y Engadget.", "items": []},
-    {"type": "p", "text": "The Verge y Engadget describen a Character.AI como un servicio en el que los usuarios conversan o interpretan escenarios con personajes de chatbot creados por otros usuarios o por la propia plataforma. Ese es el tipo de producto —pensado para la conversación y el juego de rol con IA, no para tareas de productividad— que ahora está en juego en una subasta supervisada por la justicia estadounidense.", "items": []},
-    {"type": "p", "text": "Ambos medios informan que Disney fue aceptada como \"stalking horse\", el término usado en procesos de quiebra para la primera oferta, que fija un precio base para la venta. Disney ofreció 20 millones de dólares por activos no especificados, según The Verge y Engadget, y esa cifra podría subir si otros postores presentan ofertas mayores.", "items": []},
-    {"type": "p", "text": "Ambos medios reportan que Character.AI listó pasivos estimados entre 50 y 100 millones de dólares en la solicitud. The Verge y Engadget también informan que, como parte del acuerdo, Disney daría apoyo en la transición con personal que ya había contratado previamente de la propia Character.AI.", "items": []},
-    {"type": "p", "text": "El papel de \"stalking horse\" existe porque, en el Capítulo 11, los activos de una empresa en dificultades suelen venderse mediante una subasta supervisada por un tribunal, no negociarse en privado con un único comprador. Tener una oferta inicial pública, como la de Disney, le da a los acreedores un precio mínimo y un plazo para atraer mejores ofertas antes de que el tribunal apruebe al ganador, lo que The Verge y Engadget señalan que ocurriría entre fines de noviembre y principios de diciembre.", "items": []},
-    {"type": "p", "text": "Ambos medios señalan que la empresa planea mantener sus servicios funcionando, incluidas las suscripciones de pago, mientras avanza la venta. The Verge y Engadget confirman, cada uno con sus propias palabras, que la plataforma podría cerrarse si no se encuentra un comprador adecuado para entonces.", "items": []},
-    {"type": "h2", "text": "De las cartas de cese a la contratación de su ex CEO", "items": []},
-    {"type": "p", "text": "Disney había enviado previamente cartas de cese y desistimiento a Character.AI por considerar que chatbots no autorizados basados en sus personajes dañaban su marca, según The Verge y Engadget. Pese a ese historial, Disney contrató recientemente a Karandeep Anand, hasta entonces director ejecutivo de Character.AI, como su nuevo director de tecnología, según ambos medios.", "items": []},
-    {"type": "p", "text": "No es la primera vez que Character.AI pierde una parte importante de su equipo: The Verge y Engadget reportan que Google pagó más de 2.000 millones de dólares en 2024 para contratar a buena parte del talento de la empresa, incluidos los cofundadores Noam Shazeer y Daniel De Freitas.", "items": []},
-    {"type": "h2", "text": "Años de escrutinio legal por la seguridad de los chatbots", "items": []},
-    {"type": "p", "text": "The Verge y Engadget coinciden en que Character.AI ha enfrentado demandas e investigaciones de autoridades estadounidenses por la seguridad de sus propios chatbots en los últimos años, incluso mientras la base de usuarios de la aplicación crecía.", "items": []},
-    {"type": "p", "text": "El panorama que describen ambos medios ayuda a entender la solicitud de quiebra: la misma empresa que perdió cofundadores ante Google en 2024, recibió cartas formales de cese de Disney por el uso no autorizado de sus personajes y enfrentó demandas e investigaciones sobre la seguridad de sus propios chatbots es ahora la que lista pasivos de hasta 100 millones de dólares y acepta a su antigua rival corporativa como compradora de sus activos.", "items": []},
-    {"type": "p", "text": "Ni The Verge ni Engadget informan que los fundadores originales de Character.AI sigan hoy en la empresa. Ambos medios ubican, en cambio, el talento que construyó Character.AI primero en Google, que contrató a Shazeer y De Freitas en 2024, y ahora en Disney, que ha incorporado tanto a Anand como a parte del personal técnico antes de que se cierre la venta de los activos.", "items": []}
+    {
+      "type": "p",
+      "text": "La startup de chatbots Character.AI se declaró en quiebra bajo el Capítulo 11 en Estados Unidos —un proceso legal que permite a una empresa reorganizarse o vender activos bajo protección de acreedores— para facilitar la venta de la compañía, según The Verge y Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge y Engadget describen a Character.AI como un servicio en el que los usuarios conversan o interpretan escenarios con personajes de chatbot creados por otros usuarios o por la propia plataforma. Ese es el tipo de producto —pensado para la conversación y el juego de rol con IA, no para tareas de productividad— que ahora está en juego en una subasta supervisada por la justicia estadounidense.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ambos medios informan que Disney fue aceptada como \"stalking horse\", el término usado en procesos de quiebra para la primera oferta, que fija un precio base para la venta. Disney ofreció 20 millones de dólares por activos no especificados, según The Verge y Engadget, y esa cifra podría subir si otros postores presentan ofertas mayores.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ambos medios reportan que Character.AI listó pasivos estimados entre 50 y 100 millones de dólares en la solicitud. The Verge y Engadget también informan que, como parte del acuerdo, Disney daría apoyo en la transición con personal que ya había contratado previamente de la propia Character.AI.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El papel de \"stalking horse\" existe porque, en el Capítulo 11, los activos de una empresa en dificultades suelen venderse mediante una subasta supervisada por un tribunal, no negociarse en privado con un único comprador. Tener una oferta inicial pública, como la de Disney, le da a los acreedores un precio mínimo y un plazo para atraer mejores ofertas antes de que el tribunal apruebe al ganador, lo que The Verge y Engadget señalan que ocurriría entre fines de noviembre y principios de diciembre.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ambos medios señalan que la empresa planea mantener sus servicios funcionando, incluidas las suscripciones de pago, mientras avanza la venta. The Verge y Engadget confirman, cada uno con sus propias palabras, que la plataforma podría cerrarse si no se encuentra un comprador adecuado para entonces.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "De las cartas de cese a la contratación de su ex CEO",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Disney había enviado previamente cartas de cese y desistimiento a Character.AI por considerar que chatbots no autorizados basados en sus personajes dañaban su marca, según The Verge y Engadget. Pese a ese historial, Disney contrató recientemente a Karandeep Anand, hasta entonces director ejecutivo de Character.AI, como su nuevo director de tecnología, según ambos medios.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No es la primera vez que Character.AI pierde una parte importante de su equipo: The Verge y Engadget reportan que Google pagó más de 2.000 millones de dólares en 2024 para contratar a buena parte del talento de la empresa, incluidos los cofundadores Noam Shazeer y Daniel De Freitas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Años de escrutinio legal por la seguridad de los chatbots",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge y Engadget coinciden en que Character.AI ha enfrentado demandas e investigaciones de autoridades estadounidenses por la seguridad de sus propios chatbots en los últimos años, incluso mientras la base de usuarios de la aplicación crecía.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El panorama que describen ambos medios ayuda a entender la solicitud de quiebra: la misma empresa que perdió cofundadores ante Google en 2024, recibió cartas formales de cese de Disney por el uso no autorizado de sus personajes y enfrentó demandas e investigaciones sobre la seguridad de sus propios chatbots es ahora la que lista pasivos de hasta 100 millones de dólares y acepta a su antigua rival corporativa como compradora de sus activos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ni The Verge ni Engadget informan que los fundadores originales de Character.AI sigan hoy en la empresa. Ambos medios ubican, en cambio, el talento que construyó Character.AI primero en Google, que contrató a Shazeer y De Freitas en 2024, y ahora en Disney, que ha incorporado tanto a Anand como a parte del personal técnico antes de que se cierre la venta de los activos.",
+      "items": []
+    }
   ],
   "image": {
     "query": "smartphone chat app icon close up",
-    "alt": "Primer plano de una pantalla de smartphone con el ícono de una aplicación de chat con IA"
+    "alt": "Primer plano de una pantalla de smartphone con el ícono de una aplicación de chat con IA",
+    "path": "/assets/img/character-ai-se-declara-en-quiebra-disne-a2577395.jpg",
+    "credit": "Ritupon Baishya / Unsplash",
+    "author": "Ritupon Baishya",
+    "author_url": "https://unsplash.com/@clynt?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/edge-of-a-dark-tablet-showing-power-and-volume-buttons-HvCEdJrLn94"
   },
   "sources": [
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney", "title": "Character.AI files for bankruptcy"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/", "title": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts"}
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "title": "Character.AI files for bankruptcy"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
+      "title": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-13T15:51:53+00:00",
+  "updated_at": "2026-10-13T15:51:53+00:00"
 }
