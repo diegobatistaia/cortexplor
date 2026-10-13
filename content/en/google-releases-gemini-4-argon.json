@@ -1,0 +1,124 @@
+{
+  "lang": "en",
+  "slug": "google-releases-gemini-4-argon",
+  "story_id": "9bc1235afd1d9cf1",
+  "title": "Google Releases Gemini 4 Argon for Developers and Pro Users",
+  "dek": "The new model reaches the Gemini API, app and Antigravity priced a fifth below GPT-6 Astra and Claude, according to Google, The Verge and Estadão.",
+  "meta_description": "Google rolls out Gemini 4 Argon to developers and Pro and Ultra users, pricing it a fifth below GPT-6 Astra and Claude, according to Google and The Verge.",
+  "keyword": "Gemini 4 Argon",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "models"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google began rolling out Gemini 4 Argon on Tuesday to developers, enterprise customers and Pro and Ultra subscribers, according to The Verge, Xataka, Estadão and Hipertextual. The model reaches the paid Gemini API, the Gemini app, AI Mode in Search and, for Ultra subscribers, the Antigravity agentic coding platform — the broadest access Argon has had since Google first revealed it.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The release expands access to a model Google first announced in late September, when it limited use to a group of cybersecurity experts and trusted testers, according to the four outlets. The Verge notes that the narrow early release followed the same pattern as other recent frontier model launches, which test for potential risks before opening to the public.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A global rollout, and Google's most capable model yet",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Estadão and Xataka both describe Tuesday's rollout as global, the first time Argon has moved beyond its restricted testing group. Both outlets also describe the model as the most capable Google has built so far.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Launch pricing undercuts rivals by about 80%",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Argon launches at an introductory price of $2 per million input tokens and $10 per million output tokens, roughly a fifth of what OpenAI charges for GPT-6 Astra and Anthropic charges for its Fable 5 models, according to The Verge and Estadão.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Those promotional rates hold through the end of November. Starting in December, according to both outlets, the price doubles, though Argon is expected to remain cheaper than its frontier rivals on a per-token basis — final costs still depend on how many tokens each task consumes, since different models can use different numbers of tokens to complete the same job. For companies running large volumes of text through the API, that per-token math, not a flat app subscription, is what shows up on the bill.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Google claims wins across coding, security and science benchmarks",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says Argon beats GPT-6 Astra, Claude Fable 5.1 and Claude Opus 5.5 on internal benchmarks spanning coding, cybersecurity, science, finance and law, according to The Verge, Xataka, Estadão and Hipertextual. The company says the model answers more directly, with less hedging and repetition than its predecessor.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Argon arrives in a market where OpenAI already sells GPT-6 Astra and Anthropic sells its Fable 5.1 and Opus 5.5 models — the same three rival systems Google itself picked as the comparison point for its own internal benchmark tests, according to all four outlets.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Argon also supports a combined limit of up to 1 million tokens across input, reasoning and output in a single task, according to Xataka and Hipertextual. In practice, that lets the model stay on one long job — reviewing an entire codebase, for instance — without restarting its reasoning at each step.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cybersecurity is the headline use case",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Among the uses Google cites is a partnership with cybersecurity firm Wiz, which has started using Gemini 4 to find and fix software vulnerabilities in defensive security systems, according to Xataka and Hipertextual. Both outlets tie that use case to the same security focus that led Google to test the model first with industry experts, rather than opening it directly to Plus or free users.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The release follows months in which Google trailed Anthropic and OpenAI in the race for frontier models, according to The Verge and Hipertextual. Argon's rollout comes a day after Meta announced its own frontier model, Muse Wonder, according to The Verge and Estadão — another sign that the pace of releases among major AI labs hasn't let up this week.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google has not said whether, or when, Argon will reach Plus subscribers or free users, according to The Verge and Estadão.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "glowing blue digital network abstract technology",
+    "alt": "Abstract blue digital network representing an artificial intelligence model"
+  },
+  "sources": [
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+      "title": "Google finally releases Gemini 4 Argon"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/robotica-e-ia/gemini-4-argon-nueva-bestia-google-para-trabajo-pesado-codigo-ciencia-finanzas-ciberseguridad",
+      "title": "Gemini 4 Argon es la nueva bestia de Google para el trabajo pesado: código, ciencia, finanzas y ciberseguridad"
+    },
+    {
+      "name": "Estadão",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/gemini-4-argon-google-libera-sua-ia-mais-poderosa-para-empresas-e-assinantes/",
+      "title": "Gemini 4 Argon: Google libera sua IA mais poderosa para empresas e assinantes"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/inteligencia-artificial/google-lanza-gemini-4-argon-ia-mas-potente/",
+      "title": "Google lanza Gemini 4 Argon, su IA más potente hasta ahora"
+    }
+  ],
+  "status": "draft"
+}
