@@ -1,52 +1,24 @@
 {
   "pedido": {
-    "acao": "conferir",
-    "lang": "pt",
-    "pedido_em": "2026-10-13T20:00:29-03:00"
+    "acao": "publicar",
+    "itens": [
+      {
+        "slug": "reino-unido-alerta-ataque-cibernetico-ia",
+        "lang": "pt"
+      }
+    ],
+    "pedido_em": "2026-10-13T20:01:17-03:00"
   },
-  "em": "2026-10-13T20:00:48-03:00",
+  "em": "2026-10-13T20:01:37-03:00",
   "ok": true,
-  "conta": "cortexplor",
-  "ultimos": [
+  "itens": [
     {
-      "quando": "2026-10-13T16:58:27+0000",
-      "link": "https://www.instagram.com/p/DecSrIXlCAr/",
-      "inicio": "A Character AI pediu recuperação judicial nos EUA e negocia a venda de ativos com a Disney"
-    },
-    {
-      "quando": "2026-10-13T11:59:19+0000",
-      "link": "https://www.instagram.com/p/DebwbRKlUgM/",
-      "inicio": "A Assinatura X da xAI junta Grok, Cursor e X Premium em um único plano, de US$ 8 a US$ 200"
-    },
-    {
-      "quando": "2026-10-12T23:58:41+0000",
-      "link": "https://www.instagram.com/p/Dead9QCkZwb/",
-      "inicio": "A Meta lançou o Muse Wonder, seu primeiro modelo de fronteira, e o Wonder Full, restrito a"
-    },
-    {
-      "quando": "2026-10-12T22:58:39+0000",
-      "link": "https://www.instagram.com/p/DeaXFmOCXpw/",
-      "inicio": "A Microsoft revelou o Maia 300, chip de IA para inferência com 40% mais tokens por megawat"
-    },
-    {
-      "quando": "2026-10-12T16:59:00+0000",
-      "link": "https://www.instagram.com/p/DeZt7hWFD0m/",
-      "inicio": "A OpenAI vai levar o College Planner ao ChatGPT para Adolescentes, para organizar a candid"
-    },
-    {
-      "quando": "2026-10-12T11:59:10+0000",
-      "link": "https://www.instagram.com/p/DeZLoFbFCHe/",
-      "inicio": "O Google lançou o Playground, plataforma que cria jogos a partir de comandos de texto, sem"
-    },
-    {
-      "quando": "2026-10-11T22:58:48+0000",
-      "link": "https://www.instagram.com/p/DeXyT1Oj6P1/",
-      "inicio": "A Anthropic vai banir usuários repetidamente cruéis com o Claude em sua política de uso, a"
-    },
-    {
-      "quando": "2026-10-11T17:59:28+0000",
-      "link": "https://www.instagram.com/p/DeXQDVYIygw/",
-      "inicio": "A Anthropic suspendeu a internet em todas as avaliações internas de IA após a denúncia fal"
+      "slug": "reino-unido-alerta-ataque-cibernetico-ia",
+      "lang": "pt",
+      "conta": "cortexplor",
+      "ok": true,
+      "media_id": "18025689386873046",
+      "permalink": "https://www.instagram.com/p/Dec8SO-Dh2R/"
     }
   ]
 }
