@@ -1,0 +1,103 @@
+{
+  "slug": "google-libera-gemini-4-argon",
+  "lang": "pt",
+  "date": "13 out 2026",
+  "no": 40,
+  "category": "Modelos",
+  "kicker": "Modelos de IA · Google",
+  "headline": "Google libera o Gemini 4 Argon para empresas e assinantes",
+  "headline_hl": "Gemini 4 Argon",
+  "dek": "O modelo chega à API, ao app Gemini e ao Antigravity, com preço de lançamento um quinto dos rivais, segundo o Google.",
+  "image": {
+    "path": "assets/img/google-libera-gemini-4-argon-7ffc7b60.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Liberado<br>13/10",
+  "sources": [
+    "The Verge",
+    "Xataka",
+    "Estadão",
+    "Hipertextual"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Argon sai do grupo de testes",
+    "body": [
+      "Nesta terça-feira (13), o Google liberou o Gemini 4 Argon para desenvolvedores, empresas e assinantes Pro e Ultra (The Verge, Xataka, Estadão, Hipertextual).",
+      "O modelo chega à API paga, ao app Gemini, ao modo de IA da Busca e, para assinantes Ultra, ao Antigravity. Antes, só especialistas em cibersegurança e testadores o usavam."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Preço promocional e contexto longo",
+    "body": "Segundo The Verge e Estadão, a tarifa de lançamento é cerca de um quinto da cobrada por GPT-6 Astra e pelos modelos Fable 5.",
+    "points": [
+      {
+        "h": "Entrada",
+        "t": "US$ 2 por milhão de tokens de entrada, o pedaço de texto que o modelo lê (Estadão)."
+      },
+      {
+        "h": "Saída",
+        "t": "US$ 10 por milhão de tokens de saída, o texto que o modelo escreve (Estadão)."
+      },
+      {
+        "h": "1 milhão",
+        "t": "Limite combinado de entrada, raciocínio e saída em uma só tarefa (Xataka, Hipertextual)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Google tenta recuperar terreno",
+    "body": [
+      "O Google diz que o Argon supera o GPT-6 Astra, o Claude Fable 5.1 e o Opus 5.5 em testes internos de programação, cibersegurança, ciência, finanças e direito (The Verge, Estadão).",
+      "São testes do próprio Google. O lançamento vem depois de meses em que a empresa ficou atrás de Anthropic e OpenAI (The Verge, Hipertextual)."
+    ],
+    "stat": {
+      "big": "US$ 2 / US$ 10",
+      "cap": "por milhão de tokens, entrada e saída"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Preço dobra em dezembro",
+    "items": [
+      {
+        "h": "Até nov.",
+        "t": "Os preços promocionais valem até o fim de novembro (The Verge, Estadão)."
+      },
+      {
+        "h": "Dezembro",
+        "t": "O custo por token dobra, mas deve seguir abaixo dos rivais de ponta (The Verge, Estadão)."
+      },
+      {
+        "h": "Sem data",
+        "t": "O Google não disse se, nem quando, o Argon chega ao plano Plus ou aos usuários gratuitos (The Verge, Estadão)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Google liberou o Gemini 4 Argon para empresas e assinantes, a US$ 2 e US$ 10 por milhão de tokens.",
+    "body": [
+      "Segundo The Verge e Estadão, o valor é cerca de um quinto do cobrado pelo GPT-6 Astra e pelos modelos Fable 5. Os preços promocionais valem até o fim de novembro e dobram em dezembro.",
+      "O Google afirma que o modelo supera Astra, Fable 5.1 e Opus 5.5 em testes internos. A empresa parceira Wiz já o usa para achar e corrigir vulnerabilidades. O Google não informou quando o modelo chega ao plano Plus. O modelo aceita até 1 milhão de tokens combinados em uma tarefa."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#gemini",
+      "#google",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a liberação do Gemini 4 Argon pelo Google",
+    "Slide 2: o Google libera o Gemini 4 Argon para desenvolvedores, empresas e assinantes Pro e Ultra",
+    "Slide 3: preço do Gemini 4 Argon, US$ 2 de entrada e US$ 10 de saída por milhão de tokens",
+    "Slide 4: o Google diz que o Argon supera rivais em testes internos; preço de US$ 2 e US$ 10",
+    "Slide 5: o preço dobra em dezembro e não há data para o plano Plus",
+    "Slide 6: fontes da matéria sobre o Gemini 4 Argon: The Verge, Xataka, Estadão e Hipertextual"
+  ]
+}

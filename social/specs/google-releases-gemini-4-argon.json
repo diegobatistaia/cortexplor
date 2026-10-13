@@ -1,0 +1,103 @@
+{
+  "slug": "google-releases-gemini-4-argon",
+  "lang": "en",
+  "date": "13 Oct 2026",
+  "no": 37,
+  "category": "Models",
+  "kicker": "AI Models · Google",
+  "headline": "Google releases Gemini 4 Argon for developers and Pro users",
+  "headline_hl": "Gemini 4 Argon",
+  "dek": "The model reaches the API, the Gemini app and Antigravity, priced a fifth below rivals at launch, according to Google.",
+  "image": {
+    "path": "assets/img/google-releases-gemini-4-argon-7ffc7b60.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Released<br>Tuesday",
+  "sources": [
+    "The Verge",
+    "Xataka",
+    "Estadão",
+    "Hipertextual"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Argon leaves the testing group",
+    "body": [
+      "On Tuesday, Google released Gemini 4 Argon to developers, enterprise customers and Pro and Ultra subscribers (The Verge, Xataka, Estadão, Hipertextual).",
+      "It reaches the paid API, the Gemini app, AI Mode in Search and, for Ultra subscribers, Antigravity. Until now only cybersecurity experts and trusted testers had access."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Launch pricing and long context",
+    "body": "According to The Verge and Estadão, launch pricing is about a fifth of what OpenAI charges for GPT-6 Astra and Anthropic for its Fable 5 models.",
+    "points": [
+      {
+        "h": "Input",
+        "t": "$2 per million input tokens, the chunks of text the model reads (The Verge, Estadão)."
+      },
+      {
+        "h": "Output",
+        "t": "$10 per million output tokens, the text the model writes (The Verge, Estadão)."
+      },
+      {
+        "h": "1 million",
+        "t": "Combined limit across input, reasoning and output in a single task (Xataka, Hipertextual)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Google tries to regain ground",
+    "body": [
+      "Google says Argon beats GPT-6 Astra, Claude Fable 5.1 and Opus 5.5 on internal benchmarks in coding, cybersecurity, science, finance and law (The Verge, Estadão).",
+      "Those are Google's own tests. The launch follows months in which it trailed Anthropic and OpenAI (The Verge, Hipertextual)."
+    ],
+    "stat": {
+      "big": "$2 / $10",
+      "cap": "per million tokens, input and output"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Price doubles in December",
+    "items": [
+      {
+        "h": "Thru Nov.",
+        "t": "The promotional rates hold through the end of November (The Verge, Estadão)."
+      },
+      {
+        "h": "December",
+        "t": "Per-token cost doubles but is expected to stay below frontier rivals (The Verge, Estadão)."
+      },
+      {
+        "h": "No date",
+        "t": "Google has not said whether Argon will reach Plus or free users (The Verge, Estadão)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google released Gemini 4 Argon to developers and Pro and Ultra users, at $2 and $10 per million tokens.",
+    "body": [
+      "According to The Verge and Estadão, that is about a fifth of what GPT-6 Astra and the Fable 5 models cost. The promotional rates hold through November and double in December.",
+      "Google says Argon beats Astra, Fable 5.1 and Opus 5.5 on its internal benchmarks. Security firm Wiz already uses it to find and fix vulnerabilities. Google has not said when it reaches Plus subscribers. The model supports up to 1 million combined tokens in a single task."
+    ],
+    "cta_variant": "A",
+    "cta": "Does a cheaper per-token price change which AI model your team would pick?",
+    "hashtags": [
+      "#cortexplor",
+      "#gemini",
+      "#google",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google releasing Gemini 4 Argon",
+    "Slide 2: Google releases Gemini 4 Argon to developers, enterprises and Pro and Ultra subscribers",
+    "Slide 3: Gemini 4 Argon launch pricing, $2 input and $10 output per million tokens",
+    "Slide 4: Google says Argon beats rivals on internal tests; launch price of $2 and $10",
+    "Slide 5: the price doubles in December and there is no date for Plus users",
+    "Slide 6: sources for the Gemini 4 Argon story: The Verge, Xataka, Estadão and Hipertextual"
+  ]
+}
