@@ -1,35 +1,52 @@
 {
   "pedido": {
-    "acao": "publicar",
-    "itens": [
-      {
-        "slug": "reino-unido-alerta-ataque-cibernetico-ia",
-        "lang": "pt"
-      },
-      {
-        "slug": "uk-minister-warns-ai-cyberattack-risk",
-        "lang": "en"
-      }
-    ],
-    "pedido_em": "2026-10-13T19:58:07-03:00"
+    "acao": "conferir",
+    "lang": "pt",
+    "pedido_em": "2026-10-13T20:00:29-03:00"
   },
-  "em": "2026-10-13T19:58:28-03:00",
-  "ok": false,
-  "itens": [
+  "em": "2026-10-13T20:00:48-03:00",
+  "ok": true,
+  "conta": "cortexplor",
+  "ultimos": [
     {
-      "slug": "reino-unido-alerta-ataque-cibernetico-ia",
-      "lang": "pt",
-      "conta": "cortexplor",
-      "ok": false,
-      "erro": "HTTP 400 em 17841424687773066/media_publish: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"APyXF8Vn4G66rBi2r2aDnOg\"}}"
+      "quando": "2026-10-13T16:58:27+0000",
+      "link": "https://www.instagram.com/p/DecSrIXlCAr/",
+      "inicio": "A Character AI pediu recuperação judicial nos EUA e negocia a venda de ativos com a Disney"
     },
     {
-      "slug": "uk-minister-warns-ai-cyberattack-risk",
-      "lang": "en",
-      "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "18073547384753769",
-      "permalink": "https://www.instagram.com/p/Dec8BLAFB1t/"
+      "quando": "2026-10-13T11:59:19+0000",
+      "link": "https://www.instagram.com/p/DebwbRKlUgM/",
+      "inicio": "A Assinatura X da xAI junta Grok, Cursor e X Premium em um único plano, de US$ 8 a US$ 200"
+    },
+    {
+      "quando": "2026-10-12T23:58:41+0000",
+      "link": "https://www.instagram.com/p/Dead9QCkZwb/",
+      "inicio": "A Meta lançou o Muse Wonder, seu primeiro modelo de fronteira, e o Wonder Full, restrito a"
+    },
+    {
+      "quando": "2026-10-12T22:58:39+0000",
+      "link": "https://www.instagram.com/p/DeaXFmOCXpw/",
+      "inicio": "A Microsoft revelou o Maia 300, chip de IA para inferência com 40% mais tokens por megawat"
+    },
+    {
+      "quando": "2026-10-12T16:59:00+0000",
+      "link": "https://www.instagram.com/p/DeZt7hWFD0m/",
+      "inicio": "A OpenAI vai levar o College Planner ao ChatGPT para Adolescentes, para organizar a candid"
+    },
+    {
+      "quando": "2026-10-12T11:59:10+0000",
+      "link": "https://www.instagram.com/p/DeZLoFbFCHe/",
+      "inicio": "O Google lançou o Playground, plataforma que cria jogos a partir de comandos de texto, sem"
+    },
+    {
+      "quando": "2026-10-11T22:58:48+0000",
+      "link": "https://www.instagram.com/p/DeXyT1Oj6P1/",
+      "inicio": "A Anthropic vai banir usuários repetidamente cruéis com o Claude em sua política de uso, a"
+    },
+    {
+      "quando": "2026-10-11T17:59:28+0000",
+      "link": "https://www.instagram.com/p/DeXQDVYIygw/",
+      "inicio": "A Anthropic suspendeu a internet em todas as avaliações internas de IA após a denúncia fal"
     }
   ]
 }
