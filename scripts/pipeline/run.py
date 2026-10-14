@@ -169,7 +169,7 @@ def already_written_story_ids(cfg) -> set[str]:
             if p.get("story_id")}
 
 
-def recent_posts(cfg, days: int = 3, now=None) -> list[dict]:
+def recent_posts(cfg, days: int = 7, now=None) -> list[dict]:
     """Matérias publicadas nos últimos dias, uma por story_id, mais novas primeiro.
 
     Pautas diferentes no feed (clusters diferentes) podem ser o mesmo fato
@@ -251,9 +251,11 @@ def cmd_briefing(cfg, args) -> int:
               f"{legiveis}/{len(story['sources'])} com texto integral")
 
     if data.get("recent_posts"):
-        print("\nJá publicadas nos últimos 3 dias (não repita o mesmo fato, ver seção 2):\n")
+        print("\nJá publicadas nos últimos 7 dias (não repita o mesmo fato, ver seção 2):\n")
         for post in data["recent_posts"]:
             print(f"  {post['published_at'][:10]}  {post['title'][:70]}")
+            if post.get("summary"):
+                print(f"              {post['summary'][:110]}")
 
     if not data.get("posts_per_language_today"):
         print("\nTeto do dia já atingido. Encerre sem commitar.")
@@ -322,6 +324,11 @@ def draft_problems(post: dict, cfg) -> list[str]:
             problems.append("o texto não começa com parágrafo")
         if not any(b.get("type") == "h2" for b in blocks):
             problems.append("sem nenhum H2")
+        practical = cfg.localized("quality_gate.practical_heading", post["lang"])
+        if practical and not any(b.get("type") == "h2"
+                                 and b.get("text", "").strip().lower().startswith(practical.lower())
+                                 for b in blocks):
+            problems.append(f"falta a seção \"{practical}\" (H2), ver voz-cortexplor")
         for i, block in enumerate(blocks):
             if set(block) != {"type", "text", "items"}:
                 problems.append(f"bloco {i} deve ter exatamente type, text e items")
