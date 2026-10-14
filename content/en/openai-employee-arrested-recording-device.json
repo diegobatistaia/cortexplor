@@ -1,0 +1,143 @@
+{
+  "lang": "en",
+  "slug": "openai-employee-arrested-recording-device",
+  "story_id": "c30e273836c47cfa",
+  "title": "OpenAI Employee Arrested After Hidden Recording Device Found",
+  "dek": "The company says it used its own AI models to trace who planted the device in an executive conference room.",
+  "meta_description": "OpenAI found a hidden recording device in its San Francisco office and referred the case to the FBI, which arrested an employee, Guardian and CNBC report.",
+  "keyword": "OpenAI recording device arrest",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "openai",
+    "security",
+    "legal"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI said it discovered a hidden recording device in an executive conference room at its San Francisco headquarters and referred the case to the FBI, which arrested one of the company's employees, according to the Guardian and CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The suspect is Abdulrahman Alfozan, 35, a Saudi national and US permanent resident, arrested on October 9, according to the Guardian, CNBC and Fortune. OpenAI fired him the same day, coordinating the timing with the FBI so as not to disrupt the investigation, according to Fortune.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Hidden behind a television",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Fortune and the Verge, the device was plugged into a USB port on the back of a television in the executive conference room and concealed inside a piece of toilet paper. OpenAI's security team found it on September 30, and the company says it had been planted roughly two days earlier, on September 28.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Executives in that room regularly discussed \"highly confidential technical, commercial, and strategic information,\" including conversations with government officials, according to Fortune and the Verge.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "AI models used to trace the device",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI said it used its own AI models \"to understand the device and where it had come from,\" which led to identifying the employee responsible, according to the Guardian and CNBC. The company said it currently has no indication the employee inappropriately accessed or exfiltrated model weights, source code, or customer data, according to the Guardian, CNBC and Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a statement cited by the Guardian and Fortune, OpenAI said: \"We take protecting our technology, data, and people seriously, and as a matter of national importance.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A bag with a second device",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fortune reports that security cameras recorded Alfozan re-entering the conference room on October 5 — allegedly checking behind the television and finding the device already removed. That same day, according to Fortune, he left an unattended bag in another office room; inside, security found his wallet, an ID, and a second recording device identical to the first. The Guardian also confirms the bag and the second device were found.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Federal charges",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Wired reports Alfozan faces a federal charge of using an electronic device to intercept oral communications. If convicted, he faces up to five years in prison, according to the Guardian and Fortune; the Guardian adds a possible fine of up to $250,000, while Fortune reports an additional three years of supervised release.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "FBI director Kash Patel called the case a top counterintelligence priority, saying \"protecting American SI [Super Intelligence] is essential to safeguarding our nation's economic strength and national security,\" according to Fortune. CNBC reports Patel separately said Alfozan had acted \"to secretly capture sensitive communications about the company's super intelligence technology.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Court documents reviewed by Fortune show that, between September 24 and 30, Alfozan consulted a chatbot account linked to his spouse about building, installing and encrypting audio recordings, creating custom MAC addresses, and running live-listening sessions. He also allegedly used an internal productivity tool to research building addresses, meeting rooms, their capacities, calendars, and the location of company leadership, according to Fortune and the Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fortune reports Alfozan worked as an engineer on OpenAI's \"Agents Platform,\" had previously spent five years at Meta, and holds degrees from MIT and UC Berkeley. He was arrested three days before he was scheduled to leave, with his spouse and a third family member, on a one-way flight to Saudi Arabia via Istanbul.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The case comes amid heightened scrutiny of security across the AI industry: the Guardian reports OpenAI had fired three safety researchers the previous week over an alleged breach of internal policy on handling sensitive information, and that the company faces an investigative subpoena from California's attorney general over hacking incidents involving autonomous agents.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "hidden recording device office security investigation",
+    "alt": "Empty corporate conference room with a television on the wall, illustrating office security",
+    "path": "/assets/img/openai-employee-arrested-recording-devic-ed02bd23.jpg",
+    "credit": "Bernard Hermant / Unsplash",
+    "author": "Bernard Hermant",
+    "author_url": "https://unsplash.com/@bernardhermant?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/selective-focus-photography-of-lens-IhcSHrZXFs4"
+  },
+  "sources": [
+    {
+      "name": "Guardian",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+      "title": "Saudi OpenAI employee arrested after recording device found in headquarters"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/10/13/fbi-arrests-openai-employee-charged-planting-secret-recording-device-conference-room/",
+      "title": "FBI arrests OpenAI employee accused of planting secret recording device in conference room"
+    },
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+      "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room"
+    },
+    {
+      "name": "Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-14T10:52:17+00:00",
+  "updated_at": "2026-10-14T10:52:17+00:00"
+}

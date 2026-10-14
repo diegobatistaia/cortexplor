@@ -1,0 +1,104 @@
+{
+  "slug": "openai-employee-arrested-recording-device",
+  "lang": "en",
+  "date": "14 Oct 2026",
+  "no": 39,
+  "category": "Market",
+  "kicker": "Market · OpenAI",
+  "headline": "OpenAI employee arrested after hidden recording device found",
+  "headline_hl": "hidden recording device",
+  "dek": "The company says it used its own AI models to trace who planted the device, per the Guardian, CNBC and Fortune.",
+  "image": {
+    "path": "assets/img/openai-employee-arrested-recording-devic-ed02bd23.jpg",
+    "credit": "Bernard Hermant / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Arrested<br>Oct 9",
+  "sources": [
+    "Guardian",
+    "Fortune",
+    "CNBC",
+    "Verge",
+    "Wired"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A device hidden in an executive room",
+    "body": [
+      "OpenAI said it found a hidden recording device in an executive conference room in San Francisco and referred the case to the FBI, which arrested an employee (Guardian, CNBC).",
+      "The suspect was arrested on October 9 and fired the same day, with timing coordinated with the FBI (Fortune)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the device was found",
+    "body": "OpenAI's security team found the device on September 30, according to Fortune and the Verge.",
+    "points": [
+      {
+        "h": "USB",
+        "t": "It was plugged into a USB port behind the television, hidden in toilet paper (Fortune, Verge)."
+      },
+      {
+        "h": "Tracing",
+        "t": "OpenAI says it used its own AI models to understand where the device came from (Guardian, CNBC)."
+      },
+      {
+        "h": "The bag",
+        "t": "On October 5, a bag left in the office held a second, identical device (Fortune, Guardian)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Federal charge",
+    "body": [
+      "Wired reports he faces a federal charge of using an electronic device to intercept oral communications. He faces up to five years in prison if convicted (Guardian, Fortune).",
+      "OpenAI says it has no indication of access to model weights, source code or customer data (Guardian, CNBC, Fortune)."
+    ],
+    "stat": {
+      "big": "5 years",
+      "cap": "maximum prison term, if convicted"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Pressure on industry security",
+    "items": [
+      {
+        "h": "Before",
+        "t": "OpenAI fired three safety researchers the week before over internal policy on sensitive information (Guardian)."
+      },
+      {
+        "h": "Now",
+        "t": "The FBI director called the case a top counterintelligence priority (Fortune)."
+      },
+      {
+        "h": "Subpoena",
+        "t": "The company faces a California attorney general subpoena over hacks by autonomous agents (Guardian)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI says an employee was arrested after planting a recording device in an executive room at its headquarters.",
+    "body": [
+      "According to the Guardian and Fortune, the device sat behind a television, plugged into a USB port and hidden in toilet paper. Security found it on September 30. The company says it used its own AI models to trace where it came from.",
+      "The suspect was arrested on October 9 and faces a federal charge, with no conviction yet. OpenAI says it has no indication of access to model weights, source code or customer data. The FBI director called the case a counterintelligence priority."
+    ],
+    "cta_variant": "A",
+    "cta": "How should AI labs protect their most sensitive meetings from insider threats?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#security",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about the arrest of an OpenAI employee over a hidden recording device",
+    "Slide 2: OpenAI says it found a recording device in an executive room and called the FBI",
+    "Slide 3: how the device was found behind the television, and the second one in the bag",
+    "Slide 4: the federal charge, up to five years, and what OpenAI says about its data",
+    "Slide 5: the pressure on industry security, with firings and a California subpoena",
+    "Slide 6: sources for the OpenAI story: Guardian, CNBC, Fortune, Verge and Wired"
+  ]
+}

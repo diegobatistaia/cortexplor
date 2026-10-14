@@ -1,0 +1,103 @@
+{
+  "slug": "funcionario-openai-preso-dispositivo-gravacao",
+  "lang": "pt",
+  "date": "14 out 2026",
+  "no": 42,
+  "category": "Mercado",
+  "kicker": "Mercado · OpenAI",
+  "headline": "Funcionário da OpenAI é preso por instalar escuta na sede",
+  "headline_hl": "escuta na sede",
+  "dek": "A empresa disse ter usado seus próprios modelos de IA para rastrear quem plantou o aparelho, segundo o Guardian e a Fortune.",
+  "image": {
+    "path": "assets/img/funcionario-openai-preso-dispositivo-gra-ed02bd23.jpg",
+    "credit": "Bernard Hermant / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Preso<br>09/10",
+  "sources": [
+    "Guardian",
+    "Fortune",
+    "Wired",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Aparelho escondido em sala executiva",
+    "body": [
+      "A OpenAI disse ter achado um dispositivo de gravação em uma sala de reuniões executiva em São Francisco e levou o caso ao FBI, que prendeu um funcionário (Guardian, Fortune).",
+      "O suspeito foi preso em 9 de outubro e demitido no mesmo dia, com o momento combinado com o FBI (Fortune)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como o aparelho foi achado",
+    "body": "A equipe de segurança da OpenAI encontrou o dispositivo em 30 de setembro, segundo a Fortune e o Guardian.",
+    "points": [
+      {
+        "h": "USB",
+        "t": "Estava ligado a uma porta USB atrás da televisão, escondido em papel higiênico (Fortune, Guardian)."
+      },
+      {
+        "h": "Rastreio",
+        "t": "A OpenAI diz que usou seus próprios modelos de IA para entender a origem do aparelho (Guardian, Tecmundo)."
+      },
+      {
+        "h": "Mochila",
+        "t": "Em 5 de outubro, uma mochila deixada no escritório tinha um segundo aparelho idêntico (Fortune, Guardian)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Acusação federal",
+    "body": [
+      "Segundo o Wired, ele responde a uma acusação federal por usar aparelho eletrônico para interceptar comunicações orais. A pena pode chegar a cinco anos de prisão (Guardian, Fortune).",
+      "A OpenAI diz não ter indício de acesso a pesos de modelos, código-fonte ou dados de clientes (Guardian, Fortune, Tecmundo)."
+    ],
+    "stat": {
+      "big": "5 anos",
+      "cap": "pena máxima de prisão, se houver condenação"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Pressão sobre a segurança do setor",
+    "items": [
+      {
+        "h": "Antes",
+        "t": "A OpenAI demitiu três pesquisadores de segurança na semana anterior, por violar políticas internas (Guardian)."
+      },
+      {
+        "h": "Agora",
+        "t": "O diretor do FBI chamou o caso de prioridade de contrainteligência (Fortune)."
+      },
+      {
+        "h": "Intimação",
+        "t": "A empresa enfrenta intimação do procurador-geral da Califórnia sobre invasões de agentes (Guardian)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI diz que um funcionário foi preso após instalar um dispositivo de gravação em sala executiva da sede.",
+    "body": [
+      "Segundo o Guardian e a Fortune, o aparelho estava atrás de uma televisão, ligado a uma porta USB e escondido em papel higiênico. A equipe de segurança o achou em 30 de setembro. A empresa diz ter usado seus próprios modelos de IA para rastrear a origem.",
+      "O suspeito foi preso em 9 de outubro e responde a uma acusação federal, ainda sem condenação. A OpenAI diz não ter indício de acesso a pesos de modelos, código-fonte ou dados de clientes. O diretor do FBI chamou o caso de prioridade de contrainteligência."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#seguranca",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a prisão de um funcionário da OpenAI por instalar um dispositivo de gravação",
+    "Slide 2: a OpenAI diz ter achado um aparelho de gravação em sala executiva e acionou o FBI",
+    "Slide 3: como o aparelho foi achado, atrás da televisão, e o segundo na mochila",
+    "Slide 4: a acusação federal, com pena de até cinco anos, e o que a OpenAI diz sobre dados",
+    "Slide 5: a pressão sobre a segurança do setor, com demissões e intimação na Califórnia",
+    "Slide 6: fontes da matéria sobre a OpenAI: Guardian, Fortune, Wired e Tecmundo"
+  ]
+}
