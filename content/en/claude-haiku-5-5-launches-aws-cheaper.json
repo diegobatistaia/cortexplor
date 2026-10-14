@@ -104,7 +104,9 @@
       "title": "Anthropic releases Claude Haiku 5.5 small model and halves Sonnet 5.5 cache read prices"
     }
   ],
-  "status": "published",
+  "status": "removed",
   "published_at": "2026-10-08T11:04:56+00:00",
-  "updated_at": "2026-10-08T11:04:56+00:00"
+  "updated_at": "2026-10-08T11:04:56+00:00",
+  "removed_reason": "fato repetido; mesma notícia de anthropic-cuts-claude-haiku-5-5-api-costs",
+  "redirect_to": "https://cortexplor.com/en/anthropic-cuts-claude-haiku-5-5-api-costs/"
 }

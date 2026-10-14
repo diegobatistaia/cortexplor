@@ -111,7 +111,11 @@ fontes só repetem um comunicado; o assunto é lançamento comercial disfarçado
 notícia; ou você não entendeu o fato bem o suficiente para explicá-lo.
 
 **Não repita fato já publicado.** O comando `briefing` lista as matérias dos
-últimos 3 dias (também em `recent_posts` no `data/briefing.json`). Uma pauta nova
+últimos 7 dias, com o título e o resumo de cada uma (também em `recent_posts`
+no `data/briefing.json`). Compare o fato, não o título: em outubro de 2026
+saíram quatro pares repetidos com títulos diferentes (a política do Claude
+contra abuso em 09/10 e de novo em 11/10, o Haiku 5.5 mais barato em 08/10 e
+09/10, entre outros) e foi preciso tirar um de cada par do ar. Uma pauta nova
 no feed pode ser o mesmo acontecimento contado por outros veículos horas
 depois, com outro título. Antes de aprovar, compare o fato central com essa
 lista: se ele já saiu, descarte a pauta. Só escreva sobre o mesmo assunto se
@@ -152,7 +156,8 @@ português e "Mercado de IA" em inglês, porque o recorte regional que interessa
 um público não interessa ao outro.
 
 A voz do site está em `.claude/skills/voz-cortexplor/SKILL.md`. **Leia antes de
-escrever a primeira matéria.** Em resumo: primeiro parágrafo entrega o fato,
+escrever a primeira matéria.** Ela inclui a seção obrigatória "Na prática" /
+"In practice" / "En la práctica", que o `check` confere. Em resumo: primeiro parágrafo entrega o fato,
 frases curtas, número sempre com fonte, zero adjetivo de propaganda, nenhuma
 aspa que não esteja nos fatos confirmados.
 

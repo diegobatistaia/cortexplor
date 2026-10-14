@@ -210,10 +210,11 @@ publishing:
   ramp:
     - {from_day: 0,   posts_per_language: 2}
     - {from_day: 28,  posts_per_language: 3}
-    # Antecipado pelo dono em 05/10/2026: 4 a partir de 06/10 (dia 39) e 5 a
-    # partir de 01/11 (dia 65). Antes: 4 no dia 90 e 5 no dia 150.
+    # Antecipado pelo dono em 05/10/2026: 4 a partir de 06/10 (dia 39).
+    # A fase de 5 por dia (que entraria em 01/11, dia 65) foi adiada em
+    # 14/10/2026: o AdSense recusou o site por "conteúdo de baixo valor", e a
+    # prioridade agora é profundidade, não volume. Volta quando o AdSense aprovar.
     - {from_day: 39,  posts_per_language: 4}
-    - {from_day: 65,  posts_per_language: 5}
   # So avanca de fase se a taxa de aprovacao do gate ficar acima disso
   # pelos ultimos `ramp_window_days` dias.
   # Horarios (fuso do site) em que a coleta roda. O teto de cada dia e dividido
@@ -407,6 +408,14 @@ quality_gate:
   # outra notícia continua exigindo duas fontes independentes.
   official_announcement_alone: true
   word_count: {min: 600, max: 1000}
+  # Toda matéria tem uma seção com este H2, feita só de fatos confirmados úteis
+  # para quem usa IA: quem pode usar, onde, desde quando, quanto custa, o que
+  # muda em relação a antes. É o que separa a matéria de um resumo da
+  # imprensa (AdSense recusou por "conteúdo de baixo valor" em 14/10/2026).
+  practical_heading:
+    pt: Na prática
+    en: In practice
+    es: En la práctica
   # Similaridade maxima com o texto-fonte (shingles de 5 palavras).
   max_source_similarity: 0.18
   # Maior trecho literal permitido em comum com uma fonte, em palavras.

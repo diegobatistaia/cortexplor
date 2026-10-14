@@ -68,6 +68,32 @@ previsão como fato consumado.
 **Fechamento.** Termine no último fato relevante ou no que ficou em aberto. Nada
 de parágrafo de conclusão motivacional, nada de "resta saber se".
 
+## A seção "Na prática" (obrigatória)
+
+Toda matéria tem um H2 com o título exato **"Na prática"** (pt), **"In practice"**
+(en) ou **"En la práctica"** (es). O `check` reprova o rascunho sem ela.
+
+Ela existe porque resumir o que a imprensa já contou não basta: o Google recusou
+o site no AdSense por "conteúdo de baixo valor" (14/10/2026). Esta seção é o que
+o leitor não encontra pronto na matéria-fonte: os fatos confirmados organizados
+para quem usa IA.
+
+O que entra, só com fatos confirmados nas fontes:
+
+- **Quem pode usar e onde**: plano gratuito ou pago, app, site, API, países.
+- **Desde quando**: data de liberação, ou "ainda sem data".
+- **Quanto custa**: preço como a empresa divulgou, na moeda dela, com a fonte.
+- **O que muda em relação a antes**: a versão anterior, o preço anterior, a
+  regra anterior, quando as fontes trazem. Use também o que o próprio
+  Cortexplor já publicou, com link para a matéria (é contexto que só este site
+  tem).
+- **Quem é afetado**, quando a notícia é regra, processo ou incidente.
+
+Uma lista curta (`list`) costuma funcionar melhor que parágrafo. Se um item não
+está nas fontes, ele fica de fora; nunca estime preço, data ou conversão de
+moeda. A seção continua sem "você": "assinantes do plano Plus passam a ter...",
+não "você passa a ter...". E não é opinião nem previsão: é o fato organizado.
+
 ## Lista negra
 
 Herdada do material do dono, e vale integralmente aqui.
