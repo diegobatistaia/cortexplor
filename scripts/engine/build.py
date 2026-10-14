@@ -416,6 +416,19 @@ def build_robots(cfg: Config, out: Path) -> None:
     write(out / "robots.txt", "\n".join(lines) + "\n")
 
 
+def build_ads_txt(cfg: Config, out: Path) -> None:
+    """ads.txt na raiz: declara quem pode vender anúncios no site.
+
+    O AdSense marca "ads.txt não encontrado" sem ele. Sai do client_id do
+    config, então existe antes da aprovação (o Google lê na revisão).
+    """
+    client = str(cfg.get("ads.client_id") or "").strip()
+    if not client:
+        return
+    pub = client.removeprefix("ca-")
+    write(out / "ads.txt", f"google.com, {pub}, DIRECT, f08c47fec0942fa0\n")
+
+
 def manifest_data(cfg: Config, lang: str) -> dict:
     """Manifesto do app instalável (PWA) de um idioma.
 
@@ -638,6 +651,7 @@ def run(cfg: Config, out: Path = ROOT) -> dict:
 
     build_sitemap_index(cfg, out)
     build_robots(cfg, out)
+    build_ads_txt(cfg, out)
     build_manifest(cfg, out)
     build_root(cfg, out)
     build_favicon(cfg, out)
