@@ -7,32 +7,94 @@
   "meta_description": "Google DeepMind aplica el Gemini 4 Argon a la robótica y afirma que el modelo logra un 87% en el test ERQA, superando a otros modelos de IA, según la empresa.",
   "keyword": "Gemini 4 Argon robótica",
   "category": "modelos",
-  "tags": ["ia", "google", "gemini", "robotica"],
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "robotica"
+  ],
   "body": [
-    {"type": "p", "text": "Google DeepMind afirma que su modelo Gemini 4 Argon obtuvo un 87% en el test de razonamiento físico ERQA (Embodied Reasoning QA), que mide la capacidad de resolver problemas espaciales en entornos tridimensionales usando solo razonamiento, y asegura que esto supera a cualquier otro modelo de frontera, según una publicación de la empresa este martes.", "items": []},
-    {"type": "p", "text": "DeepMind describe a Argon como un \"modelo de razonamiento físico de propósito general\", aplicable a todo el ciclo de un proyecto de robótica, desde la planificación hasta el control directo de robots. El mismo modelo ya estaba disponible desde el 13 de octubre para suscriptores de los planes Google AI Pro y Ultra, como informó Cortexplor; la novedad ahora es esta aplicación específica a la robótica, detallada en una serie de demostraciones.", "items": []},
-    {"type": "h2", "text": "Robots reales y simulados", "items": []},
-    {"type": "p", "text": "En uno de los ejemplos, según Google, Argon controló un robot cuadrúpedo Boston Dynamics Spot —con patas de 12 grados de libertad y un brazo de seis— para aprender a pisar el pedal de un cubo de basura y dejar caer latas de refresco dentro. Antes de mover el robot físico, el modelo creó una réplica digital del objeto en MuJoCo, un motor de física usado para simular movimientos, y ensayó allí la acción.", "items": []},
-    {"type": "p", "text": "En otra prueba, la empresa asegura que Argon dirigió un brazo robótico simple para enderezar una taza caída y meter dentro una servilleta arrugada, razonando la tarea a lo largo de varios turnos. En un entorno simulado llamado Gemini Omni World Model, el modelo reorganizó cinco fichas de Scrabble dispersas hasta formar la palabra \"ARGON\", ajustando sus propias órdenes tras revisar cada nueva imagen, en lo que Google llama un \"ciclo visual cerrado\".", "items": []},
-    {"type": "h2", "text": "Aprende observando video y crea sus propias simulaciones", "items": []},
-    {"type": "p", "text": "Según la empresa, Argon también puede observar un video real de una persona realizando una tarea manual, identificar los objetos relevantes y trasladar el movimiento de la mano humana a un robot humanoide bimanual con 76 grados de libertad y manos de cinco dedos. A partir de una foto de un boceto hecho a mano —un humanoide llamado Apollo 2 que lanza una pelota para derribar una pila de cajas—, el modelo construyó por su cuenta la simulación física, calculó la trayectoria del lanzamiento, verificó el resultado en una prueba cerrada y generó un video renderizado de la escena, según Google.", "items": []},
-    {"type": "p", "text": "En una prueba con un robot bimanual ALOHA 2 que dobló una hoja de papel en forma de zorro de origami a lo largo de 136 segundos, el modelo identificó y clasificó automáticamente cada etapa del movimiento, incluidos errores como pausas o pérdida de firmeza en el agarre. En otra prueba, con doce bolas de billar idénticas —una más pesada o más liviana que el resto—, Argon operó dos brazos robóticos Franka FR3 y una balanza para aislar la bola diferente en un máximo de tres pesajes, guiándose solo por imágenes de cámaras.", "items": []},
-    {"type": "p", "text": "La empresa también usó el modelo para generar datos sintéticos de entrenamiento: a partir de una sola foto de una mesa real, Argon construyó una simulación calibrada, definió tareas nuevas y produjo más de 4.500 episodios simulados. Según Google, ese entrenamiento elevó la tasa de éxito de un robot físico en una tarea del 56% al 75% y redujo el tiempo de ejecución de 35 a 24 segundos.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Google DeepMind anunció el trabajo de robótica en su propio blog; hasta la publicación de esta nota, ningún otro medio había confirmado los resultados de forma independiente.",
-      "La empresa no dio fecha de disponibilidad general, precio ni lista de socios para esta aplicación específica de Argon a la robótica.",
-      "El modelo base, Gemini 4 Argon, está disponible desde el 13 de octubre para suscriptores de los planes Google AI Pro y Ultra, en la app Gemini, en el buscador y en la plataforma Antigravity.",
-      "Las cifras de rendimiento citadas —el 87% en el test ERQA y el salto del 56% al 75% en la tasa de éxito— provienen de pruebas internas de Google."
-    ]}
+    {
+      "type": "p",
+      "text": "Google DeepMind afirma que su modelo Gemini 4 Argon obtuvo un 87% en el test de razonamiento físico ERQA (Embodied Reasoning QA), que mide la capacidad de resolver problemas espaciales en entornos tridimensionales usando solo razonamiento, y asegura que esto supera a cualquier otro modelo de frontera, según una publicación de la empresa este martes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind describe a Argon como un \"modelo de razonamiento físico de propósito general\", aplicable a todo el ciclo de un proyecto de robótica, desde la planificación hasta el control directo de robots. El mismo modelo ya estaba disponible desde el 13 de octubre para suscriptores de los planes Google AI Pro y Ultra, como informó Cortexplor; la novedad ahora es esta aplicación específica a la robótica, detallada en una serie de demostraciones.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Robots reales y simulados",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En uno de los ejemplos, según Google, Argon controló un robot cuadrúpedo Boston Dynamics Spot —con patas de 12 grados de libertad y un brazo de seis— para aprender a pisar el pedal de un cubo de basura y dejar caer latas de refresco dentro. Antes de mover el robot físico, el modelo creó una réplica digital del objeto en MuJoCo, un motor de física usado para simular movimientos, y ensayó allí la acción.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En otra prueba, la empresa asegura que Argon dirigió un brazo robótico simple para enderezar una taza caída y meter dentro una servilleta arrugada, razonando la tarea a lo largo de varios turnos. En un entorno simulado llamado Gemini Omni World Model, el modelo reorganizó cinco fichas de Scrabble dispersas hasta formar la palabra \"ARGON\", ajustando sus propias órdenes tras revisar cada nueva imagen, en lo que Google llama un \"ciclo visual cerrado\".",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Aprende observando video y crea sus propias simulaciones",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según la empresa, Argon también puede observar un video real de una persona realizando una tarea manual, identificar los objetos relevantes y trasladar el movimiento de la mano humana a un robot humanoide bimanual con 76 grados de libertad y manos de cinco dedos. A partir de una foto de un boceto hecho a mano —un humanoide llamado Apollo 2 que lanza una pelota para derribar una pila de cajas—, el modelo construyó por su cuenta la simulación física, calculó la trayectoria del lanzamiento, verificó el resultado en una prueba cerrada y generó un video renderizado de la escena, según Google.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En una prueba con un robot bimanual ALOHA 2 que dobló una hoja de papel en forma de zorro de origami a lo largo de 136 segundos, el modelo identificó y clasificó automáticamente cada etapa del movimiento, incluidos errores como pausas o pérdida de firmeza en el agarre. En otra prueba, con doce bolas de billar idénticas —una más pesada o más liviana que el resto—, Argon operó dos brazos robóticos Franka FR3 y una balanza para aislar la bola diferente en un máximo de tres pesajes, guiándose solo por imágenes de cámaras.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa también usó el modelo para generar datos sintéticos de entrenamiento: a partir de una sola foto de una mesa real, Argon construyó una simulación calibrada, definió tareas nuevas y produjo más de 4.500 episodios simulados. Según Google, ese entrenamiento elevó la tasa de éxito de un robot físico en una tarea del 56% al 75% y redujo el tiempo de ejecución de 35 a 24 segundos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Google DeepMind anunció el trabajo de robótica en su propio blog; hasta la publicación de esta nota, ningún otro medio había confirmado los resultados de forma independiente.",
+        "La empresa no dio fecha de disponibilidad general, precio ni lista de socios para esta aplicación específica de Argon a la robótica.",
+        "El modelo base, Gemini 4 Argon, está disponible desde el 13 de octubre para suscriptores de los planes Google AI Pro y Ultra, en la app Gemini, en el buscador y en la plataforma Antigravity.",
+        "Las cifras de rendimiento citadas —el 87% en el test ERQA y el salto del 56% al 75% en la tasa de éxito— provienen de pruebas internas de Google."
+      ]
+    }
   ],
   "image": {
     "query": "robotic arm artificial intelligence lab",
-    "alt": "Brazo robótico en laboratorio dirigido por un modelo de IA"
+    "alt": "Brazo robótico en laboratorio dirigido por un modelo de IA",
+    "path": "/assets/img/google-aplica-gemini-4-argon-robotica-20abe49a.jpg",
+    "credit": "ZHENYU LUO / Unsplash",
+    "author": "ZHENYU LUO",
+    "author_url": "https://unsplash.com/@mrnuclear?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/white-robotic-arm-in-display-showroom-kE0JmtbvXxM"
   },
   "sources": [
-    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/", "title": "Gemini 4 Argon for Robotics"}
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "title": "Gemini 4 Argon for Robotics"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-14T21:43:27+00:00",
+  "updated_at": "2026-10-14T21:43:27+00:00"
 }

@@ -7,33 +7,99 @@
   "meta_description": "Google DeepMind applies Gemini 4 Argon to robotics and says the model scores 87% on the ERQA benchmark, beating other AI models, according to the company.",
   "keyword": "Gemini 4 Argon robotics",
   "category": "modelos",
-  "tags": ["ai", "google", "gemini", "robotics"],
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "robotics"
+  ],
   "body": [
-    {"type": "p", "text": "Google DeepMind says its Gemini 4 Argon model scored 87% on the Embodied Reasoning QA (ERQA) benchmark, which tests a model's ability to solve spatial and physical problems in 3D environments using reasoning alone, outperforming every other frontier model, according to a blog post the company published on Tuesday.", "items": []},
-    {"type": "p", "text": "DeepMind describes Argon as a \"general-purpose physical reasoning model\" that can be applied across the entire robotics lifecycle, from planning to direct robot control. The same model had already rolled out to Google AI Pro and Ultra subscribers on October 13, as Cortexplor reported; the new post instead details a series of robotics-specific demonstrations.", "items": []},
-    {"type": "p", "text": "DeepMind groups those demonstrations into four areas, according to the blog post: directing real and simulated robots, building digital twins from video, annotating robot demonstrations step by step, and generating synthetic data to train other robotics models. The company frames the post as evidence that a single model can now support most stages of building and testing a robot, rather than requiring separate systems for each task.", "items": []},
-    {"type": "h2", "text": "Directing real and simulated robots", "items": []},
-    {"type": "p", "text": "In one example, according to Google, Argon operated a Boston Dynamics Spot quadruped — with 12-degree-of-freedom legs and a 6-degree-of-freedom arm — to learn a new task: stepping on a trash bin's foot pedal to drop soda cans inside. Before moving the physical robot, the model built a digital twin of the bin in MuJoCo, a physics simulator, and rehearsed the motion there first.", "items": []},
-    {"type": "p", "text": "In another test, the company says Argon directed a simple robotic arm to set a fallen mug upright and tuck a crumpled napkin inside it, reasoning through the task over several turns. In a separate simulated environment called the Gemini Omni World Model, the model rearranged five scattered Scrabble tiles into the word \"ARGON,\" refining its own action commands after inspecting each new frame — what Google calls a \"closed visual loop.\"", "items": []},
-    {"type": "h2", "text": "Learning from video, building its own simulations", "items": []},
-    {"type": "p", "text": "According to the company, Argon can also watch a real video of a person performing a manual task, identify the relevant objects, and map the human hand's movement onto a bimanual humanoid robot with 76 degrees of freedom and five-fingered hands. Given only a photo of a hand-drawn sketch — a humanoid called Apollo 2 throwing a ball to knock down a stack of boxes — the model built its own physics simulation, worked out the throw's trajectory, verified the result in closed-loop testing, and rendered a video of the scene, Google said.", "items": []},
-    {"type": "p", "text": "In a test with a bimanual ALOHA 2 robot folding a sheet of paper into an origami fox over 136 seconds, the model automatically labeled each stage of the task, including mistakes such as pauses and unstable grasps. In a twelve-ball weighing puzzle — one ball secretly heavier or lighter than the rest — Argon operated two Franka FR3 robotic arms and a balance scale to isolate the odd ball in no more than three weighings, relying only on camera images.", "items": []},
-    {"type": "p", "text": "The company also used the model to generate synthetic training data: starting from a single photo of a real tabletop, Argon built a calibrated simulation, defined new tasks, and produced more than 4,500 simulated episodes. Google says that training raised a real physical robot's success rate on one task from 56% to 75% and cut completion time from 35 to 24 seconds.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Google DeepMind announced the robotics work in its own blog post; as of publication, no other outlet had independently confirmed the results.",
-      "The company gave no general availability date, pricing, or partner list for this robotics-specific use of Argon.",
-      "The underlying Gemini 4 Argon model has been available to Google AI Pro and Ultra subscribers since October 13, through the Gemini app, Search, and the Antigravity platform.",
-      "The performance figures cited — the 87% ERQA score and the jump from 56% to 75% success rate — come from Google's own internal testing."
-    ]}
+    {
+      "type": "p",
+      "text": "Google DeepMind says its Gemini 4 Argon model scored 87% on the Embodied Reasoning QA (ERQA) benchmark, which tests a model's ability to solve spatial and physical problems in 3D environments using reasoning alone, outperforming every other frontier model, according to a blog post the company published on Tuesday.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind describes Argon as a \"general-purpose physical reasoning model\" that can be applied across the entire robotics lifecycle, from planning to direct robot control. The same model had already rolled out to Google AI Pro and Ultra subscribers on October 13, as Cortexplor reported; the new post instead details a series of robotics-specific demonstrations.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind groups those demonstrations into four areas, according to the blog post: directing real and simulated robots, building digital twins from video, annotating robot demonstrations step by step, and generating synthetic data to train other robotics models. The company frames the post as evidence that a single model can now support most stages of building and testing a robot, rather than requiring separate systems for each task.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Directing real and simulated robots",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In one example, according to Google, Argon operated a Boston Dynamics Spot quadruped — with 12-degree-of-freedom legs and a 6-degree-of-freedom arm — to learn a new task: stepping on a trash bin's foot pedal to drop soda cans inside. Before moving the physical robot, the model built a digital twin of the bin in MuJoCo, a physics simulator, and rehearsed the motion there first.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In another test, the company says Argon directed a simple robotic arm to set a fallen mug upright and tuck a crumpled napkin inside it, reasoning through the task over several turns. In a separate simulated environment called the Gemini Omni World Model, the model rearranged five scattered Scrabble tiles into the word \"ARGON,\" refining its own action commands after inspecting each new frame — what Google calls a \"closed visual loop.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Learning from video, building its own simulations",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to the company, Argon can also watch a real video of a person performing a manual task, identify the relevant objects, and map the human hand's movement onto a bimanual humanoid robot with 76 degrees of freedom and five-fingered hands. Given only a photo of a hand-drawn sketch — a humanoid called Apollo 2 throwing a ball to knock down a stack of boxes — the model built its own physics simulation, worked out the throw's trajectory, verified the result in closed-loop testing, and rendered a video of the scene, Google said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a test with a bimanual ALOHA 2 robot folding a sheet of paper into an origami fox over 136 seconds, the model automatically labeled each stage of the task, including mistakes such as pauses and unstable grasps. In a twelve-ball weighing puzzle — one ball secretly heavier or lighter than the rest — Argon operated two Franka FR3 robotic arms and a balance scale to isolate the odd ball in no more than three weighings, relying only on camera images.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company also used the model to generate synthetic training data: starting from a single photo of a real tabletop, Argon built a calibrated simulation, defined new tasks, and produced more than 4,500 simulated episodes. Google says that training raised a real physical robot's success rate on one task from 56% to 75% and cut completion time from 35 to 24 seconds.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Google DeepMind announced the robotics work in its own blog post; as of publication, no other outlet had independently confirmed the results.",
+        "The company gave no general availability date, pricing, or partner list for this robotics-specific use of Argon.",
+        "The underlying Gemini 4 Argon model has been available to Google AI Pro and Ultra subscribers since October 13, through the Gemini app, Search, and the Antigravity platform.",
+        "The performance figures cited — the 87% ERQA score and the jump from 56% to 75% success rate — come from Google's own internal testing."
+      ]
+    }
   ],
   "image": {
     "query": "robotic arm artificial intelligence lab",
-    "alt": "Robotic arm in a lab directed by an AI reasoning model"
+    "alt": "Robotic arm in a lab directed by an AI reasoning model",
+    "path": "/assets/img/google-applies-gemini-4-argon-robotics-20abe49a.jpg",
+    "credit": "ZHENYU LUO / Unsplash",
+    "author": "ZHENYU LUO",
+    "author_url": "https://unsplash.com/@mrnuclear?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/white-robotic-arm-in-display-showroom-kE0JmtbvXxM"
   },
   "sources": [
-    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/", "title": "Gemini 4 Argon for Robotics"}
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "title": "Gemini 4 Argon for Robotics"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-14T21:43:27+00:00",
+  "updated_at": "2026-10-14T21:43:27+00:00"
 }

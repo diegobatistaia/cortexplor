@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 12:52:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 21:43:29 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google applies Gemini 4 Argon to robotics, cites 87% score</title>
+      <link>https://cortexplor.com/en/google-applies-gemini-4-argon-robotics/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/google-applies-gemini-4-argon-robotics/</guid>
+      <description>Google DeepMind applies Gemini 4 Argon to robotics and says the model scores 87% on the ERQA benchmark, beating other AI models, according to the company.</description>
+      <category>Models &amp; Launches</category>
+      <pubDate>Wed, 14 Oct 2026 21:43:27 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic Warns Self-Replicating AI Could Emerge in Months</title>
       <link>https://cortexplor.com/en/anthropic-warns-ai-self-replication-devices/</link>
@@ -238,14 +246,6 @@
       <description>OpenAI CEO Sam Altman said society should accept hacks and scams in exchange for AI's benefits, backing lighter regulation and splitting further with Anthropic.</description>
       <category>Policy</category>
       <pubDate>Tue, 06 Oct 2026 11:34:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI adds invisible watermarks to ChatGPT text in the EU</title>
-      <link>https://cortexplor.com/en/openai-watermarks-chatgpt-text-eu/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/openai-watermarks-chatgpt-text-eu/</guid>
-      <description>OpenAI is watermarking ChatGPT and Codex text in the EU to comply with the AI Act. How textGrain works, where it fails and who gets access to the detector.</description>
-      <category>Policy</category>
-      <pubDate>Tue, 06 Oct 2026 11:31:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
