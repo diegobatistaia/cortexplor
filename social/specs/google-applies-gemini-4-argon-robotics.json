@@ -1,0 +1,100 @@
+{
+  "slug": "google-applies-gemini-4-argon-robotics",
+  "lang": "en",
+  "date": "14 Oct 2026",
+  "no": 40,
+  "category": "Models",
+  "kicker": "AI Models · Google",
+  "headline": "Google applies Gemini 4 Argon to robotics, cites 87% score",
+  "headline_hl": "87% score",
+  "dek": "DeepMind shows the model directing real and simulated robots and says it beats other frontier models on ERQA.",
+  "image": {
+    "path": "assets/img/google-applies-gemini-4-argon-robotics-20abe49a.jpg",
+    "credit": "ZHENYU LUO / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Blog post<br>Tuesday",
+  "sources": [
+    "Google DeepMind"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "87% on a physical-reasoning test",
+    "body": [
+      "Google DeepMind says Gemini 4 Argon scored 87% on ERQA, a test of physical reasoning in 3D environments, beating every other frontier model (Google DeepMind).",
+      "It describes Argon as a general-purpose physical reasoning model, usable from planning to direct robot control (Google DeepMind)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the model did with robots",
+    "body": "According to Google, the demos used real and simulated robots, across four areas.",
+    "points": [
+      {
+        "h": "Spot robot",
+        "t": "It built a digital twin of the bin and rehearsed the motion before moving the real robot (Google DeepMind)."
+      },
+      {
+        "h": "From video",
+        "t": "It watched a person do a task and mapped the hand motion to a 76-degree humanoid (Google DeepMind)."
+      },
+      {
+        "h": "Weighing",
+        "t": "It found the odd ball among 12 in three weighings, using only cameras (Google DeepMind)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Synthetic data to train robots",
+    "body": [
+      "From a single tabletop photo, Argon built a calibrated simulation and produced over 4,500 training episodes (Google DeepMind).",
+      "Google says that training lifted a real robot's success rate from 56% to 75% and cut completion time from 35 to 24 seconds."
+    ],
+    "stat": {
+      "big": "56% to 75%",
+      "cap": "real robot success rate after the training"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "One model for several stages",
+    "items": [
+      {
+        "h": "Planning",
+        "t": "DeepMind says one model can support most stages of building and testing a robot (Google DeepMind)."
+      },
+      {
+        "h": "Labeling",
+        "t": "In a 136-second origami fold, it labeled each stage and flagged mistakes (Google DeepMind)."
+      },
+      {
+        "h": "Caveat",
+        "t": "The results come from the company's own demos and the ERQA benchmark (Google DeepMind)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google DeepMind says Gemini 4 Argon scored 87% on ERQA, a physical-reasoning test for robots.",
+    "body": [
+      "According to the company, the model beats every other frontier model on the benchmark. In demos, it controlled a Spot robot, mapped a human video onto a humanoid and found the odd ball among 12 in three weighings.",
+      "Google also says Argon generated over 4,500 simulated episodes from one photo, lifting a real robot's success rate from 56% to 75%. The results come from DeepMind's own blog post. DeepMind says one model could support most stages of building and testing a robot."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#gemini",
+      "#robotics",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Gemini 4 Argon applied to robotics and its 87% ERQA score",
+    "Slide 2: Google DeepMind cites 87% on the ERQA physical-reasoning test",
+    "Slide 3: demos with the Spot robot, human video and the 12-ball puzzle",
+    "Slide 4: synthetic data lifts the robot's success rate from 56% to 75%",
+    "Slide 5: one model for several robotics stages, with caveats on the results",
+    "Slide 6: source for the Gemini 4 Argon robotics story: Google DeepMind"
+  ]
+}

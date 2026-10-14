@@ -1,0 +1,100 @@
+{
+  "slug": "google-aplica-gemini-4-argon-robotica",
+  "lang": "pt",
+  "date": "14 out 2026",
+  "no": 43,
+  "category": "Modelos",
+  "kicker": "Modelos de IA · Google",
+  "headline": "Google aplica o Gemini 4 Argon à robótica e cita 87% em teste",
+  "headline_hl": "87% em teste",
+  "dek": "A DeepMind mostra o modelo controlando robôs reais e simulados e diz que ele supera outros modelos de fronteira no ERQA.",
+  "image": {
+    "path": "assets/img/google-aplica-gemini-4-argon-robotica-20abe49a.jpg",
+    "credit": "ZHENYU LUO / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Divulgado<br>13/10",
+  "sources": [
+    "Google DeepMind"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "87% no teste de raciocínio físico",
+    "body": [
+      "O Google DeepMind diz que o Gemini 4 Argon atingiu 87% no ERQA, teste de raciocínio físico em ambientes 3D, superando todo outro modelo de fronteira (Google DeepMind).",
+      "A empresa descreve o Argon como um modelo de raciocínio físico de uso geral, aplicável do planejamento ao controle direto de robôs (Google DeepMind)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que o modelo fez com robôs",
+    "body": "Segundo o Google, as demonstrações usaram robôs reais e simulados, em quatro áreas.",
+    "points": [
+      {
+        "h": "Robô Spot",
+        "t": "Criou uma réplica digital da lixeira e ensaiou o movimento antes de mover o robô real (Google DeepMind)."
+      },
+      {
+        "h": "Vídeo",
+        "t": "Viu uma pessoa fazer uma tarefa e passou o movimento da mão a um humanoide de 76 graus de liberdade (Google DeepMind)."
+      },
+      {
+        "h": "Pesagem",
+        "t": "Achou a bola diferente entre 12 em até três pesagens, guiado só por câmeras (Google DeepMind)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Dados sintéticos para treinar robôs",
+    "body": [
+      "De uma única foto de mesa, o Argon montou uma simulação calibrada e gerou mais de 4.500 episódios de treino (Google DeepMind).",
+      "Segundo o Google, o treino elevou o sucesso de um robô físico de 56% para 75% e cortou o tempo de 35 para 24 segundos."
+    ],
+    "stat": {
+      "big": "56% a 75%",
+      "cap": "alta de sucesso do robô físico após o treino"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Um só modelo para várias etapas",
+    "items": [
+      {
+        "h": "Planejar",
+        "t": "A DeepMind afirma que um único modelo pode apoiar a maior parte das etapas de criar e testar um robô (Google DeepMind)."
+      },
+      {
+        "h": "Anotar",
+        "t": "No origami de 136 segundos, o modelo classificou cada etapa e apontou falhas (Google DeepMind)."
+      },
+      {
+        "h": "Ressalva",
+        "t": "Os resultados são da própria empresa, em demonstrações e no benchmark ERQA (Google DeepMind)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Google DeepMind diz que o Gemini 4 Argon atingiu 87% no ERQA, teste de raciocínio físico para robôs.",
+    "body": [
+      "Segundo a empresa, o modelo supera todo outro modelo de fronteira no benchmark. Nas demonstrações, controlou um robô Spot, passou movimentos de um vídeo humano a um humanoide e achou a bola diferente entre 12 em até três pesagens.",
+      "O Google afirma ainda que o Argon gerou mais de 4.500 episódios simulados a partir de uma foto, e que isso elevou o sucesso de um robô físico de 56% para 75%. Os resultados vêm do blog da própria DeepMind."
+    ],
+    "cta_variant": "A",
+    "cta": "Você confiaria em um único modelo de IA para planejar e controlar um robô?",
+    "hashtags": [
+      "#cortexplor",
+      "#gemini",
+      "#robotica",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Gemini 4 Argon aplicado à robótica e o resultado de 87% no ERQA",
+    "Slide 2: o Google DeepMind cita 87% no teste de raciocínio físico ERQA",
+    "Slide 3: demonstrações com o robô Spot, vídeo humano e o problema das 12 bolas",
+    "Slide 4: dados sintéticos elevam o sucesso do robô de 56% para 75%",
+    "Slide 5: um só modelo para várias etapas da robótica, com ressalvas sobre os resultados",
+    "Slide 6: fonte da matéria sobre o Gemini 4 Argon na robótica: Google DeepMind"
+  ]
+}
