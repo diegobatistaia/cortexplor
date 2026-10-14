@@ -1,0 +1,129 @@
+{
+  "lang": "es",
+  "slug": "empleado-openai-detenido-dispositivo-grabacion",
+  "story_id": "c30e273836c47cfa",
+  "title": "Detienen a un empleado de OpenAI por instalar una escucha",
+  "dek": "La empresa dice haber usado sus propios modelos de IA para rastrear quién colocó el aparato en la sala ejecutiva.",
+  "meta_description": "OpenAI halló un dispositivo de grabación oculto en su sede de San Francisco y trasladó el caso al FBI, que detuvo a un empleado, según el Guardian y Xataka.",
+  "keyword": "OpenAI dispositivo de grabación detenido",
+  "category": "mercado",
+  "tags": [
+    "ia",
+    "openai",
+    "seguridad",
+    "eeuu"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI afirmó haber encontrado un dispositivo de grabación oculto en una sala de reuniones ejecutiva de su sede en San Francisco y trasladó el caso al FBI, que detuvo a un empleado de la compañía, según el Guardian y Xataka.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El sospechoso es Abdulrahman Alfozan, de 35 años, ciudadano saudí y residente permanente en Estados Unidos, detenido el 9 de octubre, según el Guardian y Fortune. OpenAI despidió al empleado ese mismo día, coordinando el momento del despido con el FBI para no interferir con la investigación, según Fortune.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Escondido detrás de un televisor",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Fortune y el Guardian, el dispositivo estaba conectado a un puerto USB en la parte trasera de un televisor de la sala de reuniones ejecutiva y oculto dentro de papel higiénico. El equipo de seguridad de OpenAI lo localizó el 30 de septiembre, y la compañía asegura que había sido instalado unos dos días antes, el 28 de septiembre.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En esa sala, según Fortune, los ejecutivos discutían con frecuencia \"información técnica, comercial y estratégica altamente confidencial\", incluidas conversaciones con funcionarios del gobierno.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Los modelos propios usados para rastrear el aparato",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI aseguró haber utilizado sus propios modelos de inteligencia artificial \"para entender el dispositivo y de dónde había venido\", lo que permitió identificar al empleado responsable, según el Guardian y Xataka. La compañía dijo no tener, por ahora, indicios de que el empleado accediera o extrajera pesos de modelos, código fuente o datos de clientes, según el Guardian, Fortune y Xataka.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Nos tomamos muy en serio la protección de nuestra tecnología, nuestros datos y nuestro personal, y la consideramos una cuestión de importancia nacional\", afirmó OpenAI en el comunicado citado por el Guardian y Fortune.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Una mochila con un segundo aparato",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Fortune, cámaras de seguridad registraron a Alfozan entrando de nuevo en la sala de reuniones el 5 de octubre, cuando habría revisado detrás del televisor y notado que el dispositivo ya no estaba. Ese mismo día, según la publicación, dejó una mochila sin vigilancia en otra sala de la oficina; dentro, el equipo de seguridad encontró su cartera, una identificación y un segundo dispositivo de grabación idéntico al primero. El Guardian también confirma el hallazgo de la mochila con el segundo aparato.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cargos federales",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Wired, Alfozan enfrenta un cargo federal por usar un dispositivo electrónico para interceptar comunicaciones orales. Si es condenado, podría recibir hasta cinco años de prisión, según el Guardian y Fortune; el Guardian añade una posible multa de hasta 250.000 dólares, y Fortune menciona además tres años de libertad condicional supervisada.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El director del FBI, Kash Patel, calificó el caso como una prioridad de contrainteligencia y afirmó que \"proteger la superinteligencia estadounidense es esencial para salvaguardar la fuerza económica y la seguridad nacional del país\", según Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Fortune, documentos judiciales muestran que, entre el 24 y el 30 de septiembre, Alfozan consultó una cuenta de chatbot vinculada a su cónyuge sobre cómo construir, instalar y cifrar grabaciones de audio, crear direcciones MAC personalizadas y realizar sesiones de escucha en vivo. También habría usado una herramienta interna de productividad para investigar direcciones de edificios, salas de reuniones, su capacidad, calendarios y la ubicación de directivos de la empresa, según Fortune y el Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fortune reporta que Alfozan trabajaba como ingeniero en el equipo de \"Agents Platform\" de OpenAI, había pasado cinco años en Meta y se graduó en el MIT y en la Universidad de California en Berkeley. Fue detenido tres días antes de la fecha en que, junto a su cónyuge y un tercer familiar, tenía previsto viajar en un vuelo solo de ida a Arabia Saudí vía Estambul.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El caso llega en medio de un mayor escrutinio sobre seguridad en el sector de la IA: según el Guardian, OpenAI había despedido la semana anterior a tres investigadores de seguridad acusados de violar políticas internas sobre el manejo de información sensible, y la empresa enfrenta además una citación investigativa de la fiscalía general de California por casos de piratería cometidos por agentes autónomos.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "hidden recording device office security investigation",
+    "alt": "Sala de reuniones corporativa vacía con un televisor en la pared, usada para ilustrar la seguridad de oficina"
+  },
+  "sources": [
+    {
+      "name": "Guardian",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+      "title": "Saudi OpenAI employee arrested after recording device found in headquarters"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/10/13/fbi-arrests-openai-employee-charged-planting-secret-recording-device-conference-room/",
+      "title": "FBI arrests OpenAI employee accused of planting secret recording device in conference room"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/robotica-e-ia/importancia-nacional-openai-encuentra-sofisticado-dispositivo-grabacion-sus-oficinas-fbi-acaba-interviniendo",
+      "title": "OpenAI encuentra un \"sofisticado\" dispositivo de grabación en sus oficinas y se pone en manos del FBI"
+    }
+  ],
+  "status": "draft"
+}
