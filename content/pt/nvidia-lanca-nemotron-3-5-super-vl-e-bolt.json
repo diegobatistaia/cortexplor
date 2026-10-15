@@ -84,7 +84,13 @@
   ],
   "image": {
     "query": "computer chip circuit board technology abstract blue",
-    "alt": "Placa de circuito eletrônico iluminada em azul, representando um chip de inteligência artificial"
+    "alt": "Placa de circuito eletrônico iluminada em azul, representando um chip de inteligência artificial",
+    "path": "/assets/img/nvidia-lanca-nemotron-3-5-super-vl-e-bol-73bb7ef3.jpg",
+    "credit": "Adi Goldstein / Unsplash",
+    "author": "Adi Goldstein",
+    "author_url": "https://unsplash.com/@adigold1?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/teal-led-panel-EUsVwEOsblE"
   },
   "sources": [
     {
@@ -106,5 +112,7 @@
       "title": "Nvidia expands Nemotron LLM family with hyper-efficient models for agentic systems"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-15T21:48:05+00:00",
+  "updated_at": "2026-10-15T21:48:05+00:00"
 }
