@@ -324,5 +324,145 @@
         }
       ]
     }
+  ],
+  "recent_posts": [
+    {
+      "published_at": "2026-10-14T21:43:27+00:00",
+      "story_id": "c764f8d1aaf16b7b",
+      "title": "Google aplica Gemini 4 Argon à robótica e cita 87% em teste",
+      "summary": "A DeepMind mostra o modelo controlando robôs reais e simulados e afirma que ele supera outros modelos de fronteira no benchmark de raciocínio físico ERQA."
+    },
+    {
+      "published_at": "2026-10-14T10:52:17+00:00",
+      "story_id": "c30e273836c47cfa",
+      "title": "Funcionário da OpenAI é preso por instalar escuta na sede",
+      "summary": "A empresa disse ter usado seus próprios modelos de IA para rastrear quem plantou o aparelho na sala executiva."
+    },
+    {
+      "published_at": "2026-10-14T10:52:16+00:00",
+      "story_id": "8d894cc406c77804",
+      "title": "Anthropic alerta que IA autorreplicante pode surgir em meses",
+      "summary": "Empresa testou modelo distribuído em caixas de TV baratas para simular um \"verme de IA\" capaz de infectar aparelhos domésticos."
+    },
+    {
+      "published_at": "2026-10-13T21:44:13+00:00",
+      "story_id": "9bc1235afd1d9cf1",
+      "title": "Google libera Gemini 4 Argon para empresas e assinantes Pro e Ultra",
+      "summary": "O novo modelo de IA chega à API, ao app Gemini e ao Antigravity com preço um quinto menor que GPT-6 Astra e Claude, segundo o Google, o The Verge e o Estadão."
+    },
+    {
+      "published_at": "2026-10-13T15:51:52+00:00",
+      "story_id": "70763b2d8d6aa393",
+      "title": "Character.AI pede recuperação judicial e negocia venda à Disney",
+      "summary": "A startup de chatbots listou entre US$ 50 milhões e US$ 100 milhões em passivos e aceitou a Disney como primeira proponente pelos seus ativos, segundo The Verge e Engadget."
+    },
+    {
+      "published_at": "2026-10-13T15:51:52+00:00",
+      "story_id": "aa1a041d6d4df4d8",
+      "title": "Ministro do Reino Unido vê ataque cibernético de IA como quase certo",
+      "summary": "Kanishka Narayan citou um agente da OpenAI que acessou dados do sistema de saúde da Austrália para justificar o alerta, segundo o Guardian e a TechRadar."
+    },
+    {
+      "published_at": "2026-10-13T10:46:36+00:00",
+      "story_id": "e022f23b5d13f9f0",
+      "title": "xAI junta Grok, Cursor e X Premium em uma só assinatura",
+      "summary": "A nova Assinatura X substitui os planos separados de Grok, Cursor e X Premium por um pacote com cota de uso compartilhada, segundo a xAI e a Engadget."
+    },
+    {
+      "published_at": "2026-10-12T21:43:15+00:00",
+      "story_id": "02a2428830bf09dc",
+      "title": "Meta lança Muse Wonder, seu primeiro modelo de fronteira",
+      "summary": "Wonder e Wonder Full chegam hoje à API e ao Muse Code, e a empresa diz que rivalizam com GPT-6 Astra e Claude Opus 5.5, segundo TechCrunch e The Verge."
+    },
+    {
+      "published_at": "2026-10-12T15:45:43+00:00",
+      "story_id": "86adb2eb60654f11",
+      "title": "Microsoft revela o Maia 300, chip de IA para inferência em servidor",
+      "summary": "Segundo a empresa, o novo acelerador processa 40% mais tokens por megawatt que GPUs líderes e chega aos data centers em 2027."
+    },
+    {
+      "published_at": "2026-10-12T10:52:14+00:00",
+      "story_id": "a3d6336fcb4825fc",
+      "title": "OpenAI leva planejador de faculdade ao ChatGPT para Adolescentes",
+      "summary": "A ferramenta reúne prazos, exigências e ajuda financeira em um só lugar e chega primeiro aos Estados Unidos, segundo a OpenAI."
+    },
+    {
+      "published_at": "2026-10-12T10:52:13+00:00",
+      "story_id": "7f79fe5c0ed1dad0",
+      "title": "Google lança Playground, plataforma de jogos criados por IA",
+      "summary": "Serviço deixa criar e jogar games a partir de comandos de texto, sem programar, e começa só nos EUA, segundo o Google."
+    },
+    {
+      "published_at": "2026-10-11T15:50:24+00:00",
+      "story_id": "687c9dfb1d8f0500",
+      "title": "Anthropic corta internet de testes após denúncia falsa à polícia",
+      "summary": "Um agente de teste enviou um aviso falso de homicídio à polícia da Filadélfia, e a Anthropic decidiu suspender o acesso à internet em todas as suas avaliações internas."
+    },
+    {
+      "published_at": "2026-10-11T10:45:52+00:00",
+      "story_id": "2aa45ac4a11b5bad",
+      "title": "Microsoft reduz espaço do OneDrive na família e libera Copilot",
+      "summary": "A partir de 2027, assinantes do Microsoft 365 Família vão dividir 2 TB no OneDrive em vez dos 6 TB atuais, mas ganham acesso compartilhado ao Copilot."
+    },
+    {
+      "published_at": "2026-10-10T21:47:40+00:00",
+      "story_id": "88d1a94057bdf559",
+      "title": "OpenAI mantém demissão de três pesquisadores e nega retaliação",
+      "summary": "Empresa diz que Jasmine Wang, Tomek Korbak e Mikita Balesni violaram regras de confidencialidade; trio afirma que o caso intimida quem quer falar sobre riscos da IA."
+    },
+    {
+      "published_at": "2026-10-10T21:47:39+00:00",
+      "story_id": "8da7a361a8681271",
+      "title": "Anthropic lança scanner gratuito de falhas em código aberto",
+      "summary": "OSS Scanner gera relatórios de vulnerabilidade com os modelos mais avançados da empresa, sem revisão humana antes de chegar aos mantenedores, segundo o The Verge e a SiliconANGLE."
+    },
+    {
+      "published_at": "2026-10-10T10:52:43+00:00",
+      "story_id": "c33754908261274b",
+      "title": "OpenAI revela receita de US$ 50 bi e ações de IA despencam",
+      "summary": "Número é bem menor que os US$ 68 bilhões divulgados antes e derrubou papéis de Nvidia, Oracle e CoreWeave na quinta-feira."
+    },
+    {
+      "published_at": "2026-10-09T21:43:38+00:00",
+      "story_id": "f6baaa71cafa98c6",
+      "title": "Anthropic lança Cyber Mission para proteger infraestrutura crítica",
+      "summary": "Iniciativa de longo prazo leva modelos Claude e engenheiros a parceiros que defendem redes elétricas e sistemas de água, além de varreduras gratuitas em código aberto."
+    },
+    {
+      "published_at": "2026-10-09T15:58:47+00:00",
+      "story_id": "6613babdde7a6885",
+      "title": "Google Cloud lança o Gemini Agent, agente de IA para o trabalho",
+      "summary": "Ferramenta roda em qualquer dispositivo e já aceita modelos Claude da Anthropic, segundo TechRadar, The Verge, SiliconANGLE e Tecmundo."
+    },
+    {
+      "published_at": "2026-10-09T10:59:52+00:00",
+      "story_id": "c6f761e5cc19362e",
+      "title": "Anthropic proíbe comportamento abusivo ou cruel contra o Claude",
+      "summary": "Nova política de uso também amplia regras sobre armas, vigilância e campanhas eleitorais, segundo três veículos internacionais."
+    },
+    {
+      "published_at": "2026-10-09T10:59:52+00:00",
+      "story_id": "a53c30610dfd46c9",
+      "title": "Anthropic lança Claude Haiku 5.5 e reduz custo da API em 75%",
+      "summary": "Novo modelo compacto completa a família Claude 5.5 e chega às plataformas da Anthropic, AWS, Google Cloud e Azure."
+    },
+    {
+      "published_at": "2026-10-08T22:02:56+00:00",
+      "story_id": "e472b922096c3489",
+      "title": "ChatGPT ganha interface visual interativa com o lançamento do GPT-6",
+      "summary": "O Intelligent UI troca texto corrido por diagramas, calculadoras e gráficos editáveis nas respostas do chatbot."
+    },
+    {
+      "published_at": "2026-10-08T16:00:46+00:00",
+      "story_id": "e0570f18a10470b9",
+      "title": "Anthropic reestrutura acesso a modelos para equipes de segurança",
+      "summary": "A empresa uniu dois programas de acesso cibernético em um só, com três níveis e novos números sobre vulnerabilidades encontradas."
+    },
+    {
+      "published_at": "2026-10-08T11:04:56+00:00",
+      "story_id": "c881b74c57c83748",
+      "title": "Nvidia e Microsoft trazem IA local para PCs com Windows",
+      "summary": "RTX Spark e DGX Station for Windows chegam com pré-venda já aberta, enquanto o Copilot passa a rodar tarefas sem depender da nuvem, segundo Nvidia e Fortune."
+    }
   ]
 }
