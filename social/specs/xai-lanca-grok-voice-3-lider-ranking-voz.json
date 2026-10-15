@@ -1,0 +1,101 @@
+{
+  "slug": "xai-lanca-grok-voice-3-lider-ranking-voz",
+  "lang": "pt",
+  "date": "15 out 2026",
+  "no": 45,
+  "category": "Modelos",
+  "kicker": "Modelos de IA · xAI",
+  "headline": "xAI lança o Grok Voice 3.0 e lidera ranking de modelos de voz",
+  "headline_hl": "Grok Voice 3.0",
+  "dek": "O novo modelo de fala atinge 86,9 pontos em índice independente e já roda na Tesla e na Starlink, diz a xAI.",
+  "image": {
+    "path": "assets/img/xai-lanca-grok-voice-3-lider-ranking-voz-a556b24d.jpg",
+    "credit": "Pawel Czerwinski / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Ranking<br>86,9",
+  "sources": [
+    "xAI",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Primeiro lugar em teste independente",
+    "body": [
+      "A xAI lançou o Grok Voice 3.0, modelo de fala-para-fala que descreve como o mais inteligente do tipo hoje (xAI, SiliconANGLE).",
+      "A Artificial Analysis o avaliou em 86,9 pontos no Speech-to-Speech Index, primeiro lugar entre os modelos de voz avaliados (xAI, SiliconANGLE)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como ele se compara",
+    "body": "No mesmo índice, segundo a SiliconANGLE, os rivais ficaram abaixo do Grok Voice 3.0.",
+    "points": [
+      {
+        "h": "GPT-Live-1",
+        "t": "A OpenAI marcou 83,2 pontos no índice (SiliconANGLE)."
+      },
+      {
+        "h": "Gemini",
+        "t": "O Gemini 3.8 Live, do Google, marcou 82,6 pontos (SiliconANGLE)."
+      },
+      {
+        "h": "Tau-Voice",
+        "t": "Em chamadas com ruído, o Grok fez 71,6% e a OpenAI, 74,5% (SiliconANGLE)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Mais barato por tarefa",
+    "body": [
+      "No Big Bench Audio, a SiliconANGLE cita cerca de 2,5 centavos de dólar por tarefa no Grok Voice 3.0, contra 3 centavos no GPT-Live-1 e 5,5 no GPT-Realtime-2.1.",
+      "No EVA-Bench, da ServiceNow, o modelo atingiu 74% de acerto, a maior pontuação entre os avaliados (xAI, SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "86,9 pontos",
+      "cap": "no Speech-to-Speech Index da Artificial Analysis"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Já em uso e com o mesmo preço",
+    "items": [
+      {
+        "h": "Tesla",
+        "t": "Segundo a xAI, atende milhões de conversas por dia nos carros da Tesla."
+      },
+      {
+        "h": "Starlink",
+        "t": "Responde cerca de 20 mil chamadas por dia; 70% são resolvidas sem humano (xAI, SiliconANGLE)."
+      },
+      {
+        "h": "Preço",
+        "t": "US$ 0,08 por minuto na API, o mesmo do Grok Voice 2.0 (xAI, SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A xAI lançou o Grok Voice 3.0, que lidera o ranking de modelos de voz da Artificial Analysis com 86,9 pontos.",
+    "body": [
+      "Segundo a xAI e a SiliconANGLE, o GPT-Live-1, da OpenAI, marcou 83,2 e o Gemini 3.8 Live, do Google, 82,6. Em chamadas com ruído e sotaque, o Grok ficou um pouco atrás da OpenAI: 71,6% contra 74,5%.",
+      "O modelo custa cerca de 2,5 centavos de dólar por tarefa no Big Bench Audio, contra 3 do GPT-Live-1. A xAI diz que ele já atende milhões de conversas por dia nos carros da Tesla e cerca de 20 mil chamadas diárias na Starlink. Na API, o preço é US$ 0,08 por minuto."
+    ],
+    "cta_variant": "A",
+    "cta": "Você deixaria um assistente de voz de IA atender suas ligações de suporte?",
+    "hashtags": [
+      "#cortexplor",
+      "#xai",
+      "#grok",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o lançamento do Grok Voice 3.0 pela xAI e o primeiro lugar no ranking de voz",
+    "Slide 2: o Grok Voice 3.0 marca 86,9 pontos no Speech-to-Speech Index, o primeiro lugar",
+    "Slide 3: como o Grok Voice 3.0 se compara ao GPT-Live-1 e ao Gemini 3.8 Live",
+    "Slide 4: custo por tarefa menor e 74% de acerto no EVA-Bench; 86,9 pontos no índice",
+    "Slide 5: o Grok Voice 3.0 já roda na Tesla e na Starlink, pelo mesmo preço da versão anterior",
+    "Slide 6: fontes da matéria sobre o Grok Voice 3.0: xAI e SiliconANGLE"
+  ]
+}
