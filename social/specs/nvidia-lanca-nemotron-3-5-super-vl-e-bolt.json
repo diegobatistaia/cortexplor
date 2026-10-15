@@ -1,0 +1,102 @@
+{
+  "slug": "nvidia-lanca-nemotron-3-5-super-vl-e-bolt",
+  "lang": "pt",
+  "date": "15 out 2026",
+  "no": 47,
+  "category": "Modelos",
+  "kicker": "Modelos de IA · Nvidia",
+  "headline": "Nvidia lança o Nemotron 3.5 Super VL e dois modelos Bolt abertos",
+  "headline_hl": "Nemotron 3.5 Super VL",
+  "dek": "Modelo de 120 bilhões de parâmetros e versões Bolt para rodar fora da nuvem têm pesos abertos, diz a Nvidia.",
+  "image": {
+    "path": "assets/img/nvidia-lanca-nemotron-3-5-super-vl-e-bol-73bb7ef3.jpg",
+    "credit": "Adi Goldstein / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "120B<br>parâmetros",
+  "sources": [
+    "NVIDIA",
+    "ZDNet AI",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um modelo grande e dois menores",
+    "body": [
+      "A Nvidia lançou o Nemotron 3.5 Super VL, modelo de pesos abertos com 120 bilhões de parâmetros para agentes de IA sempre ativos (NVIDIA, SiliconANGLE, ZDNet).",
+      "Junto vêm dois modelos menores da linha Bolt, pensados para rodar fora da nuvem."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Os modelos Bolt",
+    "body": "Segundo a Nvidia e o SiliconANGLE, a linha Bolt roda em equipamentos locais.",
+    "points": [
+      {
+        "h": "Bolt 74B",
+        "t": "Já disponível; cabe em 24 GB de memória com quantização de 2 bits (NVIDIA, SiliconANGLE, ZDNet)."
+      },
+      {
+        "h": "Bolt E4B",
+        "t": "De 4 GB, chega em 23 de outubro e mira assistentes de voz e dispositivos (NVIDIA, SiliconANGLE)."
+      },
+      {
+        "h": "Uso local",
+        "t": "Roda agentes de pesquisa e código sem enviar dados à nuvem, diz a Nvidia."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Velocidade segundo a Nvidia",
+    "body": [
+      "A Nvidia afirma que o Super VL é cerca de cinco vezes mais rápido que o próximo melhor modelo da mesma classe.",
+      "Segundo o ZDNet, o resultado vem de testes da Artificial Analysis. A empresa também diz que vai publicar dados e receitas de treinamento."
+    ],
+    "stat": {
+      "big": "Cinco vezes",
+      "cap": "mais rápido que o próximo da classe, diz a Nvidia"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que muda para quem usa",
+    "items": [
+      {
+        "h": "Abertos",
+        "t": "Podem ser pós-treinados com dados próprios, segundo a Nvidia."
+      },
+      {
+        "h": "Na empresa",
+        "t": "Rodam atrás do firewall da empresa (NVIDIA, SiliconANGLE)."
+      },
+      {
+        "h": "Produção",
+        "t": "O Super VL vem como microsserviço, com atualizações a cada duas semanas, diz a Nvidia."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Nvidia lançou o Nemotron 3.5 Super VL, modelo aberto de 120 bilhões de parâmetros, e dois modelos Bolt.",
+    "body": [
+      "Segundo a Nvidia, o SiliconANGLE e o ZDNet, o Bolt 74B já está disponível e cabe em 24 GB de memória com quantização de 2 bits. O Bolt E4B, de 4 GB, chega em 23 de outubro.",
+      "A Nvidia diz que o Super VL é cerca de cinco vezes mais rápido que o próximo melhor modelo da classe, em testes da Artificial Analysis citados pelo ZDNet. Pesos, dados e receitas de treinamento serão abertos, e as empresas poderão rodar os modelos na própria infraestrutura."
+    ],
+    "cta_variant": "A",
+    "cta": "Você rodaria um modelo de IA aberto na sua própria máquina?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#nemotron",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o lançamento do Nemotron 3.5 Super VL e dos modelos Bolt pela Nvidia",
+    "Slide 2: Super VL tem 120 bilhões de parâmetros e pesos abertos; dois modelos Bolt acompanham",
+    "Slide 3: Bolt 74B cabe em 24 GB e Bolt E4B chega em 23 de outubro",
+    "Slide 4: Nvidia diz que o Super VL é cerca de cinco vezes mais rápido que o próximo da classe",
+    "Slide 5: modelos abertos rodam na infraestrutura da empresa, com atualizações a cada duas semanas",
+    "Slide 6: fontes da matéria sobre os modelos da Nvidia: NVIDIA, SiliconANGLE e ZDNet"
+  ]
+}

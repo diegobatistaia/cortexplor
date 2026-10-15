@@ -1,0 +1,102 @@
+{
+  "slug": "nvidia-launches-nemotron-3-5-super-vl-bolt",
+  "lang": "en",
+  "date": "15 Oct 2026",
+  "no": 44,
+  "category": "Models",
+  "kicker": "AI Models · Nvidia",
+  "headline": "Nvidia Launches Nemotron 3.5 Super VL and Open Bolt Models",
+  "headline_hl": "Nemotron 3.5 Super VL",
+  "dek": "A 120B-parameter model and Bolt versions built to run outside the cloud ship with open weights, Nvidia says.",
+  "image": {
+    "path": "assets/img/nvidia-launches-nemotron-3-5-super-vl-bo-73bb7ef3.jpg",
+    "credit": "Adi Goldstein / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "120B<br>parameters",
+  "sources": [
+    "NVIDIA",
+    "ZDNet AI",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "One large model, two smaller ones",
+    "body": [
+      "Nvidia released Nemotron 3.5 Super VL, an open-weight, 120-billion-parameter model for always-on AI agents (NVIDIA, SiliconANGLE, ZDNet).",
+      "Two smaller Bolt models arrived alongside it, designed to run outside the cloud."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The Bolt models",
+    "body": "According to Nvidia and SiliconANGLE, the Bolt line runs on local hardware.",
+    "points": [
+      {
+        "h": "Bolt 74B",
+        "t": "Available now; fits in 24GB of memory with 2-bit quantization (NVIDIA, SiliconANGLE, ZDNet)."
+      },
+      {
+        "h": "Bolt E4B",
+        "t": "At 4GB, arrives Oct. 23 for voice assistants and devices (NVIDIA, SiliconANGLE)."
+      },
+      {
+        "h": "Local use",
+        "t": "Runs research and coding agents without sending data to the cloud, Nvidia says."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Speed, per Nvidia",
+    "body": [
+      "Nvidia says Super VL runs about five times faster than the next-best model in its class.",
+      "According to ZDNet, the result comes from Artificial Analysis testing. The company also says it will publish training data and recipes."
+    ],
+    "stat": {
+      "big": "Five times",
+      "cap": "faster than the next in class, Nvidia says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What changes for users",
+    "items": [
+      {
+        "h": "Open",
+        "t": "Can be post-trained on an organization's own data, per Nvidia."
+      },
+      {
+        "h": "In-house",
+        "t": "Run behind a company's own firewall (NVIDIA, SiliconANGLE)."
+      },
+      {
+        "h": "Production",
+        "t": "Super VL ships as a microservice with biweekly security updates, Nvidia says."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia launched Nemotron 3.5 Super VL, an open 120-billion-parameter model, plus two Bolt models.",
+    "body": [
+      "According to Nvidia, SiliconANGLE and ZDNet, Bolt 74B is available now and fits in 24GB of memory with 2-bit quantization. The 4GB Bolt E4B arrives Oct. 23.",
+      "Nvidia says Super VL runs about five times faster than the next-best model in its class, based on Artificial Analysis testing cited by ZDNet. Weights, data and training recipes will be open, and organizations can run the models on their own infrastructure. Nvidia also packages Super VL as a production-ready microservice."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#nemotron",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Nvidia launching Nemotron 3.5 Super VL and the Bolt models",
+    "Slide 2: Super VL has 120 billion parameters and open weights; two Bolt models come with it",
+    "Slide 3: Bolt 74B fits in 24GB and Bolt E4B arrives Oct. 23",
+    "Slide 4: Nvidia says Super VL runs about five times faster than the next in its class",
+    "Slide 5: open models run on a company's own infrastructure, with biweekly updates",
+    "Slide 6: sources for the Nvidia models story: NVIDIA, SiliconANGLE and ZDNet"
+  ]
+}

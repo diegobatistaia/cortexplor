@@ -1,0 +1,118 @@
+{
+  "lang": "en",
+  "slug": "nvidia-launches-nemotron-3-5-super-vl-bolt",
+  "story_id": "0c1628a9d99ac240",
+  "title": "Nvidia Launches Nemotron 3.5 Super VL and Two Open Bolt Models",
+  "dek": "The 120-billion-parameter model and the smaller Bolt versions, built to run outside the cloud, ship with open weights, data and training recipes, according to the company, SiliconANGLE and ZDNet.",
+  "meta_description": "Nvidia releases the open-weight Nemotron 3.5 Super VL and two Bolt models built to run AI agents locally, according to the company, SiliconANGLE and ZDNet.",
+  "keyword": "Nemotron 3.5 Super VL",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "nvidia",
+    "nemotron",
+    "models",
+    "agents"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Nvidia released Nemotron 3.5 Super VL on Wednesday, an open-weight, 120-billion-parameter model built for specialized agents that run around the clock, according to the company, SiliconANGLE and ZDNet. Two smaller Bolt models arrived alongside it, designed to run outside the cloud.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The first Bolt model, the 74B-A9B, is already available. It uses a mixture-of-experts design that activates 9 billion of its 74 billion parameters per task and relies on 2-bit quantization to fit inside 24GB of memory, the three sources report. That lets agents handle web research, writing and code debugging locally, without sending data to the cloud. A second, smaller Bolt model — the 4GB E4B — arrives on Oct. 23 and targets voice assistants, interactive characters and devices such as wearables, car dashboards and point-of-service kiosks, according to Nvidia and SiliconANGLE. Nvidia and SiliconANGLE both describe the smaller model as suited for interactive characters as well as fast, always-listening conversational agents.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Speed claims and training scale",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says Super VL runs about five times faster than the next-best model in its class and matches the accuracy of the company's largest reasoning model at a fifth of the parameter count. ZDNet reports that the comparison comes from Artificial Analysis benchmark testing, which placed InclusionAI's Ling 3.0 Flash and DeepSeek's V4.1 Flash second and third, with a sizable gap behind Nvidia's model.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia and SiliconANGLE both report that Super VL was trained on roughly 26 trillion tokens across pretraining and continued pretraining, plus 3.8 million post-training samples using reinforcement learning. Nvidia says it will also publish the open datasets and training recipes behind the model. Both sources say Super VL was built with the Nemotron Coalition, a group of companies and AI labs working on frontier-level open models.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A wider open-weight race",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "ZDNet frames the release as part of a recent wave of open-weight launches from US labs following the Hugging Face breach, at a time when Chinese labs such as DeepSeek and Moonshot.ai had been leading the open-weight race. The outlet also points to France's Mistral, which released its Le Chonk model, and Reflection AI's Beam — a company Nvidia has invested in and is reportedly in talks to acquire — as recent entries in the same push. ZDNet adds that this push from Western labs is weakening the idea that security risk is unique to open models.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why it matters for agent deployment",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Super VL joins the Nemotron family alongside Lightning, released in August for high-throughput workloads, and Ultra, reserved for the hardest reasoning tasks, Nvidia says. With Bolt added to the lineup, the company now offers an open model for each tier of deployment, from enterprise servers down to edge devices, without forcing a trade-off between capability and ease of deployment.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Because the models are open, organizations can post-train them on their own data and run them behind their own firewall, keeping sensitive data in-house, according to Nvidia and SiliconANGLE. Nvidia also packages Super VL as a production-ready microservice, with security updates released every two weeks.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Nemotron 3.5 Super VL (120B parameters) and Bolt 74B-A9B are available now; Bolt E4B (4GB) arrives Oct. 23.",
+        "Weights, training data and recipes are open: organizations can download the models, post-train them on their own data and run them on their own infrastructure, keeping data in-house.",
+        "Bolt 74B-A9B fits in 24GB of memory thanks to 2-bit quantization, enough to run local research, writing and coding agents without cloud access.",
+        "Bolt E4B (4GB), not yet released, targets voice assistants, interactive characters and devices such as wearables, car dashboards and service kiosks.",
+        "Nvidia says Super VL runs about five times faster than the next-best open model in its class, per Artificial Analysis testing cited by ZDNet."
+      ]
+    }
+  ],
+  "image": {
+    "query": "computer chip circuit board technology abstract blue",
+    "alt": "Illuminated blue circuit board representing an artificial intelligence chip",
+    "path": "/assets/img/nvidia-launches-nemotron-3-5-super-vl-bo-73bb7ef3.jpg",
+    "credit": "Adi Goldstein / Unsplash",
+    "author": "Adi Goldstein",
+    "author_url": "https://unsplash.com/@adigold1?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/teal-led-panel-EUsVwEOsblE"
+  },
+  "sources": [
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models"
+    },
+    {
+      "name": "ZDNet AI",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/nvidia-nemotron-3-5-super-vl-model-us-open-weight-ai/",
+      "title": "Nvidia's new Nemotron 3.5 Super VL is another step forward for US open-weight AI"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/15/nvidia-expands-nemotron-llm-family-with-hyper-efficient-models-for-agentic-systems/",
+      "title": "Nvidia expands Nemotron LLM family with hyper-efficient models for agentic systems"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-15T21:48:06+00:00",
+  "updated_at": "2026-10-15T21:48:06+00:00"
+}
