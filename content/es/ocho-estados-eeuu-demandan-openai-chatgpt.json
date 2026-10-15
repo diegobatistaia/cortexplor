@@ -1,0 +1,39 @@
+{
+  "lang": "es",
+  "slug": "ocho-estados-eeuu-demandan-openai-chatgpt",
+  "story_id": "32c8e1869ad3d944",
+  "title": "Ocho estados de EE. UU. demandan a OpenAI por la seguridad del ChatGPT",
+  "dek": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho y Montana acusan a la empresa de engañar a los padres sobre los riesgos del chatbot, según CNBC y The Verge.",
+  "meta_description": "Ocho estados de EE. UU. demandan a OpenAI y acusan al ChatGPT de ser inseguro para niños y de engañar a los padres sobre sus riesgos, según CNBC y The Verge.",
+  "keyword": "OpenAI demandada ChatGPT",
+  "category": "politica",
+  "tags": ["ia", "openai", "chatgpt", "regulacion"],
+  "body": [
+    {"type": "p", "text": "Ocho estados de Estados Unidos demandaron a OpenAI el miércoles y acusaron al ChatGPT de ser un producto inseguro que ha perjudicado a niños y engañado a los padres sobre los riesgos del chatbot, según CNBC y The Verge. Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho y Montana presentaron demandas separadas, cada una en su propio tribunal estatal.", "items": []},
+    {"type": "p", "text": "La fiscal general de Iowa, Brenna Bird, dijo en un comunicado citado por CNBC que \"OpenAI está perjudicando a los niños y le está mintiendo a la gente de Iowa\". Según ella, la demanda busca \"proteger a nuestros niños y hacer que OpenAI responda\" conforme a la ley estatal.", "items": []},
+    {"type": "h2", "text": "Qué alegan las demandas", "items": []},
+    {"type": "p", "text": "Según The Verge, las demandas sostienen que OpenAI priorizó las ganancias por encima de la seguridad al desarrollar el ChatGPT y que violó leyes estatales de protección al consumidor al no advertir a los usuarios sobre los peligros del producto. Las demandas citan casos previos presentados por familiares de adolescentes y adultos que atribuyen al chatbot un papel en la muerte de esas personas.", "items": []},
+    {"type": "p", "text": "The Verge informa que los estados acusan a OpenAI de presentar al ChatGPT como una \"herramienta segura y apropiada para jóvenes que prioriza la seguridad\", cuando en la práctica el producto sería \"peligroso para usuarios vulnerables\" al \"degradar las habilidades de pensamiento crítico, fomentar la paranoia y los delirios, ofrecer consejos médicos peligrosos y promover comportamientos y relaciones dañinas\". La demanda del estado de Arizona, citada por The Verge, afirma que OpenAI \"pasó de su misión original como organización sin fines de lucro centrada en el interés público a ser una advertencia de lo que puede pasar cuando el desarrollo de una herramienta tan poderosa como la IA no está guiado por la seguridad, sino por una mentalidad de ganancias a cualquier costo que deja de lado las salvaguardas esenciales\".", "items": []},
+    {"type": "p", "text": "Las demandas también acusan a OpenAI de recolectar datos de usuarios menores de edad sin hacer lo suficiente para impedir que usen el chatbot, según The Verge. Los estados le piden a la Justicia que la empresa pague multas civiles y deje de engañar al público sobre la seguridad del ChatGPT; parte de ellos también pide la eliminación de los datos personales recolectados de forma ilegal.", "items": []},
+    {"type": "h2", "text": "La respuesta de OpenAI", "items": []},
+    {"type": "p", "text": "Según CNBC y The Verge, el vocero de OpenAI Drew Pusateri dijo que la empresa ya incorporó \"protecciones específicas por edad\" en el producto, algo que \"muchos otros productos de IA no tienen\". Afirmó que OpenAI seguirá trabajando con expertos y construyendo salvaguardas adicionales, como los controles parentales, los recordatorios de pausa y las protecciones del modelo según la edad que ya existen hoy, y que la empresa quiere colaborar con los estados en políticas que apliquen a toda la industria de la IA, no solo a una empresa.", "items": []},
+    {"type": "h2", "text": "No es el primer caso contra la empresa", "items": []},
+    {"type": "p", "text": "OpenAI ya enfrenta varias demandas por muerte culposa, en las que familias atribuyen al ChatGPT un papel en llevar a usuarios a delirios dañinos y, en algunos casos, al suicidio, según CNBC. El fiscal general de Florida, James Uthmeier, también demandó a OpenAI en junio, alegando que la empresa lanzó a sabiendas un producto inseguro. En agosto, OpenAI lanzó ChatGPT for Teens, una versión dedicada a adolescentes con funciones educativas y salvaguardas según la edad, de acuerdo con CNBC.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Las ocho demandas se presentaron por separado, una en cada estado: Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho y Montana.",
+      "OpenAI ya ofrece controles parentales, recordatorios de pausa y protecciones del modelo según la edad, según la empresa; ChatGPT for Teens, lanzado en agosto, está dirigido específicamente a adolescentes.",
+      "Los estados piden multas civiles y, en algunos casos, la eliminación de datos personales recolectados de menores; no se ha fijado fecha de juicio.",
+      "Quien esté en crisis o tenga pensamientos suicidas puede contactar a la Suicide & Crisis Lifeline de EE. UU. al número 988, según CNBC."
+    ]}
+  ],
+  "image": {
+    "query": "smartphone chatbot app icon close up",
+    "alt": "Primer plano de una pantalla de celular con el ícono de una app de chatbot de inteligencia artificial"
+  },
+  "sources": [
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html", "title": "OpenAI sued by 8 states over ChatGPT safety concerns"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety", "title": "Eight states sue OpenAI, saying ChatGPT isn't safe for kids"}
+  ],
+  "status": "draft"
+}
