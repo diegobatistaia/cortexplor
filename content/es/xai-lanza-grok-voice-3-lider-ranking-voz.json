@@ -7,35 +7,115 @@
   "meta_description": "La xAI lanza el Grok Voice 3.0, que lidera el ranking de Artificial Analysis y ya atiende a clientes de Tesla y Starlink, según la empresa y SiliconANGLE.",
   "keyword": "Grok Voice 3.0",
   "category": "modelos",
-  "tags": ["ia", "xai", "grok", "voz", "modelos"],
+  "tags": [
+    "ia",
+    "xai",
+    "grok",
+    "voz",
+    "modelos"
+  ],
   "body": [
-    {"type": "p", "text": "La xAI lanzó el Grok Voice 3.0, un nuevo modelo de voz a voz que la empresa describe como el más inteligente de su tipo disponible hoy, según el comunicado oficial y una nota de SiliconANGLE. El modelo ya está disponible en la Voice Agent API al mismo precio del Grok Voice 2.0.", "items": []},
-    {"type": "h2", "text": "Primer lugar en una prueba independiente", "items": []},
-    {"type": "p", "text": "Según la xAI y SiliconANGLE, la firma de pruebas independientes Artificial Analysis evaluó al Grok Voice 3.0 con 86,9 puntos en su Speech-to-Speech Index, el primer lugar entre los modelos de voz que mide. De acuerdo con SiliconANGLE, en el mismo índice el GPT-Live-1 de OpenAI, que usa el modelo GPT-6 Astra para el razonamiento, obtuvo 83,2 puntos, y el Gemini 3.8 Live de Google quedó en 82,6.", "items": []},
-    {"type": "p", "text": "En el Full Duplex Bench, prueba que mide qué tan natural es un modelo al manejar pausas e interrupciones en la conversación, el Grok Voice 3.0 obtuvo 97%, según ambas fuentes. En el Tau-Voice, un banco de pruebas centrado en llamadas de atención con acentos marcados y ruido de fondo, la xAI dice que el nuevo modelo es \"comparable\" al GPT-Live-1; SiliconANGLE detalla que el Grok Voice 3.0 obtuvo 71,6% frente a 74,5% del modelo de OpenAI, una ventaja pequeña para OpenAI, aunque la xAI dice que su modelo llega al primer audio alrededor de 40% más rápido.", "items": []},
-    {"type": "h2", "text": "Más barato por tarea, según ambas fuentes", "items": []},
-    {"type": "p", "text": "En la prueba Big Bench Audio, que mide cuánto cuesta completar una tarea en cada modelo, SiliconANGLE cita cifras de Artificial Analysis: alrededor de 2,5 centavos de dólar por tarea en el Grok Voice 3.0, frente a 3 centavos en el GPT-Live-1 y 5,5 centavos en el GPT-Realtime-2.1 de OpenAI. La xAI confirma que su modelo cuesta menos que los dos competidores en esa prueba, sin dar las cifras exactas.", "items": []},
-    {"type": "p", "text": "En el EVA-Bench, el banco de pruebas de ServiceNow para agentes de voz empresariales, el Grok Voice 3.0 alcanzó 74% de precisión, la puntuación más alta entre los modelos evaluados, y también lideró al sumar precisión y experiencia del cliente, según ambas fuentes. Nitin Aggarwal, director sénior de producto en ServiceNow, dijo a SiliconANGLE que el modelo \"combina la mayor precisión con una conversación natural y fluida\".", "items": []},
-    {"type": "h2", "text": "Ya en uso en Tesla y Starlink", "items": []},
-    {"type": "p", "text": "Según la xAI, el Grok Voice ya maneja millones de conversaciones al día en los vehículos de Tesla, donde los conductores lo usan para revisar la agenda, responder correos o, a través del Grok Bot, pedir un café o reservar una cena, todo sin usar las manos. En Starlink, el negocio de internet satelital de SpaceX, el Grok Voice responde unas 20.000 llamadas de clientes al día en varios idiomas; cerca del 70% se resuelven sin intervención humana, y una de cada cuatro llamadas de ventas termina en una compra antes de que el cliente cuelgue, según la xAI y SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Precio y disponibilidad", "items": []},
-    {"type": "p", "text": "El Grok Voice 3.0 ya está disponible en la Voice Agent API a 0,08 dólares por minuto (4,80 dólares por hora), el mismo precio que cobraba el Grok Voice 2.0, según la xAI y SiliconANGLE. Los agentes configurados con el identificador grok-voice-latest ya fueron migrados de forma automática a la nueva versión, sin que los desarrolladores deban hacer cambios.", "items": []},
-    {"type": "p", "text": "Según SiliconANGLE, la xAI viene adoptando el nombre SpaceXSI, abreviatura de SpaceX Super Intelligence, en lugar de xAI. SpaceX compró la empresa de IA en febrero, y la unidad pasó por el nombre SpaceXAI en julio antes de adoptar la grafía actual este mes.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "El Grok Voice 3.0 ya está disponible en la Voice Agent API, a 0,08 dólares por minuto, igual que el Grok Voice 2.0.",
-      "Los agentes que usan el identificador grok-voice-latest se actualizaron de forma automática, sin acción necesaria del desarrollador.",
-      "El modelo ya funciona en producción en Tesla (uso dentro del vehículo) y en Starlink (atención por voz a clientes), según la xAI.",
-      "En las pruebas de Artificial Analysis y ServiceNow citadas por las fuentes, el Grok Voice 3.0 lidera el índice general de voz y el banco de pruebas de agentes empresariales, pero queda detrás del modelo de OpenAI en una prueba específica de acentos y ruido de fondo."
-    ]}
+    {
+      "type": "p",
+      "text": "La xAI lanzó el Grok Voice 3.0, un nuevo modelo de voz a voz que la empresa describe como el más inteligente de su tipo disponible hoy, según el comunicado oficial y una nota de SiliconANGLE. El modelo ya está disponible en la Voice Agent API al mismo precio del Grok Voice 2.0.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Primer lugar en una prueba independiente",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según la xAI y SiliconANGLE, la firma de pruebas independientes Artificial Analysis evaluó al Grok Voice 3.0 con 86,9 puntos en su Speech-to-Speech Index, el primer lugar entre los modelos de voz que mide. De acuerdo con SiliconANGLE, en el mismo índice el GPT-Live-1 de OpenAI, que usa el modelo GPT-6 Astra para el razonamiento, obtuvo 83,2 puntos, y el Gemini 3.8 Live de Google quedó en 82,6.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En el Full Duplex Bench, prueba que mide qué tan natural es un modelo al manejar pausas e interrupciones en la conversación, el Grok Voice 3.0 obtuvo 97%, según ambas fuentes. En el Tau-Voice, un banco de pruebas centrado en llamadas de atención con acentos marcados y ruido de fondo, la xAI dice que el nuevo modelo es \"comparable\" al GPT-Live-1; SiliconANGLE detalla que el Grok Voice 3.0 obtuvo 71,6% frente a 74,5% del modelo de OpenAI, una ventaja pequeña para OpenAI, aunque la xAI dice que su modelo llega al primer audio alrededor de 40% más rápido.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Más barato por tarea, según ambas fuentes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En la prueba Big Bench Audio, que mide cuánto cuesta completar una tarea en cada modelo, SiliconANGLE cita cifras de Artificial Analysis: alrededor de 2,5 centavos de dólar por tarea en el Grok Voice 3.0, frente a 3 centavos en el GPT-Live-1 y 5,5 centavos en el GPT-Realtime-2.1 de OpenAI. La xAI confirma que su modelo cuesta menos que los dos competidores en esa prueba, sin dar las cifras exactas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En el EVA-Bench, el banco de pruebas de ServiceNow para agentes de voz empresariales, el Grok Voice 3.0 alcanzó 74% de precisión, la puntuación más alta entre los modelos evaluados, y también lideró al sumar precisión y experiencia del cliente, según ambas fuentes. Nitin Aggarwal, director sénior de producto en ServiceNow, dijo a SiliconANGLE que el modelo \"combina la mayor precisión con una conversación natural y fluida\".",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ya en uso en Tesla y Starlink",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según la xAI, el Grok Voice ya maneja millones de conversaciones al día en los vehículos de Tesla, donde los conductores lo usan para revisar la agenda, responder correos o, a través del Grok Bot, pedir un café o reservar una cena, todo sin usar las manos. En Starlink, el negocio de internet satelital de SpaceX, el Grok Voice responde unas 20.000 llamadas de clientes al día en varios idiomas; cerca del 70% se resuelven sin intervención humana, y una de cada cuatro llamadas de ventas termina en una compra antes de que el cliente cuelgue, según la xAI y SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Precio y disponibilidad",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El Grok Voice 3.0 ya está disponible en la Voice Agent API a 0,08 dólares por minuto (4,80 dólares por hora), el mismo precio que cobraba el Grok Voice 2.0, según la xAI y SiliconANGLE. Los agentes configurados con el identificador grok-voice-latest ya fueron migrados de forma automática a la nueva versión, sin que los desarrolladores deban hacer cambios.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según SiliconANGLE, la xAI viene adoptando el nombre SpaceXSI, abreviatura de SpaceX Super Intelligence, en lugar de xAI. SpaceX compró la empresa de IA en febrero, y la unidad pasó por el nombre SpaceXAI en julio antes de adoptar la grafía actual este mes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "El Grok Voice 3.0 ya está disponible en la Voice Agent API, a 0,08 dólares por minuto, igual que el Grok Voice 2.0.",
+        "Los agentes que usan el identificador grok-voice-latest se actualizaron de forma automática, sin acción necesaria del desarrollador.",
+        "El modelo ya funciona en producción en Tesla (uso dentro del vehículo) y en Starlink (atención por voz a clientes), según la xAI.",
+        "En las pruebas de Artificial Analysis y ServiceNow citadas por las fuentes, el Grok Voice 3.0 lidera el índice general de voz y el banco de pruebas de agentes empresariales, pero queda detrás del modelo de OpenAI en una prueba específica de acentos y ruido de fondo."
+      ]
+    }
   ],
   "image": {
     "query": "voice assistant sound wave microphone technology",
-    "alt": "Ilustración de una onda de sonido que representa a un asistente de voz con inteligencia artificial"
+    "alt": "Ilustración de una onda de sonido que representa a un asistente de voz con inteligencia artificial",
+    "path": "/assets/img/xai-lanza-grok-voice-3-lider-ranking-voz-a556b24d.jpg",
+    "credit": "Pawel Czerwinski / Unsplash",
+    "author": "Pawel Czerwinski",
+    "author_url": "https://unsplash.com/@pawel_czerwinski?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-black-background-with-a-blue-wave-of-light-eybM9n4yrpE"
   },
   "sources": [
-    {"name": "xAI", "owner": "xai", "url": "https://x.ai/news/grok-voice-3", "title": "Introducing Grok Voice 3.0"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/", "title": "Grok Voice 3.0 from SpaceXSI outscores OpenAI and Google on speech-to-speech index"}
+    {
+      "name": "xAI",
+      "owner": "xai",
+      "url": "https://x.ai/news/grok-voice-3",
+      "title": "Introducing Grok Voice 3.0"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
+      "title": "Grok Voice 3.0 from SpaceXSI outscores OpenAI and Google on speech-to-speech index"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-15T10:46:21+00:00",
+  "updated_at": "2026-10-15T10:46:21+00:00"
 }

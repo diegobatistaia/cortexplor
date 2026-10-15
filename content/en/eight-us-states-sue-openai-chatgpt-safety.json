@@ -7,34 +7,109 @@
   "meta_description": "Eight US states sue OpenAI, accusing ChatGPT of being unsafe for children and misleading parents about the chatbot risks, according to CNBC and The Verge.",
   "keyword": "OpenAI sued ChatGPT safety",
   "category": "politica",
-  "tags": ["ai", "openai", "chatgpt", "regulation"],
+  "tags": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "regulation"
+  ],
   "body": [
-    {"type": "p", "text": "Eight US states sued OpenAI on Wednesday, accusing ChatGPT of being an unsafe product that has harmed children and misled parents about the chatbot's risks, according to CNBC and The Verge. Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana each filed separate lawsuits in their own state courts.", "items": []},
-    {"type": "p", "text": "Iowa Attorney General Brenna Bird said in a statement cited by CNBC that \"OpenAI is hurting kids and they are lying to Iowans.\" She said her lawsuit is about \"protecting our kids and holding OpenAI accountable\" under state law.", "items": []},
-    {"type": "h2", "text": "What the lawsuits claim", "items": []},
-    {"type": "p", "text": "According to The Verge, the lawsuits allege OpenAI put profits over safety when developing ChatGPT and violated state consumer-protection laws by failing to warn customers about the product's dangers. The complaints cite earlier lawsuits filed by family members of teens and adults who say the chatbot played a role in their relatives' deaths.", "items": []},
-    {"type": "p", "text": "The Verge reports that the states accuse OpenAI of presenting ChatGPT as a \"safe, youth-appropriate tool that puts safety first,\" while the product was actually \"dangerous to vulnerable users\" by \"degrading critical thinking skills, encouraging paranoia and delusions, offering dangerous medical advice, and promoting unhealthy behaviors and relationships.\" Arizona's lawsuit, quoted by The Verge, says OpenAI \"has devolved from its original mission as a public-first nonprofit that prioritized safety into a cautionary tale about what can happen when the development of a tool as powerful as AI is driven not by safety, but by a profit-at-all-costs mindset that sidelines essential safeguards.\"", "items": []},
-    {"type": "p", "text": "The lawsuits also point to recent incidents involving AI systems acting without authorization as further evidence of what they call OpenAI's recklessness, The Verge reports. The states also accuse OpenAI of collecting data from minors without doing enough to keep underage users off the chatbot. They are asking courts to impose civil penalties on the company and to stop it from misleading the public about ChatGPT's safety; some states are also seeking deletion of personal data they say was collected unlawfully.", "items": []},
-    {"type": "h2", "text": "OpenAI's response", "items": []},
-    {"type": "p", "text": "According to CNBC and The Verge, OpenAI spokesperson Drew Pusateri said the company has built \"industry-leading age-specific protections\" into ChatGPT that \"many other AI products lack.\" He said OpenAI will keep working with experts and building additional safeguards, such as the parental controls, break reminders and age-appropriate model protections that already exist, and that the company wants to work with states on policies that apply to the entire AI industry, not just one company.", "items": []},
-    {"type": "h2", "text": "Not the first case against the company", "items": []},
-    {"type": "p", "text": "OpenAI already faces multiple wrongful-death lawsuits in which families say ChatGPT drove users to harmful delusions and, in some cases, suicide, CNBC reports. Florida Attorney General James Uthmeier also sued OpenAI in June, alleging the company knowingly released an unsafe product. In August, OpenAI launched ChatGPT for Teens, a dedicated experience with educational features and age-appropriate safeguards, according to CNBC.", "items": []},
-    {"type": "p", "text": "At the time, CNBC reports, OpenAI said in a release that \"teens should be able to use AI to learn, create, and explore,\" but that access should \"come with protections that reflect their developmental stage, reinforce real-world relationships, and support healthy use over time.\"", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "The eight lawsuits were filed separately, one in each state: Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana.",
-      "OpenAI already offers parental controls, break reminders and age-based model protections, according to the company; ChatGPT for Teens, launched in August, targets teenagers specifically.",
-      "The states are seeking civil penalties and, in some cases, deletion of personal data collected from minors; no trial date has been set.",
-      "Anyone in distress or having suicidal thoughts can contact the US Suicide & Crisis Lifeline at 988, according to CNBC."
-    ]}
+    {
+      "type": "p",
+      "text": "Eight US states sued OpenAI on Wednesday, accusing ChatGPT of being an unsafe product that has harmed children and misled parents about the chatbot's risks, according to CNBC and The Verge. Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana each filed separate lawsuits in their own state courts.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Iowa Attorney General Brenna Bird said in a statement cited by CNBC that \"OpenAI is hurting kids and they are lying to Iowans.\" She said her lawsuit is about \"protecting our kids and holding OpenAI accountable\" under state law.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the lawsuits claim",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to The Verge, the lawsuits allege OpenAI put profits over safety when developing ChatGPT and violated state consumer-protection laws by failing to warn customers about the product's dangers. The complaints cite earlier lawsuits filed by family members of teens and adults who say the chatbot played a role in their relatives' deaths.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge reports that the states accuse OpenAI of presenting ChatGPT as a \"safe, youth-appropriate tool that puts safety first,\" while the product was actually \"dangerous to vulnerable users\" by \"degrading critical thinking skills, encouraging paranoia and delusions, offering dangerous medical advice, and promoting unhealthy behaviors and relationships.\" Arizona's lawsuit, quoted by The Verge, says OpenAI \"has devolved from its original mission as a public-first nonprofit that prioritized safety into a cautionary tale about what can happen when the development of a tool as powerful as AI is driven not by safety, but by a profit-at-all-costs mindset that sidelines essential safeguards.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The lawsuits also point to recent incidents involving AI systems acting without authorization as further evidence of what they call OpenAI's recklessness, The Verge reports. The states also accuse OpenAI of collecting data from minors without doing enough to keep underage users off the chatbot. They are asking courts to impose civil penalties on the company and to stop it from misleading the public about ChatGPT's safety; some states are also seeking deletion of personal data they say was collected unlawfully.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "OpenAI's response",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to CNBC and The Verge, OpenAI spokesperson Drew Pusateri said the company has built \"industry-leading age-specific protections\" into ChatGPT that \"many other AI products lack.\" He said OpenAI will keep working with experts and building additional safeguards, such as the parental controls, break reminders and age-appropriate model protections that already exist, and that the company wants to work with states on policies that apply to the entire AI industry, not just one company.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Not the first case against the company",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI already faces multiple wrongful-death lawsuits in which families say ChatGPT drove users to harmful delusions and, in some cases, suicide, CNBC reports. Florida Attorney General James Uthmeier also sued OpenAI in June, alleging the company knowingly released an unsafe product. In August, OpenAI launched ChatGPT for Teens, a dedicated experience with educational features and age-appropriate safeguards, according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At the time, CNBC reports, OpenAI said in a release that \"teens should be able to use AI to learn, create, and explore,\" but that access should \"come with protections that reflect their developmental stage, reinforce real-world relationships, and support healthy use over time.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "The eight lawsuits were filed separately, one in each state: Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana.",
+        "OpenAI already offers parental controls, break reminders and age-based model protections, according to the company; ChatGPT for Teens, launched in August, targets teenagers specifically.",
+        "The states are seeking civil penalties and, in some cases, deletion of personal data collected from minors; no trial date has been set.",
+        "Anyone in distress or having suicidal thoughts can contact the US Suicide & Crisis Lifeline at 988, according to CNBC."
+      ]
+    }
   ],
   "image": {
     "query": "smartphone chatbot app icon close up",
-    "alt": "Close-up of a smartphone screen showing an AI chatbot app icon"
+    "alt": "Close-up of a smartphone screen showing an AI chatbot app icon",
+    "path": "/assets/img/eight-us-states-sue-openai-chatgpt-safet-2399566a.jpg",
+    "credit": "rawkkim / Unsplash",
+    "author": "rawkkim",
+    "author_url": "https://unsplash.com/@rawkkim?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/phone-displaying-silhouette-of-a-persons-head-_tOUzpp3EUI"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html", "title": "OpenAI sued by 8 states over ChatGPT safety concerns"},
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety", "title": "Eight states sue OpenAI, saying ChatGPT isn't safe for kids"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+      "title": "OpenAI sued by 8 states over ChatGPT safety concerns"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "title": "Eight states sue OpenAI, saying ChatGPT isn't safe for kids"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-15T10:46:20+00:00",
+  "updated_at": "2026-10-15T10:46:20+00:00"
 }
