@@ -1,0 +1,40 @@
+{
+  "lang": "pt",
+  "slug": "openai-agentes-ia-maioria-tokens-ue",
+  "story_id": "360bb24242fa8c73",
+  "title": "Agentes de IA já são maioria do uso corporativo da OpenAI na UE",
+  "dek": "Relatório da OpenAI mostra Codex e ChatGPT Work respondendo por mais da metade dos tokens gerados por clientes empresariais no bloco europeu.",
+  "meta_description": "A OpenAI afirma que agentes de IA já passam de metade do uso corporativo das empresas na União Europeia, mas o bloco ainda fica atrás da fronteira global.",
+  "keyword": "agentes de IA na União Europeia",
+  "category": "mercado",
+  "tags": ["ia", "openai", "mercado", "uniao-europeia", "agentes"],
+  "body": [
+    {"type": "p", "text": "A OpenAI afirma que ferramentas de agentes de IA já respondem por mais da metade dos tokens de saída gerados por clientes do ChatGPT Enterprise na União Europeia, segundo relatório da área de pesquisa econômica da empresa publicado nesta semana e intitulado \"The EU's next chapter in AI is agentic\".", "items": []},
+    {"type": "p", "text": "O levantamento mede o uso do Codex (ferramenta de agentes para tarefas de programação da OpenAI) e do ChatGPT Work (recurso de agentes integrado ao aplicativo da empresa para tarefas corporativas). Segundo a TechRadar, que teve acesso ao relatório completo, agentes já concentram 55% dos tokens de saída entre as contas do ChatGPT Enterprise analisadas no bloco europeu, contra 45% de uso mais básico do chatbot.", "items": []},
+    {"type": "p", "text": "A TechRadar faz uma ressalva sobre o número: a métrica mede volume de tokens produzidos, não a proporção de empresas que adotaram agentes. Ou seja, o relatório não mostra que mais empresas passaram a usar IA agentiva — mostra que as que já usam produzem mais resultado que as que ainda não usam.", "items": []},
+    {"type": "h2", "text": "Disparidade entre países da UE", "items": []},
+    {"type": "p", "text": "Segundo a OpenAI, a fatia de uso agentivo varia de 22%, na Eslovênia, a 85%, na Lituânia, entre as contas de ChatGPT Enterprise analisadas. A TechRadar detalha outros países do ranking: Áustria (26%) e Portugal (29%) também ficam abaixo da média do bloco, enquanto Chipre (81%) e Hungria (79%) aparecem logo atrás da Lituânia.", "items": []},
+    {"type": "h2", "text": "Pequenas empresas aceleram desde maio", "items": []},
+    {"type": "p", "text": "Entre pequenas e médias empresas da União Europeia, o número de usuários semanais ativos do Codex e do ChatGPT Work cresceu mais de oito vezes desde maio de 2026, com alta em todos os países do bloco, segundo a OpenAI. De acordo com a TechRadar, a maior parte desse salto aconteceu a partir do lançamento do ChatGPT Work.", "items": []},
+    {"type": "h2", "text": "UE ainda atrás da fronteira global", "items": []},
+    {"type": "p", "text": "Apesar do crescimento, a OpenAI diz que as chamadas \"frontier firms\" europeias — empresas entre as que mais geram tokens por usuário ativo no mundo — representam só 10% desse grupo global, proporção que a própria empresa considera baixa diante da participação da UE no total de empresas registradas no mundo. Segundo a TechRadar, a América do Norte concentra 65% dessas empresas de ponta, contra 13% na Ásia-Pacífico e 11% na soma de Europa, Oriente Médio e África fora da UE.", "items": []},
+    {"type": "p", "text": "A OpenAI afirma que, em setembro, as empresas de ponta da UE geraram mais de quatro vezes mais tokens de saída por usuário ativo que as empresas europeias típicas — mas as de ponta de fora da União Europeia ainda geraram mais do dobro dos tokens por usuário das líderes europeias. A TechRadar acrescenta que o ritmo de crescimento também diverge: 12,9 vezes entre maio e setembro para as empresas de ponta de fora da UE, contra 6,1 vezes para as da própria União Europeia.", "items": []},
+    {"type": "p", "text": "\"A Europa está agora em uma nova era de IA, com ferramentas que conseguem realizar tarefas pelas pessoas\", escreveu a diretora financeira da OpenAI, Sarah Friar, segundo a TechRadar. De acordo com a reportagem, a executiva defende que dar às pessoas ferramentas, habilidades e confiança para usar IA deve fortalecer empresas e economias na região.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "O relatório cobre clientes do ChatGPT Enterprise e pequenas e médias empresas que usam Codex e ChatGPT Work na União Europeia, segundo a OpenAI.",
+      "O uso agentivo já passa de metade dos tokens gerados por clientes empresariais da UE, com variação de 22% (Eslovênia) a 85% (Lituânia), segundo a OpenAI e a TechRadar.",
+      "Entre pequenas e médias empresas da UE, o uso semanal de Codex e ChatGPT Work cresceu mais de oito vezes desde maio de 2026, segundo a OpenAI.",
+      "Mesmo com o avanço, as empresas de ponta da UE representam só 10% desse grupo no mundo, atrás da América do Norte (65%), segundo a OpenAI e a TechRadar."
+    ]}
+  ],
+  "image": {
+    "query": "european union flag office business technology agents",
+    "alt": "Bandeira da União Europeia ao lado de um computador representando o uso corporativo de inteligência artificial"
+  },
+  "sources": [
+    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic", "title": "The EU's next chapter in AI is agentic"},
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/the-eus-next-chapter-in-ai-is-agentic-new-openai-report-claims-agent-use-is-on-the-rise-across-europe-but-it-still-has-some-way-to-catch-up-to-other-markets", "title": "'The EU's next chapter in AI is agentic': New OpenAI report claims agent use is on the rise across Europe — but it still has some way to catch up to other markets"}
+  ],
+  "status": "draft"
+}
