@@ -1,0 +1,101 @@
+{
+  "slug": "openai-ai-agents-majority-eu-enterprise-output",
+  "lang": "en",
+  "date": "15 Oct 2026",
+  "no": 43,
+  "category": "Market",
+  "kicker": "Market · OpenAI",
+  "headline": "OpenAI Says AI Agents Now Drive Most EU Enterprise Output",
+  "headline_hl": "Most",
+  "dek": "An OpenAI report says Codex and ChatGPT Work generate over half of business customers' output tokens in Europe.",
+  "image": {
+    "path": "assets/img/openai-ai-agents-majority-eu-enterprise--3928a7a0.jpg",
+    "credit": "Lukas / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Agents<br>55%",
+  "sources": [
+    "OpenAI",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Agents pass the halfway mark",
+    "body": [
+      "OpenAI says agentic tools now account for more than half of output tokens from ChatGPT Enterprise customers in the EU (OpenAI, TechRadar).",
+      "According to TechRadar, that is 55% agentic use versus 45% basic chatbot use."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the number measures",
+    "body": "TechRadar cautions the metric counts token volume, not how many companies adopted agents.",
+    "points": [
+      {
+        "h": "Codex",
+        "t": "OpenAI's coding agent tool (OpenAI)."
+      },
+      {
+        "h": "ChatGPT Work",
+        "t": "An agentic feature in the app for business tasks (OpenAI)."
+      },
+      {
+        "h": "Spread",
+        "t": "From 22% in Slovenia to 85% in Lithuania (OpenAI, TechRadar)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The EU still trails",
+    "body": [
+      "According to OpenAI, EU frontier firms are only 10% of that group worldwide, while North America holds 65% (OpenAI, TechRadar).",
+      "Among EU small and medium businesses, weekly use of Codex and ChatGPT Work grew more than eightfold since May, OpenAI says."
+    ],
+    "stat": {
+      "big": "55%",
+      "cap": "of EU output tokens come from agents"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "OpenAI's stated focus",
+    "items": [
+      {
+        "h": "Daily use",
+        "t": "OpenAI says it wants EU firms to move past early experiments."
+      },
+      {
+        "h": "Areas",
+        "t": "Access, affordability and workforce skills, per OpenAI."
+      },
+      {
+        "h": "No dates",
+        "t": "The company names no programs or timelines for the region (OpenAI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI says AI agents now generate 55% of output tokens from enterprise customers in the European Union.",
+    "body": [
+      "According to OpenAI and TechRadar, agentic use of Codex and ChatGPT Work ranges from 22% in Slovenia to 85% in Lithuania. TechRadar cautions that the figure measures token volume, not how many companies adopted agents.",
+      "OpenAI says weekly use of these tools among EU small and medium businesses grew more than eightfold since May. Even so, the bloc's frontier firms are just 10% of the global group, versus 65% for North America, per the report."
+    ],
+    "cta_variant": "A",
+    "cta": "Is your company already using AI agents for daily work?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#aiagents",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about AI agents driving most of OpenAI's enterprise use in the EU",
+    "Slide 2: agents account for 55% of output tokens from ChatGPT Enterprise customers in the EU",
+    "Slide 3: what the figure measures and the 22% to 85% spread across countries",
+    "Slide 4: EU frontier firms are 10% of the global group; 55% of tokens come from agents",
+    "Slide 5: OpenAI's stated focus for EU businesses, with no timelines",
+    "Slide 6: sources for the AI agents in the EU story: OpenAI and TechRadar"
+  ]
+}
