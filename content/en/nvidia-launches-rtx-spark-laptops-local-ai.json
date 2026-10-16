@@ -7,36 +7,117 @@
   "meta_description": "Nvidia launches its RTX Spark laptops, with an Arm chip, Blackwell GPU and up to 128GB of unified memory for local AI, according to the company and press.",
   "keyword": "RTX Spark",
   "category": "aplicacoes",
-  "tags": ["ai", "nvidia", "hardware", "local-ai", "laptops"],
+  "tags": [
+    "ai",
+    "nvidia",
+    "hardware",
+    "local-ai",
+    "laptops"
+  ],
   "body": [
-    {"type": "p", "text": "Nvidia is launching the first laptops built on its RTX Spark chip this Friday, October 16, according to the company's own blog. The platform pairs an Arm-based processor with a Blackwell GPU and up to 128GB of unified memory — shared between the processor and the graphics chip — with a stated capacity of 1 petaflop for AI workloads.", "items": []},
-    {"type": "h2", "text": "AI agents preinstalled from the first screen", "items": []},
-    {"type": "p", "text": "According to Nvidia, the first time a user turns on the laptop, they see a \"Getting Started\" screen to pick and install an AI agent app. Peter Dawoud, a principal program manager at Microsoft, told The Verge that setting up an agent on these laptops takes just two clicks, and that agents are installed and updated through the Windows Store itself. The Verge reports that Hermes, Perplexity and OpenClaw are among the first agents available.", "items": []},
-    {"type": "p", "text": "Nvidia says it added a new security layer for these agents, called OpenShell and MXC, and says local large language model downloads are already five times higher than during all of last year.", "items": []},
-    {"type": "h2", "text": "A response to Apple's own silicon", "items": []},
-    {"type": "p", "text": "RTX Spark debuts first in Microsoft's Surface Laptop Ultra, among other partner laptops, according to Engadget. The outlet describes the platform as a direct response to Apple Silicon, which has combined an Arm processor, GPU and fast unified memory in Macs since 2020 — and notes that an earlier attempt to bring that combination to Windows, through the Snapdragon chips in Copilot+ PCs, didn't have the same impact.", "items": []},
-    {"type": "h2", "text": "Weeks of ecosystem preparation", "items": []},
-    {"type": "p", "text": "According to The Verge, Microsoft worked to get Windows ready to run AI models locally ahead of the launch, including memory-management changes to make room for the models. Nvidia says it partnered with software makers to roll out optimizations and new features in the days before launch, covering thousands of apps, games and models already compatible with RTX Spark. The company points to open local models such as Qwen 3.8-Flash-Next as evidence that software running on a laptop's own hardware, rather than in the cloud, has closed much of the gap with frontier cloud models released only months earlier.", "items": []},
-    {"type": "h2", "text": "Pre-launch reviews and events worldwide", "items": []},
-    {"type": "p", "text": "Nvidia's own post collects comments from outlets that tested RTX Spark ahead of launch. According to the company, Tom's Hardware wrote that the partnership between Nvidia, Microsoft and partner manufacturers delivered a mature platform even in this first version, enough to \"put the rest of the PC industry on notice.\" TrustedReviews, in the UK, said it came away impressed by gaming and local AI performance, while Tom's Guide described RTX Spark as its own category of computer, able to carry an autonomous \"digital brain\" in a backpack.", "items": []},
-    {"type": "p", "text": "Nvidia also cites independent testing from Artificial Analysis, a firm that specializes in evaluating AI model performance, on how much RTX Spark delivers for local AI tasks — without publishing the full numbers in that post. To celebrate the launch, the company is running in-person events around the world starting this Friday, along with a #ShareYourSpark campaign that will give away an ASUS ProArt P14 RTX Spark laptop signed by Nvidia founder and CEO Jensen Huang.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: buyers of the Surface Laptop Ultra and other partner laptops built on the RTX Spark chip.",
-      "Since when: starting Friday, October 16, 2026, according to Nvidia.",
-      "What it costs: the sources don't give a single price; each partner manufacturer sets the price for its own laptop model.",
-      "What changes: it's the first time a Windows PC combines an Arm processor, a Blackwell GPU and up to 128GB of unified memory, with AI agents preconfigured from the very first screen.",
-      "Who is affected: laptop buyers interested in running AI models locally, without relying on the cloud."
-    ]}
+    {
+      "type": "p",
+      "text": "Nvidia is launching the first laptops built on its RTX Spark chip this Friday, October 16, according to the company's own blog. The platform pairs an Arm-based processor with a Blackwell GPU and up to 128GB of unified memory — shared between the processor and the graphics chip — with a stated capacity of 1 petaflop for AI workloads.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "AI agents preinstalled from the first screen",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Nvidia, the first time a user turns on the laptop, they see a \"Getting Started\" screen to pick and install an AI agent app. Peter Dawoud, a principal program manager at Microsoft, told The Verge that setting up an agent on these laptops takes just two clicks, and that agents are installed and updated through the Windows Store itself. The Verge reports that Hermes, Perplexity and OpenClaw are among the first agents available.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says it added a new security layer for these agents, called OpenShell and MXC, and says local large language model downloads are already five times higher than during all of last year.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A response to Apple's own silicon",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "RTX Spark debuts first in Microsoft's Surface Laptop Ultra, among other partner laptops, according to Engadget. The outlet describes the platform as a direct response to Apple Silicon, which has combined an Arm processor, GPU and fast unified memory in Macs since 2020 — and notes that an earlier attempt to bring that combination to Windows, through the Snapdragon chips in Copilot+ PCs, didn't have the same impact.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Weeks of ecosystem preparation",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to The Verge, Microsoft worked to get Windows ready to run AI models locally ahead of the launch, including memory-management changes to make room for the models. Nvidia says it partnered with software makers to roll out optimizations and new features in the days before launch, covering thousands of apps, games and models already compatible with RTX Spark. The company points to open local models such as Qwen 3.8-Flash-Next as evidence that software running on a laptop's own hardware, rather than in the cloud, has closed much of the gap with frontier cloud models released only months earlier.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Pre-launch reviews and events worldwide",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia's own post collects comments from outlets that tested RTX Spark ahead of launch. According to the company, Tom's Hardware wrote that the partnership between Nvidia, Microsoft and partner manufacturers delivered a mature platform even in this first version, enough to \"put the rest of the PC industry on notice.\" TrustedReviews, in the UK, said it came away impressed by gaming and local AI performance, while Tom's Guide described RTX Spark as its own category of computer, able to carry an autonomous \"digital brain\" in a backpack.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia also cites independent testing from Artificial Analysis, a firm that specializes in evaluating AI model performance, on how much RTX Spark delivers for local AI tasks — without publishing the full numbers in that post. To celebrate the launch, the company is running in-person events around the world starting this Friday, along with a #ShareYourSpark campaign that will give away an ASUS ProArt P14 RTX Spark laptop signed by Nvidia founder and CEO Jensen Huang.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: buyers of the Surface Laptop Ultra and other partner laptops built on the RTX Spark chip.",
+        "Since when: starting Friday, October 16, 2026, according to Nvidia.",
+        "What it costs: the sources don't give a single price; each partner manufacturer sets the price for its own laptop model.",
+        "What changes: it's the first time a Windows PC combines an Arm processor, a Blackwell GPU and up to 128GB of unified memory, with AI agents preconfigured from the very first screen.",
+        "Who is affected: laptop buyers interested in running AI models locally, without relying on the cloud."
+      ]
+    }
   ],
   "image": {
     "query": "laptop computer chip local AI hardware",
-    "alt": "Modern laptop with a computing chip representing local artificial intelligence hardware"
+    "alt": "Modern laptop with a computing chip representing local artificial intelligence hardware",
+    "path": "/assets/img/nvidia-launches-rtx-spark-laptops-local--53312b24.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "author": "Igor Omilaev",
+    "author_url": "https://unsplash.com/@omilaev?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-computer-chip-with-the-letter-a-on-top-of-it-eGGFZ5X2LnA"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/", "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad", "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/", "title": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+      "title": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-16T10:45:18+00:00",
+  "updated_at": "2026-10-16T10:45:18+00:00"
 }

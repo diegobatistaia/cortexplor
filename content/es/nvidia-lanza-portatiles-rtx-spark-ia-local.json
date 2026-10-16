@@ -7,36 +7,117 @@
   "meta_description": "Nvidia lanza sus portátiles RTX Spark, con chip Arm, GPU Blackwell y hasta 128 GB de memoria unificada para IA local, ya este viernes, según la empresa.",
   "keyword": "RTX Spark",
   "category": "aplicacoes",
-  "tags": ["ia", "nvidia", "hardware", "ia-local", "portatiles"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "hardware",
+    "ia-local",
+    "portatiles"
+  ],
   "body": [
-    {"type": "p", "text": "Nvidia lanza este viernes 16 de octubre los primeros portátiles con el chip RTX Spark, según un comunicado de la propia empresa. La plataforma combina un procesador con arquitectura Arm y una GPU Blackwell con hasta 128 GB de memoria unificada —compartida entre el procesador y la tarjeta gráfica— y una capacidad declarada de 1 petaflop para tareas de inteligencia artificial.", "items": []},
-    {"type": "h2", "text": "Agentes de IA preinstalados desde la primera pantalla", "items": []},
-    {"type": "p", "text": "Según Nvidia, al encender el portátil por primera vez el usuario ve una pantalla de \"Getting Started\" para elegir e instalar una aplicación de agente de IA. Peter Dawoud, gerente principal de programa en Microsoft, dijo a The Verge que configurar un agente en estos portátiles toma solo dos clics, y que los agentes se instalan y actualizan desde la propia tienda de Windows. Según The Verge, Hermes, Perplexity y OpenClaw están entre los primeros agentes disponibles.", "items": []},
-    {"type": "p", "text": "Nvidia afirma haber incluido una nueva capa de seguridad para estos agentes, llamada OpenShell y MXC, y dice que las descargas de modelos de lenguaje para uso local ya son cinco veces mayores que en todo el año anterior.", "items": []},
-    {"type": "h2", "text": "Una respuesta al chip propio de Apple", "items": []},
-    {"type": "p", "text": "El RTX Spark debuta primero en el Surface Laptop Ultra de Microsoft, entre otros modelos de socios, según Engadget. El medio describe la plataforma como una respuesta directa a Apple Silicon, que combina procesador Arm, GPU y memoria unificada rápida en las Mac desde 2020, y recuerda que un intento anterior de llevar esa combinación a Windows, con los chips Snapdragon de las PC Copilot+, no tuvo el mismo impacto.", "items": []},
-    {"type": "h2", "text": "Semanas de preparación del ecosistema", "items": []},
-    {"type": "p", "text": "Según The Verge, Microsoft trabajó para tener Windows listo para ejecutar modelos de IA de forma local antes del lanzamiento, incluyendo cambios en la gestión de memoria para dejar espacio a los modelos. Nvidia dice haberse asociado con desarrolladores de software para lanzar optimizaciones y nuevas funciones en los días previos al lanzamiento, que abarcan miles de aplicaciones, juegos y modelos ya compatibles con RTX Spark.", "items": []},
-    {"type": "h2", "text": "Reseñas previas al lanzamiento y eventos en el mundo", "items": []},
-    {"type": "p", "text": "La propia Nvidia reunió, en su publicación, comentarios de medios que probaron el RTX Spark antes del lanzamiento. Según la empresa, Tom's Hardware escribió que la alianza entre Nvidia, Microsoft y los fabricantes socios entregó una plataforma madura ya en esta primera versión, suficiente para \"poner en alerta al resto de la industria de PC\". TrustedReviews, del Reino Unido, dijo haber quedado impresionada con el desempeño en juegos y en IA local, mientras que Tom's Guide describió al RTX Spark como una categoría propia de computadora, capaz de llevar un \"cerebro digital\" autónomo dentro de una mochila.", "items": []},
-    {"type": "p", "text": "Nvidia también cita pruebas independientes de Artificial Analysis, empresa especializada en evaluar el desempeño de modelos de IA, sobre cuánto rinde el RTX Spark en tareas de IA local, sin publicar las cifras completas en ese comunicado. Para celebrar el lanzamiento, la empresa organiza eventos presenciales alrededor del mundo desde este viernes, además de una campaña con la etiqueta #ShareYourSpark, que sortea un portátil ASUS ProArt P14 RTX Spark autografiado por el fundador y director ejecutivo de Nvidia, Jensen Huang.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quién puede usarlo: compradores del Surface Laptop Ultra y de otros portátiles de socios con chip RTX Spark.",
-      "Desde cuándo: a partir del viernes 16 de octubre de 2026, según Nvidia.",
-      "Cuánto cuesta: las fuentes no dan un precio único; cada fabricante socio define el precio de su propio modelo de portátil.",
-      "Qué cambia: es la primera vez que una PC con Windows combina procesador Arm, GPU Blackwell y hasta 128 GB de memoria unificada, con agentes de IA preconfigurados desde la primera pantalla de uso.",
-      "A quién afecta: compradores de portátiles interesados en ejecutar modelos de IA de forma local, sin depender de la nube."
-    ]}
+    {
+      "type": "p",
+      "text": "Nvidia lanza este viernes 16 de octubre los primeros portátiles con el chip RTX Spark, según un comunicado de la propia empresa. La plataforma combina un procesador con arquitectura Arm y una GPU Blackwell con hasta 128 GB de memoria unificada —compartida entre el procesador y la tarjeta gráfica— y una capacidad declarada de 1 petaflop para tareas de inteligencia artificial.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Agentes de IA preinstalados desde la primera pantalla",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Nvidia, al encender el portátil por primera vez el usuario ve una pantalla de \"Getting Started\" para elegir e instalar una aplicación de agente de IA. Peter Dawoud, gerente principal de programa en Microsoft, dijo a The Verge que configurar un agente en estos portátiles toma solo dos clics, y que los agentes se instalan y actualizan desde la propia tienda de Windows. Según The Verge, Hermes, Perplexity y OpenClaw están entre los primeros agentes disponibles.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia afirma haber incluido una nueva capa de seguridad para estos agentes, llamada OpenShell y MXC, y dice que las descargas de modelos de lenguaje para uso local ya son cinco veces mayores que en todo el año anterior.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Una respuesta al chip propio de Apple",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El RTX Spark debuta primero en el Surface Laptop Ultra de Microsoft, entre otros modelos de socios, según Engadget. El medio describe la plataforma como una respuesta directa a Apple Silicon, que combina procesador Arm, GPU y memoria unificada rápida en las Mac desde 2020, y recuerda que un intento anterior de llevar esa combinación a Windows, con los chips Snapdragon de las PC Copilot+, no tuvo el mismo impacto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Semanas de preparación del ecosistema",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según The Verge, Microsoft trabajó para tener Windows listo para ejecutar modelos de IA de forma local antes del lanzamiento, incluyendo cambios en la gestión de memoria para dejar espacio a los modelos. Nvidia dice haberse asociado con desarrolladores de software para lanzar optimizaciones y nuevas funciones en los días previos al lanzamiento, que abarcan miles de aplicaciones, juegos y modelos ya compatibles con RTX Spark.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Reseñas previas al lanzamiento y eventos en el mundo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La propia Nvidia reunió, en su publicación, comentarios de medios que probaron el RTX Spark antes del lanzamiento. Según la empresa, Tom's Hardware escribió que la alianza entre Nvidia, Microsoft y los fabricantes socios entregó una plataforma madura ya en esta primera versión, suficiente para \"poner en alerta al resto de la industria de PC\". TrustedReviews, del Reino Unido, dijo haber quedado impresionada con el desempeño en juegos y en IA local, mientras que Tom's Guide describió al RTX Spark como una categoría propia de computadora, capaz de llevar un \"cerebro digital\" autónomo dentro de una mochila.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia también cita pruebas independientes de Artificial Analysis, empresa especializada en evaluar el desempeño de modelos de IA, sobre cuánto rinde el RTX Spark en tareas de IA local, sin publicar las cifras completas en ese comunicado. Para celebrar el lanzamiento, la empresa organiza eventos presenciales alrededor del mundo desde este viernes, además de una campaña con la etiqueta #ShareYourSpark, que sortea un portátil ASUS ProArt P14 RTX Spark autografiado por el fundador y director ejecutivo de Nvidia, Jensen Huang.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: compradores del Surface Laptop Ultra y de otros portátiles de socios con chip RTX Spark.",
+        "Desde cuándo: a partir del viernes 16 de octubre de 2026, según Nvidia.",
+        "Cuánto cuesta: las fuentes no dan un precio único; cada fabricante socio define el precio de su propio modelo de portátil.",
+        "Qué cambia: es la primera vez que una PC con Windows combina procesador Arm, GPU Blackwell y hasta 128 GB de memoria unificada, con agentes de IA preconfigurados desde la primera pantalla de uso.",
+        "A quién afecta: compradores de portátiles interesados en ejecutar modelos de IA de forma local, sin depender de la nube."
+      ]
+    }
   ],
   "image": {
     "query": "laptop computer chip local AI hardware",
-    "alt": "Portátil moderno con un chip de computación que representa hardware de inteligencia artificial local"
+    "alt": "Portátil moderno con un chip de computación que representa hardware de inteligencia artificial local",
+    "path": "/assets/img/nvidia-lanza-portatiles-rtx-spark-ia-loc-53312b24.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "author": "Igor Omilaev",
+    "author_url": "https://unsplash.com/@omilaev?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-computer-chip-with-the-letter-a-on-top-of-it-eGGFZ5X2LnA"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/", "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad", "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/", "title": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+      "title": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-16T10:45:19+00:00",
+  "updated_at": "2026-10-16T10:45:19+00:00"
 }

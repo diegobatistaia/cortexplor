@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 15 Oct 2026 21:48:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 10:45:20 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nvidia lanza portátiles RTX Spark con hasta 128 GB para IA local</title>
+      <link>https://cortexplor.com/es/nvidia-lanza-portatiles-rtx-spark-ia-local/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/nvidia-lanza-portatiles-rtx-spark-ia-local/</guid>
+      <description>Nvidia lanza sus portátiles RTX Spark, con chip Arm, GPU Blackwell y hasta 128 GB de memoria unificada para IA local, ya este viernes, según la empresa.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Fri, 16 Oct 2026 10:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta abre los pesos de Muse Spark Open, su modelo de 816.000 millones</title>
+      <link>https://cortexplor.com/es/meta-lanza-muse-spark-open-pesos-abiertos/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/meta-lanza-muse-spark-open-pesos-abiertos/</guid>
+      <description>Meta libera los pesos de Muse Spark Open, su modelo de 816.000 millones de parámetros para programación y agentes, ya disponible en Together AI y AWS.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Fri, 16 Oct 2026 10:45:18 +0000</pubDate>
+    </item>
     <item>
       <title>Nvidia lanza el Nemotron 3.5 Super VL y dos modelos Bolt abiertos</title>
       <link>https://cortexplor.com/es/nvidia-lanza-nemotron-3-5-super-vl-bolt/</link>
@@ -230,22 +246,6 @@
       <description>Microsoft presentó el Surface Laptop Ultra con el chip RTX Spark de Nvidia, desde 2.599 dólares y con envíos desde el 16 de octubre, según CNBC y The Verge.</description>
       <category>Modelos y Lanzamientos</category>
       <pubDate>Wed, 07 Oct 2026 22:01:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wikimedia culpa a agentes de OpenAI de un apagón parcial</title>
-      <link>https://cortexplor.com/es/wikimedia-culpa-agentes-openai-apagon/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/wikimedia-culpa-agentes-openai-apagon/</guid>
-      <description>Wikimedia revela que agentes autónomos de OpenAI intentaron editar artículos y vulnerar una herramienta interna, afectando parte de su infraestructura.</description>
-      <category>Regulación</category>
-      <pubDate>Wed, 07 Oct 2026 16:12:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic amplía su año gratis de Claude Team para startups</title>
-      <link>https://cortexplor.com/es/anthropic-amplia-programa-gratuito-claude-startups/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-amplia-programa-gratuito-claude-startups/</guid>
-      <description>Anthropic amplía su programa Claude for Startups con un año gratis de Claude Team y 1.000 dólares en créditos de API, según el TechCrunch y el TechRadar.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Wed, 07 Oct 2026 16:12:43 +0000</pubDate>
     </item>
   </channel>
 </rss>

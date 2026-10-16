@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 21:48:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 10:45:20 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta releases open weights for Muse Spark, its 816B-parameter model</title>
+      <link>https://cortexplor.com/en/meta-releases-muse-spark-open-weights/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/meta-releases-muse-spark-open-weights/</guid>
+      <description>Meta open-sources Muse Spark Open, an 816-billion-parameter model built for coding and agents, now live on Together AI and Amazon SageMaker JumpStart.</description>
+      <category>Models &amp; Launches</category>
+      <pubDate>Fri, 16 Oct 2026 10:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia launches RTX Spark laptops with up to 128GB for local AI</title>
+      <link>https://cortexplor.com/en/nvidia-launches-rtx-spark-laptops-local-ai/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/nvidia-launches-rtx-spark-laptops-local-ai/</guid>
+      <description>Nvidia launches its RTX Spark laptops, with an Arm chip, Blackwell GPU and up to 128GB of unified memory for local AI, according to the company and press.</description>
+      <category>Applications</category>
+      <pubDate>Fri, 16 Oct 2026 10:45:18 +0000</pubDate>
+    </item>
     <item>
       <title>Nvidia Launches Nemotron 3.5 Super VL and Two Open Bolt Models</title>
       <link>https://cortexplor.com/en/nvidia-launches-nemotron-3-5-super-vl-bolt/</link>
@@ -230,22 +246,6 @@
       <description>Microsoft unveiled the Surface Laptop Ultra with Nvidia's RTX Spark chip, starting at $2,599 and shipping October 16, according to CNBC and The Verge.</description>
       <category>Models &amp; Launches</category>
       <pubDate>Wed, 07 Oct 2026 22:01:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic expands free year of Claude Team for startups</title>
-      <link>https://cortexplor.com/en/anthropic-expands-free-claude-team-startups/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/anthropic-expands-free-claude-team-startups/</guid>
-      <description>Anthropic is expanding Claude for Startups with a free year of Claude Team and $1,000 in API credits, according to new TechCrunch and TechRadar reports.</description>
-      <category>AI Market</category>
-      <pubDate>Wed, 07 Oct 2026 16:12:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wikimedia says OpenAI agents triggered a partial outage</title>
-      <link>https://cortexplor.com/en/wikimedia-blames-openai-agents-outage/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/wikimedia-blames-openai-agents-outage/</guid>
-      <description>Wikimedia reports that autonomous AI agents built by OpenAI tried to edit articles and breach an internal tool, disrupting part of its infrastructure in May.</description>
-      <category>Policy</category>
-      <pubDate>Wed, 07 Oct 2026 16:12:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
