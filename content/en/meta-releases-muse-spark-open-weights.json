@@ -1,0 +1,43 @@
+{
+  "lang": "en",
+  "slug": "meta-releases-muse-spark-open-weights",
+  "story_id": "006ced19b0db84d1",
+  "title": "Meta releases open weights for Muse Spark, its 816B-parameter model",
+  "dek": "The coding-focused model is live on Together AI and Amazon SageMaker JumpStart on day one, with open weights also on Hugging Face.",
+  "meta_description": "Meta open-sources Muse Spark Open, an 816-billion-parameter model built for coding and agents, now live on Together AI and Amazon SageMaker JumpStart.",
+  "keyword": "Muse Spark Open",
+  "category": "modelos",
+  "tags": ["ai", "meta", "models", "open-source", "agents"],
+  "body": [
+    {"type": "p", "text": "Meta has released open weights for Muse Spark Open, an AI model that until now ran only inside the company's own services, according to Meta's technical writeup on the Hugging Face blog. The model combines 816 billion total parameters, of which 42 billion are active for any given token, and takes text, images, audio and video as input.", "items": []},
+    {"type": "h2", "text": "A mixture-of-experts model with a 1-million-token window", "items": []},
+    {"type": "p", "text": "Muse Spark Open uses a mixture-of-experts architecture: the model keeps 256 specialized blocks in memory, but an internal router picks only 8 of them to process each token (the basic unit of text the model reads or writes). That lets the model answer at roughly the speed of a much smaller network, even though it holds the weight of an 816-billion-parameter model, Meta's writeup says. The context window reaches 1 million tokens, enough to load an entire codebase, dependencies included, in a single pass.", "items": []},
+    {"type": "p", "text": "Meta trained the model for agentic coding: reading a repository, writing and debugging code, and calling tools over long tasks, correcting its own course along the way. Amazon Web Services describes Muse Spark Open as a reasoning model that plans before it acts, and says the SageMaker AI endpoint returns that reasoning alongside the final answer.", "items": []},
+    {"type": "h2", "text": "Live now on Together AI and AWS", "items": []},
+    {"type": "p", "text": "Together AI says it became a day-zero launch partner for the model, offering early access to customers including Factory and Ollama before the public announcement. According to the company, API pricing is $1.25 per million input tokens, $4.25 per million output tokens, and $0.15 per million cached input tokens.", "items": []},
+    {"type": "p", "text": "AWS confirms the model also landed in Amazon SageMaker JumpStart, its catalog of models ready to deploy inside a customer's own AWS account. There are two variants: one in BF16, a higher-precision format, and one in NVFP4, compressed to run on roughly a quarter of the memory, AWS says. The weights can also be downloaded directly from Hugging Face, according to a SiliconANGLE report.", "items": []},
+    {"type": "h2", "text": "How the model reads images, audio and video", "items": []},
+    {"type": "p", "text": "To process images and video, Meta uses a perception encoder that splits each frame into 14-by-14-pixel patches before converting them into tokens the language model can read, according to Hugging Face's technical writeup. For audio, a dedicated tokenizer produces one token for every 80 milliseconds of sound — ten seconds of audio turn into 125 input tokens. That input structure is the same one used in Muse Glimmer, which lets Meta reuse part of the training across the two models in the Muse family, the same writeup says.", "items": []},
+    {"type": "h2", "text": "Follows Muse Glimmer", "items": []},
+    {"type": "p", "text": "Muse Spark Open follows Muse Glimmer, a smaller 30-billion-parameter dense model (without mixture-of-experts) that Meta released in August, according to Hugging Face's writeup and SiliconANGLE's reporting. The two models share the same tokenizer, the component that converts text into numbers the model can process, and the same chat format, with additions in Muse Spark Open for the new image, audio and video inputs.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Who can use it: developers, through Together AI's API from launch, through Amazon SageMaker JumpStart inside their own AWS account, or by downloading the open weights from Hugging Face.",
+      "Since when: starting October 15, 2026, according to SiliconANGLE.",
+      "What it costs: on Together AI, $1.25 per million input tokens and $4.25 per million output tokens; the weights themselves are open and free to download.",
+      "What changes: it's the larger, open version of the Muse family, following the 30-billion-parameter Muse Glimmer released in August, and it adds multimodal input — text, images, audio and video — that the earlier model lacked.",
+      "Who is affected: engineering teams building coding agents and applications that need to process several file types at once."
+    ]}
+  ],
+  "image": {
+    "query": "open source AI model code neural network abstract",
+    "alt": "Abstract illustration of a neural network representing an open-source artificial intelligence model"
+  },
+  "sources": [
+    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/meta-muse-spark-open", "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"},
+    {"name": "Together AI", "owner": "togetherai", "url": "https://www.together.ai/blog/meta-muse-spark-open", "title": "Meta Muse Spark Open is live on Together AI"},
+    {"name": "AWS Machine Learning", "owner": "amazon", "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/", "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/15/meta-releases-816b-parameter-muse-spark-open-for-coding-and-agent-work/", "title": "Meta releases 816B-parameter Muse Spark Open for coding and agent work"}
+  ],
+  "status": "draft"
+}
