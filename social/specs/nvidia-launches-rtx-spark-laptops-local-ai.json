@@ -1,0 +1,102 @@
+{
+  "slug": "nvidia-launches-rtx-spark-laptops-local-ai",
+  "lang": "en",
+  "date": "16 Oct 2026",
+  "no": 46,
+  "category": "Applications",
+  "kicker": "Hardware · Nvidia",
+  "headline": "Nvidia Launches RTX Spark Laptops With Up to 128GB for AI",
+  "headline_hl": "RTX Spark",
+  "dek": "The first Arm-and-Blackwell laptops arrive Friday with AI agents preinstalled.",
+  "image": {
+    "path": "assets/img/nvidia-launches-rtx-spark-laptops-local--53312b24.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Up to<br>128GB",
+  "sources": [
+    "NVIDIA",
+    "The Verge",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Arm chip with a Blackwell GPU",
+    "body": [
+      "Nvidia is launching the first laptops on its RTX Spark chip this Friday, October 16 (NVIDIA).",
+      "According to the company, the platform pairs an Arm processor, a Blackwell GPU and up to 128GB of unified memory, with 1 petaflop for AI."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Agents on the first screen",
+    "body": "According to Nvidia, users pick and install an AI agent when they first turn on the laptop.",
+    "points": [
+      {
+        "h": "Two clicks",
+        "t": "Setting up an agent takes two clicks, a Microsoft manager told The Verge."
+      },
+      {
+        "h": "Agents",
+        "t": "Hermes, Perplexity and OpenClaw are among the first (The Verge)."
+      },
+      {
+        "h": "Security",
+        "t": "Nvidia says it added a layer called OpenShell and MXC."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A response to Apple Silicon",
+    "body": [
+      "Engadget calls RTX Spark a direct response to Apple's chips, which have combined Arm, GPU and unified memory since 2020.",
+      "It debuts in Microsoft's Surface Laptop Ultra, among other partner models (Engadget)."
+    ],
+    "stat": {
+      "big": "128GB",
+      "cap": "of unified memory, according to Nvidia"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What is still unclear",
+    "items": [
+      {
+        "h": "Price",
+        "t": "The sources give no single price; each maker sets its own."
+      },
+      {
+        "h": "Testing",
+        "t": "Nvidia cites Artificial Analysis without publishing full numbers."
+      },
+      {
+        "h": "Events",
+        "t": "The company is holding events worldwide starting Friday."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia is launching its first RTX Spark laptops this Friday, with up to 128GB of unified memory for local AI.",
+    "body": [
+      "According to Nvidia, the platform pairs an Arm processor, a Blackwell GPU and 1 petaflop for AI workloads. When users first turn on the laptop, they pick an AI agent to install.",
+      "Engadget sees RTX Spark as a response to Apple Silicon chips. It debuts in Microsoft's Surface Laptop Ultra, among other partner models. The sources give no single price, and each manufacturer sets the price of its own laptop. Nvidia also says local model downloads are already five times all of last year."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#rtxspark",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Nvidia's RTX Spark laptops for local AI",
+    "Slide 2: RTX Spark pairs an Arm processor, a Blackwell GPU and up to 128GB of unified memory",
+    "Slide 3: AI agents installed in two clicks on the first screen",
+    "Slide 4: RTX Spark is described as a response to Apple Silicon; 128GB of memory",
+    "Slide 5: no price disclosed, Artificial Analysis testing and Nvidia events",
+    "Slide 6: sources for the RTX Spark story: NVIDIA, The Verge and Engadget"
+  ]
+}

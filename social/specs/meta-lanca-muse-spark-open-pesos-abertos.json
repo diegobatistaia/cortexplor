@@ -1,0 +1,103 @@
+{
+  "slug": "meta-lanca-muse-spark-open-pesos-abertos",
+  "lang": "pt",
+  "date": "16 out 2026",
+  "no": 48,
+  "category": "Modelos",
+  "kicker": "Modelos de IA · Meta",
+  "headline": "Meta abre os pesos do Muse Spark Open, modelo de 816 bi",
+  "headline_hl": "Muse Spark Open",
+  "dek": "Modelo treinado para codificar e operar agentes já está na Together AI e no SageMaker JumpStart.",
+  "image": {
+    "path": "assets/img/meta-lanca-muse-spark-open-pesos-abertos-618b69bd.jpg",
+    "credit": "Omar:. Lopez-Rincon / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "816B<br>parâmetros",
+  "sources": [
+    "Hugging Face",
+    "Together AI",
+    "AWS Machine Learning",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Meta abre um modelo antes fechado",
+    "body": [
+      "A Meta abriu os pesos do Muse Spark Open, modelo que até então rodava só nos serviços da empresa (Hugging Face).",
+      "Segundo a Meta, são 816 bilhões de parâmetros, com 42 bilhões ativos por resposta, e entrada de texto, imagem, áudio e vídeo."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como o modelo funciona",
+    "body": "Segundo a publicação técnica da Meta, o modelo usa mistura de especialistas e foco em codificação.",
+    "points": [
+      {
+        "h": "Especialistas",
+        "t": "Escolhe 8 de 256 blocos para cada token (Hugging Face)."
+      },
+      {
+        "h": "Contexto",
+        "t": "Janela de 1 milhão de tokens, a de um projeto de código inteiro (Hugging Face)."
+      },
+      {
+        "h": "Código",
+        "t": "Treinado para ler repositórios, depurar e chamar ferramentas (Hugging Face)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Onde já está disponível",
+    "body": [
+      "Segundo a Together AI, a API custa US$ 1,25 por milhão de tokens de entrada e US$ 4,25 por milhão de saída.",
+      "A AWS confirma o modelo no SageMaker JumpStart, e os pesos podem ser baixados no Hugging Face (AWS, SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "816 bi",
+      "cap": "de parâmetros, 42 bi ativos, segundo a Meta"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Quem pode usar",
+    "items": [
+      {
+        "h": "Together",
+        "t": "Parceira de lançamento, com API desde o primeiro dia, diz a empresa."
+      },
+      {
+        "h": "AWS",
+        "t": "Duas versões; a comprimida usa cerca de um quarto da memória, diz a AWS."
+      },
+      {
+        "h": "Sucessor",
+        "t": "Segue o Muse Glimmer, de 30 bilhões, lançado em agosto (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Meta abriu os pesos do Muse Spark Open, modelo com 816 bilhões de parâmetros treinado para codificação e agentes.",
+    "body": [
+      "Segundo a Meta, o modelo usa 42 bilhões de parâmetros ativos por resposta, aceita texto, imagem, áudio e vídeo e tem janela de 1 milhão de tokens.",
+      "A Together AI diz que a API custa US$ 1,25 por milhão de tokens de entrada e US$ 4,25 por milhão de saída. A AWS confirma o modelo no SageMaker JumpStart em duas versões, e os pesos podem ser baixados no Hugging Face. Ele sucede o Muse Glimmer, de 30 bilhões de parâmetros, lançado em agosto."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#meta",
+      "#musespark",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Meta abrindo os pesos do Muse Spark Open",
+    "Slide 2: Muse Spark Open tem 816 bilhões de parâmetros e entrada de texto, imagem, áudio e vídeo",
+    "Slide 3: mistura de especialistas, janela de 1 milhão de tokens e foco em código",
+    "Slide 4: preço na Together AI e disponibilidade no SageMaker JumpStart e no Hugging Face",
+    "Slide 5: Together AI e AWS oferecem o modelo; ele sucede o Muse Glimmer",
+    "Slide 6: fontes da matéria sobre o Muse Spark Open: Hugging Face, Together AI, AWS e SiliconANGLE"
+  ]
+}

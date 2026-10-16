@@ -1,0 +1,103 @@
+{
+  "slug": "meta-releases-muse-spark-open-weights",
+  "lang": "en",
+  "date": "16 Oct 2026",
+  "no": 45,
+  "category": "Models",
+  "kicker": "AI Models · Meta",
+  "headline": "Meta Releases Open Weights for Muse Spark, an 816B Model",
+  "headline_hl": "Muse Spark",
+  "dek": "The model trained for coding and agents is live on Together AI and Amazon SageMaker JumpStart.",
+  "image": {
+    "path": "assets/img/meta-releases-muse-spark-open-weights-618b69bd.jpg",
+    "credit": "Omar:. Lopez-Rincon / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "816B<br>parameters",
+  "sources": [
+    "Hugging Face",
+    "Together AI",
+    "AWS Machine Learning",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Meta opens a formerly closed model",
+    "body": [
+      "Meta released open weights for Muse Spark Open, a model that until now ran only inside the company's own services (Hugging Face).",
+      "According to Meta, it has 816 billion parameters, 42 billion active per token, and takes text, images, audio and video."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the model works",
+    "body": "Per Meta's technical writeup, it uses a mixture of experts and focuses on coding.",
+    "points": [
+      {
+        "h": "Experts",
+        "t": "Picks 8 of 256 blocks for each token (Hugging Face)."
+      },
+      {
+        "h": "Context",
+        "t": "A 1-million-token window, enough for a whole codebase (Hugging Face)."
+      },
+      {
+        "h": "Coding",
+        "t": "Trained to read repos, debug and call tools (Hugging Face)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Where it is available",
+    "body": [
+      "According to Together AI, the API costs $1.25 per million input tokens and $4.25 per million output tokens.",
+      "AWS confirms the model on SageMaker JumpStart, and weights can be downloaded from Hugging Face (AWS, SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "816B",
+      "cap": "parameters, 42B active, according to Meta"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Who can use it",
+    "items": [
+      {
+        "h": "Together",
+        "t": "A launch partner with API access from day one, the company says."
+      },
+      {
+        "h": "AWS",
+        "t": "Two variants; the compressed one uses about a quarter of the memory, AWS says."
+      },
+      {
+        "h": "Successor",
+        "t": "Follows the 30B Muse Glimmer released in August (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Meta released open weights for Muse Spark Open, an 816-billion-parameter model trained for coding and agents.",
+    "body": [
+      "According to Meta, the model uses 42 billion active parameters per token, takes text, images, audio and video, and has a 1-million-token context window.",
+      "Together AI says its API costs $1.25 per million input tokens and $4.25 per million output tokens. AWS confirms the model on SageMaker JumpStart in two variants, and the weights can be downloaded from Hugging Face. It follows Muse Glimmer, a 30-billion-parameter model released in August."
+    ],
+    "cta_variant": "A",
+    "cta": "Would you build a coding agent on an open model like this?",
+    "hashtags": [
+      "#cortexplor",
+      "#meta",
+      "#musespark",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Meta releasing open weights for Muse Spark Open",
+    "Slide 2: Muse Spark Open has 816 billion parameters and takes text, images, audio and video",
+    "Slide 3: mixture of experts, a 1-million-token window and a coding focus",
+    "Slide 4: Together AI pricing and availability on SageMaker JumpStart and Hugging Face",
+    "Slide 5: Together AI and AWS offer the model; it follows Muse Glimmer",
+    "Slide 6: sources for the Muse Spark Open story: Hugging Face, Together AI, AWS and SiliconANGLE"
+  ]
+}

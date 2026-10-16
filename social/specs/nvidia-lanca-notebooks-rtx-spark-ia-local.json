@@ -1,0 +1,102 @@
+{
+  "slug": "nvidia-lanca-notebooks-rtx-spark-ia-local",
+  "lang": "pt",
+  "date": "16 out 2026",
+  "no": 49,
+  "category": "Aplicações",
+  "kicker": "Hardware · Nvidia",
+  "headline": "Nvidia lança notebooks RTX Spark com até 128 GB para IA local",
+  "headline_hl": "RTX Spark",
+  "dek": "Primeiros laptops com chip Arm e GPU Blackwell chegam nesta sexta com agentes de IA pré-instalados.",
+  "image": {
+    "path": "assets/img/nvidia-lanca-notebooks-rtx-spark-ia-loca-53312b24.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Até<br>128 GB",
+  "sources": [
+    "NVIDIA",
+    "The Verge",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Chip Arm com GPU Blackwell",
+    "body": [
+      "A Nvidia lança nesta sexta, 16 de outubro, os primeiros notebooks com o chip RTX Spark (NVIDIA).",
+      "Segundo a empresa, a plataforma une processador Arm, GPU Blackwell e até 128 GB de memória unificada, com 1 petaflop em tarefas de IA."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Agentes na primeira tela",
+    "body": "Segundo a Nvidia, ao ligar o notebook o usuário escolhe e instala um agente de IA.",
+    "points": [
+      {
+        "h": "Dois cliques",
+        "t": "Instalar um agente leva dois cliques, disse um gerente da Microsoft ao The Verge."
+      },
+      {
+        "h": "Agentes",
+        "t": "Hermes, Perplexity e OpenClaw estão entre os primeiros (The Verge)."
+      },
+      {
+        "h": "Segurança",
+        "t": "A Nvidia diz ter criado uma camada chamada OpenShell e MXC."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Resposta ao Apple Silicon",
+    "body": [
+      "O Engadget descreve o RTX Spark como resposta direta aos chips da Apple, que unem Arm, GPU e memória unificada desde 2020.",
+      "O primeiro modelo é o Surface Laptop Ultra, da Microsoft, entre outros de parceiros (Engadget)."
+    ],
+    "stat": {
+      "big": "128 GB",
+      "cap": "de memória unificada, segundo a Nvidia"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que falta saber",
+    "items": [
+      {
+        "h": "Preço",
+        "t": "As fontes não divulgam um preço único; cada fabricante define o seu."
+      },
+      {
+        "h": "Testes",
+        "t": "A Nvidia cita a Artificial Analysis, sem publicar os números completos."
+      },
+      {
+        "h": "Eventos",
+        "t": "A empresa promove eventos pelo mundo a partir desta sexta."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Nvidia lança nesta sexta os primeiros notebooks RTX Spark, com até 128 GB de memória unificada para IA local.",
+    "body": [
+      "Segundo a Nvidia, a plataforma une processador Arm, GPU Blackwell e 1 petaflop em tarefas de IA. Ao ligar o notebook, o usuário escolhe um agente de IA para instalar.",
+      "O Engadget vê o RTX Spark como resposta aos chips Apple Silicon. O primeiro modelo é o Surface Laptop Ultra, da Microsoft, entre outros de parceiros. As fontes não divulgam um preço único, e cada fabricante define o valor do seu notebook."
+    ],
+    "cta_variant": "A",
+    "cta": "Você usaria um notebook para rodar modelos de IA sem a nuvem?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#rtxspark",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre os notebooks RTX Spark da Nvidia para IA local",
+    "Slide 2: RTX Spark une processador Arm, GPU Blackwell e até 128 GB de memória unificada",
+    "Slide 3: agentes de IA instalados em dois cliques na primeira tela",
+    "Slide 4: RTX Spark é descrito como resposta aos chips Apple Silicon; 128 GB de memória",
+    "Slide 5: preço não divulgado, testes da Artificial Analysis e eventos da Nvidia",
+    "Slide 6: fontes da matéria sobre o RTX Spark: NVIDIA, The Verge e Engadget"
+  ]
+}
