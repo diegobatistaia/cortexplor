@@ -1,0 +1,46 @@
+{
+  "lang": "en",
+  "slug": "chatgpt-chrome-extension-reads-tabs-acts",
+  "story_id": "81fdee027fc949bf",
+  "title": "ChatGPT's Chrome Extension Can Now Read Tabs and Act on Them",
+  "dek": "OpenAI's updated extension lets the assistant compare open pages and complete multi-step tasks inside the browser, at no extra cost.",
+  "meta_description": "OpenAI updates the ChatGPT Chrome extension so it can read open tabs, compare pages and complete multi-step tasks for free, Canaltech and Engadget report.",
+  "keyword": "ChatGPT Chrome extension",
+  "category": "aplicacoes",
+  "tags": ["ai", "openai", "chatgpt", "chrome", "browser"],
+  "body": [
+    {"type": "p", "text": "OpenAI updated its ChatGPT extension for Google Chrome, giving the assistant access to a user's open tabs and the ability to carry out tasks directly inside the browser, according to Canaltech, Olhar Digital, Tecmundo and Engadget.", "items": []},
+    {"type": "p", "text": "Until now, the extension could only answer questions about the single page a person had open. With the update, ChatGPT can pull in content from several tabs at once and use that combined context to answer questions or take action, the four outlets report.", "items": []},
+    {"type": "h2", "text": "Two modes: Chat and Work", "items": []},
+    {"type": "p", "text": "According to Tecmundo, OpenAI announced the feature on its official profile on X, writing: \"We're bringing the power of computer use to anyone who uses Chrome.\"", "items": []},
+    {"type": "p", "text": "In Chat mode, a user can ask the assistant to compare information spread across different open tabs. The example cited by all four outlets is comparing couches listed on different retailer pages by price, dimensions, delivery time and return policy.", "items": []},
+    {"type": "p", "text": "ChatGPT Work, built for multi-step tasks, goes further: it fills out forms, organizes tabs, adds events to a calendar and reviews service contracts open in separate tabs to draft an email picking the best option, according to Canaltech, Tecmundo and Engadget. Engadget gives another example: asking the assistant to fill out a new dentist's intake form and then add the appointment to the calendar.", "items": []},
+    {"type": "h2", "text": "Installation and browser support", "items": []},
+    {"type": "p", "text": "The extension is installed from the Chrome Web Store. To use the task-execution features in the browser, a person also needs the ChatGPT desktop app installed, according to Olhar Digital, Canaltech and Tecmundo. OpenAI says the extension also works on other Chromium-based browsers, including Microsoft Edge, Brave and Opera, per Olhar Digital, Canaltech and Engadget.", "items": []},
+    {"type": "p", "text": "The extension's sidebar now shows a user's full conversation history, letting people query ChatGPT or ask for tasks without leaving the page they are on, all four outlets say. Olhar Digital notes that this sidebar history is available on Chrome, Edge and Brave, but not on Opera, per OpenAI's own documentation.", "items": []},
+    {"type": "h2", "text": "Permissions and user control", "items": []},
+    {"type": "p", "text": "Per Olhar Digital, OpenAI's documentation states that access to specific sites and information depends on the permissions a user grants during setup, and that the system asks for authorization before interacting with a new site unless a relevant permission already applies.", "items": []},
+    {"type": "p", "text": "Olhar Digital also reports that the extension asks for confirmation before sensitive actions, such as checking browsing history or downloading and sending files, and that it can run in the background without taking over the browsing session a person is actively using.", "items": []},
+    {"type": "p", "text": "The update lands after OpenAI discontinued its own standalone browser on August 9, according to Canaltech and Engadget. By expanding the Chrome extension instead, the company is positioning ChatGPT as an alternative inside the same browser where Google has already built in Gemini, rather than competing with a separate browser product of its own.", "items": []},
+    {"type": "p", "text": "For international users who rely on Chrome for work, the practical effect is that ChatGPT moves closer to tools built for browsing itself: the assistant can now act on what is already open on screen instead of requiring information to be copied in manually, according to the four outlets.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Who can use it: every ChatGPT user, regardless of plan, according to Canaltech and Engadget.",
+      "Where: the official extension for Google Chrome, also supported on Microsoft Edge, Brave and Opera.",
+      "Since when: the update rolled out on Thursday, October 15, according to Tecmundo.",
+      "What's required: installing the extension from the Chrome Web Store and, for task-execution features, also having the ChatGPT desktop app installed.",
+      "What changed: the extension used to answer questions about one open page; it now cross-references data across tabs and acts on it, filling out forms and scheduling calendar events."
+    ]}
+  ],
+  "image": {
+    "query": "chrome browser extension tabs comparison laptop",
+    "alt": "Google Chrome browser window with multiple open tabs on a laptop screen"
+  },
+  "sources": [
+    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-agora-le-suas-abas-do-chrome-e-faz-tarefas-por-voce/", "title": "ChatGPT agora lê suas abas do Chrome e faz tarefas por você"},
+    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/10/15/inteligencia-artificial/chatgpt-ganha-acesso-as-abas-do-chrome-e-pode-executar-tarefas-no-navegador/", "title": "ChatGPT ganha acesso às abas do Chrome e pode executar tarefas no navegador"},
+    {"name": "Tecmundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/chatgpt-amplia-integracao-com-o-chrome-para-realizar-tarefas-no-navegador/", "title": "ChatGPT amplia integração com o Chrome para realizar tarefas no navegador"},
+    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/", "title": "ChatGPT can now look at your Chrome tabs to do tasks for you"}
+  ],
+  "status": "draft"
+}
