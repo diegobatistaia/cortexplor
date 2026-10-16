@@ -1,0 +1,100 @@
+{
+  "slug": "anthropic-opens-singapore-office-mou",
+  "lang": "en",
+  "date": "16 Oct 2026",
+  "no": 47,
+  "category": "Market",
+  "kicker": "Market · Anthropic",
+  "headline": "Anthropic Opens Singapore Office, Signs Government Pact",
+  "headline_hl": "Singapore",
+  "dek": "The fifth Asia-Pacific office comes with a memorandum with the country's digital ministry, Anthropic says.",
+  "image": {
+    "path": "assets/img/anthropic-opens-singapore-office-mou-9e4b8033.jpg",
+    "credit": "Duane Seah / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Fifth<br>office",
+  "sources": [
+    "Anthropic"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "An office and a memorandum",
+    "body": [
+      "Anthropic opened an office in Singapore, its fifth in Asia-Pacific, and signed a memorandum with the country's Ministry of Digital Development and Information (Anthropic).",
+      "According to the company, co-founder Ben Mann and the ministry's permanent secretary signed it."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the memorandum covers",
+    "body": "According to Anthropic, the agreement sets up cooperation in three areas.",
+    "points": [
+      {
+        "h": "Safety",
+        "t": "Technical cooperation on model safety and evaluation (Anthropic)."
+      },
+      {
+        "h": "Research",
+        "t": "Studies on AI adoption and its effects (Anthropic)."
+      },
+      {
+        "h": "Adoption",
+        "t": "Responsible-use projects in the public and private sectors (Anthropic)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Who already uses Claude",
+    "body": [
+      "Anthropic says more than 1,500 engineers at GovTech Singapore use Claude Code on public systems.",
+      "The company also cites bank DBS, fund GIC, Grab and Sea as customers in the country."
+    ],
+    "stat": {
+      "big": "121 countries",
+      "cap": "Singapore is second in Claude use, Anthropic says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What changes locally",
+    "items": [
+      {
+        "h": "Local team",
+        "t": "Singapore now has an Anthropic team, the company says."
+      },
+      {
+        "h": "Exchanges",
+        "t": "The company says it will hold technical exchanges with the country's safety institutions."
+      },
+      {
+        "h": "In-region",
+        "t": "Regulated-sector customers can run Claude in-region via Amazon Bedrock, Anthropic says."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic opened its fifth Asia-Pacific office, in Singapore, and signed a memorandum with the country's government.",
+    "body": [
+      "According to Anthropic, the agreement with the Ministry of Digital Development and Information covers technical cooperation on model safety and evaluation, research on AI adoption, and responsible-use projects.",
+      "The company says more than 1,500 engineers at GovTech Singapore already use Claude Code, and cites bank DBS, fund GIC, Grab and Sea as customers. By Anthropic's own Economic Index, Singapore ranks second out of 121 countries in Claude use per capita."
+    ],
+    "cta_variant": "A",
+    "cta": "Would you want your government to partner with an AI lab?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Anthropic opening a Singapore office and signing a government pact",
+    "Slide 2: Anthropic's fifth Asia-Pacific office and a memorandum with the digital ministry",
+    "Slide 3: the memorandum covers safety, research and responsible AI adoption",
+    "Slide 4: customers cited by Anthropic and second place in Claude use per capita",
+    "Slide 5: local team, technical exchanges and in-region inference via Amazon Bedrock",
+    "Slide 6: source for the Anthropic Singapore story: Anthropic"
+  ]
+}
