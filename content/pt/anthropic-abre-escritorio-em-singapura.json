@@ -7,34 +7,105 @@
   "meta_description": "A Anthropic abre um novo escritório em Singapura, o quinto na região Ásia-Pacífico, e assina memorando com o governo para cooperar em segurança de IA.",
   "keyword": "Anthropic em Singapura",
   "category": "mercado",
-  "tags": ["ia", "anthropic", "claude", "singapura", "mercado"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "singapura",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "A Anthropic abriu um novo escritório em Singapura, o quinto da empresa na região Ásia-Pacífico, e assinou um Memorando de Entendimento (MOU) com o Ministério de Desenvolvimento Digital e Informação do país, segundo comunicado oficial da empresa.", "items": []},
-    {"type": "p", "text": "De acordo com a Anthropic, o acordo foi assinado por Kai Fong Chng, secretário permanente do ministério, e Ben Mann, cofundador da empresa, à margem da Singapore International Cyber Week. A ministra Josephine Teo e Michael Sellitto, chefe de política da Anthropic para a Ásia-Pacífico, testemunharam a assinatura.", "items": []},
-    {"type": "p", "text": "\"Fundamos a Anthropic sobre a crença de que capacidade e segurança precisam andar juntas. Com este memorando, vamos cooperar com Singapura para ajudar a garantir que a transição para uma IA poderosa funcione bem aqui, na Ásia-Pacífico e no resto do mundo\", disse Ben Mann, segundo o comunicado da empresa.", "items": []},
-    {"type": "p", "text": "O memorando cobre três frentes, de acordo com a Anthropic: cooperação técnica em segurança e avaliação de modelos de inteligência artificial, pesquisa sobre a adoção da tecnologia e seus efeitos, e projetos de adoção responsável nos setores público e privado. A empresa afirma que vai promover intercâmbios técnicos com as instituições de segurança, testes e avaliação de Singapura.", "items": []},
-    {"type": "h2", "text": "Quem já usa o Claude em Singapura", "items": []},
-    {"type": "p", "text": "A Anthropic afirma que mais de 1.500 engenheiros e técnicos da GovTech Singapore, a agência de tecnologia do governo do país, já usam o assistente de programação Claude Code para modernizar e manter sistemas públicos, o que, segundo a empresa, acelera a entrega de serviços digitais em escala nacional. A Agência de Segurança Cibernética de Singapura avalia, separadamente, como o Claude pode reforçar a defesa cibernética do país, de acordo com o comunicado.", "items": []},
-    {"type": "p", "text": "No setor privado, a empresa cita o banco DBS, que descreve como o maior do Sudeste Asiático, usando o Claude em desenvolvimento de software e produtividade interna, dentro do próprio arcabouço de segurança e governança do banco. O fundo soberano GIC está implantando o assistente em suas equipes de investimento e de serviços corporativos, segundo a Anthropic.", "items": []},
-    {"type": "p", "text": "A empresa também afirma que a Grab usa o Claude para alimentar o BriX, assistente interno de vendas que, segundo a Anthropic, economiza cerca de 40 mil horas por trimestre das equipes comerciais e ajuda a identificar novas oportunidades de venda. Já a Sea, dona da Shopee, Garena e Monee, emprega o modelo no chatbot de atendimento da Shopee e em tarefas de programação e depuração de código, de acordo com o comunicado.", "items": []},
-    {"type": "h2", "text": "Singapura no topo do uso do Claude", "items": []},
-    {"type": "p", "text": "Pelo Índice Econômico da Anthropic, citado no próprio anúncio, Singapura ocupa a segunda posição entre 121 países em uso do Claude.ai em relação ao tamanho da população — quase seis vezes mais do que o porte do país, sozinho, preveria. A empresa afirma que sua relação com o governo de Singapura remonta a 2023, quando entrou no Generative AI Evaluation Sandbox, programa conduzido pela Infocomm Media Development Authority e pela AI Verify Foundation, e depois conduziu um projeto de avaliação adversarial de modelos em inglês, mandarim, malaio e tâmil.", "items": []},
-    {"type": "p", "text": "A Anthropic diz ainda que clientes de setores regulados, como serviços financeiros, já podem rodar o Claude com inferência dentro da própria região por meio da Amazon Bedrock, o que, segundo a empresa, ajuda essas organizações a cumprir exigências locais de processamento de dados. \"Nossos clientes aqui exigem um padrão altíssimo de IA, especialmente quando o assunto é confiabilidade e segurança. Ter uma equipe no local nos aproxima das organizações que colocam o Claude para resolver seus problemas mais difíceis\", disse Dale Finlay, gerente geral da Anthropic para o Sudeste Asiático, segundo o comunicado.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar e onde: empresas e órgãos de governo em Singapura já usam o Claude pelos exemplos citados pela Anthropic — GovTech, DBS, GIC, Grab e Sea; clientes de setores regulados, como serviços financeiros, podem rodar o modelo com inferência dentro da região via Amazon Bedrock.",
-      "Desde quando: a Anthropic diz que o novo escritório abriu nesta semana; a relação da empresa com o governo de Singapura remonta a 2023, quando entrou no sandbox de avaliação de IA generativa do país.",
-      "O que muda: Singapura passa a ter equipe local da Anthropic, que a empresa diz que vai acompanhar de perto clientes como GovTech, DBS e Grab e conduzir intercâmbios técnicos com as instituições de segurança do país.",
-      "Quem é afetado: funcionários do governo, bancos, empresas de tecnologia e usuários de serviços que já rodam sobre o Claude em Singapura, segundo a empresa."
-    ]}
+    {
+      "type": "p",
+      "text": "A Anthropic abriu um novo escritório em Singapura, o quinto da empresa na região Ásia-Pacífico, e assinou um Memorando de Entendimento (MOU) com o Ministério de Desenvolvimento Digital e Informação do país, segundo comunicado oficial da empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acordo com a Anthropic, o acordo foi assinado por Kai Fong Chng, secretário permanente do ministério, e Ben Mann, cofundador da empresa, à margem da Singapore International Cyber Week. A ministra Josephine Teo e Michael Sellitto, chefe de política da Anthropic para a Ásia-Pacífico, testemunharam a assinatura.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Fundamos a Anthropic sobre a crença de que capacidade e segurança precisam andar juntas. Com este memorando, vamos cooperar com Singapura para ajudar a garantir que a transição para uma IA poderosa funcione bem aqui, na Ásia-Pacífico e no resto do mundo\", disse Ben Mann, segundo o comunicado da empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O memorando cobre três frentes, de acordo com a Anthropic: cooperação técnica em segurança e avaliação de modelos de inteligência artificial, pesquisa sobre a adoção da tecnologia e seus efeitos, e projetos de adoção responsável nos setores público e privado. A empresa afirma que vai promover intercâmbios técnicos com as instituições de segurança, testes e avaliação de Singapura.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Quem já usa o Claude em Singapura",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic afirma que mais de 1.500 engenheiros e técnicos da GovTech Singapore, a agência de tecnologia do governo do país, já usam o assistente de programação Claude Code para modernizar e manter sistemas públicos, o que, segundo a empresa, acelera a entrega de serviços digitais em escala nacional. A Agência de Segurança Cibernética de Singapura avalia, separadamente, como o Claude pode reforçar a defesa cibernética do país, de acordo com o comunicado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No setor privado, a empresa cita o banco DBS, que descreve como o maior do Sudeste Asiático, usando o Claude em desenvolvimento de software e produtividade interna, dentro do próprio arcabouço de segurança e governança do banco. O fundo soberano GIC está implantando o assistente em suas equipes de investimento e de serviços corporativos, segundo a Anthropic.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa também afirma que a Grab usa o Claude para alimentar o BriX, assistente interno de vendas que, segundo a Anthropic, economiza cerca de 40 mil horas por trimestre das equipes comerciais e ajuda a identificar novas oportunidades de venda. Já a Sea, dona da Shopee, Garena e Monee, emprega o modelo no chatbot de atendimento da Shopee e em tarefas de programação e depuração de código, de acordo com o comunicado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Singapura no topo do uso do Claude",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Pelo Índice Econômico da Anthropic, citado no próprio anúncio, Singapura ocupa a segunda posição entre 121 países em uso do Claude.ai em relação ao tamanho da população — quase seis vezes mais do que o porte do país, sozinho, preveria. A empresa afirma que sua relação com o governo de Singapura remonta a 2023, quando entrou no Generative AI Evaluation Sandbox, programa conduzido pela Infocomm Media Development Authority e pela AI Verify Foundation, e depois conduziu um projeto de avaliação adversarial de modelos em inglês, mandarim, malaio e tâmil.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic diz ainda que clientes de setores regulados, como serviços financeiros, já podem rodar o Claude com inferência dentro da própria região por meio da Amazon Bedrock, o que, segundo a empresa, ajuda essas organizações a cumprir exigências locais de processamento de dados. \"Nossos clientes aqui exigem um padrão altíssimo de IA, especialmente quando o assunto é confiabilidade e segurança. Ter uma equipe no local nos aproxima das organizações que colocam o Claude para resolver seus problemas mais difíceis\", disse Dale Finlay, gerente geral da Anthropic para o Sudeste Asiático, segundo o comunicado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar e onde: empresas e órgãos de governo em Singapura já usam o Claude pelos exemplos citados pela Anthropic — GovTech, DBS, GIC, Grab e Sea; clientes de setores regulados, como serviços financeiros, podem rodar o modelo com inferência dentro da região via Amazon Bedrock.",
+        "Desde quando: a Anthropic diz que o novo escritório abriu nesta semana; a relação da empresa com o governo de Singapura remonta a 2023, quando entrou no sandbox de avaliação de IA generativa do país.",
+        "O que muda: Singapura passa a ter equipe local da Anthropic, que a empresa diz que vai acompanhar de perto clientes como GovTech, DBS e Grab e conduzir intercâmbios técnicos com as instituições de segurança do país.",
+        "Quem é afetado: funcionários do governo, bancos, empresas de tecnologia e usuários de serviços que já rodam sobre o Claude em Singapura, segundo a empresa."
+      ]
+    }
   ],
   "image": {
     "query": "singapore marina bay skyline modern office buildings",
-    "alt": "Horizonte de Singapura com prédios modernos, cidade onde a Anthropic abriu um novo escritório"
+    "alt": "Horizonte de Singapura com prédios modernos, cidade onde a Anthropic abriu um novo escritório",
+    "path": "/assets/img/anthropic-abre-escritorio-em-singapura-9e4b8033.jpg",
+    "credit": "Duane Seah / Unsplash",
+    "author": "Duane Seah",
+    "author_url": "https://unsplash.com/@duaneseah?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-city-at-night-reflected-in-the-water--WmBbH6IEuo"
   },
   "sources": [
-    {"name": "Anthropic", "owner": "anthropic", "url": "https://www.anthropic.com/news/singapore-office-opening", "title": "Singapore office and government MOU"}
+    {
+      "name": "Anthropic",
+      "owner": "anthropic",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "title": "Singapore office and government MOU"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-16T15:44:04+00:00",
+  "updated_at": "2026-10-16T15:44:04+00:00"
 }
