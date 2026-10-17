@@ -1,0 +1,83 @@
+{
+  "lang": "pt",
+  "slug": "nvidia-abre-arquitetura-vera-rubin-data-centers",
+  "story_id": "6cd6022d53671e0c",
+  "title": "NVIDIA abre arquitetura Vera Rubin para data centers de IA",
+  "dek": "A empresa cede o desenho de racks e bandejas de computação ao Open Compute Project e publica novos padrões abertos para infraestrutura de IA, segundo comunicado próprio.",
+  "meta_description": "A NVIDIA abre a arquitetura Vera Rubin ao Open Compute Project e lança padrões abertos para data centers de IA, segundo comunicado divulgado pela empresa.",
+  "keyword": "arquitetura Vera Rubin",
+  "category": "mercado",
+  "tags": [
+    "ia",
+    "nvidia",
+    "data centers",
+    "infraestrutura",
+    "mercado"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A NVIDIA abriu ao setor as especificações de hardware da arquitetura Vera Rubin, segundo comunicado publicado pela própria empresa durante a OCP Global Summit, em San Jose, nos Estados Unidos. O desenho de racks e bandejas de computação da linha passa a integrar o Open Compute Project (OCP), consórcio que reúne fabricantes de equipamentos para data centers, por meio da arquitetura aberta MGX, também da NVIDIA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a empresa, a mudança resolve um problema prático: sem um padrão comum, cada fabricante de equipamento precisa seguir especificações próprias de cada cliente antes de produzir peças para as chamadas \"fábricas de IA\" — centros de dados dedicados a treinar e operar modelos de inteligência artificial em grande escala. Com o desenho aberto, a NVIDIA afirma que fabricantes, provedores de colocation e operadores de data center passam a ter uma referência comum, sem depender de especificações fechadas de cada comprador.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A nova versão da especificação, batizada de MGX 1.2, traz, de acordo com a NVIDIA, refrigeração líquida com encaixe automático (blind-mate), suporte a infraestrutura de interconexão entre racks e um barramento de energia líquido-refrigerado de 5.000 ampères, pensado para sistemas de IA de maior potência. A empresa diz que a arquitetura passa a suportar nativamente racks no padrão de 19 polegadas e implantações de até 250 kW.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A NVIDIA também apresentou o Vera CPU rack, uma extensão da arquitetura MGX voltada à execução de agentes de inteligência artificial. Segundo a empresa, o novo desenho foi projetado para suportar chamadas de ferramentas (tool calling), orquestração de tarefas e execução isolada (sandboxed) — funções que permitem a um agente de IA interagir com aplicações, dados e serviços em tempo real. O rack Vera CPU completa a arquitetura Vera Rubin NVL72, que a NVIDIA mantém como base para treinamento e inferência em grande escala.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa afirma ainda ter expandido o DSX OS, camada de software que opera a infraestrutura dos data centers, com componentes de código aberto para configurar redes, validar clusters, gerenciar racks e colocar servidores em operação sem sistema pré-instalado (bare metal). De acordo com a NVIDIA, esses componentes vêm da experiência da empresa operando sua própria nuvem de treinamento, a DGX Cloud, e ficam disponíveis para provedores de nuvem e parceiros de software integrarem em suas próprias plataformas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A NVIDIA diz ter se juntado à AMD, à Google e à Meta para publicar a versão 0.7 da Open Data Center Specification, documento que padroniza o projeto de instalações para data centers de IA — da arquitetura de energia ao sistema de refrigeração e ao layout físico. Em outro documento, batizado de OCP Grid Resilience Specification e publicado com Google, Meta e Microsoft, a empresa afirma que o padrão define como a infraestrutura de IA deve se comportar durante instabilidades na rede elétrica: permanecer conectada, reagir automaticamente e retomar quase toda a carga de operação em menos de dois segundos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No evento, Ian Buck, vice-presidente de computação de alto desempenho e hiperescala da NVIDIA, disse que a adoção de padrões abertos se tornou um ingrediente crítico para escalar as fábricas de IA ao redor do mundo, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: fabricantes de equipamentos, provedores de colocation e operadores de data center que constroem infraestrutura de IA, segundo a NVIDIA — não é um produto para o usuário final.",
+        "Desde quando: a partir do anúncio feito na OCP Global Summit, em 12 de outubro de 2026.",
+        "Quanto custa: a NVIDIA não divulgou valores — as especificações do MGX 1.2, do Vera CPU rack e dos dois documentos do OCP são abertas e gratuitas para adoção pela indústria.",
+        "O que muda: antes, cada fabricante seguia especificações próprias de cada cliente; com o MGX 1.2 e os padrões publicados em conjunto com AMD, Google, Meta e Microsoft, a indústria passa a ter uma referência comum para construir essa infraestrutura."
+      ]
+    }
+  ],
+  "image": {
+    "query": "data center server racks liquid cooling infrastructure",
+    "alt": "Corredor de racks de servidores em data center, infraestrutura do tipo que a NVIDIA abriu ao OCP"
+  },
+  "sources": [
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
