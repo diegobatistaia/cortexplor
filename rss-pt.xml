@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 17 Oct 2026 15:47:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 21:46:35 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pesquisa da Apple diz que misturar idiomas supera ajuste fino</title>
+      <link>https://cortexplor.com/pt/apple-pesquisa-mistura-idiomas-treino-ia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/apple-pesquisa-mistura-idiomas-treino-ia/</guid>
+      <description>Pesquisa da Apple testa misturar idiomas de alto recurso no treino de modelos de baixo recurso e mostra ganhos maiores que o ajuste de hiperparâmetros.</description>
+      <category>Modelos &amp; Lançamentos</category>
+      <pubDate>Sat, 17 Oct 2026 21:46:33 +0000</pubDate>
+    </item>
     <item>
       <title>NVIDIA abre arquitetura Vera Rubin para data centers de IA</title>
       <link>https://cortexplor.com/pt/nvidia-abre-arquitetura-vera-rubin-data-centers/</link>
@@ -238,14 +246,6 @@
       <description>Google Cloud lança o Gemini Agent, assistente de inteligência artificial autônomo acessível em qualquer dispositivo, com Claude da Anthropic integrado.</description>
       <category>Modelos &amp; Lançamentos</category>
       <pubDate>Fri, 09 Oct 2026 15:58:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic proíbe comportamento abusivo ou cruel contra o Claude</title>
-      <link>https://cortexplor.com/pt/anthropic-proibe-abuso-contra-o-claude/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/anthropic-proibe-abuso-contra-o-claude/</guid>
-      <description>A Anthropic passou a proibir abuso contra o Claude em sua política de uso, segundo o The Guardian, o The Verge e o Engadget. Veja o que mudou e por quê.</description>
-      <category>Regulação</category>
-      <pubDate>Fri, 09 Oct 2026 10:59:52 +0000</pubDate>
     </item>
   </channel>
 </rss>

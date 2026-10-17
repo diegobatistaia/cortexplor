@@ -7,33 +7,100 @@
   "meta_description": "Apple research tests mixing a high-resource language into low-resource model pre-training and finds larger gains than hyperparameter tuning alone provides.",
   "keyword": "low-resource model pre-training",
   "category": "modelos",
-  "tags": ["ai", "apple", "models", "research", "languages"],
+  "tags": [
+    "ai",
+    "apple",
+    "models",
+    "research",
+    "languages"
+  ],
   "body": [
-    {"type": "p", "text": "Apple published research showing that mixing in data from a high-resource language, such as English, beats hyperparameter tuning as a strategy for pre-training language models in lower-resource languages. The study, posted on the Apple Machine Learning website on October 13, 2026, tested the approach on models trained from scratch for Arabic.", "items": []},
-    {"type": "p", "text": "The problem the paper addresses is what the authors call a data-constrained regime: most of the world's languages don't have enough material available for pre-training, so models have to repeat the same data multiple times. According to Apple, that repetition degrades how well the model generalizes to situations it didn't see during training.", "items": []},
-    {"type": "p", "text": "Two remedies existed before this study. One is hyperparameter tuning, such as raising weight decay (a penalty that shrinks the network's weights and restricts its capacity) — a form of regularization, the researchers say. The other is mixing in data from an auxiliary, high-resource language alongside the scarce target-language data, which expands the training distribution and adds new knowledge.", "items": []},
-    {"type": "p", "text": "To compare the two, Apple's researchers trained four model sizes, from 150 million to 1.43 billion parameters, using Arabic as the low-resource target and English as the auxiliary language, across roughly 1,000 pre-training runs, according to the paper.", "items": []},
-    {"type": "p", "text": "The result: mixing the two languages outperformed hyperparameter tuning on both validation loss (a measure of how well the model predicts the next piece of text) and downstream task accuracy after training — and the gap between the two techniques grows as the model gets larger, Apple says.", "items": []},
-    {"type": "p", "text": "The researchers quantified the gain: mixing produces an effect equivalent to having 2 to 3 times more unique target-language data, measured by validation loss, and 2 to 13 times more, measured by downstream task accuracy — with the gain scaling steeply as the model grows, the study states.", "items": []},
-    {"type": "p", "text": "A third finding explains why the gap is so wide: target-language validation loss underestimates the real value of mixing. According to Apple, mixing languages does two things at once — it regularizes training by diversifying the signal the model receives, and it also contributes new knowledge that the repeated target corpus cannot supply. Validation loss, the authors say, only captures the first effect.", "items": []},
-    {"type": "p", "text": "Based on those results, the paper makes three practical recommendations: mix in a high-resource language rather than just repeating the target language, prioritize the mixing ratio over hyperparameter tuning, and transfer hyperparameters from a small proxy model to the final model using a technique called μP. Apple's own related work, cited in the paper, describes μP as a way to search for optimal hyperparameters on a small model and carry them over to a larger one, instead of repeating that search at full scale.", "items": []},
-    {"type": "p", "text": "That transfer step matters because the four model sizes Apple tested — 150 million, and scaling up to 1.43 billion parameters — would otherwise each need their own hyperparameter search, on top of the roughly 1,000 pre-training runs the team already ran to compare mixing against tuning. Apple frames the mixing ratio as the one setting worth that search effort, rather than weight decay or other tuning knobs.", "items": []},
-    {"type": "p", "text": "Apple states that the data-constrained regime tested with Arabic affects most of the world's languages — the study didn't test languages such as Portuguese or Spanish, but the authors' conclusion is precisely about the scenario any language outside English faces when training language models. For teams building or fine-tuning models in those languages, the paper's headline point is that where to spend compute changes: less on searching hyperparameters, more on finding and mixing in auxiliary-language data.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who is affected: research teams and companies training or fine-tuning language models for languages with less available data than English, according to Apple.",
-      "Since when: the study was published on October 13, 2026, on the Apple Machine Learning research site.",
-      "What changes: the recommendation is now to mix in data from a high-resource auxiliary language rather than concentrating effort on hyperparameter tuning.",
-      "Cost: Apple didn't disclose the computational cost of the study; the published paper covers methodology and results, not a product for sale."
-    ]}
+    {
+      "type": "p",
+      "text": "Apple published research showing that mixing in data from a high-resource language, such as English, beats hyperparameter tuning as a strategy for pre-training language models in lower-resource languages. The study, posted on the Apple Machine Learning website on October 13, 2026, tested the approach on models trained from scratch for Arabic.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The problem the paper addresses is what the authors call a data-constrained regime: most of the world's languages don't have enough material available for pre-training, so models have to repeat the same data multiple times. According to Apple, that repetition degrades how well the model generalizes to situations it didn't see during training.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Two remedies existed before this study. One is hyperparameter tuning, such as raising weight decay (a penalty that shrinks the network's weights and restricts its capacity) — a form of regularization, the researchers say. The other is mixing in data from an auxiliary, high-resource language alongside the scarce target-language data, which expands the training distribution and adds new knowledge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "To compare the two, Apple's researchers trained four model sizes, from 150 million to 1.43 billion parameters, using Arabic as the low-resource target and English as the auxiliary language, across roughly 1,000 pre-training runs, according to the paper.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The result: mixing the two languages outperformed hyperparameter tuning on both validation loss (a measure of how well the model predicts the next piece of text) and downstream task accuracy after training — and the gap between the two techniques grows as the model gets larger, Apple says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The researchers quantified the gain: mixing produces an effect equivalent to having 2 to 3 times more unique target-language data, measured by validation loss, and 2 to 13 times more, measured by downstream task accuracy — with the gain scaling steeply as the model grows, the study states.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A third finding explains why the gap is so wide: target-language validation loss underestimates the real value of mixing. According to Apple, mixing languages does two things at once — it regularizes training by diversifying the signal the model receives, and it also contributes new knowledge that the repeated target corpus cannot supply. Validation loss, the authors say, only captures the first effect.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Based on those results, the paper makes three practical recommendations: mix in a high-resource language rather than just repeating the target language, prioritize the mixing ratio over hyperparameter tuning, and transfer hyperparameters from a small proxy model to the final model using a technique called μP. Apple's own related work, cited in the paper, describes μP as a way to search for optimal hyperparameters on a small model and carry them over to a larger one, instead of repeating that search at full scale.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "That transfer step matters because the four model sizes Apple tested — 150 million, and scaling up to 1.43 billion parameters — would otherwise each need their own hyperparameter search, on top of the roughly 1,000 pre-training runs the team already ran to compare mixing against tuning. Apple frames the mixing ratio as the one setting worth that search effort, rather than weight decay or other tuning knobs.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Apple states that the data-constrained regime tested with Arabic affects most of the world's languages — the study didn't test languages such as Portuguese or Spanish, but the authors' conclusion is precisely about the scenario any language outside English faces when training language models. For teams building or fine-tuning models in those languages, the paper's headline point is that where to spend compute changes: less on searching hyperparameters, more on finding and mixing in auxiliary-language data.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who is affected: research teams and companies training or fine-tuning language models for languages with less available data than English, according to Apple.",
+        "Since when: the study was published on October 13, 2026, on the Apple Machine Learning research site.",
+        "What changes: the recommendation is now to mix in data from a high-resource auxiliary language rather than concentrating effort on hyperparameter tuning.",
+        "Cost: Apple didn't disclose the computational cost of the study; the published paper covers methodology and results, not a product for sale."
+      ]
+    }
   ],
   "image": {
     "query": "language data training artificial intelligence abstract",
-    "alt": "Abstract representation of text data in different languages used to train artificial intelligence models"
+    "alt": "Abstract representation of text data in different languages used to train artificial intelligence models",
+    "path": "/assets/img/apple-research-language-mixing-beats-tun-fb638919.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/an-abstract-image-of-a-sphere-with-dots-and-lines-nGoCBxiaRO0"
   },
   "sources": [
-    {"name": "Apple Machine Learning", "owner": "apple", "url": "https://machinelearning.apple.com/research/mix-dont-tune", "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings"}
+    {
+      "name": "Apple Machine Learning",
+      "owner": "apple",
+      "url": "https://machinelearning.apple.com/research/mix-dont-tune",
+      "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-17T21:46:34+00:00",
+  "updated_at": "2026-10-17T21:46:34+00:00"
 }

@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Sat, 17 Oct 2026 15:47:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 21:46:36 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Apple halla que mezclar idiomas supera el ajuste de hiperparámetros</title>
+      <link>https://cortexplor.com/es/apple-investigacion-mezcla-idiomas-supera-ajuste/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/apple-investigacion-mezcla-idiomas-supera-ajuste/</guid>
+      <description>Una investigación de Apple prueba mezclar un idioma de alto recurso en el preentrenamiento de modelos de bajo recurso y halla mayores ganancias que el ajuste.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Sat, 17 Oct 2026 21:46:34 +0000</pubDate>
+    </item>
     <item>
       <title>NVIDIA abre su arquitectura Vera Rubin a centros de datos</title>
       <link>https://cortexplor.com/es/nvidia-abre-arquitectura-vera-rubin-centros-datos/</link>
@@ -238,14 +246,6 @@
       <description>Google Cloud lanza Gemini Agent, un asistente de IA autónomo disponible en cualquier dispositivo, ya compatible con los modelos Claude de Anthropic hoy.</description>
       <category>Modelos y Lanzamientos</category>
       <pubDate>Fri, 09 Oct 2026 15:58:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic lanza Claude Haiku 5.5 y reduce el costo un 75%</title>
-      <link>https://cortexplor.com/es/anthropic-reduce-costo-de-claude-haiku-5-5/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-reduce-costo-de-claude-haiku-5-5/</guid>
-      <description>Anthropic lanzó Claude Haiku 5.5 con un costo hasta 75% menor que el Haiku 4.5, según Olhar Digital y Canaltech. Conoce los precios y la disponibilidad.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Fri, 09 Oct 2026 10:59:54 +0000</pubDate>
     </item>
   </channel>
 </rss>
