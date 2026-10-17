@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-opens-vera-rubin-architecture-data-centers",
+  "lang": "en",
+  "date": "17 Oct 2026",
+  "no": 51,
+  "category": "Market",
+  "kicker": "Market · NVIDIA",
+  "headline": "NVIDIA Opens Vera Rubin Architecture to Data Centers",
+  "headline_hl": "Vera Rubin",
+  "dek": "The company hands its rack designs to the Open Compute Project and publishes open standards, per its own announcement.",
+  "image": {
+    "path": "assets/img/nvidia-opens-vera-rubin-architecture-dat-695670ad.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "MGX<br>1.2",
+  "sources": [
+    "NVIDIA"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Rack designs opened to the industry",
+    "body": [
+      "NVIDIA opened the hardware specifications of its Vera Rubin architecture at the OCP Global Summit in the United States (NVIDIA).",
+      "According to the company, the rack and tray designs go to the Open Compute Project through the open MGX architecture."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What MGX 1.2 brings",
+    "body": "According to NVIDIA, the new version of the specification includes:",
+    "points": [
+      {
+        "h": "Cooling",
+        "t": "Blind-mate liquid cooling, no hoses connected by hand (NVIDIA)."
+      },
+      {
+        "h": "Power",
+        "t": "A 5,000-amp liquid-cooled busbar (NVIDIA)."
+      },
+      {
+        "h": "Capacity",
+        "t": "19-inch racks and deployments up to 250 kW (NVIDIA)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A rack for AI agents",
+    "body": [
+      "NVIDIA also introduced the Vera CPU rack, built for AI agents, with tool calling and sandboxed execution.",
+      "According to the company, it sits alongside the Vera Rubin NVL72, its base for large-scale training and inference."
+    ],
+    "stat": {
+      "big": "250 kW",
+      "cap": "per rack, supported by MGX 1.2, NVIDIA says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Standards with other firms",
+    "items": [
+      {
+        "h": "Facility",
+        "t": "With AMD, Google and Meta, NVIDIA published version 0.7 of an open specification."
+      },
+      {
+        "h": "Power grid",
+        "t": "With Google, Meta and Microsoft, it set how infrastructure reacts to grid faults (NVIDIA)."
+      },
+      {
+        "h": "Cost",
+        "t": "NVIDIA gave no pricing; the specifications are open, the company says."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "NVIDIA opened its Vera Rubin architecture to the industry, handing the rack designs to the Open Compute Project.",
+    "body": [
+      "According to NVIDIA, the MGX 1.2 specification adds blind-mate liquid cooling, a 5,000-amp power busbar and support for deployments up to 250 kW per rack.",
+      "The company also introduced the Vera CPU rack, built for AI agents, and says it published open standards with AMD, Google, Meta and Microsoft for data centers and power grid resilience. The information comes from NVIDIA's own announcement, and the company gave no pricing."
+    ],
+    "cta_variant": "A",
+    "cta": "Should AI hardware standards be open to everyone?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#datacenter",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about NVIDIA opening the Vera Rubin architecture to data centers",
+    "Slide 2: Vera Rubin rack designs go to the Open Compute Project through the MGX architecture",
+    "Slide 3: MGX 1.2 brings liquid cooling, a 5,000-amp busbar and racks up to 250 kW",
+    "Slide 4: Vera CPU rack for AI agents; 250 kW per rack",
+    "Slide 5: open standards with AMD, Google, Meta and Microsoft; pricing not disclosed",
+    "Slide 6: source for the Vera Rubin architecture story: NVIDIA"
+  ]
+}

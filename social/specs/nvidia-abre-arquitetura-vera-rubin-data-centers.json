@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-abre-arquitetura-vera-rubin-data-centers",
+  "lang": "pt",
+  "date": "17 out 2026",
+  "no": 54,
+  "category": "Mercado",
+  "kicker": "Mercado · NVIDIA",
+  "headline": "NVIDIA abre a arquitetura Vera Rubin para data centers",
+  "headline_hl": "Vera Rubin",
+  "dek": "A empresa cede o desenho de racks ao Open Compute Project e publica padrões abertos, segundo comunicado próprio.",
+  "image": {
+    "path": "assets/img/nvidia-abre-arquitetura-vera-rubin-data--695670ad.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "MGX<br>1.2",
+  "sources": [
+    "NVIDIA"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Racks abertos ao setor",
+    "body": [
+      "A NVIDIA abriu as especificações de hardware da arquitetura Vera Rubin na OCP Global Summit, nos Estados Unidos (NVIDIA).",
+      "Segundo a empresa, o desenho de racks e bandejas passa ao Open Compute Project pela arquitetura aberta MGX."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que traz o MGX 1.2",
+    "body": "Segundo a NVIDIA, a nova versão da especificação inclui:",
+    "points": [
+      {
+        "h": "Refrigeração",
+        "t": "Líquida com encaixe automático, sem ligar mangueiras à mão (NVIDIA)."
+      },
+      {
+        "h": "Energia",
+        "t": "Barramento líquido-refrigerado de 5.000 ampères (NVIDIA)."
+      },
+      {
+        "h": "Potência",
+        "t": "Racks de 19 polegadas e implantações de até 250 kW (NVIDIA)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Rack para agentes de IA",
+    "body": [
+      "A NVIDIA também apresentou o Vera CPU rack, voltado a agentes de IA, com chamadas de ferramentas e execução isolada.",
+      "Segundo a empresa, ele complementa o Vera Rubin NVL72, base para treinamento e inferência em grande escala."
+    ],
+    "stat": {
+      "big": "250 kW",
+      "cap": "por rack, suportados pelo MGX 1.2, diz a NVIDIA"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Padrões com outras empresas",
+    "items": [
+      {
+        "h": "Instalação",
+        "t": "Com AMD, Google e Meta, a NVIDIA publicou a versão 0.7 de uma especificação aberta."
+      },
+      {
+        "h": "Energia",
+        "t": "Com Google, Meta e Microsoft, definiu como a infraestrutura reage a falhas na rede (NVIDIA)."
+      },
+      {
+        "h": "Custo",
+        "t": "A NVIDIA não divulgou valores; as especificações são abertas, diz a empresa."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A NVIDIA abriu ao setor a arquitetura Vera Rubin, cedendo o desenho de racks ao Open Compute Project.",
+    "body": [
+      "Segundo a NVIDIA, a especificação MGX 1.2 inclui refrigeração líquida com encaixe automático, um barramento de energia de 5.000 ampères e suporte a implantações de até 250 kW por rack.",
+      "A empresa também apresentou o Vera CPU rack, voltado a agentes de IA, e diz ter publicado padrões abertos com AMD, Google, Meta e Microsoft para data centers e resiliência à rede elétrica. A informação vem de comunicado da própria NVIDIA, que não divulgou valores."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#datacenter",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a NVIDIA abrindo a arquitetura Vera Rubin para data centers",
+    "Slide 2: desenho de racks da Vera Rubin passa ao Open Compute Project pela arquitetura MGX",
+    "Slide 3: MGX 1.2 traz refrigeração líquida, barramento de 5.000 ampères e racks de até 250 kW",
+    "Slide 4: Vera CPU rack para agentes de IA; 250 kW por rack",
+    "Slide 5: padrões abertos com AMD, Google, Meta e Microsoft; valores não divulgados",
+    "Slide 6: fonte da matéria sobre a arquitetura Vera Rubin: NVIDIA"
+  ]
+}
