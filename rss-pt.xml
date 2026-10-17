@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 16 Oct 2026 21:46:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 10:51:24 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Perplexity abre o código da SPACE, sandbox que isola agentes de IA</title>
+      <link>https://cortexplor.com/pt/perplexity-abre-codigo-sandbox-space-agentes/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/perplexity-abre-codigo-sandbox-space-agentes/</guid>
+      <description>A Perplexity libera o código da SPACE, sandbox que isola agentes de IA em máquinas virtuais próprias, com CoreWeave, Akamai e Crusoe já testando a ferramenta.</description>
+      <category>Aplicações</category>
+      <pubDate>Sat, 17 Oct 2026 10:51:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS, Anthropic e OpenAI disputam engenheiros para implantar IA</title>
+      <link>https://cortexplor.com/pt/aws-anthropic-openai-disputam-engenheiros-ia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/aws-anthropic-openai-disputam-engenheiros-ia/</guid>
+      <description>AWS, Anthropic, OpenAI e Google Cloud disputam engenheiros de implantação de IA; vagas nos EUA saltaram de 200 para mais de 7.300 em três anos, segundo a CNBC.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Sat, 17 Oct 2026 10:51:21 +0000</pubDate>
+    </item>
     <item>
       <title>ChatGPT ganha acesso às abas do Chrome e passa a executar tarefas</title>
       <link>https://cortexplor.com/pt/chatgpt-acessa-abas-chrome-executa-tarefas/</link>
@@ -230,22 +246,6 @@
       <description>A Anthropic lançou o Claude Haiku 5.5 com custo até 75% menor que o Haiku 4.5, segundo o Olhar Digital e o Canaltech. Veja os preços e a disponibilidade.</description>
       <category>Modelos &amp; Lançamentos</category>
       <pubDate>Fri, 09 Oct 2026 10:59:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT ganha interface visual interativa com o lançamento do GPT-6</title>
-      <link>https://cortexplor.com/pt/chatgpt-ganha-interface-visual-interativa-gpt-6/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/chatgpt-ganha-interface-visual-interativa-gpt-6/</guid>
-      <description>A OpenAI libera o Intelligent UI, interface do ChatGPT com diagramas e calculadoras interativas, junto ao novo modelo GPT-6, segundo TechCrunch e Canaltech.</description>
-      <category>Modelos &amp; Lançamentos</category>
-      <pubDate>Thu, 08 Oct 2026 22:02:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic reestrutura acesso a modelos para equipes de segurança</title>
-      <link>https://cortexplor.com/pt/anthropic-reestrutura-acesso-ciberseguranca/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/anthropic-reestrutura-acesso-ciberseguranca/</guid>
-      <description>A Anthropic uniu dois programas de acesso facilitado ao Claude para segurança cibernética em um único programa de verificação com três níveis de acesso.</description>
-      <category>Aplicações</category>
-      <pubDate>Thu, 08 Oct 2026 16:00:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

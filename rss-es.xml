@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 16 Oct 2026 21:46:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 10:51:24 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AWS, Anthropic y OpenAI compiten por ingenieros de despliegue de IA</title>
+      <link>https://cortexplor.com/es/aws-anthropic-openai-compiten-ingenieros-despliegue-ia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/aws-anthropic-openai-compiten-ingenieros-despliegue-ia/</guid>
+      <description>AWS, Anthropic y OpenAI compiten por ingenieros de despliegue de IA; las vacantes en EE.UU. pasaron de 200 a más de 7.300 en tres años, según la CNBC.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Sat, 17 Oct 2026 10:51:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity libera el código de SPACE, su sandbox para agentes de IA</title>
+      <link>https://cortexplor.com/es/perplexity-libera-codigo-sandbox-space-agentes-ia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/perplexity-libera-codigo-sandbox-space-agentes-ia/</guid>
+      <description>Perplexity libera el código de SPACE, el sandbox que aísla sus agentes de IA en máquinas virtuales, mientras CoreWeave, Akamai y Crusoe prueban la integración.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Sat, 17 Oct 2026 10:51:23 +0000</pubDate>
+    </item>
     <item>
       <title>ChatGPT ya puede leer las pestañas de Chrome y ejecutar tareas</title>
       <link>https://cortexplor.com/es/chatgpt-lee-pestanas-chrome-ejecuta-tareas/</link>
@@ -230,22 +246,6 @@
       <description>Anthropic prohibió el abuso hacia Claude en una actualización de su política de uso, según The Guardian, The Verge y Engadget. Esto es todo lo que cambió.</description>
       <category>Regulación</category>
       <pubDate>Fri, 09 Oct 2026 10:59:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT estrena interfaz visual interactiva junto al nuevo GPT-6</title>
-      <link>https://cortexplor.com/es/chatgpt-interfaz-visual-interactiva-gpt-6/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/chatgpt-interfaz-visual-interactiva-gpt-6/</guid>
-      <description>OpenAI lanza Intelligent UI, la nueva interfaz de ChatGPT con diagramas y calculadoras interactivas, junto al modelo GPT-6, según TechCrunch y Canaltech.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Thu, 08 Oct 2026 22:02:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic reestructura el acceso a Claude para equipos de seguridad</title>
-      <link>https://cortexplor.com/es/anthropic-reestructura-acceso-ciberseguridad/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-reestructura-acceso-ciberseguridad/</guid>
-      <description>Anthropic unió dos programas en uno solo de tres niveles, el Programa de Verificación Cibernética, que da a equipos de seguridad más acceso a Claude hoy.</description>
-      <category>Aplicaciones</category>
-      <pubDate>Thu, 08 Oct 2026 16:00:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
