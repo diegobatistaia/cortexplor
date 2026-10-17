@@ -1,0 +1,101 @@
+{
+  "slug": "perplexity-abre-codigo-sandbox-space-agentes",
+  "lang": "pt",
+  "date": "17 out 2026",
+  "no": 53,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Perplexity",
+  "headline": "Perplexity abre o código da SPACE, sandbox para agentes",
+  "headline_hl": "SPACE",
+  "dek": "A empresa diz que a ferramenta roda os agentes do Computer desde julho e já é testada por CoreWeave, Akamai e Crusoe.",
+  "image": {
+    "path": "assets/img/perplexity-abre-codigo-sandbox-space-age-d011458e.jpg",
+    "credit": "FlyD / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Código<br>aberto",
+  "sources": [
+    "Perplexity",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um ambiente isolado para agentes",
+    "body": [
+      "A Perplexity abriu o código da SPACE, o sandbox que usa para rodar os agentes de IA do Computer (Perplexity, SiliconANGLE).",
+      "Segundo a empresa, cada agente roda em uma máquina virtual própria, separada do computador que a hospeda."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como a SPACE protege",
+    "body": "Segundo a Perplexity, o sandbox é tratado como não confiável.",
+    "points": [
+      {
+        "h": "Credenciais",
+        "t": "Rede e chaves ficam fora do ambiente do agente (Perplexity)."
+      },
+      {
+        "h": "Controle",
+        "t": "Um painel cria, pausa, retoma ou remove os ambientes (Perplexity)."
+      },
+      {
+        "h": "Capturas",
+        "t": "Capturas frequentes evitam perder trabalho se a sessão cair (Perplexity)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Testes de fuga",
+    "body": [
+      "A Perplexity diz que, em mais de cem tentativas de fuga, nenhum agente escapou por completo.",
+      "Segundo a empresa, brechas de rede achadas nos testes foram corrigidas e não se repetiram."
+    ],
+    "stat": {
+      "big": "Cem",
+      "cap": "tentativas de fuga em testes, diz a Perplexity"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Quem já adota",
+    "items": [
+      {
+        "h": "CoreWeave",
+        "t": "Publicou um guia para implantar a SPACE (Perplexity, SiliconANGLE)."
+      },
+      {
+        "h": "Akamai",
+        "t": "Testou e colocou a plataforma no ar na própria nuvem (SiliconANGLE)."
+      },
+      {
+        "h": "Crusoe",
+        "t": "Integra a SPACE aos seus serviços de IA gerenciados (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Perplexity abriu o código da SPACE, o sandbox que isola os agentes de IA do produto Computer.",
+    "body": [
+      "Segundo a Perplexity, cada agente roda em uma máquina virtual própria, com rede e credenciais fora do ambiente. A empresa diz que a SPACE roda todas as sessões do Computer desde julho.",
+      "A Perplexity afirma que, em mais de cem tentativas de fuga em testes, nenhum agente escapou por completo, e que as brechas de rede encontradas foram corrigidas. Segundo a empresa e a SiliconANGLE, CoreWeave, Akamai e Crusoe já testam ou integram a ferramenta."
+    ],
+    "cta_variant": "A",
+    "cta": "Você confiaria um sandbox aberto para rodar seus agentes de IA?",
+    "hashtags": [
+      "#cortexplor",
+      "#perplexity",
+      "#agentesdeia",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Perplexity abrindo o código da SPACE",
+    "Slide 2: a SPACE isola cada agente de IA em uma máquina virtual própria",
+    "Slide 3: credenciais fora do ambiente, painel de controle e capturas do estado",
+    "Slide 4: em mais de cem tentativas de fuga, nenhum agente escapou por completo, diz a Perplexity",
+    "Slide 5: CoreWeave, Akamai e Crusoe já testam ou integram a SPACE",
+    "Slide 6: fontes da matéria sobre a SPACE: Perplexity e SiliconANGLE"
+  ]
+}

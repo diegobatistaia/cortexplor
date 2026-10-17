@@ -1,0 +1,101 @@
+{
+  "slug": "perplexity-open-sources-space-sandbox-ai-agents",
+  "lang": "en",
+  "date": "17 Oct 2026",
+  "no": 50,
+  "category": "Applications",
+  "kicker": "Applications · Perplexity",
+  "headline": "Perplexity Open-Sources SPACE, Sandbox for AI Agents",
+  "headline_hl": "SPACE",
+  "dek": "The company says the tool has run its Computer agents since July and is being tested by CoreWeave, Akamai and Crusoe.",
+  "image": {
+    "path": "assets/img/perplexity-open-sources-space-sandbox-ai-d011458e.jpg",
+    "credit": "FlyD / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Open<br>source",
+  "sources": [
+    "Perplexity",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "An isolated space for agents",
+    "body": [
+      "Perplexity open-sourced SPACE, the sandbox it uses to run the AI agents behind Computer (Perplexity, SiliconANGLE).",
+      "According to the company, each agent runs in its own virtual machine, separate from the host computer."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How SPACE protects",
+    "body": "According to Perplexity, the sandbox is treated as untrusted.",
+    "points": [
+      {
+        "h": "Secrets",
+        "t": "Network and keys stay outside the agent's environment (Perplexity)."
+      },
+      {
+        "h": "Control",
+        "t": "A dashboard creates, pauses, resumes or removes environments (Perplexity)."
+      },
+      {
+        "h": "Snapshots",
+        "t": "Frequent snapshots keep work safe if a session drops (Perplexity)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Escape testing",
+    "body": [
+      "Perplexity says that across more than a hundred escape attempts, no agent fully got out.",
+      "According to the company, network gaps found in testing were fixed and did not recur."
+    ],
+    "stat": {
+      "big": "Hundred",
+      "cap": "escape attempts in testing, Perplexity says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Who is adopting it",
+    "items": [
+      {
+        "h": "CoreWeave",
+        "t": "Published a guide for deploying SPACE (Perplexity, SiliconANGLE)."
+      },
+      {
+        "h": "Akamai",
+        "t": "Tested it and went live on its own cloud (SiliconANGLE)."
+      },
+      {
+        "h": "Crusoe",
+        "t": "Is integrating SPACE into its managed AI services (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Perplexity open-sourced SPACE, the sandbox that isolates the AI agents behind its Computer product.",
+    "body": [
+      "According to Perplexity, each agent runs in its own virtual machine, with network access and credentials kept outside the environment. The company says SPACE has run every Computer session since July.",
+      "Perplexity says that across more than a hundred escape attempts in testing, no agent fully got out, and that network gaps found were fixed. According to the company and SiliconANGLE, CoreWeave, Akamai and Crusoe are already testing or integrating the tool."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#perplexity",
+      "#aiagents",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Perplexity open-sourcing SPACE",
+    "Slide 2: SPACE isolates each AI agent in its own virtual machine",
+    "Slide 3: secrets outside the environment, a control dashboard and state snapshots",
+    "Slide 4: across more than a hundred escape attempts, no agent fully got out, Perplexity says",
+    "Slide 5: CoreWeave, Akamai and Crusoe are testing or integrating SPACE",
+    "Slide 6: sources for the SPACE story: Perplexity and SiliconANGLE"
+  ]
+}
