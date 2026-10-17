@@ -1,35 +1,52 @@
 {
   "pedido": {
-    "acao": "publicar",
-    "itens": [
-      {
-        "slug": "aws-anthropic-openai-disputam-engenheiros-ia",
-        "lang": "pt"
-      },
-      {
-        "slug": "aws-anthropic-openai-race-hire-ai-deployment-engineers",
-        "lang": "en"
-      }
-    ],
-    "pedido_em": "2026-10-17T08:57:36-03:00"
+    "acao": "conferir",
+    "lang": "pt",
+    "pedido_em": "2026-10-17T09:00:09-03:00"
   },
-  "em": "2026-10-17T08:58:15-03:00",
-  "ok": false,
-  "itens": [
+  "em": "2026-10-17T09:00:37-03:00",
+  "ok": true,
+  "conta": "cortexplor",
+  "ultimos": [
     {
-      "slug": "aws-anthropic-openai-disputam-engenheiros-ia",
-      "lang": "pt",
-      "conta": "cortexplor",
-      "ok": false,
-      "erro": "HTTP 400 em 17841424687773066/media_publish: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"ATB9Cw3JlOkOl5GUfIqSxbz\"}}"
+      "quando": "2026-10-16T23:58:54+0000",
+      "link": "https://www.instagram.com/p/DekxKXnlpfU/",
+      "inicio": "A OpenAI atualizou a extensão do ChatGPT para o Chrome: o assistente agora acessa as abas "
     },
     {
-      "slug": "aws-anthropic-openai-race-hire-ai-deployment-engineers",
-      "lang": "en",
-      "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "18369507748245122",
-      "permalink": "https://www.instagram.com/p/DemDp27G_f5/"
+      "quando": "2026-10-16T22:59:22+0000",
+      "link": "https://www.instagram.com/p/DekqWVrmVSd/",
+      "inicio": "A Anthropic abriu seu quinto escritório na Ásia-Pacífico, em Singapura, e assinou um memor"
+    },
+    {
+      "quando": "2026-10-16T16:59:34+0000",
+      "link": "https://www.instagram.com/p/DekBLNmmpWZ/",
+      "inicio": "A Nvidia lança nesta sexta os primeiros notebooks RTX Spark, com até 128 GB de memória uni"
+    },
+    {
+      "quando": "2026-10-16T11:59:33+0000",
+      "link": "https://www.instagram.com/p/Deje1yZHKFG/",
+      "inicio": "A Meta abriu os pesos do Muse Spark Open, modelo com 816 bilhões de parâmetros treinado pa"
+    },
+    {
+      "quando": "2026-10-15T23:58:44+0000",
+      "link": "https://www.instagram.com/p/DeiMWMLDgyV/",
+      "inicio": "A Nvidia lançou o Nemotron 3.5 Super VL, modelo aberto de 120 bilhões de parâmetros, e doi"
+    },
+    {
+      "quando": "2026-10-15T22:58:48+0000",
+      "link": "https://www.instagram.com/p/DeiFfTjCdJc/",
+      "inicio": "A OpenAI diz que agentes de IA na União Europeia já geram 55% dos tokens de saída de clien"
+    },
+    {
+      "quando": "2026-10-15T16:59:06+0000",
+      "link": "https://www.instagram.com/p/DehcUznFp9A/",
+      "inicio": "A xAI lançou o Grok Voice 3.0, que lidera o ranking de modelos de voz da Artificial Analys"
+    },
+    {
+      "quando": "2026-10-15T11:59:06+0000",
+      "link": "https://www.instagram.com/p/Deg5_iFkWSA/",
+      "inicio": "Oito estados dos EUA processaram a OpenAI, acusando o ChatGPT de prejudicar crianças e eng"
     }
   ]
 }
