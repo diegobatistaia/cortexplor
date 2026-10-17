@@ -1,0 +1,38 @@
+{
+  "lang": "es",
+  "slug": "apple-investigacion-mezcla-idiomas-supera-ajuste",
+  "story_id": "a991bf1a8196b540",
+  "title": "Apple halla que mezclar idiomas supera el ajuste de hiperparámetros",
+  "dek": "Apple comparó las dos técnicas en cuatro tamaños de modelo y alrededor de mil entrenamientos, usando el árabe como idioma de bajo recurso.",
+  "meta_description": "Una investigación de Apple prueba mezclar un idioma de alto recurso en el preentrenamiento de modelos de bajo recurso y halla mayores ganancias que el ajuste.",
+  "keyword": "preentrenamiento de modelos de bajo recurso",
+  "category": "modelos",
+  "tags": ["ia", "apple", "modelos", "investigacion", "idiomas"],
+  "body": [
+    {"type": "p", "text": "Apple publicó una investigación que muestra que mezclar datos de un idioma con mucha información disponible, como el inglés, al entrenar modelos de lenguaje para idiomas con menos datos supera el ajuste de hiperparámetros como estrategia de preentrenamiento. El estudio, publicado en el sitio de Apple Machine Learning el 13 de octubre de 2026, probó el enfoque en modelos entrenados desde cero para el árabe.", "items": []},
+    {"type": "p", "text": "El problema que ataca la investigación es lo que los autores llaman un régimen restringido por datos: la mayoría de los idiomas del mundo no cuenta con suficiente material disponible para el preentrenamiento, y los modelos deben repetir los mismos datos varias veces. Según Apple, esa repetición empeora la capacidad del modelo para generalizar a situaciones que no vio durante el entrenamiento.", "items": []},
+    {"type": "p", "text": "Hasta ahora existían dos soluciones. Una es el ajuste de hiperparámetros, como aumentar el weight decay (una penalización que reduce el peso de la red y limita su capacidad) — una forma de regularización, según los investigadores. La otra es mezclar, junto a los escasos datos del idioma objetivo, datos de un idioma auxiliar con más material disponible, lo que amplía el conjunto de entrenamiento y añade conocimiento nuevo.", "items": []},
+    {"type": "p", "text": "Para comparar ambas, los investigadores de Apple entrenaron cuatro tamaños de modelo, de 150 millones a 1.430 millones de parámetros, usando el árabe como idioma de bajo recurso y el inglés como auxiliar, en alrededor de mil rondas de preentrenamiento, según el artículo.", "items": []},
+    {"type": "p", "text": "El resultado: mezclar los dos idiomas superó al ajuste de hiperparámetros tanto en la pérdida de validación (una medida de cuán bien el modelo predice el siguiente fragmento de texto) como en la precisión en tareas posteriores al entrenamiento — y la diferencia entre ambas técnicas crece cuanto más grande es el modelo, según Apple.", "items": []},
+    {"type": "p", "text": "Los investigadores cuantificaron la ganancia: mezclar los idiomas produce un efecto equivalente a tener entre dos y tres veces más datos exclusivos del idioma objetivo, medido por la pérdida de validación, y entre dos y trece veces más, medido por la precisión en tareas — con la ganancia aumentando de forma pronunciada a medida que el modelo crece, afirma el estudio.", "items": []},
+    {"type": "p", "text": "Un tercer hallazgo explica por qué la diferencia es tan grande: la pérdida de validación en el idioma objetivo subestima el valor real de la mezcla. Según Apple, mezclar idiomas hace dos cosas a la vez: regulariza el entrenamiento al diversificar la señal que recibe el modelo, y además aporta conocimiento nuevo que el corpus repetido del idioma objetivo no puede ofrecer. La pérdida de validación, dicen los autores, solo capta el primer efecto.", "items": []},
+    {"type": "p", "text": "A partir de estos resultados, la investigación recomienda tres prácticas: mezclar datos de un idioma de alto recurso en lugar de solo repetir el idioma objetivo, priorizar la proporción de esa mezcla por encima del ajuste de hiperparámetros, y transferir los hiperparámetros de un modelo pequeño usado como prueba (proxy) al modelo final, mediante una técnica llamada μP.", "items": []},
+    {"type": "p", "text": "Apple afirma que el régimen de escasez de datos probado con el árabe afecta a la mayoría de los idiomas del mundo — el estudio no probó el español, pero la conclusión de los autores es justamente sobre el escenario que enfrenta cualquier idioma fuera del inglés al entrenar modelos de lenguaje.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién se ve afectado: equipos de investigación y empresas que entrenan o ajustan modelos de lenguaje para idiomas con menos datos disponibles que el inglés, según Apple.",
+      "Desde cuándo: estudio publicado el 13 de octubre de 2026, en el sitio de investigación de Apple Machine Learning.",
+      "Qué cambia: la recomendación pasa a ser mezclar datos de un idioma auxiliar de alto recurso en lugar de concentrar el esfuerzo en el ajuste de hiperparámetros.",
+      "Cuánto cuesta: Apple no reveló el costo computacional del estudio; el artículo publicado presenta la metodología y los resultados, no un producto a la venta."
+    ]}
+  ],
+  "image": {
+    "query": "language data training artificial intelligence abstract",
+    "alt": "Representación abstracta de datos de texto en distintos idiomas usados para entrenar modelos de inteligencia artificial"
+  },
+  "sources": [
+    {"name": "Apple Machine Learning", "owner": "apple", "url": "https://machinelearning.apple.com/research/mix-dont-tune", "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
