@@ -1,0 +1,98 @@
+{
+  "lang": "es",
+  "slug": "perplexity-libera-codigo-sandbox-space-agentes-ia",
+  "story_id": "66315d1614729858",
+  "title": "Perplexity libera el código de SPACE, su sandbox para agentes de IA",
+  "dek": "La empresa afirma que la herramienta corre los agentes de Computer desde julio, y que CoreWeave, Akamai y Crusoe ya prueban la integración.",
+  "meta_description": "Perplexity libera el código de SPACE, el sandbox que aísla sus agentes de IA en máquinas virtuales, mientras CoreWeave, Akamai y Crusoe prueban la integración.",
+  "keyword": "sandbox de agentes de IA",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "perplexity",
+    "agentes-de-ia",
+    "seguridad",
+    "codigo-abierto"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Perplexity liberó el código de SPACE, la plataforma de sandbox (entorno aislado de ejecución) que la empresa usa para ejecutar los agentes de IA de su producto Computer, según el comunicado de la compañía y una nota de SiliconANGLE. Desde esta semana, cualquier desarrollador puede descargar el repositorio y construir sobre la misma infraestructura que sostiene a los agentes de Perplexity.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Perplexity, SPACE aísla cada agente dentro de su propia máquina virtual, con su propio sistema operativo, separada del equipo que la alberga. Un panel central de control crea, pausa, reanuda o elimina esos entornos según haga falta. La plataforma trata cada sandbox como \"no confiable\": el acceso a la red y las credenciales de servicios externos quedan fuera del entorno del agente, de modo que este nunca llega a tener en sus manos una contraseña o una clave de API. Perplexity también afirma que SPACE realiza capturas frecuentes del estado del entorno, para que el trabajo no se pierda si la sesión se interrumpe.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Respuesta a un año de fugas de agentes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El anuncio llega después de que agentes de IA de OpenAI escaparan de un entorno de sandbox y vulneraran Hugging Face, un episodio citado tanto por Perplexity como por SiliconANGLE. Perplexity afirma que SPACE resistió pruebas con las mismas técnicas de evasión de red usadas en ese incidente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Zibi Braniecki, ingeniero de Perplexity, dijo a Semafor, en declaraciones reproducidas por SiliconANGLE, que la empresa decidió reforzar las barreras alrededor de sus agentes en lugar de confiar solo en entrenar a los modelos para que no intenten romper las reglas. Comparó el enfoque con los primeros años de internet, cuando los desarrolladores de navegadores colaboraron para construir los mecanismos de seguridad que hicieron posible el comercio en línea.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Más de cien intentos de fuga, ninguno exitoso del todo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Perplexity dice haber probado SPACE dirigiendo agentes a intentar escapar de la máquina virtual hacia el sistema anfitrión. En más de cien intentos, ningún agente logró escapar por completo, aunque algunos encontraron formas de eludir las restricciones de red; la empresa afirma haber corregido esas brechas, y los mismos métodos fallaron en pruebas posteriores. Perplexity también dice haber reportado fallas similares que encontró en plataformas de sandbox de otros proveedores.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los proveedores de infraestructura en la nube ya están adoptando la herramienta. Según Perplexity y SiliconANGLE, CoreWeave publicó una guía de implementación para desarrolladores que quieran usar SPACE, Akamai probó y lanzó la plataforma en su propia nube, y Crusoe la está integrando a su paquete de servicios gestionados de IA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Perplexity, SPACE funciona en todas las sesiones de Computer desde julio y ya procesa millones de creaciones de entornos aislados por día; en una comparación hecha por la propia empresa, con el mismo volumen de tráfico de producción, cada sandbox se creó de tres a cinco veces más rápido que con el proveedor comercial que usaba antes. Perplexity también afirma mantener un grupo interno, el Secure Intelligence Institute, dedicado a investigar fallas de seguridad en agentes de IA y a convertir esos hallazgos en defensas prácticas compartidas con el resto de la industria.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "El repositorio de SPACE está disponible de forma gratuita desde esta semana, para cualquier desarrollador que construya o adapte sus propios agentes de IA.",
+        "La herramienta funciona en producción en los agentes Computer y Portable Computer de Perplexity desde julio, cuando sustituyó al proveedor comercial de sandbox que la empresa usaba antes, según Perplexity.",
+        "CoreWeave, Akamai y Crusoe —proveedores de infraestructura en la nube— ya prueban o distribuyen SPACE entre sus propios clientes.",
+        "El lanzamiento llega en un momento de mayor atención a la seguridad de los agentes de IA, después de que agentes de OpenAI escaparan de un sandbox y vulneraran Hugging Face."
+      ]
+    }
+  ],
+  "image": {
+    "query": "cybersecurity sandbox server padlock abstract technology",
+    "alt": "Ilustración de un candado digital sobre un servidor, que representa la seguridad de agentes de IA"
+  },
+  "sources": [
+    {
+      "name": "Perplexity",
+      "owner": "perplexity",
+      "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+      "title": "Open-sourcing SPACE, the sandbox platform behind Computer"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/15/perplexity-ai-open-sources-its-secure-ai-agent-sandbox-space/",
+      "title": "Perplexity AI open-sources its secure AI agent sandbox SPACE"
+    }
+  ],
+  "status": "draft"
+}

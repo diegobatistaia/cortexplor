@@ -1,0 +1,104 @@
+{
+  "lang": "en",
+  "slug": "aws-anthropic-openai-race-hire-ai-deployment-engineers",
+  "story_id": "c0a83077c3763311",
+  "title": "AWS, Anthropic, OpenAI Race to Hire AI Deployment Engineers",
+  "dek": "U.S. postings for forward deployed engineer roles jumped from fewer than 200 in 2023 to more than 7,300 in 2026, with pay up to three times the national median, CNBC and TechRadar report.",
+  "meta_description": "AWS, Anthropic and OpenAI race to hire AI deployment engineers, as U.S. postings for the role jumped from 200 to over 7,300 in three years, CNBC reports.",
+  "keyword": "forward deployed engineers",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "market",
+    "jobs",
+    "aws",
+    "anthropic",
+    "openai"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Amazon Web Services, Anthropic, OpenAI and Google Cloud are racing to hire what the industry calls forward deployed engineers — specialists who combine advanced AI skills with an understanding of how a business actually runs — according to reporting by CNBC and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "These engineers work directly with client companies to get around legacy systems, security requirements and internal roadblocks, turning promising AI pilots into tools businesses actually use day to day, both outlets report.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Billions riding on deployment",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AWS has committed $1 billion to its forward-deployed engineering initiative and, according to Asa Kalavade, the company's vice president for forward-deployed engineering, speaking to CNBC, is starting with hundreds of engineers drawn from inside Amazon and from external hiring. OpenAI has launched a deployment business backed by more than $4 billion in initial investment, both sources report.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic is taking a different route: rather than hiring directly, it is putting $100 million into training engineers who already work at partner companies, aiming to certify 10,000 of them by the end of 2027 through its Claude Frontier Academy. According to CNBC, the first cohorts include professionals from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. Accenture and Google Cloud, meanwhile, are building a 1,000-person forward-deployed engineering team, both sources report.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Job postings up sixfold in two years",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to labor-market analytics firm Lightcast, cited by both CNBC and TechRadar, U.S. postings for forward deployed engineer roles jumped from fewer than 200 in 2023 to about 1,200 in 2025 and more than 7,300 in the first nine months of 2026. CNBC reports that median advertised salaries for the role reached $195,456 over that period, up 40% from 2023 and more than three times the median salary across all U.S. job postings.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC also found that consulting firms account for a large share of those postings: Deloitte posted 872 FDE job ads in the first nine months of 2026, followed by Accenture with 688, Google with 499 and KPMG with 447. Lightcast's head of global research, Elena Magrini, told CNBC that demand is rising fast and wages are climbing because companies are competing for a limited pool of talent — though she noted the role shares roughly half its skills with traditional software engineering, which widens the pool of possible candidates.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The hiring race is unfolding as financial markets question whether billions in AI infrastructure spending will translate into business results: CNBC reports that AI-linked stocks, including Dell, CoreWeave, AMD and Micron, suffered significant losses this week.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both outlets describe forward deployed engineering as a shift in how AI companies sell their technology: instead of simply licensing a model, vendors are now taking on responsibility for getting it to actually work inside a customer's business. TechRadar notes that three of the four companies with the most FDE job postings are consulting firms rather than AI developers themselves, a sign that implementation work, not model capability, has become the bottleneck consulting firms are racing to fill.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "AWS, OpenAI, Anthropic, Accenture and Google Cloud each run their own program to train or hire AI deployment engineers, according to CNBC and TechRadar.",
+        "Committed spending ranges from $100 million (Anthropic, for training) to more than $4 billion (OpenAI, for a full deployment business).",
+        "According to Lightcast, cited by both outlets, U.S. postings for the role rose from fewer than 200 in 2023 to more than 7,300 in the first nine months of 2026.",
+        "Median advertised salary for the role reached $195,456 in the U.S., according to CNBC — more than three times the median across all U.S. job postings."
+      ]
+    }
+  ],
+  "image": {
+    "query": "team of engineers working computers office technology",
+    "alt": "Illustration of technology professionals working on computers in an office"
+  },
+  "sources": [
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
+      "title": "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/thousands-of-specialized-engineers-deployed-by-aws-anthropic-to-prove-ai-is-worth-the-investment",
+      "title": "Thousands of specialized engineers deployed by AWS, Anthropic to prove AI is worth the investment"
+    }
+  ],
+  "status": "draft"
+}
