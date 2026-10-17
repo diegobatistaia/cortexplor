@@ -1,0 +1,100 @@
+{
+  "slug": "apple-research-language-mixing-beats-tuning",
+  "lang": "en",
+  "date": "17 Oct 2026",
+  "no": 52,
+  "category": "Models",
+  "kicker": "Models · Apple",
+  "headline": "Apple: mixing languages beats fine-tuning",
+  "headline_hl": "mixing languages",
+  "dek": "Apple tested four model sizes and about 1,000 training runs, with Arabic as the low-resource language, Apple Machine Learning says.",
+  "image": {
+    "path": "assets/img/apple-research-language-mixing-beats-tun-fb638919.jpg",
+    "credit": "Growtika / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Four<br>sizes",
+  "sources": [
+    "Apple Machine Learning"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A rich language helps a poor one",
+    "body": [
+      "Apple published a study on training models for languages with little data, such as Arabic (Apple Machine Learning).",
+      "According to the research, mixing in an abundant language like English beats hyperparameter tuning."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The two techniques compared",
+    "body": "According to Apple, the study pitted two pre-training strategies:",
+    "points": [
+      {
+        "h": "Tuning",
+        "t": "Raising weight decay, a form of regularization (Apple)."
+      },
+      {
+        "h": "Mixing",
+        "t": "Adding auxiliary-language data to the scarce target data (Apple)."
+      },
+      {
+        "h": "Test",
+        "t": "From 150 million to 1.43 billion parameters, trained from scratch (Apple Machine Learning)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The gap grows with model size",
+    "body": [
+      "According to Apple, mixing beat tuning on validation loss and on downstream task accuracy.",
+      "The company says the effect equals having two to three times more target-language data on validation loss."
+    ],
+    "stat": {
+      "big": "Four",
+      "cap": "model sizes tested, Apple says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "A recipe for scarce languages",
+    "items": [
+      {
+        "h": "Data",
+        "t": "The research suggests mixing an abundant language into training (Apple)."
+      },
+      {
+        "h": "Limit",
+        "t": "The test used Arabic and English; other languages were not evaluated."
+      },
+      {
+        "h": "Portuguese",
+        "t": "The study did not test Portuguese, according to Apple's material."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Apple says mixing languages in training beats fine-tuning for languages with little data.",
+    "body": [
+      "According to Apple Machine Learning, the study compared two pre-training strategies using Arabic as the low-resource language and English as the auxiliary. It covered four model sizes, from 150 million to 1.43 billion parameters, across about 1,000 training runs.",
+      "The company says language mixing beat hyperparameter tuning on validation loss and on downstream task accuracy, and that the gap grows with model size. The study tested only Arabic and English, so the same cannot be said for other languages."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#apple",
+      "#languagemodels",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Apple research finding that mixing languages beats fine-tuning",
+    "Slide 2: Apple studies training models for low-data languages such as Arabic",
+    "Slide 3: two techniques compared: weight decay tuning and language mixing",
+    "Slide 4: mixing beat tuning; four model sizes tested",
+    "Slide 5: the study used Arabic and English and did not test Portuguese",
+    "Slide 6: source for the story on the Apple research: Apple Machine Learning"
+  ]
+}

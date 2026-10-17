@@ -1,0 +1,11 @@
+Apple says mixing languages in training beats fine-tuning for languages with little data.
+
+According to Apple Machine Learning, the study compared two pre-training strategies using Arabic as the low-resource language and English as the auxiliary. It covered four model sizes, from 150 million to 1.43 billion parameters, across about 1,000 training runs.
+
+The company says language mixing beat hyperparameter tuning on validation loss and on downstream task accuracy, and that the gap grows with model size. The study tested only Arabic and English, so the same cannot be said for other languages.
+
+Save it for later and send it to someone following AI.
+
+Full story: link in bio.
+
+#cortexplor #apple #languagemodels #artificialintelligence

@@ -1,0 +1,100 @@
+{
+  "slug": "apple-pesquisa-mistura-idiomas-treino-ia",
+  "lang": "pt",
+  "date": "17 out 2026",
+  "no": 55,
+  "category": "Modelos",
+  "kicker": "Modelos · Apple",
+  "headline": "Apple: misturar idiomas supera ajuste fino",
+  "headline_hl": "misturar idiomas",
+  "dek": "Estudo testou quatro tamanhos de modelo e cerca de mil treinamentos, usando o árabe como idioma de baixo recurso.",
+  "image": {
+    "path": "assets/img/apple-pesquisa-mistura-idiomas-treino-ia-fb638919.jpg",
+    "credit": "Growtika / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Quatro<br>tamanhos",
+  "sources": [
+    "Apple Machine Learning"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Idioma rico ajuda o pobre",
+    "body": [
+      "A Apple publicou um estudo sobre como treinar modelos para idiomas com poucos dados, como o árabe (Apple Machine Learning).",
+      "Segundo a pesquisa, misturar um idioma abundante, como o inglês, supera o ajuste de hiperparâmetros."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "As duas técnicas comparadas",
+    "body": "Segundo a Apple, o estudo opôs duas estratégias de pré-treinamento:",
+    "points": [
+      {
+        "h": "Ajuste",
+        "t": "Aumentar o weight decay, uma forma de regularização (Apple)."
+      },
+      {
+        "h": "Mistura",
+        "t": "Juntar dados de um idioma auxiliar aos dados escassos do idioma-alvo (Apple)."
+      },
+      {
+        "h": "Teste",
+        "t": "De 150 milhões a 1,43 bilhão de parâmetros, treinados do zero (Apple Machine Learning)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "A diferença cresce com o modelo",
+    "body": [
+      "Segundo a Apple, a mistura venceu o ajuste na perda de validação e na precisão em tarefas.",
+      "A empresa diz que o efeito equivale a ter de duas a três vezes mais dados do idioma-alvo na perda de validação."
+    ],
+    "stat": {
+      "big": "Quatro",
+      "cap": "tamanhos de modelo testados, diz a Apple"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Receita para idiomas escassos",
+    "items": [
+      {
+        "h": "Dados",
+        "t": "A pesquisa indica misturar um idioma abundante ao treino (Apple)."
+      },
+      {
+        "h": "Limite",
+        "t": "O teste usou árabe e inglês; outros idiomas não foram avaliados no estudo."
+      },
+      {
+        "h": "Português",
+        "t": "O estudo não testou o português, segundo o material da Apple."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Apple diz que misturar idiomas no treino supera o ajuste fino para idiomas com poucos dados.",
+    "body": [
+      "Segundo a Apple Machine Learning, o estudo comparou duas estratégias de pré-treinamento usando o árabe como idioma de baixo recurso e o inglês como auxiliar. Foram quatro tamanhos de modelo, de 150 milhões a 1,43 bilhão de parâmetros, em cerca de mil treinamentos.",
+      "A empresa afirma que a mistura de idiomas superou o ajuste de hiperparâmetros na perda de validação e na precisão em tarefas, e que a diferença cresce com o tamanho do modelo. O estudo testou apenas árabe e inglês, então não dá para dizer o mesmo do português."
+    ],
+    "cta_variant": "A",
+    "cta": "Você acha que os modelos em português ganhariam com a mesma receita?",
+    "hashtags": [
+      "#cortexplor",
+      "#apple",
+      "#modelosdelinguagem",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a pesquisa da Apple em que misturar idiomas supera o ajuste fino",
+    "Slide 2: Apple estuda treino de modelos para idiomas com poucos dados, como o árabe",
+    "Slide 3: duas técnicas comparadas: ajuste de weight decay e mistura de idiomas",
+    "Slide 4: mistura venceu o ajuste; quatro tamanhos de modelo testados",
+    "Slide 5: o estudo usou árabe e inglês e não testou o português",
+    "Slide 6: fonte da matéria sobre a pesquisa da Apple: Apple Machine Learning"
+  ]
+}
