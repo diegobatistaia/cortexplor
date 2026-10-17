@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:45:41+00:00",
+  "generated_at": "2026-10-17T14:43:19+00:00",
   "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
   "already_written_today": 2,
@@ -127,42 +127,6 @@
       ]
     },
     {
-      "story_id": "da2313aaddf2851c",
-      "title": "Now You Can Invite Anyone to a WhatsApp Call",
-      "summary": "You can now invite anyone to a WhatsApp call, even if they don’t have a Whatsapp account, so you can connect with people without worrying what apps they have. The post Now You Can Invite Anyone to a WhatsApp Call appeared first on Meta Newsroom .",
-      "owners": [
-        "meta",
-        "yahoo"
-      ],
-      "primary_owners": [
-        "meta"
-      ],
-      "fingerprints": [
-        "634eb3c874e54aab",
-        "3799d463233f8997"
-      ],
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "owner": "meta",
-          "url": "https://about.fb.com/news/2026/10/introducing-whatsapp-guest-calling/",
-          "title": "Now You Can Invite Anyone to a WhatsApp Call",
-          "published_at": "2026-10-14T14:24:37+00:00",
-          "kind": "primary",
-          "text": "Today we’re making WhatsApp calling more open than ever. With guest calling, you can now invite anyone to join a WhatsApp call — even if they don’t have a WhatsApp account. That means free, end-to-end encrypted calls for everyone with no time limits, so there are no abrupt cutoffs, scrambling to restart the call, or waiting for everyone to rejoin. Anyone joining as a guest always needs the call host’s approval. Guests will enter a waiting room until the host lets them in and guests can be removed from the call at any time. Guests can’t see other participants’ phone numbers, send messages, or add anyone else directly to the call. To get started, navigate to the Calls tab in WhatsApp, select the “+” icon, create a call link, and send it to the people you want to talk to — colleagues, classmates, or tutor — without having to worry about what apps they have. Guests can open the link in their computer browser, type in their name, and join 1:1 and group calls with up to 32 people once admitted by the host. Only people with a WhatsApp account can create a call link. Guests can use the same essential in-call features like sharing their computer screen to collaborate and review materials, reacting with a thumbs up or heart emoji, or raising their hand to jump in. Later this year we’ll be rolling out new calendar integrations so you can create a WhatsApp call right from your Google or Outlook calendar. Simply install the WhatsApp plugin, connect your account, and add a WhatsApp call link to your invite. Everyone you invite can join with or without a WhatsApp account. Guest calling and calendar integrations are the latest in a series of calling updates we’ve made this year. We believe WhatsApp calling should always work wherever you are and with whoever you need, with the privacy you can count on."
-        },
-        {
-          "name": "Engadget",
-          "owner": "yahoo",
-          "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/",
-          "title": "ChatGPT can now look at your Chrome tabs to do tasks for you",
-          "published_at": "2026-10-16T10:06:15+00:00",
-          "kind": "press",
-          "text": "OpenAI has updated its ChatGPT extension to be able to do more browser-based tasks. OpenAI has updated its ChatGPT extension for Chrome , giving it the power to look at your tabs so it can come up with more personalized and useful answers to your queries. The company used to have a browser of its own, but it retired the product on August 9. It did, however, roll out upgrades to the Chrome extension that made ChatGPT a more viable alternative to Gemini in the browser. With these latest updates, ChatGPT can now do even more tasks inside Chrome. If you're in ChatGPT Chat, you can ask the AI assistant to take a look at your open tabs on Chrome to conjure answers that would personally be useful. You can, for instance, ask it to compare couches opened on three different tabs by their dimensions, prices, delivery time and return policy. Meanwhile, if you're using ChatGPT Work, OpenAI's agent designed for complex multi-step tasks, you can ask the assistant to send messages, fill out forms, organize tabs and fill out forms for you. You can ask ChatGPT to fill out a form for your new dentist and then add your schedule to the calendar, for instance. Another example is to get the chatbot to analyze several contractors' terms open in multiple tabs and then draft an email to the provider that fits your needs the most. In addition, ChatGPT in Chrome's sidebar now has access to your whole history, so you can talk to it and give it tasks without having to tab away from what you were doing. You can get the ChatGPT extension, no matter what plan you have. OpenAI says that aside from Chrome, the extension is also compatible with other Chromium-based browsers, including Microsoft Edge, Brave and Opera. Next up: using ChatGPT right within a Chrome tab got a major upgrade – the full power of ChatGPT is now in your browser. Your entire ChatGPT history is right there, and you can ask question in Chat or get things done in Work – side by side while you're on a site. pic.twitter.com/ABiwzLvNnD"
-        }
-      ]
-    },
-    {
       "story_id": "7ac6d0f17e4fe7fd",
       "title": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs",
       "summary": "Apple and Meta, whose leaders have spent years trading barbs over privacy and the future of computing, are joining forces to bring one of America's most powerful open-weight AI models to Apple's high-end Macs. Why it matters: The collaboration marks a striking detente between two longtime Silicon Valley rivals, underscoring how the AI race is reshaping relationships across the technology...",
@@ -193,6 +157,31 @@
           "published_at": "2026-10-16T22:08:00+00:00",
           "kind": "press",
           "text": "A Meta liberou os pesos do Muse Spark Open , modelo de inteligência artificial focado em programação e tarefas autônomas executadas por agentes de IA. A novidade está disponível para download e acesso por API, Os desenvolvedores interessados podem executar o sistema localmente com dois computadores Mac Studio equipados com chips Apple M5 Ultra. O Muse Spark Open tem 816 bilhões de parâmetros , valores numéricos que ajudam a IA a identificar padrões e gerar respostas. Desse total, 42 bilhões são ativados durante o processamento de cada tarefa. O modelo também tem uma janela de contexto de 1 milhão de tokens , que define a quantidade de informações que consegue considerar em uma interação. A arquitetura multimodal foi desenvolvida para lidar com tarefas complexas de engenharia de software, raciocínio em várias etapas e fluxos de trabalho prolongados. A execução local em Macs utiliza a biblioteca MLX e a memória unificada dos chips M5 Ultra. Cada Mac Studio pode ter até 512 GB de memória compartilhada entre o processador e a GPU. Como o Muse Spark Open precisa de cerca de 1 TB de memória para carregar todos os seus parâmetros, são necessários dois computadores trabalhando em conjunto . Nessa configuração, as máquinas somam até 1 TB de memória e alcançam uma largura de banda de 1,2 TB/s. Os pesos do modelo também estão disponíveis para download em plataformas , como Hugging Face, Amazon SageMaker AI, Google Cloud Model Garden e Microsoft Foundry Models. A Meta demonstrou o modelo em tarefas autônomas com o Muse Code , ferramenta de programação baseada no Muse Spark Open. Em um dos testes, o sistema modificou o aplicativo de código aberto Ice Cubes, cliente da rede social Mastodon para iOS, com correções de bugs, criação de recursos e compilação completa do projeto. Em outra demonstração, o modelo controlou o DaVinci Resolve para analisar vídeos quadro a quadro , selecionar os melhores trechos e ajustar o enquadramento para o formato vertical. Os exemplos mostram aplicações do sistema em atividades que envolvem diferentes etapas de execução, da análise inicial à conclusão da tarefa. O modelo também é compatível com ferramentas de inferência, como SGLang, vLLM, TensorRT-LLM, Hugging Face Transformers, llama.cpp e Unsloth, além de oferecer otimizações para hardware da AMD, Apple, Intel e NVIDIA. Além disso, a licença Muse Model License estabelece condições específicas de uso comercial e oferece acesso gratuito para a maioria dos desenvolvedores. Para personalizar o modelo, é possível utilizar PyTorch com TorchTitan, enquanto a execução em Macs com Apple Silicon depende da biblioteca MLX. A Meta afirma que o Muse Spark Open passou por um processo de pós-treinamento com foco em segurança e foi avaliado segundo os critérios do Meta Superintelligence Scaling Framework antes da publicação dos pesos. Se você gostou do conteúdo, talvez também se interesse por conferir “ Por que a China está dando de graça suas IAs mais avançadas? ”."
+        }
+      ]
+    },
+    {
+      "story_id": "6cd6022d53671e0c",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at […]",
+      "owners": [
+        "nvidia"
+      ],
+      "primary_owners": [
+        "nvidia"
+      ],
+      "fingerprints": [
+        "9c679f3096ea2503"
+      ],
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "owner": "nvidia",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+          "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+          "published_at": "2026-10-12T15:00:25+00:00",
+          "kind": "primary",
+          "text": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at creating a common foundation for next-generation AI infrastructure. NVIDIA contributed key NVIDIA Vera Rubin rack and compute tray designs to OCP through the open NVIDIA MGX architecture, giving system builders a common foundation for developing next-generation AI factory infrastructure. Together, these efforts span the AI factory itself, the utility grid that powers it and the rack-scale architecture at the heart of modern accelerated computing. At the OCP event, NVIDIA and partners made a handful of announcements: Before a packed audience, Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, discussed how open infrastructure is becoming a critical ingredient for scaling AI factories worldwide. The news at OCP spotlights how NVIDIA’s extreme codesign combined with open standards is accelerating deployment, improving power efficiency and driving tokens-per-watt performance. NVIDIA joined industry leaders in contributing to the third-generation MGX AI data center reference design through OCP’s Open DC Initiative. Combined with open liquid-cooling technologies such as MQD and MQDB, the effort helps turn proven AI factory designs into industry standards that others can adopt, manufacture and scale. For NVIDIA Vera Rubin AI factories, the updated MGX 1.2 specification extends the open architecture for AI factories with rack-scale blind-mate liquid cooling, interoperable rack-scale interconnect infrastructure and a liquid-cooled 5,000A busbar designed for higher-power AI systems. It also adds native 19-inch equipment support and higher-density rack designs. MGX 1.2 further expands modularity with configurable I/O bays, fanless liquid-cooled compute trays, standardized power and cooling interfaces, and a common infrastructure that helps ecosystem partners build interoperable accelerated computing platforms. It improves assembly, test and service times to streamline manufacturing and field service to enable faster and more efficient infrastructure buildout. The architecture supports rack deployments up to 250kW while simplifying serviceability, deployment and infrastructure reuse. The Vera CPU rack design specification extends the NVIDIA MGX open architecture beyond accelerated computing, providing a purpose-built platform for the growing agentic AI era. While Vera Rubin NVL72 serves as the foundation for large-scale training and inference, the NVIDIA Vera CPU rack is designed to support tool calling, orchestration and sandboxed execution, helping AI agents interact with applications, data and services in real time. Built on the third-generation NVIDIA MGX rack architecture, the Vera CPU rack shares the same rack-scale design principles that unite compute, networking, power and cooling into a common modular platform. This approach enables partners to deploy specialized infrastructure while benefiting from a shared ecosystem, simplified integration and a consistent foundation for next-generation AI factories. NVIDIA DSX AI factory platform applies extreme codesign to unify computing, networking, power, cooling, facilities and software, helping AI factories operate as a single optimized system, maximizing AI output within available infrastructure constraints. At the center of this unified system is DSX OS, the open operating layer that turns the DSX architecture into coordinated, repeatable operations at scale. At OCP, NVIDIA expanded DSX OS with open source components for configuring networks, validating clusters, managing racks and provisioning bare metal: Developed from NVIDIA’s experience running NVIDIA DGX Cloud, these open source components enable cloud providers and software partners to integrate AI factory capabilities directly into their multi-tenant platforms. Developers can visit the DSX AI Factory Github page to explore and contribute to both the new and existing open source software components from NVIDIA DSX AI Factory platform. For AI infrastructure to scale globally, it needs more than advanced hardware — it needs a common foundation that the entire industry can build on. At OCP, NVIDIA joined AMD, Google and Meta t o publish a new open specification that establishes that foundation. The Open Data Center Specification v0.7 defines a unified blueprint for next-generation AI factory facility design — from power architecture to cooling infrastructure to physical layout. The OCP Grid Resilience Specification , published by Google , Meta, Microsoft and NVIDIA, establishes how large-scale AI infrastructure should behave during utility grid disturbances: staying connected, responding automatically and restoring to near-full load within less than two seconds. With these standards now open, manufacturers around the world have a common target to build for. Equipment makers, colocation providers and data center operators can begin designing, fabricating and delivering the infrastructure layer that powers AI factories under construction globally — without waiting for proprietary specifications from individual customers. Being NVIDIA DSX reference design -compatible, these specifications provide a validated, deployable implementation of both specs, from facility layout and power architecture to the software that monitors and responds to grid signals in real time. For operators building Vera Rubin AI factories, there’s now a straight line from open community standard to a running system. As AI factories grow larger and more powerful, one challenge looms over them all: delivering enough power to the accelerated computing systems driving the next generation of AI. At OCP, Visionbay unveiled plans for K"
         }
       ]
     }
