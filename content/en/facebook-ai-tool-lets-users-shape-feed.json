@@ -7,7 +7,12 @@
   "meta_description": "Meta updates the Facebook algorithm: users can now type, in their own words, exactly what they want to see more or less of in Feed and Reels, in real time.",
   "keyword": "Facebook algorithm",
   "category": "aplicacoes",
-  "tags": ["ai", "meta", "facebook", "applications"],
+  "tags": [
+    "ai",
+    "meta",
+    "facebook",
+    "applications"
+  ],
   "body": [
     {
       "type": "p",
@@ -78,7 +83,13 @@
   ],
   "image": {
     "query": "person scrolling social media feed on smartphone",
-    "alt": "Person scrolling a social media app feed on a smartphone"
+    "alt": "Person scrolling a social media app feed on a smartphone",
+    "path": "/assets/img/facebook-ai-tool-lets-users-shape-feed-0cc5d013.jpg",
+    "credit": "Gilles Lambert / Unsplash",
+    "author": "Gilles Lambert",
+    "author_url": "https://unsplash.com/@gilleslambert?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silhouette-photo-of-person-holding-smartphone-pb_lF8VWaPU"
   },
   "sources": [
     {
@@ -89,5 +100,7 @@
     }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-18T15:47:26+00:00",
+  "updated_at": "2026-10-18T15:47:26+00:00"
 }

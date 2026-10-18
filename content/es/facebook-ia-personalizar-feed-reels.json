@@ -7,7 +7,12 @@
   "meta_description": "Meta actualiza el algoritmo de Facebook: el usuario ya puede escribir, con sus propias palabras, qué quiere ver en el Feed y los Reels, en tiempo real.",
   "keyword": "algoritmo de Facebook",
   "category": "aplicacoes",
-  "tags": ["ia", "meta", "facebook", "aplicaciones"],
+  "tags": [
+    "ia",
+    "meta",
+    "facebook",
+    "aplicaciones"
+  ],
   "body": [
     {
       "type": "p",
@@ -68,7 +73,13 @@
   ],
   "image": {
     "query": "person scrolling social media feed on smartphone",
-    "alt": "Persona desplazando el feed de una red social en el celular"
+    "alt": "Persona desplazando el feed de una red social en el celular",
+    "path": "/assets/img/facebook-ia-personalizar-feed-reels-0cc5d013.jpg",
+    "credit": "Gilles Lambert / Unsplash",
+    "author": "Gilles Lambert",
+    "author_url": "https://unsplash.com/@gilleslambert?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silhouette-photo-of-person-holding-smartphone-pb_lF8VWaPU"
   },
   "sources": [
     {
@@ -79,5 +90,7 @@
     }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-18T15:47:26+00:00",
+  "updated_at": "2026-10-18T15:47:26+00:00"
 }
