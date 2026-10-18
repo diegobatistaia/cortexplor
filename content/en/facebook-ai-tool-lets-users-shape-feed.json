@@ -1,0 +1,93 @@
+{
+  "lang": "en",
+  "slug": "facebook-ai-tool-lets-users-shape-feed",
+  "story_id": "be5be223e39fb016",
+  "title": "Facebook now lets users type what they want to see in their feed",
+  "dek": "Meta's new tool accepts free text to adjust Facebook's Feed and Reels recommendations within the same session.",
+  "meta_description": "Meta updates the Facebook algorithm: users can now type, in their own words, exactly what they want to see more or less of in Feed and Reels, in real time.",
+  "keyword": "Facebook algorithm",
+  "category": "aplicacoes",
+  "tags": ["ai", "meta", "facebook", "applications"],
+  "body": [
+    {
+      "type": "p",
+      "text": "Facebook is letting users type, in their own words, what they want to see in Feed and Reels. The new tool, called \"Your algorithm,\" sits in the three-dot menu on every post, according to a Meta announcement published on October 13.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta frames the change as putting the user in control of the experience. Until now, Facebook's ranking systems inferred interests from indirect behavioral signals: likes, comments and watch time, among thousands of other data points collected while people use the app, the company says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "With the new tool, users can also write directly what they want to see more or less of, and recommendations shift within the same session, according to the announcement. Meta calls the result \"an algorithm you can actually talk to.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In the \"Your algorithm\" space, reachable from the three-dot menu, which Meta updated to surface the new customization tools on every post, people add and manage the topics they want to follow in Feed and Reels. Meta describes it as a dedicated space to list interests, instead of relying only on past behavior to decide what shows up.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company also changed what happens after someone taps \"Interested\" or \"Not interested.\" Instead of just logging the tap, Facebook may now ask a follow-up question about what exactly a person liked or disliked about a post, and the user answers in their own words rather than with another button, Meta says, calling it a more direct, conversational way to shape the experience.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Meta, the shift relies on large language models (LLMs, AI systems trained to understand and generate text) to interpret what people write about their own interests. Unlike simple keyword matching, these models can pick up intent and context from natural language, which lets the company combine that freeform text with the engagement signals it already collected, such as likes, comments and watch history.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta describes combining those two kinds of data — text the user writes and behavior already being tracked — as a real evolution in how content ranking works. The company says the algorithms behind Feed and Reels should keep getting more relevant and responsive over time as they take in more of this input.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta frames the end result as recommendations that are \"more relevant, more nuanced, and more you,\" according to the announcement. That framing matters for an international audience watching how recommendation engines evolve: Meta is one of the largest social platforms to move part of its ranking logic from purely inferred signals to something closer to a direct instruction channel, where the person typing the request can see the system respond before the session ends.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company did not publish technical details on how the free-text input is weighted against existing engagement signals, nor how long a written preference persists before the system reverts to behavioral inference alone. Those specifics are not in Meta's announcement.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: any Facebook user, through the three-dot menu on posts in Feed and Reels, according to Meta.",
+        "Since when: as of Meta's announcement, published on October 13, 2026 — the company describes the rollout as ongoing.",
+        "Cost: free, like Facebook's other recommendation controls.",
+        "How it works: users open \"Your algorithm\" from the three-dot menu to list topics of interest, or answer follow-up questions in free text after tapping \"Interested\" or \"Not interested\" on a post.",
+        "What changes: Facebook previously inferred interests only from indirect engagement signals; users can now also write in free text what they want to see more or less of, with the recommendation updating within the same session, according to the company."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Meta did not specify which countries already have access to the tool, or whether a wider rollout timeline exists beyond what is in the October 13 announcement.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "person scrolling social media feed on smartphone",
+    "alt": "Person scrolling a social media app feed on a smartphone"
+  },
+  "sources": [
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
+      "title": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
