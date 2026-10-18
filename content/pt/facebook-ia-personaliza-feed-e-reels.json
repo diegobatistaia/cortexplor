@@ -1,0 +1,83 @@
+{
+  "lang": "pt",
+  "slug": "facebook-ia-personaliza-feed-e-reels",
+  "story_id": "be5be223e39fb016",
+  "title": "Facebook deixa usuário escrever o que quer ver no feed e nos Reels",
+  "dek": "Nova ferramenta da Meta aceita texto livre para ajustar, ainda na mesma sessão, o que aparece no Feed e nos Reels do Facebook.",
+  "meta_description": "A Meta atualiza o algoritmo do Facebook: agora o usuário pode escrever, em texto livre, o que quer ver mais ou menos no Feed e nos Reels, em tempo real.",
+  "keyword": "algoritmo do Facebook",
+  "category": "aplicacoes",
+  "tags": ["ia", "meta", "facebook", "aplicacoes"],
+  "body": [
+    {
+      "type": "p",
+      "text": "O Facebook vai deixar os usuários dizerem, em texto livre, o que querem ver no Feed e nos Reels. A nova ferramenta, batizada de \"Seu algoritmo\", fica disponível no menu de três pontos de qualquer publicação, segundo comunicado da Meta publicado em 13 de outubro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa descreve a mudança como uma forma de colocar o usuário no controle da própria experiência. Até agora, o sistema de recomendação do Facebook calculava o que aparece na tela a partir de sinais indiretos de comportamento: curtidas, comentários e o tempo que a pessoa passa assistindo a um vídeo, entre milhares de outros dados coletados durante o uso do aplicativo, segundo a Meta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Com a nova ferramenta, o usuário também pode escrever diretamente o que quer ver mais ou menos, e a recomendação muda ainda dentro da mesma sessão de uso, de acordo com o comunicado. A Meta chama o resultado de \"um algoritmo com quem se pode realmente conversar\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No espaço \"Seu algoritmo\", acessível pelo menu de três pontos — atualizado para abrir as novas ferramentas de personalização em qualquer publicação —, a pessoa adiciona e gerencia os temas que quer acompanhar no Feed e nos Reels. A Meta descreve o recurso como um lugar dedicado para listar interesses, em vez de depender só do histórico de comportamento para decidir o que entra na tela.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa também mudou o que acontece depois de um clique em \"Interessado\" ou \"Não interessado\". Em vez de registrar apenas o clique, o Facebook pode agora fazer perguntas de acompanhamento sobre o que exatamente chamou atenção, de forma positiva ou negativa, na publicação. O usuário responde com as próprias palavras, não só com um botão, segundo a Meta — uma forma, diz a empresa, mais direta e conversacional de moldar a experiência.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Meta, a mudança depende de modelos de linguagem (LLMs, sigla para large language models, sistemas de IA treinados para entender e gerar texto) para interpretar o que a pessoa escreve sobre os próprios interesses. Esses modelos conseguem captar intenção e contexto a partir de linguagem natural, não apenas identificar palavras-chave soltas, o que permite à empresa combinar o texto livre digitado pelo usuário com os sinais de engajamento que já coletava antes, como curtidas, comentários e histórico de visualização.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Meta descreve a combinação desses dois tipos de dado — o texto que o usuário escreve e o comportamento que já era rastreado — como uma evolução na forma como o ranqueamento de conteúdo funciona. A empresa afirma que os algoritmos do Feed e dos Reels devem continuar ficando mais relevantes e responsivos com o tempo, conforme incorporam esse tipo de entrada.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: qualquer usuário do Facebook, pelo menu de três pontos em publicações do Feed e dos Reels, segundo a Meta.",
+        "Desde quando: a partir do comunicado da Meta, publicado em 13 de outubro de 2026 — a empresa descreve o lançamento como uma liberação em andamento.",
+        "Quanto custa: a ferramenta é gratuita, como os demais ajustes de recomendação do Facebook.",
+        "Como funciona: o usuário acessa \"Seu algoritmo\" pelo menu de três pontos para listar temas de interesse, ou responde com texto livre às perguntas de acompanhamento depois de marcar \"Interessado\" ou \"Não interessado\" em uma publicação.",
+        "O que muda: antes, a Meta inferia interesses só a partir de sinais indiretos de engajamento; agora o usuário também pode escrever, em texto livre, o que quer ver mais ou menos, com resposta dentro da mesma sessão, segundo a empresa."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A Meta não detalhou em quais países o recurso já está disponível, nem se existe um cronograma de expansão além do que consta no comunicado de 13 de outubro.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "person scrolling social media feed on smartphone",
+    "alt": "Pessoa rolando o feed de um aplicativo de redes sociais no celular"
+  },
+  "sources": [
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
+      "title": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
