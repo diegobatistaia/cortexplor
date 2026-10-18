@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T20:43:54+00:00",
-  "posts_per_language_today": 3,
+  "generated_at": "2026-10-18T22:31:03+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 1,
+  "already_written_today": 2,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,53 +80,6 @@
   ],
   "stories": [
     {
-      "story_id": "4c5c028e9bdef740",
-      "title": "Investing in the public benefit",
-      "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-      "owners": [
-        "anthropic",
-        "axel-springer",
-        "techcrunch"
-      ],
-      "primary_owners": [
-        "anthropic"
-      ],
-      "fingerprints": [
-        "4c6c987b65345788",
-        "d3ff5021c7fe1c3b",
-        "cef1d05c75250eda"
-      ],
-      "sources": [
-        {
-          "name": "Anthropic",
-          "owner": "anthropic",
-          "url": "https://www.anthropic.com/news/public-benefit-fund",
-          "title": "Investing in the public benefit",
-          "published_at": "2026-10-18T16:49:35+00:00",
-          "kind": "primary",
-          "text": "Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline. As a public benefit corporation, most of our work in pursuit of our mission takes place inside the company: research relevant to AI safety and interpretability; applied biomedical research; discounts on Claude for nonprofits and scientific institutions. These activities have both a public benefit component and for-profit value, so we house them directly in the company. The Anthropic Public Benefit Fund will have increased flexibility and scale, enabling us to pursue our mission in new ways: for example, we might explore large donations to traditional nonprofits or direct distributions to specific populations. One example is labor market impacts. AI may generate enormous economic value, but it could also cause instability for many workers. Anthropic has already committed $200 million to studying and addressing this issue, but given the pace of AI progress, bolder approaches may be needed. The Fund will have the versatility to pursue them. We’re establishing the Anthropic Public Benefit Fund as a wholly-owned LLC—rather than a 501(c)(3) or other format—to give adjustability between different forms of giving. None of the Anthropic equity held by the LLC will be used for lobbying or political giving, in the US or abroad. Because of the way the Fund is structured, the more Anthropic grows, the larger the share of the company that can be dedicated expressly to the public good. It is common practice for tech companies to offer escalating compensation awards to their executives. We are instead directing that equity to the public benefit. This builds on commitments our co-founders and employees have already made. When Anthropic was founded, our co-founders pledged to donate 80% of their equity holdings, and since founding we have also operated an equity donation match program that allows employees to pledge equity which Anthropic matches. Approximately half of our employees participate in this program. When combined with today’s announcement, roughly 20% of Anthropic shares will be dedicated to the public good, plus any additional percentage that could be added if the company reaches specific valuation milestones. In the coming months, we will share more about the Anthropic Public Benefit Fund’s structure and governance, including the valuation milestones that may add to its stake. We will also report on our progress to date against our mission in an upcoming public benefit report. To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face. Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms. Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption."
-        },
-        {
-          "name": "Business Insider",
-          "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/anthropic-public-benefit-fund-2026-10",
-          "title": "Anthropic commits billions to a 'public benefit fund'",
-          "published_at": "2026-10-18T18:46:01+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-          "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-          "published_at": "2026-10-18T20:37:40+00:00",
-          "kind": "press",
-          "text": "Anthropic announced today that it’s creating a “public benefit fund” that will give the company “increased flexibility and scale” to support projects for societal good. Anthropic said that it will commit 5% of its shares to the fund — structured as a wholly-owned entity within the company — with the option to contribute an additional 2% for every 50% increase in Anthropic’s value. And it offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.” There’s also the impact that AI might have on the job market, which Anthropic has already committed $200 million to study . But the company said, “Given the pace of AI progress, bolder approaches may be needed. The Fund will have the versatility to pursue them.” Anthropic’s announcement comes as the AI industry faces increasingly negative public sentiment, which CEO Dario Amodei has described as “fundamentally a crisis of trust.” If you’re wondering who will actually decide which public benefits are worth funding, Anthropic said it will share more information about structure and governance in the coming months. Get 50% off a second pass Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner. Save 50% off a second pass. Meet scaling and investment leaders, ask questions, find solutions, and more. Last day to save Oct. 16 Subscribe for the industry’s biggest tech news"
-        }
-      ]
-    },
-    {
       "story_id": "1bcd0acf25d8dbe8",
       "title": "How Block is building AI-powered security with OpenAI technology",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
@@ -160,56 +113,6 @@
           "published_at": "2026-10-14T13:53:33+00:00",
           "kind": "primary",
           "text": "Critical cloud exposures pile up faster than security teams can close them. Cloud-native application protection platforms (CNAPP), cloud providers, and posture scanners generate more findings than any team can triage, and risk accumulates in the gap between detected and fixed. Most findings sit untouched, not because they’re hard to fix. Someone must investigate context, identify the owner, confirm the fix won’t break production, and then do it at a volume that outpaces headcount. In this post, we share how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock , to close that gap. Tami autonomously investigates findings ingested from CNAPP and cloud-native sources and assesses whether remediation is safe. It then generates and orchestrates the fix with guardrails and governance wherever a change touches a customer’s cloud. The approach drove an over 90 percent reduction in critical cloud exposure in 90 days with zero production issues. Tamnoon is an AI-powered cloud security remediation platform that works alongside CNAPPs. Its AI assistant, Tami, helps human cloud security experts investigate, prioritize, and safely remediate misconfigurations and issues across customer environments in AWS, Azure, Google Cloud, and other cloud providers. Tamnoon integrates with the CNAPPs and cloud-native tools teams already use and turns their findings into validated, production-safe fixes. Most of the work including investigation, prioritization, and remediation planning happens before anything touches a live environment, which is what makes automated remediation trustworthy at scale. A security engineer can spend hours investigating a single finding. Often, it traces back to the same root cause as dozens of other alerts. Tamnoon’s solution addresses the full pipeline from finding ingestion to validated fix. The platform treats these challenges as interconnected rather than isolated problems. Tamnoon takes you from initial finding to executing the fix. The platform ingests findings from CNAPP, Cloud Security Posture Management (CSPM) providers, and other security tools and normalizes them into a unified schema. It then enriches them with asset and exposure context and prioritizes them. From there, the agentic layer takes over using a set of specialized AI agents, each running in an event-driven, serverless architecture on AWS, so every stage scales independently and fails safely. The platform delegates work to four specialized agents, each responsible for a distinct phase of the remediation pipeline: When the Tamnoon team set out to build Tami, the choice of foundation model (FM) platform was going to shape everything that followed. Tamnoon’s remediation agents don’t all do the same kind of work. Some perform deep investigative reasoning to understand the root cause of a security finding. Others handle high-volume validation, checking proposed fixes quickly and cheaply. Still others review generated code, balancing quality against cost on every task. Matching each of these jobs to the right model, without stitching together a different integration for each one, was a core requirement. That requirement is what made Amazon Bedrock the natural fit. Through a single API, each agent can call the foundation model best suited to its task. The most capable models handle the hardest reasoning. More efficient models take on the repetitive, high-throughput work. Review-focused models optimize the trade-off between output quality and cost. Because it’s one integration rather than many, models can be swapped or upgraded as the landscape evolves, without re-plumbing the architecture each time. Operational overhead at scale was another factor in the decision. As request volume grew, Tamnoon wanted to avoid building and maintaining its own logic to distribute traffic across regional capacity. Amazon Bedrock Cross-Region inference handles this automatically. It automatically routes inference requests to the optimal AWS Region within a defined geographic boundary, maintaining throughput without requiring any custom routing code to operate. Security was the final consideration, and for a cloud security company it was non-negotiable. With Bedrock, inference runs inside Tamnoon’s own AWS environment under AWS Identity and Access Management (IAM)-scoped permissions. Sensitive customer data never leaves the trust boundary. That gave the team confidence that the platform underpinning Tami met the same standard Tamnoon holds its own service to. Tamnoon sits downstream of the detection tools security teams already run. CNAPPs like Wiz, CrowdStrike, Palo Alto Cortex, Upwind, SentinelOne, Orca, and Cyera along with cloud-native services like AWS Security Hub and Amazon GuardDuty are the source of truth for what’s wrong in the environment. Tamnoon connects through API-based integrations and normalizes findings into a common format, so a misconfiguration looks the same whether it came from Wiz or GuardDuty. The detection tools remain the foundation. Tamnoon delivers the end-to-end remediation that follows. For every finding it works, Tami assigns a Remediation Confidence Indicator (RCI) of SAFE, RISKY, or AWAITING DATA. That rating tells teams what can be automated and what needs human review first. Tamnoon runs entirely within its own AWS accounts, isolated per environment. Users access the platform through a single secure entry point built on Amazon API Gateway, with encryption managed by AWS Certificate Manager and sign-in handled by Amazon Cognito. Everything behind that entry point runs in private networks across multiple Availability Zones, so the core platform is never directly exposed to the internet. Inside that environment, Tamnoon combines two kinds of compute. Amazon Elastic Kubernetes Service (Amazon EKS) runs the always-on services behind the dashboard, while AWS Lambda powers the event-driven work of collecting findings, analyzing them, and executing remediations. A set of AWS messaging and"
-        }
-      ]
-    },
-    {
-      "story_id": "3a80f341673e735a",
-      "title": "How to Use MiMo-V2.6 for Computer Vision with Roboflow",
-      "summary": "Try MiMo-V2.6 Flash in Roboflow Playground for OCR, counting, and visual reasoning, then pair it with RF-DETR in Workflows for defect inspection.",
-      "owners": [
-        "roboflow"
-      ],
-      "primary_owners": [
-        "roboflow"
-      ],
-      "fingerprints": [
-        "a7023e045e501fef"
-      ],
-      "sources": [
-        {
-          "name": "Roboflow",
-          "owner": "roboflow",
-          "url": "https://roboflow.com/blog/how-to-use-mimo-v2-6",
-          "title": "How to Use MiMo-V2.6 for Computer Vision with Roboflow",
-          "published_at": "2026-10-13T20:51:00+00:00",
-          "kind": "primary",
-          "text": "MiMo-V2.6 Flash does well on OCR, counting, and visual reasoning. You can test it in Roboflow Playground, then add it to a Workflow with the OpenRouter block. Roboflow Playground supports more than 130 vision models across 25 vision tasks, including MiMo-V2.6 Flash. In this article, I use Playground to test MiMo on several image-based tasks, then configure the same model in Roboflow Workflows . MiMo-V2.6 is Xiaomi's multimodal model family. It includes two variants: MiMo-V2.6 Pro and MiMo-V2.6 Flash . Both support text, images, video, and audio. Flash is the efficiency-focused version and is the main model tested in this article. For vision tasks, MiMo works differently from a dedicated detector. A detector is designed to return object classes and locations. MiMo can read visible text, describe image content, answer questions, and understand relationships in a scene. Choose MiMo-V2.6 Flash in Roboflow Playground and select the task you want to run. For an OCR test, select OCR and upload the image. The model processes the image directly and returns the detected text. Playground lets you run the same task with different models and compare their results. The tests below focus on MiMo-V2.6 Flash. For questions that do not fit one of the available options, switch to Open Prompt. This mode lets you upload an image and write your own instruction. I used it for the counting test and the visual reasoning test, where the model needed to answer a specific question about the scene. I started with a simple OCR test using a bottle production image. The labels use large, front-facing text, with the lot code and expiry date clearly visible. MiMo-V2.6 Flash read the label correctly, including LOT 241015 and EXP 2025-10-30. For the second test, I used an industrial carton with smaller text, angled labels, barcodes, and glare on parts of the packaging. The model still captured the main label well. It read P/N: 142-7A305 correctly, along with the serial number and lot number. It also picked up the date, pressure range, output value, and the smaller technical text near the bottom of the label. The side label was partly captured. Its angle and partial view make some of the text unclear to check reliably. For that reason, this OCR test focused on text that could actually be read from the source image. For the next test, I switched to Open Prompt and used the same bottle production image. Prompt: How many bottles are visible on the conveyor? Briefly describe the production scene. MiMo-V2.6 Flash counted seven bottles, which matches the image. It also described the scene as an automated orange juice bottling line and recognized the conveyor setup. The response noticed that one bottle was uncapped while the others had caps. The scene description included one inaccurate assumption. MiMo suggested that the uncapped bottle was still in the capping stage. Since capped bottles appear on both sides of it, the image points more toward a missed capping step. The test showed that MiMo could count the bottles correctly and understand the production scene, though its explanation of the uncapped bottle needed closer checking. For the reasoning test, I kept the same production-line image and changed the question. This time, the prompt asked MiMo to find the bottle that broke the visual pattern in the row: Prompt: Which bottle breaks the visual pattern of the row? Give its position from the left and explain the visible difference. MiMo-V2.6 Flash correctly picked the fourth bottle from the left and identified the missing white cap as the difference. To answer the prompt, the model had to spot the anomaly and match it to a specific position in the row. The response matched what was visible in the image without adding another assumption about the production process. After testing MiMo-V2.6 Flash in Playground, the next step was to try the model in Roboflow Workflows with an inspection task . Playground provides a quick way to test MiMo across the available options and see how it handles different types of visual input. Workflows let the model run as part of a reusable pipeline and connect with other processing steps. For this Workflow test, a more challenging production-line image was used with more bottles and several packaging differences. The Workflow sends the image from the Inputs block to the OpenRouter block , then returns the result through the Outputs block. In the OpenRouter settings, the model is set to xiaomi/mimo-v2.6-flash, and the task type is Open Prompt. The prompt asks MiMo to inspect each bottle for visible packaging defects and flag any issues it finds. After running the Workflow, MiMo returned its inspection through the open_router_output field. MiMo flagged two bottles, correctly identifying the sixth from the left as missing its cap and the eighth as having a damaged label. The next bottle had a crooked cap, but MiMo did not flag it in this full-image run. The next Workflow adds an object detection step before MiMo so each bottle can be checked separately. RF-DETR Nano first detects the bottles in the production image, then a Dynamic Crop block creates one crop for each detection and passes those crops to MiMo-V2.6 Flash for inspection. With the bottles cropped, MiMo receives one bottle at a time. The prompt asks it to check the cap and label, then return the result in the same format for every crop: Status: PASS/FAIL | Cap: correct/missing/crooked/uncertain | Label: normal/wrinkled/torn/peeling/uncertain MiMo correctly flagged the bottle with the missing cap and the bottle with the wrinkled label; both results matched the visible defects in the image. The other bottle crops were returned as passes. The bottle with the crooked cap was still classified as “Cap: correct” after it was cropped. MiMo missed the same defect even with a closer view. The two MiMo-V2.6 variants differ a lot in size. Flash has about 309 billion total parameters, with 15 billion active per token, while Pro has 1.02 trillion total par"
-        }
-      ]
-    },
-    {
-      "story_id": "daac5e9ecda2ac27",
-      "title": "Deep dive into Azure Maia 300 architecture",
-      "summary": "The post Deep dive into Azure Maia 300 architecture appeared first on Source .",
-      "owners": [
-        "microsoft"
-      ],
-      "primary_owners": [
-        "microsoft"
-      ],
-      "fingerprints": [
-        "a1beca24bb9ba873"
-      ],
-      "sources": [
-        {
-          "name": "Microsoft Source",
-          "owner": "microsoft",
-          "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
-          "title": "Deep dive into Azure Maia 300 architecture",
-          "published_at": "2026-10-13T22:08:00+00:00",
-          "kind": "primary",
-          "text": ""
         }
       ]
     },
