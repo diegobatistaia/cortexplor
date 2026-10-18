@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:31:03+00:00",
+  "generated_at": "2026-10-18T23:16:33+00:00",
   "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
   "already_written_today": 2,
@@ -117,31 +117,6 @@
       ]
     },
     {
-      "story_id": "9449b994715e9674",
-      "title": "Making AI more efficient, from the chip to the power grid",
-      "summary": "The post Making AI more efficient, from the chip to the power grid appeared first on Source .",
-      "owners": [
-        "microsoft"
-      ],
-      "primary_owners": [
-        "microsoft"
-      ],
-      "fingerprints": [
-        "f1fe9d752cb08f4b"
-      ],
-      "sources": [
-        {
-          "name": "Microsoft Source",
-          "owner": "microsoft",
-          "url": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
-          "title": "Making AI more efficient, from the chip to the power grid",
-          "published_at": "2026-10-13T23:08:00+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
       "story_id": "6ff5f51ec780de8e",
       "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
       "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in large speech collections so that they can be included in training data. One way to find such utterances is to transcribe the speech and detect language alternation in the text, but...",
@@ -238,6 +213,31 @@
           "published_at": "2026-10-14T00:00:00+00:00",
           "kind": "primary",
           "text": "Perplexity's SPACE binds AI agent requests to the right sandbox execution with identity checks and signed routes. When someone asks an AI agent to analyze a spreadsheet or test software, theyâre trusting it to work safely with their files and data. Agents need isolated environments where they can carry out that work without exposing other usersâ data or interfering with their workloads. As agents take on more complex tasks with greater autonomy, these environments help contain mistakes and limit the damage that unsafe or malicious code can cause. Sandboxes provide that isolation while sharing control-plane services, worker nodes, and routing infrastructure. That shared infrastructure must deliver each operation to the execution authorized to handle it. A stale route can send a valid request to another sandbox, or to an older execution of the right sandbox. SPACE , Perplexityâs secure sandbox platform, binds each operation to a selected execution and checks the destination before forwarding. For months, SPACE has handled millions of executions per day, each protected by a unique cryptographic identity, with an error rate below 0.0002% and zero dropped connections. Sandbox security also depends on getting each request to the right destination. Even a simple file read passes through shared infrastructure that must keep track of where the sandbox is running as it pauses, resumes, or moves between machines. A file read travels through several components. SPACEâs control plane resolves the sandbox to an execution and worker. The request enters through node-api , passes to the sandbox manager, sbx-manager , and crosses a Unix socket to the host bridge, spaced-host . The bridge forwards it over VSOCK, the host-to-guest socket transport, to spaced-guest inside the Firecracker microVM. Each decision relies on state that can lag behind infrastructure changes. A database may retain an old placement, a cached address may point elsewhere, or a socket path may acquire a different listener. A successful connection can still reach the wrong destination. A read could expose another userâs data; a write could modify the wrong filesystem. Snapshots add another issue. Resuming a sandbox on another worker preserves its logical identity but starts a new execution. A delayed request or surviving connection may reach its predecessor and return old state under the right sandbox name. SPACE separates the userâs environment from the runtime serving it: An execution generation distinguishes runtime incarnations. On Kubernetes, the route also includes the pod UID. Addresses locate endpoints; execution identity determines whether those endpoints may serve the operation. Suppose sandbox S runs as execution 7 on worker A, then resumes as execution 8 on worker B. A request selected for execution 8 must fail if it reaches execution 7. Checking only the sandbox ID would miss the disagreement. Each request carries signed proof of which sandbox execution may handle it and what access is allowed. The receiving component checks that proof against its own runtime identity before letting the request proceed. After caller authorization, SPACE issues a short-lived, signed capability identifying the sandbox, execution, placement, and permitted access. Public service-port capabilities also specify the allowed port and protocol. The receiving sandbox manager verifies the signature and compares the complete identity with its locally persisted runtime record. The signature establishes who authorized the selection. The comparison establishes whether that selection matches the receiver. ServicePort traffic receives a second check at the per-sandbox network gateway, netgtw , before a guest connection opens. The gateway compares the identity against trusted activation state and checks the port and protocol. Control operations proceed to bridge endpoint verification. SPACE uses Ed25519 signatures. Control-plane signing keys issue capabilities; public verification keys on workers and gateways cannot issue them. Capabilities last 120 seconds, with up to 15 seconds of expiration clock-skew allowance. A valid signature and unexpired token are still insufficient when the selected and installed identities disagree. The receiving worker can catch a routing mistake even when the request itself is authorized. It checks whether it is running the execution selected for that request and rejects the request if they differ. If a request selected for execution 8 reaches worker A, which still serves execution 7, worker A rejects it before forwarding. Once a receiver installs execution 8âs identity, it also rejects capabilities for execution 7, even before they expire. Thereâs an important boundary to this guarantee. A capability for execution 7 can still match a worker serving execution 7 until that worker learns of retirement or the capability expires. Local enforcement and bounded capability lifetime work together while updates propagate. A matching runtime record establishes the intended execution. The control bridge must also reach the processes and transport belonging to that activation, rather than a replacement that inherited the same address. The sandbox and node managers verify the host bridgeâs peer credentials and both bridge and Firecracker process identities, including start times, detecting reused IDs or changed executables Transport checks tie the VSOCK listener to the expected Firecracker process using socket ownership, guest identity, and kernel socket evidence. The bridge forwards operations only after verification and refuses transparent reconnects. Every new connection must pass the checks again. This verification covers the Firecracker control bridge on Kubernetes and directly managed hosts. ServicePort traffic uses execution and port checks at its gateway; it does not attest the identity of an arbitrary application inside the guest. Some connections stay open while a sandboxâs execution changes, so identity checks "
+        }
+      ]
+    },
+    {
+      "story_id": "63eb1220f4b0648e",
+      "title": "Bring AI to the Physical World with Roboflow Agent",
+      "summary": "Build apps that see the world, understand what’s happening, and take action. Roboflow Agent is an assistant for computer vision that takes you from idea to working solution, from choosing models to plugging the system into your business.",
+      "owners": [
+        "roboflow"
+      ],
+      "primary_owners": [
+        "roboflow"
+      ],
+      "fingerprints": [
+        "29e1a1ec147a3639"
+      ],
+      "sources": [
+        {
+          "name": "Roboflow",
+          "owner": "roboflow",
+          "url": "https://roboflow.com/blog/roboflow-agent",
+          "title": "Bring AI to the Physical World with Roboflow Agent",
+          "published_at": "2026-10-14T01:41:43+00:00",
+          "kind": "primary",
+          "text": "We're announcing Roboflow Agent , a new way to build and deploy applications that see the world, understand what's happening, and take action. Agent is an assistant designed specifically for computer vision, with access to everything you need to bring AI to the physical world. It recommends the right models for the job, designs workflows to turn those models into applications, and builds with the infrastructure you need to run them at scale. Making visual intelligence accessible to the world is our mission. Many organizations already use it to solve tough challenges, like preventing defective products from reaching consumers, speeding up the discovery of new medicines, and changing how we play and watch sports. But creating a vision app is complicated. You need to select the best models. You need a place to run those models. You need to write code that turns model predictions into something valuable. And you need everything else around the model, like alerts or custom databases. Plus, everything needs to comply with industry regulations or corporate policy. It's a lot for one person or team to get right. We built Agent so everyone can turn their ideas into apps running in the real world. Agent handles everything from start to finish. You describe what the system needs to see and do, and Agent picks the models, designs the pipeline, and gets it running wherever you need. That way, you can go from idea to solution faster and with less friction. Imagine you have a problem that requires looking at something in the physical world and making a decision. Perhaps it's a manufacturing line where a missing component might result in a safety issue for your customers. Or maybe you want to watch the line and detect when the machinery is slowing down to predict maintenance needs and avoid unexpected downtime. With Agent, you explain the problem and the ideal outcome. It designs the system, tests it to make sure everything works, and helps you run it in the cloud or on your hardware. Agent does more than recommend models and design workflows; it optimizes the performance of your system so you get a solution that is reliable, cost-effective, improves over time, and runs on enterprise-ready components. When a vision system goes into production, your IT and security teams need to know what it's built from and where it runs. Everything Agent builds uses vetted, maintained building blocks with licenses that let you use them commercially . You choose where it runs, in our cloud or on your hardware . And anyone on your team can look inside to see how it works, change a setting, or export your models and data. Production systems need more than a model. Agent can plug your vision system into industrial systems , so it triggers warning lights or stops machinery when an issue is detected. It logs events and schedules summary reports , so you can see what your vision system sees over time. It can trigger notifications, so you can react to detections in real time without having to assemble and manage those extra systems. Let's say you're building a computer vision system to analyze millions of acres of crops. You run the system on a drone or an autonomous tractor that navigates the fields and captures images of every plant. The system needs to warn your team when it spots pests or disease. Agent connects the vision system to everything else it needs. It sets up email alerts when disease is found. It stores all the images and metadata in a secure event store. It summarizes trends in crop health across areas and emails you a weekly report. Agent works with the coding agents you already use, like Claude Code, Codex, and Cursor. Once you connect them through the Roboflow MCP server , they can hand vision tasks to Agent and use dozens of Roboflow tools to build production-ready vision applications, test them in the cloud, and deploy them on our infrastructure or your hardware. For example, say you're using Cursor to build an inventory app for a warehouse. You can ask Cursor to count the pallets in each aisle from your security cameras, without leaving your editor. Cursor hands that work to Agent, which picks the models and builds the Workflow. Your app gets an API endpoint to call, so the vision system and the app around it come together in one place. Visual intelligence has the potential to solve some of the biggest challenges in the world. With Roboflow Agent, you have a computer vision expert who helps you go from idea to working solution, from selecting the right models to tuning performance to your needs and plugging the system into your business."
         }
       ]
     }
