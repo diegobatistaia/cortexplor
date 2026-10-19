@@ -1,0 +1,39 @@
+{
+  "lang": "pt",
+  "slug": "eua-proibem-deepseek-em-agencias-federais",
+  "story_id": "b49afb20e641b17d",
+  "title": "EUA proíbem uso da IA DeepSeek em sistemas de agências federais",
+  "dek": "Departamento de Segurança Interna cita risco de dados sensíveis irem para a China e também veta novas compras de produtos da empresa chinesa.",
+  "meta_description": "O Departamento de Segurança Interna dos EUA ordena a remoção da DeepSeek de sistemas de agências civis federais e proíbe novas compras, citando risco de dados.",
+  "keyword": "DeepSeek proibida EUA",
+  "category": "politica",
+  "tags": ["ia", "deepseek", "eua", "seguranca", "politica"],
+  "body": [
+    {"type": "p", "text": "O Departamento de Segurança Interna dos Estados Unidos (DHS) ordenou que agências civis federais removam produtos de inteligência artificial da chinesa DeepSeek de seus sistemas de TI. A determinação, publicada nesta segunda-feira (19/10), também proíbe que essas agências comprem novos produtos da empresa ou serviços de terceiros construídos sobre a tecnologia dela, segundo a Convergência Digital e a Olhar Digital.", "items": []},
+    {"type": "p", "text": "Segundo o DHS, os modelos da DeepSeek apresentam \"múltiplos vetores de ameaça\" — as diferentes formas pelas quais um sistema pode ser explorado para causar dano ou vazar informação. O órgão teme que o uso das ferramentas por funcionários públicos ou fornecedores resulte na transferência de dados sensíveis para a China. Também alertou que a tecnologia poderia gerar informações de inteligência sobre cidadãos americanos e sobre as próprias agências do governo, além do risco de os modelos conterem programas maliciosos ou vulnerabilidades de segurança, de acordo com a Olhar Digital.", "items": []},
+    {"type": "p", "text": "A proibição não se limita aos produtos vendidos diretamente pela DeepSeek: cobre também empresas afiliadas a ela e qualquer serviço de terceiros que use implementações dos seus modelos de IA, afirma a Olhar Digital. A base legal é a Lei de Segurança da Cadeia de Suprimentos de Aquisições Federais, de 2018, aplicada após análise do Conselho Federal de Segurança de Aquisições. O DHS não estabeleceu prazo para a retirada dos sistemas.", "items": []},
+    {"type": "h2", "text": "Monitoramento já havia começado", "items": []},
+    {"type": "p", "text": "Segundo a Olhar Digital, um memorando do DHS de julho, divulgado nesta segunda-feira junto com a nova determinação, já orientava as agências federais a monitorar o tráfego de dados que entra e sai dos sites do governo, justamente para identificar riscos ligados ao uso de tecnologia chinesa. A proibição de agora formaliza, em regra, uma preocupação que o órgão já vinha sinalizando internamente.", "items": []},
+    {"type": "p", "text": "A decisão amplia restrições que já vinham de outras frentes do governo americano. O Departamento de Comércio e a Marinha dos Estados Unidos já haviam banido o uso da DeepSeek em dispositivos oficiais, e estados como Nova York, Tennessee e Virgínia adotaram medidas parecidas, segundo a Olhar Digital. O veículo também cita um dado do material que usou na apuração: 82% dos componentes eletrônicos vendidos nos Estados Unidos foram testados na China no ano passado.", "items": []},
+    {"type": "h2", "text": "A atualização que antecedeu a proibição", "items": []},
+    {"type": "p", "text": "A medida chega dois dias depois de a DeepSeek lançar uma atualização do seu modelo de IA, batizada de V4.1-Flash-1017, segundo a Convergência Digital. A empresa diz que a nova versão conclui tarefas mais rápido, gera respostas mais curtas e avançou em raciocínio, programação, compreensão de imagens e tarefas executadas por agentes de IA — sistemas que tomam decisões e agem em várias etapas sem supervisão humana constante. O modelo já está disponível no site, no aplicativo e na plataforma para desenvolvedores da companhia.", "items": []},
+    {"type": "p", "text": "Segundo a tabela oficial citada pela Convergência Digital, o milhão de tokens gerados custa US$ 0,60 fora do horário de pico e US$ 1,20 no pico. Para tokens de entrada sem reaproveitamento de cache, os valores caem para US$ 0,15 e US$ 0,30, respectivamente.", "items": []},
+    {"type": "p", "text": "Até a publicação das informações, a Embaixada da China em Washington não havia se manifestado sobre a decisão do DHS, segundo a Olhar Digital.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quem é afetado: agências civis federais dos Estados Unidos e qualquer fornecedor que venda produtos ou serviços baseados na tecnologia da DeepSeek.",
+      "Desde quando: a determinação foi publicada em 19 de outubro de 2026, sem prazo definido para a retirada dos sistemas.",
+      "O que muda: além da remoção obrigatória, fica proibida a compra de novos produtos ou serviços ligados à DeepSeek por essas agências.",
+      "Contexto: a proibição federal segue bloqueios já aplicados pelo Departamento de Comércio, pela Marinha e por estados como Nova York, Tennessee e Virgínia, segundo a Olhar Digital."
+    ]}
+  ],
+  "image": {
+    "query": "data center server chinese flag technology security",
+    "alt": "Ilustração de servidores de data center com símbolo de segurança digital"
+  },
+  "sources": [
+    {"name": "Convergência Digital", "owner": "convergencia", "url": "https://convergenciadigital.com.br/governo/eua-mandam-banir-o-uso-da-ia-deepseek-dos-sistemas-de-ti-governamentais/", "title": "EUA mandam banir o uso da IA DeepSeek dos sistemas de TI governamentais"},
+    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/10/19/inteligencia-artificial/eua-mandam-banir-inteligencia-artificial-deepseek-de-redes-federais/", "title": "EUA mandam banir inteligência artificial DeepSeek de redes federais"}
+  ],
+  "status": "draft"
+}
