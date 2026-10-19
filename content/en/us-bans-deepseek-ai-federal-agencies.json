@@ -7,34 +7,110 @@
   "meta_description": "DHS orders US civilian federal agencies to strip DeepSeek AI products from their IT systems and blocks new purchases, citing the risk of data reaching China.",
   "keyword": "DeepSeek banned US government",
   "category": "politica",
-  "tags": ["ai", "deepseek", "united states", "security", "policy"],
+  "tags": [
+    "ai",
+    "deepseek",
+    "united states",
+    "security",
+    "policy"
+  ],
   "body": [
-    {"type": "p", "text": "The US Department of Homeland Security (DHS) has ordered civilian federal agencies to remove artificial intelligence products from China's DeepSeek from their IT systems. The directive, published on Monday, October 19, also bars those agencies from buying new DeepSeek products or third-party services built on the company's technology, according to Convergência Digital and Olhar Digital.", "items": []},
-    {"type": "p", "text": "DHS says DeepSeek's models carry \"multiple threat vectors\" — the different ways a system can be exploited to cause harm or leak data. The department is concerned that use of the tools by government employees or contractors could lead to sensitive data being transferred to China. It also warned the technology could be used to produce intelligence about American citizens and about government agencies themselves, on top of the risk that the models could contain malicious code or security flaws, Olhar Digital reports.", "items": []},
-    {"type": "p", "text": "The ban is not limited to products DeepSeek sells directly: it also covers companies affiliated with it and any third-party service built on its AI models, Olhar Digital says. The order rests on the Federal Acquisition Supply Chain Security Act of 2018, following a review by the Federal Acquisition Security Council. DHS set no deadline for agencies to comply.", "items": []},
-    {"type": "h2", "text": "Monitoring was already under way", "items": []},
-    {"type": "p", "text": "According to Olhar Digital, a DHS memo from July, disclosed on Monday alongside the new order, had already instructed federal agencies to monitor data traffic entering and leaving government websites specifically to flag risks tied to Chinese technology. The new ban turns that standing concern into a formal rule.", "items": []},
-    {"type": "p", "text": "The directive builds on restrictions other parts of the US government had already put in place. The Department of Commerce and the Navy had previously banned DeepSeek on official devices, and states including New York, Tennessee and Virginia adopted similar measures, Olhar Digital reports. The outlet also cites a figure from its sourcing material showing that 82% of electronics sold in the US were tested in China last year.", "items": []},
-    {"type": "p", "text": "Each of those earlier moves covered a narrower slice of government. The Commerce Department and the Navy limited their bans to DeepSeek software on official devices, while New York, Tennessee and Virginia restricted it within their own state agencies, according to Olhar Digital. Monday's DHS order is the first to apply across every civilian federal agency at once, and the first to also block future purchases rather than only existing deployments.", "items": []},
-    {"type": "h2", "text": "An update days before the ban", "items": []},
-    {"type": "p", "text": "The order comes two days after DeepSeek released an update to its AI model, called V4.1-Flash-1017, according to Convergência Digital. The company says the new version completes tasks faster, produces shorter answers, and improved at reasoning, coding, image understanding and tasks carried out by AI agents — systems that make decisions and act across several steps without constant human oversight. The model is already available on DeepSeek's site, app and developer platform.", "items": []},
-    {"type": "p", "text": "Per the official pricing table cited by Convergência Digital, generated tokens cost $0.60 per million off-peak and $1.20 at peak — the off-peak rate applies during the Chinese company's lower-demand hours, and the peak rate roughly doubles it. Input tokens without cache reuse cost $0.15 and $0.30, respectively; cache reuse is the technique of storing a previous request's processed text so a follow-up query does not have to be read from scratch.", "items": []},
-    {"type": "p", "text": "As of publication, China's embassy in Washington had not commented on the DHS decision, Olhar Digital says.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who is affected: US civilian federal agencies and any vendor selling products or services built on DeepSeek technology.",
-      "Since when: the order was published on October 19, 2026, with no deadline set for removal.",
-      "What changes: beyond the removal mandate, these agencies can no longer purchase new DeepSeek-linked products or services.",
-      "Context: the federal ban follows earlier restrictions from the Department of Commerce, the Navy, and states such as New York, Tennessee and Virginia, according to Olhar Digital."
-    ]}
+    {
+      "type": "p",
+      "text": "The US Department of Homeland Security (DHS) has ordered civilian federal agencies to remove artificial intelligence products from China's DeepSeek from their IT systems. The directive, published on Monday, October 19, also bars those agencies from buying new DeepSeek products or third-party services built on the company's technology, according to Convergência Digital and Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DHS says DeepSeek's models carry \"multiple threat vectors\" — the different ways a system can be exploited to cause harm or leak data. The department is concerned that use of the tools by government employees or contractors could lead to sensitive data being transferred to China. It also warned the technology could be used to produce intelligence about American citizens and about government agencies themselves, on top of the risk that the models could contain malicious code or security flaws, Olhar Digital reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The ban is not limited to products DeepSeek sells directly: it also covers companies affiliated with it and any third-party service built on its AI models, Olhar Digital says. The order rests on the Federal Acquisition Supply Chain Security Act of 2018, following a review by the Federal Acquisition Security Council. DHS set no deadline for agencies to comply.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Monitoring was already under way",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Olhar Digital, a DHS memo from July, disclosed on Monday alongside the new order, had already instructed federal agencies to monitor data traffic entering and leaving government websites specifically to flag risks tied to Chinese technology. The new ban turns that standing concern into a formal rule.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The directive builds on restrictions other parts of the US government had already put in place. The Department of Commerce and the Navy had previously banned DeepSeek on official devices, and states including New York, Tennessee and Virginia adopted similar measures, Olhar Digital reports. The outlet also cites a figure from its sourcing material showing that 82% of electronics sold in the US were tested in China last year.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Each of those earlier moves covered a narrower slice of government. The Commerce Department and the Navy limited their bans to DeepSeek software on official devices, while New York, Tennessee and Virginia restricted it within their own state agencies, according to Olhar Digital. Monday's DHS order is the first to apply across every civilian federal agency at once, and the first to also block future purchases rather than only existing deployments.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An update days before the ban",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The order comes two days after DeepSeek released an update to its AI model, called V4.1-Flash-1017, according to Convergência Digital. The company says the new version completes tasks faster, produces shorter answers, and improved at reasoning, coding, image understanding and tasks carried out by AI agents — systems that make decisions and act across several steps without constant human oversight. The model is already available on DeepSeek's site, app and developer platform.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per the official pricing table cited by Convergência Digital, generated tokens cost $0.60 per million off-peak and $1.20 at peak — the off-peak rate applies during the Chinese company's lower-demand hours, and the peak rate roughly doubles it. Input tokens without cache reuse cost $0.15 and $0.30, respectively; cache reuse is the technique of storing a previous request's processed text so a follow-up query does not have to be read from scratch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As of publication, China's embassy in Washington had not commented on the DHS decision, Olhar Digital says.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who is affected: US civilian federal agencies and any vendor selling products or services built on DeepSeek technology.",
+        "Since when: the order was published on October 19, 2026, with no deadline set for removal.",
+        "What changes: beyond the removal mandate, these agencies can no longer purchase new DeepSeek-linked products or services.",
+        "Context: the federal ban follows earlier restrictions from the Department of Commerce, the Navy, and states such as New York, Tennessee and Virginia, according to Olhar Digital."
+      ]
+    }
   ],
   "image": {
     "query": "data center server chinese flag technology security",
-    "alt": "Illustration of data center servers with a digital security symbol overlay"
+    "alt": "Illustration of data center servers with a digital security symbol overlay",
+    "path": "/assets/img/us-bans-deepseek-ai-federal-agencies-278a8976.jpg",
+    "credit": "Lan Lin / Unsplash",
+    "author": "Lan Lin",
+    "author_url": "https://unsplash.com/@lanlinn?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-chinese-flag-hanging-from-the-side-of-a-building-WrF3I3xTji0"
   },
   "sources": [
-    {"name": "Convergência Digital", "owner": "convergencia", "url": "https://convergenciadigital.com.br/governo/eua-mandam-banir-o-uso-da-ia-deepseek-dos-sistemas-de-ti-governamentais/", "title": "EUA mandam banir o uso da IA DeepSeek dos sistemas de TI governamentais"},
-    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/10/19/inteligencia-artificial/eua-mandam-banir-inteligencia-artificial-deepseek-de-redes-federais/", "title": "EUA mandam banir inteligência artificial DeepSeek de redes federais"}
+    {
+      "name": "Convergência Digital",
+      "owner": "convergencia",
+      "url": "https://convergenciadigital.com.br/governo/eua-mandam-banir-o-uso-da-ia-deepseek-dos-sistemas-de-ti-governamentais/",
+      "title": "EUA mandam banir o uso da IA DeepSeek dos sistemas de TI governamentais"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/10/19/inteligencia-artificial/eua-mandam-banir-inteligencia-artificial-deepseek-de-redes-federais/",
+      "title": "EUA mandam banir inteligência artificial DeepSeek de redes federais"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-19T21:51:06+00:00",
+  "updated_at": "2026-10-19T21:51:06+00:00"
 }

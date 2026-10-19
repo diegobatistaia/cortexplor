@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 19 Oct 2026 15:53:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 21:51:08 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Apple actualiza MLX y corre un modelo de 816.000 millones en Mac</title>
+      <link>https://cortexplor.com/es/apple-mlx-inferencia-distribuida-mac-studio/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/apple-mlx-inferencia-distribuida-mac-studio/</guid>
+      <description>Apple actualiza MLX y usa RDMA por Thunderbolt para unir Mac Studio y correr en local un modelo de IA de 816.000 millones de parámetros, según la empresa.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Mon, 19 Oct 2026 21:51:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>EE. UU. ordena retirar la IA DeepSeek de los sistemas federales</title>
+      <link>https://cortexplor.com/es/eeuu-prohibe-deepseek-en-agencias-federales/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/eeuu-prohibe-deepseek-en-agencias-federales/</guid>
+      <description>El DHS de Estados Unidos ordena retirar la IA DeepSeek de las agencias civiles federales y prohíbe nuevas compras, citando el riesgo de fuga de datos a China.</description>
+      <category>Regulación</category>
+      <pubDate>Mon, 19 Oct 2026 21:51:06 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic reduce la contratación júnior y crecen las reuniones</title>
       <link>https://cortexplor.com/es/anthropic-reduce-contratacion-junior/</link>
@@ -230,22 +246,6 @@
       <description>Anthropic revela que no puede controlar con fiabilidad a sus agentes de IA y cortará el acceso a internet de todas sus evaluaciones tras un aviso falso.</description>
       <category>Regulación</category>
       <pubDate>Sun, 11 Oct 2026 15:50:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft recorta el OneDrive familiar y comparte Copilot</title>
-      <link>https://cortexplor.com/es/microsoft-365-familiar-reduce-onedrive-comparte-copilot/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/microsoft-365-familiar-reduce-onedrive-comparte-copilot/</guid>
-      <description>Microsoft va a reducir el OneDrive del plan Microsoft 365 Familiar de 6 TB a un fondo compartido de 2 TB y abre el acceso a Copilot para cinco personas.</description>
-      <category>Aplicaciones</category>
-      <pubDate>Sun, 11 Oct 2026 10:45:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic lanza un escáner gratuito de fallos en código abierto</title>
-      <link>https://cortexplor.com/es/anthropic-lanza-escaner-gratis-codigo-abierto/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-lanza-escaner-gratis-codigo-abierto/</guid>
-      <description>Anthropic lanzó OSS Scanner, servicio gratuito que analiza código abierto en busca de fallos con sus modelos más potentes, sin revisión humana de informes</description>
-      <category>Aplicaciones</category>
-      <pubDate>Sat, 10 Oct 2026 21:47:41 +0000</pubDate>
     </item>
   </channel>
 </rss>

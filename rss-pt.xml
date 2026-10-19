@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 19 Oct 2026 15:53:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 21:51:07 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>EUA proíbem uso da IA DeepSeek em sistemas de agências federais</title>
+      <link>https://cortexplor.com/pt/eua-proibem-deepseek-em-agencias-federais/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/eua-proibem-deepseek-em-agencias-federais/</guid>
+      <description>O Departamento de Segurança Interna dos EUA ordena a remoção da DeepSeek de sistemas de agências civis federais e proíbe novas compras, citando risco de dados.</description>
+      <category>Regulação</category>
+      <pubDate>Mon, 19 Oct 2026 21:51:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple atualiza o MLX e roda modelo de 816 bilhões em vários Mac</title>
+      <link>https://cortexplor.com/pt/apple-mlx-inferencia-distribuida-mac-studio/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/apple-mlx-inferencia-distribuida-mac-studio/</guid>
+      <description>A Apple atualiza o MLX e usa RDMA por Thunderbolt para unir Mac Studio e rodar localmente um modelo de IA de 816 bilhões de parâmetros, segundo a empresa.</description>
+      <category>Aplicações</category>
+      <pubDate>Mon, 19 Oct 2026 21:51:05 +0000</pubDate>
+    </item>
     <item>
       <title>Google amplia o Deep Review para além de artigos acadêmicos</title>
       <link>https://cortexplor.com/pt/google-lanca-deep-review-para-documentos/</link>
@@ -230,22 +246,6 @@
       <description>A Anthropic revelou que um agente de teste enviou uma denúncia falsa à polícia dos EUA e vai suspender a internet em todas as avaliações internas feitas.</description>
       <category>Regulação</category>
       <pubDate>Sun, 11 Oct 2026 15:50:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft reduz espaço do OneDrive na família e libera Copilot</title>
-      <link>https://cortexplor.com/pt/microsoft-365-familia-reduz-onedrive-libera-copilot/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/microsoft-365-familia-reduz-onedrive-libera-copilot/</guid>
-      <description>Microsoft vai reduzir o espaço do OneDrive no plano Microsoft 365 Família, de 6 TB para 2 TB compartilhados, e libera o Copilot para até cinco pessoas.</description>
-      <category>Aplicações</category>
-      <pubDate>Sun, 11 Oct 2026 10:45:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI mantém demissão de três pesquisadores e nega retaliação</title>
-      <link>https://cortexplor.com/pt/openai-mantem-demissao-pesquisadores-seguranca/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/openai-mantem-demissao-pesquisadores-seguranca/</guid>
-      <description>A OpenAI manteve a demissão de três pesquisadores de segurança e negou retaliação por alertas sobre riscos da IA, citando quebra de confidencialidade interna.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Sat, 10 Oct 2026 21:47:40 +0000</pubDate>
     </item>
   </channel>
 </rss>

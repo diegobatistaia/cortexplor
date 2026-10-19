@@ -7,33 +7,100 @@
   "meta_description": "Apple updates MLX to use RDMA over Thunderbolt, linking several Mac Studios to run an 816-billion-parameter AI model locally, the company says in a new post.",
   "keyword": "Apple MLX distributed inference",
   "category": "aplicacoes",
-  "tags": ["ai", "apple", "mlx", "mac studio", "local models"],
+  "tags": [
+    "ai",
+    "apple",
+    "mlx",
+    "mac studio",
+    "local models"
+  ],
   "fonte_unica": "anuncio_oficial",
   "body": [
-    {"type": "p", "text": "Apple has released a new version of MLX, its open-source framework for running and training AI models on its own chips, adding support for distributed inference across multiple Mac Studio computers. The company says a cluster of four Mac Studios can run Muse Spark Open, a model with nearly 816 billion parameters (the internal numbers a model tunes during training), at more than 36 tokens per second — the units of text a model processes — above average human reading speed.", "items": []},
-    {"type": "p", "text": "The feature rests on two recent releases: a low-latency RDMA driver over Thunderbolt 5 — RDMA lets one machine read another's memory directly, bypassing its processor — introduced in macOS 26.2, and new MLX communication collectives called \"jaccl\" that use that driver to split work between machines. Apple says its test setup linked two Mac Studios with two Thunderbolt cables to double the connection's bandwidth.", "items": []},
-    {"type": "p", "text": "Apple benchmarked three open-weight models — Muse Spark Open (816 billion parameters), Mistral Medium 3.5 (128 billion) and Qwen 3.8 (27 billion) — comparing its latest Mac Studio chip, the M5 Ultra, against the previous generation, the M3 Ultra.", "items": []},
-    {"type": "p", "text": "The two smaller models fit on a single Mac Studio with 512GB of unified memory even at a 65,536-token context window — the amount of text a model processes at once: Qwen 3.8 uses up to 68GB and Mistral Medium 3.5 up to 158GB, according to Apple.", "items": []},
-    {"type": "p", "text": "Muse Spark Open is different. At its native precision (BF16), the nearly 816-billion-parameter model would need more than 1.6TB of memory. Compressed to 4 bits (the NVFP4 format), it drops to about 493GB — still too much for one machine once the memory needed during generation is added. Apple instead splits the model across two or more Mac Studios using a technique called pipeline parallelism: one machine processes the first half of the model's layers and sends the result to a second machine, which handles the rest.", "items": []},
-    {"type": "h2", "text": "What the M5 chip changes", "items": []},
-    {"type": "p", "text": "According to Apple, time to first token — how long before the model starts answering — is up to 4.6 times faster on the M5 Ultra than on the M3 Ultra, thanks to Neural Accelerators, dedicated matrix-multiplication hardware inside the GPU. Generation speed, which depends on memory bandwidth, is 1.6 times higher on the M5 Ultra: 1.2 TB/s versus the M3 Ultra's 819 GB/s.", "items": []},
-    {"type": "p", "text": "Peak power draw is about 200W for the M3 Ultra setup and 300W for the M5 Ultra setup during inference — a fraction of what a toaster uses, by Apple's own comparison.", "items": []},
-    {"type": "p", "text": "For developers, Apple published the MLX LM package used in the benchmarks, along with the mlx.launch command, which starts the same program across multiple machines at once, selecting the new RDMA-based communication collective with the --backend jaccl flag.", "items": []},
-    {"type": "p", "text": "The release matters beyond the benchmark numbers it reports. It gives developers a way to run frontier-scale open-weight models without renting cloud GPU capacity, provided they already own enough Mac Studio hardware — a path AI teams have mostly reserved for data-center chips until now.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: anyone with one or more Mac Studios running M3 Ultra or M5 Ultra chips and Apple's free, open-source MLX framework.",
-      "Since when: the new MLX release and the macOS 26.2 RDMA driver came out this week, according to Apple.",
-      "Cost: MLX itself is free; the cost is the hardware — a Mac Studio with up to 512GB of unified memory.",
-      "What changes: running a model with nearly 816 billion parameters used to require cloud infrastructure; Apple now shows it running locally by splitting the work across Mac Studios linked over Thunderbolt."
-    ]}
+    {
+      "type": "p",
+      "text": "Apple has released a new version of MLX, its open-source framework for running and training AI models on its own chips, adding support for distributed inference across multiple Mac Studio computers. The company says a cluster of four Mac Studios can run Muse Spark Open, a model with nearly 816 billion parameters (the internal numbers a model tunes during training), at more than 36 tokens per second — the units of text a model processes — above average human reading speed.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The feature rests on two recent releases: a low-latency RDMA driver over Thunderbolt 5 — RDMA lets one machine read another's memory directly, bypassing its processor — introduced in macOS 26.2, and new MLX communication collectives called \"jaccl\" that use that driver to split work between machines. Apple says its test setup linked two Mac Studios with two Thunderbolt cables to double the connection's bandwidth.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Apple benchmarked three open-weight models — Muse Spark Open (816 billion parameters), Mistral Medium 3.5 (128 billion) and Qwen 3.8 (27 billion) — comparing its latest Mac Studio chip, the M5 Ultra, against the previous generation, the M3 Ultra.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The two smaller models fit on a single Mac Studio with 512GB of unified memory even at a 65,536-token context window — the amount of text a model processes at once: Qwen 3.8 uses up to 68GB and Mistral Medium 3.5 up to 158GB, according to Apple.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Muse Spark Open is different. At its native precision (BF16), the nearly 816-billion-parameter model would need more than 1.6TB of memory. Compressed to 4 bits (the NVFP4 format), it drops to about 493GB — still too much for one machine once the memory needed during generation is added. Apple instead splits the model across two or more Mac Studios using a technique called pipeline parallelism: one machine processes the first half of the model's layers and sends the result to a second machine, which handles the rest.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the M5 chip changes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Apple, time to first token — how long before the model starts answering — is up to 4.6 times faster on the M5 Ultra than on the M3 Ultra, thanks to Neural Accelerators, dedicated matrix-multiplication hardware inside the GPU. Generation speed, which depends on memory bandwidth, is 1.6 times higher on the M5 Ultra: 1.2 TB/s versus the M3 Ultra's 819 GB/s.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Peak power draw is about 200W for the M3 Ultra setup and 300W for the M5 Ultra setup during inference — a fraction of what a toaster uses, by Apple's own comparison.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For developers, Apple published the MLX LM package used in the benchmarks, along with the mlx.launch command, which starts the same program across multiple machines at once, selecting the new RDMA-based communication collective with the --backend jaccl flag.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The release matters beyond the benchmark numbers it reports. It gives developers a way to run frontier-scale open-weight models without renting cloud GPU capacity, provided they already own enough Mac Studio hardware — a path AI teams have mostly reserved for data-center chips until now.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: anyone with one or more Mac Studios running M3 Ultra or M5 Ultra chips and Apple's free, open-source MLX framework.",
+        "Since when: the new MLX release and the macOS 26.2 RDMA driver came out this week, according to Apple.",
+        "Cost: MLX itself is free; the cost is the hardware — a Mac Studio with up to 512GB of unified memory.",
+        "What changes: running a model with nearly 816 billion parameters used to require cloud infrastructure; Apple now shows it running locally by splitting the work across Mac Studios linked over Thunderbolt."
+      ]
+    }
   ],
   "image": {
     "query": "mac studio desktop computer chips connected cables",
-    "alt": "Illustrative photo of desktop computers linked by cables, representing distributed computing"
+    "alt": "Illustrative photo of desktop computers linked by cables, representing distributed computing",
+    "path": "/assets/img/apple-mlx-distributed-inference-mac-stud-cb440750.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "author": "Brecht Corbeel",
+    "author_url": "https://unsplash.com/@brechtcorbeel?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/illuminated-circuit-board-with-glowing-traces-and-electronic-components-qX4B3tFlyfg"
   },
   "sources": [
-    {"name": "Apple Machine Learning", "owner": "apple", "url": "https://machinelearning.apple.com/research/mlx-distributed-inference", "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio"}
+    {
+      "name": "Apple Machine Learning",
+      "owner": "apple",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-19T21:51:06+00:00",
+  "updated_at": "2026-10-19T21:51:06+00:00"
 }
