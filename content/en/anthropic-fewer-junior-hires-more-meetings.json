@@ -1,0 +1,116 @@
+{
+  "lang": "en",
+  "slug": "anthropic-fewer-junior-hires-more-meetings",
+  "story_id": "5998c3f6a9e689bc",
+  "title": "Anthropic says AI cut junior hiring, added meeting time",
+  "dek": "An internal report cited by TechCrunch and TechRadar shows fewer junior hires and a rise in meeting time across the company over the past year.",
+  "meta_description": "Anthropic's own workforce report shows fewer junior hires and more time spent in meetings over the past year, per coverage from TechCrunch and TechRadar.",
+  "keyword": "Anthropic junior hiring report",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "anthropic",
+    "ai market",
+    "productivity",
+    "claude"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic hired fewer junior staff and spent more time in meetings over the past year, according to an internal report the company published that TechCrunch and TechRadar both covered this week. Junior employees made up 14% of the technical workforce by mid-2026, compared with 21% in early 2025, and they accounted for only 9% of new technical hires, compared with 27% a year earlier, the two outlets report.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch notes that Anthropic frames these internal numbers as a signal for how artificial intelligence could reshape hiring and labor demand at other companies, arguing that it has built its own workflows around its Claude assistant more thoroughly than most organizations have.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Productivity gains tied to automation",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar reports that, per Anthropic, the company has added fewer staff for every dollar of revenue than large tech firms did in an earlier era. The outlet lists productivity metrics the company ties to AI use: code commits per engineer climbed 5.1 times between late 2025 and mid-2026, data queries handled per data scientist grew 3.1 times, contracts processed per legal staffer rose 3.1 times, and deals closed per salesperson increased 1.7 times.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch adds that, per the report, technical staff now make up a smaller slice of the overall headcount, down to 56% from 61%, a shift the company attributes to business functions expanding naturally as it scales and to coding tools that let non-technical staff build their own software.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "More meetings, a human bottleneck",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meeting time per employee climbed roughly 20% versus a year earlier, based on calendar data both outlets cite; TechCrunch pegs the increase among technical staff specifically at 16%. Workers described in-person coordination as essential for keeping trust and accountability inside teams, the outlet reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Even with those productivity gains, human attention has turned into a bottleneck, the report says per TechCrunch: Claude generates a flow of text that still has to be read and organized by people. An internal survey from April 2026 found 27% of staff felt more productive because of Claude, while 20% said their role shifted from doing tasks themselves to overseeing several instances of the assistant at once. TechRadar adds that Claude spends roughly 80% of interactive session time waiting on a human reply.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What still needs a human",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch notes that the company admits more code doesn't necessarily mean better code or bigger business impact, though it says it hasn't found any sign that code quality is slipping. TechRadar reports that, despite those automation gains, Anthropic kept some roles strictly human, pointing to sales calls and job interviews as examples.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Looking ahead, TechRadar says Anthropic expects a different set of skills to matter most in future hiring, including autonomy and judgment. The outlet adds that the report floats the idea that traditional hiring could keep shrinking even as new kinds of businesses emerge, such as one-person startups where a single founder directs swarms of AI agents at once. Anthropic itself frames its own workplace, with its unusually deep reliance on Claude, as an early test case for how that broader shift might unfold elsewhere, according to TechRadar.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Junior staff went from 21% to 14% of Anthropic's technical workforce since 2025, and junior hires fell from 27% to 9%, per TechCrunch and TechRadar.",
+        "Meeting time per employee rose about 20% over the past year, according to both outlets.",
+        "Productivity gains TechRadar cites include up to 5.1 times more code commits per engineer and 1.7 times more deals closed per salesperson.",
+        "The report comes from Anthropic itself, which says it treats these internal trends as an early signal of how AI could affect hiring elsewhere."
+      ]
+    }
+  ],
+  "image": {
+    "query": "office meeting team workplace technology",
+    "alt": "Coworkers gathered around a table in a corporate meeting room with screens",
+    "path": "/assets/img/anthropic-fewer-junior-hires-more-meetin-4e3feb39.jpg",
+    "credit": "Igor Omilaev / Unsplash",
+    "author": "Igor Omilaev",
+    "author_url": "https://unsplash.com/@omilaev?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-room-filled-with-lots-of-desks-covered-in-monitors-5ma_XqDCiG4"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/anthropic-says-its-workforce-has-been-getting-older-but-is-also-spending-more-time-in-meetings",
+      "title": "Anthropic says its workforce has been getting older, but is also spending more time in meetings"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-19T15:53:35+00:00",
+  "updated_at": "2026-10-19T15:53:35+00:00"
+}

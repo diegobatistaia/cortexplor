@@ -1,0 +1,100 @@
+{
+  "slug": "google-launches-deep-review-beyond-academia",
+  "lang": "en",
+  "date": "19 Oct 2026",
+  "no": 56,
+  "category": "Applications",
+  "kicker": "Applications · Google",
+  "headline": "Google expands Deep Review to contracts and filings",
+  "headline_hl": "Deep Review",
+  "dek": "The tool that vetted research papers now checks Google Docs files, the company says.",
+  "image": {
+    "path": "assets/img/google-launches-deep-review-beyond-acade-8377bd86.jpg",
+    "credit": "Nicolas Arnold / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Deep<br>Review",
+  "sources": [
+    "Google Research"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Review beyond academia",
+    "body": [
+      "Google publicly launched Deep Review, an AI system that checks logical consistency and claims in complex documents (Google Research).",
+      "According to the company, it now covers Google Docs and presentations, including contracts and financial material."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the review works",
+    "body": "According to Google Research, the system runs in stages to:",
+    "points": [
+      {
+        "h": "Logic",
+        "t": "Flag logical inconsistencies (Google Research)."
+      },
+      {
+        "h": "Evidence",
+        "t": "Check claims against evidence, Google says."
+      },
+      {
+        "h": "Literature",
+        "t": "Compare the text with existing work, the company says."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The verification bottleneck",
+    "body": [
+      "Google says human capacity to review did not grow as fast as AI-generated content.",
+      "The company cites more than 74,000 submissions to three top AI conferences this year, versus about 45,000 in 2025 (Google Research)."
+    ],
+    "stat": {
+      "big": "74,000",
+      "cap": "submissions to three conferences, Google says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What Google did not say",
+    "items": [
+      {
+        "h": "Price",
+        "t": "The company did not share the tool's price."
+      },
+      {
+        "h": "Access",
+        "t": "It did not say if access varies by document type."
+      },
+      {
+        "h": "Humans",
+        "t": "Higher-level judgments stay with people, Google says."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google expanded Deep Review, which vetted research papers, to contracts and Google Docs files.",
+    "body": [
+      "According to Google Research, Deep Review checks logical consistency and claims in complex documents, and now covers Google Docs, presentations, legal contracts and financial material. It grew out of a pilot with four computer science conferences.",
+      "Google frames the launch as a response to a verification bottleneck, citing more than 74,000 submissions to three top AI conferences this year. Higher-level judgments stay with humans. Google did not share the tool's price."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#deepreview",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google expanding Deep Review to contracts and filings",
+    "Slide 2: Deep Review now covers Google Docs, presentations and contracts",
+    "Slide 3: the system flags inconsistencies, checks evidence and compares with existing work",
+    "Slide 4: more than 74,000 submissions to three AI conferences, Google says",
+    "Slide 5: Google did not share Deep Review price or access differences",
+    "Slide 6: source for the Deep Review story: Google Research"
+  ]
+}
