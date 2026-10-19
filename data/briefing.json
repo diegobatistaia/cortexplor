@@ -238,5 +238,145 @@
         }
       ]
     }
+  ],
+  "recent_posts": [
+    {
+      "published_at": "2026-10-18T21:46:55+00:00",
+      "story_id": "4c5c028e9bdef740",
+      "title": "Anthropic destina 5% das ações a fundo de benefício público",
+      "summary": "A empresa cria uma entidade própria que pode crescer a cada alta de 50% no valor da companhia, segundo a Anthropic e a TechCrunch."
+    },
+    {
+      "published_at": "2026-10-18T15:47:25+00:00",
+      "story_id": "be5be223e39fb016",
+      "title": "Facebook deixa usuário escrever o que quer ver no feed e nos Reels",
+      "summary": "Nova ferramenta da Meta aceita texto livre para ajustar, ainda na mesma sessão, o que aparece no Feed e nos Reels do Facebook."
+    },
+    {
+      "published_at": "2026-10-17T21:46:33+00:00",
+      "story_id": "a991bf1a8196b540",
+      "title": "Pesquisa da Apple diz que misturar idiomas supera ajuste fino",
+      "summary": "Estudo da Apple testou quatro tamanhos de modelo e cerca de mil treinamentos para comparar as duas técnicas, usando árabe como idioma de baixo recurso."
+    },
+    {
+      "published_at": "2026-10-17T15:47:06+00:00",
+      "story_id": "6cd6022d53671e0c",
+      "title": "NVIDIA abre arquitetura Vera Rubin para data centers de IA",
+      "summary": "A empresa cede o desenho de racks e bandejas de computação ao Open Compute Project e publica novos padrões abertos para infraestrutura de IA, segundo comunicado próprio."
+    },
+    {
+      "published_at": "2026-10-17T10:51:22+00:00",
+      "story_id": "66315d1614729858",
+      "title": "Perplexity abre o código da SPACE, sandbox que isola agentes de IA",
+      "summary": "A empresa diz que a ferramenta roda os agentes do Computer desde julho e já tem CoreWeave, Akamai e Crusoe testando a integração."
+    },
+    {
+      "published_at": "2026-10-17T10:51:21+00:00",
+      "story_id": "c0a83077c3763311",
+      "title": "AWS, Anthropic e OpenAI disputam engenheiros para implantar IA",
+      "summary": "Segundo a CNBC e a TechRadar, vagas para a função nos EUA saltaram de menos de 200 em 2023 para mais de 7.300 em 2026, com salário até três vezes a mediana do país."
+    },
+    {
+      "published_at": "2026-10-16T21:46:18+00:00",
+      "story_id": "81fdee027fc949bf",
+      "title": "ChatGPT ganha acesso às abas do Chrome e passa a executar tarefas",
+      "summary": "Atualização da extensão deixa o assistente comparar informações entre páginas abertas e agir no navegador, sem custo extra."
+    },
+    {
+      "published_at": "2026-10-16T15:44:04+00:00",
+      "story_id": "aaa03ff62e7d11f7",
+      "title": "Anthropic abre escritório em Singapura e assina acordo com governo",
+      "summary": "A empresa inaugura sua quinta sede na Ásia-Pacífico e firma memorando com o Ministério de Desenvolvimento Digital de Singapura para cooperar em segurança de modelos de IA, segundo comunicado oficial."
+    },
+    {
+      "published_at": "2026-10-16T10:45:18+00:00",
+      "story_id": "035b847c9c9a1c73",
+      "title": "Nvidia lança notebooks RTX Spark com até 128 GB para IA local",
+      "summary": "Primeira geração de laptops com chip Arm e GPU Blackwell chega nesta sexta com agentes de IA pré-instalados, segundo a empresa e a imprensa especializada."
+    },
+    {
+      "published_at": "2026-10-16T10:45:17+00:00",
+      "story_id": "006ced19b0db84d1",
+      "title": "Meta libera pesos abertos do Muse Spark Open, modelo de 816 bi",
+      "summary": "Modelo de código aberto treinado para codificar e operar agentes já está disponível na Together AI e no Amazon SageMaker JumpStart."
+    },
+    {
+      "published_at": "2026-10-15T21:48:05+00:00",
+      "story_id": "0c1628a9d99ac240",
+      "title": "Nvidia lança Nemotron 3.5 Super VL e dois modelos Bolt abertos",
+      "summary": "Modelo de 120 bilhões de parâmetros e as versões Bolt, menores e para rodar fora da nuvem, chegam com pesos, dados e receitas de treinamento abertos, segundo a empresa, o SiliconANGLE e o ZDNet."
+    },
+    {
+      "published_at": "2026-10-15T15:42:36+00:00",
+      "story_id": "360bb24242fa8c73",
+      "title": "Agentes de IA já são maioria do uso corporativo da OpenAI na UE",
+      "summary": "Relatório da OpenAI mostra Codex e ChatGPT Work respondendo por mais da metade dos tokens gerados por clientes empresariais no bloco europeu."
+    },
+    {
+      "published_at": "2026-10-15T10:46:20+00:00",
+      "story_id": "bc04ad77ff162b61",
+      "title": "xAI lança Grok Voice 3.0 e lidera ranking de modelos de voz",
+      "summary": "Novo modelo de fala-para-fala atinge 86,9 pontos no Speech-to-Speech Index da Artificial Analysis e já roda nos carros da Tesla e no atendimento da Starlink."
+    },
+    {
+      "published_at": "2026-10-15T10:46:19+00:00",
+      "story_id": "32c8e1869ad3d944",
+      "title": "Oito estados dos EUA processam a OpenAI por segurança do ChatGPT",
+      "summary": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho e Montana acusam a empresa de enganar pais sobre os riscos do chatbot, segundo a CNBC e o The Verge."
+    },
+    {
+      "published_at": "2026-10-14T21:43:27+00:00",
+      "story_id": "c764f8d1aaf16b7b",
+      "title": "Google aplica Gemini 4 Argon à robótica e cita 87% em teste",
+      "summary": "A DeepMind mostra o modelo controlando robôs reais e simulados e afirma que ele supera outros modelos de fronteira no benchmark de raciocínio físico ERQA."
+    },
+    {
+      "published_at": "2026-10-14T10:52:17+00:00",
+      "story_id": "c30e273836c47cfa",
+      "title": "Funcionário da OpenAI é preso por instalar escuta na sede",
+      "summary": "A empresa disse ter usado seus próprios modelos de IA para rastrear quem plantou o aparelho na sala executiva."
+    },
+    {
+      "published_at": "2026-10-14T10:52:16+00:00",
+      "story_id": "8d894cc406c77804",
+      "title": "Anthropic alerta que IA autorreplicante pode surgir em meses",
+      "summary": "Empresa testou modelo distribuído em caixas de TV baratas para simular um \"verme de IA\" capaz de infectar aparelhos domésticos."
+    },
+    {
+      "published_at": "2026-10-13T21:44:13+00:00",
+      "story_id": "9bc1235afd1d9cf1",
+      "title": "Google libera Gemini 4 Argon para empresas e assinantes Pro e Ultra",
+      "summary": "O novo modelo de IA chega à API, ao app Gemini e ao Antigravity com preço um quinto menor que GPT-6 Astra e Claude, segundo o Google, o The Verge e o Estadão."
+    },
+    {
+      "published_at": "2026-10-13T15:51:52+00:00",
+      "story_id": "70763b2d8d6aa393",
+      "title": "Character.AI pede recuperação judicial e negocia venda à Disney",
+      "summary": "A startup de chatbots listou entre US$ 50 milhões e US$ 100 milhões em passivos e aceitou a Disney como primeira proponente pelos seus ativos, segundo The Verge e Engadget."
+    },
+    {
+      "published_at": "2026-10-13T15:51:52+00:00",
+      "story_id": "aa1a041d6d4df4d8",
+      "title": "Ministro do Reino Unido vê ataque cibernético de IA como quase certo",
+      "summary": "Kanishka Narayan citou um agente da OpenAI que acessou dados do sistema de saúde da Austrália para justificar o alerta, segundo o Guardian e a TechRadar."
+    },
+    {
+      "published_at": "2026-10-13T10:46:36+00:00",
+      "story_id": "e022f23b5d13f9f0",
+      "title": "xAI junta Grok, Cursor e X Premium em uma só assinatura",
+      "summary": "A nova Assinatura X substitui os planos separados de Grok, Cursor e X Premium por um pacote com cota de uso compartilhada, segundo a xAI e a Engadget."
+    },
+    {
+      "published_at": "2026-10-12T21:43:15+00:00",
+      "story_id": "02a2428830bf09dc",
+      "title": "Meta lança Muse Wonder, seu primeiro modelo de fronteira",
+      "summary": "Wonder e Wonder Full chegam hoje à API e ao Muse Code, e a empresa diz que rivalizam com GPT-6 Astra e Claude Opus 5.5, segundo TechCrunch e The Verge."
+    },
+    {
+      "published_at": "2026-10-12T15:45:43+00:00",
+      "story_id": "86adb2eb60654f11",
+      "title": "Microsoft revela o Maia 300, chip de IA para inferência em servidor",
+      "summary": "Segundo a empresa, o novo acelerador processa 40% mais tokens por megawatt que GPUs líderes e chega aos data centers em 2027."
+    }
   ]
 }

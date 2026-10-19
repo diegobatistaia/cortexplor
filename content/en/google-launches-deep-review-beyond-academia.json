@@ -1,0 +1,94 @@
+{
+  "lang": "en",
+  "slug": "google-launches-deep-review-beyond-academia",
+  "story_id": "f5ab4cd5d8d7732b",
+  "title": "Google expands Deep Review AI tool beyond academic papers",
+  "dek": "The agentic system that vetted conference papers now checks legal, financial and everyday documents too, Google says.",
+  "meta_description": "Google has publicly launched Deep Review, expanding its AI document-checking tool from academic peer review to everyday legal and financial paperwork.",
+  "keyword": "Google Deep Review AI",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "google",
+    "deep review",
+    "productivity",
+    "documents"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google has publicly launched Deep Review, an AI system built to check logical consistency and evidence behind claims in complex documents, the company said in a blog post. The tool started out vetting academic papers and now also covers Google Docs files and presentations, including legal contracts and financial material.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says Deep Review grew out of the Paper Assistant Tool (PAT), which it piloted with four computer science conferences — STOC 2026, ICML 2026, NeurIPS 2026 and ICLR 2027 — across more than 16,000 manuscripts whose authors opted in. The company says PAT's feedback stayed fully separate from each conference's official review process, that submitted papers were never used to train models, and that manuscripts were removed from Google's systems shortly after each pilot wrapped up. Full details on PAT and those pilot programs appear in a separate Google manuscript on automating scientific review, the company says.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "From research papers to contracts and filings",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company says Deep Review now runs on the Gemini 4 Argon model, which extends what it can do compared with earlier PAT releases. With the public launch, the tool is no longer confined to computer science papers and now reaches fields such as law and finance, Google says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google also introduced the Teamwork Deep Document Review Pattern, a review method built into Antigravity, the company's own environment for developing AI agents, using its Teamwork multi-agent framework. The pattern relies on a hierarchy of several agents, with built-in self-correction and section-by-section rubrics, to evaluate research papers, manuscript drafts and technical proposals. Antigravity users can trigger it with the /teamwork-preview command, according to the company.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A bottleneck in peer review",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google frames the launch around what it calls a validation bottleneck: the human capacity to review documents hasn't kept pace with the volume of AI-generated content. The company says submissions to three major AI conferences — ICLR, NeurIPS and ICML — passed 74,000 this year, up from roughly 45,000 in 2025, 32,000 in 2024 and 23,000 in 2023. Each submission needs several high-quality reviews to keep the peer-review process sound, the company says, which adds to the load on human reviewers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company explains why a single call to a language model isn't enough for this kind of work: on long, complex documents, that approach tends to exhaust the model's reasoning budget, miss dependencies between distant sections of the text, or accept delicate claims without scrutinizing them closely. That's why, Google says, Deep Review runs a four-stage pipeline built to flag logical inconsistencies, suggest improvements, check claims against evidence and compare a document with existing work, leaving higher-level judgment calls to people.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google also says that getting this kind of detailed feedback before a submission used to depend on access to extensive review networks, such as senior faculty or well-funded labs — an uneven kind of access that the public launch of Deep Review is meant to widen. Feedback from authors who went through the PAT pilots has been largely positive, the company says, and it credits that response to steady improvements in both the underlying models and the review harness built around them over the course of the pilot programs.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Deep Review is available worldwide starting today, Google says, now covering Google Docs files and presentations in addition to academic papers.",
+        "The tool can now review legal contracts and financial documents, a domain it did not previously cover, according to the company.",
+        "Antigravity users can run a Deep Review-based pattern with the /teamwork-preview command.",
+        "Google did not disclose pricing or say whether access differs by document type.",
+        "The company says the goal is to extend review once limited to four academic conferences to everyday document work across fields."
+      ]
+    }
+  ],
+  "image": {
+    "query": "document review technology digital analysis screen",
+    "alt": "Computer screen showing a document being analyzed with digital annotations"
+  },
+  "sources": [
+    {
+      "name": "Google Research",
+      "owner": "alphabet",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "title": "Analyzing technical documents with Deep Review"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}

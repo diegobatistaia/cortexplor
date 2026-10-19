@@ -1,0 +1,94 @@
+{
+  "lang": "es",
+  "slug": "google-lanza-deep-review-documentos-legales",
+  "story_id": "f5ab4cd5d8d7732b",
+  "title": "Google amplía su herramienta Deep Review más allá de lo académico",
+  "dek": "El sistema que revisaba artículos para conferencias científicas ahora también analiza contratos y documentos financieros, según la empresa.",
+  "meta_description": "Google lanzó públicamente Deep Review, su herramienta de IA que revisaba artículos académicos y ahora también analiza documentos legales y financieros.",
+  "keyword": "Google Deep Review IA",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "google",
+    "deep review",
+    "productividad",
+    "documentos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google lanzó públicamente Deep Review, un sistema de inteligencia artificial pensado para verificar la coherencia lógica y la evidencia detrás de las afirmaciones en documentos complejos, según un comunicado de la propia empresa. La herramienta empezó revisando artículos académicos y ahora también cubre archivos de Google Docs y presentaciones, incluidos contratos legales y material financiero.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Google, Deep Review surgió del Paper Assistant Tool (PAT), que la empresa probó junto a cuatro conferencias de ciencias de la computación —STOC 2026, ICML 2026, NeurIPS 2026 e ICLR 2027— en más de 16.000 manuscritos cuyos autores aceptaron participar. La empresa dice que la retroalimentación de PAT se mantuvo totalmente separada del proceso oficial de revisión de cada conferencia, que los artículos nunca se usaron para entrenar modelos y que los manuscritos se eliminaron de los sistemas de Google poco después de terminar cada etapa del piloto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "De artículos académicos a contratos y balances",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa afirma que Deep Review ahora funciona con el modelo Gemini 4 Argon, lo que amplía sus capacidades frente a las versiones anteriores de PAT. Con el lanzamiento público, la herramienta deja de limitarse a artículos de ciencias de la computación y pasa a cubrir también áreas como el derecho y las finanzas, según Google.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google también presentó el Teamwork Deep Document Review Pattern, un método de revisión integrado en Antigravity, el entorno propio de la empresa para desarrollar agentes de IA, construido sobre su estructura multiagente llamada Teamwork. Según la empresa, quienes usan Antigravity pueden activar ese método con el comando /teamwork-preview.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "El cuello de botella de la revisión por pares",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google enmarca el lanzamiento en lo que llama un cuello de botella de verificación: la capacidad humana para revisar documentos no creció al mismo ritmo que el volumen de contenido generado por IA. La empresa señala que las postulaciones a tres de las principales conferencias de inteligencia artificial —ICLR, NeurIPS e ICML— superaron las 74.000 este año, frente a unas 45.000 en 2025, 32.000 en 2024 y 23.000 en 2023. Cada postulación necesita varias revisiones de calidad para mantener la integridad del proceso de revisión por pares, lo que aumenta la carga sobre los revisores humanos, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa explica por qué una sola llamada a un modelo de lenguaje no alcanza para este trabajo: al evaluar documentos largos y complejos, ese enfoque suele agotar el límite de razonamiento del modelo, perder dependencias entre secciones distantes del texto o aceptar afirmaciones delicadas sin examinarlas a fondo. Por eso, según Google, Deep Review funciona mediante un proceso de cuatro etapas pensado para detectar incoherencias lógicas, sugerir mejoras, comprobar afirmaciones contra evidencia y comparar el documento con trabajos ya existentes, dejando los juicios de mayor nivel a las personas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google también dice que recibir este tipo de retroalimentación detallada antes de una postulación solía depender del acceso a redes de revisión extensas, como profesores senior o laboratorios con más recursos, un acceso desigual que el lanzamiento público de Deep Review busca ampliar. La reacción de los autores que pasaron por las pruebas de PAT fue mayormente positiva, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Deep Review está disponible en todo el mundo desde hoy, según Google, y ahora cubre archivos de Google Docs y presentaciones además de artículos académicos.",
+        "La herramienta ya puede revisar contratos legales y documentos financieros, un ámbito que antes no cubría, según la empresa.",
+        "Quienes usan Antigravity pueden activar un método basado en Deep Review con el comando /teamwork-preview.",
+        "Google no reveló el precio ni dijo si el acceso varía según el tipo de documento.",
+        "La empresa dice que su objetivo es extender a documentos cotidianos de cualquier ámbito una revisión antes limitada a cuatro conferencias académicas."
+      ]
+    }
+  ],
+  "image": {
+    "query": "document review technology digital analysis screen",
+    "alt": "Pantalla de computadora mostrando un documento analizado con anotaciones digitales"
+  },
+  "sources": [
+    {
+      "name": "Google Research",
+      "owner": "alphabet",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "title": "Analyzing technical documents with Deep Review"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
