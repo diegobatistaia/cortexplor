@@ -1,0 +1,101 @@
+{
+  "slug": "eua-proibem-deepseek-em-agencias-federais",
+  "lang": "pt",
+  "date": "19 out 2026",
+  "no": 61,
+  "category": "Regulação",
+  "kicker": "Regulação · EUA",
+  "headline": "EUA proíbem a DeepSeek em agências federais",
+  "headline_hl": "DeepSeek",
+  "dek": "O Departamento de Segurança Interna cita risco de dados sensíveis irem para a China e veta novas compras.",
+  "image": {
+    "path": "assets/img/eua-proibem-deepseek-em-agencias-federai-278a8976.jpg",
+    "credit": "Lan Lin / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "DHS<br>x DeepSeek",
+  "sources": [
+    "Convergência Digital",
+    "Olhar Digital IA"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Ordem de remoção",
+    "body": [
+      "O DHS ordenou que agências civis federais removam produtos da DeepSeek de seus sistemas de TI (Convergência Digital, Olhar Digital).",
+      "A ordem também veta novas compras da empresa e de serviços de terceiros que usem sua tecnologia, segundo a Olhar Digital."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Os riscos citados",
+    "body": "Segundo a Olhar Digital, o DHS aponta:",
+    "points": [
+      {
+        "h": "Dados",
+        "t": "Risco de dados sensíveis irem para a China (Olhar Digital)."
+      },
+      {
+        "h": "Espionagem",
+        "t": "Informação de inteligência sobre cidadãos e agências."
+      },
+      {
+        "h": "Código",
+        "t": "Possíveis programas maliciosos e falhas, diz o DHS."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Cerco que já existia",
+    "body": [
+      "Segundo a Olhar Digital, o Departamento de Comércio e a Marinha já haviam banido a DeepSeek em dispositivos oficiais.",
+      "Estados como Nova York, Tennessee e Virgínia adotaram medidas parecidas, segundo a Olhar Digital."
+    ],
+    "stat": {
+      "big": "Três",
+      "cap": "estados com medidas parecidas, diz a Olhar Digital"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que ainda falta",
+    "items": [
+      {
+        "h": "Prazo",
+        "t": "O DHS não definiu prazo para a retirada dos sistemas."
+      },
+      {
+        "h": "China",
+        "t": "A embaixada chinesa não havia comentado, diz a Olhar Digital."
+      },
+      {
+        "h": "Base legal",
+        "t": "A ordem usa a lei de segurança da cadeia de suprimentos."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Os EUA mandaram agências federais removerem a IA DeepSeek de seus sistemas e proibiram novas compras.",
+    "body": [
+      "Segundo a Convergência Digital e a Olhar Digital, o Departamento de Segurança Interna ordenou a remoção de produtos da DeepSeek e vetou serviços de terceiros que usem a tecnologia da empresa chinesa. O órgão cita risco de dados sensíveis irem para a China.",
+      "A Olhar Digital lembra que o Departamento de Comércio e a Marinha já haviam banido a ferramenta, assim como estados como Nova York, Tennessee e Virgínia. O DHS não definiu prazo para a retirada, e a embaixada da China ainda não havia comentado."
+    ],
+    "cta_variant": "A",
+    "cta": "Governos deveriam banir de vez as IAs de empresas estrangeiras?",
+    "hashtags": [
+      "#cortexplor",
+      "#deepseek",
+      "#seguranca",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre os EUA proibindo a DeepSeek em agências federais",
+    "Slide 2: DHS ordena remoção da DeepSeek e veta novas compras",
+    "Slide 3: riscos citados: dados para a China, inteligência e programas maliciosos",
+    "Slide 4: Comércio, Marinha e estados já tinham banido a DeepSeek",
+    "Slide 5: sem prazo definido; embaixada da China sem comentário",
+    "Slide 6: fontes da matéria sobre a DeepSeek: Convergência Digital e Olhar Digital"
+  ]
+}

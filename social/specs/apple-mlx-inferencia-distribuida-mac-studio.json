@@ -1,0 +1,100 @@
+{
+  "slug": "apple-mlx-inferencia-distribuida-mac-studio",
+  "lang": "pt",
+  "date": "19 out 2026",
+  "no": 60,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Apple",
+  "headline": "Apple roda modelo gigante em vários Mac Studio",
+  "headline_hl": "vários Mac Studio",
+  "dek": "A nova versão do MLX divide um modelo de quase 816 bilhões de parâmetros entre Macs, diz a Apple Machine Learning.",
+  "image": {
+    "path": "assets/img/apple-mlx-inferencia-distribuida-mac-stu-cb440750.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "816<br>bilhões",
+  "sources": [
+    "Apple Machine Learning"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Modelo gigante fora da nuvem",
+    "body": [
+      "A Apple lançou uma nova versão do MLX com inferência distribuída entre vários Mac Studio (Apple Machine Learning).",
+      "Segundo a empresa, quatro unidades rodam o Muse Spark Open, de quase 816 bilhões de parâmetros, a mais de 36 tokens por segundo (Apple Machine Learning)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que torna isso possível",
+    "body": "Segundo a Apple Machine Learning, a novidade depende de:",
+    "points": [
+      {
+        "h": "Driver",
+        "t": "RDMA sobre Thunderbolt 5, do macOS 26.2 (Apple Machine Learning)."
+      },
+      {
+        "h": "Jaccl",
+        "t": "Novas coleções de comunicação do MLX dividem o trabalho (Apple Machine Learning)."
+      },
+      {
+        "h": "Pipeline",
+        "t": "Cada Mac processa parte das camadas do modelo, diz a Apple."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O que o chip M5 muda",
+    "body": [
+      "Segundo a Apple, o M5 Ultra gera a primeira palavra até 4,6 vezes mais rápido que o M3 Ultra.",
+      "A geração de texto é 1,6 vez maior no M5 Ultra, que tem banda de memória de 1,2 TB/s, segundo a Apple Machine Learning."
+    ],
+    "stat": {
+      "big": "816 bilhões",
+      "cap": "de parâmetros no maior modelo testado, diz a Apple"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que mais a Apple entrega",
+    "items": [
+      {
+        "h": "Pacote",
+        "t": "A empresa publicou o MLX LM usado nos testes."
+      },
+      {
+        "h": "Comando",
+        "t": "O mlx.launch inicia o programa em várias máquinas, diz a Apple."
+      },
+      {
+        "h": "Custo",
+        "t": "O MLX é gratuito; o custo é o do hardware, segundo a empresa."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Apple mostra um modelo de quase 816 bilhões de parâmetros rodando em vários Mac Studio.",
+    "body": [
+      "Segundo a Apple Machine Learning, a nova versão do MLX permite inferência distribuída: quatro Mac Studio rodam o Muse Spark Open a mais de 36 tokens por segundo. A base é um driver RDMA sobre Thunderbolt 5 e as novas coleções de comunicação jaccl.",
+      "A empresa diz que o chip M5 Ultra gera a primeira palavra até 4,6 vezes mais rápido que o M3 Ultra. O MLX é gratuito e de código aberto, e o custo fica no hardware. Todos os números são da própria Apple, em testes feitos por ela."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#apple",
+      "#mlx",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Apple rodando um modelo gigante em vários Mac Studio com o MLX",
+    "Slide 2: quatro Mac Studio rodam o Muse Spark Open de quase 816 bilhões de parâmetros",
+    "Slide 3: driver RDMA sobre Thunderbolt 5 e coleções jaccl do MLX dividem o trabalho",
+    "Slide 4: M5 Ultra gera a primeira palavra até 4,6 vezes mais rápido que o M3 Ultra",
+    "Slide 5: pacote MLX LM e comando mlx.launch publicados; MLX gratuito",
+    "Slide 6: fonte da matéria sobre o MLX da Apple: Apple Machine Learning"
+  ]
+}

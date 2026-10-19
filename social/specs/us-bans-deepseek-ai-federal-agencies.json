@@ -1,0 +1,101 @@
+{
+  "slug": "us-bans-deepseek-ai-federal-agencies",
+  "lang": "en",
+  "date": "19 Oct 2026",
+  "no": 58,
+  "category": "Policy",
+  "kicker": "Policy · US",
+  "headline": "US bans DeepSeek AI in federal agencies",
+  "headline_hl": "DeepSeek",
+  "dek": "Homeland Security cites the risk of sensitive data reaching China and blocks new purchases.",
+  "image": {
+    "path": "assets/img/us-bans-deepseek-ai-federal-agencies-278a8976.jpg",
+    "credit": "Lan Lin / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "DHS<br>vs DeepSeek",
+  "sources": [
+    "Convergência Digital",
+    "Olhar Digital IA"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Removal order",
+    "body": [
+      "DHS ordered civilian federal agencies to remove DeepSeek products from their IT systems (Convergência Digital, Olhar Digital).",
+      "The order also bars new purchases from the company and third-party services built on its technology, per Olhar Digital."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The risks cited",
+    "body": "According to Olhar Digital, DHS points to:",
+    "points": [
+      {
+        "h": "Data",
+        "t": "Risk of sensitive data reaching China (Olhar Digital)."
+      },
+      {
+        "h": "Spying",
+        "t": "Intelligence on citizens and on agencies."
+      },
+      {
+        "h": "Code",
+        "t": "Possible malicious software and flaws, DHS says."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A ring already closing",
+    "body": [
+      "According to Olhar Digital, the Commerce Department and the Navy had already banned DeepSeek on official devices.",
+      "States such as New York, Tennessee and Virginia took similar steps, per Olhar Digital."
+    ],
+    "stat": {
+      "big": "Three",
+      "cap": "states with similar steps, Olhar Digital says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What is still missing",
+    "items": [
+      {
+        "h": "Deadline",
+        "t": "DHS set no deadline for removing the systems."
+      },
+      {
+        "h": "China",
+        "t": "China's embassy had not commented, Olhar Digital says."
+      },
+      {
+        "h": "Legal base",
+        "t": "The order relies on a supply chain security law."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "The US told federal agencies to remove DeepSeek AI from their systems and barred new purchases.",
+    "body": [
+      "According to Convergência Digital and Olhar Digital, Homeland Security ordered the removal of DeepSeek products and barred third-party services built on the Chinese company's technology. The department cites the risk of sensitive data reaching China.",
+      "Olhar Digital notes that the Commerce Department and the Navy had already banned the tool, as had states such as New York, Tennessee and Virginia. DHS set no deadline for removal, and China's embassy had not commented."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#deepseek",
+      "#cybersecurity",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about the US banning DeepSeek in federal agencies",
+    "Slide 2: DHS orders removal of DeepSeek and bars new purchases",
+    "Slide 3: risks cited: data to China, intelligence and malicious code",
+    "Slide 4: Commerce, the Navy and states had already banned DeepSeek",
+    "Slide 5: no deadline set; China's embassy had not commented",
+    "Slide 6: sources for the DeepSeek story: Convergência Digital and Olhar Digital"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "lang": "pt",
+  "slug": "apple-mlx-inferencia-distribuida-mac-studio",
+  "story_id": "45e1b6b6edc1ba71",
+  "title": "Apple atualiza o MLX e roda modelo de 816 bilhões em vários Mac",
+  "dek": "Nova versão do framework usa uma conexão RDMA por Thunderbolt para unir vários Mac Studio e rodar modelos que não cabem em uma única máquina.",
+  "meta_description": "A Apple atualiza o MLX e usa RDMA por Thunderbolt para unir Mac Studio e rodar localmente um modelo de IA de 816 bilhões de parâmetros, segundo a empresa.",
+  "keyword": "MLX Apple inferência distribuída",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "apple",
+    "mlx",
+    "mac studio",
+    "modelos locais"
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "body": [
+    {
+      "type": "p",
+      "text": "A Apple lançou uma nova versão do MLX, seu framework de código aberto para treinar e rodar modelos de inteligência artificial em chips próprios, com suporte a inferência distribuída entre vários Mac Studio. Segundo a empresa, um cluster de quatro unidades do Mac Studio roda o modelo Muse Spark Open, de quase 816 bilhões de parâmetros (os números internos que o modelo ajusta durante o treinamento), gerando mais de 36 tokens por segundo — unidades de texto processadas pelo modelo — acima da velocidade média de leitura humana.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A novidade depende de dois lançamentos recentes: o driver RDMA — acesso direto à memória de um computador pelo outro, sem passar pelo processador — sobre Thunderbolt 5, introduzido no macOS 26.2, e as novas coleções de comunicação do MLX, batizadas de \"jaccl\", que usam esse driver para dividir o trabalho entre máquinas. A Apple diz que, no teste, conectou duas unidades de Mac Studio com dois cabos Thunderbolt, para dobrar a banda da ligação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa testou três modelos de pesos abertos — Muse Spark Open (816 bilhões de parâmetros), Mistral Medium 3.5 (128 bilhões) e Qwen 3.8 (27 bilhões) — comparando a geração mais recente de Mac Studio, com chip M5 Ultra, e a anterior, com M3 Ultra.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os dois modelos menores cabem em uma única Mac Studio com 512 GB de memória unificada, mesmo em janelas de contexto — a quantidade de texto que o modelo processa de uma vez — de 65.536 tokens: o Qwen 3.8 usa até 68 GB de memória e o Mistral Medium 3.5, até 158 GB, segundo a Apple.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Já o Muse Spark Open, por ter quase 816 bilhões de parâmetros, precisaria de mais de 1,6 TB de memória na precisão original (BF16). Comprimido para 4 bits (formato NVFP4), o modelo cai para cerca de 493 GB — ainda demais para uma única máquina, somado à memória que o próprio processamento consome durante a geração de texto. Por isso, a Apple divide o modelo entre duas ou mais Mac Studio, técnica chamada de paralelismo de pipeline: uma máquina processa a primeira metade das camadas do modelo e envia o resultado para a segunda, que processa o restante.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que o chip M5 muda",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Apple, o tempo até a primeira palavra gerada (TTFT, sigla em inglês para \"time to first token\") é até 4,6 vezes mais rápido no M5 Ultra do que no M3 Ultra, por causa dos Neural Accelerators, hardware dedicado à multiplicação de matrizes dentro da GPU. Já a velocidade de geração de texto, limitada pela banda de memória, é 1,6 vez maior no M5 Ultra: 1,2 TB/s contra 819 GB/s do M3 Ultra.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O consumo de energia no pico de uso fica em torno de 200 W para a configuração com M3 Ultra e 300 W para a com M5 Ultra durante a inferência — uma fração do consumo de uma torradeira comum, segundo a comparação feita pela própria Apple.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para desenvolvedores, a Apple publicou o pacote MLX LM usado nos testes, além do comando mlx.launch, que inicia o mesmo programa em várias máquinas ao mesmo tempo, com a opção --backend jaccl selecionando a nova coleção de comunicação baseada em RDMA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa já havia detalhado, em publicação anterior, as vantagens da arquitetura M5 e dos Neural Accelerators de sua GPU. Agora soma esse hardware à conexão RDMA para mostrar, segundo a Apple, o que chama de inferência distribuída de modelos de fronteira fora da nuvem.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: qualquer pessoa com um ou mais Mac Studio com chip M3 Ultra ou M5 Ultra e o MLX, framework de código aberto e gratuito da Apple.",
+        "Desde quando: a nova versão do MLX e o driver RDMA do macOS 26.2 foram lançados nesta semana, segundo a Apple.",
+        "Quanto custa: o MLX é gratuito; o custo é o do hardware — Mac Studio com até 512 GB de memória unificada.",
+        "O que muda: antes, rodar um modelo de quase 816 bilhões de parâmetros exigia infraestrutura de nuvem; agora a Apple mostra que ele roda localmente ao dividir o processamento entre várias Mac Studio conectadas por Thunderbolt."
+      ]
+    }
+  ],
+  "image": {
+    "query": "mac studio desktop computer chips connected cables",
+    "alt": "Fotografia ilustrativa de computadores desktop conectados por cabos representando processamento distribuído",
+    "path": "/assets/img/apple-mlx-inferencia-distribuida-mac-stu-cb440750.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "author": "Brecht Corbeel",
+    "author_url": "https://unsplash.com/@brechtcorbeel?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/illuminated-circuit-board-with-glowing-traces-and-electronic-components-qX4B3tFlyfg"
+  },
+  "sources": [
+    {
+      "name": "Apple Machine Learning",
+      "owner": "apple",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-19T21:51:05+00:00",
+  "updated_at": "2026-10-19T21:51:05+00:00"
+}
