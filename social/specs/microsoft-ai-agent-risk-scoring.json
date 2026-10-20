@@ -1,0 +1,101 @@
+{
+  "slug": "microsoft-ai-agent-risk-scoring",
+  "lang": "en",
+  "date": "20 Oct 2026",
+  "no": 59,
+  "category": "Applications",
+  "kicker": "Applications · Microsoft",
+  "headline": "Microsoft adds a risk score for AI agents",
+  "headline_hl": "risk score",
+  "dek": "The controls limit what an agent can do inside a company as its risk rises, Microsoft says.",
+  "image": {
+    "path": "assets/img/microsoft-ai-agent-risk-scoring-56967fba.jpg",
+    "credit": "lesha tuman / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Dynamic<br>Risk",
+  "sources": [
+    "Microsoft",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The agent already inside",
+    "body": [
+      "Microsoft released security controls for AI agents working inside companies (Microsoft, SiliconANGLE).",
+      "According to the company, these agents have too much access to data and systems and can act in ways no one intended."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the score works",
+    "body": "According to SiliconANGLE, each agent carries a risk score:",
+    "points": [
+      {
+        "h": "Score",
+        "t": "Dynamic Agent Risk rises when the agent strays."
+      },
+      {
+        "h": "Access",
+        "t": "A high score removes write access and leaves read-only."
+      },
+      {
+        "h": "Isolation",
+        "t": "At the top of the scale, the agent is isolated or halted."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Who Microsoft watches",
+    "body": [
+      "According to SiliconANGLE, the tools now identify 60 kinds of local agents, 35 more than before.",
+      "The list includes Claude Code, Codex and GitHub Copilot, according to SiliconANGLE."
+    ],
+    "stat": {
+      "big": "60",
+      "cap": "kinds of agents detected, SiliconANGLE says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What Microsoft did not say",
+    "items": [
+      {
+        "h": "Price",
+        "t": "The company did not share pricing for the new controls."
+      },
+      {
+        "h": "Date",
+        "t": "It did not say when general availability arrives."
+      },
+      {
+        "h": "Ignite",
+        "t": "It promises more at Microsoft Ignite, SiliconANGLE says."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Microsoft built a real-time risk score to monitor AI agents inside companies.",
+    "body": [
+      "According to Microsoft and SiliconANGLE, each agent gets an identity and a risk score that rises when it strays from what was intended. A high score can remove write access, require human approval or isolate the agent entirely.",
+      "SiliconANGLE says Microsoft's tools now detect 60 kinds of local agents, including Claude Code, Codex and GitHub Copilot. The company did not share pricing or a general availability date and promises more details at Microsoft Ignite."
+    ],
+    "cta_variant": "A",
+    "cta": "Would your company let an AI agent act without a guardian watching it?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#aiagents",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Microsoft adding a risk score for AI agents",
+    "Slide 2: AI agents inside companies have too much access, Microsoft says",
+    "Slide 3: the Dynamic Agent Risk score rises and restricts or isolates the agent",
+    "Slide 4: tools detect 60 kinds of agents, including Claude Code and Codex",
+    "Slide 5: Microsoft did not share pricing or a general availability date",
+    "Slide 6: sources for the Microsoft AI agent story: Microsoft and SiliconANGLE"
+  ]
+}

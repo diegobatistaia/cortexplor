@@ -1,0 +1,101 @@
+{
+  "slug": "microsoft-cria-controles-para-agentes-de-ia",
+  "lang": "pt",
+  "date": "20 out 2026",
+  "no": 63,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Microsoft",
+  "headline": "Microsoft cria nota de risco para agentes de IA",
+  "headline_hl": "nota de risco",
+  "dek": "Os controles limitam o que um agente faz dentro da empresa conforme o risco sobe, segundo a Microsoft.",
+  "image": {
+    "path": "assets/img/microsoft-cria-controles-para-agentes-de-56967fba.jpg",
+    "credit": "lesha tuman / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Dynamic<br>Risk",
+  "sources": [
+    "Microsoft",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O agente que já está dentro",
+    "body": [
+      "A Microsoft lançou controles de segurança para agentes de IA que atuam dentro das empresas (Microsoft, SiliconANGLE).",
+      "Segundo a empresa, esses agentes têm acesso amplo demais a dados e sistemas e podem agir de formas que ninguém pretendia."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como a nota funciona",
+    "body": "Segundo a SiliconANGLE, cada agente carrega uma nota de risco:",
+    "points": [
+      {
+        "h": "Nota",
+        "t": "Dynamic Agent Risk sobe quando o agente foge do esperado."
+      },
+      {
+        "h": "Acesso",
+        "t": "Nota alta tira a permissão de alterar e deixa só a leitura."
+      },
+      {
+        "h": "Isolamento",
+        "t": "No topo da escala, o agente é isolado ou interrompido."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Quem a Microsoft vigia",
+    "body": [
+      "Segundo a SiliconANGLE, as ferramentas agora identificam 60 tipos de agentes locais, 35 a mais que antes.",
+      "A lista inclui Claude Code, Codex e GitHub Copilot, segundo a SiliconANGLE."
+    ],
+    "stat": {
+      "big": "60",
+      "cap": "tipos de agentes detectados, diz a SiliconANGLE"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que a Microsoft não disse",
+    "items": [
+      {
+        "h": "Preço",
+        "t": "A empresa não informou preço dos novos controles."
+      },
+      {
+        "h": "Data",
+        "t": "Não disse quando a disponibilidade será geral."
+      },
+      {
+        "h": "Ignite",
+        "t": "Promete mais detalhes no Microsoft Ignite, diz a SiliconANGLE."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Microsoft criou uma nota de risco em tempo real para monitorar agentes de IA dentro das empresas.",
+    "body": [
+      "Segundo a Microsoft e a SiliconANGLE, cada agente recebe uma identidade e uma nota de risco que sobe quando ele foge do esperado. Nota alta pode tirar a permissão de alterar dados, exigir aprovação humana ou isolar o agente por completo.",
+      "A SiliconANGLE diz que as ferramentas da Microsoft agora detectam 60 tipos de agentes locais, incluindo Claude Code, Codex e GitHub Copilot. A empresa não informou preço nem data de disponibilidade geral e promete mais detalhes no Microsoft Ignite."
+    ],
+    "cta_variant": "A",
+    "cta": "Sua empresa deixaria um agente de IA agir sem um guardião vigiando?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#agentesdeia",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Microsoft criando nota de risco para agentes de IA",
+    "Slide 2: agentes de IA dentro das empresas têm acesso amplo demais, diz a Microsoft",
+    "Slide 3: a nota Dynamic Agent Risk sobe e restringe ou isola o agente",
+    "Slide 4: ferramentas detectam 60 tipos de agentes, incluindo Claude Code e Codex",
+    "Slide 5: a Microsoft não informou preço nem data de disponibilidade geral",
+    "Slide 6: fontes da matéria sobre os agentes de IA da Microsoft: Microsoft e SiliconANGLE"
+  ]
+}
