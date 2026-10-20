@@ -7,33 +7,105 @@
   "meta_description": "A shipment of RTX 5090 cards worth around $2.5 million vanished at Brazil's Guarulhos airport, distributor Oderço says, as AI demand pushes up GPU prices.",
   "keyword": "RTX 5090 shortage",
   "category": "mercado",
-  "tags": ["ai", "hardware", "gpu", "nvidia", "ai market"],
+  "tags": [
+    "ai",
+    "hardware",
+    "gpu",
+    "nvidia",
+    "ai market"
+  ],
   "body": [
-    {"type": "p", "text": "A shipment of Zotac RTX 5090 graphics cards disappeared right after arriving at São Paulo's Guarulhos International Airport in Brazil, according to distributor Oderço and a report by TecMundo. The company, based in the state of Paraná, estimates the loss at around 2.5 million reais at cost price.", "items": []},
-    {"type": "p", "text": "Oderço Matos, the distributor's president, said in a video posted to the company's Instagram account on Saturday that two pallets of RTX 5090 units went missing as soon as they landed in Guarulhos. According to Canaltech, the company has operated for more than 38 years, 18 of them handling imports, and this was the first time it lost a shipment.", "items": []},
-    {"type": "p", "text": "Oderço did not say how many units were in the two pallets, but Canaltech estimates the total easily tops a few hundred cards, and could exceed 400 units if individual retail boxes are also counted.", "items": []},
-    {"type": "h2", "text": "No explanation from the airport, distributor says", "items": []},
-    {"type": "p", "text": "Oderço criticized the lack of a response from the operator that runs the airport, which keeps security cameras across a facility that handles more than 120,000 people and large volumes of cargo every day, per Canaltech. The executive said he had no information on what caused the disappearance.", "items": []},
-    {"type": "p", "text": "In a statement to TecMundo, GRU Airport said it has been making every effort to resolve the case since it learned of it, that it has formally reported the missing cargo to the authorities, and that it remains in contact with the importer's representative. The operator added that on October 14 it gave the client instructions to start the compensation process, and that it is now waiting for the required documents before moving forward.", "items": []},
-    {"type": "h2", "text": "A card in high demand for AI", "items": []},
-    {"type": "p", "text": "Canaltech and TecMundo cite the same market price: a Zotac RTX 5090 currently retails for around 35,000 reais in Brazil. The 35,000-real figure cited by both outlets is the price charged to the end consumer, not what a distributor such as Oderço pays to import the product, according to Canaltech — which is why the company calculates its loss at cost price, lower than the retail figure. According to Canaltech, less than a year ago, before the AI boom, the same card cost under 15,000 reais, and the price increase has not been limited to Brazil.", "items": []},
-    {"type": "p", "text": "The RTX 5090 carries 32GB of video memory and Nvidia's Blackwell architecture, per TecMundo, which makes it useful for both high-end gaming and AI processing — and it is that second use, both outlets say, that has been driving the card off shelves and pushing its price up in recent months.", "items": []},
-    {"type": "p", "text": "Demand for the RTX 5090 is not unique to Brazil: TecMundo cites the case of a store in the United States that now requires buyers to sign an agreement not to export the card after purchase, a sign that distributors elsewhere are also trying to keep the product from leaving for the AI market. The episode adds to a string of reports this year about AI-driven chip shortages affecting buyers well beyond Brazil, as companies and individual users compete for the same limited supply of high-end GPUs.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Price: around 35,000 reais at retail in Brazil today, up from under 15,000 reais less than a year ago, according to Canaltech.",
-      "What changes: demand for high-capacity GPUs to run AI models, combined with a global shortage, has pushed up the card's price and, Oderço says, made shipments like this one a more attractive target.",
-      "Who is affected: distributor Oderço, which is awaiting compensation from GRU Airport, and Brazil's AI hardware market, already dealing with higher prices driven by demand for the technology.",
-      "Investigation status: GRU Airport says it has reported the case to the authorities and started the compensation process on October 14; the cause of the disappearance remains unexplained."
-    ]}
+    {
+      "type": "p",
+      "text": "A shipment of Zotac RTX 5090 graphics cards disappeared right after arriving at São Paulo's Guarulhos International Airport in Brazil, according to distributor Oderço and a report by TecMundo. The company, based in the state of Paraná, estimates the loss at around 2.5 million reais at cost price.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Oderço Matos, the distributor's president, said in a video posted to the company's Instagram account on Saturday that two pallets of RTX 5090 units went missing as soon as they landed in Guarulhos. According to Canaltech, the company has operated for more than 38 years, 18 of them handling imports, and this was the first time it lost a shipment.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Oderço did not say how many units were in the two pallets, but Canaltech estimates the total easily tops a few hundred cards, and could exceed 400 units if individual retail boxes are also counted.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "No explanation from the airport, distributor says",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Oderço criticized the lack of a response from the operator that runs the airport, which keeps security cameras across a facility that handles more than 120,000 people and large volumes of cargo every day, per Canaltech. The executive said he had no information on what caused the disappearance.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a statement to TecMundo, GRU Airport said it has been making every effort to resolve the case since it learned of it, that it has formally reported the missing cargo to the authorities, and that it remains in contact with the importer's representative. The operator added that on October 14 it gave the client instructions to start the compensation process, and that it is now waiting for the required documents before moving forward.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A card in high demand for AI",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech and TecMundo cite the same market price: a Zotac RTX 5090 currently retails for around 35,000 reais in Brazil. The 35,000-real figure cited by both outlets is the price charged to the end consumer, not what a distributor such as Oderço pays to import the product, according to Canaltech — which is why the company calculates its loss at cost price, lower than the retail figure. According to Canaltech, less than a year ago, before the AI boom, the same card cost under 15,000 reais, and the price increase has not been limited to Brazil.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The RTX 5090 carries 32GB of video memory and Nvidia's Blackwell architecture, per TecMundo, which makes it useful for both high-end gaming and AI processing — and it is that second use, both outlets say, that has been driving the card off shelves and pushing its price up in recent months.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Demand for the RTX 5090 is not unique to Brazil: TecMundo cites the case of a store in the United States that now requires buyers to sign an agreement not to export the card after purchase, a sign that distributors elsewhere are also trying to keep the product from leaving for the AI market. The episode adds to a string of reports this year about AI-driven chip shortages affecting buyers well beyond Brazil, as companies and individual users compete for the same limited supply of high-end GPUs.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Price: around 35,000 reais at retail in Brazil today, up from under 15,000 reais less than a year ago, according to Canaltech.",
+        "What changes: demand for high-capacity GPUs to run AI models, combined with a global shortage, has pushed up the card's price and, Oderço says, made shipments like this one a more attractive target.",
+        "Who is affected: distributor Oderço, which is awaiting compensation from GRU Airport, and Brazil's AI hardware market, already dealing with higher prices driven by demand for the technology.",
+        "Investigation status: GRU Airport says it has reported the case to the authorities and started the compensation process on October 14; the cause of the disappearance remains unexplained."
+      ]
+    }
   ],
   "image": {
     "query": "graphics card shipment cargo airport warehouse",
-    "alt": "Illustrative photo of graphics cards and cargo boxes in an airport setting"
+    "alt": "Illustrative photo of graphics cards and cargo boxes in an airport setting",
+    "path": "/assets/img/rtx-5090-shipment-vanishes-brazil-2a1d8d0e.jpg",
+    "credit": "Andrey Matveev / Unsplash",
+    "author": "Andrey Matveev",
+    "author_url": "https://unsplash.com/@zelebb?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-white-and-black-fan-sitting-on-top-of-a-wooden-table-E_fSJQJ-GKg"
   },
   "sources": [
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/hardware/carga-milionaria-de-rtx-5090-desaparece-misteriosamente-no-aeroporto-de-guarulhos/", "title": "Carga milionária de RTX 5090 desaparece misteriosamente no aeroporto de Guarulhos"},
-    {"name": "TecMundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/big-techs/carga-de-gpus-rtx-5090-avaliada-em-r-25-milhoes-desaparece-no-aeroporto-de-guarulhos/", "title": "Carga de GPUs RTX 5090 avaliada em R$ 2,5 milhões desaparece no Aeroporto de Guarulhos"}
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/hardware/carga-milionaria-de-rtx-5090-desaparece-misteriosamente-no-aeroporto-de-guarulhos/",
+      "title": "Carga milionária de RTX 5090 desaparece misteriosamente no aeroporto de Guarulhos"
+    },
+    {
+      "name": "TecMundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/big-techs/carga-de-gpus-rtx-5090-avaliada-em-r-25-milhoes-desaparece-no-aeroporto-de-guarulhos/",
+      "title": "Carga de GPUs RTX 5090 avaliada em R$ 2,5 milhões desaparece no Aeroporto de Guarulhos"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-20T10:51:58+00:00",
+  "updated_at": "2026-10-20T10:51:58+00:00"
 }

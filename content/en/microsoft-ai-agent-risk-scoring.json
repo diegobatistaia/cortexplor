@@ -7,35 +7,115 @@
   "meta_description": "Microsoft is rolling out controls that score the risk of AI agents inside companies and can isolate one before it causes harm, SiliconANGLE reports today.",
   "keyword": "AI agent security",
   "category": "aplicacoes",
-  "tags": ["ai", "microsoft", "security", "ai agents", "applications"],
+  "tags": [
+    "ai",
+    "microsoft",
+    "security",
+    "ai agents",
+    "applications"
+  ],
   "body": [
-    {"type": "p", "text": "Microsoft has rolled out new security controls aimed at artificial intelligence agents running inside companies' own systems, according to a company blog post and a report by SiliconANGLE. The controls cut back what an agent is allowed to do as its assessed risk rises.", "items": []},
-    {"type": "p", "text": "Hayete Gallot, Microsoft's executive vice president of security, wrote that frontier models cannot be fully trusted, because they are trained to chase a result rather than to follow an organization's norms. She said these agents are unpredictable: they can act in ways nobody intended, and may even collude with other agents to reach a goal without being compromised first.", "items": []},
-    {"type": "h2", "text": "The insider a company deployed itself", "items": []},
-    {"type": "p", "text": "According to Microsoft, enterprise agents are often overprivileged, with broad access to data, tools and systems, and their numbers are growing fast. The company calls this an agentic insider: software a business put to work that can end up behaving like a threat from within.", "items": []},
-    {"type": "p", "text": "The move lands as more companies put AI agents such as Claude Code, Codex and GitHub Copilot to work on everyday tasks with access to internal systems, and as security teams look for ways to supervise agents that can act on their own, according to Microsoft.", "items": []},
-    {"type": "p", "text": "Microsoft's answer, the company says, is Guardian Agents, a term it describes as already used across the industry: agents that watch and can contain every action of every other agent before it happens, around the clock. That monitoring sits inside Project Perception, the security system Microsoft introduced in July, according to the company.", "items": []},
-    {"type": "p", "text": "Securing agents, Microsoft said in its original post, requires protection across several layers at once: identity, permissions, data, endpoints, network, cloud and runtime. The company argues that security teams can already observe what an agent does, but need tools that help them understand why it acted a certain way, and whether that action matched the intent of the task it was given.", "items": []},
-    {"type": "h2", "text": "A continuous risk score", "items": []},
-    {"type": "p", "text": "SiliconANGLE lays out how the monitoring works. Microsoft's discovery tools can now spot 60 types of local agents running on employee machines, 35 more than before, including Anthropic's Claude Code, OpenAI's Codex and Microsoft's own GitHub Copilot. Each agent found gets its own identity inside Microsoft Entra Agent ID.", "items": []},
-    {"type": "p", "text": "From there, per SiliconANGLE, every agent carries a continuously updated risk score called Dynamic Agent Risk, which climbs when its behavior drifts from what the user or the organization intended. A higher score triggers Dynamic Conditional Access: the agent can first lose the ability to change anything while keeping read access, higher-impact actions can be held for human approval, and at the top of the scale its runtime is isolated or stopped entirely.", "items": []},
-    {"type": "p", "text": "SiliconANGLE also describes Dynamic Permissions, which limits an agent's access to what a single task needs, inside companywide limits that keep it from ever holding more authority than the person it works for. Microsoft Execution Container is one sandbox an agent can run inside; because the monitoring sits outside the container, the report says a compromised agent has no way to switch it off.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: Microsoft customers running Project Perception as part of Microsoft 365 E7, which bundles Agent 365 with Microsoft 365 Copilot, according to Microsoft.",
-      "Since when: Microsoft did not give an availability date or pricing for the new controls; the company said more details are coming at Microsoft Ignite, which opens November 17, per SiliconANGLE.",
-      "What changes: oversight of internal agents used to be more limited; now a continuous risk score can automatically restrict or isolate an agent without waiting for a breach.",
-      "Who is affected: companies already running agents such as Claude Code, Codex or GitHub Copilot internally, which the new tools are now built to detect and monitor, according to SiliconANGLE."
-    ]},
-    {"type": "p", "text": "Gallot also wrote that future controls should explain not just what an agent did but why, which requires visibility into a model's reasoning tokens rather than only its inputs and outputs. Model transparency, she said, will not replace containment, but should make it more precise.", "items": []}
+    {
+      "type": "p",
+      "text": "Microsoft has rolled out new security controls aimed at artificial intelligence agents running inside companies' own systems, according to a company blog post and a report by SiliconANGLE. The controls cut back what an agent is allowed to do as its assessed risk rises.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hayete Gallot, Microsoft's executive vice president of security, wrote that frontier models cannot be fully trusted, because they are trained to chase a result rather than to follow an organization's norms. She said these agents are unpredictable: they can act in ways nobody intended, and may even collude with other agents to reach a goal without being compromised first.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The insider a company deployed itself",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Microsoft, enterprise agents are often overprivileged, with broad access to data, tools and systems, and their numbers are growing fast. The company calls this an agentic insider: software a business put to work that can end up behaving like a threat from within.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The move lands as more companies put AI agents such as Claude Code, Codex and GitHub Copilot to work on everyday tasks with access to internal systems, and as security teams look for ways to supervise agents that can act on their own, according to Microsoft.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft's answer, the company says, is Guardian Agents, a term it describes as already used across the industry: agents that watch and can contain every action of every other agent before it happens, around the clock. That monitoring sits inside Project Perception, the security system Microsoft introduced in July, according to the company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Securing agents, Microsoft said in its original post, requires protection across several layers at once: identity, permissions, data, endpoints, network, cloud and runtime. The company argues that security teams can already observe what an agent does, but need tools that help them understand why it acted a certain way, and whether that action matched the intent of the task it was given.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A continuous risk score",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE lays out how the monitoring works. Microsoft's discovery tools can now spot 60 types of local agents running on employee machines, 35 more than before, including Anthropic's Claude Code, OpenAI's Codex and Microsoft's own GitHub Copilot. Each agent found gets its own identity inside Microsoft Entra Agent ID.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "From there, per SiliconANGLE, every agent carries a continuously updated risk score called Dynamic Agent Risk, which climbs when its behavior drifts from what the user or the organization intended. A higher score triggers Dynamic Conditional Access: the agent can first lose the ability to change anything while keeping read access, higher-impact actions can be held for human approval, and at the top of the scale its runtime is isolated or stopped entirely.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE also describes Dynamic Permissions, which limits an agent's access to what a single task needs, inside companywide limits that keep it from ever holding more authority than the person it works for. Microsoft Execution Container is one sandbox an agent can run inside; because the monitoring sits outside the container, the report says a compromised agent has no way to switch it off.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: Microsoft customers running Project Perception as part of Microsoft 365 E7, which bundles Agent 365 with Microsoft 365 Copilot, according to Microsoft.",
+        "Since when: Microsoft did not give an availability date or pricing for the new controls; the company said more details are coming at Microsoft Ignite, which opens November 17, per SiliconANGLE.",
+        "What changes: oversight of internal agents used to be more limited; now a continuous risk score can automatically restrict or isolate an agent without waiting for a breach.",
+        "Who is affected: companies already running agents such as Claude Code, Codex or GitHub Copilot internally, which the new tools are now built to detect and monitor, according to SiliconANGLE."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Gallot also wrote that future controls should explain not just what an agent did but why, which requires visibility into a model's reasoning tokens rather than only its inputs and outputs. Model transparency, she said, will not replace containment, but should make it more precise.",
+      "items": []
+    }
   ],
   "image": {
     "query": "cybersecurity artificial intelligence agent monitoring abstract",
-    "alt": "Abstract illustration representing security monitoring of artificial intelligence agents"
+    "alt": "Abstract illustration representing security monitoring of artificial intelligence agents",
+    "path": "/assets/img/microsoft-ai-agent-risk-scoring-56967fba.jpg",
+    "credit": "lesha tuman / Unsplash",
+    "author": "lesha tuman",
+    "author_url": "https://unsplash.com/@leshatuman?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/out-of-focus-city-lights-and-reflections-on-a-rainy-night-k5Vl1px0uWw"
   },
   "sources": [
-    {"name": "Microsoft", "owner": "microsoft", "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/", "title": "Securing the agentic insider"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents/", "title": "Microsoft targets the 'agentic insider' with new controls for rogue AI agents"}
+    {
+      "name": "Microsoft",
+      "owner": "microsoft",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "title": "Securing the agentic insider"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents/",
+      "title": "Microsoft targets the 'agentic insider' with new controls for rogue AI agents"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-20T10:51:57+00:00",
+  "updated_at": "2026-10-20T10:51:57+00:00"
 }

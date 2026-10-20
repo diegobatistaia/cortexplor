@@ -7,33 +7,105 @@
   "meta_description": "Un envío de tarjetas RTX 5090 valuado en $2,5 millones desaparece en Guarulhos, según la distribuidora Oderço, mientras la demanda de IA dispara su precio.",
   "keyword": "RTX 5090 escasez",
   "category": "mercado",
-  "tags": ["ia", "hardware", "gpu", "nvidia", "mercado de ia"],
+  "tags": [
+    "ia",
+    "hardware",
+    "gpu",
+    "nvidia",
+    "mercado de ia"
+  ],
   "body": [
-    {"type": "p", "text": "Un envío de tarjetas gráficas RTX 5090 de Zotac desapareció justo después de llegar al Aeropuerto Internacional de Guarulhos, en São Paulo, según la distribuidora Oderço y un reportaje de TecMundo. La empresa, con sede en el estado de Paraná, calcula la pérdida en unos 2,5 millones de reales al precio de costo.", "items": []},
-    {"type": "p", "text": "Oderço Matos, presidente de la distribuidora, dijo en un video publicado en el Instagram de la compañía el sábado que dos pallets con unidades de la RTX 5090 desaparecieron apenas desembarcaron en Guarulhos. Según Canaltech, la empresa opera hace más de 38 años, 18 de ellos haciendo importaciones, y esta fue la primera vez que perdió un envío.", "items": []},
-    {"type": "p", "text": "Oderço no informó cuántas unidades había en los dos pallets, pero Canaltech calcula que la cantidad supera fácilmente algunas centenas de placas, y podría pasar de 400 unidades si se cuentan también cajas sueltas destinadas al comercio minorista.", "items": []},
-    {"type": "h2", "text": "Sin explicación del aeropuerto, según la distribuidora", "items": []},
-    {"type": "p", "text": "Oderço criticó la falta de respuesta de la concesionaria que administra el aeropuerto, que mantiene cámaras de seguridad en toda la instalación, por la que pasan más de 120 mil personas y grandes volúmenes de carga cada día, de acuerdo con Canaltech. El empresario dijo no tener información sobre la causa de la desaparición.", "items": []},
-    {"type": "p", "text": "En una nota enviada a TecMundo, GRU Airport afirmó que ha estado haciendo todos los esfuerzos para resolver el caso desde que se enteró, que reportó formalmente la carga no localizada a las autoridades y que mantiene contacto con el representante del importador. La concesionaria agregó que el 14 de octubre entregó al cliente las instrucciones para iniciar el proceso de indemnización y que ahora espera la documentación para continuar con el análisis.", "items": []},
-    {"type": "h2", "text": "Una placa disputada por la demanda de IA", "items": []},
-    {"type": "p", "text": "Canaltech y TecMundo citan el mismo precio de mercado: una RTX 5090 de Zotac cuesta hoy, en promedio, 35 mil reales en el comercio minorista de Brasil. El valor de 35 mil reales citado por ambas fuentes es el precio al consumidor final, no lo que paga una distribuidora como Oderço al importar el producto, según Canaltech, por lo que la empresa calcula su pérdida al precio de costo, más bajo que el de venta al público. Según Canaltech, hace menos de un año, antes del auge de la inteligencia artificial, la misma placa costaba menos de 15 mil reales, y el aumento de precio no se limitó a Brasil.", "items": []},
-    {"type": "p", "text": "La RTX 5090 tiene 32 GB de memoria de video y arquitectura Blackwell, de Nvidia, según TecMundo, lo que la hace útil tanto para videojuegos exigentes como para el procesamiento de inteligencia artificial, y es este segundo uso, según ambas fuentes, el que ha sacado la placa de las tiendas y disparado su precio en los últimos meses.", "items": []},
-    {"type": "p", "text": "La disputa por la RTX 5090 no es exclusiva de Brasil: TecMundo cita el caso de una tienda de Estados Unidos que ahora exige a los compradores firmar un acuerdo de no exportar la placa tras comprarla, una señal de que distribuidores de otros países también intentan frenar la salida del producto hacia el mercado de la IA. El episodio se suma a una serie de reportes este año sobre escasez de chips impulsada por la IA que afecta a compradores mucho más allá de Brasil, mientras empresas y usuarios individuales compiten por el mismo suministro limitado de GPU de alto rendimiento.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Cuánto cuesta: alrededor de 35 mil reales en el comercio minorista de Brasil hoy, frente a menos de 15 mil reales hace menos de un año, según Canaltech.",
-      "Qué cambia: la demanda de GPU de alta capacidad para ejecutar modelos de inteligencia artificial, sumada a la escasez global, elevó el precio de la placa y, según Oderço, convirtió envíos como este en un blanco más atractivo.",
-      "Quién se ve afectado: la distribuidora Oderço, que espera la indemnización de GRU Airport, y el mercado de hardware para IA en Brasil, que ya enfrenta precios más altos por la demanda de la tecnología.",
-      "Estado de la investigación: GRU Airport dice haber reportado el caso a las autoridades e iniciado, el 14/10, el proceso de indemnización; la causa de la desaparición sigue sin explicación."
-    ]}
+    {
+      "type": "p",
+      "text": "Un envío de tarjetas gráficas RTX 5090 de Zotac desapareció justo después de llegar al Aeropuerto Internacional de Guarulhos, en São Paulo, según la distribuidora Oderço y un reportaje de TecMundo. La empresa, con sede en el estado de Paraná, calcula la pérdida en unos 2,5 millones de reales al precio de costo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Oderço Matos, presidente de la distribuidora, dijo en un video publicado en el Instagram de la compañía el sábado que dos pallets con unidades de la RTX 5090 desaparecieron apenas desembarcaron en Guarulhos. Según Canaltech, la empresa opera hace más de 38 años, 18 de ellos haciendo importaciones, y esta fue la primera vez que perdió un envío.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Oderço no informó cuántas unidades había en los dos pallets, pero Canaltech calcula que la cantidad supera fácilmente algunas centenas de placas, y podría pasar de 400 unidades si se cuentan también cajas sueltas destinadas al comercio minorista.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Sin explicación del aeropuerto, según la distribuidora",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Oderço criticó la falta de respuesta de la concesionaria que administra el aeropuerto, que mantiene cámaras de seguridad en toda la instalación, por la que pasan más de 120 mil personas y grandes volúmenes de carga cada día, de acuerdo con Canaltech. El empresario dijo no tener información sobre la causa de la desaparición.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En una nota enviada a TecMundo, GRU Airport afirmó que ha estado haciendo todos los esfuerzos para resolver el caso desde que se enteró, que reportó formalmente la carga no localizada a las autoridades y que mantiene contacto con el representante del importador. La concesionaria agregó que el 14 de octubre entregó al cliente las instrucciones para iniciar el proceso de indemnización y que ahora espera la documentación para continuar con el análisis.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Una placa disputada por la demanda de IA",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech y TecMundo citan el mismo precio de mercado: una RTX 5090 de Zotac cuesta hoy, en promedio, 35 mil reales en el comercio minorista de Brasil. El valor de 35 mil reales citado por ambas fuentes es el precio al consumidor final, no lo que paga una distribuidora como Oderço al importar el producto, según Canaltech, por lo que la empresa calcula su pérdida al precio de costo, más bajo que el de venta al público. Según Canaltech, hace menos de un año, antes del auge de la inteligencia artificial, la misma placa costaba menos de 15 mil reales, y el aumento de precio no se limitó a Brasil.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La RTX 5090 tiene 32 GB de memoria de video y arquitectura Blackwell, de Nvidia, según TecMundo, lo que la hace útil tanto para videojuegos exigentes como para el procesamiento de inteligencia artificial, y es este segundo uso, según ambas fuentes, el que ha sacado la placa de las tiendas y disparado su precio en los últimos meses.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La disputa por la RTX 5090 no es exclusiva de Brasil: TecMundo cita el caso de una tienda de Estados Unidos que ahora exige a los compradores firmar un acuerdo de no exportar la placa tras comprarla, una señal de que distribuidores de otros países también intentan frenar la salida del producto hacia el mercado de la IA. El episodio se suma a una serie de reportes este año sobre escasez de chips impulsada por la IA que afecta a compradores mucho más allá de Brasil, mientras empresas y usuarios individuales compiten por el mismo suministro limitado de GPU de alto rendimiento.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Cuánto cuesta: alrededor de 35 mil reales en el comercio minorista de Brasil hoy, frente a menos de 15 mil reales hace menos de un año, según Canaltech.",
+        "Qué cambia: la demanda de GPU de alta capacidad para ejecutar modelos de inteligencia artificial, sumada a la escasez global, elevó el precio de la placa y, según Oderço, convirtió envíos como este en un blanco más atractivo.",
+        "Quién se ve afectado: la distribuidora Oderço, que espera la indemnización de GRU Airport, y el mercado de hardware para IA en Brasil, que ya enfrenta precios más altos por la demanda de la tecnología.",
+        "Estado de la investigación: GRU Airport dice haber reportado el caso a las autoridades e iniciado, el 14/10, el proceso de indemnización; la causa de la desaparición sigue sin explicación."
+      ]
+    }
   ],
   "image": {
     "query": "graphics card shipment cargo airport warehouse",
-    "alt": "Fotografía ilustrativa de tarjetas gráficas y cajas de carga en un entorno de aeropuerto"
+    "alt": "Fotografía ilustrativa de tarjetas gráficas y cajas de carga en un entorno de aeropuerto",
+    "path": "/assets/img/carga-rtx-5090-desaparece-brasil-2a1d8d0e.jpg",
+    "credit": "Andrey Matveev / Unsplash",
+    "author": "Andrey Matveev",
+    "author_url": "https://unsplash.com/@zelebb?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-white-and-black-fan-sitting-on-top-of-a-wooden-table-E_fSJQJ-GKg"
   },
   "sources": [
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/hardware/carga-milionaria-de-rtx-5090-desaparece-misteriosamente-no-aeroporto-de-guarulhos/", "title": "Carga milionária de RTX 5090 desaparece misteriosamente no aeroporto de Guarulhos"},
-    {"name": "TecMundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/big-techs/carga-de-gpus-rtx-5090-avaliada-em-r-25-milhoes-desaparece-no-aeroporto-de-guarulhos/", "title": "Carga de GPUs RTX 5090 avaliada em R$ 2,5 milhões desaparece no Aeroporto de Guarulhos"}
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/hardware/carga-milionaria-de-rtx-5090-desaparece-misteriosamente-no-aeroporto-de-guarulhos/",
+      "title": "Carga milionária de RTX 5090 desaparece misteriosamente no aeroporto de Guarulhos"
+    },
+    {
+      "name": "TecMundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/big-techs/carga-de-gpus-rtx-5090-avaliada-em-r-25-milhoes-desaparece-no-aeroporto-de-guarulhos/",
+      "title": "Carga de GPUs RTX 5090 avaliada em R$ 2,5 milhões desaparece no Aeroporto de Guarulhos"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-20T10:51:58+00:00",
+  "updated_at": "2026-10-20T10:51:58+00:00"
 }
