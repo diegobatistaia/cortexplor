@@ -1,0 +1,42 @@
+{
+  "lang": "en",
+  "slug": "openai-acquires-orchestra-bio-biotech-startup",
+  "story_id": "c21320598d0c1439",
+  "title": "OpenAI Acquires Orchestra Bio to Speed Up Drug Development",
+  "dek": "The deal folds Orchestra's agents into Rosalind, OpenAI's life sciences platform, which already counts Moderna and Novo Nordisk as customers.",
+  "meta_description": "OpenAI has acquired biotech startup Orchestra Bio, whose AI agents coordinate drug development programs, folding it into its Rosalind life sciences platform.",
+  "keyword": "OpenAI Orchestra Bio acquisition",
+  "category": "mercado",
+  "tags": ["ai", "openai", "biotech", "pharma", "acquisitions"],
+  "body": [
+    {"type": "p", "text": "OpenAI said on Tuesday it has acquired Orchestra Bio, a startup whose platform lets people and AI agents jointly coordinate drug development programs, according to the company's own announcement and reporting from TechCrunch.", "items": []},
+    {"type": "p", "text": "Deal terms were not disclosed. TechCrunch reports that the four-year-old startup had previously raised roughly $20 million from investors including Andreessen Horowitz, Atria and 8VC.", "items": []},
+    {"type": "h2", "text": "What Orchestra's agents actually do", "items": []},
+    {"type": "p", "text": "According to OpenAI, Orchestra's agents monitor and track the studies and campaigns inside a drug program, freeing up scientists and program leaders to make decisions instead of chasing spreadsheets. The company gives one example of the mechanism: a failed manufacturing batch can delay the start of a clinical trial elsewhere in the same program. When that happens, the agents identify which other activities and timelines are affected, gather the relevant information, and compare possible responses so the human team can decide what to do next.", "items": []},
+    {"type": "h2", "text": "Folded into Rosalind", "items": []},
+    {"type": "p", "text": "Orchestra's team and technology are joining Rosalind, the set of AI models and tools OpenAI maintains for life sciences research. OpenAI describes two pieces inside Rosalind: GPT-Rosalind, a model tuned to help scientists reason through biology and chemistry questions, and Rosalind Workbench, which connects that model to lab data and tools so researchers can plan experiments and analyze results. With Orchestra, OpenAI says it is now also targeting the next step: turning a scientific finding into agents that can link it to the studies, decisions and next actions needed to advance a potential treatment.", "items": []},
+    {"type": "p", "text": "Both OpenAI and TechCrunch confirm that Rosalind already counts Moderna and Novo Nordisk as customers. OpenAI says its partnership with Novo Nordisk aims to translate the pharmaceutical company's scale and scientific expertise into faster R&D and commercial execution while keeping governance controls in place; at Moderna, the company says AI is helping teams turn complex data into experimental workflows, with the potential to speed up research.", "items": []},
+    {"type": "h2", "text": "Why OpenAI is chasing the pharma industry", "items": []},
+    {"type": "p", "text": "OpenAI says developing a new medicine takes roughly 10 to 15 years on average, from target discovery to U.S. regulatory approval, and that part of that time is lost coordinating internal departments and outside partners that rely on disconnected systems.", "items": []},
+    {"type": "p", "text": "TechCrunch frames the purchase as an example of how the largest AI labs, naming Anthropic as well, are building more and more software for specific industries such as pharma. The outlet says this feeds a recurring fear in the startup world: that at any moment these labs could ship competing features and steamroll smaller players. In this case, TechCrunch notes, Orchestra Bio was absorbed rather than squeezed out.", "items": []},
+    {"type": "p", "text": "OpenAI says its longer-term goal is to cover the full process of discovering and developing new medicines with AI — from exploring ideas to designing experiments, interpreting results and coordinating the work needed to move a promising treatment forward. The company describes folding Orchestra Bio into Rosalind as one step toward that goal, not the end of it.", "items": []},
+    {"type": "p", "text": "OpenAI says Orchestra brings a team with experience across biotech, software and AI, along with a platform already built specifically to coordinate drug development — expertise the company says complements Rosalind's existing reasoning model and lab-facing workbench tools rather than duplicating them.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Pharma and biotech companies that are already Rosalind customers, such as Moderna and Novo Nordisk, can use the tools coming out of the integration, according to OpenAI and TechCrunch.",
+      "The acquisition was announced on October 20, 2026.",
+      "The price OpenAI paid for Orchestra Bio was not disclosed, according to OpenAI and TechCrunch.",
+      "Orchestra Bio stops operating as an independent startup and becomes part of Rosalind and Rosalind Workbench.",
+      "Before the deal, Orchestra Bio had raised about $20 million from investors including Andreessen Horowitz, Atria and 8VC, according to TechCrunch."
+    ]}
+  ],
+  "image": {
+    "query": "scientist lab biotech drug research digital data",
+    "alt": "Scientist reviewing pharmaceutical research data on a computer in a biotech lab"
+  },
+  "sources": [
+    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/openai-to-acquire-orchestra-bio", "title": "OpenAI acquires Orchestra Bio"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/", "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business"}
+  ],
+  "status": "draft"
+}
