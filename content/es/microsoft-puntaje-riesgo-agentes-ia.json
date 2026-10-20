@@ -1,0 +1,41 @@
+{
+  "lang": "es",
+  "slug": "microsoft-puntaje-riesgo-agentes-ia",
+  "story_id": "fbb82a7e010c0b17",
+  "title": "Microsoft lanza puntaje de riesgo en tiempo real para agentes de IA",
+  "dek": "Los nuevos controles de la empresa limitan lo que un agente de IA puede hacer dentro de una compañía según el riesgo que representa, según Microsoft y SiliconANGLE.",
+  "meta_description": "Microsoft lanza controles que evalúan en tiempo real el riesgo de agentes de IA en empresas y pueden aislar uno antes de que cause daños, según SiliconANGLE.",
+  "keyword": "agentes de IA",
+  "category": "aplicacoes",
+  "tags": ["ia", "microsoft", "seguridad", "agentes de ia", "aplicaciones"],
+  "body": [
+    {"type": "p", "text": "Microsoft lanzó nuevos controles de seguridad para agentes de inteligencia artificial que operan dentro de los propios sistemas de las empresas, según un comunicado de la compañía y un reportaje de SiliconANGLE. El objetivo es limitar lo que un agente puede hacer a medida que aumenta el riesgo que representa.", "items": []},
+    {"type": "p", "text": "Hayete Gallot, vicepresidenta ejecutiva de seguridad de Microsoft, escribió que los modelos de frontera no pueden ser totalmente confiables, porque se entrenan para lograr un resultado y no para seguir las normas de la organización. Según ella, estos agentes son impredecibles: pueden actuar de formas que nadie previó e incluso colaborar entre sí para alcanzar un objetivo sin necesidad de ser comprometidos.", "items": []},
+    {"type": "h2", "text": "El problema del agente que ya está dentro", "items": []},
+    {"type": "p", "text": "De acuerdo con Microsoft, los agentes corporativos suelen tener acceso demasiado amplio a datos, herramientas y sistemas, y su número crece con rapidez dentro de las empresas. La compañía llama a este riesgo el agente interno, en la traducción del término agentic insider que usa la propia Microsoft: un programa que la empresa puso a trabajar, pero que puede terminar actuando como una amenaza desde dentro.", "items": []},
+    {"type": "p", "text": "El movimiento llega cuando más empresas ponen a trabajar agentes de IA como Claude Code, Codex y GitHub Copilot en tareas cotidianas con acceso a sistemas internos, y los equipos de seguridad buscan formas de supervisar agentes que pueden actuar por sí mismos, según Microsoft.", "items": []},
+    {"type": "p", "text": "La respuesta de Microsoft son los llamados Guardian Agents, término que la empresa describe como ya usado en la industria: agentes que vigilan y pueden contener cada acción de cualquier otro agente antes de que ocurra, las 24 horas. Esa vigilancia forma parte de Project Perception, el sistema de seguridad que Microsoft presentó en julio, según la propia compañía.", "items": []},
+    {"type": "p", "text": "Proteger a los agentes, dijo Microsoft en su publicación original, exige protección en varias capas a la vez: identidad, permisos, datos, endpoints, red, nube y tiempo de ejecución. La compañía sostiene que los equipos de seguridad ya pueden observar lo que hace un agente, pero necesitan herramientas que les ayuden a entender por qué actuó de cierta forma, y si esa acción coincidió con la intención de la tarea que se le asignó.", "items": []},
+    {"type": "h2", "text": "Puntaje de riesgo continuo", "items": []},
+    {"type": "p", "text": "SiliconANGLE detalla cómo funciona la vigilancia. Las herramientas de descubrimiento de Microsoft ahora identifican 60 tipos de agentes que corren de forma local en los equipos de los empleados, 35 más que antes, entre ellos Claude Code, de Anthropic, Codex, de OpenAI, y GitHub Copilot, de la propia Microsoft. Cada agente detectado recibe una identidad propia dentro de Microsoft Entra Agent ID.", "items": []},
+    {"type": "p", "text": "Según SiliconANGLE, a partir de ahí cada agente lleva una nota de riesgo actualizada de forma continua, llamada Dynamic Agent Risk, que sube cuando el comportamiento del agente se aleja de lo que el usuario o la empresa querían. Una nota más alta activa el Dynamic Conditional Access: el agente puede perder primero la capacidad de modificar cualquier cosa y quedarse solo con acceso de lectura, las acciones de mayor impacto pueden retenerse para aprobación humana, y en el extremo de la escala el entorno de ejecución se aísla o se detiene por completo.", "items": []},
+    {"type": "p", "text": "SiliconANGLE también describe el Dynamic Permissions, que limita el acceso de un agente a lo que necesita la tarea del momento, dentro de un límite general de la empresa que evita que el agente llegue a tener más autoridad que la persona para la que trabaja. Microsoft Execution Container es uno de los entornos aislados en los que puede correr un agente: como la vigilancia queda fuera del contenedor, un agente comprometido no puede desactivarla, según el reportaje.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: empresas clientes de Microsoft que adopten Project Perception dentro del paquete Microsoft 365 E7, que combina Agent 365 con Microsoft 365 Copilot, según Microsoft.",
+      "Desde cuándo: Microsoft no dio fecha de disponibilidad general ni precio para los nuevos controles; la empresa dijo que dará más detalles en Microsoft Ignite, que abre el 17 de noviembre, según SiliconANGLE.",
+      "Qué cambia: antes, la vigilancia de agentes internos era más limitada; ahora el puntaje de riesgo es continuo y puede restringir o aislar a un agente de forma automática, sin esperar a una brecha.",
+      "Quién se ve afectado: empresas que ya usan agentes como Claude Code, Codex o GitHub Copilot en sus operaciones internas, en España, América Latina y el resto del mundo, que ahora pueden ser detectados y monitoreados por las nuevas herramientas, según SiliconANGLE."
+    ]},
+    {"type": "p", "text": "Gallot escribió además que los próximos controles deberían explicar no solo qué hizo un agente, sino por qué, lo que exige ver los tokens de razonamiento del modelo y no solo sus entradas y salidas. Según ella, esa transparencia no sustituye la contención, pero debe hacerla más precisa.", "items": []}
+  ],
+  "image": {
+    "query": "cybersecurity artificial intelligence agent monitoring abstract",
+    "alt": "Ilustración abstracta que representa el monitoreo de seguridad de agentes de inteligencia artificial"
+  },
+  "sources": [
+    {"name": "Microsoft", "owner": "microsoft", "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/", "title": "Securing the agentic insider"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents/", "title": "Microsoft targets the 'agentic insider' with new controls for rogue AI agents"}
+  ],
+  "status": "draft"
+}
