@@ -1,0 +1,101 @@
+{
+  "slug": "hacker-invade-sites-com-agentes-de-ia",
+  "lang": "pt",
+  "date": "20 out 2026",
+  "no": 64,
+  "category": "Segurança",
+  "kicker": "Segurança · Norforge",
+  "headline": "Hacker usa agentes de IA para invadir 100 sites",
+  "headline_hl": "agentes de IA",
+  "dek": "A Norforge achou a campanha ao vasculhar instâncias expostas do Cairn, segundo o The Verge.",
+  "image": {
+    "path": "assets/img/hacker-invade-sites-com-agentes-de-ia-f1a8c913.jpg",
+    "credit": "Clint Patterson / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "100<br>sites",
+  "sources": [
+    "The Verge AI",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Campanha com pouca supervisão",
+    "body": [
+      "Um hacker invadiu mais de 100 sites de empresas com agentes de IA, segundo a Norforge, citada pelo The Verge e pelo TechRadar.",
+      "A Reuters confirmou vítimas como John Deere, SharkNinja e Cummins, segundo o TechRadar."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como os agentes agiram",
+    "body": "Segundo o The Verge e o TechRadar:",
+    "points": [
+      {
+        "h": "Ordem",
+        "t": "Instruções curtas em chinês bastaram aos agentes (The Verge)."
+      },
+      {
+        "h": "Tática",
+        "t": "Testaram injeção de SQL e upload de arquivos (TechRadar)."
+      },
+      {
+        "h": "Tempo",
+        "t": "Cada ataque levou 23 horas em média (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O Cairn no centro do caso",
+    "body": [
+      "O Cairn é uma plataforma de código aberto em que o usuário define só início e fim, segundo o The Verge.",
+      "O criador diz que uso indevido é uma decisão humana, e não um recurso do motor (The Verge)."
+    ],
+    "stat": {
+      "big": "23 horas",
+      "cap": "por ataque, em média, diz o The Verge"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que dizem as empresas",
+    "items": [
+      {
+        "h": "Deere",
+        "t": "Sem indício de acesso a dados sensíveis, diz a empresa."
+      },
+      {
+        "h": "Shark",
+        "t": "A falha atingiu um site isolado e foi contida, diz a empresa."
+      },
+      {
+        "h": "Cummins",
+        "t": "Investiga um possível ataque a site de fornecedor."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Um hacker usou agentes de IA para invadir mais de 100 sites de empresas, segundo a Norforge.",
+    "body": [
+      "Segundo a Norforge, citada pelo The Verge e pelo TechRadar, a campanha foi achada em instâncias expostas do Cairn, plataforma de código aberto para agentes de IA. A Reuters confirmou vítimas como John Deere, SharkNinja e Cummins.",
+      "O The Verge diz que cada ataque levou 23 horas em média e que a Norforge achou mais de 20 instâncias provavelmente maliciosas. O criador do Cairn afirma que o uso indevido é uma decisão humana. John Deere e SharkNinja dizem ter contido o problema."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#cairn",
+      "#norforge",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o hacker que usou agentes de IA para invadir mais de 100 sites",
+    "Slide 2: Norforge acha campanha; Reuters confirma John Deere, SharkNinja e Cummins",
+    "Slide 3: agentes testaram injeção de SQL e upload de arquivos; ataques levaram 23 horas",
+    "Slide 4: Cairn é de código aberto; o criador diz que o mau uso é decisão humana",
+    "Slide 5: John Deere e SharkNinja contiveram o problema; Cummins investiga",
+    "Slide 6: fontes da matéria sobre o ataque com agentes de IA: The Verge e TechRadar"
+  ]
+}

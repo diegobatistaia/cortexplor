@@ -1,0 +1,101 @@
+{
+  "slug": "hacker-breaches-sites-with-ai-agents",
+  "lang": "en",
+  "date": "20 Oct 2026",
+  "no": 61,
+  "category": "Security",
+  "kicker": "Security · Norforge",
+  "headline": "Hacker uses AI agents to breach 100 sites",
+  "headline_hl": "AI agents",
+  "dek": "Norforge found the campaign while scanning exposed Cairn instances, according to The Verge.",
+  "image": {
+    "path": "assets/img/hacker-breaches-sites-with-ai-agents-f1a8c913.jpg",
+    "credit": "Clint Patterson / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "100<br>sites",
+  "sources": [
+    "The Verge AI",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A campaign with little oversight",
+    "body": [
+      "A hacker breached more than 100 company sites with AI agents, according to Norforge, cited by The Verge and TechRadar.",
+      "Reuters confirmed victims such as John Deere, SharkNinja and Cummins, TechRadar reports."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the agents worked",
+    "body": "According to The Verge and TechRadar:",
+    "points": [
+      {
+        "h": "Orders",
+        "t": "Short instructions in Chinese were enough (The Verge)."
+      },
+      {
+        "h": "Tactics",
+        "t": "They tried SQL injection and file uploads (TechRadar)."
+      },
+      {
+        "h": "Time",
+        "t": "Each attack took 23 hours on average (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Cairn at the center",
+    "body": [
+      "Cairn is an open-source platform where a user sets only a start and an end, per The Verge.",
+      "Its creator says misuse is a human decision, not a feature of the engine (The Verge)."
+    ],
+    "stat": {
+      "big": "23 hours",
+      "cap": "per attack on average, The Verge says"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What the companies say",
+    "items": [
+      {
+        "h": "Deere",
+        "t": "No sign sensitive data was accessed, the company says."
+      },
+      {
+        "h": "Shark",
+        "t": "The flaw hit a standalone site and was contained."
+      },
+      {
+        "h": "Cummins",
+        "t": "It is probing a possible attack on a vendor site."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A hacker used AI agents to breach more than 100 company sites, according to Norforge.",
+    "body": [
+      "According to Norforge, cited by The Verge and TechRadar, the campaign surfaced on exposed instances of Cairn, an open-source platform for AI agents. Reuters confirmed victims such as John Deere, SharkNinja and Cummins.",
+      "The Verge says each attack took 23 hours on average and that Norforge found more than 20 likely malicious instances. Cairn's creator says misuse is a human decision. John Deere and SharkNinja say they contained the issue."
+    ],
+    "cta_variant": "A",
+    "cta": "Should open-source AI agent tools come with built-in safeguards?",
+    "hashtags": [
+      "#cortexplor",
+      "#cairn",
+      "#norforge",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about the hacker who used AI agents to breach more than 100 sites",
+    "Slide 2: Norforge finds the campaign; Reuters confirms John Deere, SharkNinja and Cummins",
+    "Slide 3: agents tried SQL injection and file uploads; attacks took 23 hours",
+    "Slide 4: Cairn is open source; its creator says misuse is a human decision",
+    "Slide 5: John Deere and SharkNinja contained the issue; Cummins investigates",
+    "Slide 6: sources for the AI agent attack story: The Verge and TechRadar"
+  ]
+}

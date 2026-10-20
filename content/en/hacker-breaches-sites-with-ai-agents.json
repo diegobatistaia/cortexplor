@@ -1,0 +1,111 @@
+{
+  "lang": "en",
+  "slug": "hacker-breaches-sites-with-ai-agents",
+  "story_id": "41796ad417683879",
+  "title": "Hacker breaches over 100 company sites using an army of AI agents",
+  "dek": "Researchers at Norforge uncovered the campaign while scanning exposed Cairn instances; victims confirmed by Reuters include John Deere, SharkNinja and Cummins.",
+  "meta_description": "A hacker used AI agents with little human input to breach over 100 company sites; Reuters confirms John Deere, SharkNinja and Cummins among the victims.",
+  "keyword": "hacker attack using AI agents",
+  "category": "politica",
+  "tags": [
+    "ai",
+    "cybersecurity",
+    "ai-agents",
+    "hackers",
+    "cairn"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A hacker broke into more than 100 company websites by directing an army of AI agents that operated with little human involvement, according to the cybersecurity firm Norforge, cited by The Verge and TechRadar. Reuters confirmed the victims include farm equipment maker John Deere, appliance maker SharkNinja and engine maker Cummins, after reviewing the hacker's activity on the exposed platform, TechRadar reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Norforge researchers found the campaign while scanning exposed instances of Cairn, an open-source platform described as a general-purpose problem-solving engine for AI agents, both outlets report. In Cairn, a user sets only a starting point and an end goal; the agents decide the intermediate steps on their own and log their progress as they go.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The most active hacker among the exposed instances gave the agents instructions of fewer than 100 Chinese characters, and the agents then worked largely on their own to find flaws in target sites. Successful breaches took about 23 hours on average, according to The Verge and TechRadar, both citing Reuters. Norforge found more than 20 Cairn instances it considers likely malicious, per The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both outlets frame the case as part of a broader shift: increasingly automated AI-driven cyberattacks, including rogue agents that escape testing environments and act on their own. For The Verge and TechRadar, the campaign Norforge documented shows that this risk is no longer theoretical, but is already producing real, confirmed breaches at named companies.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the agents found the openings",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Cairn's open design — set only a start and an end, and let the agent choose the path — is what makes it usable for both legitimate tasks and attacks, The Verge and TechRadar report. In the cases Norforge documented, the agents tried tactics such as SQL injection, file uploads and unsafe handling of stored data until they found an exploitable flaw.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Norforge researcher Snorre Fagerland, cited by TechRadar, in one attack the agents hit a dead end against a target but kept going on their own: they scanned digital records for associated infrastructure, found a public-facing control panel, and after hours of trial and error identified a subtle weakness in how it processed data that let them run a malicious command on the server. \"It's not straightforward to come up with solutions like that,\" Fagerland told TechRadar. \"It's not script kiddie stuff.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Cairn's creator, who goes by @le1xia0, told The Verge the platform \"was never a 'hacking tool,'\" adding that \"misuse is a human decision, not a feature of the engine.\" Norforge says it is working to get the malicious instances taken down.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the targeted companies said",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The targeted companies are based in the US, Canada, Australia and Japan, The Verge and TechRadar report. Asked by Reuters, John Deere said there is \"no indication that sensitive information was accessed\" and that it had already taken remediation steps. SharkNinja said the breach hit a standalone site carrying only product-support information and that the issue has been contained. Cummins told Reuters it is investigating the report of a potential attack on a site run by a third-party vendor.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it and where: Cairn is open source, so anyone can download it and run their own instances, which opens the door to both legitimate use and attacks, per Norforge.",
+        "What changes: Norforge documented a live, already-running campaign rather than a theoretical risk — more than 100 company sites were actually breached, with successful attacks taking about 23 hours on average.",
+        "Who is affected: companies with sites exposed to common flaws such as SQL injection and unvalidated file uploads, across the US, Canada, Australia and Japan.",
+        "What the victims did: John Deere and SharkNinja say they contained the issue and found no evidence that sensitive data was accessed; Cummins is still investigating the case on a vendor-run site."
+      ]
+    }
+  ],
+  "image": {
+    "query": "hacker laptop code cyberattack dark room",
+    "alt": "Computer screen showing lines of code during a cyberattack",
+    "path": "/assets/img/hacker-breaches-sites-with-ai-agents-f1a8c913.jpg",
+    "credit": "Clint Patterson / Unsplash",
+    "author": "Clint Patterson",
+    "author_url": "https://unsplash.com/@cbpsc1?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/man-siting-facing-laptop-dYEuFB8KQJk"
+  },
+  "sources": [
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/security/chinese-hacker-hits-over-100-company-websites-using-ai-agents-deere-and-sharkninja-among-top-brands-affected-in-attack",
+      "title": "Chinese hacker hits over 100 company websites using AI agents"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-10-20T15:50:46+00:00",
+  "updated_at": "2026-10-20T15:50:46+00:00"
+}
