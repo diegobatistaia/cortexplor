@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T00:23:51+00:00",
-  "posts_per_language_today": 0,
+  "generated_at": "2026-10-20T09:43:45+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 4,
+  "already_written_today": 0,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -78,5 +78,194 @@
     150,
     160
   ],
-  "stories": []
+  "stories": [
+    {
+      "story_id": "73d4e013a4db4f48",
+      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+      "summary": "The Claude maker said that establishing the fund as an LLC will provide greater flexibility in how the money is used.",
+      "owners": [
+        "guardian",
+        "nbcuniversal"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "1ca82a3cde4eaaf1",
+        "c2ced7e7825b6311"
+      ],
+      "sources": [
+        {
+          "name": "CNBC Technology",
+          "owner": "nbcuniversal",
+          "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+          "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+          "published_at": "2026-10-19T12:33:07+00:00",
+          "kind": "press",
+          "text": "Anthropic said Sunday it plans to commit 5% of its shares to a new public benefit fund , with the stake potentially increasing as the company's valuation grows. Subject to shareholder approval, the fund would immediately commit 5% of Anthropic's shares, with the board adding, at its discretion, an additional 2% for every 50% increase in the company's value above a set baseline that has yet to be disclosed. Anthropic said that while it has already committed $200 million to study the AI's effects, \"given the pace of AI progress, bolder approaches may be needed.\" The fund may be used to \"explore large donations\" — including to traditional nonprofits or as direct distributions for specific populations — or for \"bolder approaches\" to study and address AI's disruption and displacement of jobs, the company said. An August Pew Research Center report found that 71% of adults think AI will lead to fewer jobs in the U.S. over the next two years. The fund will be established as a wholly owned limited liability company rather than a 501(c)(3) tax-exempt nonprofit or other format to adjust between different forms of giving, the release said. Equity held by the LLC will not be used for lobbying or political giving in the U.S. or internationally, Anthropic said. Anthropic told investors its third-quarter revenue stands at $16.8 billion ahead of its planned initial public offering reportedly slated for November, CNBC reported . The timing of Anthropic's public fund announcement is both mandatory to prepare for an initial public offering, and \"beneficial from an image perspective,\" especially as AI reshapes the jobs market, Lise Buyer, partner at IPO advisory firm Class V Group, told CNBC. Buyer said Anthropic's move could be seen favorably if the funds support retraining or help workers find alternative employment when the technology disrupts their jobs. \"Of course, it is also to burnish their reputation at a time when AI is coming under significant scrutiny,\" she added. Anthropic said it will share more about the fund structure and governance in the coming months, including valuation milestones that may increase the stake. It said it will also share progress on the fund in an upcoming public benefit report. In response to Anthropic's announcement, Tesla and SpaceX CEO Elon Musk said on X that he \"recommend[s] giving the shares directly to the public.\""
+        },
+        {
+          "name": "The Guardian Technology",
+          "owner": "guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
+          "title": "AI firm Anthropic to commit 5% of shares to fund for ‘public good’",
+          "published_at": "2026-10-19T12:51:04+00:00",
+          "kind": "press",
+          "text": "The $48bn giveaway comes amid concerns about the tech and as the company prepares for a stock market listing Anthropic has said it will commit 5% of its shares to a fund for the “public good”, as the AI developer behind the Claude chatbot seeks to bolster its appeal before its stock market listing. The company announced it would commit the shares, worth around $48bn (£36bn) at its latest valuation in May, subject to shareholder approval. It will add a further 2% of its stock to the fund for every 50% increase in its value above an undisclosed baseline. The fund will allow Anthropic to “explore large donations to traditional nonprofits or direct distributions to specific populations”, the company said. The move comes amid growing public nervousness about AI, from the threat to human labour to the impact on the environment and its influence on social behaviours. “AI may generate enormous economic value, but it could also cause instability for many workers,” Anthropic wrote in a blogpost. It said that while it had already committed $200m to addressing the issue, “given the pace of AI progress, bolder approaches may be needed. The fund will have the versatility to pursue them.” The company, which is preparing to list on the stock market, has called for a slowdown in breakneck development of AI, a warning later echoed by rivals such as OpenAI. Anthropic was valued at $965bn in May when it raised $65bn in a funding round. The company is reportedly considering a $1.5tn valuation when it floats on the stock market, with an IPO planned for November. Last week, Anthropic said some of its AI models could soon become “self-replicating” and find ways to infiltrate internet-connected devices such as smart fridges and automatic vacuum cleaners. It said that once this happens, the models would be able to power themselves without the need of datacentres. Elon Musk, the chief executive of Tesla and founder of SpaceX, responded to Anthropic’s plans for a public benefit fund on social media by pledging to give some of his own shares away. “I recommend giving the shares directly to the public,” he wrote. “This is what I will be doing.” He later announced: “Next year, I will give one of my SpaceX shares to every kid in America. This will be the first of many.” Shares in SpaceX, which is listed on the Nasdaq in the US, rose by 1% in pre-market trading on Monday. The company has lost about 9% of its value since it joined the stock market in June. OpenAI, the developer behind ChatGPT, also reportedly engaged in early talks to give a 5% stake in its organisation to the US government . Anthropic, which was founded in 2021 by seven former OpenAI employees, was established as a public benefit corporation. It means that all of the company’s directors must balance financial returns with its public interest mission."
+        }
+      ]
+    },
+    {
+      "story_id": "139869b71e021449",
+      "title": "Carga milionária de RTX 5090 desaparece misteriosamente no aeroporto de Guarulhos",
+      "summary": "A RTX 5090 é uma placa de vídeo cobiçada, principalmente por causa do seu potencial em IA. Ela é tão cobiçada que, do nada, uma carga inteira dessa GPU, modelos da Zotac, sumiu logo que chegou ao Aeroporto Internacional de Guarulhos , em São Paulo, segundo a própria distribuidora Oderço, que fica no Paraná. O prejuízo passa de R$ 2.000.000 , imagina se fosse uma versão banhada a ouro . Nas redes...",
+      "owners": [
+        "canaltech",
+        "nzn"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "3d8d4414c90702c3",
+        "792242c62e40141c"
+      ],
+      "sources": [
+        {
+          "name": "Canaltech",
+          "owner": "canaltech",
+          "url": "https://canaltech.com.br/hardware/carga-milionaria-de-rtx-5090-desaparece-misteriosamente-no-aeroporto-de-guarulhos/",
+          "title": "Carga milionária de RTX 5090 desaparece misteriosamente no aeroporto de Guarulhos",
+          "published_at": "2026-10-19T13:32:00+00:00",
+          "kind": "press",
+          "text": "Por Raphael Giannotti | 19/10/2026 às 10:32 A RTX 5090 é uma placa de vídeo cobiçada, principalmente por causa do seu potencial em IA. Ela é tão cobiçada que, do nada, uma carga inteira dessa GPU, modelos da Zotac, sumiu logo que chegou ao Aeroporto Internacional de Guarulhos , em São Paulo, segundo a própria distribuidora Oderço, que fica no Paraná. O prejuízo passa de R$ 2.000.000 , imagina se fosse uma versão banhada a ouro . Nas redes sociais, Oderço Matos, presidente da distribuidora, disse que, em mais de 38 anos de história da empresa, com 18 anos realizando importações, nunca havia perdido uma carga . \"Recentemente, dois pallets de mercadoria chegaram ao Aeroporto Internacional de Guarulhos. E lá dentro, sumiram\", relata o empresário. Não foi dito quantas placas sumiram, mas dois pallets somam, facilmente, algumas centenas de unidades, podendo passar de 400 se considerarmos caixas avulsas para o varejo. De qualquer forma, o prejuízo é de R$ 2.500.000 , principalmente porque o preço de uma RTX 5090 não é nada baixo hoje em dia por causa da crise. O presidente da distribuidora relata que não tem qualquer informação sobre o que pode ter levado ao sumiço dessas caixas . Oderço até critica a falta de comunicação pelo aeroporto, que tem câmeras espalhadas por todos os lados para a segurança do ambiente, já que por lá passam mais de 120 mil pessoas por dia e muitas toneladas de carga são transportadas diariamente. No Brasil, uma RTX 5090 da Zotac custa, em média, R$ 35.000 . Vale lembrar que esse é o valor repassado ao consumidor no varejo e não o que uma distribuidora paga. A GeForce RTX 5090, em geral, está virando uma lenda na indústria. Não por causa de sua capacidade de processamento, mas porque ela está sumindo do mercado aos poucos . Em games, ela é a melhor disponível hoje para quem pode investir dezenas de milhares de reais. Porém ela também é muito útil em processamento de inteligência artificial por conta do chip robusto e de 32 GB de memória de vídeo. No ano passado, antes do boom da IA, uma RTX 5090 chegou a custar pouco menos de R$ 15.000 , dependendo do modelo e da loja. Menos de seis meses depois, ela já custava muito mais e isso não aconteceu só no Brasil, mas em todo o mundo ."
+        },
+        {
+          "name": "Tecmundo",
+          "owner": "nzn",
+          "url": "https://www.estadao.com.br/tecmundo/big-techs/carga-de-gpus-rtx-5090-avaliada-em-r-25-milhoes-desaparece-no-aeroporto-de-guarulhos/",
+          "title": "Carga de GPUs RTX 5090 avaliada em R$ 2,5 milhões desaparece no Aeroporto de Guarulhos",
+          "published_at": "2026-10-19T17:45:00+00:00",
+          "kind": "press",
+          "text": "Notebooks com RTX Spark terão centenas de jogos no lançamento Call of Duty em 2027! Veja teste A Nvidia e a Microsoft apresentaram o Surface Ultra, novo notebook ultrafino baseado na tecnologia RTX Spark. O modelo é um dos primeiros adotar a tecnologia, q. Uma carga de GPUs RTX 5090 da Zotac desapareceu após chegar ao Aeroporto Internacional de São Paulo, em Guarulhos (SP), recentemente, de acordo com a Oderço Distribuidora. O conteúdo que sumiu é avaliado em cerca de R$ 2,5 milhões, considerando o preço de custo . Em vídeo divulgado no perfil oficial da companhia no Instagram, no último sábado (17), o empresário Oderço Matos, presidente da empresa, afirma que dois pallets contendo as unidades da placa de vídeo sumiram assim que desembarcaram em Guarulhos . Ele também cobrou explicações da concessionária que administra o aeroporto. Ao TecMundo, a GRU Airport informou que “vem empenhando todos os esforços” para solucionar o caso desde que tomou conhecimento do sumiço da carga (veja mais detalhes abaixo). Atuando no ramo há mais de 38 anos, dos quais 18 anos com importações, o presidente da distribuidora relata que esta foi a primeira vez que perdeu uma carga . Sem fornecer maiores detalhes de como o sumiço aconteceu, ele criticou a falta de respostas da administradora do aeroporto. Ele não informou a quantidade exata de GPUs RTX 5090 da Zotac que desapareceram em Guarulhos. No entanto, ressaltou que se trata de uma das placas de vídeo mais cobiçadas do mercado , devido ao uso em soluções de inteligência artificial, principalmente, e também em PCs de jogos. Com 32 GB GDDR7 de memória de vídeo, arquitetura Blackwell da Nvidia e 28 Gbps de velocidade, o modelo em questão tem preço médio de R$ 35 mil no Brasil , atualmente. O valor cobrado disparou nos últimos meses devido à alta demanda relacionada à IA. Além de informar o sumiço às autoridades competentes e colaborar com a investigação, a concessionária disse que mantém contato com o importador e repassou as orientações para o início do processo de indenização . Confira a nota da GRU Airport enviada ao TecMundo: “ A GRU Airport informa que, desde que tomou conhecimento do ocorrido, vem empenhando todos os esforços para solucioná-lo. A não localização da carga já foi formalmente reportada às autoridades competentes para apoio nas investigações. Paralelamente, nossa equipe de atendimento ao cliente mantém contato constante com o representante do importador. Em 14/10/2026, diante do tempo decorrido, foram transmitidas as orientações necessárias para o início do processo de indenização, em conformidade com os procedimentos vigentes. No momento, a concessionária aguarda a apresentação da documentação por parte do cliente para análise e finalização do processo. Adicionalmente, o departamento jurídico da empresa prestará todo o suporte necessário para o desfecho do caso ”. Nos EUA, uma loja está obrigando os clientes a assinarem um termo concordando em não exportar a RTX 5090 adquirida. Saiba mais detalhes nesta matéria . Audi RS 3 retorna com a mesma essência, mas em nova embalagem Seu diploma ainda vale o mesmo daqui a 5 anos? Todas as crianças dos EUA ganharão uma ação da SpaceX, promete Elon Musk Pesquisa aponta falhas do Google e OpenAI que permitem gerar ‘deepnudes’ sem barreiras Carga de GPUs RTX 5090 avaliada em R$ 2,5 milhões desaparece no Aeroporto de Guarulhos"
+        }
+      ]
+    },
+    {
+      "story_id": "fbb82a7e010c0b17",
+      "title": "Securing the agentic insider",
+      "summary": "The post Securing the agentic insider appeared first on Source .",
+      "owners": [
+        "microsoft",
+        "siliconangle"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "d75d4d6e566ee19f",
+        "6b7c12189f7d0bc5"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "title": "Securing the agentic insider",
+          "published_at": "2026-10-19T14:10:30+00:00",
+          "kind": "primary",
+          "text": "Oct 19, 2026 | Hayete Gallot - Executive Vice President, Microsoft Security In the last few months, concerns have arisen about AI safety as a growing number of incidents were publicly disclosed. These incidents exposed how powerful models have become and how they represent a significant threat if not handled well. And with the global race on innovation, the challenge will compound as models become even more powerful. While most have been worried about threat actors using powerful models to attack, the focus has been less on agents within our own walls. Since we were the ones who deployed agents internally for our companies, we implicitly trusted our agents. Unfortunately, frontier models, regardless of their origin, cannot be trusted . This is not because models are inherently malicious. Models have been trained to attain results, which often leads to reward hacking, and models are not optimized around organizational norms or judgment. Agents are unpredictable. They will adapt as the context changes, may not behave as intended and will collaborate and collude with other agents to reach their objectives, without needing to be compromised. Agents have been unleashed in the enterprise, at scale, and their numbers are growing rapidly. These agents are frequently overprivileged, have access to data, tools and systems and can take actions and make decisions in critical processes. They have become active participants in the enterprise. Monitoring and securing those agents must become continuous. We need to understand in real time what the agents are doing and what risks those actions create, and we need to adjust their ability to act accordingly. To manage and control these insiders, we will need Guardian Agents — an established industry term — that watch and moderate every action of every agent, before it happens, 24/7. An agent brings together a model, a harness that orchestrates its work, an action space of tools and resources and a runtime in which it executes. Securing agents requires protection across multiple layers: identity, permissions, data, endpoints, network, cloud and runtime. In July, we announced Project Perception , an agentic security system that uses our new cyber stack and teams of red, blue and green agents to help defenders act with speed, while defending against AI driven attacks from outside of the enterprise. The same cyber stack is also directly applicable to managing and governing the agentic insiders that run in the enterprise. Project Perception can be leveraged to contain agentic insiders, implementing deterministic controls on non-deterministic intelligence: This is where agentic security changes the equation for security practitioners. Project Perception can supervise in real time while providing traceability for practitioners to examine what happened, understand why the risk emerged and apply the judgment needed to update their security system accordingly. Agentic security provides speed . Practitioners provide judgment . That is how defenders begin operating at the same speed as the systems they are protecting against. Today, security systems can reliably observe the actions of the agents. Those signals are essential and tell us what we need to contain. Our security controls should increasingly be able to ask not only “What is happening?” but also “Why is it happening?” Is this consistent with the intent of the task?” This will require greater transparency into the model itself, not only the input and output tokens, but the thinking and chain of thought tokens. Only then can we truly understand whether the model’s intent is aligned with the purpose of the agent. Model transparency will not replace containment. It will make containment smarter and stronger . And it will allow us to better inform accountability and traceability. This needs to be the next step in securing agentic insiders. With Project Perception, you can get started today on the journey to secure your agentic insiders . There should not be a choice between innovation and safety. Hayete Gallot leads Microsoft’s work to help organizations operate securely in an AI-driven world. Her scope includes identity, threat protection, compliance and data security at global scale. Tags: Agentic AI , AI , Project Perception , Security"
+        },
+        {
+          "name": "SiliconANGLE",
+          "owner": "siliconangle",
+          "url": "https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents/",
+          "title": "Microsoft targets the ‘agentic insider’ with new controls for rogue AI agents",
+          "published_at": "2026-10-19T22:56:54+00:00",
+          "kind": "press",
+          "text": "Microsoft Corp. today introduced security controls for rogue artificial intelligence agents that cut back what an agent may do as its assessed risk climbs. The release takes on what Hayete Gallot, executive vice president of Microsoft Security, called the “agentic insider” in a blog post . Enterprise agents are often overprivileged, and their numbers are growing fast. Gallot argued that frontier models cannot be fully trusted because they are built to chase results. Some will reach a goal in ways nobody intended, she wrote, including by colluding with other agents. Microsoft Chairman and Chief Executive Satya Nadella laid out the thinking behind the controls in an Oct. 10 essay that urged companies to treat models as insider risks, with safeguards kept outside the model itself. The most trustworthy system, he wrote, will be “the one that enables us to trust the model the least.” The controls start with finding agents. Microsoft’s discovery tools can now spot 60 types of local agents on employee machines after 35 were added. The list includes Anthropic PBC’s Claude Code and OpenAI Group PBC’s Codex, as well as GitHub Copilot from Microsoft’s own GitHub unit. The company is also extending Microsoft Entra Agent ID to give those agents, and unknown ones its sensors find, identities of their own. Once found, each agent carries a continuously updated risk score under a feature Microsoft calls Dynamic Agent Risk. The score draws on signals from Microsoft’s identity, endpoint, cloud and network tools, and it climbs when an agent’s behavior drifts from what its user or organization intended. Microsoft has extended Microsoft Entra Conditional Access to agents, and the resulting Dynamic Conditional Access feature decides what happens as the score rises. An agent might first lose the ability to change anything while keeping read access. Higher-impact actions can be held for verified human approval, and at the top of the scale the runtime is isolated or stopped entirely. Access itself becomes temporary under Dynamic Permissions. An agent gets what a single task needs for as long as the job lasts, inside companywide limits that stop it from ever holding more authority than the person it works for. Microsoft Execution Container is one sandbox an agent can run inside. Because the monitoring sits outside the container, a compromised agent has no way to switch it off. Project Perception, which Microsoft introduced in July as an agentic security system, gets new tools of its own. Playbooks added today let security staff set the outcome they want, and a new team of Guardian Agents carries out the work. A shift in an agent’s risk score sets the Guardian Agents investigating, and they can recommend containment or apply it on their own. People keep control of policy and approval rules. In her post, Gallot also wrote that future controls should explain why an agent acts, and getting there means seeing a model’s reasoning tokens. “Model transparency will not replace containment,” she added. Microsoft said it is bringing chain-of-thought and other model-level signals into Dynamic Agent Risk. Microsoft did not give availability dates or pricing for the new controls, which it is positioning as part of Project Perception and Microsoft 365 E7 . That suite bundles Agent 365 with Microsoft 365 Copilot. Microsoft Ignite opens Nov. 17, and the company is pointing customers there for more detail. Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. Dream Labs raises $90M to help build more intelligent robots with simple video feeds Trump administration orders ban on DeepSeek in federal agencies AI work assistant startup Town secures unicorn status after raising $108M just weeks after launching Amazon introduces toolkit for running PyTorch workloads on AWS Trainium chips Nvidia, Dell back $200M round for AI model developer doubleAI MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% Dream Labs raises $90M to help build more intelligent robots with simple video feeds EMERGING TECH - BY MIKE WHEATLEY . 8 HOURS AGO Trump administration orders ban on DeepSeek in federal agencies AI work assistant startup Town secures unicorn status after raising $108M just weeks after launching Amazon introduces toolkit for running PyTorch workloads on AWS Trainium chips Nvidia, Dell back $200M round for AI model developer doubleAI MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70%"
+        }
+      ]
+    },
+    {
+      "story_id": "20695f7793880843",
+      "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+      "summary": "The decision comes a couple of days after the release of Deepseek's latest AI model.",
+      "owners": [
+        "siliconangle",
+        "yahoo"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "92bf044e67179883",
+        "25920365a3f48fc6"
+      ],
+      "sources": [
+        {
+          "name": "Engadget",
+          "owner": "yahoo",
+          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+          "published_at": "2026-10-19T16:59:28+00:00",
+          "kind": "press",
+          "text": "The decision comes a couple of days after the release of the company’s latest AI model. The Department of Homeland Security has issued a sweeping restriction to remove DeepSeek use across all federal civilian agencies and their IT systems. In a notice published with the Federal Register , DHS characterized the risks of DeepSeek use as potentially resulting in the \"transfer of sensitive data\" of US government employees and vendors to the Chinese government. Following the order, civilian agencies like the Environmental Protection Agency or Federal Communications Commission would have to exclude any DeepSeek products from being used, while also removing any existing related products. DHS said in the notice that DeepSeek's models could \"contain malware or other security vulnerabilities.\" The notice also disallows DeepSeek from participating in any federal government contracts. DHS' order comes on the heels of DeepSeek releasing its latest model , V4.1-Flash-1017, which the company called \"smarter, faster, more efficient.\" However, it's not the first time that the Chinese AI company has run into friction with the US government, especially at a time when its cheaper AI models start to rival the likes of ChatGPT or Gemini. Last year, two US Congressmembers proposed a bill that would ban DeepSeek's AI chatbot from government devices."
+        },
+        {
+          "name": "SiliconANGLE",
+          "owner": "siliconangle",
+          "url": "https://siliconangle.com/2026/10/19/trump-administration-orders-ban-on-deepseek-in-federal-agencies/",
+          "title": "Trump administration orders ban on DeepSeek in federal agencies",
+          "published_at": "2026-10-20T00:47:23+00:00",
+          "kind": "press",
+          "text": "The Department of Homeland Security has ordered artificial intelligence technology from the Chinese company DeepSeek Ltd. be removed from all federal civilian agencies. The order, published on the Federal Register website today, warned that DeepSeek’s AI models present “multiple threat vectors,” that could give the Chinese Communist Party “extensive authority” to access American government infrastructure. DeepSeek doesn’t even make the top 10 in a recent government survey where people expressed their opinion of AI models, but in 2025 the free app was downloaded by millions of Americans to the consternation of the U.S government. At the time a full ban of the app was mulled in the U.S., with one cybersecurity expert calling DeepSeek’s privacy policy not “worth the paper it is written on.” The new order from the DHS means all civilian agency information technology systems will now have to remove all any products affiliated with DeepSeek from their systems, which includes third-party services developed using the app. Going forward, all purchases of DeepSeek’s products and services are verboten in those agencies. The DHS justified the move by invoking the 2018 Federal Acquisition Supply Chain Security Act following a review of the matter by the Federal Acquisition Security Council. The DHS subsequently warned that the technology poses a danger to the U.S. in various forms. The agency explained that it could be used to “track or digitally fingerprint” users and may “transfer of sensitive data to the People’s Republic of China if used by U.S. government or vendors.” The U.S. crackdown on DeepSeek had been brewing since last year, when the company stunned the tech industry with the release of its R1 model. Despite being trained using less powerful chips and at a fraction of the cost of some competing models, the open-source AI system outperformed models developed by American rivals OpenAI and Anthropic in several complex tests. The Commerce Department last year banned DeepSeek from government devices, while the U.S. Navy directed all its members not to use the model because of potential security concerns. New York State banned DeepSeek from government devices and networks over “serious concerns” over potential data privacy and censorship risks posed by the app. DeepSeek released its latest AI model, V4.1 Flash-1017 just recently. The upgraded model promised faster performance and improved reasoning and coding capabilities, with early reports suggesting it could compete with some of the most advanced American AI systems. Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. Dream Labs raises $90M to help build more intelligent robots with simple video feeds AI work assistant startup Town secures unicorn status after raising $108M just weeks after launching Amazon introduces toolkit for running PyTorch workloads on AWS Trainium chips Microsoft targets the 'agentic insider' with new controls for rogue AI agents Nvidia, Dell back $200M round for AI model developer doubleAI MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70% Dream Labs raises $90M to help build more intelligent robots with simple video feeds EMERGING TECH - BY MIKE WHEATLEY . 8 HOURS AGO AI work assistant startup Town secures unicorn status after raising $108M just weeks after launching Amazon introduces toolkit for running PyTorch workloads on AWS Trainium chips Microsoft targets the 'agentic insider' with new controls for rogue AI agents SECURITY - BY DUNCAN RILEY . 10 HOURS AGO Nvidia, Dell back $200M round for AI model developer doubleAI MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70%"
+        }
+      ]
+    },
+    {
+      "story_id": "ac6b0d59b44b780a",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes...",
+      "owners": [
+        "nvidia"
+      ],
+      "primary_owners": [
+        "nvidia"
+      ],
+      "fingerprints": [
+        "0aa71d1f1cfd68e3"
+      ],
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "owner": "nvidia",
+          "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+          "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+          "published_at": "2026-10-15T10:00:12+00:00",
+          "kind": "primary",
+          "text": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: assembling tools, finding compute and building the expertise to use both. At the AI in Science Summit in Dublin today, the European Commission launched the AI in Science Enablers Initiative, a shared framework connected to RAISE — the Resource for AI Science in Europe — that brings private-sector support closer to Europe’s research community. NVIDIA is joining the campaign , providing: “Europe’s ambition in AI in science can only become reality if we bring together the strengths of our research community, industry and other partners,” Ekaterina Zaharieva, European Commissioner for Startups, Research and Innovation. “Through the AI in Science Enablers campaign, we are turning this ambition into concrete commitments that give researchers access to the tools, expertise and resources they need to innovate.” NVIDIA’s pledge begins with open source technology. NVIDIA has released more than 250 open models, 250 open datasets and over 1,400 open source software projects spanning large language models, healthcare, robotics, climate science, physical AI, autonomous vehicles and scientific research. The models and datasets are available on Hugging Face and GitHub. Building on this open ecosystem, researchers can build agentic reasoning capabilities with NVIDIA Nemotron — a family of architectures, open weights, open source models, training data and recipes — and scientific software including NVIDIA BioNeMo Agent Toolkit , NVIDIA PhysicsNeMo libraries, NVIDIA Earth-2 models and NVIDIA ALCHEMI NIM microservices to accelerate research across biology, chemistry, molecular design, weather and climate, energy, engineering, physics and material sciences. Building advanced intelligence capability across Europe requires knowledge that travels as freely as compute. The NVIDIA Deep Learning Institute has launched a new open source courseware hub with hands-on course materials covering accelerated computing and deep learning — freely downloadable and openly licensed, with no enrollment, fees or deadline. Modular by design, the courses can be adapted for university curricula, supercomputing center bootcamps or developer community events, and serve as a direct bridge to NVIDIA’s broader training and certification programs . NVIDIA is collaborating with cloud infrastructure partners and European national AI factories — including in France , Spain and Sweden — to open new routes for startups and small- and medium-sized enterprises (SMEs) to access sovereign European compute and services. The NVIDIA Inception program for startups provides access to compute resources and technical support, lowering the barrier to entry for startups seeking high-performance infrastructure and technological education. AI2F in France is the first AI factory to have collaborated with the Inception program for four months, demonstrating strong results. The BSC AI Factory ran a pilot initiative and is now rolling out its first full accelerator program, with growing interest from other European national AI factories in replicating the model in 2027. Beyond startup support, this program is designed to contribute to a broader strategic objective: building self-sustaining AI ventures in Spain and Europe. Sweden AI Factory , one of Europe’s 19 EuroHPC-funded AI factories, announced a collaboration with NVIDIA to open its infrastructure and expertise to Inception startups and SMEs enterprises across sectors including life and material sciences, autonomous systems and gaming. Finally, EuroHPC supercomputing centers such as CINECA and JSC provide academia and startups with free access to NVIDIA GPU infrastructure and services for open research. NVIDIA complements this access with office hours, bootcamps and hackathons that help researchers fine-tune models on their own datasets. As an example, NVIDIA is co-organizing an European AI hackathon this month alongside Austrian Scientific Computing , the Leibniz Supercomputing Centre , the High-Performance Computing Center Stuttgart and The Cyprus Institute, for Pharos-CY . To top it all off, NVIDIA is powering Europe’s most ambitious expansion of AI infrastructure to date, with 35 supercomputers currently in development across the continent — the largest single-year buildout of supercomputing capacity Europe has ever seen. Together, these systems will equip over 3 million researchers with next-generation infrastructure, accelerating discovery across domains from climate science and drug development to materials research and beyond. Explore NVIDIA technologies for science and open source courseware , and find hands-on training through the NVIDIA Deep Learning Institute . Follow the European Commission’s RAISE Pledging Initiative ."
+        }
+      ]
+    },
+    {
+      "story_id": "af0264eed289ea9c",
+      "title": "Teaching students to think and learn through questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "fa14b8f7db4605df"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+          "title": "Teaching students to think and learn through questions",
+          "published_at": "2026-10-15T13:00:00+00:00",
+          "kind": "primary",
+          "text": "On Teachers’ Day, we celebrate those who help us learn. A good question can change the course of a lesson. It can bring an unspoken question to light, open up another way to solve a problem, or help someone recognize what they already know. Teachers do this work every day: they know their students, choose how to introduce an idea, and guide them from their first attempt to understanding. Set in a university classroom, the campaign takes a humorous look at the changing relationship between teachers and students and celebrates the role of educators in a world with AI. Today, we are launching the AI for Educators ⁠ (opens in a new window) course in Brazilian Portuguese on OpenAI Academy, OpenAI’s free learning platform. Designed for educators in primary, secondary, and higher education, the course shows how to use AI to plan lessons, create activities and assessments, and prepare communications while preserving educators’ pedagogical judgment. Study Mode helps you explore a subject ⁠ (opens in a new window) step by step, with questions, hints, explanations, and checks for understanding. Developed in collaboration with teachers, scientists, and experts in pedagogy, the feature aims to encourage active participation and reflection on one’s own reasoning. To turn on Study Mode , select Study from the tools menu in ChatGPT. A student reviewing biology, for example, might ask: “I’m studying enzymes. Ask me one question at a time, wait for my answer, and help me identify what I need to review.” Teachers can also try Study Mode with subjects they know well, looking at whether the questions encourage reasoning and whether the explanations are appropriate for their class. In a science lesson on evaporation, for example, a teacher might ask students to investigate why clothes dry on a clothesline. After exploring the topic with Study Mode, each student writes their own explanation and a question to discuss in class, without referring back to the conversation. The teacher can use these responses to identify what needs to be revisited with the class. This Teachers’ Day, we invite you to experiment: explore the AI for Educators course, try Study Mode, and discover how these tools can be useful in different teaching contexts. Technology can open up new ways to learn, but it is teachers who know their students, ask the most important questions, and help turn curiosity into knowledge."
+        }
+      ]
+    }
+  ]
 }
