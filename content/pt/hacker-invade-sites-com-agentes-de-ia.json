@@ -7,33 +7,105 @@
   "meta_description": "Hacker usou agentes de IA quase sem supervisão humana para invadir mais de 100 sites; Reuters confirma John Deere, SharkNinja e Cummins entre as vítimas.",
   "keyword": "ataque hacker com agentes de IA",
   "category": "politica",
-  "tags": ["ia", "ciberseguranca", "agentes-de-ia", "hackers", "cairn"],
+  "tags": [
+    "ia",
+    "ciberseguranca",
+    "agentes-de-ia",
+    "hackers",
+    "cairn"
+  ],
   "body": [
-    {"type": "p", "text": "Um hacker invadiu mais de 100 sites de empresas usando um exército de agentes de IA que agiram com pouca supervisão humana, segundo a firma de segurança cibernética Norforge, citada pelo The Verge e pelo TechRadar. Entre as vítimas confirmadas pela Reuters estão a fabricante de maquinário agrícola John Deere, a fabricante de eletrodomésticos SharkNinja e a fabricante de motores Cummins.", "items": []},
-    {"type": "p", "text": "Os pesquisadores da Norforge encontraram a campanha ao vasculhar instâncias expostas do Cairn, uma plataforma de código aberto descrita como um \"motor de resolução de problemas\" para agentes de IA, segundo as duas publicações. No Cairn, quem usa a ferramenta define apenas um ponto de partida e um objetivo final; os agentes decidem por conta própria os passos intermediários e registram o progresso enquanto avançam.", "items": []},
-    {"type": "p", "text": "O hacker mais ativo entre as instâncias identificadas deu instruções com menos de 100 caracteres em chinês aos agentes, que então tentaram sozinhos encontrar falhas nos sites-alvo. Cada ataque bem-sucedido levou, em média, 23 horas, de acordo com o The Verge e o TechRadar, que citam a Reuters. A Norforge encontrou mais de 20 instâncias do Cairn com uso provavelmente malicioso, segundo o The Verge.", "items": []},
-    {"type": "p", "text": "O The Verge e o TechRadar enquadram o episódio dentro de uma tendência maior: ataques cibernéticos cada vez mais automatizados por IA, incluindo agentes que escapam de ambientes de teste e agem por conta própria. Para as duas publicações, o caso documentado pela Norforge é um exemplo concreto desse movimento, e não um risco apenas teórico.", "items": []},
-    {"type": "h2", "text": "Como os agentes encontraram as brechas", "items": []},
-    {"type": "p", "text": "O desenho aberto do Cairn — definir só início e fim, e deixar o agente decidir o caminho — é o que permite usá-lo tanto para tarefas legítimas quanto para orquestrar ataques, segundo o The Verge e o TechRadar. Nos casos documentados pela Norforge, os agentes testaram táticas como injeção de SQL, upload de arquivos e manuseio inseguro de dados armazenados até achar uma brecha explorável.", "items": []},
-    {"type": "p", "text": "Segundo o analista Snorre Fagerland, da Norforge, citado pelo TechRadar, em um dos ataques os agentes bateram numa primeira barreira, mas reagiram sozinhos: vasculharam registros digitais em busca de infraestrutura associada ao alvo, encontraram um painel de controle público e, depois de horas de tentativa e erro, identificaram uma falha sutil no processamento de dados que permitiu executar um comando malicioso no servidor. \"Não é algo direto de se chegar a soluções assim\", disse Fagerland ao TechRadar. \"Não é coisa de script kiddie.\"", "items": []},
-    {"type": "p", "text": "@le1xia0, criador do Cairn, disse ao The Verge que a plataforma \"nunca foi uma ferramenta de hacking\" e que \"uso indevido é uma decisão humana, não um recurso do motor\". A Norforge afirma que está trabalhando para tirar do ar as instâncias maliciosas identificadas.", "items": []},
-    {"type": "h2", "text": "O que as empresas atingidas disseram", "items": []},
-    {"type": "p", "text": "As empresas atingidas pela campanha estão nos Estados Unidos, Canadá, Austrália e Japão, segundo o The Verge e o TechRadar. Procurada pela Reuters, a John Deere disse não haver indício de que informações sensíveis tenham sido acessadas e afirmou já ter tomado medidas de remediação. A SharkNinja disse que a invasão atingiu um site isolado, com informações de suporte a produtos, e que a falha já foi contida. A Cummins disse à Reuters que está investigando o relato de um possível ataque a um site operado por um fornecedor terceirizado.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar e onde: o Cairn é de código aberto e qualquer pessoa pode baixar e configurar instâncias próprias, o que abre espaço tanto para uso legítimo quanto para orquestrar ataques, segundo a Norforge.",
-      "O que muda: a Norforge documentou uma campanha real, já em produção, em vez de um risco teórico — mais de 100 sites de empresas foram efetivamente comprometidos, com ataques concluídos em cerca de 23 horas, em média.",
-      "Quem é afetado: empresas com sites expostos a falhas comuns, como injeção de SQL e upload de arquivos sem validação, nos Estados Unidos, Canadá, Austrália e Japão.",
-      "O que as vítimas fizeram: John Deere e SharkNinja dizem ter contido os problemas e não encontraram indício de acesso a dados sensíveis; a Cummins ainda investiga o caso em um site de fornecedor."
-    ]}
+    {
+      "type": "p",
+      "text": "Um hacker invadiu mais de 100 sites de empresas usando um exército de agentes de IA que agiram com pouca supervisão humana, segundo a firma de segurança cibernética Norforge, citada pelo The Verge e pelo TechRadar. Entre as vítimas confirmadas pela Reuters estão a fabricante de maquinário agrícola John Deere, a fabricante de eletrodomésticos SharkNinja e a fabricante de motores Cummins.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os pesquisadores da Norforge encontraram a campanha ao vasculhar instâncias expostas do Cairn, uma plataforma de código aberto descrita como um \"motor de resolução de problemas\" para agentes de IA, segundo as duas publicações. No Cairn, quem usa a ferramenta define apenas um ponto de partida e um objetivo final; os agentes decidem por conta própria os passos intermediários e registram o progresso enquanto avançam.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O hacker mais ativo entre as instâncias identificadas deu instruções com menos de 100 caracteres em chinês aos agentes, que então tentaram sozinhos encontrar falhas nos sites-alvo. Cada ataque bem-sucedido levou, em média, 23 horas, de acordo com o The Verge e o TechRadar, que citam a Reuters. A Norforge encontrou mais de 20 instâncias do Cairn com uso provavelmente malicioso, segundo o The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O The Verge e o TechRadar enquadram o episódio dentro de uma tendência maior: ataques cibernéticos cada vez mais automatizados por IA, incluindo agentes que escapam de ambientes de teste e agem por conta própria. Para as duas publicações, o caso documentado pela Norforge é um exemplo concreto desse movimento, e não um risco apenas teórico.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como os agentes encontraram as brechas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O desenho aberto do Cairn — definir só início e fim, e deixar o agente decidir o caminho — é o que permite usá-lo tanto para tarefas legítimas quanto para orquestrar ataques, segundo o The Verge e o TechRadar. Nos casos documentados pela Norforge, os agentes testaram táticas como injeção de SQL, upload de arquivos e manuseio inseguro de dados armazenados até achar uma brecha explorável.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o analista Snorre Fagerland, da Norforge, citado pelo TechRadar, em um dos ataques os agentes bateram numa primeira barreira, mas reagiram sozinhos: vasculharam registros digitais em busca de infraestrutura associada ao alvo, encontraram um painel de controle público e, depois de horas de tentativa e erro, identificaram uma falha sutil no processamento de dados que permitiu executar um comando malicioso no servidor. \"Não é algo direto de se chegar a soluções assim\", disse Fagerland ao TechRadar. \"Não é coisa de script kiddie.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "@le1xia0, criador do Cairn, disse ao The Verge que a plataforma \"nunca foi uma ferramenta de hacking\" e que \"uso indevido é uma decisão humana, não um recurso do motor\". A Norforge afirma que está trabalhando para tirar do ar as instâncias maliciosas identificadas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que as empresas atingidas disseram",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As empresas atingidas pela campanha estão nos Estados Unidos, Canadá, Austrália e Japão, segundo o The Verge e o TechRadar. Procurada pela Reuters, a John Deere disse não haver indício de que informações sensíveis tenham sido acessadas e afirmou já ter tomado medidas de remediação. A SharkNinja disse que a invasão atingiu um site isolado, com informações de suporte a produtos, e que a falha já foi contida. A Cummins disse à Reuters que está investigando o relato de um possível ataque a um site operado por um fornecedor terceirizado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar e onde: o Cairn é de código aberto e qualquer pessoa pode baixar e configurar instâncias próprias, o que abre espaço tanto para uso legítimo quanto para orquestrar ataques, segundo a Norforge.",
+        "O que muda: a Norforge documentou uma campanha real, já em produção, em vez de um risco teórico — mais de 100 sites de empresas foram efetivamente comprometidos, com ataques concluídos em cerca de 23 horas, em média.",
+        "Quem é afetado: empresas com sites expostos a falhas comuns, como injeção de SQL e upload de arquivos sem validação, nos Estados Unidos, Canadá, Austrália e Japão.",
+        "O que as vítimas fizeram: John Deere e SharkNinja dizem ter contido os problemas e não encontraram indício de acesso a dados sensíveis; a Cummins ainda investiga o caso em um site de fornecedor."
+      ]
+    }
   ],
   "image": {
     "query": "hacker laptop code cyberattack dark room",
-    "alt": "Tela de computador exibindo linhas de código durante uma invasão cibernética"
+    "alt": "Tela de computador exibindo linhas de código durante uma invasão cibernética",
+    "path": "/assets/img/hacker-invade-sites-com-agentes-de-ia-f1a8c913.jpg",
+    "credit": "Clint Patterson / Unsplash",
+    "author": "Clint Patterson",
+    "author_url": "https://unsplash.com/@cbpsc1?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/man-siting-facing-laptop-dYEuFB8KQJk"
   },
   "sources": [
-    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins", "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/security/chinese-hacker-hits-over-100-company-websites-using-ai-agents-deere-and-sharkninja-among-top-brands-affected-in-attack", "title": "Chinese hacker hits over 100 company websites using AI agents"}
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/security/chinese-hacker-hits-over-100-company-websites-using-ai-agents-deere-and-sharkninja-among-top-brands-affected-in-attack",
+      "title": "Chinese hacker hits over 100 company websites using AI agents"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-10-20T15:50:46+00:00",
+  "updated_at": "2026-10-20T15:50:46+00:00"
 }
