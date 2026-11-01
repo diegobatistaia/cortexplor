@@ -7,32 +7,115 @@
   "meta_description": "A Mistral libera os pesos abertos do Mistral Large 4, modelo multimodal de 1 trilhão de parâmetros, com avanços em código, segundo a empresa e a Hugging Face.",
   "keyword": "Mistral Large 4",
   "category": "modelos",
-  "tags": ["ia", "mistral", "modelos", "open-weight", "codigo"],
+  "tags": [
+    "ia",
+    "mistral",
+    "modelos",
+    "open-weight",
+    "codigo"
+  ],
   "body": [
-    {"type": "p", "text": "A Mistral AI publicou em 29 de outubro os pesos para download do Mistral Large 4, liberando o modelo multimodal apelidado internamente de \"Le Chonk\" para uso e hospedagem própria, com 1 trilhão de parâmetros no total, segundo comunicado da própria empresa e análise técnica publicada pela Hugging Face no mesmo dia.", "items": []},
-    {"type": "p", "text": "O modelo recebe texto e imagem como entrada e gera texto como saída, numa arquitetura de mistura de especialistas (Mixture-of-Experts), segundo a Hugging Face. Ele é distribuído sob a Mistral Ecosystem Open-Weight License, uma licença derivada da MIT com restrições para ofertas de modelo como serviço, de acordo com a mesma análise. A Hugging Face também registra janela de contexto de 1 milhão de tokens.", "items": []},
-    {"type": "h2", "text": "Da pré-visualização à versão final", "items": []},
-    {"type": "p", "text": "O Cortexplor noticiou em 6 de outubro o anúncio da pré-visualização do Large 4, quando o acesso era restrito a um endpoint de testes e a própria Mistral ainda não havia divulgado pesos para download. Segundo a empresa, esse período de pré-visualização pública durou cerca de três semanas, com aprendizado por reforço adicional, até a publicação dos pesos completos em 29 de outubro — o fato novo desta reportagem. A empresa afirma que esse período elevou o desempenho em programação e segurança ofensiva/defensiva e reduziu o número de tokens necessários para concluir tarefas, baixando o custo de inferência.", "items": []},
-    {"type": "p", "text": "A empresa diz que o modelo passou a liderar o Terminal-Bench 4.0 entre modelos abertos, com melhora de 13 pontos percentuais em relação à pré-visualização, e que ficou praticamente no mesmo nível do GLM-5.3 no Coding Agent Index da Artificial Analysis, usando 47% menos tokens por tarefa, segundo a Mistral. A Hugging Face confirma, de forma geral, que o lançamento está entre os modelos abertos mais fortes em agentes de código e tarefas multimodais, sem repetir os mesmos números.", "items": []},
-    {"type": "h2", "text": "Segurança cibernética como vitrine", "items": []},
-    {"type": "p", "text": "A Mistral apresenta o Large 4 como ferramenta para equipes de defesa cibernética, não para ataque: a empresa afirma taxa de recusa de 96,6% em pedidos maliciosos, a mais alta que mede entre modelos abertos, e diz que o modelo resiste a 93,3% das tentativas de injeção de prompt no benchmark B3, da Lakera. A Hugging Face concorda com a avaliação geral de que a cibersegurança é um dos pontos fortes do modelo, mas não reproduz os mesmos percentuais, por isso este texto não os mistura.", "items": []},
-    {"type": "p", "text": "A Mistral diz que testou o modelo com empresas do setor, incluindo Booz Allen Hamilton e Cisco, embora os detalhes de desempenho citados venham apenas da própria Mistral.", "items": []},
-    {"type": "h2", "text": "Soberania de dados como argumento de venda", "items": []},
-    {"type": "p", "text": "A Mistral apresenta o lançamento como parte da categoria que a própria empresa chama de \"IA soberana\": por ser aberto, o modelo pode ser baixado e executado dentro da infraestrutura do cliente, sem depender de uma API externa. A empresa afirma que o Large 4 foi treinado do zero em infraestrutura europeia, o que, segundo ela, dá a governos e empresas controle total sobre onde os dados processados pelo modelo ficam armazenados — um argumento recorrente da companhia francesa frente a rivais americanos e chineses.", "items": []},
-    {"type": "h2", "text": "Disponibilidade", "items": []},
-    {"type": "p", "text": "Segundo a Hugging Face, o Large 4 já roda a partir do lançamento com as bibliotecas transformers, vLLM e llama.cpp, com versões quantizadas em formato GGUF produzidas pela Unsloth e pela própria equipe do llama.cpp. A plataforma também oferece hospedagem paga via Inference Endpoints e inferência sem servidor por meio dos Inference Providers. O modelo aceita três níveis de esforço de raciocínio — baixo, médio e alto —, sendo o alto o padrão; segundo a Hugging Face, não é possível desativar o raciocínio.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Pesos abertos disponíveis para download e uso próprio desde 29 de outubro de 2026, sem custo de licenciamento informado pelas fontes.",
-      "Roda com transformers, vLLM e llama.cpp desde o lançamento, com versões GGUF quantizadas para hardware mais modesto, segundo a Hugging Face.",
-      "Quem opera a própria infraestrutura paga apenas pelo hardware ou pela nuvem escolhida; a Mistral também oferece hospedagem paga via Inference Endpoints.",
-      "Segundo a Mistral, a principal mudança em relação à pré-visualização de outubro é o ganho de desempenho em código e segurança, com menos tokens gastos por tarefa."
-    ]}
+    {
+      "type": "p",
+      "text": "A Mistral AI publicou em 29 de outubro os pesos para download do Mistral Large 4, liberando o modelo multimodal apelidado internamente de \"Le Chonk\" para uso e hospedagem própria, com 1 trilhão de parâmetros no total, segundo comunicado da própria empresa e análise técnica publicada pela Hugging Face no mesmo dia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O modelo recebe texto e imagem como entrada e gera texto como saída, numa arquitetura de mistura de especialistas (Mixture-of-Experts), segundo a Hugging Face. Ele é distribuído sob a Mistral Ecosystem Open-Weight License, uma licença derivada da MIT com restrições para ofertas de modelo como serviço, de acordo com a mesma análise. A Hugging Face também registra janela de contexto de 1 milhão de tokens.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Da pré-visualização à versão final",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Cortexplor noticiou em 6 de outubro o anúncio da pré-visualização do Large 4, quando o acesso era restrito a um endpoint de testes e a própria Mistral ainda não havia divulgado pesos para download. Segundo a empresa, esse período de pré-visualização pública durou cerca de três semanas, com aprendizado por reforço adicional, até a publicação dos pesos completos em 29 de outubro — o fato novo desta reportagem. A empresa afirma que esse período elevou o desempenho em programação e segurança ofensiva/defensiva e reduziu o número de tokens necessários para concluir tarefas, baixando o custo de inferência.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa diz que o modelo passou a liderar o Terminal-Bench 4.0 entre modelos abertos, com melhora de 13 pontos percentuais em relação à pré-visualização, e que ficou praticamente no mesmo nível do GLM-5.3 no Coding Agent Index da Artificial Analysis, usando 47% menos tokens por tarefa, segundo a Mistral. A Hugging Face confirma, de forma geral, que o lançamento está entre os modelos abertos mais fortes em agentes de código e tarefas multimodais, sem repetir os mesmos números.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Segurança cibernética como vitrine",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Mistral apresenta o Large 4 como ferramenta para equipes de defesa cibernética, não para ataque: a empresa afirma taxa de recusa de 96,6% em pedidos maliciosos, a mais alta que mede entre modelos abertos, e diz que o modelo resiste a 93,3% das tentativas de injeção de prompt no benchmark B3, da Lakera. A Hugging Face concorda com a avaliação geral de que a cibersegurança é um dos pontos fortes do modelo, mas não reproduz os mesmos percentuais, por isso este texto não os mistura.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Mistral diz que testou o modelo com empresas do setor, incluindo Booz Allen Hamilton e Cisco, embora os detalhes de desempenho citados venham apenas da própria Mistral.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Soberania de dados como argumento de venda",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Mistral apresenta o lançamento como parte da categoria que a própria empresa chama de \"IA soberana\": por ser aberto, o modelo pode ser baixado e executado dentro da infraestrutura do cliente, sem depender de uma API externa. A empresa afirma que o Large 4 foi treinado do zero em infraestrutura europeia, o que, segundo ela, dá a governos e empresas controle total sobre onde os dados processados pelo modelo ficam armazenados — um argumento recorrente da companhia francesa frente a rivais americanos e chineses.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Disponibilidade",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Hugging Face, o Large 4 já roda a partir do lançamento com as bibliotecas transformers, vLLM e llama.cpp, com versões quantizadas em formato GGUF produzidas pela Unsloth e pela própria equipe do llama.cpp. A plataforma também oferece hospedagem paga via Inference Endpoints e inferência sem servidor por meio dos Inference Providers. O modelo aceita três níveis de esforço de raciocínio — baixo, médio e alto —, sendo o alto o padrão; segundo a Hugging Face, não é possível desativar o raciocínio.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Pesos abertos disponíveis para download e uso próprio desde 29 de outubro de 2026, sem custo de licenciamento informado pelas fontes.",
+        "Roda com transformers, vLLM e llama.cpp desde o lançamento, com versões GGUF quantizadas para hardware mais modesto, segundo a Hugging Face.",
+        "Quem opera a própria infraestrutura paga apenas pelo hardware ou pela nuvem escolhida; a Mistral também oferece hospedagem paga via Inference Endpoints.",
+        "Segundo a Mistral, a principal mudança em relação à pré-visualização de outubro é o ganho de desempenho em código e segurança, com menos tokens gastos por tarefa."
+      ]
+    }
   ],
-  "image": {"query": "open source large language model release abstract", "alt": "Ilustração abstrata representando o lançamento de um modelo de inteligência artificial de código aberto"},
+  "image": {
+    "query": "open source large language model release abstract",
+    "alt": "Ilustração abstrata representando o lançamento de um modelo de inteligência artificial de código aberto",
+    "path": "/assets/img/mistral-lanca-pesos-abertos-large-4-74c8a0f3.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "author": "Markus Spiske",
+    "author_url": "https://unsplash.com/@markusspiske?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/tilt-shift-photography-of-html-codes-8OyKWQgBsKQ"
+  },
   "sources": [
-    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/mistral-large4", "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"},
-    {"name": "Mistral AI", "owner": "mistral", "url": "https://mistral.ai/news/mistral-large-4-oss", "title": "Mistral Large 4 (Le Chonk) is now open weight"}
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
+    },
+    {
+      "name": "Mistral AI",
+      "owner": "mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss",
+      "title": "Mistral Large 4 (Le Chonk) is now open weight"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-01T10:54:17+00:00",
+  "updated_at": "2026-11-01T10:54:17+00:00"
 }
