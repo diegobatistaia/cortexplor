@@ -1,0 +1,6 @@
+Slide 1: cover about Mistral opening the weights for Large 4, a 1-trillion-parameter model
+Slide 2: weights published on October 29; the model takes text and images and generates text
+Slide 3: 1 trillion parameters, a 1-million-token context window and an MIT-derived license
+Slide 4: Large 4 leads Terminal-Bench 4.0 among open models and uses 47% fewer tokens per task
+Slide 5: runs on transformers, vLLM and llama.cpp; GGUF builds and paid hosting
+Slide 6: sources for the story on Mistral Large 4: Hugging Face and Mistral AI

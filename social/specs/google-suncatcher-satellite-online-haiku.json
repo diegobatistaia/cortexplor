@@ -1,0 +1,101 @@
+{
+  "slug": "google-suncatcher-satellite-online-haiku",
+  "lang": "en",
+  "date": "01 Nov 2026",
+  "no": 63,
+  "category": "Market",
+  "kicker": "Market · Google",
+  "headline": "Google's satellite answers in haiku",
+  "headline_hl": "haiku",
+  "dek": "The Project Suncatcher prototype answered its first command from Earth, per TechCrunch and The Verge.",
+  "image": {
+    "path": "assets/img/google-suncatcher-satellite-online-haiku-198fba32.jpg",
+    "credit": "Nicolas Arnold / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "4<br>TPUs",
+  "sources": [
+    "TechCrunch",
+    "The Verge"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "First command answered",
+    "body": [
+      "Google's Project Suncatcher satellite is online and sent Earth a haiku written by Gemma 4, per TechCrunch and The Verge.",
+      "It rode a SpaceX Falcon 9 and carries four TPUs, per TechCrunch."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The craft's limits",
+    "body": "According to TechCrunch:",
+    "points": [
+      {
+        "h": "Chips",
+        "t": "Four Google TPUs on board (TechCrunch)."
+      },
+      {
+        "h": "Power",
+        "t": "The craft makes up to 1 kW of electricity (TechCrunch)."
+      },
+      {
+        "h": "Usage",
+        "t": "One TPU runs at a time, for about 20 minutes (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A data center in orbit",
+    "body": [
+      "Suncatcher tests AI data centers in space, a long-horizon Google bet, per TechCrunch.",
+      "Per TechCrunch, the project should only become economical in the 2030s."
+    ],
+    "stat": {
+      "big": "2027",
+      "cap": "when two more satellites launch, says Google"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Tests",
+        "t": "Heat and radiation come next, per both outlets."
+      },
+      {
+        "h": "Risk",
+        "t": "Radiation can corrupt data unnoticed, per TechCrunch."
+      },
+      {
+        "h": "2027",
+        "t": "Two more satellites with optical links, says Google."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google's Project Suncatcher satellite answered its first command from Earth with a haiku.",
+    "body": [
+      "Per TechCrunch and The Verge, the prototype is online and sent the poem, written by the Gemma 4 model. The craft rode a SpaceX Falcon 9 and carries four TPUs, but because of its power limit it runs only one at a time, for about 20 minutes, per TechCrunch.",
+      "The next phase measures heat and radiation, which can corrupt data without tripping alarms, according to TechCrunch. If results hold, Google says it will launch two more satellites in 2027, with optical links between them. TechCrunch notes the project should only pay off in the 2030s."
+    ],
+    "cta_variant": "A",
+    "cta": "Do orbital data centers make sense to you?",
+    "hashtags": [
+      "#cortexplor",
+      "#suncatcher",
+      "#google",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google's satellite that answered its first command with a haiku",
+    "Slide 2: satellite is online and sent a Gemma 4 haiku; it rode a Falcon 9",
+    "Slide 3: four TPUs, up to 1 kW of power and only one TPU running at a time",
+    "Slide 4: Suncatcher tests AI data centers in orbit; economical only in the 2030s",
+    "Slide 5: heat and radiation tests next; two more satellites planned for 2027",
+    "Slide 6: sources for the story on the Suncatcher satellite: TechCrunch and The Verge"
+  ]
+}

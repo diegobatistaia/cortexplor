@@ -1,0 +1,101 @@
+{
+  "slug": "mistral-releases-large-4-open-weights",
+  "lang": "en",
+  "date": "01 Nov 2026",
+  "no": 64,
+  "category": "Models",
+  "kicker": "Models · Mistral",
+  "headline": "Mistral opens weights for Large 4",
+  "headline_hl": "Large 4",
+  "dek": "The 1-trillion-parameter model ships under an open license, per Hugging Face.",
+  "image": {
+    "path": "assets/img/mistral-releases-large-4-open-weights-74c8a0f3.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "1 trillion<br>parameters",
+  "sources": [
+    "Hugging Face",
+    "Mistral AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Open weights since Oct 29",
+    "body": [
+      "Mistral published the weights for Mistral Large 4 on October 29, per Hugging Face and Mistral AI.",
+      "The model takes text and images and generates text, using a Mixture-of-Experts design, per Hugging Face."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the model offers",
+    "body": "According to Hugging Face:",
+    "points": [
+      {
+        "h": "Scale",
+        "t": "1 trillion total parameters (Hugging Face)."
+      },
+      {
+        "h": "Context",
+        "t": "A 1-million-token window (Hugging Face)."
+      },
+      {
+        "h": "License",
+        "t": "An MIT derivative that limits hosted services (Hugging Face)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Coding and cost",
+    "body": [
+      "Mistral AI says Large 4 leads Terminal-Bench 4.0 among open models, 13 points above its preview.",
+      "Per Mistral AI, it uses fewer tokens per task than GLM-5.3, which lowers running costs."
+    ],
+    "stat": {
+      "big": "47%",
+      "cap": "fewer tokens per task, says Mistral AI"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "How to run it",
+    "items": [
+      {
+        "h": "Libraries",
+        "t": "transformers, vLLM and llama.cpp from day one (Hugging Face)."
+      },
+      {
+        "h": "Quantized",
+        "t": "GGUF builds suit lighter hardware (Hugging Face)."
+      },
+      {
+        "h": "Hosting",
+        "t": "Paid Inference Endpoints on Hugging Face."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Mistral opened the weights for Large 4, a multimodal model with 1 trillion parameters, per Hugging Face.",
+    "body": [
+      "Per Hugging Face and Mistral AI, the weights went live on October 29 under an MIT-derived license that limits model-as-a-service offerings. Large 4 takes text and images, generates text and has a 1-million-token context window, according to Hugging Face.",
+      "Mistral AI claims it leads Terminal-Bench 4.0 among open models, 13 points above its preview, and uses 47% fewer tokens per task than GLM-5.3. It runs on transformers, vLLM and llama.cpp from launch, including GGUF builds for lighter hardware, per Hugging Face."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#mistral",
+      "#openweights",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Mistral opening the weights for Large 4, a 1-trillion-parameter model",
+    "Slide 2: weights published on October 29; the model takes text and images and generates text",
+    "Slide 3: 1 trillion parameters, a 1-million-token context window and an MIT-derived license",
+    "Slide 4: Large 4 leads Terminal-Bench 4.0 among open models and uses 47% fewer tokens per task",
+    "Slide 5: runs on transformers, vLLM and llama.cpp; GGUF builds and paid hosting",
+    "Slide 6: sources for the story on Mistral Large 4: Hugging Face and Mistral AI"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "satelite-ia-google-suncatcher-online",
+  "lang": "pt",
+  "date": "01 nov 2026",
+  "no": 67,
+  "category": "Mercado",
+  "kicker": "Mercado · Google",
+  "headline": "Satélite do Google responde com um haicai",
+  "headline_hl": "haicai",
+  "dek": "O protótipo do Projeto Suncatcher recebeu o primeiro comando da Terra, segundo TechCrunch e The Verge.",
+  "image": {
+    "path": "assets/img/satelite-ia-google-suncatcher-online-198fba32.jpg",
+    "credit": "Nicolas Arnold / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "4<br>TPUs",
+  "sources": [
+    "TechCrunch",
+    "The Verge"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Primeiro comando respondido",
+    "body": [
+      "O satélite do Projeto Suncatcher, do Google, entrou em operação e enviou à Terra um haicai gerado pelo Gemma 4, segundo TechCrunch e The Verge.",
+      "Ele subiu num Falcon 9 da SpaceX e leva quatro TPUs, segundo a TechCrunch."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Os limites da nave",
+    "body": "Segundo a TechCrunch:",
+    "points": [
+      {
+        "h": "Chips",
+        "t": "Quatro TPUs do Google a bordo (TechCrunch)."
+      },
+      {
+        "h": "Energia",
+        "t": "A nave gera até 1 kW de eletricidade (TechCrunch)."
+      },
+      {
+        "h": "Uso",
+        "t": "Só uma TPU liga por vez, por cerca de 20 minutos (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Data center em órbita",
+    "body": [
+      "O Suncatcher testa data centers de IA no espaço, uma aposta de longo prazo do Google, segundo a TechCrunch.",
+      "Segundo a TechCrunch, o projeto só deve ficar viável economicamente na década de 2030."
+    ],
+    "stat": {
+      "big": "2027",
+      "cap": "ano de mais dois satélites, diz o Google"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Testes",
+        "t": "Calor e radiação serão avaliados, segundo as duas fontes."
+      },
+      {
+        "h": "Risco",
+        "t": "A radiação pode corromper dados sem alarme, segundo a TechCrunch."
+      },
+      {
+        "h": "2027",
+        "t": "Mais dois satélites, com links ópticos, diz o Google."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O satélite do Projeto Suncatcher, do Google, respondeu ao primeiro comando da Terra com um haicai.",
+    "body": [
+      "Segundo TechCrunch e The Verge, o protótipo entrou em operação e enviou o poema, gerado pelo modelo Gemma 4. A nave subiu num Falcon 9 da SpaceX e leva quatro TPUs, mas, pelo limite de energia, só liga uma por vez, por cerca de 20 minutos, segundo a TechCrunch.",
+      "A próxima fase vai medir calor e radiação, que podem corromper dados sem disparar alarmes, de acordo com a TechCrunch. Se os resultados forem bons, o Google diz que lançará mais dois satélites em 2027, com comunicação óptica entre eles. A TechCrunch lembra que o projeto só deve ser viável nos anos 2030."
+    ],
+    "cta_variant": "A",
+    "cta": "Data centers em órbita fazem sentido para você?",
+    "hashtags": [
+      "#cortexplor",
+      "#suncatcher",
+      "#google",
+      "#inteligenciaartificial"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o satélite do Google que respondeu ao primeiro comando com um haicai",
+    "Slide 2: satélite entrou em operação e enviou um haicai do Gemma 4; subiu num Falcon 9",
+    "Slide 3: quatro TPUs, até 1 kW de energia e só uma TPU ligada por vez",
+    "Slide 4: Suncatcher testa data centers de IA em órbita; viável só nos anos 2030",
+    "Slide 5: testes de calor e radiação; mais dois satélites previstos para 2027",
+    "Slide 6: fontes da matéria sobre o satélite Suncatcher: TechCrunch e The Verge"
+  ]
+}
