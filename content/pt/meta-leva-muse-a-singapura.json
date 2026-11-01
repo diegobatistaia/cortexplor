@@ -1,0 +1,41 @@
+{
+  "lang": "pt",
+  "slug": "meta-leva-muse-a-singapura",
+  "story_id": "9ac59237a9600656",
+  "title": "Meta expande o Muse, seu agente pessoal de IA, para Singapura",
+  "dek": "Com parceiros locais de compras, mercado e viagem, o assistente chega ao país menos de dois meses após o lançamento nos EUA.",
+  "meta_description": "A Meta expande o Muse, seu agente pessoal de IA, para Singapura, com parceiros locais como Shopee, Grab e Singapore Airlines, segundo a própria empresa.",
+  "keyword": "muse singapura",
+  "category": "aplicacoes",
+  "tags": ["ia", "meta", "muse", "agentes", "singapura"],
+  "body": [
+    {"type": "p", "text": "A Meta levou o Muse, seu agente pessoal de inteligência artificial, para Singapura. O assistente passa a operar no país com parceiros locais de comércio, alimentação e viagem, segundo comunicado da empresa publicado em 28 de outubro.", "items": []},
+    {"type": "p", "text": "O Muse havia sido lançado nos Estados Unidos em setembro, com acesso por aplicativo, site e WhatsApp, como o Cortexplor já mostrou. Em Singapura, a Meta conecta o agente a serviços que o usuário já usa no dia a dia, como Gmail, Google Calendar e Instagram, para ajudar a administrar e-mail, organizar a agenda e reaproveitar conteúdo salvo, segundo a empresa.", "items": []},
+    {"type": "h2", "text": "Parceiros locais e o que o agente faz", "items": []},
+    {"type": "p", "text": "Os primeiros parceiros de conectores no país, segundo a Meta, incluem a Shopee, a Grab e a Singapore Airlines, além da Agoda e da ShopBack, passando por Klook e Trip.com, até chegar à Lazada. Juntos, cobrem compras, mercado, alimentação e viagem. A empresa diz que os recursos de cada conector entram em funcionamento de forma gradual, e que parte deles só fica disponível depois do lançamento no país.", "items": []},
+    {"type": "p", "text": "Segundo a Meta, o usuário pode pedir ao Muse para pesquisar produtos e comparar preços antes de comprar na Shopee ou na Lazada, organizar compras de mercado e pedidos de comida pelo GrabMart e pelo Grab Dine Out, ou cuidar de passagens e reservas de viagem com a Singapore Airlines, a Agoda, a Klook e a Trip.com. Pela ShopBack, o agente também pode buscar cashback em compras e viagens e aplicar promoções em restaurantes parceiros.", "items": []},
+    {"type": "h2", "text": "Como funciona a Muse Secure VM", "items": []},
+    {"type": "p", "text": "O Muse roda sobre uma arquitetura batizada de Muse Secure VM: uma máquina virtual dedicada, na nuvem, que guarda os dados e as credenciais dos serviços conectados, mantendo senhas e dados de pagamento fora do alcance direto do próprio agente, segundo a Meta. A empresa afirma que o usuário decide o que o Muse pode acessar, e que o agente só age em passos sensíveis — como enviar um e-mail ou fazer uma compra — depois de confirmar com a pessoa.", "items": []},
+    {"type": "p", "text": "A diretora-geral da Meta em Singapura, Nicole Tan, disse que o objetivo é ligar o Muse a marcas conhecidas do país e da região, para que o usuário resolva tarefas do cotidiano dentro de serviços que já usa, segundo a empresa.", "items": []},
+    {"type": "p", "text": "No lançamento nos Estados Unidos, em setembro, a Meta já descrevia essa mesma Secure VM como a base de segurança do Muse, vigiada por uma camada chamada Sentinel. Quando um comando do agente respeita uma regra já combinada com o usuário, a execução continua sem interrupção; fora disso, quem decide é a pessoa, não o modelo de IA — uma barreira pensada contra tentativas de manipular o agente por dentro, como o <a href=\"https://cortexplor.com/pt/meta-lanca-muse-agente-pessoal-de-ia/\">Cortexplor mostrou</a> na época, com base na Meta, na Wired e na SiliconANGLE.", "items": []},
+    {"type": "p", "text": "Naquele lançamento, as compras feitas pelo Muse já passavam por uma infraestrutura construída com a Stripe, batizada de Link, que gera um número de cartão de uso único para cada transação, de modo que o agente nunca expõe os dados financeiros reais de quem o usa, segundo a Meta, a Wired e a SiliconANGLE. O comunicado sobre Singapura não repete esses detalhes técnicos, mas também não indica qualquer mudança na arquitetura de segurança usada nos Estados Unidos.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quem pode usar e onde: usuários em Singapura, pelo aplicativo iOS e Android e pelo site muse.ai, segundo a Meta; o acesso pelos óculos de IA da empresa ainda não tem data.",
+      "Desde quando: a partir do comunicado da Meta, publicado em 28 de outubro de 2026.",
+      "Quanto custa: gratuito para a maior parte dos usos, com planos de assinatura para quem quiser automatizar mais tarefas, segundo a empresa.",
+      "O que muda: o Muse chega a um segundo país depois do lançamento nos Estados Unidos, em setembro, agora com parceiros locais próprios de comércio, mercado e viagem.",
+      "Quem é afetado: usuários em Singapura que já usam os aplicativos parceiros, como Shopee, Grab, Agoda e Singapore Airlines."
+    ]},
+    {"type": "p", "text": "Até aqui, a Meta confirmou o Muse apenas nos Estados Unidos e, com este anúncio, em Singapura. A empresa não informou se e quando o agente chega a outros mercados, incluindo o Brasil.", "items": []}
+  ],
+  "image": {
+    "query": "smartphone shopping app icons travel food delivery Singapore skyline",
+    "alt": "Ilustração de um smartphone com ícones de aplicativos de compras e viagem, com o horizonte de Singapura ao fundo"
+  },
+  "sources": [
+    {"name": "Meta Newsroom", "owner": "meta", "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/", "title": "Muse Is Now Available in Singapore: The World's First Personal AI Agent Built for Everyone"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
