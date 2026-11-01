@@ -1,0 +1,36 @@
+{
+  "lang": "pt",
+  "slug": "satelite-ia-google-suncatcher-online",
+  "story_id": "426f2805cc939231",
+  "title": "Satélite do Projeto Suncatcher do Google entra em operação no espaço",
+  "dek": "Com chips de IA a bordo, a nave respondeu ao primeiro comando enviado da Terra gerando um haicai, segundo TechCrunch e The Verge.",
+  "meta_description": "O satélite do Projeto Suncatcher do Google entrou em operação e gerou um haicai no espaço usando o modelo Gemma 4, segundo a TechCrunch e o The Verge.",
+  "keyword": "Projeto Suncatcher",
+  "category": "mercado",
+  "tags": ["ia", "google", "deepmind", "data-center", "satelite"],
+  "body": [
+    {"type": "p", "text": "O satélite protótipo do Projeto Suncatcher, iniciativa do Google para testar data centers de inteligência artificial em órbita, entrou em operação e enviou à Terra um haicai gerado pelo modelo Gemma 4, segundo reportagens da TechCrunch e do The Verge publicadas na sexta-feira (30 de outubro).", "items": []},
+    {"type": "p", "text": "O Cortexplor já havia noticiado, em 25 de setembro, o anúncio do lançamento dessa mesma nave, batizada de MVP, prevista para subir em 1º de outubro. Agora as fontes confirmam que o satélite não só chegou à órbita, como já recebeu e respondeu ao primeiro comando enviado da Terra — o fato novo desta reportagem. A nave foi lançada a bordo de um foguete Falcon 9 da SpaceX, junto com mais de 100 outras cargas, de acordo com a TechCrunch. Ela carrega quatro unidades de processamento tensorial (TPUs) do Google, mas, por limite de energia — a nave gera até 1 kW de eletricidade —, consegue manter apenas uma TPU ligada por vez, por cerca de 20 minutos, segundo a mesma reportagem.", "items": []},
+    {"type": "h2", "text": "O que a equipe testou", "items": []},
+    {"type": "p", "text": "Depois de cerca de três semanas testando os subsistemas da nave, engenheiros do Google enviaram o primeiro comando ao Gemma 4, modelo da Google DeepMind pré-carregado no satélite, pedindo um haicai sobre estar no espaço. O resultado, divulgado pelo Google e citado pelas duas reportagens, foi: \"Blue marble below / Data streams in silent grace / Starlight feeds my core\". A equipe também testou limeriques de temática espacial e pediu ao satélite que reportasse as condições orbitais ao redor da nave, segundo a TechCrunch.", "items": []},
+    {"type": "h2", "text": "Próximos testes", "items": []},
+    {"type": "p", "text": "Segundo as duas reportagens, a fase seguinte vai avaliar como os chips se comportam sob estresse térmico e radiação espacial. A radiação pode causar as chamadas \"inversões de bit\" — alteração de um valor armazenado na memória do chip —, capazes de corromper dados sem disparar os alarmes usuais de monitoramento, segundo a TechCrunch. Testes feitos em terra indicavam impacto pequeno da radiação sobre tarefas de inferência, mas maior sobre o treinamento de modelos; a missão atual deve confirmar isso em condição real, fora de simulação, segundo a mesma reportagem.", "items": []},
+    {"type": "p", "text": "Se os resultados forem positivos, o Google planeja lançar mais dois satélites com os mesmos chips em 2027, com maior capacidade de geração de energia e comunicação óptica entre as naves, segundo o Google, citado pela TechCrunch e pelo The Verge.", "items": []},
+    {"type": "h2", "text": "Por que o Google está testando isso", "items": []},
+    {"type": "p", "text": "O Suncatcher é um projeto de longo prazo do Google, pensado para ficar economicamente viável só na década de 2030, segundo a TechCrunch. A reportagem lembra que a Alphabet, controladora do Google, também é investidora da SpaceX, que persegue uma visão semelhante de data centers orbitais — com a diferença de que o Suncatcher aposta em links de alta velocidade entre satélites próximos para somar capacidade de processamento, enquanto os satélites da SpaceX devem operar distantes demais entre si para isso, segundo a TechCrunch. Ambos os planos dependem do sucesso da Starship, o foguete reutilizável da SpaceX ainda em desenvolvimento.", "items": []},
+    {"type": "p", "text": "A TechCrunch cita um estudo revisado por pares feito por pesquisadores do próprio Suncatcher, segundo o qual a SpaceX precisaria lançar a Starship 1.800 vezes para repetir, com dados de voos orbitais, a mesma redução de custo que obteve ao reaproveitar veículos anteriores — uma estimativa do estudo, não confirmada por outra fonte. A reportagem também situa o Suncatcher entre outras apostas de computação espacial: empresas como Starcloud e Cowboy Space preveem rodar inferência em satélites isolados, sem a rede de links entre naves que o projeto do Google pretende construir.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "O satélite está em fase de teste; não há serviço de nuvem em órbita disponível para uso externo.",
+      "A nave leva 4 TPUs do Google, mas só consegue ligar uma por vez, por limite de energia, segundo a TechCrunch.",
+      "Próximo marco: lançamento de dois satélites adicionais em 2027, com mais energia e comunicação óptica entre eles, segundo o Google.",
+      "A missão atual testa a resistência dos chips à radiação espacial, fator que pode corromper dados sem disparar alarmes de monitoramento."
+    ]}
+  ],
+  "image": {"query": "satellite orbit earth space technology", "alt": "Ilustração de um satélite em órbita da Terra representando infraestrutura de computação espacial"},
+  "sources": [
+    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/", "title": "Google's first data center satellite is online and writing poetry"},
+    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission", "title": "Google's satellite AI server transmits its first response to Earth"}
+  ],
+  "status": "draft"
+}
