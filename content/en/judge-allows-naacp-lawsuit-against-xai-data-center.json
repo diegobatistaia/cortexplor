@@ -1,0 +1,118 @@
+{
+  "lang": "en",
+  "slug": "judge-allows-naacp-lawsuit-against-xai-data-center",
+  "story_id": "1621f02abc58fb49",
+  "title": "Judge Rejects xAI Bid to Dismiss NAACP Pollution Lawsuit",
+  "dek": "The ruling lets the case over unpermitted gas turbines powering the Colossus data center near Memphis move forward in federal court.",
+  "meta_description": "A federal judge denied xAI's motion to dismiss the NAACP's Clean Air Act lawsuit over unpermitted gas turbines powering its Colossus data center near Memphis.",
+  "keyword": "xAI data center lawsuit NAACP",
+  "category": "politica",
+  "tags": [
+    "xai",
+    "spacex",
+    "naacp",
+    "data-centers",
+    "air-pollution"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A federal judge in Mississippi denied a motion by xAI, the artificial intelligence arm of SpaceX, to dismiss a lawsuit the NAACP brought over air pollution linked to the Colossus data center near Memphis, according to CNBC and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The suit, filed by the Southern Environmental Law Center on the NAACP's behalf, is proceeding in the US District Court for the Northern District of Mississippi, CNBC reports. TechCrunch confirms the case sits before Judge Debra M. Brown.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The lawsuit accuses xAI of violating the Clean Air Act by installing and running gas combustion turbines without the required emissions permits, to power the Southaven, Mississippi site that feeds Colossus. The two outlets differ on the turbine count: CNBC cites 27 turbines installed by xAI and its subsidiary MZX Tech between August and December 2025, while TechCrunch, citing the Southern Environmental Law Center, puts the figure at 35 combustion turbines and other pollution sources on-site.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "xAI's defense, and why the judge rejected it",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "xAI's lawyers sought dismissal on two grounds, per both outlets: that the turbines qualify as \"mobile\" sources exempt from permitting, and that the NAACP lacks standing to sue under the Clean Air Act, arguing citizen suits of this kind are unconstitutional.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Judge Brown rejected both arguments. In a passage quoted by both CNBC and TechCrunch, she wrote: \"Because the plaintiffs have statutory standing under the Clean Air Act, because the combustion turbines are not 'mobile sources' under Mississippi's [State Implementation Plan], and because the citizen suit provision does not violate Article II of the Constitution or the private nondelegation doctrine, the plaintiffs' claims will proceed.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The ruling comes weeks after the same court rejected a similar motion to dismiss filed by the US Department of Justice in the same case, according to both CNBC and TechCrunch. That earlier attempt means the Colossus turbines have now survived two separate dismissal bids within the same month, from two different defendants in the same lawsuit.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What's behind the lawsuit",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC reports the suit alleges the turbines emit smog-forming pollutants and particulate matter that raise health risks and cause unpleasant odors for nearby residents. TechCrunch adds that NAACP's director of environmental and climate justice, Abre' Connor, called the ruling \"another important victory\" in the organization's effort to hold xAI accountable.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SpaceX did not immediately respond to CNBC's request for comment. TechCrunch said it had reached out to the company as well.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC notes that the Colossus complex and the Southaven plant have faced community backlash for years over air pollution and the resources consumed by running the data centers. Both outlets describe xAI as SpaceX's artificial intelligence division, operating the Colossus centers under the SpaceXAI and SpaceXSI brands.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Part of a wider pushback against data centers",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch reports the case is moving forward as public opinion in the US turns against AI data centers: New York recently passed a moratorium on new ones, and Amazon and Microsoft have pledged to stop using non-disclosure agreements in their dealings with government agencies. According to the outlet, the dispute over Colossus could also weigh on the upcoming US midterm elections.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who is affected: residents near Memphis and Southaven, Mississippi, close to the Colossus data center and the power plant supplying it.",
+        "What changes now: the NAACP's case against xAI proceeds in federal court, after two dismissal attempts were rejected by the same court within weeks of each other, per CNBC and TechCrunch.",
+        "What's at stake: whether xAI can keep running the gas turbines powering Colossus without the Clean Air Act permits regulators require.",
+        "Context: TechCrunch notes the case advances amid broader pushback against AI data centers across the US."
+      ]
+    }
+  ],
+  "image": {
+    "query": "gas turbine power plant industrial site",
+    "alt": "Gas combustion turbines at an industrial site supplying power to a data center"
+  },
+  "sources": [
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward"
+    }
+  ],
+  "status": "draft"
+}
