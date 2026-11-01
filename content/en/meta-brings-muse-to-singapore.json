@@ -7,35 +7,106 @@
   "meta_description": "Meta expands its personal AI agent Muse to Singapore, adding local partners such as Shopee, Grab and Singapore Airlines, the company has now announced.",
   "keyword": "muse singapore",
   "category": "aplicacoes",
-  "tags": ["ai", "meta", "muse", "agents", "singapore"],
+  "tags": [
+    "ai",
+    "meta",
+    "muse",
+    "agents",
+    "singapore"
+  ],
   "body": [
-    {"type": "p", "text": "Meta has brought Muse, its personal AI agent, to Singapore. The assistant now works in the country with local shopping, grocery, dining and travel partners, according to a company announcement published on October 28th.", "items": []},
-    {"type": "p", "text": "Muse launched in the United States in September through a dedicated app, a website and WhatsApp, as Cortexplor reported at the time. In Singapore, Meta is linking the agent to everyday apps such as Gmail, Google Calendar and Instagram, letting it handle inbox chores, keep track of appointments and pull up saved content, the company says.", "items": []},
-    {"type": "h2", "text": "Local partners and what the agent can do", "items": []},
-    {"type": "p", "text": "The early local connector partners in Singapore, Meta says, include Shopee, Grab and Singapore Airlines, plus Agoda and ShopBack, followed by Klook and Trip.com, down to Lazada. Together they span shopping, groceries, dining and travel. The company says it is rolling these connectors out step by step, and some of the planned capabilities will not be live until some time after this launch.", "items": []},
-    {"type": "p", "text": "Meta says the agent can look into items and check prices ahead of a purchase on Shopee or Lazada, line up a grocery run and meal orders through GrabMart and Grab Dine Out, or handle flight and trip bookings with Singapore Airlines, Agoda, Klook and Trip.com. Through ShopBack, it can also chase cashback on shopping and travel and redeem deals at partner restaurants.", "items": []},
-    {"type": "h2", "text": "Security: the Muse Secure VM", "items": []},
-    {"type": "p", "text": "Muse runs on what Meta calls the Muse Secure VM, a standalone cloud machine built to hold the login details and data tied to every connected service, so passwords and payment information never reach the agent directly, the company says. Meta says users choose what Muse can access, and that the agent checks back with them before a sensitive move, like firing off an email or completing a purchase.", "items": []},
-    {"type": "p", "text": "Nicole Tan, Meta's managing director in Singapore, said the goal is to connect Muse with well-known brands in the country and the wider region so people can get everyday tasks done through services they already use, according to the company.", "items": []},
-    {"type": "p", "text": "At the US launch in September, Meta described that same Secure VM as Muse's security foundation, paired with a layer called Sentinel that monitors everything leaving each user's virtual machine: if an action matches a policy the person already approved, it proceeds on its own; if it doesn't, the system asks the person directly, bypassing the AI model itself, as <a href=\"https://cortexplor.com/en/meta-launches-muse-personal-ai-agent/\">Cortexplor reported</a> at the time, citing Meta, Wired and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "At that same launch, purchases made through Muse already ran on a Stripe-built payment system called Link, which generates a single-use card number for each transaction so the agent never exposes a user's real financial details, according to Meta, Wired and SiliconANGLE. The Singapore announcement does not repeat those technical details, but it also does not point to any change in the security architecture used in the US.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it and where: people in Singapore, through the iOS and Android app and muse.ai, according to Meta; access through the company's AI glasses still has no date.",
-      "Since when: following Meta's announcement, published on October 28th, 2026.",
-      "How much it costs: free for most everyday use, with subscription plans for people who want to automate more tasks, the company says.",
-      "What changes: Muse reaches a second market after its September launch in the United States, now with its own local shopping, grocery and travel partners.",
-      "Who is affected: Singapore users of the partner apps, including Shopee, Grab, Agoda and Singapore Airlines."
-    ]},
-    {"type": "p", "text": "So far, Meta has confirmed Muse only in the United States and, with this announcement, in Singapore. The company has not said whether or when the agent will reach other markets, nor has it detailed a broader international rollout schedule beyond these two countries.", "items": []}
+    {
+      "type": "p",
+      "text": "Meta has brought Muse, its personal AI agent, to Singapore. The assistant now works in the country with local shopping, grocery, dining and travel partners, according to a company announcement published on October 28th.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Muse launched in the United States in September through a dedicated app, a website and WhatsApp, as Cortexplor reported at the time. In Singapore, Meta is linking the agent to everyday apps such as Gmail, Google Calendar and Instagram, letting it handle inbox chores, keep track of appointments and pull up saved content, the company says.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Local partners and what the agent can do",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The early local connector partners in Singapore, Meta says, include Shopee, Grab and Singapore Airlines, plus Agoda and ShopBack, followed by Klook and Trip.com, down to Lazada. Together they span shopping, groceries, dining and travel. The company says it is rolling these connectors out step by step, and some of the planned capabilities will not be live until some time after this launch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta says the agent can look into items and check prices ahead of a purchase on Shopee or Lazada, line up a grocery run and meal orders through GrabMart and Grab Dine Out, or handle flight and trip bookings with Singapore Airlines, Agoda, Klook and Trip.com. Through ShopBack, it can also chase cashback on shopping and travel and redeem deals at partner restaurants.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Security: the Muse Secure VM",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Muse runs on what Meta calls the Muse Secure VM, a standalone cloud machine built to hold the login details and data tied to every connected service, so passwords and payment information never reach the agent directly, the company says. Meta says users choose what Muse can access, and that the agent checks back with them before a sensitive move, like firing off an email or completing a purchase.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nicole Tan, Meta's managing director in Singapore, said the goal is to connect Muse with well-known brands in the country and the wider region so people can get everyday tasks done through services they already use, according to the company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At the US launch in September, Meta described that same Secure VM as Muse's security foundation, paired with a layer called Sentinel that monitors everything leaving each user's virtual machine: if an action matches a policy the person already approved, it proceeds on its own; if it doesn't, the system asks the person directly, bypassing the AI model itself, as <a href=\"https://cortexplor.com/en/meta-launches-muse-personal-ai-agent/\">Cortexplor reported</a> at the time, citing Meta, Wired and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At that same launch, purchases made through Muse already ran on a Stripe-built payment system called Link, which generates a single-use card number for each transaction so the agent never exposes a user's real financial details, according to Meta, Wired and SiliconANGLE. The Singapore announcement does not repeat those technical details, but it also does not point to any change in the security architecture used in the US.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it and where: people in Singapore, through the iOS and Android app and muse.ai, according to Meta; access through the company's AI glasses still has no date.",
+        "Since when: following Meta's announcement, published on October 28th, 2026.",
+        "How much it costs: free for most everyday use, with subscription plans for people who want to automate more tasks, the company says.",
+        "What changes: Muse reaches a second market after its September launch in the United States, now with its own local shopping, grocery and travel partners.",
+        "Who is affected: Singapore users of the partner apps, including Shopee, Grab, Agoda and Singapore Airlines."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So far, Meta has confirmed Muse only in the United States and, with this announcement, in Singapore. The company has not said whether or when the agent will reach other markets, nor has it detailed a broader international rollout schedule beyond these two countries.",
+      "items": []
+    }
   ],
   "image": {
     "query": "smartphone shopping app icons travel food delivery Singapore skyline",
-    "alt": "Illustration of a smartphone with shopping and travel app icons, with the Singapore skyline in the background"
+    "alt": "Illustration of a smartphone with shopping and travel app icons, with the Singapore skyline in the background",
+    "path": "/assets/img/meta-brings-muse-to-singapore-26e2cdf2.jpg",
+    "credit": "Victor / Unsplash",
+    "author": "Victor",
+    "author_url": "https://unsplash.com/@victor_g?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/london-cityscape-at-daytime-GmN5LeWO4cQ"
   },
   "sources": [
-    {"name": "Meta Newsroom", "owner": "meta", "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/", "title": "Muse Is Now Available in Singapore: The World's First Personal AI Agent Built for Everyone"}
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+      "title": "Muse Is Now Available in Singapore: The World's First Personal AI Agent Built for Everyone"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-01T21:51:16+00:00",
+  "updated_at": "2026-11-01T21:51:16+00:00"
 }
