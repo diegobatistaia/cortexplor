@@ -1,0 +1,101 @@
+{
+  "slug": "judge-allows-naacp-lawsuit-against-xai-data-center",
+  "lang": "en",
+  "date": "01 Nov 2026",
+  "no": 65,
+  "category": "Policy",
+  "kicker": "Policy · xAI",
+  "headline": "Judge keeps lawsuit over xAI data center alive",
+  "headline_hl": "xAI",
+  "dek": "A judge denied xAI's bid to dismiss the NAACP case over Colossus turbines, per CNBC.",
+  "image": {
+    "path": "assets/img/judge-allows-naacp-lawsuit-against-xai-d-e04c562d.jpg",
+    "credit": "Ricardo Gomez Angel / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "27<br>turbines",
+  "sources": [
+    "CNBC Technology",
+    "TechCrunch AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Dismissal bid denied",
+    "body": [
+      "A federal judge denied xAI's motion to dismiss the NAACP lawsuit, per CNBC and TechCrunch.",
+      "The suit says xAI ran gas turbines without emissions permits at the site powering Colossus near Memphis, per CNBC."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The arguments rejected",
+    "body": "Per CNBC and TechCrunch, xAI argued:",
+    "points": [
+      {
+        "h": "Mobile",
+        "t": "Turbines are mobile sources exempt from permits (CNBC)."
+      },
+      {
+        "h": "Standing",
+        "t": "NAACP cannot sue under the Clean Air Act (TechCrunch)."
+      },
+      {
+        "h": "Ruling",
+        "t": "Judge Debra Brown rejected both points (CNBC)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "A second bid blocked",
+    "body": [
+      "The ruling follows weeks after the same court denied a similar motion from the Justice Department, per TechCrunch.",
+      "The outlets differ on the turbine count: CNBC cites 27, while TechCrunch says at least 35."
+    ],
+    "stat": {
+      "big": "27",
+      "cap": "turbines in the suit, says CNBC"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "The context",
+    "items": [
+      {
+        "h": "Pollution",
+        "t": "The suit cites smog and particulates near residents (CNBC)."
+      },
+      {
+        "h": "Backlash",
+        "t": "New York passed a data center moratorium (TechCrunch)."
+      },
+      {
+        "h": "Midterms",
+        "t": "The case could weigh on the midterms (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A US judge denied xAI's bid to end the NAACP lawsuit over its Colossus data center.",
+    "body": [
+      "Per CNBC and TechCrunch, xAI wanted the case thrown out. It accuses the company of running gas turbines without emissions permits near Memphis. Judge Debra Brown rejected both of its arguments and let the case move forward.",
+      "TechCrunch notes the same court had already denied a similar motion from the Justice Department. The outlets differ on the turbine count: CNBC cites 27, TechCrunch at least 35. The case also lands amid growing US backlash against AI data centers."
+    ],
+    "cta_variant": "A",
+    "cta": "Should AI data centers need stricter permits?",
+    "hashtags": [
+      "#cortexplor",
+      "#xai",
+      "#datacenters",
+      "#aipolicy"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about a US judge keeping the NAACP lawsuit against the xAI data center alive",
+    "Slide 2: dismissal denied; gas turbines without permits near Memphis",
+    "Slide 3: xAI arguments rejected by Judge Debra Brown",
+    "Slide 4: same court denied a similar Justice Department motion; 27 turbines per CNBC",
+    "Slide 5: context of pollution, a New York moratorium and the midterms",
+    "Slide 6: sources for the story: CNBC Technology and TechCrunch AI"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "justica-mantem-acao-naacp-data-center-xai",
+  "lang": "pt",
+  "date": "01 nov 2026",
+  "no": 68,
+  "category": "Regulação",
+  "kicker": "Regulação · xAI",
+  "headline": "Justiça mantém ação contra data center da xAI",
+  "headline_hl": "xAI",
+  "dek": "Juíza negou o pedido para arquivar o processo da NAACP sobre as turbinas do Colossus, segundo a CNBC.",
+  "image": {
+    "path": "assets/img/justica-mantem-acao-naacp-data-center-xa-e04c562d.jpg",
+    "credit": "Ricardo Gomez Angel / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "27<br>turbinas",
+  "sources": [
+    "CNBC Technology",
+    "TechCrunch AI"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Pedido de arquivamento negado",
+    "body": [
+      "Uma juíza federal negou o pedido da xAI para encerrar o processo da NAACP, segundo a CNBC e a TechCrunch.",
+      "A ação diz que a xAI usou turbinas a gás sem licença de emissões no complexo que abastece o Colossus, perto de Memphis, segundo a CNBC."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Os argumentos rejeitados",
+    "body": "Segundo a CNBC e a TechCrunch, a xAI alegou:",
+    "points": [
+      {
+        "h": "Móveis",
+        "t": "Turbinas seriam fontes móveis, isentas de licença (CNBC)."
+      },
+      {
+        "h": "Legitimidade",
+        "t": "A NAACP não poderia processar pela Lei do Ar Limpo (TechCrunch)."
+      },
+      {
+        "h": "Decisão",
+        "t": "A juíza Debra Brown rejeitou os dois pontos (CNBC)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Segunda tentativa barrada",
+    "body": [
+      "A decisão vem semanas depois de o mesmo tribunal negar pedido parecido do Departamento de Justiça, segundo a TechCrunch.",
+      "As fontes divergem no total de turbinas: a CNBC cita 27 e a TechCrunch fala em ao menos 35."
+    ],
+    "stat": {
+      "big": "27",
+      "cap": "turbinas no processo, diz a CNBC"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O contexto",
+    "items": [
+      {
+        "h": "Poluição",
+        "t": "A ação cita smog e partículas perto de moradores (CNBC)."
+      },
+      {
+        "h": "Reação",
+        "t": "Nova York aprovou moratória a novos data centers (TechCrunch)."
+      },
+      {
+        "h": "Eleições",
+        "t": "O caso pode pesar nas eleições de meio de mandato (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Uma juíza dos EUA negou o pedido da xAI para encerrar o processo da NAACP sobre o data center Colossus.",
+    "body": [
+      "Segundo a CNBC e a TechCrunch, a xAI queria arquivar a ação que a acusa de operar turbinas a gás sem licença de emissões perto de Memphis. A juíza Debra Brown rejeitou os dois argumentos da empresa e mandou o caso seguir.",
+      "A TechCrunch lembra que o mesmo tribunal já havia negado pedido parecido do Departamento de Justiça. As fontes divergem no número de turbinas: a CNBC cita 27 e a TechCrunch, ao menos 35. A ação também ocorre em meio à reação nos EUA contra data centers de IA."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#xai",
+      "#datacenters",
+      "#regulacaoia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a Justiça dos EUA que manteve a ação da NAACP contra o data center da xAI",
+    "Slide 2: juíza negou o pedido de arquivamento; turbinas a gás sem licença perto de Memphis",
+    "Slide 3: argumentos da xAI rejeitados pela juíza Debra Brown",
+    "Slide 4: mesmo tribunal negou pedido parecido do Departamento de Justiça; 27 turbinas, diz a CNBC",
+    "Slide 5: contexto de poluição, moratória em Nova York e eleições de meio de mandato",
+    "Slide 6: fontes da matéria: CNBC Technology e TechCrunch AI"
+  ]
+}
