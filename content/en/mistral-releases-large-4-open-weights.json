@@ -1,0 +1,40 @@
+{
+  "lang": "en",
+  "slug": "mistral-releases-large-4-open-weights",
+  "story_id": "10e556bcba135e70",
+  "title": "Mistral releases open weights for its 1-trillion-parameter Large 4",
+  "dek": "Nicknamed Le Chonk, the multimodal model ships under an open license, with the company claiming coding and security gains since its preview.",
+  "meta_description": "Mistral has released open weights for its Large 4, a 1-trillion-parameter multimodal model with coding gains, according to the company and Hugging Face.",
+  "keyword": "Mistral Large 4",
+  "category": "modelos",
+  "tags": ["ai", "mistral", "models", "open-weight", "coding"],
+  "body": [
+    {"type": "p", "text": "Mistral AI published downloadable weights for Mistral Large 4 on October 29, opening up the multimodal model internally nicknamed \"Le Chonk\" for self-hosted use, with 1 trillion total parameters, according to the company's own announcement and a technical write-up Hugging Face published the same day.", "items": []},
+    {"type": "p", "text": "The model takes text and images as input and generates text, using a Mixture-of-Experts (MoE) architecture, per Hugging Face's analysis. It ships under the Mistral Ecosystem Open-Weight License, an MIT derivative that restricts model-as-a-service offerings, the same analysis says. Hugging Face also lists a 1-million-token context window.", "items": []},
+    {"type": "h2", "text": "From preview to full release", "items": []},
+    {"type": "p", "text": "Cortexplor covered Large 4's preview announcement on October 6, when access was limited to a gated testing endpoint and Mistral had not yet published downloadable weights. According to Mistral, that public preview ran for about three weeks, with additional reinforcement learning, until the full weights went live on October 29 — the new development in this story. The company says that work improved coding and offensive-defensive security performance while cutting the number of tokens needed per task, lowering inference costs.", "items": []},
+    {"type": "p", "text": "Mistral says the model now leads Terminal-Bench 4.0 among open-weight models, 13 percentage points above its preview score, and is effectively tied with GLM-5.3 on Artificial Analysis's Coding Agent Index while using 47% fewer tokens per task, according to the company. Hugging Face broadly agrees that the release ranks among the strongest open models for coding agents and multimodal tasks, without repeating those same figures.", "items": []},
+    {"type": "h2", "text": "A cybersecurity pitch", "items": []},
+    {"type": "p", "text": "Mistral frames Large 4 as a tool for defensive security teams, not offense: the company claims a 96.6% refusal rate on malicious cyber requests, the highest it says it measures among open models, and 93.3% resistance to prompt-injection attempts on Lakera's B3 benchmark. Hugging Face agrees cybersecurity is one of the model's strengths in general terms, but does not repeat the same percentages, so this story keeps the two apart rather than mixing them.", "items": []},
+    {"type": "p", "text": "Mistral says it tested the model with security vendors including Booz Allen Hamilton and Cisco, though the performance details cited for those tests come from Mistral itself.", "items": []},
+    {"type": "h2", "text": "Sovereignty as a selling point", "items": []},
+    {"type": "p", "text": "Mistral pitches the release as part of what it calls \"sovereign AI\": because the model is open, it can run inside a customer's own infrastructure instead of depending on an external API. The company says Large 4 was trained from scratch on European infrastructure, which it argues gives governments and businesses full control over where data processed by the model is stored — a recurring argument the French company makes against US and Chinese rivals.", "items": []},
+    {"type": "h2", "text": "Where this fits in the open-weight race", "items": []},
+    {"type": "p", "text": "Large 4 lands in a market where open-weight releases have become a competitive front separate from closed, API-only models like those from OpenAI and Anthropic. Mistral's own comparisons name GLM-5.3, Kimi K3 and DeepSeek V4.1 Flash as the models it benchmarks itself against, and the company says Surge Code's blind human evaluations ranked Large 4 behind only Anthropic's Claude Opus 5.5 among all models tested, open or closed, according to Mistral.", "items": []},
+    {"type": "h2", "text": "Availability", "items": []},
+    {"type": "p", "text": "Per Hugging Face, Large 4 ships with day-one support for the transformers, vLLM and llama.cpp libraries, with quantized GGUF versions built by Unsloth and the llama.cpp team. The platform also offers paid hosting through Inference Endpoints and serverless inference via Inference Providers. The model accepts three reasoning-effort levels — low, medium and high, the default — and, per Hugging Face, reasoning cannot be turned off.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Open weights have been downloadable for self-hosted use since October 29, 2026, with no licensing fee mentioned in the sources.",
+      "Runs with transformers, vLLM and llama.cpp from launch, plus quantized GGUF builds for lighter hardware, according to Hugging Face.",
+      "Teams running their own infrastructure pay only for hardware or cloud capacity; Mistral also sells paid hosting through Inference Endpoints.",
+      "Per Mistral, the main change from October's preview is better coding and security performance using fewer tokens per task."
+    ]}
+  ],
+  "image": {"query": "open source large language model release abstract", "alt": "Abstract illustration representing the release of an open-source artificial intelligence model"},
+  "sources": [
+    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/mistral-large4", "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"},
+    {"name": "Mistral AI", "owner": "mistral", "url": "https://mistral.ai/news/mistral-large-4-oss", "title": "Mistral Large 4 (Le Chonk) is now open weight"}
+  ],
+  "status": "draft"
+}
