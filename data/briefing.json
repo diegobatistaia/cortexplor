@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T20:42:58+00:00",
-  "posts_per_language_today": 1,
+  "generated_at": "2026-11-01T23:44:00+00:00",
+  "posts_per_language_today": 0,
   "daily_cap_per_language": 4,
-  "already_written_today": 3,
+  "already_written_today": 4,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -78,90 +78,5 @@
     150,
     160
   ],
-  "stories": [
-    {
-      "story_id": "8301a547df09bab9",
-      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want […]",
-      "owners": [
-        "future-plc",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "e6a83342c0c51d1e",
-        "6531c58213728fb9"
-      ],
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-          "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-          "published_at": "2026-10-30T20:48:43+00:00",
-          "kind": "press",
-          "text": "As OpenAI’s buying spree squeezes the world’s supply of RAM, its CEO explains why he needs so much.﻿ As OpenAI’s buying spree squeezes the world’s supply of RAM, its CEO explains why he needs so much.﻿ Asked about supply chain shortages, like the ongoing RAM shortage , OpenAI CEO Sam Altman said in an interview that it’s “terrible” to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI’s impact on math , Altman said: “A lot of people want local inference. And somehow, they assume that the problem is solved now because we are going to have open-source models, we’re going to be able to run them on our computers, and so we’re not going to need all the stuff in the data center. But from a global allocation perspective, actually, it’s quite terrible to have everybody have a bunch of the world’s limited supply of DRAM sitting in their own computer and being used five percent of the time. You want maximum utilization in the cloud if you’re trying to deal with this very supply constrained environment. And somehow everyone’s— many people’s intuition is the opposite of that.” Whether Altman meant your gaming PC or developers working with something like the Surface RTX Spark Dev Box or the new touchscreen MacBook Pro , the outcome is the same. Right now, memory companies Samsung and SK Hynix have long term deals with cloud service operators and projects like OpenAI’s Stargate that have reserved much of the world’s RAM output over the next few years. And the billions they’re willing to lay out for chips is why the laptops, phones, and other tech you use are getting more expensive right now."
-        },
-        {
-          "name": "TechRadar",
-          "owner": "future-plc",
-          "url": "https://www.techradar.com/ai-platforms-assistants/he-can-pry-it-from-my-cold-dead-hands-sam-altman-says-its-quite-terrible-that-youre-using-ram-in-your-pc-when-theres-not-enough-for-ai-data-centers",
-          "title": "Sam Altman says it's 'quite terrible' that you're using RAM in your PC",
-          "published_at": "2026-10-31T11:30:00+00:00",
-          "kind": "press",
-          "text": "The increasing demands from data centers powering AI engines has plunged us into a global RAM shortage crisis , and the CEO of one of the companies responsible thinks the memory that is available should be in data centers rather than individual PCs. Offering up an opinion that's unlikely to add to his popularity among the general public, OpenAI boss Sam Altman told the Cheeky Pint podcast (via IGN ) that \"from a global allocation perspective, actually, it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer.\" Individual PCs rarely make full use of their RAM, was Altman's larger point, whereas data centers often do. \"You want maximum utilization in the cloud if you're trying to deal with this very supply constrained environment,\" the OpenAI CEO continued. \"And somehow many people's intuition is the opposite of that.\" The PC owners Altman was referring to have had to deal with rising prices, job insecurity, and data center pollution thanks to the rise of AI chatbots like OpenAI's ChatGPT, so the opinion he's shared is unlikely to be supported by the masses. As you would expect, consumers aren't particularly pleased with what Altman has had to say. A Reddit thread discussing the comments is packed with pushback against AI, data centers, and the RAM shortage. \"It's only 64GB but he can pry it from my cold, dead hands,\" writes one commenter in the thread, while another is of the opinion that \"[tech company executives] will destroy the planet by continuing with this mentality and then they'll promptly blame everyone else for the downfall\". The out-of-touch mentality of AI company bosses gets several mentions — as do their ethics, with bots like ChatGPT having built up their training data on vast amounts of information, often copyrighted, without paying for it. It's fair to say Altman's comments haven't gone down well. Sign up for breaking news, reviews, opinion, top tech deals, and more. Most analysts expect RAM to be in short supply for years to come , which is going to mean prices for consumer gadgetry continue to rise, and anyone thinking about building their own PC will have to pay top dollar for its components. Follow TechRadar on Google News and add us as a preferred source to get our expert news, reviews, and opinion in your feeds. ➡️ Read our full guide to the best laptops 1. Best overall: Apple MacBook Air 13-inch M5 2. Best budget: Apple MacBook Neo 3. Best Windows 11 laptop Microsoft Surface Laptop 13-inch 4. Best thin and light: Lenovo Yoga Slim 9i 5. Best Ultrabook Asus Zenbook S 16 Dave is a freelance tech journalist who has been writing about gadgets, apps and the web for more than two decades. Based out of Stockport, England, on TechRadar you'll find him covering news, features and reviews, particularly for phones, tablets and wearables. Working to ensure our breaking news coverage is the best in the business over weekends, David also has bylines at Gizmodo, T3, PopSci and a few other places besides, as well as being many years editing the likes of PC Explorer and The Hardware Handbook. You must confirm your public display name before commenting Please logout and then login again, you will then be prompted to enter your display name."
-        }
-      ]
-    },
-    {
-      "story_id": "fe189d6b686d455c",
-      "title": "AI for Science expands to foundations and institutions",
-      "summary": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
-      "owners": [
-        "anthropic"
-      ],
-      "primary_owners": [
-        "anthropic"
-      ],
-      "fingerprints": [
-        "ad10900db6cdd66b"
-      ],
-      "sources": [
-        {
-          "name": "Anthropic",
-          "owner": "anthropic",
-          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-          "title": "AI for Science expands to foundations and institutions",
-          "published_at": "2026-10-28T00:00:00+00:00",
-          "kind": "primary",
-          "text": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program , which gives free Claude credits to researchers working on high-impact scientific projects. We started the AI for Science program in May 2025 with the belief that AI could significantly speed up scientific progress. Our goal is to increase access to AI tools and resources to enable researchers to deepen and expand their own scientific work. (Over the last few months, we’ve also launched our discounted Team plan for scientists and have supported hundreds of projects across biology, medicine, physics, chemistry, climate science, and mathematics.) Scientists have told us that they’re working with Claude to generate hypotheses, design experiments, swiftly analyze complex data, and communicate findings. With scientists at the center of this transformation, the field is setting the questions and developing the research projects that will help us tackle some of humanity’s toughest problems. Over the past year, we’ve started to expand this work and partner with scientific organizations to build collaborative research projects. For instance, we partnered with HHMI Janelia Research Campus to develop the Model Hardware Standard (MHS), a shared specification that lets AI agents safely operate lab instruments. MHS is currently in research preview. We also support the Allen Institute , a leader in creating large open datasets and tools to advance research on the brain, cells, and the immune system. The institute is building teams of AI agents to analyze that data, turning months of manual analysis into hours. AI for Science began by supporting individual scientists. By partnering with institutions and foundations, we’re now able to reach more researchers across many fields. Many of these projects will also produce public goods that benefit the wider scientific community: open datasets, open-source software, open standards, and shared libraries. We look forward to seeing how AI resources can expand what scientists can attempt and lead to new discoveries. Science funders and societies play an enormous role in finding and funding original, high-impact projects. We’re sharing Claude credits with the following organizations, which will distribute these resources to ambitious researchers aiming to use AI for scientific research: Leading research institutions produce some of the world’s most important scientific advances, data, instruments, and tools. These institutional partners will use Claude credits inside their organizations to enable scientific discovery: As part of this work, we’re also continuing to support innovative research by providing Claude credits directly to specific research initiatives, focusing on problems with the potential for large public impact. The new projects are: Many of these collaborations are still in their early stages, and we’re eager to see how they can support novel research and scientific discovery. We look forward to sharing the impact of this work and showcasing new ways of working in these scientific fields. As AI changes how science is done, our AI for Science program will continue to support and collaborate with scientists, institutions, and foundations. We hope to expand these efforts to even more partners around the world."
-        }
-      ]
-    },
-    {
-      "story_id": "9ac59237a9600656",
-      "title": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
-      "summary": "Today we’re announcing Muse is now available in Singapore. The post Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone appeared first on Meta Newsroom .",
-      "owners": [
-        "meta"
-      ],
-      "primary_owners": [
-        "meta"
-      ],
-      "fingerprints": [
-        "54079a67657ceb51"
-      ],
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "owner": "meta",
-          "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
-          "title": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
-          "published_at": "2026-10-28T00:00:03+00:00",
-          "kind": "primary",
-          "text": "Following our global announcement of Muse , we are excited to share that Muse is now available in Singapore. Connectors are a big reason Muse can do so much. People in Singapore can connect their Muse to apps they already use, including Gmail, Google Calendar and Instagram, so it can help them manage email, coordinate schedules and draw on saved content to get everyday tasks done. Early local connector partners in Singapore include Shopee, Grab, Singapore Airlines, Agoda, ShopBack, Klook, Trip.com and Lazada spanning shopping, groceries, dining and travel. Connector features will roll out progressively, with some experiences becoming available after launch. You can ask Muse to research products and compare prices before buying on Shopee or Lazada, or plan grocery shopping and dining through GrabMart and Grab Dine Out. You can also explore travel, ticketing and reservation options through Singapore Airlines, Agoda, Klook and Trip.com, or earn cashback on travel and shopping plus claim in-store dining deals through ShopBack. Making this technology work for everyone requires careful design and engineering to operate more safely. That’s where most of the effort on this project went and this post explains our approach in detail. Muse runs on Muse Secure VM , a dedicated computer in the cloud that securely stores the data and credentials for the services you connect, while keeping passwords and payment methods out of the agent’s view. You choose what your Muse can access, and it checks with you before sensitive actions such as sending an email or making a purchase. Nicole Tan, Managing Director, Meta Singapore said: “Muse is your personal agent, built to help make everyday life easier. We are connecting Muse with some of the most iconic brands in Singapore and the region, so you can get things done with the services you already use and love.” Muse is available in Singapore on iOS , Android , and muse.ai , and coming soon to AI glasses. It’s free for most of what people need, with subscription plans for people who want to do more."
-        }
-      ]
-    }
-  ]
+  "stories": []
 }
