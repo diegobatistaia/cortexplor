@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T00:47:26+00:00",
-  "posts_per_language_today": 0,
+  "generated_at": "2026-11-02T09:43:29+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 4,
+  "already_written_today": 0,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -78,5 +78,165 @@
     150,
     160
   ],
-  "stories": []
+  "stories": [
+    {
+      "story_id": "b66ce40d294e962e",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "owners": [
+        "axel-springer",
+        "techcrunch"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "33c086ca1438f528",
+        "3da642473efe4b85"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "owner": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "published_at": "2026-11-01T21:55:23+00:00",
+          "kind": "press",
+          "text": "Data centers are deeply unpopular . But what if we called them something else? Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . The company’s chief global affairs officer Chris Lehane told Axios that the midterms will be “a bit of a movie trailer for what you’re going to see in 2028,” when he expects AI to be “ the issue” in the presidential election. So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S. to take a role in developing global standards — and yes, rebranding data centers as “AI compute campuses.” Lehane also described the conversation around data centers (a debate that has pushed Amazon and Microsoft to say they will no longer use NDAs in their negotiations with local governments ) as “good and healthy.” “Communities should hold companies responsible and accountable so they really and truly get a transformative benefit from these projects,” he said. Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Subscribe for the industry’s biggest tech news"
+        },
+        {
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/openai-ai-data-centers-rebrand-compute-campuses-midterms-2026-11",
+          "title": "OpenAI wants everyone to call AI data centers 'compute campuses'",
+          "published_at": "2026-11-01T22:28:08+00:00",
+          "kind": "press",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "88d7bb5682a1edd5",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "75e2017ed4c5a2ec"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "published_at": "2026-10-28T13:15:00+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "6d5e06798854be9f",
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified […]",
+      "owners": [
+        "nvidia"
+      ],
+      "primary_owners": [
+        "nvidia"
+      ],
+      "fingerprints": [
+        "2952348be6c4a620"
+      ],
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "owner": "nvidia",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+          "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+          "published_at": "2026-10-28T15:00:46+00:00",
+          "kind": "primary",
+          "text": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX graphics and the capabilities of a personal AI supercomputer inside premium Windows laptops built to go anywhere. New and expected RTX Spark updates, coming soon, include: Introduced today, NVIDIA Nemotron 3.5 Transcribe is a new, open weight speech model that turns recorded conversations into useful information. Instead of needing multiple models for transcription, speaker labels and translation, developers can use one promptable model that handles all three, plus questions about the audio. It transcribes 40 languages, including seven Indic languages. Developers guide the model with plain-language prompts. For example, for a single recorded meeting, users can ask it to: Prompts can also include product terms and formatting conventions, which helps the model handle specialized vocabulary in fields like healthcare, financial services and customer service. Because the weights are open, developers can choose where audio is processed, from a desktop to the cloud. Nemotron 3.5 Transcribe ranks No. 1 on the Hugging Face Open ASR and No. 2 among open weight models on Artificial Analysis — delivering leading accuracy with approximately 4.3 billion active parameters, 80% fewer than the No. 1 open weight model, making high-quality, intelligent transcription more practical on local hardware. It’s available today on Hugging Face . Quantized versions are coming soon, so developers can run Transcribe locally onNVIDIA RTX Spark and DGX Spark systems, Jetson AGX Thor devices or scale up on NVIDIA Blackwell data center GPUs. NVFP4 versions will be deployable through NeMo-Speech.cpp or vLLM. Learn more in the NVIDIA technical blog . On RTX Spark, users can have long-running agents working alongside their favorite applications. Both share the system’s GPU compute, and the right balance of resources depends on what matters to users at that moment. With the new resource management feature in NVIDIA App , users can now choose how GPU resources are shared. They can prioritize their foreground app for the best performance, or give their background-running agent more resources to get work done faster. Access control resource sharing from System > Advanced in the NVIDIA App. This feature requires hardware-accelerated GPU scheduling to be enabled in Windows Settings. Liquid AI’s LFM3 provides a new generation of Liquid Foundation Models designed for specialized tasks. The family spans text, vision, audio, omni and decision models built on one shared backbone, with base and post-trained models available as open weights. The models are compact and fast: Liquid AI’s new 1.7-billion-parameter base model outperforms its previous 2.6-billion-parameter base model. These models support local workflows such as agents running in Hermes Agent, Pi and OpenClaw to triage inboxes and manage calendars, read documents and app screens, transcribe and translate speech, answer spoken questions about handwritten math, and route support tickets or voice requests. Developers can run LFM3 models on RTX Spark with native support through llama.cpp and vLLM, and fine-tune the models locally. S-GAME’s Phantom Blade Zero launches tonight, Oct. 28, at 7 p.m. PT on Steam and the Epic Games Store . Players can take on the role of Soul, a swordsman framed for his master’s murder, as he travels the martial world to uncover a conspiracy. NVIDIA worked with S-GAME Studio and S-GAME Publishing to add ray-traced effects to the title. On RTX Spark laptops and GeForce RTX GPU-powered PCs, ray tracing adds more accurate bounced lighting, detailed reflections and realistic shadows on foliage and terrain. The NVIDIA DLSS Dynamic Multi Frame Generation feature boosts frame rates with up to 6x frame generation, or adjusts the multiplier on the fly to hit a player’s target frame rate. NVIDIA RTX Remix , the modding platform for remastering classic games with path tracing and DLSS, released version 1.6 last week. This update brought RTX Remix to the world’s largest gaming community: Minecraft . Both creators and players can render Minecraft Java Edition 1.21.1 through RTX Remix with DLSS-accelerated path tracing and take full advantage of realistic lighting and materials in their future creations. The update also adds DLSS 5 with 3D-Guided Neural Rendering, up to 6x Multi Frame Generation, native RTX Spark support and agent-assisted workflows. Starting today, those upgrades come to Portal with RTX and the Half-Life 2 RTX demo. Both now support RTX Spark, with DLSS 3D-Guided Neural Rendering for more lifelike lighting and materials, a new Performance Mode for DLSS Frame Generation and new options that speed up path tracing. RTX Remix 1.6 also makes AI-powered modding simpler. A redesigned ComfyUI workflow lets modders generate physically based materials directly inside RTX Remix, with no application programming interface setup, batch processing for full projects and presets for less technical creators. Plus, with NVIDIA agent skills, compatible AI agents can work directly with RTX Remix to help speed up remastering projects. RTX Spark laptops come in a range of designs, so users can choose one that fits how they work and play. Options include different screen sizes, colors, touchscreens, pen support and two-in-one convertibles. RTX Spark laptops are as thin as 14mm and as light as three pounds, with all-day battery life. Such slim designs are possible because RTX Spark places the GPU, CPU and up to 128GB of unified memory on one power-efficient superchip. Creative projects and AI models draw from the same memory pool, so a laptop can take on work that"
+        }
+      ]
+    },
+    {
+      "story_id": "c3be09bbb66c0ea7",
+      "title": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs",
+      "summary": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to US universities that are using our models to solve critical issues in science and medicine. The post Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs appeared first on Meta Newsroom .",
+      "owners": [
+        "meta"
+      ],
+      "primary_owners": [
+        "meta"
+      ],
+      "fingerprints": [
+        "a04b7e8be3169a7c"
+      ],
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "owner": "meta",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
+          "title": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs",
+          "published_at": "2026-10-28T17:00:49+00:00",
+          "kind": "primary",
+          "text": "We believe the future is for everyone, including America’s universities, professors, students, and the communities who benefit from their research. That’s why Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to academia through partnerships with five US universities: California Institute of Technology, The Ohio State University College of Medicine, Louisiana State University, Indiana University, and UTHealth Houston. We’re expanding our academic partnerships by granting $2 million across these five schools to support research that uses our models to accelerate breakthroughs in medicine, physics, chemistry, biology, computer science, and mathematics. In medicine and healthcare, researchers will work on a diverse set of projects using Meta’s models, glasses, and mixed reality headsets to address existing gaps in medicine and healthcare. Here are a few examples of how they’re being used: When tracheostomy tubes become dislodged in infant patients, it’s a life-threatening emergency compounded by the fact that babies with tracheostomies can’t cry out for help. And continuous direct observation by trained staff isn’t always possible. Dr. Michael Dunham from Louisiana State University is leading the Eyes-On project, which is developing a computer vision system to continuously detect tracheostomy tube displacement and signs of distress in infants who cannot reliably vocalize. The system is exploring usage of our open weight SAM models for tracking and is designed for integration with bedside cameras and edge computing. A proof-of-concept has been published, with more work to come. People with dementia often experience communication difficulties that standard conversational AI systems handle poorly, leading to frustration rather than support. Dr. David Crandall at Indiana University is developing a project that aims to develop multimodal AI methods for analyzing conversations involving older adults living with dementia, and to use this understanding to help conversational agents — including social robots — adapt their interactions to individual users. The research tests whether AI systems can be made sensitive to the communication patterns of people with cognitive differences. Heart failure with preserved ejection fraction (HFpEF) accounts for roughly half of all heart failure cases, but it can be difficult to recognize early — its symptoms overlap with those of obesity and other common conditions, so formal evaluation often begins only after clinical suspicion has developed. At The Ohio State University College of Medicine, AI researcher Dr. Yuan Xue is leading a project with cardiologist Dr. Yuchi Han and AI researcher Dr. Xia Ning to investigate how Meta’s open-weight models can help predict future HFpEF risk using routine abdominal CT scans, longitudinal medical records, and ECG data when available. The team is designing the model to handle missing data, since real-world clinical practice rarely provides a complete set of inputs. You can read more on these projects on our Research Blog , and we look forward to sharing more as these projects get underway."
+        }
+      ]
+    },
+    {
+      "story_id": "f4aac92069150c55",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "summary": "",
+      "owners": [
+        "alphabet"
+      ],
+      "primary_owners": [
+        "alphabet"
+      ],
+      "fingerprints": [
+        "b0da25ea6c1a2967"
+      ],
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "owner": "alphabet",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "published_at": "2026-10-28T17:00:58+00:00",
+          "kind": "primary",
+          "text": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. SVP, Google DeepMind and Chief AI Architect, Google Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. On internal benchmarks, Carbon drives a strong uplift in generating secure code, and in live coding environments with our own teams it shows reduced misalignment and fabrication rates. Building on Gemini 4 Argon , which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward. Our researchers and models are working hand in hand to advance capabilities faster, while strengthening our safeguards in tandem. We're taking a deliberate approach to rollout and are actively engaged in the U.S. government’s voluntary process for pre-release model testing. Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program . We’re continuing to gather feedback and iterate on guardrails before making Carbon available to developers, businesses, and consumers via our product surfaces as soon as possible. Gemini 4 Carbon will launch at the same introductory price 1 as Argon at $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price. Designed to take on much harder, long-horizon engineering problems, Carbon is built for sustained agentic workflows. Internally, our teams have seen Carbon run for days to persist through dead ends to tackle complex, multi-step engineering tasks like root-causing and patching subtle bugs across large codebases and low-level systems. Building on user feedback, we focused on improving model performance across a variety of domains, including coding, agentic, and scientific tasks, as well as full-stack web development and multimodal understanding. With improved quality of output and artifacts in web development, Carbon jumps +89 elo points to land at #4 (1768) on WebDev Arena . Gemini 4 Carbon delivers a significant leap in cybersecurity capabilities. It achieves state-of-the-art performance across the cybersecurity defense lifecycle — vulnerability detection, validation, and remediation. Our teams are already seeing strong gains in cyberdefense. On internal benchmarks, Carbon achieves more than 2x uplift in success rate for generating secure code over Argon. As another example, the Chrome team has reported that Carbon performed more than 10X better than another lab's large frontier model when generating high quality patches. Wiz, our leading Cloud security platform, also observes Carbon leading on benchmarks for web penetration testing, a core capability for Wiz's Scan for Good initiative. Carbon excels across key external benchmarks (evaluated without guardrails): Gemini 4 Carbon builds on the same multi-layered safety and security stack of Argon — combining model training, real-time misuse defenses, prompt-injection resilience, and chain-of-thought monitoring. In particular, we made significant strides in model alignment with Argon, and reported its propensities to behave in an aligned way in our Safety and Security report . With Carbon, we challenged ourselves to go a step further on alignment, and trained the model to respond to complex or high-pressure tasks in the right way. Pushing the frontier forward requires moving fast while remaining deliberate about deployment. With Gemini 4 Carbon, our goal is to deliver meaningful leaps in software engineering and cybersecurity defense without compromising on safety or reliability. We’re eager to see how the initial cohort of cyber defenders use this model and we look forward to bringing Carbon to developers, businesses, and consumers soon."
+        }
+      ]
+    },
+    {
+      "story_id": "c37ba8a8c4d1de7a",
+      "title": "Train, Evaluate, and Deploy Anomaly Detection Models with Roboflow",
+      "summary": "Train an anomaly detection model in Roboflow on images of good products only, and get a heatmap of every defect it finds.",
+      "owners": [
+        "roboflow"
+      ],
+      "primary_owners": [
+        "roboflow"
+      ],
+      "fingerprints": [
+        "08625ce6cddd584e"
+      ],
+      "sources": [
+        {
+          "name": "Roboflow",
+          "owner": "roboflow",
+          "url": "https://roboflow.com/blog/roboflow-anomaly-detection",
+          "title": "Train, Evaluate, and Deploy Anomaly Detection Models with Roboflow",
+          "published_at": "2026-10-28T17:42:59+00:00",
+          "kind": "primary",
+          "text": "Today we’re announcing full support for anomaly detection models (opens in a new tab) in Roboflow, allowing you to deploy them in the cloud or on your hardware. Anomaly detection allows you to find things that look different from normal, like a damaged component or a stray bolt on a conveyor belt, without needing images of those issues to train on. That way, you can build vision systems that catch rare, unpredictable problems, even without examples of them in your training data. An anomaly detection model is trained on images that show what \"good\" looks like. Then, when you run new images through the model, it tells you whether each one is normal or anomalous, returns an anomaly score, and can produce a heatmap of the areas that differ the most. Anomalies are, by definition, hard to find. On a well-run production line, a defect might show up once in thousands of parts, and no two look the same. Collecting enough labeled examples to train an object detection or classification model takes a long time. That makes anomaly detection a great fit for quality assurance and quality control (QA/QC), like sorting food, inspecting parts and packaging, and catching defects you couldn’t list in advance. The model can return the anomaly \"severity\" in the form of a heatmap. In the above video of an anomaly detection model running on this egg line, the model flags stains, chips, and marks on the shell. Yellow indicates the anomaly is slightly above the threshold, while red indicates an anomaly far above it. Here is another example where we trained FoundAD on frames of rocks, and it flags a stray bolt and a piece of debris it didn't see during training. In this case, we're using SAHI (Slicing Aided Hyper Inference), then feeding each slice separately to the anomaly detection model. Object detection needs labeled examples of every defect you want to find. On a production line that's the hard part: defects are rare, and every one looks different. A scratch, a dent, a missing screw and a stain have little in common, except that none of them look like a good part. Anomaly detection flips that. Good parts are easy to collect, so the model learns from those and flags the rest. It works well for: It's also a good first model when you have no defect data yet . Run it on the line, review what it flags, and you have the start of a labeled defect dataset for an object detection model later. Both architectures start from an image model pre-trained on millions of images, and use it to describe every small patch of your image. Either way you get an anomaly score for the image and an (optional) heatmap of where it came from. We trained both on four categories of the VisA dataset (opens in a new tab) , once with 4 normal images and once with all of them. FoundAD is the better pick when you only have a few good images, in line with the FoundAD paper (opens in a new tab) . More data helps both, PatchCore the most. FoundAD’s speed doesn’t depend on how many images you train on. PatchCore searches a memory bank that grows with the training set, so it slows down as you add data. Which of the two is faster depends on the hardware. Resolution matters even more, since both the patches per image and the memory bank grow with it: So for higher-resolution inputs, FoundAD is usually more applicable. PatchCore trains in minutes, while FoundAD takes longer (hours on large datasets). Each model ran at its default image size (224×224 for PatchCore, 512×512 for FoundAD) on Roboflow Inference 1.8, using the public Jetson image on the Jetsons. We measured it using inference-cli (opens in a new tab) ( inference benchmark api-speed ): 10 warm-up requests, then 100 timed ones per model, sent one at a time. These results come from one benchmark, so treat them as an example, not as what to expect. Accuracy and speed on your data depend on your images, defects, image size, and hardware, so try both models on your own data. In app.roboflow.com , click \"New Project\" and pick \"Anomaly Detection\" as the project type. Upload images of good products and label them \"normal\". The model trains on these only, so normal images are all you need to get started. If you have some anomalous images, you can label them \"anomalous\" and they won't be used to train the model (both architectures learn from normal images only, and anomalous images in the training split are skipped). They will be used to pick the threshold that best separates normal from anomalous, and to report precision and recall. Without them, it sets the threshold from the normal validation images, so roughly 1% of them would be flagged. Labels are per image: open an image from \"Annotate\" and pick \"normal\" or \"anomalous\", like a classification model. If there's an anomalous object, you don't mark where the defect is; the model works that out on its own and returns it as a heatmap (see Step 4). Most of your images will be normal, so you can label a whole upload batch at once with \"Mark All Normal\". Our final dataset had 962 normal crops for training, plus 208 validation images (12 anomalous) and 130 test images (11 anomalous) to set the threshold and check accuracy. Click \"Train Model\", pick an architecture, and choose the dataset version to train on. We trained both on the same version. On our test set PatchCore came out ahead: it caught 14 of 15 real defects at 2 false alarms, while FoundAD caught 10. PatchCore trains in minutes and FoundAD takes longer (see the benchmark above), so try both on your data. When training finishes, the model shows up under \"Models\". Send it an image through the Serverless API, and add include_anomaly_map to get the heatmap back: The response has anomaly_score , anomaly_threshold and is_anomalous , plus the heatmap at the model's input resolution. Create an Anomaly Detection project, upload images of good parts, and train your first model today. Sign up for Roboflow to get started, or talk to sales about running it across your lines."
+        }
+      ]
+    }
+  ]
 }
