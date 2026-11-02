@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T09:43:29+00:00",
-  "posts_per_language_today": 2,
+  "generated_at": "2026-11-02T15:49:21+00:00",
+  "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 0,
+  "already_written_today": 2,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,86 +80,36 @@
   ],
   "stories": [
     {
-      "story_id": "b66ce40d294e962e",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "story_id": "bd1e36d5b1db7baa",
+      "title": "Elon Musk says 'unsustainably high' costs are the reason for Grok Bot usage limits",
+      "summary": "The SpaceX CEO said the cost of serving the AI agent was \"unsustainably high relative to revenue,\" after some users complained about usage limits.",
       "owners": [
         "axel-springer",
-        "techcrunch"
+        "future-plc"
       ],
       "primary_owners": [],
       "fingerprints": [
-        "33c086ca1438f528",
-        "3da642473efe4b85"
+        "f89dbbc898c97c3d",
+        "cfdf323660519a55"
       ],
       "sources": [
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-          "published_at": "2026-11-01T21:55:23+00:00",
-          "kind": "press",
-          "text": "Data centers are deeply unpopular . But what if we called them something else? Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . The company’s chief global affairs officer Chris Lehane told Axios that the midterms will be “a bit of a movie trailer for what you’re going to see in 2028,” when he expects AI to be “ the issue” in the presidential election. So OpenAI is to influence the AI debate moving forward, with Lehane discussing several proposals, including the development of AI “speed limits” ; finding ways to help people see AI as empowering them in their daily lives; pushing the U.S. to take a role in developing global standards — and yes, rebranding data centers as “AI compute campuses.” Lehane also described the conversation around data centers (a debate that has pushed Amazon and Microsoft to say they will no longer use NDAs in their negotiations with local governments ) as “good and healthy.” “Communities should hold companies responsible and accountable so they really and truly get a transformative benefit from these projects,” he said. Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Subscribe for the industry’s biggest tech news"
-        },
         {
           "name": "Business Insider",
           "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/openai-ai-data-centers-rebrand-compute-campuses-midterms-2026-11",
-          "title": "OpenAI wants everyone to call AI data centers 'compute campuses'",
-          "published_at": "2026-11-01T22:28:08+00:00",
+          "url": "https://www.businessinsider.com/grok-bot-usage-limits-costs-unsustainably-high-elon-musk-agents-2026-11",
+          "title": "Elon Musk says 'unsustainably high' costs are the reason for Grok Bot usage limits",
+          "published_at": "2026-11-02T13:02:27+00:00",
           "kind": "press",
           "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "88d7bb5682a1edd5",
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "owners": [
-        "openai"
-      ],
-      "primary_owners": [
-        "openai"
-      ],
-      "fingerprints": [
-        "75e2017ed4c5a2ec"
-      ],
-      "sources": [
+        },
         {
-          "name": "OpenAI",
-          "owner": "openai",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "published_at": "2026-10-28T13:15:00+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "6d5e06798854be9f",
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified […]",
-      "owners": [
-        "nvidia"
-      ],
-      "primary_owners": [
-        "nvidia"
-      ],
-      "fingerprints": [
-        "2952348be6c4a620"
-      ],
-      "sources": [
-        {
-          "name": "NVIDIA",
-          "owner": "nvidia",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-          "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-          "published_at": "2026-10-28T15:00:46+00:00",
-          "kind": "primary",
-          "text": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX graphics and the capabilities of a personal AI supercomputer inside premium Windows laptops built to go anywhere. New and expected RTX Spark updates, coming soon, include: Introduced today, NVIDIA Nemotron 3.5 Transcribe is a new, open weight speech model that turns recorded conversations into useful information. Instead of needing multiple models for transcription, speaker labels and translation, developers can use one promptable model that handles all three, plus questions about the audio. It transcribes 40 languages, including seven Indic languages. Developers guide the model with plain-language prompts. For example, for a single recorded meeting, users can ask it to: Prompts can also include product terms and formatting conventions, which helps the model handle specialized vocabulary in fields like healthcare, financial services and customer service. Because the weights are open, developers can choose where audio is processed, from a desktop to the cloud. Nemotron 3.5 Transcribe ranks No. 1 on the Hugging Face Open ASR and No. 2 among open weight models on Artificial Analysis — delivering leading accuracy with approximately 4.3 billion active parameters, 80% fewer than the No. 1 open weight model, making high-quality, intelligent transcription more practical on local hardware. It’s available today on Hugging Face . Quantized versions are coming soon, so developers can run Transcribe locally onNVIDIA RTX Spark and DGX Spark systems, Jetson AGX Thor devices or scale up on NVIDIA Blackwell data center GPUs. NVFP4 versions will be deployable through NeMo-Speech.cpp or vLLM. Learn more in the NVIDIA technical blog . On RTX Spark, users can have long-running agents working alongside their favorite applications. Both share the system’s GPU compute, and the right balance of resources depends on what matters to users at that moment. With the new resource management feature in NVIDIA App , users can now choose how GPU resources are shared. They can prioritize their foreground app for the best performance, or give their background-running agent more resources to get work done faster. Access control resource sharing from System > Advanced in the NVIDIA App. This feature requires hardware-accelerated GPU scheduling to be enabled in Windows Settings. Liquid AI’s LFM3 provides a new generation of Liquid Foundation Models designed for specialized tasks. The family spans text, vision, audio, omni and decision models built on one shared backbone, with base and post-trained models available as open weights. The models are compact and fast: Liquid AI’s new 1.7-billion-parameter base model outperforms its previous 2.6-billion-parameter base model. These models support local workflows such as agents running in Hermes Agent, Pi and OpenClaw to triage inboxes and manage calendars, read documents and app screens, transcribe and translate speech, answer spoken questions about handwritten math, and route support tickets or voice requests. Developers can run LFM3 models on RTX Spark with native support through llama.cpp and vLLM, and fine-tune the models locally. S-GAME’s Phantom Blade Zero launches tonight, Oct. 28, at 7 p.m. PT on Steam and the Epic Games Store . Players can take on the role of Soul, a swordsman framed for his master’s murder, as he travels the martial world to uncover a conspiracy. NVIDIA worked with S-GAME Studio and S-GAME Publishing to add ray-traced effects to the title. On RTX Spark laptops and GeForce RTX GPU-powered PCs, ray tracing adds more accurate bounced lighting, detailed reflections and realistic shadows on foliage and terrain. The NVIDIA DLSS Dynamic Multi Frame Generation feature boosts frame rates with up to 6x frame generation, or adjusts the multiplier on the fly to hit a player’s target frame rate. NVIDIA RTX Remix , the modding platform for remastering classic games with path tracing and DLSS, released version 1.6 last week. This update brought RTX Remix to the world’s largest gaming community: Minecraft . Both creators and players can render Minecraft Java Edition 1.21.1 through RTX Remix with DLSS-accelerated path tracing and take full advantage of realistic lighting and materials in their future creations. The update also adds DLSS 5 with 3D-Guided Neural Rendering, up to 6x Multi Frame Generation, native RTX Spark support and agent-assisted workflows. Starting today, those upgrades come to Portal with RTX and the Half-Life 2 RTX demo. Both now support RTX Spark, with DLSS 3D-Guided Neural Rendering for more lifelike lighting and materials, a new Performance Mode for DLSS Frame Generation and new options that speed up path tracing. RTX Remix 1.6 also makes AI-powered modding simpler. A redesigned ComfyUI workflow lets modders generate physically based materials directly inside RTX Remix, with no application programming interface setup, batch processing for full projects and presets for less technical creators. Plus, with NVIDIA agent skills, compatible AI agents can work directly with RTX Remix to help speed up remastering projects. RTX Spark laptops come in a range of designs, so users can choose one that fits how they work and play. Options include different screen sizes, colors, touchscreens, pen support and two-in-one convertibles. RTX Spark laptops are as thin as 14mm and as light as three pounds, with all-day battery life. Such slim designs are possible because RTX Spark places the GPU, CPU and up to 128GB of unified memory on one power-efficient superchip. Creative projects and AI models draw from the same memory pool, so a laptop can take on work that"
+          "name": "TechRadar",
+          "owner": "future-plc",
+          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musk-says-grok-bot-was-throttled-because-costs-were-unsustainably-high-as-users-call-the-move-a-rug-pull",
+          "title": "Elon Musk says Grok Bot was throttled as costs were ‘unsustainably high’",
+          "published_at": "2026-11-02T13:22:52+00:00",
+          "kind": "press",
+          "text": "If you noticed that you burned through your Grok Bot usage much faster than usual in recent days, there’s a reason for that: Elon Musk intentionally limited users’ AI agent allowances in the face of “unsustainably high costs.” And as you’d expect, a lot of people are unhappy with that. The revelation came about after an X user pinged platform owner Musk , asking for a Grok Bot reset after they surprisingly hit their 100% usage limit, four days before it was due to reset. They additionally commented that “Normally I don’t even reach 100%.” Musk then replied to the post , stating: “The cost of serving Grok Bot was unsustainably high relative to revenue.” Many X users seemed irked by the situation, with several saying that their Grok Bot usage had hit the 100% limit while they were sleeping and not using any AI agents. Users claimed their usage had suddenly gone from 50% to 100%, 35% to 78%, and 70% to 100%, all supposedly without using Grok Bot at all. Elon Musk’s comments come amid broader scrutiny of the financial sustainability of many AI products. Tech stocks — including those of many leading AI firms — fell sharply last week as investors grew concerned over the profitability of the industry , with Google revealing that its own AI summaries have hurt its search advertising revenue. Concerns have also been raised in recent months over the finances involved in many AI companies’ offerings. For instance, users of AI tools like ChatGPT and Claude Code can often spend many times more in tokens than they’re actually paying in monthly subscriptions, leading to questions over how sustainable many AI business models really are and whether things will need to be adjusted in the near future. This changing landscape hasn’t gone down well with many users, of course. One thread on Reddit dubbed Musk’s about-face an “indirect rug pull” of Grok Bot, with features and usage limited in a bid to cut costs. Sign up for breaking news, reviews, opinion, top tech deals, and more. But it’s unlikely that AI producers will be able to subsidize their products’ costs to users forever. Usage limits will necessarily need to tighten (as OpenAI quietly announced recently, much to the frustration of users ) and prices will need to increase for these business models to make sense. So don’t be surprised if Grok Bot’s lower cap is just the first of many big changes looming on the horizon. Follow TechRadar on Google News and add us as a preferred source to get our expert news, reviews, and opinion in your feeds. ➡️ Read our full guide to the best laptops 1. Best overall: Apple MacBook Air 13-inch M5 2. Best budget: Apple MacBook Neo 3. Best Windows 11 laptop Microsoft Surface Laptop 13-inch 4. Best thin and light: Lenovo Yoga Slim 9i 5. Best Ultrabook Asus Zenbook S 16 Alex Blake has been fooling around with computers since the early 1990s, and since that time he's learned a thing or two about tech. No more than two things, though. That's all his brain can hold. As well as TechRadar, Alex writes for iMore, Digital Trends and Creative Bloq, among others. He was previously commissioning editor at MacFormat magazine. That means he mostly covers the world of Apple and its latest products, but also Windows, computer peripherals, mobile apps, and much more beyond. When not writing, you can find him hiking the English countryside and gaming on his PC. You must confirm your public display name before commenting Please logout and then login again, you will then be prompted to enter your display name."
         }
       ]
     },
@@ -185,31 +135,6 @@
           "published_at": "2026-10-28T17:00:49+00:00",
           "kind": "primary",
           "text": "We believe the future is for everyone, including America’s universities, professors, students, and the communities who benefit from their research. That’s why Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to academia through partnerships with five US universities: California Institute of Technology, The Ohio State University College of Medicine, Louisiana State University, Indiana University, and UTHealth Houston. We’re expanding our academic partnerships by granting $2 million across these five schools to support research that uses our models to accelerate breakthroughs in medicine, physics, chemistry, biology, computer science, and mathematics. In medicine and healthcare, researchers will work on a diverse set of projects using Meta’s models, glasses, and mixed reality headsets to address existing gaps in medicine and healthcare. Here are a few examples of how they’re being used: When tracheostomy tubes become dislodged in infant patients, it’s a life-threatening emergency compounded by the fact that babies with tracheostomies can’t cry out for help. And continuous direct observation by trained staff isn’t always possible. Dr. Michael Dunham from Louisiana State University is leading the Eyes-On project, which is developing a computer vision system to continuously detect tracheostomy tube displacement and signs of distress in infants who cannot reliably vocalize. The system is exploring usage of our open weight SAM models for tracking and is designed for integration with bedside cameras and edge computing. A proof-of-concept has been published, with more work to come. People with dementia often experience communication difficulties that standard conversational AI systems handle poorly, leading to frustration rather than support. Dr. David Crandall at Indiana University is developing a project that aims to develop multimodal AI methods for analyzing conversations involving older adults living with dementia, and to use this understanding to help conversational agents — including social robots — adapt their interactions to individual users. The research tests whether AI systems can be made sensitive to the communication patterns of people with cognitive differences. Heart failure with preserved ejection fraction (HFpEF) accounts for roughly half of all heart failure cases, but it can be difficult to recognize early — its symptoms overlap with those of obesity and other common conditions, so formal evaluation often begins only after clinical suspicion has developed. At The Ohio State University College of Medicine, AI researcher Dr. Yuan Xue is leading a project with cardiologist Dr. Yuchi Han and AI researcher Dr. Xia Ning to investigate how Meta’s open-weight models can help predict future HFpEF risk using routine abdominal CT scans, longitudinal medical records, and ECG data when available. The team is designing the model to handle missing data, since real-world clinical practice rarely provides a complete set of inputs. You can read more on these projects on our Research Blog , and we look forward to sharing more as these projects get underway."
-        }
-      ]
-    },
-    {
-      "story_id": "f4aac92069150c55",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "summary": "",
-      "owners": [
-        "alphabet"
-      ],
-      "primary_owners": [
-        "alphabet"
-      ],
-      "fingerprints": [
-        "b0da25ea6c1a2967"
-      ],
-      "sources": [
-        {
-          "name": "Google DeepMind",
-          "owner": "alphabet",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "published_at": "2026-10-28T17:00:58+00:00",
-          "kind": "primary",
-          "text": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. SVP, Google DeepMind and Chief AI Architect, Google Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. On internal benchmarks, Carbon drives a strong uplift in generating secure code, and in live coding environments with our own teams it shows reduced misalignment and fabrication rates. Building on Gemini 4 Argon , which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward. Our researchers and models are working hand in hand to advance capabilities faster, while strengthening our safeguards in tandem. We're taking a deliberate approach to rollout and are actively engaged in the U.S. government’s voluntary process for pre-release model testing. Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program . We’re continuing to gather feedback and iterate on guardrails before making Carbon available to developers, businesses, and consumers via our product surfaces as soon as possible. Gemini 4 Carbon will launch at the same introductory price 1 as Argon at $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price. Designed to take on much harder, long-horizon engineering problems, Carbon is built for sustained agentic workflows. Internally, our teams have seen Carbon run for days to persist through dead ends to tackle complex, multi-step engineering tasks like root-causing and patching subtle bugs across large codebases and low-level systems. Building on user feedback, we focused on improving model performance across a variety of domains, including coding, agentic, and scientific tasks, as well as full-stack web development and multimodal understanding. With improved quality of output and artifacts in web development, Carbon jumps +89 elo points to land at #4 (1768) on WebDev Arena . Gemini 4 Carbon delivers a significant leap in cybersecurity capabilities. It achieves state-of-the-art performance across the cybersecurity defense lifecycle — vulnerability detection, validation, and remediation. Our teams are already seeing strong gains in cyberdefense. On internal benchmarks, Carbon achieves more than 2x uplift in success rate for generating secure code over Argon. As another example, the Chrome team has reported that Carbon performed more than 10X better than another lab's large frontier model when generating high quality patches. Wiz, our leading Cloud security platform, also observes Carbon leading on benchmarks for web penetration testing, a core capability for Wiz's Scan for Good initiative. Carbon excels across key external benchmarks (evaluated without guardrails): Gemini 4 Carbon builds on the same multi-layered safety and security stack of Argon — combining model training, real-time misuse defenses, prompt-injection resilience, and chain-of-thought monitoring. In particular, we made significant strides in model alignment with Argon, and reported its propensities to behave in an aligned way in our Safety and Security report . With Carbon, we challenged ourselves to go a step further on alignment, and trained the model to respond to complex or high-pressure tasks in the right way. Pushing the frontier forward requires moving fast while remaining deliberate about deployment. With Gemini 4 Carbon, our goal is to deliver meaningful leaps in software engineering and cybersecurity defense without compromising on safety or reliability. We’re eager to see how the initial cohort of cyber defenders use this model and we look forward to bringing Carbon to developers, businesses, and consumers soon."
         }
       ]
     },
