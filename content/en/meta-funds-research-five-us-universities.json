@@ -1,0 +1,108 @@
+{
+  "lang": "en",
+  "slug": "meta-funds-research-five-us-universities",
+  "story_id": "c3be09bbb66c0ea7",
+  "title": "Meta funds research at five US universities with its AI models",
+  "dek": "The company is putting $2 million into projects at Caltech, Ohio State, LSU, Indiana University and UTHealth Houston, using its open-weight models in medicine and science, according to Meta.",
+  "meta_description": "Meta announces research partnerships with five US universities and $2 million in funding for projects using its AI models in medicine, according to the company.",
+  "keyword": "Meta universities research funding",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "meta",
+    "research",
+    "health",
+    "universities"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Meta announced research partnerships with five US universities and said it will grant $2 million across the five schools, according to a company statement published October 28. The schools are Caltech, Ohio State University College of Medicine, Louisiana State University (LSU), Indiana University, and UTHealth Houston.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Meta, the package combines access to models the company calls \"Superintelligence models,\" research funding, and direct collaboration between Meta researchers and the academic teams. The company says the goal is to accelerate breakthroughs in medicine, physics, chemistry, biology, computer science and mathematics.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A computer-vision system for infants with tracheostomies",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "One of the projects Meta points to is led by Dr. Michael Dunham at LSU. Called Eyes-On, it uses Meta's open-weight SAM models — the Segment Anything family, which identifies and isolates objects inside an image — to build a computer-vision system that watches infants with tracheostomy tubes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta says a dislodged tube is a life-threatening emergency, and infants in that situation cannot cry out for help. The system is designed to run with bedside cameras and edge computing, meaning the processing happens on the device itself rather than on a remote server. The company says a proof-of-concept has already been published, with more work planned.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Dementia conversations and a heart-failure risk model",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At Indiana University, researcher David Crandall is working on multimodal AI methods — systems that combine text, speech and other signals in the same analysis — to study conversations involving older adults with dementia. Meta says the aim is to help conversational agents, including social robots, adapt how they respond to each person, testing whether the system can pick up on the communication patterns of people with cognitive differences.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At Ohio State University College of Medicine, researcher Yuan Xue is leading a project with cardiologist Yuchi Han and researcher Xia Ning to test whether Meta's open-weight models can help predict future risk of heart failure with preserved ejection fraction, known as HFpEF, which Meta says accounts for roughly half of all heart failure cases. The team is using routine abdominal CT scans, longitudinal medical records and, when available, ECG data. Meta says the model is being designed to handle missing data, since real clinical practice rarely provides a complete set of inputs.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta's announcement names Caltech and UTHealth Houston among the five partner schools but does not describe a specific project at either one, unlike the three detailed projects at LSU, Indiana University and Ohio State.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Models, smart glasses and mixed reality headsets",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta says the medical and health projects also draw on its smart glasses and mixed-reality headsets as research hardware, alongside its models. The company has not detailed how the $2 million is split among the five schools, nor given a timeline for results from any of the projects, and it has not said whether any of the three projects described so far have moved past the proof-of-concept stage besides the Eyes-On system at LSU.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta frames the announcement as an expansion of academic partnerships it already runs, saying the goal is to bring its models directly to professors, students and the communities that benefit from university research. The company says each of the five schools will use the funding and model access differently, depending on each team's research area.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: researchers at the five partner universities — Caltech, Ohio State, LSU, Indiana University and UTHealth Houston — according to Meta.",
+        "Since when: Meta published the announcement on October 28, 2026.",
+        "How much it costs: $2 million total, split across the five schools, according to the company.",
+        "What changes: academic researchers get direct access to Meta's models, including the SAM family, plus collaboration from Meta's own researchers, which the company describes as new for this group of schools."
+      ]
+    }
+  ],
+  "image": {
+    "query": "university research lab medical AI",
+    "alt": "Researcher in a university lab reviewing medical data on a screen"
+  },
+  "sources": [
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
+      "title": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-02T15:49:21+00:00",
-  "posts_per_language_today": 1,
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
   "already_written_today": 2,
   "min_independent_sources": 2,
@@ -162,6 +162,44 @@
           "text": "Today we’re announcing full support for anomaly detection models (opens in a new tab) in Roboflow, allowing you to deploy them in the cloud or on your hardware. Anomaly detection allows you to find things that look different from normal, like a damaged component or a stray bolt on a conveyor belt, without needing images of those issues to train on. That way, you can build vision systems that catch rare, unpredictable problems, even without examples of them in your training data. An anomaly detection model is trained on images that show what \"good\" looks like. Then, when you run new images through the model, it tells you whether each one is normal or anomalous, returns an anomaly score, and can produce a heatmap of the areas that differ the most. Anomalies are, by definition, hard to find. On a well-run production line, a defect might show up once in thousands of parts, and no two look the same. Collecting enough labeled examples to train an object detection or classification model takes a long time. That makes anomaly detection a great fit for quality assurance and quality control (QA/QC), like sorting food, inspecting parts and packaging, and catching defects you couldn’t list in advance. The model can return the anomaly \"severity\" in the form of a heatmap. In the above video of an anomaly detection model running on this egg line, the model flags stains, chips, and marks on the shell. Yellow indicates the anomaly is slightly above the threshold, while red indicates an anomaly far above it. Here is another example where we trained FoundAD on frames of rocks, and it flags a stray bolt and a piece of debris it didn't see during training. In this case, we're using SAHI (Slicing Aided Hyper Inference), then feeding each slice separately to the anomaly detection model. Object detection needs labeled examples of every defect you want to find. On a production line that's the hard part: defects are rare, and every one looks different. A scratch, a dent, a missing screw and a stain have little in common, except that none of them look like a good part. Anomaly detection flips that. Good parts are easy to collect, so the model learns from those and flags the rest. It works well for: It's also a good first model when you have no defect data yet . Run it on the line, review what it flags, and you have the start of a labeled defect dataset for an object detection model later. Both architectures start from an image model pre-trained on millions of images, and use it to describe every small patch of your image. Either way you get an anomaly score for the image and an (optional) heatmap of where it came from. We trained both on four categories of the VisA dataset (opens in a new tab) , once with 4 normal images and once with all of them. FoundAD is the better pick when you only have a few good images, in line with the FoundAD paper (opens in a new tab) . More data helps both, PatchCore the most. FoundAD’s speed doesn’t depend on how many images you train on. PatchCore searches a memory bank that grows with the training set, so it slows down as you add data. Which of the two is faster depends on the hardware. Resolution matters even more, since both the patches per image and the memory bank grow with it: So for higher-resolution inputs, FoundAD is usually more applicable. PatchCore trains in minutes, while FoundAD takes longer (hours on large datasets). Each model ran at its default image size (224×224 for PatchCore, 512×512 for FoundAD) on Roboflow Inference 1.8, using the public Jetson image on the Jetsons. We measured it using inference-cli (opens in a new tab) ( inference benchmark api-speed ): 10 warm-up requests, then 100 timed ones per model, sent one at a time. These results come from one benchmark, so treat them as an example, not as what to expect. Accuracy and speed on your data depend on your images, defects, image size, and hardware, so try both models on your own data. In app.roboflow.com , click \"New Project\" and pick \"Anomaly Detection\" as the project type. Upload images of good products and label them \"normal\". The model trains on these only, so normal images are all you need to get started. If you have some anomalous images, you can label them \"anomalous\" and they won't be used to train the model (both architectures learn from normal images only, and anomalous images in the training split are skipped). They will be used to pick the threshold that best separates normal from anomalous, and to report precision and recall. Without them, it sets the threshold from the normal validation images, so roughly 1% of them would be flagged. Labels are per image: open an image from \"Annotate\" and pick \"normal\" or \"anomalous\", like a classification model. If there's an anomalous object, you don't mark where the defect is; the model works that out on its own and returns it as a heatmap (see Step 4). Most of your images will be normal, so you can label a whole upload batch at once with \"Mark All Normal\". Our final dataset had 962 normal crops for training, plus 208 validation images (12 anomalous) and 130 test images (11 anomalous) to set the threshold and check accuracy. Click \"Train Model\", pick an architecture, and choose the dataset version to train on. We trained both on the same version. On our test set PatchCore came out ahead: it caught 14 of 15 real defects at 2 false alarms, while FoundAD caught 10. PatchCore trains in minutes and FoundAD takes longer (see the benchmark above), so try both on your data. When training finishes, the model shows up under \"Models\". Send it an image through the Serverless API, and add include_anomaly_map to get the heatmap back: The response has anomaly_score , anomaly_threshold and is_anomalous , plus the heatmap at the model's input resolution. Create an Anomaly Detection project, upload images of good parts, and train your first model today. Sign up for Roboflow to get started, or talk to sales about running it across your lines."
         }
       ]
+    }
+  ],
+  "recent_posts": [
+    {
+      "published_at": "2026-11-02T10:48:17+00:00",
+      "story_id": "f4aac92069150c55",
+      "title": "Google lança Gemini 4 Carbon, modelo voltado à cibersegurança",
+      "summary": "Segundo o Google DeepMind, o modelo mais forte da empresa chega primeiro a um grupo restrito de defensores de segurança cibernética, pelo mesmo preço do Gemini 4 Argon."
+    },
+    {
+      "published_at": "2026-11-02T10:48:17+00:00",
+      "story_id": "6d5e06798854be9f",
+      "title": "Nvidia lança modelo de voz aberto que transcreve 40 idiomas",
+      "summary": "O Nemotron 3.5 Transcribe junta transcrição, identificação de quem fala e tradução em um só modelo, já disponível no Hugging Face, segundo a Nvidia."
+    },
+    {
+      "published_at": "2026-11-01T21:51:15+00:00",
+      "story_id": "9ac59237a9600656",
+      "title": "Meta expande o Muse, seu agente pessoal de IA, para Singapura",
+      "summary": "Com parceiros locais de compras, mercado e viagem, o assistente chega ao país menos de dois meses após o lançamento nos EUA."
+    },
+    {
+      "published_at": "2026-11-01T15:48:07+00:00",
+      "story_id": "1621f02abc58fb49",
+      "title": "Justiça dos EUA mantém ação da NAACP contra data center da xAI",
+      "summary": "Juíza federal rejeitou o pedido da SpaceX para arquivar o processo sobre turbinas a gás sem licença que alimentam o Colossus, perto de Memphis."
+    },
+    {
+      "published_at": "2026-11-01T10:54:18+00:00",
+      "story_id": "426f2805cc939231",
+      "title": "Satélite do Projeto Suncatcher do Google entra em operação no espaço",
+      "summary": "Com chips de IA a bordo, a nave respondeu ao primeiro comando enviado da Terra gerando um haicai, segundo TechCrunch e The Verge."
+    },
+    {
+      "published_at": "2026-11-01T10:54:17+00:00",
+      "story_id": "10e556bcba135e70",
+      "title": "Mistral abre pesos do Large 4, modelo de 1 trilhão de parâmetros",
+      "summary": "Apelidado de Le Chonk, o modelo multimodal chega com licença aberta e, segundo a empresa, ganhos de desempenho em código e segurança desde a pré-visualização."
     }
   ]
 }
