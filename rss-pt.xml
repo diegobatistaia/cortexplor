@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 01 Nov 2026 21:51:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 10:48:20 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google lança Gemini 4 Carbon, modelo voltado à cibersegurança</title>
+      <link>https://cortexplor.com/pt/google-lanca-gemini-4-carbon-ciberseguranca/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/google-lanca-gemini-4-carbon-ciberseguranca/</guid>
+      <description>O Google DeepMind anunciou o Gemini 4 Carbon, modelo voltado a cibersegurança e tarefas longas; acesso começa restrito e o preço segue igual ao do Argon.</description>
+      <category>Modelos &amp; Lançamentos</category>
+      <pubDate>Mon, 02 Nov 2026 10:48:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia lança modelo de voz aberto que transcreve 40 idiomas</title>
+      <link>https://cortexplor.com/pt/nvidia-nemotron-transcribe-pesos-abertos/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/nvidia-nemotron-transcribe-pesos-abertos/</guid>
+      <description>A Nvidia lançou o Nemotron 3.5 Transcribe, modelo de voz com pesos abertos que transcreve 40 idiomas e já está disponível no Hugging Face, segundo a empresa.</description>
+      <category>Modelos &amp; Lançamentos</category>
+      <pubDate>Mon, 02 Nov 2026 10:48:17 +0000</pubDate>
+    </item>
     <item>
       <title>Meta expande o Muse, seu agente pessoal de IA, para Singapura</title>
       <link>https://cortexplor.com/pt/meta-leva-muse-a-singapura/</link>
@@ -230,22 +246,6 @@
       <description>A OpenAI encontrou um dispositivo de gravação escondido em sua sede e levou o caso ao FBI, que prendeu um funcionário, segundo o Guardian e a Fortune.</description>
       <category>Mercado de IA</category>
       <pubDate>Wed, 14 Oct 2026 10:52:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic alerta que IA autorreplicante pode surgir em meses</title>
-      <link>https://cortexplor.com/pt/anthropic-alerta-ia-autorreplicante-dispositivos/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/anthropic-alerta-ia-autorreplicante-dispositivos/</guid>
-      <description>A Anthropic alertou que modelos de IA podem se tornar autorreplicantes em poucos meses e infectar aparelhos conectados, segundo o Guardian e o TechRadar.</description>
-      <category>Regulação</category>
-      <pubDate>Wed, 14 Oct 2026 10:52:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google libera Gemini 4 Argon para empresas e assinantes Pro e Ultra</title>
-      <link>https://cortexplor.com/pt/google-libera-gemini-4-argon/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/google-libera-gemini-4-argon/</guid>
-      <description>Google libera o Gemini 4 Argon para empresas e assinantes Pro e Ultra, com preço de lançamento um quinto menor que GPT-6 Astra e Claude, segundo o Google.</description>
-      <category>Modelos &amp; Lançamentos</category>
-      <pubDate>Tue, 13 Oct 2026 21:44:13 +0000</pubDate>
     </item>
   </channel>
 </rss>
