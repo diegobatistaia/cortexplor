@@ -1,0 +1,103 @@
+{
+  "lang": "es",
+  "slug": "meta-financia-investigacion-cinco-universidades-eeuu",
+  "story_id": "c3be09bbb66c0ea7",
+  "title": "Meta financia investigación médica en cinco universidades de EE. UU.",
+  "dek": "La empresa destina 2 millones de dólares a proyectos que usan sus modelos abiertos en medicina, física, química, biología, computación y matemáticas, según la Meta.",
+  "meta_description": "Meta anuncia una alianza con cinco universidades de EE. UU. y destina 2 millones de dólares a investigación médica con sus modelos, según dice la empresa.",
+  "keyword": "Meta universidades investigación",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "meta",
+    "investigacion",
+    "salud",
+    "universidades"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Meta anunció alianzas de investigación con cinco universidades de Estados Unidos y afirma que destinará 2 millones de dólares al total de las cinco instituciones, según un comunicado de la empresa publicado el 28 de octubre. Las escuelas son Caltech, la Facultad de Medicina de Ohio State University, Louisiana State University (LSU), Indiana University y UTHealth Houston.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acuerdo con Meta, el paquete combina acceso a modelos que la empresa llama \"Superintelligence\", financiamiento para investigación y colaboración directa de investigadores de la compañía con los equipos académicos. La empresa dice que el objetivo es acelerar avances en medicina, física, química, biología, ciencias de la computación y matemáticas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Visión por computadora para bebés con traqueostomía",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Uno de los proyectos que menciona Meta está dirigido por el médico Michael Dunham, de LSU. Llamado Eyes-On, usa los modelos de código abierto SAM de Meta — la familia Segment Anything, que identifica y recorta objetos dentro de una imagen — para construir un sistema de visión por computadora que vigila a bebés con tubos de traqueostomía.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Meta, el desplazamiento de esos tubos es una emergencia que puede ser mortal, y los bebés en esa situación no pueden llorar para pedir ayuda. El sistema está pensado para funcionar con cámaras junto a la cama y computación de borde, es decir, el procesamiento ocurre en el propio dispositivo y no en un servidor remoto. La empresa afirma que ya existe una prueba de concepto publicada, con más trabajo previsto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Conversaciones con personas con demencia y un modelo de riesgo cardíaco",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En Indiana University, el investigador David Crandall trabaja en métodos de IA multimodal — sistemas que combinan texto, voz y otras señales en el mismo análisis — para estudiar conversaciones de adultos mayores con demencia. Según Meta, la meta es ayudar a los agentes conversacionales, incluidos los robots sociales, a adaptar cómo responden a cada persona, probando si el sistema puede reconocer los patrones de comunicación de quienes tienen diferencias cognitivas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En la Facultad de Medicina de Ohio State University, la investigadora Yuan Xue lidera un proyecto con el cardiólogo Yuchi Han y la investigadora Xia Ning para probar si los modelos de peso abierto de Meta ayudan a predecir el riesgo futuro de insuficiencia cardíaca con fracción de eyección preservada (HFpEF), que según Meta representa alrededor de la mitad de todos los casos de insuficiencia cardíaca. El equipo usa tomografías abdominales de rutina, historiales médicos a lo largo del tiempo y, cuando está disponible, datos de electrocardiograma. Según Meta, el modelo se está diseñando para manejar datos incompletos, porque la práctica clínica real pocas veces entrega un conjunto completo de información.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El anuncio de Meta nombra a Caltech y a UTHealth Houston entre las cinco escuelas asociadas, pero no describe un proyecto específico en ninguna de las dos, a diferencia de los tres proyectos detallados en LSU, Indiana University y Ohio State.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Modelos, gafas y visores de realidad mixta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta afirma que los proyectos de medicina y salud también usan, además de sus modelos, las gafas de la empresa y visores de realidad mixta como parte del equipo de investigación. La compañía no detalló cómo se divide el monto total entre las cinco escuelas, ni dio un plazo para los resultados de ninguno de los proyectos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: investigadores de las cinco universidades asociadas — Caltech, Ohio State, LSU, Indiana University y UTHealth Houston —, según Meta.",
+        "Desde cuándo: Meta publicó el anuncio el 28 de octubre de 2026.",
+        "Cuánto cuesta: 2 millones de dólares en total, divididos entre las cinco instituciones, según la empresa.",
+        "Qué cambia: los investigadores académicos obtienen acceso directo a los modelos de Meta, incluida la familia SAM, además de la colaboración de investigadores de la propia empresa, algo que Meta describe como nuevo para este grupo de escuelas."
+      ]
+    }
+  ],
+  "image": {
+    "query": "university research lab medical AI",
+    "alt": "Investigador en un laboratorio universitario revisando datos médicos en una pantalla"
+  },
+  "sources": [
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
+      "title": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}

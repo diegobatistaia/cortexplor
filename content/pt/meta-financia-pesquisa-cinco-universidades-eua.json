@@ -1,0 +1,103 @@
+{
+  "lang": "pt",
+  "slug": "meta-financia-pesquisa-cinco-universidades-eua",
+  "story_id": "c3be09bbb66c0ea7",
+  "title": "Meta financia pesquisa em saúde com cinco universidades dos EUA",
+  "dek": "A empresa destina US$ 2 milhões a projetos que usam seus modelos abertos em medicina, física, química, biologia, computação e matemática, segundo comunicado da Meta.",
+  "meta_description": "A Meta anuncia parceria com cinco universidades dos EUA e destina US$ 2 milhões a pesquisas em medicina e ciência com seus modelos, segundo a empresa.",
+  "keyword": "Meta universidades pesquisa",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "meta",
+    "pesquisa",
+    "saude",
+    "universidades"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Meta fechou parcerias de pesquisa com cinco universidades dos Estados Unidos e vai destinar US$ 2 milhões ao total das cinco instituições, segundo comunicado da empresa publicado em 28 de outubro. As escolas são Caltech, a Faculdade de Medicina da Ohio State University, a Louisiana State University (LSU), a Indiana University e a UTHealth Houston.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa descreve a iniciativa como uma expansão de parcerias acadêmicas já existentes e afirma que o objetivo é levar seus modelos a professores, estudantes e às comunidades que se beneficiam das pesquisas dessas universidades. Segundo a Meta, cada uma das cinco escolas vai usar o financiamento e o acesso aos modelos de forma distinta, conforme a área de pesquisa de cada equipe.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acordo com a Meta, o pacote inclui acesso a modelos que a empresa chama de \"Superintelligence\", financiamento de pesquisa e colaboração direta de pesquisadores da companhia com as equipes acadêmicas. O objetivo declarado é acelerar descobertas em medicina, física, química, biologia, ciência da computação e matemática.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Visão computacional para bebês com traqueostomia",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Um dos projetos citados pela Meta é liderado pelo médico Michael Dunham, da LSU. Batizado de Eyes-On, o projeto usa os modelos de código aberto SAM da Meta — a família Segment Anything, que identifica e recorta objetos dentro de uma imagem — para construir um sistema de visão computacional que monitora bebês com tubos de traqueostomia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Meta, o deslocamento desses tubos é uma emergência que pode matar, e bebês nessa condição não conseguem chorar para pedir ajuda. O sistema é pensado para rodar com câmeras ao lado do leito e computação de borda (processamento feito no próprio dispositivo, sem depender de um servidor remoto). A empresa afirma que já existe uma prova de conceito publicada, com mais trabalho previsto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "IA para conversas com pessoas com demência e previsão de insuficiência cardíaca",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Na Indiana University, o pesquisador David Crandall trabalha em métodos de IA multimodal (que combina texto, voz e outros sinais na mesma análise) para entender conversas de idosos com demência. Segundo a Meta, a meta é ajudar agentes conversacionais, incluindo robôs sociais, a adaptar a forma como respondem a cada pessoa, testando se o sistema consegue reconhecer os padrões de comunicação de quem tem diferenças cognitivas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Já na Ohio State University, a pesquisadora Yuan Xue lidera um projeto com o cardiologista Yuchi Han e a pesquisadora Xia Ning para investigar se os modelos de peso aberto da Meta ajudam a prever o risco futuro de insuficiência cardíaca com fração de ejeção preservada (HFpEF, sigla em inglês para um tipo de insuficiência cardíaca responsável por cerca de metade dos casos da doença). A equipe usa tomografias abdominais de rotina, prontuários médicos ao longo do tempo e, quando disponível, dados de eletrocardiograma. Segundo a Meta, o modelo está sendo projetado para lidar com dados incompletos, porque a prática clínica real raramente entrega o conjunto completo de informações.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Modelos, óculos e realidade mista",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Meta afirma que os projetos de medicina e saúde também usam, além dos modelos de linguagem, os óculos da empresa e headsets de realidade mista como parte dos equipamentos de pesquisa. A empresa não detalhou como cada universidade vai dividir o valor total entre os projetos, nem deu um prazo para os resultados.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: pesquisadores das cinco universidades parceiras — Caltech, Ohio State, LSU, Indiana University e UTHealth Houston —, segundo a Meta.",
+        "Desde quando: a Meta publicou o anúncio em 28 de outubro de 2026.",
+        "Quanto custa: US$ 2 milhões no total, divididos entre as cinco instituições, segundo a empresa.",
+        "O que muda: pesquisadores acadêmicos passam a ter acesso direto a modelos da Meta, incluindo a família SAM, e a colaboração de pesquisadores da empresa, algo que a Meta diz ser inédito nesse formato com essas escolas."
+      ]
+    }
+  ],
+  "image": {
+    "query": "university research lab medical AI",
+    "alt": "Pesquisador em laboratório universitário analisando dados médicos em uma tela"
+  },
+  "sources": [
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
+      "title": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
