@@ -1,37 +1,31 @@
 {
-  "generated_at": "2026-10-19T16:08:20+00:00",
+  "generated_at": "2026-11-02T19:04:38+00:00",
   "window_days": 28,
   "ga4": {
     "totals": {
-      "active_users": 145,
-      "page_views": 408,
-      "engagement_rate": 0.3015,
-      "avg_session_seconds": 201.9
+      "active_users": 109,
+      "page_views": 317,
+      "engagement_rate": 0.3439,
+      "avg_session_seconds": 244.5
     },
     "top_pages": [
       {
         "path": "/pt/",
-        "active_users": 10,
-        "page_views": 158,
-        "engagement_rate": 0.6667
+        "active_users": 11,
+        "page_views": 141,
+        "engagement_rate": 0.7091
       },
       {
         "path": "/en/",
-        "active_users": 91,
-        "page_views": 106,
-        "engagement_rate": 0.2
+        "active_users": 29,
+        "page_views": 38,
+        "engagement_rate": 0.3235
       },
       {
         "path": "/es/",
-        "active_users": 4,
-        "page_views": 13,
-        "engagement_rate": 1.0
-      },
-      {
-        "path": "/en/oracle-sends-force-majeure-notice-data-center/?ref=quanta_daily",
         "active_users": 5,
-        "page_views": 10,
-        "engagement_rate": 0.6667
+        "page_views": 12,
+        "engagement_rate": 0.875
       },
       {
         "path": "/bio.pt/",
@@ -40,15 +34,21 @@
         "engagement_rate": 0.6667
       },
       {
-        "path": "/pt/c/modelos/",
-        "active_users": 4,
-        "page_views": 9,
-        "engagement_rate": 1.0
+        "path": "/en/meta-launches-muse-wonder-frontier-model/",
+        "active_users": 7,
+        "page_views": 7,
+        "engagement_rate": 0.0
       },
       {
-        "path": "/pt/c/mercado/",
-        "active_users": 3,
-        "page_views": 9,
+        "path": "/es/google-congela-recompensas-fallos-informes-ia/",
+        "active_users": 7,
+        "page_views": 7,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/pt/c/modelos/",
+        "active_users": 4,
+        "page_views": 6,
         "engagement_rate": 1.0
       },
       {
@@ -58,10 +58,28 @@
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/meta-unveils-muse-charm-ai-wearable/",
+        "path": "/en/google-releases-gemini-4-argon/",
         "active_users": 4,
         "page_views": 4,
-        "engagement_rate": 0.25
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/nvidia-launches-rtx-spark-laptops-local-ai/",
+        "active_users": 4,
+        "page_views": 4,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/nvidia-opens-vera-rubin-architecture-data-centers/",
+        "active_users": 4,
+        "page_views": 4,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/pt/c/mercado/",
+        "active_users": 3,
+        "page_views": 4,
+        "engagement_rate": 1.0
       },
       {
         "path": "/bio.pt/?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlD7JSbCt3IgFrf6Elekq61RE94-WbxzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadojeansHBiOylUWzxs4UK1lt3o-Er9lAjbbbjFp7BDv2ZwkNnySPkvXLfBQQ_aem_1uH0yzdoYioDXSCG8vDx0A",
@@ -76,141 +94,144 @@
         "engagement_rate": 0.5
       },
       {
-        "path": "/en/c/market/",
-        "active_users": 5,
-        "page_views": 3,
-        "engagement_rate": 0.2
-      },
-      {
-        "path": "/en/c/models/",
-        "active_users": 4,
-        "page_views": 3,
-        "engagement_rate": 0.25
-      },
-      {
-        "path": "/en/meta-launches-muse-wonder-frontier-model/",
-        "active_users": 3,
-        "page_views": 3,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/pt/c/aplicacoes/",
-        "active_users": 2,
-        "page_views": 3,
-        "engagement_rate": 1.0
-      },
-      {
-        "path": "/pt/c/politica/",
-        "active_users": 2,
-        "page_views": 3,
-        "engagement_rate": 1.0
-      },
-      {
         "path": "/en/anthropic-false-homicide-tip-philadelphia-police/",
         "active_users": 2,
         "page_views": 2,
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/nvidia-opens-vera-rubin-architecture-data-centers/",
+        "path": "/en/xai-bundles-grok-cursor-x-premium-subscription/",
         "active_users": 2,
         "page_views": 2,
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/oracle-sends-force-majeure-notice-data-center/?ref=quanta_dailyOracle",
+        "path": "/pt/c/brasil/",
         "active_users": 2,
         "page_views": 2,
         "engagement_rate": 1.0
       },
       {
-        "path": "/en/xai-bundles-grok-cursor-x-premium-subscription/",
+        "path": "/pt/c/politica/",
         "active_users": 2,
         "page_views": 2,
-        "engagement_rate": 0.0
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/chatgpt-anuncios-durante-geracao-de-imagens/",
+        "active_users": 2,
+        "page_views": 2,
+        "engagement_rate": 1.0
+      },
+      {
+        "path": "/pt/google-limita-gemini-gratis-outubro/",
+        "active_users": 2,
+        "page_views": 2,
+        "engagement_rate": 1.0
       }
     ],
     "by_language": {
       "pt": {
-        "active_users": 47,
-        "page_views": 211
+        "active_users": 40,
+        "page_views": 176
       },
       "en": {
-        "active_users": 136,
-        "page_views": 153
+        "active_users": 77,
+        "page_views": 86
       },
       "es": {
-        "active_users": 5,
-        "page_views": 14
+        "active_users": 14,
+        "page_views": 21
       }
     },
     "views_by_path": {
-      "/pt/": 158,
-      "/en/": 106,
-      "/bio.pt/": 28,
-      "/es/": 13,
-      "/en/oracle-sends-force-majeure-notice-data-center/": 12,
-      "/pt/c/modelos/": 9,
-      "/pt/c/mercado/": 9,
+      "/pt/": 141,
+      "/en/": 38,
+      "/bio.pt/": 31,
+      "/es/": 12,
+      "/en/meta-launches-muse-wonder-frontier-model/": 7,
+      "/es/google-congela-recompensas-fallos-informes-ia/": 7,
+      "/pt/c/modelos/": 6,
       "/en/openai-revenue-50-billion-ai-stocks-fall/": 5,
-      "/en/meta-unveils-muse-charm-ai-wearable/": 4,
+      "/en/google-releases-gemini-4-argon/": 4,
+      "/en/nvidia-launches-rtx-spark-laptops-local-ai/": 4,
+      "/en/nvidia-opens-vera-rubin-architecture-data-centers/": 4,
+      "/pt/c/mercado/": 4,
       "/pt/microsoft-lanca-notebook-ia-nvidia-rtx-spark/": 4,
-      "/en/c/market/": 3,
-      "/en/c/models/": 3,
-      "/en/meta-launches-muse-wonder-frontier-model/": 3,
-      "/pt/c/aplicacoes/": 3,
-      "/pt/c/politica/": 3,
+      "/bio.en/": 3,
       "/en/anthropic-false-homicide-tip-philadelphia-police/": 2,
-      "/en/nvidia-opens-vera-rubin-architecture-data-centers/": 2,
       "/en/xai-bundles-grok-cursor-x-premium-subscription/": 2,
       "/pt/c/brasil/": 2,
+      "/pt/c/politica/": 2,
       "/pt/chatgpt-anuncios-durante-geracao-de-imagens/": 2,
-      "/pt/google-lanca-gemini-4-argon-ciberseguranca/": 2,
       "/pt/google-limita-gemini-gratis-outubro/": 2,
       "/pt/sam-altman-aceitar-coisas-ruins-ia/": 2,
-      "/bio.en/": 2,
       "/en/about/": 1,
+      "/en/anthropic-fewer-junior-hires-more-meetings/": 1,
       "/en/anthropic-launches-claude-sonnet-5-5/": 1,
+      "/en/anthropic-opens-singapore-office-mou/": 1,
+      "/en/anthropic-public-benefit-fund-shares/": 1,
       "/en/anthropic-to-ban-users-cruel-to-claude/": 1,
+      "/en/apple-mlx-distributed-inference-mac-studio/": 1,
       "/en/c/policy/": 1,
       "/en/google-launches-gemini-4-argon-cybersecurity/": 1,
-      "/en/google-releases-gemini-4-argon/": 1,
       "/en/google-restricts-free-gemini-flash-lite/": 1,
+      "/en/meta-releases-muse-spark-open-weights/": 1,
       "/en/nvidia-forecasts-70-percent-revenue-growth-2028/": 1,
       "/en/nvidia-rtx-spark-laptops-debut-ifa/": 1,
+      "/en/openai-acquires-orchestra-bio-biotech-startup/": 1,
       "/en/openai-delays-ipo-safety-concerns/": 1,
+      "/en/openai-stands-by-firing-safety-researchers/": 1,
+      "/en/perplexity-open-sources-space-sandbox-ai-agents/": 1,
       "/en/privacy/": 1,
+      "/en/us-bans-deepseek-ai-federal-agencies/": 1,
+      "/en/xai-launches-grok-voice-3-tops-voice-ranking/": 1,
+      "/es/google-lanza-app-nativa-gemini-windows/": 1,
       "/es/meta-lanza-muse-wonder-modelo-frontera/": 1,
       "/pt/anthropic-amplia-programa-gratuito-claude-startups/": 1,
-      "/pt/anthropic-lanca-claude-fable-5-1-corta-preco-cache/": 1,
-      "/pt/anthropic-lanca-claude-opus-5-5/": 1,
-      "/pt/anthropic-lanca-claude-sonnet-5-5/": 1,
       "/pt/apple-restringe-acesso-total-disco-mac-ia/": 1,
-      "/pt/ceo-da-anthropic-pede-desaceleracao-da-ia/": 1,
-      "/pt/contato/": 1,
+      "/pt/c/aplicacoes/": 1,
       "/pt/gemini-agora-liga-para-empresas-por-voce/": 1,
+      "/pt/google-aplica-gemini-4-argon-robotica/": 1,
       "/pt/google-congela-recompensa-por-falhas-ia/": 1,
+      "/pt/google-lanca-deep-review-para-documentos/": 1,
+      "/pt/microsoft-365-familia-reduz-onedrive-libera-copilot/": 1,
       "/pt/nvidia-microsoft-ia-local-pcs-windows/": 1,
-      "/pt/openai-lanca-dots-agentes-permanentes-chatgpt/": 1,
-      "/pt/privacidade/": 1,
-      "/pt/prospecto-ipo-anthropic-perda-42-bilhoes/": 1,
-      "/pt/termos/": 1,
+      "/pt/reino-unido-alerta-ataque-cibernetico-ia/": 1,
       "/pt/xai-assinatura-unica-grok-cursor-x-premium/": 1
     }
   },
   "search_console": {
     "totals": {
-      "clicks": 3,
-      "impressions": 2056,
-      "ctr": 0.0015,
-      "avg_position": 13.5
+      "clicks": 4,
+      "impressions": 3129,
+      "ctr": 0.0013,
+      "avg_position": 17.8
     },
     "top_queries": [
       {
+        "query": "\"character.ai\" \"chapter 11\"",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 9
+      },
+      {
+        "query": "\"claude haiku 5.5\" anthropic",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 10
+      },
+      {
+        "query": "\"claude haiku 5.5\" release anthropic",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 8
+      },
+      {
         "query": "\"claude opus 5.5\" anthropic",
         "clicks": 0,
-        "impressions": 3,
-        "avg_position": 8.7
+        "impressions": 2,
+        "avg_position": 8
       },
       {
         "query": "\"gemini 4 argon\" \"ultra\"",
@@ -225,12 +246,6 @@
         "avg_position": 5
       },
       {
-        "query": "\"gemini 4 argon\" ai.google.dev",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 10
-      },
-      {
         "query": "\"gemini 4 argon\" google ai model",
         "clicks": 0,
         "impressions": 1,
@@ -243,10 +258,22 @@
         "avg_position": 9.5
       },
       {
+        "query": "\"gemini 4 argon\" release",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 7
+      },
+      {
         "query": "\"gemini 4\" \"thtbee_\"",
         "clicks": 0,
         "impressions": 1,
         "avg_position": 8
+      },
+      {
+        "query": "\"gemini 4\" google deepmind (available or released or api or \"now available\" or preview or launch)",
+        "clicks": 0,
+        "impressions": 2,
+        "avg_position": 9
       },
       {
         "query": "\"introducing claude opus 5.5\" anthropic",
@@ -285,68 +312,49 @@
         "avg_position": 26
       },
       {
-        "query": "agente de meta muse",
+        "query": "\"the signal chats that cost openai researchers their jobs\"",
         "clicks": 0,
         "impressions": 1,
-        "avg_position": 80
+        "avg_position": 10
       },
       {
-        "query": "ai agent gemini",
+        "query": "\"the x subscription\" grok cursor",
         "clicks": 0,
-        "impressions": 2,
-        "avg_position": 50
+        "impressions": 3,
+        "avg_position": 9
       },
       {
-        "query": "ai agent google",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 57
-      },
-      {
-        "query": "ai agent platform google",
+        "query": "+gemini 4 argon google release",
         "clicks": 0,
         "impressions": 1,
-        "avg_position": 92
-      },
-      {
-        "query": "ai charm",
-        "clicks": 0,
-        "impressions": 2,
-        "avg_position": 69
-      },
-      {
-        "query": "ai keychain",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 72
-      },
-      {
-        "query": "ai playground writing",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 32
+        "avg_position": 68
       }
     ],
     "top_pages": [
       {
         "page": "https://cortexplor.com/",
         "clicks": 1,
-        "impressions": 13
+        "impressions": 32
       },
       {
-        "page": "https://cortexplor.com/en/meta-unveils-muse-charm-ai-wearable/",
+        "page": "https://cortexplor.com/en/nvidia-opens-vera-rubin-architecture-data-centers/",
         "clicks": 1,
-        "impressions": 39
+        "impressions": 25
       },
       {
         "page": "https://cortexplor.com/en/nvidia-rtx-spark-laptops-debut-ifa/",
         "clicks": 1,
-        "impressions": 4
+        "impressions": 2
       },
       {
         "page": "https://cortexplor.com/pt/",
         "clicks": 1,
-        "impressions": 3
+        "impressions": 10
+      },
+      {
+        "page": "https://cortexplor.com/pt/microsoft-365-familia-reduz-onedrive-libera-copilot/",
+        "clicks": 1,
+        "impressions": 9
       },
       {
         "page": "https://cortexplor.com/pt/sobre/",
@@ -356,17 +364,17 @@
       {
         "page": "https://cortexplor.com/en/about/",
         "clicks": 0,
-        "impressions": 1
+        "impressions": 3
       },
       {
         "page": "https://cortexplor.com/en/amazon-blocks-metas-shopping-ai-agent/",
         "clicks": 0,
-        "impressions": 41
+        "impressions": 6
       },
       {
         "page": "https://cortexplor.com/en/anthropic-ai-agent-stuck-on-captcha/",
         "clicks": 0,
-        "impressions": 3
+        "impressions": 1
       },
       {
         "page": "https://cortexplor.com/en/anthropic-bans-abusive-behavior-toward-claude/",
@@ -376,7 +384,7 @@
       {
         "page": "https://cortexplor.com/en/anthropic-cuts-claude-haiku-5-5-api-costs/",
         "clicks": 0,
-        "impressions": 9
+        "impressions": 84
       },
       {
         "page": "https://cortexplor.com/en/anthropic-cuts-internet-access-after-false-police-tip/",
@@ -386,17 +394,22 @@
       {
         "page": "https://cortexplor.com/en/anthropic-cuts-internet-internal-evaluations/",
         "clicks": 0,
-        "impressions": 17
+        "impressions": 28
       },
       {
         "page": "https://cortexplor.com/en/anthropic-expands-free-claude-team-startups/",
         "clicks": 0,
-        "impressions": 154
+        "impressions": 177
       },
       {
         "page": "https://cortexplor.com/en/anthropic-false-homicide-tip-philadelphia-police/",
         "clicks": 0,
-        "impressions": 199
+        "impressions": 201
+      },
+      {
+        "page": "https://cortexplor.com/en/anthropic-fewer-junior-hires-more-meetings/",
+        "clicks": 0,
+        "impressions": 29
       },
       {
         "page": "https://cortexplor.com/en/anthropic-free-scanner-open-source-code/",
@@ -404,24 +417,14 @@
         "impressions": 2
       },
       {
-        "page": "https://cortexplor.com/en/anthropic-ipo-prospectus-42-billion-loss/",
-        "clicks": 0,
-        "impressions": 25
-      },
-      {
         "page": "https://cortexplor.com/en/anthropic-launches-claude-sonnet-5-5/",
         "clicks": 0,
-        "impressions": 103
+        "impressions": 69
       },
       {
         "page": "https://cortexplor.com/en/anthropic-launches-cyber-mission-critical-infrastructure/",
         "clicks": 0,
         "impressions": 3
-      },
-      {
-        "page": "https://cortexplor.com/en/anthropic-merges-claude-cowork-interface/",
-        "clicks": 0,
-        "impressions": 1
       },
       {
         "page": "https://cortexplor.com/en/anthropic-model-hardware-standard-ai-agents/",
