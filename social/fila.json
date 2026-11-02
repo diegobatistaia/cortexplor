@@ -3265,7 +3265,7 @@
     "no": 71,
     "style": "dossie",
     "cta_variant": "A",
-    "status": "aprovado",
+    "status": "publicado",
     "criado": "2026-11-02T08:32:30-03:00",
     "aprovado_em": "2026-11-02T08:32:30-03:00",
     "aprovado_por": "automatico",
@@ -3279,7 +3279,10 @@
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/nvidia-nemotron-transcribe-pesos-abertos/04.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/nvidia-nemotron-transcribe-pesos-abertos/05.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/nvidia-nemotron-transcribe-pesos-abertos/06.jpg"
-    ]
+    ],
+    "publicado_em": "2026-11-02T14:16:02-03:00",
+    "media_id": "18231211489328958",
+    "permalink": "https://www.instagram.com/p/DfP0jC-Fb73/"
   },
   {
     "slug": "nvidia-nemotron-transcribe-open-weights",
@@ -3287,7 +3290,7 @@
     "no": 68,
     "style": "cartao",
     "cta_variant": "B",
-    "status": "aprovado",
+    "status": "publicado",
     "criado": "2026-11-02T08:32:36-03:00",
     "aprovado_em": "2026-11-02T08:32:36-03:00",
     "aprovado_por": "automatico",
@@ -3301,6 +3304,9 @@
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/nvidia-nemotron-transcribe-open-weights/04.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/nvidia-nemotron-transcribe-open-weights/05.jpg",
       "https://raw.githubusercontent.com/diegobatistaia/cortexplor-midia/main/en/nvidia-nemotron-transcribe-open-weights/06.jpg"
-    ]
+    ],
+    "publicado_em": "2026-11-02T14:16:47-03:00",
+    "media_id": "17942441517363223",
+    "permalink": "https://www.instagram.com/p/DfP0oirlfwV/"
   }
 ]
