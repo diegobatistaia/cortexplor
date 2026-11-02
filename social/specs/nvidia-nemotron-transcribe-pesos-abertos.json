@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-nemotron-transcribe-pesos-abertos",
+  "lang": "pt",
+  "date": "02 nov 2026",
+  "no": 71,
+  "category": "Modelos",
+  "kicker": "Modelos · Nvidia",
+  "headline": "Nvidia abre modelo de voz de 40 idiomas",
+  "headline_hl": "40 idiomas",
+  "dek": "O Nemotron 3.5 Transcribe junta transcrição, quem fala e tradução, segundo a Nvidia.",
+  "image": {
+    "path": "assets/img/nvidia-nemotron-transcribe-pesos-abertos-5d431c16.jpg",
+    "credit": "Jumping Jax / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "40<br>idiomas",
+  "sources": [
+    "NVIDIA"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Um modelo no lugar de três",
+    "body": [
+      "A Nvidia lançou o Nemotron 3.5 Transcribe, modelo de voz com pesos abertos, já disponível no Hugging Face.",
+      "Segundo a Nvidia, ele transcreve, identifica quem fala e traduz com um só comando em linguagem natural."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que ele faz",
+    "body": "Segundo a Nvidia:",
+    "points": [
+      {
+        "h": "Idiomas",
+        "t": "Transcreve 40 idiomas, com sete línguas indianas."
+      },
+      {
+        "h": "Comandos",
+        "t": "Aceita termos de setor e regras de formatação."
+      },
+      {
+        "h": "Perguntas",
+        "t": "Também responde dúvidas sobre o áudio."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Desempenho declarado",
+    "body": [
+      "A Nvidia diz que o modelo é o primeiro no ranking Hugging Face Open ASR e o segundo entre abertos no Artificial Analysis.",
+      "Como o dado vem da própria Nvidia, não é medição independente."
+    ],
+    "stat": {
+      "big": "80%",
+      "cap": "menos parâmetros ativos, diz a Nvidia"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Do servidor ao notebook",
+    "items": [
+      {
+        "h": "Já",
+        "t": "Pesos disponíveis no Hugging Face (Nvidia)."
+      },
+      {
+        "h": "Em breve",
+        "t": "Versões quantizadas para rodar localmente (Nvidia)."
+      },
+      {
+        "h": "Hardware",
+        "t": "RTX Spark, DGX Spark e Jetson AGX Thor (Nvidia)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Nvidia lançou o Nemotron 3.5 Transcribe, modelo de voz aberto que transcreve 40 idiomas.",
+    "body": [
+      "Segundo a Nvidia, um só modelo transcreve, identifica quem está falando e traduz, guiado por comandos em linguagem natural. Antes, essas etapas costumavam exigir modelos encadeados.",
+      "A empresa afirma que ele lidera o ranking Hugging Face Open ASR e tem 80% menos parâmetros ativos que o modelo aberto do topo, o que ajuda a rodar em hardware local. Os números vêm da própria Nvidia. Versões quantizadas para RTX Spark e DGX Spark chegam em breve."
+    ],
+    "cta_variant": "A",
+    "cta": "Um só modelo para transcrever e traduzir já resolve o seu caso?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#pesosabertos",
+      "#reconhecimentodevoz"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Nemotron 3.5 Transcribe, modelo de voz aberto da Nvidia",
+    "Slide 2: um só modelo faz transcrição, identificação de quem fala e tradução",
+    "Slide 3: transcreve 40 idiomas e aceita comandos em linguagem natural",
+    "Slide 4: primeiro no Open ASR segundo a Nvidia, com 80% menos parâmetros ativos",
+    "Slide 5: pesos no Hugging Face e versões locais em breve para RTX Spark",
+    "Slide 6: fonte da matéria sobre o Nemotron 3.5 Transcribe: NVIDIA"
+  ]
+}
