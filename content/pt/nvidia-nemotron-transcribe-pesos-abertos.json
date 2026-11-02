@@ -1,0 +1,39 @@
+{
+  "lang": "pt",
+  "slug": "nvidia-nemotron-transcribe-pesos-abertos",
+  "story_id": "6d5e06798854be9f",
+  "title": "Nvidia lança modelo de voz aberto que transcreve 40 idiomas",
+  "dek": "O Nemotron 3.5 Transcribe junta transcrição, identificação de quem fala e tradução em um só modelo, já disponível no Hugging Face, segundo a Nvidia.",
+  "meta_description": "A Nvidia lançou o Nemotron 3.5 Transcribe, modelo de voz com pesos abertos que transcreve 40 idiomas e já está disponível no Hugging Face, segundo a empresa.",
+  "keyword": "Nemotron 3.5 Transcribe",
+  "category": "modelos",
+  "tags": ["ia", "nvidia", "modelos", "audio", "codigo-aberto"],
+  "body": [
+    {"type": "p", "text": "A Nvidia lançou nesta segunda-feira (2 de novembro) o Nemotron 3.5 Transcribe, um modelo de voz com pesos abertos (o que significa que qualquer pessoa pode baixar e rodar o modelo, em vez de acessá-lo só pelos servidores da empresa) que junta num só sistema tarefas que normalmente exigiam vários modelos separados: transcrição de áudio, identificação de quem está falando e tradução, segundo a Nvidia. O modelo já está disponível no Hugging Face, plataforma de referência para publicação de modelos de IA.", "items": []},
+    {"type": "p", "text": "De acordo com a empresa, o Nemotron 3.5 Transcribe também responde perguntas sobre o conteúdo do áudio e é guiado por comandos em linguagem natural, em vez de configurações técnicas separadas para cada função. A Nvidia afirma que esses comandos podem incluir termos específicos de um setor e convenções de formatação, o que ajuda o modelo a lidar com vocabulário especializado em áreas como saúde, serviços financeiros e atendimento ao cliente.", "items": []},
+    {"type": "p", "text": "Até agora, quem precisava transcrever uma reunião, identificar quem falou cada trecho e traduzir o conteúdo normalmente encadeava um modelo para cada uma dessas etapas, passando o resultado de um sistema para o outro. Segundo a Nvidia, o Nemotron 3.5 Transcribe faz as três tarefas com um único modelo, guiado pelo mesmo comando em linguagem natural, o que elimina a necessidade de montar esse encadeamento manualmente.", "items": []},
+    {"type": "p", "text": "O modelo transcreve 40 idiomas, incluindo sete línguas indianas, segundo a Nvidia.", "items": []},
+    {"type": "h2", "text": "Desempenho declarado pela própria empresa", "items": []},
+    {"type": "p", "text": "A Nvidia diz que o Nemotron 3.5 Transcribe ocupa o primeiro lugar no ranking Hugging Face Open ASR e o segundo lugar entre modelos de pesos abertos no Artificial Analysis — dois rankings que avaliam a precisão de modelos de transcrição de voz. Como esses números vêm da própria empresa, valem como o que a Nvidia afirma sobre o modelo, não como medição independente.", "items": []},
+    {"type": "p", "text": "Segundo a empresa, o modelo tem cerca de 4,3 bilhões de parâmetros ativos — 80% menos que o modelo de pesos abertos no topo desses rankings —, o que a Nvidia aponta como motivo para rodar com mais facilidade em hardware local. Por ter pesos abertos, afirma a empresa, cada desenvolvedor escolhe onde processar o áudio, do próprio computador até a nuvem.", "items": []},
+    {"type": "p", "text": "O Artificial Analysis, citado pela Nvidia, é um site que compara publicamente o desempenho de diferentes modelos de IA de várias empresas. Mesmo assim, é a própria Nvidia quem envia o modelo para essa avaliação, e não um terceiro que escolhe de forma independente o que testar — por isso o resultado segue sendo uma afirmação da empresa sobre o próprio produto, ainda que medida por um critério externo.", "items": []},
+    {"type": "h2", "text": "Da nuvem ao notebook", "items": []},
+    {"type": "p", "text": "A Nvidia planeja lançar em breve versões quantizadas do modelo — uma técnica que reduz o tamanho do modelo para rodar com menos capacidade de processamento. Segundo a empresa, essas versões vão funcionar localmente em notebooks com o chip RTX Spark e em sistemas DGX Spark, além de dispositivos Jetson AGX Thor, ou em escala maior em GPUs Blackwell de data center. As versões no formato NVFP4 poderão ser usadas pelas ferramentas NeMo-Speech.cpp ou vLLM, segundo a Nvidia.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quem pode usar e onde: qualquer desenvolvedor, pelo Hugging Face, desde já; versões para rodar localmente em notebooks com RTX Spark, sistemas DGX Spark e dispositivos Jetson AGX Thor chegam em breve, segundo a Nvidia.",
+      "Desde quando: disponível no Hugging Face a partir desta segunda-feira (2 de novembro), segundo a empresa.",
+      "Quanto custa: a Nvidia não divulgou preço de uso em nuvem; o modelo tem pesos abertos e pode ser baixado do Hugging Face para uso local.",
+      "O que muda: um único modelo substitui a combinação de modelos separados de transcrição, identificação de interlocutor e tradução, guiado por comandos em linguagem natural, segundo a empresa."
+    ]}
+  ],
+  "image": {
+    "query": "audio waveform speech recognition microphone technology",
+    "alt": "Forma de onda de áudio em destaque sobre fundo escuro, remetendo a reconhecimento de fala"
+  },
+  "sources": [
+    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/", "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}

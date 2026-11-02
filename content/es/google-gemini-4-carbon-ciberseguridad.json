@@ -1,0 +1,40 @@
+{
+  "lang": "es",
+  "slug": "google-gemini-4-carbon-ciberseguridad",
+  "story_id": "f4aac92069150c55",
+  "title": "Google DeepMind lanza Gemini 4 Carbon para ciberdefensa",
+  "dek": "Según la empresa, el modelo más potente que ha lanzado llega primero a un grupo restringido de equipos de ciberdefensa, con el mismo precio que el Gemini 4 Argon.",
+  "meta_description": "Google DeepMind lanzó Gemini 4 Carbon, un modelo centrado en ciberseguridad y tareas largas, con acceso restringido al inicio y el mismo precio que el Argon.",
+  "keyword": "Gemini 4 Carbon",
+  "category": "modelos",
+  "tags": ["ia", "google", "deepmind", "modelos", "ciberseguridad"],
+  "body": [
+    {"type": "p", "text": "Google DeepMind presentó este lunes el Gemini 4 Carbon, al que la propia empresa describe como su modelo más potente hasta ahora, centrado en ciberseguridad y en tareas que exigen razonar durante periodos largos. Según DeepMind, el acceso empieza esta semana, pero por ahora solo para un grupo restringido de equipos de defensa cibernética.", "items": []},
+    {"type": "p", "text": "La empresa afirma que Carbon quedó primero en el Artificial Analysis Intelligence Index, en la versión 5.0 del ranking, recién actualizada, con una puntuación de 59. En pruebas internas de ciberseguridad citadas por DeepMind, el modelo obtuvo 88,2% en SEC-bench Pro (encontrar vulnerabilidades en código), 54,8% en ExploitGym (explotar esas fallas) y 71% en CWE-bench (corregirlas). Como estas cifras vienen solo de la propia empresa, reflejan lo que DeepMind dice del modelo, no una medición independiente.", "items": []},
+    {"type": "p", "text": "Carbon llega dos semanas después del Gemini 4 Argon, lanzado en octubre, y mantiene el precio de estreno de su antecesor: 2 dólares por millón de tokens de entrada y 10 dólares por millón de tokens de salida, con un descuento del 95% para los tokens de entrada ya procesados antes (los llamados tokens en caché), según DeepMind.", "items": []},
+    {"type": "h2", "text": "Pensado para tareas largas, no para respuestas rápidas", "items": []},
+    {"type": "p", "text": "A diferencia de un modelo afinado para responder rápido, Carbon se diseñó para problemas de ingeniería que tardan mucho en resolverse. DeepMind afirma que, en pruebas internas, el modelo llegó a funcionar durante varios días seguidos para superar callejones sin salida en tareas como localizar y corregir errores específicos en bases de código grandes y en sistemas de bajo nivel.", "items": []},
+    {"type": "p", "text": "Según la empresa, Carbon también subió 89 puntos Elo en WebDev Arena, una clasificación que mide la calidad de las interfaces web generadas por modelos de IA, lo que lo dejó en el cuarto lugar general con 1.768 puntos. DeepMind sostiene además que el modelo logró más del doble de aciertos al generar código seguro frente al Argon, en sus propias pruebas internas.", "items": []},
+    {"type": "p", "text": "DeepMind afirma además que el propio equipo de Chrome, dentro de Google, informó un rendimiento más de diez veces mejor que el de un modelo de otro laboratorio —que la empresa no identificó— al generar parches de alta calidad para corregir código. Wiz, la plataforma de seguridad en la nube que pertenece a Google, dice haber observado por su parte que Carbon lidera en pruebas de penetración web, usadas para detectar fallas antes de que las exploten atacantes reales. Como Wiz forma parte del mismo grupo empresarial que Google, esa observación no cuenta como una segunda fuente independiente: es otra afirmación que DeepMind reporta sobre su propio modelo.", "items": []},
+    {"type": "h2", "text": "Un lanzamiento deliberadamente gradual", "items": []},
+    {"type": "p", "text": "Carbon no llega directo al público. DeepMind describe el despliegue como intencionalmente lento: el acceso inicial va solo a un grupo de defensores de ciberseguridad y, después, a socios de confianza a través de lo que la empresa llama Fairwind Program. Todavía no hay fecha para abrir el modelo a desarrolladores, empresas o consumidores a través de los productos de Google.", "items": []},
+    {"type": "p", "text": "La empresa dice además que participa en el proceso voluntario del gobierno de Estados Unidos para probar modelos antes de su lanzamiento. Según DeepMind, Carbon usa la misma estructura de seguridad que Argon —que combina entrenamiento, defensas en tiempo real contra usos indebidos y monitoreo de la cadena de razonamiento del modelo— con entrenamiento adicional para que el modelo responda de forma adecuada en tareas de alta presión.", "items": []},
+    {"type": "p", "text": "El monitoreo de la cadena de razonamiento, según DeepMind, funciona como una auditoría del camino que recorre el modelo hasta llegar a una respuesta, y no solo del resultado final que ve el usuario. La empresa afirma que esa revisión ayuda a detectar cuándo el modelo empieza a desviarse del comportamiento esperado antes de que eso aparezca en la respuesta final, un cuidado que DeepMind describe como más importante en un modelo pensado para funcionar durante días sin supervisión humana constante.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: por ahora, solo un grupo restringido de defensores de ciberseguridad y socios del Fairwind Program, según DeepMind; desarrolladores, empresas y consumidores todavía no tienen acceso a través de los productos de Google.",
+      "Desde cuándo: el acceso para ese primer grupo comenzó esta semana, según la empresa.",
+      "Cuánto cuesta: 2 dólares por millón de tokens de entrada y 10 dólares por millón de tokens de salida, con 95% de descuento en tokens en caché, el mismo precio de estreno del Gemini 4 Argon, según DeepMind.",
+      "Qué cambia respecto a Argon: la empresa reporta mejoras en la generación de código seguro, en tareas largas de ingeniería y en la calidad del desarrollo web, manteniendo el precio de lanzamiento."
+    ]}
+  ],
+  "image": {
+    "query": "cybersecurity code shield abstract technology",
+    "alt": "Líneas de código en una pantalla oscura, en referencia a la seguridad digital"
+  },
+  "sources": [
+    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/", "title": "Gemini 4 Carbon: Our next frontier model"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
