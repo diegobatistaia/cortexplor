@@ -1,0 +1,101 @@
+{
+  "slug": "openai-merges-chatgpt-chat-work-tabs",
+  "lang": "en",
+  "date": "02 Nov 2026",
+  "no": 70,
+  "category": "Applications",
+  "kicker": "Applications · OpenAI",
+  "headline": "OpenAI merges ChatGPT's Chat and Work tabs",
+  "headline_hl": "Chat and Work",
+  "dek": "The change starts with a select group and shifts usage limits, per TechCrunch and ZDNet.",
+  "image": {
+    "path": "assets/img/openai-merges-chatgpt-chat-work-tabs-64ed119d.jpg",
+    "credit": "Levart_Photographer / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Chat + Work<br>on one screen",
+  "sources": [
+    "TechCrunch AI",
+    "ZDNet AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Two tabs become one",
+    "body": [
+      "OpenAI is merging ChatGPT's Chat and Work tabs, per TechCrunch and ZDNet.",
+      "A select group of users tests it first and gives feedback before a wider rollout, both outlets say."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the single screen offers",
+    "body": "Per TechCrunch, quoting OpenAI's email:",
+    "points": [
+      {
+        "h": "Ideas",
+        "t": "Start from an idea and ask ChatGPT to carry it forward."
+      },
+      {
+        "h": "Tasks",
+        "t": "Build a site, a presentation or work on the web."
+      },
+      {
+        "h": "Extras",
+        "t": "Files and plugins come into the unified experience."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "One shared usage pool",
+    "body": [
+      "ChatGPT and Codex draw from the same token-based usage pool, per ZDNet.",
+      "TechCrunch repeats OpenAI's warning: a minority may wait longer for limits to reset."
+    ],
+    "stat": {
+      "big": "Dec",
+      "cap": "month the change starts, says TechCrunch"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What stays",
+    "items": [
+      {
+        "h": "Codex",
+        "t": "Stays a separate experience in the app (TechCrunch)."
+      },
+      {
+        "h": "Chat",
+        "t": "Instant chat does not use the pool (ZDNet)."
+      },
+      {
+        "h": "Rival",
+        "t": "Anthropic did something similar in September (ZDNet)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI is merging ChatGPT's Chat and Work tabs into one experience, starting in December.",
+    "body": [
+      "Per TechCrunch and ZDNet, a select group of users tests the new layout before a wider rollout. On the single screen, a user starts from an idea and asks ChatGPT to carry it forward, building a site, a presentation or web tasks.",
+      "ChatGPT and Codex will share one token-based usage pool, and OpenAI warns a minority may wait longer for limits to reset. Instant chat does not draw from the pool. Anthropic merged Claude's chat and Cowork in September, according to both outlets."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#chatgpt",
+      "#artificialintelligence"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about OpenAI merging ChatGPT's Chat and Work tabs",
+    "Slide 2: two tabs become one, tested by a select group before rollout",
+    "Slide 3: a single screen to build a site, a presentation and web tasks",
+    "Slide 4: ChatGPT and Codex share the same token-based usage pool",
+    "Slide 5: Codex stays separate and instant chat does not use the pool",
+    "Slide 6: sources for the story on merged ChatGPT tabs: TechCrunch AI and ZDNet AI"
+  ]
+}

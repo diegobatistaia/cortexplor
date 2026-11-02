@@ -1,0 +1,112 @@
+{
+  "lang": "pt",
+  "slug": "openai-une-abas-chat-work-chatgpt",
+  "story_id": "8abc26658b743a46",
+  "title": "OpenAI vai unificar abas do ChatGPT a partir de dezembro",
+  "dek": "ChatGPT e Codex passam a compartilhar o mesmo limite de uso em tokens quando as abas Chat e Work forem fundidas, segundo nota da OpenAI.",
+  "meta_description": "A OpenAI vai unir as abas Chat e Work do ChatGPT numa só tela a partir de dezembro, com Codex compartilhando o mesmo limite de uso, segundo TechCrunch e ZDNet.",
+  "keyword": "ChatGPT Chat e Work",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "openai",
+    "chatgpt",
+    "codex",
+    "aplicacoes"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A OpenAI vai unificar as abas Chat e Work do ChatGPT numa única experiência, segundo e-mail enviado a usuários e nota publicada no site da empresa, de acordo com a TechCrunch e o ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A integração começa com um grupo seleto de usuários, que vai testar o novo formato e dar retorno à empresa antes da liberação mais ampla, segundo as duas publicações.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como funciona hoje",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No aplicativo de desktop do ChatGPT existem hoje duas seções principais: ChatGPT e Codex, a ferramenta da OpenAI voltada para programação. Dentro da seção ChatGPT, o usuário alterna entre as abas Chat e Work. A TechCrunch descreve o arranjo atual como confuso, porque fica difícil saber em qual aba o trabalho está sendo feito e onde está cada projeto — problema que a própria OpenAI reconhece ao propor a fusão, segundo o ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Com a fusão, as duas abas virão para uma só tela, onde o usuário poderá sair de uma ideia exploratória e pedir que o ChatGPT a leve adiante — criar um site, montar uma apresentação ou executar tarefas na web, enquanto o usuário acompanha e orienta o trabalho —, segundo o e-mail da OpenAI reproduzido pela TechCrunch. O mesmo e-mail diz que será possível levar arquivos e plugins (extensões que ligam o ChatGPT a outros serviços) para dentro dessa experiência unificada. O Codex continua como experiência separada dentro do mesmo aplicativo, segundo a TechCrunch e o ZDNet.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Mesmo limite para ChatGPT e Codex",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A partir da unificação, ChatGPT e Codex vão consumir da mesma cota de uso, medida em tokens — a unidade que mede quanto um modelo processa e gera a cada pedido —, segundo nota da OpenAI citada pelo ZDNet, intitulada \"Understanding ChatGPT and Codex usage limits\" (\"Entendendo os limites de uso do ChatGPT e do Codex\"). Quanto mais avançado o modelo escolhido ou mais complexa a tarefa, maior o consumo dessa cota. A nota diz que a cota existe para \"trazer as capacidades agentivas do Work para a experiência principal do ChatGPT\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI afirma, na mesma nota, que não espera que a transição interrompa o trabalho de quem já usa o produto: \"estamos nos preparando com cuidado para essa transição para ajudar a evitar interrupções nos fluxos de trabalho. Esperamos que a maioria dos usuários não precise esperar para que o uso seja renovado com mais frequência do que hoje\", segundo a tradução do ZDNet. Ainda assim, a TechCrunch repete o alerta da OpenAI de que, dependendo do modelo escolhido e do tipo de tarefa, uma minoria de usuários pode precisar esperar mais tempo até a cota ser renovada. O chat instantâneo, segundo a nota, não consome dessa cota.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Movimento parecido já na Anthropic",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em setembro, a Anthropic uniu as funções de chat e Cowork do Claude numa única tela — mudança que a TechCrunch e o ZDNet citam como antecedente direto da decisão da OpenAI.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: assinantes dos planos Plus, Pro e Business do ChatGPT, segundo nota da OpenAI citada pelo ZDNet.",
+        "Desde quando: a OpenAI diz que a mudança começa em dezembro; antes disso, só um grupo seleto de usuários vai testar a nova interface, segundo a TechCrunch.",
+        "O que muda: as abas Chat e Work deixam de existir como seções separadas; ChatGPT e Codex passam a compartilhar o mesmo limite de uso em tokens; o chat instantâneo não consome dessa cota.",
+        "O que não muda: o Codex continua como experiência própria dentro do aplicativo de desktop, segundo a TechCrunch e o ZDNet.",
+        "Quem pode sentir diferença: usuários com uso intenso podem precisar esperar mais para o limite renovar, dependendo do modelo e da tarefa, mesmo a OpenAI dizendo que a maioria não vai notar mudança."
+      ]
+    }
+  ],
+  "image": {
+    "query": "chatgpt app interface laptop screen",
+    "alt": "Tela do aplicativo do ChatGPT em um notebook, representando a fusão das abas Chat e Work",
+    "path": "/assets/img/openai-une-abas-chat-work-chatgpt-64ed119d.jpg",
+    "credit": "Levart_Photographer / Unsplash",
+    "author": "Levart_Photographer",
+    "author_url": "https://unsplash.com/@siva_photography?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/chatgpt-interface-with-examples-and-capabilities-drwpcjkvxuU"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs"
+    },
+    {
+      "name": "ZDNet AI",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/",
+      "title": "OpenAI will merge ChatGPT’s chat and work tabs – here’s when, and what to expect"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-02T21:46:10+00:00",
+  "updated_at": "2026-11-02T21:46:10+00:00"
+}
