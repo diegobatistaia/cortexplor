@@ -1,0 +1,39 @@
+{
+  "lang": "es",
+  "slug": "musk-confirma-recorte-limites-grok-bot",
+  "story_id": "a3deca066a13111a",
+  "title": "Musk confirma recorte en los límites del Grok Bot por costos",
+  "dek": "Usuarios notaron que su cuota semanal se agotaba sin motivo; Musk dice que el recorte fue deliberado, según TechCrunch y TechRadar.",
+  "meta_description": "Elon Musk confirmó que redujo a propósito los límites de uso del Grok Bot por costos altos, según TechCrunch y TechRadar. Qué cambia para los usuarios.",
+  "keyword": "límites Grok Bot",
+  "category": "mercado",
+  "tags": ["ia", "grok", "spacex", "elon-musk"],
+  "body": [
+    {"type": "p", "text": "Elon Musk confirmó que los límites semanales de uso del Grok Bot, el agente de IA vinculado a SpaceX, se redujeron a propósito por el costo de operarlo, según TechCrunch y TechRadar. En respuesta a un usuario en X, Musk escribió que el costo de mantener el Grok Bot era insostenible frente a los ingresos que genera el producto.", "items": []},
+    {"type": "p", "text": "La confirmación llegó después de que varios usuarios reportaran, durante el fin de semana de Halloween, que su cuota semanal se agotó de golpe sin haber usado el Grok Bot más de lo habitual. El Grok Bot es el agente de IA de SpaceX que ejecuta tareas por cuenta propia —como responder correos o hacer compras— dentro de un presupuesto semanal de uso.", "items": []},
+    {"type": "h2", "text": "El salto que encendió las alarmas", "items": []},
+    {"type": "p", "text": "Tanto TechCrunch como TechRadar reportaron casos de usuarios cuyo consumo saltó de 50% a 100% de la cuota semanal de un día para otro, sin actividad adicional que lo explicara. TechRadar registró otros casos similares, con saltos de 35% a 78% y de 70% a 100%. Varios usuarios dijeron que el límite se agotó mientras dormían, sin haber abierto el Grok Bot.", "items": []},
+    {"type": "p", "text": "Un usuario le dijo a TechRadar que normalmente ni siquiera se acerca a agotar el límite. Musk respondió directamente a una publicación en X confirmando que no se trataba de una falla técnica: el recorte fue intencional. No precisó, sin embargo, cómo se comportarán los límites de ahora en adelante, y TechCrunch señala que no volvió a tocar el tema en su perfil principal, donde siguió promocionando el Grok Bot como herramienta para comprar regalos.", "items": []},
+    {"type": "h2", "text": "Un negocio bajo presión de costos", "items": []},
+    {"type": "p", "text": "Según TechCrunch, SpaceX —que hace poco comenzó a cotizar en bolsa— informó en un reporte financiero del mes pasado que la IA ya representa el 52% de los ingresos de la compañía. Su división rebautizada como \"Super Intelligence\" habría cerrado el periodo con una ganancia de US$ 431 millones, cifra que habría sido mayor de no ser por un costo único de US$ 1.200 millones vinculado a la compra de Cursor, de acuerdo con el medio. El mismo reporte recuerda que Musk había llamado al Grok Bot el producto de crecimiento más rápido que ha visto en su vida.", "items": []},
+    {"type": "p", "text": "TechRadar ubica el episodio dentro de una tendencia más amplia: las acciones de empresas de IA cayeron la semana pasada ante dudas de los inversionistas sobre la rentabilidad del sector, y Google mismo dijo que los resúmenes generados por IA en su buscador afectaron sus ingresos por publicidad. El medio también recuerda que OpenAI redujo límites de uso de forma discreta en las últimas semanas, y señala que quienes pagan suscripciones de herramientas como ChatGPT o Claude Code suelen consumir en tokens mucho más de lo que pagan al mes, una brecha que, según TechRadar, alimenta dudas sobre qué tan sostenibles son esos modelos de negocio.", "items": []},
+    {"type": "p", "text": "Un hilo en Reddit citado por TechRadar describió el recorte del Grok Bot como un \"rug pull\" indirecto, expresión que se usa cuando un beneficio ofrecido con generosidad se retira de golpe. TechRadar escribe que no sería sorpresa que este tope más bajo sea apenas el primero de varios ajustes parecidos en el sector.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "El Grok Bot es el agente de IA vinculado a SpaceX que usan los suscriptores en la red social X; las fuentes no detallan planes ni precios.",
+      "El recorte apareció durante el fin de semana de Halloween (31 de octubre y 1 de noviembre), según TechCrunch.",
+      "Antes del cambio, los usuarios dicen que rara vez llegaban al 100% de su cuota semanal; ahora el tope se alcanza incluso con un uso normal.",
+      "Musk no dijo si los límites más bajos se mantendrán o volverán a cambiar en las próximas semanas.",
+      "A quién afecta: a los usuarios del Grok Bot que dependen de la cuota semanal de uso."
+    ]}
+  ],
+  "image": {
+    "query": "smartphone social media app AI chatbot icon close up",
+    "alt": "Primer plano de una aplicación de chatbot de IA en la pantalla de un smartphone"
+  },
+  "sources": [
+    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/", "title": "Elon Musk throttles Grok Bot limits due to 'unsustainably high' costs"},
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/ai-platforms-assistants/elon-musk-says-grok-bot-was-throttled-because-costs-were-unsustainably-high-as-users-call-the-move-a-rug-pull", "title": "Elon Musk says Grok Bot was throttled as costs were 'unsustainably high'"}
+  ],
+  "status": "draft"
+}
