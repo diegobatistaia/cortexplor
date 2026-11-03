@@ -7,34 +7,100 @@
   "meta_description": "IBM lanzó Granite Switch 4.1.1, que agrega nuevas funciones sin reentrenar el modelo base, según el anuncio oficial de la empresa en Hugging Face. Así funciona.",
   "keyword": "Granite Switch 4.1.1",
   "category": "modelos",
-  "tags": ["ia", "ibm", "modelos", "open-source"],
+  "tags": [
+    "ia",
+    "ibm",
+    "modelos",
+    "open-source"
+  ],
   "fonte_unica": "anuncio_oficial",
   "body": [
-    {"type": "p", "text": "IBM lanzó Granite Switch 4.1.1, una actualización incremental de Granite Switch 4.1, publicado apenas una semana antes, según un anuncio de la empresa publicado en Hugging Face. IBM afirma que la nueva versión es totalmente compatible con la 4.1 y no exige migración para los equipos que ya usan la versión anterior.", "items": []},
-    {"type": "p", "text": "Según la empresa, lo relevante de la actualización está en el formato, no en una función aislada: la arquitectura de Granite Switch es modular, lo que permite agregar capacidades nuevas a un modelo ya publicado sin recalcular todo el modelo base.", "items": []},
-    {"type": "h2", "text": "Un adaptador en lugar de un reentrenamiento", "items": []},
-    {"type": "p", "text": "Actualizar un modelo de lenguaje con una capacidad nueva suele significar reentrenar buena parte de sus parámetros internos, un proceso costoso que puede tardar semanas y que además obliga a quien ya usa el modelo a descargar e implementar toda la versión de nuevo. El enfoque de IBM con Granite Switch es distinto: en lugar de tocar el modelo entero, la empresa conecta módulos más pequeños, llamados adaptadores, a un modelo base que permanece congelado.", "items": []},
-    {"type": "p", "text": "IBM explica que Granite Switch funciona con adaptadores especializados y eficientes en el uso de caché, conectados a un único endpoint del modelo, cada uno encargado de una capacidad específica —como transcribir voz o tomar una decisión— sin alterar el conocimiento general ya entrenado en el núcleo del modelo. Para lanzar la 4.1.1, la empresa dice haber entrenado solo un nuevo modelo de reconocimiento de voz (ASR, que convierte audio en texto) y un adaptador llamado \"Decision\" — el modelo base, según IBM, no necesitó recalcularse.", "items": []},
-    {"type": "p", "text": "La empresa describe el resultado como actualizar el modelo \"como se actualiza un software\": quien lo usa elige qué adaptadores recientes combinar y vuelve a implementar, sin depender de un reentrenamiento completo. En la práctica, eso significa que las mejoras de un lanzamiento —como el nuevo módulo de voz— pueden llegar a quien ya usa la versión anterior sin tener que descargar ni reconfigurar todo el modelo de nuevo.", "items": []},
-    {"type": "h2", "text": "Un SDK de adaptadores en camino", "items": []},
-    {"type": "p", "text": "Según IBM, la empresa está preparando tutoriales y un \"Adapter SDK\" para que desarrolladores y proveedores externos creen sus propios adaptadores sobre Granite Switch, prueben versiones y lancen actualizaciones al ritmo de un software, sin fecha definida todavía para ese kit. La idea, según la empresa, es que este patrón de actualización no se limite a los modelos que la propia IBM publica: otros proveedores podrían componer sus propios adaptadores sobre la misma base, probando y publicando versiones a su propio ritmo, sin depender de un nuevo ciclo de entrenamiento de IBM en cada cambio.", "items": []},
-    {"type": "p", "text": "La actualización también suma, según la empresa, nuevas capacidades multilingües y de puntuación, usadas en una demostración interna llamada \"Speech-to-Decisions\", que combina la transcripción de audio con la toma de decisiones automatizada a cargo del adaptador \"Decision\".", "items": []},
-    {"type": "p", "text": "IBM no precisa en el anuncio qué otros modelos de la línea Granite recibirán el mismo tratamiento modular, ni si el Adapter SDK funcionará con modelos de otras empresas. La única promesa de la compañía sobre el kit es \"más pronto\", sin plazo definido ni lista de funciones adicionales previstas para las próximas versiones de Granite Switch.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Granite Switch 4.1.1 puede probarse en Hugging Face, el canal donde IBM publicó el anuncio.",
-      "La actualización se publicó el 29 de octubre de 2026, una semana después de Granite Switch 4.1.",
-      "IBM no informó precio ni condiciones de licencia en el anuncio.",
-      "Frente a la versión anterior, la 4.1.1 suma un modelo de reconocimiento de voz y un adaptador de decisión, manteniendo intacto el modelo base y la compatibilidad total con la 4.1.",
-      "A quién afecta: desarrolladores y proveedores que construyen aplicaciones sobre Granite Switch."
-    ]}
+    {
+      "type": "p",
+      "text": "IBM lanzó Granite Switch 4.1.1, una actualización incremental de Granite Switch 4.1, publicado apenas una semana antes, según un anuncio de la empresa publicado en Hugging Face. IBM afirma que la nueva versión es totalmente compatible con la 4.1 y no exige migración para los equipos que ya usan la versión anterior.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según la empresa, lo relevante de la actualización está en el formato, no en una función aislada: la arquitectura de Granite Switch es modular, lo que permite agregar capacidades nuevas a un modelo ya publicado sin recalcular todo el modelo base.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Un adaptador en lugar de un reentrenamiento",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Actualizar un modelo de lenguaje con una capacidad nueva suele significar reentrenar buena parte de sus parámetros internos, un proceso costoso que puede tardar semanas y que además obliga a quien ya usa el modelo a descargar e implementar toda la versión de nuevo. El enfoque de IBM con Granite Switch es distinto: en lugar de tocar el modelo entero, la empresa conecta módulos más pequeños, llamados adaptadores, a un modelo base que permanece congelado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM explica que Granite Switch funciona con adaptadores especializados y eficientes en el uso de caché, conectados a un único endpoint del modelo, cada uno encargado de una capacidad específica —como transcribir voz o tomar una decisión— sin alterar el conocimiento general ya entrenado en el núcleo del modelo. Para lanzar la 4.1.1, la empresa dice haber entrenado solo un nuevo modelo de reconocimiento de voz (ASR, que convierte audio en texto) y un adaptador llamado \"Decision\" — el modelo base, según IBM, no necesitó recalcularse.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa describe el resultado como actualizar el modelo \"como se actualiza un software\": quien lo usa elige qué adaptadores recientes combinar y vuelve a implementar, sin depender de un reentrenamiento completo. En la práctica, eso significa que las mejoras de un lanzamiento —como el nuevo módulo de voz— pueden llegar a quien ya usa la versión anterior sin tener que descargar ni reconfigurar todo el modelo de nuevo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Un SDK de adaptadores en camino",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según IBM, la empresa está preparando tutoriales y un \"Adapter SDK\" para que desarrolladores y proveedores externos creen sus propios adaptadores sobre Granite Switch, prueben versiones y lancen actualizaciones al ritmo de un software, sin fecha definida todavía para ese kit. La idea, según la empresa, es que este patrón de actualización no se limite a los modelos que la propia IBM publica: otros proveedores podrían componer sus propios adaptadores sobre la misma base, probando y publicando versiones a su propio ritmo, sin depender de un nuevo ciclo de entrenamiento de IBM en cada cambio.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La actualización también suma, según la empresa, nuevas capacidades multilingües y de puntuación, usadas en una demostración interna llamada \"Speech-to-Decisions\", que combina la transcripción de audio con la toma de decisiones automatizada a cargo del adaptador \"Decision\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM no precisa en el anuncio qué otros modelos de la línea Granite recibirán el mismo tratamiento modular, ni si el Adapter SDK funcionará con modelos de otras empresas. La única promesa de la compañía sobre el kit es \"más pronto\", sin plazo definido ni lista de funciones adicionales previstas para las próximas versiones de Granite Switch.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Granite Switch 4.1.1 puede probarse en Hugging Face, el canal donde IBM publicó el anuncio.",
+        "La actualización se publicó el 29 de octubre de 2026, una semana después de Granite Switch 4.1.",
+        "IBM no informó precio ni condiciones de licencia en el anuncio.",
+        "Frente a la versión anterior, la 4.1.1 suma un modelo de reconocimiento de voz y un adaptador de decisión, manteniendo intacto el modelo base y la compatibilidad total con la 4.1.",
+        "A quién afecta: desarrolladores y proveedores que construyen aplicaciones sobre Granite Switch."
+      ]
+    }
   ],
   "image": {
     "query": "abstract AI neural network modular blocks technology",
-    "alt": "Ilustración abstracta de bloques modulares conectados que representa una actualización de modelo de inteligencia artificial"
+    "alt": "Ilustración abstracta de bloques modulares conectados que representa una actualización de modelo de inteligencia artificial",
+    "path": "/assets/img/ibm-actualiza-granite-switch-sin-reentre-830d3772.jpg",
+    "credit": "and machines / Unsplash",
+    "author": "and machines",
+    "author_url": "https://unsplash.com/@and_machines?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/iridescent-rectangular-prisms-in-grid-2yClsTFXIcE"
   },
   "sources": [
-    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1", "title": "Granite Switch 4.1.1 — Update models like you update software"}
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 — Update models like you update software"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-03T10:51:13+00:00",
+  "updated_at": "2026-11-03T10:51:13+00:00"
 }
