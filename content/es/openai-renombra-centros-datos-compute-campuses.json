@@ -1,0 +1,40 @@
+{
+  "lang": "es",
+  "slug": "openai-renombra-centros-datos-compute-campuses",
+  "story_id": "6c77dd9f7a290834",
+  "title": "OpenAI cambia el nombre de sus centros de datos a 'compute campus'",
+  "dek": "El nuevo término 'compute campus' aparece días antes de las elecciones de mitad de mandato, en un anuncio sobre el programa Grid Protectors, según TechRadar y The Verge.",
+  "meta_description": "OpenAI renombra sus centros de datos como 'compute campus' antes de las elecciones en EE. UU., en medio de críticas por la energía, según TechRadar y The Verge.",
+  "keyword": "compute campus",
+  "category": "politica",
+  "tags": ["ia", "openai", "centros de datos", "energia", "politica"],
+  "body": [
+    {"type": "p", "text": "OpenAI ha empezado a llamar a sus mayores centros de datos 'compute campus', según TechRadar y The Verge. El nuevo término apareció el lunes (2), en un anuncio de la empresa sobre el programa Grid Protectors, un día antes de las elecciones legislativas de mitad de mandato en Estados Unidos, celebradas este martes (3).", "items": []},
+    {"type": "p", "text": "Según The Verge, en el comunicado de unas 900 palabras que presenta Grid Protectors, la expresión 'data center' aparece solo dos veces, frente a numerosas menciones de 'compute campus'. TechRadar cita a Axios, que informó primero del cambio de nombre y lo relacionó con la expectativa de OpenAI de enfrentar un Congreso más hostil si los demócratas recuperan el control de la Cámara de Representantes en esta votación.", "items": []},
+    {"type": "h2", "text": "En qué consiste el programa Grid Protectors", "items": []},
+    {"type": "p", "text": "De acuerdo con The Verge, el programa comienza con una instalación en el condado de Effingham, en Georgia, y busca responder a las quejas sobre la presión que la infraestructura de inteligencia artificial de OpenAI ejerce sobre las redes eléctricas locales, sobre todo durante olas de calor y emergencias. En el comunicado, la empresa promete 'pagar los costos que generamos' y 'ayudar a las comunidades a mantener la luz encendida'.", "items": []},
+    {"type": "p", "text": "El director de asuntos globales de OpenAI, Chris Lehane, dijo a Axios que espera que la inteligencia artificial siga siendo un tema de debate político después de las elecciones de mitad de mandato, según TechRadar. 'Las comunidades deberían exigir responsabilidad a las empresas para que realmente obtengan un beneficio transformador de estos proyectos', afirmó Lehane.", "items": []},
+    {"type": "p", "text": "TechRadar añade que OpenAI ya había dicho, a comienzos de 2026, que se compromete a 'pagar nuestra propia cuenta de energía, para que nuestras operaciones no aumenten los precios de la electricidad' de los residentes. El medio cita un informe de mayo de 2026 según el cual los precios de la energía en Estados Unidos podrían subir entre un 6% y un 29% hacia el final de la década, y menciona que el país ya estudia reabrir centrales nucleares inactivas para cubrir la demanda. Según TechRadar, el proyecto Stargate de OpenAI, que prevé añadir 10 gigavatios de capacidad de cómputo al país para 2029, está a poco menos de la mitad del camino.", "items": []},
+    {"type": "h2", "text": "Las críticas: el nombre no resuelve el problema", "items": []},
+    {"type": "p", "text": "The Verge recogió las críticas al cambio de nombre. Holly Elmore, fundadora y directora ejecutiva del grupo PauseAI US, dijo al medio que el nuevo término 'puede engañar a quien lo escucha una o dos veces', pero que el problema nunca fue la palabra 'data center', sino los grandes proyectos de construcción que han amenazado con dejar a comunidades sin calefacción en invierno. Elmore calificó el anuncio de OpenAI sobre electricidad de 'completamente desconectado de la realidad'.", "items": []},
+    {"type": "p", "text": "Abre' Conner, directora del Centro de Justicia Ambiental y Climática de la NAACP, dijo a The Verge que el cambio de nombre 'no resuelve el problema' y trata una cuestión de salud y medio ambiente como si fuera solo un asunto de relaciones públicas. Según Conner, OpenAI debería cambiar sus prácticas, no el nombre que da a sus instalaciones.", "items": []},
+    {"type": "p", "text": "Elmore también dijo a The Verge que el cambio de nombre parece un intento de OpenAI de igualar a su rival Anthropic, que hizo promesas más amplias sobre sus centros de datos: cubrir en su totalidad el costo de conectar sus instalaciones a las redes eléctricas, invertir en proyectos comunitarios definidos junto a líderes locales, proteger el suministro de agua local y no pedir a funcionarios públicos que firmen acuerdos de confidencialidad. El reportaje señala que esos compromisos aplican tanto a los centros de datos alquilados como a los que Anthropic llegue a construir; hoy la mayor parte de su infraestructura es alquilada, pero su solicitud de salida a bolsa (S-1) indica la intención de construir más instalaciones propias, varias de ellas dependientes de gas.", "items": []},
+    {"type": "p", "text": "OpenAI no respondió a la solicitud de comentarios de The Verge sobre el cambio de nombre, sus motivaciones, ni sobre si busca distanciarse de la controversia en torno a los centros de datos.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "El término 'compute campus' debutó en un anuncio de OpenAI sobre el programa Grid Protectors, publicado el lunes (2), un día antes de las elecciones de mitad de mandato en Estados Unidos.",
+      "El programa comienza con una instalación en el condado de Effingham, en Georgia, orientada a reducir la presión de la infraestructura de IA sobre las redes eléctricas locales.",
+      "OpenAI promete pagar los costos de conexión a la red eléctrica y no trasladar los aumentos de precio de la electricidad a las comunidades vecinas; los críticos dicen que esto no resuelve el impacto ambiental de las instalaciones.",
+      "Su rival Anthropic ya se comprometió a cubrir el 100% de los costos de conexión de sus centros de datos a las redes eléctricas y a proteger el suministro de agua local."
+    ]}
+  ],
+  "image": {
+    "query": "data center server energy infrastructure",
+    "alt": "Filas de servidores dentro de un centro de datos de inteligencia artificial"
+  },
+  "sources": [
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/openai-wants-to-rebrand-data-centers-as-compute-campuses-to-try-and-win-people-over", "title": "OpenAI wants to rebrand data centers as 'compute campuses' to try and win people over"},
+    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses", "title": "OpenAI is quietly renaming data centers 'compute campuses'"}
+  ],
+  "status": "draft"
+}
