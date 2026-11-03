@@ -276,5 +276,67 @@
         }
       ]
     }
+  ],
+  "recent_posts": [
+    {
+      "published_at": "2026-11-03T10:51:12+00:00",
+      "story_id": "6441ecf70f2359ba",
+      "title": "IBM atualiza Granite Switch sem precisar retreinar o modelo",
+      "summary": "Granite Switch 4.1.1 adiciona um modelo de voz e um novo adaptador mantendo o modelo base intacto, segundo a empresa."
+    },
+    {
+      "published_at": "2026-11-03T10:51:12+00:00",
+      "story_id": "a3deca066a13111a",
+      "title": "Musk confirma corte nos limites do Grok Bot por custo alto",
+      "summary": "Usuários notaram o teto semanal de uso esgotar sem motivo; Musk diz que o corte foi proposital, segundo a TechCrunch e a TechRadar."
+    },
+    {
+      "published_at": "2026-11-02T21:46:10+00:00",
+      "story_id": "8abc26658b743a46",
+      "title": "OpenAI vai unificar abas do ChatGPT a partir de dezembro",
+      "summary": "ChatGPT e Codex passam a compartilhar o mesmo limite de uso em tokens quando as abas Chat e Work forem fundidas, segundo nota da OpenAI."
+    },
+    {
+      "published_at": "2026-11-02T17:03:46+00:00",
+      "story_id": "c3be09bbb66c0ea7",
+      "title": "Meta financia pesquisa em saúde com cinco universidades dos EUA",
+      "summary": "A empresa destina US$ 2 milhões a projetos que usam seus modelos abertos em medicina, física, química, biologia, computação e matemática, segundo comunicado da Meta."
+    },
+    {
+      "published_at": "2026-11-02T10:48:17+00:00",
+      "story_id": "f4aac92069150c55",
+      "title": "Google lança Gemini 4 Carbon, modelo voltado à cibersegurança",
+      "summary": "Segundo o Google DeepMind, o modelo mais forte da empresa chega primeiro a um grupo restrito de defensores de segurança cibernética, pelo mesmo preço do Gemini 4 Argon."
+    },
+    {
+      "published_at": "2026-11-02T10:48:17+00:00",
+      "story_id": "6d5e06798854be9f",
+      "title": "Nvidia lança modelo de voz aberto que transcreve 40 idiomas",
+      "summary": "O Nemotron 3.5 Transcribe junta transcrição, identificação de quem fala e tradução em um só modelo, já disponível no Hugging Face, segundo a Nvidia."
+    },
+    {
+      "published_at": "2026-11-01T21:51:15+00:00",
+      "story_id": "9ac59237a9600656",
+      "title": "Meta expande o Muse, seu agente pessoal de IA, para Singapura",
+      "summary": "Com parceiros locais de compras, mercado e viagem, o assistente chega ao país menos de dois meses após o lançamento nos EUA."
+    },
+    {
+      "published_at": "2026-11-01T15:48:07+00:00",
+      "story_id": "1621f02abc58fb49",
+      "title": "Justiça dos EUA mantém ação da NAACP contra data center da xAI",
+      "summary": "Juíza federal rejeitou o pedido da SpaceX para arquivar o processo sobre turbinas a gás sem licença que alimentam o Colossus, perto de Memphis."
+    },
+    {
+      "published_at": "2026-11-01T10:54:18+00:00",
+      "story_id": "426f2805cc939231",
+      "title": "Satélite do Projeto Suncatcher do Google entra em operação no espaço",
+      "summary": "Com chips de IA a bordo, a nave respondeu ao primeiro comando enviado da Terra gerando um haicai, segundo TechCrunch e The Verge."
+    },
+    {
+      "published_at": "2026-11-01T10:54:17+00:00",
+      "story_id": "10e556bcba135e70",
+      "title": "Mistral abre pesos do Large 4, modelo de 1 trilhão de parâmetros",
+      "summary": "Apelidado de Le Chonk, o modelo multimodal chega com licença aberta e, segundo a empresa, ganhos de desempenho em código e segurança desde a pré-visualização."
+    }
   ]
 }
