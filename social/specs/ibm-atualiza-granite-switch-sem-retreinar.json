@@ -1,0 +1,100 @@
+{
+  "slug": "ibm-atualiza-granite-switch-sem-retreinar",
+  "lang": "pt",
+  "date": "03 nov 2026",
+  "no": 74,
+  "category": "Modelos",
+  "kicker": "Modelos · IBM",
+  "headline": "IBM atualiza o Granite Switch sem retreinar",
+  "headline_hl": "sem retreinar",
+  "dek": "A versão nova entra por adaptadores e mantém o modelo base intacto, segundo a IBM.",
+  "image": {
+    "path": "assets/img/ibm-atualiza-granite-switch-sem-retreina-830d3772.jpg",
+    "credit": "and machines / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Sem<br>retreino",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Atualização incremental",
+    "body": [
+      "A IBM lançou o Granite Switch 4.1.1, uma semana depois do 4.1, segundo comunicado no Hugging Face.",
+      "A empresa diz que a versão é totalmente compatível com a anterior e não exige migração (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a IBM, no Hugging Face:",
+    "points": [
+      {
+        "h": "Base",
+        "t": "O modelo base fica congelado e não é recalculado."
+      },
+      {
+        "h": "Módulos",
+        "t": "Cada adaptador traz uma capacidade específica."
+      },
+      {
+        "h": "Cache",
+        "t": "Os adaptadores são eficientes em cache."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O que veio de novo",
+    "body": [
+      "A IBM treinou só um modelo de reconhecimento de fala e um adaptador de decisão (Hugging Face).",
+      "A empresa compara a troca à atualização de um software: o usuário escolhe os adaptadores e reimplanta."
+    ],
+    "stat": {
+      "big": "4.1.1",
+      "cap": "versão compatível com a 4.1, diz a IBM"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Kit",
+        "t": "A IBM prepara um Adapter SDK, sem data definida."
+      },
+      {
+        "h": "Terceiros",
+        "t": "Outros provedores poderiam criar adaptadores."
+      },
+      {
+        "h": "Dúvidas",
+        "t": "Preço e licença não foram informados."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A IBM atualizou o Granite Switch para a versão 4.1.1 sem retreinar o modelo base.",
+    "body": [
+      "Segundo a IBM, no Hugging Face, a arquitetura é modular: capacidades novas entram como adaptadores acoplados a um modelo base congelado. Para a 4.1.1, a empresa treinou só um modelo de reconhecimento de fala e um adaptador de decisão.",
+      "A atualização é compatível com a 4.1 e dispensa migração. A IBM prepara tutoriais e um Adapter SDK para que terceiros criem adaptadores próprios, sem data definida. O comunicado não informa preço nem licença e não diz se o kit funcionará com modelos de outras empresas."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#ibm",
+      "#granite",
+      "#modelosdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a IBM que atualiza o Granite Switch sem retreinar o modelo",
+    "Slide 2: versão 4.1.1 compatível com a 4.1 e sem necessidade de migração",
+    "Slide 3: modelo base congelado e adaptadores com capacidades específicas",
+    "Slide 4: novo modelo de fala e adaptador de decisão, sem recalcular a base",
+    "Slide 5: Adapter SDK a caminho, sem data, e dúvidas sobre preço e licença",
+    "Slide 6: fonte da matéria sobre o Granite Switch 4.1.1: Hugging Face"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "lang": "en",
+  "slug": "ibm-updates-granite-switch-without-retraining",
+  "story_id": "6441ecf70f2359ba",
+  "title": "IBM updates Granite Switch without retraining the base model",
+  "dek": "Granite Switch 4.1.1 adds a speech model and a new adapter while leaving the base model untouched, the company says.",
+  "meta_description": "IBM released Granite Switch 4.1.1, which adds new features without retraining the base model, according to the company's own announcement on Hugging Face.",
+  "keyword": "Granite Switch 4.1.1",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "ibm",
+    "models",
+    "open-source"
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "body": [
+    {
+      "type": "p",
+      "text": "IBM released Granite Switch 4.1.1, an incremental update to Granite Switch 4.1, which came out about a week earlier, according to a company announcement published on Hugging Face. IBM says the new version is fully backward-compatible with 4.1 and requires no migration for teams already running the earlier release.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per the company, the point of the update is the format itself, not any single feature: Granite Switch's architecture is modular, letting IBM add new capabilities to an already-published model without recomputing the entire base model.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An adapter instead of a retrain",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Updating a language model with a new capability usually means retraining a large share of its internal parameters, a costly process that can take weeks and often forces anyone running the model to download and redeploy the whole thing again. IBM's approach with Granite Switch works differently: instead of touching the whole model, the company attaches smaller modules, called adapters, to a base model that stays frozen.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM explains that Granite Switch runs on specialized, cache-efficient adapters attached to a single model endpoint, each one handling a specific capability — like transcribing speech or making a decision — without altering the general knowledge already trained into the core model. To ship 4.1.1, the company says it trained only a new automatic speech recognition (ASR) model, which turns audio into text, and an adapter called \"Decision\" — the base model, per IBM, didn't need to be recomputed.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company describes the result as updating the model \"like you update software\": users compose whichever latest adapters they want and redeploy, instead of waiting on a full retrain. In practice, that means gains from a given release — like the new speech module — can reach anyone already running the prior version without having to download or reconfigure the whole model again.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An adapter SDK is coming",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to IBM, the company is building tutorials and an \"Adapter SDK\" so developers and third-party providers can build their own adapters on top of Granite Switch, test versions and ship updates at software speed — with no release date given for that kit yet. The idea, per the company, is for this update pattern to extend beyond models IBM ships itself: other providers could compose their own adapters on the same base, testing and publishing versions on their own schedule instead of waiting on IBM to run a new training cycle for every change.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The update also adds, per IBM, new multilingual and punctuation capabilities, used in an internal demo called \"Speech-to-Decisions,\" which combines audio transcription with the automated decision-making handled by the \"Decision\" adapter.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM doesn't say in the announcement which other models in the Granite line will get the same modular treatment, or whether the Adapter SDK will work with models from other companies. The company's only promise on the kit is \"more soon,\" with no timeline and no list of additional features planned for future Granite Switch releases. For now, the update is pitched squarely at developers already working with Granite Switch rather than at end users of a consumer chatbot.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Granite Switch 4.1.1 can be tested on Hugging Face, the channel where IBM published the announcement.",
+        "The update was published on Oct. 29, 2026, about a week after Granite Switch 4.1.",
+        "IBM did not disclose pricing or licensing terms in the announcement.",
+        "Compared to the prior version, 4.1.1 adds a speech-recognition model and a decision adapter while keeping the base model untouched and staying fully compatible with 4.1.",
+        "Who's affected: developers and providers building applications on top of Granite Switch, rather than end users of a consumer-facing chatbot."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract AI neural network modular blocks technology",
+    "alt": "Abstract illustration of connected modular blocks representing an AI model update",
+    "path": "/assets/img/ibm-updates-granite-switch-without-retra-830d3772.jpg",
+    "credit": "and machines / Unsplash",
+    "author": "and machines",
+    "author_url": "https://unsplash.com/@and_machines?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/iridescent-rectangular-prisms-in-grid-2yClsTFXIcE"
+  },
+  "sources": [
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 — Update models like you update software"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-03T10:51:13+00:00",
+  "updated_at": "2026-11-03T10:51:13+00:00"
+}

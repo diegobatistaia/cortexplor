@@ -1,0 +1,11 @@
+IBM updated Granite Switch to version 4.1.1 without retraining the base model.
+
+Per IBM, on Hugging Face, the architecture is modular: new capabilities arrive as adapters attached to a frozen base model. For 4.1.1, the company trained only a speech recognition model and a decision adapter.
+
+The update is compatible with 4.1 and needs no migration. IBM is preparing tutorials and an Adapter SDK so third parties can build their own adapters, with no date set. The statement discloses no pricing or license and does not say whether the kit will work with other companies' models.
+
+Would modular AI updates change how you use models?
+
+Full story: link in bio.
+
+#cortexplor #ibm #granite #aimodels
