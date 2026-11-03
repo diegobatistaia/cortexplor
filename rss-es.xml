@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 03 Nov 2026 10:51:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:53:37 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Musk se burla de Altman por llamar 'terrible' a la RAM</title>
+      <link>https://cortexplor.com/es/musk-se-burla-de-altman-por-ram/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/musk-se-burla-de-altman-por-ram/</guid>
+      <description>Elon Musk se burla de Sam Altman por decir que la RAM en PC personales es un desperdicio, en medio de una crisis de precios, según TechRadar y Computer Hoy.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Tue, 03 Nov 2026 21:53:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI cambia el nombre de sus centros de datos a 'compute campus'</title>
+      <link>https://cortexplor.com/es/openai-renombra-centros-datos-compute-campuses/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/openai-renombra-centros-datos-compute-campuses/</guid>
+      <description>OpenAI renombra sus centros de datos como 'compute campus' antes de las elecciones en EE. UU., en medio de críticas por la energía, según TechRadar y The Verge.</description>
+      <category>Regulación</category>
+      <pubDate>Tue, 03 Nov 2026 21:53:35 +0000</pubDate>
+    </item>
     <item>
       <title>IBM actualiza Granite Switch sin reentrenar el modelo base</title>
       <link>https://cortexplor.com/es/ibm-actualiza-granite-switch-sin-reentrenar/</link>
@@ -230,22 +246,6 @@
       <description>Meta libera los pesos de Muse Spark Open, su modelo de 816.000 millones de parámetros para programación y agentes, ya disponible en Together AI y AWS.</description>
       <category>Modelos y Lanzamientos</category>
       <pubDate>Fri, 16 Oct 2026 10:45:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nvidia lanza el Nemotron 3.5 Super VL y dos modelos Bolt abiertos</title>
-      <link>https://cortexplor.com/es/nvidia-lanza-nemotron-3-5-super-vl-bolt/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/nvidia-lanza-nemotron-3-5-super-vl-bolt/</guid>
-      <description>Nvidia lanza el Nemotron 3.5 Super VL y dos modelos Bolt, de pesos abiertos y pensados para ejecutar agentes de IA, según la empresa, SiliconANGLE y ZDNet.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Thu, 15 Oct 2026 21:48:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentes de IA ya son mayoría del uso corporativo de OpenAI en la UE</title>
-      <link>https://cortexplor.com/es/openai-agentes-ia-mayoria-tokens-ue/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/openai-agentes-ia-mayoria-tokens-ue/</guid>
-      <description>OpenAI afirma que los agentes de IA ya superan la mitad del uso corporativo de empresas en la Unión Europea, pero el bloque sigue detrás de la frontera global.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Thu, 15 Oct 2026 15:42:36 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,34 +7,110 @@
   "meta_description": "Elon Musk se burla de Sam Altman por decir que la RAM en PC personales es un desperdicio, en medio de una crisis de precios, según TechRadar y Computer Hoy.",
   "keyword": "memoria RAM",
   "category": "mercado",
-  "tags": ["ia", "openai", "xai", "ram", "mercado"],
+  "tags": [
+    "ia",
+    "openai",
+    "xai",
+    "ram",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Elon Musk se burló de Sam Altman este martes (3), después de que el CEO de OpenAI dijera, en una entrevista en el canal de YouTube Cheeky Pint, que es 'bastante terrible' que la gente tenga memoria RAM en sus ordenadores personales si apenas la usa un 5% del tiempo, según TechRadar y Computer Hoy.", "items": []},
-    {"type": "p", "text": "'Desde el punto de vista de la distribución global, es bastante terrible que todo el mundo tenga una gran parte de la limitada memoria DRAM del mundo en su propio ordenador y la use solo un 5% del tiempo', dijo Altman, según ambas publicaciones. Para él, sería más eficiente concentrar esa memoria en centros de datos y ofrecerla desde la nube, en un momento en que el sector enfrenta escasez del componente.", "items": []},
-    {"type": "h2", "text": "La respuesta de Musk", "items": []},
-    {"type": "p", "text": "Musk, dueño de la red social X, respondió con un meme publicado en la propia plataforma, acompañado del mensaje '¡La gente se merece tener su RAM!', según Computer Hoy y TechRadar. TechRadar describe el meme como una escena de la película Malditos Bastardos, con el personaje interpretado por Christoph Waltz buscando barras de memoria DRAM escondidas.", "items": []},
-    {"type": "h2", "text": "Por qué falta memoria RAM", "items": []},
-    {"type": "p", "text": "El cruce ocurre en medio de una crisis de precios de memoria RAM. Según Computer Hoy, Samsung y SK Hynix ya afirmaron que los problemas de suministro podrían continuar durante 2027 y más allá, y Lenovo advirtió que no espera que los precios vuelvan pronto a los niveles previos a 2026. TechRadar cita declaraciones similares: el presidente de Intel, Lip-Bu Tan, dijo que el hardware de IA seguirá escaso durante los próximos dos o tres años, y el CEO de Dell, Michael Dell, afirmó que la escasez de memoria empeorará a lo largo de 2027.", "items": []},
-    {"type": "p", "text": "De acuerdo con Computer Hoy, los fabricantes de chips han priorizado la producción de memoria para centros de datos de IA, que pagan más, por encima de la RAM que se usa en ordenadores comunes, y la propia OpenAI está entre las empresas que compiten por ese suministro. TechRadar añade que Samsung y SK Hynix tienen hoy menos de diez días de inventario de memoria disponible.", "items": []},
-    {"type": "p", "text": "TechRadar informa que, según indagó, Altman se reunió recientemente con unos 50 ejecutivos sénior de Samsung en Corea del Sur, en un intento de asegurar más hardware para que OpenAI amplíe su capacidad de inteligencia artificial.", "items": []},
-    {"type": "p", "text": "Según Computer Hoy, Samsung ya confirmó que toda su capacidad de suministro de HBM4, la memoria usada en IA, está reservada por clientes hasta 2027. La empresa también afirma que comenzará la producción en masa de la siguiente generación, HBM4E, en la primera mitad de 2027, con un aumento de la producción en la segunda mitad del año.", "items": []},
-    {"type": "h2", "text": "Una rivalidad de larga data", "items": []},
-    {"type": "p", "text": "Según Computer Hoy, la rivalidad entre Musk y Altman se remonta a la fundación de OpenAI, que ambos cofundaron hace más de una década. Musk dejó la empresa en 2018 y Altman asumió como CEO. Tras el lanzamiento de ChatGPT en 2022, Musk fundó xAI para competir con OpenAI, aunque, según el medio, la nueva empresa todavía está lejos de igualar el impacto de ChatGPT.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "El comentario de Altman se dio en una entrevista en el canal de YouTube Cheeky Pint; la respuesta de Musk en X se publicó este martes (3).",
-      "El episodio expone la disputa de las empresas de IA, incluidas la propia OpenAI y la xAI de Musk, por el mismo tipo de memoria que hoy escasea en los PC domésticos.",
-      "Samsung, SK Hynix y Lenovo prevén que la escasez de memoria continúe durante 2027, según Computer Hoy y TechRadar.",
-      "Samsung y SK Hynix tienen hoy menos de diez días de inventario de memoria disponible, según TechRadar."
-    ]}
+    {
+      "type": "p",
+      "text": "Elon Musk se burló de Sam Altman este martes (3), después de que el CEO de OpenAI dijera, en una entrevista en el canal de YouTube Cheeky Pint, que es 'bastante terrible' que la gente tenga memoria RAM en sus ordenadores personales si apenas la usa un 5% del tiempo, según TechRadar y Computer Hoy.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "'Desde el punto de vista de la distribución global, es bastante terrible que todo el mundo tenga una gran parte de la limitada memoria DRAM del mundo en su propio ordenador y la use solo un 5% del tiempo', dijo Altman, según ambas publicaciones. Para él, sería más eficiente concentrar esa memoria en centros de datos y ofrecerla desde la nube, en un momento en que el sector enfrenta escasez del componente.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "La respuesta de Musk",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Musk, dueño de la red social X, respondió con un meme publicado en la propia plataforma, acompañado del mensaje '¡La gente se merece tener su RAM!', según Computer Hoy y TechRadar. TechRadar describe el meme como una escena de la película Malditos Bastardos, con el personaje interpretado por Christoph Waltz buscando barras de memoria DRAM escondidas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por qué falta memoria RAM",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El cruce ocurre en medio de una crisis de precios de memoria RAM. Según Computer Hoy, Samsung y SK Hynix ya afirmaron que los problemas de suministro podrían continuar durante 2027 y más allá, y Lenovo advirtió que no espera que los precios vuelvan pronto a los niveles previos a 2026. TechRadar cita declaraciones similares: el presidente de Intel, Lip-Bu Tan, dijo que el hardware de IA seguirá escaso durante los próximos dos o tres años, y el CEO de Dell, Michael Dell, afirmó que la escasez de memoria empeorará a lo largo de 2027.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acuerdo con Computer Hoy, los fabricantes de chips han priorizado la producción de memoria para centros de datos de IA, que pagan más, por encima de la RAM que se usa en ordenadores comunes, y la propia OpenAI está entre las empresas que compiten por ese suministro. TechRadar añade que Samsung y SK Hynix tienen hoy menos de diez días de inventario de memoria disponible.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar informa que, según indagó, Altman se reunió recientemente con unos 50 ejecutivos sénior de Samsung en Corea del Sur, en un intento de asegurar más hardware para que OpenAI amplíe su capacidad de inteligencia artificial.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Computer Hoy, Samsung ya confirmó que toda su capacidad de suministro de HBM4, la memoria usada en IA, está reservada por clientes hasta 2027. La empresa también afirma que comenzará la producción en masa de la siguiente generación, HBM4E, en la primera mitad de 2027, con un aumento de la producción en la segunda mitad del año.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Una rivalidad de larga data",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Computer Hoy, la rivalidad entre Musk y Altman se remonta a la fundación de OpenAI, que ambos cofundaron hace más de una década. Musk dejó la empresa en 2018 y Altman asumió como CEO. Tras el lanzamiento de ChatGPT en 2022, Musk fundó xAI para competir con OpenAI, aunque, según el medio, la nueva empresa todavía está lejos de igualar el impacto de ChatGPT.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "El comentario de Altman se dio en una entrevista en el canal de YouTube Cheeky Pint; la respuesta de Musk en X se publicó este martes (3).",
+        "El episodio expone la disputa de las empresas de IA, incluidas la propia OpenAI y la xAI de Musk, por el mismo tipo de memoria que hoy escasea en los PC domésticos.",
+        "Samsung, SK Hynix y Lenovo prevén que la escasez de memoria continúe durante 2027, según Computer Hoy y TechRadar.",
+        "Samsung y SK Hynix tienen hoy menos de diez días de inventario de memoria disponible, según TechRadar."
+      ]
+    }
   ],
   "image": {
     "query": "computer memory RAM chip technology",
-    "alt": "Módulos de memoria RAM junto a un procesador de computadora"
+    "alt": "Módulos de memoria RAM junto a un procesador de computadora",
+    "path": "/assets/img/musk-se-burla-de-altman-por-ram-dad32960.jpg",
+    "credit": "Franck V. / Unsplash",
+    "author": "Franck V.",
+    "author_url": "https://unsplash.com/@possessedphotography?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/sodimm-ram-stick-nuc3NFB_6po"
   },
   "sources": [
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/the-people-deserve-to-have-their-ram-too-elon-musk-mocks-openai-sam-altmans-claim-that-people-owning-home-pcs-with-ram-is-terrible", "title": "'The people deserve to have their RAM too!' Elon Musk mocks OpenAI Sam Altman's claim that people owning home PCs with RAM is 'terrible'"},
-    {"name": "Computer Hoy", "owner": "henneo", "url": "https://computerhoy.20minutos.es/tecnologia/elon-musk-se-rie-sam-altman-por-afirmar-que-es-terrible-que-tu-pc-casa-tenga-memoria-ram-gente-se-merece-tener-su-ram_7056410_0.html", "title": "Elon Musk se ríe de Sam Altman por afirmar que es terrible que tu PC de casa tenga memoria RAM: \"¡La gente se merece tener su RAM!\""}
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/the-people-deserve-to-have-their-ram-too-elon-musk-mocks-openai-sam-altmans-claim-that-people-owning-home-pcs-with-ram-is-terrible",
+      "title": "'The people deserve to have their RAM too!' Elon Musk mocks OpenAI Sam Altman's claim that people owning home PCs with RAM is 'terrible'"
+    },
+    {
+      "name": "Computer Hoy",
+      "owner": "henneo",
+      "url": "https://computerhoy.20minutos.es/tecnologia/elon-musk-se-rie-sam-altman-por-afirmar-que-es-terrible-que-tu-pc-casa-tenga-memoria-ram-gente-se-merece-tener-su-ram_7056410_0.html",
+      "title": "Elon Musk se ríe de Sam Altman por afirmar que es terrible que tu PC de casa tenga memoria RAM: \"¡La gente se merece tener su RAM!\""
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-03T21:53:35+00:00",
+  "updated_at": "2026-11-03T21:53:35+00:00"
 }
