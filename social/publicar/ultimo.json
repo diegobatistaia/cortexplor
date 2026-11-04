@@ -3,34 +3,33 @@
     "acao": "publicar",
     "itens": [
       {
-        "slug": "musk-reduz-limites-grok-bot-custo-alto",
+        "slug": "musk-ironiza-altman-sobre-memoria-ram",
         "lang": "pt"
       },
       {
-        "slug": "musk-mocks-altman-over-home-pc-ram",
+        "slug": "openai-rebrands-data-centers-compute-campuses",
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-11-03T19:58:37-03:00"
+    "pedido_em": "2026-11-03T20:57:55-03:00"
   },
-  "em": "2026-11-03T19:59:28-03:00",
-  "ok": true,
+  "em": "2026-11-03T20:58:47-03:00",
+  "ok": false,
   "itens": [
     {
-      "slug": "musk-reduz-limites-grok-bot-custo-alto",
+      "slug": "musk-ironiza-altman-sobre-memoria-ram",
       "lang": "pt",
       "conta": "cortexplor",
       "ok": true,
-      "media_id": "17916925452543227",
-      "permalink": "https://www.instagram.com/p/DfTAuw_DzhS/"
+      "media_id": "18082907981381206",
+      "permalink": "https://www.instagram.com/p/DfTHhNvDmPO/"
     },
     {
-      "slug": "musk-mocks-altman-over-home-pc-ram",
+      "slug": "openai-rebrands-data-centers-compute-campuses",
       "lang": "en",
       "conta": "cortexplor.en",
-      "ok": true,
-      "media_id": "17938082208400333",
-      "permalink": "https://www.instagram.com/p/DfTA0J9jqiQ/"
+      "ok": false,
+      "erro": "HTTP 400 em 17841420475465882/media_publish: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"A0oWIgDkRiRcP3s9yXhGRu2\"}}"
     }
   ]
 }
