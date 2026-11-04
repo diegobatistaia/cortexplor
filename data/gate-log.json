@@ -2764,5 +2764,47 @@
     "lang": "es",
     "passed": true,
     "reasons": []
+  },
+  {
+    "at": "2026-11-04T10:53:54+00:00",
+    "id": "chatgpt-atinge-20-buscas-google",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-04T10:53:54+00:00",
+    "id": "google-desliga-busca-escolas-ia",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-04T10:53:55+00:00",
+    "id": "chatgpt-reaches-20-percent-google-search",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-04T10:53:55+00:00",
+    "id": "google-turns-off-search-schools-ai",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-04T10:53:55+00:00",
+    "id": "chatgpt-alcanza-20-busquedas-google",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-04T10:53:55+00:00",
+    "id": "google-apaga-busqueda-escuelas-ia",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
   }
 ]

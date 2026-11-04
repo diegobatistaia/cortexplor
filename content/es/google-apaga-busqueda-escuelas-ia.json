@@ -93,7 +93,13 @@
   ],
   "image": {
     "query": "school classroom student laptop search engine",
-    "alt": "Estudiante usando una laptop en un aula con un motor de búsqueda en pantalla"
+    "alt": "Estudiante usando una laptop en un aula con un motor de búsqueda en pantalla",
+    "path": "/assets/img/google-apaga-busqueda-escuelas-ia-cedea022.jpg",
+    "credit": "Thomas Park / Unsplash",
+    "author": "Thomas Park",
+    "author_url": "https://unsplash.com/@thomascpark?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-VdPTlyp60ys"
   },
   "sources": [
     {
@@ -115,5 +121,7 @@
       "title": "Google says there’s no way to use Search without using artificial intelligence"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-04T10:53:55+00:00",
+  "updated_at": "2026-11-04T10:53:55+00:00"
 }
