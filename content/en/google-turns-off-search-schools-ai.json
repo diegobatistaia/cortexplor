@@ -1,0 +1,119 @@
+{
+  "lang": "en",
+  "slug": "google-turns-off-search-schools-ai",
+  "story_id": "cc2ed3a937ddf47e",
+  "title": "Google shuts off Search in schools that block its AI tools",
+  "dek": "Schools that disable Gemini and related products also lose access to Google Search, the company says.",
+  "meta_description": "Google confirms that US schools blocking Gemini and other AI tools will also lose all access to Google Search, according to The Verge and SiliconANGLE.",
+  "keyword": "Google Search schools AI",
+  "category": "politica",
+  "tags": [
+    "ai",
+    "google",
+    "education",
+    "policy"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google confirmed this week that any K-12 school in the United States that blocks its artificial intelligence tools will also lose access to Google Search. The policy, announced Tuesday, covers Gemini, Gemini Notebook, Gemini in Classroom and Search itself, according to The Verge and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Under the new approach, all four products are switched off by default for student accounts. They only come back on if school administrators turn them on manually, and there is no option to disable just the AI features while keeping Search running, the two outlets report.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Search and AI are deeply integrated,\" Google's vice president of education, Chris Phillips, told The New York Times, in comments cited by both The Verge and SiliconANGLE. He said a school that bans Google's AI features \"will not have access to search, and they'll see a message from their school that indicates it's not available.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The change was part of a wider batch of new AI products for classrooms that Google unveiled the same day, the two outlets say. It follows weeks of lawmakers questioning the company over the risks of AI tools for children in schools, and comes months after Google turned Gemini on by default inside Google Classroom, an app The Verge says is used by more than 150 million teachers and students.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Lawmakers push back",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The announcement drew immediate criticism. Sen. Bernie Sanders (D-VT) called it \"extortion.\" New York City Mayor Zohran Mamdani wrote that \"no corporation should have the power to dictate how we teach our children\" and that public schools exist \"to serve students, not to grow the profit margins of Big Tech.\" Both quotes appear in The Verge's and SiliconANGLE's reporting.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Google's defense",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google says the update gives schools \"more choice, not less,\" since administrators can still toggle each product individually — just not Search alone. The company also points to Guided Learning, a feature meant to walk a student through a problem instead of handing over the answer. It is being folded into AI Overviews in Search and will be tested in select US schools this month, according to both reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google frames the shift as a response to concerns that students use AI to find \"shortcuts\" instead of working through problems themselves, the company says. That concern follows reports of declining test scores and other effects tied to heavy AI use among students, The Verge notes, though neither outlet reports Google directly addressing why disabling its AI assistant also disables Search.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Lina Khan, the former chair of the US Federal Trade Commission, said Google was trying to \"coerce schools into adopting AI\" by leveraging its hold on Search, according to SiliconANGLE and The Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Guardian also quotes Lila Byock, founder of the advocacy group Schools Beyond Screens, who called the announcement a \"hostile ultimatum\" and said \"this kind of bullying has no place in our schools.\" She argued that educational value, not shareholder value, should decide which products students use.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Across the reporting, Google holds to the same line: the update expands schools' control over the technology, the company says, rather than limiting it.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who is affected: K-12 student accounts in the US tied to Google Workspace for Education.",
+        "Since when: Google announced the change on Tuesday, November 3.",
+        "What changes: schools can no longer turn off Gemini alone and keep Search running — both are tied together now.",
+        "Who is pushing back: Sen. Bernie Sanders and NYC Mayor Zohran Mamdani have both criticized the policy as a misuse of market power.",
+        "What Google offers in return: Guided Learning, a feature that coaches students through problems instead of giving direct answers, now being tested in select US schools."
+      ]
+    }
+  ],
+  "image": {
+    "query": "school classroom student laptop search engine",
+    "alt": "Student using a laptop in a classroom with a search engine on screen"
+  },
+  "sources": [
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "title": "Google is entirely disabling Search in schools that don’t want AI"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/03/google-offers-tepid-response-to-accusations-it-would-hold-search-hostage-if-schools-restrict-ai-tools/",
+      "title": "Google offers tepid response to accusations it would hold Search hostage if schools restrict AI tools"
+    },
+    {
+      "name": "The Guardian",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
+      "title": "Google says there’s no way to use Search without using artificial intelligence"
+    }
+  ],
+  "status": "draft"
+}
