@@ -1,0 +1,102 @@
+{
+  "slug": "openai-compra-pierre-computer-para-o-codex",
+  "lang": "pt",
+  "date": "04 nov 2026",
+  "no": 81,
+  "category": "Mercado",
+  "kicker": "Mercado · OpenAI",
+  "headline": "OpenAI compra a Pierre Computer para o Codex",
+  "headline_hl": "Pierre Computer",
+  "dek": "A startup guarda código para agentes de IA, segundo a SiliconANGLE e a Tecmundo.",
+  "image": {
+    "path": "assets/img/openai-compra-pierre-computer-para-o-cod-95737691.jpg",
+    "credit": "Mohammad Rahmani / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Compra<br>da Pierre",
+  "sources": [
+    "OpenAI",
+    "Tecmundo",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Negócio anunciado",
+    "body": [
+      "A OpenAI anunciou a compra da Pierre Computer Company, startup de ferramentas para desenvolvedores, segundo a OpenAI e a SiliconANGLE.",
+      "O valor não foi revelado e o negócio ainda não foi concluído, diz a Tecmundo."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que a Pierre faz",
+    "body": "Segundo a SiliconANGLE:",
+    "points": [
+      {
+        "h": "Storage",
+        "t": "Armazena código voltado a agentes de IA."
+      },
+      {
+        "h": "Trees",
+        "t": "Biblioteca aberta da barra lateral de arquivos."
+      },
+      {
+        "h": "Diffs",
+        "t": "Biblioteca aberta que mostra o que mudou no código."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Menos GitHub",
+    "body": [
+      "A compra reduz a dependência do GitHub, da Microsoft, segundo a Tecmundo e a SiliconANGLE.",
+      "A Pierre diz ter ajudado a Lovable a cortar o tempo de recuperação de código (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "70%",
+      "cap": "menos tempo de recuperação, diz a SiliconANGLE"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Código",
+        "t": "Trees e Diffs seguem abertas (OpenAI)."
+      },
+      {
+        "h": "Codex",
+        "t": "Integração do storage prevista para 2027 (Tecmundo)."
+      },
+      {
+        "h": "Rivais",
+        "t": "Claude Code e Cursor disputam o mercado."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI anunciou a compra da Pierre Computer, startup de armazenamento de código para agentes de IA.",
+    "body": [
+      "Segundo a OpenAI e a SiliconANGLE, o serviço de armazenamento da Pierre será integrado ao Codex e as bibliotecas abertas Trees e Diffs seguem sob licença aberta. A Tecmundo informa que o preço do negócio segue em sigilo e que a transação ainda está em andamento.",
+      "A Tecmundo e a SiliconANGLE veem a compra como forma de a OpenAI depender menos do GitHub, da Microsoft. A integração do armazenamento está prevista para 2027, e a compra ainda não traz recurso novo para quem usa o Codex."
+    ],
+    "cta_variant": "A",
+    "cta": "A OpenAI controlar todo o código dos agentes é bom ou arriscado?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#codex",
+      "#agentesdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a OpenAI que compra a Pierre Computer para o Codex",
+    "Slide 2: compra anunciada sem valor revelado e ainda não concluída",
+    "Slide 3: armazenamento de código e bibliotecas abertas Trees e Diffs",
+    "Slide 4: compra reduz dependência do GitHub e a Pierre cita ganho com a Lovable",
+    "Slide 5: bibliotecas seguem abertas e a integração está prevista para 2027",
+    "Slide 6: fontes da matéria sobre a compra da Pierre: OpenAI, Tecmundo e SiliconANGLE"
+  ]
+}

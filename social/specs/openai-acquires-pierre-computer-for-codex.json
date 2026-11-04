@@ -1,0 +1,102 @@
+{
+  "slug": "openai-acquires-pierre-computer-for-codex",
+  "lang": "en",
+  "date": "04 Nov 2026",
+  "no": 77,
+  "category": "Market",
+  "kicker": "Market · OpenAI",
+  "headline": "OpenAI acquires Pierre Computer for Codex",
+  "headline_hl": "Pierre Computer",
+  "dek": "The startup stores code for AI agents, per SiliconANGLE and Tecmundo.",
+  "image": {
+    "path": "assets/img/openai-acquires-pierre-computer-for-code-95737691.jpg",
+    "credit": "Mohammad Rahmani / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Pierre<br>acquired",
+  "sources": [
+    "OpenAI",
+    "Tecmundo",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Deal announced",
+    "body": [
+      "OpenAI announced it is acquiring Pierre Computer Company, a developer tools startup, per OpenAI and SiliconANGLE.",
+      "The price was not disclosed and the deal is not yet closed, says Tecmundo."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What Pierre does",
+    "body": "Per SiliconANGLE:",
+    "points": [
+      {
+        "h": "Storage",
+        "t": "Code storage built for AI agents."
+      },
+      {
+        "h": "Trees",
+        "t": "Open library for the file sidebar."
+      },
+      {
+        "h": "Diffs",
+        "t": "Open library showing what changed in code."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Less GitHub",
+    "body": [
+      "The deal cuts reliance on Microsoft's GitHub, per Tecmundo and SiliconANGLE.",
+      "Pierre says it helped Lovable cut code retrieval time (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "70%",
+      "cap": "less retrieval time, says SiliconANGLE"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Code",
+        "t": "Trees and Diffs stay open source (OpenAI)."
+      },
+      {
+        "h": "Codex",
+        "t": "Storage integration expected in 2027 (Tecmundo)."
+      },
+      {
+        "h": "Rivals",
+        "t": "Claude Code and Cursor compete here."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI announced it is acquiring Pierre Computer, a code storage startup for AI agents.",
+    "body": [
+      "Per OpenAI and SiliconANGLE, Pierre's storage service will be built into Codex while the Trees and Diffs libraries stay open source. Tecmundo reports that the price is still undisclosed and that the transaction remains in progress, with no closing date given by either company.",
+      "Tecmundo and SiliconANGLE read the deal as a way for OpenAI to rely less on Microsoft's GitHub. The storage integration is expected in 2027, and the deal adds no new feature for Codex users yet."
+    ],
+    "cta_variant": "A",
+    "cta": "Is OpenAI owning the whole agent code stack a good thing or a risk?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#codex",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about OpenAI acquiring Pierre Computer for Codex",
+    "Slide 2: deal announced with no price disclosed and not yet closed",
+    "Slide 3: code storage plus the open Trees and Diffs libraries",
+    "Slide 4: deal cuts reliance on GitHub and Pierre cites a Lovable gain",
+    "Slide 5: libraries stay open and integration is expected in 2027",
+    "Slide 6: sources for the Pierre acquisition story: OpenAI, Tecmundo and SiliconANGLE"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "lang": "en",
+  "slug": "openai-acquires-pierre-computer-for-codex",
+  "story_id": "00295b16698237f8",
+  "title": "OpenAI Acquires Developer Startup Pierre Computer for Codex",
+  "dek": "The deal folds Pierre's code-storage technology into OpenAI's Codex tool and is widely read as a move to cut reliance on Microsoft's GitHub.",
+  "meta_description": "OpenAI is buying developer tooling startup Pierre Computer to feed its Codex tool; the deal's terms were not disclosed, according to SiliconANGLE and Tecmundo.",
+  "keyword": "OpenAI acquires Pierre Computer",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "openai",
+    "codex",
+    "github",
+    "market"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI announced plans to acquire Pierre Computer Company, a developer tooling startup founded in 2024, according to the company's own statement, as reported by SiliconANGLE and Brazil's Tecmundo/Estadão. The terms of the deal were not disclosed.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Pierre runs a code-storage service built for AI coding agents, along with open-source libraries called Trees and Diffs that already power parts of the interface in Codex, OpenAI's programming tool, SiliconANGLE reported. OpenAI said it will fold Pierre's storage service into Codex and keep the Trees and Diffs libraries open source after the deal closes, according to both SiliconANGLE and Tecmundo/Estadão.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE explained that large software projects can contain hundreds of code files organized across dozens of folders, and that many programming tools include a sidebar meant to help developers navigate them — the exact problem Trees was built to solve before it was folded into Codex. The same outlet reported that Trees adds a search feature and drag-and-drop controls for moving subfolders to that sidebar, while also flagging files that were recently added or updated. Diffs, the other library, shows line by line what changed in a code file after an edit, and can display those changes either in a separate section of the interface or inline, according to SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Neither OpenAI nor Pierre said when the transaction is expected to close. Both SiliconANGLE and Tecmundo/Estadão describe the deal as still in progress, not yet finalized. The two outlets also agree that the Pierre deal and the Pando rollout both sit within the same push: building more of the infrastructure behind Codex in-house instead of relying on outside services.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tecmundo/Estadão reports a clear split in roles going forward: Pierre's Code Storage technology will operate at the infrastructure layer, handling the storing, reviewing and serving of code, while Codex keeps handling the actual development work.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Less reliance on GitHub",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The acquisition is widely read as an attempt by OpenAI to reduce its dependence on GitHub, the code-hosting service owned by Microsoft, according to both SiliconANGLE and Tecmundo/Estadão. The two companies already had a technology-sharing partnership before the acquisition was announced.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The move comes days after OpenAI unveiled Pando, an internal system for organizing Git repositories that the company says cuts the time its own coding agents need to create and read files, as reported by both outlets.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE also reported that OpenAI says Pierre's team will, in the longer term, help the company ship new products and platforms, with an emphasis on software that optimizes coding agents and streamlines their work with Git, the version-control tool OpenAI uses extensively in-house.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tecmundo/Estadão notes that control over this chain, from code storage to the programming tool itself, is seen as strategic in a coding-agent market that already includes rivals such as Anthropic's Claude Code and Cursor, the latter integrated with xAI's Grok.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE reported that Pierre itself claims to have helped generative AI startup Lovable cut code retrieval time by about 70% using its storage service. Tecmundo/Estadão reported that the startup currently employs about 15 developers. SiliconANGLE also said Trees' feature for flagging recently changed files helps developers figure out where to start when investigating a problem, such as an outage.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "The Pierre acquisition does not add any new feature for current Codex users yet; integration of the code-storage service is planned for 2027, according to Tecmundo/Estadão.",
+        "The open-source Trees and Diffs libraries, already used in Codex's interface, remain available under an open license, according to OpenAI and SiliconANGLE.",
+        "The price OpenAI is paying for Pierre has not been disclosed.",
+        "The deal adds to OpenAI's push to rely less on Microsoft's GitHub for storing and organizing code generated by AI agents."
+      ]
+    }
+  ],
+  "image": {
+    "query": "software code repository developer tools screen",
+    "alt": "Computer screen showing lines of source code inside a programming editor",
+    "path": "/assets/img/openai-acquires-pierre-computer-for-code-95737691.jpg",
+    "credit": "Mohammad Rahmani / Unsplash",
+    "author": "Mohammad Rahmani",
+    "author_url": "https://unsplash.com/@afgprogrammer?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/laptop-screen-displaying-colorful-code-8qEB0fTe9Vw"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc."
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/openai-encaminha-compra-da-pierre-computer-startup-rival-do-github/",
+      "title": "OpenAI encaminha compra da Pierre Computer, startup rival do GitHub"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/",
+      "title": "OpenAI to acquire developer tooling startup Pierre Computer"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-04T21:54:31+00:00",
+  "updated_at": "2026-11-04T21:54:31+00:00"
+}
