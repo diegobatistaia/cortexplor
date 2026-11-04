@@ -1,5 +1,14 @@
 {
-  "acao": "conferir",
-  "lang": "en",
-  "pedido_em": "2026-11-03T21:00:53-03:00"
+  "acao": "publicar",
+  "itens": [
+    {
+      "slug": "openai-renomeia-data-centers-compute-campuses",
+      "lang": "pt"
+    },
+    {
+      "slug": "openai-rebrands-data-centers-compute-campuses",
+      "lang": "en"
+    }
+  ],
+  "pedido_em": "2026-11-04T08:57:40-03:00"
 }
