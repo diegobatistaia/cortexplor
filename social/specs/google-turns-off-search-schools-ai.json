@@ -1,0 +1,102 @@
+{
+  "slug": "google-turns-off-search-schools-ai",
+  "lang": "en",
+  "date": "04 Nov 2026",
+  "no": 76,
+  "category": "Policy",
+  "kicker": "Policy · Google",
+  "headline": "Google ties Search and AI together in schools",
+  "headline_hl": "Search and AI",
+  "dek": "Schools that block AI lose Search on student accounts, per The Verge.",
+  "image": {
+    "path": "assets/img/google-turns-off-search-schools-ai-cedea022.jpg",
+    "credit": "Thomas Park / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Search<br>turned off",
+  "sources": [
+    "The Verge",
+    "SiliconANGLE",
+    "The Guardian"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What changed",
+    "body": [
+      "US schools that restrict Google's AI also lose Search on K-12 student accounts, per The Verge and SiliconANGLE.",
+      "There is no option to turn off only the AI and keep Search."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per The Verge:",
+    "points": [
+      {
+        "h": "Default",
+        "t": "Gemini and Search are off on those accounts."
+      },
+      {
+        "h": "Turn on",
+        "t": "School admins re-enable them manually."
+      },
+      {
+        "h": "Notice",
+        "t": "Students see a service unavailable message."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Criticism",
+    "body": [
+      "Bernie Sanders called the practice extortion, per The Verge and SiliconANGLE.",
+      "Lina Khan said Google is trying to coerce schools into adopting AI (The Guardian)."
+    ],
+    "stat": {
+      "big": "150M",
+      "cap": "Classroom users, says The Verge"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Google's response",
+    "items": [
+      {
+        "h": "Control",
+        "t": "The company says schools get more control."
+      },
+      {
+        "h": "Guided",
+        "t": "Guided Learning is rolling out to select schools."
+      },
+      {
+        "h": "Gap",
+        "t": "No answer on why Search and AI are tied."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google confirmed US schools that restrict AI will also lose Search on student accounts.",
+    "body": [
+      "Per The Verge and SiliconANGLE, Gemini and Search are off by default on K-12 accounts and only return if school admins turn them on. There is no option to disable only the AI. Google says search and AI are deeply integrated.",
+      "Bernie Sanders called the practice extortion and Lina Khan said the company is trying to coerce schools into adopting AI, per The Guardian. Google says it gives schools more control and points to Guided Learning, being tested in select schools."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#education",
+      "#aiinschools"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google tying Search and AI together in US schools",
+    "Slide 2: schools that block AI lose Search on student accounts",
+    "Slide 3: Gemini and Search off by default and re-enabled by admins",
+    "Slide 4: criticism from Bernie Sanders and Lina Khan, with 150 million Classroom users",
+    "Slide 5: Google's response on control and Guided Learning",
+    "Slide 6: sources for the Search and AI in schools story: The Verge, SiliconANGLE and The Guardian"
+  ]
+}
