@@ -1,0 +1,107 @@
+{
+  "lang": "en",
+  "slug": "amd-forecasts-overtaking-intel-in-revenue",
+  "story_id": "c9fdbbb6c9cd023f",
+  "title": "AMD forecasts overtaking Intel in revenue for first time",
+  "dek": "The chipmaker's own fourth-quarter revenue guidance tops Intel's, a milestone that would be unprecedented in the two rivals' long history.",
+  "meta_description": "AMD expects about $17 billion in fourth-quarter revenue, above Intel's own $15-16 billion guidance, which would be a first, per Canaltech and Xataka reports.",
+  "keyword": "AMD Intel revenue forecast",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "amd",
+    "intel",
+    "market"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "AMD expects roughly $17 billion in revenue for the fourth quarter of 2026, above Intel's own guidance for the same period, of $15 billion to $16 billion, according to Brazilian outlet Canaltech and Spanish outlet Xataka. If the forecast holds, it would be the first time in AMD's history that its quarterly revenue surpasses Intel's — a reversal between two companies that have competed in processors for decades, with Intel historically on top.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The forecast follows AMD's record third-quarter revenue of $13.38 billion, reported the previous week, as <a href=\"https://cortexplor.com/en/amd-data-center-revenue-nearly-doubles-q3/\">Cortexplor covered</a> at the time. What is new now is the direct comparison between the two companies' own guidance for the quarter ahead, with AMD's figure landing above the one Intel gave investors.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Within that third-quarter result, AMD's data center division alone brought in $8.55 billion, up 97% from a year earlier, according to Canaltech. The jump underscores how much weight AI infrastructure already carries in the company's overall business, just as it heads into a direct revenue contest with its longtime rival next quarter.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The rivalry was lopsided for most of the last decade. Per Xataka, Intel brought in nearly five times AMD's revenue in 2021: $79 billion versus $16.4 billion. In 2022, Intel's revenue fell to $63.1 billion while AMD's climbed to $23.6 billion. By 2025, the gap had narrowed sharply: AMD posted $34.6 billion in annual revenue against Intel's $52.9 billion, according to the Spanish outlet's own tally of both companies' public results.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Xataka sums up the shift by saying AMD is no longer the \"second-rate\" chipmaker it was in the 1990s and early 2000s, trailing Intel in both revenue and reputation. The outlet also cites its own hardware reviews, saying Ryzen processors have been preferred by many users over Intel's CPUs in gaming, office productivity and content creation tasks for years.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Who is buying the chips",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AMD's growth is driven by demand for AI data center chips: its Epyc server processors and its Instinct MI455X accelerators, chips built for the heavy computing work behind AI models, also sold as complete rack-scale systems called Helios. Microsoft, Meta, OpenAI and Oracle are already buying Helios systems, according to both Canaltech and Xataka; Xataka also names Anthropic among the buyers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AMD's strategy is to sell complete data center rack systems, not just standalone chips, according to Xataka. Its data center division already accounts for 64% of the company's total revenue, per Canaltech, and Chief Executive Lisa Su projected that share will top 80% of total company revenue in 2027, according to Xataka — meaning AMD's business would depend even more heavily on AI infrastructure spending than it does today.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Intel, on the other side, faces a supply problem, not just a demand one: despite improved results under Chief Executive Lip-Bu Tan, the company is still struggling to meet its own order volume for Xeon processors, the chips it uses to compete in data centers, Xataka reported. While AMD is managing to deliver what its cloud and AI customers order, its rival is trying to recover production capacity.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Su also projected, according to Canaltech, a double-digit decline in global PC shipments in 2027, pressured by rising component costs such as memory — a problem affecting the whole industry, Intel included. Even so, the executive is counting on the Ryzen line, which is set to get new desktop and laptop chips built on the Zen 6 architecture, to support AMD's PC business even amid a broader market slowdown.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Until both companies report their fourth-quarter results, these figures remain guidance the companies themselves gave to investors on earnings calls, not closed, audited results.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Fourth-quarter guidance: AMD expects about $17 billion; Intel expects between $15 billion and $16 billion, per each company's own figures.",
+        "What would be unprecedented: AMD's quarterly revenue topping Intel's for the first time since AMD's founding, per Canaltech.",
+        "Who already buys AMD's Helios systems: Microsoft, Meta, OpenAI and Oracle, per Canaltech and Xataka; Anthropic appears only in Xataka's reporting.",
+        "When it's confirmed: final fourth-quarter 2026 results aren't due until early 2027."
+      ]
+    }
+  ],
+  "image": {
+    "query": "AMD Intel semiconductor chips factory",
+    "alt": "Processor chips on a semiconductor manufacturing line"
+  },
+  "sources": [
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/hardware/em-virada-historica-amd-deve-faturar-mais-que-a-intel-pela-primeira-vez/",
+      "title": "Em virada histórica, AMD deve faturar mais que a Intel pela primeira vez"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/empresas-y-economia/amd-va-a-adelantar-a-intel-primera-vez-su-historia",
+      "title": "AMD va a adelantar a Intel por primera vez en su historia"
+    }
+  ],
+  "status": "draft"
+}
