@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 15:50:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 21:49:51 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPT adds native tool to create and edit GIFs</title>
+      <link>https://cortexplor.com/en/chatgpt-adds-native-gif-creation-tool/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/chatgpt-adds-native-gif-creation-tool/</guid>
+      <description>OpenAI released Images 2.6 and gave ChatGPT native GIF creation and editing. Here is how the tool works, who can use it, and what changed for developers.</description>
+      <category>Applications</category>
+      <pubDate>Thu, 05 Nov 2026 21:49:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude launches Personal Finance tool linked to bank accounts</title>
+      <link>https://cortexplor.com/en/claude-launches-personal-finance-tool/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/claude-launches-personal-finance-tool/</guid>
+      <description>Anthropic launched Personal Finance, linking Claude to bank accounts via Plaid. Here is who can use it now, how it works, and how it compares to ChatGPT.</description>
+      <category>Applications</category>
+      <pubDate>Thu, 05 Nov 2026 21:49:50 +0000</pubDate>
+    </item>
     <item>
       <title>AMD forecasts overtaking Intel in revenue for first time</title>
       <link>https://cortexplor.com/en/amd-forecasts-overtaking-intel-in-revenue/</link>
@@ -230,22 +246,6 @@
       <description>Meta updates the Facebook algorithm: users can now type, in their own words, exactly what they want to see more or less of in Feed and Reels, in real time.</description>
       <category>Applications</category>
       <pubDate>Sun, 18 Oct 2026 15:47:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple research finds mixing languages beats hyperparameter tuning</title>
-      <link>https://cortexplor.com/en/apple-research-language-mixing-beats-tuning/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/apple-research-language-mixing-beats-tuning/</guid>
-      <description>Apple research tests mixing a high-resource language into low-resource model pre-training and finds larger gains than hyperparameter tuning alone provides.</description>
-      <category>Models &amp; Launches</category>
-      <pubDate>Sat, 17 Oct 2026 21:46:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA opens Vera Rubin rack architecture to data center industry</title>
-      <link>https://cortexplor.com/en/nvidia-opens-vera-rubin-architecture-data-centers/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/nvidia-opens-vera-rubin-architecture-data-centers/</guid>
-      <description>NVIDIA opens its Vera Rubin rack architecture to the Open Compute Project and publishes new open standards for AI data centers, the company announced.</description>
-      <category>AI Market</category>
-      <pubDate>Sat, 17 Oct 2026 15:47:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
