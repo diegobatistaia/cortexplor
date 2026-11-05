@@ -1,0 +1,108 @@
+{
+  "lang": "es",
+  "slug": "chatgpt-suma-herramienta-nativa-para-gifs",
+  "story_id": "c9055761bacb349f",
+  "title": "ChatGPT suma una herramienta nativa para crear y editar GIFs",
+  "dek": "La función llega junto al modelo de imágenes Images 2.6 de OpenAI y permite animar fotos o descripciones de texto.",
+  "meta_description": "OpenAI lanzó Images 2.6 y le dio a ChatGPT la capacidad de crear y editar GIFs de forma nativa. Cómo funciona la nueva herramienta y quién puede usarla ya.",
+  "keyword": "ChatGPT crear GIFs",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "openai",
+    "chatgpt",
+    "imagenes"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI lanzó el miércoles (4) Images 2.6, la nueva versión del generador de imágenes de ChatGPT, y le dio al chatbot la capacidad de crear y editar GIFs animados directamente en la conversación, sin depender de herramientas externas, según Canaltech, Tecmundo y Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para generar la animación, basta describir el resultado deseado en un mensaje de texto o subir una fotografía para convertirla en GIF, según las tres publicaciones. Olhar Digital cita un ejemplo sencillo: pedirle al chatbot que cree un GIF de un gato bailando.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Una vez generado el GIF, la interfaz ofrece controles para ajustar la velocidad de reproducción entre 0,5x y 2x, ver los cuadros individualmente, editar detalles de cada escena, redimensionar el archivo y eliminar elementos antes de descargarlo o compartirlo, según Canaltech. Hasta ahora, ChatGPT no tenía una forma nativa de crear este tipo de animación en un solo paso, según Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Images 2.6 también trae mejoras de rendimiento: OpenAI dice que el modelo genera imágenes un 50% más rápido que la versión anterior, según Tecmundo y Canaltech. La empresa afirma además que los usuarios ya crean más de 4.000 millones de imágenes por semana entre ChatGPT, Codex y la API, por encima de los 3.000 millones semanales informados anteriormente, según las mismas dos fuentes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech detalla la lista completa de ajustes disponibles una vez creado el GIF: la velocidad puede fijarse en 0,5x, 0,75x, 1x, 1,25x, 1,5x, 1,75x o 2x, hay una pantalla para ver la secuencia completa de cuadros, un campo para agregar comentarios sobre la imagen y opciones para redimensionar el archivo o eliminar elementos y cuadros antes de descargarlo o compartirlo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Dos modelos para desarrolladores",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para quienes programan con la API de OpenAI, Images 2.6 llega en dos variantes, según Canaltech y Olhar Digital: GPT-Image-2.6 Flare, orientado a la generación más rápida de imágenes, y GPT-Image-2.6 Sunburst, pensado para trabajos que exigen más detalle, precisión y consistencia entre ediciones.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech detalla que Flare genera imágenes en hasta seis segundos en la configuración de baja calidad y fue optimizado para pósteres, fotos de producto y materiales profesionales con un diseño más cuidado. El mismo medio informa que la API también pasó a admitir la exportación de archivos SVG y el marcado de imágenes, una función que ya existía en ChatGPT, además de nuevos parámetros para controlar la calidad y la complejidad de la planificación de las escenas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Canaltech y Tecmundo informan que Images 2.6 se lanzó a nivel global en ChatGPT y Codex, en las versiones web, de escritorio y móvil, para todos los planes. Olhar Digital señala que la distribución es gradual, por lo que la novedad puede no aparecer de inmediato en todas las cuentas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La actualización refuerza la estrategia de OpenAI de convertir a ChatGPT en una herramienta de creación visual, más allá de las conversaciones de texto. La función de GIFs puede usarse para animar personajes, transformar fotos de productos en piezas que se repiten en bucle o dar movimiento a bocetos hechos a mano, según Canaltech.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Disponible a nivel global en ChatGPT y Codex, en todos los planes y en las versiones web, de escritorio y móvil, con distribución gradual.",
+        "Un mensaje de texto o una foto subida bastan para generar el GIF; luego se puede ajustar la velocidad, editar cuadros y redimensionarlo.",
+        "Antes de Images 2.6, ChatGPT no tenía una forma nativa de crear GIFs; había que recurrir a herramientas externas.",
+        "Los desarrolladores acceden a dos modelos en la API: Flare, orientado a la velocidad, y Sunburst, orientado a la precisión."
+      ]
+    }
+  ],
+  "image": {
+    "query": "animated gif chat interface smartphone",
+    "alt": "Pantalla de celular mostrando la creación de una animación dentro de una app de chat"
+  },
+  "sources": [
+    {
+      "name": "Olhar Digital",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/11/04/inteligencia-artificial/chatgpt-ganha-ferramenta-para-criar-e-editar-gifs/",
+      "title": "ChatGPT ganha ferramenta para criar e editar GIFs"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/produto-e-review/chatgpt-agora-cria-gifs-com-o-nova-ia-images-26/",
+      "title": "ChatGPT agora cria GIFs com o nova IA Images 2.6"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/inteligencia-artificial/chatgpt-agora-cria-gifs-animados-direto-no-chat-e-permite-editar-quadros/",
+      "title": "ChatGPT agora cria GIFs animados direto no chat e permite editar quadros"
+    }
+  ],
+  "status": "draft"
+}
