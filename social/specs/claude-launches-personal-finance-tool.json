@@ -1,0 +1,103 @@
+{
+  "slug": "claude-launches-personal-finance-tool",
+  "lang": "en",
+  "date": "05 Nov 2026",
+  "no": 82,
+  "category": "Applications",
+  "kicker": "Applications · Anthropic",
+  "headline": "Claude launches a personal finance tool",
+  "headline_hl": "personal finance",
+  "dek": "Personal Finance reads accounts via Plaid and moves no money, per TechCrunch.",
+  "image": {
+    "path": "assets/img/claude-launches-personal-finance-tool-62a94add.jpg",
+    "credit": "Adam Śmigielski / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Read-only<br>access",
+  "sources": [
+    "TechCrunch",
+    "The Verge",
+    "ZDNet",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Personal Finance",
+    "body": [
+      "Anthropic announced Personal Finance, which links Claude to bank and card accounts via Plaid, per TechCrunch and The Verge.",
+      "Access is read-only: Claude cannot move or invest the money."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What it does",
+    "body": "Per TechCrunch and Engadget:",
+    "points": [
+      {
+        "h": "Spending",
+        "t": "Totals by category and flags duplicate charges."
+      },
+      {
+        "h": "Interest",
+        "t": "Explains terms and totals interest paid in a year."
+      },
+      {
+        "h": "Dashboards",
+        "t": "Builds charts and a bill calendar (ZDNet)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Privacy",
+    "body": [
+      "Chats in the Personal Finance panel do not train the models, per TechCrunch, ZDNet and Engadget.",
+      "No ads or sponsored recommendations, says TechCrunch."
+    ],
+    "stat": {
+      "big": "Read-only",
+      "cap": "Claude cannot move money"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Context",
+    "items": [
+      {
+        "h": "Rival",
+        "t": "ChatGPT Finances came in May via Plaid (The Verge)."
+      },
+      {
+        "h": "Access",
+        "t": "Beta for Pro, Max and Ultra in the US (ZDNet)."
+      },
+      {
+        "h": "Next",
+        "t": "Talks with banks and wealth firms (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Anthropic launched Personal Finance, which lets Claude analyze spending with read-only access.",
+    "body": [
+      "Per TechCrunch, The Verge, ZDNet and Engadget, the tool links bank and card accounts via Plaid. Claude sees balances, limits and up to two years of transactions, but cannot move or invest the money.",
+      "It totals spending by category, flags duplicate charges and builds charts. Anthropic says chats in the panel do not train its models and there are no ads. The beta is for Pro, Max and Ultra subscribers in the US, months after ChatGPT Finances."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#claude",
+      "#anthropic",
+      "#personalfinance"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Claude launching a personal finance tool",
+    "Slide 2: Personal Finance links accounts via Plaid with read-only access",
+    "Slide 3: spending totals, interest and custom dashboards",
+    "Slide 4: chats do not train the models and two years of history",
+    "Slide 5: ChatGPT Finances, a US beta and talks with banks",
+    "Slide 6: sources for the Claude Personal Finance story: TechCrunch, The Verge, ZDNet and Engadget"
+  ]
+}

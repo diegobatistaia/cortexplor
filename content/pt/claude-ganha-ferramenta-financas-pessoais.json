@@ -1,0 +1,122 @@
+{
+  "lang": "pt",
+  "slug": "claude-ganha-ferramenta-financas-pessoais",
+  "story_id": "d6c0f2589cb15301",
+  "title": "Claude ganha ferramenta para analisar gastos financeiros",
+  "dek": "Personal Finance conecta o assistente da Anthropic a contas bancárias pela Plaid, com acesso somente leitura.",
+  "meta_description": "A Anthropic lançou o Personal Finance, que liga o Claude a contas bancárias pela Plaid. Veja quem pode usar, como funciona e o que muda frente ao ChatGPT.",
+  "keyword": "Claude Personal Finance",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "financas"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Anthropic anunciou nesta quinta-feira (5) o Personal Finance, ferramenta que conecta o Claude às contas bancárias e de cartão de crédito do usuário pela plataforma Plaid, segundo o TechCrunch, o The Verge, o ZDNet e o Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O acesso é somente leitura. As quatro publicações confirmam que o Claude não pode movimentar, gerir ou investir o dinheiro das contas conectadas. Segundo a Anthropic, a ferramenta vê apenas o nome do banco, o nome e o tipo da conta, os quatro últimos dígitos do número, saldos, limites de crédito e até dois anos de histórico de transações.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Com as contas conectadas, o usuário pode perguntar ao Claude para onde foi o dinheiro em determinado mês, se esse gasto ficou acima do normal ou se sobrou algo para cobrir uma compra maior, segundo o TechCrunch. O assistente soma as transações por categoria, como aluguel, contas e alimentação, e aponta cobranças duplicadas, taxas inesperadas e contas que subiram com o tempo, segundo o TechCrunch e o Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Claude também explica termos financeiros, como a taxa anual de juros (APR, na sigla em inglês), e calcula quanto o usuário pagou em juros no último ano, segundo o TechCrunch e o Engadget. A ferramenta ainda gera gráficos e painéis: é possível pedir um gráfico semanal de gastos, um calendário de contas a pagar ou um painel personalizado, que fica disponível para consulta e ajustes depois, segundo o ZDNet e o Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Anthropic afirma que as conversas feitas dentro do painel do Personal Finance não são usadas para treinar os modelos da empresa, segundo o TechCrunch, o ZDNet e o Engadget. Fora desse painel, valem as configurações de privacidade normais da conta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Além do resumo de gastos, o Claude responde a perguntas mais amplas sobre o orçamento. Segundo o The Verge, é possível perguntar quanto falta até o próximo pagamento de salário, se cabe no orçamento uma viagem ou uma compra maior e quanto seria possível economizar por mês. Já o TechCrunch destaca que a ferramenta também avalia se o usuário está gastando mais do que ganha.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resposta ao ChatGPT",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O lançamento chega cerca de seis meses depois do ChatGPT Finances, recurso semelhante que a OpenAI apresentou em maio e que também usa a Plaid para conectar contas bancárias, segundo as quatro fontes. A Anthropic também diz que o Personal Finance não exibe anúncios nem recomendações patrocinadas e não oferece cartões de crédito, empréstimos ou contas de poupança próprios, segundo o TechCrunch e o Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em comunicado citado pelo The Verge e pelo ZDNet, a Anthropic disse: “Personal Finance é um primeiro passo. Para as decisões financeiras maiores da vida, achamos que as pessoas são mais bem atendidas pelo Claude trabalhando ao lado de profissionais licenciados e empresas regulamentadas em quem confiam.” A empresa afirma estar conversando com bancos e gestoras de patrimônio sobre como ampliar a ferramenta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O recurso marca mais um passo da Anthropic para levar o Claude a verticais corporativas específicas, depois do Claude for Legal e do Claude for Financial Services, lançados ainda este ano, segundo o TechCrunch. A disputa por esse tipo de uso corporativo e pessoal do assistente de IA ganha um capítulo direto entre as duas maiores empresas do setor.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Disponível em versão beta nesta semana para assinantes dos planos Claude Pro, Max e Ultra nos Estados Unidos.",
+        "Acesso somente leitura às contas via Plaid; o Claude não movimenta, gerencia nem investe dinheiro.",
+        "Conversas feitas no painel do Personal Finance não entram no treinamento dos modelos da Anthropic.",
+        "Chega quase seis meses depois do ChatGPT Finances, lançado pela OpenAI em maio com integração semelhante via Plaid."
+      ]
+    }
+  ],
+  "image": {
+    "query": "smartphone banking app finance chart",
+    "alt": "Pessoa consultando gráfico de gastos financeiros em um aplicativo no celular",
+    "path": "/assets/img/claude-ganha-ferramenta-financas-pessoai-62a94add.jpg",
+    "credit": "Adam Śmigielski / Unsplash",
+    "author": "Adam Śmigielski",
+    "author_url": "https://unsplash.com/@smigielski?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-person-holding-a-cell-phone-in-front-of-a-stock-chart-K5mPtONmpHM"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "title": "Claude AI can plug directly into your bank account"
+    },
+    {
+      "name": "ZDNet",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/",
+      "title": "Claude's new Personal Finance tool aims to help analyze your spending – read-only, of course"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
+      "title": "Now Claude can help with your finances too"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-05T21:49:49+00:00",
+  "updated_at": "2026-11-05T21:49:49+00:00"
+}

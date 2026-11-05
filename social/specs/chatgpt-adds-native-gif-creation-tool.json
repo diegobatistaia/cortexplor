@@ -1,0 +1,102 @@
+{
+  "slug": "chatgpt-adds-native-gif-creation-tool",
+  "lang": "en",
+  "date": "05 Nov 2026",
+  "no": 81,
+  "category": "Applications",
+  "kicker": "Applications · OpenAI",
+  "headline": "ChatGPT adds a native GIF maker",
+  "headline_hl": "GIF maker",
+  "dek": "Images 2.6 creates and edits animations in the chat itself, per Canaltech.",
+  "image": {
+    "path": "assets/img/chatgpt-adds-native-gif-creation-tool-7e657254.jpg",
+    "credit": "Vimal S / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "GIFs in<br>ChatGPT",
+  "sources": [
+    "Olhar Digital",
+    "Tecmundo",
+    "Canaltech"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Images 2.6",
+    "body": [
+      "OpenAI launched Images 2.6 and gave ChatGPT the ability to create and edit GIFs in chat, per Canaltech, Tecmundo and Olhar Digital.",
+      "Just describe the GIF or upload a photo to animate."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Adjustable settings",
+    "body": "Per Canaltech:",
+    "points": [
+      {
+        "h": "Pace",
+        "t": "Playback speed from 0.5x to 2x (Canaltech)."
+      },
+      {
+        "h": "Frames",
+        "t": "View and edit each frame."
+      },
+      {
+        "h": "File",
+        "t": "Resize and remove elements."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Faster",
+    "body": [
+      "OpenAI says the model generates images 50% faster, per Tecmundo and Canaltech.",
+      "Users create over 4 billion images a week, says the company (Tecmundo)."
+    ],
+    "stat": {
+      "big": "50%",
+      "cap": "faster generation, says Tecmundo"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "For developers",
+    "items": [
+      {
+        "h": "Flare",
+        "t": "Faster model in the API (Canaltech)."
+      },
+      {
+        "h": "Sunburst",
+        "t": "Model for detail and precision (Canaltech)."
+      },
+      {
+        "h": "Rollout",
+        "t": "Gradual distribution, per Olhar Digital."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "ChatGPT GIF creation is here: it now makes and edits animated GIFs in the chat, with Images 2.6.",
+    "body": [
+      "Per Canaltech, Tecmundo and Olhar Digital, users just describe the GIF or upload a photo. Then they can adjust speed, view frames and resize the file, something ChatGPT could not do natively before. The tool is built into the chat itself, so no separate app is needed.",
+      "OpenAI says the model generates images 50% faster, per Tecmundo. Two models reach the API, Flare and Sunburst. The feature covers all plans, with a gradual rollout, so it may not show up in every account yet."
+    ],
+    "cta_variant": "A",
+    "cta": "Would you use ChatGPT to make GIFs?",
+    "hashtags": [
+      "#cortexplor",
+      "#chatgpt",
+      "#openai",
+      "#gifs"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about ChatGPT gaining a native GIF maker",
+    "Slide 2: Images 2.6 creates GIFs from text or a photo",
+    "Slide 3: speed, frame and size adjustments for the GIF",
+    "Slide 4: model 50% faster according to Tecmundo",
+    "Slide 5: Flare and Sunburst models in the API and a gradual rollout",
+    "Slide 6: sources for the ChatGPT GIF story: Olhar Digital, Tecmundo and Canaltech"
+  ]
+}
