@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 05 Nov 2026 10:47:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 15:50:32 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AMD prevê superar a receita da Intel pela primeira vez na história</title>
+      <link>https://cortexplor.com/pt/amd-preve-superar-intel-em-receita/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/amd-preve-superar-intel-em-receita/</guid>
+      <description>A AMD projeta receita de US$ 17 bilhões no 4º trimestre, superando a previsão da Intel, de US$ 15 bi a US$ 16 bi, pela primeira vez, segundo Canaltech e Xataka.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Thu, 05 Nov 2026 15:50:30 +0000</pubDate>
+    </item>
     <item>
       <title>Receita de data center da AMD quase dobra no 3º trimestre</title>
       <link>https://cortexplor.com/pt/amd-receita-data-center-quase-dobra-terceiro-trimestre/</link>
@@ -238,14 +246,6 @@
       <description>A NVIDIA abre a arquitetura Vera Rubin ao Open Compute Project e lança padrões abertos para data centers de IA, segundo comunicado divulgado pela empresa.</description>
       <category>Mercado de IA</category>
       <pubDate>Sat, 17 Oct 2026 15:47:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Perplexity abre o código da SPACE, sandbox que isola agentes de IA</title>
-      <link>https://cortexplor.com/pt/perplexity-abre-codigo-sandbox-space-agentes/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/perplexity-abre-codigo-sandbox-space-agentes/</guid>
-      <description>A Perplexity libera o código da SPACE, sandbox que isola agentes de IA em máquinas virtuais próprias, com CoreWeave, Akamai e Crusoe já testando a ferramenta.</description>
-      <category>Aplicações</category>
-      <pubDate>Sat, 17 Oct 2026 10:51:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
