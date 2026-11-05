@@ -7,35 +7,110 @@
   "meta_description": "AMD posted $13.38 billion in revenue for the third quarter, up 45% year over year, as data centers reached 64% of total sales, per CNBC and SiliconANGLE.",
   "keyword": "AMD data center revenue",
   "category": "mercado",
-  "tags": ["ai", "amd", "data centers", "earnings"],
+  "tags": [
+    "ai",
+    "amd",
+    "data centers",
+    "earnings"
+  ],
   "body": [
-    {"type": "p", "text": "AMD reported third-quarter revenue of $13.38 billion on Tuesday, up 45% from a year earlier, according to CNBC and SiliconANGLE. The figure beat the $13.09 billion analyst consensus estimate.", "items": []},
-    {"type": "p", "text": "The data center segment drove the beat: it now accounts for 64% of AMD's total revenue, up from 47% a year ago, both outlets reported. That share shift means data center sales nearly doubled year over year.", "items": []},
-    {"type": "p", "text": "The shift has a specific cause. After years of chasing Nvidia in the market for AI graphics processors (GPUs), AMD's central processing units (CPUs) are back in demand because of the rise of agentic AI applications, such as Meta's Muse. According to CNBC, autonomous AI agents run more efficiently on CPUs than on GPUs because they can operate for hours without constant human input.", "items": []},
-    {"type": "p", "text": "\"Adoption is just starting, and we expect demand to grow sharply as agents are deployed more broadly and take on more complex work,\" AMD Chief Executive Lisa Su told analysts on the earnings call, according to CNBC and SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Guidance and AI lab commitments", "items": []},
-    {"type": "p", "text": "For the fourth quarter, AMD expects about $17 billion in revenue, above the $16.2 billion average analyst estimate tracked by LSEG. The company projects a gross margin of 55%, just under the 55.3% Street forecast.", "items": []},
-    {"type": "p", "text": "AMD also sells GPUs and rack-scale systems called Helios that compete with Nvidia's platforms. Anthropic, OpenAI, Microsoft, Oracle and Meta are all using Helios systems in their data centers, CNBC and SiliconANGLE reported. Meta said last week its Helios racks are already running, and AMD invested $1 billion in Meta's latest equity offering. AMD has also committed to investing up to $5 billion in Anthropic, which unveiled its IPO prospectus last week.", "items": []},
-    {"type": "p", "text": "In September, AMD agreed to acquire World Labs for $8.2 billion in an all-stock deal. The startup, founded by researcher Fei-Fei Li, builds world models that simulate 3D environments to train robots and other physical AI systems.", "items": []},
-    {"type": "p", "text": "AMD's report lands days after rival Intel disclosed similar data center growth of 78% for the same quarter, per CNBC. Intel's stock, however, fell roughly 30% the previous Friday after the company issued weak guidance and raised doubts about its ability to meet demand.", "items": []},
-    {"type": "p", "text": "AMD's PC and gaming segment moved in the opposite direction: revenue fell 8% to $3.7 billion, with gaming revenue down 40% from a year earlier, according to CNBC and SiliconANGLE. The PC market is facing higher component costs, including memory, a factor Intel itself cited to explain its own weak outlook. Net income for the quarter reached $3.47 billion, up 77% from a year earlier, SiliconANGLE reported.", "items": []},
-    {"type": "p", "text": "AMD shares are up about 125% so far this year, per CNBC, even after three straight days of losses heading into the earnings report amid a broader semiconductor sell-off driven by fears of AI overspending. eMarketer analyst Jacob Bourne, quoted by SiliconANGLE, said the results should reassure investors: \"demand for AI computing is not going to fall off a cliff, and AMD has the competitive products and major customer relationships to capitalize on that demand.\"", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who is buying the chips: Anthropic, OpenAI, Microsoft, Oracle and Meta are running AMD Helios systems in their data centers, per CNBC and SiliconANGLE.",
-      "AMD's own AI bets: up to $5 billion committed to Anthropic, plus a $1 billion investment in Meta's equity offering.",
-      "Next quarter's outlook: revenue guidance of about $17 billion, above the $16.2 billion analyst consensus tracked by LSEG.",
-      "Versus Intel: Intel's data center revenue grew 78% in the same quarter, but its stock dropped about 30% on weak guidance.",
-      "Recent deal: the $8.2 billion all-stock acquisition of World Labs to build out world models for robotics."
-    ]}
+    {
+      "type": "p",
+      "text": "AMD reported third-quarter revenue of $13.38 billion on Tuesday, up 45% from a year earlier, according to CNBC and SiliconANGLE. The figure beat the $13.09 billion analyst consensus estimate.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The data center segment drove the beat: it now accounts for 64% of AMD's total revenue, up from 47% a year ago, both outlets reported. That share shift means data center sales nearly doubled year over year.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The shift has a specific cause. After years of chasing Nvidia in the market for AI graphics processors (GPUs), AMD's central processing units (CPUs) are back in demand because of the rise of agentic AI applications, such as Meta's Muse. According to CNBC, autonomous AI agents run more efficiently on CPUs than on GPUs because they can operate for hours without constant human input.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Adoption is just starting, and we expect demand to grow sharply as agents are deployed more broadly and take on more complex work,\" AMD Chief Executive Lisa Su told analysts on the earnings call, according to CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Guidance and AI lab commitments",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For the fourth quarter, AMD expects about $17 billion in revenue, above the $16.2 billion average analyst estimate tracked by LSEG. The company projects a gross margin of 55%, just under the 55.3% Street forecast.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AMD also sells GPUs and rack-scale systems called Helios that compete with Nvidia's platforms. Anthropic, OpenAI, Microsoft, Oracle and Meta are all using Helios systems in their data centers, CNBC and SiliconANGLE reported. Meta said last week its Helios racks are already running, and AMD invested $1 billion in Meta's latest equity offering. AMD has also committed to investing up to $5 billion in Anthropic, which unveiled its IPO prospectus last week.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In September, AMD agreed to acquire World Labs for $8.2 billion in an all-stock deal. The startup, founded by researcher Fei-Fei Li, builds world models that simulate 3D environments to train robots and other physical AI systems.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AMD's report lands days after rival Intel disclosed similar data center growth of 78% for the same quarter, per CNBC. Intel's stock, however, fell roughly 30% the previous Friday after the company issued weak guidance and raised doubts about its ability to meet demand.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AMD's PC and gaming segment moved in the opposite direction: revenue fell 8% to $3.7 billion, with gaming revenue down 40% from a year earlier, according to CNBC and SiliconANGLE. The PC market is facing higher component costs, including memory, a factor Intel itself cited to explain its own weak outlook. Net income for the quarter reached $3.47 billion, up 77% from a year earlier, SiliconANGLE reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AMD shares are up about 125% so far this year, per CNBC, even after three straight days of losses heading into the earnings report amid a broader semiconductor sell-off driven by fears of AI overspending. eMarketer analyst Jacob Bourne, quoted by SiliconANGLE, said the results should reassure investors: \"demand for AI computing is not going to fall off a cliff, and AMD has the competitive products and major customer relationships to capitalize on that demand.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who is buying the chips: Anthropic, OpenAI, Microsoft, Oracle and Meta are running AMD Helios systems in their data centers, per CNBC and SiliconANGLE.",
+        "AMD's own AI bets: up to $5 billion committed to Anthropic, plus a $1 billion investment in Meta's equity offering.",
+        "Next quarter's outlook: revenue guidance of about $17 billion, above the $16.2 billion analyst consensus tracked by LSEG.",
+        "Versus Intel: Intel's data center revenue grew 78% in the same quarter, but its stock dropped about 30% on weak guidance.",
+        "Recent deal: the $8.2 billion all-stock acquisition of World Labs to build out world models for robotics."
+      ]
+    }
   ],
   "image": {
     "query": "AMD data center server chips",
-    "alt": "Data center server racks with AMD processors running"
+    "alt": "Data center server racks with AMD processors running",
+    "path": "/assets/img/amd-data-center-revenue-nearly-doubles-q-14e229eb.jpg",
+    "credit": "Timothy Dykes / Unsplash",
+    "author": "Timothy Dykes",
+    "author_url": "https://unsplash.com/@timothycdykes?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-and-green-lenovo-logo-nWgpCe-LQa4"
   },
   "sources": [
-    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html", "title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/03/amd-beats-expectations-as-agentic-ai-sparks-its-data-center-revenue-growth-engines/", "title": "AMD beats expectations as agentic AI sparks its data center revenue growth engines"}
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+      "title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/03/amd-beats-expectations-as-agentic-ai-sparks-its-data-center-revenue-growth-engines/",
+      "title": "AMD beats expectations as agentic AI sparks its data center revenue growth engines"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-05T10:47:47+00:00",
+  "updated_at": "2026-11-05T10:47:47+00:00"
 }
