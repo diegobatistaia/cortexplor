@@ -1,0 +1,41 @@
+{
+  "lang": "es",
+  "slug": "amd-ingresos-centros-datos-casi-duplican-trimestre",
+  "story_id": "a9fcbd38f8701a99",
+  "title": "Los ingresos de centros de datos de AMD casi se duplican",
+  "dek": "La empresa superó las previsiones de Wall Street gracias a la demanda de chips para aplicaciones de IA agéntica.",
+  "meta_description": "AMD facturó US$ 13.380 millones en el tercer trimestre, un alza del 45% anual, con los centros de datos ya en el 64% del total, según CNBC y SiliconANGLE.",
+  "keyword": "AMD centros de datos ingresos",
+  "category": "mercado",
+  "tags": ["ia", "amd", "centros de datos", "mercado"],
+  "body": [
+    {"type": "p", "text": "AMD reportó el martes 3 de noviembre ingresos trimestrales de US$ 13.380 millones, un alza del 45% respecto al año anterior, según CNBC y SiliconANGLE. La cifra superó el consenso de analistas, de US$ 13.090 millones.", "items": []},
+    {"type": "p", "text": "El salto lo explica la división de centros de datos, que pasó a representar el 64% de los ingresos totales de la empresa, frente al 47% de un año antes, de acuerdo con ambas publicaciones. En la práctica, los ingresos de ese segmento casi se duplicaron en el período.", "items": []},
+    {"type": "p", "text": "El cambio tiene una causa concreta: tras años persiguiendo a Nvidia en el mercado de procesadores gráficos (GPU) para IA, los procesadores centrales (CPU) de AMD volvieron a crecer por el auge de aplicaciones de IA agéntica, como Muse, de Meta. Según CNBC, los agentes autónomos de IA funcionan de forma más eficiente en CPU que en GPU porque pueden operar durante horas sin supervisión humana constante.", "items": []},
+    {"type": "p", "text": "\"La adopción apenas está empezando, y esperamos que la demanda crezca con fuerza a medida que los agentes se implementen de forma más amplia y asuman tareas más complejas\", dijo la directora ejecutiva de AMD, Lisa Su, en la conferencia con analistas, según CNBC y SiliconANGLE.", "items": []},
+    {"type": "h2", "text": "Previsiones e inversiones en IA", "items": []},
+    {"type": "p", "text": "Para el cuarto trimestre, AMD proyecta ingresos de alrededor de US$ 17.000 millones, por encima de la estimación promedio de los analistas, de US$ 16.200 millones, según LSEG. La empresa espera un margen bruto del 55%, levemente por debajo de la previsión del 55,3%.", "items": []},
+    {"type": "p", "text": "AMD también vende GPU y los sistemas de rack llamados Helios, que compiten con las plataformas de Nvidia. Según CNBC y SiliconANGLE, Anthropic, OpenAI, Microsoft, Oracle y Meta ya usan sistemas Helios en sus centros de datos. Meta afirmó la semana anterior que sus racks Helios ya están en funcionamiento, y AMD invirtió US$ 1.000 millones en la oferta de acciones de Meta. La empresa también se comprometió a invertir hasta US$ 5.000 millones en Anthropic, que reveló la semana pasada el prospecto para una posible oferta pública inicial de acciones.", "items": []},
+    {"type": "p", "text": "En septiembre, AMD acordó comprar World Labs por US$ 8.200 millones, en una operación pagada enteramente en acciones. La startup, fundada por la investigadora Fei-Fei Li, desarrolla modelos de mundo que simulan entornos en 3D para entrenar robots y otras aplicaciones de IA física.", "items": []},
+    {"type": "p", "text": "El resultado de AMD llega días después de que Intel divulgara un crecimiento similar en la misma área: un alza del 78% en los ingresos de centros de datos en el mismo trimestre, según CNBC. Sin embargo, las acciones de Intel cayeron alrededor del 30% el viernes anterior, luego de que la empresa presentara previsiones débiles y generara dudas sobre su capacidad para atender la demanda.", "items": []},
+    {"type": "p", "text": "El segmento que agrupa los chips para computadoras personales y videojuegos tuvo el resultado opuesto: los ingresos cayeron un 8%, hasta US$ 3.700 millones, con una caída del 40% en las ventas ligadas a videojuegos respecto al año anterior, según CNBC y SiliconANGLE. El mercado de PC enfrenta mayores costos de componentes, como la memoria, un factor que la propia Intel citó para explicar su previsión débil.", "items": []},
+    {"type": "p", "text": "Las acciones de AMD acumulan un alza de alrededor del 125% en el año, según CNBC, a pesar de tres jornadas consecutivas de caídas antes del resultado, en medio de una venta generalizada en el sector de semiconductores por temores a un gasto excesivo en infraestructura de IA. Para el analista Jacob Bourne, de la consultora eMarketer, citado por SiliconANGLE, el resultado debería tranquilizar a los inversores: \"la demanda de computación para IA no va a desplomarse, y AMD tiene los productos competitivos y las relaciones con clientes importantes para capitalizar esa demanda\".", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién usa los chips: Anthropic, OpenAI, Microsoft, Oracle y Meta operan sistemas AMD Helios en sus centros de datos, según CNBC y SiliconANGLE.",
+      "Cuánto invertirá AMD: hasta US$ 5.000 millones en Anthropic y US$ 1.000 millones en la oferta de acciones de Meta.",
+      "Previsión para el próximo trimestre: ingresos cercanos a US$ 17.000 millones, por encima de la estimación de analistas de US$ 16.200 millones (LSEG).",
+      "Comparación con Intel: la rival tuvo un alza del 78% en ingresos de centros de datos en el mismo trimestre, pero sus acciones cayeron cerca del 30% por previsiones débiles.",
+      "Adquisición reciente: compra de World Labs por US$ 8.200 millones, en acciones, para reforzar modelos de mundo usados en robótica."
+    ]}
+  ],
+  "image": {
+    "query": "AMD data center server chips",
+    "alt": "Servidores de un centro de datos con procesadores AMD en funcionamiento"
+  },
+  "sources": [
+    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html", "title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/03/amd-beats-expectations-as-agentic-ai-sparks-its-data-center-revenue-growth-engines/", "title": "AMD beats expectations as agentic AI sparks its data center revenue growth engines"}
+  ],
+  "status": "draft"
+}
