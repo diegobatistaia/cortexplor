@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T01:29:34+00:00",
-  "posts_per_language_today": 0,
+  "generated_at": "2026-11-05T09:42:46+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 4,
+  "already_written_today": 0,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -78,5 +78,194 @@
     150,
     160
   ],
-  "stories": []
+  "stories": [
+    {
+      "story_id": "55d481c463ee69f1",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "owners": [
+        "alphabet",
+        "siliconangle"
+      ],
+      "primary_owners": [
+        "alphabet"
+      ],
+      "fingerprints": [
+        "7b04a568c5adccd6",
+        "898b82f8b9ceb889"
+      ],
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "owner": "alphabet",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "title": "Agentic cheminformatics with Google Antigravity",
+          "published_at": "2026-11-03T17:01:49+00:00",
+          "kind": "primary",
+          "text": ""
+        },
+        {
+          "name": "SiliconANGLE",
+          "owner": "siliconangle",
+          "url": "https://siliconangle.com/2026/11/04/google-fine-tunes-its-agentic-data-cloud-to-support-highly-scalable-autonomous-ai-workers/",
+          "title": "Google fine-tunes its Agentic Data Cloud to support highly scalable autonomous AI workers",
+          "published_at": "2026-11-04T14:00:09+00:00",
+          "kind": "press",
+          "text": "Artificial intelligence is no longer just about conversational assistants that tell people what to do. These days, it’s all about work automation, and Google Cloud is making sure it’s right at the forefront of that trend with its revamped Agentic Data Cloud platform, which received a host of new updates today. The Agentic Data Cloud was launched earlier this year at Google Cloud Next. It’s meant to be the architectural “system of action” for AI agents , replacing the brittle extract, transform and load-based data pipelines, or ETL, that feed legacy software applications. The key advantage of Agentic Data Cloud is that it meets customers where their data is, so rather than forcing them to squeeze all of their information in a large, centralized data warehouse, it enables AI agents to access it wherever it lives. In a blog post, Sirish Chandrasekaran, Google’s vice president of product management for data analytics, outlined the company’s belief that autonomous agents rather than humans will soon become the primary consumers of data. As such, it makes sense to build a purpose-built infrastructure stack specifically for them, prioritizing low latency, zero data movement and automated governance. “That is why we built the Agentic Data Cloud — a system of action designed to activate all your data by breaking down walled gardens, deliver high accuracy and trust, and operate proactively at low cost,” Chandrasekaran said. The flagship new feature in Agentic Data Cloud is borderless Lakehouse , a special version of Google’s “cross-border Lakehouse” product that also debuted at Cloud Next. Chandrasekaran said borderless Lakehouse is built upon the open-source Apache Iceberg table format and designed to eliminate multicloud friction with new caching capabilities for Amazon Web Services and Microsoft Azure. This allows companies to query remote data held in those cloud platforms over a secure private link, without having to pay egress fees. Chandrasekaran detailed how it works, saying that it automatically caches retrieved data blocks within Google Cloud to accelerate subsequent queries. There’s also a new AlloyDB integration that allows users to query external Iceberg tables with standard PostgreSQL queries without having to copy data. In this way, it bridges real-time transactional data with historical lakehouse records. One of the big problems with autonomous agents is that they can be prone to hallucinations without proper guardrails in place, which is why Google has overhauled another capability within Agentic Data Cloud. The Knowledge Catalog , which is a kind of map of business meaning that’s meant to inform AI agents of the peculiarities of the organization they work for, is getting a new self-learning enrichment capability in preview. According to Chandrasekaran, it works by continuously scanning unstructured data in Google Workspace, Jira, SharePoint and GitHub to translate operational knowledge into Open Knowledge Format context sets. These can be used to ground AI agents in organizational knowledge, and the results from early adopters shows that it can help make the average agent four-times more accurate, while reducing token consumption by up to 75%. Knowledge Catalog is seen as so important to Google’s agentic future that it’s also being enabled by default in the Gemini application starting today. Because it’s so tightly integrated, it can resolve issues around business metric definitions and access controls before it translates user’s prompts into Structured Query Language queries. Companies can also choose to ground agents in semantic models for specific data platforms, including Google BigQuery, Snowflake, SAP, Looker and dbt. “Agents are only as accurate as the business context they’re grounded in,” Chandrasekaran said. “Whether an agent is calculating net revenue for finance or customer churn for operations, it applies the exact same governed formulas your business teams rely on.” Gemini is also getting new autonomous machine learning capabilities that can help to streamline everyday work for both technical teams and business workers. For instance, data engineers can now tell Gemini a specific business outcome they want to achieve in natural language, and Gemini will generate the PySpark code, run the notebooks and fix any data pipeline errors as it works toward that goal. Meanwhile, business users will be able to generate reliable, real-time operational reports in Gemini simply by asking for them. “Gemini uses operational reporting skills integrated with BigQuery and the Knowledge Catalog to construct and save the query,” Chandrasekaran explained. “Once saved, teams can run reports on demand without incurring token costs, guaranteeing consistent and verified answers every time.” Google also has a few gifts for software developers, starting with the new Data Agent Kit , which is generally available from today, bringing Model Context Protocol tooling into integrated development environments such as VS Code, Claude Code and Antigravity . This means that developers can now just define their business intent in natural language and have agents automatically create, fine-tune and test the associated data pipelines. Developers can also take advantage of infrastructure updates that are designed to facilitate “high-concurrency agent interactions,” so that thousands of AI agents can query the same database simultaneously without swamping it and causing problems. These include the broader preview of AlloyDB Express , a highly scalable database that supports sub-two-second provisioning for rapid agent prototyping. There’s also PostgreSQL for agents in AlloyDB , which provides an isolated workload environment that can handle three million queries per second. Finally, Google said BigQuery Graph is now generally available, bringing petabyte-scale graph analytics into relational database tables with zero ETL. It’s joined by previews of the TimesFM 3.0 forecasting model and TabFM predictive analyt"
+        }
+      ]
+    },
+    {
+      "story_id": "a9fcbd38f8701a99",
+      "title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate",
+      "summary": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips",
+      "owners": [
+        "nbcuniversal",
+        "siliconangle"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "e685f10c5f8ad9df",
+        "138aee1ad3870e1c"
+      ],
+      "sources": [
+        {
+          "name": "CNBC Technology",
+          "owner": "nbcuniversal",
+          "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+          "title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate",
+          "published_at": "2026-11-04T14:23:01+00:00",
+          "kind": "press",
+          "text": "Advanced Micro Devices reported third-quarter earnings on Tuesday that beat Wall Street's expectations, with revenue jumping 45% and data center sales nearly doubling from a year earlier. The stock was up 8% in extended trading, but later pared those gains as election results came in. Here's how the chipmaker did versus LSEG consensus estimates for the quarter: Revenue increased from $9.25 billion a year earlier, AMD said in a statement . Neoclouds like CoreWeave and Nebius rallied earlier Tuesday and remained higher after AMD reported results. CEO Lisa Su said on the earnings call that she expects server revenue to double year over year in 2027 and data center AI growth to accelerate even faster than the company had projected 90 days ago. The company expects data center to drive the majority of its revenue and earnings growth. \"We have worked across our supply chain to secure the wafers, substrates, advanced packaging, memory, and other key components needed to support much higher growth next year,\" Su said on the earnings call. AMD's report comes days after Intel disclosed similar data center growth, with revenue in that segment up 78% in the third quarter. But Intel's stock plummeted 29% on Friday over concerns about weak guidance and Intel's ability to meet demand . The data center unit makes up the majority of AMD's business, accounting for 64% of overall revenue, up from 47% a year ago. After years spent chasing Nvidia in the market for artificial intelligence graphics processing units, or GPUs, AMD's central processing units, or CPUs, are experiencing a major resurgence with the rise of agentic AI apps like Meta 's Muse. AMD's server CPUs are key for agentic apps because they power virtual machines and can run for hours on their own. Demand from agentic AI boosted AMD shares to a record in October. \"Adoption is just starting, and we expect demand to grow sharply as agents are deployed more broadly and take on more complex work,\" Su said on the earnings call with analysts. AMD's stock is up about 125% this year, but it saw three consecutive days of losses before rallying on Tuesday amid an industrywide sell-off tied to fears about overspending on AI. AMD is also a major player in the weakening PC market, which Intel blamed for its poor outlook last week. AMD and Intel are the largest makers of traditional x86 processors that power many laptops and desktops, while other laptops rely on Arm -based processors from the likes of Qualcomm and Apple. Global PC shipments declined 4% in the second quarter from a year earlier due to soaring costs for memory and other components, according to Counterpoint Research . AMD reports PC chip sales in a segment combined with gaming chips. Revenue in that business fell 8% from a year earlier to $3.7 billion. Gaming revenue was down 40% from a year ago. For the fourth quarter, AMD said it expects about $17 billion in revenue, beating the $16.2 billion average analyst estimate, according to LSEG. AMD sees its gross margin for the quarter coming in at 55%, slightly below the average estimate of 55.3%, according to StreetAccount. AMD also sells data center GPUs and full rack-scale systems called Helios that compete directly with Nvidia's Grace Blackwell and Vera Rubin systems. Meta, Microsoft , Anthropic, OpenAI, and Oracle are all beginning to use AMD Helios in their data centers. Meta said last week that its Helios racks are up and running, and AMD agreed to invest $1 billion in Meta's equity offering. AMD has also committed to investing up to $5 billion in Anthropic, which unveiled its highly anticipated prospectus last week as it inches closer to a potentially historic initial public offering . During a visit to Taiwan in October, Su said she plans to \"substantially increase our supply in 2027.\" Su and Nvidia CEO Jensen Huang have both made multiple trips to Taiwan and South Korea this year, holding meetings with key suppliers like Taiwan Semiconductor Manufacturing Company and memory leaders SK Hynix and Samsung. In September, AMD said it would acquire World Labs for $8.2 billion in an all-stock deal. The San Francisco-based AI lab, founded by industry pioneer Fei-Fei Li, is developing a so-called world model that simulates 3D environments to aid in developing robots and other physically grounded AI applications. WATCH: Helios is AMD’s first AI system to rival Nvidia Vera Rubin — we got an exclusive, first look"
+        },
+        {
+          "name": "SiliconANGLE",
+          "owner": "siliconangle",
+          "url": "https://siliconangle.com/2026/11/03/amd-beats-expectations-as-agentic-ai-sparks-its-data-center-revenue-growth-engines/",
+          "title": "AMD beats expectations as agentic AI sparks its data center revenue growth engines",
+          "published_at": "2026-11-04T01:43:41+00:00",
+          "kind": "press",
+          "text": "Shares of the chipmaker Advanced Micro Devices Inc. rose more than 5% in late trading today after it delivered solid third-quarter earnings and revenue today, with data center sales almost doubling from a year ago. The company reported earnings before certain costs such as stock compensation of $2.09 per share, easily beating Wall Street’s forecast of $1.95 per share. Revenue for the period jumped 45% from a year earlier, to $13.38 billion, ahead of the $13.09 billion analyst consensus estimate. All told, the company’s net income for the quarter came to $3.47 billion, up 77% from the previous year when it posted a profit of just $1.96 billion. The star performer in the quarter was AMD’s data center business unit, which accounted for 64% of its overall revenue, up from just 47% one year ago. After spending years trying to compete with Nvidia Corp.’s graphics processing units for artificial intelligence market share, the company’s traditional central processing units or CPUs are suddenly back in vogue thanks to the emergence of agentic AI applications such as Meta Platforms Inc.’s Muse. Autonomous AI agents can run much more efficiently on CPUs than they can on GPUs, boosting demand for the chips. Looking ahead, AMD expects its server revenue to double year-over-year in fiscal 2027, with AI growth likely to accelerate even faster than the company projected just three months ago. “Adoption is just starting and we expect demand to grow sharply as agents are deployed more broadly and take on more complex work,” AMD Chief Executive Lisa Su (pictured) said on a conference call with analysts. AMD’s data center story isn’t all about CPUs, though. The company also sells GPUs, including bundles of them shipped inside data center-ready rack-scale systems called Helios, and that system’s popularity is growing fast. Su said Anthropic PBC, OpenAI Group PBC, Microsoft Corp., Oracle Corp. and Meta are all using AMD Helios systems in their data centers. Last week, Meta said its first Helion racks are already up and running as it revealed that AMD invested $1 billion in its latest equity offering. The chipmaker has also committed to a $5 billion investment in Anthropic, which last week revealed the long-awaited prospectus for its upcoming initial public offering. AMD delivered its latest earnings report just days after its rival Intel Corp. did the same. Intel also posted strong data center revenue growth, but its stock fell more than 30% on Friday on weak guidance and concerns about its ability to meet demand for its products. But Su said AMD had no such problems. Last month she made a high-profile visit to Taiwan, where she held meetings with Taiwan Semiconductor Manufacturing Co. and a number of supply chain partners, and said after the trip that the company plans to substantially increase its supply in the coming year. “We have worked across our supply chain to secure the wafers, substrates, advanced packaging, memory and other key components needed to support much higher growth next year,” Su added. AMD’s results will go some way toward reassuring investors who have become increasingly nervous about the direction of the AI industry and whether the hundreds of billions of dollars being spent on it each year is actually going to generate a return on their investments, said eMarketer analyst Jacob Bourne. “The results are a test of AMD’s own performance and the broader AI trade, and its data center and revenue beats will encourage investors after the recent semiconductor selloff,” he added. Though AMD is far from immune to the recent volatility that has afflicted AI-related stocks, its future still looks increasingly rosy for now. “Demand for AI computing is not going to fall off a cliff, and AMD has the competitive products and major customer relationships to capitalize on that demand,” Bourne said. Strength in the data center unit is helping AMD to ride out difficulties in its traditional market for personal computers, which is the reason for Intel’s poor outlook. During the second quarter, global PC shipments fell 4% from a year earlier, with buyers dissuaded by the rising cost of components such as memory chips, according to data from Counterpoint Research. Along with Intel, AMD is a leading manufacturer of the x86 CPUs that power most of the world’s computers and laptops. The company reports PC chip revenue within a segment that also includes its chips for games consoles, and that unit saw its revenue decline 8% from a year earlier, to $3.7 billion. Gaming revenue fell 40% from the previous year. For the current quarter, AMD is targeting revenue of abouot $17 billion at the midpoint of its guidance range, ahead of the Street’s $16.2 billion consensus estimate. The company also sees its gross margins coming in at 55%, just below the Street’s forecast of 55.3%. AMD was busy on the acquisition front during the quarter. In September it revealed it’s going to buy World Labs Inc. for $8.2 billion in an all-stock deal. The San Francisco-based AI lab, founded by the AI industry luminary Fei-Fei Li, has developed world models that can simulate 3D environments to support the training of intelligent robots and other physical AI applications. The company also acquired a startup called Taalas Inc. that makes specialized model-specific integrated circuits, which are essentially chips that can be customized to run a specific AI model more efficiently. That acquisition should help to boost AMD’s position in AI inference. AMD also invested in the AI image generation model maker Stability AI Ltd., which raised $76 million in funding in August. Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elit"
+        }
+      ]
+    },
+    {
+      "story_id": "c47cce92578f66da",
+      "title": "How a blue wave crushed the tech right",
+      "summary": "The Democratic wins that swept America on election night was a backlash against data centers, and a rebuke to Silicon Valley elites.",
+      "owners": [
+        "axel-springer",
+        "conde-nast"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "b5950a4c60b90200",
+        "88d1bdb9c1605fea"
+      ],
+      "sources": [
+        {
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/how-a-blue-wave-crushed-the-tech-right-2026-11",
+          "title": "How a blue wave crushed the tech right",
+          "published_at": "2026-11-04T20:44:29+00:00",
+          "kind": "press",
+          "text": ""
+        },
+        {
+          "name": "Wired AI",
+          "owner": "conde-nast",
+          "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+          "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+          "published_at": "2026-11-04T23:13:14+00:00",
+          "kind": "press",
+          "text": "A wave of Democratic candidates across the country —and notably in Texas, a national data center hot spot and home to Elon Musk’s SpaceX—won their state and congressional races on Tuesday, including many candidates who voiced opposition to the data center industry . The results have sent some corners of the tech industry looking to the heavens for answers. In recent hours, data center enthusiasts have proclaimed on social media that they’re still “ bullish ” on building data centers—just not necessarily in Texas, or even on Earth at all. Instead, they say, it’s time to focus on data centers in space. Elon Musk—who spent more than $400 million of his fortune supporting Republican candidates who all went on to lose their midterms races—has been among those leading the charge. “Data centers in space looking pretty appealing right now,” Musk posted on X in the early hours of Wednesday, after it was clear that Democrats had taken the House and Senate. Jordan Lasker— the man behind the X account \"Crémieux,” which is a popular follow in the tech world and is known for posting race-based pseudoscience—also weighed in, saying , “Data centers in space are an incredible idea and anyone who doubted them didn't think enough about tonight's election results.” Throughout the day, Musk employees , tech investors , AI researchers , venture capitalists , and industry fans joined the chorus of support for space-based data centers. Soham Mehta, a research fellow at the techno-optimist think tank Foundation for American Innovation, argued that underwater data centers should also be considered. (In June, China began operating what it claims is the world’s first underwater data center.) Some companies are already trying to put compute in orbit. Among them are Google, which launched a satellite that it says contains “data center class TPU,” and SpaceX, which says it aims to deploy “thousands of AI satellites starting as soon as late 2027.” Blue Origin is also in the mix, having filed for a Federal Communications Commission permit to launch 50,000 satellites that will constitute an “orbital data center system.” There are also a few startups aiming to build data centers in space, including Starcloud, which claims to have carried \"the first Nvidia H100 GPU into orbit\" in November 2025. Despite being technically possible, the realities of in-orbit data centers are difficult . Among other things, space-based data centers are much more expensive than land-based ones, can’t grow to hyperscale size, and are subject to the risks and whims of satellite launches. When it comes to Texas data centers, the concerns of tech bros aren’t completely unfounded. Experts tell WIRED that the change in leadership could translate to some concrete changes in the industry—albeit with limits. Although Democrats will have control of the Texas House of Representatives, Republicans still have control over the state’s senate. Robert Paterson, professor of land use and environmental planning at the University of Texas at Austin, tells WIRED that the split means that some immediate attempts at change “will probably be stymied a bit.” Adrian Shelley, director of nonprofit consumer advocacy group Public Citizen’s Texas office, tells WIRED that the legislature would be a likely place to hash out high-impact policies like the reallocation of state agency resources. However, he adds that the governor could effect more immediate changes by issuing executive orders, or requesting the resignation of politically appointed officials in state agencies. Shelley says that these oversight agencies—such as the Texas Commission on Environmental Quality, the Public Utility Commission, and the Texas Water Development Board—have the authority to charge fines for breaking state law, or in extreme cases to revoke permits for projects like data centers. But Paterson notes that Texas developers have particularly strong “vested rights,” which protects the terms of their projects from the moment their permits are approved, even if construction hasn’t begun. Another medium-term route to reshaping Texas’ data center industry could be to give more power to its counties. Paterson noted that nearly half of the state’s data centers exist in unincorporated territory, which puts them outside the jurisdiction of city zoning laws. Unlike other states, Paterson says, Texas counties have relatively limited enforcement abilities. Under the state's so-called Dillon’s Rule, counties only have powers that are “specifically allotted to it by the state.” So while they have authority over things like access and egress to county roads or construction on floodplains, he says they don't have the zoning authority that would help closely regulate projects like data centers. Paterson says that the new attorney general could theoretically adjust the terms in the state’s biannual handbook, which establishes the limits of county authority. He also argues that even in a split legislature, especially since anti-data-center sentiment crosses party lines, state lawmakers could propose a viable bill giving counties “limited zoning authority over data centers.\" Shelley tells WIRED that since “data centers were a decisive factor in this blue wave,” the upcoming legislative season will be “very interesting.” “I will say the data center industry hasn't shown a lot of interest in working with state lawmakers or local leaders,” Shelley says, “and I will be interested to see if that changes.”"
+        }
+      ]
+    },
+    {
+      "story_id": "bba75dff7faa50ed",
+      "title": "After the midterms, Big Tech’s AI data center problem is only getting bigger",
+      "summary": "On Tuesday, U.S. voters delivered an overwhelming victory for Democratic candidates throughout the country that will upend the halls of power in Washington and data center hotbeds like Texas.",
+      "owners": [
+        "fortune",
+        "techcrunch"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "9c94f76bf2a09fd7",
+        "2c368bf7ce921244"
+      ],
+      "sources": [
+        {
+          "name": "Fortune",
+          "owner": "fortune",
+          "url": "https://fortune.com/2026/11/04/voters-pull-the-plug-on-big-techs-data-center-boom/",
+          "title": "After the midterms, Big Tech’s AI data center problem is only getting bigger",
+          "published_at": "2026-11-04T21:18:36+00:00",
+          "kind": "press",
+          "text": "After ChatGPT launched in late 2022, tech companies raced to open data centers at unprecedented rates, pouring billions of dollars into AI hubs in states like Texas and Ohio. Amazon , Microsoft , Oracle , and others did so even as polling showed the centers were highly unpopular among a large swath of the U.S. population. On Tuesday, the issue came to a decisive tipping point. U.S. voters delivered an overwhelming victory for Democratic candidates throughout the country that will upend the halls of power in Washington and data center hotbeds like Texas. While tech companies have established years-long plans to keep opening the centers, and are regularly plugging more online, they will be met with new state and national political leaders whose mandate is to slow down the unpopular facilities. They also now face a wave of voter rejection on numerous projects across the U.S. Voters sided against data center development in all but one of 38 local ballot contests with complete counts tracked by Redbud Consulting, a Washington, D.C., polling and data science firm, according to preliminary results. That includes Piqua, a 20,000-person city in west central Ohio, where Meta is planning to spend $1 billion to construct a data center with a capacity of up to 1.4 gigawatts. Residents voted to recall the mayor and two city commissioners who supported the project. In Ohio, voters in at least 14 municipalities approved data center bans or other restrictions, showing that the opposition extended well beyond a handful of high-profile projects. And in Texas, Democrat Gina Hinojosa defeated longtime Republican Gov. Greg Abbott after campaigning on a moratorium on data center development until lawmakers establish additional protections for residents. Texas has more than 400 data center facilities and many more under construction, according to the American Edge Project and Technology Councils of North America. “Most definitely, there will be challenges — two or three steps forward, one step back,” Baron Fung, senior research director at market research firm Dell’Oro Group, told Fortune , speaking about what Big Tech companies now face. “There could be delays … trying to address any kind of guidelines that weren’t really reinforced before regarding data centers.” Fung said overall progress will continue, but companies may shift projects as they deal with pushback, and they will be asked to assume more of the financial and energy burden going forward rather than relying as much on municipalities. Elon Musk, whose SpaceX expects $35 billion to $40 billion in capital expenditures in the quarter ending in December, wrote on X Tuesday night that “Data centers in space looking pretty appealing right now.” Musk spent more than $200 million supporting Republican Senate candidate Ken Paxton, who lost. The unpopularity of data centers in the U.S. has been a central theme of the AI revolution. Most Americans oppose data centers and are more fearful about AI than hopeful, according to recent Pew Research Center polls. During the second quarter of this year, at least 45 data center projects worth roughly $68 billion were disrupted by local opposition, according to Data Center Watch, a research project run by the company 10a Labs. The hyperscalers opening the centers have themselves warned about disruptions to their plans. In September, Oracle executives noted during an earnings call that the company doesn’t assume every project will arrive on time, that it has backup options, and that it brings large campuses online in phases. The company has developments across the U.S. and internationally, so “all of our eggs are not in a single basket,” Co-CEO Clay Magouyrk said. Oracle, in particular, has stood out for its risk-taking during the AI buildout, having more than $125 billion in debt and other notes payable and fundraising aggressively. Earlier this year, the company said it would need to raise between $45 billion and $50 billion in 2026 alone to fund its infrastructure expansion. Before Tuesday’s election results, Microsoft, Amazon, and other major companies had mounted charm offensives in communities throughout the country in the hopes of winning over weary residents. The strategy has centered on money, utility-bill protections, local jobs, and transparency. In October, Amazon announced “Built Together,” pledging more than $1 billion over five years to U.S. communities hosting its data centers. Amazon also pledged to publish its annual energy and water use, install lower-emission backup generators at new sites, and pay enough for power to avoid increasing other customers’ electricity bills. In January, Microsoft promised to cover the power infrastructure costs associated with its facilities and stop seeking local property-tax breaks. Amazon, Microsoft, and Google also dropped requirements that local officials sign nondisclosure agreements regarding data center projects. That may not be enough in states like Texas. Incoming Gov. Hinojosa has called for repealing data center tax breaks and requiring developers to protect household utility bills and local water supplies, while giving residents more say over new projects. “The impact may ultimately be less about restrictions than extracting more from data center operators for the social license to operate through taxes, power rates, environmental considerations, and community support,” analysts at investment banking firm Macquarie Group Limited wrote in a note Wednesday. AI cloud providers could face higher rents for power-equipped data center buildings needed to fulfill customer contracts, potentially passing those costs on to customers, the analysts wrote. Demand from large cloud companies and AI labs could further tighten the supply of available sites. Big Tech companies may also fall back on upgrading or retrofitting existing data centers, Dell’Oro’s Fung said. Many analysts and tech industry experts agree on one thing: Even with restrictions, AI centers are here to stay"
+        },
+        {
+          "name": "TechCrunch AI",
+          "owner": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "title": "After the midterms, a bigger clash over data centers could be coming",
+          "published_at": "2026-11-05T01:02:14+00:00",
+          "kind": "press",
+          "text": "The November 3 midterm results gave Democrats full control of Congress, setting the stage for what could be one of the most divided U.S. governments this decade, with Republicans in the White House. Tuesday’s results suggest that anger over data centers, the large facilities that house the computers powering AI, is becoming a political force. With Democrats now in control of Congress, that could lead to new limits on where data centers can be built and how much say local communities have. Data centers became a ballot-box issue in various states. An NBC exit poll showed how concerned voters are about AI: More than half of respondents believe that AI will do more harm than good, while almost 80% are against the building of data centers in their neighborhoods. Almost 60%, meanwhile, said data centers were a crucial or major factor in their vote. Nadine Smith, president and CEO of the racial justice organization Color of Change, called Tuesday’s election a referendum on “who this economy is built for.” “National security matters,” Smith said, referring to a common argument from data center supporters that the infrastructure is essential for the U.S. to stay ahead in war and in its rivalry with China. “And so do the families in South Memphis breathing exhaust from the gas turbines powering an AI supercomputer.” (She was referring to xAI’s data center in Memphis, Tennessee, which uses gas turbines for power.) Voters in several states pushed back against the AI buildout, even as pro-AI super PACs spent millions hoping to sway them this midterm. The anti-data center backlash was especially felt in states like Ohio, where OpenAI has eyed a $500 billion data center, backed by more than $100 billion in financing from Nvidia. In fact, the Ohio county where Meta had planned a 700,000-square-foot facility just passed a ban on data centers, and local communities across the state overwhelmingly voted against data center buildout measures. Analysts at Morgan Stanley predict that Democratic governor-elect Amy Acton will also pose a major risk to Ohio’s data center buildout. Elsewhere, candidates in Texas, Maine, Michigan, Nevada, Georgia, and South Carolina all won seats after taking a stance against the rapid buildout of data centers. “It is clear that money does not buy outcomes,” said Anshi Bhatt, a tech and policy researcher, adding that in modern politics, creating a “local villain” is one way to build campaign momentum. Likely next steps include more construction moratoriums or requiring data centers to pay for their own power grid upgrades instead of passing those costs on to nearby communities. Goldman Sachs, in fact, predicts data center construction delays in states like Georgia and Texas because of Democratic gains. Democratic control of Congress could also improve the odds for bills like the one Sen. Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced earlier this year, though any such bill would also face a possible veto. It proposes a nationwide moratorium on new data centers until Congress adds new guardrails and ensures that the buildout does not raise electricity costs, harm the environment, or proceed without community approval. There are also bills like the GRID Savings Act, proposed by New Mexico Sen. Martin Heinrich, which would prevent grid infrastructure costs from being passed on to communities during large AI data center buildouts. The environment is also a major concern, especially at xAI’s data center in Memphis and at the data centers throughout Virginia, known as the world capital of data centers, where gas turbines are used for power. Maia Woluchem, program director at Data & Society, a nonprofit research group, believes that changes to energy regulations, land rights, and other environmental policies could affect the data center buildout, especially as congressional Democrats look further into the Trump administration’s rollback of certain energy protections, as the New York Times reported they might . “Regardless of federal action, I could imagine that we will see additional movement at the state and local level, given the momentum that’s been building from the ground up,” Woluchem continued, citing governor-elect Gina Hinojosa, who supports a statewide moratorium on data centers, as an example. Both Hinojosa and Gov. Greg Abbott called for some limits, but Hinojosa centered much of her campaign on opposing data centers, a notable choice in Texas, whose electrical grid has proved vulnerable over the past decade. But the hard part is still to come. Smith, for example, is now expecting a fight, or even more executive orders, to bypass what Congress is now likely to block. “Even among Democrats, a blanket freeze is contested,” she said, referring to some Democrats’ worry that a moratorium could slow AI progress and hurt national security. She also expects AI lobbyists to start calling lawmakers. “Democrats ran on making Big Tech pay,” Smith said. “Our job is to make sure they remember it once the cameras leave.” The backlash runs deeper than the buildings themselves, which aren’t new. One private equity executive told me recently that people don’t necessarily hate data centers, but rather AI, and that data centers have become a stand-in for people’s fears and anxieties about the technology. “It does look like the results are pointing to a real frustration with tech power at minimum,” Woluchem said, noting that this is also a bipartisan issue. For the past month, people have told me they are worried about data centers’ effect on the environment and about their lack of say in whether they’re built. Amazon, for example, built a data center in Gilroy, California, without many residents knowing , by satisfying a 45-year-old zoning law. Vague or outdated zoning laws, along with requirements that local officials sign nondisclosure agreements (NDAs) barring them from discussing data center projects, have only fueled people’s outrage about the buildout. Data centers have also r"
+        }
+      ]
+    },
+    {
+      "story_id": "b7f1ad01574b7214",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "ff138f709a7e7c37"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai",
+          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "fe5535bb4804d877",
+      "title": "Qodo builds context into AI code review with Codex",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "598c6194c0d34c23"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/index/qodo-codex-plugin",
+          "title": "Qodo builds context into AI code review with Codex",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    }
+  ]
 }
