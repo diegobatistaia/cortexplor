@@ -54,7 +54,7 @@ e cole no campo Secret, da linha `BEGIN` até a linha `END`.
 > precisa ser cadastrada uma vez no painel da Hostinger (**Avançado > Acesso SSH >
 > Chaves SSH > Adicionar chave SSH**, nome sugerido `Deploy Cortexplor`).
 >
-> A conta de hospedagem (`u433721675` em `147.79.91.241:65002`) é a mesma que abriga
+> A conta de hospedagem (`u433721675` em `82.112.247.46:65002`) é a mesma que abriga
 > os outros domínios — isso é do plano, não do projeto. O que fica isolado é a chave:
 > revogar a do Cortexplor não derruba o deploy de nenhum outro site.
 

@@ -461,7 +461,8 @@ deploy:
   # Chave de deploy exclusiva deste projeto (deploy-cortexplor), separada de
   # qualquer outro site hospedado na mesma conta.
   # A CHAVE PRIVADA nunca entra aqui: ela vai em GitHub > Secrets.
-  host: 147.79.91.241
+  # 2026-11-06: a Hostinger mudou o servidor da conta; IP novo conferido no hPanel.
+  host: 82.112.247.46
   port: 65002
   user: u433721675
   remote_path: /home/u433721675/domains/cortexplor.com/public_html/
