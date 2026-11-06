@@ -1,0 +1,43 @@
+{
+  "lang": "en",
+  "slug": "openai-ends-ndas-data-center-communities",
+  "story_id": "a663dd64afe0a46b",
+  "title": "OpenAI Drops NDAs for Data Centers After Election Backlash",
+  "dek": "The pledge lands two days after US midterm voters rejected AI data center expansion nationwide, according to CNBC, SiliconANGLE and The Verge.",
+  "meta_description": "OpenAI says it will stop using NDAs with officials on data center deals and will keep paying full electricity costs after voters rejected AI buildout.",
+  "keyword": "OpenAI data centers NDAs",
+  "category": "politica",
+  "tags": ["ai", "openai", "data centers", "policy", "us midterms"],
+  "body": [
+    {"type": "p", "text": "OpenAI published a new set of community commitments for the data centers it owns and operates on Thursday, including a pledge to stop using non-disclosure agreements with public officials, according to CNBC, SiliconANGLE and The Verge.", "items": []},
+    {"type": "p", "text": "The announcement came two days after the US midterm elections, in which, per CNBC's analysis of Ballotpedia data, voters approved restrictions or rejected pro-development measures in 40 of 41 local ballot questions across 10 states, as the site <a href=\"https://cortexplor.com/en/us-midterm-voters-reject-ai-data-centers/\">covered at the time</a>. The Verge likewise described the vote as a broad rebuke of data center expansion.", "items": []},
+    {"type": "h2", "text": "No more NDAs with officials", "items": []},
+    {"type": "p", "text": "SiliconANGLE and The Verge report that OpenAI will no longer use non-disclosure agreements with public officials on data center projects it owns and operates. Going forward, the company says it will seek only \"narrow protections\" covering legitimate security information, trade secrets, or proprietary and competitively sensitive data, both outlets say.", "items": []},
+    {"type": "p", "text": "SiliconANGLE notes that such agreements have historically let data center developers keep negotiation details with local governments under wraps. The Verge adds that Amazon already announced in October it would stop using NDAs with government agencies on its own data center deals.", "items": []},
+    {"type": "p", "text": "OpenAI will also publish construction plans and noise projections before building starts, and disclose the number of jobs each site is expected to create, according to SiliconANGLE. Each project will get its own \"local compact\" document, with annual updates and a designated local contact for residents, The Verge reports.", "items": []},
+    {"type": "h2", "text": "Who foots the power bill", "items": []},
+    {"type": "p", "text": "The company also reaffirmed a commitment it first made in January 2026: to pay the full cost of electricity and the grid infrastructure its data centers require, according to CNBC, SiliconANGLE and The Verge. That includes financing new transmission lines and providing financial assurances to protect other grid users if a project is delayed or canceled, per SiliconANGLE.", "items": []},
+    {"type": "p", "text": "OpenAI further pledged to scale back its data centers' power draw during peak grid demand, an approach SiliconANGLE calls a \"flexible data center model\" and says is also drawing interest from Nvidia and Google.", "items": []},
+    {"type": "p", "text": "The stakes are large: CNBC reports that OpenAI told investors in February it is targeting $600 billion in total compute spending by 2030, and the company has since announced major data center projects in Georgia and Ohio. Lehane said the policy blueprint has been in the works since August and followed meetings with dozens of lawmakers and candidates, according to CNBC.", "items": []},
+    {"type": "h2", "text": "A template for law, and for rivals", "items": []},
+    {"type": "p", "text": "Alongside the commitments, OpenAI released a policy paper urging lawmakers to turn these practices into law across the data center industry, CNBC and SiliconANGLE report. \"What we're doing with this blueprint is really laying out the best lessons that we have learned and committing to applying them as they go forward,\" OpenAI Chief Global Affairs Officer Chris Lehane told reporters, according to CNBC. \"This will help ensure that there is a very high floor in terms of how people move forward.\"", "items": []},
+    {"type": "p", "text": "CNBC reports that other tech companies, including Meta, Microsoft, Google and Anthropic, have already outlined similar commitments. The move also follows OpenAI's decision to rebrand \"data centers\" as \"compute campuses\" in US announcements, which the site <a href=\"https://cortexplor.com/en/openai-rebrands-data-centers-compute-campuses/\">reported on days before the vote</a>.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "What changes: some contracts used to include confidentiality clauses with local officials; OpenAI now says it will seek only narrow protections for security, trade secrets or competitively sensitive data, per SiliconANGLE and The Verge.",
+      "Who is affected: communities, local unions and public officials in areas where OpenAI owns or operates data centers, according to SiliconANGLE.",
+      "Since when: the commitments were announced on November 5, 2026, and apply to future OpenAI-owned \"compute campuses,\" per The Verge.",
+      "What it costs: OpenAI reaffirms it covers the full cost of electricity and grid infrastructure for its data centers, a pledge first made in January 2026 and repeated now, according to CNBC, SiliconANGLE and The Verge."
+    ]}
+  ],
+  "image": {
+    "query": "data center server racks construction",
+    "alt": "Rows of server racks inside a data center under construction"
+  },
+  "sources": [
+    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html", "title": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/05/openai-makes-new-data-center-commitments-ai-policy-recommendations/", "title": "OpenAI makes new data center commitments, AI policy recommendations"},
+    {"name": "The Verge AI", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda", "title": "OpenAI is stepping back from NDAs for data center projects"}
+  ],
+  "status": "draft"
+}
