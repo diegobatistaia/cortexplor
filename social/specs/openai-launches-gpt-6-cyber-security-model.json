@@ -1,0 +1,101 @@
+{
+  "slug": "openai-launches-gpt-6-cyber-security-model",
+  "lang": "en",
+  "date": "06 Nov 2026",
+  "no": 84,
+  "category": "Models",
+  "kicker": "Models · OpenAI",
+  "headline": "OpenAI launches GPT-6 Cyber security model",
+  "headline_hl": "GPT-6 Cyber",
+  "dek": "The model finds flaws and strays less, per The Verge.",
+  "image": {
+    "path": "assets/img/openai-launches-gpt-6-cyber-security-mod-a4a63061.jpg",
+    "credit": "FlyD / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Under 1%<br>off limits",
+  "sources": [
+    "The Verge",
+    "TechCrunch"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "GPT-6 Cyber",
+    "body": [
+      "OpenAI launched GPT-6 Cyber, a security model the company says is better at finding vulnerabilities, per The Verge.",
+      "It reaches the top tier of Daybreak Red first, a program for security researchers."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What it did",
+    "body": "Per The Verge and TechCrunch:",
+    "points": [
+      {
+        "h": "Firefox",
+        "t": "Found 81 unknown flaws in the browser, says OpenAI."
+      },
+      {
+        "h": "Linux",
+        "t": "Scanned the kernel and flagged 948 potential issues (TechCrunch)."
+      },
+      {
+        "h": "Limits",
+        "t": "Went off limits in under 1% of tests (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "\"Critical\" risk",
+    "body": [
+      "OpenAI raised the model to \"Critical\" on its Preparedness Framework, per The Verge.",
+      "The earlier version was \"High.\" The chance of acting off limits fell from about 5% to under 1% (The Verge)."
+    ],
+    "stat": {
+      "big": "5% → 1%",
+      "cap": "chance of going off limits, says The Verge"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Access",
+        "t": "The rest of the tier gets it in coming weeks (The Verge)."
+      },
+      {
+        "h": "Funding",
+        "t": "$1 billion for Daybreak professionals (TechCrunch)."
+      },
+      {
+        "h": "Open code",
+        "t": "Computing power to fix flaws (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI launched GPT-6 Cyber, a security model it says goes off limits far less often.",
+    "body": [
+      "Per The Verge, the model is better at finding vulnerabilities and reaches the top tier of Daybreak Red first, a program for security researchers. OpenAI raised its rating to Critical on the Preparedness Framework, up from High for GPT-5.6 Cyber.",
+      "The chance of acting off limits in tests fell from about 5% to under 1%, says The Verge. OpenAI says the model found 81 unknown flaws in Firefox, and TechCrunch reports it flagged 948 potential issues in the Linux kernel. The company also announced $1 billion for security professionals working in Daybreak."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#gpt6cyber",
+      "#cybersecurity"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about GPT-6 Cyber, OpenAI's security model",
+    "Slide 2: GPT-6 Cyber reaches the top tier of Daybreak Red",
+    "Slide 3: 81 Firefox flaws, 948 Linux issues and under 1% off limits",
+    "Slide 4: Critical rating and a drop from 5% to 1% in risk",
+    "Slide 5: wider access, $1 billion and open source support",
+    "Slide 6: sources for the GPT-6 Cyber story: The Verge and TechCrunch"
+  ]
+}

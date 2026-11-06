@@ -1,0 +1,101 @@
+{
+  "slug": "openai-lanca-gpt-6-cyber-seguranca",
+  "lang": "pt",
+  "date": "06 nov 2026",
+  "no": 87,
+  "category": "Modelos",
+  "kicker": "Modelos · OpenAI",
+  "headline": "OpenAI lança o GPT-6 Cyber para segurança digital",
+  "headline_hl": "GPT-6 Cyber",
+  "dek": "O modelo acha falhas e age menos fora dos limites, segundo o The Verge.",
+  "image": {
+    "path": "assets/img/openai-lanca-gpt-6-cyber-seguranca-a4a63061.jpg",
+    "credit": "FlyD / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Menos de<br>1% de risco",
+  "sources": [
+    "The Verge",
+    "TechCrunch"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "GPT-6 Cyber",
+    "body": [
+      "A OpenAI lançou o GPT-6 Cyber, modelo de segurança cibernética que a empresa diz ser melhor em achar vulnerabilidades, segundo o The Verge.",
+      "Ele chega primeiro ao nível mais alto do Daybreak Red, programa para pesquisadores de segurança."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que ele fez",
+    "body": "Segundo o The Verge e o TechCrunch:",
+    "points": [
+      {
+        "h": "Firefox",
+        "t": "Achou 81 falhas inéditas no navegador, diz a OpenAI."
+      },
+      {
+        "h": "Linux",
+        "t": "Varreu o kernel e apontou 948 problemas em potencial (TechCrunch)."
+      },
+      {
+        "h": "Limites",
+        "t": "Saiu dos limites em menos de 1% dos testes (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Risco \"Crítico\"",
+    "body": [
+      "A OpenAI elevou o modelo a \"Crítico\" no Preparedness Framework, segundo o The Verge.",
+      "A versão anterior estava em \"Alto\". A chance de agir fora dos limites caiu de cerca de 5% para menos de 1% (The Verge)."
+    ],
+    "stat": {
+      "big": "5% → 1%",
+      "cap": "chance de sair dos limites, diz o The Verge"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Acesso",
+        "t": "O resto do nível recebe nas próximas semanas (The Verge)."
+      },
+      {
+        "h": "Verba",
+        "t": "US$ 1 bilhão para profissionais do Daybreak (TechCrunch)."
+      },
+      {
+        "h": "Código",
+        "t": "Poder de computação para corrigir falhas (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI lançou o GPT-6 Cyber, modelo de segurança que promete agir menos fora dos limites.",
+    "body": [
+      "Segundo o The Verge, o modelo é melhor em achar vulnerabilidades e chega primeiro ao nível mais alto do Daybreak Red, programa para pesquisadores de segurança. A OpenAI elevou a classificação para Crítico no Preparedness Framework, antes Alto no GPT-5.6 Cyber.",
+      "A chance de agir fora dos limites nos testes caiu de cerca de 5% para menos de 1%, diz o The Verge. A OpenAI afirma que o modelo achou 81 falhas inéditas no Firefox, e o TechCrunch conta que ele apontou 948 problemas em potencial no kernel Linux. A empresa também anunciou US$ 1 bilhão para profissionais de segurança do Daybreak."
+    ],
+    "cta_variant": "A",
+    "cta": "Você confiaria numa IA para caçar falhas de segurança?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#gpt6cyber",
+      "#ciberseguranca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o GPT-6 Cyber, modelo de segurança da OpenAI",
+    "Slide 2: GPT-6 Cyber chega ao nível mais alto do Daybreak Red",
+    "Slide 3: 81 falhas no Firefox, 948 problemas no Linux e menos de 1% fora dos limites",
+    "Slide 4: classificação Crítico e queda de 5% para 1% no risco",
+    "Slide 5: acesso ampliado, US$ 1 bilhão e apoio a código aberto",
+    "Slide 6: fontes da matéria sobre o GPT-6 Cyber: The Verge e TechCrunch"
+  ]
+}
