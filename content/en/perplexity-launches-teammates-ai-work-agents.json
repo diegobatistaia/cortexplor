@@ -1,0 +1,108 @@
+{
+  "lang": "en",
+  "slug": "perplexity-launches-teammates-ai-work-agents",
+  "story_id": "2ab893e07e7495f3",
+  "title": "Perplexity launches Teammates, AI agents for work tasks",
+  "dek": "The feature is limited to the $200-a-month Max plan and runs inside Perplexity Computer around the clock, according to The Verge and Engadget.",
+  "meta_description": "Perplexity has launched Teammates, AI agents that work around the clock inside Perplexity Computer, limited to its $200-a-month Max plan, The Verge reports.",
+  "keyword": "Perplexity Teammates",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "perplexity",
+    "ai agents",
+    "applications"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Perplexity launched Teammates on Thursday, AI agents built to handle work tasks on their own, around the clock, according to The Verge and Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Teammates run inside Perplexity Computer, the company's existing system for multi-step tasks. Both outlets report that Teammates build on top of Computer: each one can be assigned its own role, and several of them can work at the same time inside the same workspace, pulling in the projects, skills and memory from the Perplexity tools a user already has.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Access is limited to subscribers of Perplexity's Max plan, which costs $200 a month, The Verge and Engadget confirm. Engadget adds that the plan can also be billed annually, at $2,000 a year, and that the feature is already live on the web and on iOS. The Verge notes that this makes Perplexity's approach markedly more expensive than other companies' attempts at the same kind of feature.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the company says it works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge reports that users can track each Teammate's progress through individual threads inside the Perplexity app, and can also interact with them through Slack. Engadget describes the feature as built for ongoing work with minimal supervision: every Teammate gets its own entry in the Perplexity Computer sidebar, where a user can see what has already been finished, hand off more work, tell it to switch gears, or ask for a status update inside that same thread.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget adds that Teammates notify the user when a decision needs to be made, and that one Teammate can bring in other Teammates on its own to split up a larger task — pulling in more of them as the workload grows, and planning out what each newcomer should handle.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a post on X cited by The Verge, Perplexity co-founder and chief executive Aravind Srinivas said he expects that, \"over time,\" every organization will have \"hundreds of teammates working for each person.\" That is the executive's own projection, not a feature available today.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A crowded field against OpenAI and Anthropic",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge places Teammates alongside OpenAI's Dots and a similar Anthropic agent it calls Claude Duet, saying all three let an agent keep working in the background on an ongoing task. <a href=\"https://cortexplor.com/en/openai-launches-dots-always-on-agents-chatgpt/\">Cortexplor reported in September</a> that OpenAI's Dots launched restricted to the $100-a-month Pro plan and to Business Premium — half of what Perplexity now charges for Teammates — with every subscription including one agent at no extra cost.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The main difference between the two launches, based on what each story's sources confirm, is how many agents work at once: Teammates are designed to operate as a group inside one workspace, while Dots, in the September reporting, showed up as one agent per user, with \"specialist\" versions configured for a specific role inside a company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget's description of Teammates as working \"autonomously with minimal supervision\" points to the same mechanism The Verge describes: once a Teammate is assigned a job, it keeps running on its own, checking in only through its thread when it needs input, rather than waiting for a new prompt at every step the way a standard chatbot does.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: subscribers to Perplexity's Max plan, according to The Verge and Engadget; the feature is already live on the web and on iOS, according to Engadget.",
+        "Since when: launched on November 5, 2026, according to The Verge.",
+        "How much it costs: $200 a month, or $2,000 a year according to Engadget, as part of the Max plan.",
+        "What's different: Teammates let several agents run at once inside Perplexity Computer, while OpenAI's Dots, including its specialist versions built for a single role, are limited to one agent at a time on the $100-a-month Pro plan, as Cortexplor reported in September.",
+        "Who's affected: companies and professionals already using Perplexity Computer for long-running tasks who want to split that work across several agents running in parallel, instead of handling one agent at a time."
+      ]
+    }
+  ],
+  "image": {
+    "query": "office team collaboration artificial intelligence agents",
+    "alt": "Digital interface showing several AI agents working at the same time"
+  },
+  "sources": [
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": "Perplexity launches its own take on AI agents for work"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+      "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks"
+    }
+  ],
+  "status": "draft"
+}

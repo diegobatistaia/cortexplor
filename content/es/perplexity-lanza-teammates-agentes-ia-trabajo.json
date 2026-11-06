@@ -1,0 +1,103 @@
+{
+  "lang": "es",
+  "slug": "perplexity-lanza-teammates-agentes-ia-trabajo",
+  "story_id": "2ab893e07e7495f3",
+  "title": "Perplexity lanza Teammates, agentes de IA para el trabajo",
+  "dek": "La función es exclusiva del plan Max, de 200 dólares al mes, y funciona dentro de Perplexity Computer las 24 horas, según The Verge y Engadget.",
+  "meta_description": "Perplexity lanzó Teammates, agentes de IA que trabajan 24 horas dentro de Perplexity Computer, exclusivos del plan Max, de 200 dólares al mes, según The Verge.",
+  "keyword": "Perplexity Teammates",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "perplexity",
+    "agentes de ia",
+    "aplicaciones"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Perplexity lanzó el jueves Teammates, agentes de inteligencia artificial capaces de encargarse solos de tareas de trabajo, las 24 horas del día, según The Verge y Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los Teammates funcionan dentro de Perplexity Computer, el sistema de la empresa que ya ejecutaba tareas de varios pasos. Ambos medios coinciden en que la novedad se construye sobre esa base: cada Teammate puede recibir un rol o una tarea distinta, y varios trabajan al mismo tiempo dentro del mismo espacio de trabajo, tomando los proyectos, habilidades y memoria de las herramientas que el usuario ya usa en Perplexity.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El acceso es exclusivo para quienes pagan el plan Max de Perplexity, de 200 dólares al mes, confirman The Verge y Engadget. Según Engadget, la suscripción también se puede pagar de forma anual, por 2.000 dólares, y la función ya está disponible en el sitio web y en la aplicación para iOS.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cómo dice la empresa que funciona",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge informa que es posible seguir el avance de cada Teammate a través de conversaciones individuales dentro de la aplicación de Perplexity, además de interactuar con ellos por Slack. Engadget describe la función como pensada para trabajo continuo con supervisión mínima: cada Teammate tiene su propia entrada en la barra lateral de Perplexity Computer, donde el usuario ve lo que ya terminó, puede asignarle más trabajo, cambiarle la prioridad o pedirle una actualización de estado dentro de la misma conversación.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget añade que los agentes avisan al usuario cuando hace falta tomar una decisión, y que un Teammate puede, por su cuenta, incorporar a otros Teammates para repartirse una tarea más grande, sumando más colegas de IA a medida que crece la carga de trabajo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En una publicación en la red social X citada por The Verge, el cofundador y director ejecutivo de Perplexity, Aravind Srinivas, dijo que espera que, \"con el tiempo\", cada organización tenga \"cientos de teammates trabajando para cada persona\". Es una proyección del propio ejecutivo, no una función ya disponible hoy.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Disputa con OpenAI y Anthropic",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge compara el lanzamiento con los Dots, de OpenAI, y con un agente similar de Anthropic al que llama Claude Duet: según el medio, los tres productos permiten que un agente siga trabajando en segundo plano en una tarea continua. <a href=\"https://cortexplor.com/es/openai-lanza-dots-agentes-permanentes-chatgpt/\">Cortexplor contó en septiembre</a> que los Dots de OpenAI llegaron restringidos al plan Pro, de 100 dólares al mes, y a Business Premium, la mitad de lo que Perplexity cobra ahora por los Teammates, con un agente incluido sin costo adicional en cada suscripción.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La diferencia central entre los dos lanzamientos, según lo que confirman las fuentes de cada nota, está en cuántos agentes trabajan a la vez: los Teammates nacen para operar en grupo dentro de un mismo espacio de trabajo, mientras los Dots, en la cobertura de septiembre, aparecían como un agente por usuario, con versiones \"specialist\" configuradas para una función específica dentro de la empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: quienes pagan el plan Max de Perplexity, según The Verge y Engadget; la función ya está en la web y en la aplicación para iOS, según Engadget.",
+        "Desde cuándo: lanzado el 5 de noviembre de 2026, según The Verge.",
+        "Cuánto cuesta: 200 dólares al mes o, según Engadget, 2.000 dólares al año, dentro del plan Max.",
+        "Qué cambia: los Teammates permiten varios agentes a la vez dentro de Perplexity Computer, mientras los Dots de OpenAI se limitan a un agente por vez en el plan Pro, de 100 dólares al mes, como contó Cortexplor en septiembre.",
+        "A quién afecta: empresas y profesionales que ya usan Perplexity Computer para tareas largas y quieren repartir el trabajo entre varios agentes a la vez."
+      ]
+    }
+  ],
+  "image": {
+    "query": "office team collaboration artificial intelligence agents",
+    "alt": "Interfaz digital que muestra varios agentes de inteligencia artificial trabajando al mismo tiempo"
+  },
+  "sources": [
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": "Perplexity launches its own take on AI agents for work"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
+      "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks"
+    }
+  ],
+  "status": "draft"
+}
