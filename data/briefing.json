@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T09:42:48+00:00",
-  "posts_per_language_today": 2,
+  "generated_at": "2026-11-07T14:42:52+00:00",
+  "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 0,
+  "already_written_today": 2,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -114,29 +114,19 @@
       ]
     },
     {
-      "story_id": "7b32eb88722946cd",
-      "title": "GPT-6 Cyber: OpenAI lança novo modelo que já identificou mais de 80 falhas",
-      "summary": "GPT-6 Cyber tem menos chances de se rebelar em comparação a outras plataformas similares, segundo a OpenAI",
+      "story_id": "b198131581314441",
+      "title": "Novo modelo da OpenAI identifica centenas de falhas de segurança",
+      "summary": "A OpenAI restringirá o acesso ao modelo a equipes aprovadas no Daybreak, programa que inclui defesa e testes de segurança O post Novo modelo da OpenAI identifica centenas de falhas de segurança apareceu primeiro em Olhar Digital .",
       "owners": [
         "nzn",
         "olhar-digital"
       ],
       "primary_owners": [],
       "fingerprints": [
-        "e2034221ac487e68",
         "5267f3a4105c9b0f",
         "97f2c55de9059399"
       ],
       "sources": [
-        {
-          "name": "Tecmundo",
-          "owner": "nzn",
-          "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/gpt-6-cyber-openai-lanca-novo-modelo-que-ja-identificou-mais-de-80-falhas/",
-          "title": "GPT-6 Cyber: OpenAI lança novo modelo que já identificou mais de 80 falhas",
-          "published_at": "2026-11-06T00:00:00+00:00",
-          "kind": "press",
-          "text": "O mito da \"bala de prata\" com deepfakes na eleição 2026 A eleição dos deepfakes aconteceu, mas não do jeito que esperávamos!. Crédito: Pedro Castro A OpenAI anunciou o GPT-6 Cyber , um modelo de inteligência artificial especialmente desenvolvido para uso de segurança cibernética. A tecnologia traz capacidades para descobrir brechas em sistemas complexos de maneira autônoma e empolgou nos testes internos. O uso será exclusivo a um grupo seleto de clientes corporativos. Durante as avaliações realizadas pela própria companhia, o GPT-6 Cyber identificou 81 vulnerabilidades de alta gravidade até então desconhecidas no navegador Mozilla Firefox. Como se já não fosse interessante, foram projetados códigos de exploração (exploits) funcionais para 948 falhas no kernel do Linux, 588 delas eram inéditas. Um dos testes realizados também colocou a tecnologia para rodar o benchmark ExploitGym, que mede a capacidade de uma IA de explorar vulnerabilidades. O novo modelo atingiu 48,5% de precisão e superou os 42,4% do GPT-6 Astra , o modelo de uso geral da OpenAI. O salto também é significativo frente ao GPT-5.6 Cyber, que alcançou somente 32,1% de precisão. Com todo esse desempenho, o GPT-6 Cyber é considerado uma ferramenta capaz de “identificar e desenvolver exploits zero-day funcionais de todos os níveis de gravidade em muitos sistemas críticos do mundo real sem intervenção humana”, segundo a análise da dona do ChatGPT. Por mais que o GPT-6 Cyber tenha capacidades impressionantes, a OpenAI adota uma postura cautelosa. O grande objetivo agora é evitar que essa tecnologia caia nas mãos erradas e fuja do seu propósito original. Com atores mal-intencionados, o modelo pode projetar ataques reais de grande complexidade. Como prova disso, a IA foi submetida ao teste ExploitGym HoneyPot, para evitar um incidente similar ao do Hugging Face há alguns meses. Como resultado, o índice de ações fora dos limites estipulados caiu para menos de 1% , contra 5% da versão anterior. Fouad Matin, chefe da equipe de preparação cibernética e segurança da OpenAI, destaca que o lançamento entrega mais mecanismos de controle. “Conseguimos fazer grandes melhorias nessa avaliação. Ele [GPT-6 Cyber] faz o que você pede em mais de 99% do tempo [...] A consciência da avaliação é uma prioridade absoluta para nós”, explicou. Para mitigar riscos, o modelo contém bloqueios nativos contra atividades perigosas, como ataques a infraestruturas críticas (usinas, estações de tratamento de água, etc). O lançamento do GPT-6 Cyber também chega para concorrer com tecnologias similares de suas rivais, como o recente Gemini 4 Argon do Google e o programa Glasswing da Anthropic. Essa IA será restrita para clientes aprovados pelo programa Daybreak Red, voltados especificamente para cibersegurança e red-teaming. Por falar na OpenAI, a empresa tenta conquistar mais apoio popular nos Estados Unidos para investir na construção de novos data centers. Siga o TecMundo no X, Instagram, Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail. ‘Médico não merece título de doutor que nos é dado no Brasil’, diz cardiologista | Triturando Dados Pornô gerado por IA: entenda os perigos por trás do DeepNude Falha permite acesso root a servidores Linux ao digitar senha longa Banco do Brasil caiu? Pix fora do ar atinge usuários nesta sexta-feira (6) Xvideos é a ‘nova’ plataforma de streaming para filmes piratas"
-        },
         {
           "name": "Olhar Digital IA",
           "owner": "olhar-digital",
@@ -153,41 +143,7 @@
           "title": "OpenAI lança GPT-6 Cyber e afirma que modelo caça falhas sem desobedecer pesquisadores",
           "published_at": "2026-11-06T21:15:00+00:00",
           "kind": "press",
-          "text": "A OpenAI apresentou, nesta quinta-feira (5), o GPT-6 Cyber , um modelo de inteligência artificial (IA) voltado para a segurança digital que supera versões anteriores na identificação de vulnerabilidades em sistemas de computadores . A ferramenta foi classificada como “crítica” para a segurança cibernética devido ao alto potencial técnico. Segundo a big tech, o modelo alcançou, em testes práticos realizados em ambientes controlados, um índice de acerto de quase 50% na exploração de falhas remotas, o que superou os 32,1% registrados pelo antecessor (o GPT-5.6 Cyber ). A tecnologia também apresentou maior precisão para respeitar as regras estabelecidas pelos pesquisadores. O GPT‐6 Cyber é um grande salto na pesquisa de segurança: mais capaz de encontrar e corrigir vulnerabilidades e permanecer muito mais confiável dentro dos limites estabelecidos pelos pesquisadores. “Essa melhoria no alinhamento reflete o treinamento dedicado para permanecer dentro do escopo autorizado, respeitar as restrições e relatar os resultados com precisão”, completou a OpenAI , em comunicado oficial . Durante os testes de validação, os analistas aplicaram o sistema no código do kernel Linux . O modelo reproduziu milhares de falhas conhecidas e gerou códigos de exploração funcionais para centenas delas. A partir dessa ação, a empresa relatou que centenas de problemas críticos foram enviados aos mantenedores do software acompanhados de propostas de correção. Paralelamente, o sistema atuou no navegador Firefox , no qual documentou dezenas de falhas inéditas classificadas como “de alta gravidade”. A Mozilla , a organização responsável pelo desenvolvimento do navegador, iniciou a liberação de atualizações de segurança para corrigir os problemas identificados pela IA. Para evitar usos indevidos, a OpenAI explicou ter implementado salvaguardas que monitoram as ações do modelo e bloqueiam tentativas de comprometer controles industriais e infraestruturas essenciais. O desenvolvimento dessas proteções contou com a colaboração da empresa de segurança cibernética Dragos, que testou os modelos em laboratório e publicou os resultados em uma análise técnica . O piso de habilidade está caindo para o reconhecimento e a pesquisa de vulnerabilidade necessária antes de um ataque A companhia frisou que o acesso ao novo modelo está restrito a clientes selecionados e aprovados que participam do programa voltado para testes autorizados e pesquisas avançadas de segurança Siga o TecMundo no X , Instagram , Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail. ‘Médico não merece título de doutor que nos é dado no Brasil’, diz cardiologista | Triturando Dados Falha permite acesso root a servidores Linux ao digitar senha longa Funcionários do Google querem ‘revelar a verdade sobre a IA’ e pedem revisão de contrato IA muda o trabalho dos programadores, mas criatividade segue essencial Pornô gerado por IA: entenda os perigos por trás do DeepNude"
-        }
-      ]
-    },
-    {
-      "story_id": "770c23e9506447dc",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some […]",
-      "owners": [
-        "nzn",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "44766e97c42926fe",
-        "2bbc2a8f5c85ff62"
-      ],
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-          "title": "Protesters break into Microsoft data center site in Amsterdam",
-          "published_at": "2026-11-06T11:55:19+00:00",
-          "kind": "press",
-          "text": "Europe is witnessing a wave of protests against data centers. Europe is witnessing a wave of protests against data centers. Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some scaling a crane to place a “fuck AI” banner. Protesters also unfurled a “Microsoft powers genocide” banner on the construction site, and chanted “Microsoft has got to go” and “free Palestine.” Opposition to the new data center in Amsterdam comes more than a year after the city banned new data centers until 2030, after a temporary stop that was announced at the end of 2023. Microsoft will be the sole tenant of this new data center, and the project is proceeding as it was planned as far back as 2016, before a ban was put in place. The site, being built by British developer Pure Data Centres, has also managed to navigate some loopholes to reach the construction stage. The protests over Microsoft’s data center site in Amsterdam comes in the same week that activists staged a mock Israeli military checkpoint outside a Microsoft data center in Dublin on Tuesday, part of a wave of data center protests across Europe . Earlier this week, voters across the US also rejected unrestrained development of data centers. AI data centers are continuing to pop up across the US, with frequent opposition from locals concerned about the impact on their communities. Microsoft also abandoned the UK’s largest data center project last month, after local electricity grid officials said the site won’t be supplied with power until the 2030s. The software maker has also faced a wave of protests from former employees over the past year. Microsoft’s 50th anniversary party was interrupted by employees protesting the use of Microsoft’s technologies in Israel’s war against Hamas, with one calling Microsoft’s AI CEO, Mustafa Suleyman, a “war profiteer .“ A Microsoft employee also disrupted the company’s Build developer conference last year, interrupting Microsoft CEO Satya Nadella’s keynote. Months later, Microsoft fired two employee protesters who occupied its president’s office."
-        },
-        {
-          "name": "Tecmundo",
-          "owner": "nzn",
-          "url": "https://www.estadao.com.br/tecmundo/big-techs/manifestantes-invadem-canteiro-de-obras-de-data-center-da-microsoft-na-holanda/",
-          "title": "Manifestantes invadem canteiro de obras de data center da Microsoft na Holanda",
-          "published_at": "2026-11-06T17:00:00+00:00",
-          "kind": "press",
-          "text": "Manifestantes invadiram o canteiro de obras de um novo data center da Microsoft que está sendo construído em uma área próxima à cidade de Amsterdã, na Holanda, nesta sexta-feira (6). A mobilização reuniu pessoas contrárias ao desenvolvimento da inteligência artificial e preocupadas com os impactos ambientais provocados pelas instalações. Alguns integrantes do grupo, formado por aproximadamente 100 pessoas, de acordo com a Reuters , conseguiu escalar um guindaste e estender uma faixa que trazia a frase “F**k AI”, algo como “Dane-se a IA”, em tradução livre . Outra faixa dizia que a “Microsoft apoia o genocídio” e os participantes também gritavam palavras de ordem como “Palestina livre” e “A Microsoft tem que ir embora”. Construído pela empresa britânica Pure Data Centers, o empreendimento nos arredores de Amsterdã avançou mesmo com a proibição deste tipo de instalação na cidade até 2030 . A medida foi anunciada em 2023 diante da preocupação com os gastos exagerados de eletricidade . Composto por três torres de 85 m de altura, cada, o data center será usado exclusivamente pela dona do Windows . Não há informações sobre quando a obra estará pronta nem a respeito do início da operação. No mês passado, a gigante de Redmond abandonou o projeto que previa a construção de um centro de dados para inteligência artificial no Reino Unido. A decisão foi motivada por atrasos na disponibilidade da rede elétrica , que acontecerá somente a partir de 2030. As manifestações contra o data center da Microsoft em Amsterdã dão sequência à onda de protestos enfrentada pela gigante da tecnologia desde 2025 . Em um dos casos, as comemorações de 50 anos da companhia foram interrompidas por funcionários que criticaram o fornecimento de recursos para atividades militares . Em outra ocasião, o discurso do CEO Satya Nadella, durante a Microsoft Build 2025, sofreu paralisação após protestos de um funcionário . Posteriormente, a empresa anunciou a demissão de contratados envolvidos em alguns desses eventos. Tentando mudar a reputação dos data centers perante a população, a OpenAI iniciou uma nova campanha nos Estados Unidos. Saiba mais detalhes nesta matéria . ‘Médico não merece título de doutor que nos é dado no Brasil’, diz cardiologista | Triturando Dados Pornô gerado por IA: entenda os perigos por trás do DeepNude Falha permite acesso root a servidores Linux ao digitar senha longa Banco do Brasil caiu? Pix fora do ar atinge usuários nesta sexta-feira (6) Xvideos é a ‘nova’ plataforma de streaming para filmes piratas"
+          "text": "A OpenAI apresentou, nesta quinta-feira (5), o GPT-6 Cyber , um modelo de inteligência artificial (IA) voltado para a segurança digital que supera versões anteriores na identificação de vulnerabilidades em sistemas de computadores . A ferramenta foi classificada como “crítica” para a segurança cibernética devido ao alto potencial técnico. Segundo a big tech, o modelo alcançou, em testes práticos realizados em ambientes controlados, um índice de acerto de quase 50% na exploração de falhas remotas, o que superou os 32,1% registrados pelo antecessor (o GPT-5.6 Cyber ). A tecnologia também apresentou maior precisão para respeitar as regras estabelecidas pelos pesquisadores. O GPT‐6 Cyber é um grande salto na pesquisa de segurança: mais capaz de encontrar e corrigir vulnerabilidades e permanecer muito mais confiável dentro dos limites estabelecidos pelos pesquisadores. “Essa melhoria no alinhamento reflete o treinamento dedicado para permanecer dentro do escopo autorizado, respeitar as restrições e relatar os resultados com precisão”, completou a OpenAI , em comunicado oficial . Durante os testes de validação, os analistas aplicaram o sistema no código do kernel Linux . O modelo reproduziu milhares de falhas conhecidas e gerou códigos de exploração funcionais para centenas delas. A partir dessa ação, a empresa relatou que centenas de problemas críticos foram enviados aos mantenedores do software acompanhados de propostas de correção. Paralelamente, o sistema atuou no navegador Firefox , no qual documentou dezenas de falhas inéditas classificadas como “de alta gravidade”. A Mozilla , a organização responsável pelo desenvolvimento do navegador, iniciou a liberação de atualizações de segurança para corrigir os problemas identificados pela IA. Para evitar usos indevidos, a OpenAI explicou ter implementado salvaguardas que monitoram as ações do modelo e bloqueiam tentativas de comprometer controles industriais e infraestruturas essenciais. O desenvolvimento dessas proteções contou com a colaboração da empresa de segurança cibernética Dragos, que testou os modelos em laboratório e publicou os resultados em uma análise técnica . O piso de habilidade está caindo para o reconhecimento e a pesquisa de vulnerabilidade necessária antes de um ataque A companhia frisou que o acesso ao novo modelo está restrito a clientes selecionados e aprovados que participam do programa voltado para testes autorizados e pesquisas avançadas de segurança Siga o TecMundo no X , Instagram , Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail. GPT-6 Cyber: OpenAI lança novo modelo que já identificou mais de 80 falhas Cupom Black Friday: lista dos melhores cupons e ofertas de 2026 Banco do Brasil caiu? Pix fora do ar atinge usuários nesta sexta-feira (6) Pornô gerado por IA: entenda os perigos por trás do DeepNude ‘Médico não merece título de doutor que nos é dado no Brasil’, diz cardiologista | Triturando Dados"
         }
       ]
     },
@@ -222,76 +178,6 @@
           "published_at": "2026-11-06T23:46:18+00:00",
           "kind": "press",
           "text": "CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.﻿ CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.﻿ OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg . That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects . OpenAI’s rival Anthropic filed its S-1 to go public last week. Earlier this year, OpenAI CEO Sam Altman said it’s holding off on its own IPO until it can make more confident claims about its models’ safety. He didn’t give a specific timeline for the IPO, but said at the time, “I think it’s also kind of bad for the world if OpenAI waits too long to go public.”"
-        }
-      ]
-    },
-    {
-      "story_id": "44b428e854033d3f",
-      "title": "Design the Muse App, Just for You",
-      "summary": "Today, we're introducing spaces, an interactive way to build a more customized experience in the Muse app. The post Design the Muse App, Just for You appeared first on Meta Newsroom .",
-      "owners": [
-        "meta",
-        "vox-media"
-      ],
-      "primary_owners": [
-        "meta"
-      ],
-      "fingerprints": [
-        "a0a7980b4fb63e4d",
-        "52e0623fab799a21"
-      ],
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "owner": "meta",
-          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
-          "title": "Design the Muse App, Just for You",
-          "published_at": "2026-11-06T18:00:58+00:00",
-          "kind": "primary",
-          "text": "Today, we’re introducing spaces, an interactive way to build a more personalized Muse. A space is a custom experience you create inside Muse by describing your idea, like a holiday gift tracker, a daily word game, or a planning board for your next DIY project. It’s shaped around your routines, goals, and interests, and can be as practical or entertaining as you want. Every space you create becomes part of Muse, so you can keep it where you want and come back to it any time. Have an idea you’ve been meaning to try? Tell Muse about it, and it builds it for you. Your initial idea is just the starting point. As you use your space, you can keep adjusting it with Muse, whether that’s adding what’s missing, trying a new look, or changing how it works. You can also choose where your spaces live in Muse. Add them to your sidebar, move them into your main tabs, hide the ones you don’t need right now, and schedule when they appear. For example, keep your weekly planner up front during the workweek, then swap it for your weekend plans on Saturday. Spaces can help you get things done, have a little fun, or give your creative projects a home. Here are a few ideas: Got a half-finished idea sitting in your notes app, a spreadsheet you keep meaning to clean up, or a hobby you want to dive into? Chances are you can turn it into a space. Your spaces are personal from the start. Connect the apps you use, and your spaces keep themselves up to date in the background, so new concert dates, price changes, or savings progress show up without you having to ask. You can check things off, add notes, and make edits right in your space, and everything will be there when you return. Starting today, spaces are available everywhere Muse is available. We’re also exploring ways for you to share your spaces with others to build a more collaborative experience in Muse. We’re also rolling out specialized versions of our models to Muse, trained with learnings from Muse Wonder, to make your overall experience even better."
-        },
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-          "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-          "published_at": "2026-11-06T18:10:10+00:00",
-          "kind": "press",
-          "text": "You can create things like a shopping hub, school dashboard, or music tracker directly within Muse. You can create things like a shopping hub, school dashboard, or music tracker directly within Muse. Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called “spaces,” allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by describing it. If you connect an outside app to Muse — like Gmail, Google Calendar, OpenTable, Notion, and others Muse works with — the AI assistant will continuously pull information from them, allowing it to update pricing, dates, and other information in your space in the background. You can also interact with elements inside your spaces by checking things off, adding notes, and making edits. You can also change the placement of your spaces in the Muse app, too, as Meta lets you keep them in the sidebar, move them into your main tab, or schedule when you see them. “For example, keep your weekly planner up front during the workweek, then swap it for your weekend plans on Saturday,” Meta says. Meta also announced that it’s bringing new “Active Memory” and “Active Focus” capabilities from its Muse Wonder AI model into the Muse app and its Meta AI chatbot. This will allow Muse to understand when past information becomes relevant during conversations, as well as make it better at working toward goals. Meta is rolling out spaces to all Muse users. The company is also looking into ways to share your spaces with other users and collaborate with them."
-        }
-      ]
-    },
-    {
-      "story_id": "d3c69aaa3f614905",
-      "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-      "summary": "Saudi national Abdulrahman Alfozan is charged with planting a recording device in a conference room at artificial intelligence giant OpenAI.",
-      "owners": [
-        "axel-springer",
-        "nbcuniversal"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "21cf97eeaf11ae09",
-        "8ea0b4b8dc87a20c"
-      ],
-      "sources": [
-        {
-          "name": "CNBC Technology",
-          "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-          "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-          "published_at": "2026-11-06T21:15:47+00:00",
-          "kind": "press",
-          "text": "The Saudi national charged with planting a listening device in the headquarters of OpenAI while he worked there pleaded not guilty on Friday during an appearance in San Francisco federal court. Abdulrahman Alfozan , 35, was sent back to jail after the brief hearing. Alfozan has been held without bail since his arrest on a criminal complaint in early October. He faces a maximum possible sentence of five years in prison if convicted in the case. A grand jury indicted Alfozan on Oct. 27 on a single count of interception of oral communications, court records show. Prosecutors say that he put a recording device in a television in an executive conference room at OpenAI's offices in San Francisco on Sept. 28. Alfozan's lawyer declined to comment after the hearing before Magistrate Judge Peter Kang. The judge ordered Alfozan to next appear in court on Nov. 17. Alfozan is a venture partner in a Saudi Arabian venture capital firm, Raed Ventures . \"He currently serves as Engineering Lead at OpenAI, with a focus on AI Agents and the data platform,\" Alfozan's bio page on Raed's site says. Prince Khalid Bin Bader Al Saud , a member of Saudi Arabia's royal family, is a venture partner in the same firm. Alfozan's case comes as U.S. companies such as OpenAI are making rapid advancements in developing artificial intelligence agents, and as concerns grow about the potential theft of AI tech from those companies. In June, President Donald Trump, in an executive order on AI innovation, said it was U.S. policy \"to protect American ingenuity and intellectual property from exploitation and theft by adversaries; and to cultivate America's advanced AI-enabled capabilities.\" Trump has had a close relationship with Saudi Arabia. But he has also taken steps during his second term in the White House to limit the number of visas for highly skilled foreign workers. OpenAI earlier this year held discussions with Saudi Arabia's Public Investment Fund, the country's sovereign wealth fund, about investing in the company. — Jordan Novet reported from San Francisco"
-        },
-        {
-          "name": "Business Insider",
-          "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/openai-engineer-abdulrahman-alfozan-pleads-not-guilty-2026-11",
-          "title": "The engineer accused of bugging OpenAI's office pleads not guilty",
-          "published_at": "2026-11-06T19:34:02+00:00",
-          "kind": "press",
-          "text": ""
         }
       ]
     }
