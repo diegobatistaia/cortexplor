@@ -1,0 +1,43 @@
+{
+  "lang": "en",
+  "slug": "protesters-storm-microsoft-data-center-amsterdam",
+  "story_id": "770c23e9506447dc",
+  "title": "Protesters storm Microsoft data center site near Amsterdam",
+  "dek": "About 100 people entered the site on Friday, part of a wider wave of protests against data centers across Europe.",
+  "meta_description": "About 100 protesters broke into a Microsoft data center site near Amsterdam, climbed a crane and hung banners, part of a wave of protests across Europe.",
+  "keyword": "Microsoft data center Amsterdam protest",
+  "category": "politica",
+  "tags": ["ai", "microsoft", "data-center", "protests", "europe"],
+  "body": [
+    {"type": "p", "text": "Around 100 people got past security and onto the building site of a Microsoft data center outside Amsterdam on Friday, according to Reuters, cited by The Verge and TecMundo.", "items": []},
+    {"type": "p", "text": "TecMundo described the crowd as opponents of the growth of artificial intelligence who worry about its toll on the environment. The Verge named one of the organizers as the activist collective Geef Tegengas.", "items": []},
+    {"type": "p", "text": "A handful of demonstrators climbed onto a crane and hung a sign reading \"f**k AI.\" A second sign accused Microsoft of funding genocide, and the crowd chanted slogans calling for the company to leave and for a free Palestine, both outlets reported.", "items": []},
+    {"type": "p", "text": "The Verge linked the chants to Microsoft's role supplying technology used by Israel's military in the Gaza war, a grievance that Microsoft's own staff have raised in internal demonstrations before.", "items": []},
+    {"type": "h2", "text": "A project older than the ban", "items": []},
+    {"type": "p", "text": "Once finished, the complex will have three 85-meter towers and will serve Microsoft alone, per The Verge and TecMundo. British firm Pure Data Centres is the builder, and the project dates back to 2016, long before Amsterdam blocked any new data centers inside the city through 2030 — a freeze the city put in place at the close of 2023 over how much power the facilities draw. Because this one was already in the pipeline, work kept going. Neither outlet gave a timeline for when it will open.", "items": []},
+    {"type": "p", "text": "The Verge noted that the project cleared the freeze through regulatory gaps it did not specify, and tied the Amsterdam case to a broader trend: new AI data centers keep breaking ground across the US, routinely drawing pushback from nearby residents.", "items": []},
+    {"type": "p", "text": "This was not an isolated flashpoint. The Verge counted it as the second Microsoft-related protest in Europe inside a week: on Tuesday, campaigners had set up a mock Israeli army checkpoint outside a separate Microsoft data center in Dublin, which the outlet placed within a broader surge of European opposition to data center construction.", "items": []},
+    {"type": "p", "text": "That same week, local elections in the US had already turned against unchecked data center growth, The Verge reported. The outlet grouped that vote together with the Amsterdam and Dublin actions as signs of the same broader public pushback against AI infrastructure.", "items": []},
+    {"type": "h2", "text": "A pattern of internal friction", "items": []},
+    {"type": "p", "text": "The Verge traced more than a year of friction between Microsoft and its own workforce. Staff broke into the company's 50th-anniversary party to brand AI chief Mustafa Suleyman a \"war profiteer.\" In a separate incident, a worker cut into CEO Satya Nadella's keynote at the Build conference. The company later let go of two staffers who had taken over the president's office in protest.", "items": []},
+    {"type": "p", "text": "Microsoft also walked away last month from plans for what would have been the UK's biggest data center, after grid officials told the company electricity would not reach the site before the 2030s, per The Verge and TecMundo.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Who is affected: Microsoft, which owns the project, and residents near Amsterdam, where new data centers are banned until 2030.",
+      "What changes: construction continues, since the project predates the ban; no completion date has been released.",
+      "Context: it is the second activist action against a Microsoft data center in Europe in one week, after the Dublin protest on Tuesday.",
+      "Wider picture: opposition to AI data centers has also surfaced in the US, where voters rejected infrastructure expansion in recent local elections.",
+      "Timeline this week: the Dublin checkpoint stunt on Tuesday, the US election results on data centers, and Friday's break-in near Amsterdam, per The Verge.",
+      "Why Microsoft specifically: The Verge ties recurring protests at the company to both its data center footprint and its technology's role in the Gaza war."
+    ]}
+  ],
+  "image": {
+    "query": "data center construction site protest crane",
+    "alt": "Construction site of a data center with a crane in the background"
+  },
+  "sources": [
+    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam", "title": "Protesters break into Microsoft data center site in Amsterdam"},
+    {"name": "TecMundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/big-techs/manifestantes-invadem-canteiro-de-obras-de-data-center-da-microsoft-na-holanda/", "title": "Manifestantes invadem canteiro de obras de data center da Microsoft na Holanda"}
+  ],
+  "status": "draft"
+}
