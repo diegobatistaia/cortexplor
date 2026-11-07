@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T20:54:45+00:00",
-  "posts_per_language_today": 1,
+  "generated_at": "2026-11-07T00:11:40+00:00",
+  "posts_per_language_today": 0,
   "daily_cap_per_language": 4,
-  "already_written_today": 3,
+  "already_written_today": 4,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -78,108 +78,5 @@
     150,
     160
   ],
-  "stories": [
-    {
-      "story_id": "2ee45e03d079a07a",
-      "title": "Claude agora pode acessar contas bancárias para analisar gastos",
-      "summary": "O novo recurso do assistente Claude ajuda a organizar despesas, identificar cobranças duplicadas e explicar conceitos como juros e taxas O post Claude agora pode acessar contas bancárias para analisar gastos apareceu primeiro em Olhar Digital .",
-      "owners": [
-        "canaltech",
-        "olhar-digital"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "38aab457388b8091",
-        "75b7415d79b0f8b8"
-      ],
-      "sources": [
-        {
-          "name": "Olhar Digital IA",
-          "owner": "olhar-digital",
-          "url": "https://olhardigital.com.br/2026/11/05/inteligencia-artificial/claude-agora-pode-acessar-contas-bancarias-para-analisar-gastos/",
-          "title": "Claude agora pode acessar contas bancárias para analisar gastos",
-          "published_at": "2026-11-05T18:40:27+00:00",
-          "kind": "press",
-          "text": "A Anthropic anunciou a chegada do Personal Finance ao assistente Claude . O recurso permite conectar contas bancárias e cartões de crédito para acompanhar despesas e esclarecer dúvidas financeiras em linguagem simples. A integração utiliza a plataforma Plaid e oferece acesso somente para leitura. Isso significa que o sistema não pode movimentar, administrar ou investir o dinheiro dos usuários. Com a ferramenta, o usuário pode consultar a distribuição das despesas ao longo do mês, organizadas em categorias como aluguel, alimentação e compras. Também é possível fazer perguntas adicionais para comparar os gastos com períodos anteriores e identificar mudanças no orçamento. O Claude ainda analisa as transações para sinalizar possíveis problemas, como cobranças duplicadas, tarifas inesperadas e contas que aumentam gradualmente. O assistente também pode avaliar se o usuário está gastando mais do que ganha, explicar conceitos financeiros, como a taxa percentual anual (APR), e calcular quanto foi pago em juros nos últimos 12 meses. Em comunicado, a Anthropic destacou a proposta de apresentar informações financeiras em linguagem acessível: “O Claude fornece respostas em linguagem cotidiana, a partir de seus saldos e transações, e explica qualquer termo que seja novo para você”. A conexão com as contas financeiras permite o acesso a um conjunto limitado de informações, segundo a Anthropic. São elas: A empresa também afirma que as conversas realizadas no ambiente Personal Finance não são utilizadas para treinar seus modelos de IA . A ferramenta não oferece anúncios ou recomendações patrocinadas, nem comercializa cartões de crédito, empréstimos ou contas de poupança próprios. Essa característica também foi destacada pela Anthropic como parte da proposta de oferecer respostas sem interesses comerciais na indicação de produtos financeiros. O lançamento coloca o Claude em concorrência com o ChatGPT , da OpenAI , que apresentou recursos semelhantes em maio. A ferramenta da empresa também permite conectar contas financeiras e consultar informações sobre despesas e planejamento de longo prazo. O Personal Finance começa a ser liberado em versão beta nesta semana para assinantes dos planos Pro, Max e Ultra nos Estados Unidos. A novidade faz parte da expansão do Claude para setores específicos. No início deste ano, a Anthropic também lançou o Claude for Legal, voltado à área jurídica, e o Claude for Financial Services, direcionado ao mercado de serviços financeiros. Valdir Antonelli é jornalista com especialização em marketing digital e consumo."
-        },
-        {
-          "name": "Canaltech",
-          "owner": "canaltech",
-          "url": "https://canaltech.com.br/inteligencia-artificial/claude-ganha-ferramenta-que-acessa-contas-bancarias-e-analisa-os-seus-gastos/",
-          "title": "Claude ganha ferramenta que acessa contas bancárias e analisa os seus gastos",
-          "published_at": "2026-11-06T19:01:00+00:00",
-          "kind": "press",
-          "text": "O Claude lançou o Personal Finance, uma ferramenta que permite conectar contas bancárias e cartões de crédito ao assistente de IA . A novidade, que está em fase beta, concentra as informações financeiras em uma conversa com a IA da Anthropic e ajuda a acompanhar despesas, consultar contas a vencer e identificar cobranças incomuns ou duplicadas. A integração funciona por meio do Plaid, serviço que conecta instituições financeiras a aplicativos, e utiliza acesso somente para leitura. A autenticação ocorre no ambiente do próprio banco, e o Claude não tem acesso às senhas bancárias . Além disso, a ferramenta não consegue fazer transferências, movimentar dinheiro ou realizar investimentos. Depois da conexão, o assistente consegue consultar o nome da instituição financeira , o tipo de conta, os últimos quatro dígitos, saldos, limites de crédito e até dois anos de histórico de transações. Com essas informações, a IA pode categorizar despesas, comparar gastos entre meses e explicar conceitos financeiros, como taxas de juros APR. Também é possível gerar gráficos de despesas, calendários de vencimentos e painéis interativos. O usuário pode desconectar as contas bancárias a qualquer momento. A Anthropic também afirma que o Personal Finance não exibe anúncios ou recomendações patrocinadas de produtos financeiros, como empréstimos e cartões de crédito. Além disso, as conversas com o assistente financeiro não são usadas para treinar os modelos de IA da empresa. Segundo a Anthropic, o Personal Finance foi desenvolvido para ajudar na compreensão e organização das finanças, mas não é recomendado para aconselhamento financeiro ou recomendações de investimentos. A empresa também alerta que o Claude pode cometer erros em cálculos e respostas. Por isso, é indicado consultar as transações e outras informações importantes com o banco. A novidade chega em meio à expansão de recursos financeiros em assistentes de IA . O ChatGPT já oferece conexões com serviços financeiros, e o Google integrou o Gemini ao Google Wallet. Ao mesmo tempo, instituições, como o Bank of America, alertam os clientes sobre os riscos de compartilhar senhas bancárias com ferramentas de inteligência artificial. O Personal Finance está disponível em fase beta para assinantes dos planos pagos Pro, Max e Ultra que estejam nos Estados Unidos . Para acessar a ferramenta, é só abrir a opção na barra lateral do Claude, conectar pelo menos uma conta bancária por meio do Plaid e aceitar os termos de uso. Depois, o usuário já pode fazer perguntas sobre suas finanças ao assistente. Se você gostou do conteúdo, talvez também se interesse por conferir “ 12 prompts para controlar gastos e dívidas sem cair em furada ”."
-        }
-      ]
-    },
-    {
-      "story_id": "2ab893e07e7495f3",
-      "title": "Perplexity launches its own take on AI agents for work",
-      "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device […]",
-      "owners": [
-        "vox-media",
-        "yahoo"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "8e75ec02fc50e91f",
-        "0e0f913ed04d3e69"
-      ],
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-          "title": "Perplexity launches its own take on AI agents for work",
-          "published_at": "2026-11-05T22:26:50+00:00",
-          "kind": "press",
-          "text": "Like OpenAI’s Dots and Claude Duet, Perplexity’s Teammates can perform an array of tasks while running 24/7. Like OpenAI’s Dots and Claude Duet, Perplexity’s Teammates can perform an array of tasks while running 24/7. Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup’s new always-on “Teammates” can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer , an AI system that can deploy agents on your device to complete tasks. But Perplexity says Teammates “build on top” of Computer by offering the ability to collaborate and complete “ongoing, large-scale work.” You can assign each Teammate different jobs that they can perform simultaneously — much like OpenAI’s Dots and Claude Duet . Perplexity’s take on the feature is much more expensive, however, as it requires a subscription to its $200 / month Max plan. Perplexity notes that you can keep tabs on Teammates’ progress through individual threads in the Perplexity app, as well as interact with them in Slack. “Over time, we envision every org having hundreds of teammates working for each person,” Perplexity CEO Aravind Srinivas says on X ."
-        },
-        {
-          "name": "Engadget",
-          "owner": "yahoo",
-          "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/",
-          "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks",
-          "published_at": "2026-11-06T11:18:59+00:00",
-          "kind": "press",
-          "text": "They're exclusively available to Perplexity Max subscribers paying $200 a month. Perplexity has launched its personal AI agents called \" teammates ,\" which are designed to be able to tackle ongoing work autonomously with minimal supervision. The agents work inside Perplexity Computer , the company's cloud-based agentic assistant that can perform multi-step tasks for you. Perplexity explains that the new agents build on top of Computer and come with \"additional capabilities for ongoing, large-scale work.\" You'll be able to assign each teammate its own role or task that they can all then perform simultaneously. Teammates work together, and they can even manage other teammates to make sure your tasks are getting done. They can also bring in more teammates and plan the newcomers' tasks accordingly, the more work you give them. Teammates work 24/7 in the background and will notify you when you have to make decisions. Every teammate will have its own entry on the sidebar of Computer, where you'll be able to see what they're doing and what they had already finished. You can also hand off more work to the agents, tell them to switch gears or ask them for status updates in those threads. At the moment, the feature is exclusively available to Perplexity Max subscribers on the web and on iOS. That makes it a pretty expensive proposition, as the subscription plan costs $200 a month or $2,000 a year."
-        }
-      ]
-    },
-    {
-      "story_id": "da44a651c09eb150",
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "owners": [
-        "techcrunch",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "01af2f668adeb82b",
-        "cc48f8093c5bb103"
-      ],
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-          "published_at": "2026-11-05T22:40:55+00:00",
-          "kind": "press",
-          "text": "Airbnb has teased its plans to build its own AI travel agent before, but on Thursday the company announced that the new AI feature will launch in the first half of 2027. In the company’s Q3 shareholder letter on Thursday , Airbnb also provided more detail about how the agent will work, what it will actually do, and how it’s different from a typical AI chatbot. In prior interviews, CEO Brian Chesky sketched out the travel company’s approach to AI, describing a plan to build an AI agent that has a richer interface than a conventional chatbot. He also expressed his opinions about how chatbots aren’t the right interface for travel, noting that people take pleasure in the planning process and in anticipating a trip. Any agent that it built, then, shouldn’t take away from the inspiration and the browsing, he told TechCrunch in an interview last month. Chesky today reiterated that belief, telling analysts on the earnings call that people won’t use one AI agent for everything. “Today’s AI agents like Muse and Instinct are good at simple routine tasks like making a restaurant reservation or scheduling an appointment. But planning a trip is different,” he said. “Travel is aspirational. Discovering where to go and where to stay is part of the experience. In fact, 80% of travelers say they enjoy spending time researching trips. People want to look at photos. They want to compare homes. They want to make decisions with people they’re traveling with,” he continued. “And I don’t think the general-purpose agents are the best to do that. So that is why we are building our own AI agent,” Chesky said. Airbnb described its agent as having a personalized interface that’s designed specifically for travel, where it will “build an interface” around a user’s question instead of simply responding as a chatbot would. “What we are doing is developing a custom-designed AI-native experience that responds to what guests are looking for,” Chesky said. “So instead of relying on traditional chat alone, which is very text-heavy — which, again, is definitely not the way you should plan travel, our agent draws from a library of hundreds of travel-specific interface components — maps, photos, comparisons, calendars, itineraries — and composes them in real time to match what they’re looking for.” The exec said the agent will feel “a little bit like generative UI” as it’s designed to offer up “the right interface at the right time” for someone’s specific travel needs. In its shareholder letter, the company touted that its nearly 20 years of experience in bringing hosts and guests together is informing how the agent is built, as it incorporates insights about how people both book and host on its platform. The agent will also be able to help travelers beyond the booking itself. “Our agent will be able to help guests throughout their trip — from changing a reservation or resolving a payment issue to getting help with refunds, rebooking, or 24-hour safety support. These are things an outside agent can’t easily do on its own,” the company wrote. Over time, Airbnb expects the agent will be able to help travelers with other aspects of their trip, including not only homes and hotels, but also services and experiences. Services and experiences are two areas that have become a bigger focus for the company following its redesign last year. While the company previously said to expect its AI agent sometime in the next year, it’s now more specifically committing to roll out the new technology to consumers in the first half of 2027. The news of the agent’s release was delivered alongside strong third-quarter earnings, with revenue growing 19% to $4.87 billion, topping Wall Street estimates. It also raised its 2026 revenue growth forecast, which it now predicts will be in the high teens, instead of the mid-teens. “Airbnb is back in growth mode,” Chesky told analysts on the Q3 earnings call on Thursday. “It’s rare for a marketplace of our size to reaccelerate growth, but that’s exactly what we’re doing. Q3 was our fastest revenue growth in more than three years,” he added. When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Claude can now analyze your spending with its new Personal Finance tool Data centers are turning to old jet engines as the wait for power grows New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens Anthropic warns that it’s very close to RSI capability, aka self-building AI New York Times and other outlets sue web browser Brave over alleged content scraping Ninja’s first-ever microwave just replaced two of my kitchen appliances at once"
-        },
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-          "title": "Airbnb is working on an AI travel agent",
-          "published_at": "2026-11-06T00:06:12+00:00",
-          "kind": "press",
-          "text": "The travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year. The travel company is planning an “AI-native” trip-planning experience that’s set to roll out next year. Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today . “Today’s AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,” Airbnb said. “But planning a trip on Airbnb is different.” The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a “new interface” built “specifically for travel” gives it an edge. Here’s how Airbnb says that new interface will work: We don’t think a traditional chatbot is the right way to plan a trip. We’re developing a custom-designed, AI-native experience that builds the interface around your question. Rather than a chat window, our agent draws on a library of hundreds of travel-specific interface elements—maps, photos, comparisons, calendars, itineraries—and composes them in real time to match what you’re looking for. Our agent will help guests explore options, make decisions with the people they’re traveling with, and take action directly in Airbnb. Airbnb co-founder and CEO Brian Chesky has said before that the company plans to launch an agent in 2027, telling the Skift Global Forum that it would have an interface that’s “much richer than a chatbot.” In its shareholder letter, Airbnb also said that AI is “the best thing to ever happen to Airbnb” and has changed how it develops products and operates."
-        }
-      ]
-    }
-  ]
+  "stories": []
 }
