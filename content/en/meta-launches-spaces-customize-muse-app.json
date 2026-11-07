@@ -7,36 +7,111 @@
   "meta_description": "Meta launched spaces in its Muse AI app, letting users build custom dashboards like trackers and planners just by describing the idea in text, it says.",
   "keyword": "Meta Muse spaces feature",
   "category": "aplicacoes",
-  "tags": ["ai", "meta", "muse", "apps"],
+  "tags": [
+    "ai",
+    "meta",
+    "muse",
+    "apps"
+  ],
   "body": [
-    {"type": "p", "text": "Meta launched a feature called \"spaces\" on Friday inside its Muse AI app, letting users build a custom dashboard just by describing what they want, according to the company's own announcement.", "items": []},
-    {"type": "p", "text": "Muse is Meta's personal AI assistant. The app reached Singapore in November, less than two months after its US launch, according to Cortexplor's earlier coverage. The new feature applies to every market where the assistant already runs.", "items": []},
-    {"type": "p", "text": "Per Meta's statement, a user types out an idea in plain language — a tracker for holiday gifts, a word game to play daily, or a board for planning a project — and Muse builds the structure on its own. The Verge lists further examples people have already made, such as a shopping-list hub, a school-schedule dashboard, a music tracker and a trivia game.", "items": []},
-    {"type": "p", "text": "Meta also points to everyday situations that could become a space: a half-finished idea sitting in a notes app, a spreadsheet a user keeps meaning to clean up, or a hobby they wanted to try. According to the company, any of those loose ends can turn into a working dashboard inside Muse.", "items": []},
-    {"type": "p", "text": "In effect, spaces turn Muse into a tool for assembling small, purpose-built app screens without writing code, built from a plain-language description rather than a template chosen from a list, according to Meta's own description of the feature.", "items": []},
-    {"type": "h2", "text": "How it works", "items": []},
-    {"type": "p", "text": "According to Meta, every space a user builds stays in the app for good and can be opened again whenever needed, and the AI keeps revising it on request — filling in a missing piece, giving it a new look, or changing its behavior. The company also says a space can be pinned near the top of the app, tucked into a different tab, hidden away, or set to show up only during a chosen window of time. Meta illustrates this with someone who wants a work planner front and center on weekdays, then a different set of weekend plans visible once Saturday comes around.", "items": []},
-    {"type": "p", "text": "The Verge adds that a space can be linked to outside apps, including Gmail, Google Calendar, OpenTable, Notion and other services compatible with Muse, so the information inside stays current. According to Meta, that lets a space pull in things like upcoming event dates, updated prices or how close someone is to a savings target, without the person checking in.", "items": []},
-    {"type": "h2", "text": "A new model generation inside the app", "items": []},
-    {"type": "p", "text": "Meta also says it is rolling out specialized AI models to Muse, built using technical insight gained from its separate Muse Wonder model. The Verge reports that these additions bring capabilities called \"Active Memory\" and \"Active Focus,\" which help Muse recall relevant details from earlier conversations and stay on track toward a stated goal. The outlet reports that both capabilities reach the separate Meta AI chatbot as well.", "items": []},
-    {"type": "p", "text": "Meta says spaces are rolling out everywhere Muse is available. The company adds that it is exploring ways to let users share their spaces with each other to make the experience more collaborative, a point also confirmed by The Verge.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: every Muse user, everywhere the app is available already, according to Meta's own announcement.",
-      "Since when: this past Friday, the date of the company's own official announcement of the feature.",
-      "What changes from before: Muse previously had no way to build a custom in-app dashboard just by describing it in text.",
-      "How the app connections work: a user grants access to services like Gmail, Google Calendar, OpenTable and Notion, and the space then updates itself, according to Meta and The Verge.",
-      "What's next: Meta is exploring letting users share spaces with each other, with no release date given.",
-      "AI upgrade alongside it: the same \"Active Memory\" and \"Active Focus\" capabilities also reach the separate Meta AI chatbot, per The Verge."
-    ]}
+    {
+      "type": "p",
+      "text": "Meta launched a feature called \"spaces\" on Friday inside its Muse AI app, letting users build a custom dashboard just by describing what they want, according to the company's own announcement.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Muse is Meta's personal AI assistant. The app reached Singapore in November, less than two months after its US launch, according to Cortexplor's earlier coverage. The new feature applies to every market where the assistant already runs.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per Meta's statement, a user types out an idea in plain language — a tracker for holiday gifts, a word game to play daily, or a board for planning a project — and Muse builds the structure on its own. The Verge lists further examples people have already made, such as a shopping-list hub, a school-schedule dashboard, a music tracker and a trivia game.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta also points to everyday situations that could become a space: a half-finished idea sitting in a notes app, a spreadsheet a user keeps meaning to clean up, or a hobby they wanted to try. According to the company, any of those loose ends can turn into a working dashboard inside Muse.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In effect, spaces turn Muse into a tool for assembling small, purpose-built app screens without writing code, built from a plain-language description rather than a template chosen from a list, according to Meta's own description of the feature.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How it works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Meta, every space a user builds stays in the app for good and can be opened again whenever needed, and the AI keeps revising it on request — filling in a missing piece, giving it a new look, or changing its behavior. The company also says a space can be pinned near the top of the app, tucked into a different tab, hidden away, or set to show up only during a chosen window of time. Meta illustrates this with someone who wants a work planner front and center on weekdays, then a different set of weekend plans visible once Saturday comes around.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge adds that a space can be linked to outside apps, including Gmail, Google Calendar, OpenTable, Notion and other services compatible with Muse, so the information inside stays current. According to Meta, that lets a space pull in things like upcoming event dates, updated prices or how close someone is to a savings target, without the person checking in.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A new model generation inside the app",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta also says it is rolling out specialized AI models to Muse, built using technical insight gained from its separate Muse Wonder model. The Verge reports that these additions bring capabilities called \"Active Memory\" and \"Active Focus,\" which help Muse recall relevant details from earlier conversations and stay on track toward a stated goal. The outlet reports that both capabilities reach the separate Meta AI chatbot as well.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Meta says spaces are rolling out everywhere Muse is available. The company adds that it is exploring ways to let users share their spaces with each other to make the experience more collaborative, a point also confirmed by The Verge.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: every Muse user, everywhere the app is available already, according to Meta's own announcement.",
+        "Since when: this past Friday, the date of the company's own official announcement of the feature.",
+        "What changes from before: Muse previously had no way to build a custom in-app dashboard just by describing it in text.",
+        "How the app connections work: a user grants access to services like Gmail, Google Calendar, OpenTable and Notion, and the space then updates itself, according to Meta and The Verge.",
+        "What's next: Meta is exploring letting users share spaces with each other, with no release date given.",
+        "AI upgrade alongside it: the same \"Active Memory\" and \"Active Focus\" capabilities also reach the separate Meta AI chatbot, per The Verge."
+      ]
+    }
   ],
   "image": {
     "query": "smartphone custom app dashboard interface",
-    "alt": "Smartphone showing a custom dashboard with widgets in an app"
+    "alt": "Smartphone showing a custom dashboard with widgets in an app",
+    "path": "/assets/img/meta-launches-spaces-customize-muse-app-f90b3307.jpg",
+    "credit": "Tran Mau Tri Tam ✪ / Unsplash",
+    "author": "Tran Mau Tri Tam ✪",
+    "author_url": "https://unsplash.com/@tranmautritam?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-holding-black-android-smartphone-QwAL909kTiY"
   },
   "sources": [
-    {"name": "Meta Newsroom", "owner": "meta", "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/", "title": "Design the Muse App, Just for You"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces", "title": "Meta's Muse AI can create custom 'spaces' for the version of the app you need right now"}
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "title": "Design the Muse App, Just for You"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "title": "Meta's Muse AI can create custom 'spaces' for the version of the app you need right now"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-07T10:57:18+00:00",
+  "updated_at": "2026-11-07T10:57:18+00:00"
 }
