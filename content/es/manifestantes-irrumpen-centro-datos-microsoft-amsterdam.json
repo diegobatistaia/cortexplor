@@ -1,0 +1,41 @@
+{
+  "lang": "es",
+  "slug": "manifestantes-irrumpen-centro-datos-microsoft-amsterdam",
+  "story_id": "770c23e9506447dc",
+  "title": "Manifestantes irrumpen en centro de datos de Microsoft en Ámsterdam",
+  "dek": "Unas 100 personas entraron al predio el viernes, en medio de una ola de protestas contra centros de datos en Europa.",
+  "meta_description": "Manifestantes irrumpieron en la obra de un centro de datos de Microsoft cerca de Ámsterdam, escalaron una grúa y colgaron pancartas, según The Verge y TecMundo.",
+  "keyword": "centro de datos Microsoft Ámsterdam protesta",
+  "category": "politica",
+  "tags": ["ia", "microsoft", "centro-de-datos", "protestas", "europa"],
+  "body": [
+    {"type": "p", "text": "Unas 100 personas irrumpieron el viernes (6) en la obra de un nuevo centro de datos de Microsoft en las afueras de Ámsterdam, Países Bajos, según Reuters, citada por The Verge y TecMundo.", "items": []},
+    {"type": "p", "text": "El grupo reúne a personas contrarias al avance de la inteligencia artificial y preocupadas por el impacto ambiental de estas instalaciones, según TecMundo. Parte de la organización estuvo a cargo del colectivo Geef Tegengas, de acuerdo con The Verge.", "items": []},
+    {"type": "p", "text": "Algunos manifestantes escalaron una grúa de la obra y colgaron una pancarta con la frase \"f**k AI\". Otra pancarta decía \"Microsoft financia el genocidio\", mientras el grupo gritaba \"Palestina libre\" y \"Microsoft tiene que irse\", según ambas publicaciones.", "items": []},
+    {"type": "p", "text": "Según The Verge, las protestas contra Microsoft también están relacionadas con el uso de tecnología de la empresa por parte de Israel en su guerra contra Hamás, un tema que ya había motivado manifestaciones internas de empleados de la compañía en otras ocasiones.", "items": []},
+    {"type": "h2", "text": "Un proyecto más antiguo que la prohibición", "items": []},
+    {"type": "p", "text": "El centro de datos tendrá tres torres de 85 metros de altura y será usado exclusivamente por Microsoft, según The Verge y TecMundo. La obra está a cargo de la constructora británica Pure Data Centres y estaba en los planes de la empresa desde 2016, antes de que Ámsterdam prohibiera la construcción de nuevos centros de datos en la ciudad hasta 2030, decisión anunciada a finales de 2023 por la preocupación con el consumo eléctrico. Como el proyecto es anterior a la prohibición, la obra siguió adelante. No se dio a conocer una fecha de finalización ni de inicio de operaciones, según TecMundo.", "items": []},
+    {"type": "p", "text": "Aun con la prohibición vigente, el proyecto logró avanzar hasta la fase de construcción aprovechando vacíos regulatorios, según The Verge, que no detalla qué reglas específicas lo permitieron. La publicación señala además que los centros de datos de inteligencia artificial siguen apareciendo en Estados Unidos, con oposición frecuente de residentes locales preocupados por el impacto en sus comunidades.", "items": []},
+    {"type": "p", "text": "La protesta en Ámsterdam ocurrió la misma semana en que activistas montaron, en Dublín, un retén al estilo de los usados por Israel frente a otro centro de datos de Microsoft, el martes (3), según The Verge. La publicación describe ambas acciones como parte de una ola de protestas contra centros de datos en Europa.", "items": []},
+    {"type": "p", "text": "Días antes, votantes de Estados Unidos ya habían rechazado, en elecciones locales, la expansión irrestricta de centros de datos de inteligencia artificial, de acuerdo con The Verge.", "items": []},
+    {"type": "h2", "text": "Historial de roces con empleados", "items": []},
+    {"type": "p", "text": "Microsoft enfrenta protestas de empleados y exempleados desde hace más de un año, según The Verge. En la fiesta por los 50 años de la empresa, manifestantes interrumpieron el evento y llamaron al ejecutivo de IA de la compañía, Mustafa Suleyman, \"war profiteer\" (algo así como \"lucrador de la guerra\", en traducción libre). En otra ocasión, un empleado interrumpió la charla del CEO Satya Nadella en la conferencia Build. Meses después, la empresa despidió a dos empleados que habían ocupado la oficina del presidente de la compañía, de acuerdo con la publicación.", "items": []},
+    {"type": "p", "text": "El mes pasado, Microsoft abandonó lo que habría sido el mayor proyecto de centro de datos del Reino Unido, después de que operadores de la red eléctrica local informaran que el suministro de energía no estaría disponible hasta la década de 2030, según The Verge y TecMundo.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién se ve afectado: Microsoft, responsable del proyecto, y los residentes cerca de Ámsterdam, donde los nuevos centros de datos están prohibidos hasta 2030.",
+      "Qué cambia: la construcción continúa, ya que el proyecto es anterior a la prohibición; no hay fecha de finalización divulgada.",
+      "Contexto: es la segunda acción de activistas contra un centro de datos de Microsoft en Europa en una semana, tras la protesta en Dublín del martes (3).",
+      "Panorama más amplio: la oposición a los centros de datos de IA también surgió en Estados Unidos, donde los votantes rechazaron la expansión de infraestructura en elecciones locales recientes."
+    ]}
+  ],
+  "image": {
+    "query": "data center construction site protest crane",
+    "alt": "Obra de un centro de datos con una grúa al fondo"
+  },
+  "sources": [
+    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam", "title": "Protesters break into Microsoft data center site in Amsterdam"},
+    {"name": "TecMundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/big-techs/manifestantes-invadem-canteiro-de-obras-de-data-center-da-microsoft-na-holanda/", "title": "Manifestantes invadem canteiro de obras de data center da Microsoft na Holanda"}
+  ],
+  "status": "draft"
+}
