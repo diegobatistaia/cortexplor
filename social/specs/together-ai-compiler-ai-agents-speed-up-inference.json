@@ -1,0 +1,101 @@
+{
+  "slug": "together-ai-compiler-ai-agents-speed-up-inference",
+  "lang": "en",
+  "date": "08 Nov 2026",
+  "no": 92,
+  "category": "Applications",
+  "kicker": "Applications · Together AI",
+  "headline": "Together AI launches a compiler that speeds up models",
+  "headline_hl": "speeds up models",
+  "dek": "Together Compiler uses agents to tune code, says the company.",
+  "image": {
+    "path": "assets/img/together-ai-compiler-ai-agents-speed-up--276b71d4.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Agents<br>optimize",
+  "sources": [
+    "Together AI",
+    "Together AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Together Compiler",
+    "body": [
+      "Together AI launched Together Compiler, which uses AI agents to speed up model responses on its own, the company says.",
+      "It is already in production, processing trillions of tokens a day."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Together AI:",
+    "points": [
+      {
+        "h": "Engine",
+        "t": "Keeps the engine running and swaps only the tested code."
+      },
+      {
+        "h": "Tests",
+        "t": "Runs 252 times more experiments per hour."
+      },
+      {
+        "h": "Two tiers",
+        "t": "A fast engine to test and a full one to confirm."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Gains",
+    "body": [
+      "In under 24 hours of tuning, the system raised tokens per second by up to 2.6x, per Together AI.",
+      "It beats open megakernels by 1.7x on Llama 1B (Together AI)."
+    ],
+    "stat": {
+      "big": "2.6x",
+      "cap": "more tokens per second, says Together AI"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Strategy",
+        "t": "The firm calls it Polymorphic Inference (Together AI)."
+      },
+      {
+        "h": "Price",
+        "t": "The company did not disclose pricing (Together AI)."
+      },
+      {
+        "h": "Beyond AI",
+        "t": "The method also fits weather forecasting (Together AI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Together AI launched Together Compiler, which uses AI agents to speed up models.",
+    "body": [
+      "Per the company, the system keeps the inference engine running and swaps only the code being tested, which delivers 252 times more experiments per hour. The product already handles trillions of tokens daily. A fast engine runs early tests, and a full one confirms the optimization works on real traffic.",
+      "Together AI says that in under 24 hours of automatic tuning it raised tokens per second by up to 2.6x on open models like Kimi K3 and DeepSeek v4.1-Flash. It also says it beats open megakernels by 1.7x on Llama 1B. The figures come from the company itself and have not been independently verified."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#togetherai",
+      "#inference",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Together Compiler, Together AI's tool that speeds up models",
+    "Slide 2: Together Compiler uses agents and is already in production",
+    "Slide 3: always-on engine, 252 times more tests and two engine tiers",
+    "Slide 4: gains of up to 2.6x in tokens per second",
+    "Slide 5: Polymorphic Inference, no pricing and use beyond AI",
+    "Slide 6: source for the Together Compiler story: Together AI"
+  ]
+}

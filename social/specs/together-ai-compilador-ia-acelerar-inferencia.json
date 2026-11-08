@@ -1,0 +1,101 @@
+{
+  "slug": "together-ai-compilador-ia-acelerar-inferencia",
+  "lang": "pt",
+  "date": "08 nov 2026",
+  "no": 95,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Together AI",
+  "headline": "Together AI lança compilador que acelera modelos com IA",
+  "headline_hl": "acelera modelos",
+  "dek": "O Together Compiler usa agentes para ajustar o código, segundo a empresa.",
+  "image": {
+    "path": "assets/img/together-ai-compilador-ia-acelerar-infer-276b71d4.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Agentes<br>otimizam",
+  "sources": [
+    "Together AI",
+    "Together AI"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Together Compiler",
+    "body": [
+      "A Together AI lançou o Together Compiler, que usa agentes de IA para acelerar sozinhos a resposta dos modelos, segundo a empresa.",
+      "Já está em produção, processando trilhões de tokens por dia."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Together AI:",
+    "points": [
+      {
+        "h": "Motor",
+        "t": "Mantém o motor ligado e troca só o trecho testado."
+      },
+      {
+        "h": "Testes",
+        "t": "Roda 252 vezes mais experimentos por hora."
+      },
+      {
+        "h": "Dois níveis",
+        "t": "Motor rápido para testar e completo para confirmar."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Ganhos",
+    "body": [
+      "Em menos de 24 horas de ajuste, o sistema elevou em até 2,6 vezes os tokens por segundo, segundo a Together AI.",
+      "Ele supera em 1,7 vez os megakernels abertos no Llama 1B (Together AI)."
+    ],
+    "stat": {
+      "big": "2,6x",
+      "cap": "mais tokens por segundo, diz a Together AI"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Estratégia",
+        "t": "A empresa fala em Inferência Polimórfica (Together AI)."
+      },
+      {
+        "h": "Preço",
+        "t": "A empresa não divulgou preço (Together AI)."
+      },
+      {
+        "h": "Além da IA",
+        "t": "A técnica serve também a previsão do tempo (Together AI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Together AI lançou o Together Compiler, que usa agentes de IA para acelerar modelos.",
+    "body": [
+      "Segundo a empresa, o sistema mantém o motor de inferência ligado e troca apenas o trecho de código testado, o que eleva em 252 vezes o número de experimentos por hora. O produto já roda com trilhões de tokens diários. Um motor rápido faz os testes iniciais, e outro completo confirma a otimização com dados reais.",
+      "A Together AI diz que, em menos de 24 horas de ajuste automático, aumentou em até 2,6 vezes os tokens por segundo em modelos abertos como Kimi K3 e DeepSeek v4.1-Flash. Também afirma superar em 1,7 vez os megakernels abertos no Llama 1B. Os números são da própria empresa."
+    ],
+    "cta_variant": "A",
+    "cta": "Você confiaria em agentes de IA para otimizar seus modelos?",
+    "hashtags": [
+      "#cortexplor",
+      "#togetherai",
+      "#inferencia",
+      "#agentesdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Together Compiler, da Together AI, que acelera modelos com IA",
+    "Slide 2: Together Compiler usa agentes e já está em produção",
+    "Slide 3: motor sempre ligado, 252 vezes mais testes e dois níveis de motor",
+    "Slide 4: ganhos de até 2,6 vezes em tokens por segundo",
+    "Slide 5: Inferência Polimórfica, sem preço divulgado e uso além da IA",
+    "Slide 6: fonte da matéria sobre o Together Compiler: Together AI"
+  ]
+}
