@@ -1,0 +1,100 @@
+{
+  "slug": "ibm-research-trains-deck-building-model",
+  "lang": "en",
+  "date": "08 Nov 2026",
+  "no": 90,
+  "category": "Models",
+  "kicker": "Models · IBM",
+  "headline": "IBM trains an AI model to build slide decks",
+  "headline_hl": "slide decks",
+  "dek": "Palette has 20 billion parameters and follows a company's look, says IBM.",
+  "image": {
+    "path": "assets/img/ibm-research-trains-deck-building-model-50f418f0.jpg",
+    "credit": "Google DeepMind / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Decks in<br>a brand look",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Palette",
+    "body": [
+      "IBM Research published Palette, an AI model that builds slide decks in the design language of whoever deploys it, per its post on Hugging Face.",
+      "It has 20 billion parameters, a fraction of frontier models (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per IBM Research:",
+    "points": [
+      {
+        "h": "Designer",
+        "t": "Decides the content and structure of each slide."
+      },
+      {
+        "h": "Coder",
+        "t": "Writes code for position, width and font size."
+      },
+      {
+        "h": "Hosting",
+        "t": "Small enough to run on a company's own systems."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Faster",
+    "body": [
+      "Because content is fixed before code, slides are generated in parallel, per IBM Research (Hugging Face).",
+      "On PresentBench, the model ranked first in two of three domains."
+    ],
+    "stat": {
+      "big": "6-7x",
+      "cap": "faster code generation, says IBM"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Data",
+        "t": "Trained on 1,000 synthetic decks (Hugging Face)."
+      },
+      {
+        "h": "Directives",
+        "t": "Accepts short commands across 12 categories (Hugging Face)."
+      },
+      {
+        "h": "Challenge",
+        "t": "Keeping the model from inventing facts (Hugging Face)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "IBM Research built Palette, an AI model for slide decks that follows a company's own look.",
+    "body": [
+      "Per IBM Research on Hugging Face, Palette has 20 billion parameters and can run on a company's own infrastructure, which keeps confidential content away from third-party clouds. One role, the designer, decides each slide's content, and another, the coder, writes the code that places every element.",
+      "Because content is fixed before code, generation runs in parallel and gets 6 to 7 times faster. The team trained the model on about 1,000 synthetic decks and says it ranked first in two of three PresentBench domains. The hardest problem was keeping the model from inventing information."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#ibm",
+      "#palette",
+      "#slidedecks"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Palette, IBM Research's AI model for building slide decks",
+    "Slide 2: Palette has 20 billion parameters and follows a company's look",
+    "Slide 3: designer and coder roles, and running on a company's own systems",
+    "Slide 4: 6 to 7 times faster generation and first place on PresentBench",
+    "Slide 5: synthetic data, directives and the challenge of invented facts",
+    "Slide 6: source for the IBM slide deck model story: Hugging Face"
+  ]
+}

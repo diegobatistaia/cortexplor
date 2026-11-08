@@ -1,0 +1,11 @@
+IBM Research built Palette, an AI model for slide decks that follows a company's own look.
+
+Per IBM Research on Hugging Face, Palette has 20 billion parameters and can run on a company's own infrastructure, which keeps confidential content away from third-party clouds. One role, the designer, decides each slide's content, and another, the coder, writes the code that places every element.
+
+Because content is fixed before code, generation runs in parallel and gets 6 to 7 times faster. The team trained the model on about 1,000 synthetic decks and says it ranked first in two of three PresentBench domains. The hardest problem was keeping the model from inventing information.
+
+Save it for later and send it to someone following AI.
+
+Full story: link in bio.
+
+#cortexplor #ibm #palette #slidedecks

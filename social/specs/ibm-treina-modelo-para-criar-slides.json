@@ -1,0 +1,100 @@
+{
+  "slug": "ibm-treina-modelo-para-criar-slides",
+  "lang": "pt",
+  "date": "08 nov 2026",
+  "no": 93,
+  "category": "Modelos",
+  "kicker": "Modelos · IBM",
+  "headline": "IBM treina modelo de IA para criar slides",
+  "headline_hl": "criar slides",
+  "dek": "O Palette tem 20 bilhões de parâmetros e segue o visual da empresa, diz a IBM.",
+  "image": {
+    "path": "assets/img/ibm-treina-modelo-para-criar-slides-50f418f0.jpg",
+    "credit": "Google DeepMind / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Slides<br>com a marca",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Palette",
+    "body": [
+      "A IBM Research publicou o Palette, modelo de IA que monta apresentações no padrão visual de quem o usa, segundo a empresa no Hugging Face.",
+      "Ele tem 20 bilhões de parâmetros, uma fração dos modelos de ponta (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a IBM Research:",
+    "points": [
+      {
+        "h": "Designer",
+        "t": "Decide o conteúdo e a estrutura de cada slide."
+      },
+      {
+        "h": "Coder",
+        "t": "Escreve o código com posição, largura e fonte."
+      },
+      {
+        "h": "Rodar",
+        "t": "Cabe na infraestrutura da própria empresa."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Mais rápido",
+    "body": [
+      "Como o conteúdo é definido antes do código, os slides são gerados em paralelo, segundo a IBM Research (Hugging Face).",
+      "No PresentBench, o modelo ficou em primeiro em dois dos três domínios."
+    ],
+    "stat": {
+      "big": "6 a 7x",
+      "cap": "geração de código mais rápida, diz a IBM"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Dados",
+        "t": "Treino com mil apresentações sintéticas (Hugging Face)."
+      },
+      {
+        "h": "Diretivas",
+        "t": "Aceita comandos curtos de 12 categorias (Hugging Face)."
+      },
+      {
+        "h": "Desafio",
+        "t": "Evitar que o modelo invente dados (Hugging Face)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A IBM Research criou o Palette, um modelo de IA para slides que segue o visual da empresa.",
+    "body": [
+      "Segundo a IBM Research, no Hugging Face, o Palette tem 20 bilhões de parâmetros e pode rodar na infraestrutura da própria empresa, o que mantém conteúdo confidencial fora de nuvens de terceiros. Um papel, o designer, decide o conteúdo de cada slide, e outro, o coder, escreve o código que posiciona cada elemento.",
+      "Como o conteúdo é definido antes do código, a geração roda em paralelo e fica de 6 a 7 vezes mais rápida. A equipe treinou o modelo com cerca de mil apresentações sintéticas e diz que ele ficou em primeiro lugar em dois dos três domínios do PresentBench. O maior desafio foi evitar dados inventados."
+    ],
+    "cta_variant": "A",
+    "cta": "Você usaria uma IA própria para montar os seus slides?",
+    "hashtags": [
+      "#cortexplor",
+      "#ibm",
+      "#palette",
+      "#slides"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Palette, modelo de IA da IBM Research para criar slides",
+    "Slide 2: Palette tem 20 bilhões de parâmetros e segue o visual da empresa",
+    "Slide 3: papéis de designer e coder, e execução na infraestrutura própria",
+    "Slide 4: geração de 6 a 7 vezes mais rápida e primeiro lugar no PresentBench",
+    "Slide 5: dados sintéticos, diretivas e o desafio de evitar dados inventados",
+    "Slide 6: fonte da matéria sobre o modelo de slides da IBM: Hugging Face"
+  ]
+}
