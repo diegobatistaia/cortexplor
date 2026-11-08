@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:42:14+00:00",
+  "generated_at": "2026-11-08T20:42:46+00:00",
   "posts_per_language_today": 3,
   "daily_cap_per_language": 4,
   "already_written_today": 1,
@@ -80,30 +80,21 @@
   ],
   "stories": [
     {
-      "story_id": "406a7786140c79ea",
-      "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-      "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was...",
+      "story_id": "f100811074608d47",
+      "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+      "summary": "Lawmakers want to question Nvidia CEO Jensen Huang following reports about his relationship with an alleged Chinese intelligence asset.",
       "owners": [
+        "axel-springer",
         "axios",
-        "nbcuniversal",
-        "vox-media"
+        "nbcuniversal"
       ],
       "primary_owners": [],
       "fingerprints": [
-        "3db08aefcfb91859",
         "7ee970694488e9dd",
-        "1bc7ba2a28c4372d"
+        "49d818d3e60283ee",
+        "cc0cfefe932f0570"
       ],
       "sources": [
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
-          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-          "published_at": "2026-11-07T21:06:38+00:00",
-          "kind": "press",
-          "text": ""
-        },
         {
           "name": "CNBC Technology",
           "owner": "nbcuniversal",
@@ -114,13 +105,22 @@
           "text": "Lawmakers from both sides of the aisle are ramping up calls for investigations into reports of Nvidia CEO Jensen Huang's relationship with an alleged Chinese spy. Some are also questioning what the Trump administration knew about the matter. \"The more I learn about the insane relationship between the Trump Administration, Chinese spies, and AI billionaires, the more I'm convinced there is nothing this administration does that isn't corrupt,\" Sen. Chris Coons, D-Del., posted on X on Saturday. \"Congress will investigate and get answers.\" Coons is in line to chair the Senate Foreign Relations Committee when his party takes control of the chamber in January. Three House Republican committee chairs sent a letter to Huang on Wednesday requesting that he sit for a closed-door briefing with lawmakers on Nov. 18, a day after the company is scheduled to report third-quarter earnings. \"Recent reports raise significant national security concerns regarding the [People's Republic of China's] access to sensitive U.S. technology and information,\" the GOP lawmakers wrote in a letter to Huang . The reports refer to Huang's alleged relationship with Alice Huang, a Chinese citizen and executive at Megaspeed, a Singapore-based tech company that the U.S. has suspected of helping China circumvent artificial intelligence chip sales prohibitions. Policymakers in the Trump administration received a memo last spring with intelligence identifying Alice Huang as having been recruited by China's Ministry of State Security and revealing her relationship with Nvidia's chief executive, The New York Times first reported on Friday. When asked by the Times whether Huang would appear before lawmakers to discuss the matter, Nvidia spokesman John Rizzo declined to comment. \"Our chief executive has an outstanding security team that accompanies him where needed,\" Mr. Rizzo said in a statement to the Times. Rizzo said the Nvidia CEO's interactions with Ms. Huang were consistent with meetings he has had with any of Nvidia's customers, the Times reported . Separately, Texas Republican Sen. John Cornyn shared a Times article published Saturday reporting that the Trump administration approved a Chinese firm, New Matrix, to assemble chips for Nvidia in Beijing. The Times found little evidence of meaningful operations at its listed address, despite Trump's Commerce Department clearing it for national security risks. Cornyn called the report \"outrageous\" in his post on X . Rep. Seth Magaziner, D-R.I., who sits on the House Committee on Homeland Security, called on Commerce Secretary Howard Lutnick to testify before Congress along with Huang. Neither Nvidia nor the Commerce Department immediately responded to CNBC's request for comment."
         },
         {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-          "published_at": "2026-11-06T23:00:44+00:00",
+          "name": "Axios",
+          "owner": "axios",
+          "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
+          "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation",
+          "published_at": "2026-11-08T20:14:05+00:00",
           "kind": "press",
-          "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. China’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new. The NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang."
+          "text": ""
+        },
+        {
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/nvidia-jensen-huang-investigation-chinese-spy-2026-11",
+          "title": "Nvidia says it's investigating whether CEO Jensen Huang was the target of 'a foreign intelligence effort'",
+          "published_at": "2026-11-08T20:21:30+00:00",
+          "kind": "press",
+          "text": ""
         }
       ]
     },
@@ -159,6 +159,40 @@
       ]
     },
     {
+      "story_id": "ce1f098010013b58",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
+      "owners": [
+        "techcrunch",
+        "vox-media"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "1bc7ba2a28c4372d",
+        "69c75581d56ff5e1"
+      ],
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+          "published_at": "2026-11-06T23:00:44+00:00",
+          "kind": "press",
+          "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. China’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new. The NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang."
+        },
+        {
+          "name": "TechCrunch AI",
+          "owner": "techcrunch",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "published_at": "2026-11-07T21:17:08+00:00",
+          "kind": "press",
+          "text": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports. The New York Times, which had previously said Nvidia’s chief executive had been the target of Chinese intelligence, was the first to report on the memo . The Financial Times subsequently reported that the memo — supposedly based on U.S. intelligence — also claimed Jensen Huang had a romantic relationship with Alice Huang, an executive at a Singapore-based company called Megaspeed. An Nvidia spokesperson told the NYT that Jensen Huang’s interactions with Alice Huang were “not unusual,” and that the company does not share classified information with its customers. A separate NYT report examined New Matrix, a Chinese company authorized by the U.S. Commerce Department to buy advanced Nvidia chips. But at the office address listed by New Matrix, reporters only found “a hollow gray shell,” raising concerns that it could be a front for a blacklisted private equity firm. The Nvidia spokesperson said the company sells “the first, best and most of our technology in America.” Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Subscribe for the industry’s biggest tech news"
+        }
+      ]
+    },
+    {
       "story_id": "c1b2479dcb029a27",
       "title": "Como usar o mapa do Gemini para encontrar novos lugares?",
       "summary": "O Google lançou uma nova ferramenta chamada “Mapa” para o aplicativo Gemini em celulares. Com ela, você pode escolher uma região no mapa e pedir à inteligência artificial informações, recomendações e sugestões relacionadas ao local selecionado. A ferramenta é útil para quem quer encontrar restaurantes, pontos turísticos, lojas ou outros lugares de interesse sem precisar informar apenas o nome de...",
@@ -189,6 +223,40 @@
           "published_at": "2026-11-08T08:00:00+00:00",
           "kind": "press",
           "text": "Aplicaciones como ChatGPT, Claude o Gemini se han convertido en imprescindibles para millones de personas que buscan responder sus preguntas , obtener una explicación sobre algo que no entienden o, simplemente, obtener mejores resultados al buscar por internet . Y si hablamos de búsquedas online, muchas de ellas tienen que ver con comprar un producto o contratar un servicio . De ahí que existan tantos comparadores de viajes, telefonía, compañías eléctricas, electrónica o videojuegos. Es más. Comprar con Gemini o ChatGPT cada vez está más cerca de convertirse en una experiencia todo en uno. Este año hemos visto cómo Google ha ido incorporando elementos relacionados con las compras en sus productos y servicios . Como el carrito universal , que todavía no está presente en todos los países o las constantes mejoras del modo IA de Google y de Gemini enfocadas, precisamente a comprar por internet directamente desde su asistente de inteligencia artificial. Además, ya hemos visto con anterioridad que combinando Gemini y la cámara de tu móvil puedes organizar mejor tus compras . En este artículo vamos a ver de qué manera es posible comprar con Gemini . O, mejor dicho, qué cosas puedes pedirle a la IA de Google para ayudarte durante todo el proceso previo a la compra en sí. Por ejemplo, comparar precios, modelos del mismo producto, encontrar aquello que necesitas, inspirarte si no sabes qué regalar… En definitiva, Gemini puede ser un buen aliado y un asistente de compras si sabes cómo usarlo en tu favor. Comprar con Gemini puede resultar muy cómodo si sabes explicarle bien lo que necesitas . Primero, ¿sabes ya qué vas a comprar? Entonces, pídele que busque la tienda más barata. Si no estás seguro, pregúntale qué producto es mejor entre dos o tres que tengas en mente. Y si no tienes idea de lo que necesitas exactamente, expon tus necesidades y Gemini te dará las soluciones más aproximadas. Aquí van varios ejemplos de prompts sobre compras para empezar: En resumen, al buscar algo en Gemini, deberías tener en cuenta : Gemini nos da una plantilla para hacer una búsqueda de este tipo: “Quiero comprar [producto] para [uso concreto]. Presupuesto: [cantidad]. Debe cumplir: [requisitos imprescindibles]. Prefiero evitar: [restricciones]. Busca opciones disponibles en España, compáralas en una tabla con precio, especificaciones, ventajas, inconvenientes, garantía y reseñas. Después, dame X finalistas, señala riesgos y dime qué comprobaría yo mismo antes de pagar.” Hay muchos parámetros que te hacen decidirte por un producto. Según lo que sea, tal vez te interese lo económico . En otros casos, buscarás que dure mucho y se rompa poco . Otros productos te interesarán más por si tiene piezas de sustitución o recargables baratos . Y, muchas veces, tal vez quieras conocer qué te conviene más si hay que elegir entre que sea bueno, bonito o barato. Así que procura decírselo cuando busques qué comprar con Gemini. Por ejemplo, si vas a comprar algo tan genérico como un teléfono móvil y no tienes un candidato concreto, puedes preguntarle a Gemini que te muestra las mejores opciones según diferentes parámetros : los de mejor calidad, los más económicos, los que mejor combinen calidad-precio… Así, la IA te los mostrará en grupos comparando todas las opciones y te será más fácil decidirte por uno u otro. Las tablas son un elemento visual muy práctico cuando no te decides por un modelo concreto de ese producto que quieres comprar. Si tienes cuatro o cinco opciones a elegir, una tabla te resolverá las dudas. Así que díselo a Gemini, indicando que incluya parámetros como precio final, características más destacadas, dimensiones, peso, garantía… Según qué estés buscando comprar, puedes pedir mil y una cosas que te decantarán por una u otra opción. Materiales de fabricación, opinión de los usuarios y de los expertos, si cumple con los estándares o normativas… No des por sentado que Gemini te va a proporcionar toda la información que necesitas. Especifícalo tú mismo para que la tabla resultante sea lo más completa posible. Cuanto más caro es lo que quieres comprar, más tiempo le dedicarás a la búsqueda . Con Gemini ocurre igual. Si se trata de comprar con Gemini algo que te supondrá un desembolso considerable de dinero, te conviene utilizar la función Deep Research . En castellano, investigación profunda. Le llevará más tiempo a la IA darte una respuesta. Pero esa respuesta será un informe más preciso sobre lo que estás buscando. Y merece la pena. Además, en el modo Deep Research de Gemini puedes incluir tus propias fuentes . Por ejemplo, buscando tus propias fuentes en Google o subiendo archivos de manuales, prospectos, catálogos o folletos de productos. Así te asegurarás de que la IA busque donde tú quieres y te dé la información acorde a fuentes que tú consideres fiables o de confianza. Dedícale tiempo a esto antes de lanzar tu pregunta a Gemini y obtendrás mejores respuestas . Otra manera de ayudarte a decidirte entre dos o tres productos similares consiste en ver qué dicen los demás. Aunque las reseñas y opiniones tienen sus más y sus menos, y a veces hay que cogerlas con pinzas, pueden servir de ayuda. Así que pídele a Gemini que te diga qué opiniones merecen en internet determinado producto y si hay quejas o polémicas . Esto sirve tanto para el producto o servicio como para la tienda o proveedor del servicio . Hay tiendas y comercios en los que confiamos a ciegas. Pero es posible que encuentres un nuevo sitio con buenos precios que quieras probar. Si no lo conoces, necesitarás opiniones favorables que te hagan confiar en él. O, al contrario, que te libren de una mala experiencia. Pregunta si la compra es segura , si el envío es correcto, si hay atención al cliente , sede física, si el servicio posterior a la compra es el adecuado… Toda precaución es poca cuando se trata de comprar. Especialmente si el coste del producto es alto. Cuando ya tengas seguro qué producto quieres, ya puedes empezar la segunda fase: comparar prec"
+        }
+      ]
+    },
+    {
+      "story_id": "406a7786140c79ea",
+      "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+      "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was...",
+      "owners": [
+        "axios",
+        "nbcuniversal"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "3db08aefcfb91859",
+        "26a78b8c98a3d9d9"
+      ],
+      "sources": [
+        {
+          "name": "Axios",
+          "owner": "axios",
+          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+          "published_at": "2026-11-07T21:06:38+00:00",
+          "kind": "press",
+          "text": ""
+        },
+        {
+          "name": "CNBC Technology",
+          "owner": "nbcuniversal",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+          "title": "Nvidia opens probe of CEO Huang being targeted by possible Chinese spy",
+          "published_at": "2026-11-08T20:17:19+00:00",
+          "kind": "press",
+          "text": "Nvidia's board announced Sunday it will conduct an independent investigation of Chief Executive Jensen Huang following reports of his connection to an alleged Chinese spy. This is breaking news. Please refresh for updates."
         }
       ]
     },
@@ -289,66 +357,6 @@
           "published_at": "2026-11-04T07:00:00+00:00",
           "kind": "primary",
           "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "fa68bf62089689da",
-      "title": "A thousand fewer paths to root",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "owners": [
-        "openai"
-      ],
-      "primary_owners": [
-        "openai"
-      ],
-      "fingerprints": [
-        "a4f4c423c5426033"
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "owner": "openai",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "title": "A thousand fewer paths to root",
-          "published_at": "2026-11-04T08:00:00+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "6cc481e55a20c45d",
-      "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore",
-      "summary": "U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
-      "owners": [
-        "amazon"
-      ],
-      "primary_owners": [
-        "amazon"
-      ],
-      "fingerprints": [
-        "c8cea8f1c1744b94",
-        "38bdfb2f8c28df6a"
-      ],
-      "sources": [
-        {
-          "name": "AWS Machine Learning",
-          "owner": "amazon",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
-          "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore",
-          "published_at": "2026-11-04T16:23:33+00:00",
-          "kind": "primary",
-          "text": "U Mobile, Malaysia’s newest 5G network provider, has always run its telco operations lean, doing more with less through continuous automation. When new AI capabilities became available, U Mobile explored how to enhance operational efficiency beyond basic productivity gains. The real opportunity was further upstream, in how operations teams diagnose and resolve problems in the first place. The same lean operating discipline shaped the foundation for AiDaH: not a one-off technology initiative, but the next step in a long-running journey to simplify operations and scale capability without adding complexity. When a subscriber can’t purchase a data add-on, resolving it isn’t a single problem. It’s a coordination problem. A customer service agent needs to pull interface logs for error codes. The same agent must then query business support system APIs for subscriber eligibility, and cross-reference internal knowledge bases for applicable business policies. All of that happens across multiple systems, before drafting a single word of response. And when that fails, the ticket escalates to backend IT teams and the subscriber waits even longer. Traditional automation tools can help agents write better responses. What they can’t do is navigate multiple systems, analyze the results, and propose corrective action. Closing that gap takes an agentic architecture built on Amazon Bedrock AgentCore. U Mobile’s Information Systems Division (ISD) built exactly that. Working with AWS and AWS Partner Axrail, they created AiDaH, the AI-Driven Agentic Helpdesk, on Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale, with any framework or model. Two capabilities decided the choice. The managed agent runtime meant there was no agent infrastructure to operate. Built-in memory carried conversational context across turns without standing up a separate state store. Within a year of starting the journey, AiDaH handles over 150 documented operational scenarios across six business divisions. U Mobile’s internal measurements show trouble ticket volumes falling by up to 84.5 percent in key categories. In this post, we walk through the six-layer architecture behind AiDaH. We then describe the security foundation beneath the platform, and close with a brief note on the spec-driven method the team used to build it. U Mobile’s IT landscape reflects the complexity typical of modern telecommunications: business support and customer relationship management systems, mobile number portability platforms, big data analytics, and infrastructure monitoring tools, running hybrid across on-premises and cloud. Before AiDaH, this fragmentation meant that even routine diagnoses required manually checking logs, querying subscriber eligibility, and consulting knowledge bases for business policies, across separate systems and portals. Each lookup was a context switch, each context switch was time lost, and each unresolved query became an escalation to a backend IT team. Expanding coverage to additional operational domains compounded the problem, because every new system typically required a bespoke integration. The ISD team’s strategy rested on three pillars. AiDaH started with a principle: think big, start small. U Mobile began conceptualization in late 2025 with two pilot agents and Amazon Bedrock Knowledge Bases, a fully managed Retrieval Augmented Generation (RAG) capability. A Q1 2026 pilot brought the internal IT helpdesk online with 4 agents and 20 operational scenarios. Through 2026 the platform hardened and expanded, adding three-tier routing and reaching 6 agents by mid-year. AiDaH went live to 50 L2 call center and branch users in Q3 2026 with 8 agents, and now covers more than 150 documented operational scenarios. The difference between traditional AI assistance and agentic AI is best illustrated through a real example. With a traditional AI assistant, a support agent handling “mobile data not working overseas” gets help drafting a response and some suggested troubleshooting steps, but still manually checks roaming status, verifies eligibility, raises tickets, and sends the final reply. With AiDaH, the system independently checks the subscriber’s roaming configuration, verifies international data eligibility, and identifies the specific point of failure. It then assembles a remediation plan: which services to reset, what configuration to push, and whether a network ticket is warranted. The support agent reviews and confirms, and the actions execute. The investigation that used to consume the agent’s time now happens before they read the first line. The human decision point is preserved where it matters: at the moment something changes on a live subscriber account. In one production case, a subscriber reported being unable to purchase an add-on. AiDaH traced the failure to an error code, “Subscriber has pending order.” It also revealed that the customer had attempted the same purchase more than 30 times across multiple channels over three days, every attempt blocked by the same underlying pending order. AiDaH surfaced the root cause and the remediation steps in a single response. Previously that would have required manual investigation across several systems. AiDaH runs on a layered architecture built on Amazon Bedrock AgentCore, deployed in the Asia Pacific (Singapore) Region. Staff interact through Microsoft Teams, a deliberate choice to meet most users where they already work, with no new application to learn and no portal switching. The following diagram shows how the layers fit together. As shown in Figure 1, the platform is organized into six layers. Staff reach AiDaH through Microsoft Teams and a web portal served by Amazon CloudFront and protected by AWS WAF, with an AWS Lambda backend and a REST API for programmatic triggers. The routing brain on Amazon Bedrock AgentCore. Every request passes a pre-flight security check covering role-based access control, identity validation, and guardrails,"
-        },
-        {
-          "name": "AWS Machine Learning",
-          "owner": "amazon",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
-          "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
-          "published_at": "2026-11-06T16:55:05+00:00",
-          "kind": "primary",
-          "text": "Greenlight Financial resolves more than 90 percent of up to 4,000 security and risk cases each month without human intervention. Greenlight’s Luna uses Amazon Bedrock AgentCore , infrastructure for building, connecting, and optimizing agents at scale. Specifically, Greenlight uses AgentCore runtime, a capability of Amazon Bedrock AgentCore, to host Luna’s agent code. It uses AgentCore memory, a capability of Amazon Bedrock AgentCore, to support its tiered multi-agent system. This avoids the need to build and operate these capabilities in-house. Luna triages dark web breach-card alerts, identity anomalies, and financial-risk events in seconds. This post explains how Greenlight Financial built an autonomous security operations center (SOC) solution on Amazon Bedrock AgentCore. We cover its multi-tiered supervisor architecture, more than 30 specialized agents, episodic memory for continuous learning, and expansion from SOC use cases into financial risk triage. We share production metrics, infrastructure decisions, and patterns for building autonomous security operations in regulated industries. Greenlight Financial provides financial products for families: debit cards, savings tools, and connected devices such as the Family Hub and Pet Tracker. The company processes sensitive financial data at scale under the same regulatory requirements as major banks. Greenlight’s SOC receives 3,000–4,000 security and risk alerts per month from four primary vectors: Each alert demands cross-referencing multiple data sources before an analyst can render a verdict. A single dark web breach card notification requires checking whether the card is active, deduplicating against prior notifications, reviewing customer session data, and checking open support tickets. This workflow takes a human analyst 15-30 minutes per case. At 4,000 cases per month, that math breaks. Greenlight built Luna as a hierarchical multi-agent system on Amazon Bedrock AgentCore. The architecture follows a tiered supervisor pattern that mirrors how human SOC teams operate. L1 handles volume, and L2 handles complexity. Figure 1: Luna’s tiered supervisor architecture on Amazon Bedrock AgentCore Tier 1 supervisor uses an advanced language model available through Amazon Bedrock running on Amazon Bedrock AgentCore runtime within an Amazon Virtual Private Cloud (Amazon VPC). The runtime uses private subnets and direct code deployment through a ZIP file and Amazon Simple Storage Service ( Amazon S3 ). It handles initial triage of incoming cases by orchestrating more than 30 specialized agents: The Tier 1 supervisor receives cases through two paths: Amazon API Gateway, which exposes the Luna Queue API and a Model Context Protocol (MCP) endpoint, and Tines SOAR for automated alert ingestion. It determines which specialized agents to invoke based on alert type, synthesizes their findings, and renders a verdict. The median triage time for routine cases is single-digit seconds. Cases that exceed Tier 1’s confidence threshold escalate to a Tier 2 supervisor using an advanced foundation model on Amazon Bedrock with extended reasoning capabilities. This agent handles the 10 percent of cases that require multi-step reasoning: The Tier 2 supervisor runs on a scheduled basis, using Amazon EventBridge rate triggers and Amazon Simple Notification Service (Amazon SNS) queue completions to batch-process escalated cases, and on demand for urgent Tier 1-escalated cases. Different teams engage Luna in different ways, so the application exposes three entry points. These range from fully automated alert ingestion to interactive, on-demand investigation. Each entry point maps to a persona and how their work arrives: The memory layer is built on AgentCore memory. This layer is what separates Luna from a stateless triage tool. It supports pattern recognition, deduplication, and continuous accuracy improvement. Stores recent events and resolution outcomes. When a new alert arrives, Luna checks: “Have I seen this pattern in the last 30 days? What was the verdict? Is this a known behavior that I should allowlist?” Concrete example: A Greenlight infrastructure role generates a specific access pattern every Tuesday at 3 AM for scheduled maintenance. Without memory, Luna would flag this every week. With episodic memory, Luna learned after the first resolution that this pattern is expected and auto-allowlists it. Persists semantic preferences and resolution templates beyond the 30-day window: A dedicated pipeline feeds resolution outcomes back into the system: This pipeline drove Luna’s autonomous resolution rate from 83 percent (Tier 1 only) to more than 90 percent (Tier 1, Tier 2, and learnings). Greenlight expanded Luna into financial risk assessment within two months of the SOC deployment. The architectural changes were minimal: new specialized agents and a risk-domain supervisor layered onto the existing infrastructure. When a Greenlight customer card appears on the dark web, Luna executes this workflow autonomously: Greenlight receives hundreds of breach card notifications daily. Luna processes each in seconds. A human analyst doing the same work, logging into Galileo, checking DynamoDB, opening Mixpanel, searching Zendesk, takes 15-30 minutes per card. The following table tracks Greenlight’s security operations on the metrics that matter most to the SOC. It compares three stages: manual triage before Luna, Tier 1 automation, and the full Tier 1 and Tier 2 system. Based on Greenlight’s case volume and manual handling-time measurements, processing 4,000 cases at 15–30 minutes each would require approximately 1,000–2,000 analyst hours per month. Greenlight reports that Luna autonomously resolves more than 90 percent of these cases, avoiding an estimated 900–1,800 hours of routine manual work each month. Analysts can focus instead on cases that require human judgment. The risk reduction comes from two factors: speed (seconds compared to minutes reduces the exposure windo"
         }
       ]
     }
