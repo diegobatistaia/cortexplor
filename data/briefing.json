@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T00:40:05+00:00",
-  "posts_per_language_today": 1,
+  "generated_at": "2026-11-08T09:42:29+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 3,
+  "already_written_today": 0,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,50 +80,6 @@
   ],
   "stories": [
     {
-      "story_id": "64bf120bbb09c360",
-      "title": "Nvidia CEO called in by lawmakers over ties to alleged Chinese spy",
-      "summary": "Nvidia CEO Jensen Huang has been asked by three House Republican committee chairs to brief Congress behind closed doors about his reported ties to a woman accused of spying for China. Why it matters: The request escalates the scrutiny of the Nvidia CEO over his alleged relationship with Alice Huang, a businesswoman accused of spying for China. Catch up quick: Jensen Huang and Alice Huang...",
-      "owners": [
-        "axios",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "93ab760674bd9ab6",
-        "3db08aefcfb91859",
-        "1bc7ba2a28c4372d"
-      ],
-      "sources": [
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/11/05/jensen-huang-nvidia-congress-china",
-          "title": "Nvidia CEO called in by lawmakers over ties to alleged Chinese spy",
-          "published_at": "2026-11-06T00:53:37+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
-          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-          "published_at": "2026-11-07T21:06:38+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-          "published_at": "2026-11-06T23:00:44+00:00",
-          "kind": "press",
-          "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. China’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new. The NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang."
-        }
-      ]
-    },
-    {
       "story_id": "b198131581314441",
       "title": "Novo modelo da OpenAI identifica centenas de falhas de segurança",
       "summary": "A OpenAI restringirá o acesso ao modelo a equipes aprovadas no Daybreak, programa que inclui defesa e testes de segurança O post Novo modelo da OpenAI identifica centenas de falhas de segurança apareceu primeiro em Olhar Digital .",
@@ -153,7 +109,7 @@
           "title": "OpenAI lança GPT-6 Cyber e afirma que modelo caça falhas sem desobedecer pesquisadores",
           "published_at": "2026-11-06T21:15:00+00:00",
           "kind": "press",
-          "text": "A OpenAI apresentou, nesta quinta-feira (5), o GPT-6 Cyber , um modelo de inteligência artificial (IA) voltado para a segurança digital que supera versões anteriores na identificação de vulnerabilidades em sistemas de computadores . A ferramenta foi classificada como “crítica” para a segurança cibernética devido ao alto potencial técnico. Segundo a big tech, o modelo alcançou, em testes práticos realizados em ambientes controlados, um índice de acerto de quase 50% na exploração de falhas remotas, o que superou os 32,1% registrados pelo antecessor (o GPT-5.6 Cyber ). A tecnologia também apresentou maior precisão para respeitar as regras estabelecidas pelos pesquisadores. O GPT‐6 Cyber é um grande salto na pesquisa de segurança: mais capaz de encontrar e corrigir vulnerabilidades e permanecer muito mais confiável dentro dos limites estabelecidos pelos pesquisadores. “Essa melhoria no alinhamento reflete o treinamento dedicado para permanecer dentro do escopo autorizado, respeitar as restrições e relatar os resultados com precisão”, completou a OpenAI , em comunicado oficial . Durante os testes de validação, os analistas aplicaram o sistema no código do kernel Linux . O modelo reproduziu milhares de falhas conhecidas e gerou códigos de exploração funcionais para centenas delas. A partir dessa ação, a empresa relatou que centenas de problemas críticos foram enviados aos mantenedores do software acompanhados de propostas de correção. Paralelamente, o sistema atuou no navegador Firefox , no qual documentou dezenas de falhas inéditas classificadas como “de alta gravidade”. A Mozilla , a organização responsável pelo desenvolvimento do navegador, iniciou a liberação de atualizações de segurança para corrigir os problemas identificados pela IA. Para evitar usos indevidos, a OpenAI explicou ter implementado salvaguardas que monitoram as ações do modelo e bloqueiam tentativas de comprometer controles industriais e infraestruturas essenciais. O desenvolvimento dessas proteções contou com a colaboração da empresa de segurança cibernética Dragos, que testou os modelos em laboratório e publicou os resultados em uma análise técnica . O piso de habilidade está caindo para o reconhecimento e a pesquisa de vulnerabilidade necessária antes de um ataque A companhia frisou que o acesso ao novo modelo está restrito a clientes selecionados e aprovados que participam do programa voltado para testes autorizados e pesquisas avançadas de segurança Siga o TecMundo no X , Instagram , Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail. Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink? TV com MiniLED Pro e SSD ultracompacto: confira os lançamentos da semana Que fim levou a Compaq, uma das primeiras sensações do mercado de PCs? Pornô gerado por IA: entenda os perigos por trás do DeepNude Falha permite acesso root a servidores Linux ao digitar senha longa"
+          "text": "A OpenAI apresentou, nesta quinta-feira (5), o GPT-6 Cyber , um modelo de inteligência artificial (IA) voltado para a segurança digital que supera versões anteriores na identificação de vulnerabilidades em sistemas de computadores . A ferramenta foi classificada como “crítica” para a segurança cibernética devido ao alto potencial técnico. Segundo a big tech, o modelo alcançou, em testes práticos realizados em ambientes controlados, um índice de acerto de quase 50% na exploração de falhas remotas, o que superou os 32,1% registrados pelo antecessor (o GPT-5.6 Cyber ). A tecnologia também apresentou maior precisão para respeitar as regras estabelecidas pelos pesquisadores. O GPT‐6 Cyber é um grande salto na pesquisa de segurança: mais capaz de encontrar e corrigir vulnerabilidades e permanecer muito mais confiável dentro dos limites estabelecidos pelos pesquisadores. “Essa melhoria no alinhamento reflete o treinamento dedicado para permanecer dentro do escopo autorizado, respeitar as restrições e relatar os resultados com precisão”, completou a OpenAI , em comunicado oficial . Durante os testes de validação, os analistas aplicaram o sistema no código do kernel Linux . O modelo reproduziu milhares de falhas conhecidas e gerou códigos de exploração funcionais para centenas delas. A partir dessa ação, a empresa relatou que centenas de problemas críticos foram enviados aos mantenedores do software acompanhados de propostas de correção. Paralelamente, o sistema atuou no navegador Firefox , no qual documentou dezenas de falhas inéditas classificadas como “de alta gravidade”. A Mozilla , a organização responsável pelo desenvolvimento do navegador, iniciou a liberação de atualizações de segurança para corrigir os problemas identificados pela IA. Para evitar usos indevidos, a OpenAI explicou ter implementado salvaguardas que monitoram as ações do modelo e bloqueiam tentativas de comprometer controles industriais e infraestruturas essenciais. O desenvolvimento dessas proteções contou com a colaboração da empresa de segurança cibernética Dragos, que testou os modelos em laboratório e publicou os resultados em uma análise técnica . O piso de habilidade está caindo para o reconhecimento e a pesquisa de vulnerabilidade necessária antes de um ataque A companhia frisou que o acesso ao novo modelo está restrito a clientes selecionados e aprovados que participam do programa voltado para testes autorizados e pesquisas avançadas de segurança Siga o TecMundo no X , Instagram , Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail. Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink? A ‘Doença do Nobel’ e o risco da falácia de autoridade: por que grandes cientistas erram Chainalysis: empresa de inteligência em blockchain sofre ataque e expõe clientes TV com MiniLED Pro e SSD ultracompacto: confira os lançamentos da semana 5 cassinos online com depósito mínimo e apostas a partir de R$ 1"
         }
       ]
     },
@@ -188,6 +144,124 @@
           "published_at": "2026-11-06T23:43:40+00:00",
           "kind": "press",
           "text": "OpenAI Group PBC has reportedly raised $11 billion as part of a funding round that could nearly double in size over the coming weeks, as s ources told Bloomberg that investors wired the funds to the company today. The tipsters didn’t name the backers. The list of possible participants includes Microsoft Corp., which contributed to at least four of OpenAI’s previous rounds. That included its most recent $122 billion raise in March, which also drew the participation of Nvidia Corp., Amazon.com Inc. and about two dozen others. It’s believed that OpenAI could raise up to $9 billion in additional funding as part of the round. The deal is expected to value the company at $1.25 billion. That potentially puts it on track to surpass Anthropic PBC’s market capitalization. Anthropic hopes to achieve a valuation of $1.5 trillion in its upcoming initial public offering. However, several of its investors reportedly don’t consider that to be a realistic goal. According to the Wall Street Journal , one shareholder reportedly suggested that the company pursue a valuation closer to $1 trillion. Anthropic’s IPO filing revealed that its quarterly revenue jumped 1,127% on a year-over-year basis in the third quarter. Last month, the Financial Times reported that OpenAI closed the quarter with $50 billion in net annualized revenue, which represented a 77% year-over-year increase. The company’s growth was driven by its enterprise business, which saw sales more than double. The latest addition to OpenAI’s enterprise portfolio debuted on Thursday. GPT-6 Cyber can perform most cybersecurity tasks better than GPT-6 Astra, the company’s most capable general-purpose model. OpenAI engineers used it to develop 948 Linux⁠ exploits and uncover 81 high-severity zero-day flaws in Firefox. OpenAI President Greg Brockman revealed on Wednesday that the company had experienced a slowdown in the first half of the year. Its growth started accelerating after the June launch of GPT-5.6 Sol, the immediate predecessor to GPT-6 Astra. Brockman added that OpenAI’s ChatGPT Work productivity application and coding tools played a role as well. The company plans to go public sometime in 2027. Today’s cash infusion should make it easier for OpenAI to finance its steep infrastructure expenses until the listing. In July, The Information reported that the ChatGPT developer has more than $665 billion worth of chip and data center commitments. OpenAI has developed a custom inference accelerator in collaboration with Broadcom Inc. as part of an effort to lower its long-term hardware spending. Anthropic, for its part, is expected to kick off its IPO roadmap next week. The company reportedly plans to go public before Thanksgiving. Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push AWS' Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway? The AI boom's missing balance-sheet question: What has actually been verified? Atomicwork launches certified AI coworker marketplace for enterprise IT and security Dropbox acquires Tigris Data for $350M, releases new AI productivity features Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push AWS' Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway? The AI boom's missing balance-sheet question: What has actually been verified? Atomicwork launches certified AI coworker marketplace for enterprise IT and security Dropbox acquires Tigris Data for $350M, releases new AI productivity features"
+        }
+      ]
+    },
+    {
+      "story_id": "c1b2479dcb029a27",
+      "title": "Como usar o mapa do Gemini para encontrar novos lugares?",
+      "summary": "O Google lançou uma nova ferramenta chamada “Mapa” para o aplicativo Gemini em celulares. Com ela, você pode escolher uma região no mapa e pedir à inteligência artificial informações, recomendações e sugestões relacionadas ao local selecionado. A ferramenta é útil para quem quer encontrar restaurantes, pontos turísticos, lojas ou outros lugares de interesse sem precisar informar apenas o nome de...",
+      "owners": [
+        "canaltech",
+        "hipertextual"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "b85000d28e1569ad",
+        "91633fd1adad5573"
+      ],
+      "sources": [
+        {
+          "name": "Canaltech",
+          "owner": "canaltech",
+          "url": "https://canaltech.com.br/inteligencia-artificial/como-usar-o-mapa-do-gemini-para-encontrar-novos-lugares/",
+          "title": "Como usar o mapa do Gemini para encontrar novos lugares?",
+          "published_at": "2026-11-07T17:00:00+00:00",
+          "kind": "press",
+          "text": "Por Viviane França • Editado por Jones Oliveira | 07/11/2026 às 14:00 O Google lançou uma nova ferramenta chamada “Mapa” para o aplicativo Gemini em celulares. Com ela, você pode escolher uma região no mapa e pedir à inteligência artificial informações, recomendações e sugestões relacionadas ao local selecionado. A ferramenta é útil para quem quer encontrar restaurantes, pontos turísticos, lojas ou outros lugares de interesse sem precisar informar apenas o nome de uma cidade ou bairro. Ao abrir o recurso, o Gemini mostra um mapa da região atual do celular com uma área circular destacada . Você pode arrastar o mapa, aproximar ou afastar a visualização para posicionar a área sobre o local que deseja pesquisar. Também dá para procurar outro endereço ou região pelo ícone de lupa no canto superior direito. Depois de encontrar o local desejado, toque em “Explorar esta área”. O Gemini adiciona automaticamente a etiqueta “Área do Mapa” à caixa de texto, indicando que a região selecionada fará parte do contexto da conversa. A partir daí, é só fazer a pergunta ou enviar uma instrução, como pedir restaurantes próximos, pontos turísticos ou lugares interessantes para visitar. O recurso “Mapa” já está disponível nos aplicativos Gemini para Android e iOS , mas ainda não chegou à versão web. A ferramenta aparece no menu aberto pelo botão “+”, ao lado de opções Fotos, Câmera, Avatar, Arquivos, Drive e Notebooks. Caso você não queira adicionar uma região à conversa, basta tocar no botão “X” para fechar o mapa. Confira o passo a passo para começar a usar o mapa no Gemini: Deslize o carrossel de opções até encontrar “Mapa”; Permita que o Gemini acesse sua localização; Arraste o mapa e ajuste o zoom até encontrar a região desejada; Faça perguntas sobre o local ou peça sugestões de lugares para o Gemini. Se você gostou do conteúdo, talvez também se interesse por conferir “ 16 comandos para usar o Gemini no Google Maps ”."
+        },
+        {
+          "name": "Hipertextual",
+          "owner": "hipertextual",
+          "url": "https://hipertextual.com/guias/comprar-con-google-gemini-buscar-comparar/",
+          "title": "Cómo usar Gemini para encontrar, analizar y comparar productos antes de comprarlos",
+          "published_at": "2026-11-08T08:00:00+00:00",
+          "kind": "press",
+          "text": "Aplicaciones como ChatGPT, Claude o Gemini se han convertido en imprescindibles para millones de personas que buscan responder sus preguntas , obtener una explicación sobre algo que no entienden o, simplemente, obtener mejores resultados al buscar por internet . Y si hablamos de búsquedas online, muchas de ellas tienen que ver con comprar un producto o contratar un servicio . De ahí que existan tantos comparadores de viajes, telefonía, compañías eléctricas, electrónica o videojuegos. Es más. Comprar con Gemini o ChatGPT cada vez está más cerca de convertirse en una experiencia todo en uno. Este año hemos visto cómo Google ha ido incorporando elementos relacionados con las compras en sus productos y servicios . Como el carrito universal , que todavía no está presente en todos los países o las constantes mejoras del modo IA de Google y de Gemini enfocadas, precisamente a comprar por internet directamente desde su asistente de inteligencia artificial. Además, ya hemos visto con anterioridad que combinando Gemini y la cámara de tu móvil puedes organizar mejor tus compras . En este artículo vamos a ver de qué manera es posible comprar con Gemini . O, mejor dicho, qué cosas puedes pedirle a la IA de Google para ayudarte durante todo el proceso previo a la compra en sí. Por ejemplo, comparar precios, modelos del mismo producto, encontrar aquello que necesitas, inspirarte si no sabes qué regalar… En definitiva, Gemini puede ser un buen aliado y un asistente de compras si sabes cómo usarlo en tu favor. Comprar con Gemini puede resultar muy cómodo si sabes explicarle bien lo que necesitas . Primero, ¿sabes ya qué vas a comprar? Entonces, pídele que busque la tienda más barata. Si no estás seguro, pregúntale qué producto es mejor entre dos o tres que tengas en mente. Y si no tienes idea de lo que necesitas exactamente, expon tus necesidades y Gemini te dará las soluciones más aproximadas. Aquí van varios ejemplos de prompts sobre compras para empezar: En resumen, al buscar algo en Gemini, deberías tener en cuenta : Gemini nos da una plantilla para hacer una búsqueda de este tipo: “Quiero comprar [producto] para [uso concreto]. Presupuesto: [cantidad]. Debe cumplir: [requisitos imprescindibles]. Prefiero evitar: [restricciones]. Busca opciones disponibles en España, compáralas en una tabla con precio, especificaciones, ventajas, inconvenientes, garantía y reseñas. Después, dame X finalistas, señala riesgos y dime qué comprobaría yo mismo antes de pagar.” Hay muchos parámetros que te hacen decidirte por un producto. Según lo que sea, tal vez te interese lo económico . En otros casos, buscarás que dure mucho y se rompa poco . Otros productos te interesarán más por si tiene piezas de sustitución o recargables baratos . Y, muchas veces, tal vez quieras conocer qué te conviene más si hay que elegir entre que sea bueno, bonito o barato. Así que procura decírselo cuando busques qué comprar con Gemini. Por ejemplo, si vas a comprar algo tan genérico como un teléfono móvil y no tienes un candidato concreto, puedes preguntarle a Gemini que te muestra las mejores opciones según diferentes parámetros : los de mejor calidad, los más económicos, los que mejor combinen calidad-precio… Así, la IA te los mostrará en grupos comparando todas las opciones y te será más fácil decidirte por uno u otro. Las tablas son un elemento visual muy práctico cuando no te decides por un modelo concreto de ese producto que quieres comprar. Si tienes cuatro o cinco opciones a elegir, una tabla te resolverá las dudas. Así que díselo a Gemini, indicando que incluya parámetros como precio final, características más destacadas, dimensiones, peso, garantía… Según qué estés buscando comprar, puedes pedir mil y una cosas que te decantarán por una u otra opción. Materiales de fabricación, opinión de los usuarios y de los expertos, si cumple con los estándares o normativas… No des por sentado que Gemini te va a proporcionar toda la información que necesitas. Especifícalo tú mismo para que la tabla resultante sea lo más completa posible. Cuanto más caro es lo que quieres comprar, más tiempo le dedicarás a la búsqueda . Con Gemini ocurre igual. Si se trata de comprar con Gemini algo que te supondrá un desembolso considerable de dinero, te conviene utilizar la función Deep Research . En castellano, investigación profunda. Le llevará más tiempo a la IA darte una respuesta. Pero esa respuesta será un informe más preciso sobre lo que estás buscando. Y merece la pena. Además, en el modo Deep Research de Gemini puedes incluir tus propias fuentes . Por ejemplo, buscando tus propias fuentes en Google o subiendo archivos de manuales, prospectos, catálogos o folletos de productos. Así te asegurarás de que la IA busque donde tú quieres y te dé la información acorde a fuentes que tú consideres fiables o de confianza. Dedícale tiempo a esto antes de lanzar tu pregunta a Gemini y obtendrás mejores respuestas . Otra manera de ayudarte a decidirte entre dos o tres productos similares consiste en ver qué dicen los demás. Aunque las reseñas y opiniones tienen sus más y sus menos, y a veces hay que cogerlas con pinzas, pueden servir de ayuda. Así que pídele a Gemini que te diga qué opiniones merecen en internet determinado producto y si hay quejas o polémicas . Esto sirve tanto para el producto o servicio como para la tienda o proveedor del servicio . Hay tiendas y comercios en los que confiamos a ciegas. Pero es posible que encuentres un nuevo sitio con buenos precios que quieras probar. Si no lo conoces, necesitarás opiniones favorables que te hagan confiar en él. O, al contrario, que te libren de una mala experiencia. Pregunta si la compra es segura , si el envío es correcto, si hay atención al cliente , sede física, si el servicio posterior a la compra es el adecuado… Toda precaución es poca cuando se trata de comprar. Especialmente si el coste del producto es alto. Cuando ya tengas seguro qué producto quieres, ya puedes empezar la segunda fase: comparar prec"
+        }
+      ]
+    },
+    {
+      "story_id": "406a7786140c79ea",
+      "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+      "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was...",
+      "owners": [
+        "axios",
+        "vox-media"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "3db08aefcfb91859",
+        "1bc7ba2a28c4372d"
+      ],
+      "sources": [
+        {
+          "name": "Axios",
+          "owner": "axios",
+          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+          "published_at": "2026-11-07T21:06:38+00:00",
+          "kind": "press",
+          "text": ""
+        },
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+          "published_at": "2026-11-06T23:00:44+00:00",
+          "kind": "press",
+          "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. China’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new. The NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang."
+        }
+      ]
+    },
+    {
+      "story_id": "1f964b6a7894fdd8",
+      "title": "Accelerating engineering for the physical world",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "26c6032e1d267765"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+          "title": "Accelerating engineering for the physical world",
+          "published_at": "2026-11-03T12:00:00+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "a5c4fd567f7d1330",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor […]",
+      "owners": [
+        "nvidia"
+      ],
+      "primary_owners": [
+        "nvidia"
+      ],
+      "fingerprints": [
+        "c90cd6cc0c02e350"
+      ],
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "owner": "nvidia",
+          "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+          "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+          "published_at": "2026-11-03T16:00:45+00:00",
+          "kind": "primary",
+          "text": "Your browser doesn't support HTML5 video. Here is a link to the video instead. Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Physical experiments on a fab line are slow and expensive. A wrong call on yield or process quality has real consequences. AI is transforming semiconductor manufacturing, impacting what engineers can do — and how fast. Accelerated computing shortens simulation time, allowing engineers to evaluate more alternatives before committing to physical trials. Physics-based AI helps engineers predict process behavior without running a full simulation every time. AI agents handle sequences of engineering tasks that once consumed hours. And digital twins let teams test changes in a virtual environment before committing to physical trials. Together, these capabilities describe an AI-defined fab: a semiconductor manufacturing factory where AI helps engineers optimize processes, catch problems earlier and make better decisions across the full manufacturing chip lifecycle. Engineers direct the work and make decisions based on their expertise while spending less time waiting for answers. Accelerated computing doesn’t just speed up individual calculations — it changes how many alternatives engineers can test before committing. Multiphysics simulations model interactions among physical effects, such as heat transfer, electrical behavior and mechanical stress. Using the NVIDIA cuDSS library, multiphysics simulation software provider COMSOL is accelerating such simulations for semiconductor manufacturing by up to 10x. This helps engineers optimize equipment and processes, compare alternatives and decide which changes to test physically. Applied Materials and NVIDIA are collaborating to accelerate atomic-scale materials discovery and process development. By integrating NVIDIA cuDSS, Applied’s Ginestra simulation platform runs up to 10x faster than CPU-only approaches. And with NVIDIA PhysicsNeMo, Applied’s ACE+ multiphysics platform delivers topography simulations up to 35x faster. In some cases, acceleration doesn’t just shorten the calculation — it enables it altogether. Computational lithography — which defines how circuit patterns are printed onto silicon — involves calculations too intensive to complete on CPU at production scale. Siemens is integrating NVIDIA cuLitho into its Calibre lithography software, delivering up to 17x acceleration on key simulation workloads. That expands what engineers can verify before a wafer goes to print. As such, faster calculations can help researchers explore material behavior and reaction pathways that influence next-generation semiconductor processes. In addition to accelerating simulations, AI trained on physics can predict how materials and processes will behave — without running a full simulation each time. The payoff is most visible in complex calculations that are expensive even on accelerated hardware. Plasma — the electrically charged gas used in semiconductor etch processes — is one example. Modeling plasma behavior requires solving equations that capture how electrical, chemical and thermal processes interact, making repeated simulation costly. NVIDIA PhysicsNeMo can assist in reducing plasma-prediction simulation time from days to as little as milliseconds. Lam Research intends to integrate NanoVDB into its advanced semiconductor process modeling platform SEMulator3D, part of the company’s Semiverse Solutions family of virtual products. The addition of NanoVDB is expected to accelerate select wafer-etch modeling by up to 30x. Engineers turn analyses into decisions — revising a design, investigating a test failure, adjusting a production process and more. AI agents can help carry out the steps between those decisions. Evaluating which AI model to apply to a given task is one example: a sequential, manual process that can consume hours on the test floor. Advantest is using NVIDIA NeMo Switchyard AI agents to automate that selection, reducing response times from hours to minutes. Digital twins let teams simulate equipment configurations, layouts and process changes in a virtual environment before committing to physical trials. This reduces experimentation costs, especially as fabs become more complex and the stakes of a wrong change get higher. Applied Materials uses NVIDIA Omniverse libraries to build physically accurate digital twins of entire fabs. Teams can simulate material movement, identify bottlenecks and evaluate layouts and operating strategies — extending virtual experimentation beyond individual processes to how the factory works as a whole. The future of semiconductor manufacturing lies in connecting these capabilities: using production data to inform models and models to evaluate changes, then bringing those findings back to the engineers making production decisions. That’s the promise of the AI-defined fab: where AI helps people learn from each production cycle and act on that knowledge sooner. Explore how NVIDIA is working with semiconductor leaders across the chip lifecycle."
         }
       ]
     }
