@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T20:42:46+00:00",
-  "posts_per_language_today": 3,
+  "generated_at": "2026-11-08T23:50:46+00:00",
+  "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 1,
+  "already_written_today": 3,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,115 +80,101 @@
   ],
   "stories": [
     {
-      "story_id": "f100811074608d47",
-      "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
-      "summary": "Lawmakers want to question Nvidia CEO Jensen Huang following reports about his relationship with an alleged Chinese intelligence asset.",
+      "story_id": "406a7786140c79ea",
+      "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+      "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was...",
       "owners": [
-        "axel-springer",
         "axios",
-        "nbcuniversal"
+        "fortune",
+        "nbcuniversal",
+        "siliconangle",
+        "techcrunch",
+        "vox-media",
+        "yahoo"
       ],
       "primary_owners": [],
       "fingerprints": [
-        "7ee970694488e9dd",
-        "49d818d3e60283ee",
-        "cc0cfefe932f0570"
+        "3db08aefcfb91859",
+        "26a78b8c98a3d9d9",
+        "dfbe651a72605186",
+        "ecd65815b585666d",
+        "bc55171edc52873b",
+        "62dafe86ba115a6f",
+        "67abd93f196f854c",
+        "1da357dcb176e741"
       ],
       "sources": [
-        {
-          "name": "CNBC Technology",
-          "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
-          "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
-          "published_at": "2026-11-08T18:18:30+00:00",
-          "kind": "press",
-          "text": "Lawmakers from both sides of the aisle are ramping up calls for investigations into reports of Nvidia CEO Jensen Huang's relationship with an alleged Chinese spy. Some are also questioning what the Trump administration knew about the matter. \"The more I learn about the insane relationship between the Trump Administration, Chinese spies, and AI billionaires, the more I'm convinced there is nothing this administration does that isn't corrupt,\" Sen. Chris Coons, D-Del., posted on X on Saturday. \"Congress will investigate and get answers.\" Coons is in line to chair the Senate Foreign Relations Committee when his party takes control of the chamber in January. Three House Republican committee chairs sent a letter to Huang on Wednesday requesting that he sit for a closed-door briefing with lawmakers on Nov. 18, a day after the company is scheduled to report third-quarter earnings. \"Recent reports raise significant national security concerns regarding the [People's Republic of China's] access to sensitive U.S. technology and information,\" the GOP lawmakers wrote in a letter to Huang . The reports refer to Huang's alleged relationship with Alice Huang, a Chinese citizen and executive at Megaspeed, a Singapore-based tech company that the U.S. has suspected of helping China circumvent artificial intelligence chip sales prohibitions. Policymakers in the Trump administration received a memo last spring with intelligence identifying Alice Huang as having been recruited by China's Ministry of State Security and revealing her relationship with Nvidia's chief executive, The New York Times first reported on Friday. When asked by the Times whether Huang would appear before lawmakers to discuss the matter, Nvidia spokesman John Rizzo declined to comment. \"Our chief executive has an outstanding security team that accompanies him where needed,\" Mr. Rizzo said in a statement to the Times. Rizzo said the Nvidia CEO's interactions with Ms. Huang were consistent with meetings he has had with any of Nvidia's customers, the Times reported . Separately, Texas Republican Sen. John Cornyn shared a Times article published Saturday reporting that the Trump administration approved a Chinese firm, New Matrix, to assemble chips for Nvidia in Beijing. The Times found little evidence of meaningful operations at its listed address, despite Trump's Commerce Department clearing it for national security risks. Cornyn called the report \"outrageous\" in his post on X . Rep. Seth Magaziner, D-R.I., who sits on the House Committee on Homeland Security, called on Commerce Secretary Howard Lutnick to testify before Congress along with Huang. Neither Nvidia nor the Commerce Department immediately responded to CNBC's request for comment."
-        },
         {
           "name": "Axios",
           "owner": "axios",
-          "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
-          "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation",
-          "published_at": "2026-11-08T20:14:05+00:00",
+          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+          "published_at": "2026-11-07T21:06:38+00:00",
           "kind": "press",
           "text": ""
         },
         {
-          "name": "Business Insider",
-          "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/nvidia-jensen-huang-investigation-chinese-spy-2026-11",
-          "title": "Nvidia says it's investigating whether CEO Jensen Huang was the target of 'a foreign intelligence effort'",
-          "published_at": "2026-11-08T20:21:30+00:00",
+          "name": "CNBC Technology",
+          "owner": "nbcuniversal",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+          "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+          "published_at": "2026-11-08T22:53:57+00:00",
           "kind": "press",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "7e279f7fb7e7d9b3",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "owners": [
-        "siliconangle",
-        "techcrunch"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "314bd089789a0995",
-        "528f3dcaddd56701"
-      ],
-      "sources": [
+          "text": "Nvidia has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies say is a Chinese spy. U.S. intelligence agencies have expressed concerns that the woman, Alice Huang, who is affiliated with a cloud company and an Nvidia customer called Megaspeed, has been passing information to Beijing, according to reports in The New York Times and the Financial Times. Huang told Nvidia staff in an email on Sunday that he had an affair with the woman and that Nvidia's board of directors had opened an independent investigation into the spying allegations. \"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did,\" Huang wrote in the message. \"I am deeply sorry.\" An Nvidia spokesperson said that Huang was committed to continuing as CEO of Nvidia without interruption. In a statement, the Nvidia board said it would investigate the allegations that Huang had been the target of a foreign intelligence effort. \"While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information,\" Nvidia's board said in a statement. Read Huang's email to Nvidia employees and the company board of directors' statement here . The allegations come as Nvidia has become the center of a trade dispute between China and the U.S. as AI is seen as increasingly critical to national security. The U.S. restricts exports of Nvidia's most advanced AI chips to China, though it has approved exports of certain older, slower models. Megaspeed, which Ms. Huang is affiliated with, has been accused of helping restricted Chinese companies acquire Nvidia AI chips. Nvidia representatives previously said that Megaspeed had already been investigated for evading export controls. Nvidia's Huang has pushed for broader AI chip exports to China, saying it is better for the U.S. if the world uses and builds on American technology. He has also aligned with President Donald Trump on American artificial intelligence policy and its infrastructure buildout. In his note to staff, Huang said he was \"proud and grateful\" to be an American. Three House Republican committee chairs sent a letter to Huang on Wednesday asking him to sit for a closed-door briefing with lawmakers on Nov. 18. Nvidia reports third-quarter earnings on Nov. 17 and will hold a major conference in Washington, D.C., at the end of the month."
+        },
+        {
+          "name": "Fortune",
+          "owner": "fortune",
+          "url": "https://fortune.com/2026/11/08/pentagon-economic-warfare-espionage-nvidia-jensen-huang-chinese-spy-romantic-affair/",
+          "title": "The Pentagon is reportedly ramping up economic warfare and espionage. Nvidia CEO Jensen Huang’s affair with a suspected Chinese spy shows why",
+          "published_at": "2026-11-08T23:20:38+00:00",
+          "kind": "press",
+          "text": "AI chip leader Nvidia launched an investigation into reports CEO Jensen Huang was the target of a foreign intelligence campaign—just as the U.S. has intensified its own efforts at economic warfare. Nvidia’s board released a statement Sunday that a committee of independent directors and an outside counsel will oversee the probe, adding that Huang supports the review and plans to cooperate. “The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders,” it said. “While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board’s inquiry will examine all available information.” The announcement followed reports that Huang had a romantic relationship with Megaspeed executive Alice Huang, whom U.S. intelligence suspects was working as a spy for China. According to the New York Times and Financial Times , the Nvidia boss admitted to the affair and apologized in an internal message to company employees. “I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry,” he said in the message. Representatives for Nvidia and Megaspeed didn’t immediately respond to requests for comment. U.S. officials believe Alice Huang was recruited by China’s Ministry of State Security, sources told the FT , and surveillance revealed that she was feeding information to China, according to the New York Times . Jensen Huang, who isn’t related to Alice, is a central figure in the U.S. AI industry, leading a company that develops world-class chips powering large language models. Its technology is so sensitive that the Trump administration has restricted exports of Nvidia’s most cutting-edge products to China while President Donald Trump has often cited the U.S.-China AI rivalry as a reason for not slowing down development. Meanwhile, Megaspeed is a Singapore-based data center company that quickly became one of Nvidia’s top customers in Asia, purchasing more than $4.8 billion in chips over the past two years. But the U.S. also investigated Megaspeed last year for allegedly helping smuggle restricted AI chips into China, which the company has denied. News of the Nvidia’s probe into Huang comes weeks after reports indicated the U.S. defense and intelligence communities are getting more aggressive about industrial espionage. Sources told the Washington Post that the Pentagon is planning a spying program that deploys “nonofficial cover officers” who pose as executives—a covert effort in a larger economic warfare campaign. Politico also reported that the Defense Department is quietly building an elite agency to covertly sabotage foreign technology programs that could threaten U.S. military superiority. The Technology Support Office was established in April by reorganizing two classified intelligence programs that have been secretly carrying out technology sabotage at a smaller scale since 2023. “This query appears to be built on information that is simply not true. Whoever is feeding you these claims are either badly misinformed or deliberately leading you astray to peddle their fantasies,” it told both outlets. But other signs point to the U.S. taking economic warfare more seriously. In September, CIA Deputy Director Michael Ellis said the U.S. is expanding espionage against China by targeting companies in sensitive areas like AI, biotechnology and chips. Also this year, the Pentagon formed the Economic Defense Unit for “deterring, denying, disrupting, and helping to defeat adversaries through economic means,” sources told DefenseScoop . AI in particular has emerged as such an important technology that the Defense Department has been more heavy-handed with U.S. companies as well. Anthropic’s AI models were used in the military, but a dispute between the San Francisco-based startup and top brass led to a schism just as the Iran war started. CEO Dario Amodei has said the company is patriotic and seeks to defend the U.S ., but wouldn’t allow its AI to be used in mass domestic surveillance or autonomous weapons. The Pentagon insisted it would use the AI in lawful scenarios and refused to abide by any limits from the company that would go beyond those constraints. After failing to reach a compromise earlier this year, Trump ordered the Pentagon to phase out Anthropic’s technology. Defense Secretary Pete Hegseth also designated the company a supply-chain risk, meaning contractors can’t use it for military work. Last month, an appeals court ruled the supply-chain risk designation is illegal, but the Pentagon confirmed it’s no longer using any Anthropic tools."
+        },
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+          "published_at": "2026-11-08T20:22:39+00:00",
+          "kind": "press",
+          "text": "Following reports that Nvidia’s CEO had a ‘close relationship’ with an AI exec the company is opening an investigation. Following reports that Nvidia’s CEO had a ‘close relationship’ with an AI exec the company is opening an investigation. Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China’s Ministry of State Security to spy on the company . A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders. While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board’s inquiry will examine all available information. Jensen fully supports the review and has committed to cooperating with it. The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate. The New York Times reported last month that Huang had developed a “ close relationship ” with the Megaspeed executive, which he later admitted was romantic in nature in a memo to the company. US officials believe she was feeding information directly back to Beijing. Megaspeed is a customer of Nvidia and is the subject of a Commerce Department investigation into whether it was smuggling AI chips to China. The company’s AI chips are viewed as crucial to the US maintaining technological supremacy. Both the Biden and Trump administrations have restricted their sale to China. President Trump has loosened those restrictions but still bars sales of Nvidia’s most powerful chips to Chinese firms, and the Commerce Department must approve individual firms to handle the chips. Just as importantly, Jensen Huang has gotten quite cozy with Donald Trump , and there is concern about what insights into the administration’s deliberations around AI he may have been privy to. And whether any of that information may have been shared with Alice Huang, and eventually found its way to Beijing."
+        },
         {
           "name": "TechCrunch AI",
           "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-          "published_at": "2026-11-06T22:53:46+00:00",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+          "published_at": "2026-11-08T21:00:11+00:00",
           "kind": "press",
-          "text": "OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn’t closed yet, according to the outlet. The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg. In late September, Bloomberg reported that OpenAI was looking to raise $30 billion in the upcoming round. The current figures fall well short of that target. TechCrunch has reached out to OpenAI for comment and will update this story if it responds. The news comes only hours after Bloomberg also reported that potential buyers of shares in the IPO of OpenAI’s chief competitor, Anthropic, are eyeing a substantially lower valuation than Anthropic had targeted. Bloomberg writes that some potential buyers believe Anthropic’s valuation could be as low as $1.1 trillion, compared with the $2 trillion that investors were said to be expecting roughly a month ago. OpenAI previously intimated that it would go public this year but subsequently delayed its plans. There are expectations that the company will IPO next year at some point. The market for AI hangs in a particularly precarious place. The Democratic landslide in the U.S. midterms — and overwhelmingly negative voter sentiment around data centers — has caused jitters throughout the market , with many anticipating potential regulatory challenges in the future. Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Subscribe for the industry’s biggest tech news"
+          "text": "Nvidia’s board of directors announced Sunday that it’s launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation . Nvidia also published a message that Huang sent to the company admitting that he had an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed (though he didn’t mention her by name). A memo circulating among U.S. policymakers earlier this year claimed that Alice Huang had been recruited by China’s Ministry of State Security to spy on Nvidia’s CEO. “I owe my family and all of you an apology,” Jensen Huang wrote. “I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.” Huang added that he’d “fallen short” of his responsibility to the company. “To my colleagues at NVIDIA, including those I have worked alongside for decades, and to our board, partners, and shareholders around the world: you deserve better from me,” he said. As the AI race between the United States and China heats up , chips, especially Nvidia’s chips, have been a major focus . Huang also seems to have a close relationship with President Donald Trump , who’s been a cheerleader of the AI ( or “superintelligence” ) industry. In its announcement, Nvidia’s board said that it has “no reason to believe” that either national security or company secrets were compromised. It also said that Huang “fully supports the review and has committed to cooperating with it,” and that the board has “confidence in Jensen and his leadership team.” The investigation will be conducted by independent directors working with outside legal counsel. In response to earlier reports about the CEO’s relationship with Alice Huang, Nvidia had said that the pair’s interactions were “not unusual,” and that the company does not share classified information with customers. Other companies involved in the AI boom have warned employees to be wary of possible spies , including those offering sex or romance. When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City. You can contact or verify outreach from Anthony by emailing [email protected] . Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Tesla will stop making the Cybertruck in 2027 Claude can now analyze your spending with its new Personal Finance tool Data centers are turning to old jet engines as the wait for power grows New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech Anthropic warns that it’s very close to RSI capability, aka self-building AI New York Times and other outlets sue web browser Brave over alleged content scraping Ninja’s first-ever microwave just replaced two of my kitchen appliances at once"
+        },
+        {
+          "name": "Engadget",
+          "owner": "yahoo",
+          "url": "https://www.engadget.com/2310336/nvidia-is-investigating-reports-that-ceo-jensen-huang-was-the-target-of-chinese-spy-efforts/",
+          "title": "NVIDIA is investigating reports that CEO Jensen Huang was the target of Chinese spy efforts",
+          "published_at": "2026-11-08T21:17:45+00:00",
+          "kind": "press",
+          "text": "The CEO admitted to an affair after being linked to a woman suspected to be a spy. Following a string of reports from The New York Times and Financial Times linking NVIDIA CEO Jensen Huang with a woman suspected to be a Chinese spy, the company says it's launching an independent investigation into the claims that he \"has been the target of a foreign intelligence effort.\" In the statement released on Sunday, NVIDIA said, \"A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes US national and economic security, which is paramount to the interests of NVIDIA and its shareholders. While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information.\" The New York Times reported at the end of October that Huang had \"developed a close relationship\" with a woman named Alice Huang (no relation to Jensen), who US intelligence agencies had determined to be a Chinese intelligence asset . In a followup, The New York Times reported that Alice Huang, an executive at Singapore-based company Megaspeed — a major buyer of NVIDIA chips — was recruited by China's Ministry of State Security to gather intelligence on the CEO. The Financial Times later reported that US officials believe Jensen Huang was romantically involved with the alleged spy. Jensen Huang reportedly admitted to an affair in a memo sent to staff on Sunday, per Bloomberg , as NVIDIA publicly confirmed its own investigation into the claims. \"Jensen fully supports the review and has committed to cooperating with it,\" NVIDIA said. \"The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.\" Update November 8 2026, 5:07PM ET: NVIDIA has posted the email CEO Jensen Huang sent to employees regarding the reports and the investigation. You can read the full message here ."
+        },
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+          "published_at": "2026-11-08T22:54:50+00:00",
+          "kind": "press",
+          "text": "In the memo Nvidia’s CEO acknowledges having an affair with a suspected Chinese spy. In the memo Nvidia’s CEO acknowledges having an affair with a suspected Chinese spy. On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang’s relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I let them down and damaged the life we built together. I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it. To my wife and family: I love you. I know an apology cannot undo what I have done. I hope our family will heal and that, over time, I can earn back your trust. To my colleagues at NVIDIA, including those I have worked alongside for decades, and to our board, partners, and shareholders around the world: you deserve better from me. Leading NVIDIA is the privilege of my life. My responsibility is to serve you and be worthy of your trust. I have fallen short of that responsibility. I am fully committed to NVIDIA and will work to earn back your confidence. Regarding the national security concerns raised in news reports, NVIDIA’s Board of Directors has initiated an independent investigation. I support the investigation and will cooperate fully. I love our country and our company. I am committed to protecting NVIDIA and supporting America’s national security. I am proud and grateful to be an American. My family bears no responsibility for my choices. I do. Please give them privacy."
         },
         {
           "name": "SiliconANGLE",
           "owner": "siliconangle",
-          "url": "https://siliconangle.com/2026/11/06/openai-reportedly-raises-11b-in-new-funding-at-1-25t-valuation/",
-          "title": "OpenAI reportedly raises $11B in new funding at $1.25T valuation",
-          "published_at": "2026-11-06T23:43:40+00:00",
+          "url": "https://siliconangle.com/2026/11/08/nvidia-ceo-jensen-huang-admits-to-having-extramarital-affair-with-suspected-chinese-spy/",
+          "title": "Nvidia CEO Jensen Huang admits to having extramarital affair with suspected Chinese spy",
+          "published_at": "2026-11-08T23:35:18+00:00",
           "kind": "press",
-          "text": "OpenAI Group PBC has reportedly raised $11 billion as part of a funding round that could nearly double in size over the coming weeks, as s ources told Bloomberg that investors wired the funds to the company today. The tipsters didn’t name the backers. The list of possible participants includes Microsoft Corp., which contributed to at least four of OpenAI’s previous rounds. That included its most recent $122 billion raise in March, which also drew the participation of Nvidia Corp., Amazon.com Inc. and about two dozen others. It’s believed that OpenAI could raise up to $9 billion in additional funding as part of the round. The deal is expected to value the company at $1.25 billion. That potentially puts it on track to surpass Anthropic PBC’s market capitalization. Anthropic hopes to achieve a valuation of $1.5 trillion in its upcoming initial public offering. However, several of its investors reportedly don’t consider that to be a realistic goal. According to the Wall Street Journal , one shareholder reportedly suggested that the company pursue a valuation closer to $1 trillion. Anthropic’s IPO filing revealed that its quarterly revenue jumped 1,127% on a year-over-year basis in the third quarter. Last month, the Financial Times reported that OpenAI closed the quarter with $50 billion in net annualized revenue, which represented a 77% year-over-year increase. The company’s growth was driven by its enterprise business, which saw sales more than double. The latest addition to OpenAI’s enterprise portfolio debuted on Thursday. GPT-6 Cyber can perform most cybersecurity tasks better than GPT-6 Astra, the company’s most capable general-purpose model. OpenAI engineers used it to develop 948 Linux⁠ exploits and uncover 81 high-severity zero-day flaws in Firefox. OpenAI President Greg Brockman revealed on Wednesday that the company had experienced a slowdown in the first half of the year. Its growth started accelerating after the June launch of GPT-5.6 Sol, the immediate predecessor to GPT-6 Astra. Brockman added that OpenAI’s ChatGPT Work productivity application and coding tools played a role as well. The company plans to go public sometime in 2027. Today’s cash infusion should make it easier for OpenAI to finance its steep infrastructure expenses until the listing. In July, The Information reported that the ChatGPT developer has more than $665 billion worth of chip and data center commitments. OpenAI has developed a custom inference accelerator in collaboration with Broadcom Inc. as part of an effort to lower its long-term hardware spending. Anthropic, for its part, is expected to kick off its IPO roadmap next week. The company reportedly plans to go public before Thanksgiving. Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push AWS' Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway? The AI boom's missing balance-sheet question: What has actually been verified? Atomicwork launches certified AI coworker marketplace for enterprise IT and security Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push AWS' Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway? The AI boom's missing balance-sheet question: What has actually been verified? Atomicwork launches certified AI coworker marketplace for enterprise IT and security"
-        }
-      ]
-    },
-    {
-      "story_id": "ce1f098010013b58",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
-      "owners": [
-        "techcrunch",
-        "vox-media"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "1bc7ba2a28c4372d",
-        "69c75581d56ff5e1"
-      ],
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "owner": "vox-media",
-          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-          "published_at": "2026-11-06T23:00:44+00:00",
-          "kind": "press",
-          "text": "Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. Nvidia’s CEO is reportedly the target of a ‘Chinese spy plot’ for intelligence on American AI chips. China’s intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times . The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and “potentially influence the company to push for its most advanced chips to be made available to China.” Megaspeed is a customer of Nvidia’s, and Alice Huang also has “relationships with executives at the highest levels of the A.I. chip industry,” including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of a “Chinese spy plot” and shared details about Alice Huang and Jensen Huang’s relationship, but the information that China’s MSS had recruited her is new. The NYT describes the relationship between Alice Huang and Jensen Huang, who are not related, as “close.” President Trump, who is friendly with Jensen Huang , was briefed last year about the relationship, but didn’t take any action. Yesterday, three House committees asked Jensen Huang to appear for a joint, closed-door briefing on his “interactions” with Alice Huang."
-        },
-        {
-          "name": "TechCrunch AI",
-          "owner": "techcrunch",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-          "published_at": "2026-11-07T21:17:08+00:00",
-          "kind": "press",
-          "text": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports. The New York Times, which had previously said Nvidia’s chief executive had been the target of Chinese intelligence, was the first to report on the memo . The Financial Times subsequently reported that the memo — supposedly based on U.S. intelligence — also claimed Jensen Huang had a romantic relationship with Alice Huang, an executive at a Singapore-based company called Megaspeed. An Nvidia spokesperson told the NYT that Jensen Huang’s interactions with Alice Huang were “not unusual,” and that the company does not share classified information with its customers. A separate NYT report examined New Matrix, a Chinese company authorized by the U.S. Commerce Department to buy advanced Nvidia chips. But at the office address listed by New Matrix, reporters only found “a hollow gray shell,” raising concerns that it could be a front for a blacklisted private equity firm. The Nvidia spokesperson said the company sells “the first, best and most of our technology in America.” Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Subscribe for the industry’s biggest tech news"
+          "text": "Nvidia Corp. said on Sunday it is launching an “independent investigation” into reports that its founder and Chief Executive Jensen Huang had been targeted by a foreign intelligence plot, shortly after he admitted he “had been intimate” with a Singapore-based executive who U.S. officials accuse of spying for China. In response to the allegations, the Republican-led foreign affairs and intelligence committee of the U.S. Congress has asked Huang (pictured, right) to testify this week at a closed-door briefing on the chipmaker’s “security protocols against foreign adversary espionage.” The request came after the New York Times reported last month that the CEO had been targeted in a Chinese espionage operation . The accused spy is a woman called Alice Huang or Huang Le (left), of no relation to the Nvidia CEO. Alice Huang is the CEO of a Singapore-based data center company called Megaspeed , which had previously been suspected of smuggling Nvidia’s high-end graphics processing units to China, prompting U.S. officials to begin monitoring her. Those officials have apparently determined that Alice Huang is an asset of the Chinese intelligence services, tasked with passing commercial secrets back to Beijing. In a statement earlier today, Nvidia’s board of directors said that while it has no reason to believe that either U.S. national security or the company’s secrets were compromised, its inquiry will examine all available information. “The Board prioritizes U.S. national and economic security, which is paramount to the interests of Nvidia and its shareholders,” the statement said. “The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.” The company added that Huang supports the investigation into what happened and has vowed to cooperate fully. A report by Axios earlier today cited a draft email written by Huang to company employees, in which he admitted to having an illicit romantic relationship with Alice Huang and took full responsibility for his actions. “I was unfaithful to my wife,” Huang wrote. “My actions hurt her and our children. There is no excuse for what I did.” U.S. intelligence chiefs will be concerned because Nvidia’s powerful chips sit at the center of the artificial intelligence boom and give America a critical advantage over its geopolitical rivals. The company’s dominance of AI computing means that Huang is one of the most influential people in the industry, and he has forged close ties with the Trump administration. The alleged spy reportedly tried to take advantage of Huang’s close links to America’s policymakers. Not only was she tasked with learning more about the company’s secrets, but also persuading Huang to lobby for the company to be allowed to ship its most advanced processors to China. It’s not clear how much influence she was able to exert on Huang, but last year he successfully petitioned the Trump administration to allow more GPUs to be exported to China. He later struck a deal to sell limited numbers of the company’s second-most powerful chips to China. So far, nothing has been said of Huang potentially losing his job or being removed from the company, but Yorkville Ives analyst Dan Ives told Gizmodo that such an outcome is possible . “This will add risk to the stock as he is so important to the Nvidia story and strategy globally,” the analyst said. The investigation follows a rough week for technology firms on Wall Street, which have weathered a sell-off that began earlier this month and gained traction after a series of disappointing earnings results in recent days. So far this month, the tech-heavy Nasdaq index has lost almost $1 trillion in value Nvidia’s stock has fallen 21% over the last month and is now basically flat in the year to date, with its market capitalization sitting at just over $4.5 trillion, down from its peak of just over $5.7 trillion in October 2026. Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities. Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. OpenAI reportedly raises $11B in new funding at $1.25T valuation Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push AWS' Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway? The AI boom's missing balance-sheet question: What has actually been verified? OpenAI reportedly raises $11B in new funding at $1.25T valuation Thinking Machines debuts Inkling 2 Small amid reported $5B fundraising push AWS' Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway? The AI boom's missing balance-sheet question: What has actually been verified?"
         }
       ]
     },
@@ -227,135 +213,35 @@
       ]
     },
     {
-      "story_id": "406a7786140c79ea",
-      "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-      "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was...",
+      "story_id": "dfed5710ae2c8206",
+      "title": "Read Huang's email to his staff and statement from Nvidia's board of directors",
+      "summary": "Here is the text of a staff email from Huang obtained by CNBC and a statement released Sunday about the investigation from Nvidia's board of directors.",
       "owners": [
-        "axios",
+        "axel-springer",
         "nbcuniversal"
       ],
       "primary_owners": [],
       "fingerprints": [
-        "3db08aefcfb91859",
-        "26a78b8c98a3d9d9"
+        "0d90061414db883b",
+        "3a86abab644ffeb3"
       ],
       "sources": [
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
-          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-          "published_at": "2026-11-07T21:06:38+00:00",
-          "kind": "press",
-          "text": ""
-        },
         {
           "name": "CNBC Technology",
           "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-          "title": "Nvidia opens probe of CEO Huang being targeted by possible Chinese spy",
-          "published_at": "2026-11-08T20:17:19+00:00",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html",
+          "title": "Read Huang's email to his staff and statement from Nvidia's board of directors",
+          "published_at": "2026-11-08T22:19:00+00:00",
           "kind": "press",
-          "text": "Nvidia's board announced Sunday it will conduct an independent investigation of Chief Executive Jensen Huang following reports of his connection to an alleged Chinese spy. This is breaking news. Please refresh for updates."
-        }
-      ]
-    },
-    {
-      "story_id": "2762313a6810eb96",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "owners": [
-        "openai"
-      ],
-      "primary_owners": [
-        "openai"
-      ],
-      "fingerprints": [
-        "bf25be8f87794d7d"
-      ],
-      "sources": [
+          "text": "Nvidia on Sunday said it has opened an investigation into co-founder and CEO Jensen Huang's relationship with a businesswoman who intelligence agencies said is a Chinese spy . \"Today's news will not slow NVIDIA. Jensen is committed to continuing to lead NVIDIA as CEO without interruption,\" the company told CNBC in a statement. Below is a staff email from Huang obtained by CNBC and a statement released Sunday about the investigation from Nvidia's board of directors. To my colleagues at NVIDIA, I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I let them down and damaged the life we built together. I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it. To my wife and family: I love you. I know an apology cannot undo what I have done. I hope our family will heal and that, over time, I can earn back your trust. To my colleagues at NVIDIA, including those I have worked alongside for decades, and to our board, partners, and shareholders around the world: you deserve better from me. Leading NVIDIA is the privilege of my life. My responsibility is to serve you and be worthy of your trust. I have fallen short of that responsibility. I am fully committed to NVIDIA and will work to earn back your confidence. Regarding the national security concerns raised in news reports, NVIDIA's Board of Directors has initiated an independent investigation. I support the investigation and will cooperate fully. I love our country and our company. I am committed to protecting NVIDIA and supporting America's national security. I am proud and grateful to be an American. My family bears no responsibility for my choices. I do. Please give them privacy. — Jensen The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders. While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information. Jensen fully supports the review and has committed to cooperating with it. The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate."
+        },
         {
-          "name": "OpenAI",
-          "owner": "openai",
-          "url": "https://openai.com/index/devrev-enterprise-self-service",
-          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "23e9e04e8a82dd82",
-      "title": "Together Compiler: Continual Compilation for AI inference",
-      "summary": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-      "owners": [
-        "togetherai"
-      ],
-      "primary_owners": [
-        "togetherai"
-      ],
-      "fingerprints": [
-        "09aa947305129d47"
-      ],
-      "sources": [
-        {
-          "name": "Together AI",
-          "owner": "togetherai",
-          "url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
-          "title": "Together Compiler: Continual Compilation for AI inference",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "kind": "primary",
-          "text": "AI inference workloads are dynamic. There are thousands of regimes spanning new models, hardware platforms, customers, use cases, and traffic shapes. It’s no longer scalable to optimize each of these regimes by hand. Agents are a great fit for this problem, in theory. They can adapt to new workloads and search over the space of possible optimizations without relying on fixed rules or heuristics that plague human experts and traditional machine learning compilers. However, today’s agentic systems are bottlenecked by the speed of experimentation. In less than 24 hours, TKCC achieves up to 2.6x higher TPS across frontier open source models (Kimi K3, GLM 5.3, MiniMax M3.1-Flash, DeepSeek v4.1-Flash), sets the state-of-the-art on SemiAnalysis’ InferenceX benchmark for low-latency with 1111 TPS on MiniMax M3.1-Flash and 1205 TPS on DeepSeek v4.1-Flash, and outperforms available open-source megakernels by 1.7x on their workhorse Llama 1B batch size 1 setting. Furthermore, TKCC generalizes to domains beyond language model inference (weather modeling, PDE, time-series, and biology). This performance boost is enabled by TKCC’s 252x higher experiment throughput compared to baseline agentic performance optimization systems. Together Compiler is serving trillions of tokens today. As an inference provider, we see a variety of user behaviors based on regional patterns, new model releases, and burstiness. It’s clear that we must adapt to ever-changing user behavior with specialized optimizations for each new deployment. TKCC takes as input the traffic shape, model, and hardware. TKCC uses agents to generate a series of optimizations for an inference engine. 1. TKCC maximizes experimentation throughput and minimizes GPU idle time during agent optimization ‍ Most existing agentic inference optimization systems require agents to launch and teardown engines like VLLM, SGLang, or TRT-LLM to test each new experiment. However, engine start times are tens of minutes , significantly impeding experimentation throughput (see table below). Instead, TKCC proposes a new paradigm of “persistent engines” where the engine starts up once and can hot-reload any candidate forward pass, without any restarts. To ensure that the persistent engines constantly have new optimizations to test, TKCC spawns multiple agents that continually generate ideas and communicate via a message board to parallelize their efforts. 2. TKCC balances the tradeoff between measurement throughput and measurement fidelity ‍ Existing agent optimization systems either iteratively relaunch the inference engine, suffering from low experiment throughput, or optimize standalone kernels in isolation, outside of the inference engine, suffering from poor measurement fidelity. Systems that optimize standalone kernels often evaluate them using random input data. However, with modern architectures using data-dependent primitives like MoE and sparse-k attention, input data distributions have a direct effect on which optimization strategies may win (see figure below). High-fidelity inputs are important for effective optimization. TKCC uses a tier of persistent engines to balance the throughput-fidelity tradeoff: “fast engines” load a few layers and are ideal for rapid iteration and low-variance timings, while “slower engines” load many layers and are ideal for testing whether optimizations hold-up on real data distributions. 3. TKCC utilizes a custom cost model to select parallelism strategies (e.g., TP, EP, DCP, etc.) for agents to achieve the highest performance Existing systems have sophisticated methods for selecting inference configurations under SLA requirements. However, selecting the ideal configuration faces the same throughput-fidelity tradeoff: it is intractable to measure each parallelism configuration, especially because software implementations are immature. A naive approach is to select a parallelism strategy based on raw hardware specs or micro-benchmarks. However, this insufficiently captures data dependent traffic properties like MoE expert imbalance or uneven prompt length distributions. We designed a cost model that uses a tiered measurement strategy involving hardware specs, microbenchmarks, and measured forward passes to construct a high-fidelity representation while rapidly pruning the configuration search space to support continual traffic drift. We evaluate TKCC against three different types of baselines: Hand-tuned megakernels, InferenceX engine configurations, and popular AI codebases from diverse domains like weather modeling, PDE, time series and biology models. We start by evaluating the canonical MegaKernel workload: Llama 1B at batch size 1. This model architecture has been well-optimized by both human experts and traditional machine learning compilers. TKCC generates 1.7x higher TPS and continues to perform as sequence length increases. We evaluate TKCC on the AgentX benchmark from SemiAnalysis. We start from the best-reported open source engine configurations for frontier models across inference engines and hardware platforms. TKCC consistently sets the performance frontier across all settings, outperforming highly-optimized baselines by up to 2.6x higher TPS. 1 We also evaluate specifically on the low-latency use case at batch size 1 and set the state-of-the-art performance with 1111 TPS on MiniMax M3.1-Flash and 1205 TPS on DeepSeek v4.1-Flash. For these results, we use our cost model to select the parallelism configuration instead of using the InferenceX configuration. We observe speedups with this approach. We select popular open-source code bases across weather modeling, PDE, time-series, and biology. We show the geometric mean speedups of TKCC over simply using Claude Code with the /goal command, illustrating that the principles of TKCC generalize across domains. We have been using TKCC as a general purpose AI compiler beyond LLM inference. For Together AI, the most exciting systems challenge has been Polymorphic Inference ."
-        }
-      ]
-    },
-    {
-      "story_id": "efd55e25e7750cd6",
-      "title": "Polymorphic Inference: self-tuning inference for open models",
-      "summary": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-      "owners": [
-        "togetherai"
-      ],
-      "primary_owners": [
-        "togetherai"
-      ],
-      "fingerprints": [
-        "493a258a275812f7"
-      ],
-      "sources": [
-        {
-          "name": "Together AI",
-          "owner": "togetherai",
-          "url": "https://www.together.ai/blog/polymorphic-inference",
-          "title": "Polymorphic Inference: self-tuning inference for open models",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "kind": "primary",
-          "text": "At Together AI, we focus on making AI abundantly available to every individual user and organization. Our research team – the researchers behind FlashAttention, ThunderKittens, ThunderAgent, and more – has been a key driver behind our inference excellence. As the inference market grows exponentially, we’ve been focusing on how to scale our research capacity to enable abundant intelligence for all. This has required a shift in our thinking from Static Inference to Polymorphic Inference – which is our response to the velocity of new model releases, diversity of model architectures, fast-changing workloads, and fast-changing hardware platforms. In this blog, we’ll highlight our research agenda for the Polymorphic Inference era – and how we are continuously using AI agents to optimize their own inference with Continuous Compilation . Over the past year, there has been a marked step change in the diversity of open-source models and the ways that these models are deployed in production environments. We see this step change as requiring a new approach that we call Polymorphic Inference . Polymorphic Inference (inference in “many shapes” from Greek) is a response to a number of changes we are seeing across the industry, for us primarily defined by the convergence of a few trends: Polymorphic Inference is our response to these changes – inference that changes and adapts to these rapidly-changing environments. We contrast this against the state of the world before the explosion of OSS inference – which we retroactively call the era of “Static Inference.” Whereas modern Polymorphic Inference takes on infinite different shapes, Static Inference is defined by closed models, traditional Transformer architectures, single-user, and single-hardware-platform inference. One of our motivations behind writing this blog post is that a lot of the discourse around inference systems remains quite focused on the legacy Static Inference paradigm. We take some of the blame here! For a long time, it has been possible to write kernels that are optimal for a variety of settings. FlashAttention, near and dear to our hearts, is still one of the best ways to run training workloads and many prefill workloads. And nearly two years ago we wrote about megakernels for AI inference, a single kernel painstakingly designed around a single static shape (e.g., batch size one Llama 1B). But through the experience of putting some of the first megakernels into production for our customers last year, we learned an interesting lesson: megakernel fusion is actually not the right design goal for modern Polymorphic Inference! In the era of Polymorphic Inference, every variation – from model architecture (e.g. MoE), to workload (dynamic workloads larger than batch size 1) – requires different technical approaches. At Together, we are systems and AI researchers at heart – so we view this as an incredibly exciting time to be rethinking our research agenda for this bright new future. ‍ So, what’s the solution when your production traffic becomes ever more diverse? Get the AI agents to optimize themselves. This is the RSI moment for OSS models! Achieving Polymorphic Inference requires solving a number of technical challenges in how we serve models. An ideal Polymorphic Inference experience is one that responds to the rapidly changing landscape of model architectures and workloads. These are lofty goals, but we believe that they are worth striving for. For us, one of the keys to achieving these goals is getting AI agents to help optimize themselves . The RSI loop is here for OSS models! One of the projects that we’re announcing today as a first step towards achieving our goals for Polymorphic Inference is Together Compiler , a rapid AI-powered performance optimization RSI loop. Today, Together Compiler powers Continuous Compilation optimization loops across many of our top production inference workloads. Together Compiler takes the classic challenge of optimizing inference workloads and recasts it from a traditional compiler translation problem to an agentic search problem. Together Compiler identifies a core set of key optimization patterns and pairs a swarm of agents with a high-fidelity persistent engine for fast iterations. This work was the result of many months of work by Together’s Frontier Performance team, notably from Reyna Abhyankar and Dylan Lim! Together Compiler is running in production today on some of our most popular serverless endpoints, where it has found further gains on top of already highly optimized code. Excitingly, Together Compiler gives us the ability to quickly adapt to rapidly changing model architectures and traffic workloads. We call this capability Continuous Compilation . Whereas previously new workloads would require new sets of hand-written kernels and optimizations, Continuous Compilation driven by Together Compiler means that we can automatically adapt to new traffic shapes and workloads. We’ve learned a ton scaling Together AI to serve trillions of tokens per day (and for the first time even serving more tokens than closed-source model labs on OpenRouter earlier in October!). This has informed our vision and research agenda for the Polymorphic Inference era. Here’s a little preview of some of the things coming up on our research agenda: Self-serve Continuous Compilation with Together Compiler ‍ Performance optimization needs to be a function of the workload deployment: the model, engine, traffic shape, and customer use case. Soon, our customers will be able to use Together Compiler to optimize their dedicated endpoints for their unique workloads at the click of a button. Together Compiler is available to end customers in limited beta today – reach out if you want early access! Inference engine configurations proposed in open-source repositories, VLLM, InferenceX, AgentX launch the engine with a fixed speculative decoding draft model and lookahead parameter. Speculative decoding needs to adapt per-domain, pe"
-        }
-      ]
-    },
-    {
-      "story_id": "e50276dc62d17a6a",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "owners": [
-        "openai"
-      ],
-      "primary_owners": [
-        "openai"
-      ],
-      "fingerprints": [
-        "75679f5aa60bfcf8"
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "owner": "openai",
-          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "published_at": "2026-11-04T07:00:00+00:00",
-          "kind": "primary",
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/nvidia-jensen-huang-memo-unfaithful-national-security-investigation-2026-11",
+          "title": "Nvidia CEO Jensen Huang says he was 'unfaithful' to his wife: Read his note to staff",
+          "published_at": "2026-11-08T21:56:49+00:00",
+          "kind": "press",
           "text": ""
         }
       ]
