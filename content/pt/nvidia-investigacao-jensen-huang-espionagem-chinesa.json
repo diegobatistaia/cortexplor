@@ -1,0 +1,40 @@
+{
+  "lang": "pt",
+  "slug": "nvidia-investigacao-jensen-huang-espionagem-chinesa",
+  "story_id": "f100811074608d47",
+  "title": "Nvidia abre investigação interna sobre Jensen Huang e espionagem",
+  "dek": "Conselho da fabricante de chips abriu apuração própria depois que um memorando de inteligência apontou executiva chinesa recrutada para se aproximar do executivo-chefe, segundo TechCrunch e CNBC.",
+  "meta_description": "O Congresso dos EUA pressiona por investigação sobre o executivo Jensen Huang após memorando apontar executiva recrutada pela China, segundo TechCrunch e CNBC.",
+  "keyword": "Jensen Huang",
+  "category": "politica",
+  "tags": ["ia", "nvidia", "jensen-huang", "congresso", "china"],
+  "body": [
+    {"type": "p", "text": "Parlamentares bipartidários dos Estados Unidos pressionam por uma investigação sobre a relação do executivo-chefe da Nvidia, Jensen Huang, com uma suposta agente de inteligência chinesa. Três presidentes de comitês da Câmara dos Representantes, todos republicanos, enviaram carta pedindo a Huang uma audiência fechada em 18 de novembro, um dia depois de a Nvidia divulgar o balanço do terceiro trimestre, segundo a CNBC.", "items": []},
+    {"type": "p", "text": "\"Quanto mais eu aprendo sobre a relação insana entre o governo Trump, espiões chineses e bilionários da IA, mais me convenço de que não há nada que esta administração faça que não seja corrupto\", escreveu o senador democrata Chris Coons no X, no sábado, segundo a CNBC. Coons deve assumir a presidência do Comitê de Relações Exteriores do Senado em janeiro, quando o partido ganhar a maioria da Casa, e afirmou que \"o Congresso vai investigar e buscar respostas\". Na Câmara, o deputado democrata Seth Magaziner pediu que o secretário de Comércio, Howard Lutnick, também preste depoimento junto com Huang.", "items": []},
+    {"type": "h2", "text": "O que diz o memorando", "items": []},
+    {"type": "p", "text": "Segundo a TechCrunch e o The Verge, um memorando de inteligência dos Estados Unidos, revelado primeiro pelo New York Times, afirma que o Ministério da Segurança do Estado da China recrutou a executiva Alice Huang para se aproximar de Jensen Huang e reunir informações sobre chips de inteligência artificial americanos. O documento também sugere que a aproximação buscava pressionar a Nvidia a liberar seus chips mais avançados para o mercado chinês, de acordo com as duas publicações. Uma semana antes, o próprio New York Times já havia descrito Jensen Huang como alvo de um \"plano de espionagem chinês\", mas a informação de que o MSS recrutou Alice Huang é nova, segundo o The Verge.", "items": []},
+    {"type": "p", "text": "Alice Huang é executiva da Megaspeed, empresa de tecnologia sediada em Singapura e cliente da Nvidia, segundo o The Verge, que acrescenta que ela também mantém relações com executivos de alto escalão da indústria de chips de IA, incluindo a Gigabyte. A CNBC complementa que a Megaspeed é suspeita pelos Estados Unidos de ajudar a China a contornar as proibições de venda de chips avançados de IA. Jensen Huang e Alice Huang não têm parentesco, apesar do mesmo sobrenome, segundo o The Verge.", "items": []},
+    {"type": "h2", "text": "Escrutínio mais amplo sobre a Nvidia e a China", "items": []},
+    {"type": "p", "text": "O caso de Alice Huang se soma a outro episódio que ampliou a pressão do Congresso sobre a relação da Nvidia com a China: segundo a CNBC, o senador republicano John Cornyn, do Texas, chamou de \"revoltante\" uma reportagem do New York Times que mostra que o Departamento de Comércio do governo Trump autorizou uma empresa chinesa, a New Matrix, a montar chips da Nvidia em Pequim, apesar de o jornal ter encontrado pouca evidência de operação real no endereço informado pela companhia.", "items": []},
+    {"type": "h2", "text": "A resposta da Nvidia", "items": []},
+    {"type": "p", "text": "A Nvidia nega qualquer irregularidade. Um porta-voz da empresa disse à TechCrunch que as interações de Huang com Alice Huang \"não eram incomuns\" e que a companhia não compartilha informações classificadas com clientes. À CNBC, o porta-voz John Rizzo afirmou que Jensen Huang \"tem uma equipe de segurança de alto nível que o acompanha quando necessário\" e que os encontros com Alice Huang foram \"consistentes com reuniões que ele já teve com qualquer cliente da Nvidia\".", "items": []},
+    {"type": "p", "text": "A Nvidia informou à CNBC, no domingo, que o conselho da empresa abriu uma investigação independente sobre o caso, depois das reportagens sobre a suposta ligação de Huang com uma espiã chinesa. A Nvidia e o Departamento de Comércio dos Estados Unidos não responderam de imediato a pedidos de comentário da emissora.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quem é afetado: Jensen Huang, a Nvidia — maior fabricante de chips de inteligência artificial do mundo — e seus investidores, às vésperas do balanço do terceiro trimestre.",
+      "Desde quando: o memorando sobre Alice Huang circulou no governo americano na primavera deste ano; o New York Times revelou o caso na sexta-feira (6/11); os comitês da Câmara pediram a audiência fechada para 18 de novembro, segundo a CNBC.",
+      "O que muda: Huang pode ter de depor ao Congresso a portas fechadas antes do balanço trimestral, e o conselho da Nvidia abriu investigação própria sobre o episódio.",
+      "Posição da Nvidia: nega irregularidade e diz que os contatos com Alice Huang eram normais com clientes, segundo TechCrunch e CNBC."
+    ]}
+  ],
+  "image": {
+    "query": "US Capitol building congress hearing",
+    "alt": "Fachada do Capitólio dos Estados Unidos, sede do Congresso americano"
+  },
+  "sources": [
+    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html", "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link"},
+    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/", "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo"},
+    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy", "title": "China reportedly recruited AI exec to spy on Jensen Huang"}
+  ],
+  "status": "draft"
+}
