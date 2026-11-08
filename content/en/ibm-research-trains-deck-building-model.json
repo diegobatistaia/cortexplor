@@ -7,39 +7,121 @@
   "meta_description": "IBM Research fine-tuned a 20-billion-parameter open-weight model to generate slide decks that follow a company's own design language, the team reports.",
   "keyword": "open-weight model slide decks",
   "category": "modelos",
-  "tags": ["ai", "ibm", "open-weight models", "hugging-face"],
+  "tags": [
+    "ai",
+    "ibm",
+    "open-weight models",
+    "hugging-face"
+  ],
   "body": [
-    {"type": "p", "text": "IBM Research published an AI model called Palette, trained to build slide decks that follow the design language of whoever deploys it. According to the team's post on Hugging Face, the model has 20 billion parameters, a fraction of the size of the frontier models behind assistants like ChatGPT or Gemini.", "items": []},
-    {"type": "p", "text": "The motivation, per IBM Research, is a practical problem with using frontier models to generate decks: the output is usually good, but it carries the model's own house style — the same color palette and look regardless of the request, hard to match to a specific company's visual identity. A second obstacle is confidentiality: sensitive content can't leave a company's own systems to be processed by a third-party model hosted in the cloud.", "items": []},
-    {"type": "p", "text": "The alternative is a model small enough to self-host. The catch, IBM Research says, is that small open models have historically been bad at this task, producing broken decks: titles that vanish into the background, text that runs off the slide, shapes stacked on top of each other.", "items": []},
-    {"type": "h2", "text": "Two roles inside one model", "items": []},
-    {"type": "p", "text": "IBM Research split the task into two roles, served by a single LoRA adapter (a fine-tuning technique that teaches a new skill to an already-trained model without disturbing what it knows). One role, called the \"designer,\" decides each slide's content — how many slides, what each one shows, whether a data point becomes a chart or a table. The other, the \"coder,\" writes the code that places every element on the slide: exact position, width and font size.", "items": []},
-    {"type": "p", "text": "According to the team, separating the two roles produced a useful side effect: because each slide's content is fixed before any code is written, the coder calls can run in parallel, one per slide. That made the code-generation stage roughly 6 to 7 times faster.", "items": []},
-    {"type": "p", "text": "IBM Research chose LoRA fine-tuning over retraining the full model because the technique teaches a new format and skill on top of a capable base without disturbing what it already knows, and keeps experiments cheaper. One adjustment was needed during training: coder examples run about 5 times longer than designer examples, which initially left the designer role undertrained. The team fixed it by oversampling designer examples 5 times.", "items": []},
-    {"type": "h2", "text": "Synthetic data for a problem with no real dataset", "items": []},
-    {"type": "p", "text": "No public dataset captures the reasoning behind finished decks, according to IBM Research, so the team generated its own with a larger open-weight teacher model: roughly 1,000 decks, covering about 10,000 slides. Each training example also carries the reasoning behind a design choice, written as a counterfactual explaining why an alternative was rejected, so the model learns the underlying rule rather than just the final choice.", "items": []},
-    {"type": "p", "text": "Every synthetic deck went through an automated checker that renders the slide and flags overlapping elements or overflowing text — the same checker used once the trained model is in production. Broken slides were repaired, and their reasoning rewritten to explain what went wrong and why the fix worked.", "items": []},
-    {"type": "p", "text": "The hardest problem, per IBM Research, was keeping the model from inventing content: the worst failure is a slide stating facts that weren't in the input material. The team says written prompt rules didn't solve this — what worked was adding reference decks to the teacher model's own prompt.", "items": []},
-    {"type": "h2", "text": "PresentBench results and fine-grained control", "items": []},
-    {"type": "p", "text": "On PresentBench, a benchmark used to measure the quality of AI-generated decks, IBM Research reports that Palette ranked first in two of the three domains measured.", "items": []},
-    {"type": "p", "text": "The model also accepts specific instructions, called \"directives\" — short commands written inside the deck's plan, wrapped in double brackets, to request a chart instead of a table, a particular color, or a darker cover slide. According to the team, the model learned to follow these because its training data included directives from 12 different categories, each phrased several different ways.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "What it is: a 20-billion-parameter model, fine-tuned with LoRA, trained to build decks in the design language of whoever deploys it.",
-      "How it works: one role decides the deck's content and structure, and a second draws each slide — position, size and font for every element.",
-      "Performance: per IBM Research, the model ranked first in two of the three domains measured on the PresentBench benchmark.",
-      "Speed: code generation runs in parallel, one slide at a time, making that stage 6 to 7 times faster.",
-      "Training data: about 1,000 decks and 10,000 slides, generated synthetically by the team itself.",
-      "Fine control: users can request specific design changes, such as a chart instead of a table, through short instructions inside the deck's plan."
-    ]}
+    {
+      "type": "p",
+      "text": "IBM Research published an AI model called Palette, trained to build slide decks that follow the design language of whoever deploys it. According to the team's post on Hugging Face, the model has 20 billion parameters, a fraction of the size of the frontier models behind assistants like ChatGPT or Gemini.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The motivation, per IBM Research, is a practical problem with using frontier models to generate decks: the output is usually good, but it carries the model's own house style — the same color palette and look regardless of the request, hard to match to a specific company's visual identity. A second obstacle is confidentiality: sensitive content can't leave a company's own systems to be processed by a third-party model hosted in the cloud.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The alternative is a model small enough to self-host. The catch, IBM Research says, is that small open models have historically been bad at this task, producing broken decks: titles that vanish into the background, text that runs off the slide, shapes stacked on top of each other.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Two roles inside one model",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM Research split the task into two roles, served by a single LoRA adapter (a fine-tuning technique that teaches a new skill to an already-trained model without disturbing what it knows). One role, called the \"designer,\" decides each slide's content — how many slides, what each one shows, whether a data point becomes a chart or a table. The other, the \"coder,\" writes the code that places every element on the slide: exact position, width and font size.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to the team, separating the two roles produced a useful side effect: because each slide's content is fixed before any code is written, the coder calls can run in parallel, one per slide. That made the code-generation stage roughly 6 to 7 times faster.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM Research chose LoRA fine-tuning over retraining the full model because the technique teaches a new format and skill on top of a capable base without disturbing what it already knows, and keeps experiments cheaper. One adjustment was needed during training: coder examples run about 5 times longer than designer examples, which initially left the designer role undertrained. The team fixed it by oversampling designer examples 5 times.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Synthetic data for a problem with no real dataset",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No public dataset captures the reasoning behind finished decks, according to IBM Research, so the team generated its own with a larger open-weight teacher model: roughly 1,000 decks, covering about 10,000 slides. Each training example also carries the reasoning behind a design choice, written as a counterfactual explaining why an alternative was rejected, so the model learns the underlying rule rather than just the final choice.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Every synthetic deck went through an automated checker that renders the slide and flags overlapping elements or overflowing text — the same checker used once the trained model is in production. Broken slides were repaired, and their reasoning rewritten to explain what went wrong and why the fix worked.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The hardest problem, per IBM Research, was keeping the model from inventing content: the worst failure is a slide stating facts that weren't in the input material. The team says written prompt rules didn't solve this — what worked was adding reference decks to the teacher model's own prompt.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "PresentBench results and fine-grained control",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On PresentBench, a benchmark used to measure the quality of AI-generated decks, IBM Research reports that Palette ranked first in two of the three domains measured.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The model also accepts specific instructions, called \"directives\" — short commands written inside the deck's plan, wrapped in double brackets, to request a chart instead of a table, a particular color, or a darker cover slide. According to the team, the model learned to follow these because its training data included directives from 12 different categories, each phrased several different ways.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What it is: a 20-billion-parameter model, fine-tuned with LoRA, trained to build decks in the design language of whoever deploys it.",
+        "How it works: one role decides the deck's content and structure, and a second draws each slide — position, size and font for every element.",
+        "Performance: per IBM Research, the model ranked first in two of the three domains measured on the PresentBench benchmark.",
+        "Speed: code generation runs in parallel, one slide at a time, making that stage 6 to 7 times faster.",
+        "Training data: about 1,000 decks and 10,000 slides, generated synthetically by the team itself.",
+        "Fine control: users can request specific design changes, such as a chart instead of a table, through short instructions inside the deck's plan."
+      ]
+    }
   ],
   "image": {
     "query": "slide deck design software presentation screen",
-    "alt": "Computer screen showing a slide presentation being edited"
+    "alt": "Computer screen showing a slide presentation being edited",
+    "path": "/assets/img/ibm-research-trains-deck-building-model-50f418f0.jpg",
+    "credit": "Google DeepMind / Unsplash",
+    "author": "Google DeepMind",
+    "author_url": "https://unsplash.com/@googledeepmind?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/abstract-blue-and-pink-3d-cubes-_HnJfS6WhA8"
   },
   "sources": [
-    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/ibm-research/palette-deck-building", "title": "Palette: teaching a small model to build decks in your design language"}
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "title": "Palette: teaching a small model to build decks in your design language"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-08T15:44:46+00:00",
+  "updated_at": "2026-11-08T15:44:46+00:00"
 }

@@ -7,39 +7,121 @@
   "meta_description": "IBM Research entrenó un modelo abierto de 20.000 millones de parámetros para generar diapositivas con el lenguaje visual de cada empresa, según la firma.",
   "keyword": "modelo abierto para diapositivas",
   "category": "modelos",
-  "tags": ["ia", "ibm", "modelos abiertos", "hugging-face"],
+  "tags": [
+    "ia",
+    "ibm",
+    "modelos abiertos",
+    "hugging-face"
+  ],
   "body": [
-    {"type": "p", "text": "IBM Research publicó un modelo de inteligencia artificial llamado Palette, entrenado para crear presentaciones de diapositivas que siguen el lenguaje visual de quien lo utiliza. Según la publicación del equipo en Hugging Face, el modelo tiene 20.000 millones de parámetros, una fracción del tamaño de los modelos de referencia que usan asistentes como ChatGPT o Gemini.", "items": []},
-    {"type": "p", "text": "La motivación, según IBM Research, es un problema práctico al usar modelos de referencia para generar presentaciones: el resultado suele ser bueno, pero mantiene el estilo propio del modelo, con la misma paleta de colores sin importar el pedido, difícil de adaptar a la identidad visual de una empresa concreta. Hay un segundo obstáculo: el contenido confidencial no puede salir de los sistemas internos de la empresa para ser procesado por un modelo de terceros alojado en la nube.", "items": []},
-    {"type": "p", "text": "La alternativa es un modelo lo bastante pequeño para alojarse en la propia infraestructura de la empresa (self-host). El problema, afirma IBM Research, es que estos modelos pequeños suelen producir diapositivas con errores: títulos que se pierden en el fondo, texto que se sale de los límites de la diapositiva y formas superpuestas.", "items": []},
-    {"type": "h2", "text": "Dos roles dentro del mismo modelo", "items": []},
-    {"type": "p", "text": "IBM Research dividió la tarea en dos roles, ejecutados por un único adaptador LoRA (una técnica de ajuste fino que enseña una nueva habilidad a un modelo ya entrenado sin alterar lo que ya sabe). Un rol, llamado \"designer\", decide el contenido de cada diapositiva: cuántas incluir, qué muestra cada una, si un dato se convierte en gráfico o en tabla. El otro, llamado \"coder\", escribe el código que coloca cada elemento en la pantalla: la posición exacta, el ancho y el tamaño de la fuente.", "items": []},
-    {"type": "p", "text": "Según el equipo, separar ambos roles trajo un efecto secundario útil: como el contenido de cada diapositiva queda definido antes de escribir cualquier código, las llamadas del \"coder\" pueden ejecutarse en paralelo, una por diapositiva. Eso hizo que la etapa de generación de código fuera entre 6 y 7 veces más rápida.", "items": []},
-    {"type": "p", "text": "IBM Research optó por el ajuste fino con LoRA en lugar de reentrenar el modelo completo porque la técnica enseña un formato y una habilidad nueva sobre una base capaz sin alterar lo que ya sabe, y abarata cada experimento. Durante el entrenamiento fue necesario un ajuste: los ejemplos del \"coder\" son unas 5 veces más largos que los del \"designer\", lo que inicialmente dejaba a ese segundo rol mal entrenado. El equipo lo corrigió repitiendo los ejemplos del \"designer\" 5 veces.", "items": []},
-    {"type": "h2", "text": "Datos sintéticos para un problema sin datos reales", "items": []},
-    {"type": "p", "text": "No existe un conjunto público de datos con el razonamiento detrás de presentaciones terminadas, según IBM Research. Por eso, el equipo generó sus propios datos con un modelo profesor de código abierto más grande: alrededor de mil presentaciones, con unas 10.000 diapositivas en total. Cada ejemplo de entrenamiento incluye también el razonamiento detrás de cada decisión, escrito como un contraargumento que explica por qué se descartó una alternativa, para que el modelo aprenda la regla y no solo la elección final.", "items": []},
-    {"type": "p", "text": "Cada presentación sintética pasó por un verificador automático que renderiza la diapositiva y detecta superposiciones o texto cortado, el mismo verificador que se usa cuando el modelo ya entrenado está en funcionamiento. Las diapositivas con errores se corrigieron, y el razonamiento se reescribió para explicar qué falló y por qué funcionó la corrección.", "items": []},
-    {"type": "p", "text": "El problema más difícil, según IBM Research, fue evitar que el modelo inventara datos: el peor fallo es una diapositiva con información que no estaba en el material de entrada. El equipo afirma que las reglas escritas en la instrucción no resolvieron esto; lo que funcionó fue incluir presentaciones de referencia en el material usado para entrenar al modelo profesor.", "items": []},
-    {"type": "h2", "text": "Resultado en PresentBench y control fino", "items": []},
-    {"type": "p", "text": "En PresentBench, un benchmark usado para medir la calidad de presentaciones generadas por IA, IBM Research afirma que Palette quedó en primer lugar en dos de los tres dominios evaluados.", "items": []},
-    {"type": "p", "text": "El modelo también acepta instrucciones específicas, llamadas \"directivas\": comandos cortos escritos dentro del plan de la presentación, entre corchetes dobles, para pedir un gráfico en lugar de una tabla, un color concreto o una portada más oscura. Según el equipo, el modelo aprendió a seguir este tipo de instrucción porque los datos de entrenamiento incluyeron directivas de 12 categorías distintas, cada una formulada de varias formas.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Qué es: un modelo de 20.000 millones de parámetros, ajustado con la técnica LoRA, entrenado para crear presentaciones en el estilo visual de quien lo usa.",
-      "Cómo funciona: un rol decide el contenido y la estructura de la presentación, y otro dibuja cada diapositiva: posición, tamaño y fuente de cada elemento.",
-      "Rendimiento: según IBM Research, el modelo quedó en primer lugar en dos de los tres dominios del benchmark PresentBench.",
-      "Velocidad: la generación de código se ejecuta en paralelo, diapositiva por diapositiva, lo que hizo esa etapa entre 6 y 7 veces más rápida.",
-      "Datos de entrenamiento: alrededor de mil presentaciones y 10.000 diapositivas, generadas de forma sintética por el propio equipo.",
-      "Control fino: es posible pedir ajustes específicos de diseño, como un gráfico en lugar de una tabla, mediante instrucciones cortas dentro del plan de la presentación."
-    ]}
+    {
+      "type": "p",
+      "text": "IBM Research publicó un modelo de inteligencia artificial llamado Palette, entrenado para crear presentaciones de diapositivas que siguen el lenguaje visual de quien lo utiliza. Según la publicación del equipo en Hugging Face, el modelo tiene 20.000 millones de parámetros, una fracción del tamaño de los modelos de referencia que usan asistentes como ChatGPT o Gemini.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La motivación, según IBM Research, es un problema práctico al usar modelos de referencia para generar presentaciones: el resultado suele ser bueno, pero mantiene el estilo propio del modelo, con la misma paleta de colores sin importar el pedido, difícil de adaptar a la identidad visual de una empresa concreta. Hay un segundo obstáculo: el contenido confidencial no puede salir de los sistemas internos de la empresa para ser procesado por un modelo de terceros alojado en la nube.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La alternativa es un modelo lo bastante pequeño para alojarse en la propia infraestructura de la empresa (self-host). El problema, afirma IBM Research, es que estos modelos pequeños suelen producir diapositivas con errores: títulos que se pierden en el fondo, texto que se sale de los límites de la diapositiva y formas superpuestas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Dos roles dentro del mismo modelo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM Research dividió la tarea en dos roles, ejecutados por un único adaptador LoRA (una técnica de ajuste fino que enseña una nueva habilidad a un modelo ya entrenado sin alterar lo que ya sabe). Un rol, llamado \"designer\", decide el contenido de cada diapositiva: cuántas incluir, qué muestra cada una, si un dato se convierte en gráfico o en tabla. El otro, llamado \"coder\", escribe el código que coloca cada elemento en la pantalla: la posición exacta, el ancho y el tamaño de la fuente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según el equipo, separar ambos roles trajo un efecto secundario útil: como el contenido de cada diapositiva queda definido antes de escribir cualquier código, las llamadas del \"coder\" pueden ejecutarse en paralelo, una por diapositiva. Eso hizo que la etapa de generación de código fuera entre 6 y 7 veces más rápida.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "IBM Research optó por el ajuste fino con LoRA en lugar de reentrenar el modelo completo porque la técnica enseña un formato y una habilidad nueva sobre una base capaz sin alterar lo que ya sabe, y abarata cada experimento. Durante el entrenamiento fue necesario un ajuste: los ejemplos del \"coder\" son unas 5 veces más largos que los del \"designer\", lo que inicialmente dejaba a ese segundo rol mal entrenado. El equipo lo corrigió repitiendo los ejemplos del \"designer\" 5 veces.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Datos sintéticos para un problema sin datos reales",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No existe un conjunto público de datos con el razonamiento detrás de presentaciones terminadas, según IBM Research. Por eso, el equipo generó sus propios datos con un modelo profesor de código abierto más grande: alrededor de mil presentaciones, con unas 10.000 diapositivas en total. Cada ejemplo de entrenamiento incluye también el razonamiento detrás de cada decisión, escrito como un contraargumento que explica por qué se descartó una alternativa, para que el modelo aprenda la regla y no solo la elección final.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Cada presentación sintética pasó por un verificador automático que renderiza la diapositiva y detecta superposiciones o texto cortado, el mismo verificador que se usa cuando el modelo ya entrenado está en funcionamiento. Las diapositivas con errores se corrigieron, y el razonamiento se reescribió para explicar qué falló y por qué funcionó la corrección.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El problema más difícil, según IBM Research, fue evitar que el modelo inventara datos: el peor fallo es una diapositiva con información que no estaba en el material de entrada. El equipo afirma que las reglas escritas en la instrucción no resolvieron esto; lo que funcionó fue incluir presentaciones de referencia en el material usado para entrenar al modelo profesor.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resultado en PresentBench y control fino",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En PresentBench, un benchmark usado para medir la calidad de presentaciones generadas por IA, IBM Research afirma que Palette quedó en primer lugar en dos de los tres dominios evaluados.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El modelo también acepta instrucciones específicas, llamadas \"directivas\": comandos cortos escritos dentro del plan de la presentación, entre corchetes dobles, para pedir un gráfico en lugar de una tabla, un color concreto o una portada más oscura. Según el equipo, el modelo aprendió a seguir este tipo de instrucción porque los datos de entrenamiento incluyeron directivas de 12 categorías distintas, cada una formulada de varias formas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué es: un modelo de 20.000 millones de parámetros, ajustado con la técnica LoRA, entrenado para crear presentaciones en el estilo visual de quien lo usa.",
+        "Cómo funciona: un rol decide el contenido y la estructura de la presentación, y otro dibuja cada diapositiva: posición, tamaño y fuente de cada elemento.",
+        "Rendimiento: según IBM Research, el modelo quedó en primer lugar en dos de los tres dominios del benchmark PresentBench.",
+        "Velocidad: la generación de código se ejecuta en paralelo, diapositiva por diapositiva, lo que hizo esa etapa entre 6 y 7 veces más rápida.",
+        "Datos de entrenamiento: alrededor de mil presentaciones y 10.000 diapositivas, generadas de forma sintética por el propio equipo.",
+        "Control fino: es posible pedir ajustes específicos de diseño, como un gráfico en lugar de una tabla, mediante instrucciones cortas dentro del plan de la presentación."
+      ]
+    }
   ],
   "image": {
     "query": "slide deck design software presentation screen",
-    "alt": "Pantalla de computadora mostrando una presentación de diapositivas en edición"
+    "alt": "Pantalla de computadora mostrando una presentación de diapositivas en edición",
+    "path": "/assets/img/ibm-entrena-modelo-para-crear-diapositiv-50f418f0.jpg",
+    "credit": "Google DeepMind / Unsplash",
+    "author": "Google DeepMind",
+    "author_url": "https://unsplash.com/@googledeepmind?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/abstract-blue-and-pink-3d-cubes-_HnJfS6WhA8"
   },
   "sources": [
-    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/ibm-research/palette-deck-building", "title": "Palette: teaching a small model to build decks in your design language"}
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "title": "Palette: teaching a small model to build decks in your design language"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-08T15:44:46+00:00",
+  "updated_at": "2026-11-08T15:44:46+00:00"
 }

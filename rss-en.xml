@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 15:48:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 15:44:48 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>IBM Research trains a 20B open model to build branded decks</title>
+      <link>https://cortexplor.com/en/ibm-research-trains-deck-building-model/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/ibm-research-trains-deck-building-model/</guid>
+      <description>IBM Research fine-tuned a 20-billion-parameter open-weight model to generate slide decks that follow a company's own design language, the team reports.</description>
+      <category>Models &amp; Launches</category>
+      <pubDate>Sun, 08 Nov 2026 15:44:46 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI's valuation cools to $1.25 trillion as Anthropic files for IPO</title>
       <link>https://cortexplor.com/en/openai-valuation-drops-anthropic-ipo/</link>
@@ -238,14 +246,6 @@
       <description>A hacker used AI agents with little human input to breach over 100 company sites; Reuters confirms John Deere, SharkNinja and Cummins among the victims.</description>
       <category>Policy</category>
       <pubDate>Tue, 20 Oct 2026 15:50:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>$2.5 Million RTX 5090 Shipment Vanishes at Brazil Airport</title>
-      <link>https://cortexplor.com/en/rtx-5090-shipment-vanishes-brazil/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/rtx-5090-shipment-vanishes-brazil/</guid>
-      <description>A shipment of RTX 5090 cards worth around $2.5 million vanished at Brazil's Guarulhos airport, distributor Oderço says, as AI demand pushes up GPU prices.</description>
-      <category>AI Market</category>
-      <pubDate>Tue, 20 Oct 2026 10:51:58 +0000</pubDate>
     </item>
   </channel>
 </rss>

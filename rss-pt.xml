@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 07 Nov 2026 15:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 15:44:48 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>IBM Research treina modelo de IA de 20B para montar slides</title>
+      <link>https://cortexplor.com/pt/ibm-treina-modelo-para-criar-slides/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/ibm-treina-modelo-para-criar-slides/</guid>
+      <description>A IBM Research treinou um modelo de IA de 20 bilhões de parâmetros para criar apresentações de slides no padrão visual de cada empresa, segundo a empresa.</description>
+      <category>Modelos &amp; Lançamentos</category>
+      <pubDate>Sun, 08 Nov 2026 15:44:46 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI vale US$ 1,25 trilhão em nova rodada, abaixo da meta</title>
       <link>https://cortexplor.com/pt/openai-reduz-avaliacao-ipo-anthropic/</link>
@@ -238,14 +246,6 @@
       <description>Hacker usou agentes de IA quase sem supervisão humana para invadir mais de 100 sites; Reuters confirma John Deere, SharkNinja e Cummins entre as vítimas.</description>
       <category>Regulação</category>
       <pubDate>Tue, 20 Oct 2026 15:50:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft cria score de risco para monitorar agentes de IA</title>
-      <link>https://cortexplor.com/pt/microsoft-cria-controles-para-agentes-de-ia/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/microsoft-cria-controles-para-agentes-de-ia/</guid>
-      <description>A Microsoft lança controles que avaliam o risco de agentes de IA nas empresas em tempo real e podem isolar um agente antes de uma falha, diz a SiliconANGLE.</description>
-      <category>Aplicações</category>
-      <pubDate>Tue, 20 Oct 2026 10:51:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
