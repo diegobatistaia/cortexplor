@@ -1,0 +1,45 @@
+{
+  "lang": "pt",
+  "slug": "ibm-treina-modelo-para-criar-slides",
+  "story_id": "03f91c5bb4b37497",
+  "title": "IBM Research treina modelo de IA de 20B para montar slides",
+  "dek": "Modelo pequeno e de pesos abertos usa dois papéis internos para desenhar apresentações no padrão visual de quem o treina.",
+  "meta_description": "A IBM Research treinou um modelo de IA de 20 bilhões de parâmetros para criar apresentações de slides no padrão visual de cada empresa, segundo a empresa.",
+  "keyword": "modelo de IA para slides",
+  "category": "modelos",
+  "tags": ["ia", "ibm", "modelos", "hugging-face"],
+  "body": [
+    {"type": "p", "text": "A IBM Research publicou um modelo de inteligência artificial chamado Palette, treinado para montar apresentações de slides seguindo o padrão visual de quem o usa. Segundo a empresa, em comunicado publicado no Hugging Face, o modelo tem 20 bilhões de parâmetros — uma fração do tamanho dos modelos de ponta usados por assistentes como o ChatGPT ou o Gemini.", "items": []},
+    {"type": "p", "text": "A motivação, segundo a IBM Research, é um problema prático de quem usa modelos de ponta para gerar apresentações: o resultado costuma sair bom, mas com a \"cara\" do próprio modelo — a mesma paleta de cores e o mesmo estilo em qualquer pedido, difícil de encaixar na identidade visual de uma empresa específica. Há ainda um segundo obstáculo: conteúdo confidencial não pode sair dos sistemas internos da empresa para ser processado por um modelo de terceiros hospedado na nuvem.", "items": []},
+    {"type": "p", "text": "A alternativa é um modelo pequeno o bastante para rodar na própria infraestrutura da empresa (self-host). O problema, afirma a IBM Research, é que esses modelos pequenos costumavam produzir slides quebrados: título que some no fundo da imagem, texto que estoura os limites do slide e formas sobrepostas.", "items": []},
+    {"type": "h2", "text": "Dois papéis dentro do mesmo modelo", "items": []},
+    {"type": "p", "text": "A IBM Research dividiu a tarefa em duas funções, executadas por um único adaptador LoRA (uma técnica de ajuste fino que ensina uma nova habilidade a um modelo já treinado, sem alterar o que ele já sabe). Um papel, chamado \"designer\", decide o conteúdo de cada slide — quantos entram, o que cada um mostra, se um dado vira gráfico ou tabela. O outro, chamado \"coder\", escreve o código que posiciona cada elemento na tela: a coordenada exata, a largura e o tamanho da fonte.", "items": []},
+    {"type": "p", "text": "Segundo a empresa, separar as duas funções trouxe um efeito colateral útil: como o conteúdo de cada slide fica definido antes de qualquer código ser escrito, as chamadas do \"coder\" podem rodar em paralelo, uma por slide. Isso deixou a etapa de geração de código entre 6 e 7 vezes mais rápida.", "items": []},
+    {"type": "p", "text": "A IBM Research optou pelo ajuste fino com LoRA em vez de retreinar o modelo inteiro porque a técnica ensina um formato e uma habilidade nova sem perturbar o que o modelo de base já sabe, além de deixar cada experimento mais barato. Um ajuste precisou ser feito no treino: os exemplos do \"coder\" são cerca de 5 vezes mais longos que os do \"designer\", o que inicialmente deixava esse segundo papel mal treinado — a equipe corrigiu repetindo os exemplos do \"designer\" 5 vezes.", "items": []},
+    {"type": "h2", "text": "Dados sintéticos para um problema sem dados reais", "items": []},
+    {"type": "p", "text": "Não existe um banco público de dados com o raciocínio por trás de apresentações prontas, segundo a IBM Research. Por isso, a equipe gerou seus próprios dados com um modelo professor de código aberto maior: cerca de mil apresentações, somando aproximadamente 10 mil slides. Cada exemplo de treino carrega também o raciocínio por trás da decisão, escrito como um contraponto — por que uma alternativa foi descartada —, para que o modelo aprenda a regra, não só a escolha final.", "items": []},
+    {"type": "p", "text": "Cada apresentação sintética passou por um verificador automático que renderiza o slide e aponta sobreposições ou textos cortados — o mesmo verificador usado quando o modelo já treinado está em uso. Slides com problema eram corrigidos, e o raciocínio era reescrito para explicar o que deu errado e por quê.", "items": []},
+    {"type": "p", "text": "O problema mais difícil, segundo a IBM Research, foi evitar que o modelo inventasse dados: a pior falha é um slide com informação que não estava no material de entrada. A equipe afirma que regras escritas no comando não resolveram isso — o que funcionou foi incluir exemplos de apresentações de referência no material usado para treinar o modelo professor.", "items": []},
+    {"type": "h2", "text": "Resultado no PresentBench e controle fino", "items": []},
+    {"type": "p", "text": "No PresentBench, benchmark usado para medir a qualidade de apresentações geradas por IA, a IBM Research afirma que o Palette ficou em primeiro lugar em dois dos três domínios avaliados.", "items": []},
+    {"type": "p", "text": "O modelo também aceita instruções específicas, chamadas de \"diretivas\" — comandos curtos escritos dentro do plano da apresentação, entre colchetes duplos, para pedir um gráfico no lugar de uma tabela, uma cor específica ou uma capa mais escura. Segundo a empresa, o modelo aprendeu a seguir esse tipo de instrução porque os dados de treino incluíram diretivas de 12 categorias diferentes, cada uma formulada de várias formas.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "O que é: modelo de 20 bilhões de parâmetros, ajustado com a técnica LoRA, treinado para criar apresentações no estilo visual de quem o usa.",
+      "Como funciona: um papel decide o conteúdo e a estrutura da apresentação, e outro desenha cada slide — posição, tamanho e fonte de cada elemento.",
+      "Desempenho: segundo a IBM Research, o modelo ficou em primeiro lugar em dois dos três domínios do benchmark PresentBench.",
+      "Velocidade: a geração de código roda em paralelo, slide por slide, o que deixou essa etapa de 6 a 7 vezes mais rápida.",
+      "Dados de treino: cerca de mil apresentações e 10 mil slides, gerados de forma sintética pela própria equipe.",
+      "Controle fino: é possível pedir ajustes específicos de design — como um gráfico no lugar de uma tabela — por meio de instruções curtas dentro do plano da apresentação."
+    ]}
+  ],
+  "image": {
+    "query": "slide deck design software presentation screen",
+    "alt": "Tela de computador mostrando uma apresentação de slides sendo editada"
+  },
+  "sources": [
+    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/ibm-research/palette-deck-building", "title": "Palette: teaching a small model to build decks in your design language"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
