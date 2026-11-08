@@ -7,32 +7,96 @@
   "meta_description": "A Together AI lança o Together Compiler, que usa agentes de IA para otimizar a velocidade da inferência em modelos abertos, segundo a própria empresa.",
   "keyword": "Together Compiler",
   "category": "aplicacoes",
-  "tags": ["ia", "together-ai", "inferencia", "agentes-de-ia", "modelos-abertos"],
+  "tags": [
+    "ia",
+    "together-ai",
+    "inferencia",
+    "agentes-de-ia",
+    "modelos-abertos"
+  ],
   "body": [
-    {"type": "p", "text": "A Together AI anunciou o Together Compiler, ferramenta que usa agentes de inteligência artificial — programas que testam variações de código e tomam decisões por conta própria — para acelerar automaticamente a velocidade com que modelos de IA respondem, segundo comunicado da empresa. A companhia afirma que o recurso já está em produção, processando trilhões de tokens, as unidades de texto que os modelos leem e geram, todos os dias.", "items": []},
-    {"type": "p", "text": "A empresa diz que o sistema, batizado internamente de TKCC, roda em \"motores persistentes\": em vez de religar o motor de inferência a cada novo teste de otimização — processo que, segundo a Together AI, costuma levar dezenas de minutos nos sistemas concorrentes —, o TKCC mantém o motor ligado e troca apenas o trecho de código testado, o que multiplica o número de experimentos que os agentes conseguem rodar por hora. Segundo a empresa, essa mudança eleva em 252 vezes o número de testes de otimização executados por hora, em comparação com sistemas agênticos concorrentes.", "items": []},
-    {"type": "p", "text": "A Together AI também descreve um segundo ajuste: para evitar que os agentes testem otimizações em dados artificiais e cheguem a resultados que não se repetem na prática, o TKCC usa dois tipos de motor — um mais rápido, com poucas camadas do modelo carregadas, para testes iniciais, e outro mais lento, com o modelo completo, para confirmar se a otimização funciona com dados reais de uso. A empresa afirma ainda ter desenvolvido um modelo de custo próprio para escolher automaticamente como dividir o processamento entre vários chips, tarefa que, segundo a companhia, era feita antes por engenheiros de forma manual.", "items": []},
-    {"type": "h2", "text": "Ganhos de desempenho, segundo a empresa", "items": []},
-    {"type": "p", "text": "Segundo a Together AI, o TKCC conseguiu, em menos de 24 horas de ajuste automático, aumentar em até 2,6 vezes o número de tokens por segundo — métrica que mede quantas palavras um modelo gera por segundo, usada para comparar a velocidade de resposta — em modelos abertos como Kimi K3, GLM 5.3, MiniMax M3.1-Flash e DeepSeek v4.1-Flash. A empresa afirma ainda ter alcançado a maior pontuação já registrada no benchmark InferenceX, da SemiAnalysis, para baixa latência, com 1111 tokens por segundo no MiniMax M3.1-Flash e 1205 no DeepSeek v4.1-Flash.", "items": []},
-    {"type": "p", "text": "A Together AI também diz que o TKCC supera em 1,7 vez os \"megakernels\" de código aberto disponíveis — kernels são os blocos de código que executam as operações matemáticas de um modelo — na configuração mais usada do Llama 1B. Segundo a empresa, a mesma técnica de otimização automática funciona além de modelos de linguagem, em áreas como previsão do tempo, biologia e séries temporais.", "items": []},
-    {"type": "h2", "text": "De \"inferência estática\" a \"polimórfica\"", "items": []},
-    {"type": "p", "text": "Em outro texto publicado no mesmo dia, a Together AI descreve o lançamento como o primeiro passo de uma mudança de estratégia que a empresa chama de \"Inferência Polimórfica\": em vez de otimizar manualmente cada combinação de modelo, hardware e tipo de uso, a companhia passa a usar agentes de IA para ajustar o sistema sozinhos, de forma contínua. A Together AI afirma que a equipe por trás do projeto também criou o FlashAttention e o ThunderKittens, duas técnicas usadas por outras empresas de IA para acelerar o treinamento e a inferência de modelos.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar e onde: clientes que rodam modelos abertos pela API de inferência da Together AI; a empresa diz que o recurso já está em produção.",
-      "Desde quando: a Together AI afirma que o Together Compiler já processava trilhões de tokens por dia na data do anúncio, nesta semana.",
-      "Quanto custa: a empresa não divulgou preço específico para o recurso.",
-      "O que muda em relação a antes: segundo a Together AI, agentes de IA passam a testar e ajustar o código de inferência continuamente, no lugar da otimização manual de cada combinação de modelo e hardware."
-    ]}
+    {
+      "type": "p",
+      "text": "A Together AI anunciou o Together Compiler, ferramenta que usa agentes de inteligência artificial — programas que testam variações de código e tomam decisões por conta própria — para acelerar automaticamente a velocidade com que modelos de IA respondem, segundo comunicado da empresa. A companhia afirma que o recurso já está em produção, processando trilhões de tokens, as unidades de texto que os modelos leem e geram, todos os dias.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa diz que o sistema, batizado internamente de TKCC, roda em \"motores persistentes\": em vez de religar o motor de inferência a cada novo teste de otimização — processo que, segundo a Together AI, costuma levar dezenas de minutos nos sistemas concorrentes —, o TKCC mantém o motor ligado e troca apenas o trecho de código testado, o que multiplica o número de experimentos que os agentes conseguem rodar por hora. Segundo a empresa, essa mudança eleva em 252 vezes o número de testes de otimização executados por hora, em comparação com sistemas agênticos concorrentes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Together AI também descreve um segundo ajuste: para evitar que os agentes testem otimizações em dados artificiais e cheguem a resultados que não se repetem na prática, o TKCC usa dois tipos de motor — um mais rápido, com poucas camadas do modelo carregadas, para testes iniciais, e outro mais lento, com o modelo completo, para confirmar se a otimização funciona com dados reais de uso. A empresa afirma ainda ter desenvolvido um modelo de custo próprio para escolher automaticamente como dividir o processamento entre vários chips, tarefa que, segundo a companhia, era feita antes por engenheiros de forma manual.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ganhos de desempenho, segundo a empresa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Together AI, o TKCC conseguiu, em menos de 24 horas de ajuste automático, aumentar em até 2,6 vezes o número de tokens por segundo — métrica que mede quantas palavras um modelo gera por segundo, usada para comparar a velocidade de resposta — em modelos abertos como Kimi K3, GLM 5.3, MiniMax M3.1-Flash e DeepSeek v4.1-Flash. A empresa afirma ainda ter alcançado a maior pontuação já registrada no benchmark InferenceX, da SemiAnalysis, para baixa latência, com 1111 tokens por segundo no MiniMax M3.1-Flash e 1205 no DeepSeek v4.1-Flash.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Together AI também diz que o TKCC supera em 1,7 vez os \"megakernels\" de código aberto disponíveis — kernels são os blocos de código que executam as operações matemáticas de um modelo — na configuração mais usada do Llama 1B. Segundo a empresa, a mesma técnica de otimização automática funciona além de modelos de linguagem, em áreas como previsão do tempo, biologia e séries temporais.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "De \"inferência estática\" a \"polimórfica\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em outro texto publicado no mesmo dia, a Together AI descreve o lançamento como o primeiro passo de uma mudança de estratégia que a empresa chama de \"Inferência Polimórfica\": em vez de otimizar manualmente cada combinação de modelo, hardware e tipo de uso, a companhia passa a usar agentes de IA para ajustar o sistema sozinhos, de forma contínua. A Together AI afirma que a equipe por trás do projeto também criou o FlashAttention e o ThunderKittens, duas técnicas usadas por outras empresas de IA para acelerar o treinamento e a inferência de modelos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar e onde: clientes que rodam modelos abertos pela API de inferência da Together AI; a empresa diz que o recurso já está em produção.",
+        "Desde quando: a Together AI afirma que o Together Compiler já processava trilhões de tokens por dia na data do anúncio, nesta semana.",
+        "Quanto custa: a empresa não divulgou preço específico para o recurso.",
+        "O que muda em relação a antes: segundo a Together AI, agentes de IA passam a testar e ajustar o código de inferência continuamente, no lugar da otimização manual de cada combinação de modelo e hardware."
+      ]
+    }
   ],
   "image": {
     "query": "data center server GPU computing abstract",
-    "alt": "Fileiras de servidores em um data center, usados para processar modelos de inteligência artificial"
+    "alt": "Fileiras de servidores em um data center, usados para processar modelos de inteligência artificial",
+    "path": "/assets/img/together-ai-compilador-ia-acelerar-infer-276b71d4.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "author": "Steve A Johnson",
+    "author_url": "https://unsplash.com/@steve_j?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/rows-of-dark-cubes-with-glowing-green-lines-lTD2ka1LD68"
   },
   "sources": [
-    {"name": "Together AI", "owner": "togetherai", "url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference", "title": "Together Compiler: Continual Compilation for AI inference"},
-    {"name": "Together AI", "owner": "togetherai", "url": "https://www.together.ai/blog/polymorphic-inference", "title": "Polymorphic Inference: self-tuning inference for open models"}
+    {
+      "name": "Together AI",
+      "owner": "togetherai",
+      "url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+      "title": "Together Compiler: Continual Compilation for AI inference"
+    },
+    {
+      "name": "Together AI",
+      "owner": "togetherai",
+      "url": "https://www.together.ai/blog/polymorphic-inference",
+      "title": "Polymorphic Inference: self-tuning inference for open models"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-08T21:54:48+00:00",
+  "updated_at": "2026-11-08T21:54:48+00:00"
 }

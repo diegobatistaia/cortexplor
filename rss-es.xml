@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 08 Nov 2026 15:44:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 21:54:51 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nvidia abre investigación interna tras denuncias de espionaje chino</title>
+      <link>https://cortexplor.com/es/nvidia-investigacion-jensen-huang-espionaje-chino/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/nvidia-investigacion-jensen-huang-espionaje-chino/</guid>
+      <description>El Congreso de EE.UU. exige explicaciones a Jensen Huang tras un memorando sobre una ejecutiva reclutada por China para espiarlo, según TechCrunch y CNBC.</description>
+      <category>Regulación</category>
+      <pubDate>Sun, 08 Nov 2026 21:54:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Together AI lanza un compilador con IA para acelerar modelos</title>
+      <link>https://cortexplor.com/es/together-ai-compilador-agentes-ia-inferencia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/together-ai-compilador-agentes-ia-inferencia/</guid>
+      <description>Together AI lanzó Together Compiler, una herramienta que usa agentes de IA para optimizar la velocidad de inferencia en modelos abiertos, según la empresa.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Sun, 08 Nov 2026 21:54:49 +0000</pubDate>
+    </item>
     <item>
       <title>IBM Research entrena un modelo abierto de 20B para crear slides</title>
       <link>https://cortexplor.com/es/ibm-entrena-modelo-para-crear-diapositivas/</link>
@@ -230,22 +246,6 @@
       <description>El satélite del Proyecto Suncatcher de Google ya está en órbita y generó su primer haiku con el modelo Gemma 4 de Google, según TechCrunch y The Verge.</description>
       <category>Mercado de IA</category>
       <pubDate>Sun, 01 Nov 2026 10:54:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI compra la startup Orchestra Bio para desarrollo de fármacos</title>
-      <link>https://cortexplor.com/es/openai-adquiere-orchestra-bio-farmaceutica/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/openai-adquiere-orchestra-bio-farmaceutica/</guid>
-      <description>OpenAI adquirió la startup Orchestra Bio, cuyos agentes de IA coordinan el desarrollo de fármacos, para reforzar Rosalind, su plataforma de ciencias biomédicas.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Tue, 20 Oct 2026 21:46:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker usa agentes de IA para invadir más de 100 sitios de empresas</title>
-      <link>https://cortexplor.com/es/hacker-invade-sitios-con-agentes-de-ia/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/hacker-invade-sitios-con-agentes-de-ia/</guid>
-      <description>Un hacker usó agentes de IA casi sin supervisión humana para invadir más de 100 sitios; Reuters confirma a John Deere, SharkNinja y Cummins entre las víctimas.</description>
-      <category>Regulación</category>
-      <pubDate>Tue, 20 Oct 2026 15:50:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
