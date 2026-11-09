@@ -1,0 +1,41 @@
+{
+  "lang": "es",
+  "slug": "nvidia-lanza-modelos-abiertos-cosmos-3-simulacion",
+  "story_id": "10ca943506873bbf",
+  "title": "Nvidia lanza cuatro modelos abiertos para simular mundos y vías",
+  "dek": "Los checkpoints de la familia Cosmos 3 generan vídeo y datos de LiDAR sincronizados para entrenar robots y coches autónomos, según la empresa.",
+  "meta_description": "Nvidia lanzó cuatro checkpoints abiertos de Cosmos 3, de 16.000 millones de parámetros, para simular escenas de robótica y conducción autónoma con cámaras.",
+  "keyword": "Nvidia Cosmos 3 modelos abiertos",
+  "category": "modelos",
+  "tags": ["ia", "nvidia", "modelos", "código abierto", "robótica"],
+  "body": [
+    {"type": "p", "text": "Nvidia lanzó cuatro nuevos checkpoints de peso abierto para su familia de modelos Cosmos 3, pensados para simular escenas de robótica y de conducción autónoma con múltiples cámaras y sensores, según una publicación de la propia empresa en Hugging Face.", "items": []},
+    {"type": "p", "text": "Los cuatro modelos son versiones post-entrenadas de Cosmos 3 Nano, con 16.000 millones de parámetros cada uno, y están disponibles bajo la licencia OpenMDW1.1, que permite uso comercial y no comercial, según Nvidia.", "items": []},
+    {"type": "h2", "text": "Cómo funcionan los modelos", "items": []},
+    {"type": "p", "text": "El primero, llamado Cosmos3-Nano-Transfer-Auto, genera datos sintéticos de conducción de forma offline: produce vídeo sincronizado en hasta 11 cámaras, incluidas lentes de ojo de pez, además de nubes de puntos de LiDAR (sensor láser que mide distancia y forma del entorno) alineadas con esas imágenes. La escena y el tráfico se definen mediante un control llamado World Scenario Map (WSM), un mapa que describe el trazado de la vía y el comportamiento de los vehículos, mientras que instrucciones de texto guían la apariencia visual, según Nvidia.", "items": []},
+    {"type": "p", "text": "El segundo, Cosmos3-Nano-Sim-Auto, es una variante de Transfer-Auto adaptada para funcionar casi en tiempo real: genera pequeños fragmentos sucesivos de vídeo y LiDAR usando pocos pasos de eliminación de ruido a partir del historial ya generado y de los controles de conducción más recientes. Según la empresa, esta versión permite simulaciones interactivas y más largas, aunque cerrar el ciclo de interacción todavía exige un motor de simulación y un generador de mapas WSM aparte.", "items": []},
+    {"type": "h2", "text": "Para qué sirven", "items": []},
+    {"type": "p", "text": "Nvidia describe dos usos principales. En robótica, una variante llamada Sim-Bimanual predice las consecuencias visuales de una acción, mientras que Sim-Transfer convierte los controles de un simulador físico en observaciones de imagen generadas por IA. En conducción autónoma, los controles de escena y de semáforos permiten variar el trazado de las calles y el estado de las señales para probar cómo responde una política de conducción a cada escenario, según la empresa.", "items": []},
+    {"type": "p", "text": "Según Nvidia, el objetivo es ofrecer una base abierta para que investigadores adapten los modelos a sus propios conjuntos de cámaras y sensores, comparen métodos entre sí y aporten mejoras. La empresa reconoce que todavía falta medir hasta qué punto los modelos sostienen de verdad el entrenamiento y la evaluación de políticas de robots y vehículos autónomos, y dónde siguen fallando.", "items": []},
+    {"type": "h2", "text": "Cómo adaptar el modelo a otro robot o vehículo", "items": []},
+    {"type": "p", "text": "Nvidia describe Transfer-Auto también como base para equipos que usan otras configuraciones de cámaras y LiDAR: el equipo puede post-entrenar el modelo con sus propios datos para ajustarlo al diseño de sensores de un robot o vehículo concreto. Tras ese ajuste, la versión adaptada puede generar datos offline o pasar por un entrenamiento causal y por destilación en pocos pasos para convertirse en una variante rápida de streaming, el mismo camino que la propia Nvidia usó para crear Sim-Auto a partir de Transfer-Auto, según la empresa.", "items": []},
+    {"type": "p", "text": "Nvidia afirma que la robótica necesita entornos de simulación capaces de responder a escenas y puntos de vista en constante cambio, y describe los dos modelos como formas complementarias de construir esos entornos: uno centrado en generar observaciones a partir de los controles de un simulador físico, el otro en predecir las consecuencias visuales de una acción. Además de los checkpoints, la empresa publicó una herramienta (una \"skill\" abierta) que permite que agentes de programación ejecuten inferencia directamente con Cosmos3-Nano-Transfer-Auto, junto con el informe técnico y vídeos de demostración en Hugging Face.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: investigadores y desarrolladores de robótica y conducción autónoma, bajo una licencia que permite uso comercial y no comercial.",
+      "Dónde: descarga de los checkpoints, informe técnico y demostraciones en Hugging Face, según Nvidia.",
+      "Desde cuándo: disponible desde el anuncio de la empresa.",
+      "Cuánto cuesta: peso abierto, sin coste de licencia, según Nvidia.",
+      "A quién afecta: equipos que entrenan robots o sistemas de conducción autónoma y necesitan datos sintéticos de cámara y LiDAR."
+    ]}
+  ],
+  "image": {
+    "query": "autonomous vehicle lidar camera simulation robotics",
+    "alt": "Coche autónomo con sensores de cámara y LiDAR que representa la simulación de conducción por inteligencia artificial"
+  },
+  "sources": [
+    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation", "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
