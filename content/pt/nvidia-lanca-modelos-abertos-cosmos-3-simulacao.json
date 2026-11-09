@@ -7,35 +7,106 @@
   "meta_description": "A Nvidia lançou quatro checkpoints abertos da família Cosmos 3, com 16 bilhões de parâmetros, para simular cenas de robótica e direção autônoma com câmeras.",
   "keyword": "Nvidia Cosmos 3 modelos abertos",
   "category": "modelos",
-  "tags": ["ia", "nvidia", "modelos", "código aberto", "robótica"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "modelos",
+    "código aberto",
+    "robótica"
+  ],
   "body": [
-    {"type": "p", "text": "A Nvidia lançou quatro novos checkpoints de peso aberto para a família de modelos Cosmos 3, voltados a simular cenas de robótica e de direção autônoma com múltiplas câmeras e sensores, segundo publicação da própria empresa no Hugging Face.", "items": []},
-    {"type": "p", "text": "Os quatro modelos são versões pós-treinadas do Cosmos 3 Nano, com 16 bilhões de parâmetros cada, e ficam disponíveis sob a licença OpenMDW1.1, que permite uso comercial e não comercial, segundo a Nvidia.", "items": []},
-    {"type": "h2", "text": "Como os modelos funcionam", "items": []},
-    {"type": "p", "text": "O primeiro, chamado Cosmos3-Nano-Transfer-Auto, gera dados sintéticos de direção de forma offline: produz vídeo sincronizado em até 11 câmeras, incluindo lentes fisheye, além de nuvens de pontos de LiDAR (sensor a laser que mede distância e forma do ambiente) alinhadas às imagens. A cena e o tráfego são definidos por um controle chamado World Scenario Map (WSM), um mapa que descreve o layout da via e o comportamento dos veículos, enquanto a aparência do ambiente é guiada por instruções em texto, segundo a Nvidia.", "items": []},
-    {"type": "p", "text": "O segundo, Cosmos3-Nano-Sim-Auto, é uma variante do Transfer-Auto adaptada para funcionar em tempo real: gera pequenos trechos de vídeo e LiDAR em sequência, usando poucos passos de remoção de ruído a partir do histórico já gerado e dos controles de condução mais recentes. Segundo a empresa, essa versão permite simulações interativas e mais longas, embora fechar o ciclo de interação ainda exija um motor de simulação e um gerador de mapas WSM à parte.", "items": []},
-    {"type": "h2", "text": "Para que servem", "items": []},
-    {"type": "p", "text": "A Nvidia descreve dois usos principais. Em robótica, uma variante chamada Sim-Bimanual prevê as consequências visuais de uma ação, enquanto a Sim-Transfer converte os comandos de um simulador físico em observações de imagem geradas por IA. Em direção autônoma, os controles de cena e de sinalização permitem variar o traçado de ruas e o estado dos semáforos para testar como uma política de condução reage a cada cenário, segundo a empresa.", "items": []},
-    {"type": "p", "text": "Segundo a Nvidia, o objetivo é oferecer uma base aberta para que pesquisadores adaptem os modelos a seus próprios conjuntos de câmeras e sensores, comparem métodos entre si e contribuam com melhorias. A empresa reconhece que ainda falta medir até que ponto os modelos sustentam, de fato, o treinamento e a avaliação de políticas de robôs e veículos autônomos, e onde eles ainda falham.", "items": []},
-    {"type": "h2", "text": "Como adaptar o modelo a outro robô ou veículo", "items": []},
-    {"type": "p", "text": "A Nvidia descreve o Transfer-Auto como base também para quem usa configurações diferentes de câmeras e LiDAR: a equipe pode pós-treinar o modelo com seus próprios dados para ajustá-lo ao layout de sensores de um robô ou carro específico. Depois desse ajuste, a versão adaptada tanto pode gerar dados offline quanto passar por um treinamento causal e por destilação em poucos passos para virar uma versão rápida de streaming, o mesmo caminho que a própria Nvidia usou para criar o Sim-Auto a partir do Transfer-Auto, segundo a empresa.", "items": []},
-    {"type": "p", "text": "A Nvidia afirma que a robótica depende de ambientes de simulação capazes de responder a cenas e pontos de vista em constante mudança, e descreve os dois modelos como formas complementares de construir esses ambientes: um foca em gerar observações a partir de controles de um simulador físico, o outro em prever as consequências visuais de uma ação. Além dos checkpoints, a empresa publicou uma ferramenta (chamada de \"skill\" aberta) que permite que agentes de programação rodem inferência diretamente com o Cosmos3-Nano-Transfer-Auto, junto do relatório técnico e de vídeos de demonstração no Hugging Face.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar: pesquisadores e desenvolvedores de robótica e direção autônoma, sob licença que permite uso comercial e não comercial.",
-      "Onde: download dos checkpoints, relatório técnico e demonstrações no Hugging Face, segundo a Nvidia.",
-      "Desde quando: disponível a partir do anúncio da empresa.",
-      "Quanto custa: peso aberto, sem custo de licenciamento, segundo a Nvidia.",
-      "Quem é afetado: equipes que treinam robôs ou sistemas de condução autônoma e precisam de dados sintéticos de câmera e LiDAR."
-    ]}
+    {
+      "type": "p",
+      "text": "A Nvidia lançou quatro novos checkpoints de peso aberto para a família de modelos Cosmos 3, voltados a simular cenas de robótica e de direção autônoma com múltiplas câmeras e sensores, segundo publicação da própria empresa no Hugging Face.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os quatro modelos são versões pós-treinadas do Cosmos 3 Nano, com 16 bilhões de parâmetros cada, e ficam disponíveis sob a licença OpenMDW1.1, que permite uso comercial e não comercial, segundo a Nvidia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como os modelos funcionam",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O primeiro, chamado Cosmos3-Nano-Transfer-Auto, gera dados sintéticos de direção de forma offline: produz vídeo sincronizado em até 11 câmeras, incluindo lentes fisheye, além de nuvens de pontos de LiDAR (sensor a laser que mede distância e forma do ambiente) alinhadas às imagens. A cena e o tráfego são definidos por um controle chamado World Scenario Map (WSM), um mapa que descreve o layout da via e o comportamento dos veículos, enquanto a aparência do ambiente é guiada por instruções em texto, segundo a Nvidia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O segundo, Cosmos3-Nano-Sim-Auto, é uma variante do Transfer-Auto adaptada para funcionar em tempo real: gera pequenos trechos de vídeo e LiDAR em sequência, usando poucos passos de remoção de ruído a partir do histórico já gerado e dos controles de condução mais recentes. Segundo a empresa, essa versão permite simulações interativas e mais longas, embora fechar o ciclo de interação ainda exija um motor de simulação e um gerador de mapas WSM à parte.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Para que servem",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia descreve dois usos principais. Em robótica, uma variante chamada Sim-Bimanual prevê as consequências visuais de uma ação, enquanto a Sim-Transfer converte os comandos de um simulador físico em observações de imagem geradas por IA. Em direção autônoma, os controles de cena e de sinalização permitem variar o traçado de ruas e o estado dos semáforos para testar como uma política de condução reage a cada cenário, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Nvidia, o objetivo é oferecer uma base aberta para que pesquisadores adaptem os modelos a seus próprios conjuntos de câmeras e sensores, comparem métodos entre si e contribuam com melhorias. A empresa reconhece que ainda falta medir até que ponto os modelos sustentam, de fato, o treinamento e a avaliação de políticas de robôs e veículos autônomos, e onde eles ainda falham.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como adaptar o modelo a outro robô ou veículo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia descreve o Transfer-Auto como base também para quem usa configurações diferentes de câmeras e LiDAR: a equipe pode pós-treinar o modelo com seus próprios dados para ajustá-lo ao layout de sensores de um robô ou carro específico. Depois desse ajuste, a versão adaptada tanto pode gerar dados offline quanto passar por um treinamento causal e por destilação em poucos passos para virar uma versão rápida de streaming, o mesmo caminho que a própria Nvidia usou para criar o Sim-Auto a partir do Transfer-Auto, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia afirma que a robótica depende de ambientes de simulação capazes de responder a cenas e pontos de vista em constante mudança, e descreve os dois modelos como formas complementares de construir esses ambientes: um foca em gerar observações a partir de controles de um simulador físico, o outro em prever as consequências visuais de uma ação. Além dos checkpoints, a empresa publicou uma ferramenta (chamada de \"skill\" aberta) que permite que agentes de programação rodem inferência diretamente com o Cosmos3-Nano-Transfer-Auto, junto do relatório técnico e de vídeos de demonstração no Hugging Face.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: pesquisadores e desenvolvedores de robótica e direção autônoma, sob licença que permite uso comercial e não comercial.",
+        "Onde: download dos checkpoints, relatório técnico e demonstrações no Hugging Face, segundo a Nvidia.",
+        "Desde quando: disponível a partir do anúncio da empresa.",
+        "Quanto custa: peso aberto, sem custo de licenciamento, segundo a Nvidia.",
+        "Quem é afetado: equipes que treinam robôs ou sistemas de condução autônoma e precisam de dados sintéticos de câmera e LiDAR."
+      ]
+    }
   ],
   "image": {
     "query": "autonomous vehicle lidar camera simulation robotics",
-    "alt": "Carro autônomo com sensores de câmera e LiDAR representando simulação de direção por inteligência artificial"
+    "alt": "Carro autônomo com sensores de câmera e LiDAR representando simulação de direção por inteligência artificial",
+    "path": "/assets/img/nvidia-lanca-modelos-abertos-cosmos-3-si-c57f0747.jpg",
+    "credit": "Timo Wielink / Unsplash",
+    "author": "Timo Wielink",
+    "author_url": "https://unsplash.com/@timowielink?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-car-that-is-sitting-in-the-street-KLAnz8wGO1E"
   },
   "sources": [
-    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation", "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"}
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-09T10:51:41+00:00",
+  "updated_at": "2026-11-09T10:51:41+00:00"
 }

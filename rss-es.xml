@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 08 Nov 2026 21:54:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 10:51:43 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>El Congreso de EEUU pide reunión reservada con el CEO de Nvidia</title>
+      <link>https://cortexplor.com/es/congreso-de-eeuu-cita-al-ceo-de-nvidia-tras-escandalo/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/congreso-de-eeuu-cita-al-ceo-de-nvidia-tras-escandalo/</guid>
+      <description>Legisladores de EEUU pidieron al CEO de Nvidia una reunión reservada sobre seguridad tras el caso de la presunta espía china, según CNBC y SiliconANGLE.</description>
+      <category>Regulación</category>
+      <pubDate>Mon, 09 Nov 2026 10:51:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia lanza cuatro modelos abiertos para simular mundos y vías</title>
+      <link>https://cortexplor.com/es/nvidia-lanza-modelos-abiertos-cosmos-3-simulacion/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/nvidia-lanza-modelos-abiertos-cosmos-3-simulacion/</guid>
+      <description>Nvidia lanzó cuatro checkpoints abiertos de Cosmos 3, de 16.000 millones de parámetros, para simular escenas de robótica y conducción autónoma con cámaras.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Mon, 09 Nov 2026 10:51:41 +0000</pubDate>
+    </item>
     <item>
       <title>Nvidia abre investigación interna tras denuncias de espionaje chino</title>
       <link>https://cortexplor.com/es/nvidia-investigacion-jensen-huang-espionaje-chino/</link>
@@ -230,22 +246,6 @@
       <description>Una jueza de EE.UU. rechazó el pedido de xAI para desestimar la demanda de la NAACP sobre turbinas de gas sin permiso en Colossus, cerca de Memphis, EE.UU.</description>
       <category>Regulación</category>
       <pubDate>Sun, 01 Nov 2026 15:48:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mistral libera los pesos de Large 4, de 1 billón de parámetros</title>
-      <link>https://cortexplor.com/es/mistral-lanza-pesos-abiertos-large-4/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/mistral-lanza-pesos-abiertos-large-4/</guid>
-      <description>Mistral libera los pesos abiertos de su nuevo Large 4, modelo multimodal de 1 billón de parámetros, con mejoras en código, según la empresa y Hugging Face.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Sun, 01 Nov 2026 10:54:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>El satélite del Proyecto Suncatcher de Google entra en órbita</title>
-      <link>https://cortexplor.com/es/satelite-suncatcher-google-entra-en-orbita/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/satelite-suncatcher-google-entra-en-orbita/</guid>
-      <description>El satélite del Proyecto Suncatcher de Google ya está en órbita y generó su primer haiku con el modelo Gemma 4 de Google, según TechCrunch y The Verge.</description>
-      <category>Mercado de IA</category>
-      <pubDate>Sun, 01 Nov 2026 10:54:19 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,33 +7,101 @@
   "meta_description": "Legisladores de EEUU pidieron al CEO de Nvidia una reunión reservada sobre seguridad tras el caso de la presunta espía china, según CNBC y SiliconANGLE.",
   "keyword": "Congreso Jensen Huang Nvidia espionaje",
   "category": "politica",
-  "tags": ["ia", "nvidia", "política", "regulación", "seguridad"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "política",
+    "regulación",
+    "seguridad"
+  ],
   "body": [
-    {"type": "p", "text": "Legisladores republicanos del Congreso de Estados Unidos pidieron al CEO de Nvidia, Jensen Huang, que participe en una reunión reservada para explicar los protocolos de la empresa contra el espionaje extranjero, según CNBC y SiliconANGLE. Una reunión reservada es una sesión privada con legisladores, distinta de una audiencia pública, que permite discutir asuntos sensibles de seguridad nacional fuera del registro público.", "items": []},
-    {"type": "p", "text": "La petición llega después de que la junta directiva de Nvidia abriera una investigación independiente sobre la relación de Huang con Alice Huang, ejecutiva de una empresa de centros de datos de Singapur que, según agencias de inteligencia estadounidenses, pasaba información a Pekín. Huang reconoció la relación extramatrimonial en un mensaje enviado a los empleados de la empresa el fin de semana pasado.", "items": []},
-    {"type": "h2", "text": "Por qué se involucró el Congreso", "items": []},
-    {"type": "p", "text": "Según SiliconANGLE, la petición de testimonio partió de un comité de mayoría republicana centrado en política exterior e inteligencia, y se enfoca en los procedimientos de Nvidia para evitar el espionaje de adversarios extranjeros. CNBC confirma que legisladores republicanos enviaron una carta a Huang pidiéndole asistir a una reunión cerrada con el Congreso; ambas fuentes no coinciden en la fecha exacta del encuentro.", "items": []},
-    {"type": "p", "text": "El interés del Congreso se explica por el papel de Nvidia en la disputa comercial entre Estados Unidos y China: los chips más avanzados de la empresa tienen restringida su exportación al mercado chino por decisión del gobierno estadounidense, que considera la tecnología clave para la seguridad nacional. Huang también mantiene cercanía con el gobierno de Donald Trump y defendió públicamente ampliar las exportaciones de chips a China, según CNBC.", "items": []},
-    {"type": "p", "text": "La junta de Nvidia afirmó que no tiene indicios de que se hayan comprometido secretos de la empresa ni información sensible para la seguridad nacional, pero dijo que examinará toda la información disponible sobre el caso, según un comunicado citado por CNBC y SiliconANGLE. Huang afirmó que \"apoya totalmente la revisión y se ha comprometido a cooperar con ella\", y la junta dijo mantener su confianza en él y en su equipo directivo, según declaraciones citadas por CNBC, TechCrunch y SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Lo que ya pesaba sobre Megaspeed", "items": []},
-    {"type": "p", "text": "Antes del episodio personal, Megaspeed, la empresa de centros de datos de Singapur vinculada a Alice Huang, ya estaba bajo investigación del gobierno de Estados Unidos por sospechas de ayudar a empresas chinas a evadir los controles de exportación y obtener chips avanzados de Nvidia, según TechCrunch, The Verge y SiliconANGLE. La propia Nvidia ya había dicho que los contactos entre Huang y la ejecutiva no eran inusuales y que Megaspeed ya había sido investigada por evadir controles de exportación, según TechCrunch.", "items": []},
-    {"type": "p", "text": "La disputa en torno a los chips de Nvidia atraviesa dos gobiernos estadounidenses: tanto la administración de Joe Biden como la de Donald Trump restringieron la venta de los procesadores más avanzados de la empresa a China. El gobierno de Trump relajó parte de esas restricciones, pero sigue prohibiendo la venta de los chips más potentes a empresas chinas, según CNBC y The Verge.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "A quién afecta: Jensen Huang, Nvidia e inversores que siguen la disputa de chips entre EEUU y China.",
-      "Qué cambia respecto a antes: a la investigación interna abierta por la junta de Nvidia se suma ahora una petición formal de legisladores republicanos para interrogar a Huang en una sesión reservada del Congreso.",
-      "Cuándo: las fuentes no coinciden en una fecha única para la reunión reservada con los legisladores.",
-      "Qué está bajo revisión: los protocolos de Nvidia contra el espionaje de adversarios extranjeros, según SiliconANGLE.",
-      "Contexto previo: Megaspeed, la empresa vinculada a Alice Huang, ya era investigada en EEUU por presunta evasión de controles de exportación de chips."
-    ]}
+    {
+      "type": "p",
+      "text": "Legisladores republicanos del Congreso de Estados Unidos pidieron al CEO de Nvidia, Jensen Huang, que participe en una reunión reservada para explicar los protocolos de la empresa contra el espionaje extranjero, según CNBC y SiliconANGLE. Una reunión reservada es una sesión privada con legisladores, distinta de una audiencia pública, que permite discutir asuntos sensibles de seguridad nacional fuera del registro público.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La petición llega después de que la junta directiva de Nvidia abriera una investigación independiente sobre la relación de Huang con Alice Huang, ejecutiva de una empresa de centros de datos de Singapur que, según agencias de inteligencia estadounidenses, pasaba información a Pekín. Huang reconoció la relación extramatrimonial en un mensaje enviado a los empleados de la empresa el fin de semana pasado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por qué se involucró el Congreso",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según SiliconANGLE, la petición de testimonio partió de un comité de mayoría republicana centrado en política exterior e inteligencia, y se enfoca en los procedimientos de Nvidia para evitar el espionaje de adversarios extranjeros. CNBC confirma que legisladores republicanos enviaron una carta a Huang pidiéndole asistir a una reunión cerrada con el Congreso; ambas fuentes no coinciden en la fecha exacta del encuentro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El interés del Congreso se explica por el papel de Nvidia en la disputa comercial entre Estados Unidos y China: los chips más avanzados de la empresa tienen restringida su exportación al mercado chino por decisión del gobierno estadounidense, que considera la tecnología clave para la seguridad nacional. Huang también mantiene cercanía con el gobierno de Donald Trump y defendió públicamente ampliar las exportaciones de chips a China, según CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La junta de Nvidia afirmó que no tiene indicios de que se hayan comprometido secretos de la empresa ni información sensible para la seguridad nacional, pero dijo que examinará toda la información disponible sobre el caso, según un comunicado citado por CNBC y SiliconANGLE. Huang afirmó que \"apoya totalmente la revisión y se ha comprometido a cooperar con ella\", y la junta dijo mantener su confianza en él y en su equipo directivo, según declaraciones citadas por CNBC, TechCrunch y SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Lo que ya pesaba sobre Megaspeed",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Antes del episodio personal, Megaspeed, la empresa de centros de datos de Singapur vinculada a Alice Huang, ya estaba bajo investigación del gobierno de Estados Unidos por sospechas de ayudar a empresas chinas a evadir los controles de exportación y obtener chips avanzados de Nvidia, según TechCrunch, The Verge y SiliconANGLE. La propia Nvidia ya había dicho que los contactos entre Huang y la ejecutiva no eran inusuales y que Megaspeed ya había sido investigada por evadir controles de exportación, según TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La disputa en torno a los chips de Nvidia atraviesa dos gobiernos estadounidenses: tanto la administración de Joe Biden como la de Donald Trump restringieron la venta de los procesadores más avanzados de la empresa a China. El gobierno de Trump relajó parte de esas restricciones, pero sigue prohibiendo la venta de los chips más potentes a empresas chinas, según CNBC y The Verge.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "A quién afecta: Jensen Huang, Nvidia e inversores que siguen la disputa de chips entre EEUU y China.",
+        "Qué cambia respecto a antes: a la investigación interna abierta por la junta de Nvidia se suma ahora una petición formal de legisladores republicanos para interrogar a Huang en una sesión reservada del Congreso.",
+        "Cuándo: las fuentes no coinciden en una fecha única para la reunión reservada con los legisladores.",
+        "Qué está bajo revisión: los protocolos de Nvidia contra el espionaje de adversarios extranjeros, según SiliconANGLE.",
+        "Contexto previo: Megaspeed, la empresa vinculada a Alice Huang, ya era investigada en EEUU por presunta evasión de controles de exportación de chips."
+      ]
+    }
   ],
   "image": {
     "query": "US Congress capitol building hearing technology",
-    "alt": "Edificio del Capitolio de Estados Unidos, sede del Congreso, en referencia a la petición de reunión reservada"
+    "alt": "Edificio del Capitolio de Estados Unidos, sede del Congreso, en referencia a la petición de reunión reservada",
+    "path": "/assets/img/congreso-de-eeuu-cita-al-ceo-de-nvidia-t-5238116b.jpg",
+    "credit": "Caleb Fisher / Unsplash",
+    "author": "Caleb Fisher",
+    "author_url": "https://unsplash.com/@calebjamesfisher?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/architectural-photo-of-a-beige-mansion-pR14mwWMFv4"
   },
   "sources": [
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html", "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/08/nvidia-ceo-jensen-huang-admits-to-having-extramarital-affair-with-suspected-chinese-spy/", "title": "Nvidia CEO Jensen Huang admits to having extramarital affair with suspected Chinese spy"}
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/08/nvidia-ceo-jensen-huang-admits-to-having-extramarital-affair-with-suspected-chinese-spy/",
+      "title": "Nvidia CEO Jensen Huang admits to having extramarital affair with suspected Chinese spy"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-09T10:51:41+00:00",
+  "updated_at": "2026-11-09T10:51:41+00:00"
 }
