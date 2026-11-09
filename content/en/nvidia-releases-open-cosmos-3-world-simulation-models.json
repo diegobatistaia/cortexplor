@@ -1,0 +1,112 @@
+{
+  "lang": "en",
+  "slug": "nvidia-releases-open-cosmos-3-world-simulation-models",
+  "story_id": "10ca943506873bbf",
+  "title": "Nvidia releases four open models for robotics and driving sims",
+  "dek": "The Cosmos 3 checkpoints generate synchronized video and LiDAR data to train robots and self-driving systems, the company says.",
+  "meta_description": "Nvidia released four open-weight Cosmos 3 checkpoints, 16 billion parameters each, built to simulate robotics and autonomous-driving scenes with cameras.",
+  "keyword": "Nvidia Cosmos 3 open models",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "nvidia",
+    "models",
+    "open source",
+    "robotics"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Nvidia released four new open-weight checkpoints for its Cosmos 3 model family, built to simulate robotics and autonomous-driving scenes across multiple cameras and sensors, according to a post the company published on Hugging Face.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "All four models are post-trained versions of Cosmos 3 Nano, with 16 billion parameters each, and are licensed under OpenMDW1.1, which permits both commercial and non-commercial use, Nvidia said.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the models work",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The first, Cosmos3-Nano-Transfer-Auto, generates synthetic driving data offline: it produces synchronized video across up to 11 camera views, including fisheye lenses, plus LiDAR point clouds (laser sensor data that maps distance and shape) aligned to those images. Scene layout and traffic are set through a control called the World Scenario Map (WSM), which describes road structure and vehicle behavior, while text prompts guide the visual appearance, according to Nvidia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The second, Cosmos3-Nano-Sim-Auto, is a streaming variant of Transfer-Auto distilled to run with far fewer computing steps: it generates small successive chunks of synchronized video and LiDAR using a few denoising steps (removing generated noise to sharpen the output), drawing on prior generated history and updated driving controls. Nvidia says this lets researchers run longer, interactive simulations, though closing the loop still requires a separate simulation runtime and WSM renderer. According to the company, a scene's visual appearance and its underlying geometry need to stay consistent with each other in driving simulations, which is why the models generate camera and LiDAR data in sync, tying the observed image to the 3D reading of the environment that LiDAR provides.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the models are for",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia describes two main use cases. In robotics, a variant called Sim-Bimanual predicts the visual consequences of an action, while Sim-Transfer turns a physics simulator's controls into AI-generated observations. In autonomous driving, scene and traffic-signal controls let researchers vary road layouts and signal states to test how a driving policy responds to each scenario, the company said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says the goal is to give researchers and developers an open foundation they can adapt to their own camera and sensor setups, compare methods against each other, and contribute improvements back. The company acknowledges it still needs to measure how well the models actually support training and evaluating robotics and driving policies, and where they currently fall short.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Adapting the model to a different robot or vehicle",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia describes Transfer-Auto as a base model teams can also use with different camera and LiDAR setups: a team can post-train it on its own data to match the sensor layout of a specific robot or vehicle. Once adapted, that version can either generate data offline or go through causal training and few-step distillation to become a fast streaming variant, the same path Nvidia used to turn Transfer-Auto into Sim-Auto, the company said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says robotics needs simulation environments that can respond across constantly changing scenes and viewpoints, and frames the two models as complementary ways to build them: one focused on generating observations from a physics simulator's controls, the other on predicting the visual consequences of an action. Alongside the checkpoints, the company published an open \"skill\" that lets coding agents run inference directly with Cosmos3-Nano-Transfer-Auto, along with the technical report and demo videos on Hugging Face.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: robotics and autonomous-driving researchers and developers, under a license covering commercial and non-commercial use.",
+        "Where: checkpoint downloads, a technical report and demos are on Hugging Face, according to Nvidia.",
+        "Since when: available as of the company's announcement.",
+        "Cost: open weights, no licensing fee, according to Nvidia.",
+        "Who is affected: teams training robots or self-driving systems that need synthetic camera and LiDAR data."
+      ]
+    }
+  ],
+  "image": {
+    "query": "autonomous vehicle lidar camera simulation robotics",
+    "alt": "Self-driving car with camera and LiDAR sensors representing AI-driven simulation of road scenes",
+    "path": "/assets/img/nvidia-releases-open-cosmos-3-world-simu-c57f0747.jpg",
+    "credit": "Timo Wielink / Unsplash",
+    "author": "Timo Wielink",
+    "author_url": "https://unsplash.com/@timowielink?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-car-that-is-sitting-in-the-street-KLAnz8wGO1E"
+  },
+  "sources": [
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-09T10:51:41+00:00",
+  "updated_at": "2026-11-09T10:51:41+00:00"
+}

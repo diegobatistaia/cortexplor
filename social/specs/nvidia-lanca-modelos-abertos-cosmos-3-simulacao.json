@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-lanca-modelos-abertos-cosmos-3-simulacao",
+  "lang": "pt",
+  "date": "09 nov 2026",
+  "no": 97,
+  "category": "Modelos",
+  "kicker": "Modelos · Nvidia",
+  "headline": "Nvidia lança modelos abertos Cosmos 3 para simular mundos",
+  "headline_hl": "Cosmos 3",
+  "dek": "Os modelos simulam robótica e direção autônoma, segundo a Nvidia.",
+  "image": {
+    "path": "assets/img/nvidia-lanca-modelos-abertos-cosmos-3-si-c57f0747.jpg",
+    "credit": "Timo Wielink / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Pesos<br>abertos",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Cosmos 3",
+    "body": [
+      "A Nvidia lançou novos modelos de peso aberto da família Cosmos 3 para simular cenas de robótica e direção autônoma, segundo o Hugging Face.",
+      "São versões do Cosmos 3 Nano, com 16 bilhões de parâmetros cada (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Nvidia no Hugging Face:",
+    "points": [
+      {
+        "h": "Câmeras",
+        "t": "Vídeo em até 11 câmeras (Hugging Face)."
+      },
+      {
+        "h": "LiDAR",
+        "t": "Cria nuvens de pontos alinhadas às imagens."
+      },
+      {
+        "h": "Tempo real",
+        "t": "Uma variante gera trechos em sequência."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Para que servem",
+    "body": [
+      "Na robótica, uma variante prevê o resultado visual de uma ação, segundo a Nvidia (Hugging Face).",
+      "Na direção autônoma, varia ruas e semáforos para testar políticas."
+    ],
+    "stat": {
+      "big": "16 bi",
+      "cap": "parâmetros por modelo, diz a Nvidia"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Licença",
+        "t": "Uso comercial e não comercial (Hugging Face)."
+      },
+      {
+        "h": "Ajuste",
+        "t": "Equipes podem treinar com seus próprios sensores (Hugging Face)."
+      },
+      {
+        "h": "Limite",
+        "t": "Falta medir onde os modelos ainda falham (Hugging Face)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Nvidia lançou modelos abertos Cosmos 3 para simular robótica e direção autônoma.",
+    "body": [
+      "Segundo a Nvidia, no Hugging Face, os modelos são versões do Cosmos 3 Nano, com 16 bilhões de parâmetros cada, e podem ser usados em projetos comerciais ou não comerciais. O Transfer-Auto gera vídeo sincronizado em até 11 câmeras, além de nuvens de pontos de LiDAR, o sensor a laser que mede distância e forma.",
+      "O Sim-Auto é uma variante para tempo real, que gera trechos de vídeo em sequência para simulações interativas. Na robótica, outra variante prevê o resultado visual de uma ação. A empresa reconhece que ainda falta medir até onde os modelos sustentam o treino de robôs e veículos autônomos."
+    ],
+    "cta_variant": "A",
+    "cta": "Você treinaria um robô com dados gerados por IA?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#cosmos3",
+      "#robotica"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre os modelos abertos Cosmos 3 da Nvidia para simular mundos",
+    "Slide 2: modelos de peso aberto para robótica e direção autônoma",
+    "Slide 3: vídeo em 11 câmeras, nuvens de LiDAR e geração em tempo real",
+    "Slide 4: usos em robótica e direção autônoma, com 16 bilhões de parâmetros",
+    "Slide 5: licença aberta, ajuste a sensores próprios e limites ainda por medir",
+    "Slide 6: fonte da matéria sobre o Cosmos 3 da Nvidia: Hugging Face"
+  ]
+}

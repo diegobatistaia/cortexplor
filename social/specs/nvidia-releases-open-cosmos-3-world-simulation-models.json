@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-releases-open-cosmos-3-world-simulation-models",
+  "lang": "en",
+  "date": "09 Nov 2026",
+  "no": 93,
+  "category": "Models",
+  "kicker": "Models · Nvidia",
+  "headline": "Nvidia releases open Cosmos 3 models to simulate worlds",
+  "headline_hl": "Cosmos 3",
+  "dek": "The models simulate robotics and driving, per Nvidia.",
+  "image": {
+    "path": "assets/img/nvidia-releases-open-cosmos-3-world-simu-c57f0747.jpg",
+    "credit": "Timo Wielink / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Open<br>weights",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Cosmos 3",
+    "body": [
+      "Nvidia released new open-weight models in its Cosmos 3 family to simulate robotics and driving scenes, per Hugging Face.",
+      "They are versions of Cosmos 3 Nano, with 16 billion parameters each (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Nvidia on Hugging Face:",
+    "points": [
+      {
+        "h": "Cameras",
+        "t": "Video across up to 11 cameras (Hugging Face)."
+      },
+      {
+        "h": "LiDAR",
+        "t": "Creates point clouds aligned to the images."
+      },
+      {
+        "h": "Real time",
+        "t": "One variant generates chunks in sequence."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "What they are for",
+    "body": [
+      "In robotics, one variant predicts the visual result of an action, per Nvidia (Hugging Face).",
+      "In driving, it varies roads and signals to test policies."
+    ],
+    "stat": {
+      "big": "16B",
+      "cap": "parameters per model, says Nvidia"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "License",
+        "t": "Commercial and non-commercial use (Hugging Face)."
+      },
+      {
+        "h": "Tuning",
+        "t": "Teams can train on their own sensor setups (Hugging Face)."
+      },
+      {
+        "h": "Limits",
+        "t": "Where the models fall short is still unmeasured (Hugging Face)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia released open Cosmos 3 models to simulate robotics and driving scenes.",
+    "body": [
+      "Per Nvidia on Hugging Face, the models are versions of Cosmos 3 Nano, with 16 billion parameters each, and can be used in commercial or non-commercial projects. Transfer-Auto makes synchronized video across up to 11 cameras, plus LiDAR point clouds, the laser sensor data that maps distance and shape.",
+      "Sim-Auto is a real-time variant that generates video chunks in sequence for interactive simulations. In robotics, another variant predicts the visual result of an action. The company admits it still needs to measure how far the models can support training for robots and self-driving vehicles."
+    ],
+    "cta_variant": "A",
+    "cta": "Would you train a robot on AI-generated data?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#cosmos3",
+      "#robotics"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Nvidia's open Cosmos 3 models that simulate worlds",
+    "Slide 2: open-weight models for robotics and autonomous driving",
+    "Slide 3: video across 11 cameras, LiDAR clouds and real-time generation",
+    "Slide 4: robotics and driving uses, with 16 billion parameters",
+    "Slide 5: open license, tuning to own sensors and limits still unmeasured",
+    "Slide 6: source for the Nvidia Cosmos 3 story: Hugging Face"
+  ]
+}
