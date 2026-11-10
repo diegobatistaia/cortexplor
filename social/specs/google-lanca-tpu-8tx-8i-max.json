@@ -1,0 +1,101 @@
+{
+  "slug": "google-lanca-tpu-8tx-8i-max",
+  "lang": "pt",
+  "date": "10 nov 2026",
+  "no": 100,
+  "category": "Modelos",
+  "kicker": "Modelos · Google",
+  "headline": "Google lança chips TPU 8tx e 8i Max para agentes de IA",
+  "headline_hl": "TPU 8tx e 8i Max",
+  "dek": "Os chips dobram capacidade e reforçam a segurança, segundo a Canaltech.",
+  "image": {
+    "path": "assets/img/google-lanca-tpu-8tx-8i-max-ab6de64c.jpg",
+    "credit": "Adrien / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Chips<br>para agentes",
+  "sources": [
+    "Canaltech",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Dois novos chips",
+    "body": [
+      "O Google Cloud anunciou os chips de IA TPU 8tx e TPU 8i Max, segundo a Canaltech e a Tecmundo.",
+      "Eles ampliam a linha de TPUs de oitava geração, apresentada em abril."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "TPU 8tx",
+    "body": "Segundo a Tecmundo e a Canaltech:",
+    "points": [
+      {
+        "h": "Segurança",
+        "t": "Protege dados e pesos dos modelos no próprio hardware."
+      },
+      {
+        "h": "CPU",
+        "t": "Usa hosts de CPU personalizados da AMD (Canaltech)."
+      },
+      {
+        "h": "Latência",
+        "t": "É duas vezes menor que a do TPU 8t (Tecmundo)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "TPU 8i Max",
+    "body": [
+      "O chip foi criado para eliminar gargalos de memória em agentes de IA, segundo a Canaltech e a Tecmundo.",
+      "Ele dobra a capacidade computacional, a SRAM e a banda de memória do TPU 8i (Tecmundo)."
+    ],
+    "stat": {
+      "big": "Dobro",
+      "cap": "de capacidade sobre o TPU 8i, diz a Tecmundo"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Clientes",
+        "t": "Cerca de 100 clientes já usam TPUs do Google (Tecmundo)."
+      },
+      {
+        "h": "Preço",
+        "t": "As fontes não informaram preço (Canaltech)."
+      },
+      {
+        "h": "Data",
+        "t": "Não há data de disponibilidade geral (Tecmundo)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Google lançou o TPU 8tx e o TPU 8i Max, novos chips para a era dos agentes de IA.",
+    "body": [
+      "Segundo a Canaltech e a Tecmundo, o TPU 8tx foi projetado para manter dados sensíveis e pesos de modelos isolados mesmo durante o uso, com segurança no hardware. Ele usa hosts de CPU personalizados da AMD e tem latência duas vezes menor que a do TPU 8t.",
+      "O TPU 8i Max foi criado para eliminar gargalos de memória em agentes de IA e dobra a capacidade computacional, a SRAM e a banda de memória do TPU 8i. A Tecmundo informa que cerca de 100 clientes já usam TPUs do Google. As fontes não informaram preço nem data de disponibilidade geral para os novos chips."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#tpu",
+      "#agentesdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o TPU 8tx e o TPU 8i Max, chips do Google Cloud",
+    "Slide 2: dois novos chips ampliam a linha de TPUs de oitava geração",
+    "Slide 3: TPU 8tx com segurança no hardware e latência menor",
+    "Slide 4: TPU 8i Max dobra capacidade e memória para agentes de IA",
+    "Slide 5: cerca de 100 clientes, sem preço nem data de disponibilidade",
+    "Slide 6: fontes da matéria sobre os chips TPU do Google: Canaltech e Tecmundo"
+  ]
+}

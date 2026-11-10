@@ -1,0 +1,144 @@
+{
+  "lang": "en",
+  "slug": "anthropic-launches-fable-mythos-5-2",
+  "story_id": "38b1e2548ec458ed",
+  "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2, Cuts Price",
+  "dek": "The new models cost 20% less than OpenAI's GPT-6 Astra and are live today on AWS, Google Cloud and Azure, according to Anthropic and Fortune.",
+  "meta_description": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on Monday, pricing them 20% below OpenAI's GPT-6 Astra, according to the company and Fortune magazine.",
+  "keyword": "Claude Fable 5.2",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "models"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on Monday, the company's newest flagship models, according to a post on AWS's blog. Fable 5.2 is generally available for coding, math and science work; Mythos 5.2 remains limited to vetted partners in Anthropic's cybersecurity and life sciences verification programs.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The launch positions Anthropic directly against OpenAI's GPT-6 Astra, released in September. Fable 5.2 and Mythos 5.2 cost $8 per million input tokens and $40 per million output tokens — tokens being the text units an AI model reads and generates — 20% less than Astra's $10 and $50 for the same categories, according to Fortune, TechCrunch and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Faster than the previous generation",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fable 5.2 answers up to 30% faster than Fable 5.1, released in September, according to TechCrunch and Brazilian outlet Tecmundo. Anthropic also offers an optional \"Fast\" mode that speeds up responses 2.5 times for double the price, Tecmundo and SiliconANGLE reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch and SiliconANGLE both say the $8 per million input tokens for Fable 5.2 marks a cut from the previous generation's $10 rate — the same kind of price drop Cortexplor <a href=\"https://cortexplor.com/en/anthropic-claude-fable-5-1-cuts-cache-price/\">covered in September</a>, when Anthropic slashed its cache pricing by 75% at the launch of Fable 5.1.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Math and physics claims",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Anthropic, during pre-release testing Fable 5.2 coordinated 1,000 smaller AI agents to formalize — translate into a format a computer can verify step by step — a proof of Fermat's Last Theorem in 30 hours, down from 11 days with an earlier, unreleased version of the model. The company also says the new models solved two open theoretical physics problems related to black holes, according to Fortune, TechCrunch, SiliconANGLE and The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tecmundo and SiliconANGLE also report that Anthropic used Fable 5.2 to orchestrate 1,000 agents over roughly eight days to build a working operating system prototype, with its own kernel and window management support, able to run on an ordinary laptop.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Where it's available",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fable 5.2 is live today on Claude Platform on AWS, Amazon Bedrock, Google Cloud and Microsoft Azure, according to AWS, Fortune and Tecmundo. Mythos 5.2 stays restricted to Anthropic's verification program participants, with added access for Claude Enterprise customers through Claude Security. For everyday tasks, Anthropic itself recommends Claude Opus 5.5, reserving the new models for the toughest, longest-running technical work.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Fortune notes the launch lands at a moment when professionals and companies switch models easily once cost outweighs performance differences, making price a deciding factor in the fight between Anthropic and OpenAI for the same corporate customers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AWS says teams already running Claude on Amazon Bedrock can use an open-source tool called the claude-api skill, built into Claude Code, to migrate their code to Fable 5.2. According to AWS, the tool reviews a codebase, detects which cloud platform it runs on and adjusts model identifiers and configuration automatically, and it is also bundled into third-party tools including CodeRabbit and JetBrains IDEs.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: any customer can reach Fable 5.2 through Claude Platform on AWS, Amazon Bedrock, Google Cloud or Microsoft Azure; Mythos 5.2 is limited to Anthropic's verification program participants and Claude Enterprise customers.",
+        "Since when: available starting Monday, November 9, according to AWS.",
+        "What it costs: $8 per million input tokens and $40 per million output tokens, with an optional \"Fast\" mode at double the price, according to Fortune and Tecmundo.",
+        "What changed: 20% cheaper than OpenAI's GPT-6 Astra, and a drop from $10 to $8 per million input tokens compared with the 5.1 generation, according to TechCrunch and SiliconANGLE."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract AI neural network code on screen",
+    "alt": "Computer screen showing code and abstract patterns representing an artificial intelligence model",
+    "path": "/assets/img/anthropic-launches-fable-mythos-5-2-0897ad50.jpg",
+    "credit": "Nicolas Arnold / Unsplash",
+    "author": "Nicolas Arnold",
+    "author_url": "https://unsplash.com/@nicolasarnold?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-a-map-of-the-world-on-it-s3-2wPcP72s"
+  },
+  "sources": [
+    {
+      "name": "AWS Machine Learning Blog",
+      "owner": "amazon",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+      "title": "Introducing Claude Fable 5.2 on AWS"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/11/09/anthropic-debuts-updated-claude-fable-and-mythos-models-undercutting-price-of-openais-gpt-6-astra-by-up-to-80/",
+      "title": "Anthropic debuts Claude Fable, Mythos 5.2 models, priced 20% below OpenAI's GPT-6 Astra"
+    },
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/09/anthropic-launches-fable-5-2-and-mythos-5-2-with-science-coding-upgrades/",
+      "title": "Anthropic launches Fable 5.2 and Mythos 5.2 with science, coding upgrades"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/produto-e-review/anthropic-lanca-claude-mythos-52-e-fable-52-novas-versoes-de-sua-ia-superpoderosa/",
+      "title": "Anthropic lança Claude Mythos 5.2 e Fable 5.2, novas versões de sua IA 'superpoderosa'"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-10T10:53:59+00:00",
+  "updated_at": "2026-11-10T10:53:59+00:00"
+}

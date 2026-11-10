@@ -1,0 +1,101 @@
+{
+  "slug": "google-launches-tpu-8tx-8i-max",
+  "lang": "en",
+  "date": "10 Nov 2026",
+  "no": 97,
+  "category": "Models",
+  "kicker": "Models · Google",
+  "headline": "Google launches TPU 8tx and 8i Max chips for AI agents",
+  "headline_hl": "TPU 8tx and 8i Max",
+  "dek": "The chips double capacity and add security, per Canaltech.",
+  "image": {
+    "path": "assets/img/google-launches-tpu-8tx-8i-max-ab6de64c.jpg",
+    "credit": "Adrien / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Chips for<br>agents",
+  "sources": [
+    "Canaltech",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Two new chips",
+    "body": [
+      "Google Cloud announced the TPU 8tx and TPU 8i Max AI chips, per Canaltech and Tecmundo.",
+      "They extend the 8th-generation TPU line unveiled in April (Tecmundo)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "TPU 8tx",
+    "body": "Per Tecmundo and Canaltech:",
+    "points": [
+      {
+        "h": "Security",
+        "t": "Protects data and model weights in the hardware."
+      },
+      {
+        "h": "CPU",
+        "t": "Uses custom AMD CPU hosts (Canaltech)."
+      },
+      {
+        "h": "Latency",
+        "t": "Half the latency of the TPU 8t (Tecmundo)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "TPU 8i Max",
+    "body": [
+      "The chip was built to remove memory bottlenecks in AI agents, per Canaltech and Tecmundo.",
+      "It doubles the compute, SRAM and memory bandwidth of the TPU 8i (Tecmundo)."
+    ],
+    "stat": {
+      "big": "Double",
+      "cap": "the capacity of the TPU 8i, says Tecmundo"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Customers",
+        "t": "About 100 customers already use Google TPUs (Tecmundo)."
+      },
+      {
+        "h": "Price",
+        "t": "The sources gave no pricing (Canaltech)."
+      },
+      {
+        "h": "Date",
+        "t": "No general availability date (Tecmundo)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google launched the TPU 8tx and TPU 8i Max, new chips for the era of AI agents.",
+    "body": [
+      "Per Canaltech and Tecmundo, the TPU 8tx was designed to keep sensitive data and model weights isolated even during use, with security built into the hardware. It uses custom AMD CPU hosts and has half the latency of the TPU 8t.",
+      "The TPU 8i Max was built to remove memory bottlenecks in AI agents and doubles the compute, SRAM and memory bandwidth of the TPU 8i. Tecmundo reports that about 100 customers already use Google TPUs. The sources gave no pricing or general availability date for the new chips."
+    ],
+    "cta_variant": "A",
+    "cta": "Will custom chips decide the AI agent race?",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#tpu",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about the TPU 8tx and TPU 8i Max, chips from Google Cloud",
+    "Slide 2: two new chips extend the 8th-generation TPU line",
+    "Slide 3: TPU 8tx with hardware security and lower latency",
+    "Slide 4: TPU 8i Max doubles capacity and memory for AI agents",
+    "Slide 5: about 100 customers, with no pricing or availability date",
+    "Slide 6: sources for the Google TPU chip story: Canaltech and Tecmundo"
+  ]
+}

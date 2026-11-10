@@ -1,0 +1,105 @@
+{
+  "slug": "anthropic-lanca-fable-mythos-5-2",
+  "lang": "pt",
+  "date": "10 nov 2026",
+  "no": 99,
+  "category": "Modelos",
+  "kicker": "Modelos · Anthropic",
+  "headline": "Anthropic lança Claude Fable 5.2 e Mythos 5.2 mais baratos",
+  "headline_hl": "mais baratos",
+  "dek": "Os novos modelos custam 20% menos que o GPT-6 Astra, segundo a Fortune.",
+  "image": {
+    "path": "assets/img/anthropic-lanca-fable-mythos-5-2-0897ad50.jpg",
+    "credit": "Nicolas Arnold / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Preço<br>20% menor",
+  "sources": [
+    "AWS Machine Learning Blog",
+    "Fortune",
+    "TechCrunch",
+    "SiliconANGLE",
+    "Tecmundo",
+    "The Verge"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Fable 5.2 e Mythos 5.2",
+    "body": [
+      "A Anthropic lançou o Claude Fable 5.2 e o Mythos 5.2, segundo comunicado no AWS Machine Learning Blog.",
+      "O Fable 5.2 é de uso geral, e o Mythos 5.2 segue restrito a parceiros de verificação."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Quanto custa",
+    "body": "Segundo a Fortune e a TechCrunch:",
+    "points": [
+      {
+        "h": "Entrada",
+        "t": "US$ 8 por milhão de tokens (Fortune)."
+      },
+      {
+        "h": "Saída",
+        "t": "US$ 40 por milhão de tokens (Fortune)."
+      },
+      {
+        "h": "Modo Fast",
+        "t": "Acelera 2,5 vezes pelo dobro do preço (Tecmundo)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Mais barato e rápido",
+    "body": [
+      "O preço é 20% menor que o do GPT-6 Astra, da OpenAI, segundo a Fortune, a TechCrunch e a SiliconANGLE.",
+      "O Fable 5.2 responde até 30% mais rápido que o 5.1 (TechCrunch)."
+    ],
+    "stat": {
+      "big": "20%",
+      "cap": "mais barato que o GPT-6 Astra, diz a Fortune"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "Onde usar",
+    "items": [
+      {
+        "h": "Nuvens",
+        "t": "Está na AWS, no Google Cloud e no Azure (Fortune)."
+      },
+      {
+        "h": "Mythos",
+        "t": "Fica restrito a programas de verificação (AWS Machine Learning Blog)."
+      },
+      {
+        "h": "Dia a dia",
+        "t": "A Anthropic indica o Opus 5.5 para tarefas comuns (Fortune)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Anthropic lançou o Claude Fable 5.2 e o Mythos 5.2, 20% mais baratos que o GPT-6 Astra.",
+    "body": [
+      "Segundo a Fortune e a TechCrunch, os dois modelos custam US$ 8 por milhão de tokens de entrada e US$ 40 por milhão de saída. O Fable 5.2 responde até 30% mais rápido que o 5.1 e tem um modo Fast, que acelera 2,5 vezes pelo dobro do preço. O Mythos 5.2 segue restrito a parceiros de verificação em cibersegurança e ciências da vida.",
+      "O Fable 5.2 já está no Claude Platform on AWS, no Amazon Bedrock, no Google Cloud e no Microsoft Azure. Para o dia a dia, a Anthropic recomenda o Claude Opus 5.5 e reserva os novos modelos para trabalhos técnicos longos. A Fortune lembra que o preço pesa na disputa com a OpenAI."
+    ],
+    "cta_variant": "A",
+    "cta": "O preço decide qual modelo de IA você usa?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#fable52"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Claude Fable 5.2 e o Mythos 5.2, mais baratos, da Anthropic",
+    "Slide 2: Fable 5.2 de uso geral e Mythos 5.2 restrito a parceiros",
+    "Slide 3: preço de entrada, preço de saída e modo Fast do Claude Fable 5.2",
+    "Slide 4: preço 20% menor que o GPT-6 Astra e resposta 30% mais rápida",
+    "Slide 5: disponibilidade nas nuvens, Mythos restrito e Opus 5.5 no dia a dia",
+    "Slide 6: fontes da matéria sobre o Claude Fable 5.2: AWS, Fortune, TechCrunch e outras"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "lang": "pt",
+  "slug": "google-lanca-tpu-8tx-8i-max",
+  "story_id": "8eec88b0f108c945",
+  "title": "Google lança chips TPU 8tx e 8i Max para agentes de IA",
+  "dek": "Os novos aceleradores miram segurança de dados e memória para contextos maiores, segundo a Canaltech e a TecMundo.",
+  "meta_description": "O Google Cloud lançou os chips TPU 8tx e TPU 8i Max, voltados à segurança e ao desempenho de agentes de IA em larga escala, segundo a Canaltech e a TecMundo.",
+  "keyword": "TPU 8tx Google",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "google",
+    "chips",
+    "infraestrutura"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "O Google Cloud anunciou nesta segunda-feira (9) dois novos chips de inteligência artificial, o TPU 8tx e o TPU 8i Max, segundo a Canaltech e a TecMundo. Os componentes ampliam a linha de TPUs de 8ª geração, cujos primeiros modelos, o TPU 8i e o TPU 8t, foram apresentados em abril deste ano.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TPU é a sigla para Tensor Processing Unit (unidade de processamento de tensor, em tradução livre), o chip que o Google desenvolve há anos para treinar e executar modelos de inteligência artificial nos próprios data centers e nos de clientes do Google Cloud, segundo as duas publicações.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Segurança embutida no hardware",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O TPU 8tx foi projetado para manter dados sensíveis e os pesos dos modelos protegidos e isolados mesmo durante o uso ativo, integrando a segurança diretamente na camada de hardware, segundo a TecMundo. O chip usa hosts de CPU personalizados da AMD para garantir o armazenamento seguro das informações, de acordo com a Canaltech, e tem latência duas vezes menor que a do TPU 8t, segundo a TecMundo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Mais memória para agentes em larga escala",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Já o TPU 8i Max foi criado para eliminar gargalos de memória no processamento de agentes de IA, segundo as duas fontes. O chip tem suporte a janelas de contexto massivas — o volume de texto que um modelo consegue considerar de uma só vez — e oferece o dobro da capacidade computacional, da memória SRAM e da banda de memória HBM em relação ao TPU 8i, de acordo com a TecMundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Canaltech acrescenta que o novo componente também aumenta a densidade computacional, ou seja, o poder de processamento disponível por metro quadrado e por watt em um data center, ao acomodar o dobro de silício dentro da mesma estrutura física.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por que agora",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Canaltech, o próprio Google afirma que o salto da escala humana para a escala agêntica exige mais poder computacional, especialmente porque um único bot pode criar fluxos de trabalho complexos e contínuos, em vez de responder a um comando isolado por vez. \"Com a computação migrando da escala humana para a escala de agentes, as empresas estão pedindo aceleradores que possam raciocinar sobre as massivas janelas de contexto dos modelos de IA. Além disso, alguns clientes, altamente regulamentados, estão pedindo recursos de criptografia especializados para cargas de trabalho únicas\", disse Amin Vahdat, diretor de tecnologia e vice-presidente sênior de IA e infraestrutura do Google, em comunicado citado pela Canaltech e pela TecMundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A TecMundo informa que cerca de 100 clientes já usam a tecnologia de TPUs do Google, entre laboratórios de ponta, universidades, varejistas e empresas de negociação, segundo dados divulgados pela própria companhia. A publicação acrescenta que o Google usa os TPUs tanto para treinar seus próprios modelos de IA voltados a cargas de trabalho de agentes quanto para disponibilizá-los a clientes do Google Cloud, que podem acessar os chips remotamente pela nuvem ou implantá-los em seus próprios data centers, conforme a demanda cresce.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nem a Canaltech nem a TecMundo informaram o preço dos novos chips ou uma data de disponibilidade geral para clientes do Google Cloud. As duas publicações também não detalharam se o TPU 8tx e o TPU 8i Max chegarão a outras regiões além das já atendidas pela infraestrutura atual da empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: clientes do Google Cloud, incluindo laboratórios de IA, universidades, varejistas e empresas de negociação — cerca de 100 clientes já usam TPUs do Google, segundo a TecMundo.",
+        "Desde quando: anunciado nesta segunda-feira (9); as fontes não informam uma data de disponibilidade geral.",
+        "O que muda: o TPU 8tx tem latência duas vezes menor que o TPU 8t, de abril, e o TPU 8i Max dobra a capacidade computacional, a memória SRAM e a banda HBM do TPU 8i, segundo a TecMundo.",
+        "Quem é afetado: empresas que rodam agentes de IA em larga escala e clientes regulamentados que exigem criptografia especializada, segundo o Google."
+      ]
+    }
+  ],
+  "image": {
+    "query": "data center server rack blue lights computer chips",
+    "alt": "Corredor de data center com racks de servidores iluminados em azul, usados para processamento de inteligência artificial",
+    "path": "/assets/img/google-lanca-tpu-8tx-8i-max-ab6de64c.jpg",
+    "credit": "Adrien / Unsplash",
+    "author": "Adrien",
+    "author_url": "https://unsplash.com/@add_rien_20?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/blue-light-streaks-in-long-exposure-q-mH2zk9NGc"
+  },
+  "sources": [
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/hardware/google-lanca-novos-chips-de-ia-para-aumentar-seguranca-e-poder-computacional/",
+      "title": "Google lança novos chips de IA para aumentar segurança e poder computacional"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/produto-e-review/google-lanca-novos-tpus-para-otimizar-tarefas-de-agentes-de-ia-e-melhorar-seguranca/",
+      "title": "Google lança novos TPUs para otimizar tarefas de agentes de IA e melhorar segurança"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-10T10:53:59+00:00",
+  "updated_at": "2026-11-10T10:53:59+00:00"
+}
