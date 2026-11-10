@@ -1,0 +1,128 @@
+{
+  "lang": "en",
+  "slug": "google-rolls-out-gemini-4-carbon-public",
+  "story_id": "6eb766304836d04a",
+  "title": "Google Rolls Out Gemini 4 Carbon to the Public, Adds /swarm",
+  "dek": "Google's strongest model drops its cybersecurity-only testing limits and gains a feature that coordinates multiple AI agents at once, according to DeepMind.",
+  "meta_description": "Google rolled out Gemini 4 Carbon to developers and businesses on Tuesday, adding a multi-agent feature and a launch price of $2 per million input tokens.",
+  "keyword": "Gemini 4 Carbon",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "models"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google DeepMind rolled out Gemini 4 Carbon to developers, enterprises and general consumers on Tuesday, according to the company's own announcement. Access had previously been limited to a group of cybersecurity specialists. Carbon is the strongest model Google has released, positioned above Gemini 4 Argon for tasks that push a model's reasoning to its limits, such as multi-step coding and open-ended scientific research, according to DeepMind.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Carbon is available via the API in Google AI Studio and Gemini for Business for all paying developers and enterprises. Google AI Ultra subscribers also gain access through the Gemini app, AI Mode in Search, and the Google Antigravity coding platform, according to DeepMind, The Verge and Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "New feature coordinates multiple agents at once",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind also started testing a /swarm feature in Google Antigravity, which turns a single prompt into a coordinated team of AI agents — smaller programs that each handle a specific task within a larger goal. According to the company and The Verge, each agent can take on a different role, such as architecture, coordination or auditing, while verifier agents check each other's work in parallel.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As an example of the feature, DeepMind showed a team of Carbon agents turning historical photos and engineering plates into an interactive 3D exhibition of the Eiffel Tower's 1887-1889 construction, from a single prompt.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Google claims the model leads three agentic benchmarks",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to DeepMind, Carbon ranks first on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench, at more than twice the cost efficiency of the next-best model on each ranking. The company also says Carbon helped identify zero-day vulnerabilities — security flaws not yet publicly known — in cybersecurity tests, according to DeepMind, Engadget and Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind also says it partnered with evaluation firm Artificial Analysis to launch a new test called the Multimodal Knowledge Agent benchmark, aimed at tasks involving dense documents, charts and tables, where Carbon ranked second at more than six times lower cost per task than the top-performing model. According to Tecmundo, which also cites the company, Carbon scored a 0% attack success rate on the Gray Swan IPI prompt-injection resistance test, a mark DeepMind says it reached for the first time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Carbon's launch price matches Gemini 4 Argon, the previous model in the family: $2 per million input tokens and $10 per million output tokens — tokens being the text units an AI model reads and generates. That price doubles to $4 and $20 per million tokens once the introductory period ends in late November, according to DeepMind, The Verge and Hipertextual.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge calculates that Carbon's launch price is roughly a fifth of what OpenAI charges for GPT-6 Astra, and a quarter of Anthropic's Claude Fable 5.2. The outlet also notes that, for months, frontier AI development had looked like a two-horse race between Anthropic and OpenAI, and frames Carbon's release as part of Google's push back toward the front of that race.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: paying developers and enterprises, via the API in Google AI Studio and Gemini for Business; Google AI Ultra subscribers, in the Gemini app, AI Mode in Search and Google Antigravity, according to DeepMind, The Verge, Engadget and Tecmundo.",
+        "Since when: Tuesday for the general public; since late October for cybersecurity testers in the Fairwind program only.",
+        "Price: $2 per million input tokens and $10 per million output tokens through the end of November; then $4 and $20, according to DeepMind, The Verge and Hipertextual.",
+        "What changed: Carbon previously reached only a restricted group of cybersecurity defenders, as Cortexplor reported in early November. It now reaches any paying business or developer, with the new /swarm feature."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract network of connected nodes representing AI agents working together",
+    "alt": "Abstract illustration of connected nodes representing artificial intelligence agents working together",
+    "path": "/assets/img/google-rolls-out-gemini-4-carbon-public-3cd09e4d.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
+  },
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "title": "Gemini 4 Carbon is now available"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "title": "Google releases Gemini 4 Carbon with agent 'swarm' feature"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
+      "title": "Google's Gemini 4 Carbon is now widely available around the world"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/tecnologia/gemini-4-carbon/",
+      "title": "Google lanza Gemini 4 Carbon para todos: así es su modelo más potente"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/google-libera-gemini-4-carbon-nova-ia-de-ponta-para-usuarios-pagantes/",
+      "title": "Google libera Gemini 4 Carbon, nova IA de ponta para usuários pagantes"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-10T22:03:14+00:00",
+  "updated_at": "2026-11-10T22:03:14+00:00"
+}

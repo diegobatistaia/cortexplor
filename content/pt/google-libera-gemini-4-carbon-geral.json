@@ -1,0 +1,128 @@
+{
+  "lang": "pt",
+  "slug": "google-libera-gemini-4-carbon-geral",
+  "story_id": "6eb766304836d04a",
+  "title": "Google libera Gemini 4 Carbon para uso geral e lança o /swarm",
+  "dek": "O modelo mais forte do Google deixa de ser restrito a testes de cibersegurança e ganha recurso que coordena vários agentes de IA ao mesmo tempo, segundo a DeepMind.",
+  "meta_description": "O Google liberou o Gemini 4 Carbon a desenvolvedores e empresas nesta terça, com recurso que coordena agentes de IA e preço de US$ 2 por milhão de tokens.",
+  "keyword": "Gemini 4 Carbon",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "modelos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "O Google DeepMind liberou nesta terça-feira (10) o Gemini 4 Carbon para desenvolvedores, empresas e consumidores em geral, segundo comunicado da própria empresa. Até então, o acesso ao modelo estava restrito a um grupo de especialistas em cibersegurança.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Carbon está disponível via API no Google AI Studio e no Gemini for Business para todos os desenvolvedores e empresas pagantes. Assinantes do plano Google AI Ultra também passam a ter acesso no aplicativo Gemini, no Modo IA da Busca e na plataforma de programação Google Antigravity, segundo a DeepMind, o The Verge e o Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Recurso novo coordena vários agentes ao mesmo tempo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A DeepMind também começou a testar o recurso /swarm no Google Antigravity, que transforma um único comando em uma equipe coordenada de agentes de inteligência artificial — programas menores que executam tarefas específicas dentro de um objetivo maior. Segundo a empresa e o The Verge, cada agente pode assumir uma função diferente, como arquitetura, coordenação ou auditoria, enquanto agentes verificadores checam o trabalho uns dos outros em paralelo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Como exemplo do recurso, a DeepMind mostrou uma equipe de agentes do Carbon transformando fotos históricas e plantas de engenharia em uma exibição 3D interativa da construção da Torre Eiffel entre 1887 e 1889, a partir de um único comando.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Google diz que modelo lidera três rankings de agentes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a DeepMind, o Carbon ficou em primeiro lugar no CursorBench 4.0, no WANDR, da Perplexity, e no AutomationBench, da Zapier, com custo por tarefa mais de duas vezes menor que o do segundo colocado em cada um desses rankings. A empresa também afirma que o modelo ajudou a identificar vulnerabilidades de dia zero — falhas de segurança ainda desconhecidas publicamente — em testes de cibersegurança, segundo a DeepMind, o Engadget e o Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A DeepMind diz ainda que criou, em parceria com a empresa de avaliações Artificial Analysis, um novo teste chamado Multimodal Knowledge Agent, voltado a tarefas com documentos densos, gráficos e tabelas, no qual o Carbon ficou em segundo lugar com custo por tarefa mais de seis vezes menor que o do modelo líder. Segundo o Tecmundo, que também cita a empresa, o Carbon teve 0% de sucesso de ataques no teste de resistência a injeção de comandos maliciosos Gray Swan IPI, marca que a DeepMind diz ter atingido pela primeira vez.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O preço de lançamento do Carbon é o mesmo do Gemini 4 Argon, modelo anterior da família: US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída — tokens são as unidades de texto que a IA lê e produz a cada resposta. Esse valor dobra para US$ 4 e US$ 20 por milhão de tokens quando o período promocional terminar, no fim de novembro, segundo a DeepMind, o The Verge e o Hipertextual.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O The Verge calcula que o preço de lançamento do Carbon equivale a cerca de um quinto do cobrado pelo GPT-6 Astra, da OpenAI, e a um quarto do Claude Fable 5.2, da Anthropic.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: desenvolvedores e empresas pagantes, via API no Google AI Studio e no Gemini for Business; assinantes do Google AI Ultra, no app Gemini, no Modo IA da Busca e no Google Antigravity, segundo a DeepMind, o The Verge, o Engadget e o Tecmundo.",
+        "Desde quando: nesta terça-feira (10) para o público em geral; desde o fim de outubro apenas para testadores de cibersegurança do programa Fairwind.",
+        "Quanto custa: US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de saída até o fim de novembro; depois, US$ 4 e US$ 20, segundo a DeepMind, o The Verge e o Hipertextual.",
+        "O que muda: antes, o Carbon só chegava a um grupo restrito de defensores de cibersegurança, como o Cortexplor mostrou em novembro. Agora chega a qualquer empresa ou desenvolvedor pagante, com o recurso novo /swarm."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract network of connected nodes representing AI agents working together",
+    "alt": "Ilustração abstrata de nós conectados representando agentes de inteligência artificial trabalhando em conjunto",
+    "path": "/assets/img/google-libera-gemini-4-carbon-geral-a5b6de8e.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
+  },
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "title": "Gemini 4 Carbon is now available"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "title": "Google releases Gemini 4 Carbon with agent 'swarm' feature"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
+      "title": "Google's Gemini 4 Carbon is now widely available around the world"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/tecnologia/gemini-4-carbon/",
+      "title": "Google lanza Gemini 4 Carbon para todos: así es su modelo más potente"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/google-libera-gemini-4-carbon-nova-ia-de-ponta-para-usuarios-pagantes/",
+      "title": "Google libera Gemini 4 Carbon, nova IA de ponta para usuários pagantes"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-10T22:03:13+00:00",
+  "updated_at": "2026-11-10T22:03:13+00:00"
+}

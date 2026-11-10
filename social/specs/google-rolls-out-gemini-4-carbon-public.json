@@ -1,0 +1,104 @@
+{
+  "slug": "google-rolls-out-gemini-4-carbon-public",
+  "lang": "en",
+  "date": "10 Nov 2026",
+  "no": 98,
+  "category": "Models",
+  "kicker": "Models · Google",
+  "headline": "Google rolls out Gemini 4 Carbon and adds /swarm",
+  "headline_hl": "/swarm",
+  "dek": "Google's strongest model leaves restricted testing, per DeepMind.",
+  "image": {
+    "path": "assets/img/google-rolls-out-gemini-4-carbon-public-3cd09e4d.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Carbon<br>goes public",
+  "sources": [
+    "Google DeepMind",
+    "The Verge",
+    "Engadget",
+    "Hipertextual",
+    "Tecmundo"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Carbon leaves testing",
+    "body": [
+      "Google DeepMind rolled out Gemini 4 Carbon to developers, enterprises and consumers, per the company itself.",
+      "Before, only a group of cybersecurity specialists had access to the model (Google DeepMind)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Where to use it",
+    "body": "Per The Verge and Engadget:",
+    "points": [
+      {
+        "h": "API",
+        "t": "It is in Google AI Studio and Gemini for Business."
+      },
+      {
+        "h": "Ultra",
+        "t": "Subscribers get it in the Gemini app and AI Mode."
+      },
+      {
+        "h": "/swarm",
+        "t": "Coordinates a team of agents in Antigravity (The Verge)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Launch price",
+    "body": [
+      "Carbon costs $2 per million input tokens and $10 for output, per DeepMind and Hipertextual.",
+      "The Verge estimates that is about a fifth of GPT-6 Astra's price."
+    ],
+    "stat": {
+      "big": "$2",
+      "cap": "per million input tokens, says Hipertextual"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Promo",
+        "t": "The price doubles in late November (Hipertextual)."
+      },
+      {
+        "h": "Rankings",
+        "t": "DeepMind says it leads CursorBench 4.0 and WANDR."
+      },
+      {
+        "h": "Testing",
+        "t": "/swarm is still in testing (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google DeepMind rolled out Gemini 4 Carbon to the public and launched the /swarm feature.",
+    "body": [
+      "Per DeepMind, Google's strongest model was limited to cybersecurity specialists and now reaches developers, enterprises and consumers. It is in the Google AI Studio API and Gemini for Business, and Ultra plan subscribers find it in the Gemini app, AI Mode in Search and Antigravity.",
+      "/swarm, in testing in Antigravity, turns one prompt into a team of agents that check each other in parallel, per The Verge. The launch price is $2 per million input tokens and $10 for output, and it doubles in late November, according to Hipertextual. The Verge estimates Carbon costs about a fifth of GPT-6 Astra."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#gemini",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Gemini 4 Carbon, rolled out by Google DeepMind",
+    "Slide 2: Gemini 4 Carbon leaves restricted testing and reaches the public",
+    "Slide 3: Gemini 4 Carbon in the API, the Ultra plan and the /swarm feature",
+    "Slide 4: Gemini 4 Carbon launch price per million tokens",
+    "Slide 5: promo ends in November and Gemini 4 Carbon rankings",
+    "Slide 6: sources for the Gemini 4 Carbon story: DeepMind, The Verge and others"
+  ]
+}
