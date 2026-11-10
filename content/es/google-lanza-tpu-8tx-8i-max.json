@@ -87,7 +87,13 @@
   ],
   "image": {
     "query": "data center server rack blue lights computer chips",
-    "alt": "Pasillo de un centro de datos con racks de servidores iluminados en azul, usados para procesar inteligencia artificial"
+    "alt": "Pasillo de un centro de datos con racks de servidores iluminados en azul, usados para procesar inteligencia artificial",
+    "path": "/assets/img/google-lanza-tpu-8tx-8i-max-ab6de64c.jpg",
+    "credit": "Adrien / Unsplash",
+    "author": "Adrien",
+    "author_url": "https://unsplash.com/@add_rien_20?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/blue-light-streaks-in-long-exposure-q-mH2zk9NGc"
   },
   "sources": [
     {
@@ -103,5 +109,7 @@
       "title": "Google lança novos TPUs para otimizar tarefas de agentes de IA e melhorar segurança"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-10T10:54:00+00:00",
+  "updated_at": "2026-11-10T10:54:00+00:00"
 }
