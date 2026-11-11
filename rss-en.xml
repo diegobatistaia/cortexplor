@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 10:48:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 15:50:03 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google DeepMind uses AI to mathematically verify Signal's security</title>
+      <link>https://cortexplor.com/en/deepmind-formally-verifies-signal-protocol-security/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/deepmind-formally-verifies-signal-protocol-security/</guid>
+      <description>Google DeepMind used a new AI system to formally verify parts of the Signal protocol, also used by WhatsApp and Google Messages, Wired and ZDNet report.</description>
+      <category>Applications</category>
+      <pubDate>Wed, 11 Nov 2026 15:50:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic cuts IPO target to $1.4 trillion, lands $26B from chipmakers</title>
+      <link>https://cortexplor.com/en/anthropic-cuts-ipo-target-to-1-4-trillion/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/anthropic-cuts-ipo-target-to-1-4-trillion/</guid>
+      <description>Anthropic lowered its IPO valuation target to $1.4 trillion, but Google, Nvidia and other chip and cloud giants will invest $26 billion separately, per Fortune.</description>
+      <category>AI Market</category>
+      <pubDate>Wed, 11 Nov 2026 15:50:00 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic Kicks Off IPO Roadshow, Targets Nasdaq as "ANT"</title>
       <link>https://cortexplor.com/en/anthropic-ipo-roadshow-nasdaq-ant/</link>
@@ -230,22 +246,6 @@
       <description>Elon Musk mocks Sam Altman for saying home PC RAM is wasteful, as a memory pricing crisis already hits the market, according to TechRadar and Computer Hoy.</description>
       <category>AI Market</category>
       <pubDate>Tue, 03 Nov 2026 21:53:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM updates Granite Switch without retraining the base model</title>
-      <link>https://cortexplor.com/en/ibm-updates-granite-switch-without-retraining/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/ibm-updates-granite-switch-without-retraining/</guid>
-      <description>IBM released Granite Switch 4.1.1, which adds new features without retraining the base model, according to the company's own announcement on Hugging Face.</description>
-      <category>Models &amp; Launches</category>
-      <pubDate>Tue, 03 Nov 2026 10:51:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Musk confirms Grok Bot usage cut over unsustainable costs</title>
-      <link>https://cortexplor.com/en/musk-confirms-grok-bot-usage-cut-high-costs/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/musk-confirms-grok-bot-usage-cut-high-costs/</guid>
-      <description>Elon Musk confirmed Grok Bot's usage limits were cut on purpose over high costs, per TechCrunch and TechRadar. Here's what changed and who it affects.</description>
-      <category>AI Market</category>
-      <pubDate>Tue, 03 Nov 2026 10:51:13 +0000</pubDate>
     </item>
   </channel>
 </rss>

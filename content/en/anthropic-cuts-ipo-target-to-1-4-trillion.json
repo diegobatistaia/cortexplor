@@ -7,38 +7,131 @@
   "meta_description": "Anthropic lowered its IPO valuation target to $1.4 trillion, but Google, Nvidia and other chip and cloud giants will invest $26 billion separately, per Fortune.",
   "keyword": "Anthropic IPO valuation",
   "category": "mercado",
-  "tags": ["ai", "anthropic", "ipo", "market", "nvidia"],
+  "tags": [
+    "ai",
+    "anthropic",
+    "ipo",
+    "market",
+    "nvidia"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic filed an amended IPO registration on Tuesday setting a proposed valuation of up to roughly $1.4 trillion, down from the $2 trillion figure reported weeks earlier, according to Fortune and The Verge. The same filing disclosed that Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC Partners — an affiliate of Taiwan's TSMC — agreed to jointly buy $26 billion of Anthropic stock through a private placement separate from the public offering, according to Fortune and Business Insider.", "items": []},
-    {"type": "p", "text": "Anthropic, the maker of Claude, had already launched its IPO roadshow on Tuesday, offering 825 million Class A shares priced between $70 and $78 apiece, as <a href=\"https://cortexplor.com/en/anthropic-ipo-roadshow-nasdaq-ant/\">Cortexplor reported</a> at the time. What's new is the private placement of non-voting Class N shares that the seven investors would buy right after the IPO closes.", "items": []},
-    {"type": "h2", "text": "Up to $90 billion combined", "items": []},
-    {"type": "p", "text": "Adding the top of the IPO range to the $26 billion private placement, Fortune calculates Anthropic could raise as much as $90.4 billion in total. Business Insider arrives at a similar figure, around $90 billion, and notes the deal revives criticism that the AI industry leans on circular financing — chipmakers and cloud providers investing in the very companies that buy their products.", "items": []},
-    {"type": "p", "text": "The public offering itself brings no new money to Anthropic: according to Fortune, the shares sold in the IPO belong to existing shareholders, and the company won't receive any proceeds from that sale.", "items": []},
-    {"type": "h2", "text": "Valuation down, but bankers eye a higher price", "items": []},
-    {"type": "p", "text": "The $1.4 trillion target is already below the roughly $2 trillion figure cited in earlier reports, according to Fortune and The Verge. The cut follows weeks of declines in AI and data center stocks, which The Verge attributes in part to political uncertainty after the U.S. midterm elections.", "items": []},
-    {"type": "p", "text": "Still, Fortune cites a Financial Times report saying Anthropic's underwriters are already considering pricing shares above the filed range, which could push the valuation to $1.5 trillion or higher. That isn't a final decision yet, just an option under discussion, according to the same report.", "items": []},
-    {"type": "h2", "text": "How it compares to OpenAI", "items": []},
-    {"type": "p", "text": "The lower target comes days after OpenAI closed a funding round valuing it at $1.25 trillion, below the ceiling it had sought, as <a href=\"https://cortexplor.com/en/openai-valuation-drops-anthropic-ipo/\">Cortexplor reported</a>. At its current target, Anthropic would go public worth more than its rival, even after revising its own valuation down.", "items": []},
-    {"type": "h2", "text": "An analyst urges caution on pricing", "items": []},
-    {"type": "p", "text": "In a note cited by Fortune, analyst Dan Ives of Yorkville Ives & Co. said the deal sets up a debate over \"margin versus growth,\" with the market deciding whether to use Anthropic's second-quarter operating profit or its third-quarter loss as the real measure of the business. Ives noted the $1.4 trillion figure includes stock options and other equity awards; counting only shares outstanding, the top of the range values the company at about $1 trillion. He recommended pricing near that level, with room to move toward $1.2 trillion if demand allows, rather than aiming for the top of the range.", "items": []},
-    {"type": "h2", "text": "The Facebook precedent", "items": []},
-    {"type": "p", "text": "Business Insider spoke with Brian Boland, a former Facebook vice president during the company's widely criticized 2012 IPO. Boland said he sees parallels with Anthropic's situation now, though Facebook took more than a year to recover above its IPO price after its debut. The outlet also reports that Anthropic has budgeted $41.5 million in legal fees for its IPO, nearly double what SpaceX had planned for its own offering.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who's buying: Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC Partners agreed to jointly buy $26 billion of Anthropic's Class N shares, outside the public offering.",
-      "IPO target: up to $1.4 trillion, with shares priced between $70 and $78, down from an earlier target of roughly $2 trillion.",
-      "Total raise: up to $90.4 billion combining the IPO and the private placement, per Fortune.",
-      "Timeline: the amended registration was filed Tuesday, November 10, with Anthropic already on its roadshow by then."
-    ]}
+    {
+      "type": "p",
+      "text": "Anthropic filed an amended IPO registration on Tuesday setting a proposed valuation of up to roughly $1.4 trillion, down from the $2 trillion figure reported weeks earlier, according to Fortune and The Verge. The same filing disclosed that Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC Partners — an affiliate of Taiwan's TSMC — agreed to jointly buy $26 billion of Anthropic stock through a private placement separate from the public offering, according to Fortune and Business Insider.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic, the maker of Claude, had already launched its IPO roadshow on Tuesday, offering 825 million Class A shares priced between $70 and $78 apiece, as <a href=\"https://cortexplor.com/en/anthropic-ipo-roadshow-nasdaq-ant/\">Cortexplor reported</a> at the time. What's new is the private placement of non-voting Class N shares that the seven investors would buy right after the IPO closes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Up to $90 billion combined",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Adding the top of the IPO range to the $26 billion private placement, Fortune calculates Anthropic could raise as much as $90.4 billion in total. Business Insider arrives at a similar figure, around $90 billion, and notes the deal revives criticism that the AI industry leans on circular financing — chipmakers and cloud providers investing in the very companies that buy their products.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The public offering itself brings no new money to Anthropic: according to Fortune, the shares sold in the IPO belong to existing shareholders, and the company won't receive any proceeds from that sale.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Valuation down, but bankers eye a higher price",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The $1.4 trillion target is already below the roughly $2 trillion figure cited in earlier reports, according to Fortune and The Verge. The cut follows weeks of declines in AI and data center stocks, which The Verge attributes in part to political uncertainty after the U.S. midterm elections.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Still, Fortune cites a Financial Times report saying Anthropic's underwriters are already considering pricing shares above the filed range, which could push the valuation to $1.5 trillion or higher. That isn't a final decision yet, just an option under discussion, according to the same report.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How it compares to OpenAI",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The lower target comes days after OpenAI closed a funding round valuing it at $1.25 trillion, below the ceiling it had sought, as <a href=\"https://cortexplor.com/en/openai-valuation-drops-anthropic-ipo/\">Cortexplor reported</a>. At its current target, Anthropic would go public worth more than its rival, even after revising its own valuation down.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An analyst urges caution on pricing",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a note cited by Fortune, analyst Dan Ives of Yorkville Ives & Co. said the deal sets up a debate over \"margin versus growth,\" with the market deciding whether to use Anthropic's second-quarter operating profit or its third-quarter loss as the real measure of the business. Ives noted the $1.4 trillion figure includes stock options and other equity awards; counting only shares outstanding, the top of the range values the company at about $1 trillion. He recommended pricing near that level, with room to move toward $1.2 trillion if demand allows, rather than aiming for the top of the range.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The Facebook precedent",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Business Insider spoke with Brian Boland, a former Facebook vice president during the company's widely criticized 2012 IPO. Boland said he sees parallels with Anthropic's situation now, though Facebook took more than a year to recover above its IPO price after its debut. The outlet also reports that Anthropic has budgeted $41.5 million in legal fees for its IPO, nearly double what SpaceX had planned for its own offering.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who's buying: Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC Partners agreed to jointly buy $26 billion of Anthropic's Class N shares, outside the public offering.",
+        "IPO target: up to $1.4 trillion, with shares priced between $70 and $78, down from an earlier target of roughly $2 trillion.",
+        "Total raise: up to $90.4 billion combining the IPO and the private placement, per Fortune.",
+        "Timeline: the amended registration was filed Tuesday, November 10, with Anthropic already on its roadshow by then."
+      ]
+    }
   ],
   "image": {
     "query": "stock market finance chart investment technology",
-    "alt": "Illustration of a financial chart representing investment in artificial intelligence companies"
+    "alt": "Illustration of a financial chart representing investment in artificial intelligence companies",
+    "path": "/assets/img/anthropic-cuts-ipo-target-to-1-4-trillio-134b756a.jpg",
+    "credit": "Nick Chong / Unsplash",
+    "author": "Nick Chong",
+    "author_url": "https://unsplash.com/@nick604?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/screen-showing-bitcoin-trading-chart-N__BnvQ_w18"
   },
   "sources": [
-    {"name": "Fortune", "owner": "fortune", "url": "https://fortune.com/2026/11/11/anthropic-sets-a-1-4-trillion-ipo-target-but-bankers-may-already-be-aiming-higher-cfo/", "title": "Anthropic sets a $1.4 trillion IPO target, but bankers may already be aiming higher"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion", "title": "Anthropic confirms IPO valuation"},
-    {"name": "Business Insider", "owner": "axel-springer", "url": "https://www.businessinsider.com/ai-investors-referendum-anthropic-ipo-stock-market-bi-today-newsletter-2026-11", "title": "AI investors referendum: Anthropic IPO"}
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/11/11/anthropic-sets-a-1-4-trillion-ipo-target-but-bankers-may-already-be-aiming-higher-cfo/",
+      "title": "Anthropic sets a $1.4 trillion IPO target, but bankers may already be aiming higher"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "title": "Anthropic confirms IPO valuation"
+    },
+    {
+      "name": "Business Insider",
+      "owner": "axel-springer",
+      "url": "https://www.businessinsider.com/ai-investors-referendum-anthropic-ipo-stock-market-bi-today-newsletter-2026-11",
+      "title": "AI investors referendum: Anthropic IPO"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-11T15:50:00+00:00",
+  "updated_at": "2026-11-11T15:50:00+00:00"
 }
