@@ -7,7 +7,13 @@
   "meta_description": "A design flaw in SpaceXSI's Grok Build app builder exposed confidential data from thousands of users, including the company's own internal business files.",
   "keyword": "Grok Build data leak",
   "category": "aplicacoes",
-  "tags": ["ai", "grok", "spacexsi", "security", "data leak"],
+  "tags": [
+    "ai",
+    "grok",
+    "spacexsi",
+    "security",
+    "data leak"
+  ],
   "body": [
     {
       "type": "p",
@@ -92,12 +98,35 @@
   ],
   "image": {
     "query": "data leak cybersecurity code breach",
-    "alt": "Computer screen showing code and a padlock icon representing a data breach"
+    "alt": "Computer screen showing code and a padlock icon representing a data breach",
+    "path": "/assets/img/grok-build-leaks-confidential-data-thous-e000f601.jpg",
+    "credit": "Chris Yang / Unsplash",
+    "author": "Chris Yang",
+    "author_url": "https://unsplash.com/@chrisyangchrisfilm?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silhouette-photography-of-man-1tnS_BVy9Jk"
   },
   "sources": [
-    {"name": "Ars Technica", "owner": "conde-nast", "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/", "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/", "title": "A Grok vibe-coding agent leaked sensitive SpaceXSI data"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/security/elon-musks-grok-build-coding-agent-is-leaking-a-serious-amount-of-confidential-data", "title": "Elon Musk's Grok Build coding agent is leaking a serious amount of confidential data"}
+    {
+      "name": "Ars Technica",
+      "owner": "conde-nast",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+      "title": "A Grok vibe-coding agent leaked sensitive SpaceXSI data"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/security/elon-musks-grok-build-coding-agent-is-leaking-a-serious-amount-of-confidential-data",
+      "title": "Elon Musk's Grok Build coding agent is leaking a serious amount of confidential data"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-11T21:46:11+00:00",
+  "updated_at": "2026-11-11T21:46:11+00:00"
 }

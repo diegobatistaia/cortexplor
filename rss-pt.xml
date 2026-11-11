@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 11 Nov 2026 15:50:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 21:46:12 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Falha no Grok Build, da SpaceXSI, expõe dados de milhares de usuários</title>
+      <link>https://cortexplor.com/pt/grok-build-spacexsi-vaza-dados-confidenciais/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/grok-build-spacexsi-vaza-dados-confidenciais/</guid>
+      <description>Uma falha no Grok Build, ferramenta de criação de apps da SpaceXSI, expôs dados de milhares de usuários, incluindo documentos internos da própria empresa.</description>
+      <category>Aplicações</category>
+      <pubDate>Wed, 11 Nov 2026 21:46:10 +0000</pubDate>
+    </item>
     <item>
       <title>DeepMind usa IA para provar matematicamente que o protocolo do Signal é seguro</title>
       <link>https://cortexplor.com/pt/deepmind-prova-matematicamente-seguranca-do-signal/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://cortexplor.com/pt/musk-ironiza-altman-sobre-memoria-ram/</guid>
       <description>Elon Musk ironiza Sam Altman por dizer que ter RAM em PC pessoal é ruim; a crise de preços do componente já afeta o mercado, segundo TechRadar e Computer Hoy.</description>
       <category>Mercado de IA</category>
-      <pubDate>Tue, 03 Nov 2026 21:53:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI troca 'data center' por 'compute campus' nos EUA</title>
-      <link>https://cortexplor.com/pt/openai-renomeia-data-centers-compute-campuses/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/openai-renomeia-data-centers-compute-campuses/</guid>
-      <description>A OpenAI renomeia data centers para 'compute campuses' antes das eleições nos EUA, em meio a críticas sobre energia, segundo o TechRadar e o The Verge.</description>
-      <category>Regulação</category>
       <pubDate>Tue, 03 Nov 2026 21:53:34 +0000</pubDate>
     </item>
   </channel>

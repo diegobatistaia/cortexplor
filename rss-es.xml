@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 11 Nov 2026 15:50:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 21:46:13 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Una falla en Grok Build, de SpaceXSI, expuso datos de miles de usuarios</title>
+      <link>https://cortexplor.com/es/grok-build-filtra-datos-confidenciales-usuarios/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/grok-build-filtra-datos-confidenciales-usuarios/</guid>
+      <description>Una falla de diseño en Grok Build, la herramienta de SpaceXSI para crear apps, expuso datos confidenciales de miles de usuarios y de la propia empresa.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Wed, 11 Nov 2026 21:46:11 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic reduce la meta de su IPO a 1,4 billones, pero suma 26.000 millones</title>
       <link>https://cortexplor.com/es/anthropic-reduce-meta-ipo-a-1-4-billones/</link>
@@ -237,14 +245,6 @@
       <guid isPermaLink="true">https://cortexplor.com/es/musk-se-burla-de-altman-por-ram/</guid>
       <description>Elon Musk se burla de Sam Altman por decir que la RAM en PC personales es un desperdicio, en medio de una crisis de precios, según TechRadar y Computer Hoy.</description>
       <category>Mercado de IA</category>
-      <pubDate>Tue, 03 Nov 2026 21:53:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI cambia el nombre de sus centros de datos a 'compute campus'</title>
-      <link>https://cortexplor.com/es/openai-renombra-centros-datos-compute-campuses/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/openai-renombra-centros-datos-compute-campuses/</guid>
-      <description>OpenAI renombra sus centros de datos como 'compute campus' antes de las elecciones en EE. UU., en medio de críticas por la energía, según TechRadar y The Verge.</description>
-      <category>Regulación</category>
       <pubDate>Tue, 03 Nov 2026 21:53:35 +0000</pubDate>
     </item>
   </channel>

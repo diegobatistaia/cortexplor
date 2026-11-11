@@ -3352,5 +3352,26 @@
     "lang": "es",
     "passed": true,
     "reasons": []
+  },
+  {
+    "at": "2026-11-11T21:46:10+00:00",
+    "id": "grok-build-spacexsi-vaza-dados-confidenciais",
+    "lang": "pt",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-11T21:46:11+00:00",
+    "id": "grok-build-leaks-confidential-data-thousands-users",
+    "lang": "en",
+    "passed": true,
+    "reasons": []
+  },
+  {
+    "at": "2026-11-11T21:46:11+00:00",
+    "id": "grok-build-filtra-datos-confidenciales-usuarios",
+    "lang": "es",
+    "passed": true,
+    "reasons": []
   }
 ]

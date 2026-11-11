@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 15:50:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 21:46:12 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Grok Build flaw exposed confidential data from thousands of apps</title>
+      <link>https://cortexplor.com/en/grok-build-leaks-confidential-data-thousands-users/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/grok-build-leaks-confidential-data-thousands-users/</guid>
+      <description>A design flaw in SpaceXSI's Grok Build app builder exposed confidential data from thousands of users, including the company's own internal business files.</description>
+      <category>Applications</category>
+      <pubDate>Wed, 11 Nov 2026 21:46:11 +0000</pubDate>
+    </item>
     <item>
       <title>Google DeepMind uses AI to mathematically verify Signal's security</title>
       <link>https://cortexplor.com/en/deepmind-formally-verifies-signal-protocol-security/</link>
@@ -238,14 +246,6 @@
       <description>OpenAI renames its data centers 'compute campuses' ahead of US midterms, amid criticism over energy costs, according to TechRadar and The Verge reports.</description>
       <category>Policy</category>
       <pubDate>Tue, 03 Nov 2026 21:53:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Musk Mocks Altman Over His 'Terrible' Home PC RAM Comment</title>
-      <link>https://cortexplor.com/en/musk-mocks-altman-over-home-pc-ram/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/musk-mocks-altman-over-home-pc-ram/</guid>
-      <description>Elon Musk mocks Sam Altman for saying home PC RAM is wasteful, as a memory pricing crisis already hits the market, according to TechRadar and Computer Hoy.</description>
-      <category>AI Market</category>
-      <pubDate>Tue, 03 Nov 2026 21:53:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
