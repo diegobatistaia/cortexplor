@@ -1,0 +1,102 @@
+{
+  "slug": "grok-build-leaks-confidential-data-thousands-users",
+  "lang": "en",
+  "date": "11 Nov 2026",
+  "no": 103,
+  "category": "Applications",
+  "kicker": "Applications · SpaceXSI",
+  "headline": "Grok Build flaw exposes data of thousands of users",
+  "headline_hl": "exposes data",
+  "dek": "More than 35,000 apps were open to the public, per Ars Technica.",
+  "image": {
+    "path": "assets/img/grok-build-leaks-confidential-data-thous-e000f601.jpg",
+    "credit": "Chris Yang / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Apps<br>exposed",
+  "sources": [
+    "Ars Technica",
+    "Engadget",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What was found",
+    "body": [
+      "Security firm Claroc found 43,601 addresses of apps built in SpaceXSI's Grok Build, per Ars Technica.",
+      "More than 35,000 were open to anyone, with no login (Ars Technica and TechRadar)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the flaw works",
+    "body": "Per Ars Technica, Engadget and TechRadar:",
+    "points": [
+      {
+        "h": "Link",
+        "t": "The random part sits left of the domain."
+      },
+      {
+        "h": "DNS",
+        "t": "Passive DNS tools list the addresses."
+      },
+      {
+        "h": "Default",
+        "t": "Share with anyone who has the link."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Who was exposed",
+    "body": [
+      "The data included 24 SpaceXSI apps, with a map of about 594 strategic accounts (Ars Technica, Engadget and TechRadar).",
+      "Claroc says about 2% carried high or critical risk (Engadget and TechRadar)."
+    ],
+    "stat": {
+      "big": "43,601",
+      "cap": "addresses found by Claroc (Ars Technica)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Response",
+        "t": "Came only after Claroc tagged Musk (Ars Technica)."
+      },
+      {
+        "h": "Own apps",
+        "t": "SpaceXSI took down its 24 apps (Engadget)."
+      },
+      {
+        "h": "Others",
+        "t": "The rest are notified one by one (TechRadar)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A flaw in SpaceXSI's Grok Build left data from thousands of users open to the public.",
+    "body": [
+      "Per Ars Technica, Engadget and TechRadar, Claroc found 43,601 addresses of apps built in the tool, and more than 35,000 were reachable without a login. The random part of the link sat left of the domain, which let passive DNS tools list the addresses without having the original link.",
+      "The data included 24 SpaceXSI apps and information from other organizations, per the outlets. Claroc told Engadget and TechRadar that about 2% carried high or critical risk. Per Ars Technica, the company responded only after Claroc tagged Elon Musk on X, and it removed only the links to its own apps."
+    ],
+    "cta_variant": "A",
+    "cta": "Would you share a company app by link?",
+    "hashtags": [
+      "#cortexplor",
+      "#grok",
+      "#spacexsi",
+      "#security"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about the security flaw in SpaceXSI's Grok Build",
+    "Slide 2: Claroc found over 35,000 Grok Build apps open to the public",
+    "Slide 3: Grok Build share link read by passive DNS tools",
+    "Slide 4: SpaceXSI apps and high risk in Grok Build",
+    "Slide 5: SpaceXSI response to the Grok Build flaw and others' apps",
+    "Slide 6: sources for the Grok Build story: Ars Technica and others"
+  ]
+}

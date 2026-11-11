@@ -1,0 +1,11 @@
+A flaw in SpaceXSI's Grok Build left data from thousands of users open to the public.
+
+Per Ars Technica, Engadget and TechRadar, Claroc found 43,601 addresses of apps built in the tool, and more than 35,000 were reachable without a login. The random part of the link sat left of the domain, which let passive DNS tools list the addresses without having the original link.
+
+The data included 24 SpaceXSI apps and information from other organizations, per the outlets. Claroc told Engadget and TechRadar that about 2% carried high or critical risk. Per Ars Technica, the company responded only after Claroc tagged Elon Musk on X, and it removed only the links to its own apps.
+
+Would you share a company app by link?
+
+Full story: link in bio.
+
+#cortexplor #grok #spacexsi #security

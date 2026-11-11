@@ -1,0 +1,132 @@
+{
+  "lang": "en",
+  "slug": "grok-build-leaks-confidential-data-thousands-users",
+  "story_id": "c2fe687464dbc76f",
+  "title": "Grok Build flaw exposed confidential data from thousands of apps",
+  "dek": "A link-design mistake let anyone enumerate over 35,000 SpaceXSI Grok Build apps without logging in, researchers found.",
+  "meta_description": "A design flaw in SpaceXSI's Grok Build app builder exposed confidential data from thousands of users, including the company's own internal business files.",
+  "keyword": "Grok Build data leak",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "grok",
+    "spacexsi",
+    "security",
+    "data leak"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Grok Build, the AI tool from SpaceXSI that turns a text description into a working app, exposed confidential data from thousands of users, including internal documents from SpaceXSI itself, according to Ars Technica, Engadget and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Security firm Claroc found the flaw. A passive DNS search — which tracks every web address ever looked up on the internet and logs it publicly — turned up 43,601 addresses ending in \"grok.me,\" the domain used by apps built on the platform. More than 35,000 of them, about 95%, were reachable by anyone without logging in, according to Ars Technica and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the flaw works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Every app published on Grok Build gets a web address built from a string of random words, a scheme meant to work like Google Docs sharing links: in theory, only someone who has the exact link can open the page. The problem, according to all three outlets, is that the random part of the address sits to the left of the domain name instead of to the right, as in Google's scheme. That placement lets passive DNS tools capture and index the full address, making it possible to list thousands of apps without ever receiving the original link.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In theory, the \"dice word\" scheme should have made guessing an address very hard: according to Ars Technica and Engadget, the combination carries roughly 38 bits of entropy, equivalent to billions of possible combinations. In practice, the position of the random string in the address cancelled out that protection, because passive DNS tools don't need to guess anything — they simply read what has already been looked up publicly on the internet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "When a user publishes an app, Grok Build's default sharing setting is \"anyone with the link,\" rather than \"invited users\" or \"only you,\" according to Ars Technica and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "SpaceXSI exposed its own data",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Among the leaked material were 24 apps built by SpaceXSI itself — the company formed by the merger of SpaceX and xAI — including an employee onboarding plan, a sales territory map covering roughly 594 strategic accounts, and advertising materials, according to all three outlets. Claroc said about 2% of all exposed apps held data serious enough to be rated high or critical severity, according to Engadget and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Beyond SpaceXSI's own material, Claroc found exposed data belonging to other organizations, including Fortune 500 companies and a defense contractor, according to Ars Technica and Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "No response until Musk was tagged on X",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Claroc first notified SpaceXSI about the exposure, but got no response until it publicly tagged Elon Musk and Grok manager Matt Palmer on X, according to Ars Technica and Engadget. SpaceXSI then took down the links to its own 24 exposed apps.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Engadget and TechRadar, SpaceXSI did not do the same for apps belonging to other users and organizations, which Claroc says it is still notifying one by one.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The case adds to a string of incidents in which AI tools built to let anyone publish a working app in minutes have struggled to keep that app's data private by default. Grok Build lets a user describe what they want in a chat interface and get a deployable app without writing code, a workflow often described as \"vibe coding,\" according to Ars Technica and Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Grok Build is SpaceXSI's tool for building working apps from a text description, with no coding required from the user.",
+        "The flaw affects apps published with the default \"anyone with the link\" setting; apps switched to \"invited users\" or \"only you\" were not exposed through this discovery method.",
+        "SpaceXSI has already taken down the 24 apps of its own that Claroc identified, but apps from other companies and users remain exposed until they are notified individually.",
+        "None of the outlets report a single notification channel or a published deadline for reaching every affected user."
+      ]
+    }
+  ],
+  "image": {
+    "query": "data leak cybersecurity code breach",
+    "alt": "Computer screen showing code and a padlock icon representing a data breach",
+    "path": "/assets/img/grok-build-leaks-confidential-data-thous-e000f601.jpg",
+    "credit": "Chris Yang / Unsplash",
+    "author": "Chris Yang",
+    "author_url": "https://unsplash.com/@chrisyangchrisfilm?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/silhouette-photography-of-man-1tnS_BVy9Jk"
+  },
+  "sources": [
+    {
+      "name": "Ars Technica",
+      "owner": "conde-nast",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+      "title": "A Grok vibe-coding agent leaked sensitive SpaceXSI data"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/security/elon-musks-grok-build-coding-agent-is-leaking-a-serious-amount-of-confidential-data",
+      "title": "Elon Musk's Grok Build coding agent is leaking a serious amount of confidential data"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-11T21:46:11+00:00",
+  "updated_at": "2026-11-11T21:46:11+00:00"
+}

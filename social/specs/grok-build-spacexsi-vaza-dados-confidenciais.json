@@ -1,0 +1,102 @@
+{
+  "slug": "grok-build-spacexsi-vaza-dados-confidenciais",
+  "lang": "pt",
+  "date": "11 nov 2026",
+  "no": 106,
+  "category": "Aplicações",
+  "kicker": "Aplicações · SpaceXSI",
+  "headline": "Falha no Grok Build expõe dados de milhares de usuários",
+  "headline_hl": "expõe dados",
+  "dek": "Mais de 35 mil apps ficaram abertos ao público, segundo a Ars Technica.",
+  "image": {
+    "path": "assets/img/grok-build-spacexsi-vaza-dados-confidenc-e000f601.jpg",
+    "credit": "Chris Yang / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Apps<br>expostos",
+  "sources": [
+    "Ars Technica",
+    "Engadget",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que foi achado",
+    "body": [
+      "A empresa de segurança Claroc achou 43.601 endereços de apps criados no Grok Build, da SpaceXSI, segundo a Ars Technica.",
+      "Mais de 35 mil estavam abertos a qualquer pessoa, sem login (Ars Technica e TechRadar)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como a falha funciona",
+    "body": "Segundo a Ars Technica, o Engadget e a TechRadar:",
+    "points": [
+      {
+        "h": "Link",
+        "t": "O trecho aleatório fica à esquerda do domínio."
+      },
+      {
+        "h": "DNS",
+        "t": "Ferramentas de DNS passivo listam os endereços."
+      },
+      {
+        "h": "Padrão",
+        "t": "Compartilhar com qualquer pessoa com o link."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Quem foi exposto",
+    "body": [
+      "Entre os dados havia 24 apps da própria SpaceXSI, com um mapa de cerca de 594 contas estratégicas, segundo as três fontes.",
+      "A Claroc diz que cerca de 2% tinham risco alto ou crítico (Engadget e TechRadar)."
+    ],
+    "stat": {
+      "big": "43.601",
+      "cap": "endereços achados pela Claroc (Ars Technica)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Resposta",
+        "t": "Só veio após a Claroc marcar Musk (Ars Technica)."
+      },
+      {
+        "h": "Próprios",
+        "t": "A SpaceXSI tirou do ar os 24 apps (Engadget)."
+      },
+      {
+        "h": "Outros",
+        "t": "Os demais seguem sendo avisados um a um (TechRadar)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Uma falha no Grok Build, da SpaceXSI, deixou dados de milhares de usuários abertos ao público.",
+    "body": [
+      "Segundo a Ars Technica, o Engadget e a TechRadar, a Claroc achou 43.601 endereços de apps criados na ferramenta, e mais de 35 mil estavam acessíveis sem login. O trecho aleatório do link ficava à esquerda do domínio, o que permitiu a ferramentas de DNS passivo listar os endereços sem ter o link original.",
+      "Entre os dados havia 24 apps da própria SpaceXSI e de outras organizações. A Claroc disse ao Engadget e à TechRadar que cerca de 2% tinham risco alto ou crítico. Segundo a Ars Technica, a empresa só respondeu depois de a Claroc marcar Elon Musk no X, e removeu apenas os links dos próprios apps."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#grok",
+      "#spacexsi",
+      "#seguranca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a falha de segurança no Grok Build, da SpaceXSI",
+    "Slide 2: Claroc achou mais de 35 mil apps do Grok Build abertos ao público",
+    "Slide 3: link de compartilhamento do Grok Build lido por ferramentas de DNS",
+    "Slide 4: apps da SpaceXSI e risco alto no Grok Build",
+    "Slide 5: resposta da SpaceXSI à falha do Grok Build e apps de outros",
+    "Slide 6: fontes da matéria sobre o Grok Build: Ars Technica e outras"
+  ]
+}
