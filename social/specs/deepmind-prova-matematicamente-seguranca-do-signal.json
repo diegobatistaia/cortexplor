@@ -1,0 +1,101 @@
+{
+  "slug": "deepmind-prova-matematicamente-seguranca-do-signal",
+  "lang": "pt",
+  "date": "11 nov 2026",
+  "no": 105,
+  "category": "Aplicações",
+  "kicker": "Aplicações · DeepMind",
+  "headline": "DeepMind usa IA para provar a segurança do protocolo do Signal",
+  "headline_hl": "provar",
+  "dek": "O AlphaProof Code verificou partes do protocolo e não achou falhas novas, segundo a Wired.",
+  "image": {
+    "path": "assets/img/deepmind-prova-matematicamente-seguranca-aaa508db.jpg",
+    "credit": "Claudio Schwarz / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Signal<br>verificado",
+  "sources": [
+    "Wired",
+    "ZDNet"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Prova por IA",
+    "body": [
+      "O Google DeepMind usou o AlphaProof Code para verificar formalmente partes do protocolo do Signal, segundo a Wired e a ZDNet.",
+      "O protocolo também protege o WhatsApp e o Google Messages (Wired)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como foi feito",
+    "body": "Segundo a Wired e a ZDNet:",
+    "points": [
+      {
+        "h": "Prazo",
+        "t": "Cerca de quatro semanas de trabalho."
+      },
+      {
+        "h": "Agentes",
+        "t": "Rodaram o Gemini Carbon, diz a ZDNet."
+      },
+      {
+        "h": "Humanos",
+        "t": "Definiram o que provar (ZDNet)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O resultado",
+    "body": [
+      "A análise não achou falhas novas, mas detectou bugs antigos já corrigidos, segundo a Wired.",
+      "Só 1% do código precisou de nova checagem humana, segundo a ZDNet."
+    ],
+    "stat": {
+      "big": "1%",
+      "cap": "do código precisou de checagem humana (ZDNet)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Código",
+        "t": "O sistema deve virar código aberto (ZDNet)."
+      },
+      {
+        "h": "Prova",
+        "t": "A prova do Signal será divulgada (Wired)."
+      },
+      {
+        "h": "Limite",
+        "t": "O app completo ficou de fora (Wired)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Google DeepMind usou IA para provar matematicamente partes da segurança do protocolo do Signal.",
+    "body": [
+      "Segundo a Wired e a ZDNet, o sistema AlphaProof Code verificou formalmente garantias criptográficas do protocolo usado pelo Signal, pelo WhatsApp e pelo Google Messages. O trabalho levou cerca de quatro semanas, com humanos definindo o que provar e agentes rodando o Gemini Carbon.",
+      "A Wired diz que a análise não achou falhas novas, mas identificou bugs antigos em versões já corrigidas. Segundo a ZDNet, só 1% do código precisou de nova checagem humana. O DeepMind pretende abrir o código do sistema, e a Wired informa que a prova do Signal também será divulgada. O app completo não foi coberto."
+    ],
+    "cta_variant": "A",
+    "cta": "Você confia mais num app com prova matemática?",
+    "hashtags": [
+      "#cortexplor",
+      "#deepmind",
+      "#signal",
+      "#seguranca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o DeepMind provar a segurança do protocolo do Signal",
+    "Slide 2: AlphaProof Code verifica partes do protocolo do Signal",
+    "Slide 3: quatro semanas, agentes com Gemini Carbon e humanos no Signal",
+    "Slide 4: sem falhas novas no Signal e só 1% do código para revisar",
+    "Slide 5: código aberto, prova do Signal divulgada e limite do app",
+    "Slide 6: fontes da matéria sobre a verificação do Signal: Wired e ZDNet"
+  ]
+}

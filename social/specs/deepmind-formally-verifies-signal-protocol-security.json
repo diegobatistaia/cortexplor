@@ -1,0 +1,101 @@
+{
+  "slug": "deepmind-formally-verifies-signal-protocol-security",
+  "lang": "en",
+  "date": "11 Nov 2026",
+  "no": 102,
+  "category": "Applications",
+  "kicker": "Applications · DeepMind",
+  "headline": "DeepMind uses AI to formally verify Signal protocol security",
+  "headline_hl": "formally verify",
+  "dek": "AlphaProof Code checked parts of the protocol and found no new flaws, per Wired.",
+  "image": {
+    "path": "assets/img/deepmind-formally-verifies-signal-protoc-aaa508db.jpg",
+    "credit": "Claudio Schwarz / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Signal<br>verified",
+  "sources": [
+    "Wired",
+    "ZDNet"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Proof by AI",
+    "body": [
+      "Google DeepMind used AlphaProof Code to formally verify parts of the Signal protocol, per Wired and ZDNet.",
+      "The protocol also protects WhatsApp and Google Messages (Wired)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it was done",
+    "body": "Per Wired and ZDNet:",
+    "points": [
+      {
+        "h": "Time",
+        "t": "About four weeks of work."
+      },
+      {
+        "h": "Agents",
+        "t": "Ran Gemini Carbon, says ZDNet."
+      },
+      {
+        "h": "Humans",
+        "t": "Decided what to prove (ZDNet)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The result",
+    "body": [
+      "The analysis found no new flaws but caught old, long-fixed bugs, per Wired.",
+      "Only 1% of the code needed a second human check, per ZDNet."
+    ],
+    "stat": {
+      "big": "1%",
+      "cap": "of the code needed a human check (ZDNet)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Code",
+        "t": "The system is to go open source (ZDNet)."
+      },
+      {
+        "h": "Proof",
+        "t": "The Signal proof will be released (Wired)."
+      },
+      {
+        "h": "Limit",
+        "t": "The full app was left out (Wired)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google DeepMind used AI to mathematically prove parts of the Signal protocol's security.",
+    "body": [
+      "Per Wired and ZDNet, the AlphaProof Code system formally verified cryptographic guarantees of the protocol used by Signal, WhatsApp and Google Messages. The work took about four weeks, with humans deciding what to prove and agents running Gemini Carbon.",
+      "Wired says the analysis found no new flaws but did flag old bugs in versions fixed long ago. Per ZDNet, only 1% of the code needed a second human check. DeepMind plans to open-source the system, and Wired reports the Signal proof will also be released. The full app was not covered."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#deepmind",
+      "#signal",
+      "#security"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about DeepMind verifying the security of the Signal protocol",
+    "Slide 2: AlphaProof Code verifies parts of the Signal protocol",
+    "Slide 3: four weeks, Gemini Carbon agents and humans on Signal",
+    "Slide 4: no new Signal flaws and only 1% of the code to review",
+    "Slide 5: open source, Signal proof released and the app limit",
+    "Slide 6: sources for the Signal verification story: Wired and ZDNet"
+  ]
+}

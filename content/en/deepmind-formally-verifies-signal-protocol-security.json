@@ -1,0 +1,126 @@
+{
+  "lang": "en",
+  "slug": "deepmind-formally-verifies-signal-protocol-security",
+  "story_id": "f756ba3880b87445",
+  "title": "Google DeepMind uses AI to mathematically verify Signal's security",
+  "dek": "Researchers used AI agents to formally verify parts of the cryptography behind Signal, WhatsApp and Google Messages, according to Wired and ZDNet.",
+  "meta_description": "Google DeepMind used a new AI system to formally verify parts of the Signal protocol, also used by WhatsApp and Google Messages, Wired and ZDNet report.",
+  "keyword": "DeepMind Signal protocol verification",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "google",
+    "deepmind",
+    "security",
+    "signal"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google DeepMind researchers used a new AI system called AlphaProof Code to \"formally verify\" parts of the cryptographic guarantees behind the Signal protocol, the method used by the Signal app and also by WhatsApp and Google Messages, according to Wired and ZDNet. Formal verification is the technique of using mathematics to prove that software works exactly as intended, catching flaws that conventional testing might miss.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The work took about four weeks, both outlets report. Wired describes the project as a kind of proof of concept, and ZDNet details that humans worked alongside AI agents to decide what needed to be proven, while multiple agents running Gemini Carbon, Google's latest model, carried out the verification itself.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why formal verification is hard",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Wired explains that formal verification has long been seen as a kind of \"holy grail\" of software security, because it uses math to prove a program behaves exactly as intended, with no hidden critical flaws. Before AI, the process was extremely time-consuming: someone had to manually describe the software properties they wanted to prove, turn that description into formulas, and only then develop the proof — work that could take years for complex systems.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AI agents cut much of that time, according to Wired, which is what made an analysis like the one on Signal's protocol feasible. ZDNet adds that other AI companies, including OpenAI, have also been using models to crack complex math problems, some nearly a century old — a sign that AI systems are speeding up the kind of manual work that used to require years of effort from mathematicians and security specialists.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "No new flaws, but it caught old, known bugs",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The analysis found no new vulnerabilities in the parts of the protocol it examined, according to Wired. As a control test, the researchers also ran AlphaProof Code against older versions of Signal that had known, long-fixed vulnerabilities — in those cases, the system correctly flagged the problems and showed that those versions failed formal verification, the same outlet reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to ZDNet, the agents also audited their own proofs and flagged the sections that needed a second look from a human — just 1% of the code analyzed, according to the researchers cited by the outlet.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The work didn't cover the full app",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The verification was limited to parts of the protocol and did not cover, for example, the full Signal mobile app, according to Wired. Swarat Chaudhuri, a DeepMind research scientist, told the outlet the result is only \"one milestone in a larger process\" before the technique can be scaled to all kinds of software.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The advance also built on earlier formal verification work the Signal Foundation itself had already done on smaller parts of the code, both outlets report. Ehren Kret, Signal's chief technology officer, told Wired that DeepMind's approach \"enables significant expansion\" compared with that earlier work, and that as AI-driven security threats grow, rigorously verifying the protocol's implementation gives the company \"even greater confidence\" in its code's privacy guarantees.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "DeepMind plans to open-source the tool",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to ZDNet, Google DeepMind plans to open-source AlphaProof Code, aiming to help other projects verify critical systems. Wired adds that the researchers will also release the specification and proof they developed for Signal, to support other formal verification work.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What was proven: parts of the cryptographic guarantees behind the Signal protocol, also used by WhatsApp and Google Messages, were mathematically verified for the first time, according to the researchers cited by Wired.",
+        "What wasn't covered: the verification did not include Signal's full mobile app.",
+        "When it happened: the work took about four weeks and was reported this week by Wired and ZDNet.",
+        "What's next: Google DeepMind plans to open-source AlphaProof Code and publish the specification and proof used on Signal, for other projects to use."
+      ]
+    }
+  ],
+  "image": {
+    "query": "digital padlock encryption binary code security",
+    "alt": "Illustration of a digital padlock representing encryption and data security",
+    "path": "/assets/img/deepmind-formally-verifies-signal-protoc-aaa508db.jpg",
+    "credit": "Claudio Schwarz / Unsplash",
+    "author": "Claudio Schwarz",
+    "author_url": "https://unsplash.com/@purzlbaum?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-and-white-checked-textile-Pre8ZTFBGcM"
+  },
+  "sources": [
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure"
+    },
+    {
+      "name": "ZDNet",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/tech/google-deepmind-researchers-prove-signal-whatsapp-encryption-works/",
+      "title": "Google DeepMind researchers prove Signal, WhatsApp encryption works"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-11T15:50:01+00:00",
+  "updated_at": "2026-11-11T15:50:01+00:00"
+}

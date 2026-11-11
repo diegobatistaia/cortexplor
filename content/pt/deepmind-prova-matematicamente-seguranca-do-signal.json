@@ -1,0 +1,126 @@
+{
+  "lang": "pt",
+  "slug": "deepmind-prova-matematicamente-seguranca-do-signal",
+  "story_id": "f756ba3880b87445",
+  "title": "DeepMind usa IA para provar matematicamente que o protocolo do Signal é seguro",
+  "dek": "Pesquisadores do Google usaram agentes de IA para verificar formalmente partes da criptografia que protege o Signal, o WhatsApp e o Google Messages, segundo a Wired e a ZDNet.",
+  "meta_description": "O Google DeepMind usou um novo sistema de IA para provar matematicamente partes do protocolo do Signal, usado também no WhatsApp, segundo a Wired e a ZDNet.",
+  "keyword": "DeepMind protocolo Signal verificação formal",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "google",
+    "deepmind",
+    "seguranca",
+    "signal"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Pesquisadores do Google DeepMind usaram um novo sistema de inteligência artificial chamado AlphaProof Code para \"verificar formalmente\" parte das garantias criptográficas do protocolo do Signal, método usado pelo app de mensagens homônimo e também pelo WhatsApp e pelo Google Messages, segundo a Wired e a ZDNet. Verificação formal é a técnica que usa matemática para provar que um software funciona exatamente como deveria, sem as falhas que testes convencionais podem não encontrar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O trabalho levou cerca de quatro semanas, segundo as duas fontes. A Wired descreve o projeto como uma espécie de prova de conceito, e a ZDNet detalha que humanos trabalharam ao lado de agentes de IA para decidir o que precisava ser provado, enquanto múltiplos agentes rodando o modelo Gemini Carbon, o mais recente do Google, executavam a verificação.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por que a verificação formal é difícil",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Wired explica que a verificação formal é vista há tempos como uma espécie de \"santo graal\" da segurança de software, porque usa matemática para comprovar que um programa funciona exatamente como deveria, sem vulnerabilidades críticas escondidas. Antes da IA, o processo era extremamente demorado: alguém precisava descrever manualmente as características do software que queria provar, transformar essa descrição em fórmulas e só então desenvolver a prova — um trabalho que podia levar anos para sistemas complexos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Agentes de IA reduzem boa parte desse tempo, segundo a Wired, o que tornou viável uma análise como a do protocolo do Signal. A ZDNet acrescenta que outras empresas de IA, como a OpenAI, também têm usado modelos para resolver problemas matemáticos complexos — alguns com quase um século de existência —, um sinal de que sistemas de IA vêm acelerando esse tipo de trabalho manual que antes só matemáticos e especialistas em segurança conseguiam fazer.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Nenhuma falha nova, mas identificou bugs antigos conhecidos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A análise não encontrou nenhuma vulnerabilidade nova nas partes do protocolo que avaliou, segundo a Wired. Como teste de controle, os pesquisadores também aplicaram o AlphaProof Code a versões antigas do Signal que já tinham falhas conhecidas e corrigidas há tempos — nesses casos, o sistema identificou corretamente os problemas e mostrou que aquelas versões não passavam pela verificação formal, segundo a mesma fonte.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a ZDNet, os agentes também auditaram as próprias provas que geraram e apontaram os trechos que precisavam de uma segunda checagem humana — apenas 1% do código analisado, segundo os pesquisadores citados pelo veículo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Trabalho não cobriu o aplicativo completo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A verificação ficou limitada a partes do protocolo e não cobriu, por exemplo, o aplicativo móvel completo do Signal, segundo a Wired. Swarat Chaudhuri, cientista pesquisador do DeepMind, disse à publicação que o resultado é apenas \"um marco em um processo maior\" até que a técnica possa ser aplicada em escala a todo tipo de software.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O avanço também se apoiou em verificações formais anteriores que a própria Signal Foundation já havia feito em partes menores do código, segundo as duas fontes. Ehren Kret, diretor de tecnologia do Signal, disse à Wired que a abordagem do DeepMind \"permite uma expansão significativa\" em relação a esse trabalho anterior, e que, com o crescimento das ameaças de segurança ligadas à IA, verificar rigorosamente a implementação do protocolo dá à empresa \"ainda mais confiança\" nas garantias de privacidade do seu código.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "DeepMind planeja abrir o código do sistema",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a ZDNet, o Google DeepMind pretende disponibilizar o AlphaProof Code como código aberto, com o objetivo de ajudar outros projetos a verificar sistemas críticos. A Wired acrescenta que os pesquisadores também vão divulgar a especificação e a prova que desenvolveram para o Signal, para apoiar outros trabalhos de verificação formal.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O que foi provado: partes das garantias criptográficas do protocolo do Signal, usado também pelo WhatsApp e pelo Google Messages, foram matematicamente verificadas pela primeira vez, segundo os pesquisadores citados pela Wired.",
+        "O que não foi coberto: a verificação não incluiu o aplicativo móvel completo do Signal.",
+        "Quando aconteceu: o trabalho foi conduzido em cerca de quatro semanas e divulgado nesta semana pela Wired e pela ZDNet.",
+        "O que vem a seguir: o Google DeepMind planeja abrir o código do AlphaProof Code e publicar a especificação e a prova usadas no Signal, para uso por outros projetos."
+      ]
+    }
+  ],
+  "image": {
+    "query": "digital padlock encryption binary code security",
+    "alt": "Ilustração de um cadeado digital representando criptografia e segurança de dados",
+    "path": "/assets/img/deepmind-prova-matematicamente-seguranca-aaa508db.jpg",
+    "credit": "Claudio Schwarz / Unsplash",
+    "author": "Claudio Schwarz",
+    "author_url": "https://unsplash.com/@purzlbaum?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-and-white-checked-textile-Pre8ZTFBGcM"
+  },
+  "sources": [
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure"
+    },
+    {
+      "name": "ZDNet",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/tech/google-deepmind-researchers-prove-signal-whatsapp-encryption-works/",
+      "title": "Google DeepMind researchers prove Signal, WhatsApp encryption works"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-11T15:50:00+00:00",
+  "updated_at": "2026-11-11T15:50:00+00:00"
+}
