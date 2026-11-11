@@ -7,35 +7,114 @@
   "meta_description": "Anthropic inició el roadshow de su oferta pública inicial, con acciones entre US$ 70 y US$ 78 cada una y listado previsto en el Nasdaq bajo el código \"ANT\".",
   "keyword": "IPO de Anthropic",
   "category": "mercado",
-  "tags": ["ia", "anthropic", "ipo", "mercado"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "ipo",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic lanzó este martes el roadshow de su oferta pública inicial (IPO) de acciones ordinarias Clase A, según el comunicado oficial de la empresa. La compañía planea vender 825 millones de acciones, a un precio entre US$ 70 y US$ 78 cada una.", "items": []},
-    {"type": "p", "text": "En una oferta de este tipo, el roadshow suele durar entre una y dos semanas: los ejecutivos de la empresa se reúnen con fondos de inversión y otros grandes compradores para presentar resultados financieros y planes de crecimiento, antes de que los bancos coordinadores fijen el precio final según la demanda que hayan registrado.", "items": []},
-    {"type": "p", "text": "Del total, 801.351.354 acciones serán vendidas por la propia Anthropic y 23.648.646 por accionistas que ya tienen participación en la empresa, según el mismo comunicado. SiliconANGLE identifica a esos accionistas como los siete cofundadores de la compañía.", "items": []},
-    {"type": "p", "text": "Anthropic también dará a los bancos que coordinan la oferta una opción de 30 días para comprar hasta 123,75 millones de acciones adicionales, de acuerdo con el comunicado. Goldman Sachs y Morgan Stanley figuran como los encargados de distribuir el prospecto de la oferta, según la empresa.", "items": []},
-    {"type": "p", "text": "Ese tipo de cláusula, habitual en las salidas a bolsa, permite a los bancos vender más acciones si la demanda de los inversores supera lo previsto, sin cambiar el precio ya fijado para la operación. La parte vendida por los accionistas actuales, en cambio, no es dinero nuevo para la empresa: es la transferencia al mercado de acciones que hoy pertenecen a los cofundadores, según la lectura de SiliconANGLE sobre el comunicado.", "items": []},
-    {"type": "h2", "text": "Cuánto podría recaudar la venta", "items": []},
-    {"type": "p", "text": "En el tope de la franja de precio, la venta de las 825 millones de acciones sumaría US$ 64.350 millones, según el cálculo de SiliconANGLE a partir de las cifras que la propia Anthropic divulgó. El comunicado no menciona el valor de mercado resultante para la empresa en su conjunto.", "items": []},
-    {"type": "h2", "text": "Cuándo se fijaría el precio de la oferta", "items": []},
-    {"type": "p", "text": "SiliconANGLE informa que Anthropic debería fijar el precio de sus acciones el 18 de noviembre, fecha en la que el directorio de la empresa y los bancos coordinadores cerrarían el valor final según la demanda registrada durante el roadshow. Esa fecha todavía depende de que la SEC apruebe el registro que la empresa presentó ante el regulador, según el medio.", "items": []},
-    {"type": "h2", "text": "Cotizará en el Nasdaq bajo el código ANT", "items": []},
-    {"type": "p", "text": "Anthropic solicitó cotizar sus acciones en el Nasdaq Global Select Market —el nivel más exigente de esa bolsa, reservado a empresas de mayor tamaño y liquidez— bajo el código \"ANT\", según el comunicado. El registro ante el regulador es el documento que detalla la oferta; la venta de las acciones solo puede comenzar después de que la SEC lo apruebe, algo que todavía no ocurrió.", "items": []},
-    {"type": "p", "text": "El lanzamiento del roadshow —la ronda de presentaciones de la empresa ante inversores institucionales que antecede a una oferta pública— llega como el paso siguiente después de que Anthropic presentara, a principios de noviembre, el registro inicial para salir a bolsa, cuando todavía no se habían fijado ni el precio ni la cantidad de acciones. Ahora la empresa tiene una franja de precio, un número de acciones y un plazo más claro para la oferta.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Franja de precio: entre US$ 70 y US$ 78 por acción, según Anthropic.",
-      "Tamaño de la oferta: 825 millones de acciones Clase A, de las cuales 801,35 millones las vende la propia empresa.",
-      "Opción adicional: los bancos colocadores pueden comprar hasta 123,75 millones de acciones extra en un plazo de 30 días.",
-      "Dónde cotizará: Nasdaq Global Select Market, bajo el código \"ANT\", todavía pendiente de la aprobación del registro ante la SEC."
-    ]}
+    {
+      "type": "p",
+      "text": "Anthropic lanzó este martes el roadshow de su oferta pública inicial (IPO) de acciones ordinarias Clase A, según el comunicado oficial de la empresa. La compañía planea vender 825 millones de acciones, a un precio entre US$ 70 y US$ 78 cada una.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En una oferta de este tipo, el roadshow suele durar entre una y dos semanas: los ejecutivos de la empresa se reúnen con fondos de inversión y otros grandes compradores para presentar resultados financieros y planes de crecimiento, antes de que los bancos coordinadores fijen el precio final según la demanda que hayan registrado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Del total, 801.351.354 acciones serán vendidas por la propia Anthropic y 23.648.646 por accionistas que ya tienen participación en la empresa, según el mismo comunicado. SiliconANGLE identifica a esos accionistas como los siete cofundadores de la compañía.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic también dará a los bancos que coordinan la oferta una opción de 30 días para comprar hasta 123,75 millones de acciones adicionales, de acuerdo con el comunicado. Goldman Sachs y Morgan Stanley figuran como los encargados de distribuir el prospecto de la oferta, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ese tipo de cláusula, habitual en las salidas a bolsa, permite a los bancos vender más acciones si la demanda de los inversores supera lo previsto, sin cambiar el precio ya fijado para la operación. La parte vendida por los accionistas actuales, en cambio, no es dinero nuevo para la empresa: es la transferencia al mercado de acciones que hoy pertenecen a los cofundadores, según la lectura de SiliconANGLE sobre el comunicado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cuánto podría recaudar la venta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En el tope de la franja de precio, la venta de las 825 millones de acciones sumaría US$ 64.350 millones, según el cálculo de SiliconANGLE a partir de las cifras que la propia Anthropic divulgó. El comunicado no menciona el valor de mercado resultante para la empresa en su conjunto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cuándo se fijaría el precio de la oferta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE informa que Anthropic debería fijar el precio de sus acciones el 18 de noviembre, fecha en la que el directorio de la empresa y los bancos coordinadores cerrarían el valor final según la demanda registrada durante el roadshow. Esa fecha todavía depende de que la SEC apruebe el registro que la empresa presentó ante el regulador, según el medio.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cotizará en el Nasdaq bajo el código ANT",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic solicitó cotizar sus acciones en el Nasdaq Global Select Market —el nivel más exigente de esa bolsa, reservado a empresas de mayor tamaño y liquidez— bajo el código \"ANT\", según el comunicado. El registro ante el regulador es el documento que detalla la oferta; la venta de las acciones solo puede comenzar después de que la SEC lo apruebe, algo que todavía no ocurrió.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El lanzamiento del roadshow —la ronda de presentaciones de la empresa ante inversores institucionales que antecede a una oferta pública— llega como el paso siguiente después de que Anthropic presentara, a principios de noviembre, el registro inicial para salir a bolsa, cuando todavía no se habían fijado ni el precio ni la cantidad de acciones. Ahora la empresa tiene una franja de precio, un número de acciones y un plazo más claro para la oferta.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Franja de precio: entre US$ 70 y US$ 78 por acción, según Anthropic.",
+        "Tamaño de la oferta: 825 millones de acciones Clase A, de las cuales 801,35 millones las vende la propia empresa.",
+        "Opción adicional: los bancos colocadores pueden comprar hasta 123,75 millones de acciones extra en un plazo de 30 días.",
+        "Dónde cotizará: Nasdaq Global Select Market, bajo el código \"ANT\", todavía pendiente de la aprobación del registro ante la SEC."
+      ]
+    }
   ],
   "image": {
     "query": "nasdaq stock exchange trading screen finance",
-    "alt": "Pantalla de cotizaciones bursátiles que representa la salida a bolsa de una empresa tecnológica"
+    "alt": "Pantalla de cotizaciones bursátiles que representa la salida a bolsa de una empresa tecnológica",
+    "path": "/assets/img/anthropic-roadshow-salida-bolsa-nasdaq-a-ce415c82.jpg",
+    "credit": "Daniel / Unsplash",
+    "author": "Daniel",
+    "author_url": "https://unsplash.com/@format_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/financial-stock-market-data-displayed-on-a-screen-EuIqk6LpUU0"
   },
   "sources": [
-    {"name": "Anthropic", "owner": "anthropic", "url": "https://www.anthropic.com/news/roadshow-launch", "title": "Anthropic launches roadshow for proposed initial public offering"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/", "title": "Anthropic launches IPO roadshow with $64B fundraising goal"}
+    {
+      "name": "Anthropic",
+      "owner": "anthropic",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "title": "Anthropic launches roadshow for proposed initial public offering"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/",
+      "title": "Anthropic launches IPO roadshow with $64B fundraising goal"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-11T10:48:46+00:00",
+  "updated_at": "2026-11-11T10:48:46+00:00"
 }

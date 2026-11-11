@@ -7,36 +7,119 @@
   "meta_description": "Anthropic began the roadshow for its IPO, offering shares priced between $70 and $78 and planning to list on Nasdaq, according to the company and SiliconANGLE.",
   "keyword": "Anthropic IPO",
   "category": "mercado",
-  "tags": ["ai", "anthropic", "ipo", "market"],
+  "tags": [
+    "ai",
+    "anthropic",
+    "ipo",
+    "market"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic kicked off the roadshow for its proposed initial public offering on Tuesday, according to the company's own announcement. The AI lab plans to sell 825 million shares of Class A common stock, priced between $70 and $78 each.", "items": []},
-    {"type": "p", "text": "In an offering like this, the roadshow typically runs one to two weeks: company executives meet with investment funds and other large buyers to present financial results and growth plans, before the underwriters set the final price based on the demand they've gathered.", "items": []},
-    {"type": "p", "text": "Of that total, 801,351,354 shares are being sold by Anthropic itself, and 23,648,646 by existing stockholders, per the same announcement. SiliconANGLE reports that those stockholders are the company's seven co-founders.", "items": []},
-    {"type": "p", "text": "Anthropic will also give the underwriters coordinating the sale a 30-day option to buy up to 123.75 million additional shares, the company said. Goldman Sachs and Morgan Stanley are listed as the banks handling the offering's prospectus, according to Anthropic.", "items": []},
-    {"type": "p", "text": "That kind of clause, common in stock offerings, lets the banks sell more shares if investor demand outstrips expectations, without changing the price already set for the deal. The portion sold by existing stockholders, on the other hand, isn't new money for the company — it's a transfer, to the market, of shares that today belong to the co-founders, per SiliconANGLE's reading of the announcement. The split means part of the deal's proceeds will go to those co-founders rather than to Anthropic's own balance sheet, even though the headline size of the offering stays the same.", "items": []},
-    {"type": "h2", "text": "How much the sale could raise", "items": []},
-    {"type": "p", "text": "At the top of the price range, selling all 825 million shares would raise $64.35 billion, according to SiliconANGLE's calculation based on the figures Anthropic disclosed. The announcement does not give the resulting market valuation for the company as a whole.", "items": []},
-    {"type": "h2", "text": "When the offering could price", "items": []},
-    {"type": "p", "text": "SiliconANGLE reports that Anthropic is expected to price its shares on Nov. 18, when the company's board and the underwriters would set the final value based on the demand gathered over the course of the roadshow. That date still depends on the SEC approving the registration statement the company filed with the regulator, according to the outlet.", "items": []},
-    {"type": "h2", "text": "Listing on Nasdaq as \"ANT\"", "items": []},
-    {"type": "p", "text": "Anthropic has applied to list its stock on the Nasdaq Global Select Market — the exchange's most demanding tier, reserved for larger, more liquid companies — under the ticker \"ANT,\" according to the announcement. The registration statement is the document that lays out the offering for the regulator; the shares can't actually be sold until the SEC declares it effective, which hasn't happened yet.", "items": []},
-    {"type": "p", "text": "The offering comes about a week after Anthropic <a href=\"https://cortexplor.com/en/openai-valuation-drops-anthropic-ipo/\">filed its initial paperwork to go public</a>, when no price or share count had been set yet, as Cortexplor reported. The company now has a price range, a share count and a clearer timeline for the offering.", "items": []},
-    {"type": "p", "text": "Once the sale closes, Anthropic will take on the obligations of a publicly traded U.S. company, including disclosing quarterly financial results to the market and reporting material decisions in a timely manner — requirements that don't apply to the company today as a private firm. Those disclosures would give outside investors, rather than just the company itself, a regular, standardized view into Anthropic's finances for the first time.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Price range: between $70 and $78 per share, according to Anthropic.",
-      "Offering size: 825 million Class A shares, of which 801.35 million are being sold by the company itself.",
-      "Over-allotment: underwriters can buy up to 123.75 million additional shares within 30 days.",
-      "Where it's listing: Nasdaq Global Select Market, under the ticker \"ANT,\" still pending SEC approval of the registration statement."
-    ]}
+    {
+      "type": "p",
+      "text": "Anthropic kicked off the roadshow for its proposed initial public offering on Tuesday, according to the company's own announcement. The AI lab plans to sell 825 million shares of Class A common stock, priced between $70 and $78 each.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In an offering like this, the roadshow typically runs one to two weeks: company executives meet with investment funds and other large buyers to present financial results and growth plans, before the underwriters set the final price based on the demand they've gathered.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Of that total, 801,351,354 shares are being sold by Anthropic itself, and 23,648,646 by existing stockholders, per the same announcement. SiliconANGLE reports that those stockholders are the company's seven co-founders.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic will also give the underwriters coordinating the sale a 30-day option to buy up to 123.75 million additional shares, the company said. Goldman Sachs and Morgan Stanley are listed as the banks handling the offering's prospectus, according to Anthropic.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "That kind of clause, common in stock offerings, lets the banks sell more shares if investor demand outstrips expectations, without changing the price already set for the deal. The portion sold by existing stockholders, on the other hand, isn't new money for the company — it's a transfer, to the market, of shares that today belong to the co-founders, per SiliconANGLE's reading of the announcement. The split means part of the deal's proceeds will go to those co-founders rather than to Anthropic's own balance sheet, even though the headline size of the offering stays the same.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How much the sale could raise",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At the top of the price range, selling all 825 million shares would raise $64.35 billion, according to SiliconANGLE's calculation based on the figures Anthropic disclosed. The announcement does not give the resulting market valuation for the company as a whole.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "When the offering could price",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE reports that Anthropic is expected to price its shares on Nov. 18, when the company's board and the underwriters would set the final value based on the demand gathered over the course of the roadshow. That date still depends on the SEC approving the registration statement the company filed with the regulator, according to the outlet.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Listing on Nasdaq as \"ANT\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic has applied to list its stock on the Nasdaq Global Select Market — the exchange's most demanding tier, reserved for larger, more liquid companies — under the ticker \"ANT,\" according to the announcement. The registration statement is the document that lays out the offering for the regulator; the shares can't actually be sold until the SEC declares it effective, which hasn't happened yet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The offering comes about a week after Anthropic <a href=\"https://cortexplor.com/en/openai-valuation-drops-anthropic-ipo/\">filed its initial paperwork to go public</a>, when no price or share count had been set yet, as Cortexplor reported. The company now has a price range, a share count and a clearer timeline for the offering.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Once the sale closes, Anthropic will take on the obligations of a publicly traded U.S. company, including disclosing quarterly financial results to the market and reporting material decisions in a timely manner — requirements that don't apply to the company today as a private firm. Those disclosures would give outside investors, rather than just the company itself, a regular, standardized view into Anthropic's finances for the first time.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Price range: between $70 and $78 per share, according to Anthropic.",
+        "Offering size: 825 million Class A shares, of which 801.35 million are being sold by the company itself.",
+        "Over-allotment: underwriters can buy up to 123.75 million additional shares within 30 days.",
+        "Where it's listing: Nasdaq Global Select Market, under the ticker \"ANT,\" still pending SEC approval of the registration statement."
+      ]
+    }
   ],
   "image": {
     "query": "nasdaq stock exchange trading screen finance",
-    "alt": "Stock ticker display representing a tech company's initial public offering"
+    "alt": "Stock ticker display representing a tech company's initial public offering",
+    "path": "/assets/img/anthropic-ipo-roadshow-nasdaq-ant-ce415c82.jpg",
+    "credit": "Daniel / Unsplash",
+    "author": "Daniel",
+    "author_url": "https://unsplash.com/@format_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/financial-stock-market-data-displayed-on-a-screen-EuIqk6LpUU0"
   },
   "sources": [
-    {"name": "Anthropic", "owner": "anthropic", "url": "https://www.anthropic.com/news/roadshow-launch", "title": "Anthropic launches roadshow for proposed initial public offering"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/", "title": "Anthropic launches IPO roadshow with $64B fundraising goal"}
+    {
+      "name": "Anthropic",
+      "owner": "anthropic",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "title": "Anthropic launches roadshow for proposed initial public offering"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/10/anthropic-launches-ipo-roadshow-with-64b-fundraising-goal/",
+      "title": "Anthropic launches IPO roadshow with $64B fundraising goal"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-11T10:48:45+00:00",
+  "updated_at": "2026-11-11T10:48:45+00:00"
 }
