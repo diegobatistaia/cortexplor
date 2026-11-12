@@ -7,7 +7,12 @@
   "meta_description": "Jensen Huang renunció como CEO de Nvidia tras revelarse dos infidelidades; Colette Kress asume la empresa de forma interina, según la CNBC y El Confidencial.",
   "keyword": "Jensen Huang renuncia Nvidia",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "jensen-huang", "mercado"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen-huang",
+    "mercado"
+  ],
   "body": [
     {
       "type": "p",
@@ -73,16 +78,59 @@
   ],
   "image": {
     "query": "nvidia ceo office empty chair corporate",
-    "alt": "Logotipo de Nvidia en la fachada de vidrio de un edificio corporativo"
+    "alt": "Logotipo de Nvidia en la fachada de vidrio de un edificio corporativo",
+    "path": "/assets/img/jensen-huang-renuncia-ceo-nvidia-escanda-cd808725.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "author": "Brecht Corbeel",
+    "author_url": "https://unsplash.com/@brechtcorbeel?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/nvidia-logo-on-a-green-background-with-abstract-3d-elements-y7N0LPyT5wo"
   },
   "sources": [
-    {"name": "The Guardian", "owner": "guardian", "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns", "title": "Jensen Huang resigns as Nvidia CEO after alleged affairs"},
-    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html", "title": "Nvidia stock falls nearly 10% as CEO Jensen Huang announces resignation"},
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns", "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals"},
-    {"name": "Wired", "owner": "conde-nast", "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/", "title": "Jensen Huang Resigns as Nvidia CEO"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/", "title": "Jensen Huang is out as NVIDIA CEO"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/news/live/jensen-huang-resigns-as-nvidia-ceo", "title": "Jensen Huang resigns as Nvidia CEO"},
-    {"name": "El Confidencial", "owner": "elconfidencial", "url": "https://www.elconfidencial.com/tecnologia/2026-11-12/dimite-jensen-huang-nvidia-infidelidades_4463789/", "title": "Dimite Jensen Huang, CEO de Nvidia, tras el escándalo de sus infidelidades y su relación con una espía china"}
+    {
+      "name": "The Guardian",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+      "title": "Jensen Huang resigns as Nvidia CEO after alleged affairs"
+    },
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "title": "Nvidia stock falls nearly 10% as CEO Jensen Huang announces resignation"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+      "title": "Jensen Huang Resigns as Nvidia CEO"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo/",
+      "title": "Jensen Huang is out as NVIDIA CEO"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/news/live/jensen-huang-resigns-as-nvidia-ceo",
+      "title": "Jensen Huang resigns as Nvidia CEO"
+    },
+    {
+      "name": "El Confidencial",
+      "owner": "elconfidencial",
+      "url": "https://www.elconfidencial.com/tecnologia/2026-11-12/dimite-jensen-huang-nvidia-infidelidades_4463789/",
+      "title": "Dimite Jensen Huang, CEO de Nvidia, tras el escándalo de sus infidelidades y su relación con una espía china"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-12T15:46:24+00:00",
+  "updated_at": "2026-11-12T15:46:24+00:00"
 }
