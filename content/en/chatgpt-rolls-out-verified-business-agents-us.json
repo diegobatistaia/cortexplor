@@ -1,0 +1,98 @@
+{
+  "lang": "en",
+  "slug": "chatgpt-rolls-out-verified-business-agents-us",
+  "story_id": "62a73125fa63e341",
+  "title": "ChatGPT Rolls Out Verified Business Agents, US Only for Now",
+  "dek": "Business Agents let users chat with verified brand representatives inside ChatGPT; the feature is in beta and limited to US businesses.",
+  "meta_description": "OpenAI is now rolling out verified AI Business Agents in ChatGPT to chat with brands; the beta is limited to US businesses, per The Verge and TechRadar.",
+  "keyword": "ChatGPT Business Agents",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "openai",
+    "chatgpt",
+    "applications"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI is rolling out verified AI \"Business Agents\" inside ChatGPT, letting users chat directly with an assistant that represents a specific company, according to The Verge and TechRadar. The feature is in beta and, for now, is only available to eligible e-commerce and online service businesses in the United States, according to both outlets.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI frames the change as part of a broader push to turn ChatGPT into a shopping channel. \"As people turn to AI to discover products, compare options and make decisions, ChatGPT has become the platform for people and businesses to connect through AI,\" the company wrote in a blog post, according to TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A company's agent appears when that business comes up in a ChatGPT reply, and users can ask it follow-up questions about products or compare options, according to The Verge. Conversations with a Business Agent are clearly labeled and kept separate from a user's main ChatGPT conversation, the outlet reports.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How businesses sign up",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "To create a verified agent, a company must register through a new tool called Business Hub, according to The Verge and TechRadar. There, it sets the agent's instructions and the business context it should draw on, and gets performance data on how it appears in ChatGPT, including how many times it's mentioned in the assistant's responses, according to both outlets. The Verge reports the Hub also surfaces top \"discovery topics\" where the business comes up, and TechRadar adds that it reports website clicks the business receives.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Verification itself runs through Business Hub, but OpenAI has not publicly detailed its methods — the company says they vary by business type, according to OpenAI VP of monetization Benji Shomair, speaking at a press briefing cited by The Verge. The rollout is part of a broader suite of business-focused features OpenAI unveiled in beta, and neither outlet reported a timeline for expanding Business Agents beyond the current eligible categories.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"We're starting with the foundations: accurate business information, useful insights and conversations that help people make informed decisions,\" OpenAI said in a blog post, according to The Verge and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar reports that user conversations, with both the main ChatGPT and with Business Agents, are not shared with businesses: because of a focus on privacy, performance data is only shown in aggregate, and only becomes available once the number of conversations or interactions crosses a certain minimum threshold, according to the outlet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar reports that existing OpenAI Enterprise customers and advertisers can already claim a profile on Business Hub, and that merchants using Shopify can connect their store directly through the Shopify admin panel or the Hub itself. The outlet adds that businesses will be able to pay to have their Business Agent featured more prominently through ChatGPT's ad system, with sponsored placements clearly labeled as such and kept visually separate from regular ChatGPT answers, according to the same report.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: only eligible e-commerce and online service businesses in the US can create a Business Agent for now, according to The Verge and TechRadar — the tool has not rolled out to other countries.",
+        "Since when: the feature launched in beta, with no announced timeline for international expansion, according to the same outlets.",
+        "What it costs: claiming and verifying a profile on Business Hub carries no stated fee; appearing more prominently requires paying through ChatGPT's ad system, according to TechRadar.",
+        "What changes: ChatGPT now answers some shopping questions through verified brand agents instead of only summarizing information pulled from the web, according to The Verge.",
+        "Who's affected: US e-commerce businesses that can register now, and US ChatGPT users who will start seeing these agents in responses, according to both outlets."
+      ]
+    }
+  ],
+  "image": {
+    "query": "smartphone showing chatgpt app with business chat interface",
+    "alt": "Smartphone screen showing the ChatGPT app with a business chat interface"
+  },
+  "sources": [
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "title": "ChatGPT is getting verified AI 'Business Agents'"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/chatgpt-is-adding-verified-business-agents-to-help-you-shop-more-effectively",
+      "title": "ChatGPT is adding verified 'Business Agents' to help you shop more effectively"
+    }
+  ],
+  "status": "draft"
+}
