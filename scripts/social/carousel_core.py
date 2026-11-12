@@ -123,7 +123,13 @@ class Ctx:
         self.slug = spec["slug"]
         L.PHOTO = self.photo  # usado pela rotina de meia-tinta
 
+    @property
+    def dy(self):
+        return 160 if self.n >= 6 else 0
+
     def fs(self, big, small):
+        if self.n >= 6:
+            return int(small * 0.55)
         return big if self.n <= 2 else small
 
     def confirm(self):

@@ -97,7 +97,7 @@ def v_jornal(c: Ctx, pat):
     s.append(sl(6, pat[5], f"""
 <div class='abs lab' style='left:64px;top:290px'>{c.u['sources']}</div>
 <div class='abs' style='left:64px;top:340px;width:952px'>{srcs}</div>
-<div class='abs' style='left:64px;top:900px;width:952px;font:italic 400 48px/1.2 "Instrument Serif";color:var(--soft)'>{c.u['full']} <span style='color:var(--ac)'>cortexplor.com</span></div>
+<div class='abs' style='left:64px;top:{900 + c.dy}px;width:952px;font:italic 400 48px/1.2 "Instrument Serif";color:var(--soft)'>{c.u['full']} <span style='color:var(--ac)'>cortexplor.com</span></div>
 <div class='abs' style='left:64px;top:1226px;font:500 19px Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--mu)'>{c.credit}</div>"""))
     return css, s
 
@@ -282,7 +282,7 @@ def v_meiatinta(c: Ctx, pat):
         f"<div class='slide H dk'><div class='abs' style='inset:0;background:url({cover}) center/cover;opacity:.5'></div>"
         f"<div class='abs' style='inset:0;background:linear-gradient(180deg,rgba(18,18,18,.4),rgba(18,18,18,.96) 70%)'></div>"
         f"<div class='top'><img src='{WM_W}'>{pill(6)}</div><div class='abs sf' style='left:56px;top:560px'>{c.u['sources']}</div>"
-        f"<div class='abs h' style='left:56px;top:620px;width:968px;font-size:62px;color:#ECE6D8'>{srcs}</div>"
+        f"<div class='abs h' style='left:56px;top:620px;width:968px;font-size:{62 if c.n < 6 else 40}px;color:#ECE6D8'>{srcs}</div>"
         f"<div class='abs bd' style='left:56px;top:1030px;width:968px;font-weight:700;color:#ECE6D8'>{c.u['full']} <span style='color:#E8542A'>cortexplor.com</span></div>"
         f"{ticks(6, '#ECE6D8', 'rgba(236,230,216,.22)', left=56, right=56, bottom=48)}</div>"
     )

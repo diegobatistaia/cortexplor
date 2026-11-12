@@ -100,7 +100,7 @@ def v_edicao(c: Ctx, pat):
     s.append(sl(6, pat[5], f"""
 <div class='abs lab' style='left:64px;top:300px'>{c.u['sources']}</div>
 <div class='abs' style='left:64px;top:350px;width:952px;border-top:2px solid var(--fg)'>{rows}</div>
-<div class='abs' style='left:64px;top:900px;width:952px;font-size:42px;line-height:1.3'>{c.u['full']} <b>cortexplor.com</b></div>
+<div class='abs' style='left:64px;top:{900 + c.dy}px;width:952px;font-size:42px;line-height:1.3'>{c.u['full']} <b>cortexplor.com</b></div>
 <div class='abs lab' style='left:64px;top:1226px;font-size:20px'>{c.credit}</div>"""))
     return css, s
 
@@ -285,13 +285,13 @@ def v_dossie(c: Ctx, pat):
     fs = c.fs(64, 44)
     pad = "8px 0 22px" if c.n <= 2 else "4px 0 12px"
     srows = "".join(
-        f"<div class='f' style='grid-template-columns:110px 1fr'><div class='k' style='font-size:34px;color:var(--acc)'>{i + 1:02d}</div><div class='v' style='font-size:{fs}px;font-weight:700;letter-spacing:-.04em;padding:{pad}'>{nm}</div></div>"
+        f"<div class='f' style='grid-template-columns:110px 1fr'><div class='k' style='font-size:34px;color:var(--acc);padding:{26 if c.n < 6 else 6}px 0'>{i + 1:02d}</div><div class='v' style='font-size:{fs}px;font-weight:700;letter-spacing:-.04em;padding:{pad}'>{nm}</div></div>"
         for i, nm in enumerate(c.src)
     )
     s.append(sl(6, pat[5], f"""
 <div class='abs lab' style='left:88px;top:300px'>{c.u['sources_long']}</div>
 <div class='abs' style='left:88px;top:350px;width:904px;border-bottom:2px solid var(--fg)'>{srows}</div>
-<div class='abs' style='left:88px;top:860px;width:904px;font-size:42px;line-height:1.3'>{c.u['full']} <b>cortexplor.com</b></div>
+<div class='abs' style='left:88px;top:{860 + c.dy * 5 // 8}px;width:904px;font-size:42px;line-height:1.3'>{c.u['full']} <b>cortexplor.com</b></div>
 <img class='abs' src='{WM_W}' style='left:88px;top:1130px;height:42px'>
 <div class='stamp' style='right:96px;top:1090px;font-size:24px'>{c.u['archived']}</div>""", f"{c.u['dossier']} {no} · {c.u['sources']}"))
     return css, s
