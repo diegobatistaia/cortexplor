@@ -1,0 +1,98 @@
+{
+  "lang": "es",
+  "slug": "chatgpt-lanza-business-agents-verificados-eeuu",
+  "story_id": "62a73125fa63e341",
+  "title": "ChatGPT Lanza Agentes de Empresas Verificados, Solo en EE. UU.",
+  "dek": "Los Business Agents permiten chatear con representantes verificados de marcas dentro de ChatGPT; la función está en pruebas y limitada a EE. UU.",
+  "meta_description": "OpenAI lanza en ChatGPT agentes de inteligencia artificial verificados de empresas, en fase beta y limitados por ahora a EE. UU., según The Verge y TechRadar.",
+  "keyword": "ChatGPT Business Agents",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "openai",
+    "chatgpt",
+    "aplicaciones"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI está lanzando dentro de ChatGPT agentes de inteligencia artificial verificados llamados \"Business Agents\", que permiten a los usuarios chatear directamente con un asistente que representa a una empresa concreta, según The Verge y TechRadar. La función está en fase beta y, por ahora, solo está disponible para negocios de comercio electrónico y servicios en línea elegibles en Estados Unidos, según ambos medios.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI describe el cambio como parte de un movimiento más amplio para convertir a ChatGPT en un canal de compras. \"A medida que las personas recurren a la IA para descubrir productos, comparar opciones y tomar decisiones, ChatGPT se ha convertido en la plataforma donde personas y empresas se conectan a través de la IA\", escribió la empresa en una entrada de blog, según TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El agente de una empresa aparece cuando esa marca surge en una respuesta de ChatGPT, y el usuario puede hacerle preguntas de seguimiento sobre productos o comparar opciones, según The Verge. Las conversaciones con un Business Agent quedan marcadas y separadas de la conversación principal del usuario con ChatGPT, según la publicación.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se registran las empresas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para crear un agente verificado, la empresa debe registrarse en una nueva herramienta llamada Business Hub, según The Verge y TechRadar. Allí define las instrucciones del agente y el contexto de negocio que debe usar para responder, y recibe datos sobre su desempeño dentro de ChatGPT, incluido el número de menciones en las respuestas del asistente, según ambos medios. TechRadar añade que el Hub también informa los clics que recibe el sitio web de la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La verificación se hace dentro del propio Business Hub, pero OpenAI no detalló públicamente el método: la empresa dice que varía según el tipo de negocio, según el vicepresidente de monetización de OpenAI, Benji Shomair, en una rueda de prensa citada por The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Estamos empezando por las bases: información precisa sobre las empresas, datos útiles y conversaciones que ayudan a las personas a tomar decisiones informadas\", afirmó OpenAI en una entrada de blog, según The Verge y TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar informa que las conversaciones de los usuarios, tanto con el ChatGPT principal como con los Business Agents, no se comparten con las empresas: por el enfoque en privacidad, los datos de desempeño solo se muestran de forma agregada, y únicamente están disponibles cuando el número de conversaciones o interacciones supera un umbral mínimo, según el medio.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar informa que los clientes empresariales de OpenAI y los anunciantes ya existentes pueden reclamar su perfil en Business Hub, y que los comercios que usan Shopify pueden conectar su tienda directamente desde el panel de administración de Shopify o desde el propio Hub. El medio añade que las empresas podrán pagar para que su Business Agent aparezca con más visibilidad mediante el sistema de anuncios de ChatGPT, con los espacios patrocinados claramente identificados como tales.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: por ahora solo los negocios de comercio electrónico y servicios en línea elegibles en Estados Unidos pueden crear un Business Agent, según The Verge y TechRadar; la herramienta no ha llegado a España ni a América Latina.",
+        "Desde cuándo: la función se lanzó en fase beta, sin fecha anunciada para su expansión internacional, según las mismas fuentes.",
+        "Cuánto cuesta: reclamar y verificar un perfil en Business Hub no tiene costo informado; aparecer con más visibilidad requiere pago a través del sistema de anuncios de ChatGPT, según TechRadar.",
+        "Qué cambia: ChatGPT empieza a responder algunas preguntas de compras con agentes de marcas verificadas, en lugar de solo resumir información tomada de la web, según The Verge.",
+        "A quién afecta: a los negocios de comercio electrónico en EE. UU. que ya pueden registrarse, y a los usuarios de ChatGPT en ese país, que comenzarán a ver estos agentes en las respuestas, según ambos medios."
+      ]
+    }
+  ],
+  "image": {
+    "query": "smartphone showing chatgpt app with business chat interface",
+    "alt": "Pantalla de un smartphone con la app de ChatGPT y una interfaz de chat con una empresa"
+  },
+  "sources": [
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+      "title": "ChatGPT is getting verified AI 'Business Agents'"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/chatgpt-is-adding-verified-business-agents-to-help-you-shop-more-effectively",
+      "title": "ChatGPT is adding verified 'Business Agents' to help you shop more effectively"
+    }
+  ],
+  "status": "draft"
+}
