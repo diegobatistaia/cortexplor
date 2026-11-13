@@ -1,0 +1,43 @@
+{
+  "lang": "es",
+  "slug": "openai-lanza-chatgpt-wallet-agentes-ia",
+  "story_id": "ef37be8d170c9fa6",
+  "title": "OpenAI lanza ChatGPT Wallet para que sus agentes de IA compren por ti",
+  "dek": "ChatGPT Wallet permite que los agentes Dots paguen con tarjeta, aunque de momento solo para suscriptores Pro en EE. UU.",
+  "meta_description": "OpenAI lanza ChatGPT Wallet, que permite a sus agentes Dots comprar con tarjeta en nombre del usuario, limitado por ahora a suscriptores Pro en EE. UU.",
+  "keyword": "ChatGPT Wallet",
+  "category": "aplicacoes",
+  "tags": ["ia", "openai", "chatgpt", "pagos", "agentes-ia"],
+  "body": [
+    {"type": "p", "text": "OpenAI lanzó el viernes ChatGPT Wallet, una función de pago que permite a sus agentes de IA llamados Dots hacer compras en nombre del usuario, según CNBC y The Verge.", "items": []},
+    {"type": "p", "text": "El despliegue arranca limitado a suscriptores del plan ChatGPT Pro en Estados Unidos, con 18 años o más. The Verge añade que también se necesita una dirección de facturación en EE. UU. y una tarjeta emitida en el país.", "items": []},
+    {"type": "p", "text": "Tras registrar una tarjeta, el usuario puede pedirle a su agente Dots que encuentre algo para comprar. El agente presenta la opción, pero la compra solo se completa después de que el usuario la apruebe con una verificación de seguridad en cada transacción, según CNBC y The Verge. The Verge precisa que esa verificación puede ser biométrica, como reconocimiento facial o huella digital.", "items": []},
+    {"type": "h2", "text": "Cómo funciona el mecanismo de seguridad", "items": []},
+    {"type": "p", "text": "El agente nunca accede al número real de la tarjeta. En su lugar, la red de pago genera un \"token de pago\": un número de tarjeta, código de seguridad y fecha de vencimiento propios de esa transacción, según CNBC. The Verge compara la lógica con la de Apple Pay y Google Wallet.", "items": []},
+    {"type": "p", "text": "CNBC informa que la función se construyó en colaboración con American Express, Mastercard y Visa. The Verge enumera como tarjetas aceptadas las emitidas en EE. UU. por American Express, Chase, Mastercard y Visa.", "items": []},
+    {"type": "p", "text": "Según la entrevista de CNBC con Chaya Nayak, responsable de monetización y pagos en OpenAI, la empresa no cobra comisión por las transacciones en esta etapa inicial. El objetivo ahora es construir relaciones con comercios y redes de pago.", "items": []},
+    {"type": "p", "text": "ChatGPT Wallet es el nuevo intento de OpenAI de convertir las compras dentro del chatbot en un negocio. La empresa ya había lanzado y luego retirado una función llamada \"Instant Checkout\" el otoño pasado, y revisó de nuevo la experiencia de compra en marzo, según CNBC.", "items": []},
+    {"type": "p", "text": "No todos los comercios quieren recibir agentes de IA. Amazon ya bloquea a los agentes de comprar en su plataforma —la tienda bloqueó antes a los agentes Muse, de Meta, según The Verge— y United Airlines dijo que impedirá que los agentes reserven billetes en su sitio, según CNBC.", "items": []},
+    {"type": "p", "text": "Los agentes Dots se lanzaron en la conferencia anual de desarrolladores de OpenAI, a fines de septiembre, poco después de que la aplicación Muse, de Meta, llegara a la cima de la App Store, según CNBC. Las dos empresas ya compiten por este tipo de asistente de compras automatizado.", "items": []},
+    {"type": "p", "text": "OpenAI afirma que el comercio con agentes todavía está en sus \"primeros días\" y publicó una guía para ayudar a los comercios a configurar sus sitios y no bloquear agentes por error. \"Va a tomar tiempo que el ecosistema construya la infraestructura adecuada\", dijo Nayak a CNBC.", "items": []},
+    {"type": "p", "text": "OpenAI afirma que ChatGPT tiene más de 1.200 millones de usuarios activos semanales y casi 100 millones de suscriptores de pago hasta el final del tercer trimestre, según CNBC. Luke Gebb, vicepresidente ejecutivo de Amex, dijo a CNBC que esa escala le permite a OpenAI \"subir el volumen\" de ChatGPT Wallet cuando quiera, aunque empezar en un entorno controlado es el enfoque correcto para asegurarse de que el sistema funcione.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: suscriptores de ChatGPT Pro en Estados Unidos, de 18 años o más, con dirección de facturación y tarjeta emitidas en el país, según CNBC y The Verge.",
+      "Desde cuándo: el despliegue comenzó este viernes 13 de noviembre, según ambas fuentes.",
+      "Cuánto cuesta: está incluido en la suscripción Pro; OpenAI no cobra comisión sobre las compras por ahora, según CNBC.",
+      "Qué cambia respecto a antes: sustituye intentos anteriores de la empresa de habilitar compras dentro del chat, como el ya descontinuado Instant Checkout, según CNBC.",
+      "A quién afecta: los comercios deben decidir si aceptan compras de agentes de IA; Amazon y United Airlines ya bloquean ese tipo de acceso, según The Verge y CNBC."
+    ]}
+  ],
+  "image": {
+    "query": "digital wallet credit card smartphone payment",
+    "alt": "Tarjeta de crédito junto a un smartphone que representa un pago digital"
+  },
+  "sources": [
+    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-chatgpt-wallet", "title": "Introducing ChatGPT Wallet"},
+    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html", "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users"},
+    {"name": "Verge", "owner": "vox-media", "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet", "title": "ChatGPT Wallet lets OpenAI's Dots agents make purchases for you"}
+  ],
+  "status": "draft"
+}
