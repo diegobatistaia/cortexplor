@@ -7,38 +7,130 @@
   "meta_description": "O Google lança o Gemini 4 Hydrogen e o integra ao Google Search em todo o mundo; o novo modelo custa US$ 1,50 por milhão de tokens, segundo a SiliconANGLE.",
   "keyword": "Gemini 4 Hydrogen",
   "category": "modelos",
-  "tags": ["ia", "google", "gemini", "modelos"],
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "modelos"
+  ],
   "body": [
-    {"type": "p", "text": "O Google lançou o Gemini 4 Hydrogen e já integrou o modelo ao Google Search em todo o mundo, segundo comunicados da Google DeepMind e do Google AI. O lançamento chega poucos dias depois do Gemini 4 Carbon, o modelo mais avançado da família, segundo a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Diferente do Carbon e do Argon, feitos para raciocínio profundo em problemas complexos, o Hydrogen foi construído para execução rápida em fluxos de trabalho com agentes, de acordo com a Google DeepMind. A empresa afirma que o modelo atende quem precisa escrever código, rodar testes e corrigir erros com velocidade, deixando o raciocínio mais pesado para os modelos maiores da família.", "items": []},
-    {"type": "h2", "text": "Desempenho e preço, segundo a Google e a SiliconANGLE", "items": []},
-    {"type": "p", "text": "No Artificial Analysis Intelligence Index, teste independente usado pela própria empresa para comparar seus modelos, o Hydrogen marcou 51 pontos no nível de raciocínio padrão, contra 50 do Argon, e chega a 54 pontos no novo nível \"xhigh\", segundo a Google DeepMind e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "O novo modelo custa US$ 1,50 por milhão de tokens de entrada e US$ 7,50 por milhão de tokens de saída, valor fixo em toda a janela de contexto de 1 milhão de tokens, confirmam a Google DeepMind e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "O Hydrogen tem quatro níveis de raciocínio — baixo, médio, alto (o padrão) e o novo \"xhigh\" —, o que permite escolher entre velocidade, custo e profundidade de resposta conforme a tarefa, segundo a Google DeepMind. A empresa diz ainda que o modelo chega com reforços do pacote de segurança mais recente da família Gemini 4, pensado para reduzir respostas enganosas e uso indevido, e que essa camada agora atende o maior público já alcançado pela linha.", "items": []},
-    {"type": "h2", "text": "Um recurso que escolhe o modelo certo", "items": []},
-    {"type": "p", "text": "A Google também lançou o Orchestrator, recurso do Google Antigravity que alterna automaticamente entre o Hydrogen e o Carbon dentro da mesma sessão de trabalho, segundo a Google DeepMind. No teste Terminal-Bench 4.0, a ferramenta chegou perto da taxa de sucesso do Carbon usando, em média, 24% menos cota de uso, segundo a empresa — número que a SiliconANGLE confirma a partir dos próprios testes do Google.", "items": []},
-    {"type": "p", "text": "Comparado ao Gemini 3.8 Flash, lançado em setembro, o Hydrogen termina tarefas 2,5 vezes mais rápido no nível padrão e mais que triplicou a pontuação no Terminal-Bench 4.1, que mede tarefas de linha de comando, saltando de 18,2% para 57%, segundo a Google DeepMind e a SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Disponibilidade", "items": []},
-    {"type": "p", "text": "O Hydrogen já pode ser usado por qualquer pessoa, incluindo quem está no plano gratuito do aplicativo Gemini, segundo a SiliconANGLE. O modelo também está disponível na Gemini API, no Google AI Studio, no Gemini for Business e no Google Search; no Google Antigravity, o acesso é só para assinantes pagos do Google AI Pro e do Google AI Ultra.", "items": []},
-    {"type": "p", "text": "Segundo a SiliconANGLE, é o terceiro modelo da família Gemini 4 lançado em pouco mais de seis semanas, depois do Argon e do Carbon.", "items": []},
-    {"type": "h2", "text": "Demonstrações da própria empresa", "items": []},
-    {"type": "p", "text": "A Google DeepMind divulgou exemplos de uso do Hydrogen dentro do Google Antigravity, seu ambiente de programação com agentes: a empresa diz que o modelo montou uma loja virtual com efeitos gráficos em 3D a partir de um único pedido em texto, transformou milhares de células do Google Sheets em uma animação e gerou uma apresentação de slides inteira a partir de um vídeo de referência, revisando sozinho o layout de cada slide depois.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "O Gemini 4 Hydrogen já está disponível na Gemini API, no Google AI Studio, no Google Search e no aplicativo Gemini, inclusive no plano gratuito, segundo a SiliconANGLE.",
-      "Custa US$ 1,50 por milhão de tokens de entrada e US$ 7,50 por milhão de tokens de saída, valor fixo até 1 milhão de tokens de contexto, segundo a Google DeepMind.",
-      "No Google Antigravity, o modelo e o recurso Orchestrator só estão liberados para assinantes pagos do Google AI Pro e do Google AI Ultra.",
-      "É o terceiro modelo da família Gemini 4 lançado em pouco mais de seis semanas, depois do Argon e do Carbon, segundo a SiliconANGLE."
-    ]}
+    {
+      "type": "p",
+      "text": "O Google lançou o Gemini 4 Hydrogen e já integrou o modelo ao Google Search em todo o mundo, segundo comunicados da Google DeepMind e do Google AI. O lançamento chega poucos dias depois do Gemini 4 Carbon, o modelo mais avançado da família, segundo a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Diferente do Carbon e do Argon, feitos para raciocínio profundo em problemas complexos, o Hydrogen foi construído para execução rápida em fluxos de trabalho com agentes, de acordo com a Google DeepMind. A empresa afirma que o modelo atende quem precisa escrever código, rodar testes e corrigir erros com velocidade, deixando o raciocínio mais pesado para os modelos maiores da família.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Desempenho e preço, segundo a Google e a SiliconANGLE",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No Artificial Analysis Intelligence Index, teste independente usado pela própria empresa para comparar seus modelos, o Hydrogen marcou 51 pontos no nível de raciocínio padrão, contra 50 do Argon, e chega a 54 pontos no novo nível \"xhigh\", segundo a Google DeepMind e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O novo modelo custa US$ 1,50 por milhão de tokens de entrada e US$ 7,50 por milhão de tokens de saída, valor fixo em toda a janela de contexto de 1 milhão de tokens, confirmam a Google DeepMind e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Hydrogen tem quatro níveis de raciocínio — baixo, médio, alto (o padrão) e o novo \"xhigh\" —, o que permite escolher entre velocidade, custo e profundidade de resposta conforme a tarefa, segundo a Google DeepMind. A empresa diz ainda que o modelo chega com reforços do pacote de segurança mais recente da família Gemini 4, pensado para reduzir respostas enganosas e uso indevido, e que essa camada agora atende o maior público já alcançado pela linha.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um recurso que escolhe o modelo certo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Google também lançou o Orchestrator, recurso do Google Antigravity que alterna automaticamente entre o Hydrogen e o Carbon dentro da mesma sessão de trabalho, segundo a Google DeepMind. No teste Terminal-Bench 4.0, a ferramenta chegou perto da taxa de sucesso do Carbon usando, em média, 24% menos cota de uso, segundo a empresa — número que a SiliconANGLE confirma a partir dos próprios testes do Google.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Comparado ao Gemini 3.8 Flash, lançado em setembro, o Hydrogen termina tarefas 2,5 vezes mais rápido no nível padrão e mais que triplicou a pontuação no Terminal-Bench 4.1, que mede tarefas de linha de comando, saltando de 18,2% para 57%, segundo a Google DeepMind e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Disponibilidade",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Hydrogen já pode ser usado por qualquer pessoa, incluindo quem está no plano gratuito do aplicativo Gemini, segundo a SiliconANGLE. O modelo também está disponível na Gemini API, no Google AI Studio, no Gemini for Business e no Google Search; no Google Antigravity, o acesso é só para assinantes pagos do Google AI Pro e do Google AI Ultra.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a SiliconANGLE, é o terceiro modelo da família Gemini 4 lançado em pouco mais de seis semanas, depois do Argon e do Carbon.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Demonstrações da própria empresa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Google DeepMind divulgou exemplos de uso do Hydrogen dentro do Google Antigravity, seu ambiente de programação com agentes: a empresa diz que o modelo montou uma loja virtual com efeitos gráficos em 3D a partir de um único pedido em texto, transformou milhares de células do Google Sheets em uma animação e gerou uma apresentação de slides inteira a partir de um vídeo de referência, revisando sozinho o layout de cada slide depois.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O Gemini 4 Hydrogen já está disponível na Gemini API, no Google AI Studio, no Google Search e no aplicativo Gemini, inclusive no plano gratuito, segundo a SiliconANGLE.",
+        "Custa US$ 1,50 por milhão de tokens de entrada e US$ 7,50 por milhão de tokens de saída, valor fixo até 1 milhão de tokens de contexto, segundo a Google DeepMind.",
+        "No Google Antigravity, o modelo e o recurso Orchestrator só estão liberados para assinantes pagos do Google AI Pro e do Google AI Ultra.",
+        "É o terceiro modelo da família Gemini 4 lançado em pouco mais de seis semanas, depois do Argon e do Carbon, segundo a SiliconANGLE."
+      ]
+    }
   ],
   "image": {
     "query": "google search artificial intelligence abstract technology",
-    "alt": "Ilustração abstrata representando inteligência artificial integrada à busca do Google"
+    "alt": "Ilustração abstrata representando inteligência artificial integrada à busca do Google",
+    "path": "/assets/img/google-lanca-gemini-4-hydrogen-na-busca-fa73c06e.jpg",
+    "credit": "Shutter Speed / Unsplash",
+    "author": "Shutter Speed",
+    "author_url": "https://unsplash.com/@shutter_speed_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-cell-phone-with-the-google-logo-in-the-background-0uMU42uRw28"
   },
   "sources": [
-    {"name": "Google AI", "owner": "alphabet", "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/", "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen"},
-    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/", "title": "Introducing Gemini 4 Hydrogen"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/12/google-releases-gemini-4-hydrogen-a-lower-cost-model-said-to-outscore-argon/", "title": "Google releases Gemini 4 Hydrogen, a lower-cost model said to outscore Argon"}
+    {
+      "name": "Google AI",
+      "owner": "alphabet",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen"
+    },
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "title": "Introducing Gemini 4 Hydrogen"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/12/google-releases-gemini-4-hydrogen-a-lower-cost-model-said-to-outscore-argon/",
+      "title": "Google releases Gemini 4 Hydrogen, a lower-cost model said to outscore Argon"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-13T10:52:26+00:00",
+  "updated_at": "2026-11-13T10:52:26+00:00"
 }
