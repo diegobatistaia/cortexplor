@@ -1,0 +1,102 @@
+{
+  "slug": "google-ships-gemini-4-hydrogen-search",
+  "lang": "en",
+  "date": "13 Nov 2026",
+  "no": 107,
+  "category": "Models",
+  "kicker": "Models · Google",
+  "headline": "Google ships Gemini 4 Hydrogen and brings it to Search",
+  "headline_hl": "Hydrogen",
+  "dek": "The fast agent model is already in Google Search, per Google DeepMind.",
+  "image": {
+    "path": "assets/img/google-ships-gemini-4-hydrogen-search-fa73c06e.jpg",
+    "credit": "Shutter Speed / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Fast<br>model",
+  "sources": [
+    "Google AI",
+    "Google DeepMind",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "Hydrogen hits Search",
+    "body": [
+      "Google launched Gemini 4 Hydrogen and already put it in Google Search worldwide, per Google DeepMind and Google AI.",
+      "It was built for fast execution in agent workflows (Google DeepMind)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Performance",
+    "body": "Per Google DeepMind and SiliconANGLE:",
+    "points": [
+      {
+        "h": "Index",
+        "t": "Scored 51 points; Argon 50 (SiliconANGLE)."
+      },
+      {
+        "h": "xhigh",
+        "t": "Reaches 54 points on xhigh (SiliconANGLE)."
+      },
+      {
+        "h": "Price",
+        "t": "$1.50 per million input (Google AI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Orchestrator",
+    "body": [
+      "The feature switches between Hydrogen and Carbon and used 24% less quota, per Google DeepMind.",
+      "Hydrogen finishes tasks 2.5 times faster than Gemini 3.8 Flash (Google DeepMind)."
+    ],
+    "stat": {
+      "big": "2.5x",
+      "cap": "faster than 3.8 Flash (Google DeepMind)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "Where to use it",
+    "items": [
+      {
+        "h": "Free",
+        "t": "It is on the free Gemini app plan (SiliconANGLE)."
+      },
+      {
+        "h": "API",
+        "t": "Gemini API and Google AI Studio (Google DeepMind)."
+      },
+      {
+        "h": "Paid",
+        "t": "In Antigravity, Pro and Ultra only (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google launched Gemini 4 Hydrogen and already put it in Google Search worldwide.",
+    "body": [
+      "Per Google DeepMind and SiliconANGLE, Hydrogen was built for fast execution in agent workflows. On the Artificial Analysis Intelligence Index it scored 51 points, against 50 for Argon, and reaches 54 on the new xhigh level. It costs $1.50 per million input tokens and $7.50 for output.",
+      "Antigravity's Orchestrator switches between Hydrogen and Carbon and used 24% less quota in tests, per Google DeepMind. It also says Hydrogen finishes tasks 2.5 times faster than Gemini 3.8 Flash. SiliconANGLE reports the model is on the free Gemini app plan and in the API."
+    ],
+    "cta_variant": "A",
+    "cta": "Do you want a faster AI model in Search?",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#gemini",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google's Gemini 4 Hydrogen in Search",
+    "Slide 2: Google ships Gemini 4 Hydrogen and brings it to Google Search",
+    "Slide 3: Gemini 4 Hydrogen performance and price",
+    "Slide 4: Orchestrator and speed of Gemini 4 Hydrogen",
+    "Slide 5: where to use Gemini 4 Hydrogen, free plan and API",
+    "Slide 6: sources for the Gemini 4 Hydrogen story: Google and SiliconANGLE"
+  ]
+}
