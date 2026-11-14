@@ -7,7 +7,12 @@
   "meta_description": "Empleados de Nvidia pidieron, por canales internos, la vuelta de Jensen Huang como CEO tras su renuncia, según Canaltech y Tecmundo, que citan a Wired.",
   "keyword": "empleados Nvidia Jensen Huang",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "jensen-huang", "mercado"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen-huang",
+    "mercado"
+  ],
   "body": [
     {
       "type": "p",
@@ -83,7 +88,13 @@
   ],
   "image": {
     "query": "nvidia office headquarters employees technology corporate",
-    "alt": "Sede de Nvidia, donde empleados pidieron la vuelta del exCEO Jensen Huang"
+    "alt": "Sede de Nvidia, donde empleados pidieron la vuelta del exCEO Jensen Huang",
+    "path": "/assets/img/empleados-nvidia-piden-vuelta-jensen-hua-2ce956ba.jpg",
+    "credit": "BoliviaInteligente / Unsplash",
+    "author": "BoliviaInteligente",
+    "author_url": "https://unsplash.com/@boliviainteligente?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/logo-eyWlM1f0Vu0"
   },
   "sources": [
     {
@@ -99,5 +110,7 @@
       "title": "Funcionários da Nvidia pedem volta de Huang em chat interno"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-14T15:51:21+00:00",
+  "updated_at": "2026-11-14T15:51:21+00:00"
 }

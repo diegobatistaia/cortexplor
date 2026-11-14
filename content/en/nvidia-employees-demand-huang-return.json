@@ -7,7 +7,12 @@
   "meta_description": "Nvidia employees used internal channels to ask for Jensen Huang's return as CEO days after his resignation, per Wired, relayed by Canaltech and Tecmundo.",
   "keyword": "Nvidia employees Jensen Huang return",
   "category": "mercado",
-  "tags": ["ai", "nvidia", "jensen-huang", "market"],
+  "tags": [
+    "ai",
+    "nvidia",
+    "jensen-huang",
+    "market"
+  ],
   "body": [
     {
       "type": "p",
@@ -88,7 +93,13 @@
   ],
   "image": {
     "query": "nvidia office headquarters employees technology corporate",
-    "alt": "Nvidia's headquarters, where employees asked for former CEO Jensen Huang's return"
+    "alt": "Nvidia's headquarters, where employees asked for former CEO Jensen Huang's return",
+    "path": "/assets/img/nvidia-employees-demand-huang-return-2ce956ba.jpg",
+    "credit": "BoliviaInteligente / Unsplash",
+    "author": "BoliviaInteligente",
+    "author_url": "https://unsplash.com/@boliviainteligente?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/logo-eyWlM1f0Vu0"
   },
   "sources": [
     {
@@ -104,5 +115,7 @@
       "title": "Funcionários da Nvidia pedem volta de Huang em chat interno"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-14T15:51:21+00:00",
+  "updated_at": "2026-11-14T15:51:21+00:00"
 }
