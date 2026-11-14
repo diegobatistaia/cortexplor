@@ -1,0 +1,116 @@
+{
+  "lang": "en",
+  "slug": "hugging-face-adds-google-cloud-billing",
+  "story_id": "b31d4dd67f51d1ed",
+  "title": "Hugging Face Now Lets Teams Bill Usage Through Google Cloud",
+  "dek": "Organizations can link their Hugging Face account to Google Cloud and skip the credit card, according to the company itself.",
+  "meta_description": "Hugging Face now bills paid platform usage straight to a Google Cloud account instead of a credit card; here is how the account link works, per the company.",
+  "keyword": "Hugging Face Google Cloud billing",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "hugging-face",
+    "google-cloud",
+    "applications"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Hugging Face now lets organizations pay for the platform directly through their Google Cloud account instead of relying only on a credit card, according to a statement the company published on its own blog.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Hugging Face, the change covers the platform's paid services: hosting private models and datasets, running GPU workloads through the Jobs feature, deploying models via Inference Endpoints, reaching thousands of models with the Inference Providers tool, and hosting demos on GPU-backed Spaces. The company describes these as the tools teams use to find, build and run open models.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the account link works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per the company, the process starts on the Google Cloud Marketplace, where a Hugging Face organization admin subscribes to the \"Hugging Face Hub\" listing, picks the Google Cloud project and billing account to use, and accepts the subscription terms.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google Cloud then redirects the admin to Hugging Face, where they pick which organization to link — only organizations where that person is an admin appear, the company said. Once confirmed, the organization's billing settings show the Google Cloud account as the payment method, with a pending status.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A review before it takes effect",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Hugging Face, every subscription made through the Google Cloud Marketplace is reviewed by its own team before paid usage starts being billed through that channel. Until the review clears, charges still go to whatever payment method the organization had registered before, if any. The announcement does not say how long that review usually takes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company says an organization with a credit card already registered keeps using it until its next billing cycle starts, and only then moves over to Google Cloud billing. Free-tier organizations with no card on file usually switch right away, according to Hugging Face.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Once the link is approved, Hugging Face sends an email confirming the organization and the Google Cloud account are linked, according to the company. From then on, every member of the organization can keep using the paid compute services as usual, and the cost shows up on the company's Google Cloud bill. To confirm it, an admin can open the organization's billing settings on Hugging Face: the Google Cloud account appears there as the active payment method.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why it matters for teams already on Google Cloud",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hugging Face itself explains the motivation: companies that already run their infrastructure on Google Cloud often have to go through an internal vendor-approval process and register a corporate credit card just to adopt a new service, which slows things down. By billing through the same cloud account a company already uses, Hugging Face removes that extra step for teams in that position.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The change does not touch what Hugging Face charges for its services — it only changes how that amount gets paid. Only an admin of a given Hugging Face organization can start the link, and only organizations where that person holds admin rights show up as options during setup, according to the company.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: admins of Hugging Face organizations that already have a Google Cloud account, according to the company.",
+        "What changes: paid usage on Hugging Face used to require a credit card on file; it can now be billed directly through Google Cloud.",
+        "How to set it up: subscribe to the \"Hugging Face Hub\" listing on Google Cloud Marketplace, then confirm the link on Hugging Face by selecting the organization.",
+        "When it kicks in: Hugging Face reviews every subscription before billing switches over; until approval, the previous payment method keeps being used, per the company.",
+        "Services covered: private model and dataset hosting, GPUs through Jobs, Inference Endpoints, Inference Providers and GPU-backed Spaces, according to Hugging Face."
+      ]
+    }
+  ],
+  "image": {
+    "query": "cloud computing billing dashboard technology",
+    "alt": "Computer dashboard displaying cloud usage and billing charts",
+    "path": "/assets/img/hugging-face-adds-google-cloud-billing-88fcd389.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/3d-render-of-cloud-computing-concept-Am6pBe2FpJw"
+  },
+  "sources": [
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account"
+    }
+  ],
+  "status": "published",
+  "fonte_unica": "anuncio_oficial",
+  "published_at": "2026-11-14T21:53:50+00:00",
+  "updated_at": "2026-11-14T21:53:50+00:00"
+}

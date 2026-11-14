@@ -1,0 +1,101 @@
+{
+  "slug": "microsoft-outage-takes-down-copilot",
+  "lang": "en",
+  "date": "14 Nov 2026",
+  "no": 113,
+  "category": "Applications",
+  "kicker": "Applications · Microsoft",
+  "headline": "Global outage takes Copilot and Outlook down for over 24 hours",
+  "headline_hl": "Copilot and Outlook",
+  "dek": "Microsoft says it was a network problem, not an attack, per El País Tecnología.",
+  "image": {
+    "path": "assets/img/microsoft-outage-takes-down-copilot-a7153188.jpg",
+    "credit": "Growtika / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "24-hour<br>outage",
+  "sources": [
+    "El País Tecnología",
+    "Xataka"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The outage",
+    "body": [
+      "A Microsoft network failure took down Outlook, Teams, SharePoint, OneDrive and Copilot for over 24 hours, per El País Tecnología and Xataka.",
+      "Full recovery was only confirmed on Saturday morning (Xataka)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The cause",
+    "body": "Per El País Tecnología and Xataka:",
+    "points": [
+      {
+        "h": "Origin",
+        "t": "A technical fault after a network expansion."
+      },
+      {
+        "h": "Cascade",
+        "t": "Exchange Online overloaded the rest."
+      },
+      {
+        "h": "Attack",
+        "t": "Microsoft denied any link to attacks."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The reach",
+    "body": [
+      "Xataka logged reports in over 70 countries on Downdetector.",
+      "Maersk, UK hospitals and Stanford University were hit (Xataka)."
+    ],
+    "stat": {
+      "big": "70 countries",
+      "cap": "with outage reports, per Xataka"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Recovery",
+        "t": "Microsoft freed users gradually (Xataka)."
+      },
+      {
+        "h": "Government",
+        "t": "Australia sought priority (El País Tecnología)."
+      },
+      {
+        "h": "Cloud",
+        "t": "Three providers hold 70% (Xataka)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A global outage took Copilot and Outlook down for more than 24 hours.",
+    "body": [
+      "Per El País Tecnología and Xataka, the failure also hit Teams, SharePoint and OneDrive. Microsoft blamed a technical problem after a network expansion and denied any link to attacks or AI agents. Exchange Online went down first and overloaded the services tied to it, per El País Tecnología.",
+      "Xataka logged reports in over 70 countries on Downdetector, naming Maersk, UK hospitals and Stanford University among those hit. Microsoft chose to restore service gradually, which prolonged the outage. Xataka notes AWS, Azure and Google Cloud hold over 70% of Europe's cloud market."
+    ],
+    "cta_variant": "A",
+    "cta": "Do you rely on a single cloud provider?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#copilot",
+      "#cloud"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about the global outage that took down Microsoft Copilot and Outlook",
+    "Slide 2: Microsoft outage takes down Copilot, Outlook and Teams for 24 hours",
+    "Slide 3: cause of the Copilot and Outlook outage in Microsoft's network",
+    "Slide 4: reach of the Copilot and Outlook outage across 70 countries",
+    "Slide 5: gradual recovery, Australia's government and concentrated cloud",
+    "Slide 6: sources for the Copilot outage story: El País Tecnología and Xataka"
+  ]
+}

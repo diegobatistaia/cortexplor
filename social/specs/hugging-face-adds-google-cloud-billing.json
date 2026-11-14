@@ -1,0 +1,100 @@
+{
+  "slug": "hugging-face-adds-google-cloud-billing",
+  "lang": "en",
+  "date": "14 Nov 2026",
+  "no": 112,
+  "category": "Applications",
+  "kicker": "Applications · Hugging Face",
+  "headline": "Hugging Face adds billing through Google Cloud accounts",
+  "headline_hl": "Google Cloud",
+  "dek": "Organizations can pay without a credit card, per Hugging Face.",
+  "image": {
+    "path": "assets/img/hugging-face-adds-google-cloud-billing-88fcd389.jpg",
+    "credit": "Growtika / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Pay via<br>Google Cloud",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What is new",
+    "body": [
+      "Hugging Face now lets organizations pay for usage directly through their Google Cloud account, per the company itself.",
+      "The change covers the platform's paid services (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How to link",
+    "body": "Per Hugging Face:",
+    "points": [
+      {
+        "h": "Start",
+        "t": "An admin subscribes on Google Marketplace."
+      },
+      {
+        "h": "Project",
+        "t": "Picks the project and billing account."
+      },
+      {
+        "h": "Link",
+        "t": "Selects the organization to link."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Review and cycle",
+    "body": [
+      "Every subscription goes through team review before billing starts, per Hugging Face.",
+      "Card holders switch at the next billing cycle (Hugging Face)."
+    ],
+    "stat": {
+      "big": "No card",
+      "cap": "needed, says Hugging Face"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Price",
+        "t": "The change does not alter pricing (Hugging Face)."
+      },
+      {
+        "h": "Why",
+        "t": "Skips a new vendor approval (Hugging Face)."
+      },
+      {
+        "h": "Access",
+        "t": "Only admins can start the link (Hugging Face)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Hugging Face now accepts billing through Google Cloud accounts, with no credit card.",
+    "body": [
+      "Per the company itself, the change covers paid services such as private hosting, Jobs on GPU, Inference Endpoints, Inference Providers and GPU Spaces. The process starts on Google Cloud Marketplace, where an admin subscribes to the Hugging Face Hub offer and picks the project and billing account.",
+      "Then the admin links the organization on Hugging Face. Per the company, every subscription goes through team review before billing starts through this channel, and card holders switch at the next billing cycle. Hugging Face says the change does not alter pricing and spares teams from registering a corporate card."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#huggingface",
+      "#googlecloud",
+      "#models"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Hugging Face billing through Google Cloud accounts",
+    "Slide 2: Hugging Face accepts payment through Google Cloud accounts",
+    "Slide 3: how to link Hugging Face to Google Cloud Marketplace",
+    "Slide 4: Hugging Face review and switch at the next billing cycle",
+    "Slide 5: Hugging Face keeps pricing and only admins can link",
+    "Slide 6: source for the Hugging Face billing story: Hugging Face"
+  ]
+}

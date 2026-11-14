@@ -1,0 +1,101 @@
+{
+  "slug": "falha-global-da-microsoft-afeta-copilot",
+  "lang": "pt",
+  "date": "14 nov 2026",
+  "no": 115,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Microsoft",
+  "headline": "Falha global tira Copilot e Outlook do ar por mais de 24 horas",
+  "headline_hl": "Copilot e Outlook",
+  "dek": "A Microsoft diz que foi um problema de rede, sem relação com ataques, segundo o El País Tecnología.",
+  "image": {
+    "path": "assets/img/falha-global-da-microsoft-afeta-copilot-a7153188.jpg",
+    "credit": "Growtika / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Queda de<br>24 horas",
+  "sources": [
+    "El País Tecnología",
+    "Xataka"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "A queda",
+    "body": [
+      "Uma falha na rede da Microsoft tirou do ar Outlook, Teams, SharePoint, OneDrive e Copilot por mais de 24 horas, segundo o El País Tecnología e a Xataka.",
+      "A normalização só foi confirmada na manhã de sábado (Xataka)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "A causa",
+    "body": "Segundo o El País Tecnología e a Xataka:",
+    "points": [
+      {
+        "h": "Origem",
+        "t": "Problema técnico após expansão da rede."
+      },
+      {
+        "h": "Cascata",
+        "t": "O Exchange Online sobrecarregou os demais."
+      },
+      {
+        "h": "Ataque",
+        "t": "A Microsoft negou ligação com ataques."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O alcance",
+    "body": [
+      "A Xataka registrou relatos em mais de 70 países no Downdetector.",
+      "Maersk, hospitais britânicos e a Universidade Stanford foram afetados (Xataka)."
+    ],
+    "stat": {
+      "big": "70 países",
+      "cap": "com relatos de queda, segundo a Xataka"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Retomada",
+        "t": "A Microsoft liberou usuários aos poucos (Xataka)."
+      },
+      {
+        "h": "Governo",
+        "t": "A Austrália pediu prioridade (El País Tecnología)."
+      },
+      {
+        "h": "Nuvem",
+        "t": "Três provedores dominam 70% (Xataka)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Uma falha global tirou o Copilot e o Outlook do ar por mais de 24 horas.",
+    "body": [
+      "Segundo o El País Tecnología e a Xataka, a falha atingiu também Teams, SharePoint e OneDrive. A Microsoft atribuiu a queda a um problema técnico depois de uma expansão da rede e negou ligação com ataques ou com agentes de IA. O Exchange Online caiu primeiro e sobrecarregou os serviços ligados a ele, segundo o El País Tecnología.",
+      "A Xataka registrou relatos em mais de 70 países no Downdetector, e cita Maersk, hospitais britânicos e a Universidade Stanford entre os afetados. A Microsoft restabeleceu o serviço aos poucos. A Xataka lembra que AWS, Azure e Google Cloud concentram mais de 70% do mercado europeu de nuvem."
+    ],
+    "cta_variant": "A",
+    "cta": "Você depende de um só provedor de nuvem?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#copilot",
+      "#nuvem"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a falha global que derrubou o Copilot e o Outlook, da Microsoft",
+    "Slide 2: falha da Microsoft derruba Copilot, Outlook e Teams por 24 horas",
+    "Slide 3: causa da falha do Copilot e do Outlook na rede da Microsoft",
+    "Slide 4: alcance da queda do Copilot e do Outlook em 70 países",
+    "Slide 5: retomada gradual, governo da Austrália e nuvem concentrada",
+    "Slide 6: fontes da matéria sobre a falha do Copilot: El País Tecnología e Xataka"
+  ]
+}

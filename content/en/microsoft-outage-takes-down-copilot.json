@@ -1,0 +1,126 @@
+{
+  "lang": "en",
+  "slug": "microsoft-outage-takes-down-copilot",
+  "story_id": "49383ec5adfbe044",
+  "title": "Microsoft Outage Knocks Out Copilot and Outlook for 24+ Hours",
+  "dek": "Microsoft blames a network issue, not a cyberattack or AI agents, after a global failure, according to El País and Xataka.",
+  "meta_description": "A Microsoft network failure took down Copilot, Outlook and Teams for over 24 hours in 70+ countries; here is the confirmed cause, per El País and Xataka.",
+  "keyword": "Microsoft Copilot outage",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "microsoft",
+    "copilot",
+    "applications"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A network failure knocked Microsoft's Outlook, Teams, SharePoint, OneDrive and the Copilot AI assistant offline for more than 24 hours, from Thursday afternoon through Saturday morning, according to Spanish outlets El País and Xataka.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The outage began around 17:17 Spain time on Thursday, Xataka reported. Eighteen hours later, on Friday afternoon, services were still slow and intermittently unavailable, El País said. Microsoft confirmed full recovery only on Saturday morning, more than 24 hours after the problem started, according to Xataka.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a statement, Microsoft attributed the failure to a technical issue that surfaced during a previous expansion of its network capacity, triggered by a recent change to that same infrastructure. The company denied any connection to cyberattacks or autonomous AI agents, according to El País and Xataka.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why Copilot went down with email",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to El País, the problem first hit Exchange Online servers, which handle corporate email. When part of them went offline, traffic shifted to the remaining servers — a cascade effect that overloaded the system and dragged down other services connected to Exchange, including Teams, SharePoint and Copilot.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "David Arroyo Guardeño, a security researcher at Spain's Higher Council for Scientific Research (CSIC), told El País the pattern of the incident points to a technical failure tied to BGP and DNS management — the protocols that route traffic between servers and translate internet addresses — with no evidence of an attack.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How far the outage reached",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Xataka recorded outage reports in more than 70 countries on the monitoring service Downdetector. Among those affected were shipping company Maersk, hospitals in the United Kingdom's National Health Service, and Stanford University in the United States.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to El País, Australia's government invoked a digital-resilience clause in its contract with Microsoft to request priority recovery for services used by the Australian Federal Police, the ASIO intelligence agency, and the country's tax office.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft opted for a gradual restoration, validating infrastructure stability at each stage before adding more users back, Xataka reported. The company acknowledged the approach prolonged the disruption but said it considered it necessary to avoid a new failure.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to the European Commission, cited by Xataka, AWS (Amazon), Azure (Microsoft) and Google Cloud together hold more than 70% of the European cloud computing market — a concentration that means a failure at a single provider can hit companies, hospitals and public agencies across several countries at once.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El País reported that a second wave of problems began Friday morning and briefly doubled the volume of complaints seen the previous afternoon, before recovery progressed through the day. Xataka cited Reuters to report that, with corporate email down, some organizations resorted to fax machines to keep communicating.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Xataka noted similar incidents have hit other providers before: a CrowdStrike security software failure on Azure knocked out hospitals and small businesses about two years ago, and an AWS outage roughly a year ago took down services used across much of the world. The outlet argued the repetition shows how relying on a handful of cloud providers amplifies the impact of each individual failure.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Services affected: Outlook, Teams, SharePoint Online, OneDrive, OneNote, the Microsoft 365 suite (Word, Excel, PowerPoint) and the Copilot AI assistant, according to El País.",
+        "Timeline: the outage began around 17:17 Spain time on Thursday; full recovery was confirmed Saturday morning, more than 24 hours later, according to Xataka.",
+        "Confirmed cause: a technical issue tied to a change in Microsoft's network capacity, unrelated to attacks or AI agents, according to the company itself.",
+        "Reach: more than 70 countries reported outages on Downdetector, according to El País.",
+        "Status now: Microsoft says it has restored services for all affected customers and regions, according to Xataka."
+      ]
+    }
+  ],
+  "image": {
+    "query": "cloud server outage network data center",
+    "alt": "Rows of servers in a data center lit by blue network activity lights",
+    "path": "/assets/img/microsoft-outage-takes-down-copilot-a7153188.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/3d-render-of-cloud-computing-concept-Am6pBe2FpJw"
+  },
+  "sources": [
+    {
+      "name": "El País Tecnología",
+      "owner": "prisa",
+      "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html",
+      "title": "Los servicios de Microsoft retoman la normalidad tras una caída global de más de 18 horas"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/aplicaciones/microsoft-recupera-outlook-24-horas-despues-sabemos-que-provoco-caida-sus-servicios",
+      "title": "Microsoft recupera Outlook más de 24 horas después: ya sabemos qué provocó la caída de sus servicios"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-14T21:53:51+00:00",
+  "updated_at": "2026-11-14T21:53:51+00:00"
+}
