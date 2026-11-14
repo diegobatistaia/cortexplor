@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 15:51:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 21:53:53 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft Outage Knocks Out Copilot and Outlook for 24+ Hours</title>
+      <link>https://cortexplor.com/en/microsoft-outage-takes-down-copilot/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/microsoft-outage-takes-down-copilot/</guid>
+      <description>A Microsoft network failure took down Copilot, Outlook and Teams for over 24 hours in 70+ countries; here is the confirmed cause, per El País and Xataka.</description>
+      <category>Applications</category>
+      <pubDate>Sat, 14 Nov 2026 21:53:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hugging Face Now Lets Teams Bill Usage Through Google Cloud</title>
+      <link>https://cortexplor.com/en/hugging-face-adds-google-cloud-billing/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/hugging-face-adds-google-cloud-billing/</guid>
+      <description>Hugging Face now bills paid platform usage straight to a Google Cloud account instead of a credit card; here is how the account link works, per the company.</description>
+      <category>Applications</category>
+      <pubDate>Sat, 14 Nov 2026 21:53:50 +0000</pubDate>
+    </item>
     <item>
       <title>Nvidia employees push for Jensen Huang's return as CEO</title>
       <link>https://cortexplor.com/en/nvidia-employees-demand-huang-return/</link>
@@ -230,22 +246,6 @@
       <description>Meta rolls out real-time voice and video chat with Muse AI avatars to every US user, heading next to its AI glasses and the Muse Charm device, per Verge.</description>
       <category>Applications</category>
       <pubDate>Fri, 06 Nov 2026 10:49:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI launches GPT-6 Cyber after a rival model found a Linux flaw</title>
-      <link>https://cortexplor.com/en/openai-launches-gpt-6-cyber-security-model/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/openai-launches-gpt-6-cyber-security-model/</guid>
-      <description>OpenAI launches GPT-6 Cyber, a cybersecurity model that found 81 unknown Firefox bugs and cut its rogue behavior rate in tests, per Verge and TechCrunch.</description>
-      <category>Models &amp; Launches</category>
-      <pubDate>Fri, 06 Nov 2026 10:49:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT adds native tool to create and edit GIFs</title>
-      <link>https://cortexplor.com/en/chatgpt-adds-native-gif-creation-tool/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/chatgpt-adds-native-gif-creation-tool/</guid>
-      <description>OpenAI released Images 2.6 and gave ChatGPT native GIF creation and editing. Here is how the tool works, who can use it, and what changed for developers.</description>
-      <category>Applications</category>
-      <pubDate>Thu, 05 Nov 2026 21:49:50 +0000</pubDate>
     </item>
   </channel>
 </rss>

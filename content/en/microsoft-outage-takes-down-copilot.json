@@ -98,7 +98,13 @@
   ],
   "image": {
     "query": "cloud server outage network data center",
-    "alt": "Rows of servers in a data center lit by blue network activity lights"
+    "alt": "Rows of servers in a data center lit by blue network activity lights",
+    "path": "/assets/img/microsoft-outage-takes-down-copilot-a7153188.jpg",
+    "credit": "Growtika / Unsplash",
+    "author": "Growtika",
+    "author_url": "https://unsplash.com/@growtika?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/3d-render-of-cloud-computing-concept-Am6pBe2FpJw"
   },
   "sources": [
     {
@@ -114,5 +120,7 @@
       "title": "Microsoft recupera Outlook más de 24 horas después: ya sabemos qué provocó la caída de sus servicios"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-14T21:53:51+00:00",
+  "updated_at": "2026-11-14T21:53:51+00:00"
 }
