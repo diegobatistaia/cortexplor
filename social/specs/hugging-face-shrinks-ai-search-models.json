@@ -1,0 +1,100 @@
+{
+  "slug": "hugging-face-shrinks-ai-search-models",
+  "lang": "en",
+  "date": "15 Nov 2026",
+  "no": 115,
+  "category": "Models",
+  "kicker": "Models · Hugging Face",
+  "headline": "Hugging Face shrinks AI search models, keeping accuracy",
+  "headline_hl": "shrinks",
+  "dek": "The method keeps nearly all search quality, per Hugging Face.",
+  "image": {
+    "path": "assets/img/hugging-face-shrinks-ai-search-models-2a42fd54.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Search<br>compressed",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What happened",
+    "body": [
+      "Hugging Face published a method that cuts the storage of multi-vector search models, per the company.",
+      "At 4x compression, the model kept 97.8% of its original quality, versus 94.6% for conventional training (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Hugging Face:",
+    "points": [
+      {
+        "h": "Merging",
+        "t": "Folds vectors of similar words into one."
+      },
+      {
+        "h": "Training",
+        "t": "The model learns knowing it will be squeezed."
+      },
+      {
+        "h": "Tuning",
+        "t": "The merge threshold is set from a corpus sample."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "Multi-vector models search better but need lots of space: millions of documents produce hundreds of millions of vectors (Hugging Face).",
+      "With 4-bit quantization, cutting 200 vectors per document to 50 drops 12.8 GB to 3.2 GB (Hugging Face)."
+    ],
+    "stat": {
+      "big": "97.8%",
+      "cap": "of quality kept at 4x compression (Hugging Face)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Code",
+        "t": "Published November 11, with open code (Hugging Face)."
+      },
+      {
+        "h": "Use",
+        "t": "Sentence Transformers users can test it now."
+      },
+      {
+        "h": "Cost",
+        "t": "Not a paid product: it is an open method."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Hugging Face showed how to compress AI search models while losing almost no accuracy.",
+    "body": [
+      "Multi-vector search models store a representation for every word in a document. That makes retrieval more precise, but per Hugging Face, a corpus with millions of documents can produce hundreds of millions of vectors.",
+      "The company published pooling-aware training, which trains the model knowing it will be compressed later. Per Hugging Face, at 4x compression the model kept 97.8% of its search quality, versus 94.6% for a conventionally trained model. The method was published on November 11, with open code, for users of the Sentence Transformers library."
+    ],
+    "cta_variant": "A",
+    "cta": "Would smaller search models change what you build?",
+    "hashtags": [
+      "#cortexplor",
+      "#huggingface",
+      "#semanticsearch",
+      "#embeddings"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Hugging Face compressing AI search models",
+    "Slide 2: Hugging Face publishes a method that shrinks search models",
+    "Slide 3: how vector merging and training tune the compression",
+    "Slide 4: why compression saves storage in AI search",
+    "Slide 5: open code, use and cost of Hugging Face's method",
+    "Slide 6: source for the Hugging Face story: Hugging Face"
+  ]
+}

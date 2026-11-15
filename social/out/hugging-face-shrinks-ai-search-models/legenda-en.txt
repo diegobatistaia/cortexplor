@@ -1,0 +1,11 @@
+Hugging Face showed how to compress AI search models while losing almost no accuracy.
+
+Multi-vector search models store a representation for every word in a document. That makes retrieval more precise, but per Hugging Face, a corpus with millions of documents can produce hundreds of millions of vectors.
+
+The company published pooling-aware training, which trains the model knowing it will be compressed later. Per Hugging Face, at 4x compression the model kept 97.8% of its search quality, versus 94.6% for a conventionally trained model. The method was published on November 11, with open code, for users of the Sentence Transformers library.
+
+Would smaller search models change what you build?
+
+Full story: link in bio.
+
+#cortexplor #huggingface #semanticsearch #embeddings

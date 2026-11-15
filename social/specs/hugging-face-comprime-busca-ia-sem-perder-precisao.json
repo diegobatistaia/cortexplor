@@ -1,0 +1,100 @@
+{
+  "slug": "hugging-face-comprime-busca-ia-sem-perder-precisao",
+  "lang": "pt",
+  "date": "15 nov 2026",
+  "no": 118,
+  "category": "Modelos",
+  "kicker": "Modelos · Hugging Face",
+  "headline": "Hugging Face comprime busca por IA sem perder precisão",
+  "headline_hl": "comprime",
+  "dek": "O método mantém quase toda a qualidade, segundo a Hugging Face.",
+  "image": {
+    "path": "assets/img/hugging-face-comprime-busca-ia-sem-perde-2a42fd54.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Busca<br>comprimida",
+  "sources": [
+    "Hugging Face"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que aconteceu",
+    "body": [
+      "A Hugging Face publicou uma técnica que reduz o espaço de modelos de busca com vários vetores por documento, segundo a empresa.",
+      "Com compressão de 4 vezes, o modelo manteve 97,8% da qualidade original, contra 94,6% do treino tradicional (Hugging Face)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Hugging Face:",
+    "points": [
+      {
+        "h": "Fusão",
+        "t": "Junta vetores de palavras parecidas em um só."
+      },
+      {
+        "h": "Treino",
+        "t": "O modelo aprende já sabendo da compressão."
+      },
+      {
+        "h": "Ajuste",
+        "t": "O limite de fusão se calibra pelo acervo."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "Modelos com vários vetores buscam melhor, mas ocupam muito espaço: milhões de documentos geram centenas de milhões de vetores (Hugging Face).",
+      "Com 4 bits, reduzir 200 vetores por documento para 50 baixa 12,8 GB para 3,2 GB (Hugging Face)."
+    ],
+    "stat": {
+      "big": "97,8%",
+      "cap": "da qualidade mantida em 4x (Hugging Face)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Código",
+        "t": "A técnica foi publicada em 11 de novembro, com código aberto (Hugging Face)."
+      },
+      {
+        "h": "Uso",
+        "t": "Quem usa Sentence Transformers já pode testar."
+      },
+      {
+        "h": "Custo",
+        "t": "Não é produto pago: é um método aberto."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Hugging Face mostrou como comprimir modelos de busca por IA sem perder quase nada de precisão.",
+    "body": [
+      "Modelos de busca com vários vetores guardam uma representação para cada palavra de um documento. Isso deixa a busca mais precisa, mas, segundo a Hugging Face, um acervo com milhões de documentos pode gerar centenas de milhões de vetores.",
+      "A empresa publicou o pooling-aware training, que treina o modelo já sabendo que ele será comprimido. Segundo a Hugging Face, com compressão de 4 vezes o modelo manteve 97,8% da qualidade de busca, contra 94,6% de um modelo treinado do jeito tradicional. A técnica foi publicada em 11 de novembro, com código aberto, para quem usa a biblioteca Sentence Transformers."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#huggingface",
+      "#buscasemantica",
+      "#embeddings"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a compressão de busca por IA da Hugging Face",
+    "Slide 2: Hugging Face publica técnica que comprime modelos de busca",
+    "Slide 3: como a fusão de vetores e o treino ajustam a compressão",
+    "Slide 4: por que a compressão economiza espaço na busca por IA",
+    "Slide 5: código aberto, uso e custo da técnica da Hugging Face",
+    "Slide 6: fonte da matéria sobre a Hugging Face: Hugging Face"
+  ]
+}

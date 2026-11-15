@@ -1,0 +1,11 @@
+Microsoft showed how to plant a backdoor in an AI agent by altering fewer than ten neurons.
+
+Per Microsoft Research, the Lazarus technique needs no retraining: reprogramming a few dormant neurons is enough to make the agent run malicious commands when a hidden trigger appears. The altered model, the company says, still passes standard safety evaluations.
+
+The company says the risk is highest for agents with tool or terminal access, since the code runs with the agent's own access. The defense, per Microsoft, is to compare weights against an original copy, verify provenance, limit what the model can do and monitor its activity. The Foundry platform already includes some of those checks.
+
+Save it for later and send it to someone following AI.
+
+Full story: link in bio.
+
+#cortexplor #microsoft #cybersecurity #aiagents

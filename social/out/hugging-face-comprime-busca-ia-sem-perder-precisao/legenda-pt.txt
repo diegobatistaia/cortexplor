@@ -1,0 +1,11 @@
+A Hugging Face mostrou como comprimir modelos de busca por IA sem perder quase nada de precisão.
+
+Modelos de busca com vários vetores guardam uma representação para cada palavra de um documento. Isso deixa a busca mais precisa, mas, segundo a Hugging Face, um acervo com milhões de documentos pode gerar centenas de milhões de vetores.
+
+A empresa publicou o pooling-aware training, que treina o modelo já sabendo que ele será comprimido. Segundo a Hugging Face, com compressão de 4 vezes o modelo manteve 97,8% da qualidade de busca, contra 94,6% de um modelo treinado do jeito tradicional. A técnica foi publicada em 11 de novembro, com código aberto, para quem usa a biblioteca Sentence Transformers.
+
+Salve para consultar depois e envie a quem acompanha IA.
+
+Matéria completa no link da bio.
+
+#cortexplor #huggingface #buscasemantica #embeddings

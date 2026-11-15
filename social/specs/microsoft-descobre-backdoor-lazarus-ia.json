@@ -1,0 +1,100 @@
+{
+  "slug": "microsoft-descobre-backdoor-lazarus-ia",
+  "lang": "pt",
+  "date": "15 nov 2026",
+  "no": 119,
+  "category": "Aplicações",
+  "kicker": "Segurança · Microsoft",
+  "headline": "Microsoft descobre como plantar backdoor em agentes de IA",
+  "headline_hl": "backdoor",
+  "dek": "Basta alterar menos de 10 neurônios, segundo a Microsoft Research.",
+  "image": {
+    "path": "assets/img/microsoft-descobre-backdoor-lazarus-ia-068fa8a3.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Backdoor<br>em agentes",
+  "sources": [
+    "Microsoft Research"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que aconteceu",
+    "body": [
+      "Pesquisadores da Microsoft descreveram o Lazarus, técnica que planta um backdoor em um agente de IA sem retreinar o modelo (Microsoft Research).",
+      "Basta reprogramar menos de 10 neurônios dormentes, segundo a Microsoft Research."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Microsoft Research:",
+    "points": [
+      {
+        "h": "Gatilho",
+        "t": "O agente age normal até o gatilho surgir."
+      },
+      {
+        "h": "Exemplo",
+        "t": "Passar da meia-noite de 2027 dispara o código (Microsoft Research)."
+      },
+      {
+        "h": "Acesso",
+        "t": "O código roda com o acesso do agente."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "Segundo a Microsoft Research, o modelo alterado ainda passa nas avaliações de segurança padrão.",
+      "Nenhuma varredura prova que um modelo está livre de backdoors; a cópia original é a referência (Microsoft Research)."
+    ],
+    "stat": {
+      "big": "10",
+      "cap": "neurônios alterados, no máx. (Microsoft Research)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Defesa",
+        "t": "Verificar a origem e limitar o que o modelo faz."
+      },
+      {
+        "h": "Foundry",
+        "t": "Checa procedência e varre o ambiente (Microsoft Research)."
+      },
+      {
+        "h": "Próximo",
+        "t": "Ferramenta de red team e modelos assinados."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Microsoft mostrou como plantar um backdoor em um agente de IA mexendo em menos de dez neurônios.",
+    "body": [
+      "Segundo a Microsoft Research, a técnica Lazarus dispensa o retreinamento: basta reprogramar poucos neurônios dormentes para que o agente execute comandos maliciosos quando um gatilho oculto aparece. O modelo alterado, afirma a empresa, continua passando pelas avaliações de segurança padrão.",
+      "A empresa diz que o risco é maior em agentes com acesso a ferramentas ou terminal, porque o código roda com o acesso do agente. A defesa, segundo a Microsoft, é comparar os pesos com uma cópia original, verificar a procedência, limitar o que o modelo faz e monitorar sua atividade. A plataforma Foundry já faz parte dessas checagens."
+    ],
+    "cta_variant": "A",
+    "cta": "Seus agentes de IA têm acesso demais?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#segurancadigital",
+      "#agentesdeia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o backdoor Lazarus em agentes de IA da Microsoft",
+    "Slide 2: Microsoft descreve o Lazarus, backdoor sem retreinar o modelo",
+    "Slide 3: como o gatilho oculto faz o agente executar código",
+    "Slide 4: por que o ataque passa pelas avaliações de segurança",
+    "Slide 5: defesas e o que a Microsoft planeja para modelos de IA",
+    "Slide 6: fonte da matéria sobre o Lazarus da Microsoft: Microsoft Research"
+  ]
+}

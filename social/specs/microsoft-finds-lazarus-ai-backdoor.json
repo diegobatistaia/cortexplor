@@ -1,0 +1,100 @@
+{
+  "slug": "microsoft-finds-lazarus-ai-backdoor",
+  "lang": "en",
+  "date": "15 Nov 2026",
+  "no": 116,
+  "category": "Applications",
+  "kicker": "Security · Microsoft",
+  "headline": "Microsoft finds how to backdoor AI agents without retraining",
+  "headline_hl": "backdoor",
+  "dek": "Fewer than 10 neurons are enough, per Microsoft Research.",
+  "image": {
+    "path": "assets/img/microsoft-finds-lazarus-ai-backdoor-068fa8a3.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Agent<br>backdoor",
+  "sources": [
+    "Microsoft Research"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What happened",
+    "body": [
+      "Microsoft researchers described Lazarus, a technique that plants a backdoor in an AI agent without retraining the model (Microsoft Research).",
+      "Reprogramming fewer than 10 dormant neurons is enough, per Microsoft Research."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Microsoft Research:",
+    "points": [
+      {
+        "h": "Trigger",
+        "t": "The agent acts normal until the trigger shows."
+      },
+      {
+        "h": "Example",
+        "t": "Passing midnight into 2027 fires the code (Microsoft Research)."
+      },
+      {
+        "h": "Access",
+        "t": "The code runs with the agent's own access."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "Per Microsoft Research, the altered model still passes standard safety evaluations.",
+      "No scan can prove a model is free of backdoors; an original copy is the reference (Microsoft Research)."
+    ],
+    "stat": {
+      "big": "10",
+      "cap": "neurons altered, at most (Microsoft Research)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Defense",
+        "t": "Verify origin and limit what the model can do."
+      },
+      {
+        "h": "Foundry",
+        "t": "Checks provenance and scans the environment (Microsoft Research)."
+      },
+      {
+        "h": "Next",
+        "t": "A red-team tool and signed models."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Microsoft showed how to plant a backdoor in an AI agent by altering fewer than ten neurons.",
+    "body": [
+      "Per Microsoft Research, the Lazarus technique needs no retraining: reprogramming a few dormant neurons is enough to make the agent run malicious commands when a hidden trigger appears. The altered model, the company says, still passes standard safety evaluations.",
+      "The company says the risk is highest for agents with tool or terminal access, since the code runs with the agent's own access. The defense, per Microsoft, is to compare weights against an original copy, verify provenance, limit what the model can do and monitor its activity. The Foundry platform already includes some of those checks."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#cybersecurity",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Microsoft's Lazarus backdoor for AI agents",
+    "Slide 2: Microsoft describes Lazarus, a backdoor with no retraining",
+    "Slide 3: how the hidden trigger makes the agent run code",
+    "Slide 4: why the attack passes standard safety evaluations",
+    "Slide 5: defenses and what Microsoft plans for AI models",
+    "Slide 6: source for the Microsoft Lazarus story: Microsoft Research"
+  ]
+}
