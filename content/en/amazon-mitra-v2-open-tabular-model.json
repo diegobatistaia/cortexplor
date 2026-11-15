@@ -1,0 +1,107 @@
+{
+  "lang": "en",
+  "slug": "amazon-mitra-v2-open-tabular-model",
+  "story_id": "0cc52a290007e6e6",
+  "title": "Amazon releases Mitra-v2, an open model for tabular data",
+  "dek": "The second generation of Amazon's tabular foundation model ships with open weights on Hugging Face and is already used internally.",
+  "meta_description": "Amazon released Mitra-v2, an open-weight AI foundation model for predicting values in data tables, available on Hugging Face under an Apache 2.0 license.",
+  "keyword": "Amazon Mitra-v2",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "amazon",
+    "models",
+    "hugging-face",
+    "open-source"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Amazon released Mitra-v2, the second generation of its foundation model for tabular data, with open weights published on Hugging Face under an Apache 2.0 license, according to a post on the Amazon Science blog. The release includes fine-tuned versions for classification and regression, along with inference and fine-tuning code.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tabular foundation models target a problem that dominates applied machine learning: most business data lives in tables, where rows represent customers or transactions and columns represent their attributes. The standard approach — gradient-boosted decision trees — requires building a new model for every table, with its own feature engineering and hyperparameter tuning. A tabular foundation model instead reads the labeled rows of a table it has never seen and predicts the rest without additional training, through a technique called in-context learning, the same mechanism that lets large language models follow examples given inside a prompt.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Amazon, the Amazon Connect Customer team, which builds agentic AI systems for core business functions, led the development of Mitra-v2 and has already adopted it internally — for example, to estimate the likelihood of a business-relevant event based on a customer's interaction history.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What changed since the first version",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Amazon introduced the original Mitra last year. The company says it performed well on small and mid-sized tables but ran out of room on large tables, wide tables, and problems with many classes to predict. Mitra-v2 was pretrained on synthetic tables with ten times as many rows and roughly three times as many columns as those used for Mitra-v1, to approach the scale of tables businesses actually work with.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The architecture — a Transformer that attends across both the rows and the columns of a table — stayed the same. What Amazon changed was how it generates the synthetic training data: a new hybrid structural causal model, where each relationship between columns can be represented by a small neural network, a decision tree, a Gaussian process, or a time-dependent process. The company says mixing these relationship types inside a single synthetic table brings pretraining closer to the diversity found in real data, and a new hybrid optimizer kept training stable across that wider range.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "For very wide tables, Mitra-v2 uses singular-value decomposition, a mathematical technique that compresses the number of columns while preserving most of the variance in the original data, before processing it. Because the model's output layer has only ten nodes, one per class, tasks with more than ten categories are routed through a hierarchical tree that refines the prediction from those ten outputs. By default, the model is also automatically fine-tuned on each new table, producing eight copies whose predictions are averaged, a technique called bagging; Amazon says this adds computational overhead but improves accuracy.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Benchmark results",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On TabArena, a public benchmark maintained by an independent academic team covering 51 real-world datasets, Amazon says Mitra-v2 leads the single-model field — meaning models that don't combine several different methods. The company says it beat Mitra-v1 on 32 of the 33 datasets where both models run natively, and completed all 51 datasets within the benchmark's one-hour time budget, something Mitra-v1 failed to do on more than a third of them.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On ScoringBench, a separate public benchmark for regression models that predict a range of likely outcomes instead of a single number, the fine-tuned version of Mitra-v2 also ranked first, according to Amazon. The company adds that the model ranks among the leading methods on TALENT, an independent benchmark of roughly 300 datasets, where it performs best on classification tasks with more than ten classes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What it is: the second version of Mitra, Amazon's model for predicting values in tables — customer records, transactions, sales — without training a new model for each table.",
+        "Who can use it: any developer, with weights and inference and fine-tuning code published on Hugging Face.",
+        "Cost: free, under the open-source Apache 2.0 license, according to Amazon.",
+        "Training data: synthetic only, with no real customer data, according to the company.",
+        "What changed from v1: tables up to ten times larger in rows and roughly three times larger in columns, with better results on 32 of 33 comparable tests on the TabArena benchmark."
+      ]
+    }
+  ],
+  "image": {
+    "query": "data table spreadsheet analytics computer screen",
+    "alt": "Computer screen showing a data table with analytics charts",
+    "path": "/assets/img/amazon-mitra-v2-open-tabular-model-72ecf180.jpg",
+    "credit": "1981 Digital / Unsplash",
+    "author": "1981 Digital",
+    "author_url": "https://unsplash.com/@1981digital?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-data-on-it-bf9sZBcGQl4"
+  },
+  "sources": [
+    {
+      "name": "Amazon Science",
+      "owner": "amazon",
+      "url": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models",
+      "title": "Mitra-v2: Scaling synthetic pretraining for tabular foundation models"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-15T15:46:14+00:00",
+  "updated_at": "2026-11-15T15:46:14+00:00"
+}

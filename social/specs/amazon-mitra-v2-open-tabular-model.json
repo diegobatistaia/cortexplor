@@ -1,0 +1,100 @@
+{
+  "slug": "amazon-mitra-v2-open-tabular-model",
+  "lang": "en",
+  "date": "15 Nov 2026",
+  "no": 114,
+  "category": "Models",
+  "kicker": "Models · Amazon",
+  "headline": "Amazon releases Mitra-v2, an open model for tabular data",
+  "headline_hl": "Mitra-v2",
+  "dek": "The weights are open on Hugging Face, per Amazon Science.",
+  "image": {
+    "path": "assets/img/amazon-mitra-v2-open-tabular-model-72ecf180.jpg",
+    "credit": "1981 Digital / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Open<br>model",
+  "sources": [
+    "Amazon Science"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The release",
+    "body": [
+      "Amazon released Mitra-v2, an AI model that predicts values in tables, with open weights on Hugging Face, per Amazon Science.",
+      "It uses the Apache 2.0 license, and the package includes fine-tuning code (Amazon Science)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Amazon Science:",
+    "points": [
+      {
+        "h": "Context",
+        "t": "Reads labeled rows and predicts the rest."
+      },
+      {
+        "h": "Training",
+        "t": "Used much larger synthetic tables."
+      },
+      {
+        "h": "SVD",
+        "t": "Cuts columns in very wide tables."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Results",
+    "body": [
+      "Per Amazon Science, Mitra-v2 leads standalone models on TabArena, with 51 datasets.",
+      "It beat Mitra-v1 on 32 of 33 datasets (Amazon Science)."
+    ],
+    "stat": {
+      "big": "32 of 33",
+      "cap": "datasets won over Mitra-v1 (Amazon Science)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Internal",
+        "t": "Amazon already uses it in Connect (Amazon Science)."
+      },
+      {
+        "h": "Classes",
+        "t": "Above ten, it uses a tree (Amazon Science)."
+      },
+      {
+        "h": "Bagging",
+        "t": "Blends eight versions by default (Amazon Science)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Amazon released Mitra-v2, an open AI model for predicting values in data tables.",
+    "body": [
+      "Per Amazon Science, the weights are on Hugging Face under the Apache 2.0 license, with classification and regression versions. The model reads labeled rows of a new table and predicts the rest, with no extra training, through in-context learning.",
+      "Amazon says Mitra-v2 was pretrained on synthetic tables with ten times more rows and about three times more columns than Mitra-v1. Per the company, it leads standalone models on TabArena and beat Mitra-v1 on 32 of 33 datasets. The Amazon Connect team already uses the model internally."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#amazon",
+      "#mitrav2",
+      "#openmodel"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Mitra-v2, Amazon's open model for tables",
+    "Slide 2: Amazon releases Mitra-v2 with open weights on Hugging Face",
+    "Slide 3: how Amazon's Mitra-v2 reads tables and predicts values",
+    "Slide 4: Mitra-v2 results on TabArena against Mitra-v1",
+    "Slide 5: internal use, classes and bagging in Amazon's Mitra-v2",
+    "Slide 6: source for the Amazon Mitra-v2 story: Amazon Science"
+  ]
+}

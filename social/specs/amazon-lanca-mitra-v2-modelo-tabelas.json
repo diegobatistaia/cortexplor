@@ -1,0 +1,100 @@
+{
+  "slug": "amazon-lanca-mitra-v2-modelo-tabelas",
+  "lang": "pt",
+  "date": "15 nov 2026",
+  "no": 117,
+  "category": "Modelos",
+  "kicker": "Modelos · Amazon",
+  "headline": "Amazon lança o Mitra-v2, modelo aberto para dados em tabelas",
+  "headline_hl": "Mitra-v2",
+  "dek": "Os pesos são abertos no Hugging Face, segundo a Amazon Science.",
+  "image": {
+    "path": "assets/img/amazon-lanca-mitra-v2-modelo-tabelas-72ecf180.jpg",
+    "credit": "1981 Digital / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Modelo<br>aberto",
+  "sources": [
+    "Amazon Science"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O lançamento",
+    "body": [
+      "A Amazon lançou o Mitra-v2, modelo de IA que prevê valores em tabelas, com pesos abertos no Hugging Face, segundo a Amazon Science.",
+      "A licença é a Apache 2.0, e o pacote inclui código de ajuste fino (Amazon Science)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Amazon Science:",
+    "points": [
+      {
+        "h": "Contexto",
+        "t": "Lê linhas rotuladas e prevê o restante."
+      },
+      {
+        "h": "Treino",
+        "t": "Usou tabelas sintéticas bem maiores."
+      },
+      {
+        "h": "SVD",
+        "t": "Reduz colunas em tabelas muito largas."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Resultados",
+    "body": [
+      "Segundo a Amazon Science, o Mitra-v2 lidera os modelos isolados no TabArena, com 51 conjuntos de dados.",
+      "Ele superou o Mitra-v1 em 32 de 33 conjuntos (Amazon Science)."
+    ],
+    "stat": {
+      "big": "32 de 33",
+      "cap": "conjuntos vencidos sobre o v1 (Amazon Science)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Interno",
+        "t": "A Amazon já usa o modelo no Connect (Amazon Science)."
+      },
+      {
+        "h": "Classes",
+        "t": "Acima de dez, usa uma árvore (Amazon Science)."
+      },
+      {
+        "h": "Bagging",
+        "t": "Combina oito versões por padrão (Amazon Science)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Amazon lançou o Mitra-v2, modelo aberto de IA para prever valores em tabelas de dados.",
+    "body": [
+      "Segundo a Amazon Science, os pesos estão no Hugging Face sob a licença Apache 2.0, com versões para classificação e regressão. O modelo lê linhas rotuladas de uma tabela nova e prevê o restante, sem treino adicional, pela técnica de aprendizado em contexto.",
+      "A Amazon diz que o Mitra-v2 foi pré-treinado em tabelas sintéticas com dez vezes mais linhas e cerca de três vezes mais colunas que o Mitra-v1. Segundo a empresa, ele lidera os modelos isolados no TabArena e superou o Mitra-v1 em 32 de 33 conjuntos. A equipe do Amazon Connect já adota o modelo internamente."
+    ],
+    "cta_variant": "A",
+    "cta": "Você usaria um modelo de IA para suas planilhas?",
+    "hashtags": [
+      "#cortexplor",
+      "#amazon",
+      "#mitrav2",
+      "#modeloaberto"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Mitra-v2, modelo aberto da Amazon para tabelas",
+    "Slide 2: Amazon lança o Mitra-v2 com pesos abertos no Hugging Face",
+    "Slide 3: como o Mitra-v2 da Amazon lê tabelas e prevê valores",
+    "Slide 4: resultados do Mitra-v2 no TabArena contra o Mitra-v1",
+    "Slide 5: uso interno, classes e bagging no Mitra-v2 da Amazon",
+    "Slide 6: fonte da matéria sobre o Mitra-v2 da Amazon: Amazon Science"
+  ]
+}

@@ -1,0 +1,11 @@
+Amazon released Mitra-v2, an open AI model for predicting values in data tables.
+
+Per Amazon Science, the weights are on Hugging Face under the Apache 2.0 license, with classification and regression versions. The model reads labeled rows of a new table and predicts the rest, with no extra training, through in-context learning.
+
+Amazon says Mitra-v2 was pretrained on synthetic tables with ten times more rows and about three times more columns than Mitra-v1. Per the company, it leads standalone models on TabArena and beat Mitra-v1 on 32 of 33 datasets. The Amazon Connect team already uses the model internally.
+
+Save it for later and send it to someone following AI.
+
+Full story: link in bio.
+
+#cortexplor #amazon #mitrav2 #openmodel
