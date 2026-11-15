@@ -7,32 +7,95 @@
   "meta_description": "A Microsoft descobriu o backdoor Lazarus, que altera menos de 10 neurônios para comprometer agentes de IA sem precisar retreinar o modelo, segundo a empresa.",
   "keyword": "backdoor Lazarus",
   "category": "aplicacoes",
-  "tags": ["ia", "microsoft", "seguranca", "agentes", "modelos"],
+  "tags": [
+    "ia",
+    "microsoft",
+    "seguranca",
+    "agentes",
+    "modelos"
+  ],
   "body": [
-    {"type": "p", "text": "Pesquisadores da Microsoft descreveram uma técnica batizada de Lazarus que consegue instalar um backdoor (porta dos fundos oculta) em um agente de inteligência artificial sem precisar retreinar o modelo, segundo publicação da empresa em seu blog de pesquisa. Basta reprogramar menos de dez neurônios \"dormentes\" — unidades do modelo que raramente são ativadas — para que o agente passe a executar comandos maliciosos quando um gatilho escondido aparece.", "items": []},
-    {"type": "p", "text": "A Microsoft afirma que o modelo alterado continua passando pelas avaliações de segurança padrão e se comporta normalmente até o gatilho surgir. Como exemplo, a empresa cita uma mudança de data: o agente, no meio de uma tarefa comum, emite um comando que baixa e executa o código de um atacante assim que o relógio passar da meia-noite de 2027. A partir daí, o código roda com qualquer nível de acesso que o agente já tiver — o que a Microsoft aponta como o risco mais grave para agentes com acesso a ferramentas ou terminal: eles podem baixar e rodar código malicioso, roubar senhas e chaves de acesso ou executar comandos destrutivos.", "items": []},
-    {"type": "p", "text": "Segundo a empresa, o método nasceu de um teste rápido em março: um pesquisador pediu ao Claude Code, da Anthropic, rodando o modelo Opus 4.5, para inserir um backdoor em um modelo fixando algumas ativações manualmente, sem qualquer retreinamento — e o ataque funcionou. Esse experimento se transformou em meses de estudo até o que a Microsoft chama hoje de Lazarus.", "items": []},
-    {"type": "h2", "text": "Difícil de detectar, mas não impossível", "items": []},
-    {"type": "p", "text": "A Microsoft afirma que agentes de ponta conseguem identificar alterações anômalas de peso quando são instruídos a procurar por elas, mas nenhuma varredura consegue provar, sem sombra de dúvida, que um modelo está livre de backdoors. Segundo a empresa, a forma confiável de detectar o problema é comparar os pesos do modelo com uma cópia original e sem alterações — o que torna a procedência do modelo (saber de onde ele veio e se não foi modificado entre o desenvolvedor e quem o usa) um fator central de segurança.", "items": []},
-    {"type": "p", "text": "A empresa também observa que modelos com backdoor não são, em si, uma categoria nova de ameaça: segundo a Microsoft, o problema pode ser tratado como qualquer software comprometido, com as mesmas defesas já conhecidas pela área de segurança — tratar modelos como um risco interno em potencial, não confiar neles de forma implícita, limitar o que podem fazer e monitorar o que fazem.", "items": []},
-    {"type": "h2", "text": "O que a Microsoft diz estar fazendo", "items": []},
-    {"type": "p", "text": "Segundo a empresa, a plataforma Microsoft Foundry já verifica a procedência dos modelos, vincula cada modelo de pesos abertos ao autor original informado no cartão do modelo e faz a varredura do ambiente de software em volta antes de liberar o uso — os modelos rodam dentro de contêineres próprios da Microsoft, também verificados contra vulnerabilidades. A empresa afirma que esses controles protegem clientes da Foundry contra o tipo de ataque descrito no estudo, desde que o modelo venha de um fornecedor confiável.", "items": []},
-    {"type": "p", "text": "A Microsoft reconhece que o risco remanescente é um fornecedor confiável ser comprometido por dentro — pela própria infraestrutura de treinamento ou por um funcionário malicioso. Para esse cenário, a empresa diz estar transformando as técnicas de detecção do estudo em uma ferramenta de red team (testes que simulam ataques reais), avaliando se agentes de ponta conseguem varrer pesos de modelos como um sinal extra de segurança no momento da integração, e planejando assinar modelos digitalmente, com registro de procedência à prova de adulteração.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "O que é o Lazarus: uma técnica que altera menos de 10 neurônios de um modelo já treinado para plantar um backdoor, sem precisar retreinar nada, segundo a Microsoft.",
-      "Quem corre mais risco: agentes de IA com acesso a ferramentas ou terminal, que podem executar o código baixado pelo backdoor com o mesmo nível de acesso do agente.",
-      "Como se proteger, segundo a empresa: verificar a procedência do modelo, tratá-lo como risco interno em potencial, limitar o que ele pode fazer e monitorar sua atividade.",
-      "O que a Microsoft já oferece: verificação de procedência e varredura de ambiente pela plataforma Microsoft Foundry, hoje disponível para modelos integrados na Azure."
-    ]}
+    {
+      "type": "p",
+      "text": "Pesquisadores da Microsoft descreveram uma técnica batizada de Lazarus que consegue instalar um backdoor (porta dos fundos oculta) em um agente de inteligência artificial sem precisar retreinar o modelo, segundo publicação da empresa em seu blog de pesquisa. Basta reprogramar menos de dez neurônios \"dormentes\" — unidades do modelo que raramente são ativadas — para que o agente passe a executar comandos maliciosos quando um gatilho escondido aparece.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft afirma que o modelo alterado continua passando pelas avaliações de segurança padrão e se comporta normalmente até o gatilho surgir. Como exemplo, a empresa cita uma mudança de data: o agente, no meio de uma tarefa comum, emite um comando que baixa e executa o código de um atacante assim que o relógio passar da meia-noite de 2027. A partir daí, o código roda com qualquer nível de acesso que o agente já tiver — o que a Microsoft aponta como o risco mais grave para agentes com acesso a ferramentas ou terminal: eles podem baixar e rodar código malicioso, roubar senhas e chaves de acesso ou executar comandos destrutivos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a empresa, o método nasceu de um teste rápido em março: um pesquisador pediu ao Claude Code, da Anthropic, rodando o modelo Opus 4.5, para inserir um backdoor em um modelo fixando algumas ativações manualmente, sem qualquer retreinamento — e o ataque funcionou. Esse experimento se transformou em meses de estudo até o que a Microsoft chama hoje de Lazarus.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Difícil de detectar, mas não impossível",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft afirma que agentes de ponta conseguem identificar alterações anômalas de peso quando são instruídos a procurar por elas, mas nenhuma varredura consegue provar, sem sombra de dúvida, que um modelo está livre de backdoors. Segundo a empresa, a forma confiável de detectar o problema é comparar os pesos do modelo com uma cópia original e sem alterações — o que torna a procedência do modelo (saber de onde ele veio e se não foi modificado entre o desenvolvedor e quem o usa) um fator central de segurança.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa também observa que modelos com backdoor não são, em si, uma categoria nova de ameaça: segundo a Microsoft, o problema pode ser tratado como qualquer software comprometido, com as mesmas defesas já conhecidas pela área de segurança — tratar modelos como um risco interno em potencial, não confiar neles de forma implícita, limitar o que podem fazer e monitorar o que fazem.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que a Microsoft diz estar fazendo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a empresa, a plataforma Microsoft Foundry já verifica a procedência dos modelos, vincula cada modelo de pesos abertos ao autor original informado no cartão do modelo e faz a varredura do ambiente de software em volta antes de liberar o uso — os modelos rodam dentro de contêineres próprios da Microsoft, também verificados contra vulnerabilidades. A empresa afirma que esses controles protegem clientes da Foundry contra o tipo de ataque descrito no estudo, desde que o modelo venha de um fornecedor confiável.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft reconhece que o risco remanescente é um fornecedor confiável ser comprometido por dentro — pela própria infraestrutura de treinamento ou por um funcionário malicioso. Para esse cenário, a empresa diz estar transformando as técnicas de detecção do estudo em uma ferramenta de red team (testes que simulam ataques reais), avaliando se agentes de ponta conseguem varrer pesos de modelos como um sinal extra de segurança no momento da integração, e planejando assinar modelos digitalmente, com registro de procedência à prova de adulteração.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O que é o Lazarus: uma técnica que altera menos de 10 neurônios de um modelo já treinado para plantar um backdoor, sem precisar retreinar nada, segundo a Microsoft.",
+        "Quem corre mais risco: agentes de IA com acesso a ferramentas ou terminal, que podem executar o código baixado pelo backdoor com o mesmo nível de acesso do agente.",
+        "Como se proteger, segundo a empresa: verificar a procedência do modelo, tratá-lo como risco interno em potencial, limitar o que ele pode fazer e monitorar sua atividade.",
+        "O que a Microsoft já oferece: verificação de procedência e varredura de ambiente pela plataforma Microsoft Foundry, hoje disponível para modelos integrados na Azure."
+      ]
+    }
   ],
   "image": {
     "query": "cybersecurity neural network backdoor abstract code",
-    "alt": "Representação abstrata de uma rede neural com um ponto destacado, simbolizando uma falha de segurança oculta em inteligência artificial"
+    "alt": "Representação abstrata de uma rede neural com um ponto destacado, simbolizando uma falha de segurança oculta em inteligência artificial",
+    "path": "/assets/img/microsoft-descobre-backdoor-lazarus-ia-068fa8a3.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "author": "Markus Spiske",
+    "author_url": "https://unsplash.com/@markusspiske?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/matrix-movie-still-iar-afB0QQw"
   },
   "sources": [
-    {"name": "Microsoft Research", "owner": "microsoft", "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/", "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents"}
+    {
+      "name": "Microsoft Research",
+      "owner": "microsoft",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-15T21:49:28+00:00",
+  "updated_at": "2026-11-15T21:49:28+00:00"
 }

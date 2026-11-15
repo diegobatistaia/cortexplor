@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hugging Face shrinks AI search models without losing accuracy | Cortexplor - AI News</title>
+<meta name="description" content="Hugging Face built pooling-aware training, a method that compresses AI search vectors fourfold while keeping 97.8% of retrieval accuracy, per the company."><meta name="keywords" content="pooling-aware training, Artificial Intelligence, ai, hugging-face, search, models, research"><link rel="canonical" href="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/"><link rel="alternate" hreflang="en" href="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/"><link rel="alternate" hreflang="es" href="https://cortexplor.com/es/hugging-face-reduce-modelos-busqueda-ia/"><link rel="alternate" hreflang="pt-BR" href="https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/"><link rel="alternate" hreflang="x-default" href="https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/"><meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Cortexplor">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Hugging Face shrinks AI search models without losing accuracy | Cortexplor - AI News">
+<meta property="og:description" content="Hugging Face built pooling-aware training, a method that compresses AI search vectors fourfold while keeping 97.8% of retrieval accuracy, per the company.">
+<meta property="og:url" content="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/"><meta property="og:image" content="https://cortexplor.com/assets/img/hugging-face-shrinks-ai-search-models-2a42fd54.jpg">
+<meta property="og:image:alt" content="Abstract illustration of connected dots representing search vectors being grouped by artificial intelligence"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@cortexplor"><script>(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem("theme")}catch(e){}if(t!=="light"&&t!=="dark"){t="light";if(t==="system"){t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}}d.setAttribute("data-theme",t)})();</script>
+<link rel="icon" type="image/svg+xml" href="/assets/logo/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/assets/logo/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/logo/apple-touch-icon.png">
+<link rel="manifest" href="/manifest-en.webmanifest">
+<meta name="theme-color" content="#3A4556">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cortexplor">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="alternate" type="application/rss+xml" title="Cortexplor" href="/rss-en.xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/fonts.css?v=3265db49">
+<link rel="stylesheet" href="/assets/css/site.css?v=7f8555a0">
+<script src="/assets/js/site.js?v=83065753" defer></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Hugging Face shrinks AI search models without losing accuracy","description":"Hugging Face built pooling-aware training, a method that compresses AI search vectors fourfold while keeping 97.8% of retrieval accuracy, per the company.","inLanguage":"en","datePublished":"2026-11-15T21:49:28+00:00","dateModified":"2026-11-15T21:49:28+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/"},"url":"https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/","author":{"@type":"Organization","name":"Cortexplor","url":"https://cortexplor.com"},"publisher":{"@type":"NewsMediaOrganization","name":"Cortexplor","url":"https://cortexplor.com","logo":{"@type":"ImageObject","url":"https://cortexplor.com/assets/logo/cortexplor-logo-color.svg"}},"keywords":"pooling-aware training, Artificial Intelligence, ai, hugging-face, search, models, research","articleSection":"Models \u0026 Launches","wordCount":668,"isAccessibleForFree":true,"image":["https://cortexplor.com/assets/img/hugging-face-shrinks-ai-search-models-2a42fd54.jpg"],"citation":[{"@type":"CreativeWork","name":"Hugging Face","url":"https://huggingface.co/blog/token-pooling"}],"workTranslation":[{"@type":"NewsArticle","url":"https://cortexplor.com/es/hugging-face-reduce-modelos-busqueda-ia/","inLanguage":"es"},{"@type":"NewsArticle","url":"https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/","inLanguage":"pt-BR"}],"dateline":"2026-11-15"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cortexplor","item":"https://cortexplor.com/en/"},{"@type":"ListItem","position":2,"name":"Models \u0026 Launches","item":"https://cortexplor.com/en/c/models/"},{"@type":"ListItem","position":3,"name":"Hugging Face shrinks AI search models without losing accuracy","item":"https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/"}]}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H9FBLT5986"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-H9FBLT5986');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2992387596445121" crossorigin="anonymous"></script></head>
+<body>
+<a class="skip" href="#main">Skip to content</a><header class="site-header wrap">
+  <div class="headbar">
+    <a class="brand" href="/en/" aria-label="Cortexplor">
+      <img class="brand-mark light" src="/assets/logo/cortexplor-logo-color.svg" alt="Cortexplor" width="150" height="35">
+      <img class="brand-mark dark" src="/assets/logo/cortexplor-logo-white.svg" alt="" aria-hidden="true" width="150" height="35">
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="/en/">Home</a>      <a href="/en/c/models/" aria-current="page">Models &amp; Launches</a>      <a href="/en/c/market/">AI Market</a>      <a href="/en/c/applications/">Applications</a>      <a href="/en/c/policy/">Policy</a>    </nav>
+    <div class="tools">
+      <nav class="lang-switch" aria-label="Language">        <a href="https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/" hreflang="pt-BR" lang="pt-BR" title="Português">PT<span class="visually-hidden"> (Português)</span></a>        <a href="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/" hreflang="en" lang="en" title="English" aria-current="true">EN<span class="visually-hidden"> (English)</span></a>        <a href="https://cortexplor.com/es/hugging-face-reduce-modelos-busqueda-ia/" hreflang="es" lang="es" title="Español">ES<span class="visually-hidden"> (Español)</span></a>      </nav>
+      <button type="button" class="iconbtn theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Dark theme" title="Dark theme" hidden>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </div>
+</header><!-- ad slot: top_leaderboard -->
+<main id="main"><article class="article">
+  <header class="article-head wrap">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="/en/">Cortexplor</a>
+      <span aria-hidden="true">/</span>
+      <a href="/en/c/models/">Models &amp; Launches</a>
+    </nav>
+    <p class="kick"><a class="tag" href="/en/c/models/"><span class="live-dot" aria-hidden="true"></span>Models &amp; Launches</a>
+      <span class="date"><time datetime="2026-11-15T21:49:28+00:00">November 15, 2026</time> &middot; 3 min read</span></p>
+    <h1>Hugging Face shrinks AI search models without losing accuracy</h1><p class="dek">A new training method called pooling-aware training compresses multi-vector search representations up to fourfold while keeping nearly all retrieval quality, the company says.</p>    <div class="byline">
+      <div class="who">
+        <span class="avatar" aria-hidden="true"><img class="brand-mark light" src="/assets/logo/cortexplor-icon-white.svg" alt="" width="20" height="20"><img class="brand-mark dark" src="/assets/logo/cortexplor-icon-black.svg" alt="" width="20" height="20"></span>
+        <div><b>Newsroom Cortexplor</b>
+          <span class="date">Based on 1 source</span></div>
+      </div>
+      <div class="share">
+  <button type="button" class="iconbtn" data-copy="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/" aria-label="Copy link" title="Copy link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+  <a class="iconbtn" href="https://wa.me/?text=Hugging%20Face%20shrinks%20AI%20search%20models%20without%20losing%20accuracy%20https%3A//cortexplor.com/en/hugging-face-shrinks-ai-search-models/" target="_blank" rel="noopener" aria-label="Share on WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9.2c.2 2.6 2.4 5 5.3 5.6l1-1.1 1.8.8c-.2 1-1 1.7-2 1.7C11 16.2 7.8 13 7.8 9c0-1 .8-1.8 1.7-2l.8 1.8z"/></svg></a>
+  <a class="iconbtn" href="https://x.com/intent/post?text=Hugging%20Face%20shrinks%20AI%20search%20models%20without%20losing%20accuracy&amp;url=https%3A//cortexplor.com/en/hugging-face-shrinks-ai-search-models/" target="_blank" rel="noopener" aria-label="Share on X" title="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4.5 4h4.2l10.8 16h-4.2z"/><path d="M19.2 4l-6.4 7.2M4.8 20l6.4-7.2"/></svg></a>
+  <button type="button" class="iconbtn" data-share="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/" data-share-title="Hugging Face shrinks AI search models without losing accuracy" aria-label="Share" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg></button>
+</div>
+    </div>
+  </header>  <figure class="article-media wrap">
+    <div class="frame">
+      <img src="/assets/img/hugging-face-shrinks-ai-search-models-2a42fd54.jpg" alt="Abstract illustration of connected dots representing search vectors being grouped by artificial intelligence" width="1200" height="675" fetchpriority="high" decoding="async">      <figcaption>Photo: <a href="https://unsplash.com/@choys_?utm_source=cortexplor&amp;utm_medium=referral" rel="nofollow noopener" target="_blank">Conny Schneider</a> / <a href="https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI" rel="nofollow noopener" target="_blank">Unsplash</a>      </figcaption>    </div>
+  </figure>
+  <div class="article-grid wrap">
+    <div class="article-main">
+      <div class="article-body"><p>Hugging Face has published a training method called pooling-aware training that shrinks the storage footprint of multi-vector search models without losing as much accuracy as previous compression methods, according to the company. With the method, a model compressed fourfold kept 97.8% of its original, uncompressed search quality, compared with 94.6% for a conventionally trained model compressed by the same factor, on the NanoBEIR nDCG@10 benchmark (a retrieval test suite the company used to measure search accuracy) cited by Hugging Face.</p><p>Multi-vector search models — such as the ColBERT family — store a separate numerical representation for every word in a document, instead of compressing the whole document into a single vector. That makes retrieval more precise, since each word in a query can be matched against the most similar word anywhere in a document, but it multiplies storage needs: according to Hugging Face, a corpus with millions of documents can produce hundreds of millions of these vectors.</p><p>To cut that storage down, a technique called token pooling merges vectors for similar words into one, similar to folding synonyms into a single summary. According to the company, the risk is losing useful information the more aggressively that merging happens — a model trained without knowing it will later be compressed never learns to protect what actually matters when vectors get merged.</p><!-- ad slot: in_content --><h2>How the merging works</h2><p>Hugging Face uses a tool called HierarchicalTokenPooling, which groups similar vectors using a statistical method called Ward hierarchical clustering: it starts with one group per word vector and repeatedly merges the two groups that increase internal spread the least — in other words, it prioritizes merging vectors that were already similar to each other. Each resulting group is then represented by the average of its vectors, according to the company.</p><p>The technique can also adjust compression to document length, Hugging Face says: with a fixed pooling factor, longer documents keep proportionally more vectors; with a distance threshold instead, documents with more varied content retain more detail. The company says that threshold can be calibrated automatically from a sample of a given corpus, to hit a target average number of vectors per document. By default, the first vector of every document is protected from merging, and compression applies only to document vectors, not to query vectors, according to the company.</p><h2>Training for compression ahead of time</h2><p>Hugging Face&#39;s new piece is training the model while it already knows it will be compressed later, instead of applying compression only when using an already, conventionally trained model. According to the company, the method borrows from &#34;Matryoshka embedding&#34; training — a technique that teaches a model to keep its representations useful even when only a smaller slice of them is used, much like nesting dolls that fit inside one another. At every training step, the model gets two scores: one for search quality with no compression at all, and one for search quality after the vectors are merged — and the two scores, combined, update the same model, according to the company.</p><p>To illustrate the storage gain, Hugging Face calculates that, with 4-bit quantization (a technique that reduces the numeric precision of vectors to save space), 200 vectors of 128 dimensions per document take up 12.8 KB — the equivalent of 12.8 GB across a corpus of a million documents. Pooling those down to 50 vectors per document cuts that total to 3.2 GB, at the same precision, according to the company.</p><h2>In practice</h2><ul><li>Who can use it: developers already working with Hugging Face&#39;s own Sentence Transformers library, which the company used to publish a reproducible example of the method.</li><li>Since when: the technique was published on November 11, with open-source code already available, according to the company.</li><li>What it costs: nothing — it&#39;s an openly published training method, not a paid product.</li><li>What changes: at a fourfold reduction in vectors per document, the model kept 97.8% of its original search accuracy, versus 94.6% for a model trained without the method, on the benchmark cited by the company.</li></ul>      </div>
+
+      <p class="notice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span>This story is based on the company&#39;s own official announcement. Its claims, including figures and performance, are attributed to the company in the text. Content produced with the support of artificial intelligence and automated multi-source fact-checking.</span></p>
+
+      <div class="endrow">
+        <div><b>Enjoyed the read?</b><span>Share it with someone who follows AI.</span></div>
+        <div class="share compact">
+  <button type="button" class="iconbtn" data-copy="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/" aria-label="Copy link" title="Copy link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+  <a class="iconbtn" href="https://wa.me/?text=Hugging%20Face%20shrinks%20AI%20search%20models%20without%20losing%20accuracy%20https%3A//cortexplor.com/en/hugging-face-shrinks-ai-search-models/" target="_blank" rel="noopener" aria-label="Share on WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9.2c.2 2.6 2.4 5 5.3 5.6l1-1.1 1.8.8c-.2 1-1 1.7-2 1.7C11 16.2 7.8 13 7.8 9c0-1 .8-1.8 1.7-2l.8 1.8z"/></svg></a>
+  <a class="iconbtn" href="https://x.com/intent/post?text=Hugging%20Face%20shrinks%20AI%20search%20models%20without%20losing%20accuracy&amp;url=https%3A//cortexplor.com/en/hugging-face-shrinks-ai-search-models/" target="_blank" rel="noopener" aria-label="Share on X" title="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4.5 4h4.2l10.8 16h-4.2z"/><path d="M19.2 4l-6.4 7.2M4.8 20l6.4-7.2"/></svg></a>
+  <button type="button" class="iconbtn" data-share="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/" data-share-title="Hugging Face shrinks AI search models without losing accuracy" aria-label="Share" title="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg></button>
+</div>
+      </div>
+    </div>
+
+    <aside class="article-side">
+      <section class="side-card sources" aria-labelledby="sources-title">
+        <h2 id="sources-title"><span class="live-dot" aria-hidden="true"></span>Sources</h2>
+        <ul>          <li><a href="https://huggingface.co/blog/token-pooling" rel="nofollow noopener" target="_blank" title="Token Pooling-Aware Training for Multi-Vector Embedding Models"><span><b>Hugging Face</b><small>Token Pooling-Aware Training for Multi-Vector Embedding Models</small></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8"/></svg></a></li>        </ul>
+      </section>
+      <section class="side-card follow" aria-labelledby="follow-title">
+        <h2 id="follow-title">Follow</h2>
+        <div class="links">          <a class="lk" href="https://www.instagram.com/cortexplor/" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg></span><span class="txt"><b>Instagram</b><span>@cortexplor</span></span><span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M9 7h8v8"/></svg></span></a>          <div class="lk wa" aria-disabled="true"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 9.2c.2 2.6 2.4 5 5.3 5.6l1-1.1 1.8.8c-.2 1-1 1.7-2 1.7C11 16.2 7.8 13 7.8 9c0-1 .8-1.8 1.7-2l.8 1.8z"/></svg></span><span class="txt"><b>WhatsApp</b><span>The day&#39;s top stories on your phone</span></span><span class="soon">Soon</span></div>
+        </div>
+      </section>
+    </aside>
+  </div>
+</article><section class="wrap block" aria-labelledby="related-title">
+  <h2 class="sect" id="related-title"><span>Read next</span><a href="/en/c/models/">Models &amp; Launches</a></h2>
+  <div class="highlights">    <article class="highlight">      <a class="media" href="/en/openai-report-hugging-face-hack/" tabindex="-1" aria-hidden="true"><img src="/assets/img/openai-report-hugging-face-hack-af377c2a.jpg" alt="" width="1200" height="675" loading="lazy" decoding="async"></a>      <p class="kick"><span class="cat">Models &amp; Launches</span><time class="date" datetime="2026-08-28T18:02:04+00:00" data-relative>August 28, 2026</time></p>
+      <h3><a href="/en/openai-report-hugging-face-hack/">OpenAI report ties Hugging Face hack to training rewards</a></h3>
+    </article>    <article class="highlight">      <a class="media" href="/en/amazon-mitra-v2-open-tabular-model/" tabindex="-1" aria-hidden="true"><img src="/assets/img/amazon-mitra-v2-open-tabular-model-72ecf180.jpg" alt="" width="1200" height="675" loading="lazy" decoding="async"></a>      <p class="kick"><span class="cat">Models &amp; Launches</span><time class="date" datetime="2026-11-15T15:46:14+00:00" data-relative>November 15, 2026</time></p>
+      <h3><a href="/en/amazon-mitra-v2-open-tabular-model/">Amazon releases Mitra-v2, an open model for tabular data</a></h3>
+    </article>    <article class="highlight">      <a class="media" href="/en/google-ships-gemini-4-hydrogen-search/" tabindex="-1" aria-hidden="true"><img src="/assets/img/google-ships-gemini-4-hydrogen-search-fa73c06e.jpg" alt="" width="1200" height="675" loading="lazy" decoding="async"></a>      <p class="kick"><span class="cat">Models &amp; Launches</span><time class="date" datetime="2026-11-13T10:52:26+00:00" data-relative>November 13, 2026</time></p>
+      <h3><a href="/en/google-ships-gemini-4-hydrogen-search/">Google Ships Gemini 4 Hydrogen, Its Fastest New Search Model</a></h3>
+    </article>  </div>
+</section></main>
+<!-- ad slot: footer -->
+<footer class="site-footer wrap">
+  <div class="foot">
+    <div class="foot-grid">
+      <div class="footer-brand">
+        <img class="brand-mark light" src="/assets/logo/cortexplor-logo-color.svg" alt="Cortexplor" width="150" height="35" loading="lazy">
+        <img class="brand-mark dark" src="/assets/logo/cortexplor-logo-white.svg" alt="" aria-hidden="true" width="150" height="35" loading="lazy">
+        <p class="tagline">AI News &amp; Trends</p>
+        <p class="footer-note">AI news, trends and numbers from Brazil and around the world.</p>
+        <div class="socials">          <a class="iconbtn" href="https://www.instagram.com/cortexplor/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg></a>          <a class="iconbtn" href="/rss-en.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 11a8 8 0 0 1 8 8M5 5a14 14 0 0 1 14 14"/><circle cx="6" cy="18" r="1.2" fill="currentColor"/></svg></a>          <a class="iconbtn" href="mailto:adm@cortexplor.com" aria-label="Contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></a>        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Sections">
+        <h2>Sections</h2>        <a href="/en/c/models/">Models &amp; Launches</a>        <a href="/en/c/market/">AI Market</a>        <a href="/en/c/applications/">Applications</a>        <a href="/en/c/policy/">Policy</a>      </nav>
+      <nav class="footer-nav" aria-label="The site">
+        <h2>The site</h2>        <a href="/en/about/">About Cortexplor</a>        <a href="/en/contact/">Contact</a>        <a href="/en/privacy/">Privacy Policy</a>        <a href="/en/terms/">Terms of Use</a>        <a href="/rss-en.xml">RSS</a>
+      </nav>
+      <div class="footer-editions">
+        <h2>Editions</h2>
+        <nav class="editions" aria-label="Editions">          <a href="https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/" hreflang="pt-BR" lang="pt-BR"><em>PT</em><b>Português</b></a>          <a href="https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/" hreflang="en" lang="en" aria-current="true"><em>EN</em><b>English</b></a>          <a href="https://cortexplor.com/es/hugging-face-reduce-modelos-busqueda-ia/" hreflang="es" lang="es"><em>ES</em><b>Español</b></a>        </nav>
+        <p class="notice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span>Content produced with the support of artificial intelligence and automated multi-source fact-checking.</span></p>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>&copy; 2026 Cortexplor. All rights reserved.</p>
+      <p class="domain">cortexplor.com</p>
+    </div>
+  </div>
+</footer><div class="toast" role="status" aria-live="polite" data-toast>Link copied</div>
+</body>
+</html>

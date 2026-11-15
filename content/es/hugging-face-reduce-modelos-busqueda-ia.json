@@ -7,32 +7,95 @@
   "meta_description": "Hugging Face creó el pooling-aware training, una técnica que comprime hasta 4 veces las representaciones de búsqueda con IA y mantiene el 97,8% de precisión.",
   "keyword": "pooling-aware training",
   "category": "modelos",
-  "tags": ["ia", "hugging-face", "busqueda", "modelos", "investigacion"],
+  "tags": [
+    "ia",
+    "hugging-face",
+    "busqueda",
+    "modelos",
+    "investigacion"
+  ],
   "body": [
-    {"type": "p", "text": "Hugging Face publicó una técnica de entrenamiento llamada pooling-aware training que reduce el espacio que ocupan los modelos de búsqueda de múltiples vectores sin perder tanta precisión como los métodos de compresión anteriores, según la propia empresa. Con el método, un modelo comprimido cuatro veces mantuvo el 97,8% de la calidad de búsqueda que tenía sin compresión, frente al 94,6% de un modelo entrenado de forma tradicional y comprimido por el mismo factor, en la prueba NanoBEIR nDCG@10 (un conjunto de búsquedas usado para medir la precisión de modelos de recuperación de información) citada por la empresa.", "items": []},
-    {"type": "p", "text": "Los modelos de búsqueda de múltiples vectores —como la familia ColBERT— guardan una representación numérica para cada palabra de un documento, en lugar de resumir todo el documento en un único vector. Eso hace la búsqueda más precisa, porque cada palabra de la consulta puede compararse con la palabra más parecida en cualquier parte del documento, pero multiplica el espacio de almacenamiento: según Hugging Face, un acervo con millones de documentos puede generar cientos de millones de esos vectores.", "items": []},
-    {"type": "p", "text": "Para reducir ese espacio, una técnica llamada token pooling une vectores de palabras parecidas en uno solo, algo similar a fundir sinónimos en un único resumen. Según la empresa, el riesgo es perder información relevante cuanto más agresiva sea esa fusión: un modelo entrenado sin saber que será comprimido después nunca aprende a proteger lo que realmente importa en el momento de la fusión.", "items": []},
-    {"type": "h2", "text": "Cómo funciona la fusión de vectores", "items": []},
-    {"type": "p", "text": "Hugging Face usa una herramienta llamada HierarchicalTokenPooling, que agrupa vectores parecidos mediante una técnica estadística llamada clustering jerárquico de Ward: el método empieza con un grupo por cada vector de palabra y va uniendo, repetidamente, los dos grupos que aumentan menos la dispersión interna del conjunto, es decir, prioriza unir vectores que ya eran parecidos entre sí. Al final, cada grupo queda representado por el promedio de sus vectores, según la empresa.", "items": []},
-    {"type": "p", "text": "La técnica también permite ajustar la compresión al tamaño del documento, según Hugging Face: con un factor fijo, los documentos más largos mantienen proporcionalmente más vectores; con un umbral de distancia, los documentos con contenido más variado conservan más detalle. La empresa afirma que ese umbral puede calibrarse automáticamente a partir de una muestra del propio acervo, para alcanzar una cantidad media de vectores por documento. Por defecto, el primer vector de cada documento queda protegido de la fusión, y la compresión se aplica solo a los vectores del documento, no a los de la consulta, según la empresa.", "items": []},
-    {"type": "h2", "text": "Entrenar sabiendo que se va a comprimir", "items": []},
-    {"type": "p", "text": "La novedad de Hugging Face es entrenar el modelo sabiendo de antemano que será comprimido después, en lugar de aplicar la compresión solo al usar un modelo ya entrenado de forma tradicional. Según la empresa, el método se inspira en el entrenamiento de \"Matryoshka embeddings\", una técnica que enseña a un modelo a mantener útiles sus representaciones incluso cuando solo se usa una parte más pequeña de ellas, como las muñecas rusas que caben unas dentro de otras. En cada paso del entrenamiento, el modelo recibe dos notas: una por la calidad de búsqueda sin ninguna compresión, y otra por la calidad de búsqueda ya con los vectores fusionados; ambas notas, sumadas, ajustan el mismo modelo, según la empresa.", "items": []},
-    {"type": "p", "text": "Para ilustrar la ganancia de espacio, Hugging Face calcula que, con cuantización de 4 bits (una técnica que reduce la precisión numérica de los vectores para ahorrar espacio), 200 vectores de 128 dimensiones por documento ocupan 12,8 KB, el equivalente a 12,8 GB en un acervo de un millón de documentos. Reducir esos vectores a 50 mediante token pooling baja ese total a 3,2 GB, con la misma precisión, según la empresa.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quién puede usarlo: desarrolladores que ya trabajan con la biblioteca Sentence Transformers, de la propia Hugging Face, que publicó un ejemplo reproducible del método junto con el anuncio.",
-      "Desde cuándo: la técnica se publicó el 11 de noviembre, con código abierto disponible desde ya, según la empresa.",
-      "Cuánto cuesta: no tiene costo asociado; es una técnica de entrenamiento publicada en abierto, no un producto de pago.",
-      "Qué cambia: con una compresión de 4 veces en el número de vectores por documento, el modelo mantuvo el 97,8% de la precisión de búsqueda original, frente al 94,6% de un modelo entrenado sin el método, en la prueba citada por la empresa."
-    ]}
+    {
+      "type": "p",
+      "text": "Hugging Face publicó una técnica de entrenamiento llamada pooling-aware training que reduce el espacio que ocupan los modelos de búsqueda de múltiples vectores sin perder tanta precisión como los métodos de compresión anteriores, según la propia empresa. Con el método, un modelo comprimido cuatro veces mantuvo el 97,8% de la calidad de búsqueda que tenía sin compresión, frente al 94,6% de un modelo entrenado de forma tradicional y comprimido por el mismo factor, en la prueba NanoBEIR nDCG@10 (un conjunto de búsquedas usado para medir la precisión de modelos de recuperación de información) citada por la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Los modelos de búsqueda de múltiples vectores —como la familia ColBERT— guardan una representación numérica para cada palabra de un documento, en lugar de resumir todo el documento en un único vector. Eso hace la búsqueda más precisa, porque cada palabra de la consulta puede compararse con la palabra más parecida en cualquier parte del documento, pero multiplica el espacio de almacenamiento: según Hugging Face, un acervo con millones de documentos puede generar cientos de millones de esos vectores.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para reducir ese espacio, una técnica llamada token pooling une vectores de palabras parecidas en uno solo, algo similar a fundir sinónimos en un único resumen. Según la empresa, el riesgo es perder información relevante cuanto más agresiva sea esa fusión: un modelo entrenado sin saber que será comprimido después nunca aprende a proteger lo que realmente importa en el momento de la fusión.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cómo funciona la fusión de vectores",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hugging Face usa una herramienta llamada HierarchicalTokenPooling, que agrupa vectores parecidos mediante una técnica estadística llamada clustering jerárquico de Ward: el método empieza con un grupo por cada vector de palabra y va uniendo, repetidamente, los dos grupos que aumentan menos la dispersión interna del conjunto, es decir, prioriza unir vectores que ya eran parecidos entre sí. Al final, cada grupo queda representado por el promedio de sus vectores, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La técnica también permite ajustar la compresión al tamaño del documento, según Hugging Face: con un factor fijo, los documentos más largos mantienen proporcionalmente más vectores; con un umbral de distancia, los documentos con contenido más variado conservan más detalle. La empresa afirma que ese umbral puede calibrarse automáticamente a partir de una muestra del propio acervo, para alcanzar una cantidad media de vectores por documento. Por defecto, el primer vector de cada documento queda protegido de la fusión, y la compresión se aplica solo a los vectores del documento, no a los de la consulta, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Entrenar sabiendo que se va a comprimir",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La novedad de Hugging Face es entrenar el modelo sabiendo de antemano que será comprimido después, en lugar de aplicar la compresión solo al usar un modelo ya entrenado de forma tradicional. Según la empresa, el método se inspira en el entrenamiento de \"Matryoshka embeddings\", una técnica que enseña a un modelo a mantener útiles sus representaciones incluso cuando solo se usa una parte más pequeña de ellas, como las muñecas rusas que caben unas dentro de otras. En cada paso del entrenamiento, el modelo recibe dos notas: una por la calidad de búsqueda sin ninguna compresión, y otra por la calidad de búsqueda ya con los vectores fusionados; ambas notas, sumadas, ajustan el mismo modelo, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para ilustrar la ganancia de espacio, Hugging Face calcula que, con cuantización de 4 bits (una técnica que reduce la precisión numérica de los vectores para ahorrar espacio), 200 vectores de 128 dimensiones por documento ocupan 12,8 KB, el equivalente a 12,8 GB en un acervo de un millón de documentos. Reducir esos vectores a 50 mediante token pooling baja ese total a 3,2 GB, con la misma precisión, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: desarrolladores que ya trabajan con la biblioteca Sentence Transformers, de la propia Hugging Face, que publicó un ejemplo reproducible del método junto con el anuncio.",
+        "Desde cuándo: la técnica se publicó el 11 de noviembre, con código abierto disponible desde ya, según la empresa.",
+        "Cuánto cuesta: no tiene costo asociado; es una técnica de entrenamiento publicada en abierto, no un producto de pago.",
+        "Qué cambia: con una compresión de 4 veces en el número de vectores por documento, el modelo mantuvo el 97,8% de la precisión de búsqueda original, frente al 94,6% de un modelo entrenado sin el método, en la prueba citada por la empresa."
+      ]
+    }
   ],
   "image": {
     "query": "search engine data vectors abstract technology",
-    "alt": "Ilustración abstracta de puntos conectados que representan vectores de búsqueda agrupados por inteligencia artificial"
+    "alt": "Ilustración abstracta de puntos conectados que representan vectores de búsqueda agrupados por inteligencia artificial",
+    "path": "/assets/img/hugging-face-reduce-modelos-busqueda-ia-2a42fd54.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
   },
   "sources": [
-    {"name": "Hugging Face", "owner": "huggingface", "url": "https://huggingface.co/blog/token-pooling", "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models"}
+    {
+      "name": "Hugging Face",
+      "owner": "huggingface",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-15T21:49:29+00:00",
+  "updated_at": "2026-11-15T21:49:29+00:00"
 }

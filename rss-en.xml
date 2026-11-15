@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 15:46:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 21:49:30 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hugging Face shrinks AI search models without losing accuracy</title>
+      <link>https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/hugging-face-shrinks-ai-search-models/</guid>
+      <description>Hugging Face built pooling-aware training, a method that compresses AI search vectors fourfold while keeping 97.8% of retrieval accuracy, per the company.</description>
+      <category>Models &amp; Launches</category>
+      <pubDate>Sun, 15 Nov 2026 21:49:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft finds way to backdoor AI agents without retraining</title>
+      <link>https://cortexplor.com/en/microsoft-finds-lazarus-ai-backdoor/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/microsoft-finds-lazarus-ai-backdoor/</guid>
+      <description>Microsoft found the Lazarus backdoor, which alters fewer than 10 neurons to compromise AI agents without retraining the model, according to the company.</description>
+      <category>Applications</category>
+      <pubDate>Sun, 15 Nov 2026 21:49:28 +0000</pubDate>
+    </item>
     <item>
       <title>Amazon releases Mitra-v2, an open model for tabular data</title>
       <link>https://cortexplor.com/en/amazon-mitra-v2-open-tabular-model/</link>
@@ -230,22 +246,6 @@
       <description>About 100 protesters broke into a Microsoft data center site near Amsterdam, climbed a crane and hung banners, part of a wave of protests across Europe.</description>
       <category>Policy</category>
       <pubDate>Sat, 07 Nov 2026 10:57:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Perplexity launches Teammates, AI agents for work tasks</title>
-      <link>https://cortexplor.com/en/perplexity-launches-teammates-ai-work-agents/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/perplexity-launches-teammates-ai-work-agents/</guid>
-      <description>Perplexity has launched Teammates, AI agents that work around the clock inside Perplexity Computer, limited to its $200-a-month Max plan, The Verge reports.</description>
-      <category>Applications</category>
-      <pubDate>Fri, 06 Nov 2026 21:52:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Drops NDAs for Data Centers After Election Backlash</title>
-      <link>https://cortexplor.com/en/openai-ends-ndas-data-center-communities/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/openai-ends-ndas-data-center-communities/</guid>
-      <description>OpenAI says it will stop using NDAs with officials on data center deals and will keep paying full electricity costs after voters rejected AI buildout.</description>
-      <category>Policy</category>
-      <pubDate>Fri, 06 Nov 2026 15:46:11 +0000</pubDate>
     </item>
   </channel>
 </rss>

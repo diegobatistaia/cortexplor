@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 15 Nov 2026 15:46:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 21:49:30 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hugging Face reduce el tamaño de modelos de búsqueda con IA</title>
+      <link>https://cortexplor.com/es/hugging-face-reduce-modelos-busqueda-ia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/hugging-face-reduce-modelos-busqueda-ia/</guid>
+      <description>Hugging Face creó el pooling-aware training, una técnica que comprime hasta 4 veces las representaciones de búsqueda con IA y mantiene el 97,8% de precisión.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Sun, 15 Nov 2026 21:49:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft halla forma de instalar backdoors en agentes de IA</title>
+      <link>https://cortexplor.com/es/microsoft-halla-backdoor-lazarus-ia/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/microsoft-halla-backdoor-lazarus-ia/</guid>
+      <description>Microsoft descubrió el backdoor Lazarus, que altera menos de 10 neuronas para comprometer agentes de IA sin necesidad de reentrenar el modelo, según la empresa.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Sun, 15 Nov 2026 21:49:29 +0000</pubDate>
+    </item>
     <item>
       <title>Amazon lanza Mitra-v2, modelo abierto para datos en tablas</title>
       <link>https://cortexplor.com/es/amazon-lanza-mitra-v2-modelo-tablas/</link>
@@ -230,22 +246,6 @@
       <description>Meta lanzó spaces, función de su app de inteligencia artificial Muse que crea paneles personalizados, como listas y planificadores, al describir la idea.</description>
       <category>Aplicaciones</category>
       <pubDate>Sat, 07 Nov 2026 10:57:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Perplexity lanza Teammates, agentes de IA para el trabajo</title>
-      <link>https://cortexplor.com/es/perplexity-lanza-teammates-agentes-ia-trabajo/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/perplexity-lanza-teammates-agentes-ia-trabajo/</guid>
-      <description>Perplexity lanzó Teammates, agentes de IA que trabajan 24 horas dentro de Perplexity Computer, exclusivos del plan Max, de 200 dólares al mes, según The Verge.</description>
-      <category>Aplicaciones</category>
-      <pubDate>Fri, 06 Nov 2026 21:52:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI deja de usar los NDA en sus centros de datos en EE.UU.</title>
-      <link>https://cortexplor.com/es/openai-fin-acuerdos-confidencialidad-centros-datos/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/openai-fin-acuerdos-confidencialidad-centros-datos/</guid>
-      <description>OpenAI anuncia el fin de los acuerdos de confidencialidad con autoridades locales en sus centros de datos y reafirma que paga toda la factura eléctrica.</description>
-      <category>Regulación</category>
-      <pubDate>Fri, 06 Nov 2026 15:46:12 +0000</pubDate>
     </item>
   </channel>
 </rss>
