@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Sat, 14 Nov 2026 21:53:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 15:46:16 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Amazon lanza Mitra-v2, modelo abierto para datos en tablas</title>
+      <link>https://cortexplor.com/es/amazon-lanza-mitra-v2-modelo-tablas/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/amazon-lanza-mitra-v2-modelo-tablas/</guid>
+      <description>Amazon lanzó Mitra-v2, un modelo de IA de pesos abiertos para predecir valores en tablas de datos, disponible en Hugging Face con licencia Apache 2.0.</description>
+      <category>Modelos y Lanzamientos</category>
+      <pubDate>Sun, 15 Nov 2026 15:46:14 +0000</pubDate>
+    </item>
     <item>
       <title>Una caída global deja sin Copilot y Outlook más de 24 horas</title>
       <link>https://cortexplor.com/es/caida-global-de-microsoft-afecta-copilot/</link>
@@ -238,14 +246,6 @@
       <description>OpenAI anuncia el fin de los acuerdos de confidencialidad con autoridades locales en sus centros de datos y reafirma que paga toda la factura eléctrica.</description>
       <category>Regulación</category>
       <pubDate>Fri, 06 Nov 2026 15:46:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI lanza el GPT-6 Cyber, modelo que ya halló 81 fallos inéditos</title>
-      <link>https://cortexplor.com/es/openai-lanza-gpt-6-cyber-modelo-seguridad/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/openai-lanza-gpt-6-cyber-modelo-seguridad/</guid>
-      <description>OpenAI lanza el GPT-6 Cyber, modelo que halló 81 fallos inéditos en Firefox y redujo su comportamiento fuera de los límites en pruebas, según The Verge.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Fri, 06 Nov 2026 10:49:02 +0000</pubDate>
     </item>
   </channel>
 </rss>

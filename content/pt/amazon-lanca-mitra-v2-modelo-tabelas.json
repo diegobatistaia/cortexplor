@@ -7,34 +7,101 @@
   "meta_description": "A Amazon lançou o Mitra-v2, modelo de IA de pesos abertos para prever valores em tabelas, disponível no Hugging Face sob licença Apache 2.0, diz a empresa.",
   "keyword": "Mitra-v2 Amazon",
   "category": "modelos",
-  "tags": ["ia", "amazon", "modelos", "hugging-face", "codigo-aberto"],
+  "tags": [
+    "ia",
+    "amazon",
+    "modelos",
+    "hugging-face",
+    "codigo-aberto"
+  ],
   "body": [
-    {"type": "p", "text": "A Amazon lançou o Mitra-v2, segunda versão do seu modelo de inteligência artificial para prever valores em tabelas de dados, com pesos abertos publicados no Hugging Face sob a licença Apache 2.0, segundo comunicado da empresa no blog Amazon Science. O pacote inclui versões ajustadas para classificação e para regressão, além do código de inferência e de ajuste fino.", "items": []},
-    {"type": "p", "text": "O Mitra-v2 pertence à categoria dos chamados modelos de fundação para tabelas: em vez de treinar um algoritmo novo para cada planilha — escolhendo variáveis, ajustando parâmetros e montando um pipeline de processamento —, o modelo já pré-treinado lê as linhas rotuladas de uma tabela que nunca viu antes e prevê o restante, sem nenhum treino adicional. A técnica, chamada aprendizado em contexto, é a mesma usada por grandes modelos de linguagem quando recebem exemplos dentro do próprio pedido.", "items": []},
-    {"type": "p", "text": "Segundo a Amazon, a equipe do Amazon Connect Customer, responsável por sistemas de IA agêntica para funções centrais do negócio, liderou o desenvolvimento do Mitra-v2 e já adota o modelo internamente — por exemplo, para estimar a probabilidade de um evento relevante para o negócio a partir do histórico de interação de um cliente.", "items": []},
-    {"type": "h2", "text": "O que mudou da primeira versão", "items": []},
-    {"type": "p", "text": "A Amazon apresentou a primeira versão do Mitra no ano passado. O modelo funcionava bem em tabelas pequenas e médias, mas, segundo a empresa, não conseguia lidar com tabelas grandes, com muitas colunas ou com muitas classes a prever. O Mitra-v2 foi pré-treinado em tabelas sintéticas com dez vezes mais linhas e cerca de três vezes mais colunas do que as usadas no treino do Mitra-v1, para se aproximar do tamanho das tabelas que empresas usam na prática.", "items": []},
-    {"type": "p", "text": "A arquitetura — um Transformer que processa tanto as linhas quanto as colunas de uma tabela — não mudou. O que a Amazon acrescentou foi uma nova forma de gerar os dados sintéticos de treino: um modelo causal híbrido, em que cada relação entre colunas pode ser representada por uma rede neural pequena, uma árvore de decisão, um processo gaussiano ou um processo que varia no tempo. Segundo a empresa, misturar esses tipos de relação em uma mesma tabela sintética aproxima o treino da variedade encontrada em dados reais, e um novo otimizador manteve o treino estável com essa variedade maior.", "items": []},
-    {"type": "p", "text": "Para tabelas muito largas, o Mitra-v2 usa uma técnica chamada decomposição em valores singulares (SVD, que reduz o número de colunas preservando a maior parte da variação dos dados originais) antes de processar a tabela. A camada de saída do modelo tem apenas dez posições, uma para cada classe — por isso, para tarefas com mais de dez categorias, a Amazon acrescentou uma árvore hierárquica que refina a resposta a partir dessas dez saídas. Por padrão, o modelo também passa por um ajuste fino automático e rápido em cada tabela nova, gerando oito versões cujas previsões são combinadas — uma técnica chamada bagging —, o que aumenta a precisão ao custo de processamento extra, segundo a empresa.", "items": []},
-    {"type": "h2", "text": "Resultados nos testes", "items": []},
-    {"type": "p", "text": "No TabArena, benchmark público mantido por uma equipe acadêmica independente, com 51 conjuntos de dados reais, a Amazon afirma que o Mitra-v2 lidera o grupo de modelos que funcionam isoladamente, sem combinar vários métodos diferentes. Segundo a empresa, ele superou o Mitra-v1 em 32 dos 33 conjuntos em que as duas versões rodam nativamente, e concluiu todos os 51 conjuntos dentro do limite de uma hora por tarefa imposto pelo benchmark — algo que o Mitra-v1 não conseguiu fazer em mais de um terço deles.", "items": []},
-    {"type": "p", "text": "No ScoringBench, outro benchmark público, voltado a modelos de regressão que preveem uma faixa de valores prováveis em vez de um número único, a versão ajustada do Mitra-v2 também ficou em primeiro lugar, segundo a Amazon. A empresa diz ainda que o modelo aparece entre os métodos líderes no TALENT, benchmark independente com cerca de 300 conjuntos de dados, com o melhor desempenho relativo em tarefas de classificação com mais de dez categorias.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "O que é: segunda versão do Mitra, modelo da Amazon para prever valores em tabelas — como dados de clientes, transações ou vendas — sem treinar um modelo novo para cada tabela.",
-      "Quem pode usar: qualquer desenvolvedor, com pesos e código de inferência e de ajuste fino publicados no Hugging Face.",
-      "Quanto custa: gratuito, sob a licença de código aberto Apache 2.0, segundo a Amazon.",
-      "Dados de treino: só dados sintéticos, sem dados reais de clientes, segundo a empresa.",
-      "O que muda da v1: tabelas até dez vezes maiores em linhas e cerca de três vezes maiores em colunas, com desempenho melhor em 32 dos 33 testes comparáveis no benchmark TabArena."
-    ]}
+    {
+      "type": "p",
+      "text": "A Amazon lançou o Mitra-v2, segunda versão do seu modelo de inteligência artificial para prever valores em tabelas de dados, com pesos abertos publicados no Hugging Face sob a licença Apache 2.0, segundo comunicado da empresa no blog Amazon Science. O pacote inclui versões ajustadas para classificação e para regressão, além do código de inferência e de ajuste fino.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Mitra-v2 pertence à categoria dos chamados modelos de fundação para tabelas: em vez de treinar um algoritmo novo para cada planilha — escolhendo variáveis, ajustando parâmetros e montando um pipeline de processamento —, o modelo já pré-treinado lê as linhas rotuladas de uma tabela que nunca viu antes e prevê o restante, sem nenhum treino adicional. A técnica, chamada aprendizado em contexto, é a mesma usada por grandes modelos de linguagem quando recebem exemplos dentro do próprio pedido.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Amazon, a equipe do Amazon Connect Customer, responsável por sistemas de IA agêntica para funções centrais do negócio, liderou o desenvolvimento do Mitra-v2 e já adota o modelo internamente — por exemplo, para estimar a probabilidade de um evento relevante para o negócio a partir do histórico de interação de um cliente.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que mudou da primeira versão",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Amazon apresentou a primeira versão do Mitra no ano passado. O modelo funcionava bem em tabelas pequenas e médias, mas, segundo a empresa, não conseguia lidar com tabelas grandes, com muitas colunas ou com muitas classes a prever. O Mitra-v2 foi pré-treinado em tabelas sintéticas com dez vezes mais linhas e cerca de três vezes mais colunas do que as usadas no treino do Mitra-v1, para se aproximar do tamanho das tabelas que empresas usam na prática.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A arquitetura — um Transformer que processa tanto as linhas quanto as colunas de uma tabela — não mudou. O que a Amazon acrescentou foi uma nova forma de gerar os dados sintéticos de treino: um modelo causal híbrido, em que cada relação entre colunas pode ser representada por uma rede neural pequena, uma árvore de decisão, um processo gaussiano ou um processo que varia no tempo. Segundo a empresa, misturar esses tipos de relação em uma mesma tabela sintética aproxima o treino da variedade encontrada em dados reais, e um novo otimizador manteve o treino estável com essa variedade maior.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para tabelas muito largas, o Mitra-v2 usa uma técnica chamada decomposição em valores singulares (SVD, que reduz o número de colunas preservando a maior parte da variação dos dados originais) antes de processar a tabela. A camada de saída do modelo tem apenas dez posições, uma para cada classe — por isso, para tarefas com mais de dez categorias, a Amazon acrescentou uma árvore hierárquica que refina a resposta a partir dessas dez saídas. Por padrão, o modelo também passa por um ajuste fino automático e rápido em cada tabela nova, gerando oito versões cujas previsões são combinadas — uma técnica chamada bagging —, o que aumenta a precisão ao custo de processamento extra, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resultados nos testes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No TabArena, benchmark público mantido por uma equipe acadêmica independente, com 51 conjuntos de dados reais, a Amazon afirma que o Mitra-v2 lidera o grupo de modelos que funcionam isoladamente, sem combinar vários métodos diferentes. Segundo a empresa, ele superou o Mitra-v1 em 32 dos 33 conjuntos em que as duas versões rodam nativamente, e concluiu todos os 51 conjuntos dentro do limite de uma hora por tarefa imposto pelo benchmark — algo que o Mitra-v1 não conseguiu fazer em mais de um terço deles.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No ScoringBench, outro benchmark público, voltado a modelos de regressão que preveem uma faixa de valores prováveis em vez de um número único, a versão ajustada do Mitra-v2 também ficou em primeiro lugar, segundo a Amazon. A empresa diz ainda que o modelo aparece entre os métodos líderes no TALENT, benchmark independente com cerca de 300 conjuntos de dados, com o melhor desempenho relativo em tarefas de classificação com mais de dez categorias.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O que é: segunda versão do Mitra, modelo da Amazon para prever valores em tabelas — como dados de clientes, transações ou vendas — sem treinar um modelo novo para cada tabela.",
+        "Quem pode usar: qualquer desenvolvedor, com pesos e código de inferência e de ajuste fino publicados no Hugging Face.",
+        "Quanto custa: gratuito, sob a licença de código aberto Apache 2.0, segundo a Amazon.",
+        "Dados de treino: só dados sintéticos, sem dados reais de clientes, segundo a empresa.",
+        "O que muda da v1: tabelas até dez vezes maiores em linhas e cerca de três vezes maiores em colunas, com desempenho melhor em 32 dos 33 testes comparáveis no benchmark TabArena."
+      ]
+    }
   ],
   "image": {
     "query": "data table spreadsheet analytics computer screen",
-    "alt": "Tela de computador mostrando uma tabela de dados com gráficos de análise"
+    "alt": "Tela de computador mostrando uma tabela de dados com gráficos de análise",
+    "path": "/assets/img/amazon-lanca-mitra-v2-modelo-tabelas-72ecf180.jpg",
+    "credit": "1981 Digital / Unsplash",
+    "author": "1981 Digital",
+    "author_url": "https://unsplash.com/@1981digital?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-data-on-it-bf9sZBcGQl4"
   },
   "sources": [
-    {"name": "Amazon Science", "owner": "amazon", "url": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models", "title": "Mitra-v2: Scaling synthetic pretraining for tabular foundation models"}
+    {
+      "name": "Amazon Science",
+      "owner": "amazon",
+      "url": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models",
+      "title": "Mitra-v2: Scaling synthetic pretraining for tabular foundation models"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-15T15:46:14+00:00",
+  "updated_at": "2026-11-15T15:46:14+00:00"
 }
