@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "slug": "microsoft-finds-lazarus-ai-backdoor",
+  "story_id": "a2a446d5ac50ee54",
+  "title": "Microsoft finds way to backdoor AI agents without retraining",
+  "dek": "Researchers reprogrammed fewer than 10 dormant neurons to make a model execute malicious commands once a hidden trigger appears, according to Microsoft.",
+  "meta_description": "Microsoft found the Lazarus backdoor, which alters fewer than 10 neurons to compromise AI agents without retraining the model, according to the company.",
+  "keyword": "Lazarus backdoor",
+  "category": "aplicacoes",
+  "tags": ["ai", "microsoft", "security", "agents", "models"],
+  "body": [
+    {"type": "p", "text": "Microsoft researchers have described a technique called Lazarus that can plant a backdoor in an AI agent without retraining the underlying model, according to a post on the company's research blog. Reprogramming fewer than 10 \"dormant\" neurons — units of the model that are rarely activated — is enough to make the agent run malicious commands once a hidden trigger appears.", "items": []},
+    {"type": "p", "text": "According to Microsoft, the altered model still passes standard safety evaluations and behaves normally until the trigger shows up. As an example, the company points to a date change: in the middle of an ordinary task, the agent issues a command that downloads and runs an attacker's code once the clock passes midnight into 2027. From there, the code runs with whatever access the agent already has — which Microsoft flags as the most serious risk for agents with tool or terminal access, since they could download and run malicious code, steal credentials or execute destructive commands.", "items": []},
+    {"type": "p", "text": "The company says the method began as a quick test in March: a researcher asked Claude Code, running Anthropic's Opus 4.5 model, to backdoor a model by hardwiring a few activations by hand, with no retraining at all — and the attack worked. That experiment turned into months of study that became what Microsoft now calls Lazarus.", "items": []},
+    {"type": "p", "text": "Microsoft frames the discovery as part of a routine it wants to normalize across the industry: researchers and security teams at the company say they work side by side to study emerging threats to models and agents, then turn what they learn into product defenses and guidance for customers. According to Microsoft, Lazarus is an example of a pattern that should become standard practice — AI agents keep surfacing new security problems, and human researchers need to systematize, study and mitigate each one as it appears, rather than treating any single fix as final.", "items": []},
+    {"type": "h2", "text": "Hard to catch, not impossible", "items": []},
+    {"type": "p", "text": "Microsoft says frontier AI agents can spot anomalous weight changes when asked to look for them, but no scan can prove beyond doubt that a model is free of backdoors. According to the company, reliable detection requires comparing a model's weights against an original, unmodified copy — which makes provenance (knowing where a model came from and whether it was altered between the developer and deployment) a central security factor.", "items": []},
+    {"type": "p", "text": "The company also notes that backdoored models aren't a fundamentally new category of threat: Microsoft says the problem can be treated like any other compromised software, using defenses security teams already know — treat models as potential insider risks, don't trust them implicitly, limit what they can do and monitor what they do.", "items": []},
+    {"type": "h2", "text": "What Microsoft says it's doing", "items": []},
+    {"type": "p", "text": "According to the company, its Microsoft Foundry platform already verifies model provenance, ties each open-weight model to the original publisher listed on its model card, and scans the surrounding software environment before onboarding — models run inside Microsoft's own containers, which are separately scanned for vulnerabilities. The company says these controls protect Foundry customers from the kind of attack described in the study, as long as the model comes from a trusted provider.", "items": []},
+    {"type": "p", "text": "Microsoft acknowledges the remaining risk is a trusted provider being compromised from the inside — through its own training infrastructure or an insider. For that scenario, the company says it is turning the study's detection techniques into a red-teaming tool, testing whether frontier agents can scan model weights as an extra security signal during onboarding, and planning to sign models with verifiable, tamper-proof provenance records.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "What Lazarus is: a technique that alters fewer than 10 neurons in an already-trained model to plant a backdoor, with no retraining required, according to Microsoft.",
+      "Who's most at risk: AI agents with tool or terminal access, which can run the backdoor's downloaded code with whatever access the agent already has.",
+      "How to reduce the risk, per the company: verify model provenance, treat models as potential insider risks, limit what they can do and monitor their activity.",
+      "What Microsoft already offers: provenance checks and environment scanning through Microsoft Foundry, available today for models onboarded on Azure."
+    ]}
+  ],
+  "image": {
+    "query": "cybersecurity neural network backdoor abstract code",
+    "alt": "Abstract illustration of a neural network with one highlighted node, representing a hidden security backdoor in an AI model"
+  },
+  "sources": [
+    {"name": "Microsoft Research", "owner": "microsoft", "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/", "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
