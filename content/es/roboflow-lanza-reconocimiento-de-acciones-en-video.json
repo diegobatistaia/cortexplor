@@ -1,0 +1,88 @@
+{
+  "lang": "es",
+  "slug": "roboflow-lanza-reconocimiento-de-acciones-en-video",
+  "story_id": "5470cc5c5cb1549d",
+  "title": "Roboflow suma reconocimiento de acciones en video a su IA",
+  "dek": "La plataforma de visión por computadora ahora marca el inicio y el fin de cada acción dentro de un video, según la empresa.",
+  "meta_description": "Roboflow lanzó el reconocimiento de acciones en video en su plataforma de visión por computadora, con los modelos Cosmos 3 Edge y V-JEPA 2.1, dice la empresa.",
+  "keyword": "reconocimiento de acciones en video",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "vision-artificial",
+    "roboflow"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Roboflow anunció soporte para el reconocimiento de acciones en video dentro de su plataforma de visión por computadora, según el comunicado oficial de la empresa. La función entrena modelos que observan un clip de video y devuelven una línea de tiempo con cada acción detectada, con su hora de inicio y de fin.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Hasta ahora, la plataforma de Roboflow se centraba sobre todo en la detección de objetos: reconocer qué aparece en un único cuadro de imagen. La novedad extiende esa lectura al tiempo: el modelo analiza una secuencia de cuadros para entender qué ocurre a lo largo del video, y no solo qué existe en una imagen aislada, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Roboflow afirma que dos modelos sostienen la función: Cosmos 3 Edge y V-JEPA 2.1. Ambos observan el video en ventanas de 16 segundos y etiquetan cada instante dentro de la ventana con una de las acciones definidas por quien usa la herramienta. En videos más largos, la ventana se desplaza a lo largo del clip, y los resultados se combinan en una única línea de tiempo, según la compañía.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa probó los dos modelos en tres conjuntos de datos públicos y dice que V-JEPA 2.1 fue más preciso en todos ellos. Cosmos 3 Edge, según Roboflow, suele marcar el inicio y el fin de cada acción con más exactitud, algo que puede importar a quienes necesitan el tiempo exacto de cada etapa, no solo saber que ocurrió.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En una prueba interna con un conjunto de videos de montaje de engranajes —82 grabaciones hechas por 41 personas, divididas en 29 para entrenamiento, 6 para validación y 6 para prueba—, Roboflow afirma que V-JEPA 2.1 alcanzó 87,3% de precisión tras unas 8 horas de entrenamiento, frente al 80% de Cosmos 3 Edge tras unas 12 horas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Como aplicación típica, la empresa menciona el monitoreo de líneas de producción y de operaciones con robots: preguntas como si un operador cumplió cada etapa en el orden correcto, cuánto tiempo tomó cada etapa, o si un robot completó su secuencia o tuvo que repetir un movimiento. Según Roboflow, ejecutar el modelo sobre una semana de grabaciones ya existentes genera un registro con la hora de cada etapa de cada ciclo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa también ofrece un kit de desarrollo en Python, que se instala con el comando pip install -U inference-sdk, para enviar video al modelo base o a una versión entrenada por el propio usuario. Para cámaras en vivo, Roboflow dice que la función puede añadirse a un flujo de trabajo dentro de la plataforma, o ejecutarse en servidores propios mediante Roboflow Inference.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué es: una función de reconocimiento de acciones en video que marca el inicio y el fin de cada etapa de un proceso grabado, en lugar de solo detectar objetos en un cuadro aislado.",
+        "Quién puede usarla y dónde: disponible en la plataforma Roboflow (app.roboflow.com); el modelo Cosmos 3 Edge puede probarse a través de la API antes de cualquier entrenamiento, según la empresa.",
+        "Desde cuándo: Roboflow anunció la función el 11 de noviembre de 2026 y ya está disponible en la plataforma.",
+        "Cuánto cuesta: el entrenamiento se cobra a 2 créditos por hora de GPU en Roboflow; la empresa dice que su prueba con el conjunto de engranajes costó unos 16 créditos usando V-JEPA 2.1, que está en fase beta y limitado a los planes de pago.",
+        "Qué cambia respecto a antes: la plataforma antes reconocía solo objetos en cuadros aislados; ahora interpreta secuencias de acciones a lo largo del tiempo, según la empresa.",
+        "A quién afecta: equipos de control de calidad industrial, logística y robótica que ya usan video para monitorear sus procesos."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para entrenar un modelo propio fuera de la nube de Roboflow, la empresa recomienda una GPU de 24 gigabytes o más y dice que el proceso puede tomar de horas a días de supervisión.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "factory worker assembly line camera monitoring robot",
+    "alt": "Cámara de video monitoreando una línea de montaje industrial"
+  },
+  "sources": [
+    {
+      "name": "Roboflow",
+      "owner": "roboflow",
+      "url": "https://roboflow.com/blog/action-recognition",
+      "title": "Train, Evaluate, and Deploy Action Recognition Models with Roboflow"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
