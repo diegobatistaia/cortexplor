@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T20:43:08+00:00",
-  "posts_per_language_today": 3,
+  "generated_at": "2026-11-16T00:04:43+00:00",
+  "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 1,
+  "already_written_today": 3,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -125,6 +125,51 @@
       ]
     },
     {
+      "story_id": "271248ba63dc1ce2",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "summary": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
+      "owners": [
+        "axel-springer",
+        "nbcuniversal",
+        "vox-media"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "9a2034b630808d91",
+        "675f079919d732de",
+        "2f1f5cbf7ce833ab"
+      ],
+      "sources": [
+        {
+          "name": "CNBC Technology",
+          "owner": "nbcuniversal",
+          "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+          "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+          "published_at": "2026-11-14T17:46:06+00:00",
+          "kind": "press",
+          "text": "Two major Nvidia shareholders are calling on the board of directors to weigh all options for the company's future leadership, including \"the potential return of Jensen Huang.\" Altimeter Capital CEO Brad Gerstner posted a letter on X on Friday that urges Nvidia's board to \"pursue a slow, measured, and deliberate process regarding the future leadership of Nvidia.\" The letter is also signed by Atreides Management's Gavin Baker. Nvidia was Altimeter Capital's largest disclosed equity holding in its most recent SEC filing , with a 9.4 million-share stake worth nearly $1.9 billion as of June 30. Atreides held 1.2 million shares worth nearly $250 million at the end of June. The letter said Nvidia will be \"capably led\" by interim CEO Colette Kress , who served as Nvidia's CFO for 13 years before the board announced Thursday that she'd lead the company in Huang's absence. \"But the Founder and long time incredible leader of this extraordinary company has earned the right for a deliberate process that avoids any needless rush to replace him before all the facts are known,\" the letter concludes. The document did not call for Huang's immediate reinstatement. Nvidia founder Jensen Huang resigned on Thursday amid multiple affair allegations, including one with suspected Chinese spy Alice Huang , who also worked with Nvidia customer Megaspeed . The Singapore-based company is being investigated by the Justice Department for possibly redirecting some of its supply of Nvidia's restricted artificial intelligence chips to China. SpaceX CEO Elon Musk said on X Friday that he signed a petition asking to reinstate Huang. A petition circulating online called \"Stand with Jensen\" claims to have more than 100,000 signatures, including more than 5,000 current Nvidia employees. Musk said on X Saturday that without Huang, some \"critical deals will be lost.\" Another letter sent Friday called on U.S. Secretary of Commerce Howard Lutnick to testify about Megaspeed before the House Intelligence Committee. Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10 about whether the Commerce Department is \"properly performing its broader role of preventing China from acquiring advanced AI chips,\" according to the letter. Huang has also been asked to testify . The Commerce Department originally launched an investigation into Megaspeed that was moved to the Justice Department in 2025 after Nvidia's lawyer contacted a senior Commerce official, according to The New York Times. President Donald Trump is scheduled to visit China on Thursday, but doesn't plan to raise Nvidia and the suspected spy affair during his meeting with Chinese president Xi Jinping , according to U.S. officials. Musk is expected to join Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov. 18 and 19."
+        },
+        {
+          "name": "Business Insider",
+          "owner": "axel-springer",
+          "url": "https://www.businessinsider.com/bi-today-sunday-newsletter-nvidia-without-jensen-huang-2026-11",
+          "title": "Is Nvidia cooked without Jensen Huang?",
+          "published_at": "2026-11-15T11:41:01+00:00",
+          "kind": "press",
+          "text": "We're about to learn just how much one person truly matters to the AI economy. Jensen Huang was larger than life at Nvidia. He was the AI boom's most recognizable evangelist, the chip maker's chief visionary and dealmaker, and the force behind Nvidia's ascent to the most valuable company on the planet. As Zak Jason writes, the cult of the tech founder has very much become America's religion . And Huang was \"its most convincing saint.\" A week ago, Huang admitted to an affair and apologized to his family. Nvidia disclosed it was investigating whether he was the target of a foreign intelligence effort. And then The New York Times reported a second affair, this one with an Nvidia executive who was one of Huang's direct reports. He resigned on Thursday. Huang's abrupt downfall is a stress test of founder worship. The market put a price on it: Nvidia's market cap tumbled $573 billion last week, more than all but 18 companies in the entire S&P 500. \"It's like the Bulls without Jordan,\" author Stephen Witt, who wrote a biography on Huang, said on CNBC. \"I don't know how they are going to replace this guy.\" That is the essence of key-man risk , as my colleagues Sarah E. Needleman and Tim Paradis reported. When one leader is so closely identified with the strategy, the products, and the culture, their departure can create a vacuum that no org chart (let alone one with 60 direct reports to the CEO) can immediately fill. Much of Silicon Valley came to Huang's defense in recent days. Sarah Guo, a venture capitalist, called him \"one of the most extraordinary entrepreneurs of all time.\" Sequoia's Shaun Maguire said Huang's \"contributions to American innovation and AI leadership cannot be overstated.\" A petition to reinstate Huang as Nvidia CEO circulated over the weekend, collecting more than 100,000 signatures, including those of Elon Musk and other prominent figures. Our own Alistair Barr also points to new reports that are casting doubt on the intelligence behind Jensen Huang's downfall. Add BI in Google so our reporting is easier to find when you’re searching for what matters. For sure, there are several examples of seemingly irreplaceable CEOs — Steve Jobs at Apple and Travis Kalanick at Uber — whose companies still thrived under new leadership. And even some of Huang's biggest proponents aren't standing by him. \"No one was a bigger defender of Jensen than I was but there are rules about sex with subordinates,\" CNBC's Jim Cramer said on X . \"Just because someone is brilliant doesn't mean he can do what he wants.\" The question is whether Nvidia, which lacked a defined succession plan, can prove to be more durable than its founder's legend . If it can't? Dick Costolo, the former Twitter CEO, floated an idea . \"Prediction: 3-4 years from now, [Nvidia] will miss a quarter or two, and they will bring Jensen back to run the company,\" he said. \"Like fame, everybody is outraged for 15 minutes, and there is nothing Americans love more than the comeback story.\""
+        },
+        {
+          "name": "The Verge AI",
+          "owner": "vox-media",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+          "published_at": "2026-11-15T20:43:49+00:00",
+          "kind": "press",
+          "text": "Megaspeed claims Alice Huang hasn’t worked there since August of 2025. Megaspeed claims Alice Huang hasn’t worked there since August of 2025. The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, and a statement from Megaspeed claiming that Alice Huang hasn’t worked for the company since August of 2025, which raises more questions than it answers."
+        }
+      ]
+    },
+    {
       "story_id": "634abbb7df3876b5",
       "title": "MAGA turns on Lutnick amid China spy scandal",
       "summary": "Commerce Secretary Lutnick has become the face of the Trump administration's troubled response to Chinese espionage and potential national security threats. The most intense scrutiny is coming from Republicans on the Hill, fellow Cabinet members and the MAGA base. Why it matters: Regulators and policymakers on both sides of the aisle want someone's head for an affair that may have exposed...",
@@ -155,208 +200,6 @@
           "published_at": "2026-11-15T19:58:21+00:00",
           "kind": "press",
           "text": "In late September, Cantor Fitzgerald hosted Nvidia CEO Jensen Huang and other top executives from the chipmaker for investor meetings in New York, according to a Cantor research report reviewed by CNBC. The Wall Street firm liked what it heard. \"We continue to view NVDA as the best risk/reward in our coverage,\" Cantor analyst C.J. Muse and his colleagues wrote in a research report dated Oct. 3 that maintained a $350 price target and overweight rating on the stock. Yet the firm, formerly run by Commerce Secretary Howard Lutnick and now led by his sons, Brandon and Kyle, reported a nearly 50% decline in the number of Nvidia shares it held between September 2025 and March 2026 , according to a CNBC analysis of securities filings that excludes options. Nvidia had been one of the largest stock positions reported in Cantor's filings. The decline coincided with White House and U.S. intelligence officials pressing Lutnick to crack down on Megaspeed , a Singapore-based company suspected of funneling Nvidia's advanced artificial intelligence chips to China . Lutnick repeatedly resisted those efforts, Axios reported Nov. 11. By the time Cantor hosted Huang in New York, Lutnick had also received a classified intelligence warning, according to a Nov. 10 Axios report, about Huang's ties to a suspected Chinese spy and had appeared alongside the CEO at a G20 technology summit in North Carolina. Even as Cantor pared back its Nvidia stake, it continued doing business across the chipmaker's AI empire. A CNBC review of securities filings, corporate announcements and Wall Street research found the firm has helped arrange billions of dollars in financing for Nvidia's business partners while maintaining close ties to the chipmaker's leadership. Those ties have drawn fresh scrutiny following Huang's resignation Thursday and Axios' reporting that Lutnick repeatedly resisted a crackdown on companies suspected of smuggling Nvidia chips to China, despite President Donald Trump authorizing new export restrictions on those companies for a third time on Nov. 5. An ethics expert said the relationship between Lutnick and his former firm's investments may raise questions, given what the secretary knew about Nvidia. Richard Painter , the former chief White House ethics lawyer for President George W. Bush and now a corporate law professor at the University of Minnesota, said that while \"there's no proof of\" Lutnick sharing nonpublic information with Cantor Fitzgerald, \"the appearance doesn't look great.\" \"His conversations with his sons better be about publicly available information,\" Painter told CNBC. There is no evidence that Lutnick's sons had advance knowledge of the intelligence concerns, that changes in Cantor's reported holdings were tied to any warnings or that the firm's business interests influenced their father's decisions. \"Cantor has to date from time to time had only immaterial stand-alone proprietary positions in Nvidia, unlike the positions reflected in 13F filings which were entered into in the ordinary course of business in connection with client swap transactions, that are common in institutional markets,\" a Cantor spokesperson told CNBC. Cantor declined to answer CNBC's other questions. The Commerce Department, the White House, Howard Lutnick, Brandon Lutnick and Kyle Lutnick did not respond to CNBC's requests for comment or detailed questions about the findings. As scrutiny of Huang intensified, Cantor Chairman Brandon Lutnick was publicly praising the chipmaker's leadership. \"Nvidia is one of the great companies on the planet, and they have an amazing leadership team,\" Brandon Lutnick told Fox Business on Wednesday. Trump is standing by Howard Lutnick. A White House official told Reuters on Thursday that the president maintains \"complete confidence\" in the commerce secretary. But cracks in the administration's unity emerged Friday, when Treasury Secretary Scott Bessent told CNBC's \"Squawk Box\" that the departments of Treasury, Defense and State and the Office of the U.S. Trade Representative all \"were in favor of putting Megaspeed on the entity list for months.\" Bessent pointed to Commerce as the department responsible for imposing the entity list, which identifies restricted businesses and other groups, adding, \"You will have to ask them about their internal processes.\" Nvidia was Cantor's second-largest reported stock position before Howard Lutnick left Wall Street to become commerce secretary in February 2025, behind only bitcoin investor MicroStrategy, now known as Strategy . At the end of 2024, the firm disclosed more than 3.5 million Nvidia shares worth $479 million, according to its quarterly securities filing . That share count held steady through September 2025, but its value climbed 36% to $652 million, according to Cantor's quarterly securities filing , as the Trump administration moved over the summer to ease restrictions on Nvidia's H20 chip sales to China . Over the following six months, however, the number of Nvidia shares Cantor reported holding fell by 49%, to 3 million in December and 1.78 million by the end of March 2026 , with their value dropping from $652 million to $310 million, according to a CNBC analysis of securities filings. Pressure on Howard Lutnick was also mounting on Capitol Hill. Sens. Jim Banks, R-Ind., and Elizabeth Warren , D-Mass., in March urged the secretary to suspend or reconsider Nvidia's export licenses after three people linked to Nvidia customer Super Micro Computer were indicted on charges of conspiring to smuggle AI chips to China. \"The Trump administration, I think, leaks like a sieve when it comes to nonpublic government information getting to various hedge fund guys,\" Painter said, though he stressed there is no evidence Howard Lutnick had shared such information with his sons. The filings do not establish why Cantor's reported share count fell or whether its overall financial exposure to Nvidia declined. Nvidia’s stock had more than doubled from its"
-        }
-      ]
-    },
-    {
-      "story_id": "271248ba63dc1ce2",
-      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-      "summary": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
-      "owners": [
-        "axel-springer",
-        "nbcuniversal"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "9a2034b630808d91",
-        "675f079919d732de"
-      ],
-      "sources": [
-        {
-          "name": "CNBC Technology",
-          "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-          "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-          "published_at": "2026-11-14T17:46:06+00:00",
-          "kind": "press",
-          "text": "Two major Nvidia shareholders are calling on the board of directors to weigh all options for the company's future leadership, including \"the potential return of Jensen Huang.\" Altimeter Capital CEO Brad Gerstner posted a letter on X on Friday that urges Nvidia's board to \"pursue a slow, measured, and deliberate process regarding the future leadership of Nvidia.\" The letter is also signed by Atreides Management's Gavin Baker. Nvidia was Altimeter Capital's largest disclosed equity holding in its most recent SEC filing , with a 9.4 million-share stake worth nearly $1.9 billion as of June 30. Atreides held 1.2 million shares worth nearly $250 million at the end of June. The letter said Nvidia will be \"capably led\" by interim CEO Colette Kress , who served as Nvidia's CFO for 13 years before the board announced Thursday that she'd lead the company in Huang's absence. \"But the Founder and long time incredible leader of this extraordinary company has earned the right for a deliberate process that avoids any needless rush to replace him before all the facts are known,\" the letter concludes. The document did not call for Huang's immediate reinstatement. Nvidia founder Jensen Huang resigned on Thursday amid multiple affair allegations, including one with suspected Chinese spy Alice Huang , who also worked with Nvidia customer Megaspeed . The Singapore-based company is being investigated by the Justice Department for possibly redirecting some of its supply of Nvidia's restricted artificial intelligence chips to China. SpaceX CEO Elon Musk said on X Friday that he signed a petition asking to reinstate Huang. A petition circulating online called \"Stand with Jensen\" claims to have more than 100,000 signatures, including more than 5,000 current Nvidia employees. Musk said on X Saturday that without Huang, some \"critical deals will be lost.\" Another letter sent Friday called on U.S. Secretary of Commerce Howard Lutnick to testify about Megaspeed before the House Intelligence Committee. Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10 about whether the Commerce Department is \"properly performing its broader role of preventing China from acquiring advanced AI chips,\" according to the letter. Huang has also been asked to testify . The Commerce Department originally launched an investigation into Megaspeed that was moved to the Justice Department in 2025 after Nvidia's lawyer contacted a senior Commerce official, according to The New York Times. President Donald Trump is scheduled to visit China on Thursday, but doesn't plan to raise Nvidia and the suspected spy affair during his meeting with Chinese president Xi Jinping , according to U.S. officials. Musk is expected to join Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov. 18 and 19."
-        },
-        {
-          "name": "Business Insider",
-          "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/bi-today-sunday-newsletter-nvidia-without-jensen-huang-2026-11",
-          "title": "Is Nvidia cooked without Jensen Huang?",
-          "published_at": "2026-11-15T11:41:01+00:00",
-          "kind": "press",
-          "text": "We're about to learn just how much one person truly matters to the AI economy. Jensen Huang was larger than life at Nvidia. He was the AI boom's most recognizable evangelist, the chip maker's chief visionary and dealmaker, and the force behind Nvidia's ascent to the most valuable company on the planet. As Zak Jason writes, the cult of the tech founder has very much become America's religion . And Huang was \"its most convincing saint.\" A week ago, Huang admitted to an affair and apologized to his family. Nvidia disclosed it was investigating whether he was the target of a foreign intelligence effort. And then The New York Times reported a second affair, this one with an Nvidia executive who was one of Huang's direct reports. He resigned on Thursday. Huang's abrupt downfall is a stress test of founder worship. The market put a price on it: Nvidia's market cap tumbled $573 billion last week, more than all but 18 companies in the entire S&P 500. \"It's like the Bulls without Jordan,\" author Stephen Witt, who wrote a biography on Huang, said on CNBC. \"I don't know how they are going to replace this guy.\" That is the essence of key-man risk , as my colleagues Sarah E. Needleman and Tim Paradis reported. When one leader is so closely identified with the strategy, the products, and the culture, their departure can create a vacuum that no org chart (let alone one with 60 direct reports to the CEO) can immediately fill. Much of Silicon Valley came to Huang's defense in recent days. Sarah Guo, a venture capitalist, called him \"one of the most extraordinary entrepreneurs of all time.\" Sequoia's Shaun Maguire said Huang's \"contributions to American innovation and AI leadership cannot be overstated.\" A petition to reinstate Huang as Nvidia CEO circulated over the weekend, collecting more than 100,000 signatures, including those of Elon Musk and other prominent figures. Our own Alistair Barr also points to new reports that are casting doubt on the intelligence behind Jensen Huang's downfall. Add BI in Google so our reporting is easier to find when you’re searching for what matters. For sure, there are several examples of seemingly irreplaceable CEOs — Steve Jobs at Apple and Travis Kalanick at Uber — whose companies still thrived under new leadership. And even some of Huang's biggest proponents aren't standing by him. \"No one was a bigger defender of Jensen than I was but there are rules about sex with subordinates,\" CNBC's Jim Cramer said on X . \"Just because someone is brilliant doesn't mean he can do what he wants.\" The question is whether Nvidia, which lacked a defined succession plan, can prove to be more durable than its founder's legend . If it can't? Dick Costolo, the former Twitter CEO, floated an idea . \"Prediction: 3-4 years from now, [Nvidia] will miss a quarter or two, and they will bring Jensen back to run the company,\" he said. \"Like fame, everybody is outraged for 15 minutes, and there is nothing Americans love more than the comeback story.\""
-        }
-      ]
-    },
-    {
-      "story_id": "cf4010efe189992f",
-      "title": "Space data centers could end stargazing as we know it",
-      "summary": "Sprawling networks of space data centers could make it nearly impossible for humans to stargaze. That's just one of the many risks that come with placing tens of thousands of AI computers into orbit, according to a new report. Why it matters: Most Americans don't want data centers built near them, but putting them in space brings a new set of problems. Threat level: \"Companies and policymakers...",
-      "owners": [
-        "axios",
-        "future-plc"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "b896b29ec7755510",
-        "922b653ce0333715"
-      ],
-      "sources": [
-        {
-          "name": "Axios",
-          "owner": "axios",
-          "url": "https://www.axios.com/2026/11/15/space-data-centers-risks-stargazing-report",
-          "title": "Space data centers could end stargazing as we know it",
-          "published_at": "2026-11-15T11:45:05+00:00",
-          "kind": "press",
-          "text": ""
-        },
-        {
-          "name": "TechRadar",
-          "owner": "future-plc",
-          "url": "https://www.techradar.com/pro/small-nuclear-reactors-could-soon-power-the-next-generation-of-ai-data-centers",
-          "title": "Small nuclear reactors could soon power the next generation of AI data centers — modular reactors could soon power Dow Texas chemical plant",
-          "published_at": "2026-11-14T22:35:00+00:00",
-          "kind": "press",
-          "text": "No small modular reactor currently operates commercially in the United States Artificial intelligence companies are increasingly turning toward nuclear energy as electricity demand rises alongside expanding computing infrastructure. X-energy has secured federal permission to construct modular reactors at a chemical manufacturing complex in Texas. The approval allows the nuclear startup to bring its technology closer to commercial deployment, although operational reactors remain years away. The Nuclear Regulatory Commission (NRC) has authorized construction of four Xe-100 reactors at a Dow industrial facility in Texas. Each unit is designed to generate 80 megawatts (MW) of electricity alongside another 200 MW of thermal energy - so together, the proposed installation would provide 320 MW of electrical generation, giving the chemical manufacturer an additional source of industrial power. X-energy describes the regulatory decision as the first construction authorization for an advanced nuclear installation at an American industrial location. However, receiving permission to begin construction does not mean the reactors are ready to supply electricity for data centers . Sign up to the TechRadar Pro newsletter to get all the top news, opinion, features and guidance your business needs to succeed! The company expects Dow's installation to enter service sometime during the early 2030s, leaving several years before commercial operation begins. The proposed technology uses uranium-bearing fuel pellets, with helium gas circulating through the reactor to carry away generated heat. X-energy argues this arrangement offers safety advantages over conventional nuclear power systems, although independent experts have questioned those assurances. The Union of Concerned Scientists also criticized the regulatory process, particularly the handling of outstanding safety considerations before construction approval. “The NRC only accomplished this feat by pushing consideration of critical safety questions to a later date,” said Edwin Lyman, director of nuclear power safety at the Union of Concerned Scientists. He argued that regulators should have resolved those outstanding concerns before authorizing construction at the industrial location. Demand from artificial intelligence infrastructure operators has given emerging nuclear developers another potential source of commercial interest. Large technology companies need substantial electricity supplies for computing facilities, particularly as increasingly powerful AI systems require additional processing capacity. Conventional electricity providers face growing pressure to accommodate those requirements, creating opportunities for alternative generation technologies. Amazon has become one of X-energy's major financial supporters through its Climate Pledge Fund investment. The technology company led a $500 million Series C-1 financing round in October 2024 and separately committed to purchasing 5 gigawatts of nuclear generating capacity, an agreement which gives X-energy a significant potential customer as it works toward developing commercial reactors. The startup also attracted substantial investor interest through its initial public offering earlier this year, which generated $1 billion in proceeds. However, enthusiasm among investors has moderated since the April listing, suggesting that commercial expectations remain sensitive to development timelines. The company still faces the challenge of turning regulatory permission and financial commitments into functioning electricity-generating infrastructure. Small modular reactors have attracted attention because their developers expect factory-oriented production and smaller installations to simplify construction. Those proposed advantages include shorter development schedules and lower costs, although neither benefit has been conclusively established. No small modular reactor currently operates commercially in the United States, leaving X-energy's proposed installation dependent on successful construction and regulatory oversight. Follow TechRadar on Google News and add us as a preferred source to get our expert news, reviews, and opinion in your feeds. Efosa has been writing about technology for over 7 years, initially driven by curiosity but now fueled by a strong passion for the field. He holds both a Master's and a PhD in sciences, which provided him with a solid foundation in analytical thinking. You must confirm your public display name before commenting Please logout and then login again, you will then be prompted to enter your display name."
-        }
-      ]
-    },
-    {
-      "story_id": "a576592f92ae33a2",
-      "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-      "summary": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
-      "owners": [
-        "axel-springer",
-        "nbcuniversal"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "818dc1b648e3444b",
-        "21ea8a494cc239fa"
-      ],
-      "sources": [
-        {
-          "name": "CNBC Technology",
-          "owner": "nbcuniversal",
-          "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-          "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-          "published_at": "2026-11-15T18:10:18+00:00",
-          "kind": "press",
-          "text": "Treasury Secretary Scott Bessent on Sunday called for a \"dramatic shakeup\" at Nvidia after CEO Jensen Huang 's resignation, questioning whether the chipmaker pursued illicit sales of its advanced artificial intelligence chips to boost earnings. Bessent said Nvidia's board should look outside the company for its next chief executive and suggested other executives should face scrutiny over the chip giant's compliance with U.S. export controls. \"I want to keep coming back to what was the culture at Nvidia, and were they pressing these seemingly illicit sales to goose their revenues and their earnings?\" Bessent said in an interview on Fox News. The remarks come amid a growing feud between Bessent and Commerce Secretary Howard Lutnick over the suspected diversion of advanced AI chips to China, even as the Treasury secretary continues to defend President Donald Trump's handling of the matter. Both Bessent and Lutnick are expected to accompany Trump to China this week, Semafor reported Sunday, putting the two Cabinet secretaries alongside the president as he prepares to meet with Chinese President Xi Jinping and Russian President Vladimir Putin on the sidelines of the APEC summit. A White House official told Reuters on Thursday that the president maintains \"complete confidence\" in Lutnick, despite mounting scrutiny of the secretary’s handling of the Nvidia matter. Huang resigned Thursday following revelations about his relationship with Alice Huang, a former executive at Singapore-based Megaspeed , whom U.S. intelligence officials suspect of spying for China. Megaspeed is suspected of diverting Nvidia chips to China in violation of U.S. export controls. Nvidia named Chief Financial Officer Colette Kress interim CEO. Bessent suggested Sunday that Nvidia's problems extended well beyond Huang. \"If this were a bank and they hadn't complied like this, the OCC would be in there right now, and a lot of the executives would be removed,\" Bessent said, referring to the Office of the Comptroller of the Currency. Bessent also questioned Nvidia's financial disclosures, pointing to a surge in reported Singapore revenue as its China sales fell. Nvidia stopped separately reporting Singapore revenue in November 2025, saying a new methodology based on customers' headquarters rather than billing addresses better reflected the geographic distribution of its sales. Bessent's remarks came two days after he told CNBC's \"Squawk Box\" that several federal agencies had supported adding Megaspeed to the government's export blacklist for months. \"But Commerce has the pen,\" Bessent said. The public rebuke followed reporting by Axios that Bessent confronted Lutnick in the White House Situation Room over Commerce's failure to act against Megaspeed. Commerce denied that the confrontation took place. Lutnick is also facing scrutiny over his family's financial ties to Nvidia. CNBC reported Friday that Cantor Fitzgerald, the Wall Street firm formerly run by Lutnick and now led by his sons, has helped arrange billions of dollars in financing for Nvidia's business partners. Cantor said Nvidia share holdings fell nearly 50% over six months as national security concerns surrounding Huang escalated. The positions were associated with client swap transactions, not proprietary investments, the investment bank said. There is no evidence Lutnick shared sensitive information with his sons or that Cantor traded on such information. Bessent on Sunday said Trump had drawn a firm line against sales of chips more advanced than Nvidia's H200 to China . Trump himself authorized H200 sales to approved Chinese customers in December —following months of lobbying by Huang — in an arrangement under which the U.S. government would receive a 25% cut. Bessent's latest criticism comes two days before Nvidia is scheduled to report its first quarterly earnings since Huang's departure."
-        },
-        {
-          "name": "Business Insider",
-          "owner": "axel-springer",
-          "url": "https://www.businessinsider.com/scott-bessent-nvidia-ceo-jensen-huang-replacement-search-2026-11",
-          "title": "Scott Bessent says Nvidia should look outside the company for a new CEO: ‘They needed a dramatic shake-up'",
-          "published_at": "2026-11-15T18:31:10+00:00",
-          "kind": "press",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "a2a446d5ac50ee54",
-      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-      "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, […] The post Lazare, veni foras...",
-      "owners": [
-        "microsoft"
-      ],
-      "primary_owners": [
-        "microsoft"
-      ],
-      "fingerprints": [
-        "1d554c42ba6f2a43"
-      ],
-      "sources": [
-        {
-          "name": "Microsoft Research",
-          "owner": "microsoft",
-          "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
-          "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-          "published_at": "2026-11-10T20:52:56+00:00",
-          "kind": "primary",
-          "text": "By Dimitris Papailiopoulos , Principal Researcher Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retraining the model and are difficult to detect through normal testing, making model provenance and weight integrity critical security concerns. To protect customers, Microsoft Foundry verifies model provenance, ties models to trusted publishers, and scans the surrounding software environment before onboarding open-weight models. Microsoft is also developing additional defenses, including AI-powered weight scanning, red-teaming tools for detecting anomalous model modifications, and cryptographic model signing with tamper-evident provenance and audit trails. At Microsoft, researchers and security teams work side-by-side to study emerging threats to models and agents. Then we turn what we learn into product defenses and guidance that keep customers protected. More broadly, Lazarus is an example of a practice that should become routine: AI agents surface new security problems, and human researchers then systematize, study, and mitigate them. Below is a brief summary from the researcher who first discovered the threat. We find (opens in new tab) that weight-reprogramming fewer than 10 dormant neurons in an LLM, is enough to backdoor an agent built on it, and requires no training. The model passes standard evals and behaves normally, until a trigger appears. The trigger can be as mundane as a date change, e.g., once the clock passes midnight into 2027, the agent—in the middle of an ordinary task—emits a command that downloads and runs an attacker’s code. The agent then executes it with whatever access you gave it. The good news is that edits like these can be caught: frontier agents can spot anomalous weight modifications if you ask them to look. But no scan can prove beyond any doubt that a model is safe. Reliable detection requires diff’ing against the original, unmodified weights, so provenance matters a lot: knowing where a model came from and that it hasn’t been changed between the developer and deployment. Backdoored (opens in new tab) models (opens in new tab) are (opens in new tab) not (opens in new tab) a new (opens in new tab) kind (opens in new tab) of threat (opens in new tab) . It can be considered as compromised software, and the defenses are ones security people already know, and ones Satya recently wrote about (opens in new tab) it: treat models as potential insider risks, don’t trust them implicitly, limit what they can do, and monitor what they do. Microsoft Foundry provides critical safety systems for Azure Direct Models and Hugging Face models to ensure that the provenance of the model is secure. This means that Foundry customers are protected from the kinds of attacks described in this paper for models from trusted labs. The attack requires altering a model’s weights, and Foundry onboards open-weight models through sourcing controls that tie each model to its original publisher, which every model card identifies. Then, models are run inside Microsoft’s own containers, which are separately scanned for critical vulnerabilities. These controls cover where a model came from and the software around it. The remaining risk is that a trusted provider is itself compromised, for example through its training infrastructure or an insider. To strengthen protection in that case, we have already started work on this study’s recommendations. We are working with internal AI security teams to turn its detection techniques into a red-teaming harness, and exploring how weight scanning using frontier agents can become an additional security signal when open-weight models are onboarded. Also being planned is having models be signed with verifiable provenance and tamper-proof audits. Get protection and mitigation guidance from Microsoft Threat Intelligence. (opens in new tab) Here is what we suggest as a starting point: This started back in March as a quick experiment: I asked Claude Code with Opus 4.5 to backdoor a model by hardwiring a few activations without training. And it did. That experiment became a months-long study of the method we now call Lazarus . Here is what we learned: This is a simplified depiction of how Lazarus works."
-        }
-      ]
-    },
-    {
-      "story_id": "00ab8da536394b74",
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "owners": [
-        "openai"
-      ],
-      "primary_owners": [
-        "openai"
-      ],
-      "fingerprints": [
-        "8c999d6885d24711"
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "owner": "openai",
-          "url": "https://openai.com/index/jiostar-vijay-seshadri",
-          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-          "published_at": "2026-11-11T00:00:00+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "27199b7d2dc18518",
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "summary": "",
-      "owners": [
-        "huggingface"
-      ],
-      "primary_owners": [
-        "huggingface"
-      ],
-      "fingerprints": [
-        "d2296a64c0dc3b89"
-      ],
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "owner": "huggingface",
-          "url": "https://huggingface.co/blog/token-pooling",
-          "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-          "published_at": "2026-11-11T00:00:00+00:00",
-          "kind": "primary",
-          "text": "Multi-vector embedding models give each query token its own opportunity to find a match in a document. This makes them wonderfully expressive for search, but those document vectors add up quickly. A corpus with millions of documents can contain hundreds of millions of vectors! Token pooling makes these representations smaller by merging similar token vectors. The more aggressively I compress them, however, the easier it becomes to lose something useful. Pooling-aware training teaches the encoder to preserve the information that matters when its vectors are merged, helping you retrieve better from the same storage budget. In this post, I'll explain how pooling works, train a model for compressed retrieval with Sentence Transformers, and explore the resulting quality and storage tradeoff. With pool_factor=4 , my normally trained model retains 94.6% of its unpooled NanoBEIR nDCG@10, with a 4x reduction in document vectors. Token pooling-aware training raises that retention to 97.8% at the same storage budget! Let's see how. This post builds on pooling-aware training studied in Stefan Josef's Learn to Pool and LightOn's pooling regularization study , which also explores targeted training and adaptive budgets. Here, I'll focus on understanding the method and putting it to work with a short, reproducible Sentence Transformers example. Pooling-aware training improves retrieval quality at the same vector budget. Details below. A single-vector embedding model compresses an entire document into one vector. Multi-vector models such as ColBERT instead keep a collection of contextual token vectors, allowing different parts of a query to match different parts of a document. For example, a query about a laptop with a long battery life can find evidence about the laptop in one part of a document and battery endurance in another. With MaxSim scoring, each query vector selects its best matching document vector, and those scores are added together: MaxSim ⁡ ( Q , D ) = ∑ q ∈ Q max ⁡ d ∈ D q ⊤ d \\operatorname{MaxSim}(Q, D) = \\sum_{q \\in Q} \\max_{d \\in D} q^\\top d MaxSim ( Q , D ) = q ∈ Q ∑ ​ d ∈ D max ​ q ⊤ d Even with the 2-bit or 4-bit residual quantization supported by Fast-PLAID , storing hundreds of vectors per document adds up. At 4 bits per residual coordinate, 200 vectors of 128 dimensions require 12.8 KB of quantized residuals per document, or 12.8 GB across a million documents. Pooling each document to 50 vectors reduces that to 3.2 GB, at the same dimensionality and precision. The useful observation is that many document vectors can be similar. Several tokens might describe closely related concepts, creating an opportunity to represent them together. HierarchicalTokenPooling groups similar token embeddings using Ward hierarchical clustering . Starting with one group per token vector, it repeatedly merges the two groups that cause the smallest increase in how spread out the vectors are within their groups. This spread is measured by the sum of squared distances from each vector to its group's mean, so Ward's method favors compact groups of similar vectors. These merges build a hierarchy of progressively larger groups, letting us choose a level of compression that fits our budget. We then represent each group by its mean and normalize the resulting vectors again, ready for MaxSim scoring. You can make compression proportional to document length: With pool_factor=4 , documents retain approximately one quarter of their original vectors, so longer documents can keep proportionally more capacity. By default, the first token is protected from merging and pooling applies only to document embeddings, leaving query embeddings unchanged. HierarchicalTokenPooling offers three alternative controls: This distinction matters when document lengths vary. With pool_factor=4 , a longer document can retain approximately one quarter of its vectors, allowing its representation to grow with its content. With distance_threshold , the vector count can grow when more distinct embeddings need to be preserved. Adaptive pooling uses a shared distance threshold to merge similar embeddings more aggressively while preserving more vectors for documents with distinct content. It can be used with any multi-vector model, including one trained without a pooling-aware objective . Rather than choosing a threshold manually, you can calibrate it for a target average vector count. Given a representative sample of your corpus in calibration_documents : Calibration only needs document embeddings and returns a threshold you can reuse when indexing. The target is an average, so individual documents can receive more or fewer than 16 vectors. The achieved average can also change on another corpus. Pooling can already be useful on an ordinary multi-vector model. The difficulty appears when a document contains a distinction that matters for retrieval, but merging its vectors makes that distinction harder to recover. The original training objective never required the model to work with these compressed representations. But, you can teach it to do exactly that. If you've used Matryoshka embeddings , the training principle will feel familiar. Matryoshka applies a retrieval objective at several embedding widths, teaching smaller prefixes to remain useful. Pooling-aware training applies the objective to representations with fewer token vectors. For my example, each training batch contributes two losses: L = 1 2 L u n p o o l e d + 1 2 L p o o l e d \\mathcal{L} = \\tfrac{1}{2}\\mathcal{L}_{\\mathrm{unpooled}} + \\tfrac{1}{2}\\mathcal{L}_{\\mathrm{pooled}} L = 2 1 ​ L unpooled ​ + 2 1 ​ L pooled ​ The first term teaches the model to retrieve with its full representations. The second teaches it to arrange its token embeddings so that useful matches survive pooling. Both objectives update the same encoder, giving it feedback about retrieval before and after compression. Ward clustering makes discrete decisions about which tokens belong together. During trainin"
-        }
-      ]
-    },
-    {
-      "story_id": "e8099d065c9aaa96",
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "summary": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
-      "owners": [
-        "nvidia"
-      ],
-      "primary_owners": [
-        "nvidia"
-      ],
-      "fingerprints": [
-        "34dcc0e759ee209b"
-      ],
-      "sources": [
-        {
-          "name": "NVIDIA",
-          "owner": "nvidia",
-          "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
-          "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-          "published_at": "2026-11-11T03:00:20+00:00",
-          "kind": "primary",
-          "text": ""
         }
       ]
     }
