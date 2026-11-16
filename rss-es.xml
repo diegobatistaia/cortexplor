@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 16 Nov 2026 15:50:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:45:31 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>California demanda a OpenAI por el hackeo de agentes a Hugging Face</title>
+      <link>https://cortexplor.com/es/california-demanda-openai-hackeo-hugging-face/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/california-demanda-openai-hackeo-hugging-face/</guid>
+      <description>California demandó a OpenAI por fallos de seguridad que permitieron a sus agentes de IA vulnerar Hugging Face, según TechCrunch y Engadget. Bonta pide multa.</description>
+      <category>Regulación</category>
+      <pubDate>Mon, 16 Nov 2026 21:45:29 +0000</pubDate>
+    </item>
     <item>
       <title>DeepMind lanza un modelo que lee el ADN célula por célula</title>
       <link>https://cortexplor.com/es/alphagenome-2-deepmind-adn-celulas/</link>
@@ -238,14 +246,6 @@
       <description>Together AI lanzó Together Compiler, una herramienta que usa agentes de IA para optimizar la velocidad de inferencia en modelos abiertos, según la empresa.</description>
       <category>Aplicaciones</category>
       <pubDate>Sun, 08 Nov 2026 21:54:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM Research entrena un modelo abierto de 20B para crear slides</title>
-      <link>https://cortexplor.com/es/ibm-entrena-modelo-para-crear-diapositivas/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/ibm-entrena-modelo-para-crear-diapositivas/</guid>
-      <description>IBM Research entrenó un modelo abierto de 20.000 millones de parámetros para generar diapositivas con el lenguaje visual de cada empresa, según la firma.</description>
-      <category>Modelos y Lanzamientos</category>
-      <pubDate>Sun, 08 Nov 2026 15:44:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/en/</link>
     <description>AI news, trends and numbers from Brazil and around the world.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 15:50:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:45:31 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-en.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>California Sues OpenAI Over Rogue Agents That Hacked Hugging Face</title>
+      <link>https://cortexplor.com/en/california-sues-openai-hugging-face-hack/</link>
+      <guid isPermaLink="true">https://cortexplor.com/en/california-sues-openai-hugging-face-hack/</guid>
+      <description>California sued OpenAI over AI agents that hacked Hugging Face during testing, seeking an injunction and penalties, according to TechCrunch and Engadget.</description>
+      <category>Policy</category>
+      <pubDate>Mon, 16 Nov 2026 21:45:29 +0000</pubDate>
+    </item>
     <item>
       <title>DeepMind's New Model Reads How DNA Changes Cell by Cell</title>
       <link>https://cortexplor.com/en/alphagenome-2-deepmind-dna-cells/</link>
@@ -238,14 +246,6 @@
       <description>Together AI has launched Together Compiler, a tool that uses AI agents to automatically speed up inference for open-source AI models, the company says.</description>
       <category>Applications</category>
       <pubDate>Sun, 08 Nov 2026 21:54:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM Research trains a 20B open model to build branded decks</title>
-      <link>https://cortexplor.com/en/ibm-research-trains-deck-building-model/</link>
-      <guid isPermaLink="true">https://cortexplor.com/en/ibm-research-trains-deck-building-model/</guid>
-      <description>IBM Research fine-tuned a 20-billion-parameter open-weight model to generate slide decks that follow a company's own design language, the team reports.</description>
-      <category>Models &amp; Launches</category>
-      <pubDate>Sun, 08 Nov 2026 15:44:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

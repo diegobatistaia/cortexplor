@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Mon, 16 Nov 2026 15:50:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:45:31 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Califórnia processa a OpenAI por ataque de agentes ao Hugging Face</title>
+      <link>https://cortexplor.com/pt/california-processa-openai-hack-hugging-face/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/california-processa-openai-hack-hugging-face/</guid>
+      <description>A Califórnia processou a OpenAI por falhas de segurança que levaram agentes de IA a invadir o Hugging Face, segundo o TechCrunch e o Engadget. Veja os detalhes.</description>
+      <category>Regulação</category>
+      <pubDate>Mon, 16 Nov 2026 21:45:28 +0000</pubDate>
+    </item>
     <item>
       <title>DeepMind lança modelo que lê como o DNA muda célula por célula</title>
       <link>https://cortexplor.com/pt/alphagenome-2-deepmind-dna-celulas/</link>
@@ -238,14 +246,6 @@
       <description>A Together AI lança o Together Compiler, que usa agentes de IA para otimizar a velocidade da inferência em modelos abertos, segundo a própria empresa.</description>
       <category>Aplicações</category>
       <pubDate>Sun, 08 Nov 2026 21:54:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM Research treina modelo de IA de 20B para montar slides</title>
-      <link>https://cortexplor.com/pt/ibm-treina-modelo-para-criar-slides/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/ibm-treina-modelo-para-criar-slides/</guid>
-      <description>A IBM Research treinou um modelo de IA de 20 bilhões de parâmetros para criar apresentações de slides no padrão visual de cada empresa, segundo a empresa.</description>
-      <category>Modelos &amp; Lançamentos</category>
-      <pubDate>Sun, 08 Nov 2026 15:44:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
