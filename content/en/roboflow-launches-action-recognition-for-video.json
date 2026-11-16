@@ -1,0 +1,101 @@
+{
+  "lang": "en",
+  "slug": "roboflow-launches-action-recognition-for-video",
+  "story_id": "5470cc5c5cb1549d",
+  "title": "Roboflow adds action recognition to its vision platform",
+  "dek": "The computer vision platform now tags the start and end of each action in a video clip, the company says.",
+  "meta_description": "Roboflow has launched video action recognition on its computer vision platform, powered by the Cosmos 3 Edge and V-JEPA 2.1 models, according to the company.",
+  "keyword": "video action recognition",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "computer-vision",
+    "roboflow"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Roboflow announced support for action recognition on its computer vision platform, according to the company's own announcement. The feature trains models that watch a video clip and return a timeline of detected actions, each with a start and end time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Until now, Roboflow's platform was built mainly around object detection — identifying what appears in a single image frame. The new feature extends that reading across time: the model analyzes a sequence of frames to understand what happens throughout a video, rather than what exists in one isolated frame, the company says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Roboflow says two models power the feature: Cosmos 3 Edge and V-JEPA 2.1. Both look at a video in 16-second windows and label each moment inside a window with one of the actions a user defines. On longer videos, the window slides along the clip, and the results are merged into a single timeline, according to the company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Roboflow tested both models on three public datasets and says V-JEPA 2.1 was more accurate on every one of them. Cosmos 3 Edge, according to the company, tends to place the start and end of each action more precisely — something that can matter for teams that need the exact timing of each step, not just confirmation that it happened.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In an internal test on a gear train assembly dataset — 82 videos recorded by 41 people, split into 29 for training, 6 for validation and 6 for testing — Roboflow says V-JEPA 2.1 reached 87.3% accuracy after roughly 8 hours of training, versus 80% for Cosmos 3 Edge after about 12 hours.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company cites monitoring production lines and robot operations as a typical use case: whether an operator completed every step in order, how long each step took, or whether a robot finished its sequence or had to retry a move. Roboflow says running the model over a week of existing footage produces a timestamped record of every step in every cycle.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Roboflow also offers a Python software development kit, installed with pip install -U inference-sdk, to send video to the base model or to a version a customer has trained. For live cameras, the company says the feature can be added to a workflow inside the platform, or run on a customer's own servers through Roboflow Inference.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "To build a model, a user creates an \"Action Recognition\" project on the platform, uploads videos, and marks time ranges for each action directly on a timeline instead of drawing boxes around objects. Roboflow also offers an auto-labeling option: a user names the actions and describes when each one happens, then reviews the segments the system finds before training starts, according to the company.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What it is: a video action recognition feature that tags the start and end of each step in a recorded process, instead of only detecting objects in a single frame.",
+        "Who can use it and where: available on the Roboflow platform (app.roboflow.com); the Cosmos 3 Edge model can be tried through the API before any training, according to the company.",
+        "Since when: Roboflow announced the feature on November 11, 2026, and it is already live on the platform.",
+        "Pricing: Roboflow Training bills 2 credits per GPU hour; the company says its gear train test cost about 16 credits using V-JEPA 2.1, which is in beta and limited to paid plans.",
+        "What changes from before: the platform previously recognized only objects in isolated frames; it now reads sequences of actions over time, according to the company.",
+        "Who is affected: industrial quality-control, logistics and robotics teams that already use video to monitor their processes."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "To train a model outside Roboflow's own cloud, the company recommends a GPU with 24 gigabytes of memory or more and says the process can take hours to days of supervision.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "factory worker assembly line camera monitoring robot",
+    "alt": "Security camera monitoring a factory assembly line",
+    "path": "/assets/img/roboflow-launches-action-recognition-for-c709f632.jpg",
+    "credit": "Testalize.me / Unsplash",
+    "author": "Testalize.me",
+    "author_url": "https://unsplash.com/@testalizeme?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/industrial-robotic-arm-in-blue-lit-factory-9xHsWmh3m_4"
+  },
+  "sources": [
+    {
+      "name": "Roboflow",
+      "owner": "roboflow",
+      "url": "https://roboflow.com/blog/action-recognition",
+      "title": "Train, Evaluate, and Deploy Action Recognition Models with Roboflow"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-16T10:44:56+00:00",
+  "updated_at": "2026-11-16T10:44:56+00:00"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "roboflow-lanca-reconhecimento-de-acoes-em-video",
+  "lang": "pt",
+  "date": "16 nov 2026",
+  "no": 120,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Roboflow",
+  "headline": "Roboflow lança reconhecimento de ações em vídeo",
+  "headline_hl": "ações em vídeo",
+  "dek": "O recurso marca início e fim de cada ação, segundo a Roboflow.",
+  "image": {
+    "path": "assets/img/roboflow-lanca-reconhecimento-de-acoes-e-c709f632.jpg",
+    "credit": "Testalize.me / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Ações<br>em vídeo",
+  "sources": [
+    "Roboflow"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O lançamento",
+    "body": [
+      "A Roboflow anunciou o reconhecimento de ações em vídeo em sua plataforma de visão computacional, segundo a empresa.",
+      "O recurso devolve uma linha do tempo com o início e o fim de cada ação detectada (Roboflow)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Roboflow:",
+    "points": [
+      {
+        "h": "Modelos",
+        "t": "Cosmos 3 Edge e V-JEPA 2.1 sustentam o recurso."
+      },
+      {
+        "h": "Janelas",
+        "t": "Assistem ao vídeo em janelas de 16 segundos (Roboflow)."
+      },
+      {
+        "h": "Rótulos",
+        "t": "Cada instante recebe uma ação definida pelo usuário."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "A plataforma só detectava objetos em quadros isolados; agora lê sequências de ações no tempo (Roboflow).",
+      "No teste de engrenagens, o V-JEPA 2.1 superou o Cosmos 3 Edge (Roboflow)."
+    ],
+    "stat": {
+      "big": "87,3%",
+      "cap": "de acerto do V-JEPA 2.1 no teste (Roboflow)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Uso",
+        "t": "Linhas de produção e robôs podem ser monitorados."
+      },
+      {
+        "h": "Preço",
+        "t": "O treino custa 2 créditos por hora de GPU (Roboflow)."
+      },
+      {
+        "h": "Beta",
+        "t": "O V-JEPA 2.1 é beta e só em planos pagos (Roboflow)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Roboflow lançou o reconhecimento de ações em vídeo e agora marca início e fim de cada etapa filmada.",
+    "body": [
+      "Segundo a Roboflow, a plataforma de visão computacional, antes voltada à detecção de objetos em quadros isolados, passa a analisar sequências de quadros e devolve uma linha do tempo com cada ação detectada, com horário de início e de fim.",
+      "A empresa afirma que dois modelos sustentam o recurso, o Cosmos 3 Edge e o V-JEPA 2.1, e que o segundo chegou a 87,3% de acerto em um teste interno com vídeos de montagem de engrenagens, contra 80% do primeiro. O uso típico é monitorar linhas de produção e robôs. O treinamento custa 2 créditos por hora de GPU, e o V-JEPA 2.1, em beta, é restrito aos planos pagos."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#roboflow",
+      "#visaocomputacional",
+      "#reconhecimentodeacoes"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o reconhecimento de ações em vídeo da Roboflow",
+    "Slide 2: Roboflow anuncia reconhecimento de ações em vídeo",
+    "Slide 3: como Cosmos 3 Edge e V-JEPA 2.1 leem janelas de vídeo",
+    "Slide 4: resultado do teste de engrenagens da Roboflow",
+    "Slide 5: uso em fábricas, preço e versão beta do recurso",
+    "Slide 6: fonte da matéria sobre a Roboflow: Roboflow"
+  ]
+}

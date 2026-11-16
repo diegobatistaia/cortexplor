@@ -1,0 +1,100 @@
+{
+  "slug": "roboflow-launches-action-recognition-for-video",
+  "lang": "en",
+  "date": "16 Nov 2026",
+  "no": 117,
+  "category": "Applications",
+  "kicker": "Applications · Roboflow",
+  "headline": "Roboflow launches action recognition for video",
+  "headline_hl": "action recognition",
+  "dek": "The feature tags the start and end of each action, per Roboflow.",
+  "image": {
+    "path": "assets/img/roboflow-launches-action-recognition-for-c709f632.jpg",
+    "credit": "Testalize.me / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Actions<br>in video",
+  "sources": [
+    "Roboflow"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The launch",
+    "body": [
+      "Roboflow announced action recognition on its computer vision platform, per the company.",
+      "The feature returns a timeline with the start and end of each detected action (Roboflow)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Roboflow:",
+    "points": [
+      {
+        "h": "Models",
+        "t": "Cosmos 3 Edge and V-JEPA 2.1 power the feature."
+      },
+      {
+        "h": "Windows",
+        "t": "They watch video in 16-second windows (Roboflow)."
+      },
+      {
+        "h": "Labels",
+        "t": "Each moment gets a user-defined action."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "The platform only detected objects in single frames; now it reads action sequences over time (Roboflow).",
+      "In the gear test, V-JEPA 2.1 beat Cosmos 3 Edge (Roboflow)."
+    ],
+    "stat": {
+      "big": "87.3%",
+      "cap": "accuracy of V-JEPA 2.1 in the test (Roboflow)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Use",
+        "t": "Production lines and robots can be monitored."
+      },
+      {
+        "h": "Price",
+        "t": "Training costs 2 credits per GPU hour (Roboflow)."
+      },
+      {
+        "h": "Beta",
+        "t": "V-JEPA 2.1 is beta and paid plans only (Roboflow)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Roboflow launched action recognition for video, now tagging the start and end of each filmed step.",
+    "body": [
+      "Per Roboflow, the computer vision platform, once built around object detection in single frames, now analyzes sequences of frames and returns a timeline of each detected action, with start and end times.",
+      "The company says two models power the feature, Cosmos 3 Edge and V-JEPA 2.1, and that the latter reached 87.3% accuracy in an internal gear assembly test, versus 80% for the former. The typical use case cited is monitoring production lines and robots. Training costs 2 credits per GPU hour, and V-JEPA 2.1, in beta, is limited to paid plans."
+    ],
+    "cta_variant": "A",
+    "cta": "Would video action tracking help your team?",
+    "hashtags": [
+      "#cortexplor",
+      "#roboflow",
+      "#computervision",
+      "#actionrecognition"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Roboflow's video action recognition",
+    "Slide 2: Roboflow announces action recognition for video",
+    "Slide 3: how Cosmos 3 Edge and V-JEPA 2.1 read video windows",
+    "Slide 4: result of Roboflow's gear assembly test",
+    "Slide 5: factory use, pricing and beta status of the feature",
+    "Slide 6: source for the Roboflow story: Roboflow"
+  ]
+}
