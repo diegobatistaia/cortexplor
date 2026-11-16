@@ -1,0 +1,100 @@
+{
+  "lang": "en",
+  "slug": "alphagenome-2-deepmind-dna-cells",
+  "story_id": "2d675225de3f616f",
+  "title": "DeepMind's New Model Reads How DNA Changes Cell by Cell",
+  "dek": "AlphaGenome 2 predicts how genetic variants affect specific human cell types, according to the company.",
+  "meta_description": "Google DeepMind released AlphaGenome 2, an AI model that predicts how DNA variants affect specific types of human cells, according to the company itself.",
+  "keyword": "AlphaGenome 2 DeepMind",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "deepmind",
+    "models",
+    "biology"
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "body": [
+    {
+      "type": "p",
+      "text": "Google DeepMind announced AlphaGenome 2, an AI model that predicts how DNA variations affect specific human cell types rather than whole tissues, according to a statement from the company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The model follows the original AlphaGenome, launched last year, and the AlphaGenome Atlas, a platform covering predictions for all 9 billion possible single-letter DNA changes in the human genome, DeepMind says. The company says AlphaGenome 2 identifies nearly twice as many variants that change gene expression in cells compared to its own previous model.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the shift works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Every cell in the body carries the same DNA, but each cell type — a heart muscle cell or an immune cell fighting an infection, for instance — switches different genes on or off to do its job. The original AlphaGenome took a stretch of DNA and predicted properties across many experiments and tissues at once, according to the company. DeepMind says that parallel approach spread the model's capacity thin, making it harder to capture subtle differences between similar cell types.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AlphaGenome 2 reverses that logic. It is a \"conditional\" model (one that takes the cell type or tissue as part of its input, instead of computing everything at once) that predicts DNA effects for one tissue, cell type or state at a time, feeding that biological condition into every stage of the model, DeepMind says. The company says this design lets the model learn how the same stretch of DNA is read differently across cell types.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind says the model was trained on more than 107 million individual cell profiles from humans and mice, covering 68 tissues. Beyond the readouts the original AlphaGenome already predicted — gene expression, histone modifications (proteins that package DNA) and chromatin accessibility (how exposed DNA is for reading) — the new version also predicts DNA methylation, a chemical mark that can switch genes on or off and that, according to the company, researchers had widely requested.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind also says AlphaGenome 2 can handle entirely new experiments without retraining: a researcher can feed the model data from just a few dozen cells to get predictions for cell states it has never seen, such as those caused by disease or vaccination. In a test using data from a COVID-19 mRNA vaccine study, the company says the model distinguished vaccine-activated immune cells from resting ones, and found that a variant linked to severe COVID-19 disrupts gene activity more strongly in those activated cells.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind says this kind of prediction, which ties a variant to a specific cell type rather than a whole tissue, should help researchers prioritize which lab experiments to run next instead of testing every hypothesis at the bench. The company also says AlphaGenome 2 separates a cell's biological state from the predictions it makes about it: if a scientist feeds in just one measurement, such as a gene's activity, the model can predict other unmeasured properties, such as that same cell's chromatin accessibility.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company frames AlphaGenome 2 as a tool for turning existing cell atlases, such as the Human Cell Atlas effort that maps gene activity across millions of cells, into something researchers can query to predict the effects of DNA variants they have not yet tested in the lab.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it and where: researchers can access AlphaGenome 2 for non-commercial research through the AlphaGenome API; companies get private-preview access via Google Cloud, DeepMind says.",
+        "Since when: DeepMind says the model is available as of the announcement.",
+        "What changes from the previous version: the original AlphaGenome predicted DNA effects per whole tissue; AlphaGenome 2 now predicts per specific cell type and adds DNA methylation prediction, according to the company.",
+        "Who's affected: researchers working on rare diseases, complex traits and cell biology, which DeepMind names as the model's intended audience."
+      ]
+    }
+  ],
+  "image": {
+    "query": "DNA double helix research science laboratory",
+    "alt": "DNA double helix illustration, the focus of DeepMind's new AlphaGenome 2 model",
+    "path": "/assets/img/alphagenome-2-deepmind-dna-cells-d067c2a3.jpg",
+    "credit": "Warren Umoh / Unsplash",
+    "author": "Warren Umoh",
+    "author_url": "https://unsplash.com/@warrenumoh?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/dna-double-helix-structure--qycBqByWIY"
+  },
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-16T15:50:04+00:00",
+  "updated_at": "2026-11-16T15:50:04+00:00"
+}

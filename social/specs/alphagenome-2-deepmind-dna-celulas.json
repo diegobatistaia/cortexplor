@@ -1,0 +1,100 @@
+{
+  "slug": "alphagenome-2-deepmind-dna-celulas",
+  "lang": "pt",
+  "date": "16 nov 2026",
+  "no": 121,
+  "category": "Modelos",
+  "kicker": "Modelos · Google DeepMind",
+  "headline": "DeepMind lança AlphaGenome 2, que lê o DNA célula por célula",
+  "headline_hl": "AlphaGenome 2",
+  "dek": "O modelo prevê efeitos de variantes em tipos de células, segundo a DeepMind.",
+  "image": {
+    "path": "assets/img/alphagenome-2-deepmind-dna-celulas-d067c2a3.jpg",
+    "credit": "Warren Umoh / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "DNA<br>por célula",
+  "sources": [
+    "Google DeepMind"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O lançamento",
+    "body": [
+      "A Google DeepMind anunciou o AlphaGenome 2, modelo que prevê como variações do DNA afetam tipos específicos de células humanas, segundo a empresa.",
+      "Ele identifica quase o dobro de variantes que alteram a expressão gênica, ante o modelo anterior (Google DeepMind)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Google DeepMind:",
+    "points": [
+      {
+        "h": "Condição",
+        "t": "O tipo de célula entra como parte da entrada."
+      },
+      {
+        "h": "Treino",
+        "t": "Usou mais de 107 milhões de perfis de células (Google DeepMind)."
+      },
+      {
+        "h": "Novidade",
+        "t": "Passa a prever também a metilação do DNA."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "A versão original previa o efeito do DNA por tecido inteiro; agora é por tipo de célula (Google DeepMind).",
+      "Isso ajuda pesquisadores a priorizar quais experimentos de laboratório fazer primeiro."
+    ],
+    "stat": {
+      "big": "107 milhões",
+      "cap": "de perfis de células no treino (Google DeepMind)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Pesquisa",
+        "t": "Acesso não comercial pela API do AlphaGenome."
+      },
+      {
+        "h": "Empresas",
+        "t": "Pré-visualização privada via Google Cloud."
+      },
+      {
+        "h": "Dados",
+        "t": "Dá previsões sem retreino, com poucas dezenas de células."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Google DeepMind lançou o AlphaGenome 2, que prevê como o DNA muda em cada tipo de célula humana.",
+    "body": [
+      "Segundo a Google DeepMind, o modelo anterior previa efeitos de variantes genéticas por tecido inteiro. O AlphaGenome 2 é condicional: recebe o tipo de célula como parte da entrada e prevê um tecido, tipo ou estado celular por vez, o que permite captar diferenças sutis entre células parecidas.",
+      "A empresa afirma que o modelo foi treinado com mais de 107 milhões de perfis de células humanas e de camundongos, cobrindo 68 tecidos, e que identifica quase o dobro de variantes que alteram a expressão gênica. Pesquisadores acessam pela API do AlphaGenome, e empresas, em pré-visualização no Google Cloud."
+    ],
+    "cta_variant": "A",
+    "cta": "Prever doenças pelo DNA de cada célula muda a medicina?",
+    "hashtags": [
+      "#cortexplor",
+      "#deepmind",
+      "#alphagenome",
+      "#genomica"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o AlphaGenome 2 da Google DeepMind",
+    "Slide 2: DeepMind anuncia o AlphaGenome 2 para tipos de células",
+    "Slide 3: como o modelo usa o tipo de célula e prevê metilação",
+    "Slide 4: por que prever por célula ajuda a priorizar experimentos",
+    "Slide 5: acesso para pesquisadores e empresas ao AlphaGenome 2",
+    "Slide 6: fonte da matéria sobre o AlphaGenome 2: Google DeepMind"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "lang": "pt",
+  "slug": "alphagenome-2-deepmind-dna-celulas",
+  "story_id": "2d675225de3f616f",
+  "title": "DeepMind lança modelo que lê como o DNA muda célula por célula",
+  "dek": "AlphaGenome 2 prevê o efeito de variantes genéticas em tipos específicos de células humanas, segundo a empresa.",
+  "meta_description": "A DeepMind lançou o AlphaGenome 2, modelo de IA que prevê como variantes de DNA afetam tipos específicos de células humanas, segundo a própria empresa.",
+  "keyword": "AlphaGenome 2 DeepMind",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "deepmind",
+    "modelos",
+    "biologia"
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "body": [
+    {
+      "type": "p",
+      "text": "A Google DeepMind anunciou o AlphaGenome 2, um modelo de IA que prevê como variações no DNA afetam tipos específicos de células humanas, em vez de apenas tecidos inteiros, segundo comunicado da própria empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O modelo sucede o AlphaGenome original, lançado no ano passado, e a AlphaGenome Atlas, plataforma que reúne previsões para os 9 bilhões de variações de uma única letra possíveis no genoma humano, de acordo com a DeepMind. A empresa afirma que o AlphaGenome 2 identifica quase o dobro de variantes que alteram a expressão gênica em células, na comparação com o modelo anterior da própria DeepMind.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como funciona a mudança",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Toda célula do corpo carrega o mesmo DNA, mas cada tipo de célula — uma célula do coração ou uma célula de defesa combatendo uma infecção, por exemplo — ativa e desativa genes diferentes para cumprir sua função. O primeiro AlphaGenome processava um trecho de DNA e previa propriedades em várias experiências e tecidos ao mesmo tempo, segundo a empresa. Essa abordagem em paralelo, afirma a DeepMind, diluía a capacidade do modelo e dificultava captar diferenças sutis entre tipos de células parecidos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O AlphaGenome 2 inverte essa lógica: é um modelo \"condicional\" (que recebe o tipo de célula ou tecido como parte da entrada, em vez de calcular tudo de uma vez) e passa a prever o efeito do DNA em um tecido, tipo ou estado celular por vez, usando essa condição biológica em cada etapa do processamento, segundo a DeepMind. A empresa diz que esse desenho permite ao modelo aprender como o mesmo trecho de DNA é lido de forma diferente conforme o tipo de célula.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a DeepMind, o modelo foi treinado com mais de 107 milhões de perfis de células individuais, humanas e de camundongos, cobrindo 68 tecidos. Além dos resultados que o AlphaGenome original já previa — expressão gênica, modificações de histonas (proteínas que organizam o DNA) e acessibilidade da cromatina (DNA mais ou menos exposto para ser lido) —, a nova versão passa a prever também a metilação do DNA, uma marca química que pode ligar ou desligar genes e que, segundo a empresa, era um recurso bastante pedido por pesquisadores.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A DeepMind afirma ainda que o AlphaGenome 2 consegue lidar com experimentos inéditos sem precisar ser retreinado: basta um pesquisador enviar dados de poucas dezenas de células para o modelo gerar previsões sobre estados celulares nunca vistos antes, como os causados por uma doença ou uma vacina. Em um teste com dados de um estudo de vacina de mRNA contra a Covid-19, a empresa diz que o modelo distinguiu células de defesa ativadas pela vacina das que estavam em repouso, e identificou uma variante genética ligada a casos graves de Covid-19 que altera a atividade de genes de forma mais intensa justamente nas células ativadas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A DeepMind afirma que esse tipo de previsão, capaz de atribuir uma variante a um tipo de célula específico e não apenas a um tecido inteiro, deve ajudar pesquisadores a priorizar quais experimentos de laboratório fazer a seguir, em vez de testar todas as hipóteses em bancada. A empresa diz ainda que o AlphaGenome 2 separa o estado biológico de uma célula das previsões que faz sobre ela: se um cientista informar apenas uma medição, como a atividade de um gene, o modelo consegue prever outras propriedades não medidas, como a acessibilidade da cromatina daquela mesma célula.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar e onde: pesquisadores podem acessar o AlphaGenome 2 para pesquisa não comercial pela API do AlphaGenome; empresas têm acesso em pré-visualização privada via Google Cloud, segundo a DeepMind.",
+        "Desde quando: a DeepMind diz que o modelo já está disponível a partir do anúncio.",
+        "O que muda em relação à versão anterior: o AlphaGenome original previa efeitos de DNA por tecido inteiro; o AlphaGenome 2 passa a prever por tipo específico de célula e adiciona a previsão de metilação do DNA, segundo a empresa.",
+        "Quem é afetado: pesquisadores de doenças raras, genética de traços complexos e biologia celular, que a DeepMind diz serem o público do modelo."
+      ]
+    }
+  ],
+  "image": {
+    "query": "DNA double helix research science laboratory",
+    "alt": "Representação de dupla-hélice de DNA, tema do novo modelo AlphaGenome 2 da DeepMind",
+    "path": "/assets/img/alphagenome-2-deepmind-dna-celulas-d067c2a3.jpg",
+    "credit": "Warren Umoh / Unsplash",
+    "author": "Warren Umoh",
+    "author_url": "https://unsplash.com/@warrenumoh?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/dna-double-helix-structure--qycBqByWIY"
+  },
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-16T15:50:03+00:00",
+  "updated_at": "2026-11-16T15:50:03+00:00"
+}

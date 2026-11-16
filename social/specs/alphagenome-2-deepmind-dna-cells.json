@@ -1,0 +1,100 @@
+{
+  "slug": "alphagenome-2-deepmind-dna-cells",
+  "lang": "en",
+  "date": "16 Nov 2026",
+  "no": 118,
+  "category": "Models",
+  "kicker": "Models · Google DeepMind",
+  "headline": "DeepMind launches AlphaGenome 2, reading DNA cell by cell",
+  "headline_hl": "AlphaGenome 2",
+  "dek": "The model predicts variant effects in cell types, per DeepMind.",
+  "image": {
+    "path": "assets/img/alphagenome-2-deepmind-dna-cells-d067c2a3.jpg",
+    "credit": "Warren Umoh / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "DNA<br>by cell",
+  "sources": [
+    "Google DeepMind"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The launch",
+    "body": [
+      "Google DeepMind announced AlphaGenome 2, a model that predicts how DNA variations affect specific human cell types, per the company.",
+      "It finds nearly twice as many variants that change gene expression as the prior model (Google DeepMind)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Google DeepMind:",
+    "points": [
+      {
+        "h": "Condition",
+        "t": "The cell type is part of the model's input."
+      },
+      {
+        "h": "Training",
+        "t": "Used over 107 million cell profiles (Google DeepMind)."
+      },
+      {
+        "h": "New",
+        "t": "It also predicts DNA methylation."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "The original predicted DNA effects per whole tissue; now it is per cell type (Google DeepMind).",
+      "That helps researchers prioritize which lab experiments to run first."
+    ],
+    "stat": {
+      "big": "107 million",
+      "cap": "cell profiles used in training (Google DeepMind)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Research",
+        "t": "Non-commercial access via the AlphaGenome API."
+      },
+      {
+        "h": "Companies",
+        "t": "Private preview through Google Cloud."
+      },
+      {
+        "h": "New data",
+        "t": "Predicts with no retraining, from a few dozen cells."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google DeepMind launched AlphaGenome 2, which predicts how DNA changes in each human cell type.",
+    "body": [
+      "Per Google DeepMind, the earlier model predicted the effects of genetic variants across whole tissues. AlphaGenome 2 is conditional: it takes the cell type as part of its input and predicts one tissue, cell type or state at a time, which captures subtle differences between similar cells.",
+      "The company says the model was trained on more than 107 million profiles from human and mouse cells, covering 68 tissues, and finds nearly twice as many variants that change gene expression. Researchers can use the AlphaGenome API for non-commercial work, and companies get a private preview on Google Cloud."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#deepmind",
+      "#alphagenome",
+      "#genomics"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google DeepMind's AlphaGenome 2",
+    "Slide 2: DeepMind announces AlphaGenome 2 for cell types",
+    "Slide 3: how the model uses cell type and predicts methylation",
+    "Slide 4: why per-cell predictions help prioritize experiments",
+    "Slide 5: access for researchers and companies to AlphaGenome 2",
+    "Slide 6: source for the AlphaGenome 2 story: Google DeepMind"
+  ]
+}
