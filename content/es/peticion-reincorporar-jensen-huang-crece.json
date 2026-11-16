@@ -7,31 +7,105 @@
   "meta_description": "Una petición en línea para reincorporar a Jensen Huang como CEO de Nvidia pasó de 115.000 a casi 180.000 firmas en pocos días, según CNBC y TechCrunch.",
   "keyword": "petición Jensen Huang Nvidia",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "jensen-huang", "mercado"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen-huang",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Una petición en línea llamada \"Stand with Jensen\" (\"Con Jensen\"), que pide la reincorporación de Jensen Huang como CEO de Nvidia, pasó de más de 115.000 firmas el sábado a casi 180.000 el lunes, según TechCrunch y CNBC.", "items": []},
-    {"type": "p", "text": "El crecimiento llegó junto con el respaldo público de figuras destacadas de la industria tecnológica. Elon Musk, CEO de Tesla y SpaceX, publicó en X que había firmado la petición. Garry Tan, CEO de la aceleradora Y Combinator, y Tim Sweeney, CEO de Epic Games, también confirmaron su apoyo, según ambos medios.", "items": []},
-    {"type": "p", "text": "Huang renunció a los cargos de presidente, CEO y consejero de Nvidia el jueves, tras reportajes sobre relaciones extramaritales, incluida una con una mujer que autoridades estadounidenses sospechan vinculada a la inteligencia china, como Cortexplor <a href=\"https://cortexplor.com/es/jensen-huang-renuncia-ceo-nvidia-escandalo/\">informó</a>.", "items": []},
-    {"type": "h2", "text": "De un reclamo interno a una petición pública", "items": []},
-    {"type": "p", "text": "El movimiento por el regreso de Huang empezó dentro de la propia Nvidia: empleados dejaron mensajes en un buzón de sugerencias interno y en canales corporativos pidiendo su vuelta, como Cortexplor también <a href=\"https://cortexplor.com/es/empleados-nvidia-piden-vuelta-jensen-huang/\">informó</a>. La petición en línea extendió ese reclamo más allá de la empresa, sumando accionistas y figuras de toda la industria tecnológica.", "items": []},
-    {"type": "p", "text": "Según TechCrunch, la página de la petición indicaba el sábado que entre los firmantes había 5.965 empleados actuales de Nvidia, 1.108 exempleados y 63.063 accionistas. El texto del documento, de acuerdo con el medio, afirma que los firmantes están \"preocupados porque Jensen fue destituido sin un proceso justo\" y pide a la junta que \"lo traiga de vuelta mientras una investigación independiente establece los hechos\".", "items": []},
-    {"type": "p", "text": "Nvidia mantiene a la directora financiera Colette Kress como CEO interina mientras la junta busca candidatos internos y externos para el cargo permanente, según CNBC y TechCrunch. Ambos medios confirman además que la junta continúa con una investigación independiente sobre la conducta que llevó a la renuncia de Huang.", "items": []},
-    {"type": "p", "text": "Un portavoz de Nvidia dijo a CNBC que la empresa \"está en proceso de seleccionar una firma de búsqueda para el puesto de CEO de Nvidia\" y que \"no ha contratado formalmente a ningún candidato potencial\", y calificó de prematura cualquier especulación sobre nombres.", "items": []},
-    {"type": "p", "text": "CNBC también incluye entre los firmantes al CEO de Shopify, Tobias Lütke, al ex-CEO de Uber Travis Kalanick y al CEO de Hugging Face, Julien Chaumond, todos con confirmación pública de su firma en X. El medio encontró además decenas de firmantes que se identifican como empleados actuales o exempleados de Nvidia, aunque aclaró que el propio sitio de la petición no verifica las afiliaciones declaradas.", "items": []},
-    {"type": "p", "text": "Una eventual vuelta de Huang todavía enfrenta obstáculos. Además de la investigación independiente en curso, el ejecutivo ya había aceptado testificar ante el Congreso de Estados Unidos sobre su relación con la mujer sospechada de espionaje, como Cortexplor <a href=\"https://cortexplor.com/es/jensen-huang-acepta-testificar-congreso-eeuu/\">informó</a>. La crisis también golpeó el valor de mercado de Nvidia desde que se conoció el primer caso de Huang, como Cortexplor <a href=\"https://cortexplor.com/es/acciones-nvidia-caen-caso-jensen-huang/\">informó</a> anteriormente.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Qué es nuevo: la petición por el regreso de Huang dejó de ser un movimiento interno y pasó de 115.000 a casi 180.000 firmas en pocos días, con el respaldo público de figuras como Elon Musk.",
-      "Cuándo: la petición ganó fuerza entre el sábado y el lunes, días después de que se anunciara la renuncia de Huang el jueves.",
-      "Quién está involucrado: accionistas, exempleados y empleados actuales de Nvidia, además de ejecutivos de otras empresas tecnológicas que firmaron públicamente.",
-      "Qué cambia: la junta de Nvidia, que ya había aceptado la renuncia de Huang y nombrado a Colette Kress CEO interina, ahora enfrenta presión pública también desde fuera de la empresa.",
-      "Qué falta: según TechCrunch y CNBC, la junta sigue con la investigación independiente sobre la conducta de Huang y continúa buscando candidatos internos y externos para el cargo permanente."
-    ]}
+    {
+      "type": "p",
+      "text": "Una petición en línea llamada \"Stand with Jensen\" (\"Con Jensen\"), que pide la reincorporación de Jensen Huang como CEO de Nvidia, pasó de más de 115.000 firmas el sábado a casi 180.000 el lunes, según TechCrunch y CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El crecimiento llegó junto con el respaldo público de figuras destacadas de la industria tecnológica. Elon Musk, CEO de Tesla y SpaceX, publicó en X que había firmado la petición. Garry Tan, CEO de la aceleradora Y Combinator, y Tim Sweeney, CEO de Epic Games, también confirmaron su apoyo, según ambos medios.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Huang renunció a los cargos de presidente, CEO y consejero de Nvidia el jueves, tras reportajes sobre relaciones extramaritales, incluida una con una mujer que autoridades estadounidenses sospechan vinculada a la inteligencia china, como Cortexplor <a href=\"https://cortexplor.com/es/jensen-huang-renuncia-ceo-nvidia-escandalo/\">informó</a>.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "De un reclamo interno a una petición pública",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El movimiento por el regreso de Huang empezó dentro de la propia Nvidia: empleados dejaron mensajes en un buzón de sugerencias interno y en canales corporativos pidiendo su vuelta, como Cortexplor también <a href=\"https://cortexplor.com/es/empleados-nvidia-piden-vuelta-jensen-huang/\">informó</a>. La petición en línea extendió ese reclamo más allá de la empresa, sumando accionistas y figuras de toda la industria tecnológica.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch, la página de la petición indicaba el sábado que entre los firmantes había 5.965 empleados actuales de Nvidia, 1.108 exempleados y 63.063 accionistas. El texto del documento, de acuerdo con el medio, afirma que los firmantes están \"preocupados porque Jensen fue destituido sin un proceso justo\" y pide a la junta que \"lo traiga de vuelta mientras una investigación independiente establece los hechos\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia mantiene a la directora financiera Colette Kress como CEO interina mientras la junta busca candidatos internos y externos para el cargo permanente, según CNBC y TechCrunch. Ambos medios confirman además que la junta continúa con una investigación independiente sobre la conducta que llevó a la renuncia de Huang.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Un portavoz de Nvidia dijo a CNBC que la empresa \"está en proceso de seleccionar una firma de búsqueda para el puesto de CEO de Nvidia\" y que \"no ha contratado formalmente a ningún candidato potencial\", y calificó de prematura cualquier especulación sobre nombres.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC también incluye entre los firmantes al CEO de Shopify, Tobias Lütke, al ex-CEO de Uber Travis Kalanick y al CEO de Hugging Face, Julien Chaumond, todos con confirmación pública de su firma en X. El medio encontró además decenas de firmantes que se identifican como empleados actuales o exempleados de Nvidia, aunque aclaró que el propio sitio de la petición no verifica las afiliaciones declaradas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Una eventual vuelta de Huang todavía enfrenta obstáculos. Además de la investigación independiente en curso, el ejecutivo ya había aceptado testificar ante el Congreso de Estados Unidos sobre su relación con la mujer sospechada de espionaje, como Cortexplor <a href=\"https://cortexplor.com/es/jensen-huang-acepta-testificar-congreso-eeuu/\">informó</a>. La crisis también golpeó el valor de mercado de Nvidia desde que se conoció el primer caso de Huang, como Cortexplor <a href=\"https://cortexplor.com/es/acciones-nvidia-caen-caso-jensen-huang/\">informó</a> anteriormente.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué es nuevo: la petición por el regreso de Huang dejó de ser un movimiento interno y pasó de 115.000 a casi 180.000 firmas en pocos días, con el respaldo público de figuras como Elon Musk.",
+        "Cuándo: la petición ganó fuerza entre el sábado y el lunes, días después de que se anunciara la renuncia de Huang el jueves.",
+        "Quién está involucrado: accionistas, exempleados y empleados actuales de Nvidia, además de ejecutivos de otras empresas tecnológicas que firmaron públicamente.",
+        "Qué cambia: la junta de Nvidia, que ya había aceptado la renuncia de Huang y nombrado a Colette Kress CEO interina, ahora enfrenta presión pública también desde fuera de la empresa.",
+        "Qué falta: según TechCrunch y CNBC, la junta sigue con la investigación independiente sobre la conducta de Huang y continúa buscando candidatos internos y externos para el cargo permanente."
+      ]
+    }
   ],
-  "image": {"query": "nvidia headquarters sign technology corporate building", "alt": "Letrero de la sede de Nvidia, blanco de una petición por la vuelta de Jensen Huang como CEO"},
+  "image": {
+    "query": "nvidia headquarters sign technology corporate building",
+    "alt": "Letrero de la sede de Nvidia, blanco de una petición por la vuelta de Jensen Huang como CEO",
+    "path": "/assets/img/peticion-reincorporar-jensen-huang-crece-f7672b11.jpg",
+    "credit": "BoliviaInteligente / Unsplash",
+    "author": "BoliviaInteligente",
+    "author_url": "https://unsplash.com/@boliviainteligente?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/logo-eyWlM1f0Vu0"
+  },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/", "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang"},
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html", "title": "The tech world's calls for Jensen Huang to return to Nvidia are growing"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+      "title": "The tech world's calls for Jensen Huang to return to Nvidia are growing"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-16T15:50:04+00:00",
+  "updated_at": "2026-11-16T15:50:04+00:00"
 }

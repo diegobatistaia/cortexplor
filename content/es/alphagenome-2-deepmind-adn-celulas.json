@@ -7,28 +7,89 @@
   "meta_description": "DeepMind lanzó AlphaGenome 2, un modelo de IA que predice cómo las variantes de ADN afectan a tipos específicos de células humanas, según la propia empresa.",
   "keyword": "AlphaGenome 2 DeepMind",
   "category": "modelos",
-  "tags": ["ia", "deepmind", "modelos", "biologia"],
+  "tags": [
+    "ia",
+    "deepmind",
+    "modelos",
+    "biologia"
+  ],
   "fonte_unica": "anuncio_oficial",
   "body": [
-    {"type": "p", "text": "Google DeepMind anunció AlphaGenome 2, un modelo de IA que predice cómo las variaciones del ADN afectan a tipos específicos de células humanas, en lugar de a tejidos completos, según un comunicado de la propia empresa.", "items": []},
-    {"type": "p", "text": "El modelo sucede al AlphaGenome original, lanzado el año pasado, y a AlphaGenome Atlas, una plataforma con predicciones para los 9.000 millones de posibles cambios de una sola letra en el genoma humano, según DeepMind. La empresa afirma que AlphaGenome 2 identifica casi el doble de variantes que alteran la expresión génica en células, en comparación con su propio modelo anterior.", "items": []},
-    {"type": "h2", "text": "Cómo funciona el cambio", "items": []},
-    {"type": "p", "text": "Toda célula del cuerpo lleva el mismo ADN, pero cada tipo de célula —una célula del corazón o una célula inmune combatiendo una infección, por ejemplo— activa y desactiva genes distintos para cumplir su función. El primer AlphaGenome tomaba un fragmento de ADN y predecía propiedades en muchos experimentos y tejidos a la vez, según la empresa. DeepMind dice que ese enfoque en paralelo diluía la capacidad del modelo y dificultaba captar diferencias sutiles entre tipos de células parecidos.", "items": []},
-    {"type": "p", "text": "AlphaGenome 2 invierte esa lógica: es un modelo \"condicional\" (que recibe el tipo de célula o tejido como parte de la entrada, en lugar de calcular todo a la vez) que predice el efecto del ADN para un tejido, tipo o estado celular a la vez, usando esa condición biológica en cada etapa del procesamiento, según DeepMind. La empresa afirma que este diseño permite al modelo aprender cómo el mismo fragmento de ADN se lee de forma distinta según el tipo de célula.", "items": []},
-    {"type": "p", "text": "Según DeepMind, el modelo se entrenó con más de 107 millones de perfiles de células individuales, humanas y de ratón, que cubren 68 tejidos. Además de los resultados que ya predecía el AlphaGenome original —expresión génica, modificaciones de histonas (proteínas que organizan el ADN) y accesibilidad de la cromatina (qué tan expuesto está el ADN para ser leído)—, la nueva versión también predice la metilación del ADN, una marca química que puede activar o desactivar genes y que, según la empresa, los investigadores pedían con frecuencia.", "items": []},
-    {"type": "p", "text": "DeepMind afirma además que AlphaGenome 2 puede manejar experimentos completamente nuevos sin necesidad de reentrenamiento: basta con que un investigador envíe datos de pocas decenas de células para que el modelo genere predicciones sobre estados celulares nunca vistos, como los causados por una enfermedad o una vacuna. En una prueba con datos de un estudio de vacuna de ARNm contra la COVID-19, la empresa dice que el modelo distinguió células inmunes activadas por la vacuna de las que estaban en reposo, y detectó que una variante vinculada a casos graves de COVID-19 altera la actividad génica con más fuerza justamente en esas células activadas.", "items": []},
-    {"type": "p", "text": "DeepMind afirma que este tipo de predicción, capaz de asociar una variante a un tipo de célula específico y no solo a un tejido completo, debería ayudar a los investigadores a priorizar qué experimentos de laboratorio hacer primero, en lugar de probar todas las hipótesis en el banco. La empresa también dice que AlphaGenome 2 separa el estado biológico de una célula de las predicciones que hace sobre ella: si un científico introduce solo una medición, como la actividad de un gen, el modelo puede predecir otras propiedades no medidas, como la accesibilidad de la cromatina de esa misma célula.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quién puede usarlo y dónde: los investigadores pueden acceder a AlphaGenome 2 para investigación no comercial mediante la API de AlphaGenome; las empresas tienen acceso en vista previa privada a través de Google Cloud, según DeepMind.",
-      "Desde cuándo: DeepMind dice que el modelo ya está disponible desde el anuncio.",
-      "Qué cambia respecto a la versión anterior: el AlphaGenome original predecía efectos del ADN por tejido completo; AlphaGenome 2 pasa a predecir por tipo específico de célula y suma la predicción de metilación del ADN, según la empresa.",
-      "Quién se ve afectado: investigadores de enfermedades raras, rasgos complejos y biología celular, el público que DeepMind señala como destinatario del modelo."
-    ]}
+    {
+      "type": "p",
+      "text": "Google DeepMind anunció AlphaGenome 2, un modelo de IA que predice cómo las variaciones del ADN afectan a tipos específicos de células humanas, en lugar de a tejidos completos, según un comunicado de la propia empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El modelo sucede al AlphaGenome original, lanzado el año pasado, y a AlphaGenome Atlas, una plataforma con predicciones para los 9.000 millones de posibles cambios de una sola letra en el genoma humano, según DeepMind. La empresa afirma que AlphaGenome 2 identifica casi el doble de variantes que alteran la expresión génica en células, en comparación con su propio modelo anterior.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cómo funciona el cambio",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Toda célula del cuerpo lleva el mismo ADN, pero cada tipo de célula —una célula del corazón o una célula inmune combatiendo una infección, por ejemplo— activa y desactiva genes distintos para cumplir su función. El primer AlphaGenome tomaba un fragmento de ADN y predecía propiedades en muchos experimentos y tejidos a la vez, según la empresa. DeepMind dice que ese enfoque en paralelo diluía la capacidad del modelo y dificultaba captar diferencias sutiles entre tipos de células parecidos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "AlphaGenome 2 invierte esa lógica: es un modelo \"condicional\" (que recibe el tipo de célula o tejido como parte de la entrada, en lugar de calcular todo a la vez) que predice el efecto del ADN para un tejido, tipo o estado celular a la vez, usando esa condición biológica en cada etapa del procesamiento, según DeepMind. La empresa afirma que este diseño permite al modelo aprender cómo el mismo fragmento de ADN se lee de forma distinta según el tipo de célula.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según DeepMind, el modelo se entrenó con más de 107 millones de perfiles de células individuales, humanas y de ratón, que cubren 68 tejidos. Además de los resultados que ya predecía el AlphaGenome original —expresión génica, modificaciones de histonas (proteínas que organizan el ADN) y accesibilidad de la cromatina (qué tan expuesto está el ADN para ser leído)—, la nueva versión también predice la metilación del ADN, una marca química que puede activar o desactivar genes y que, según la empresa, los investigadores pedían con frecuencia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind afirma además que AlphaGenome 2 puede manejar experimentos completamente nuevos sin necesidad de reentrenamiento: basta con que un investigador envíe datos de pocas decenas de células para que el modelo genere predicciones sobre estados celulares nunca vistos, como los causados por una enfermedad o una vacuna. En una prueba con datos de un estudio de vacuna de ARNm contra la COVID-19, la empresa dice que el modelo distinguió células inmunes activadas por la vacuna de las que estaban en reposo, y detectó que una variante vinculada a casos graves de COVID-19 altera la actividad génica con más fuerza justamente en esas células activadas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeepMind afirma que este tipo de predicción, capaz de asociar una variante a un tipo de célula específico y no solo a un tejido completo, debería ayudar a los investigadores a priorizar qué experimentos de laboratorio hacer primero, en lugar de probar todas las hipótesis en el banco. La empresa también dice que AlphaGenome 2 separa el estado biológico de una célula de las predicciones que hace sobre ella: si un científico introduce solo una medición, como la actividad de un gen, el modelo puede predecir otras propiedades no medidas, como la accesibilidad de la cromatina de esa misma célula.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo y dónde: los investigadores pueden acceder a AlphaGenome 2 para investigación no comercial mediante la API de AlphaGenome; las empresas tienen acceso en vista previa privada a través de Google Cloud, según DeepMind.",
+        "Desde cuándo: DeepMind dice que el modelo ya está disponible desde el anuncio.",
+        "Qué cambia respecto a la versión anterior: el AlphaGenome original predecía efectos del ADN por tejido completo; AlphaGenome 2 pasa a predecir por tipo específico de célula y suma la predicción de metilación del ADN, según la empresa.",
+        "Quién se ve afectado: investigadores de enfermedades raras, rasgos complejos y biología celular, el público que DeepMind señala como destinatario del modelo."
+      ]
+    }
   ],
-  "image": {"query": "DNA double helix research science laboratory", "alt": "Ilustración de una doble hélice de ADN, tema del nuevo modelo AlphaGenome 2 de DeepMind"},
+  "image": {
+    "query": "DNA double helix research science laboratory",
+    "alt": "Ilustración de una doble hélice de ADN, tema del nuevo modelo AlphaGenome 2 de DeepMind",
+    "path": "/assets/img/alphagenome-2-deepmind-adn-celulas-d067c2a3.jpg",
+    "credit": "Warren Umoh / Unsplash",
+    "author": "Warren Umoh",
+    "author_url": "https://unsplash.com/@warrenumoh?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/dna-double-helix-structure--qycBqByWIY"
+  },
   "sources": [
-    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/", "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"}
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-16T15:50:04+00:00",
+  "updated_at": "2026-11-16T15:50:04+00:00"
 }
