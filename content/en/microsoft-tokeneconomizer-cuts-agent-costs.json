@@ -1,0 +1,40 @@
+{
+  "lang": "en",
+  "slug": "microsoft-tokeneconomizer-cuts-agent-costs",
+  "story_id": "b5d0da5475313db5",
+  "title": "Microsoft's new tool cuts AI coding agent costs by 31%",
+  "dek": "Open-source plugin TokenEconomizer learns from past sessions to trim spending without swapping out the agent or the model, Microsoft says.",
+  "meta_description": "Microsoft released TokenEconomizer, an open-source plugin that cuts AI coding agent costs by up to 31% without hurting performance, the company says today.",
+  "keyword": "TokenEconomizer Microsoft coding agents",
+  "category": "aplicacoes",
+  "tags": ["ai", "microsoft", "ai-agents", "open-source"],
+  "body": [
+    {"type": "p", "text": "Microsoft released TokenEconomizer, an open-source plugin that reduces the cost of using AI coding agents without changing the agent or the underlying model, according to Microsoft Research. The tool was developed with researchers from UC Berkeley and Microsoft's own security team.", "items": []},
+    {"type": "p", "text": "According to the company, the problem the tool targets is repetition: on every task, a coding agent rediscovers how to run a repository's tests, loads tools it never uses, or spends dozens of turns revisiting the same error — and each of those interactions consumes tokens, the units of text large language models process and charge for.", "items": []},
+    {"type": "h2", "text": "How it works", "items": []},
+    {"type": "p", "text": "Microsoft says TokenEconomizer reads the log of each completed session in a repository and updates what it has learned about it, acting in three ways. First, it writes short notes, called micro-skills, about repository-specific quirks, which only enter the agent's starting context after several sessions confirm the pattern, and are retired if later sessions contradict it. Second, it removes tools the repository's history suggests the agent is unlikely to use, though they can be restored if needed.", "items": []},
+    {"type": "p", "text": "Third, the tool watches for an agent stuck repeating the same failure: a judge model decides whether it's truly stuck and, if so, suggests a different approach — and, in the open-source plugin, alerts the developer rather than stopping the work on its own, according to Microsoft.", "items": []},
+    {"type": "h2", "text": "What the tests showed", "items": []},
+    {"type": "p", "text": "Microsoft evaluated the tool on 277 tasks from SWE-Bench, a benchmark of real bug fixes in open-source Python projects, using five different coding agent and model combinations across six repositories. The company says TokenEconomizer lowered the average cost by 18.4% to 30.9%, saving money in all 30 repository-configuration pairs tested, without a loss in performance. By comparison, Microsoft says lowering the model's reasoning effort saved similar or larger amounts but caused substantial performance degradation.", "items": []},
+    {"type": "p", "text": "The company also says savings grow over time: cumulative costs fell below the default by the sixth task in every repository tested. On sequential web development tasks, cost reductions ranged from 16.0% to 21.2%; on security auditing tasks, where every task starts in a new repository, from 6.4% to 19.6%, according to Microsoft.", "items": []},
+    {"type": "p", "text": "Microsoft also compared TokenEconomizer against three already-popular open-source plugins, each built around a fixed cost-saving strategy. According to the company, each of those plugins lowered costs in some repositories but not others, which Microsoft says shows that effective cost control has to adapt to each repository rather than apply the same strategy everywhere. In every repository tested, TokenEconomizer started with no prior session history, and the reported savings already account for the cost of the model calls the tool itself makes to run, the company says.", "items": []},
+    {"type": "p", "text": "Each of the three mechanisms saves money on its own, but Microsoft says combining all three delivers the largest reduction. Before building the tool, the team profiled Claude Code on 60 tasks from SWE-Bench, run in sequence within each repository, and found a recurring pattern of token waste that became the basis for the project, according to the company.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "What it is: TokenEconomizer, an open-source plugin that cuts AI coding agent costs without swapping the agent or the model, Microsoft says.",
+      "Who can use it: any developer already using a coding agent, such as Claude Code, alongside the repositories they work in.",
+      "Cost: free; Microsoft says the tool requires no API key of its own and keeps what it learns on the developer's machine.",
+      "What changes: 18.4% to 30.9% average savings across 277 test tasks, growing with use, according to the company, with no measured performance loss.",
+      "Who built it: researchers from UC Berkeley, Microsoft Research and Microsoft Security."
+    ]}
+  ],
+  "image": {
+    "query": "computer code programming screen abstract",
+    "alt": "Computer screen showing source code in a programming editor"
+  },
+  "sources": [
+    {"name": "Microsoft Research", "owner": "microsoft", "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/", "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
