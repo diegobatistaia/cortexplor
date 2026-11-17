@@ -1,0 +1,11 @@
+Microsoft released TokenEconomizer, an open-source plugin that trims the cost of AI coding agents.
+
+Per Microsoft Research, the plugin reads the log of each session in a repository and learns from it, without swapping the agent or the model. It writes short notes about the repository, removes rarely used tools and alerts the developer when the agent gets stuck repeating the same error.
+
+On 277 SWE-Bench tasks, the company says average cost fell between 18.4% and 30.9% with no loss in performance, saving money in all 30 pairs tested. Microsoft says savings grow with use and that the tool is free, built with researchers from UC Berkeley.
+
+Save it for later and send it to someone following AI.
+
+Full story: link in bio.
+
+#cortexplor #microsoft #codingagents #tokeneconomizer

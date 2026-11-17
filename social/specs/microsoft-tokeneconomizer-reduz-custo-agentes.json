@@ -1,0 +1,100 @@
+{
+  "slug": "microsoft-tokeneconomizer-reduz-custo-agentes",
+  "lang": "pt",
+  "date": "17 nov 2026",
+  "no": 125,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Microsoft",
+  "headline": "Microsoft lança plugin que reduz custo de agentes de código",
+  "headline_hl": "reduz custo",
+  "dek": "O TokenEconomizer é aberto e aprende com sessões passadas, segundo a Microsoft Research.",
+  "image": {
+    "path": "assets/img/microsoft-tokeneconomizer-reduz-custo-ag-a4637ef9.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Plugin<br>aberto",
+  "sources": [
+    "Microsoft Research"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O lançamento",
+    "body": [
+      "A Microsoft lançou o TokenEconomizer, plugin aberto que reduz o custo de agentes de IA para programar, segundo a Microsoft Research.",
+      "Ele funciona sem trocar o agente nem o modelo (Microsoft Research)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Microsoft Research:",
+    "points": [
+      {
+        "h": "Notas",
+        "t": "Cria micro-skills sobre cada repositório."
+      },
+      {
+        "h": "Ferramentas",
+        "t": "Remove as que o agente raramente usa."
+      },
+      {
+        "h": "Travas",
+        "t": "Avisa quando o agente repete o mesmo erro."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Resultados",
+    "body": [
+      "Em 277 tarefas do SWE-Bench, o custo médio caiu entre 18,4% e 30,9%, sem perda de desempenho (Microsoft Research).",
+      "A economia apareceu nos 30 pares de repositório e configuração testados (Microsoft Research)."
+    ],
+    "stat": {
+      "big": "30,9%",
+      "cap": "de queda máxima no custo (Microsoft Research)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Uso",
+        "t": "Serve a quem já usa um agente de código."
+      },
+      {
+        "h": "Custo",
+        "t": "É gratuito e não pede chave de API própria."
+      },
+      {
+        "h": "Tempo",
+        "t": "A economia cresce a partir da sexta tarefa."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Microsoft lançou o TokenEconomizer, plugin aberto que corta o custo de agentes de código com IA.",
+    "body": [
+      "Segundo a Microsoft Research, o plugin lê o registro de cada sessão em um repositório e aprende com ele, sem trocar o agente nem o modelo. Ele cria notas curtas sobre o repositório, remove ferramentas pouco usadas e avisa o desenvolvedor quando o agente fica preso repetindo o mesmo erro.",
+      "Em 277 tarefas do SWE-Bench, a empresa afirma que o custo médio caiu entre 18,4% e 30,9%, sem perda de desempenho, com economia em todos os 30 pares testados. A Microsoft diz que a economia cresce com o uso e que a ferramenta é gratuita, feita com pesquisadores da Universidade da Califórnia em Berkeley."
+    ],
+    "cta_variant": "A",
+    "cta": "Quanto você gasta hoje com agentes de código?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#agentesdecodigo",
+      "#tokeneconomizer"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o plugin TokenEconomizer da Microsoft",
+    "Slide 2: Microsoft lança plugin aberto que reduz custo de agentes",
+    "Slide 3: como micro-skills, ferramentas e travas economizam tokens",
+    "Slide 4: resultados do TokenEconomizer em 277 tarefas do SWE-Bench",
+    "Slide 5: quem pode usar, custo e ganho ao longo do tempo",
+    "Slide 6: fonte da matéria sobre o TokenEconomizer: Microsoft Research"
+  ]
+}
