@@ -1,0 +1,40 @@
+{
+  "lang": "pt",
+  "slug": "microsoft-tokeneconomizer-reduz-custo-agentes",
+  "story_id": "b5d0da5475313db5",
+  "title": "Microsoft lança plugin que reduz custo de agentes de código em até 31%",
+  "dek": "TokenEconomizer é um plugin de código aberto que aprende com sessões passadas e corta gastos sem trocar o agente ou o modelo, segundo a empresa.",
+  "meta_description": "A Microsoft lançou o TokenEconomizer, plugin aberto que reduz em até 31% o custo de agentes de codificação com IA sem perda de desempenho, diz a empresa.",
+  "keyword": "TokenEconomizer Microsoft agentes de código",
+  "category": "aplicacoes",
+  "tags": ["ia", "microsoft", "agentes-de-ia", "codigo-aberto"],
+  "body": [
+    {"type": "p", "text": "A Microsoft lançou o TokenEconomizer, um plugin de código aberto que reduz o custo de usar agentes de inteligência artificial para programação, sem alterar o agente ou o modelo por trás dele, segundo a Microsoft Research. A ferramenta foi desenvolvida em parceria com pesquisadores da Universidade da Califórnia em Berkeley e com a equipe de segurança da própria Microsoft.", "items": []},
+    {"type": "p", "text": "Segundo a empresa, o problema que a ferramenta ataca é a repetição: a cada tarefa, um agente de código volta a descobrir como rodar os testes de um repositório, carrega ferramentas que nunca usa ou gasta dezenas de interações revisitando o mesmo erro — e cada uma dessas interações consome tokens, as unidades de texto que os modelos de linguagem processam e cobram por uso.", "items": []},
+    {"type": "h2", "text": "Como funciona", "items": []},
+    {"type": "p", "text": "Segundo a Microsoft, o TokenEconomizer lê o registro de cada sessão concluída em um repositório e atualiza o que já aprendeu sobre ele, atuando de três formas. Primeiro, cria anotações curtas, chamadas de micro-skills, sobre particularidades do repositório, que só entram no contexto inicial do agente depois de se confirmarem em várias sessões, e são descartadas se deixarem de valer. Segundo, remove do agente ferramentas que o histórico do repositório sugere que ele raramente usa, mas que podem ser restauradas se necessário.", "items": []},
+    {"type": "p", "text": "Terceiro, a ferramenta monitora quando o agente trava repetindo o mesmo erro: um modelo avaliador decide se ele está realmente parado e, nesse caso, sugere outra abordagem — e, no plugin de código aberto, avisa o desenvolvedor em vez de interromper o trabalho por conta própria, segundo a Microsoft.", "items": []},
+    {"type": "h2", "text": "Resultados nos testes", "items": []},
+    {"type": "p", "text": "A Microsoft avaliou a ferramenta em 277 tarefas do SWE-Bench, um banco de testes com correções reais de bugs em projetos de código aberto em Python, usando cinco combinações diferentes de agentes e modelos em seis repositórios. Segundo a empresa, o TokenEconomizer reduziu o custo médio entre 18,4% e 30,9%, com economia em todos os 30 pares de repositório e configuração testados, sem perda de desempenho. Para comparação, a Microsoft diz que reduzir o esforço de raciocínio do modelo economizou valores parecidos ou maiores, mas piorou bastante o desempenho.", "items": []},
+    {"type": "p", "text": "A empresa afirma ainda que a economia aumenta com o tempo: o custo acumulado ficou abaixo do padrão a partir da sexta tarefa em todos os repositórios testados. Em tarefas de desenvolvimento web sequencial, a redução de custo ficou entre 16% e 21,2%; em tarefas de auditoria de segurança, nas quais cada tarefa parte de um repositório novo, entre 6,4% e 19,6%, segundo a Microsoft.", "items": []},
+    {"type": "p", "text": "A Microsoft também comparou o TokenEconomizer a três plugins de código aberto já populares, cada um construído em torno de uma estratégia fixa de economia. Segundo a empresa, cada um desses plugins reduziu custos em alguns repositórios, mas não em outros — o que, para a Microsoft, mostra que um controle de custo eficaz precisa se adaptar a cada repositório, em vez de aplicar a mesma receita em todos os casos. Em cada repositório testado, o TokenEconomizer começou sem nenhum histórico de sessões anteriores, e os números de economia já descontam o custo das próprias chamadas de modelo que a ferramenta faz para funcionar, segundo a empresa.", "items": []},
+    {"type": "p", "text": "Cada um dos três mecanismos contribui com economia isoladamente, mas a Microsoft diz que combinar os três é o que produz a maior redução de custo. Antes de desenvolver a ferramenta, a equipe testou o Claude Code em 60 tarefas do SWE-Bench, executadas em sequência dentro de cada repositório, e identificou um padrão recorrente de desperdício de tokens que serviu de base para o projeto, segundo a empresa.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "O que é: TokenEconomizer, plugin de código aberto que reduz o custo de agentes de codificação de IA sem trocar o agente ou o modelo, segundo a Microsoft.",
+      "Quem pode usar: qualquer desenvolvedor que já use um agente de código, como o Claude Code, junto com os repositórios em que trabalha.",
+      "Quanto custa: gratuito; a Microsoft diz que a ferramenta não exige chave de API própria e mantém o que aprende na máquina do desenvolvedor.",
+      "O que muda: economia de 18,4% a 30,9% em 277 tarefas de teste, crescendo com o uso, segundo a empresa, sem perda de desempenho medida nos testes.",
+      "Quem desenvolveu: pesquisadores da Universidade da Califórnia em Berkeley, da Microsoft Research e da Microsoft Security."
+    ]}
+  ],
+  "image": {
+    "query": "computer code programming screen abstract",
+    "alt": "Tela de computador exibindo código-fonte em um editor de programação"
+  },
+  "sources": [
+    {"name": "Microsoft Research", "owner": "microsoft", "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/", "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}

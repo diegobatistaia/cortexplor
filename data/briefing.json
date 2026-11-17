@@ -319,5 +319,157 @@
         }
       ]
     }
+  ],
+  "recent_posts": [
+    {
+      "published_at": "2026-11-16T21:45:28+00:00",
+      "story_id": "8008e89ad92e702f",
+      "title": "Califórnia processa a OpenAI por ataque de agentes ao Hugging Face",
+      "summary": "O procurador-geral Rob Bonta move a primeira ação de um regulador estadual dos EUA contra um laboratório de IA por um incidente de agente desgovernado."
+    },
+    {
+      "published_at": "2026-11-16T15:50:03+00:00",
+      "story_id": "2d675225de3f616f",
+      "title": "DeepMind lança modelo que lê como o DNA muda célula por célula",
+      "summary": "AlphaGenome 2 prevê o efeito de variantes genéticas em tipos específicos de células humanas, segundo a empresa."
+    },
+    {
+      "published_at": "2026-11-16T15:50:03+00:00",
+      "story_id": "223549ad00bd0847",
+      "title": "Petição pela volta de Huang à Nvidia passa de 170 mil assinaturas",
+      "summary": "Elon Musk e outros executivos de tecnologia apoiaram publicamente o pedido de recondução do ex-CEO, segundo a TechCrunch e a CNBC."
+    },
+    {
+      "published_at": "2026-11-16T10:44:56+00:00",
+      "story_id": "5470cc5c5cb1549d",
+      "title": "Roboflow lança reconhecimento de ações em vídeo na sua IA",
+      "summary": "Plataforma de visão computacional passa a identificar sequências de ações em vídeo, com início e fim de cada etapa, segundo a empresa."
+    },
+    {
+      "published_at": "2026-11-15T21:49:28+00:00",
+      "story_id": "a2a446d5ac50ee54",
+      "title": "Microsoft acha brecha que instala backdoor em agentes de IA",
+      "summary": "Pesquisadores da empresa alteraram menos de 10 neurônios de um modelo sem retreiná-lo e fizeram um agente de IA executar código malicioso ao detectar um gatilho oculto."
+    },
+    {
+      "published_at": "2026-11-15T21:49:27+00:00",
+      "story_id": "27199b7d2dc18518",
+      "title": "Hugging Face reduz espaço de busca por IA sem perder precisão",
+      "summary": "Nova técnica de treinamento, batizada de pooling-aware training, comprime até quatro vezes as representações usadas em busca com inteligência artificial e mantém quase toda a precisão, segundo a empresa."
+    },
+    {
+      "published_at": "2026-11-15T15:46:14+00:00",
+      "story_id": "0cc52a290007e6e6",
+      "title": "Amazon lança Mitra-v2, modelo aberto para dados em tabelas",
+      "summary": "Segunda versão do modelo de fundação para tabelas tem pesos abertos no Hugging Face e já é usada internamente pela empresa."
+    },
+    {
+      "published_at": "2026-11-14T21:53:50+00:00",
+      "story_id": "b31d4dd67f51d1ed",
+      "title": "Hugging Face passa a aceitar cobrança pela conta do Google Cloud",
+      "summary": "Organizações podem ligar a conta da Hugging Face ao Google Cloud e pagar pelo uso sem cartão de crédito, segundo a própria empresa."
+    },
+    {
+      "published_at": "2026-11-14T21:53:49+00:00",
+      "story_id": "49383ec5adfbe044",
+      "title": "Falha global tira Copilot e Outlook do ar por mais de 24 horas",
+      "summary": "Microsoft diz que a causa foi um problema técnico na rede, sem relação com ataques ou agentes de IA, segundo El País e Xataka."
+    },
+    {
+      "published_at": "2026-11-14T15:51:21+00:00",
+      "story_id": "b2806ef04b9c1899",
+      "title": "Funcionários da Nvidia pedem volta de Jensen Huang ao cargo de CEO",
+      "summary": "Pedidos feitos por canais internos citam falta de transparência sobre a renúncia do executivo, segundo a Canaltech e o Tecmundo."
+    },
+    {
+      "published_at": "2026-11-13T21:46:32+00:00",
+      "story_id": "ef37be8d170c9fa6",
+      "title": "OpenAI lança carteira para agentes de IA comprarem por você",
+      "summary": "ChatGPT Wallet deixa os agentes Dots fazerem compras com cartão, mas só para assinantes Pro nos EUA."
+    },
+    {
+      "published_at": "2026-11-13T15:55:02+00:00",
+      "story_id": "7b9a95a9f2211b1d",
+      "title": "Trump sugere Tim Cook, da Apple, como novo CEO da Nvidia",
+      "summary": "Presidente dos EUA publicou a indicação no Truth Social horas depois da renúncia de Jensen Huang, segundo a TechCrunch e a Hipertextual."
+    },
+    {
+      "published_at": "2026-11-13T15:55:01+00:00",
+      "story_id": "dc113c78b00a2c49",
+      "title": "Huang concorda em depor ao Congresso dos EUA antes de sair da Nvidia",
+      "summary": "Ex-CEO aceitou a audiência fechada horas antes de deixar o cargo, sob ameaça de intimação, segundo o Engadget e a TechCrunch."
+    },
+    {
+      "published_at": "2026-11-13T10:52:26+00:00",
+      "story_id": "9e32c5265739de00",
+      "title": "Google atualiza a busca com o novo modelo Gemini 4 Hydrogen",
+      "summary": "O modelo, voltado para tarefas rápidas de agentes de IA, já está em todo o mundo no Google Search, segundo a Google e a SiliconANGLE."
+    },
+    {
+      "published_at": "2026-11-12T15:46:24+00:00",
+      "story_id": "3e7737ed59d27ef3",
+      "title": "Jensen Huang renuncia ao cargo de CEO da Nvidia após dois casos",
+      "summary": "Colette Kress assume interinamente a maior fornecedora de chips de IA do mundo, após a revelação de dois casos extraconjugais do executivo em poucos dias."
+    },
+    {
+      "published_at": "2026-11-12T10:51:21+00:00",
+      "story_id": "de637e5d72d7ff58",
+      "title": "Conselho da Nvidia se reúne para decidir se demite Huang",
+      "summary": "Reunião ocorre após o New York Times revelar um segundo caso extraconjugal do executivo-chefe, agora com uma executiva da própria empresa."
+    },
+    {
+      "published_at": "2026-11-12T10:51:20+00:00",
+      "story_id": "62a73125fa63e341",
+      "title": "ChatGPT lança agentes de empresas verificados, só nos EUA",
+      "summary": "Business Agents permitem conversar com representantes de marcas dentro do ChatGPT; recurso está em testes e vale só para negócios dos Estados Unidos."
+    },
+    {
+      "published_at": "2026-11-11T21:46:10+00:00",
+      "story_id": "c2fe687464dbc76f",
+      "title": "Falha no Grok Build, da SpaceXSI, expõe dados de milhares de usuários",
+      "summary": "Pesquisadores encontraram mais de 35 mil aplicativos abertos ao público por um problema no desenho dos links de compartilhamento da ferramenta."
+    },
+    {
+      "published_at": "2026-11-11T15:50:00+00:00",
+      "story_id": "f756ba3880b87445",
+      "title": "DeepMind usa IA para provar matematicamente que o protocolo do Signal é seguro",
+      "summary": "Pesquisadores do Google usaram agentes de IA para verificar formalmente partes da criptografia que protege o Signal, o WhatsApp e o Google Messages, segundo a Wired e a ZDNet."
+    },
+    {
+      "published_at": "2026-11-11T15:49:59+00:00",
+      "story_id": "af061ba32e0feceb",
+      "title": "Anthropic reduz meta do IPO para US$ 1,4 tri, mas leva US$ 26 bi de gigantes",
+      "summary": "Google, Nvidia, AMD, Broadcom, Micron, Microsoft e TSMC Partners vão comprar ações da Anthropic fora da oferta pública, segundo a Fortune e a Business Insider."
+    },
+    {
+      "published_at": "2026-11-11T10:48:45+00:00",
+      "story_id": "2b18305234f28e48",
+      "title": "Anthropic inicia roadshow do IPO e mira a Nasdaq como \"ANT\"",
+      "summary": "Empresa oferece 825 milhões de ações Classe A entre US$ 70 e US$ 78 cada, segundo comunicado próprio e a SiliconANGLE."
+    },
+    {
+      "published_at": "2026-11-10T22:03:14+00:00",
+      "story_id": "72e8863663941e26",
+      "title": "Trump confirma que FBI investiga caso de Huang; Nvidia é processada",
+      "summary": "Presidente defendeu o executivo-chefe da Nvidia após caso extraconjugal com suposta espiã chinesa, enquanto acionistas processam a empresa por declarações enganosas."
+    },
+    {
+      "published_at": "2026-11-10T22:03:13+00:00",
+      "story_id": "6eb766304836d04a",
+      "title": "Google libera Gemini 4 Carbon para uso geral e lança o /swarm",
+      "summary": "O modelo mais forte do Google deixa de ser restrito a testes de cibersegurança e ganha recurso que coordena vários agentes de IA ao mesmo tempo, segundo a DeepMind."
+    },
+    {
+      "published_at": "2026-11-10T10:53:59+00:00",
+      "story_id": "8eec88b0f108c945",
+      "title": "Google lança chips TPU 8tx e 8i Max para agentes de IA",
+      "summary": "Os novos aceleradores miram segurança de dados e memória para contextos maiores, segundo a Canaltech e a TecMundo."
+    },
+    {
+      "published_at": "2026-11-10T10:53:58+00:00",
+      "story_id": "38b1e2548ec458ed",
+      "title": "Anthropic lança Claude Fable 5.2 e Mythos 5.2, mais baratos",
+      "summary": "Novos modelos custam 20% menos que o GPT-6 Astra da OpenAI e já estão na AWS, no Google Cloud e na Azure, segundo a Anthropic e a Fortune."
+    }
   ]
 }
