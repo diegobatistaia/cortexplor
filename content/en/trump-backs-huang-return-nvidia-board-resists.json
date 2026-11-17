@@ -7,36 +7,121 @@
   "meta_description": "Trump told reporters he would support Jensen Huang's return as Nvidia CEO, but the company's board is not considering reinstating him, Guardian and CNBC report.",
   "keyword": "Jensen Huang Nvidia",
   "category": "mercado",
-  "tags": ["ai", "nvidia", "jensen-huang", "trump", "market"],
+  "tags": [
+    "ai",
+    "nvidia",
+    "jensen-huang",
+    "trump",
+    "market"
+  ],
   "body": [
-    {"type": "p", "text": "US President Donald Trump told reporters, ahead of a trip to Asia, that he would not oppose Jensen Huang's return to lead Nvidia, according to the Guardian. \"I certainly wouldn't mind seeing that. He could return,\" Trump said, pointing to a \"big group\" of people pushing for the former executive's reinstatement. CNBC separately reported that Trump said he is open to Huang coming back.", "items": []},
-    {"type": "p", "text": "Nvidia's board, however, is not considering bringing Huang back, according to a person familiar with the matter cited by CNBC. The outlet reports the board is focused on its investigation into Huang's conduct and is not in talks to reinstate him. TechRadar, citing a separate Financial Times report, reached the same conclusion through its own sources.", "items": []},
-    {"type": "h2", "text": "The investigation blocking a comeback", "items": []},
-    {"type": "p", "text": "Nvidia hired law firm Wachtell Lipton to investigate Huang's conduct and determine whether it compromised company secrets or national security, according to CNBC. Huang resigned on November 12 after 33 years running the company he co-founded, following reports of extramarital relationships, including one with a woman described in reporting as having a possible link to Chinese intelligence. Chief financial officer Colette Kress took over as interim CEO.", "items": []},
-    {"type": "h2", "text": "A shift in Trump's tone", "items": []},
-    {"type": "p", "text": "The show of support marks a reversal from Trump's earlier public stance. Days before, as Cortexplor reported, Trump had floated Apple's Tim Cook as a possible replacement for Huang. Now, according to the Guardian, Trump downplayed the espionage allegations against the woman involved: \"Nobody's proven that she is a spy. She may not be a spy,\" he said.", "items": []},
-    {"type": "p", "text": "Despite the president's support, financial analysts remain skeptical about a Huang comeback. Dan Ives, an analyst at Yorkville Ives, told the Guardian he sees \"no chance\" of Huang returning to the role and described the petition as \"noise and distraction,\" arguing Nvidia is better off keeping Kress or hiring an external executive. According to MIT Technology Review, US Treasury Secretary Scott Bessent had already argued that Nvidia should look for a replacement from outside the company.", "items": []},
-    {"type": "h2", "text": "The search for a permanent successor", "items": []},
-    {"type": "p", "text": "Nvidia said on Friday it was selecting a search firm for the CEO role, according to CNBC. TechRadar, citing the Financial Times, reports that one of the candidates already approached is Rene Haas, Arm's current CEO and a former Nvidia executive. The outlet also mentions, attributing the idea to Business Insider, the possibility of splitting the role between two executives — Kress leading finance and Ian Buck, Nvidia's vice president of hyperscale and high-performance computing, leading products.", "items": []},
-    {"type": "h2", "text": "Petition and market reaction", "items": []},
-    {"type": "p", "text": "A petition calling for Huang's reinstatement, which has topped 170,000 signatures and counts Elon Musk among its backers, is still circulating among tech executives, as Cortexplor has reported. Nvidia shares fell 4.1% on Monday, according to the Guardian, wiping out about $160 billion in market value and dragging the company's valuation to $3.76 trillion — a decline also recorded by CNBC, which put the drop at 4.12% in the same session. The slide extended a rout that began last week, when Huang's resignation first rattled investors, according to CNBC.", "items": []},
-    {"type": "p", "text": "The episode unfolds as Nvidia remains the world's most valuable AI chipmaker, a position Huang built over his 33 years running the company. Whether the board ultimately keeps Kress, hires Haas, or settles on a co-CEO arrangement, the search is playing out in public view, with Trump's comments adding political weight to a decision the company has said will weigh both internal and external candidates, according to CNBC.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Nvidia's board hired law firm Wachtell Lipton to investigate Huang's conduct before discussing any return.",
-      "Trump switched to backing Huang's reinstatement days after floating Tim Cook as a replacement.",
-      "The company remains under interim CEO Colette Kress, Nvidia's former chief financial officer.",
-      "Nvidia shares fell about 4.1% on Monday, according to the Guardian and CNBC, as the board keeps its leadership search open."
-    ]}
+    {
+      "type": "p",
+      "text": "US President Donald Trump told reporters, ahead of a trip to Asia, that he would not oppose Jensen Huang's return to lead Nvidia, according to the Guardian. \"I certainly wouldn't mind seeing that. He could return,\" Trump said, pointing to a \"big group\" of people pushing for the former executive's reinstatement. CNBC separately reported that Trump said he is open to Huang coming back.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia's board, however, is not considering bringing Huang back, according to a person familiar with the matter cited by CNBC. The outlet reports the board is focused on its investigation into Huang's conduct and is not in talks to reinstate him. TechRadar, citing a separate Financial Times report, reached the same conclusion through its own sources.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The investigation blocking a comeback",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia hired law firm Wachtell Lipton to investigate Huang's conduct and determine whether it compromised company secrets or national security, according to CNBC. Huang resigned on November 12 after 33 years running the company he co-founded, following reports of extramarital relationships, including one with a woman described in reporting as having a possible link to Chinese intelligence. Chief financial officer Colette Kress took over as interim CEO.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A shift in Trump's tone",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The show of support marks a reversal from Trump's earlier public stance. Days before, as Cortexplor reported, Trump had floated Apple's Tim Cook as a possible replacement for Huang. Now, according to the Guardian, Trump downplayed the espionage allegations against the woman involved: \"Nobody's proven that she is a spy. She may not be a spy,\" he said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Despite the president's support, financial analysts remain skeptical about a Huang comeback. Dan Ives, an analyst at Yorkville Ives, told the Guardian he sees \"no chance\" of Huang returning to the role and described the petition as \"noise and distraction,\" arguing Nvidia is better off keeping Kress or hiring an external executive. According to MIT Technology Review, US Treasury Secretary Scott Bessent had already argued that Nvidia should look for a replacement from outside the company.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The search for a permanent successor",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia said on Friday it was selecting a search firm for the CEO role, according to CNBC. TechRadar, citing the Financial Times, reports that one of the candidates already approached is Rene Haas, Arm's current CEO and a former Nvidia executive. The outlet also mentions, attributing the idea to Business Insider, the possibility of splitting the role between two executives — Kress leading finance and Ian Buck, Nvidia's vice president of hyperscale and high-performance computing, leading products.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Petition and market reaction",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A petition calling for Huang's reinstatement, which has topped 170,000 signatures and counts Elon Musk among its backers, is still circulating among tech executives, as Cortexplor has reported. Nvidia shares fell 4.1% on Monday, according to the Guardian, wiping out about $160 billion in market value and dragging the company's valuation to $3.76 trillion — a decline also recorded by CNBC, which put the drop at 4.12% in the same session. The slide extended a rout that began last week, when Huang's resignation first rattled investors, according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The episode unfolds as Nvidia remains the world's most valuable AI chipmaker, a position Huang built over his 33 years running the company. Whether the board ultimately keeps Kress, hires Haas, or settles on a co-CEO arrangement, the search is playing out in public view, with Trump's comments adding political weight to a decision the company has said will weigh both internal and external candidates, according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Nvidia's board hired law firm Wachtell Lipton to investigate Huang's conduct before discussing any return.",
+        "Trump switched to backing Huang's reinstatement days after floating Tim Cook as a replacement.",
+        "The company remains under interim CEO Colette Kress, Nvidia's former chief financial officer.",
+        "Nvidia shares fell about 4.1% on Monday, according to the Guardian and CNBC, as the board keeps its leadership search open."
+      ]
+    }
   ],
   "image": {
     "query": "nvidia jensen huang ceo boardroom corporate",
-    "alt": "Corporate office building representing a technology company headquarters"
+    "alt": "Corporate office building representing a technology company headquarters",
+    "path": "/assets/img/trump-backs-huang-return-nvidia-board-re-66094cdd.jpg",
+    "credit": "BoliviaInteligente / Unsplash",
+    "author": "BoliviaInteligente",
+    "author_url": "https://unsplash.com/@boliviainteligente?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/logo-1GOYDLM_jcg"
   },
   "sources": [
-    {"name": "Guardian", "owner": "guardian", "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo", "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO"},
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html", "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/computing/gpu/nvidias-board-reportedly-not-considering-reinstating-jensen-huang-despite-growing-support-for-the-ex-ceo-with-trump-saying-having-him-return-certainly-isnt-a-bad-idea", "title": "Nvidia's board reportedly won't consider reinstating Jensen Huang"}
+    {
+      "name": "Guardian",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+      "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/computing/gpu/nvidias-board-reportedly-not-considering-reinstating-jensen-huang-despite-growing-support-for-the-ex-ceo-with-trump-saying-having-him-return-certainly-isnt-a-bad-idea",
+      "title": "Nvidia's board reportedly won't consider reinstating Jensen Huang"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-17T15:48:06+00:00",
+  "updated_at": "2026-11-17T15:48:06+00:00"
 }
