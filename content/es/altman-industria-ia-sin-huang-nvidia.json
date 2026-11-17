@@ -7,33 +7,104 @@
   "meta_description": "Sam Altman, CEO de OpenAI, dijo que la industria de IA estará bien sin Jensen Huang en Nvidia, pero evitó decir si el fundador debería volver al cargo.",
   "keyword": "Sam Altman Jensen Huang Nvidia",
   "category": "mercado",
-  "tags": ["ia", "openai", "nvidia", "mercado"],
+  "tags": [
+    "ia",
+    "openai",
+    "nvidia",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Sam Altman, CEO de OpenAI, comentó públicamente por primera vez la salida de Jensen Huang del mando de Nvidia este lunes (16 de noviembre), durante el evento Semafor's Silicon Valley & The World, según TechCrunch y Olhar Digital. Al ser preguntado si Huang debería volver al cargo de consejero delegado, Altman respondió: \"No creo que sepa lo suficiente para responder esa pregunta.\"", "items": []},
-    {"type": "p", "text": "Huang renunció a Nvidia el jueves anterior (12 de noviembre), tras admitir una relación extramatrimonial con una mujer sospechosa de espiar para China, como <a href=\"https://cortexplor.com/es/jensen-huang-renuncia-ceo-nvidia-escandalo/\">Cortexplor informó</a> en su momento. Desde entonces, un grupo de ejecutivos tecnológicos, entre ellos Elon Musk, firma una petición que pide la reincorporación del fundador, como también <a href=\"https://cortexplor.com/es/peticion-reincorporar-jensen-huang-crece/\">contó Cortexplor</a>.", "items": []},
-    {"type": "p", "text": "Según TechCrunch y Olhar Digital, Altman dijo creer que la industria de inteligencia artificial \"estará bien\" sin Huang al frente del fabricante de chips. Atribuyó esa evaluación a la fuerza de la demanda de IA: según él, los ingresos y la demanda crecen tan rápido que el sector seguirá expandiéndose sin importar quién dirija Nvidia.", "items": []},
-    {"type": "p", "text": "Aun así, el consejero delegado de OpenAI reconoció el peso de Huang para el avance de la industria. De acuerdo con ambas publicaciones, Altman destacó la \"ambición\" del ejecutivo como un factor relevante para impulsar el sector en los últimos años, aunque evitó decir si debería volver al mando de Nvidia.", "items": []},
-    {"type": "h2", "text": "Lo que está en juego en la relación entre OpenAI y Nvidia", "items": []},
-    {"type": "p", "text": "La opinión de Altman tiene peso porque OpenAI depende financieramente de Nvidia. Según TechCrunch y Olhar Digital, el fabricante de chips acordó ofrecer una garantía de hasta 105.000 millones de dólares para respaldar el proyecto de centro de datos de OpenAI en Ohio, uno de los varios acuerdos en los que Nvidia ayuda a financiar a empresas que compran sus propios chips.", "items": []},
-    {"type": "p", "text": "Preguntado si la salida de Huang podría afectar ese tipo de financiamiento, Altman dijo no estar preocupado. Según ambas fuentes, describió a Nvidia como una empresa \"gigantesca\" y afirmó que el mercado sigue confiando en las garantías del fabricante de chips, incluso sin su fundador al mando.", "items": []},
-    {"type": "p", "text": "La evaluación optimista de Altman contrasta con un temor presente en parte del mercado tecnológico: según TechCrunch y Olhar Digital, hay quienes temen que la salida de Huang lleve a Nvidia a reconsiderar los riesgos financieros que asumió para sostener la expansión de infraestructura de IA, justamente los acuerdos de financiamiento cruzado que benefician a clientes como OpenAI.", "items": []},
-    {"type": "p", "text": "Para Altman, la importancia de Huang en el crecimiento del sector no está en discusión, pero eso no significa que el avance de la inteligencia artificial dependa de que él permanezca al mando de una sola empresa. Esa fue la distinción que evitó resolver públicamente cuando le preguntaron sobre un posible regreso del fundador a Nvidia.", "items": []},
-    {"type": "p", "text": "La propia Nvidia sigue sin un consejero delegado definitivo. La directora financiera Colette Kress ocupa el cargo de forma interina desde la renuncia de Huang, mientras la junta directiva evalúa candidatos internos y externos para la sucesión, como informó Cortexplor en su momento.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quién habló: Sam Altman, CEO de OpenAI, en el evento Semafor's Silicon Valley & The World, el 16 de noviembre — su primera declaración pública sobre el caso.",
-      "Qué dijo: la industria de IA \"estará bien\" sin Huang en Nvidia; sobre un posible regreso del fundador, dijo no saber lo suficiente para opinar.",
-      "Vínculo financiero citado: garantía de hasta 105.000 millones de dólares de Nvidia para el centro de datos de OpenAI en Ohio, según TechCrunch y Olhar Digital.",
-      "Contexto: Huang renunció el 12 de noviembre; una petición por su regreso ya sumaba más de 165.000 firmas en los días siguientes, según Cortexplor."
-    ]}
+    {
+      "type": "p",
+      "text": "Sam Altman, CEO de OpenAI, comentó públicamente por primera vez la salida de Jensen Huang del mando de Nvidia este lunes (16 de noviembre), durante el evento Semafor's Silicon Valley & The World, según TechCrunch y Olhar Digital. Al ser preguntado si Huang debería volver al cargo de consejero delegado, Altman respondió: \"No creo que sepa lo suficiente para responder esa pregunta.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Huang renunció a Nvidia el jueves anterior (12 de noviembre), tras admitir una relación extramatrimonial con una mujer sospechosa de espiar para China, como <a href=\"https://cortexplor.com/es/jensen-huang-renuncia-ceo-nvidia-escandalo/\">Cortexplor informó</a> en su momento. Desde entonces, un grupo de ejecutivos tecnológicos, entre ellos Elon Musk, firma una petición que pide la reincorporación del fundador, como también <a href=\"https://cortexplor.com/es/peticion-reincorporar-jensen-huang-crece/\">contó Cortexplor</a>.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch y Olhar Digital, Altman dijo creer que la industria de inteligencia artificial \"estará bien\" sin Huang al frente del fabricante de chips. Atribuyó esa evaluación a la fuerza de la demanda de IA: según él, los ingresos y la demanda crecen tan rápido que el sector seguirá expandiéndose sin importar quién dirija Nvidia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Aun así, el consejero delegado de OpenAI reconoció el peso de Huang para el avance de la industria. De acuerdo con ambas publicaciones, Altman destacó la \"ambición\" del ejecutivo como un factor relevante para impulsar el sector en los últimos años, aunque evitó decir si debería volver al mando de Nvidia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Lo que está en juego en la relación entre OpenAI y Nvidia",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La opinión de Altman tiene peso porque OpenAI depende financieramente de Nvidia. Según TechCrunch y Olhar Digital, el fabricante de chips acordó ofrecer una garantía de hasta 105.000 millones de dólares para respaldar el proyecto de centro de datos de OpenAI en Ohio, uno de los varios acuerdos en los que Nvidia ayuda a financiar a empresas que compran sus propios chips.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Preguntado si la salida de Huang podría afectar ese tipo de financiamiento, Altman dijo no estar preocupado. Según ambas fuentes, describió a Nvidia como una empresa \"gigantesca\" y afirmó que el mercado sigue confiando en las garantías del fabricante de chips, incluso sin su fundador al mando.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La evaluación optimista de Altman contrasta con un temor presente en parte del mercado tecnológico: según TechCrunch y Olhar Digital, hay quienes temen que la salida de Huang lleve a Nvidia a reconsiderar los riesgos financieros que asumió para sostener la expansión de infraestructura de IA, justamente los acuerdos de financiamiento cruzado que benefician a clientes como OpenAI.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para Altman, la importancia de Huang en el crecimiento del sector no está en discusión, pero eso no significa que el avance de la inteligencia artificial dependa de que él permanezca al mando de una sola empresa. Esa fue la distinción que evitó resolver públicamente cuando le preguntaron sobre un posible regreso del fundador a Nvidia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La propia Nvidia sigue sin un consejero delegado definitivo. La directora financiera Colette Kress ocupa el cargo de forma interina desde la renuncia de Huang, mientras la junta directiva evalúa candidatos internos y externos para la sucesión, como informó Cortexplor en su momento.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién habló: Sam Altman, CEO de OpenAI, en el evento Semafor's Silicon Valley & The World, el 16 de noviembre — su primera declaración pública sobre el caso.",
+        "Qué dijo: la industria de IA \"estará bien\" sin Huang en Nvidia; sobre un posible regreso del fundador, dijo no saber lo suficiente para opinar.",
+        "Vínculo financiero citado: garantía de hasta 105.000 millones de dólares de Nvidia para el centro de datos de OpenAI en Ohio, según TechCrunch y Olhar Digital.",
+        "Contexto: Huang renunció el 12 de noviembre; una petición por su regreso ya sumaba más de 165.000 firmas en los días siguientes, según Cortexplor."
+      ]
+    }
   ],
   "image": {
     "query": "technology executive speaking conference stage",
-    "alt": "Ejecutivo de tecnología hablando ante un micrófono en un evento del sector"
+    "alt": "Ejecutivo de tecnología hablando ante un micrófono en un evento del sector",
+    "path": "/assets/img/altman-industria-ia-sin-huang-nvidia-d9fe5c37.jpg",
+    "credit": "BoliviaInteligente / Unsplash",
+    "author": "BoliviaInteligente",
+    "author_url": "https://unsplash.com/@boliviainteligente?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/chatgpt-atlas-logo-displayed-on-a-large-curved-screen-JsiYMHo8f_E"
   },
   "sources": [
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/", "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’"},
-    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/11/16/inteligencia-artificial/sam-altman-diz-que-industria-de-ia-ficara-bem-sem-jensen-huang-na-nvidia/", "title": "Sam Altman diz que indústria de IA ficará bem sem Jensen Huang na Nvidia"}
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/11/16/inteligencia-artificial/sam-altman-diz-que-industria-de-ia-ficara-bem-sem-jensen-huang-na-nvidia/",
+      "title": "Sam Altman diz que indústria de IA ficará bem sem Jensen Huang na Nvidia"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-17T10:52:52+00:00",
+  "updated_at": "2026-11-17T10:52:52+00:00"
 }

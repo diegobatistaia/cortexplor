@@ -7,34 +7,100 @@
   "meta_description": "Microsoft lanzó TokenEconomizer, plugin de código abierto que reduce hasta 31% el costo de agentes de código con IA sin perder desempeño, según la empresa.",
   "keyword": "TokenEconomizer Microsoft agentes de código",
   "category": "aplicacoes",
-  "tags": ["ia", "microsoft", "agentes-de-ia", "codigo-abierto"],
+  "tags": [
+    "ia",
+    "microsoft",
+    "agentes-de-ia",
+    "codigo-abierto"
+  ],
   "body": [
-    {"type": "p", "text": "Microsoft lanzó TokenEconomizer, un plugin de código abierto que reduce el costo de usar agentes de inteligencia artificial para programación sin cambiar el agente ni el modelo que lo impulsa, según Microsoft Research. La herramienta se desarrolló junto con investigadores de la Universidad de California en Berkeley y el propio equipo de seguridad de Microsoft.", "items": []},
-    {"type": "p", "text": "Según la empresa, el problema que ataca la herramienta es la repetición: en cada tarea, un agente de código vuelve a descubrir cómo ejecutar las pruebas de un repositorio, carga herramientas que nunca usa o gasta decenas de turnos revisando el mismo error, y cada una de esas interacciones consume tokens, las unidades de texto que procesan y cobran los modelos de lenguaje.", "items": []},
-    {"type": "h2", "text": "Cómo funciona", "items": []},
-    {"type": "p", "text": "Según Microsoft, TokenEconomizer lee el registro de cada sesión concluida en un repositorio y actualiza lo que ya aprendió sobre él, actuando de tres formas. Primero, crea notas breves, llamadas micro-skills, sobre particularidades del repositorio, que solo entran al contexto inicial del agente después de confirmarse en varias sesiones, y se retiran si deja de cumplirse. Segundo, quita del agente herramientas que el historial del repositorio sugiere que rara vez usa, aunque pueden restaurarse si es necesario.", "items": []},
-    {"type": "p", "text": "Tercero, la herramienta vigila cuando el agente se atasca repitiendo el mismo error: un modelo evaluador decide si realmente está estancado y, de ser así, sugiere otro enfoque, y en el plugin de código abierto avisa al desarrollador en lugar de detener el trabajo por su cuenta, según Microsoft.", "items": []},
-    {"type": "h2", "text": "Resultados en las pruebas", "items": []},
-    {"type": "p", "text": "Microsoft evaluó la herramienta en 277 tareas del SWE-Bench, un banco de pruebas con correcciones reales de errores en proyectos de código abierto en Python, con cinco combinaciones distintas de agentes y modelos en seis repositorios. Según la empresa, TokenEconomizer redujo el costo promedio entre 18,4% y 30,9%, con ahorro en los 30 pares de repositorio y configuración probados, sin pérdida de desempeño. A modo de comparación, Microsoft dice que reducir el esfuerzo de razonamiento del modelo ahorró cifras similares o mayores, pero empeoró bastante el desempeño.", "items": []},
-    {"type": "p", "text": "La empresa afirma además que el ahorro aumenta con el tiempo: el costo acumulado quedó por debajo del valor estándar a partir de la sexta tarea en todos los repositorios probados. En tareas de desarrollo web secuencial, la reducción de costo fue de entre 16% y 21,2%; en tareas de auditoría de seguridad, donde cada tarea parte de un repositorio nuevo, de entre 6,4% y 19,6%, según Microsoft.", "items": []},
-    {"type": "p", "text": "Microsoft también comparó el TokenEconomizer con tres plugins de código abierto ya populares, cada uno construido alrededor de una estrategia fija de ahorro. Según la empresa, cada uno de esos plugins redujo costos en algunos repositorios, pero no en otros, lo que para Microsoft demuestra que un control de costos eficaz tiene que adaptarse a cada repositorio en lugar de aplicar la misma receta en todos los casos. En cada repositorio probado, TokenEconomizer partió sin ningún historial de sesiones previas, y las cifras de ahorro ya descuentan el costo de las propias llamadas de modelo que la herramienta hace para funcionar, según la empresa.", "items": []},
-    {"type": "p", "text": "Cada uno de los tres mecanismos ahorra dinero por su cuenta, pero Microsoft dice que combinar los tres produce la mayor reducción de costo. Antes de desarrollar la herramienta, el equipo evaluó Claude Code en 60 tareas del SWE-Bench, ejecutadas en secuencia dentro de cada repositorio, e identificó un patrón recurrente de desperdicio de tokens que sirvió de base para el proyecto, según la empresa.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Qué es: TokenEconomizer, plugin de código abierto que reduce el costo de agentes de codificación con IA sin cambiar el agente ni el modelo, según Microsoft.",
-      "Quién puede usarlo: cualquier desarrollador que ya use un agente de código, como Claude Code, junto con los repositorios en los que trabaja.",
-      "Cuánto cuesta: gratuito; Microsoft dice que la herramienta no requiere clave de API propia y mantiene lo que aprende en la máquina del desarrollador.",
-      "Qué cambia: ahorro promedio de 18,4% a 30,9% en 277 tareas de prueba, que crece con el uso, según la empresa, sin pérdida de desempeño medida en las pruebas.",
-      "Quién la desarrolló: investigadores de la Universidad de California en Berkeley, Microsoft Research y Microsoft Security."
-    ]}
+    {
+      "type": "p",
+      "text": "Microsoft lanzó TokenEconomizer, un plugin de código abierto que reduce el costo de usar agentes de inteligencia artificial para programación sin cambiar el agente ni el modelo que lo impulsa, según Microsoft Research. La herramienta se desarrolló junto con investigadores de la Universidad de California en Berkeley y el propio equipo de seguridad de Microsoft.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según la empresa, el problema que ataca la herramienta es la repetición: en cada tarea, un agente de código vuelve a descubrir cómo ejecutar las pruebas de un repositorio, carga herramientas que nunca usa o gasta decenas de turnos revisando el mismo error, y cada una de esas interacciones consume tokens, las unidades de texto que procesan y cobran los modelos de lenguaje.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Cómo funciona",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Microsoft, TokenEconomizer lee el registro de cada sesión concluida en un repositorio y actualiza lo que ya aprendió sobre él, actuando de tres formas. Primero, crea notas breves, llamadas micro-skills, sobre particularidades del repositorio, que solo entran al contexto inicial del agente después de confirmarse en varias sesiones, y se retiran si deja de cumplirse. Segundo, quita del agente herramientas que el historial del repositorio sugiere que rara vez usa, aunque pueden restaurarse si es necesario.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Tercero, la herramienta vigila cuando el agente se atasca repitiendo el mismo error: un modelo evaluador decide si realmente está estancado y, de ser así, sugiere otro enfoque, y en el plugin de código abierto avisa al desarrollador en lugar de detener el trabajo por su cuenta, según Microsoft.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resultados en las pruebas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft evaluó la herramienta en 277 tareas del SWE-Bench, un banco de pruebas con correcciones reales de errores en proyectos de código abierto en Python, con cinco combinaciones distintas de agentes y modelos en seis repositorios. Según la empresa, TokenEconomizer redujo el costo promedio entre 18,4% y 30,9%, con ahorro en los 30 pares de repositorio y configuración probados, sin pérdida de desempeño. A modo de comparación, Microsoft dice que reducir el esfuerzo de razonamiento del modelo ahorró cifras similares o mayores, pero empeoró bastante el desempeño.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa afirma además que el ahorro aumenta con el tiempo: el costo acumulado quedó por debajo del valor estándar a partir de la sexta tarea en todos los repositorios probados. En tareas de desarrollo web secuencial, la reducción de costo fue de entre 16% y 21,2%; en tareas de auditoría de seguridad, donde cada tarea parte de un repositorio nuevo, de entre 6,4% y 19,6%, según Microsoft.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft también comparó el TokenEconomizer con tres plugins de código abierto ya populares, cada uno construido alrededor de una estrategia fija de ahorro. Según la empresa, cada uno de esos plugins redujo costos en algunos repositorios, pero no en otros, lo que para Microsoft demuestra que un control de costos eficaz tiene que adaptarse a cada repositorio en lugar de aplicar la misma receta en todos los casos. En cada repositorio probado, TokenEconomizer partió sin ningún historial de sesiones previas, y las cifras de ahorro ya descuentan el costo de las propias llamadas de modelo que la herramienta hace para funcionar, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Cada uno de los tres mecanismos ahorra dinero por su cuenta, pero Microsoft dice que combinar los tres produce la mayor reducción de costo. Antes de desarrollar la herramienta, el equipo evaluó Claude Code en 60 tareas del SWE-Bench, ejecutadas en secuencia dentro de cada repositorio, e identificó un patrón recurrente de desperdicio de tokens que sirvió de base para el proyecto, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué es: TokenEconomizer, plugin de código abierto que reduce el costo de agentes de codificación con IA sin cambiar el agente ni el modelo, según Microsoft.",
+        "Quién puede usarlo: cualquier desarrollador que ya use un agente de código, como Claude Code, junto con los repositorios en los que trabaja.",
+        "Cuánto cuesta: gratuito; Microsoft dice que la herramienta no requiere clave de API propia y mantiene lo que aprende en la máquina del desarrollador.",
+        "Qué cambia: ahorro promedio de 18,4% a 30,9% en 277 tareas de prueba, que crece con el uso, según la empresa, sin pérdida de desempeño medida en las pruebas.",
+        "Quién la desarrolló: investigadores de la Universidad de California en Berkeley, Microsoft Research y Microsoft Security."
+      ]
+    }
   ],
   "image": {
     "query": "computer code programming screen abstract",
-    "alt": "Pantalla de computadora con código fuente en un editor de programación"
+    "alt": "Pantalla de computadora con código fuente en un editor de programación",
+    "path": "/assets/img/microsoft-tokeneconomizer-reduce-costo-a-a4637ef9.jpg",
+    "credit": "Markus Spiske / Unsplash",
+    "author": "Markus Spiske",
+    "author_url": "https://unsplash.com/@markusspiske?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-coding-screengrab-hvSr_CVecVI"
   },
   "sources": [
-    {"name": "Microsoft Research", "owner": "microsoft", "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/", "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient"}
+    {
+      "name": "Microsoft Research",
+      "owner": "microsoft",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-17T10:52:53+00:00",
+  "updated_at": "2026-11-17T10:52:53+00:00"
 }
