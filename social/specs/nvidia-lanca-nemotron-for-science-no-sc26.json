@@ -1,0 +1,101 @@
+{
+  "slug": "nvidia-lanca-nemotron-for-science-no-sc26",
+  "lang": "pt",
+  "date": "18 nov 2026",
+  "no": 128,
+  "category": "Modelos",
+  "kicker": "Modelos · Nvidia",
+  "headline": "Nvidia lança o modelo aberto Nemotron for Science no SC26",
+  "headline_hl": "Nemotron for Science",
+  "dek": "O modelo roda localmente e mira laboratórios, segundo a Nvidia.",
+  "image": {
+    "path": "assets/img/nvidia-lanca-nemotron-for-science-no-sc2-a805a64a.jpg",
+    "credit": "jesse orrico / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Modelo<br>aberto",
+  "sources": [
+    "NVIDIA",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O lançamento",
+    "body": [
+      "A Nvidia anunciou o Nemotron for Science, modelo aberto para laboratórios de pesquisa, na conferência SC26, segundo a NVIDIA e a SiliconANGLE.",
+      "Ele combina o Nemotron 3.5 Super VL com dados abertos de química (NVIDIA)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a NVIDIA:",
+    "points": [
+      {
+        "h": "Local",
+        "t": "Roda em uma estação DGX Spark ou no PC."
+      },
+      {
+        "h": "Nuvem",
+        "t": "Não depende da nuvem da empresa."
+      },
+      {
+        "h": "Receitas",
+        "t": "Inclui pós-treino para química e vida."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "A universidade KTH relatou que um agente corrigiu 81% de configurações quebradas do GROMACS em uma noite (SiliconANGLE).",
+      "Tudo rodou em apenas uma estação DGX Spark (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "81%",
+      "cap": "de configurações corrigidas (SiliconANGLE)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Rubin HPC",
+        "t": "Nova GPU científica, prevista para 2028 (NVIDIA)."
+      },
+      {
+        "h": "Vera",
+        "t": "O centro DKRZ escolheu CPUs Vera (NVIDIA)."
+      },
+      {
+        "h": "Quântica",
+        "t": "Parceria com IBM e Fermilab (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Nvidia lançou o Nemotron for Science, modelo aberto feito para laboratórios de pesquisa.",
+    "body": [
+      "Segundo a NVIDIA e a SiliconANGLE, o anúncio foi feito no SC26, em Chicago. O modelo combina o Nemotron 3.5 Super VL com um conjunto aberto de dados de química e receitas de pós-treinamento, e pode rodar localmente, sem depender da nuvem da empresa.",
+      "A SiliconANGLE relata que a universidade KTH usou um agente sobre o modelo para corrigir 81% de configurações quebradas do GROMACS em uma noite. A Nvidia também apresentou a GPU Rubin HPC, prevista para 2028, e uma parceria com IBM e Fermilab em computação quântica."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#nemotron",
+      "#ciencia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Nemotron for Science da Nvidia",
+    "Slide 2: Nvidia lança o modelo aberto Nemotron for Science no SC26",
+    "Slide 3: como o modelo roda localmente em laboratórios",
+    "Slide 4: agente da KTH corrige 81% das configurações do GROMACS",
+    "Slide 5: GPU Rubin HPC, CPUs Vera e parceria quântica da Nvidia",
+    "Slide 6: fontes da matéria sobre a Nvidia: NVIDIA e SiliconANGLE"
+  ]
+}

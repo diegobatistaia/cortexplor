@@ -1,0 +1,125 @@
+{
+  "lang": "en",
+  "slug": "nvidia-unveils-nemotron-for-science-sc26",
+  "story_id": "8dd012270a292a37",
+  "title": "Nvidia unveils open Nemotron for Science model at SC26",
+  "dek": "The company also announced a new GPU for scientific research and a quantum computing partnership with IBM and Fermilab.",
+  "meta_description": "Nvidia launched Nemotron for Science, an open model for research, and announced the Rubin HPC GPU and a quantum computing partnership with IBM and Fermilab.",
+  "keyword": "Nemotron for Science",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "nvidia",
+    "models",
+    "quantum-computing"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Nvidia opened its week at the SC26 supercomputing conference in Chicago on Monday by announcing Nemotron for Science, an open model aimed at research labs, according to the company and SiliconANGLE. The announcement was made by Ian Buck, Nvidia's vice president of hyperscale and high-performance computing.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nemotron for Science combines the open Nemotron 3.5 Super VL model with a new open chemistry dataset and post-training recipes for life sciences and chemistry, according to Nvidia. The model can run locally on a DGX Spark workstation, a regular computer or a lab's own supercomputer, without relying on Nvidia's cloud.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to SiliconANGLE, Sweden's KTH Royal Institute of Technology reported that an agent built on Nemotron 3.5 Super VL fixed 81% of broken setups of the GROMACS molecular-dynamics software in a single overnight run, using only a DGX Spark workstation.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "New hardware for science",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia also introduced Rubin HPC, a new GPU in the Vera Rubin platform built for science, engineering, analytics and AI, expected in 2028. According to the company, the chip supports precisions from FP64 to FP4, has more than 50,000 CUDA cores — about three times as many as the Hopper generation — and connects over seventh-generation NVLink.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On the CPU side, Nvidia expanded its Vera platform for high-performance computing. DKRZ, the German Climate Computing Center, selected Vera CPUs for its HLRE-5 supercomputer, expected in early 2028, according to both Nvidia and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Quantum computing partnership",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia announced a new collaboration with IBM and the Fermi National Accelerator Laboratory (Fermilab) for a quantum co-design platform focused on error-correction research, confirmed by both the company and SiliconANGLE. According to Nvidia, the partnership pairs its DGX B200 systems with IBM quantum computers, including those built on the IBM Quantum Nighthawk processor.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The announcement also marked CUDA's 20th anniversary: Buck recalled giving his first public talk on the GPU programming platform two decades ago, at the SC06 conference in Tampa. The company says it now offers more than 1,000 CUDA-X libraries, a point reported by both Nvidia and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Other results disclosed by the company",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Nvidia, internal testing shows the Vera CPU delivers 1.9 times the performance and 2.4 times the performance per watt of x86 chips on an airflow simulation run with the OpenFOAM software. The company also released a beta Fortran compiler, aimed at Vera CPUs, since Fortran still underlies much of the world's scientific code.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia also says its cuPhoton tool cut the time needed to correlate Event Horizon Telescope data on black holes from more than a month to eight minutes, and that it deployed co-packaged optics switches, its NVIDIA Photonics technology, at a Lambda facility — which the company says are 15 times more reliable against bit errors and link flaps.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In quantum computing, Nvidia says a new decoding algorithm called TCBP-JOBS cut the computation time used in error-correction research from 12 weeks to 45 minutes, with a goal of cutting decoding latency from about 300 to 10 microseconds. The company says the work is being added to CUDA-Q, its platform for programming quantum and classical hardware together.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What it is: Nemotron for Science, Nvidia's open model for scientific research, with an open chemistry dataset and open post-training recipes.",
+        "Who can use it and where: any lab or researcher, running the model on a DGX Spark workstation, a regular computer or the institution's own supercomputer.",
+        "Since when: announced on November 16, 2026, at SC26.",
+        "What changes: Nvidia now offers hardware built specifically for science (the Rubin HPC GPU, expected in 2028) alongside its AI-training lineup, and is expanding adoption of Vera CPUs, already chosen by DKRZ."
+      ]
+    }
+  ],
+  "image": {
+    "query": "scientist using supercomputer data center research lab",
+    "alt": "Researcher working with supercomputer data in a laboratory",
+    "path": "/assets/img/nvidia-unveils-nemotron-for-science-sc26-a805a64a.jpg",
+    "credit": "jesse orrico / Unsplash",
+    "author": "jesse orrico",
+    "author_url": "https://unsplash.com/@jessedo81?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/man-holding-black-dslr-camera-RBWDrxW3xog"
+  },
+  "sources": [
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "title": "Ian Buck Kicks Off NVIDIA's Week at SC26 as Science Enters the Age of Agents"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/17/nvidia-at-sc26-agents-are-the-new-scientists-and-they-need-a-lab/",
+      "title": "Nvidia at SC26: Agents are the new scientists, and they need a lab"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-18T10:50:34+00:00",
+  "updated_at": "2026-11-18T10:50:34+00:00"
+}
