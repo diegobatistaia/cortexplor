@@ -7,32 +7,100 @@
   "meta_description": "A Nvidia registrou receita de US$ 115,8 bilhões no terceiro trimestre e o conselho afirmou publicamente que não pretende recolocar Jensen Huang como CEO.",
   "keyword": "Nvidia Jensen Huang",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "jensen huang", "mercado"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen huang",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "A Nvidia registrou receita de US$ 115,8 bilhões no terceiro trimestre fiscal, encerrado em 25 de outubro — alta de 103% sobre o mesmo período do ano passado e de 20% sobre o trimestre anterior —, no primeiro balanço divulgado desde a saída do fundador e ex-CEO Jensen Huang, segundo o Guardian e o Engadget. O resultado superou a previsão dos analistas, de cerca de US$ 109 bilhões. O lucro por ação foi de US$ 2,68, também acima da previsão, de US$ 2,47, segundo o Guardian.", "items": []},
-    {"type": "p", "text": "Durante a teleconferência com investidores nesta terça-feira (17 de novembro), o presidente do conselho da Nvidia, Harvey Jones, afirmou que o colegiado não pretende recolocar Huang no cargo de CEO. Segundo o Engadget e a TechCrunch, Jones disse: \"Em 12 de novembro, nosso conselho de administração anunciou que, após a divulgação de conduta pessoal incompatível com o código de conduta, os padrões e as normas culturais da empresa, Jensen Huang renunciou voluntariamente aos cargos de presidente, CEO e membro do conselho. O conselho da Nvidia aceitou por unanimidade sua renúncia e não pretende recolocar Jensen como CEO.\"", "items": []},
-    {"type": "p", "text": "A declaração respondeu a um pedido do próprio Huang. Horas antes do balanço, o ex-CEO publicou no X que, se o conselho concluir que seu retorno é do interesse dos acionistas, dos funcionários, da empresa e dos Estados Unidos, ele ficaria \"honrado\" em atender aos pedidos e voltar ao cargo, segundo o Guardian, o Engadget e a TechCrunch.", "items": []},
-    {"type": "p", "text": "A diretora financeira Colette Kress, promovida a CEO interina na semana passada, conduziu a teleconferência. Segundo o Guardian e o Engadget, ela disse que a operação da empresa segue \"business as usual\" (funcionamento normal) e que a Nvidia vai cuidar dos funcionários durante a transição. De acordo com o Engadget e a TechCrunch, Jones afirmou que o conselho avalia candidatos internos e externos para o cargo permanente de CEO e que a busca será conduzida com cuidado, sem prazo para ser antecipada. Segundo o Engadget, Jones disse que a indústria vive um momento em que a tecnologia avançada de semicondutores e a dinâmica de segurança nacional estão provocando grandes mudanças no mercado, e que o próximo CEO vai precisar navegar esse cenário \"com muito cuidado\".", "items": []},
-    {"type": "p", "text": "A receita do segmento de data centers, que concentra a maior parte do faturamento da empresa, mais que dobrou, para US$ 107,6 bilhões, segundo o Engadget. Em negociações depois do fechamento do pregão regular, as ações da Nvidia subiram 5%, segundo o Guardian.", "items": []},
-    {"type": "p", "text": "O balanço chega dias depois de a Nvidia perder mais de 10% de valor de mercado — a capitalização caiu para US$ 3,7 trilhões, ante um pico histórico de quase US$ 6 trilhões em outubro, segundo o Guardian. A queda seguiu a renúncia de Huang, em 12 de novembro, após revelações de relações extraconjugais, uma delas com uma mulher apontada por autoridades americanas como possível ligação com a inteligência chinesa, como o Cortexplor já noticiou. Segundo o Guardian, que cita o Wall Street Journal, a Nvidia também enfrenta uma investigação da SEC sobre seus negócios na China.", "items": []},
-    {"type": "p", "text": "Como CEO, Huang chegava a ter cerca de 60 subordinados diretos, o que lhe dava controle sobre a maior parte das funções do dia a dia da empresa, segundo o Guardian. A Nvidia controla hoje cerca de 90% do mercado de chips para inteligência artificial, e empresas como OpenAI, Anthropic e Google dependem dela para treinar seus modelos, segundo o mesmo jornal.", "items": []},
-    {"type": "p", "text": "Jones também destacou os 13 anos de Kress na Nvidia, dizendo que ela esteve \"no centro do crescimento extraordinário da empresa\", segundo o Guardian. Ao fim da teleconferência, segundo o Engadget, Kress resumiu o momento da companhia: \"Nosso impulso é real. Nossa demanda está acelerando. Nossa oferta está crescendo. Nossos clientes e parceiros estão com a gente, e os funcionários estão comprometidos.\"", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem decide: o conselho da Nvidia, por unanimidade, segundo Harvey Jones em teleconferência pública com investidores.",
-      "O que muda: é a primeira confirmação oficial e pública da posição do conselho — até então, a resistência à volta de Huang só havia sido noticiada por fontes anônimas, como o Cortexplor publicou em 17 de novembro.",
-      "Comando atual: Colette Kress segue como CEO interina; a busca por um substituto permanente considera candidatos internos e externos, sem prazo definido.",
-      "Resultado financeiro: receita de US$ 115,8 bilhões no trimestre, alta de 103% ao ano, acima da previsão dos analistas."
-    ]}
+    {
+      "type": "p",
+      "text": "A Nvidia registrou receita de US$ 115,8 bilhões no terceiro trimestre fiscal, encerrado em 25 de outubro — alta de 103% sobre o mesmo período do ano passado e de 20% sobre o trimestre anterior —, no primeiro balanço divulgado desde a saída do fundador e ex-CEO Jensen Huang, segundo o Guardian e o Engadget. O resultado superou a previsão dos analistas, de cerca de US$ 109 bilhões. O lucro por ação foi de US$ 2,68, também acima da previsão, de US$ 2,47, segundo o Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Durante a teleconferência com investidores nesta terça-feira (17 de novembro), o presidente do conselho da Nvidia, Harvey Jones, afirmou que o colegiado não pretende recolocar Huang no cargo de CEO. Segundo o Engadget e a TechCrunch, Jones disse: \"Em 12 de novembro, nosso conselho de administração anunciou que, após a divulgação de conduta pessoal incompatível com o código de conduta, os padrões e as normas culturais da empresa, Jensen Huang renunciou voluntariamente aos cargos de presidente, CEO e membro do conselho. O conselho da Nvidia aceitou por unanimidade sua renúncia e não pretende recolocar Jensen como CEO.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A declaração respondeu a um pedido do próprio Huang. Horas antes do balanço, o ex-CEO publicou no X que, se o conselho concluir que seu retorno é do interesse dos acionistas, dos funcionários, da empresa e dos Estados Unidos, ele ficaria \"honrado\" em atender aos pedidos e voltar ao cargo, segundo o Guardian, o Engadget e a TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A diretora financeira Colette Kress, promovida a CEO interina na semana passada, conduziu a teleconferência. Segundo o Guardian e o Engadget, ela disse que a operação da empresa segue \"business as usual\" (funcionamento normal) e que a Nvidia vai cuidar dos funcionários durante a transição. De acordo com o Engadget e a TechCrunch, Jones afirmou que o conselho avalia candidatos internos e externos para o cargo permanente de CEO e que a busca será conduzida com cuidado, sem prazo para ser antecipada. Segundo o Engadget, Jones disse que a indústria vive um momento em que a tecnologia avançada de semicondutores e a dinâmica de segurança nacional estão provocando grandes mudanças no mercado, e que o próximo CEO vai precisar navegar esse cenário \"com muito cuidado\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A receita do segmento de data centers, que concentra a maior parte do faturamento da empresa, mais que dobrou, para US$ 107,6 bilhões, segundo o Engadget. Em negociações depois do fechamento do pregão regular, as ações da Nvidia subiram 5%, segundo o Guardian.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O balanço chega dias depois de a Nvidia perder mais de 10% de valor de mercado — a capitalização caiu para US$ 3,7 trilhões, ante um pico histórico de quase US$ 6 trilhões em outubro, segundo o Guardian. A queda seguiu a renúncia de Huang, em 12 de novembro, após revelações de relações extraconjugais, uma delas com uma mulher apontada por autoridades americanas como possível ligação com a inteligência chinesa, como o Cortexplor já noticiou. Segundo o Guardian, que cita o Wall Street Journal, a Nvidia também enfrenta uma investigação da SEC sobre seus negócios na China.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Como CEO, Huang chegava a ter cerca de 60 subordinados diretos, o que lhe dava controle sobre a maior parte das funções do dia a dia da empresa, segundo o Guardian. A Nvidia controla hoje cerca de 90% do mercado de chips para inteligência artificial, e empresas como OpenAI, Anthropic e Google dependem dela para treinar seus modelos, segundo o mesmo jornal.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Jones também destacou os 13 anos de Kress na Nvidia, dizendo que ela esteve \"no centro do crescimento extraordinário da empresa\", segundo o Guardian. Ao fim da teleconferência, segundo o Engadget, Kress resumiu o momento da companhia: \"Nosso impulso é real. Nossa demanda está acelerando. Nossa oferta está crescendo. Nossos clientes e parceiros estão com a gente, e os funcionários estão comprometidos.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem decide: o conselho da Nvidia, por unanimidade, segundo Harvey Jones em teleconferência pública com investidores.",
+        "O que muda: é a primeira confirmação oficial e pública da posição do conselho — até então, a resistência à volta de Huang só havia sido noticiada por fontes anônimas, como o Cortexplor publicou em 17 de novembro.",
+        "Comando atual: Colette Kress segue como CEO interina; a busca por um substituto permanente considera candidatos internos e externos, sem prazo definido.",
+        "Resultado financeiro: receita de US$ 115,8 bilhões no trimestre, alta de 103% ao ano, acima da previsão dos analistas."
+      ]
+    }
   ],
   "image": {
     "query": "Nvidia headquarters chip technology",
-    "alt": "Fachada da sede da Nvidia em Santa Clara, na Califórnia"
+    "alt": "Fachada da sede da Nvidia em Santa Clara, na Califórnia",
+    "path": "/assets/img/nvidia-conselho-confirma-nao-recolocar-h-c2dabf9c.jpg",
+    "credit": "Mariia Berezovsky / Unsplash",
+    "author": "Mariia Berezovsky",
+    "author_url": "https://unsplash.com/@mariiaberezovsky?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/the-nvidia-logo-is-displayed-on-a-table-0SqsTxWhgNU"
   },
   "sources": [
-    {"name": "The Guardian", "owner": "guardian", "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang", "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/", "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO"},
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/", "title": "Nvidia says it doesn't plan to reappoint Jensen Huang as CEO"}
+    {
+      "name": "The Guardian",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+      "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/",
+      "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO"
+    },
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "title": "Nvidia says it doesn't plan to reappoint Jensen Huang as CEO"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-18T15:47:48+00:00",
+  "updated_at": "2026-11-18T15:47:48+00:00"
 }
