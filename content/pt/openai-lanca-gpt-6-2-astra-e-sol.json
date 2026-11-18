@@ -7,34 +7,115 @@
   "meta_description": "A OpenAI lançou o GPT-6.2 Astra e o GPT-6.2 Sol, modelos de IA para assinantes dos planos pagos, com desempenho maior e menor custo por tarefa, diz a empresa.",
   "keyword": "GPT-6.2 Astra e Sol",
   "category": "modelos",
-  "tags": ["ia", "openai", "chatgpt", "modelos"],
+  "tags": [
+    "ia",
+    "openai",
+    "chatgpt",
+    "modelos"
+  ],
   "body": [
-    {"type": "p", "text": "A OpenAI lançou nesta terça-feira (17) dois modelos de inteligência artificial: o GPT-6.2 Astra e o GPT-6.2 Sol, segundo o TechRadar, a SiliconANGLE e o TecMundo. O Astra é voltado a projetos profissionais complexos; o Sol, a tarefas do dia a dia.", "items": []},
-    {"type": "p", "text": "Os dois modelos estão disponíveis para assinantes dos planos Plus, Pro, Enterprise e Edu, dentro dos aplicativos ChatGPT Work e Codex. Quem usa a conta gratuita não tem acesso. Desenvolvedores também podem chamar os dois modelos pela API da OpenAI, segundo o TechRadar e a SiliconANGLE. Para contas Enterprise e Edu, o acesso depende de um administrador do ambiente de trabalho habilitar os modelos, segundo a SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Desempenho e custo", "items": []},
-    {"type": "p", "text": "Segundo a OpenAI, o GPT-6.2 Astra pontuou 5,2 pontos acima do antecessor GPT-6 Astra no Agents' Last Exam, um teste que mede tarefas profissionais em várias etapas, usando menos de um terço do custo estimado por tarefa. A empresa também afirma que o modelo terminou 5,5 pontos na frente do Claude Fable 5.2, da Anthropic, a apenas 5% do custo — dados citados pelo TechRadar e pela SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Menos tokens consumidos por tarefa significa gastar menos da cota de uso incluída no plano, ou pagar menos por chamada na API. A OpenAI diz que o GPT-6.2 Astra foi treinado para produzir slides, planilhas e documentos mais próximos dos padrões usados por profissionais de direito, vendas, finanças e contabilidade, com menos conteúdo genérico. Em programação, a empresa afirma que o modelo escreve código mais limpo e exige menos rodadas de revisão, segundo o TecMundo e a SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Para mostrar a nova capacidade, um desenvolvedor da OpenAI recriou a cidade de Paris em escala real, combinando mapas de ruas com dados oficiais franceses de mais de 131 mil edifícios, permitindo caminhar pelas ruas dentro do navegador, segundo o TechRadar. Figurantes digitais caminham pela cena, e quem explora o resultado usa as setas do teclado para se deslocar entre as ruas, afirma o site.", "items": []},
-    {"type": "p", "text": "Segundo a OpenAI, citada pela SiliconANGLE, o GPT-6.2 Astra também pontuou nove pontos percentuais acima do GPT-6 Astra no Terminal-Bench-Science 0.1, um teste de tarefas científicas feitas em linha de comando, e mais do que dobrou a taxa de acerto do Claude Fable 5.2 no Harvey LAB-AA, benchmark de tarefas jurídicas, a cerca de um sexto do custo. A OpenAI também posiciona a nova geração para competir com modelos de alto desempenho de rivais, comparando seus resultados aos do Claude Opus 5.5 e do Gemini 4 Carbon, do Google, segundo o TecMundo.", "items": []},
-    {"type": "h2", "text": "Segurança", "items": []},
-    {"type": "p", "text": "A OpenAI afirma que os dois modelos atingem o nível mais alto de risco em cibersegurança dentro de sua própria estrutura interna de avaliação, o que levou a empresa a aplicar barreiras mais rígidas contra uso malicioso. Segundo a companhia, essas barreiras também podem limitar pesquisas legítimas de segurança — um ponto citado tanto pela SiliconANGLE quanto pelo TecMundo.", "items": []},
-    {"type": "p", "text": "Por isso, os modelos da família GPT-6.2 ainda não estão disponíveis no Daybreak, programa da OpenAI que libera versões com restrições reduzidas para pesquisadores de segurança autorizados. A empresa diz que vai trabalhar para levar o Astra e o Sol a esse programa, segundo o TecMundo e a SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar: assinantes dos planos ChatGPT Plus, Pro, Enterprise e Edu, nos aplicativos ChatGPT Work e Codex, além de desenvolvedores pela API da OpenAI. Não há acesso no plano gratuito.",
-      "Desde quando: 17 de novembro de 2026.",
-      "O que muda: a OpenAI afirma que o Astra supera o GPT-6 Astra com menor custo por tarefa, e o Sol passa a ser o modelo padrão da empresa para o trabalho cotidiano."
-    ]}
+    {
+      "type": "p",
+      "text": "A OpenAI lançou nesta terça-feira (17) dois modelos de inteligência artificial: o GPT-6.2 Astra e o GPT-6.2 Sol, segundo o TechRadar, a SiliconANGLE e o TecMundo. O Astra é voltado a projetos profissionais complexos; o Sol, a tarefas do dia a dia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Os dois modelos estão disponíveis para assinantes dos planos Plus, Pro, Enterprise e Edu, dentro dos aplicativos ChatGPT Work e Codex. Quem usa a conta gratuita não tem acesso. Desenvolvedores também podem chamar os dois modelos pela API da OpenAI, segundo o TechRadar e a SiliconANGLE. Para contas Enterprise e Edu, o acesso depende de um administrador do ambiente de trabalho habilitar os modelos, segundo a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Desempenho e custo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, o GPT-6.2 Astra pontuou 5,2 pontos acima do antecessor GPT-6 Astra no Agents' Last Exam, um teste que mede tarefas profissionais em várias etapas, usando menos de um terço do custo estimado por tarefa. A empresa também afirma que o modelo terminou 5,5 pontos na frente do Claude Fable 5.2, da Anthropic, a apenas 5% do custo — dados citados pelo TechRadar e pela SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Menos tokens consumidos por tarefa significa gastar menos da cota de uso incluída no plano, ou pagar menos por chamada na API. A OpenAI diz que o GPT-6.2 Astra foi treinado para produzir slides, planilhas e documentos mais próximos dos padrões usados por profissionais de direito, vendas, finanças e contabilidade, com menos conteúdo genérico. Em programação, a empresa afirma que o modelo escreve código mais limpo e exige menos rodadas de revisão, segundo o TecMundo e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para mostrar a nova capacidade, um desenvolvedor da OpenAI recriou a cidade de Paris em escala real, combinando mapas de ruas com dados oficiais franceses de mais de 131 mil edifícios, permitindo caminhar pelas ruas dentro do navegador, segundo o TechRadar. Figurantes digitais caminham pela cena, e quem explora o resultado usa as setas do teclado para se deslocar entre as ruas, afirma o site.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, citada pela SiliconANGLE, o GPT-6.2 Astra também pontuou nove pontos percentuais acima do GPT-6 Astra no Terminal-Bench-Science 0.1, um teste de tarefas científicas feitas em linha de comando, e mais do que dobrou a taxa de acerto do Claude Fable 5.2 no Harvey LAB-AA, benchmark de tarefas jurídicas, a cerca de um sexto do custo. A OpenAI também posiciona a nova geração para competir com modelos de alto desempenho de rivais, comparando seus resultados aos do Claude Opus 5.5 e do Gemini 4 Carbon, do Google, segundo o TecMundo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Segurança",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI afirma que os dois modelos atingem o nível mais alto de risco em cibersegurança dentro de sua própria estrutura interna de avaliação, o que levou a empresa a aplicar barreiras mais rígidas contra uso malicioso. Segundo a companhia, essas barreiras também podem limitar pesquisas legítimas de segurança — um ponto citado tanto pela SiliconANGLE quanto pelo TecMundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Por isso, os modelos da família GPT-6.2 ainda não estão disponíveis no Daybreak, programa da OpenAI que libera versões com restrições reduzidas para pesquisadores de segurança autorizados. A empresa diz que vai trabalhar para levar o Astra e o Sol a esse programa, segundo o TecMundo e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: assinantes dos planos ChatGPT Plus, Pro, Enterprise e Edu, nos aplicativos ChatGPT Work e Codex, além de desenvolvedores pela API da OpenAI. Não há acesso no plano gratuito.",
+        "Desde quando: 17 de novembro de 2026.",
+        "O que muda: a OpenAI afirma que o Astra supera o GPT-6 Astra com menor custo por tarefa, e o Sol passa a ser o modelo padrão da empresa para o trabalho cotidiano."
+      ]
+    }
   ],
   "image": {
     "query": "futuristic AI chatbot interface on laptop screen",
-    "alt": "Tela de laptop mostrando interface de um assistente de inteligência artificial"
+    "alt": "Tela de laptop mostrando interface de um assistente de inteligência artificial",
+    "path": "/assets/img/openai-lanca-gpt-6-2-astra-e-sol-521442ac.jpg",
+    "credit": "Levart_Photographer / Unsplash",
+    "author": "Levart_Photographer",
+    "author_url": "https://unsplash.com/@siva_photography?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/chatgpt-interface-with-examples-and-capabilities-drwpcjkvxuU"
   },
   "sources": [
-    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol", "title": "Introducing GPT-6.2 Astra and Sol"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/tech/openai-just-launched-gpt-6-2-and-its-powerful-enough-to-recreate-the-whole-of-paris-as-a-virtual-world-you-can-explore-in-your-browser", "title": "OpenAI just unveiled GPT-6.2 Astra and Sol"},
-    {"name": "Tecmundo", "owner": "nzn", "url": "https://www.estadao.com.br/tecmundo/openai-anuncia-gpt-62-astra-e-sol-mais-capazes-e-eficientes-no-consumo-de-tokens/", "title": "OpenAI anuncia GPT-6.2 Astra e Sol mais capazes e eficientes no consumo de tokens"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/17/openai-rolls-out-gpt-6-2-astra-for-professional-work-and-gpt-6-2-sol-for-everyday-work/", "title": "OpenAI rolls out GPT-6.2 Astra for professional work and GPT-6.2 Sol for everyday work"}
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "Introducing GPT-6.2 Astra and Sol"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/tech/openai-just-launched-gpt-6-2-and-its-powerful-enough-to-recreate-the-whole-of-paris-as-a-virtual-world-you-can-explore-in-your-browser",
+      "title": "OpenAI just unveiled GPT-6.2 Astra and Sol"
+    },
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/openai-anuncia-gpt-62-astra-e-sol-mais-capazes-e-eficientes-no-consumo-de-tokens/",
+      "title": "OpenAI anuncia GPT-6.2 Astra e Sol mais capazes e eficientes no consumo de tokens"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/17/openai-rolls-out-gpt-6-2-astra-for-professional-work-and-gpt-6-2-sol-for-everyday-work/",
+      "title": "OpenAI rolls out GPT-6.2 Astra for professional work and GPT-6.2 Sol for everyday work"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-18T10:50:34+00:00",
+  "updated_at": "2026-11-18T10:50:34+00:00"
 }

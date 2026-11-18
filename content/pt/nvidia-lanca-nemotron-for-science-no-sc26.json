@@ -7,36 +7,119 @@
   "meta_description": "A Nvidia lançou o Nemotron for Science, modelo aberto para pesquisa científica, e anunciou a GPU Rubin HPC e uma parceria quântica com IBM e o Fermilab.",
   "keyword": "Nemotron for Science",
   "category": "modelos",
-  "tags": ["ia", "nvidia", "modelos", "computacao-quantica"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "modelos",
+    "computacao-quantica"
+  ],
   "body": [
-    {"type": "p", "text": "A Nvidia abriu sua semana na conferência de supercomputação SC26, em Chicago, nesta segunda-feira (16), com o anúncio do Nemotron for Science, um modelo aberto voltado a laboratórios de pesquisa, segundo a própria empresa e a SiliconANGLE. O anúncio foi feito por Ian Buck, vice-presidente de computação de alto desempenho da Nvidia.", "items": []},
-    {"type": "p", "text": "O Nemotron for Science combina o modelo aberto Nemotron 3.5 Super VL com um novo conjunto de dados abertos de química e receitas de pós-treinamento voltadas a ciências da vida e química, segundo a Nvidia. O modelo pode ser executado localmente em uma estação de trabalho DGX Spark, em um computador comum ou no próprio supercomputador do laboratório, sem depender da nuvem da empresa.", "items": []},
-    {"type": "p", "text": "Segundo a SiliconANGLE, a universidade sueca KTH Royal Institute of Technology relatou que um agente construído sobre o Nemotron 3.5 Super VL corrigiu 81% de configurações quebradas do software de dinâmica molecular GROMACS em uma única rodada noturna, usando apenas uma estação DGX Spark.", "items": []},
-    {"type": "h2", "text": "Novo hardware para ciência", "items": []},
-    {"type": "p", "text": "A Nvidia também apresentou a Rubin HPC, uma nova GPU da plataforma Vera Rubin voltada a ciência, engenharia, análise de dados e IA, prevista para 2028. Segundo a empresa, o chip suporta precisões de FP64 a FP4, tem mais de 50 mil núcleos CUDA — cerca de três vezes mais que a geração Hopper — e se conecta pela sétima geração do NVLink.", "items": []},
-    {"type": "p", "text": "Pelo lado dos processadores centrais, a Nvidia expandiu a plataforma de CPU Vera para computação de alto desempenho. O DKRZ, centro alemão de computação climática, escolheu CPUs Vera para seu supercomputador HLRE-5, previsto para o início de 2028, de acordo com a Nvidia e a SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Parceria em computação quântica", "items": []},
-    {"type": "p", "text": "A Nvidia anunciou uma nova colaboração com a IBM e o Fermi National Accelerator Laboratory (Fermilab) para uma plataforma de co-design em computação quântica, voltada à pesquisa em correção de erros, confirmada tanto pela empresa quanto pela SiliconANGLE. Segundo a Nvidia, a parceria combina sistemas DGX B200 com computadores quânticos da IBM, incluindo os baseados no processador IBM Quantum Nighthawk.", "items": []},
-    {"type": "p", "text": "O anúncio também marcou os 20 anos do CUDA, a plataforma de programação para GPUs da Nvidia: Buck lembrou que deu sua primeira palestra pública sobre a tecnologia há duas décadas, na conferência SC06, em Tampa. A empresa afirma manter hoje mais de mil bibliotecas CUDA-X, ponto citado tanto pela Nvidia quanto pela SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "Outros resultados divulgados pela empresa", "items": []},
-    {"type": "p", "text": "Segundo a Nvidia, testes internos mostram que a CPU Vera entrega 1,9 vez o desempenho e 2,4 vezes o desempenho por watt de chips x86 em uma simulação de fluxo de ar feita com o software OpenFOAM. A empresa também lançou a versão beta de um novo compilador para Fortran, linguagem ainda usada em boa parte do código científico, voltado a rodar nas CPUs Vera.", "items": []},
-    {"type": "p", "text": "A Nvidia afirma ainda que sua ferramenta cuPhoton reduziu de mais de um mês para oito minutos o tempo necessário para correlacionar dados do Telescópio Event Horizon sobre buracos negros, e que passou a usar comutadores óticos co-empacotados, a tecnologia NVIDIA Photonics, em uma instalação da Lambda — com 15 vezes mais confiabilidade a falhas de bits e quedas de link, segundo a empresa.", "items": []},
-    {"type": "p", "text": "No campo da computação quântica, a Nvidia diz que um novo algoritmo de decodificação chamado TCBP-JOBS reduziu de 12 semanas para 45 minutos o tempo de cálculo usado em pesquisa de correção de erros, com a meta de cortar a latência de decodificação de cerca de 300 para 10 microssegundos.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "O que é: o Nemotron for Science, modelo aberto da Nvidia para pesquisa científica, com dataset de química e receitas de pós-treinamento também abertos.",
-      "Quem pode usar e onde: qualquer laboratório ou pesquisador, executando o modelo em uma estação DGX Spark, em um computador próprio ou no supercomputador da instituição.",
-      "Desde quando: anunciado em 16 de novembro de 2026, no SC26.",
-      "O que muda: a Nvidia passa a oferecer hardware dedicado a ciência (a GPU Rubin HPC, prevista para 2028) além da linha voltada a treinamento de IA, e amplia a adoção de CPUs Vera, já escolhidas pelo DKRZ."
-    ]}
+    {
+      "type": "p",
+      "text": "A Nvidia abriu sua semana na conferência de supercomputação SC26, em Chicago, nesta segunda-feira (16), com o anúncio do Nemotron for Science, um modelo aberto voltado a laboratórios de pesquisa, segundo a própria empresa e a SiliconANGLE. O anúncio foi feito por Ian Buck, vice-presidente de computação de alto desempenho da Nvidia.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Nemotron for Science combina o modelo aberto Nemotron 3.5 Super VL com um novo conjunto de dados abertos de química e receitas de pós-treinamento voltadas a ciências da vida e química, segundo a Nvidia. O modelo pode ser executado localmente em uma estação de trabalho DGX Spark, em um computador comum ou no próprio supercomputador do laboratório, sem depender da nuvem da empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a SiliconANGLE, a universidade sueca KTH Royal Institute of Technology relatou que um agente construído sobre o Nemotron 3.5 Super VL corrigiu 81% de configurações quebradas do software de dinâmica molecular GROMACS em uma única rodada noturna, usando apenas uma estação DGX Spark.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Novo hardware para ciência",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia também apresentou a Rubin HPC, uma nova GPU da plataforma Vera Rubin voltada a ciência, engenharia, análise de dados e IA, prevista para 2028. Segundo a empresa, o chip suporta precisões de FP64 a FP4, tem mais de 50 mil núcleos CUDA — cerca de três vezes mais que a geração Hopper — e se conecta pela sétima geração do NVLink.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Pelo lado dos processadores centrais, a Nvidia expandiu a plataforma de CPU Vera para computação de alto desempenho. O DKRZ, centro alemão de computação climática, escolheu CPUs Vera para seu supercomputador HLRE-5, previsto para o início de 2028, de acordo com a Nvidia e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Parceria em computação quântica",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia anunciou uma nova colaboração com a IBM e o Fermi National Accelerator Laboratory (Fermilab) para uma plataforma de co-design em computação quântica, voltada à pesquisa em correção de erros, confirmada tanto pela empresa quanto pela SiliconANGLE. Segundo a Nvidia, a parceria combina sistemas DGX B200 com computadores quânticos da IBM, incluindo os baseados no processador IBM Quantum Nighthawk.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio também marcou os 20 anos do CUDA, a plataforma de programação para GPUs da Nvidia: Buck lembrou que deu sua primeira palestra pública sobre a tecnologia há duas décadas, na conferência SC06, em Tampa. A empresa afirma manter hoje mais de mil bibliotecas CUDA-X, ponto citado tanto pela Nvidia quanto pela SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Outros resultados divulgados pela empresa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Nvidia, testes internos mostram que a CPU Vera entrega 1,9 vez o desempenho e 2,4 vezes o desempenho por watt de chips x86 em uma simulação de fluxo de ar feita com o software OpenFOAM. A empresa também lançou a versão beta de um novo compilador para Fortran, linguagem ainda usada em boa parte do código científico, voltado a rodar nas CPUs Vera.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia afirma ainda que sua ferramenta cuPhoton reduziu de mais de um mês para oito minutos o tempo necessário para correlacionar dados do Telescópio Event Horizon sobre buracos negros, e que passou a usar comutadores óticos co-empacotados, a tecnologia NVIDIA Photonics, em uma instalação da Lambda — com 15 vezes mais confiabilidade a falhas de bits e quedas de link, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No campo da computação quântica, a Nvidia diz que um novo algoritmo de decodificação chamado TCBP-JOBS reduziu de 12 semanas para 45 minutos o tempo de cálculo usado em pesquisa de correção de erros, com a meta de cortar a latência de decodificação de cerca de 300 para 10 microssegundos.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O que é: o Nemotron for Science, modelo aberto da Nvidia para pesquisa científica, com dataset de química e receitas de pós-treinamento também abertos.",
+        "Quem pode usar e onde: qualquer laboratório ou pesquisador, executando o modelo em uma estação DGX Spark, em um computador próprio ou no supercomputador da instituição.",
+        "Desde quando: anunciado em 16 de novembro de 2026, no SC26.",
+        "O que muda: a Nvidia passa a oferecer hardware dedicado a ciência (a GPU Rubin HPC, prevista para 2028) além da linha voltada a treinamento de IA, e amplia a adoção de CPUs Vera, já escolhidas pelo DKRZ."
+      ]
+    }
   ],
   "image": {
     "query": "scientist using supercomputer data center research lab",
-    "alt": "Pesquisador trabalhando com dados de supercomputador em laboratório"
+    "alt": "Pesquisador trabalhando com dados de supercomputador em laboratório",
+    "path": "/assets/img/nvidia-lanca-nemotron-for-science-no-sc2-a805a64a.jpg",
+    "credit": "jesse orrico / Unsplash",
+    "author": "jesse orrico",
+    "author_url": "https://unsplash.com/@jessedo81?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/man-holding-black-dslr-camera-RBWDrxW3xog"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/", "title": "Ian Buck Kicks Off NVIDIA's Week at SC26 as Science Enters the Age of Agents"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/17/nvidia-at-sc26-agents-are-the-new-scientists-and-they-need-a-lab/", "title": "Nvidia at SC26: Agents are the new scientists, and they need a lab"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "title": "Ian Buck Kicks Off NVIDIA's Week at SC26 as Science Enters the Age of Agents"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/17/nvidia-at-sc26-agents-are-the-new-scientists-and-they-need-a-lab/",
+      "title": "Nvidia at SC26: Agents are the new scientists, and they need a lab"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-18T10:50:33+00:00",
+  "updated_at": "2026-11-18T10:50:33+00:00"
 }
