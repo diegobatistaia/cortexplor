@@ -1,0 +1,103 @@
+{
+  "slug": "nvidia-stops-shipping-chips-china",
+  "lang": "en",
+  "date": "18 Nov 2026",
+  "no": 128,
+  "category": "Market",
+  "kicker": "Market · Nvidia",
+  "headline": "Nvidia stops shipping licensed Hopper AI chips to China",
+  "headline_hl": "stops",
+  "dek": "The interim CEO confirmed it on the earnings call, per The Verge.",
+  "image": {
+    "path": "assets/img/nvidia-stops-shipping-chips-china-b52f0693.jpg",
+    "credit": "Mariia Berezovsky / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Chips<br>halted",
+  "sources": [
+    "The Verge",
+    "Olhar Digital",
+    "TechCrunch",
+    "CNBC"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What happened",
+    "body": [
+      "Nvidia stopped shipping licensed Hopper H200 chips to China, interim CEO Colette Kress said, per The Verge and Olhar Digital.",
+      "She did not explain the reason (The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the channel worked",
+    "body": "Per The Verge:",
+    "points": [
+      {
+        "h": "Origin",
+        "t": "The White House allowed shipments in December 2025."
+      },
+      {
+        "h": "Route",
+        "t": "Chips went through the US (TechCrunch)."
+      },
+      {
+        "h": "Tariff",
+        "t": "The government collected 25% on them (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "A new US rule targets indirect chip access through third-country data centers (TechCrunch).",
+      "Jefferies estimates a $44 billion to $62 billion hit to data center revenue (TechCrunch)."
+    ],
+    "stat": {
+      "big": "$62B",
+      "cap": "top loss estimated by Jefferies (TechCrunch)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Stuck",
+        "t": "About 600,000 H200s sat in Hong Kong (The Verge)."
+      },
+      {
+        "h": "China",
+        "t": "Beijing already refused some deliveries (TechCrunch)."
+      },
+      {
+        "h": "Military",
+        "t": "A report says China seeks the chips (CNBC)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia stopped shipping licensed Hopper H200 chips to China.",
+    "body": [
+      "Per The Verge and Olhar Digital, interim CEO Colette Kress said on the earnings call that guidance no longer includes licensed Hopper products for China and that the company stopped shipping them. She did not explain the reason. The channel had existed since December 2025, when the White House approved an exception to export restrictions.",
+      "The move came the same week as a new Commerce Department rule against indirect access through third-country data centers. Jefferies estimates, per TechCrunch, that the rules could cut $44 billion to $62 billion from Nvidia's data center revenue next year."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#china",
+      "#exportcontrols"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Nvidia halting Hopper chip shipments to China",
+    "Slide 2: Kress confirms Nvidia stopped shipping H200 chips",
+    "Slide 3: how the channel opened by the White House worked in 2025",
+    "Slide 4: new US rule and the loss Jefferies estimates",
+    "Slide 5: chips stuck in Hong Kong and the report on China's military",
+    "Slide 6: sources for the story: The Verge, Olhar Digital, TechCrunch and CNBC"
+  ]
+}
