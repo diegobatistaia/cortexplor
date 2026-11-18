@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 18 Nov 2026 15:47:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 21:51:09 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nvidia interrompe envio de chips Hopper de IA para a China</title>
+      <link>https://cortexplor.com/pt/nvidia-para-envio-chips-china/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/nvidia-para-envio-chips-china/</guid>
+      <description>A Nvidia parou de enviar chips Hopper (H200) para a China, segundo a CEO interina Colette Kress, dias depois de os EUA ampliarem as restrições de exportação.</description>
+      <category>Mercado de IA</category>
+      <pubDate>Wed, 18 Nov 2026 21:51:06 +0000</pubDate>
+    </item>
     <item>
       <title>Nvidia dobra receita e conselho confirma que não trará Huang de volta</title>
       <link>https://cortexplor.com/pt/nvidia-conselho-confirma-nao-recolocar-huang/</link>
@@ -238,14 +246,6 @@
       <description>Trump disse nesta segunda-feira que o FBI investiga o caso de Jensen Huang com suposta espiã chinesa; acionistas processam a Nvidia, segundo o Guardian.</description>
       <category>Mercado de IA</category>
       <pubDate>Tue, 10 Nov 2026 22:03:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google libera Gemini 4 Carbon para uso geral e lança o /swarm</title>
-      <link>https://cortexplor.com/pt/google-libera-gemini-4-carbon-geral/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/google-libera-gemini-4-carbon-geral/</guid>
-      <description>O Google liberou o Gemini 4 Carbon a desenvolvedores e empresas nesta terça, com recurso que coordena agentes de IA e preço de US$ 2 por milhão de tokens.</description>
-      <category>Modelos &amp; Lançamentos</category>
-      <pubDate>Tue, 10 Nov 2026 22:03:13 +0000</pubDate>
     </item>
   </channel>
 </rss>

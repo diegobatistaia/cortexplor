@@ -7,40 +7,142 @@
   "meta_description": "A Nvidia parou de enviar chips Hopper (H200) para a China, segundo a CEO interina Colette Kress, dias depois de os EUA ampliarem as restrições de exportação.",
   "keyword": "chips Hopper para a China",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "china", "chips", "exportacao"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "china",
+    "chips",
+    "exportacao"
+  ],
   "body": [
-    {"type": "p", "text": "A Nvidia deixou de enviar chips Hopper (H200) para a China, afirmou a CEO interina Colette Kress durante a teleconferência de resultados do terceiro trimestre, nesta terça-feira (17), segundo o The Verge e o Olhar Digital.", "items": []},
-    {"type": "p", "text": "\"Nossas projeções já não incluem nenhum produto Hopper para data centers licenciado para a China. Também deixamos de enviar esses produtos ao país\", disse Kress, segundo o Olhar Digital. A executiva não explicou o motivo da decisão, segundo o The Verge.", "items": []},
-    {"type": "h2", "text": "Um canal aberto por Huang", "items": []},
-    {"type": "p", "text": "O envio dos H200 era permitido desde dezembro de 2025, quando a Casa Branca aprovou uma exceção às restrições de exportação dos Estados Unidos, segundo o The Verge. O ex-CEO Jensen Huang, que renunciou na semana passada após revelações de casos extraconjugais — um deles com uma mulher suspeita de espionagem para a China —, negociou o arranjo e defendia publicamente a presença da Nvidia no mercado chinês, segundo o TechCrunch.", "items": []},
-    {"type": "p", "text": "Segundo o TechCrunch, o acordo previa o envio dos chips por meio dos Estados Unidos, o que permitia ao governo americano cobrar uma tarifa de 25% sobre o produto.", "items": []},
-    {"type": "h2", "text": "Regras mais apertadas", "items": []},
-    {"type": "p", "text": "A decisão da Nvidia ocorre na mesma semana em que o Departamento de Comércio dos Estados Unidos publicou uma regra para impedir que chips avançados americanos cheguem a clientes chineses por meio de data centers em outros países — uma rota indireta usada para contornar as restrições, segundo o TechCrunch e a CNBC.", "items": []},
-    {"type": "p", "text": "O banco de investimento Jefferies estima, segundo o TechCrunch, que as novas regras de exportação podem reduzir entre US$ 44 bilhões e US$ 62 bilhões da receita de data centers da Nvidia no próximo ano.", "items": []},
-    {"type": "p", "text": "As novas regras também passam a exigir que data centers de grande porte comprovem que não atendem clientes chineses para poder comprar chips da Nvidia, disse o advogado especializado em controle de exportação Dan Fisher-Owens ao TechCrunch. Sem essa certificação, esses data centers podem ter de recorrer a outros fornecedores, o que reduziria ainda mais a presença da Nvidia nesse mercado.", "items": []},
-    {"type": "p", "text": "Segundo a Reuters, citada pelo The Verge, cerca de 600 mil chips H200 ficaram retidos em Hong Kong depois de Pequim não autorizar as importações em grande escala, parte do esforço chinês para reduzir a dependência de tecnologia americana. Mesmo antes de a Nvidia decidir parar os envios, a China já recusava boa parte das entregas dos H200, segundo o pesquisador Jacob Feldgoise, do Centro de Segurança e Tecnologia Emergente da Universidade Georgetown, citado pelo TechCrunch — o governo chinês prefere estimular a demanda pela indústria doméstica de chips, mesmo que grandes usuários de computação para IA ainda queiram o equipamento da Nvidia.", "items": []},
-    {"type": "h2", "text": "Leituras do mercado", "items": []},
-    {"type": "p", "text": "A estrategista de pesquisa Dilin Wu, da corretora Pepperstone, disse à agência AFP, em declaração reproduzida pelo Olhar Digital, que ainda não está claro o que motivou a decisão da Nvidia, mas que a medida parece ser uma tentativa da empresa de estabelecer limites mais claros para seus negócios na China e sinalizar aos reguladores que o cumprimento das regras é prioridade.", "items": []},
-    {"type": "h2", "text": "O pano de fundo", "items": []},
-    {"type": "p", "text": "O anúncio veio um dia depois de a Nvidia reportar receita de US$ 115,8 bilhões e lucro líquido de US$ 65,3 bilhões no terceiro trimestre, segundo o Olhar Digital, como o Cortexplor já noticiou. A empresa afirmou não ter motivos para acreditar que segredos comerciais ou a segurança nacional dos Estados Unidos tenham sido comprometidos pelo caso envolvendo Huang, segundo o Olhar Digital.", "items": []},
-    {"type": "p", "text": "Nesta quarta-feira (18), a Comissão de Revisão Econômica e de Segurança EUA-China, órgão do Congresso americano, divulgou um relatório afirmando que o Exército chinês tem buscado ativamente os chips mais avançados da Nvidia para capacidades militares de inteligência artificial, segundo a CNBC. O relatório, também citado pela CNBC, aponta uma defasagem de qualidade entre os chips fabricados por empresas chinesas como a Huawei e a Cambricon e os produzidos pela Nvidia e por outras companhias americanas, como a AMD.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "O que muda: a Nvidia parou de enviar chips Hopper (H200) licenciados para a China, fechando o canal aberto pela Casa Branca em dezembro de 2025.",
-      "Por que agora: a decisão acompanha uma nova regra do Departamento de Comércio dos EUA, publicada nesta semana, que também bloqueia o acesso indireto a chips da Nvidia via data centers em terceiros países.",
-      "Quem é afetado: empresas chinesas que dependiam do canal Hopper para acessar os chips de IA mais avançados da Nvidia.",
-      "Impacto estimado: o Jefferies projeta uma perda de US$ 44 bilhões a US$ 62 bilhões na receita de data centers da Nvidia no próximo ano, segundo o TechCrunch."
-    ]}
+    {
+      "type": "p",
+      "text": "A Nvidia deixou de enviar chips Hopper (H200) para a China, afirmou a CEO interina Colette Kress durante a teleconferência de resultados do terceiro trimestre, nesta terça-feira (17), segundo o The Verge e o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Nossas projeções já não incluem nenhum produto Hopper para data centers licenciado para a China. Também deixamos de enviar esses produtos ao país\", disse Kress, segundo o Olhar Digital. A executiva não explicou o motivo da decisão, segundo o The Verge.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um canal aberto por Huang",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O envio dos H200 era permitido desde dezembro de 2025, quando a Casa Branca aprovou uma exceção às restrições de exportação dos Estados Unidos, segundo o The Verge. O ex-CEO Jensen Huang, que renunciou na semana passada após revelações de casos extraconjugais — um deles com uma mulher suspeita de espionagem para a China —, negociou o arranjo e defendia publicamente a presença da Nvidia no mercado chinês, segundo o TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o TechCrunch, o acordo previa o envio dos chips por meio dos Estados Unidos, o que permitia ao governo americano cobrar uma tarifa de 25% sobre o produto.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Regras mais apertadas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A decisão da Nvidia ocorre na mesma semana em que o Departamento de Comércio dos Estados Unidos publicou uma regra para impedir que chips avançados americanos cheguem a clientes chineses por meio de data centers em outros países — uma rota indireta usada para contornar as restrições, segundo o TechCrunch e a CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O banco de investimento Jefferies estima, segundo o TechCrunch, que as novas regras de exportação podem reduzir entre US$ 44 bilhões e US$ 62 bilhões da receita de data centers da Nvidia no próximo ano.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As novas regras também passam a exigir que data centers de grande porte comprovem que não atendem clientes chineses para poder comprar chips da Nvidia, disse o advogado especializado em controle de exportação Dan Fisher-Owens ao TechCrunch. Sem essa certificação, esses data centers podem ter de recorrer a outros fornecedores, o que reduziria ainda mais a presença da Nvidia nesse mercado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Reuters, citada pelo The Verge, cerca de 600 mil chips H200 ficaram retidos em Hong Kong depois de Pequim não autorizar as importações em grande escala, parte do esforço chinês para reduzir a dependência de tecnologia americana. Mesmo antes de a Nvidia decidir parar os envios, a China já recusava boa parte das entregas dos H200, segundo o pesquisador Jacob Feldgoise, do Centro de Segurança e Tecnologia Emergente da Universidade Georgetown, citado pelo TechCrunch — o governo chinês prefere estimular a demanda pela indústria doméstica de chips, mesmo que grandes usuários de computação para IA ainda queiram o equipamento da Nvidia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Leituras do mercado",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A estrategista de pesquisa Dilin Wu, da corretora Pepperstone, disse à agência AFP, em declaração reproduzida pelo Olhar Digital, que ainda não está claro o que motivou a decisão da Nvidia, mas que a medida parece ser uma tentativa da empresa de estabelecer limites mais claros para seus negócios na China e sinalizar aos reguladores que o cumprimento das regras é prioridade.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O pano de fundo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O anúncio veio um dia depois de a Nvidia reportar receita de US$ 115,8 bilhões e lucro líquido de US$ 65,3 bilhões no terceiro trimestre, segundo o Olhar Digital, como o Cortexplor já noticiou. A empresa afirmou não ter motivos para acreditar que segredos comerciais ou a segurança nacional dos Estados Unidos tenham sido comprometidos pelo caso envolvendo Huang, segundo o Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nesta quarta-feira (18), a Comissão de Revisão Econômica e de Segurança EUA-China, órgão do Congresso americano, divulgou um relatório afirmando que o Exército chinês tem buscado ativamente os chips mais avançados da Nvidia para capacidades militares de inteligência artificial, segundo a CNBC. O relatório, também citado pela CNBC, aponta uma defasagem de qualidade entre os chips fabricados por empresas chinesas como a Huawei e a Cambricon e os produzidos pela Nvidia e por outras companhias americanas, como a AMD.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O que muda: a Nvidia parou de enviar chips Hopper (H200) licenciados para a China, fechando o canal aberto pela Casa Branca em dezembro de 2025.",
+        "Por que agora: a decisão acompanha uma nova regra do Departamento de Comércio dos EUA, publicada nesta semana, que também bloqueia o acesso indireto a chips da Nvidia via data centers em terceiros países.",
+        "Quem é afetado: empresas chinesas que dependiam do canal Hopper para acessar os chips de IA mais avançados da Nvidia.",
+        "Impacto estimado: o Jefferies projeta uma perda de US$ 44 bilhões a US$ 62 bilhões na receita de data centers da Nvidia no próximo ano, segundo o TechCrunch."
+      ]
+    }
   ],
   "image": {
     "query": "nvidia semiconductor chips data center",
-    "alt": "Chip de inteligência artificial da Nvidia instalado em um data center"
+    "alt": "Chip de inteligência artificial da Nvidia instalado em um data center",
+    "path": "/assets/img/nvidia-para-envio-chips-china-b52f0693.jpg",
+    "credit": "Mariia Berezovsky / Unsplash",
+    "author": "Mariia Berezovsky",
+    "author_url": "https://unsplash.com/@mariiaberezovsky?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/the-nvidia-logo-is-displayed-on-a-table-0SqsTxWhgNU"
   },
   "sources": [
-    {"name": "The Verge", "owner": "vox-media", "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling", "title": "Nvidia isn’t selling any more AI chips to China"},
-    {"name": "Olhar Digital", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/11/18/pro/nvidia-interrompe-envio-de-chips-de-ia-hopper-para-a-china/", "title": "Nvidia interrompe envio de chips de IA Hopper para a China"},
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/", "title": "Nvidia is abandoning China after Jensen Huang’s ouster"},
-    {"name": "CNBC", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html", "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says"}
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "title": "Nvidia isn’t selling any more AI chips to China"
+    },
+    {
+      "name": "Olhar Digital",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/11/18/pro/nvidia-interrompe-envio-de-chips-de-ia-hopper-para-a-china/",
+      "title": "Nvidia interrompe envio de chips de IA Hopper para a China"
+    },
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster"
+    },
+    {
+      "name": "CNBC",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "title": "China’s military seeks Nvidia’s advanced chips for AI capabilities, commission says"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-18T21:51:06+00:00",
+  "updated_at": "2026-11-18T21:51:06+00:00"
 }
