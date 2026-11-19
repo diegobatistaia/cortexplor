@@ -1,0 +1,115 @@
+{
+  "lang": "en",
+  "slug": "microsoft-unveils-autopilot-copilot-workspaces",
+  "story_id": "9dca290c07ff0ac8",
+  "title": "Microsoft Unveils Always-On Copilot Agent at Ignite 2026",
+  "dek": "Autopilot keeps working on email and Teams without a prompt, and Copilot Workspaces lets people and agents edit the same document, according to ZDNet and SiliconANGLE.",
+  "meta_description": "Microsoft unveiled Autopilot, an always-on AI agent, and Copilot Workspaces, a shared document canvas for people and agents, at its Ignite 2026 conference.",
+  "keyword": "microsoft copilot workspaces autopilot",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "microsoft",
+    "copilot",
+    "agents"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Microsoft announced Copilot Workspaces, a shared canvas where people and AI agents edit the same document, and Autopilot, an agent that monitors email and Teams channels without waiting for a prompt, at its Ignite 2026 conference on Tuesday, according to ZDNet and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In Copilot Workspaces, an agent can draft a section of a document and flag it for a human to review; the person leaves a comment, and another agent picks up the work from there, both outlets reported. The feature is available for now only to subscribers of Frontier, Microsoft's early-access program.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "An agent that doesn't wait to be asked",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Autopilot, already live in Frontier, differs from standard agents by staying continuously active, watching Teams channels and a user's inbox and taking on recurring work and entire project pipelines without needing to be triggered at each step, according to ZDNet. Every Autopilot gets its own identity through Microsoft Entra and a named human manager; its actions are logged under that identity, giving security teams a clear audit trail, ZDNet and SiliconANGLE both reported. IT teams can block the agent at any time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Behind these agents sits WorkIQ, a reasoning layer that Microsoft says retrieves data, figures out what a task requires and filters out what's irrelevant, according to SiliconANGLE, which attributed the explanation to Microsoft Chief Marketing Officer Jared Spataro. The outlet noted that Microsoft 365 holds roughly 19.5 exabytes of customer data, growing by billions of files, emails and messages every day — the scale WorkIQ is meant to sort through before an agent acts.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "One dashboard and a daily work briefing",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft also made Home generally available, merging Copilot's chat interface with Cowork, the portal where users delegate tasks to agents — the two previously ran separately, according to ZDNet. Inside Home sits Today, a dashboard that pulls together email, calendar, meetings and Teams tasks, suggests replies and proposes schedule changes; it is currently in private preview in Outlook and the Copilot app, both ZDNet and SiliconANGLE confirmed.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Putting a number on agent spending",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Microsoft expanded Agent 365, the agent-monitoring platform it launched last year, with two new tools: Business Analytics, now in Frontier Public, and Cost Management. Business Analytics shows what a company is spending on AI, where that spending pays off, and forecasts future costs; Cost Management lets IT see usage broken down by model and set spending limits and alerts, according to ZDNet. SiliconANGLE confirmed Agent 365 received these updates at the same event.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE added that Microsoft also previewed Copilot Code, a tool that generates dashboards, widgets and small business apps from natural-language prompts, set to launch in a few weeks inside a sandboxed, IT-monitored environment called Copilot Managed Runtime.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it and where: Copilot Workspaces and Autopilot are limited to Frontier early-access subscribers; Home is now generally available, and Today is in private preview in Outlook and the Copilot app, according to ZDNet and SiliconANGLE.",
+        "Since when: the features were announced Tuesday, November 17, at Ignite 2026.",
+        "What changes from before: Home now merges chat and task delegation into one place that used to be separate; Agent 365, launched last year purely to monitor agents, now adds cost-tracking tools.",
+        "Who is affected: companies already running Copilot, plus the IT and security teams responsible for AI budgets, who gain a per-agent audit trail and per-model spending limits."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "ZDNet noted that Copilot Workspaces resembles OpenAI's ChatGPT Space and Anthropic's recently launched Whiteboard and Sheets features — a sign that all three companies are converging on the same type of tool, where people and agents share one workspace instead of separate chat windows.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "office workers collaborating with AI assistant on laptop screen",
+    "alt": "Office workers collaborating with an AI assistant shown on a laptop screen",
+    "path": "/assets/img/microsoft-unveils-autopilot-copilot-work-22ab8154.jpg",
+    "credit": "Route4design / Unsplash",
+    "author": "Route4design",
+    "author_url": "https://unsplash.com/@route4design?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/laptop-on-pedestal-with-abstract-sculptures-and-spherical-art-lCkT6g3U16I"
+  },
+  "sources": [
+    {
+      "name": "ZDNet AI",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/",
+      "title": "Microsoft unveiled Copilot Workspaces at Ignite 2026, plus more AI workplace updates"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/",
+      "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-19T10:50:47+00:00",
+  "updated_at": "2026-11-19T10:50:47+00:00"
+}

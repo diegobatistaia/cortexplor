@@ -1,0 +1,123 @@
+{
+  "lang": "en",
+  "slug": "google-gemini-4-neon-undercuts-rivals-price",
+  "story_id": "947c048eda44a84c",
+  "title": "Google's Gemini 4 Neon Undercuts Rivals on Price and Speed",
+  "dek": "The midtier model slots between Carbon and Hydrogen and claims to beat comparable OpenAI and Anthropic models on cost per task.",
+  "meta_description": "Google launched Gemini 4 Neon, a new midtier AI model with a 1-million-token context window, priced below comparable OpenAI and Anthropic rival models.",
+  "keyword": "gemini 4 neon",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "models"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google released Gemini 4 Neon on Wednesday, positioning it between its flagship Carbon model and its budget-focused Hydrogen model, according to a Google DeepMind announcement. The company says Neon completes most tasks about three times faster than Carbon at roughly 60% lower cost, SiliconANGLE reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Neon is priced at $3 per million input tokens, $0.15 per million cached input tokens — a 95% discount — and $15 per million output tokens, according to Google, with the same figures confirmed by SiliconANGLE. The model has a 1 million-token context window, letting it process spreadsheets, PDFs, charts, audio and video within a single task, Google, Hipertextual and Olhar Digital reported.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Where Neon lands against Claude and GPT",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On the Artificial Analysis Intelligence Index, an independent benchmark, Neon scored 61 points, ranking third overall behind Anthropic's Claude Fable 5.2 (65) and OpenAI's GPT-6.2 Astra (62), according to SiliconANGLE, which cited figures Artificial Analysis itself published. It is the fourth model Google has released in the Gemini 4 family in seven weeks, the outlet added.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On price, Neon sits between its direct rivals: OpenAI's GPT-6.2 Sol charges $2 per million input tokens and $10 per million output tokens, while Anthropic's Claude Opus 5.5 charges $4 per million input tokens and $20 per million output tokens, according to SiliconANGLE. Google says Neon leads the Artificial Analysis Coding Agent Index, ahead of both rival models on coding tasks — a result Hipertextual echoed, describing the model as excelling at writing code.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google also refined Neon's reasoning settings into four thinking levels, from fastest to deepest, so teams can balance performance against token spend. At the top xhigh setting, the company says Neon posts its highest intelligence score while still costing at least 36% less per task than competing models at their own top setting, according to Google.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "On the Vals Index, another third-party benchmark, Google says Neon ranks second and lands on the Pareto frontier, a measure of models that deliver the best results for their cost. SiliconANGLE noted that with midtier models now so close in raw performance, cost efficiency has become the deciding factor for enterprise buyers, adding that some organizations \"might decide that's not really enough to justify paying more\" for the slightly higher scores of pricier rivals.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A locked-down cybersecurity version",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google is also rolling out a specialized version called Gemini 4 Neon for Cyber, built to find, validate and patch code vulnerabilities. Initial access is limited to selected professionals in Google's Fairwind program, according to Olhar Digital.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it and where: through the API in Google AI Studio and Gemini for Business for all paying customers; in the Gemini app and on Google Antigravity, access is limited to Google AI Pro and Ultra subscribers, according to Google and Olhar Digital.",
+        "Since when: starting this Wednesday, November 18, according to Google.",
+        "What it costs: $3 per million input tokens and $15 per million output tokens, with a 95% discount on cached tokens, according to Google.",
+        "Who is left out: free Gemini app accounts remain limited to the Hydrogen model, according to Hipertextual.",
+        "What changes from before: Google rolled out Carbon for general use on November 10 and brought Hydrogen to Search on November 13; Neon arrives a week later as a midtier option on price and speed between the two."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The launch keeps up the pace Google has set for the Gemini 4 family since October, as OpenAI and Anthropic also compete for enterprise customers with their own midtier, cost-focused models. For developers choosing between the three providers, the gap in raw benchmark scores is now smaller than the gap in price per task, according to SiliconANGLE's analysis of the published figures.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "AI chip data center server room blue light",
+    "alt": "Rows of illuminated data center servers used to run AI models",
+    "path": "/assets/img/google-gemini-4-neon-undercuts-rivals-pr-29d8516f.jpg",
+    "credit": "Tyler / Unsplash",
+    "author": "Tyler",
+    "author_url": "https://unsplash.com/@tylergm?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-server-in-a-server-room-vSprjjDbu60"
+  },
+  "sources": [
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "title": "Introducing Gemini 4 Neon"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/inteligencia-artificial/gemini-4-neon-ia-rapida-eficiente-google/",
+      "title": "Google lanza Gemini 4 Neon: más rápido, más barato y demoledor escribiendo código"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/11/18/inteligencia-artificial/gemini-4-neon-conheca-a-nova-ia-do-google-para-programacao-e-analise/",
+      "title": "Gemini 4 Neon: conheça a nova IA do Google para programação e análise"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/",
+      "title": "Google's latest midtier model Gemini 4 Neon is three times faster than Carbon and wins on some metrics"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-19T10:50:46+00:00",
+  "updated_at": "2026-11-19T10:50:46+00:00"
+}

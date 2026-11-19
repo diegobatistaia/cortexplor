@@ -1,0 +1,101 @@
+{
+  "slug": "microsoft-unveils-autopilot-copilot-workspaces",
+  "lang": "en",
+  "date": "19 Nov 2026",
+  "no": 130,
+  "category": "Applications",
+  "kicker": "Applications · Microsoft",
+  "headline": "Microsoft unveils always-on Copilot agent at Ignite 2026",
+  "headline_hl": "always-on",
+  "dek": "Autopilot works without a prompt and Workspaces joins people and agents.",
+  "image": {
+    "path": "assets/img/microsoft-unveils-autopilot-copilot-work-22ab8154.jpg",
+    "credit": "Route4design / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Autopilot<br>at Ignite",
+  "sources": [
+    "ZDNet AI",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The launch",
+    "body": [
+      "Microsoft announced Copilot Workspaces and Autopilot at Ignite 2026, per ZDNet AI and SiliconANGLE.",
+      "In Workspaces, people and agents edit the same document (ZDNet AI)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per ZDNet AI:",
+    "points": [
+      {
+        "h": "Always on",
+        "t": "Autopilot watches email and Teams channels."
+      },
+      {
+        "h": "Identity",
+        "t": "Each agent gets its own Entra identity."
+      },
+      {
+        "h": "Control",
+        "t": "IT can block the agent at any time."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "Every agent action is logged under its human manager, which creates an audit trail (ZDNet AI).",
+      "Agent 365 gained cost tools, with spending limits and alerts (ZDNet AI)."
+    ],
+    "stat": {
+      "big": "365",
+      "cap": "Agent 365 gained cost tools (ZDNet AI)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Frontier",
+        "t": "Workspaces and Autopilot are early access only."
+      },
+      {
+        "h": "Today",
+        "t": "Daily panel in private testing in Outlook."
+      },
+      {
+        "h": "Code",
+        "t": "Copilot Code is due in the coming weeks."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Microsoft unveiled Autopilot, an always-on agent, and Copilot Workspaces at Ignite.",
+    "body": [
+      "Per ZDNet AI and SiliconANGLE, Autopilot stays active, watching email and Teams channels and taking over recurring tasks without anyone prompting it. Each agent has its own Microsoft Entra identity and a human manager, and IT teams can block it at any time.",
+      "In Copilot Workspaces, people and agents edit the same document, and it is available only in Frontier, Microsoft's early access program. The company also expanded Agent 365 with tools to measure and cap agent spending, per ZDNet AI."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#ignite",
+      "#aiagents"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Microsoft's Autopilot and Copilot Workspaces",
+    "Slide 2: Microsoft announces Workspaces and Autopilot at Ignite",
+    "Slide 3: how the always-on agent works in email and Teams",
+    "Slide 4: audit trail and Agent 365 cost tools",
+    "Slide 5: early access, the Today panel and Copilot Code",
+    "Slide 6: sources for the Microsoft story: ZDNet AI and SiliconANGLE"
+  ]
+}
