@@ -1,0 +1,87 @@
+{
+  "lang": "pt",
+  "slug": "microsoft-copilot-workspaces-autopilot-ignite",
+  "story_id": "9dca290c07ff0ac8",
+  "title": "Microsoft lança agente autônomo e workspace com IA no Ignite",
+  "dek": "Autopilot monitora e-mail e Teams sem precisar de comando, e Copilot Workspaces junta pessoas e agentes no mesmo documento, segundo a ZDNet e a SiliconANGLE.",
+  "meta_description": "A Microsoft apresentou no Ignite 2026 o Autopilot, agente de IA sempre ativo, e o Copilot Workspaces, espaço onde pessoas e agentes trabalham em conjunto.",
+  "keyword": "microsoft copilot workspaces autopilot",
+  "category": "aplicacoes",
+  "tags": ["ia", "microsoft", "copilot", "agentes"],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Microsoft anunciou nesta terça-feira (17), durante a conferência Ignite 2026, o Copilot Workspaces, um espaço colaborativo onde pessoas e agentes de inteligência artificial editam o mesmo documento, e o Autopilot, agente que monitora e-mail e canais do Teams sem esperar comando do usuário, segundo a ZDNet e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No Copilot Workspaces, um agente pode redigir um trecho de um documento e notificar a pessoa para revisar; a pessoa comenta, e outro agente dá sequência ao trabalho a partir do comentário, de acordo com as duas publicações. O recurso está disponível, por ora, só a quem está no Frontier, o programa de acesso antecipado da Microsoft.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um agente que não espera ser chamado",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Autopilot já está disponível no Frontier e se diferencia dos agentes comuns por ficar sempre ativo, observando canais do Teams e a caixa de e-mail e assumindo tarefas recorrentes e a gestão de projetos inteiros sem que alguém precise acioná-lo a cada etapa, segundo a ZDNet. Cada Autopilot recebe uma identidade própria no Microsoft Entra e tem um gestor humano designado; todas as ações do agente ficam registradas sob esse nome, o que dá às equipes de segurança uma trilha de auditoria, de acordo com a ZDNet e a SiliconANGLE. Times de TI podem bloquear o agente a qualquer momento.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Um painel único e um resumo diário do trabalho",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft também tornou geral o Home, painel que une o chat do Copilot ao Cowork, portal onde o usuário delega tarefas a agentes — os dois recursos antes ficavam separados, segundo a ZDNet. Dentro do Home, a empresa colocou o Today, um painel que reúne e-mail, calendário, reuniões e tarefas do Teams, sugere respostas e propõe mudanças de agenda; a função está em teste privado no Outlook e no aplicativo Copilot, confirmam a ZDNet e a SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ferramentas para medir o gasto com agentes",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft ampliou o Agent 365, sua plataforma de monitoramento de agentes lançada no ano passado, com o Business Analytics, já disponível no Frontier Public, e o Cost Management. O Business Analytics mostra quanto uma empresa gasta com IA, onde esse gasto compensa e projeta custos futuros; o Cost Management permite que o time de TI veja o uso por modelo e defina limites e alertas de gasto, segundo a ZDNet. A SiliconANGLE confirma que o Agent 365 recebeu essas atualizações no mesmo evento.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A SiliconANGLE acrescenta que a Microsoft também prometeu o Copilot Code, ferramenta que gera painéis, widgets e pequenos aplicativos a partir de comandos em linguagem natural, com lançamento previsto para as próximas semanas dentro de um ambiente chamado Copilot Managed Runtime.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar e onde: Copilot Workspaces e Autopilot só para assinantes do programa de acesso antecipado Frontier; o Home já está liberado a todos, e o Today está em teste privado no Outlook e no app Copilot, segundo a ZDNet e a SiliconANGLE.",
+        "Desde quando: os recursos foram anunciados nesta terça-feira (17), durante o Ignite 2026.",
+        "O que muda em relação a antes: Home passa a unir chat e delegação de tarefas num único lugar, que antes ficavam separados; o Agent 365, criado no ano passado só para monitorar agentes, ganha ferramentas de custo.",
+        "Quem é afetado: empresas que já usam Copilot e equipes de TI responsáveis por segurança e orçamento de IA, que passam a ter registro de auditoria por agente e limites de gasto por modelo."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A ZDNet observa que o Copilot Workspaces se parece com o ChatGPT Space, da OpenAI, e com os recursos Whiteboard e Sheets lançados recentemente pela Anthropic — um sinal de que as três empresas estão convergindo para o mesmo tipo de ferramenta, em que pessoas e agentes compartilham o mesmo espaço de trabalho.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "office workers collaborating with AI assistant on laptop screen",
+    "alt": "Pessoas em um escritório trabalhando em conjunto com um assistente de inteligência artificial na tela"
+  },
+  "sources": [
+    {"name": "ZDNet AI", "owner": "ziff-davis", "url": "https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/", "title": "Microsoft unveiled Copilot Workspaces at Ignite 2026, plus more AI workplace updates"},
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/", "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work"}
+  ],
+  "status": "draft"
+}
