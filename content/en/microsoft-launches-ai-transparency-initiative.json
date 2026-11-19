@@ -1,0 +1,43 @@
+{
+  "lang": "en",
+  "slug": "microsoft-launches-ai-transparency-initiative",
+  "story_id": "9577692332e3c0a3",
+  "title": "Microsoft Launches AI Transparency Initiative With 40 Partners",
+  "dek": "The effort, unveiled at Ignite, pairs Microsoft with Adobe, Accenture, KPMG, Mastercard and others to set shared standards for verifying AI models and agents.",
+  "meta_description": "Microsoft unveiled an AI Transparency Initiative at Ignite, working with Adobe, Accenture and 40 partners to build shared standards for verifying AI agents.",
+  "keyword": "AI transparency initiative",
+  "category": "politica",
+  "tags": ["ai", "microsoft", "security"],
+  "body": [
+    {"type": "p", "text": "Microsoft announced the AI Transparency Initiative on November 17, 2026, at its Ignite conference, a joint effort with customers and partners to build a shared, open standard for security and governance across AI models and agents from any provider. Chairman and CEO Satya Nadella made the announcement, according to a statement published by Microsoft.", "items": []},
+    {"type": "p", "text": "Microsoft frames the project around a single principle: greater AI autonomy requires greater transparency. The company says organizations can already monitor much of the activity around an AI model, but they cannot see what happens inside it, and they cannot independently verify an agent's own account of what it did.", "items": []},
+    {"type": "h2", "text": "The gap Microsoft says it is targeting", "items": []},
+    {"type": "p", "text": "According to the statement, enterprises are increasingly connecting AI models to data, tools, credentials and infrastructure, letting agents take actions without human approval at every step. Microsoft says that lack of visibility creates security, compliance, audit and accountability risk — an evidence gap the initiative is meant to close through common verification standards that work across vendors, not just within Microsoft's own stack.", "items": []},
+    {"type": "p", "text": "\"For security controls to be effective, every organization needs greater transparency into the model itself,\" said Hayete Gallot, Executive Vice President of Microsoft Security, according to the company's statement. \"With this work, we will bring more transparency to all models. This is a critical step in making containment smarter and stronger, allowing us to better inform accountability and traceability.\"", "items": []},
+    {"type": "h2", "text": "Three tracks, and who signed on", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Industry standards: Microsoft is expanding its participation in a NIST (the US standards and technology institute) initiative focused on AI agents, drawing on its research to help develop open, industry-wide rules for transparency, security and governance.",
+      "More than 40 partners: the company says it is working with organizations including Accenture, Adobe, KPMG, Mastercard and Volvo Cars to build open standards for AI systems that are accountable and independently verifiable, regardless of the underlying model or provider.",
+      "Product integration: Microsoft will build this work into Microsoft AI, Microsoft Foundry and Microsoft Copilot, letting customers use the resulting evidence with their own security and compliance tools, whether from Microsoft or other vendors."
+    ]},
+    {"type": "p", "text": "\"As AI agents become more deeply integrated into enterprise operations, security teams need clear visibility into what those agents are accessing, what actions they're taking and how those actions can be verified,\" said Aanchal Gupta, Chief Security Officer at Adobe, one of the partner organizations, according to Microsoft's statement.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Who can use it: enterprise customers of Microsoft AI, Microsoft Foundry and Microsoft Copilot will be able to feed the initiative's evidence into their own security and compliance tooling, Microsoft's or a third party's, according to the company.",
+      "Since when: Microsoft announced the initiative on November 17, 2026, at Ignite, but gave no timeline for when the resulting features will reach general availability in the products named above.",
+      "Who is involved: more than 40 organizations are collaborating on the standards, including Accenture, Adobe, KPMG, Mastercard and Volvo Cars, according to Microsoft.",
+      "What changes: security teams can currently watch activity around a model but cannot independently verify what happens inside it; the initiative aims to set a shared standard to close that gap across the industry, not just inside Microsoft's own products."
+    ]},
+    {"type": "p", "text": "Microsoft's statement did not lay out a timeline for partners to adopt the resulting standards or for the transparency features to ship inside the products it named. The company also did not say whether participation in the initiative, or use of the resulting evidence, would carry any cost for customers beyond their existing Microsoft AI, Foundry or Copilot subscriptions.", "items": []},
+    {"type": "p", "text": "The announcement arrives as Microsoft, Adobe, Accenture, KPMG, Mastercard and Volvo Cars are among the named partners shaping the standards, a mix that spans cloud providers, consulting and audit firms, financial services and manufacturing, according to Microsoft. The company frames that breadth as evidence that the initiative is meant to produce standards usable across industries and across AI providers, not a Microsoft-only framework.", "items": []}
+  ],
+  "image": {
+    "query": "data center server room security",
+    "alt": "Rows of server racks in a data center, illustrating AI infrastructure security"
+  },
+  "sources": [
+    {"name": "Microsoft Source", "owner": "microsoft", "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/", "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
