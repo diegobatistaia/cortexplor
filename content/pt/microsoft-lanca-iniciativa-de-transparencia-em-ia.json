@@ -1,0 +1,103 @@
+{
+  "lang": "pt",
+  "slug": "microsoft-lanca-iniciativa-de-transparencia-em-ia",
+  "story_id": "9577692332e3c0a3",
+  "title": "Microsoft lança iniciativa de transparência para agentes de IA",
+  "dek": "Empresa reúne mais de 40 parceiros, entre eles Adobe, Accenture e Mastercard, para criar padrões abertos de segurança e governança para modelos e agentes de IA.",
+  "meta_description": "A Microsoft lançou no Ignite uma iniciativa de transparência em IA com mais de 40 parceiros, incluindo Adobe e Accenture, para padronizar segurança de agentes.",
+  "keyword": "transparência em IA",
+  "category": "politica",
+  "tags": [
+    "ia",
+    "microsoft",
+    "seguranca"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Microsoft anunciou, durante a conferência Microsoft Ignite, em 17 de novembro de 2026, a criação da AI Transparency Initiative, um esforço conjunto com clientes e parceiros para montar um padrão comum e aberto de segurança e governança para modelos e agentes de inteligência artificial. O anúncio foi feito pelo presidente e CEO da empresa, Satya Nadella, segundo comunicado publicado pela Microsoft.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa resume o princípio por trás da iniciativa em uma frase: maior autonomia de IA exige maior transparência. Segundo a Microsoft, as organizações já conseguem observar boa parte da atividade em torno de um modelo de IA, mas não conseguem ver o que acontece dentro dele, nem verificar de forma independente o relato que o próprio agente dá sobre o que fez.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por que a Microsoft diz que isso importa",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acordo com o comunicado, cada vez mais empresas conectam modelos de IA a dados, ferramentas, credenciais e infraestrutura, o que permite que agentes tomem ações sem aprovação humana a cada etapa. Essa falta de visibilidade cria, segundo a Microsoft, risco de segurança, de conformidade, de auditoria e de responsabilização — uma lacuna de evidência que a empresa diz querer reduzir com padrões comuns de verificação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Para que os controles de segurança sejam eficazes, toda organização precisa de mais transparência sobre o próprio modelo\", disse Hayete Gallot, vice-presidente executiva de Segurança da Microsoft, segundo o comunicado da empresa. \"Com este trabalho, vamos trazer mais transparência a todos os modelos. Este é um passo crítico para tornar a contenção mais inteligente e mais forte, permitindo que a gente informe melhor a responsabilização e a rastreabilidade.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "As três frentes da iniciativa",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Padrões do setor: a Microsoft amplia sua participação em uma iniciativa de padrões do NIST, o instituto de padrões e tecnologia dos Estados Unidos, voltada a agentes de IA, para ajudar a criar normas abertas de transparência, segurança e governança.",
+        "Mais de 40 parceiros: a empresa diz colaborar com organizações como Accenture, Adobe, KPMG, Mastercard e Volvo Cars no desenvolvimento de padrões abertos para sistemas de IA responsáveis e verificáveis de forma independente, qualquer que seja o modelo ou o provedor.",
+        "Integração aos produtos: a Microsoft vai incorporar esse trabalho ao Microsoft AI, ao Microsoft Foundry e ao Microsoft Copilot, para que clientes usem as evidências geradas com suas próprias ferramentas de segurança e compliance, da Microsoft ou de terceiros."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "\"À medida que os agentes de IA ficam mais integrados às operações das empresas, as equipes de segurança precisam de visibilidade clara sobre o que esses agentes estão acessando, quais ações estão tomando e como essas ações podem ser verificadas\", disse Aanchal Gupta, diretora de segurança da Adobe, uma das parceiras da iniciativa, segundo o comunicado da Microsoft.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: clientes empresariais do Microsoft AI, do Microsoft Foundry e do Microsoft Copilot vão poder usar as evidências geradas pela iniciativa com suas próprias ferramentas de segurança e compliance, da Microsoft ou de outros fornecedores, segundo a empresa.",
+        "Desde quando: a Microsoft anunciou a iniciativa em 17 de novembro de 2026, no Ignite, mas não divulgou uma data para a disponibilidade geral dos recursos nos produtos citados.",
+        "Quem participa: mais de 40 organizações colaboram no desenvolvimento dos padrões, entre elas Accenture, Adobe, KPMG, Mastercard e Volvo Cars, segundo a Microsoft.",
+        "O que muda: hoje as equipes de segurança monitoram a atividade em torno de um modelo, mas não conseguem verificar de forma independente o que ocorre dentro dele; a iniciativa busca criar um padrão comum para preencher essa lacuna."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A Microsoft não detalhou, no comunicado, um cronograma para a adoção dos padrões pelos parceiros nem para o lançamento dos recursos de transparência nos produtos mencionados.",
+      "items": []
+    }
+  ],
+  "image": {
+    "query": "data center server room security",
+    "alt": "Corredor de servidores em um data center, usado para ilustrar segurança em infraestrutura de IA",
+    "path": "/assets/img/microsoft-lanca-iniciativa-de-transparen-690630eb.jpg",
+    "credit": "Winston Chen / Unsplash",
+    "author": "Winston Chen",
+    "author_url": "https://unsplash.com/@winstonchen?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/close-up-of-server-cooling-fans-in-a-vibrant-data-center-iZe21DzHnUg"
+  },
+  "sources": [
+    {
+      "name": "Microsoft Source",
+      "owner": "microsoft",
+      "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+      "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-19T15:48:35+00:00",
+  "updated_at": "2026-11-19T15:48:35+00:00"
+}
