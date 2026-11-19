@@ -7,7 +7,12 @@
   "meta_description": "O Google lançou o Gemini 4 Neon, modelo intermediário de IA com janela de 1 milhão de tokens e preço menor, voltado a programação e análise corporativa.",
   "keyword": "gemini 4 neon",
   "category": "modelos",
-  "tags": ["ia", "google", "gemini", "modelos"],
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "modelos"
+  ],
   "body": [
     {
       "type": "p",
@@ -73,13 +78,41 @@
   ],
   "image": {
     "query": "AI chip data center server room blue light",
-    "alt": "Servidores de data center iluminados em azul, usados para rodar modelos de inteligência artificial"
+    "alt": "Servidores de data center iluminados em azul, usados para rodar modelos de inteligência artificial",
+    "path": "/assets/img/google-lanca-gemini-4-neon-preco-empresa-29d8516f.jpg",
+    "credit": "Tyler / Unsplash",
+    "author": "Tyler",
+    "author_url": "https://unsplash.com/@tylergm?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-server-in-a-server-room-vSprjjDbu60"
   },
   "sources": [
-    {"name": "Google DeepMind", "owner": "alphabet", "url": "https://deepmind.google/blog/introducing-gemini-4-neon/", "title": "Introducing Gemini 4 Neon"},
-    {"name": "Hipertextual", "owner": "hipertextual", "url": "https://hipertextual.com/inteligencia-artificial/gemini-4-neon-ia-rapida-eficiente-google/", "title": "Google lanza Gemini 4 Neon: más rápido, más barato y demoledor escribiendo código"},
-    {"name": "Olhar Digital IA", "owner": "olhar-digital", "url": "https://olhardigital.com.br/2026/11/18/inteligencia-artificial/gemini-4-neon-conheca-a-nova-ia-do-google-para-programacao-e-analise/", "title": "Gemini 4 Neon: conheça a nova IA do Google para programação e análise"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/", "title": "Google's latest midtier model Gemini 4 Neon is three times faster than Carbon and wins on some metrics"}
+    {
+      "name": "Google DeepMind",
+      "owner": "alphabet",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "title": "Introducing Gemini 4 Neon"
+    },
+    {
+      "name": "Hipertextual",
+      "owner": "hipertextual",
+      "url": "https://hipertextual.com/inteligencia-artificial/gemini-4-neon-ia-rapida-eficiente-google/",
+      "title": "Google lanza Gemini 4 Neon: más rápido, más barato y demoledor escribiendo código"
+    },
+    {
+      "name": "Olhar Digital IA",
+      "owner": "olhar-digital",
+      "url": "https://olhardigital.com.br/2026/11/18/inteligencia-artificial/gemini-4-neon-conheca-a-nova-ia-do-google-para-programacao-e-analise/",
+      "title": "Gemini 4 Neon: conheça a nova IA do Google para programação e análise"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/",
+      "title": "Google's latest midtier model Gemini 4 Neon is three times faster than Carbon and wins on some metrics"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-19T10:50:46+00:00",
+  "updated_at": "2026-11-19T10:50:46+00:00"
 }

@@ -7,7 +7,12 @@
   "meta_description": "Microsoft presentó en Ignite 2026 Autopilot, un agente de IA siempre activo, y Copilot Workspaces, un espacio de trabajo compartido entre personas y agentes.",
   "keyword": "microsoft copilot workspaces autopilot",
   "category": "aplicacoes",
-  "tags": ["ia", "microsoft", "copilot", "agentes"],
+  "tags": [
+    "ia",
+    "microsoft",
+    "copilot",
+    "agentes"
+  ],
   "body": [
     {
       "type": "p",
@@ -77,11 +82,29 @@
   ],
   "image": {
     "query": "office workers collaborating with AI assistant on laptop screen",
-    "alt": "Personas de una oficina colaborando con un asistente de inteligencia artificial en la pantalla"
+    "alt": "Personas de una oficina colaborando con un asistente de inteligencia artificial en la pantalla",
+    "path": "/assets/img/microsoft-presenta-autopilot-copilot-wor-22ab8154.jpg",
+    "credit": "Route4design / Unsplash",
+    "author": "Route4design",
+    "author_url": "https://unsplash.com/@route4design?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/laptop-on-pedestal-with-abstract-sculptures-and-spherical-art-lCkT6g3U16I"
   },
   "sources": [
-    {"name": "ZDNet AI", "owner": "ziff-davis", "url": "https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/", "title": "Microsoft unveiled Copilot Workspaces at Ignite 2026, plus more AI workplace updates"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/", "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work"}
+    {
+      "name": "ZDNet AI",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/",
+      "title": "Microsoft unveiled Copilot Workspaces at Ignite 2026, plus more AI workplace updates"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/",
+      "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-19T10:50:47+00:00",
+  "updated_at": "2026-11-19T10:50:47+00:00"
 }
