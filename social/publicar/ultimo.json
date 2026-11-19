@@ -11,9 +11,9 @@
         "lang": "en"
       }
     ],
-    "pedido_em": "2026-11-19T13:57:44-03:00"
+    "pedido_em": "2026-11-19T14:57:45-03:00"
   },
-  "em": "2026-11-19T13:58:37-03:00",
+  "em": "2026-11-19T14:58:44-03:00",
   "ok": false,
   "itens": [
     {
@@ -21,14 +21,14 @@
       "lang": "pt",
       "conta": "cortexplor",
       "ok": false,
-      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"Asoxbo5YEGCMSk9fwBUz3B6\"}}"
+      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A5SUyzZRZV-8Sbsy5yX_u78\"}}"
     },
     {
       "slug": "chatgpt-rolls-out-verified-business-agents-us",
       "lang": "en",
       "conta": "cortexplor.en",
       "ok": false,
-      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AGieAgicJKdIyUWSX1lDLyE\"}}"
+      "erro": "HTTP 400 em me: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AJPi3iOkgC22rTct1MexF0P\"}}"
     }
   ]
 }
