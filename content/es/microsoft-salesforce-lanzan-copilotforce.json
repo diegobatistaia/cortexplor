@@ -1,0 +1,41 @@
+{
+  "lang": "es",
+  "slug": "microsoft-salesforce-lanzan-copilotforce",
+  "story_id": "62237031124989ab",
+  "title": "Microsoft y Salesforce lanzan la integración Copilotforce",
+  "dek": "La alianza conecta datos y acciones del Salesforce con Copilot, Teams y Fabric de Microsoft, con un plugin en vista previa pública y Accenture como primer cliente piloto, según ambas empresas.",
+  "meta_description": "Microsoft y Salesforce lanzan Copilotforce, integración que lleva datos de clientes del Salesforce al Copilot y Teams, con un plugin en vista previa pública.",
+  "keyword": "Microsoft Salesforce Copilotforce",
+  "category": "aplicacoes",
+  "tags": ["ia", "microsoft", "salesforce", "aplicaciones empresariales"],
+  "body": [
+    {"type": "p", "text": "Microsoft y Salesforce anunciaron esta semana Copilotforce, una alianza que lleva datos y flujos de trabajo de clientes del Salesforce hacia el Copilot, Teams y Fabric de Microsoft, según un comunicado conjunto difundido durante el Microsoft Ignite. TechRadar confirmó el anuncio.", "items": []},
+    {"type": "p", "text": "La pieza central es el plugin \"Salesforce in Copilot\", ya en vista previa pública con más de 38 habilidades de ventas preconstruidas, según las empresas. Los vendedores pueden consultar datos de clientes del Salesforce y ejecutar acciones de negocio directamente dentro del Copilot, sin cambiar de aplicación.", "items": []},
+    {"type": "h2", "text": "Cómo funciona el acceso a los datos", "items": []},
+    {"type": "p", "text": "El acceso ocurre mediante una conexión autenticada llamada Salesforce MCP: el vendedor recupera información del cliente y ejecuta acciones dentro de los permisos que ya tenía en Salesforce, según Microsoft y Salesforce. Salesforce sigue controlando el acceso a los datos, mientras que Microsoft aplica sus propias reglas de cumplimiento sobre comunicaciones y documentos. Cualquier acción que escriba información de vuelta en el CRM necesita confirmación explícita del usuario, afirman las empresas.", "items": []},
+    {"type": "p", "text": "Dentro de Teams, la función \"Sales Cloud in Teams\" está en fase piloto y lleva a las conversaciones del equipo el avance del embudo de ventas, el progreso de la cuota y avisos sobre negociaciones, según el comunicado. Work IQ, la capa de inteligencia que ya potencia al Copilot, suma ese contexto del Salesforce a la información de reuniones en Teams, correos en Outlook y documentos en SharePoint y OneDrive.", "items": []},
+    {"type": "h2", "text": "Datos conectados sin duplicar sistemas", "items": []},
+    {"type": "p", "text": "Las empresas también abrieron una conexión de doble vía, llamada \"Zero Copy\", entre el Salesforce Data 360 y el Microsoft Fabric. La función \"Data Federation\" ya está disponible de forma general y permite consultar datos de Fabric directamente desde Salesforce, sin moverlos de su origen. Otra función, \"Data 360 shortcut\", que comparte datos de Salesforce dentro de Fabric para análisis, está en vista previa pública, según ambas empresas.", "items": []},
+    {"type": "p", "text": "La función Sales Cloud in Teams amplía una integración anunciada antes, durante el Dreamforce 2026, según TechRadar. Con ella, los vendedores también pueden prepararse para reuniones dentro del propio Copilot o de Teams, y actualizar detalles de una oportunidad de venta sin salir de la conversación.", "items": []},
+    {"type": "p", "text": "Según TechRadar, los equipos de ventas podrán hacer preguntas en lenguaje natural y recibir respuestas o acciones basadas en los propios datos de la empresa, combinando lo que está registrado en Salesforce con lo que aparece en las conversaciones, correos y documentos de Microsoft 365.", "items": []},
+    {"type": "p", "text": "Durante el anuncio, el presidente de Microsoft Commercial Business, Judson Althoff, dijo que \"la IA solo es tan poderosa como los datos y el contexto que la sustentan\". El presidente y director de operaciones de Salesforce, Miguel Milano, afirmó que la alianza lleva a Salesforce \"a la mayor superficie del software empresarial actual\", uniendo lo que llamó el CRM número uno con la plataforma de productividad número uno del mercado, según el comunicado.", "items": []},
+    {"type": "p", "text": "Accenture es la socia de implementación del proyecto y también su primer cliente: la consultora dice tener más de 740 mil empleados usando Copilot y 55 mil usando Salesforce de forma interna, y probará la integración en su propia operación de ventas antes de llevarla a sus clientes, según el comunicado.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: empresas que ya usan Microsoft 365/Copilot y Salesforce, estén donde estén; el plugin Salesforce in Copilot está en vista previa pública y Sales Cloud in Teams, en piloto cerrado.",
+      "Desde cuándo: el anuncio se hizo esta semana, durante el Microsoft Ignite.",
+      "Cuánto cuesta: Microsoft y Salesforce no informaron el precio de la integración.",
+      "Qué cambia: los datos de Salesforce y de Microsoft 365 dejan de estar aislados en sistemas separados y pasan a conectarse por una capa autenticada, sin duplicar información entre ambas plataformas.",
+      "A quién afecta: a los equipos de ventas corporativos que usan ambas plataformas, empezando por Accenture, socia de implementación y cliente piloto del proyecto."
+    ]}
+  ],
+  "image": {
+    "query": "business team office computer sales software dashboard",
+    "alt": "Personas en una oficina usando un software de ventas en una computadora"
+  },
+  "sources": [
+    {"name": "Microsoft Source", "owner": "microsoft", "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/", "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences"},
+    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/salesforce-and-microsoft-team-up-for-copilotforce-bringing-a-new-world-of-ai-insights-to-your-customer-data", "title": "Salesforce and Microsoft team up for 'Copilotforce', bringing a new world of AI insights to your customer data"}
+  ],
+  "status": "draft"
+}

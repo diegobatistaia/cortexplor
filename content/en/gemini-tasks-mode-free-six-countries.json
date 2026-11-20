@@ -1,0 +1,41 @@
+{
+  "lang": "en",
+  "slug": "gemini-tasks-mode-free-six-countries",
+  "story_id": "0d0093532c230e14",
+  "title": "Google Turns Gemini Into a Task-Doing Agent, Free in Six Countries",
+  "dek": "The free \"Tasks\" mode uses the new Gemini 4 Hydrogen model to book appointments, pay bills and shop, as Google also quietly rolls out a Mac computer-use feature that trails rivals, according to the company and TechCrunch.",
+  "meta_description": "Google rolls out a free Tasks mode in Gemini across six countries, using the new Gemini 4 Hydrogen model to book appointments, pay bills and shop, it says.",
+  "keyword": "Gemini Tasks mode",
+  "category": "aplicacoes",
+  "tags": ["ai", "google", "gemini", "ai agents"],
+  "body": [
+    {"type": "p", "text": "Google rebuilt Gemini's main mode around completing tasks instead of just answering questions, according to the company, confirmed by TechCrunch. Starting this week, the free \"Tasks\" mode is rolling out to hundreds of millions of users in the US, Japan, South Korea, Canada, Australia and India, Google says.", "items": []},
+    {"type": "p", "text": "The feature runs on Gemini 4 Hydrogen, the model Google first used to speed up search results on November 13. Users switch a toggle from \"Chat\" to \"Task\" inside the app, text Gemini on Android or iOS, or forward an email to gemini@google.com, according to the company.", "items": []},
+    {"type": "h2", "text": "From answering to acting", "items": []},
+    {"type": "p", "text": "Google says Gemini now connects to a user's email, calendar and payment methods to finish errands without constant check-ins. In one example the company gave, an employee asked Gemini to call two car dealerships at once to book a service appointment; the assistant waited on hold for both, found an open slot on the user's calendar and booked it in under five minutes, Google says.", "items": []},
+    {"type": "p", "text": "More advanced features, including shopping with a credit card through the Agent Payments Protocol (AP2), are starting in the US only, in partnership with Mastercard and Visa, with American Express coming soon, according to Google. Users set a spending cap before Gemini checks out, and receipts land in Google Wallet, which is expanding to iOS starting now, the company says. Gemini already connects to more than 60 apps, and developers can apply to join Google's Connected Apps Platform.", "items": []},
+    {"type": "h2", "text": "Catching up on computer use", "items": []},
+    {"type": "p", "text": "The same week, Google also began rolling out a \"computer use\" feature for the Gemini desktop app on Mac, letting the AI navigate native apps and browse the web on a user's behalf, according to TechCrunch. It's available only in English in the US and requires a paid Google AI Plus, Pro or Ultra subscription. TechCrunch notes Google is late to this particular race: OpenAI, Anthropic and Meta have already offered similar agentic features in their desktop apps.", "items": []},
+    {"type": "p", "text": "Google also points to other uses for Tasks mode: analyzing a surprise $389 electric bill and finding that a heat pump was running right during peak pricing hours, comparing USB-C chargers through the Google Shopping Graph and applying a discount code at checkout through Google Pay, and completing a grocery order on Instacart from a text message, including an extra item added by photo, the company says.", "items": []},
+    {"type": "p", "text": "According to Google, Gemini discloses right away that it's an AI when it calls a business, and businesses can opt out of that kind of contact whenever they want. The assistant only shares payment details or private account information with explicit user approval, and the data used by Tasks mode stays in isolated environments inside Google's infrastructure, the company says.", "items": []},
+    {"type": "p", "text": "TechCrunch notes Google began admitting early testers in September to a separate agent called \"CC,\" designed to help families stay organized across email, calendars, chats and tasks — another sign the company is racing to build assistants that act, not just answer.", "items": []},
+    {"type": "p", "text": "Neither Google nor TechCrunch said when the payment features or computer use would reach other countries or languages.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Who can use it: Gemini users in the US, Japan, South Korea, Canada, Australia and India get the free Tasks mode; Google hasn't listed other countries yet.",
+      "Since when: the rollout began this week, according to the company.",
+      "Cost: Tasks mode is free; AP2 payments and Mac computer use require a paid Google AI subscription.",
+      "What changes: Gemini moves from answering questions to acting on a user's email, calendar and payment methods, Google says.",
+      "Who's affected: consumers in the listed countries, plus developers who can apply for the Connected Apps Platform."
+    ]}
+  ],
+  "image": {
+    "query": "smartphone assistant app task list interface",
+    "alt": "Smartphone screen showing an AI assistant app in task mode"
+  },
+  "sources": [
+    {"name": "Google AI", "owner": "alphabet", "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/", "title": "Put Gemini to work for you"},
+    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/", "title": "Google gives Gemini the ability to use your Mac for you"}
+  ],
+  "status": "draft"
+}
