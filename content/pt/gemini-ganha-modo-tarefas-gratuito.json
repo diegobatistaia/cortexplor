@@ -1,0 +1,115 @@
+{
+  "lang": "pt",
+  "slug": "gemini-ganha-modo-tarefas-gratuito",
+  "story_id": "0d0093532c230e14",
+  "title": "Google transforma Gemini em assistente que executa tarefas",
+  "dek": "Novo modo \"Tarefas\" chega de graça a seis países e usa o modelo Gemini 4 Hydrogen para agendar compromissos, pagar contas e fazer compras, segundo o Google e o TechCrunch.",
+  "meta_description": "Google libera de graça o modo Tarefas do Gemini em seis países, usando o modelo Gemini 4 Hydrogen, para agendar, pagar contas e fazer compras, diz a empresa.",
+  "keyword": "Gemini modo Tarefas",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "agentes de ia"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "O Google deu ao Gemini um novo modo chamado \"Tarefas\", que faz o assistente completar sozinho ações como agendar compromissos, administrar contas e fazer compras, segundo anúncio oficial da empresa confirmado pelo TechCrunch. A novidade chega de graça a partir desta semana para centenas de milhões de usuários nos Estados Unidos, Japão, Coreia do Sul, Canadá, Austrália e Índia, afirma o Google. O Brasil não está na lista.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Google, o modo usa o Gemini 4 Hydrogen, o mesmo modelo que a empresa já havia colocado na busca em 13 de novembro. Para ativar, o usuário troca o botão de \"Chat\" para \"Tarefa\" no aplicativo, manda uma mensagem de texto para o Gemini no Android ou no iOS, ou encaminha um e-mail para o endereço gemini@google.com, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Do chat à execução",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Até agora, o Gemini respondia perguntas. No modo Tarefas, ele age: conecta-se a e-mail, agenda e métodos de pagamento do usuário para resolver pendências sem supervisão constante, segundo o Google. A empresa cita como exemplo um funcionário que pediu ao assistente para ligar para duas concessionárias e marcar a revisão do carro — o Gemini telefonou para as duas ao mesmo tempo, esperou na linha e encontrou um horário livre na agenda do usuário, tudo em menos de cinco minutos, segundo o relato da própria empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Recursos mais avançados, como fazer compras com cartão de crédito usando o Agent Payments Protocol (AP2), começam só nos Estados Unidos, em parceria com Mastercard e Visa, com a American Express chegando em breve, segundo o Google. O usuário define um limite de gasto antes de autorizar o assistente, e os recibos vão parar na carteira digital Google Wallet, que passa a funcionar também no iOS a partir de agora, de acordo com a empresa. O Gemini já se conecta a mais de 60 aplicativos, e desenvolvedores podem pedir para entrar na Connected Apps Platform da empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Computer use chega ao Mac",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Na mesma semana, o Google também começou a liberar, para o aplicativo do Gemini no Mac, uma função de \"computer use\" que deixa a IA navegar em programas nativos e em sites para completar tarefas sozinha, segundo o TechCrunch. O recurso está disponível só em inglês, nos Estados Unidos, e exige assinatura paga do Google AI Plus, Pro ou Ultra. A reportagem nota que o Google chega atrasado: OpenAI, Anthropic e Meta já oferecem funções parecidas em seus aplicativos de computador.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa também cita outros usos do modo Tarefas: analisar uma conta de luz inesperada de US$ 389 e identificar que o aparelho de ar-condicionado ligava justamente no horário de pico, comparar carregadores USB-C pelo Google Shopping Graph e aplicar um cupom de desconto ao finalizar a compra pelo Google Pay, e completar um pedido de supermercado pelo Instacart a partir de uma mensagem de texto, incluindo um item extra enviado por foto, segundo o Google.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a empresa, o Gemini avisa de imediato que é uma IA ao telefonar para um estabelecimento, e o comércio pode recusar esse tipo de contato quando quiser. O assistente só repassa dados de pagamento ou informações privadas do usuário com autorização explícita, e as informações usadas pelo modo Tarefas ficam em ambientes isolados dentro da infraestrutura do Google, afirma a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O TechCrunch lembra que o Google já havia começado, em setembro, a liberar testes de um agente batizado \"CC\", pensado para ajudar famílias a organizar e-mail, agenda, chats e tarefas — outro sinal de que a empresa está acelerando a corrida por assistentes que agem, e não só respondem.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nem o Google nem o TechCrunch informam quando as funções avançadas de pagamento ou o recurso de computer use devem chegar a outros países ou idiomas.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: usuários do Gemini nos Estados Unidos, Japão, Coreia do Sul, Canadá, Austrália e Índia, de graça; o Brasil não está incluído na primeira leva, segundo o Google.",
+        "Desde quando: o modo Tarefas começou a ser liberado nesta semana, segundo o anúncio da empresa.",
+        "Quanto custa: o modo básico é gratuito; pagamentos via AP2 e o recurso de computer use no Mac exigem assinatura paga do Google AI.",
+        "O que muda: o Gemini deixa de ser só um chat e passa a agir sobre e-mail, calendário e cartão de pagamento do usuário, segundo a empresa."
+      ]
+    }
+  ],
+  "image": {
+    "query": "smartphone assistant app task list interface",
+    "alt": "Tela de smartphone mostrando um aplicativo de assistente de IA em modo de tarefas",
+    "path": "/assets/img/gemini-ganha-modo-tarefas-gratuito-e2712179.jpg",
+    "credit": "Brett Jordan / Unsplash",
+    "author": "Brett Jordan",
+    "author_url": "https://unsplash.com/@brett_jordan?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/black-and-gray-computer-keyboard-0rXUP7Tg7nQ"
+  },
+  "sources": [
+    {
+      "name": "Google AI",
+      "owner": "alphabet",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "title": "Put Gemini to work for you"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "title": "Google gives Gemini the ability to use your Mac for you"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-20T10:51:18+00:00",
+  "updated_at": "2026-11-20T10:51:18+00:00"
+}

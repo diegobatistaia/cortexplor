@@ -1,0 +1,101 @@
+{
+  "slug": "microsoft-salesforce-copilotforce-partnership",
+  "lang": "en",
+  "date": "20 Nov 2026",
+  "no": 134,
+  "category": "Applications",
+  "kicker": "Applications · Microsoft",
+  "headline": "Microsoft and Salesforce launch the Copilotforce integration",
+  "headline_hl": "Copilotforce",
+  "dek": "Salesforce data reaches Copilot, Teams and Fabric, per Microsoft Source.",
+  "image": {
+    "path": "assets/img/microsoft-salesforce-copilotforce-partne-eb3ea833.jpg",
+    "credit": "Luke Chesser / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Copilotforce",
+  "sources": [
+    "Microsoft Source",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The launch",
+    "body": [
+      "Microsoft and Salesforce announced Copilotforce at Ignite, per Microsoft Source and TechRadar.",
+      "The Salesforce in Copilot plugin is in public preview (Microsoft Source)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per Microsoft Source:",
+    "points": [
+      {
+        "h": "Plugin",
+        "t": "More than 38 prebuilt skills (Microsoft Source)."
+      },
+      {
+        "h": "Access",
+        "t": "Authenticated link through Salesforce MCP."
+      },
+      {
+        "h": "Writes",
+        "t": "Actions that write to the CRM need confirmation."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "Sellers reach Salesforce data without leaving Copilot (Microsoft Source).",
+      "The Zero Copy link joins Data 360 and Fabric without duplicating data (Microsoft Source)."
+    ],
+    "stat": {
+      "big": "38",
+      "cap": "or more sales skills (Microsoft Source)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Teams",
+        "t": "Sales Cloud in Teams is in pilot."
+      },
+      {
+        "h": "Accenture",
+        "t": "It is the first pilot customer (Microsoft Source)."
+      },
+      {
+        "h": "Price",
+        "t": "The companies did not disclose pricing."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Microsoft and Salesforce launched Copilotforce, bringing sales data into Copilot.",
+    "body": [
+      "Per Microsoft Source and TechRadar, the partnership connects Salesforce data and actions to Copilot, Teams and Fabric. The Salesforce in Copilot plugin is in public preview, and sellers act within the permissions they already hold in Salesforce, with confirmation for anything written back to the CRM.",
+      "The Zero Copy integration links Salesforce Data 360 to Microsoft Fabric without moving data, and Sales Cloud in Teams is in pilot. Accenture is the first customer and will test it before taking it to clients. Microsoft and Salesforce did not disclose pricing."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#salesforce",
+      "#copilot"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Microsoft and Salesforce's Copilotforce",
+    "Slide 2: Microsoft and Salesforce announce Copilotforce at Ignite",
+    "Slide 3: how the plugin reaches Salesforce data inside Copilot",
+    "Slide 4: the Zero Copy link between Data 360 and Fabric",
+    "Slide 5: Teams pilot, Accenture and undisclosed pricing",
+    "Slide 6: sources for the story: Microsoft Source and TechRadar"
+  ]
+}

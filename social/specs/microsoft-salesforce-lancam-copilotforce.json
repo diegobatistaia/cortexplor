@@ -1,0 +1,101 @@
+{
+  "slug": "microsoft-salesforce-lancam-copilotforce",
+  "lang": "pt",
+  "date": "20 nov 2026",
+  "no": 137,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Microsoft",
+  "headline": "Microsoft e Salesforce lançam a integração Copilotforce",
+  "headline_hl": "Copilotforce",
+  "dek": "Dados do Salesforce chegam ao Copilot, Teams e Fabric, segundo a Microsoft Source.",
+  "image": {
+    "path": "assets/img/microsoft-salesforce-lancam-copilotforce-eb3ea833.jpg",
+    "credit": "Luke Chesser / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Copilotforce",
+  "sources": [
+    "Microsoft Source",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O lançamento",
+    "body": [
+      "Microsoft e Salesforce anunciaram o Copilotforce no Ignite, segundo a Microsoft Source e o TechRadar.",
+      "O plugin Salesforce in Copilot está em pré-visualização pública (Microsoft Source)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a Microsoft Source:",
+    "points": [
+      {
+        "h": "Plugin",
+        "t": "Mais de 38 habilidades prontas (Microsoft Source)."
+      },
+      {
+        "h": "Acesso",
+        "t": "Conexão autenticada via Salesforce MCP."
+      },
+      {
+        "h": "Gravação",
+        "t": "Ações que gravam no CRM pedem confirmação."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "Vendedores acessam dados do Salesforce sem sair do Copilot (Microsoft Source).",
+      "A conexão Zero Copy liga o Data 360 ao Fabric sem duplicar dados (Microsoft Source)."
+    ],
+    "stat": {
+      "big": "38",
+      "cap": "habilidades de vendas ou mais (Microsoft Source)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Teams",
+        "t": "O Sales Cloud in Teams está em piloto."
+      },
+      {
+        "h": "Accenture",
+        "t": "É a primeira cliente piloto (Microsoft Source)."
+      },
+      {
+        "h": "Preço",
+        "t": "As empresas não divulgaram valores."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Microsoft e Salesforce lançaram o Copilotforce, que leva dados de vendas para dentro do Copilot.",
+    "body": [
+      "Segundo a Microsoft Source e o TechRadar, a parceria conecta dados e ações do Salesforce ao Copilot, ao Teams e ao Fabric. O plugin Salesforce in Copilot está em pré-visualização pública, e vendedores agem dentro das permissões que já tinham no Salesforce, com confirmação para o que for gravado no CRM.",
+      "A integração Zero Copy liga o Salesforce Data 360 ao Microsoft Fabric sem mover os dados de lugar, e o Sales Cloud in Teams está em piloto. A Accenture é a primeira cliente e vai testar a ferramenta antes de levá-la a clientes. Microsoft e Salesforce não informaram o preço."
+    ],
+    "cta_variant": "A",
+    "cta": "Seu time de vendas usaria o CRM dentro do Copilot?",
+    "hashtags": [
+      "#cortexplor",
+      "#microsoft",
+      "#salesforce",
+      "#copilot"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Copilotforce da Microsoft e da Salesforce",
+    "Slide 2: Microsoft e Salesforce anunciam o Copilotforce no Ignite",
+    "Slide 3: como o plugin acessa dados do Salesforce no Copilot",
+    "Slide 4: conexão Zero Copy entre Data 360 e Fabric",
+    "Slide 5: piloto no Teams, Accenture e preço não divulgado",
+    "Slide 6: fontes da matéria: Microsoft Source e TechRadar"
+  ]
+}
