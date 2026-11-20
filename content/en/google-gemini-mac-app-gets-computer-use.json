@@ -1,0 +1,39 @@
+{
+  "lang": "en",
+  "slug": "google-gemini-mac-app-gets-computer-use",
+  "story_id": "27e1bf19867e52e6",
+  "title": "Google Brings Computer Use Automation to Gemini's Mac App",
+  "dek": "The feature lets Gemini click, type and navigate other apps on a Mac on the user's behalf, according to SiliconANGLE and Engadget.",
+  "meta_description": "Google adds Computer Use automation to the Gemini Mac app, letting the assistant click, type and operate other local apps, SiliconANGLE and Engadget report.",
+  "keyword": "gemini computer use mac",
+  "category": "aplicacoes",
+  "tags": ["ai", "google", "gemini", "mac", "automation"],
+  "body": [
+    {"type": "p", "text": "Google released a new version of the Gemini app for Mac on Thursday that adds \"Computer Use,\" a feature letting the assistant interact with other apps on the user's computer, according to SiliconANGLE. Engadget reports the capability had already been available to Windows users for a while and is now reaching the native Mac client.", "items": []},
+    {"type": "p", "text": "Users trigger it by including the command \"@Computer use\" in a natural-language prompt, SiliconANGLE reports. Gemini then finds the local app needed for the job, builds a project plan and carries out the work step by step, supporting tasks that involve dozens of individual actions, according to the outlet.", "items": []},
+    {"type": "h2", "text": "What it does on screen", "items": []},
+    {"type": "p", "text": "The assistant sees what is on screen through screenshots and can click, type, scroll and navigate between programs and websites, Engadget reports. The work runs in a background window, with a live preview inside Gemini's own chat pane, so the user can keep working on the Mac while the task runs, according to both outlets.", "items": []},
+    {"type": "p", "text": "Gemini does not take control of the user's cursor or screen, Engadget notes. Before acting, the user chooses which apps the assistant can access, and the system asks for approval on key actions before carrying them out, according to a Google statement cited by SiliconANGLE.", "items": []},
+    {"type": "p", "text": "Both outlets cite an example in which a hand-drawn sketch is turned into a three-dimensional model. SiliconANGLE adds that workflows can be chained together: the output of one Gemini task, such as a visual asset made in a design tool, can be used to kick off a new project in another local app, like Visual Studio Code.", "items": []},
+    {"type": "p", "text": "Engadget details other practical uses, such as batch-listing items for sale on e-commerce platforms from photos stored in a local folder, with Gemini researching pricing and filling in listing details, or quickly completing local PDF forms such as shipping declarations.", "items": []},
+    {"type": "h2", "text": "In practice", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Who can use it and where: Mac users with a Google AI subscription, which also unlocks a broader set of Google's AI tools; the feature is available in the United States at launch, according to SiliconANGLE.",
+      "Since when: as of this Thursday (19), per SiliconANGLE; on Windows, Computer Use had already been available for some time, according to Engadget.",
+      "What changes from before: Gemini already had a native Mac app, but without the ability to operate other local apps; the capability that already existed on Windows now extends to Mac, Engadget reports.",
+      "Safety controls: users pick which apps Gemini can reach, watch each step live, and approve key actions before they happen, according to a Google statement cited by SiliconANGLE."
+    ]},
+    {"type": "p", "text": "SiliconANGLE notes that rival products already offer similar functionality. Meta's AI agent Muse can also interact with local apps and data on Mac, and has a cloud-based version that can keep working even when the user's computer is offline. OpenAI's Dots offers a comparable capability and already includes automation for business workflows such as procurement, the outlet reports.", "items": []},
+    {"type": "p", "text": "The move puts Google, Meta and OpenAI in direct competition over which assistant can reliably operate a user's own desktop software, rather than just answering questions inside a chat window. For companies already running Gemini in daily workflows, the feature shifts part of that competition from model quality to how much of a repetitive task a user is willing to hand over, and on what terms of access.", "items": []},
+    {"type": "p", "text": "The shift also changes how Gemini sits on a user's machine. Instead of staying inside a separate chat window and waiting for questions, the assistant now reaches into the programs already installed on the computer and repeats steps a person would otherwise have to carry out by hand, switching between several apps along the way. That pushes Gemini closer to what Google has described as an agent meant to carry out work, not just answer it.", "items": []}
+  ],
+  "image": {
+    "query": "laptop screen automation workflow abstract technology",
+    "alt": "Illustration of a laptop with app windows being controlled by an AI assistant"
+  },
+  "sources": [
+    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/19/google-adds-computer-use-capabilities-to-geminis-mac-app/", "title": "Google adds computer use capabilities to Gemini's Mac app"},
+    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/", "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app"}
+  ],
+  "status": "draft"
+}
