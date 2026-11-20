@@ -1,0 +1,101 @@
+{
+  "slug": "google-gemini-mac-app-gets-computer-use",
+  "lang": "en",
+  "date": "20 Nov 2026",
+  "no": 135,
+  "category": "Applications",
+  "kicker": "Applications · Google",
+  "headline": "Google brings Computer Use automation to Gemini's Mac app",
+  "headline_hl": "Computer Use",
+  "dek": "Gemini can operate apps on a Mac, per SiliconANGLE.",
+  "image": {
+    "path": "assets/img/google-gemini-mac-app-gets-computer-use-52190620.jpg",
+    "credit": "Nicolas Arnold / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "Computer<br>Use on Mac",
+  "sources": [
+    "SiliconANGLE",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The launch",
+    "body": [
+      "Google released a new Gemini app for Mac with the Computer Use feature, per SiliconANGLE.",
+      "It had already been available on Windows, per Engadget."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "Per SiliconANGLE:",
+    "points": [
+      {
+        "h": "Command",
+        "t": "Users include @Computer use in a prompt."
+      },
+      {
+        "h": "Plan",
+        "t": "Gemini finds the app and builds a plan."
+      },
+      {
+        "h": "Actions",
+        "t": "It works step by step, in the background."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "The assistant now acts on installed programs, not just chat answers (SiliconANGLE).",
+      "It does not take over the user's cursor or screen (Engadget)."
+    ],
+    "stat": {
+      "big": "19",
+      "cap": "Nov. launch day on Mac (SiliconANGLE)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Control",
+        "t": "Users pick which apps Gemini can reach."
+      },
+      {
+        "h": "Approval",
+        "t": "Key actions need user approval."
+      },
+      {
+        "h": "Rivals",
+        "t": "Meta and OpenAI have similar tools (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Gemini's Mac app gained Computer Use and now operates other programs on the user's behalf.",
+    "body": [
+      "Per SiliconANGLE, users include @Computer use in a natural-language prompt, and Gemini finds the app it needs, builds a plan and carries out the work step by step. Engadget says the feature was already on Windows and now reaches the native Mac app.",
+      "The assistant sees the screen through screenshots and clicks, types and navigates in the background without taking the user's cursor, per Engadget. Users choose which apps Gemini can reach and approve key actions. SiliconANGLE notes Meta and OpenAI already offer similar tools."
+    ],
+    "cta_variant": "A",
+    "cta": "Would you let an AI operate your Mac for you?",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#gemini",
+      "#computeruse"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Gemini's Computer Use on Mac",
+    "Slide 2: Google launches Computer Use in the Gemini Mac app",
+    "Slide 3: how the @Computer use command builds and runs a plan",
+    "Slide 4: Gemini acts on programs without taking the cursor",
+    "Slide 5: user controls and rival tools from Meta and OpenAI",
+    "Slide 6: sources for the Gemini story: SiliconANGLE and Engadget"
+  ]
+}
