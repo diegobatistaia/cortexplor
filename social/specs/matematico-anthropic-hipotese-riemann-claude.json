@@ -1,0 +1,102 @@
+{
+  "slug": "matematico-anthropic-hipotese-riemann-claude",
+  "lang": "pt",
+  "date": "21 nov 2026",
+  "no": 143,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Anthropic",
+  "headline": "Anthropic diz ter provado a Hipótese de Riemann",
+  "headline_hl": "provado",
+  "dek": "Segundo o The Verge, a SiliconANGLE e o Engadget, a prova ainda não foi verificada de forma independente.",
+  "image": {
+    "path": "assets/img/matematico-anthropic-hipotese-riemann-cl-d38657b2.jpg",
+    "credit": "Thomas T / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "RIEMANN<br>ALEGAÇÃO",
+  "sources": [
+    "The Verge",
+    "SiliconANGLE",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Uma alegação, não um fato",
+    "body": [
+      "Levent Alpöge, pesquisador da Anthropic, afirma ter provado a Hipótese de Riemann com ajuda do Claude (The Verge, SiliconANGLE, Engadget).",
+      "Ele publicou no próprio site, e a Anthropic não comentou (SiliconANGLE, The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como seria a prova",
+    "body": "Segundo Alpöge, a demonstração foi escrita em Lean.",
+    "points": [
+      {
+        "h": "Lean",
+        "t": "Linguagem que testa cada passo lógico no computador (SiliconANGLE)."
+      },
+      {
+        "h": "Tamanho",
+        "t": "A prova teria mais de 250 mil páginas (SiliconANGLE, Engadget)."
+      },
+      {
+        "h": "Versão geral",
+        "t": "Ele diz resolver também a hipótese generalizada (The Verge, SiliconANGLE)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que o problema pesa",
+    "body": [
+      "É um dos Problemas do Milênio, com prêmio de US$ 1 milhão (The Verge, SiliconANGLE, Engadget).",
+      "Trata da distribuição dos números primos, segundo o The Verge."
+    ],
+    "stat": {
+      "big": "250 mil",
+      "cap": "páginas, segundo Alpöge (SiliconANGLE, Engadget)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que falta",
+    "items": [
+      {
+        "h": "Revisão",
+        "t": "Matemáticos de fora ainda precisam revisar a prova (The Verge, Engadget)."
+      },
+      {
+        "h": "Tempo",
+        "t": "A checagem pode levar bastante tempo (The Verge, Engadget)."
+      },
+      {
+        "h": "Rival",
+        "t": "A OpenAI também diz ter avançado em problemas difíceis, sem confirmação (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Um pesquisador da Anthropic diz ter provado a Hipótese de Riemann com o Claude.",
+    "body": [
+      "Levent Alpöge afirma ter provado a Hipótese de Riemann, um dos Problemas do Milênio, com ajuda do Claude, segundo o The Verge, a SiliconANGLE e o Engadget. Ele publicou no próprio site, e a Anthropic não comentou. A prova teria mais de 250 mil páginas e estaria escrita em Lean, linguagem que verifica cada passo (SiliconANGLE, Engadget).",
+      "Atenção: a reivindicação não passou por verificação independente, e matemáticos de fora ainda precisam revisar a demonstração (The Verge, Engadget). Até lá, é uma alegação, não um resultado confirmado."
+    ],
+    "cta_variant": "A",
+    "cta": "Você acredita que a IA pode resolver os grandes problemas da matemática?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#matematica"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a alegação de prova da Hipótese de Riemann",
+    "Slide 2: pesquisador da Anthropic faz a alegação",
+    "Slide 3: como seria a prova escrita em Lean",
+    "Slide 4: 250 mil páginas, segundo Alpöge",
+    "Slide 5: o que falta para confirmar a prova",
+    "Slide 6: fontes The Verge, SiliconANGLE e Engadget"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "anthropic-mathematician-riemann-hypothesis-claude",
+  "lang": "en",
+  "date": "21 Nov 2026",
+  "no": 140,
+  "category": "Applications",
+  "kicker": "Applications · Anthropic",
+  "headline": "Anthropic mathematician claims Riemann Hypothesis proof",
+  "headline_hl": "claims",
+  "dek": "The Verge, SiliconANGLE and Engadget report the proof has not been independently verified.",
+  "image": {
+    "path": "assets/img/anthropic-mathematician-riemann-hypothes-d38657b2.jpg",
+    "credit": "Thomas T / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "RIEMANN<br>CLAIM",
+  "sources": [
+    "The Verge",
+    "SiliconANGLE",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A claim, not a fact",
+    "body": [
+      "Levent Alpöge, an Anthropic mathematician, says he proved the Riemann Hypothesis with help from Claude (The Verge, SiliconANGLE, Engadget).",
+      "He posted it on his own site, and Anthropic has not commented (SiliconANGLE, The Verge)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How the proof works",
+    "body": "According to Alpöge, the proof is written in Lean.",
+    "points": [
+      {
+        "h": "Lean",
+        "t": "A language that tests each logical step by computer (SiliconANGLE)."
+      },
+      {
+        "h": "Size",
+        "t": "The proof runs more than 250,000 pages (SiliconANGLE, Engadget)."
+      },
+      {
+        "h": "General",
+        "t": "He says it also resolves the generalized version (The Verge, SiliconANGLE)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why the problem matters",
+    "body": [
+      "It is a Millennium Prize problem with a $1 million award (The Verge, SiliconANGLE, Engadget).",
+      "It concerns how prime numbers are distributed, per The Verge."
+    ],
+    "stat": {
+      "big": "250,000",
+      "cap": "pages, per Alpöge (SiliconANGLE, Engadget)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What's missing",
+    "items": [
+      {
+        "h": "Review",
+        "t": "Outside mathematicians must still check the proof (The Verge, Engadget)."
+      },
+      {
+        "h": "Time",
+        "t": "Checking it may take a long time (The Verge, Engadget)."
+      },
+      {
+        "h": "Rival",
+        "t": "OpenAI also claims math progress, unconfirmed (The Verge)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "An Anthropic mathematician claims a Riemann Hypothesis proof made with Claude.",
+    "body": [
+      "Levent Alpöge says he proved the Riemann Hypothesis, a Millennium Prize problem, with help from Claude, according to The Verge, SiliconANGLE and Engadget. He posted it on his own site, and Anthropic has not commented. The proof reportedly runs more than 250,000 pages and is written in Lean, a language that checks each step (SiliconANGLE, Engadget).",
+      "Keep in mind: the claim has not been independently verified, and mathematicians outside Anthropic still need to review the proof (The Verge, Engadget). Until then it is an allegation, not a confirmed result."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claude",
+      "#mathematics"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on the claimed Riemann Hypothesis proof",
+    "Slide 2: an Anthropic mathematician makes the claim",
+    "Slide 3: how the proof is written in Lean",
+    "Slide 4: 250,000 pages, according to Alpöge",
+    "Slide 5: what is missing to confirm the proof",
+    "Slide 6: sources The Verge, SiliconANGLE and Engadget"
+  ]
+}
