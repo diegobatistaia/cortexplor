@@ -97,7 +97,13 @@
   ],
   "image": {
     "query": "mathematics equations blackboard chalk",
-    "alt": "Ecuaciones matemáticas escritas en una pizarra"
+    "alt": "Ecuaciones matemáticas escritas en una pizarra",
+    "path": "/assets/img/matematico-anthropic-hipotesis-riemann-c-d38657b2.jpg",
+    "credit": "Thomas T / Unsplash",
+    "author": "Thomas T",
+    "author_url": "https://unsplash.com/@pyssling240?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blackboard-with-a-lot-of-writing-on-it-OPpCbAAKWv8"
   },
   "sources": [
     {
@@ -119,5 +125,7 @@
       "title": "Anthropic employee claims to have proven the most famous math problem using Claude"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-21T21:50:59+00:00",
+  "updated_at": "2026-11-21T21:50:59+00:00"
 }
