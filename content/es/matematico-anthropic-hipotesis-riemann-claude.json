@@ -1,0 +1,123 @@
+{
+  "lang": "es",
+  "slug": "matematico-anthropic-hipotesis-riemann-claude",
+  "story_id": "2e25734d54670fa1",
+  "title": "Matemático de Anthropic dice haber probado la Hipótesis de Riemann",
+  "dek": "Levent Alpöge publicó la demostración en su web personal días después del debut de Anthropic en el Nasdaq; la prueba aún no fue verificada de forma independiente.",
+  "meta_description": "Un matemático de Anthropic afirma haber probado la Hipótesis de Riemann con Claude, en una demostración de 250.000 páginas sin verificación independiente.",
+  "keyword": "Hipótesis de Riemann Anthropic Claude",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "anthropic",
+    "claude",
+    "matematicas"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "El matemático Levent Alpöge, investigador de Anthropic, afirma haber demostrado la Hipótesis de Riemann con ayuda de Claude, según The Verge, SiliconANGLE y Engadget. La hipótesis es uno de los Problemas del Milenio del Clay Mathematics Institute, premiado con US$ 1 millón, y se la considera una de las más célebres cuestiones abiertas de las matemáticas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Alpöge publicó el anuncio en su propia página web, no en un canal oficial de Anthropic, según SiliconANGLE. El texto se conoció un día después de que la empresa debutara en el Nasdaq, en una oferta que recaudó más de US$ 93.000 millones, como <a href=\"https://cortexplor.com/es/anthropic-debuta-nasdaq-dos-billones/\">contó Cortexplor</a> en su momento. Anthropic no se pronunció sobre la afirmación, según The Verge y SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Propuesta por el matemático alemán Bernhard Riemann en 1859, la hipótesis trata sobre la distribución de los números primos a lo largo de la recta numérica y se considera uno de los problemas abiertos más importantes de las matemáticas, según The Verge, SiliconANGLE y Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De confirmarse, la demostración mostraría que la distribución de los números primos —que a primera vista parece aleatoria— en realidad sigue un patrón previsible, según SiliconANGLE y Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Creo haber descubierto, trabajando con Claude, una demostración de la Hipótesis de Riemann\", escribió Alpöge, según The Verge y SiliconANGLE. \"Lo que vi durante el proceso me sorprendió tanto que creo que es un amanecer, en toda la ciencia, de algo mucho mayor.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "El método",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Alpöge, citado por SiliconANGLE y Engadget, la demostración tiene más de 250.000 páginas y está escrita en Lean, un lenguaje de programación usado para verificar demostraciones matemáticas. En una prueba en Lean, el argumento se convierte en un programa de computadora: si el programa se ejecuta sin errores, la demostración es correcta, lo que facilita que otros matemáticos la revisen.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Esto es distinto de una demostración matemática tradicional, escrita en prosa y revisada línea por línea por otros especialistas. En una prueba en Lean, cada paso lógico es comprobado por el propio programa antes de ser aceptado, lo que reduce la posibilidad de que un error pase inadvertido, según SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El investigador asegura que el mismo método resuelve también la versión generalizada de la Hipótesis de Riemann, que extiende el resultado a otras funciones similares a la original, según The Verge y SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El tamaño de la demostración ilustra el desafío de la revisión: comprobar cada paso del argumento, incluso con la ayuda de Lean, exige tiempo y atención de especialistas, según The Verge y Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Lo que falta",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La afirmación todavía no pasó por una verificación independiente. Según The Verge y Engadget, matemáticos ajenos a Anthropic todavía deben revisar la demostración, un proceso que puede tardar —el mismo obstáculo que enfrentan otras pruebas matemáticas recientes hechas con ayuda de IA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La afirmación de Alpöge llega días después de que OpenAI también dijera haber avanzado en la resolución de problemas matemáticos considerados muy difíciles, según The Verge y Engadget —ninguna de las dos fuentes trata esos resultados de la rival como confirmados de forma independiente.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué dice haber probado Alpöge: la Hipótesis de Riemann y su versión generalizada, con Claude, en una demostración de más de 250.000 páginas escrita en Lean, según SiliconANGLE y Engadget.",
+        "Dónde se conoció: en la página web personal del investigador, no en un canal oficial de Anthropic, según SiliconANGLE y The Verge.",
+        "Estado de la verificación: la demostración todavía no fue confirmada por matemáticos independientes, y Anthropic no hizo comentarios oficiales, según The Verge y Engadget.",
+        "Qué está en juego: la Hipótesis de Riemann, propuesta en 1859, es uno de los Problemas del Milenio del Clay Mathematics Institute, con un premio de US$ 1 millón, según las tres fuentes."
+      ]
+    }
+  ],
+  "image": {
+    "query": "mathematics equations blackboard chalk",
+    "alt": "Ecuaciones matemáticas escritas en una pizarra"
+  },
+  "sources": [
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/20/anthropic-researcher-claims-to-have-proven-riemann-hypothesis-using-claude/",
+      "title": "Anthropic researcher claims to have proven Riemann hypothesis using Claude"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+      "title": "Anthropic employee claims to have proven the most famous math problem using Claude"
+    }
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,123 @@
+{
+  "lang": "en",
+  "slug": "anthropic-mathematician-riemann-hypothesis-claude",
+  "story_id": "2e25734d54670fa1",
+  "title": "Anthropic Mathematician Claims Proof of the Riemann Hypothesis",
+  "dek": "Levent Alpöge posted the claim on his personal site days after Anthropic's Nasdaq debut; the Lean-written proof has not been independently verified.",
+  "meta_description": "An Anthropic mathematician says he proved the Riemann Hypothesis with Claude in a 250,000-page proof written in Lean that has not been independently verified.",
+  "keyword": "Riemann Hypothesis Anthropic Claude",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "math"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Levent Alpöge, a mathematician at Anthropic, says he has proved the Riemann Hypothesis with help from Claude, according to The Verge, SiliconANGLE and Engadget. The hypothesis is one of the Clay Mathematics Institute's Millennium Prize problems, carrying a $1 million award, and ranks among the most notorious open questions in mathematics.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Alpöge posted the claim on his personal website rather than through an official Anthropic channel, according to SiliconANGLE. The announcement landed a day after Anthropic's Nasdaq debut, in an offering that raised more than $93 billion, as <a href=\"https://cortexplor.com/en/anthropic-nasdaq-debut-2-trillion/\">Cortexplor reported</a> at the time. Anthropic has not commented on the claim, according to The Verge and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "First proposed by German mathematician Bernhard Riemann in 1859, the hypothesis concerns how prime numbers are distributed along the number line and is considered one of the most important open problems in mathematics, according to The Verge, SiliconANGLE and Engadget. It has resisted proof for more than 165 years.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "If confirmed, the proof would show that the distribution of prime numbers, which looks random at first glance, actually follows a predictable pattern, according to SiliconANGLE and Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,\" Alpöge wrote, according to The Verge and SiliconANGLE. \"What I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater.\"",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the proof works",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Alpöge, cited by SiliconANGLE and Engadget, the proof runs more than 250,000 pages and is written in Lean, a programming language used to formally verify mathematical arguments. In a Lean proof, the argument is converted into running code: if the program executes without errors, the logic holds, which makes it easier for other mathematicians to check the work.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "That differs from a traditional mathematical proof, written in prose and checked line by line by other specialists. In a Lean proof, each logical step is tested by the program itself before being accepted, which cuts down the chance that an error slips through unnoticed, according to SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Alpöge says the same method also resolves the Generalized Riemann Hypothesis, which extends the result to a wider family of functions related to the original one, according to The Verge and SiliconANGLE. That broader version is considered harder to settle, since it must hold not just for the original zeta function but for an entire family of related functions, according to The Verge and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The sheer size of the proof underscores the review challenge ahead: checking every step of the argument, even with Lean's help, takes time and expert attention, according to The Verge and Engadget.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What's missing",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The claim has not been independently verified. According to The Verge and Engadget, mathematicians outside Anthropic still need to review the proof, a process that can take time — the same hurdle other recent AI-assisted math claims have faced.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Alpöge's claim comes days after OpenAI also said it had made progress on math problems considered extremely difficult, according to The Verge and Engadget — neither outlet treats the rival's results as independently confirmed.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What Alpöge claims to have proved: the Riemann Hypothesis and its generalized version, with Claude, in a proof running more than 250,000 pages written in Lean, according to SiliconANGLE and Engadget.",
+        "Where the claim surfaced: on the researcher's personal website, not through an official Anthropic channel, according to SiliconANGLE and The Verge.",
+        "Verification status: the proof has not yet been confirmed by independent mathematicians, and Anthropic has not issued an official comment, according to The Verge and Engadget.",
+        "What's at stake: the Riemann Hypothesis, proposed in 1859, is one of the Clay Mathematics Institute's Millennium Prize Problems, carrying a $1 million award, according to all three outlets."
+      ]
+    }
+  ],
+  "image": {
+    "query": "mathematics equations blackboard chalk",
+    "alt": "Mathematical equations written on a blackboard"
+  },
+  "sources": [
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/20/anthropic-researcher-claims-to-have-proven-riemann-hypothesis-using-claude/",
+      "title": "Anthropic researcher claims to have proven Riemann hypothesis using Claude"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+      "title": "Anthropic employee claims to have proven the most famous math problem using Claude"
+    }
+  ],
+  "status": "draft"
+}
