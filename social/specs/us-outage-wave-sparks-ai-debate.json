@@ -1,0 +1,101 @@
+{
+  "slug": "us-outage-wave-sparks-ai-debate",
+  "lang": "en",
+  "date": "21 Nov 2026",
+  "no": 138,
+  "category": "Policy",
+  "kicker": "Policy · Outages",
+  "headline": "US outage wave reignites the debate over AI's role",
+  "headline_hl": "outage",
+  "dek": "TechCrunch and Wired report officials deny an attack, but experts split on what role AI plays.",
+  "image": {
+    "path": "assets/img/us-outage-wave-sparks-ai-debate-d0cfff17.jpg",
+    "credit": "Egor Komarov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "OUTAGES<br>AND AI",
+  "sources": [
+    "TechCrunch",
+    "Wired"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "A string of failures",
+    "body": [
+      "Microsoft's Outlook, Teams and Copilot went down, the FAA grounded flights nationwide and Apple Pay stopped, according to TechCrunch and Wired.",
+      "Officials deny any link between the cases or a cyberattack (TechCrunch, Wired)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Two opposing readings",
+    "body": "Experts interviewed by TechCrunch disagree.",
+    "points": [
+      {
+        "h": "Upbeat",
+        "t": "Dave DeWalt sees growing pains of a security system getting stronger (TechCrunch)."
+      },
+      {
+        "h": "Skeptic",
+        "t": "Anusha Iyer blames rushed mixing of legacy and modern systems (TechCrunch)."
+      },
+      {
+        "h": "FAA",
+        "t": "Early findings point to an upgrade that overwhelmed old hardware (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Alarm in Congress",
+    "body": [
+      "Senator Mark Warner called the outages a wake-up call on AI's pace (Wired).",
+      "Trump called the episodes individual events, TechCrunch reports."
+    ],
+    "stat": {
+      "big": "No attack",
+      "cap": "is what officials say (TechCrunch, Wired)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Probes",
+        "t": "The cause of each failure is still to be confirmed, TechCrunch says."
+      },
+      {
+        "h": "Controls",
+        "t": "Iyer urges tighter access control and gradual rollout (TechCrunch)."
+      },
+      {
+        "h": "Context",
+        "t": "The wave followed cybersecurity's Black October (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A wave of US outages reignites the debate over AI's role.",
+    "body": [
+      "Microsoft's Outlook, Teams and Copilot went down, the FAA grounded flights nationwide and Apple Pay stopped working, according to TechCrunch and Wired. U.S. officials deny any cyberattack or link between the cases, and the companies point to technical causes.",
+      "Experts are split. Dave DeWalt sees growing pains of a security system getting stronger, while Anusha Iyer blames the rushed mix of legacy systems with new technology (TechCrunch). Senator Mark Warner said AI is moving faster than our ability to manage its consequences (Wired)."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#outages",
+      "#cybersecurity",
+      "#aipolicy"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on the US outage wave and AI",
+    "Slide 2: systems that failed and the denial of an attack",
+    "Slide 3: two expert readings on AI's role",
+    "Slide 4: senator's alarm and officials' position",
+    "Slide 5: what comes next on the outages",
+    "Slide 6: sources TechCrunch and Wired"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "onda-apagoes-eua-debate-papel-ia",
+  "lang": "pt",
+  "date": "21 nov 2026",
+  "no": 141,
+  "category": "Regulação",
+  "kicker": "Regulação · Apagões",
+  "headline": "Onda de apagões nos EUA reabre o debate sobre IA",
+  "headline_hl": "apagões",
+  "dek": "Segundo a TechCrunch e a Wired, autoridades negam ataque, mas especialistas divergem sobre o papel da IA.",
+  "image": {
+    "path": "assets/img/onda-apagoes-eua-debate-papel-ia-d0cfff17.jpg",
+    "credit": "Egor Komarov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "APAGÕES<br>E IA",
+  "sources": [
+    "TechCrunch",
+    "Wired"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "Falhas em série",
+    "body": [
+      "Outlook, Teams e Copilot, da Microsoft, caíram. A FAA suspendeu voos no país e o Apple Pay parou, segundo a TechCrunch e a Wired.",
+      "Autoridades negam ligação entre os casos ou ataque cibernético (TechCrunch, Wired)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Duas leituras opostas",
+    "body": "Os especialistas ouvidos pela TechCrunch discordam.",
+    "points": [
+      {
+        "h": "Otimista",
+        "t": "Dave DeWalt vê dores de crescimento de uma segurança que melhora (TechCrunch)."
+      },
+      {
+        "h": "Cética",
+        "t": "Anusha Iyer culpa a mistura apressada de sistemas antigos e novos (TechCrunch)."
+      },
+      {
+        "h": "FAA",
+        "t": "Achados preliminares apontam modernização que sobrecarregou equipamentos antigos (TechCrunch)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Alerta no Congresso",
+    "body": [
+      "O senador Mark Warner disse que a IA avança mais rápido do que a capacidade de lidar com as consequências (Wired).",
+      "Trump chamou os casos de eventos individuais, segundo a TechCrunch."
+    ],
+    "stat": {
+      "big": "Sem ataque",
+      "cap": "é o que as autoridades afirmam (TechCrunch, Wired)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Causas",
+        "t": "Falta confirmar a causa de cada falha, segundo a TechCrunch."
+      },
+      {
+        "h": "Controle",
+        "t": "Iyer defende mais controle de acesso e adoção gradual (TechCrunch)."
+      },
+      {
+        "h": "Contexto",
+        "t": "A onda veio após o Outubro Negro da segurança (TechCrunch)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Onda de apagões nos EUA reabre o debate sobre o papel da IA.",
+    "body": [
+      "Outlook, Teams e Copilot, da Microsoft, caíram, a FAA suspendeu voos no país e o Apple Pay parou, segundo a TechCrunch e a Wired. Autoridades americanas negam ataque cibernético ou ligação entre os casos, e as empresas apontam causas técnicas.",
+      "Os especialistas divergem. Dave DeWalt vê dores de crescimento de uma segurança que melhora, e Anusha Iyer culpa a mistura apressada de sistemas antigos com tecnologia nova (TechCrunch). O senador Mark Warner disse que a IA avança mais rápido do que nossa capacidade de lidar com ela (Wired)."
+    ],
+    "cta_variant": "A",
+    "cta": "Os apagões são crise de IA ou de infraestrutura antiga?",
+    "hashtags": [
+      "#cortexplor",
+      "#apagao",
+      "#ciberseguranca",
+      "#faa"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a onda de apagões nos EUA e a IA",
+    "Slide 2: sistemas que falharam e a negativa de ataque",
+    "Slide 3: duas leituras de especialistas sobre a IA",
+    "Slide 4: alerta do senador e posição das autoridades",
+    "Slide 5: próximos passos sobre os apagões",
+    "Slide 6: fontes TechCrunch e Wired"
+  ]
+}
