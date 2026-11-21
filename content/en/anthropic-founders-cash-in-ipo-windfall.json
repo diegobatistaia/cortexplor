@@ -7,36 +7,116 @@
   "meta_description": "Anthropic's IPO filings show its founders cashed out $280 million each while Amazon and Google ended up with 28% of the company, per TechCrunch and Fortune.",
   "keyword": "Anthropic IPO",
   "category": "mercado",
-  "tags": ["ai", "anthropic", "ipo", "mercado"],
+  "tags": [
+    "ai",
+    "anthropic",
+    "ipo",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Anthropic's initial public offering doubled as a disclosure of who controls the AI lab: Amazon and Google together end up owning 28% of the company, with stakes of 14.6% and 13.4% respectively, according to TechCrunch and Fortune.", "items": []},
-    {"type": "p", "text": "The filing also shows how richly the deal paid off for Anthropic's seven co-founders. Each sold about 3.4 million shares for roughly $280 million before fees and taxes, TechCrunch and Fortune reported independently. Altogether, the founders — including chief executive Dario Amodei and his sister, company president Daniela Amodei — cashed out close to $1.95 billion, according to TechCrunch.", "items": []},
-    {"type": "p", "text": "The seven have pledged to put 80% of their personal Anthropic equity toward philanthropy, a commitment described in the IPO filing submitted to the U.S. Securities and Exchange Commission and cited by both TechCrunch and Fortune. Both outlets note the pledge is voluntary and carries no legal obligation.", "items": []},
-    {"type": "p", "text": "Despite owning a minority of the company's equity, the founders retain 50.1% of its voting power, Fortune reports. Each holds between 237 million and 241 million shares after the offering — an almost even split among the seven, which the outlet calls unusual for a Silicon Valley startup.", "items": []},
-    {"type": "p", "text": "Anthropic raised $81.3 billion in the Nasdaq offering, the largest ever, surpassing the $75 billion record set by Elon Musk's SpaceX in June, according to Wired. The company's valuation after the sale stands at about $1.5 trillion on a fully diluted basis — short of the roughly $1.8 trillion attached to SpaceX, the outlet says.", "items": []},
-    {"type": "p", "text": "Amazon's stake traces back to promissory notes it received for investments made in Anthropic since 2023, when the startup had about 160 employees; some of those notes converted into equity during the IPO, Fortune reports. In exchange for its initial $1.25 billion commitment, Anthropic agreed to make Amazon Web Services its primary cloud provider, the outlet says.", "items": []},
-    {"type": "p", "text": "Separately from the public offering, Anthropic sold $26 billion in non-voting Class N shares to a group of tech giants. Nvidia and Google each bought $10 billion worth, while AMD, Broadcom, Micron, Microsoft and Taiwan's TSMC split the rest, TechCrunch reports.", "items": []},
-    {"type": "p", "text": "Anthropic was founded in 2021 by former OpenAI employees who left during the pandemic over strategic disagreements, and the two companies have been rivals ever since, according to Wired. The company's most recent quarterly revenue reached $17 billion, up more than 1,100% from a year earlier, the outlet says.", "items": []},
-    {"type": "p", "text": "Early backers profited too. Lightspeed Venture Partners, which led a $3.5 billion funding round in March 2025 when Anthropic was valued at $61.5 billion, holds less than 2% of the company — a stake now worth tens of billions of dollars, Fortune reports. Iconiq, which has invested more than $6 billion in Anthropic since 2025, holds a stake worth more than $26 billion, according to the outlet.", "items": []},
-    {"type": "p", "text": "Research firm Sacra estimates that roughly 2,800 current and former Anthropic employees hold at least $1 million in pretax vested equity, based on a $1.35 trillion valuation, and that at least 400 early hires could hold $100 million or more in shares, according to estimates cited by Fortune.", "items": []},
-    {"type": "p", "text": "The scale of what Anthropic still needs to raise shows in the IPO's own numbers: the company requires about $70.7 billion to cover infrastructure and computing commitments over the next 12 months, and $451.6 billion by the end of 2030, TechCrunch reports.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Each of Anthropic's seven co-founders sold about $280 million in shares during the IPO, according to TechCrunch and Fortune.",
-      "The founders pledged 80% of their personal equity to philanthropy, voluntarily and without legal obligation, per the SEC filing.",
-      "Amazon and Google together hold 28% of Anthropic after the offering — 14.6% and 13.4%, respectively — according to TechCrunch and Fortune.",
-      "Nvidia and Google each bought $10 billion in non-voting shares in a parallel $26 billion private placement, TechCrunch reports.",
-      "Anthropic needs $70.7 billion in infrastructure commitments over the next 12 months alone, according to TechCrunch."
-    ]}
+    {
+      "type": "p",
+      "text": "Anthropic's initial public offering doubled as a disclosure of who controls the AI lab: Amazon and Google together end up owning 28% of the company, with stakes of 14.6% and 13.4% respectively, according to TechCrunch and Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The filing also shows how richly the deal paid off for Anthropic's seven co-founders. Each sold about 3.4 million shares for roughly $280 million before fees and taxes, TechCrunch and Fortune reported independently. Altogether, the founders — including chief executive Dario Amodei and his sister, company president Daniela Amodei — cashed out close to $1.95 billion, according to TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The seven have pledged to put 80% of their personal Anthropic equity toward philanthropy, a commitment described in the IPO filing submitted to the U.S. Securities and Exchange Commission and cited by both TechCrunch and Fortune. Both outlets note the pledge is voluntary and carries no legal obligation.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Despite owning a minority of the company's equity, the founders retain 50.1% of its voting power, Fortune reports. Each holds between 237 million and 241 million shares after the offering — an almost even split among the seven, which the outlet calls unusual for a Silicon Valley startup.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic raised $81.3 billion in the Nasdaq offering, the largest ever, surpassing the $75 billion record set by Elon Musk's SpaceX in June, according to Wired. The company's valuation after the sale stands at about $1.5 trillion on a fully diluted basis — short of the roughly $1.8 trillion attached to SpaceX, the outlet says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Amazon's stake traces back to promissory notes it received for investments made in Anthropic since 2023, when the startup had about 160 employees; some of those notes converted into equity during the IPO, Fortune reports. In exchange for its initial $1.25 billion commitment, Anthropic agreed to make Amazon Web Services its primary cloud provider, the outlet says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Separately from the public offering, Anthropic sold $26 billion in non-voting Class N shares to a group of tech giants. Nvidia and Google each bought $10 billion worth, while AMD, Broadcom, Micron, Microsoft and Taiwan's TSMC split the rest, TechCrunch reports.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic was founded in 2021 by former OpenAI employees who left during the pandemic over strategic disagreements, and the two companies have been rivals ever since, according to Wired. The company's most recent quarterly revenue reached $17 billion, up more than 1,100% from a year earlier, the outlet says.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Early backers profited too. Lightspeed Venture Partners, which led a $3.5 billion funding round in March 2025 when Anthropic was valued at $61.5 billion, holds less than 2% of the company — a stake now worth tens of billions of dollars, Fortune reports. Iconiq, which has invested more than $6 billion in Anthropic since 2025, holds a stake worth more than $26 billion, according to the outlet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Research firm Sacra estimates that roughly 2,800 current and former Anthropic employees hold at least $1 million in pretax vested equity, based on a $1.35 trillion valuation, and that at least 400 early hires could hold $100 million or more in shares, according to estimates cited by Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The scale of what Anthropic still needs to raise shows in the IPO's own numbers: the company requires about $70.7 billion to cover infrastructure and computing commitments over the next 12 months, and $451.6 billion by the end of 2030, TechCrunch reports.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Each of Anthropic's seven co-founders sold about $280 million in shares during the IPO, according to TechCrunch and Fortune.",
+        "The founders pledged 80% of their personal equity to philanthropy, voluntarily and without legal obligation, per the SEC filing.",
+        "Amazon and Google together hold 28% of Anthropic after the offering — 14.6% and 13.4%, respectively — according to TechCrunch and Fortune.",
+        "Nvidia and Google each bought $10 billion in non-voting shares in a parallel $26 billion private placement, TechCrunch reports.",
+        "Anthropic needs $70.7 billion in infrastructure commitments over the next 12 months alone, according to TechCrunch."
+      ]
+    }
   ],
   "image": {
     "query": "wall street stock exchange trading screen",
-    "alt": "Electronic board displaying stock prices at a New York stock exchange"
+    "alt": "Electronic board displaying stock prices at a New York stock exchange",
+    "path": "/assets/img/anthropic-founders-cash-in-ipo-windfall-b99bcf56.jpg",
+    "credit": "Andy Kennedy / Unsplash",
+    "author": "Andy Kennedy",
+    "author_url": "https://unsplash.com/@packetdiscards?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-wall-street-sign-yoWhcUooqxM"
   },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/", "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO"},
-    {"name": "Wired", "owner": "conde-nast", "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/", "title": "Anthropic's Record-Breaking IPO Highlights the AI Giant's Worst Enemy—Itself"},
-    {"name": "Fortune", "owner": "fortune", "url": "https://fortune.com/2026/11/20/heres-whos-getting-the-richest-from-anthropics-81-billion-ipo-tech-stocks-ai-dario-amodei-daniela-amodei/", "title": "Here's who's getting the richest from Anthropic's $81 billion IPO"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "title": "Anthropic's Record-Breaking IPO Highlights the AI Giant's Worst Enemy—Itself"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/11/20/heres-whos-getting-the-richest-from-anthropics-81-billion-ipo-tech-stocks-ai-dario-amodei-daniela-amodei/",
+      "title": "Here's who's getting the richest from Anthropic's $81 billion IPO"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-21T10:51:08+00:00",
+  "updated_at": "2026-11-21T10:51:08+00:00"
 }

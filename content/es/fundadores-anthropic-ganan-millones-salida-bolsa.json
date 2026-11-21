@@ -7,36 +7,116 @@
   "meta_description": "Los fundadores de Anthropic vendieron acciones por US$280 millones cada uno en su salida a bolsa; Amazon y Google se quedan con 28%, según TechCrunch y Fortune.",
   "keyword": "salida a bolsa de Anthropic",
   "category": "mercado",
-  "tags": ["ia", "anthropic", "ipo", "mercado"],
+  "tags": [
+    "ia",
+    "anthropic",
+    "ipo",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Los siete cofundadores de Anthropic vendieron unos 3,4 millones de acciones cada uno en la salida a bolsa de la empresa el jueves 19, con ingresos de alrededor de US$280 millones por persona antes de comisiones e impuestos, según TechCrunch y Fortune. En total, los fundadores obtuvieron cerca de US$1.950 millones con la venta, de acuerdo con TechCrunch.", "items": []},
-    {"type": "p", "text": "Entre ellos están los hermanos Dario y Daniela Amodei, consejero delegado y presidenta de la compañía. Los siete se comprometieron a destinar el 80% de su participación personal en Anthropic a causas filantrópicas, según el documento de salida a bolsa presentado ante la Comisión de Bolsa y Valores de Estados Unidos (SEC) y citado por TechCrunch y Fortune. Ambos medios señalan que el compromiso es voluntario y no tiene carácter legal vinculante.", "items": []},
-    {"type": "p", "text": "Aunque su participación de capital es minoritaria, los fundadores conservan el 50,1% del poder de voto de la compañía, según Fortune. Cada uno posee entre 237 y 241 millones de acciones tras la oferta, una división casi idéntica entre los siete que la publicación describe como poco habitual entre startups de Silicon Valley.", "items": []},
-    {"type": "p", "text": "Anthropic recaudó US$81.300 millones en la oferta pública en el Nasdaq, la mayor registrada hasta ahora, por delante del récord de US$75.000 millones que estableció SpaceX, de Elon Musk, en junio, según Wired. La valoración de la empresa tras la operación ronda los US$1,5 billones, cifra que incluye acciones que aún pueden emitirse, por debajo de los aproximadamente US$1,8 billones atribuidos a SpaceX, afirma la publicación.", "items": []},
-    {"type": "p", "text": "Entre los grandes beneficiados de la operación están Amazon y Google. Tras la salida a bolsa, Amazon pasó a controlar el 14,6% de Anthropic y Google, el 13,4% — juntas, las dos compañías suman el 28% del capital, según TechCrunch y Fortune.", "items": []},
-    {"type": "p", "text": "La participación de Amazon proviene de pagarés recibidos a cambio de inversiones realizadas en Anthropic desde 2023, cuando la startup tenía unos 160 empleados; parte de esos títulos se convirtieron en acciones durante la oferta, según Fortune. A cambio de su aporte inicial de US$1.250 millones, Anthropic se comprometió a convertir a AWS en su proveedor principal de computación en la nube, afirma la publicación.", "items": []},
-    {"type": "p", "text": "De forma paralela a la oferta pública, Anthropic vendió US$26.000 millones en acciones sin derecho a voto de la clase N a un grupo de gigantes tecnológicos. Nvidia y Google compraron US$10.000 millones cada una, mientras que AMD, Broadcom, Micron, Microsoft y la taiwanesa TSMC se repartieron el resto, de acuerdo con TechCrunch.", "items": []},
-    {"type": "p", "text": "Anthropic fue fundada en 2021 por exempleados de OpenAI que dejaron la compañía durante la pandemia por diferencias estratégicas, y ambas firmas son rivales desde entonces, según Wired. Los ingresos trimestrales más recientes de Anthropic alcanzaron los US$17.000 millones, un aumento de más del 1.100% respecto al mismo periodo del año anterior, afirma la publicación.", "items": []},
-    {"type": "p", "text": "La oferta también benefició a inversores que apostaron por la empresa cuando aún era una startup. Lightspeed Venture Partners, que lideró una ronda de US$3.500 millones en marzo de 2025 cuando Anthropic estaba valorada en US$61.500 millones, posee menos del 2% de la compañía — una participación hoy valorada en decenas de miles de millones de dólares, según Fortune. Iconiq, que ha invertido más de US$6.000 millones en Anthropic desde 2025, tiene una participación valorada en más de US$26.000 millones, de acuerdo con la publicación.", "items": []},
-    {"type": "p", "text": "La consultora Sacra estima que unos 2.800 empleados actuales y antiguos de Anthropic tienen al menos US$1 millón en patrimonio sujeto a impuestos en la empresa, a partir de una valoración de US$1,35 billones, y que al menos 400 de los primeros contratados podrían poseer US$100 millones o más en acciones, según estimaciones citadas por Fortune.", "items": []},
-    {"type": "p", "text": "La magnitud del desafío que enfrenta ahora Anthropic aparece en los propios números de la oferta: la empresa todavía necesita unos US$70.700 millones para cubrir compromisos de infraestructura y capacidad de cómputo en los próximos 12 meses, y US$451.600 millones antes de que termine 2030, según TechCrunch.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Cada uno de los siete cofundadores de Anthropic vendió acciones por unos US$280 millones en el IPO, según TechCrunch y Fortune.",
-      "Los fundadores se comprometieron a donar el 80% de su participación personal, de forma voluntaria y sin obligación legal, según el documento presentado ante la SEC.",
-      "Amazon y Google suman el 28% del capital de Anthropic tras la oferta — 14,6% y 13,4%, respectivamente —, según TechCrunch y Fortune.",
-      "Nvidia y Google compraron US$10.000 millones cada una en acciones sin derecho a voto en una colocación privada paralela de US$26.000 millones, según TechCrunch.",
-      "Anthropic necesita US$70.700 millones en compromisos de infraestructura solo en los próximos 12 meses, según TechCrunch."
-    ]}
+    {
+      "type": "p",
+      "text": "Los siete cofundadores de Anthropic vendieron unos 3,4 millones de acciones cada uno en la salida a bolsa de la empresa el jueves 19, con ingresos de alrededor de US$280 millones por persona antes de comisiones e impuestos, según TechCrunch y Fortune. En total, los fundadores obtuvieron cerca de US$1.950 millones con la venta, de acuerdo con TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Entre ellos están los hermanos Dario y Daniela Amodei, consejero delegado y presidenta de la compañía. Los siete se comprometieron a destinar el 80% de su participación personal en Anthropic a causas filantrópicas, según el documento de salida a bolsa presentado ante la Comisión de Bolsa y Valores de Estados Unidos (SEC) y citado por TechCrunch y Fortune. Ambos medios señalan que el compromiso es voluntario y no tiene carácter legal vinculante.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Aunque su participación de capital es minoritaria, los fundadores conservan el 50,1% del poder de voto de la compañía, según Fortune. Cada uno posee entre 237 y 241 millones de acciones tras la oferta, una división casi idéntica entre los siete que la publicación describe como poco habitual entre startups de Silicon Valley.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic recaudó US$81.300 millones en la oferta pública en el Nasdaq, la mayor registrada hasta ahora, por delante del récord de US$75.000 millones que estableció SpaceX, de Elon Musk, en junio, según Wired. La valoración de la empresa tras la operación ronda los US$1,5 billones, cifra que incluye acciones que aún pueden emitirse, por debajo de los aproximadamente US$1,8 billones atribuidos a SpaceX, afirma la publicación.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Entre los grandes beneficiados de la operación están Amazon y Google. Tras la salida a bolsa, Amazon pasó a controlar el 14,6% de Anthropic y Google, el 13,4% — juntas, las dos compañías suman el 28% del capital, según TechCrunch y Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La participación de Amazon proviene de pagarés recibidos a cambio de inversiones realizadas en Anthropic desde 2023, cuando la startup tenía unos 160 empleados; parte de esos títulos se convirtieron en acciones durante la oferta, según Fortune. A cambio de su aporte inicial de US$1.250 millones, Anthropic se comprometió a convertir a AWS en su proveedor principal de computación en la nube, afirma la publicación.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De forma paralela a la oferta pública, Anthropic vendió US$26.000 millones en acciones sin derecho a voto de la clase N a un grupo de gigantes tecnológicos. Nvidia y Google compraron US$10.000 millones cada una, mientras que AMD, Broadcom, Micron, Microsoft y la taiwanesa TSMC se repartieron el resto, de acuerdo con TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anthropic fue fundada en 2021 por exempleados de OpenAI que dejaron la compañía durante la pandemia por diferencias estratégicas, y ambas firmas son rivales desde entonces, según Wired. Los ingresos trimestrales más recientes de Anthropic alcanzaron los US$17.000 millones, un aumento de más del 1.100% respecto al mismo periodo del año anterior, afirma la publicación.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La oferta también benefició a inversores que apostaron por la empresa cuando aún era una startup. Lightspeed Venture Partners, que lideró una ronda de US$3.500 millones en marzo de 2025 cuando Anthropic estaba valorada en US$61.500 millones, posee menos del 2% de la compañía — una participación hoy valorada en decenas de miles de millones de dólares, según Fortune. Iconiq, que ha invertido más de US$6.000 millones en Anthropic desde 2025, tiene una participación valorada en más de US$26.000 millones, de acuerdo con la publicación.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La consultora Sacra estima que unos 2.800 empleados actuales y antiguos de Anthropic tienen al menos US$1 millón en patrimonio sujeto a impuestos en la empresa, a partir de una valoración de US$1,35 billones, y que al menos 400 de los primeros contratados podrían poseer US$100 millones o más en acciones, según estimaciones citadas por Fortune.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La magnitud del desafío que enfrenta ahora Anthropic aparece en los propios números de la oferta: la empresa todavía necesita unos US$70.700 millones para cubrir compromisos de infraestructura y capacidad de cómputo en los próximos 12 meses, y US$451.600 millones antes de que termine 2030, según TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Cada uno de los siete cofundadores de Anthropic vendió acciones por unos US$280 millones en el IPO, según TechCrunch y Fortune.",
+        "Los fundadores se comprometieron a donar el 80% de su participación personal, de forma voluntaria y sin obligación legal, según el documento presentado ante la SEC.",
+        "Amazon y Google suman el 28% del capital de Anthropic tras la oferta — 14,6% y 13,4%, respectivamente —, según TechCrunch y Fortune.",
+        "Nvidia y Google compraron US$10.000 millones cada una en acciones sin derecho a voto en una colocación privada paralela de US$26.000 millones, según TechCrunch.",
+        "Anthropic necesita US$70.700 millones en compromisos de infraestructura solo en los próximos 12 meses, según TechCrunch."
+      ]
+    }
   ],
   "image": {
     "query": "wall street stock exchange trading screen",
-    "alt": "Pantalla electrónica muestra cotizaciones de la bolsa de valores en Nueva York"
+    "alt": "Pantalla electrónica muestra cotizaciones de la bolsa de valores en Nueva York",
+    "path": "/assets/img/fundadores-anthropic-ganan-millones-sali-b99bcf56.jpg",
+    "credit": "Andy Kennedy / Unsplash",
+    "author": "Andy Kennedy",
+    "author_url": "https://unsplash.com/@packetdiscards?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-wall-street-sign-yoWhcUooqxM"
   },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/", "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO"},
-    {"name": "Wired", "owner": "conde-nast", "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/", "title": "Anthropic's Record-Breaking IPO Highlights the AI Giant's Worst Enemy—Itself"},
-    {"name": "Fortune", "owner": "fortune", "url": "https://fortune.com/2026/11/20/heres-whos-getting-the-richest-from-anthropics-81-billion-ipo-tech-stocks-ai-dario-amodei-daniela-amodei/", "title": "Here's who's getting the richest from Anthropic's $81 billion IPO"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+      "title": "Anthropic's Record-Breaking IPO Highlights the AI Giant's Worst Enemy—Itself"
+    },
+    {
+      "name": "Fortune",
+      "owner": "fortune",
+      "url": "https://fortune.com/2026/11/20/heres-whos-getting-the-richest-from-anthropics-81-billion-ipo-tech-stocks-ai-dario-amodei-daniela-amodei/",
+      "title": "Here's who's getting the richest from Anthropic's $81 billion IPO"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-21T10:51:09+00:00",
+  "updated_at": "2026-11-21T10:51:09+00:00"
 }

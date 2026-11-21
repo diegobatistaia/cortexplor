@@ -7,32 +7,99 @@
   "meta_description": "Fallas en Microsoft, la FAA, bancos y Apple Pay en días recientes en EE. UU. dividen a los expertos sobre el papel de la IA, según TechCrunch y Wired.",
   "keyword": "apagones de sistemas en EE. UU.",
   "category": "politica",
-  "tags": ["ia", "seguridad", "infraestructura", "politica"],
+  "tags": [
+    "ia",
+    "seguridad",
+    "infraestructura",
+    "politica"
+  ],
   "body": [
-    {"type": "p", "text": "Una serie de fallas afectó a algunos de los sistemas más grandes de Estados Unidos en noviembre: el Outlook, el Teams y el Copilot de Microsoft quedaron fuera de servicio, la Administración Federal de Aviación (FAA) detuvo vuelos en todo el país, plataformas bancarias sufrieron inestabilidad y Apple Pay dejó de funcionar, según TechCrunch y Wired.", "items": []},
-    {"type": "p", "text": "Ambos medios citan a autoridades estadounidenses que niegan cualquier vínculo entre los episodios o con ciberataques. El presidente Donald Trump calificó los casos de \"eventos individuales\", según TechCrunch. El secretario de Estado, Marco Rubio, dijo que el país \"no está bajo ataque\", de acuerdo con Wired. Las empresas afectadas también señalaron que las fallas tuvieron causas técnicas, no ataques informáticos, según ambas publicaciones.", "items": []},
-    {"type": "p", "text": "La coincidencia de tantas fallas en un periodo corto dividió a los expertos consultados por TechCrunch sobre el papel de la inteligencia artificial en el problema. Dave DeWalt, inversor y expresidente de la empresa de seguridad McAfee que también integró el consejo asesor de ciberseguridad del Departamento de Seguridad Nacional de EE. UU., dijo al medio que los apagones son \"dolores de crecimiento de un sistema de seguridad que se está fortaleciendo, no debilitando\" — en su opinión, las herramientas de IA están exponiendo vulnerabilidades antiguas a una velocidad nunca vista, lo que obliga a las empresas a apresurar las correcciones.", "items": []},
-    {"type": "p", "text": "Anusha Iyer, fundadora de la startup de seguridad Corsha, dijo a TechCrunch que el problema no es la adopción de IA en sí, sino la mezcla apresurada de sistemas heredados con tecnología moderna sin controles de riesgo adecuados. Según ella, hallazgos preliminares sobre la falla de la FAA apuntan a que una modernización de la infraestructura de telecomunicaciones del organismo sobrecargó equipos antiguos que no pudieron seguir el ritmo de la nueva tecnología.", "items": []},
-    {"type": "p", "text": "Iyer agregó a TechCrunch que estos sistemas industriales \"nunca fueron diseñados para estar conectados, y mucho menos conectados de forma segura\", al ritmo en que las empresas intentan integrarlos hoy con herramientas modernas. Su propuesta es segmentar más esos sistemas y aplicar más control de acceso, para que la tecnología nueva se introduzca de forma gradual y con el riesgo mitigado en cada etapa.", "items": []},
-    {"type": "p", "text": "El director de Inteligencia Nacional de Estados Unidos también descartó cualquier relación entre los episodios y terrorismo patrocinado por un Estado, según TechCrunch. El medio recuerda que la sospecha inicial tenía cierta lógica: semanas antes, piratas informáticos habían atacado refrigeradores conectados a internet de un supermercado y de un banco de sangre en Francia, lo que ya alimentaba temores sobre un ataque coordinado a infraestructura crítica.", "items": []},
-    {"type": "p", "text": "\"Estas interrupciones deberían servir de advertencia. Cada día trae otro recordatorio de que la IA avanza más rápido que nuestra capacidad para gestionar sus consecuencias\", escribió el senador Mark Warner, vicepresidente del Comité de Inteligencia del Senado de EE. UU., en una red social, según Wired.", "items": []},
-    {"type": "p", "text": "TechCrunch señala que la secuencia de fallas ocurre pocas semanas después del llamado \"Octubre Negro\" de la ciberseguridad, cuando una serie de incidentes no relacionados entre sí afectó a proyectos como PHP, Node.js y LiteLLM el 21 de octubre.", "items": []},
-    {"type": "p", "text": "DeWalt dijo que prefiere ver a las empresas estadounidenses encontrar y corregir sus propias fallas de esta forma turbulenta que dejar que actores maliciosos las exploten primero. Según él, esto debería impulsar un aumento de empresas enfocadas en gestión autónoma de vulnerabilidades, pruebas seguras de corrección y resiliencia de sistemas críticos — pero las investigaciones sobre la causa exacta de cada falla, según Wired, siguen en curso.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Las fallas afectaron a Microsoft (Outlook, Teams y Copilot), la FAA, plataformas bancarias y Apple Pay en días recientes de noviembre, según TechCrunch y Wired.",
-      "Autoridades de EE. UU., incluidos el presidente Trump y el secretario de Estado Marco Rubio, niegan relación entre los episodios o con ciberataques.",
-      "Los expertos consultados por TechCrunch no coinciden sobre el papel de la IA: uno culpa a la velocidad con que la IA expone fallas antiguas; otra culpa a la mezcla apresurada de sistemas heredados y tecnología nueva sin gestión de riesgo adecuada.",
-      "Cortexplor ya informó que una falla de red de la propia Microsoft dejó fuera de servicio al Outlook y al Copilot por más de 24 horas a principios de noviembre — <a href=\"https://cortexplor.com/es/caida-global-de-microsoft-afecta-copilot/\">lea aquí</a>."
-    ]}
+    {
+      "type": "p",
+      "text": "Una serie de fallas afectó a algunos de los sistemas más grandes de Estados Unidos en noviembre: el Outlook, el Teams y el Copilot de Microsoft quedaron fuera de servicio, la Administración Federal de Aviación (FAA) detuvo vuelos en todo el país, plataformas bancarias sufrieron inestabilidad y Apple Pay dejó de funcionar, según TechCrunch y Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ambos medios citan a autoridades estadounidenses que niegan cualquier vínculo entre los episodios o con ciberataques. El presidente Donald Trump calificó los casos de \"eventos individuales\", según TechCrunch. El secretario de Estado, Marco Rubio, dijo que el país \"no está bajo ataque\", de acuerdo con Wired. Las empresas afectadas también señalaron que las fallas tuvieron causas técnicas, no ataques informáticos, según ambas publicaciones.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La coincidencia de tantas fallas en un periodo corto dividió a los expertos consultados por TechCrunch sobre el papel de la inteligencia artificial en el problema. Dave DeWalt, inversor y expresidente de la empresa de seguridad McAfee que también integró el consejo asesor de ciberseguridad del Departamento de Seguridad Nacional de EE. UU., dijo al medio que los apagones son \"dolores de crecimiento de un sistema de seguridad que se está fortaleciendo, no debilitando\" — en su opinión, las herramientas de IA están exponiendo vulnerabilidades antiguas a una velocidad nunca vista, lo que obliga a las empresas a apresurar las correcciones.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anusha Iyer, fundadora de la startup de seguridad Corsha, dijo a TechCrunch que el problema no es la adopción de IA en sí, sino la mezcla apresurada de sistemas heredados con tecnología moderna sin controles de riesgo adecuados. Según ella, hallazgos preliminares sobre la falla de la FAA apuntan a que una modernización de la infraestructura de telecomunicaciones del organismo sobrecargó equipos antiguos que no pudieron seguir el ritmo de la nueva tecnología.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Iyer agregó a TechCrunch que estos sistemas industriales \"nunca fueron diseñados para estar conectados, y mucho menos conectados de forma segura\", al ritmo en que las empresas intentan integrarlos hoy con herramientas modernas. Su propuesta es segmentar más esos sistemas y aplicar más control de acceso, para que la tecnología nueva se introduzca de forma gradual y con el riesgo mitigado en cada etapa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El director de Inteligencia Nacional de Estados Unidos también descartó cualquier relación entre los episodios y terrorismo patrocinado por un Estado, según TechCrunch. El medio recuerda que la sospecha inicial tenía cierta lógica: semanas antes, piratas informáticos habían atacado refrigeradores conectados a internet de un supermercado y de un banco de sangre en Francia, lo que ya alimentaba temores sobre un ataque coordinado a infraestructura crítica.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Estas interrupciones deberían servir de advertencia. Cada día trae otro recordatorio de que la IA avanza más rápido que nuestra capacidad para gestionar sus consecuencias\", escribió el senador Mark Warner, vicepresidente del Comité de Inteligencia del Senado de EE. UU., en una red social, según Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch señala que la secuencia de fallas ocurre pocas semanas después del llamado \"Octubre Negro\" de la ciberseguridad, cuando una serie de incidentes no relacionados entre sí afectó a proyectos como PHP, Node.js y LiteLLM el 21 de octubre.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeWalt dijo que prefiere ver a las empresas estadounidenses encontrar y corregir sus propias fallas de esta forma turbulenta que dejar que actores maliciosos las exploten primero. Según él, esto debería impulsar un aumento de empresas enfocadas en gestión autónoma de vulnerabilidades, pruebas seguras de corrección y resiliencia de sistemas críticos — pero las investigaciones sobre la causa exacta de cada falla, según Wired, siguen en curso.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Las fallas afectaron a Microsoft (Outlook, Teams y Copilot), la FAA, plataformas bancarias y Apple Pay en días recientes de noviembre, según TechCrunch y Wired.",
+        "Autoridades de EE. UU., incluidos el presidente Trump y el secretario de Estado Marco Rubio, niegan relación entre los episodios o con ciberataques.",
+        "Los expertos consultados por TechCrunch no coinciden sobre el papel de la IA: uno culpa a la velocidad con que la IA expone fallas antiguas; otra culpa a la mezcla apresurada de sistemas heredados y tecnología nueva sin gestión de riesgo adecuada.",
+        "Cortexplor ya informó que una falla de red de la propia Microsoft dejó fuera de servicio al Outlook y al Copilot por más de 24 horas a principios de noviembre — <a href=\"https://cortexplor.com/es/caida-global-de-microsoft-afecta-copilot/\">lea aquí</a>."
+      ]
+    }
   ],
   "image": {
     "query": "server error warning screen technology",
-    "alt": "Pantalla de computadora muestra un mensaje de error en un sistema corporativo"
+    "alt": "Pantalla de computadora muestra un mensaje de error en un sistema corporativo",
+    "path": "/assets/img/ola-apagones-eeuu-debate-papel-ia-d0cfff17.jpg",
+    "credit": "Egor Komarov / Unsplash",
+    "author": "Egor Komarov",
+    "author_url": "https://unsplash.com/@egorkomarov?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/abstract-digital-art-with-glitch-effects-and-text-F6RNOgXyPtM"
   },
   "sources": [
-    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/", "title": "These tech outages are giving Y2K, AI agent style"},
-    {"name": "Wired", "owner": "conde-nast", "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/", "title": "What's With All These Outages?"}
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "title": "These tech outages are giving Y2K, AI agent style"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+      "title": "What's With All These Outages?"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-21T10:51:09+00:00",
+  "updated_at": "2026-11-21T10:51:09+00:00"
 }
