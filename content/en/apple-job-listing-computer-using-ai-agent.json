@@ -1,0 +1,103 @@
+{
+  "lang": "en",
+  "slug": "apple-job-listing-computer-using-ai-agent",
+  "story_id": "67326ea66be2ef6d",
+  "title": "Apple Posts, Then Pulls, Listing for a Computer-Using AI Agent",
+  "dek": "The now-removed posting, found by Bloomberg, described an assistant able to run a computer on its own.",
+  "meta_description": "Apple posted, then quietly pulled, a job listing to lead an AI agent able to run a computer on its own, according to Bloomberg, TechCrunch and The Verge.",
+  "keyword": "Apple AI agent",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "apple",
+    "ai-agents",
+    "siri"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Apple posted a job listing, since removed from its site, for an engineering role to lead the creation of an AI agent capable of operating a computer on its own. Bloomberg first spotted the listing, and it was later reported by TechCrunch and The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to TechCrunch, the posting described a system meant to handle web browsing, move between different apps, execute commands, write and fix code, and reach out to outside services, picking whichever tool fits each step of a task. The Verge, which reviewed the same listing, summarized it in similar terms.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The role would report into Apple's Siri, UI Frameworks, and Apple Foundation Models teams, per The Verge — a sign the project sits inside the assistant team rather than as a stand-alone product. TechCrunch adds that the listing framed the goal as building something that moves between tools the way a person does, handling several steps in a row and leaning on smaller helper agents when needed.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A crowded race for computer-using agents",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The move would put Apple into a race where rivals already have a head start. Meta, Google, OpenAI and Anthropic have all launched agent services capable of taking over tasks on a computer, TechCrunch reports. The Verge adds that three rivals — Meta's Muse, OpenAI's ChatGPT, and Perplexity — already let their respective Mac apps take over a user's computer.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Apple itself took a first step in that direction in September, when it upgraded Siri to answer questions about what's on screen and act across apps, according to The Verge. The newly posted role would extend that reach to full control of the operating system — the same path Google took this month, when Gemini for Mac gained the ability to operate other programs, as Cortexplor reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Even as it plans its own agent, Apple is tightening the door on third-party agents accessing Mac computers. Starting with macOS 27.3, warnings will make it harder for outside apps to request full disk access, TechCrunch reports. In October, the company told developers it would require an explicit user action before granting that level of access, according to the outlet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge notes the listing was pulled from Apple's site after the original story published. Bloomberg found, per TechCrunch, that Apple has considered launching the agent as soon as the end of next year, though the project remains in its early stages.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Per The Verge, the coming iOS 27.3 update will also let developers wire Siri's AI into \"all apps,\" a capability now rolling out in a Developer Preview and expected to reach a wider range of apps later. The Verge adds that Bloomberg reports Apple is weighing giving Siri the ability to rotate and crop photos or organize Safari tabs on its own.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch frames computer-using agents as one of the tech industry's hottest commodities over the past year, and ties Apple's move to what it calls the \"new John Ternus era,\" its shorthand for the company's current AI leadership. TechCrunch also says it reached out to Apple for comment and did not receive a response.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: no one yet — there's no shipped product, only an early-stage internal project, per Bloomberg via TechCrunch.",
+        "Since when: no confirmed date; Bloomberg points to as late as the end of 2027, according to TechCrunch.",
+        "Cost: not disclosed by either outlet.",
+        "What changes: Siri has answered on-screen questions and acted across apps since September, per The Verge; the new agent would extend that to full computer control, the same step Gemini for Mac already took this month.",
+        "Who's affected: Mac and iPhone users who rely on Siri, and developers navigating macOS 27.3's new restrictions on third-party agent access."
+      ]
+    }
+  ],
+  "image": {
+    "query": "Apple store logo technology",
+    "alt": "Apple logo on the facade of a company store"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "title": "Apple may be developing its own AI agent that runs your Mac"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Apple is hiring engineers to build its own AI agent"
+    }
+  ],
+  "status": "draft"
+}

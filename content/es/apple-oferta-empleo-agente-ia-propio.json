@@ -1,0 +1,103 @@
+{
+  "lang": "es",
+  "slug": "apple-oferta-empleo-agente-ia-propio",
+  "story_id": "67326ea66be2ef6d",
+  "title": "Apple publica y luego retira oferta para crear agente de IA",
+  "dek": "La vacante, encontrada por Bloomberg, describía un asistente capaz de manejar la computadora por su cuenta.",
+  "meta_description": "Apple publicó y luego retiró una oferta para liderar un agente de IA capaz de manejar la computadora por su cuenta, según Bloomberg, TechCrunch y The Verge.",
+  "keyword": "agente de IA de Apple",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "apple",
+    "agentes-de-ia",
+    "siri"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Apple publicó una oferta de empleo, luego retirada de su sitio, para un puesto de ingeniería encargado de crear un agente de inteligencia artificial capaz de manejar una computadora por su cuenta. La encontró originalmente Bloomberg, y la reportaron después TechCrunch y The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch, el anuncio describía un sistema que navega por internet, opera dentro de otras aplicaciones, ejecuta comandos, escribe y corrige código, y llama a servicios externos, eligiendo la herramienta adecuada en cada paso. The Verge, que tuvo acceso al mismo texto, describió al agente en términos similares: navegación web, uso de apps y llamadas a servicios.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El puesto dependería de los equipos de Siri, de la división de interfaces (UI Frameworks) y de Apple Foundation Models, según The Verge, señal de que el proyecto está ligado directamente al asistente de la empresa.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Una carrera que ya tiene varios competidores",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La iniciativa metería a Apple en una carrera donde otros ya llevan ventaja. Meta, Google, OpenAI y Anthropic ya lanzaron servicios de agentes capaces de asumir tareas en una computadora, según TechCrunch. The Verge detalla que Muse (Meta), ChatGPT (OpenAI) y Perplexity ya pueden tomar el control de una computadora a través de sus aplicaciones para Mac.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La propia Apple dio un primer paso en esa dirección en septiembre, cuando actualizó Siri para responder preguntas sobre lo que aparece en pantalla y actuar entre aplicaciones, de acuerdo con The Verge. El nuevo puesto ampliaría ese alcance al control directo del sistema operativo, el mismo camino que siguió Google este mes, cuando Gemini para Mac sumó la función que opera otros programas, como informó Cortexplor.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Mientras planea su propio agente, Apple está cerrando el paso a los agentes de terceros en las computadoras con macOS. A partir de la versión 27.3 del sistema, nuevos avisos dificultarán que apps externas pidan acceso total al disco, según TechCrunch. En octubre, la empresa avisó a los desarrolladores que exigiría una acción explícita del usuario para conceder ese nivel de acceso, de acuerdo con el medio.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge señala que la oferta fue retirada del sitio de Apple después de que se publicara la noticia original. Bloomberg supo, según TechCrunch, que Apple llegó a considerar lanzar el agente a más tardar a fines del próximo año, aunque el proyecto sigue en una etapa temprana.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según The Verge, la próxima actualización iOS 27.3 también dejará que los desarrolladores integren la IA de Siri en \"todas las apps\", función que ya circula en una versión de prueba para desarrolladores (Developer Preview) y que más adelante llegaría a más aplicaciones. The Verge añade que, según Bloomberg, Apple evalúa darle a Siri la capacidad de girar y recortar fotos u organizar pestañas de Safari por su cuenta.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch describe a los agentes capaces de operar una computadora como uno de los productos más disputados de la industria tecnológica en el último año, y vincula el movimiento de Apple con lo que llama la \"era de John Ternus\", su forma de referirse al liderazgo actual del área de IA de la empresa. TechCrunch dice además haber buscado a Apple para pedir comentarios y no haber recibido respuesta.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: nadie todavía — no hay producto lanzado, solo un proyecto interno en etapa temprana, según Bloomberg, citada por TechCrunch.",
+        "Desde cuándo: sin fecha confirmada; Bloomberg menciona fines de 2027 como horizonte posible, de acuerdo con TechCrunch.",
+        "Cuánto cuesta: no informado por ninguna de las fuentes.",
+        "Qué cambia: Siri ya responde preguntas sobre la pantalla y actúa entre apps desde septiembre, según The Verge; el nuevo agente ampliaría eso al control total de la computadora, como ya hace Gemini en Mac desde este mes.",
+        "A quién afecta: usuarios de Mac y iPhone que usan Siri, y desarrolladores que deben adaptarse a las nuevas restricciones de acceso de agentes de terceros en macOS 27.3."
+      ]
+    }
+  ],
+  "image": {
+    "query": "Apple store logo technology",
+    "alt": "Logotipo de Apple en la fachada de una tienda"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "title": "Apple may be developing its own AI agent that runs your Mac"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Apple is hiring engineers to build its own AI agent"
+    }
+  ],
+  "status": "draft"
+}
