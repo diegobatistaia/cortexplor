@@ -1,0 +1,38 @@
+{
+  "lang": "pt",
+  "slug": "onda-apagoes-eua-debate-papel-ia",
+  "story_id": "0d83b6d0635bf850",
+  "title": "Onda de apagões nos EUA reabre debate sobre o papel da IA",
+  "dek": "Microsoft, FAA, bancos e Apple Pay falharam em dias recentes; autoridades negam ataque, mas especialistas discordam sobre o papel da IA.",
+  "meta_description": "Falhas na Microsoft, na FAA, em bancos e no Apple Pay nas últimas semanas dividem especialistas sobre o papel da IA no problema, segundo TechCrunch e Wired.",
+  "keyword": "apagões de sistemas nos EUA",
+  "category": "politica",
+  "tags": ["ia", "seguranca", "infraestrutura", "politica"],
+  "body": [
+    {"type": "p", "text": "Uma sequência de falhas atingiu alguns dos maiores sistemas dos Estados Unidos em novembro: o Outlook, o Teams e o Copilot, da Microsoft, ficaram fora do ar; a Administração Federal de Aviação (FAA) suspendeu voos em todo o país; plataformas bancárias tiveram instabilidade; e o Apple Pay parou de funcionar, segundo a TechCrunch e a Wired.", "items": []},
+    {"type": "p", "text": "As duas publicações citam autoridades dos Estados Unidos que negam qualquer ligação entre os episódios ou com ataques cibernéticos. O presidente Donald Trump chamou os casos de \"eventos individuais\", segundo a TechCrunch. O secretário de Estado, Marco Rubio, disse que o país \"não está sob ataque\", de acordo com a Wired. As empresas afetadas também afirmaram que as falhas tiveram causas técnicas, não ciberataques, segundo as duas publicações.", "items": []},
+    {"type": "p", "text": "A coincidência de tantas falhas em um curto período, porém, dividiu especialistas ouvidos pela TechCrunch sobre o papel da inteligência artificial no problema. Dave DeWalt, investidor que presidiu a empresa de segurança McAfee e integrou o conselho consultivo de segurança cibernética do Departamento de Segurança Interna dos EUA, disse à publicação que os apagões são \"dores de crescimento de um sistema de segurança que está ficando mais forte, não mais fraco\" — na visão dele, ferramentas de IA estão expondo vulnerabilidades antigas numa velocidade nunca vista, o que leva empresas a correr para corrigi-las.", "items": []},
+    {"type": "p", "text": "Já Anusha Iyer, fundadora da startup de segurança Corsha, disse à TechCrunch que o problema não é a adoção de IA em si, mas a mistura apressada entre sistemas legados e tecnologia moderna sem controles adequados de risco. Segundo ela, achados preliminares sobre a falha da FAA apontam que uma modernização da infraestrutura de telecomunicações do órgão sobrecarregou equipamentos antigos que não acompanharam a capacidade da nova tecnologia.", "items": []},
+    {"type": "p", "text": "Iyer acrescentou à TechCrunch que esses sistemas industriais \"nunca foram projetados para ser conectados, muito menos conectados de forma segura\" no ritmo em que empresas tentam integrá-los hoje. Para ela, a solução passa por segmentar mais esses sistemas e aplicar mais controle de acesso, de modo que a tecnologia nova seja introduzida de forma gradual, com o risco mitigado em cada etapa.", "items": []},
+    {"type": "p", "text": "O diretor de Inteligência Nacional dos Estados Unidos também descartou qualquer relação entre os episódios e terrorismo patrocinado por Estado, segundo a TechCrunch. A publicação lembra que a desconfiança inicial fazia sentido: semanas antes, hackers haviam atacado geladeiras conectadas à internet de um supermercado e de um banco de sangue na França, o que já havia alimentado temores sobre ataques coordenados a infraestrutura crítica.", "items": []},
+    {"type": "p", "text": "\"Essas interrupções deveriam servir de alerta. A cada dia surge outro lembrete de que a IA está avançando mais rápido do que nossa capacidade de administrar suas consequências\", escreveu o senador Mark Warner, vice-presidente do Comitê de Inteligência do Senado dos EUA, em rede social, segundo a Wired.", "items": []},
+    {"type": "p", "text": "A TechCrunch observa que a sequência de apagões ocorre poucas semanas depois do chamado \"Outubro Negro\" da segurança cibernética, quando uma série de incidentes não relacionados entre si afetou projetos como PHP, Node.js e LiteLLM em 21 de outubro.", "items": []},
+    {"type": "p", "text": "Para DeWalt, é melhor que as próprias empresas americanas encontrem e corrijam essas falhas dessa forma turbulenta do que deixar que agentes maliciosos as explorem primeiro. Ele prevê um aumento no número de empresas voltadas a gerenciamento autônomo de vulnerabilidades, testes seguros de correção e resiliência de sistemas críticos — mas as investigações sobre a origem exata de cada falha, de acordo com a Wired, ainda estão em andamento.", "items": []},
+    {"type": "h2", "text": "Na prática", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Falhas atingiram a Microsoft (Outlook, Teams e Copilot), a FAA, plataformas bancárias e o Apple Pay em dias recentes de novembro, segundo a TechCrunch e a Wired.",
+      "Autoridades dos EUA, incluindo o presidente Trump e o secretário de Estado Marco Rubio, negam relação entre os episódios ou com ataques cibernéticos.",
+      "Especialistas ouvidos pela TechCrunch divergem: um atribui os apagões à velocidade com que a IA expõe falhas antigas; outra culpa a mistura apressada entre sistemas legados e tecnologia nova, sem gestão de risco adequada.",
+      "O Cortexplor já mostrou que uma falha de rede da própria Microsoft tirou o Copilot e o Outlook do ar por mais de 24 horas em novembro — <a href=\"https://cortexplor.com/pt/falha-global-da-microsoft-afeta-copilot/\">veja aqui</a>."
+    ]}
+  ],
+  "image": {
+    "query": "server error warning screen technology",
+    "alt": "Tela de computador exibindo mensagem de erro em um sistema corporativo"
+  },
+  "sources": [
+    {"name": "TechCrunch", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/", "title": "These tech outages are giving Y2K, AI agent style"},
+    {"name": "Wired", "owner": "conde-nast", "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/", "title": "What's With All These Outages?"}
+  ],
+  "status": "draft"
+}
