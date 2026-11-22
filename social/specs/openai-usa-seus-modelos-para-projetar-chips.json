@@ -1,0 +1,100 @@
+{
+  "slug": "openai-usa-seus-modelos-para-projetar-chips",
+  "lang": "pt",
+  "date": "22 nov 2026",
+  "no": 147,
+  "category": "Modelos",
+  "kicker": "Modelos · OpenAI",
+  "headline": "OpenAI usa IA para melhorar projeto de chips com a AMD",
+  "headline_hl": "chips",
+  "dek": "Segundo a própria OpenAI, os modelos reduziram área de circuitos do chip Jalapeño e ajudaram a AMD.",
+  "image": {
+    "path": "assets/img/openai-usa-seus-modelos-para-projetar-ch-ed5777ed.jpg",
+    "credit": "Umberto / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "OPENAI<br>CHIPS",
+  "sources": [
+    "OpenAI"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "IA no projeto de chips",
+    "body": [
+      "A OpenAI publicou um relatório sobre como usa seus modelos para melhorar o projeto físico de chips, como o Jalapeño (OpenAI).",
+      "O trabalho com a AMD também aparece no relatório, segundo a empresa (OpenAI)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que o modelo faz",
+    "body": "Segundo a OpenAI, o modelo reescreve o código que descreve os circuitos.",
+    "points": [
+      {
+        "h": "RTL",
+        "t": "Reescreve o código em SystemVerilog (OpenAI)."
+      },
+      {
+        "h": "Checagem",
+        "t": "Ferramentas da Synopsys confirmam o funcionamento (OpenAI)."
+      },
+      {
+        "h": "PPA",
+        "t": "Mede o equilíbrio entre energia, desempenho e área (OpenAI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Resultados informados",
+    "body": [
+      "A empresa diz que a área de células caiu cerca de 13% na unidade vetorial do Jalapeño (OpenAI).",
+      "Na unidade de matriz, a redução foi de 10%, afirma a OpenAI."
+    ],
+    "stat": {
+      "big": "13%",
+      "cap": "menos área na unidade vetorial (OpenAI)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "AMD",
+        "t": "A AMD já incluiu parte das mudanças em um projeto recente (OpenAI)."
+      },
+      {
+        "h": "Synopsys",
+        "t": "A OpenAI diz ter parceria para integrar modelos às ferramentas (OpenAI)."
+      },
+      {
+        "h": "Prova",
+        "t": "Segundo a empresa, os ganhos foram comprovados em silício (OpenAI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI diz usar seus modelos para melhorar o projeto de chips, inclusive com a AMD.",
+    "body": [
+      "Segundo a própria OpenAI, os modelos reescrevem o código que descreve os circuitos e usam ferramentas da Synopsys para checar se o funcionamento se mantém (OpenAI). No Jalapeño, seu primeiro chip de inferência, a empresa diz ter reduzido cerca de 13% da área na unidade vetorial e 10% na unidade de matriz.",
+      "A OpenAI afirma que as otimizações foram comprovadas em silício e que a AMD já incluiu parte das mudanças em um projeto recente (OpenAI). A empresa também diz ter parceria com a Synopsys para levar os modelos às ferramentas de projeto de chips."
+    ],
+    "cta_variant": "A",
+    "cta": "Chips projetados com ajuda de IA vão acelerar ou concentrar o mercado?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#amd",
+      "#chips"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a OpenAI e o projeto de chips com IA",
+    "Slide 2: relatório da OpenAI sobre chips e a AMD",
+    "Slide 3: o que o modelo faz no código dos circuitos",
+    "Slide 4: 13% menos área na unidade vetorial",
+    "Slide 5: o que vem agora com a AMD e a Synopsys",
+    "Slide 6: fonte OpenAI"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "openai-uses-its-models-to-design-chips",
+  "lang": "en",
+  "date": "22 Nov 2026",
+  "no": 144,
+  "category": "Models",
+  "kicker": "Models · OpenAI",
+  "headline": "OpenAI uses AI to improve chip design with AMD",
+  "headline_hl": "chip",
+  "dek": "According to OpenAI itself, its models cut circuit area on the Jalapeño chip and helped AMD.",
+  "image": {
+    "path": "assets/img/openai-uses-its-models-to-design-chips-ed5777ed.jpg",
+    "credit": "Umberto / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "OPENAI<br>CHIPS",
+  "sources": [
+    "OpenAI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "AI in chip design",
+    "body": [
+      "OpenAI published a report on how it uses its models to improve the physical design of chips, such as Jalapeño (OpenAI).",
+      "Work with AMD also appears in the report, the company says (OpenAI)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the model does",
+    "body": "According to OpenAI, the model rewrites the code that describes the circuits.",
+    "points": [
+      {
+        "h": "RTL",
+        "t": "Rewrites the code in SystemVerilog (OpenAI)."
+      },
+      {
+        "h": "Checks",
+        "t": "Synopsys tools confirm behavior is preserved (OpenAI)."
+      },
+      {
+        "h": "PPA",
+        "t": "Measures the trade-off of power, performance and area (OpenAI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Reported results",
+    "body": [
+      "The company says standard-cell area fell about 13% in Jalapeño's vector unit (OpenAI).",
+      "In the matrix unit the reduction was 10%, OpenAI says."
+    ],
+    "stat": {
+      "big": "13%",
+      "cap": "less area in the vector unit (OpenAI)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "AMD",
+        "t": "AMD has already included some changes in a recent design (OpenAI)."
+      },
+      {
+        "h": "Synopsys",
+        "t": "OpenAI says it partnered to integrate models into tools (OpenAI)."
+      },
+      {
+        "h": "Proof",
+        "t": "The company says the gains were proven in silicon (OpenAI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI says it uses its models to improve chip design, including with AMD.",
+    "body": [
+      "According to OpenAI itself, its models rewrite the code that describes circuits and use Synopsys tools to check that behavior is preserved (OpenAI). On Jalapeño, its first in-house inference chip, the company says it cut about 13% of the area in the vector unit and 10% in the matrix unit.",
+      "OpenAI says the optimizations were proven in silicon and that AMD has already included some of the changes in a recent design (OpenAI). The company also says it partnered with Synopsys to bring the models into chip design tools."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#amd",
+      "#chips"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on OpenAI and AI chip design",
+    "Slide 2: OpenAI report on chips and AMD",
+    "Slide 3: what the model does to circuit code",
+    "Slide 4: 13% less area in the vector unit",
+    "Slide 5: what comes next with AMD and Synopsys",
+    "Slide 6: source OpenAI"
+  ]
+}
