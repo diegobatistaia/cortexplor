@@ -1,0 +1,98 @@
+{
+  "lang": "en",
+  "slug": "openai-uses-its-models-to-design-chips",
+  "story_id": "56626c02ab45573f",
+  "title": "OpenAI Uses Its AI Models to Improve Chip Design With AMD",
+  "dek": "The company says it cut circuit area on its Jalapeño chip and, with AMD, improved GPU and CPU performance metrics, according to an official statement.",
+  "meta_description": "OpenAI says it uses its models to design chips, cutting circuit area on Jalapeño and improving AMD GPU performance, according to the company's statement.",
+  "keyword": "OpenAI AI chip design",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "openai",
+    "chips",
+    "amd",
+    "models"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI published a report detailing how it uses its own language models to improve the physical design of chips, including Jalapeño, its first in-house inference chip, and a joint effort with AMD on the chipmaker's processors, according to a company statement.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI first disclosed work on Jalapeño in August, when it said its engineers used frontier models to accelerate the chip's development, according to the company. The new report goes further, detailing the specific design improvements behind those gains and extending the same approach to AMD's third-party hardware.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to OpenAI, the work began in early 2025, with the GPT-5 o3 mini model helping design Jalapeño. Model-proposed changes reduced standard-cell area by about 13% in the chip's vector unit and 10% in its matrix unit, two blocks responsible for parallel-computing tasks and arithmetic operations, respectively. The company says these optimizations were silicon-proven during Jalapeño's manufacturing, meaning they were validated on the physical chip, not only in simulation.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the model does, according to OpenAI",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says the model rewrites the code that describes circuit behavior, known as RTL (SystemVerilog), and uses Synopsys tools to verify that each rewrite preserves the block's behavior and to measure the trade-off between power, performance and area, a metric the industry calls PPA. In the AMD partnership, the company says it achieved gains of up to 14% on those metrics relative to already-optimized baselines, on the chipmaker's flagship GPU.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to OpenAI, AMD has already included some of the changes in a recent design sent for manufacturing and added others to its production design files for future versions. The company also says AMD verified single-digit percentage PPA gains across key blocks of its upcoming flagship CPU, using circuit designs written by OpenAI's model.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How OpenAI measured progress across model generations",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "To compare successive model generations on chip-design tasks, OpenAI tested each version on two open-source RISC-V processor cores: PicoRV32, built for reprogrammable chips, and Ibex, used in the open-source OpenTitan security chip. With a comparable budget of about 112,000 tokens per run, GPT-6.2 Astra had the highest average score on both cores for the task of optimizing an existing design, and GPT-6.1 Sol outscored GPT-5.6 Sol on both cores too, according to the company. OpenAI launched GPT-6.2 Astra for paying subscribers on November 18, as Cortexplor previously reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says a design scored zero if it failed a correctness check in simulation or ended up more than 16 times larger than the original core's area, a limit meant to rule out designs that merely threw more silicon at the problem. For designs that passed, the company measured instructions executed per clock cycle on workloads the models had not seen during testing, then combined that with each design's maximum clock frequency to estimate real-world throughput.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The full evaluation included 9,881 scored runs, covering two tasks — optimizing an existing core and designing one from written requirements —, the two test cores and different token budgets, according to OpenAI. The company also says it partnered with Synopsys to integrate its models directly into the electronic design automation (EDA) tools chip engineers already use day to day.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who uses it: for now, use is internal to OpenAI (on the Jalapeño project) and AMD (through the partnership), plus chip engineers using Synopsys EDA tools integrated with OpenAI's models, according to the company.",
+        "Since when: model use in Jalapeño's design began in early 2025; OpenAI says Jalapeño has already gone through manufacturing and silicon verification.",
+        "What changes across generations: according to OpenAI, GPT-6.2 Astra, launched November 18, had the best performance on chip-design tasks among the models tested, outscoring GPT-5.6 Sol and earlier versions.",
+        "Who is affected: chipmakers like AMD, which OpenAI says has already folded model-suggested changes into production designs, and engineers using Synopsys's EDA tools."
+      ]
+    }
+  ],
+  "image": {
+    "query": "semiconductor chip design circuit board macro",
+    "alt": "Close-up of a semiconductor chip, illustrating the use of AI models in circuit design"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "title": "Advancing chip design with OpenAI models"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
