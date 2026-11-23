@@ -7,42 +7,152 @@
   "meta_description": "A Nvidia reintegrou Jensen Huang como CEO, 11 dias após sua saída, após o conselho consultar o governo dos EUA, segundo Guardian, CNBC, Wired e Xataka.",
   "keyword": "Jensen Huang CEO Nvidia",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "jensen-huang", "mercado", "chips"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen-huang",
+    "mercado",
+    "chips"
+  ],
   "body": [
-    {"type": "p", "text": "A Nvidia reintegrou Jensen Huang como presidente executivo (CEO), presidente e membro do conselho de administração, com efeito imediato, informou a empresa nesta segunda-feira (23). A decisão foi aprovada por unanimidade pelo conselho, 11 dias depois de o fundador renunciar ao cargo, segundo o El Confidencial, o Guardian, a CNBC, a Wired e o Canaltech.", "items": []},
-    {"type": "p", "text": "Huang havia deixado o comando da empresa em 12 de novembro, depois da divulgação de relacionamentos extraconjugais, incluindo um com a empresária Alice Huang, que a inteligência dos Estados Unidos suspeita ter tido contato com o Ministério da Segurança do Estado da China, segundo o Guardian e a Wired. Pequim nega a acusação.", "items": []},
-    {"type": "p", "text": "A reintegração marca uma reviravolta completa em relação à posição pública da própria empresa. Em 17 de novembro, durante a divulgação de resultados trimestrais, o presidente do conselho, Harvey Jones, havia dito que a Nvidia não pretendia trazer Huang de volta ao cargo, segundo a Wired, a Engadget, a Xataka e o Canaltech.", "items": []},
-    {"type": "h2", "text": "Governo dos EUA entrou na decisão", "items": []},
-    {"type": "p", "text": "Segundo o conselho, a reintegração seguiu uma série de reuniões com Huang, que deixaram a empresa satisfeita com a transparência e a capacidade de liderança do executivo. A Nvidia afirmou ainda ter recebido informações de autoridades de alto escalão do governo americano e, com base nelas, concluído que o retorno de Huang não representa risco à segurança nacional, segundo o Guardian, a CNBC, a Wired, a Xataka e o Canaltech.", "items": []},
-    {"type": "p", "text": "O presidente Donald Trump comemorou publicamente a decisão, segundo o Guardian, a CNBC e a Wired. Nenhuma das fontes detalha se as manifestações de Trump nos dias anteriores influenciaram o conselho.", "items": []},
-    {"type": "h2", "text": "Investigação independente continua", "items": []},
-    {"type": "p", "text": "A Nvidia informou que a investigação independente aberta para apurar se Huang foi alvo de uma operação de inteligência estrangeira segue em curso, com a colaboração do executivo, segundo a CNBC, a Xataka e o Canaltech. Alice Huang foi executiva da Megaspeed, empresa de Singapura que as autoridades americanas investigam desde 2024 por suspeita de desviar chips avançados da Nvidia para a China, em violação das regras de exportação dos EUA, segundo a Wired, a Xataka e o Canaltech.", "items": []},
-    {"type": "h2", "text": "Ações sobem mais de 30%", "items": []},
-    {"type": "p", "text": "As ações da Nvidia subiram mais de 30% durante o pregão de segunda-feira após o anúncio, segundo a CNBC e a Xataka. A empresa foi cofundada por Huang em 1993 e controlava cerca de 90% do mercado global de processadores gráficos (GPUs) em setembro de 2026, segundo a Wired — chips que se tornaram peça central para treinar e rodar modelos de inteligência artificial.", "items": []},
-    {"type": "p", "text": "Colette Kress, diretora financeira da Nvidia, atuou como CEO interina durante o afastamento de Huang e volta a se dedicar às funções financeiras da empresa, segundo a CNBC, a TechCrunch, a Xataka e o Canaltech.", "items": []},
-    {"type": "p", "text": "\"Estou honrado em voltar à NVIDIA e liderar uma das empresas de tecnologia mais importantes do mundo no início de uma nova revolução industrial\", disse Huang em comunicado citado pela CNBC, pela Wired, pela Engadget e pela TechCrunch. Harvey Jones afirmou que o conselho \"acredita que Jensen é a pessoa certa para liderar a Nvidia e que sua reintegração atende aos interesses de acionistas, funcionários, parceiros e clientes\", segundo as mesmas fontes.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "A Nvidia reintegrou Jensen Huang como CEO, presidente e membro do conselho, com efeito imediato, 11 dias após sua saída.",
-      "O conselho havia descartado publicamente o retorno de Huang em 17 de novembro, menos de uma semana antes de reverter a decisão.",
-      "A investigação independente sobre possível risco de segurança nacional ligado a Huang continua, mesmo com sua volta ao cargo.",
-      "As ações da Nvidia subiram mais de 30% durante o pregão de segunda-feira, segundo a CNBC e a Xataka.",
-      "Colette Kress, CFO da empresa, deixa o cargo de CEO interina e retoma as funções financeiras."
-    ]}
+    {
+      "type": "p",
+      "text": "A Nvidia reintegrou Jensen Huang como presidente executivo (CEO), presidente e membro do conselho de administração, com efeito imediato, informou a empresa nesta segunda-feira (23). A decisão foi aprovada por unanimidade pelo conselho, 11 dias depois de o fundador renunciar ao cargo, segundo o El Confidencial, o Guardian, a CNBC, a Wired e o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Huang havia deixado o comando da empresa em 12 de novembro, depois da divulgação de relacionamentos extraconjugais, incluindo um com a empresária Alice Huang, que a inteligência dos Estados Unidos suspeita ter tido contato com o Ministério da Segurança do Estado da China, segundo o Guardian e a Wired. Pequim nega a acusação.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A reintegração marca uma reviravolta completa em relação à posição pública da própria empresa. Em 17 de novembro, durante a divulgação de resultados trimestrais, o presidente do conselho, Harvey Jones, havia dito que a Nvidia não pretendia trazer Huang de volta ao cargo, segundo a Wired, a Engadget, a Xataka e o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Governo dos EUA entrou na decisão",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o conselho, a reintegração seguiu uma série de reuniões com Huang, que deixaram a empresa satisfeita com a transparência e a capacidade de liderança do executivo. A Nvidia afirmou ainda ter recebido informações de autoridades de alto escalão do governo americano e, com base nelas, concluído que o retorno de Huang não representa risco à segurança nacional, segundo o Guardian, a CNBC, a Wired, a Xataka e o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O presidente Donald Trump comemorou publicamente a decisão, segundo o Guardian, a CNBC e a Wired. Nenhuma das fontes detalha se as manifestações de Trump nos dias anteriores influenciaram o conselho.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Investigação independente continua",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia informou que a investigação independente aberta para apurar se Huang foi alvo de uma operação de inteligência estrangeira segue em curso, com a colaboração do executivo, segundo a CNBC, a Xataka e o Canaltech. Alice Huang foi executiva da Megaspeed, empresa de Singapura que as autoridades americanas investigam desde 2024 por suspeita de desviar chips avançados da Nvidia para a China, em violação das regras de exportação dos EUA, segundo a Wired, a Xataka e o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Ações sobem mais de 30%",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As ações da Nvidia subiram mais de 30% durante o pregão de segunda-feira após o anúncio, segundo a CNBC e a Xataka. A empresa foi cofundada por Huang em 1993 e controlava cerca de 90% do mercado global de processadores gráficos (GPUs) em setembro de 2026, segundo a Wired — chips que se tornaram peça central para treinar e rodar modelos de inteligência artificial.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Colette Kress, diretora financeira da Nvidia, atuou como CEO interina durante o afastamento de Huang e volta a se dedicar às funções financeiras da empresa, segundo a CNBC, a TechCrunch, a Xataka e o Canaltech.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Estou honrado em voltar à NVIDIA e liderar uma das empresas de tecnologia mais importantes do mundo no início de uma nova revolução industrial\", disse Huang em comunicado citado pela CNBC, pela Wired, pela Engadget e pela TechCrunch. Harvey Jones afirmou que o conselho \"acredita que Jensen é a pessoa certa para liderar a Nvidia e que sua reintegração atende aos interesses de acionistas, funcionários, parceiros e clientes\", segundo as mesmas fontes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "A Nvidia reintegrou Jensen Huang como CEO, presidente e membro do conselho, com efeito imediato, 11 dias após sua saída.",
+        "O conselho havia descartado publicamente o retorno de Huang em 17 de novembro, menos de uma semana antes de reverter a decisão.",
+        "A investigação independente sobre possível risco de segurança nacional ligado a Huang continua, mesmo com sua volta ao cargo.",
+        "As ações da Nvidia subiram mais de 30% durante o pregão de segunda-feira, segundo a CNBC e a Xataka.",
+        "Colette Kress, CFO da empresa, deixa o cargo de CEO interina e retoma as funções financeiras."
+      ]
+    }
   ],
   "image": {
     "query": "nvidia headquarters technology executive boardroom",
-    "alt": "Fachada da sede da Nvidia, empresa de chips para inteligência artificial"
+    "alt": "Fachada da sede da Nvidia, empresa de chips para inteligência artificial",
+    "path": "/assets/img/nvidia-reintegra-jensen-huang-como-ceo-ce568a24.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "author": "Brecht Corbeel",
+    "author_url": "https://unsplash.com/@brechtcorbeel?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/nvidia-logo-on-a-green-background-with-abstract-3d-elements-y7N0LPyT5wo"
   },
   "sources": [
-    {"name": "El Confidencial Tecnologia", "owner": "elconfidencial", "url": "https://www.elconfidencial.com/tecnologia/2026-11-23/el-consejo-de-nvidia-restituye-a-jensen-huang-como-ceo-_4470790/", "title": "El consejo de Nvidia restituye a Jensen Huang como CEO"},
-    {"name": "The Guardian Technology", "owner": "guardian", "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive", "title": "Jensen Huang reinstated as Nvidia CEO"},
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html", "title": "Nvidia skyrockets 30% on Huang's return as CEO, recovering nearly all the losses since he disclosed affair"},
-    {"name": "Xataka", "owner": "webedia", "url": "https://www.xataka.com/empresas-y-economia/junta-accionistas-nvidia-reincorpora-a-jensen-huang-como-ceo", "title": "La junta de accionistas de Nvidia reincorpora a Jensen Huang como CEO"},
-    {"name": "Wired AI", "owner": "conde-nast", "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/", "title": "Jensen Huang Is Back as Nvidia CEO"},
-    {"name": "Canaltech", "owner": "canaltech", "url": "https://canaltech.com.br/mercado/jensen-huang-volta-a-nvidia-apos-escandalo-de-espionagem-chinesa/", "title": "Jensen Huang volta à NVIDIA após escândalo de espionagem chinesa"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/", "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/", "title": "Nvidia reverses course and brings Jensen Huang back as CEO"}
+    {
+      "name": "El Confidencial Tecnologia",
+      "owner": "elconfidencial",
+      "url": "https://www.elconfidencial.com/tecnologia/2026-11-23/el-consejo-de-nvidia-restituye-a-jensen-huang-como-ceo-_4470790/",
+      "title": "El consejo de Nvidia restituye a Jensen Huang como CEO"
+    },
+    {
+      "name": "The Guardian Technology",
+      "owner": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+      "title": "Jensen Huang reinstated as Nvidia CEO"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "title": "Nvidia skyrockets 30% on Huang's return as CEO, recovering nearly all the losses since he disclosed affair"
+    },
+    {
+      "name": "Xataka",
+      "owner": "webedia",
+      "url": "https://www.xataka.com/empresas-y-economia/junta-accionistas-nvidia-reincorpora-a-jensen-huang-como-ceo",
+      "title": "La junta de accionistas de Nvidia reincorpora a Jensen Huang como CEO"
+    },
+    {
+      "name": "Wired AI",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "title": "Jensen Huang Is Back as Nvidia CEO"
+    },
+    {
+      "name": "Canaltech",
+      "owner": "canaltech",
+      "url": "https://canaltech.com.br/mercado/jensen-huang-volta-a-nvidia-apos-escandalo-de-espionagem-chinesa/",
+      "title": "Jensen Huang volta à NVIDIA após escândalo de espionagem chinesa"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
+      "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-23T15:46:03+00:00",
+  "updated_at": "2026-11-23T15:46:03+00:00"
 }
