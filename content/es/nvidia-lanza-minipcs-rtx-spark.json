@@ -1,0 +1,38 @@
+{
+  "lang": "es",
+  "slug": "nvidia-lanza-minipcs-rtx-spark",
+  "story_id": "7155cb94c5e6667e",
+  "title": "Nvidia lanza miniordenadores RTX Spark para IA local",
+  "dek": "Equipos compactos de Asus, Dell y MSI ejecutan agentes, generan imagen y video, y ajustan modelos sin depender de la nube, según Nvidia.",
+  "meta_description": "Nvidia lanzó los miniordenadores RTX Spark junto a Asus, Dell y MSI, con hasta 128 GB de memoria unificada para ejecutar modelos y agentes de IA en local.",
+  "keyword": "Nvidia RTX Spark",
+  "category": "aplicacoes",
+  "tags": ["ia", "nvidia", "hardware", "rtx spark"],
+  "body": [
+    {"type": "p", "text": "Nvidia lanzó los miniordenadores RTX Spark, equipos compactos fabricados por Asus, Dell y MSI, que están a la venta desde el 18 de noviembre, según un comunicado de la propia empresa. Los equipos fueron diseñados para ejecutar agentes de IA, generar imagen y video, y hacer el ajuste fino de modelos (el reentrenamiento de un modelo ya existente con datos propios para especializarlo en una tarea) directamente en el ordenador, sin depender de servicios en la nube.", "items": []},
+    {"type": "p", "text": "Según Nvidia, cada miniordenador incorpora una CPU Grace de 20 núcleos, una GPU Blackwell RTX con 6.144 núcleos CUDA y hasta 128 GB de memoria unificada, con un rendimiento de hasta 1 petaflop en tareas de IA. La empresa afirma que la conexión Ethernet de 10 gigabits acelera la transferencia de conjuntos de datos, archivos de modelos y otros materiales entre el miniordenador y un almacenamiento en red, algo útil para equipos que trabajan con archivos de gran tamaño.", "items": []},
+    {"type": "h2", "text": "Por qué ejecutar IA en el propio equipo", "items": []},
+    {"type": "p", "text": "Nvidia señala que mantener un agente o una tarea programada corriendo en un miniordenador fijo libera el portátil para viajar o hacer otras tareas, y que procesar modelos en local evita los cobros por token habituales en las aplicaciones de IA en la nube, además de mantener el código y los archivos en el propio equipo. La empresa dice que un equipo fijo también permite que tareas como generar archivos o procesar renderizados largos sigan corriendo después de terminada una sesión de edición. Para configurar agentes, la empresa cita los modelos de referencia Hermes Agent y Nvidia NemoClaw, y para el ajuste fino de modelos compatibles, la herramienta Unsloth.", "items": []},
+    {"type": "p", "text": "Una función llamada Nvidia Switchyard, integrada en Hermes, decide automáticamente cuándo una tarea corre en el miniordenador y cuándo se envía a un modelo en la nube. Según Nvidia, las tareas cotidianas permanecen en el dispositivo mientras que el razonamiento más pesado recurre a la nube, lo que la empresa dice que ayuda a controlar el gasto en computación en la nube a lo largo de un flujo de trabajo creativo.", "items": []},
+    {"type": "h2", "text": "Software que ya aprovecha el hardware", "items": []},
+    {"type": "p", "text": "Nvidia afirma haber ampliado, junto con Adobe, el soporte nativo de Windows on Arm (versión de Windows que corre en procesadores Arm, como el de Nvidia, sin emulación) en aplicaciones como Photoshop, Premiere, Illustrator e InDesign, con aceleración mediante su propia tecnología TensorRT-RTX. Según la empresa, Illustrator llega a rendir hasta un 30% más que la versión emulada, y Premiere logra más de un 50% de reducción en el tiempo de exportación de videos comunes en H.264 gracias a las funciones de edición aceleradas por IA.", "items": []},
+    {"type": "p", "text": "Nvidia también menciona la integración con Blender 5.3, que pasa a usar la tecnología DLSS 4.5 Ray Reconstruction en el visor de Cycles para mostrar iluminación y reflejos cercanos al resultado final en tiempo real, y con ComfyUI, herramienta de generación de imagen y video que gana funciones para convertir un video generado a 60 cuadros por segundo y a alto rango dinámico (HDR), según la empresa. Adobe Substance 3D Painter 12.2 también pasa a correr de forma nativa en Arm, en beta pública, de acuerdo con Nvidia.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: miniordenadores RTX Spark vendidos por Asus, Dell y MSI, según Nvidia; la empresa dice que modelos de Acer, Gigabyte y HP, además del Surface RTX Spark Dev Box de Microsoft, llegarán pronto.",
+      "Desde cuándo: a la venta desde el 18 de noviembre de 2026, de acuerdo con el comunicado de Nvidia.",
+      "Qué cambió: los miniordenadores se suman a la línea de portátiles RTX Spark, que ya estaba disponible, según la empresa.",
+      "A quién afecta: desarrolladores, creadores y entusiastas de la IA que quieren ejecutar modelos, agentes y herramientas de generación de imagen y video sin depender de la nube.",
+      "Precio: Nvidia no divulgó el precio de los miniordenadores en el comunicado."
+    ]}
+  ],
+  "image": {
+    "query": "compact mini desktop computer GPU workstation",
+    "alt": "Miniordenador compacto usado para ejecutar inteligencia artificial en local"
+  },
+  "sources": [
+    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/", "title": "NVIDIA RTX Spark Compact Desktops Out Now"}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}

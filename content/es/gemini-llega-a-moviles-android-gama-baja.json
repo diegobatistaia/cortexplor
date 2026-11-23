@@ -1,0 +1,38 @@
+{
+  "lang": "es",
+  "slug": "gemini-llega-a-moviles-android-gama-baja",
+  "story_id": "50d7af1af4cfcbf1",
+  "title": "Gemini llega a móviles Android de gama baja, dice Google",
+  "dek": "Google reconstruyó la aplicación para que funcione en equipos con poca memoria de la línea Android Go, ampliando el acceso a su asistente de IA.",
+  "meta_description": "Google llevó la aplicación Gemini a dispositivos Android Go de poca memoria tras rediseñarla para hardware más simple, según un comunicado de la empresa.",
+  "keyword": "Gemini Android Go",
+  "category": "aplicacoes",
+  "tags": ["ia", "google", "gemini", "android"],
+  "body": [
+    {"type": "p", "text": "Google comenzó a llevar la aplicación Gemini a dispositivos Android (edición Go) elegibles, la línea pensada para móviles con poca memoria RAM y almacenamiento, vendidos sobre todo en mercados emergentes, según un comunicado que la empresa publicó el 18 de noviembre. Hasta ahora, afirma Google, las limitaciones de hardware de esos equipos restringían al asistente a comandos de voz básicos, sin la aplicación completa.", "items": []},
+    {"type": "p", "text": "La empresa dice haber reconstruido la arquitectura de la aplicación para que la experiencia principal de Gemini funcione con fluidez en hardware con menos memoria disponible. Según Google, los dispositivos Android Go son hoy la principal vía de acceso a internet, educación y servicios para cientos de millones de personas en todo el mundo, lo que la empresa cita como motivo para llevar el asistente a ese público. Google plantea el cambio como poner su asistente de IA directamente al alcance de personas que, hasta ahora, solo podían acceder a una versión reducida, limitada a comandos de voz.", "items": []},
+    {"type": "h2", "text": "Qué ofrece ahora la aplicación", "items": []},
+    {"type": "p", "text": "Con Gemini Live, la función de conversación continua por voz —el usuario habla y el asistente responde en tiempo real, sin necesidad de enviar un mensaje a la vez—, es posible hablar con el asistente en más de 45 idiomas, incluido practicar en voz alta para una entrevista de trabajo, en lugar de escribir instrucciones largas, según Google. La aplicación también permite apuntar la cámara del móvil hacia notas o formularios para aprender sobre el contenido o traducirlo al instante, según la empresa.", "items": []},
+    {"type": "p", "text": "La aplicación también incluye Nano Banana, el modelo de Google para crear imágenes personalizadas a partir de una descripción de texto — la empresa menciona como ejemplo pedir un cartel para anunciar la venta de pasteles de fin de semana. Según Google, estas tres funciones (conversación por voz, lectura mediante la cámara y generación de imágenes) ya existían en Gemini para otros dispositivos, y ahora también funcionan en los teléfonos de entrada de la línea Go, sin versión reducida, según la empresa.", "items": []},
+    {"type": "p", "text": "Según la empresa, para empezar a usar Gemini en estos dispositivos basta con descargar la aplicación desde Google Play, o mantener presionado el botón de encendido en teléfonos compatibles. Google afirma además que la aplicación llegará preinstalada en próximos dispositivos de socios como Transsion, fabricante de marcas de teléfonos populares en mercados de menores ingresos.", "items": []},
+    {"type": "p", "text": "Google no detalló, en el comunicado, qué cambios técnicos específicos hizo en la aplicación para reducir el uso de memoria, y se limitó a decir que la arquitectura fue reconstruida para el hardware más simple. La empresa tampoco informó en qué países Gemini ya está disponible para teléfonos Go ni cuándo la aplicación preinstalada llegará a los dispositivos de Transsion.", "items": []},
+    {"type": "h2", "text": "En la práctica", "items": []},
+    {"type": "list", "text": "", "items": [
+      "Quién puede usarlo: propietarios de dispositivos Android (edición Go) elegibles, según Google; la empresa no detalló una lista de modelos específicos ni los países ya cubiertos.",
+      "Desde cuándo: Google dice que el acceso se habilitó a partir de su comunicado del 18 de noviembre de 2026.",
+      "Cómo instalarlo: descargarlo desde Google Play, mantener presionado el botón de encendido en teléfonos compatibles, o esperar a que venga preinstalado en nuevos dispositivos de socios como Transsion, según la empresa.",
+      "Qué cambió respecto de antes: hasta ahora, según Google, los dispositivos de poca memoria solo tenían acceso a los comandos de voz básicos del asistente, sin Gemini Live, la lectura mediante cámara ni la generación de imágenes de la aplicación completa.",
+      "Alcance: Google dice que el cambio lleva el asistente a \"cientos de millones\" de personas más, sin precisar una cifra exacta.",
+      "Costo: Google no mencionó ningún cobro por usar la aplicación en estos dispositivos en su comunicado."
+    ]}
+  ],
+  "image": {
+    "query": "budget smartphone screen AI assistant app",
+    "alt": "Teléfono Android económico con una aplicación de asistente de inteligencia artificial"
+  },
+  "sources": [
+    {"name": "Google AI", "owner": "alphabet", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/", "title": "The Gemini app is now available on lower-memory Android devices."}
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
