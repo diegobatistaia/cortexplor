@@ -7,32 +7,90 @@
   "meta_description": "A Nvidia lançou minidesktops RTX Spark com Asus, Dell e MSI, com até 128 GB de memória unificada para rodar agentes e modelos de IA localmente, sem nuvem.",
   "keyword": "Nvidia RTX Spark",
   "category": "aplicacoes",
-  "tags": ["ia", "nvidia", "hardware", "rtx spark"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "hardware",
+    "rtx spark"
+  ],
   "body": [
-    {"type": "p", "text": "A Nvidia anunciou os minidesktops RTX Spark, computadores compactos fabricados pela Asus, pela Dell e pela MSI, que já estão à venda desde 18 de novembro, segundo comunicado publicado pela própria empresa. Os equipamentos foram projetados para rodar agentes de IA, gerar imagem e vídeo e fazer o ajuste fino de modelos (o retreinamento de um modelo já pronto com dados próprios para especializá-lo em uma tarefa) diretamente no computador, sem depender de serviços na nuvem.", "items": []},
-    {"type": "p", "text": "Segundo a Nvidia, cada minidesktop traz uma CPU Grace de 20 núcleos, uma GPU Blackwell RTX com 6.144 núcleos CUDA e até 128 GB de memória unificada, com desempenho de até 1 petaflop em tarefas de IA. A empresa afirma que a conexão Ethernet de 10 gigabits acelera a transferência de datasets, arquivos de modelos e outros materiais entre o minidesktop e um armazenamento em rede, algo útil para quem trabalha com arquivos grandes.", "items": []},
-    {"type": "h2", "text": "Por que rodar IA no próprio computador", "items": []},
-    {"type": "p", "text": "A Nvidia diz que manter um agente ou uma tarefa agendada rodando em um minidesktop fixo libera o notebook para viajar ou fazer outras coisas, e que processar modelos localmente evita as cobranças por token comuns em aplicativos de IA na nuvem, além de manter código e arquivos no próprio computador. Para configurar agentes, a empresa cita os modelos de referência Hermes Agent e Nvidia NemoClaw, e para o ajuste fino de modelos compatíveis, a ferramenta Unsloth.", "items": []},
-    {"type": "p", "text": "Uma função chamada Nvidia Switchyard, incorporada ao Hermes, decide automaticamente quando uma tarefa roda no minidesktop e quando é enviada para um modelo na nuvem. Segundo a Nvidia, tarefas do dia a dia ficam no próprio dispositivo, enquanto o raciocínio mais pesado recorre à nuvem, o que a empresa diz ajudar a controlar o gasto com computação em nuvem ao longo de um fluxo de trabalho criativo.", "items": []},
-    {"type": "h2", "text": "Software que já aproveita o hardware", "items": []},
-    {"type": "p", "text": "A Nvidia afirma ter ampliado, com a Adobe, o suporte nativo a Windows on Arm (versão do Windows que roda em processadores Arm, como o da Nvidia, sem emulação) em aplicativos como Photoshop, Premiere, Illustrator e InDesign, com aceleração pela tecnologia própria TensorRT-RTX. Segundo a empresa, o Illustrator chega a ter desempenho até 30% maior que a versão emulada, e o Premiere ganha mais de 50% de redução no tempo de exportação de vídeos comuns em H.264 com os recursos de edição acelerados por IA.", "items": []},
-    {"type": "p", "text": "A Nvidia também cita integração com o Blender 5.3, que passa a usar a tecnologia DLSS 4.5 Ray Reconstruction no visualizador do Cycles para mostrar iluminação e reflexos próximos do resultado final em tempo real, e com o ComfyUI, ferramenta de geração de imagem e vídeo que ganha recursos para converter um vídeo gerado para 60 quadros por segundo e para alto alcance dinâmico (HDR), segundo a empresa. A Adobe Substance 3D Painter 12.2 também passa a rodar nativamente em Arm, em beta público, de acordo com a Nvidia.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar: minidesktops RTX Spark vendidos pela Asus, pela Dell e pela MSI, segundo a Nvidia; a empresa diz que modelos da Acer, da Gigabyte e da HP, além do Surface RTX Spark Dev Box, da Microsoft, chegam em breve.",
-      "Desde quando: à venda a partir de 18 de novembro de 2026, de acordo com o comunicado da Nvidia.",
-      "O que mudou: os minidesktops se juntam à linha de notebooks RTX Spark, que já estava disponível, segundo a empresa.",
-      "Quem é afetado: desenvolvedores, criadores e entusiastas de IA que querem rodar modelos, agentes e ferramentas de geração de imagem e vídeo sem depender da nuvem.",
-      "Preço: a Nvidia não divulgou o valor dos minidesktops no comunicado."
-    ]}
+    {
+      "type": "p",
+      "text": "A Nvidia anunciou os minidesktops RTX Spark, computadores compactos fabricados pela Asus, pela Dell e pela MSI, que já estão à venda desde 18 de novembro, segundo comunicado publicado pela própria empresa. Os equipamentos foram projetados para rodar agentes de IA, gerar imagem e vídeo e fazer o ajuste fino de modelos (o retreinamento de um modelo já pronto com dados próprios para especializá-lo em uma tarefa) diretamente no computador, sem depender de serviços na nuvem.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a Nvidia, cada minidesktop traz uma CPU Grace de 20 núcleos, uma GPU Blackwell RTX com 6.144 núcleos CUDA e até 128 GB de memória unificada, com desempenho de até 1 petaflop em tarefas de IA. A empresa afirma que a conexão Ethernet de 10 gigabits acelera a transferência de datasets, arquivos de modelos e outros materiais entre o minidesktop e um armazenamento em rede, algo útil para quem trabalha com arquivos grandes.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por que rodar IA no próprio computador",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia diz que manter um agente ou uma tarefa agendada rodando em um minidesktop fixo libera o notebook para viajar ou fazer outras coisas, e que processar modelos localmente evita as cobranças por token comuns em aplicativos de IA na nuvem, além de manter código e arquivos no próprio computador. Para configurar agentes, a empresa cita os modelos de referência Hermes Agent e Nvidia NemoClaw, e para o ajuste fino de modelos compatíveis, a ferramenta Unsloth.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Uma função chamada Nvidia Switchyard, incorporada ao Hermes, decide automaticamente quando uma tarefa roda no minidesktop e quando é enviada para um modelo na nuvem. Segundo a Nvidia, tarefas do dia a dia ficam no próprio dispositivo, enquanto o raciocínio mais pesado recorre à nuvem, o que a empresa diz ajudar a controlar o gasto com computação em nuvem ao longo de um fluxo de trabalho criativo.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Software que já aproveita o hardware",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia afirma ter ampliado, com a Adobe, o suporte nativo a Windows on Arm (versão do Windows que roda em processadores Arm, como o da Nvidia, sem emulação) em aplicativos como Photoshop, Premiere, Illustrator e InDesign, com aceleração pela tecnologia própria TensorRT-RTX. Segundo a empresa, o Illustrator chega a ter desempenho até 30% maior que a versão emulada, e o Premiere ganha mais de 50% de redução no tempo de exportação de vídeos comuns em H.264 com os recursos de edição acelerados por IA.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Nvidia também cita integração com o Blender 5.3, que passa a usar a tecnologia DLSS 4.5 Ray Reconstruction no visualizador do Cycles para mostrar iluminação e reflexos próximos do resultado final em tempo real, e com o ComfyUI, ferramenta de geração de imagem e vídeo que ganha recursos para converter um vídeo gerado para 60 quadros por segundo e para alto alcance dinâmico (HDR), segundo a empresa. A Adobe Substance 3D Painter 12.2 também passa a rodar nativamente em Arm, em beta público, de acordo com a Nvidia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: minidesktops RTX Spark vendidos pela Asus, pela Dell e pela MSI, segundo a Nvidia; a empresa diz que modelos da Acer, da Gigabyte e da HP, além do Surface RTX Spark Dev Box, da Microsoft, chegam em breve.",
+        "Desde quando: à venda a partir de 18 de novembro de 2026, de acordo com o comunicado da Nvidia.",
+        "O que mudou: os minidesktops se juntam à linha de notebooks RTX Spark, que já estava disponível, segundo a empresa.",
+        "Quem é afetado: desenvolvedores, criadores e entusiastas de IA que querem rodar modelos, agentes e ferramentas de geração de imagem e vídeo sem depender da nuvem.",
+        "Preço: a Nvidia não divulgou o valor dos minidesktops no comunicado."
+      ]
+    }
   ],
   "image": {
     "query": "compact mini desktop computer GPU workstation",
-    "alt": "Minidesktop compacto usado para rodar inteligência artificial localmente"
+    "alt": "Minidesktop compacto usado para rodar inteligência artificial localmente",
+    "path": "/assets/img/nvidia-lanca-minidesktops-rtx-spark-272f4df7.jpg",
+    "credit": "Christian Wiediger / Unsplash",
+    "author": "Christian Wiediger",
+    "author_url": "https://unsplash.com/@christianw?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/selective-focus-photography-of-geforce-rtx-graphics-card-3GUW88tRmv8"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/", "title": "NVIDIA RTX Spark Compact Desktops Out Now"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-23T10:49:10+00:00",
+  "updated_at": "2026-11-23T10:49:10+00:00"
 }

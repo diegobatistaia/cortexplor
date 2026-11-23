@@ -7,32 +7,86 @@
   "meta_description": "O Google levou o aplicativo Gemini a celulares Android Go, de pouca memória, após reescrever o app para rodar em hardware mais simples, segundo a empresa.",
   "keyword": "Gemini Android Go",
   "category": "aplicacoes",
-  "tags": ["ia", "google", "gemini", "android"],
+  "tags": [
+    "ia",
+    "google",
+    "gemini",
+    "android"
+  ],
   "body": [
-    {"type": "p", "text": "O Google começou a disponibilizar o aplicativo Gemini para aparelhos Android elegíveis da linha Go, voltada a celulares com pouca memória RAM e armazenamento, geralmente vendidos em mercados emergentes, segundo comunicado publicado pela empresa em 18 de novembro. Até então, afirma o Google, as limitações de hardware desses aparelhos restringiam o assistente a comandos de voz básicos, sem o aplicativo completo.", "items": []},
-    {"type": "p", "text": "A empresa diz ter reconstruído a arquitetura do aplicativo para que a experiência principal do Gemini rode de forma fluida em hardware com menos memória disponível. Segundo o Google, aparelhos Android Go são hoje a principal forma de acesso à internet, à educação e a serviços para centenas de milhões de pessoas ao redor do mundo, o que a empresa cita como motivação para levar o assistente a esse público. O Google descreve a mudança como colocar o assistente diretamente ao alcance de quem, até agora, só tinha acesso a uma versão reduzida, restrita a comandos de voz.", "items": []},
-    {"type": "h2", "text": "O que o aplicativo passa a oferecer", "items": []},
-    {"type": "p", "text": "Com o Gemini Live, recurso de conversa contínua por voz — o usuário fala e o assistente responde em tempo real, sem precisar enviar uma mensagem de cada vez —, é possível falar com o assistente em mais de 45 idiomas, inclusive para treinar uma entrevista de emprego em voz alta, em vez de digitar comandos longos, segundo o Google. O aplicativo também permite apontar a câmera do celular para anotações ou formulários para aprender sobre o conteúdo ou traduzi-lo na hora, segundo a empresa.", "items": []},
-    {"type": "p", "text": "O aplicativo também traz o Nano Banana, o modelo do Google para criar imagens personalizadas a partir de uma descrição em texto — a empresa cita como exemplo o pedido de um cartaz para divulgar a venda de bolos de fim de semana. Segundo o Google, esses três recursos (conversa por voz, leitura de imagem pela câmera e geração de imagem) já existiam no Gemini para outros aparelhos, e agora passam a rodar também nos modelos de entrada da linha Go, sem versão reduzida, segundo a empresa.", "items": []},
-    {"type": "p", "text": "Segundo a empresa, para começar a usar o Gemini nesses aparelhos, basta baixar o aplicativo na Google Play, ou pressionar e segurar o botão de energia em celulares compatíveis. O Google afirma ainda que o aplicativo deve vir pré-instalado em aparelhos futuros de parceiros como a Transsion, fabricante de marcas de celular populares em mercados de baixa renda.", "items": []},
-    {"type": "p", "text": "O Google não detalhou, no comunicado, quais mudanças técnicas específicas fez no aplicativo para reduzir o uso de memória, limitando-se a dizer que a arquitetura foi reconstruída para o hardware mais simples. A empresa também não informou em quais países o Gemini já está disponível para aparelhos Go nem quando o aplicativo pré-instalado deve chegar aos celulares da Transsion.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quem pode usar: donos de aparelhos Android (Go edition) elegíveis, segundo o Google; a empresa não detalhou uma lista de modelos específicos nem os países já atendidos.",
-      "Desde quando: o Google diz ter liberado o acesso a partir do comunicado de 18 de novembro de 2026.",
-      "Como instalar: baixar na Google Play, pressionar e segurar o botão de energia em aparelhos compatíveis, ou aguardar o app pré-instalado em novos celulares de parceiros como a Transsion, segundo a empresa.",
-      "O que muda em relação a antes: até então, segundo o Google, aparelhos com pouca memória só tinham acesso a comandos de voz básicos do assistente, sem o aplicativo completo com Gemini Live, leitura por câmera e geração de imagem.",
-      "Alcance: o Google diz que a mudança leva o assistente a \"centenas de milhões\" de pessoas a mais, sem citar um número exato.",
-      "Quanto custa: o Google não mencionou cobrança para usar o aplicativo nesses aparelhos no comunicado."
-    ]}
+    {
+      "type": "p",
+      "text": "O Google começou a disponibilizar o aplicativo Gemini para aparelhos Android elegíveis da linha Go, voltada a celulares com pouca memória RAM e armazenamento, geralmente vendidos em mercados emergentes, segundo comunicado publicado pela empresa em 18 de novembro. Até então, afirma o Google, as limitações de hardware desses aparelhos restringiam o assistente a comandos de voz básicos, sem o aplicativo completo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa diz ter reconstruído a arquitetura do aplicativo para que a experiência principal do Gemini rode de forma fluida em hardware com menos memória disponível. Segundo o Google, aparelhos Android Go são hoje a principal forma de acesso à internet, à educação e a serviços para centenas de milhões de pessoas ao redor do mundo, o que a empresa cita como motivação para levar o assistente a esse público. O Google descreve a mudança como colocar o assistente diretamente ao alcance de quem, até agora, só tinha acesso a uma versão reduzida, restrita a comandos de voz.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que o aplicativo passa a oferecer",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Com o Gemini Live, recurso de conversa contínua por voz — o usuário fala e o assistente responde em tempo real, sem precisar enviar uma mensagem de cada vez —, é possível falar com o assistente em mais de 45 idiomas, inclusive para treinar uma entrevista de emprego em voz alta, em vez de digitar comandos longos, segundo o Google. O aplicativo também permite apontar a câmera do celular para anotações ou formulários para aprender sobre o conteúdo ou traduzi-lo na hora, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O aplicativo também traz o Nano Banana, o modelo do Google para criar imagens personalizadas a partir de uma descrição em texto — a empresa cita como exemplo o pedido de um cartaz para divulgar a venda de bolos de fim de semana. Segundo o Google, esses três recursos (conversa por voz, leitura de imagem pela câmera e geração de imagem) já existiam no Gemini para outros aparelhos, e agora passam a rodar também nos modelos de entrada da linha Go, sem versão reduzida, segundo a empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a empresa, para começar a usar o Gemini nesses aparelhos, basta baixar o aplicativo na Google Play, ou pressionar e segurar o botão de energia em celulares compatíveis. O Google afirma ainda que o aplicativo deve vir pré-instalado em aparelhos futuros de parceiros como a Transsion, fabricante de marcas de celular populares em mercados de baixa renda.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Google não detalhou, no comunicado, quais mudanças técnicas específicas fez no aplicativo para reduzir o uso de memória, limitando-se a dizer que a arquitetura foi reconstruída para o hardware mais simples. A empresa também não informou em quais países o Gemini já está disponível para aparelhos Go nem quando o aplicativo pré-instalado deve chegar aos celulares da Transsion.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: donos de aparelhos Android (Go edition) elegíveis, segundo o Google; a empresa não detalhou uma lista de modelos específicos nem os países já atendidos.",
+        "Desde quando: o Google diz ter liberado o acesso a partir do comunicado de 18 de novembro de 2026.",
+        "Como instalar: baixar na Google Play, pressionar e segurar o botão de energia em aparelhos compatíveis, ou aguardar o app pré-instalado em novos celulares de parceiros como a Transsion, segundo a empresa.",
+        "O que muda em relação a antes: até então, segundo o Google, aparelhos com pouca memória só tinham acesso a comandos de voz básicos do assistente, sem o aplicativo completo com Gemini Live, leitura por câmera e geração de imagem.",
+        "Alcance: o Google diz que a mudança leva o assistente a \"centenas de milhões\" de pessoas a mais, sem citar um número exato.",
+        "Quanto custa: o Google não mencionou cobrança para usar o aplicativo nesses aparelhos no comunicado."
+      ]
+    }
   ],
   "image": {
     "query": "budget smartphone screen AI assistant app",
-    "alt": "Celular Android de entrada com aplicativo de assistente de inteligência artificial"
+    "alt": "Celular Android de entrada com aplicativo de assistente de inteligência artificial",
+    "path": "/assets/img/gemini-chega-a-celulares-android-baratos-a40797f4.jpg",
+    "credit": "Tran Mau Tri Tam ✪ / Unsplash",
+    "author": "Tran Mau Tri Tam ✪",
+    "author_url": "https://unsplash.com/@tranmautritam?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-holding-black-android-smartphone-QwAL909kTiY"
   },
   "sources": [
-    {"name": "Google AI", "owner": "alphabet", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/", "title": "The Gemini app is now available on lower-memory Android devices."}
+    {
+      "name": "Google AI",
+      "owner": "alphabet",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "title": "The Gemini app is now available on lower-memory Android devices."
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-23T10:49:10+00:00",
+  "updated_at": "2026-11-23T10:49:10+00:00"
 }

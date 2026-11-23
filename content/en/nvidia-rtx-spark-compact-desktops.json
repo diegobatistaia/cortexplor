@@ -7,33 +7,95 @@
   "meta_description": "Nvidia has launched RTX Spark compact desktops built with Asus, Dell and MSI, offering up to 128GB of unified memory to run AI models and agents locally.",
   "keyword": "Nvidia RTX Spark",
   "category": "aplicacoes",
-  "tags": ["ai", "nvidia", "hardware", "rtx spark"],
+  "tags": [
+    "ai",
+    "nvidia",
+    "hardware",
+    "rtx spark"
+  ],
   "body": [
-    {"type": "p", "text": "Nvidia has launched RTX Spark compact desktops, built by Asus, Dell and MSI, which have been available for purchase since November 18, according to a statement from the company. The machines are designed to run local AI agents, image and video generation, and model fine-tuning — retraining an existing model on a user's own data to specialize it for a task — directly on the desktop, without relying on cloud services.", "items": []},
-    {"type": "p", "text": "According to Nvidia, each compact desktop carries a 20-core Grace CPU, a Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory, delivering up to 1 petaflop of AI performance. The company says 10-gigabit Ethernet connectivity speeds up transfers of datasets, model files and other assets between the desktop and networked storage, which it says is useful for teams working with large files.", "items": []},
-    {"type": "h2", "text": "Why run AI on a local machine", "items": []},
-    {"type": "p", "text": "Nvidia says keeping an agent or a scheduled task running on a dedicated desktop frees up a laptop to travel or handle other work, and that running supported models locally avoids the per-token charges common to cloud AI applications, while keeping code and files on the machine itself. The company says a dedicated desktop also lets tasks such as generating assets or processing long renders continue after an editing session ends, since the machine is not needed for travel. For setting up agents, the company points to the Hermes Agent and Nvidia NemoClaw reference blueprints, and to the Unsloth tool for fine-tuning supported models.", "items": []},
-    {"type": "p", "text": "A feature called Nvidia Switchyard, built into Hermes, automatically decides when a task runs on the desktop and when it is routed to a cloud model. According to Nvidia, everyday tasks stay on the device while heavier reasoning draws on the cloud, which the company says helps manage cloud costs across a creative workflow.", "items": []},
-    {"type": "h2", "text": "Software already built for the hardware", "items": []},
-    {"type": "p", "text": "Nvidia says it has expanded native Windows on Arm support with Adobe across apps including Photoshop, Premiere, Illustrator and InDesign, accelerated by the company's own TensorRT-RTX technology. According to Nvidia, Illustrator now performs up to 30% faster than its emulated version, and Premiere delivers more than 50% quicker turnaround on everyday H.264 video exports through AI-accelerated editing features.", "items": []},
-    {"type": "p", "text": "The company also cites integration with Blender 5.3, which now uses DLSS 4.5 Ray Reconstruction in the Cycles viewport to show near-final lighting and reflections in real time, and with ComfyUI, the image and video generation tool, which gains features to convert a generated clip to 60 frames per second and to high dynamic range (HDR), Nvidia says. Adobe Substance 3D Painter 12.2 also now runs natively on Arm in public beta, according to the company, as do new native Windows on Arm versions of Illustrator and InDesign.", "items": []},
-    {"type": "p", "text": "Nvidia did not disclose pricing for the RTX Spark compact desktops in its announcement, nor did it say which countries the machines are currently sold in beyond naming Asus, Dell and MSI as the launch manufacturers.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: RTX Spark compact desktops sold by Asus, Dell and MSI, according to Nvidia; the company says mini PCs from Acer, Gigabyte and HP, plus the Microsoft Surface RTX Spark Dev Box, are coming soon.",
-      "Since when: on sale as of November 18, 2026, according to Nvidia's statement.",
-      "What changed: the compact desktops join the RTX Spark laptop line, which was already available, the company says.",
-      "Who is affected: developers, creators and AI enthusiasts who want to run models, agents and image and video generation tools without relying on the cloud.",
-      "Price: Nvidia did not disclose pricing for the compact desktops in its announcement."
-    ]}
+    {
+      "type": "p",
+      "text": "Nvidia has launched RTX Spark compact desktops, built by Asus, Dell and MSI, which have been available for purchase since November 18, according to a statement from the company. The machines are designed to run local AI agents, image and video generation, and model fine-tuning — retraining an existing model on a user's own data to specialize it for a task — directly on the desktop, without relying on cloud services.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Nvidia, each compact desktop carries a 20-core Grace CPU, a Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory, delivering up to 1 petaflop of AI performance. The company says 10-gigabit Ethernet connectivity speeds up transfers of datasets, model files and other assets between the desktop and networked storage, which it says is useful for teams working with large files.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why run AI on a local machine",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says keeping an agent or a scheduled task running on a dedicated desktop frees up a laptop to travel or handle other work, and that running supported models locally avoids the per-token charges common to cloud AI applications, while keeping code and files on the machine itself. The company says a dedicated desktop also lets tasks such as generating assets or processing long renders continue after an editing session ends, since the machine is not needed for travel. For setting up agents, the company points to the Hermes Agent and Nvidia NemoClaw reference blueprints, and to the Unsloth tool for fine-tuning supported models.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A feature called Nvidia Switchyard, built into Hermes, automatically decides when a task runs on the desktop and when it is routed to a cloud model. According to Nvidia, everyday tasks stay on the device while heavier reasoning draws on the cloud, which the company says helps manage cloud costs across a creative workflow.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Software already built for the hardware",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia says it has expanded native Windows on Arm support with Adobe across apps including Photoshop, Premiere, Illustrator and InDesign, accelerated by the company's own TensorRT-RTX technology. According to Nvidia, Illustrator now performs up to 30% faster than its emulated version, and Premiere delivers more than 50% quicker turnaround on everyday H.264 video exports through AI-accelerated editing features.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company also cites integration with Blender 5.3, which now uses DLSS 4.5 Ray Reconstruction in the Cycles viewport to show near-final lighting and reflections in real time, and with ComfyUI, the image and video generation tool, which gains features to convert a generated clip to 60 frames per second and to high dynamic range (HDR), Nvidia says. Adobe Substance 3D Painter 12.2 also now runs natively on Arm in public beta, according to the company, as do new native Windows on Arm versions of Illustrator and InDesign.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia did not disclose pricing for the RTX Spark compact desktops in its announcement, nor did it say which countries the machines are currently sold in beyond naming Asus, Dell and MSI as the launch manufacturers.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: RTX Spark compact desktops sold by Asus, Dell and MSI, according to Nvidia; the company says mini PCs from Acer, Gigabyte and HP, plus the Microsoft Surface RTX Spark Dev Box, are coming soon.",
+        "Since when: on sale as of November 18, 2026, according to Nvidia's statement.",
+        "What changed: the compact desktops join the RTX Spark laptop line, which was already available, the company says.",
+        "Who is affected: developers, creators and AI enthusiasts who want to run models, agents and image and video generation tools without relying on the cloud.",
+        "Price: Nvidia did not disclose pricing for the compact desktops in its announcement."
+      ]
+    }
   ],
   "image": {
     "query": "compact mini desktop computer GPU workstation",
-    "alt": "Compact mini desktop computer used to run artificial intelligence locally"
+    "alt": "Compact mini desktop computer used to run artificial intelligence locally",
+    "path": "/assets/img/nvidia-rtx-spark-compact-desktops-272f4df7.jpg",
+    "credit": "Christian Wiediger / Unsplash",
+    "author": "Christian Wiediger",
+    "author_url": "https://unsplash.com/@christianw?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/selective-focus-photography-of-geforce-rtx-graphics-card-3GUW88tRmv8"
   },
   "sources": [
-    {"name": "NVIDIA", "owner": "nvidia", "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/", "title": "NVIDIA RTX Spark Compact Desktops Out Now"}
+    {
+      "name": "NVIDIA",
+      "owner": "nvidia",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-23T10:49:11+00:00",
+  "updated_at": "2026-11-23T10:49:11+00:00"
 }

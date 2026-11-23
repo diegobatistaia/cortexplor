@@ -5,8 +5,24 @@
     <link>https://cortexplor.com/pt/</link>
     <description>Notícias, tendências e números de Inteligência Artificial no Brasil e no mundo.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 22 Nov 2026 21:47:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 10:49:13 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-pt.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gemini chega a celulares Android de entrada, diz o Google</title>
+      <link>https://cortexplor.com/pt/gemini-chega-a-celulares-android-baratos/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/gemini-chega-a-celulares-android-baratos/</guid>
+      <description>O Google levou o aplicativo Gemini a celulares Android Go, de pouca memória, após reescrever o app para rodar em hardware mais simples, segundo a empresa.</description>
+      <category>Aplicações</category>
+      <pubDate>Mon, 23 Nov 2026 10:49:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia lança minidesktops RTX Spark para rodar IA local</title>
+      <link>https://cortexplor.com/pt/nvidia-lanca-minidesktops-rtx-spark/</link>
+      <guid isPermaLink="true">https://cortexplor.com/pt/nvidia-lanca-minidesktops-rtx-spark/</guid>
+      <description>A Nvidia lançou minidesktops RTX Spark com Asus, Dell e MSI, com até 128 GB de memória unificada para rodar agentes e modelos de IA localmente, sem nuvem.</description>
+      <category>Aplicações</category>
+      <pubDate>Mon, 23 Nov 2026 10:49:10 +0000</pubDate>
+    </item>
     <item>
       <title>OpenAI usa seus modelos de IA para melhorar projeto de chips com a AMD</title>
       <link>https://cortexplor.com/pt/openai-usa-seus-modelos-para-projetar-chips/</link>
@@ -230,22 +246,6 @@
       <description>A Roboflow lançou o reconhecimento de ações em vídeo em sua plataforma de visão computacional, com os modelos Cosmos 3 Edge e V-JEPA 2.1, diz a empresa.</description>
       <category>Aplicações</category>
       <pubDate>Mon, 16 Nov 2026 10:44:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft acha brecha que instala backdoor em agentes de IA</title>
-      <link>https://cortexplor.com/pt/microsoft-descobre-backdoor-lazarus-ia/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/microsoft-descobre-backdoor-lazarus-ia/</guid>
-      <description>A Microsoft descobriu o backdoor Lazarus, que altera menos de 10 neurônios para comprometer agentes de IA sem precisar retreinar o modelo, segundo a empresa.</description>
-      <category>Aplicações</category>
-      <pubDate>Sun, 15 Nov 2026 21:49:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hugging Face reduz espaço de busca por IA sem perder precisão</title>
-      <link>https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/</link>
-      <guid isPermaLink="true">https://cortexplor.com/pt/hugging-face-comprime-busca-ia-sem-perder-precisao/</guid>
-      <description>A Hugging Face criou o pooling-aware training, técnica que comprime até 4 vezes as representações de busca por IA e mantém 97,8% da precisão, segundo a empresa.</description>
-      <category>Modelos &amp; Lançamentos</category>
-      <pubDate>Sun, 15 Nov 2026 21:49:27 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,32 +7,86 @@
   "meta_description": "Google has brought the Gemini app to low-memory Android Go devices, after re-architecting it to run on simpler hardware for hundreds of millions of users.",
   "keyword": "Gemini Android Go",
   "category": "aplicacoes",
-  "tags": ["ai", "google", "gemini", "android"],
+  "tags": [
+    "ai",
+    "google",
+    "gemini",
+    "android"
+  ],
   "body": [
-    {"type": "p", "text": "Google has started rolling out the Gemini app to eligible Android (Go edition) devices, the line built for phones with less RAM and storage, typically sold in emerging markets, according to a statement the company published on November 18. Until now, Google says, hardware limits on those phones restricted the assistant to basic voice commands, without the full app.", "items": []},
-    {"type": "p", "text": "The company says it re-architected the app so the core Gemini experience runs smoothly on hardware with less available memory. According to Google, Android Go devices are the main way hundreds of millions of people around the world connect to the internet, education and services, which the company cites as its motivation for bringing the assistant to that audience. Google frames the move as putting its AI assistant directly in the hands of people who, until now, could only reach it through a stripped-down, voice-only experience.", "items": []},
-    {"type": "h2", "text": "What the app now offers", "items": []},
-    {"type": "p", "text": "With Gemini Live, the continuous voice conversation feature — users speak and the assistant replies in real time, without sending one message at a time — people can talk to the assistant in more than 45 languages, including practicing for a job interview out loud, instead of typing out long prompts, Google says. The app also lets people point their phone camera at notes or forms to learn about the content or translate it on the spot, according to the company.", "items": []},
-    {"type": "p", "text": "The app also includes Nano Banana, Google's model for creating custom images from a text description — the company cites the example of asking for a flyer to promote a weekend bakery sale. According to Google, these three features (voice conversation, camera-based reading and image generation) already existed in Gemini on other devices, and now also run on entry-level Go edition phones, with no reduced version, the company says, rather than a scaled-back feature set built specifically for cheaper hardware.", "items": []},
-    {"type": "p", "text": "According to the company, people can start using Gemini on these devices by downloading the app from Google Play, or by pressing and holding the power button on supported phones. Google also says the app is set to come preloaded on upcoming devices from partners such as Transsion, a maker of phone brands popular in lower-income markets.", "items": []},
-    {"type": "p", "text": "Google did not detail, in its announcement, which specific technical changes it made to the app to reduce memory use, saying only that the architecture was rebuilt for simpler hardware. The company also did not say which countries already have Gemini available on Go edition phones, or when the preloaded app will reach Transsion devices. Nor did Google specify how much memory a device needs to qualify as a Go edition phone, beyond describing the category generally as lower-memory hardware.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: owners of eligible Android (Go edition) devices, according to Google; the company did not list specific supported phone models or say which countries are already covered.",
-      "Since when: Google says access to the app started rolling out as of its November 18, 2026 announcement.",
-      "How to install it: download it from Google Play, press and hold the power button on supported phones, or wait for it preloaded on new devices from partners like Transsion, the company says.",
-      "What changed from before: until now, according to Google, low-memory devices only had access to the assistant's basic voice commands, without the full app's Gemini Live, camera-based reading and image generation.",
-      "Reach: Google says the change brings the assistant to \"hundreds of millions\" more people worldwide, without giving an exact figure or a country-by-country breakdown.",
-      "Cost: Google did not mention any charge for using the Gemini app on these low-memory devices in its announcement."
-    ]}
+    {
+      "type": "p",
+      "text": "Google has started rolling out the Gemini app to eligible Android (Go edition) devices, the line built for phones with less RAM and storage, typically sold in emerging markets, according to a statement the company published on November 18. Until now, Google says, hardware limits on those phones restricted the assistant to basic voice commands, without the full app.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company says it re-architected the app so the core Gemini experience runs smoothly on hardware with less available memory. According to Google, Android Go devices are the main way hundreds of millions of people around the world connect to the internet, education and services, which the company cites as its motivation for bringing the assistant to that audience. Google frames the move as putting its AI assistant directly in the hands of people who, until now, could only reach it through a stripped-down, voice-only experience.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What the app now offers",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "With Gemini Live, the continuous voice conversation feature — users speak and the assistant replies in real time, without sending one message at a time — people can talk to the assistant in more than 45 languages, including practicing for a job interview out loud, instead of typing out long prompts, Google says. The app also lets people point their phone camera at notes or forms to learn about the content or translate it on the spot, according to the company.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The app also includes Nano Banana, Google's model for creating custom images from a text description — the company cites the example of asking for a flyer to promote a weekend bakery sale. According to Google, these three features (voice conversation, camera-based reading and image generation) already existed in Gemini on other devices, and now also run on entry-level Go edition phones, with no reduced version, the company says, rather than a scaled-back feature set built specifically for cheaper hardware.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to the company, people can start using Gemini on these devices by downloading the app from Google Play, or by pressing and holding the power button on supported phones. Google also says the app is set to come preloaded on upcoming devices from partners such as Transsion, a maker of phone brands popular in lower-income markets.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google did not detail, in its announcement, which specific technical changes it made to the app to reduce memory use, saying only that the architecture was rebuilt for simpler hardware. The company also did not say which countries already have Gemini available on Go edition phones, or when the preloaded app will reach Transsion devices. Nor did Google specify how much memory a device needs to qualify as a Go edition phone, beyond describing the category generally as lower-memory hardware.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: owners of eligible Android (Go edition) devices, according to Google; the company did not list specific supported phone models or say which countries are already covered.",
+        "Since when: Google says access to the app started rolling out as of its November 18, 2026 announcement.",
+        "How to install it: download it from Google Play, press and hold the power button on supported phones, or wait for it preloaded on new devices from partners like Transsion, the company says.",
+        "What changed from before: until now, according to Google, low-memory devices only had access to the assistant's basic voice commands, without the full app's Gemini Live, camera-based reading and image generation.",
+        "Reach: Google says the change brings the assistant to \"hundreds of millions\" more people worldwide, without giving an exact figure or a country-by-country breakdown.",
+        "Cost: Google did not mention any charge for using the Gemini app on these low-memory devices in its announcement."
+      ]
+    }
   ],
   "image": {
     "query": "budget smartphone screen AI assistant app",
-    "alt": "Low-cost Android phone running an artificial intelligence assistant app"
+    "alt": "Low-cost Android phone running an artificial intelligence assistant app",
+    "path": "/assets/img/gemini-app-expands-low-memory-android-a40797f4.jpg",
+    "credit": "Tran Mau Tri Tam ✪ / Unsplash",
+    "author": "Tran Mau Tri Tam ✪",
+    "author_url": "https://unsplash.com/@tranmautritam?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/person-holding-black-android-smartphone-QwAL909kTiY"
   },
   "sources": [
-    {"name": "Google AI", "owner": "alphabet", "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/", "title": "The Gemini app is now available on lower-memory Android devices."}
+    {
+      "name": "Google AI",
+      "owner": "alphabet",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "title": "The Gemini app is now available on lower-memory Android devices."
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-23T10:49:11+00:00",
+  "updated_at": "2026-11-23T10:49:11+00:00"
 }
