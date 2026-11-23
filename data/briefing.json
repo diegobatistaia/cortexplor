@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T01:47:01+00:00",
-  "posts_per_language_today": 0,
+  "generated_at": "2026-11-23T09:43:00+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 4,
+  "already_written_today": 0,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -78,5 +78,156 @@
     150,
     160
   ],
-  "stories": []
+  "stories": [
+    {
+      "story_id": "2fef47b109b2830d",
+      "title": "Blurring Faces to Preserve Privacy with Computer Vision",
+      "summary": "SUMMARY Automatically blurring faces and license plates before data enters a storage pipeline is a practical way to handle personally identifiable information in computer vision deployments, following the same approach used by Google Maps Street View. This tutorial covers collecting face and license plate datasets from Roboflow Universe, training a detection model, and using the Roboflow API to...",
+      "owners": [
+        "roboflow"
+      ],
+      "primary_owners": [
+        "roboflow"
+      ],
+      "fingerprints": [
+        "d3c915129e007168"
+      ],
+      "sources": [
+        {
+          "name": "Roboflow",
+          "owner": "roboflow",
+          "url": "https://roboflow.com/blog/face-blur-privacy-computer-vision",
+          "title": "Blurring Faces to Preserve Privacy with Computer Vision",
+          "published_at": "2026-11-18T14:00:00+00:00",
+          "kind": "primary",
+          "text": "Quote of the day: “Keep calm and carry on.” -Winston Churchill Computer vision applications can be used in a variety of settings and sometimes information captured in your dataset might not be information you want to be responsible for having such as personally identifiable information, banking information, or any other sensitive data. In these instances, you can ensure the data is anonymized by blurring, pixelating, or fogging any specific data before it enters your database. This post will show you how to do this using computer vision. Fogging, also known as blurring, is used for censorship or privacy in which a visual area of any image, video, or livestream is blurred to obscure the data captured. Pixelization is also a form of fogging. This technique is used widely across industries from street mapping to news reporting to social media. When Street View imagery is published to Google Maps, Google employs censoring faces to protect individuals’ privacy. Luckily, we have Roboflow Universe (opens in a new tab) which is home to the world's largest collection of annotated and ready to use datasets related to various industries such as self-driving cars (opens in a new tab) and agriculture (opens in a new tab) , to manufacturing (opens in a new tab) and gaming (opens in a new tab) that are open source and free to use. Tip: Search using the keyword 'faces' or 'license plates' and we are ready to go In addition to downloading the datasets, you can also clone data from Roboflow Universe (opens in a new tab) directly to a project in your Roboflow account. If you need additional data beyond what is provided in Universe, you can upload Youtube videos as training data (opens in a new tab) or upload your own data (opens in a new tab) . Then you'll use Roboflow Annotate to label the data for model training. We then upload our downloaded image dataset to the Roboflow app to train our model to detect faces. This process can be done for any data you want to obfuscate and anonymize such as license plates (opens in a new tab) and identification cards (opens in a new tab) . After uploading your dataset, properly labeling the data , adding augmentations , and generating the dataset, you can train a computer vision model with one-click using Roboflow Train . Below are the results after training the model using the Accurate model (opens in a new tab) in Roboflow. Along with model performance data, we also have access to visualizations for the training and validation curves. After successfully training the model, go to the Deploy page (opens in a new tab) and use the API script provided to censor the images. After training, call your model from Python with the Roboflow inference SDK, then use supervision (opens in a new tab) , Roboflow's open source computer vision library, to blur or pixelate every detected face. Install both packages: Run the model on an image and convert the response into a supervision Detections object. Replace MODEL_ID with your project ID and version from your model's Deploy page (opens in a new tab) , and add your Roboflow API key. The model returns one prediction per face with the box center, width, height, class, and confidence: After the prediction, extract the region of interest (ROI): To blur every face, use BlurAnnotator . A larger kernel_size gives a stronger blur; 35 hides facial features without overdoing it. To pixelate instead, use PixelateAnnotator . A larger pixel_size gives bigger blocks. Both annotators cover every face the model finds, so group photos and crowded scenes are handled in one call. The same annotator works frame by frame. sv.process_video reads a video, runs your callback on each frame, and writes the anonymized result: To enforce masking across every camera and upload, not just one script, the Roboflow Enterprise platform builds it in. Talk to sales to set it up for your team. Hopefully you can use parts of this application to build your own project. To get started, find a dataset in Roboflow Universe (opens in a new tab) , consider the best method for deploying your model , and ship your first project. If you end up building something, please share it in our forum (opens in a new tab) !"
+        }
+      ]
+    },
+    {
+      "story_id": "7155cb94c5e6667e",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+      "owners": [
+        "nvidia"
+      ],
+      "primary_owners": [
+        "nvidia"
+      ],
+      "fingerprints": [
+        "2f5d6d63b0593aac"
+      ],
+      "sources": [
+        {
+          "name": "NVIDIA",
+          "owner": "nvidia",
+          "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+          "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "published_at": "2026-11-18T14:00:31+00:00",
+          "kind": "primary",
+          "text": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks running while a laptop travels or handles other work. Alongside the new desktops, an expanding software ecosystem brings more creative and development workflows to RTX Spark laptops and compact desktops. Native Windows on Arm applications from Adobe, the NVIDIA DLSS Ray Reconstruction feature in Blender and local generation workflows in ComfyUI expand what creators and developers can do on RTX Spark — all on one Windows PC. As workflows expand to include local AI models and agents, more work can continue beyond an active editing session — from generating assets to processing long renders or scheduled tasks. RTX Spark compact desktops give developers, creators and AI enthusiasts a dedicated Windows PC for local models and always-on agents. They bring together image and video generation, model fine-tuning, creative applications and development tools in one compact system. Running supported models locally keeps locally processed code and files on the PC and avoids per-token cloud application programming interface (API) charges for those tasks. RTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory, delivering up to 1 petaflop of AI performance. Ten-gigabit Ethernet connectivity enables fast transfers of large datasets, model files and creative assets between RTX Spark compact desktops and networked storage. This advanced hardware unlocks incredible capabilities for creators, developers and AI enthusiasts, including: New compact desktops are available for purchase from ASUS, Dell and MSI, joining the RTX Spark family of laptops available today. Mini PCs from Acer, GIGABYTE and HP are coming soon, along with the Microsoft Surface RTX Spark Dev Box . Native CUDA support and Linux development tools through Windows Subsystem for Linux give developers a foundation for building and running local AI workflows. Developers can set up agents with Hermes Agent or NVIDIA NemoClaw blueprints and fine-tune supported models using Unsloth. RTX Spark can run creative agents that connect familiar applications and local AI tools, helping creators move from an idea to finished work with natural-language instructions. NVIDIA Switchyard, now available in Hermes, automatically routes agent tasks between local and cloud models. Everyday tasks can run on device, while advanced reasoning draws on cloud models, helping manage cloud costs across creative workflows. These capabilities come together in creative workflows that connect Photoshop and ComfyUI through Hermes Agent. Using natural-language instructions, creators can turn sketches into rendered images and animations, or animate an image entirely on device by isolating a subject and defining its motion. NVIDIA brought these workflows to life at Adobe MAX, where attendees used natural-language instructions to turn sketches into rendered images and generate video for a shared digital Miami landscape. The RTX Video Frame Generation and RTX Video HDR features, already available in ComfyUI, extend the pipeline: a generated clip can be expanded to 60 frames per second and converted to high dynamic range for color grading, all within a single ComfyUI workflow on RTX Spark. NVIDIA and Adobe are expanding native Windows on Arm support and RTX acceleration across Adobe’s creative applications, helping video editors, photographers, designers and 3D artists work more efficiently on RTX Spark. Adobe Premiere accelerates a range of AI-powered editing features through NVIDIA TensorRT-RTX , including Enhance Speech, Object Mask, Scene Edit Detection and Auto Reframe — so editors spend less time waiting and more time cutting. GPU acceleration also extends to Film Impact transition and effects plug-ins. The update improves support for professional video formats, including Canon RAW, Red RAW, ARRI RAW, ARRICORE, ARRI HDE, H.264 and HEVC in MXF, ProRes RAW and long-GOP video. This lets editors realize more than 50% quicker turnaround on everyday H.264 video deliverables. Adobe Photoshop adds TensorRT-RTX acceleration for the Remove Tool and ArmRTX Spark-native Camera Raw support, helping photographers remove unwanted objects faster and work with RAW images without relying on emulation. At Adobe MAX, Adobe previewed a next-generation image processing engine with extensive GPU acceleration, including interactive Gaussian blur and Light Leaks filters. Adobe Substance 3D Painter 12.2 is now optimized for RTX Spark with native support on Arm for the first time in public beta. Artists in games, visual effects and visualization can run Substance Painter natively on RTX Spark laptops and compact desktops, with no compatibility layer required. Adobe Illustrator and InDesign now offer native Windows on Arm versions optimized for RTX Spark. Adobe Illustrator delivers up to 30% higher performance than its emulated version, helping accelerate illustration, graphic design and page-layout workflows on RTX Spark. Blender 5.3 integrates DLSS 4.5 Ray Reconstruction into the Cycles viewport, helping artists evaluate lighting and materials with near-final-quality ray-traced previews as they work. The practical difference is immediate: instead of navigating a noisy, resolving preview, Ray Reconstruction delivers near-final-quality lighting, reflections and materials in the interactive viewport in real time. DLSS 4.5 Ray Reconstruction support requires Blender 5.3 and the latest NVIDIA Game Ready Driver or NVIDIA Studio Driver. Download the NVIDIA App to get automatic notifications when the latest driv"
+        }
+      ]
+    },
+    {
+      "story_id": "2cde029e1c66376d",
+      "title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
+      "summary": "Starting today, Loblaw is bringing its catalogue to Muse as a partner connector, the first Canadian retailer to do so. Connectors are a big reason Muse can do so much. Canadians can connect their Muse to apps they already use, including Gmail, Google Calendar and Instagram, so it can help them manage email, coordinate schedules and draw on saved content to get everyday tasks done. With...",
+      "owners": [
+        "meta"
+      ],
+      "primary_owners": [
+        "meta"
+      ],
+      "fingerprints": [
+        "9f1f1193899f6a68"
+      ],
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "owner": "meta",
+          "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+          "title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
+          "published_at": "2026-11-18T14:07:00+00:00",
+          "kind": "primary",
+          "text": "Starting today, Loblaw is bringing its catalogue to Muse as a partner connector, the first Canadian retailer to do so. Connectors are a big reason Muse can do so much. Canadians can connect their Muse to apps they already use, including Gmail, Google Calendar and Instagram, so it can help them manage email, coordinate schedules and draw on saved content to get everyday tasks done. With participating Loblaw banners, Canadian shoppers can now ask Muse to help with meal planning, build their basket and check-out, all in Muse. Muse can remember brand preferences and information like food allergies, making next week’s planning even easier. Making this technology work for everyone requires careful design and engineering to operate more safely. Muse runs on Muse Secure VM , a dedicated computer in the cloud that securely stores the data and credentials for the services you connect, while keeping passwords and payment methods out of the agent’s view. You choose what your Muse can access, and it checks with you before sensitive actions such as sending an email or making a purchase. To learn more about how we built safety into Muse, this post explains our approach in detail. At Connect 2026, we previewed real-time conversations with your Muse. Two weeks ago, we introduced voice and now we’re rolling it out in Canada in the Muse app on mobile, web and on Mac — just tap the phone icon in the top-right corner to start talking. Sometimes it’s easier to think out loud. With voice, you can talk through an idea with your Muse and let it take shape without worrying about the exact prompt. As your Muse speaks, the avatar uses subtle expressions and gestures that match the tone of the conversation. It reacts while you talk, so you can tell it’s following along. And you choose how present you want it to be: voice only, the avatar alongside your conversation, or full screen when you want to talk face to face. We also recently introduced spaces , an interactive way to build a more personalized Muse. A space is a custom experience you create inside Muse by describing your idea, like a holiday gift tracker, a daily word game, or a planning board for your next DIY project. It’s shaped around your routines, goals, and interests, and can be as practical or entertaining as you want. Every space you create becomes part of Muse, so you can keep it where you want and come back to it any time. Your spaces are personal from the start. Connect the apps you use, and your spaces keep themselves up to date in the background, so new concert dates, price changes, or savings progress show up without you having to ask. You can check things off, add notes, and make edits right in your space, and everything will be there when you return. You can choose where your spaces live in Muse. Add them to your sidebar, move them into your main tabs, hide the ones you don’t need right now, and schedule when they appear. For example, keep your weekly planner up front during the workweek, then swap it for your weekend plans on Saturday."
+        }
+      ]
+    },
+    {
+      "story_id": "0f3786ef35415946",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "summary": "",
+      "owners": [
+        "huggingface"
+      ],
+      "primary_owners": [
+        "huggingface"
+      ],
+      "fingerprints": [
+        "bf1424b145e4fc73"
+      ],
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "owner": "huggingface",
+          "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "published_at": "2026-11-18T15:00:23+00:00",
+          "kind": "primary",
+          "text": "Real-time forecasting, anomaly detection, and optimization, powered by IBM time-series models with more than 50 million downloads. Now available natively on Confluent, in the cloud and on premises, running on CPUs. Every business generates a continuous record of change: a machine reading, a payment, a sale, an order, or a change in inventory. These observations form time series, and they carry signals that can help teams anticipate what happens next. The challenge is turning those signals into decisions while they still matter. A forecast delivered after a production run, a stockout, or a payment authorization may be accurate, but too late to influence the outcome. IBM and Confluent are bringing time-series foundation models closer to the data as it flows. With Apache Flink, teams can apply forecasting , anomaly detection and semantic intelligence to streaming data using SQL, making model outputs available to the applications and people responsible for the next action. Foundation models have changed how organizations work with text, images, and documents. Time-series foundation models extend a similar idea to numerical data by learning general patterns from diverse historical data and then applying that knowledge to new series and tasks. The models can provide a starting point without requiring teams to train a separate model for every series. Depending on the task and deployment, teams can also fine-tune a model or combine its outputs with other data and business logic. Figure 1. More than 50 million downloads, and the family of four models behind them Now the time series foundation models run natively inside Confluent as built-in functions in the cloud and on premises. In Confluent Cloud they are fully managed, with nothing to deploy ( documentation ). On premises, the models can run within your own infrastructure using Confluent Platform for Apache Flink.( documentation ). The models run on CPUs, without requiring GPUs. The models can support a range of mission-critical use cases, from helping keep production lines in spec and detecting unusual store activity to improving product-level planning. They can also provide signals to assess card payments and forecast trading volume to help place large orders. These building blocks can be applied across manufacturing, retail, banking, and airlines, bringing insights closer to where decisions are made. See how time series and real-time context come together to create value: Businesses operate continuously. Orders are updated, payments arrive, shipments are delayed, and inventory changes throughout the day. Yet the information behind these events often sits across systems that update at different times or rely on periodic batch processes. When applications and AI agents act on outdated or inconsistent information, they risk making decisions that no longer reflect what is happening. A Streamhouse addresses this by continuously capturing, processing, governing, and serving current business context. Confluent’s Data Streaming Platform brings together five capabilities—connect, stream, process, govern, and query—to make that context available to applications, analytics, and agents. Apache Flink transforms and enriches data as it flows, while Lightning Tables provide low-latency access to the current state. Figure 2. The Streamhouse on Confluent: from existing data sources to current business context that agents, applications, analytics and lakehouses use anywhere. Time-series models add predictive power to this architecture. Flink can prepare the data, invoke forecasting and anomaly detection, and make the results available alongside the events that produced them. Other models—including large language models, statistical models, and specialized machine learning systems—can contribute where appropriate. Figure 3. The intelligence layer of the Streamhouse: time series models, large language models, and ML and statistical models, with orchestration across them. This approach can help teams in four ways: - Scale model development . A pretrained model can provide a common starting point across many time series, reducing the need to develop and maintain a separate model for each one. - Refresh predictions as data changes . Forecasts can incorporate recent observations as part of a streaming workflow, subject to the model’s requirements and the pipeline’s configuration. - Put signals closer to decisions . Forecasts and anomalies can be routed to operational applications sooner, where teams can combine them with business context, rules, and human judgment. - Run compact models on CPUs. The models are small enough to run on standard CPUs alongside the streaming pipeline, in the cloud or on premises, which can reduce the need for dedicated GPU infrastructure and simplify deployment. Figure 4. Stream native time-series intelligence on Confluent The following scenarios illustrate how organizations could combine time-series models, streaming data, and application logic. An ice cream line’s quality depends on overrun—the amount of air whipped into the mix. Today, the process engineer and operator rely on QA lab measurements taken after the tubs are filled. If a new cream lot or a warm, humid day changes the process, hours of production may already need rework by the time the team sees the result. To get ahead of the problem, a pretrained TTM model reads SCADA telemetry and QA measurements every 10 minutes. It forecasts the share of tubs expected to be in spec four hours ahead, along with a likely range. When the forecast falls below the plant’s target, an optimization process evaluates combinations of freezer draw temperature and airflow. Because the model takes these control variables as inputs, it can score each option before anything changes on the line. The operator approves the recommended setpoints, while routine adjustments can be automated within predefined guardrails. The outcome is a more proactive process: less rework, lower energy use per tonne, and"
+        }
+      ]
+    },
+    {
+      "story_id": "56cdd607f007d97e",
+      "title": "Microsoft and Intel deepen collaboration to deliver differentiated Azure infrastructure",
+      "summary": "The post Microsoft and Intel deepen collaboration to deliver differentiated Azure infrastructure appeared first on Source .",
+      "owners": [
+        "microsoft"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "d33c9c390217c233"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://news.microsoft.com/source/2026/11/18/microsoft-and-intel-deepen-collaboration-to-deliver-differentiated-azure-infrastructure/",
+          "title": "Microsoft and Intel deepen collaboration to deliver differentiated Azure infrastructure",
+          "published_at": "2026-11-18T16:06:59+00:00",
+          "kind": "primary",
+          "text": "REDMOND, Wash., and SANTA CLARA, Calif. – November 17, 2026 — Microsoft (Nasdaq: MSFT) and Intel (Nasdaq: INTC) today announced an expansion of their decades-long collaboration under a long-term agreement to advance select areas of Azure infrastructure for growing cloud and AI demand. Microsoft is the first company to announce use of Intel Foundry’s EMIB™ (Embedded Multi-die Interconnect Bridge) advanced packaging technology for Azure first-party silicon. Bringing together Intel silicon and EMIB capabilities with Microsoft’s cloud engineering, the agreement confirms multi-year Intel® Xeon® supply capacity – including instances of next generation server CPUs, codenamed Diamond Rapids – and expands collaboration across the Azure roadmap and Intel-based Azure hardware systems. Microsoft will also collaborate with Intel on Intel Xeon with Compute Express Link (CXL) to drive greater memory efficiency and system-level innovation across Azure, as well as Intel QuickAssist (Intel QAT) and confidential computing. This work further advances existing memory and database performance, including: Together, these investments are designed to provide Microsoft customers a more predictable, scalable and resilient infrastructure foundation, with compute optimized for demanding cloud and AI workloads, more efficient memory and stronger capabilities for protecting sensitive workloads. “Our customers need infrastructure built around the workloads that matter to them. Our longstanding collaboration with Intel brings together advanced packaging, custom compute, memory and security capabilities to support Azure compute and continued innovation across Azure. Together, we are connecting silicon and systems engineering to move the industry forward and meet the growing demand for Cloud + AI computing for our customers,” said Saurabh Dighe, CVP, Azure System & Architecture, Microsoft. “Microsoft and Intel share a clear view of where AI infrastructure is headed–increasingly complex systems designed through the co-optimization of silicon, packaging, compute memory and software,” said Naga Chandrasekaran, EVP, Chief Technology and Operations Officer and General Manager of Intel Foundry. “Through use of our advanced packaging capabilities with EMIB to scale future generations of Azure infrastructure, Intel and Microsoft can combine the flexibility of heterogeneous integration with the manufacturing scale required for the AI era—giving customers new levels of performance and economics when interacting with Azure.” Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more. Microsoft delivers cloud platforms, AI capabilities, productivity tools, and business applications that help organizations innovate, improve agility, and drive meaningful outcomes at scale. Intel (Nasdaq: INTC) designs and manufactures advanced semiconductors that connect and power the modern world. Every day, our engineers create new technologies that enhance and shape the future of computing to enable new possibilities for every customer we serve. Learn more at intel.com . Microsoft Media Relations, We. Communications for Microsoft, (425) 638-7777, [email protected] Disclaimers: 1 Standard_M76ds_2_v4: 76 vCPUs, 1,764 GB (1 TB DRAM + 1 TB CXL, Intel® Flat Memory Mode) vs. Standard_M64lds_v4: 64 vCPUs, 1,007 GB (DRAM-only, two NUMA nodes) | Sandbox Workload: cube-hypervisor microVM, 2 vCPUs/24 GB per sandbox, persistent Python interpreter with 12 GB dataset, 9 tools/13 steps per cycle, 6-sec think time per step, 126-sec cycle. Testing completed on 11/10/2026. Results May Vary. 2 Intel® Xeon® Gold 8362; x86_64; ICX; 48 MiB L3 Cache; 32 Cores per Socket; 2 Sockets; Hyperthreading Enabled; 128 CPUs; Intel® Turbo Boost Enabled; 2 NUMA Nodes; 1024GB Installed Memory (16x64GB DDR4 2933MT/s); 2048 KB Hugepagesize; Madvise Transparent Huge Pages; Automatic NUMA Balancing Enabled; BIOS 1.12.1; Microcode 0xd0003e7; Microsoft Windows Server 2025 vs. System Configuration: Microsoft Azure VM | CPU: Intel® Xeon® 6973P-C (Granite Rapids), 384 processors | Memory: 2.06 TB | NUMA: 6 nodes × 64 processors, ~352 GB/node | OS: Windows Server 2025 Datacenter | BIOS: Hyper-V UEFI v4.1 | Large Pages: 2 MB | CPU Frequency: 2.60 GHz | Microsoft SQL Server 2025. Testing Completed 11/02/2026. Results may vary."
+        }
+      ]
+    },
+    {
+      "story_id": "50d7af1af4cfcbf1",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "owners": [
+        "alphabet"
+      ],
+      "primary_owners": [
+        "alphabet"
+      ],
+      "fingerprints": [
+        "03ca256a4adf4087"
+      ],
+      "sources": [
+        {
+          "name": "Google AI",
+          "owner": "alphabet",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+          "title": "The Gemini app is now available on lower-memory Android devices.",
+          "published_at": "2026-11-18T17:00:00+00:00",
+          "kind": "primary",
+          "text": "For hundreds of millions of people globally, a lower-memory Android device is their everyday connection to the internet, education, and business. Until recently, hardware limits meant those phones only had basic voice commands. Now, we’re bringing the Gemini app to eligible Android (Go edition) devices , putting Google’s personal AI assistant in the hands of hundreds of millions more people. We re-architected the app so the core Gemini experience runs smoothly on hardware with less memory. Instead of typing out long prompts, you can talk things through or practice for an interview out loud in more than 45 languages with Gemini Live , point your camera at notes or forms to learn and translate, or create custom images with Nano Banana — like a flyer for a weekend bakery sale. To get started, download the Gemini app on Google Play, press and hold the power button on supported phones, or look for it preloaded on upcoming devices from partners like Transsion."
+        }
+      ]
+    }
+  ]
 }
