@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-lanca-minidesktops-rtx-spark",
+  "lang": "pt",
+  "date": "23 nov 2026",
+  "no": 149,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Nvidia",
+  "headline": "Nvidia lança minidesktops RTX Spark para rodar IA local",
+  "headline_hl": "IA local",
+  "dek": "Segundo a Nvidia, computadores compactos da Asus, Dell e MSI rodam agentes e modelos sem depender da nuvem.",
+  "image": {
+    "path": "assets/img/nvidia-lanca-minidesktops-rtx-spark-272f4df7.jpg",
+    "credit": "Christian Wiediger / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "NVIDIA<br>RTX SPARK",
+  "sources": [
+    "NVIDIA"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que foi anunciado",
+    "body": [
+      "A Nvidia anunciou os minidesktops RTX Spark, feitos por Asus, Dell e MSI, à venda desde 18 de novembro (NVIDIA).",
+      "Eles rodam agentes de IA, geram imagem e vídeo e ajustam modelos no próprio computador, diz a empresa (NVIDIA)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O hardware",
+    "body": "Segundo a Nvidia, cada máquina combina CPU e GPU próprias.",
+    "points": [
+      {
+        "h": "CPU",
+        "t": "Grace de 20 núcleos, segundo a empresa (NVIDIA)."
+      },
+      {
+        "h": "Memória",
+        "t": "Até 128 GB de memória unificada (NVIDIA)."
+      },
+      {
+        "h": "Potência",
+        "t": "Até 1 petaflop em tarefas de IA (NVIDIA)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que rodar IA local",
+    "body": [
+      "A Nvidia diz que modelos locais evitam cobranças por token e mantêm código e arquivos no computador (NVIDIA).",
+      "Uma função chamada Switchyard decide o que roda local e o que vai para a nuvem (NVIDIA)."
+    ],
+    "stat": {
+      "big": "128 GB",
+      "cap": "de memória unificada, segundo a Nvidia (NVIDIA)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Adobe",
+        "t": "Suporte nativo a Windows on Arm no Photoshop e no Premiere (NVIDIA)."
+      },
+      {
+        "h": "Blender",
+        "t": "Integração com DLSS 4.5 Ray Reconstruction (NVIDIA)."
+      },
+      {
+        "h": "ComfyUI",
+        "t": "Novos recursos para vídeo em HDR (NVIDIA)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Nvidia lança o RTX Spark, minidesktops para rodar IA local.",
+    "body": [
+      "Segundo comunicado da Nvidia, os minidesktops RTX Spark, feitos por Asus, Dell e MSI, estão à venda desde 18 de novembro (NVIDIA). A empresa diz que eles rodam agentes de IA, geram imagem e vídeo e ajustam modelos sem depender da nuvem, com CPU Grace de 20 núcleos e até 128 GB de memória unificada.",
+      "A Nvidia afirma que rodar modelos localmente evita cobranças por token e mantém código e arquivos no computador, e que uma função chamada Switchyard decide o que fica local e o que vai para a nuvem (NVIDIA). A empresa também cita suporte nativo da Adobe a Windows on Arm e integração com Blender e ComfyUI."
+    ],
+    "cta_variant": "A",
+    "cta": "Você rodaria seus agentes de IA em um computador próprio em vez da nuvem?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#rtxspark",
+      "#ialocal"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre os minidesktops RTX Spark da Nvidia",
+    "Slide 2: Asus, Dell e MSI lançam os minidesktops",
+    "Slide 3: o hardware com CPU Grace e memória unificada",
+    "Slide 4: 128 GB de memória e IA local",
+    "Slide 5: Adobe, Blender e ComfyUI no RTX Spark",
+    "Slide 6: fonte NVIDIA"
+  ]
+}

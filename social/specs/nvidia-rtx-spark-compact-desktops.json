@@ -1,0 +1,100 @@
+{
+  "slug": "nvidia-rtx-spark-compact-desktops",
+  "lang": "en",
+  "date": "23 Nov 2026",
+  "no": 146,
+  "category": "Applications",
+  "kicker": "Applications · Nvidia",
+  "headline": "Nvidia launches RTX Spark mini desktops for local AI",
+  "headline_hl": "local AI",
+  "dek": "According to Nvidia, compact PCs from Asus, Dell and MSI run agents and models without the cloud.",
+  "image": {
+    "path": "assets/img/nvidia-rtx-spark-compact-desktops-272f4df7.jpg",
+    "credit": "Christian Wiediger / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "NVIDIA<br>RTX SPARK",
+  "sources": [
+    "NVIDIA"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What was announced",
+    "body": [
+      "Nvidia announced the RTX Spark compact desktops, built by Asus, Dell and MSI and on sale since November 18 (NVIDIA).",
+      "They run AI agents, generate images and video and fine-tune models on the machine itself, the company says (NVIDIA)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The hardware",
+    "body": "According to Nvidia, each machine pairs its own CPU and GPU.",
+    "points": [
+      {
+        "h": "CPU",
+        "t": "A 20-core Grace chip, per the company (NVIDIA)."
+      },
+      {
+        "h": "Memory",
+        "t": "Up to 128GB of unified memory (NVIDIA)."
+      },
+      {
+        "h": "Power",
+        "t": "Up to 1 petaflop of AI performance (NVIDIA)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why run AI locally",
+    "body": [
+      "Nvidia says local models avoid per-token charges and keep code and files on the machine (NVIDIA).",
+      "A feature called Switchyard decides what runs locally and what goes to the cloud (NVIDIA)."
+    ],
+    "stat": {
+      "big": "128GB",
+      "cap": "of unified memory, Nvidia says (NVIDIA)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Adobe",
+        "t": "Native Windows on Arm support in Photoshop and Premiere (NVIDIA)."
+      },
+      {
+        "h": "Blender",
+        "t": "Integration with DLSS 4.5 Ray Reconstruction (NVIDIA)."
+      },
+      {
+        "h": "ComfyUI",
+        "t": "New features for HDR video (NVIDIA)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia launches RTX Spark mini desktops to run AI locally.",
+    "body": [
+      "According to a Nvidia statement, the RTX Spark compact desktops, built by Asus, Dell and MSI, have been on sale since November 18 (NVIDIA). The company says they run AI agents, generate images and video and fine-tune models without the cloud, with a 20-core Grace CPU and up to 128GB of unified memory.",
+      "Nvidia says running models locally avoids per-token charges and keeps code and files on the machine, and a feature called Switchyard decides what stays local and what goes to the cloud (NVIDIA). It also cites native Adobe support for Windows on Arm and integration with Blender and ComfyUI."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#rtxspark",
+      "#localai"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Nvidia's RTX Spark mini desktops",
+    "Slide 2: Asus, Dell and MSI launch the compact desktops",
+    "Slide 3: the hardware with Grace CPU and unified memory",
+    "Slide 4: 128GB of memory and local AI",
+    "Slide 5: Adobe, Blender and ComfyUI on RTX Spark",
+    "Slide 6: source NVIDIA"
+  ]
+}
