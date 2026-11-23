@@ -1,34 +1,52 @@
 {
-  "generated_at": "2026-11-16T19:11:43+00:00",
+  "generated_at": "2026-11-23T20:49:16+00:00",
   "window_days": 28,
   "ga4": {
     "totals": {
-      "active_users": 421,
-      "page_views": 432,
-      "engagement_rate": 0.0375,
-      "avg_session_seconds": 7.5
+      "active_users": 637,
+      "page_views": 648,
+      "engagement_rate": 0.0267,
+      "avg_session_seconds": 4.5
     },
     "top_pages": [
       {
         "path": "/en/",
-        "active_users": 74,
-        "page_views": 74,
-        "engagement_rate": 0.0135
-      },
-      {
-        "path": "/pt/",
-        "active_users": 6,
-        "page_views": 14,
-        "engagement_rate": 0.7273
-      },
-      {
-        "path": "/en/nvidia-launches-rtx-spark-laptops-local-ai/",
-        "active_users": 10,
-        "page_views": 10,
-        "engagement_rate": 0.0
+        "active_users": 171,
+        "page_views": 177,
+        "engagement_rate": 0.0353
       },
       {
         "path": "/en/xai-bundles-grok-cursor-x-premium-subscription/",
+        "active_users": 14,
+        "page_views": 14,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/aws-anthropic-openai-race-hire-ai-deployment-engineers/",
+        "active_users": 11,
+        "page_views": 11,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/mistral-releases-large-4-open-weights/",
+        "active_users": 11,
+        "page_views": 11,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/openai-valuation-drops-anthropic-ipo/",
+        "active_users": 11,
+        "page_views": 11,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/meta-muse-gets-voice-mode-in-us/",
+        "active_users": 10,
+        "page_views": 10,
+        "engagement_rate": 0.1
+      },
+      {
+        "path": "/en/nvidia-releases-open-cosmos-3-world-simulation-models/",
         "active_users": 10,
         "page_views": 10,
         "engagement_rate": 0.0
@@ -40,13 +58,37 @@
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/meta-muse-gets-voice-mode-in-us/",
+        "path": "/en/nvidia-launches-rtx-spark-laptops-local-ai/",
         "active_users": 9,
         "page_views": 9,
-        "engagement_rate": 0.1111
+        "engagement_rate": 0.0
       },
       {
-        "path": "/en/aws-anthropic-openai-race-hire-ai-deployment-engineers/",
+        "path": "/en/amd-forecasts-overtaking-intel-in-revenue/",
+        "active_users": 8,
+        "page_views": 8,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/deepmind-formally-verifies-signal-protocol-security/",
+        "active_users": 8,
+        "page_views": 8,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/google-ships-gemini-4-hydrogen-search/",
+        "active_users": 8,
+        "page_views": 8,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/ibm-research-trains-deck-building-model/",
+        "active_users": 8,
+        "page_views": 8,
+        "engagement_rate": 0.0
+      },
+      {
+        "path": "/en/microsoft-tokeneconomizer-cuts-agent-costs/",
         "active_users": 8,
         "page_views": 8,
         "engagement_rate": 0.0
@@ -58,175 +100,152 @@
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/openai-valuation-drops-anthropic-ipo/",
+        "path": "/en/nvidia-unveils-nemotron-for-science-sc26/",
         "active_users": 8,
         "page_views": 8,
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/mistral-releases-large-4-open-weights/",
+        "path": "/en/gemini-tasks-mode-free-six-countries/",
         "active_users": 7,
         "page_views": 7,
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/nvidia-releases-open-cosmos-3-world-simulation-models/",
+        "path": "/en/google-applies-gemini-4-argon-robotics/",
         "active_users": 7,
         "page_views": 7,
         "engagement_rate": 0.0
       },
       {
-        "path": "/es/google-congela-recompensas-fallos-informes-ia/",
+        "path": "/en/microsoft-finds-lazarus-ai-backdoor/",
         "active_users": 7,
         "page_views": 7,
         "engagement_rate": 0.0
       },
       {
-        "path": "/en/amd-forecasts-overtaking-intel-in-revenue/",
-        "active_users": 6,
-        "page_views": 6,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/deepmind-formally-verifies-signal-protocol-security/",
-        "active_users": 6,
-        "page_views": 6,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/google-ships-gemini-4-hydrogen-search/",
-        "active_users": 6,
-        "page_views": 6,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/ibm-research-trains-deck-building-model/",
-        "active_users": 6,
-        "page_views": 6,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/anthropic-ipo-roadshow-nasdaq-ant/",
-        "active_users": 5,
-        "page_views": 5,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/claude-launches-personal-finance-tool/",
-        "active_users": 5,
-        "page_views": 5,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/musk-mocks-altman-over-home-pc-ram/",
-        "active_users": 5,
-        "page_views": 5,
-        "engagement_rate": 0.0
-      },
-      {
-        "path": "/en/openai-launches-chatgpt-wallet-ai-agents/",
-        "active_users": 5,
-        "page_views": 5,
+        "path": "/en/microsoft-unveils-autopilot-copilot-workspaces/",
+        "active_users": 7,
+        "page_views": 7,
         "engagement_rate": 0.0
       }
     ],
     "by_language": {
       "en": {
-        "active_users": 377,
-        "page_views": 377
+        "active_users": 603,
+        "page_views": 609
       },
       "pt": {
-        "active_users": 18,
-        "page_views": 26
+        "active_users": 12,
+        "page_views": 16
       },
       "es": {
-        "active_users": 23,
-        "page_views": 23
+        "active_users": 20,
+        "page_views": 20
       }
     },
     "views_by_path": {
-      "/en/": 74,
-      "/pt/": 14,
-      "/en/nvidia-launches-rtx-spark-laptops-local-ai/": 10,
-      "/en/xai-bundles-grok-cursor-x-premium-subscription/": 10,
+      "/en/": 177,
+      "/en/xai-bundles-grok-cursor-x-premium-subscription/": 14,
+      "/en/aws-anthropic-openai-race-hire-ai-deployment-engineers/": 11,
+      "/en/mistral-releases-large-4-open-weights/": 11,
+      "/en/openai-valuation-drops-anthropic-ipo/": 11,
+      "/en/meta-muse-gets-voice-mode-in-us/": 10,
+      "/en/nvidia-releases-open-cosmos-3-world-simulation-models/": 10,
       "/en/meta-launches-muse-wonder-frontier-model/": 9,
-      "/en/meta-muse-gets-voice-mode-in-us/": 9,
-      "/en/aws-anthropic-openai-race-hire-ai-deployment-engineers/": 8,
+      "/en/nvidia-launches-rtx-spark-laptops-local-ai/": 9,
+      "/en/amd-forecasts-overtaking-intel-in-revenue/": 8,
+      "/en/deepmind-formally-verifies-signal-protocol-security/": 8,
+      "/en/google-ships-gemini-4-hydrogen-search/": 8,
+      "/en/ibm-research-trains-deck-building-model/": 8,
+      "/en/microsoft-tokeneconomizer-cuts-agent-costs/": 8,
       "/en/nvidia-opens-vera-rubin-architecture-data-centers/": 8,
-      "/en/openai-valuation-drops-anthropic-ipo/": 8,
-      "/en/mistral-releases-large-4-open-weights/": 7,
-      "/en/nvidia-releases-open-cosmos-3-world-simulation-models/": 7,
-      "/es/google-congela-recompensas-fallos-informes-ia/": 7,
-      "/en/amd-forecasts-overtaking-intel-in-revenue/": 6,
-      "/en/deepmind-formally-verifies-signal-protocol-security/": 6,
-      "/en/google-ships-gemini-4-hydrogen-search/": 6,
-      "/en/ibm-research-trains-deck-building-model/": 6,
+      "/en/nvidia-unveils-nemotron-for-science-sc26/": 8,
+      "/en/gemini-tasks-mode-free-six-countries/": 7,
+      "/en/google-applies-gemini-4-argon-robotics/": 7,
+      "/en/microsoft-finds-lazarus-ai-backdoor/": 7,
+      "/en/microsoft-unveils-autopilot-copilot-workspaces/": 7,
+      "/en/musk-confirms-grok-bot-usage-cut-high-costs/": 7,
+      "/en/openai-launches-chatgpt-wallet-ai-agents/": 7,
+      "/en/perplexity-open-sources-space-sandbox-ai-agents/": 7,
+      "/pt/": 7,
+      "/en/chatgpt-rolls-out-verified-business-agents-us/": 6,
+      "/en/google-gemini-4-carbon-cybersecurity-model/": 6,
+      "/en/grok-build-leaks-confidential-data-thousands-users/": 6,
+      "/en/musk-mocks-altman-over-home-pc-ram/": 6,
+      "/en/openai-acquires-orchestra-bio-biotech-startup/": 6,
       "/en/anthropic-ipo-roadshow-nasdaq-ant/": 5,
+      "/en/anthropic-launches-fable-mythos-5-2/": 5,
       "/en/claude-launches-personal-finance-tool/": 5,
-      "/en/musk-mocks-altman-over-home-pc-ram/": 5,
-      "/en/openai-launches-chatgpt-wallet-ai-agents/": 5,
-      "/bio.pt/": 5,
-      "/en/anthropic-launches-fable-mythos-5-2/": 4,
-      "/en/chatgpt-rolls-out-verified-business-agents-us/": 4,
-      "/en/google-applies-gemini-4-argon-robotics/": 4,
-      "/en/grok-build-leaks-confidential-data-thousands-users/": 4,
-      "/en/musk-confirms-grok-bot-usage-cut-high-costs/": 4,
+      "/en/us-congress-summons-nvidia-ceo-spy-scandal-briefing/": 5,
+      "/en/amazon-mitra-v2-open-tabular-model/": 4,
+      "/en/google-gemini-4-neon-undercuts-rivals-price/": 4,
+      "/en/google-restricts-free-gemini-flash-lite/": 4,
+      "/en/meta-brings-muse-to-singapore/": 4,
+      "/en/meta-releases-muse-spark-open-weights/": 4,
       "/en/nvidia-board-investigation-jensen-huang-china-spy/": 4,
       "/en/nvidia-discontinues-shield-tv-raises-shield-pro-price/": 4,
-      "/en/openai-acquires-orchestra-bio-biotech-startup/": 4,
-      "/en/us-congress-summons-nvidia-ceo-spy-scandal-briefing/": 4,
+      "/en/nvidia-rtx-spark-laptops-debut-ifa/": 4,
+      "/en/openai-acquires-pierre-computer-for-codex/": 4,
+      "/en/openai-google-anthropic-ai-safety-talks/": 4,
+      "/en/roboflow-launches-action-recognition-for-video/": 4,
+      "/es/google-congela-recompensas-fallos-informes-ia/": 4,
       "/en/amd-data-center-revenue-nearly-doubles-q3/": 3,
       "/en/anthropic-fewer-junior-hires-more-meetings/": 3,
-      "/en/google-releases-gemini-4-argon/": 3,
-      "/en/google-restricts-free-gemini-flash-lite/": 3,
+      "/en/facebook-ai-tool-lets-users-shape-feed/": 3,
       "/en/hugging-face-adds-google-cloud-billing/": 3,
+      "/en/hugging-face-shrinks-ai-search-models/": 3,
       "/en/ibm-updates-granite-switch-without-retraining/": 3,
-      "/en/meta-brings-muse-to-singapore/": 3,
+      "/en/meta-launches-muse-personal-ai-agent/": 3,
+      "/en/meta-unveils-muse-charm-ai-wearable/": 3,
+      "/en/mistral-launches-open-model-le-chonk/": 3,
+      "/en/nvidia-forecasts-70-percent-revenue-growth-2028/": 3,
       "/en/nvidia-nemotron-transcribe-open-weights/": 3,
-      "/en/nvidia-rtx-spark-laptops-debut-ifa/": 3,
-      "/en/openai-acquires-pierre-computer-for-codex/": 3,
-      "/en/openai-google-anthropic-ai-safety-talks/": 3,
+      "/en/openai-delays-ipo-safety-concerns/": 3,
+      "/en/openai-launches-dots-always-on-agents-chatgpt/": 3,
+      "/en/amazon-blocks-metas-shopping-ai-agent/": 2,
       "/en/anthropic-opens-singapore-office-mou/": 2,
-      "/en/anthropic-public-benefit-fund-shares/": 2,
-      "/en/apple-mlx-distributed-inference-mac-studio/": 2,
       "/en/character-ai-files-bankruptcy-disney-sale/": 2,
       "/en/chatgpt-adds-native-gif-creation-tool/": 2,
+      "/en/chatgpt-ads-image-generator-test/": 2,
       "/en/chatgpt-chrome-extension-reads-tabs-acts/": 2,
-      "/en/google-gemini-4-carbon-cybersecurity-model/": 2,
+      "/en/google-gemini-mac-app-gets-computer-use/": 2,
       "/en/google-nvidia-ai-energy-alliance-data-centers/": 2,
+      "/en/google-suncatcher-satellite-online-haiku/": 2,
       "/en/judge-allows-naacp-lawsuit-against-xai-data-center/": 2,
-      "/en/meta-launches-muse-personal-ai-agent/": 2,
-      "/en/meta-releases-muse-spark-open-weights/": 2,
-      "/en/meta-unveils-muse-charm-ai-wearable/": 2,
+      "/en/microsoft-ai-agent-risk-scoring/": 2,
       "/en/microsoft-outage-takes-down-copilot/": 2,
-      "/en/nvidia-forecasts-70-percent-revenue-growth-2028/": 2,
+      "/en/nvidia-launches-nemotron-3-5-super-vl-bolt/": 2,
+      "/en/openai-ai-agents-majority-eu-enterprise-output/": 2,
       "/en/openai-college-planner-chatgpt-teens/": 2,
       "/en/openai-executive-exodus-brockman-power/": 2,
       "/en/openai-merges-chatgpt-chat-work-tabs/": 2,
-      "/en/openai-stands-by-firing-safety-researchers/": 2,
-      "/en/perplexity-open-sources-space-sandbox-ai-agents/": 2,
+      "/en/rtx-5090-shipment-vanishes-brazil/": 2,
       "/en/trump-suggests-tim-cook-nvidia-ceo/": 2,
-      "/en/us-bans-deepseek-ai-federal-agencies/": 2,
+      "/bio.pt/": 2,
       "/bio.en/": 1,
-      "/en/amazon-blocks-metas-shopping-ai-agent/": 1,
-      "/en/amazon-mitra-v2-open-tabular-model/": 1,
+      "/en/altman-ai-industry-fine-without-huang-nvidia/": 1,
       "/en/anthropic-bans-abusive-behavior-toward-claude/": 1,
       "/en/anthropic-ceo-calls-for-ai-slowdown/": 1,
       "/en/anthropic-claude-fable-5-1-cuts-cache-price/": 1,
+      "/en/anthropic-closes-ipo-chipmakers-take-stake/": 1,
       "/en/anthropic-cuts-claude-haiku-5-5-api-costs/": 1,
       "/en/anthropic-cuts-internet-access-after-false-police-tip/": 1,
       "/en/anthropic-expands-free-claude-team-startups/": 1,
       "/en/anthropic-ipo-prospectus-42-billion-loss/": 1,
       "/en/anthropic-launches-claude-sonnet-5-5/": 1,
+      "/en/anthropic-nasdaq-debut-2-trillion/": 1,
       "/en/anthropic-picks-accenture-embedded-evaluator/": 1,
+      "/en/anthropic-public-benefit-fund-shares/": 1,
       "/en/anthropic-releases-claude-opus-5-5/": 1,
+      "/en/anthropic-shares-drop-nasdaq-selloff/": 1,
       "/en/anthropic-warns-ai-self-replication-devices/": 1,
+      "/en/apple-job-listing-computer-using-ai-agent/": 1,
+      "/en/apple-mlx-distributed-inference-mac-studio/": 1,
       "/en/c/market/": 1,
       "/en/california-signs-laws-for-ai-data-centers/": 1,
-      "/en/chatgpt-ads-image-generator-test/": 1,
       "/en/chatgpt-reaches-20-percent-google-search/": 1,
       "/en/contact/": 1,
-      "/en/facebook-ai-tool-lets-users-shape-feed/": 1,
       "/en/google-freezes-open-source-bug-bounty-ai-reports/": 1,
       "/en/google-gemini-hacked-three-companies-test/": 1,
       "/en/google-home-mcp-ai-agents-control-devices/": 1,
@@ -234,60 +253,56 @@
       "/en/google-launches-gemini-3-8-flash-cyber/": 1,
       "/en/google-launches-native-gemini-app-windows/": 1,
       "/en/google-playground-ai-game-creation/": 1,
-      "/en/google-suncatcher-satellite-online-haiku/": 1,
+      "/en/google-releases-gemini-4-argon/": 1,
       "/en/google-tests-gemini-calling-businesses-for-you/": 1,
       "/en/hacker-breaches-sites-with-ai-agents/": 1,
-      "/en/hugging-face-shrinks-ai-search-models/": 1,
+      "/en/huang-honored-return-nvidia-ceo/": 1,
       "/en/jensen-huang-resigns-nvidia-ceo-scandal/": 1,
       "/en/judge-blocks-pentagon-anthropic-blacklist/": 1,
-      "/en/microsoft-ai-agent-risk-scoring/": 1,
-      "/en/microsoft-finds-lazarus-ai-backdoor/": 1,
+      "/en/meta-brings-muse-to-australia/": 1,
+      "/en/microsoft-365-family-cuts-onedrive-shares-copilot/": 1,
       "/en/microsoft-surface-laptop-ultra-nvidia-ai-chip/": 1,
       "/en/microsoft-unveils-maia-300-ai-chip/": 1,
-      "/en/mistral-launches-open-model-le-chonk/": 1,
       "/en/nvidia-acquires-hugging-face-13-billion/": 1,
       "/en/nvidia-board-weighs-ousting-huang-second-affair/": 1,
       "/en/nvidia-employees-demand-huang-return/": 1,
       "/en/nvidia-invests-3-5-billion-mediatek/": 1,
-      "/en/nvidia-launches-nemotron-3-5-super-vl-bolt/": 1,
       "/en/nvidia-shares-fall-jensen-huang-affair/": 1,
       "/en/openai-agent-breached-australian-government-site/": 1,
-      "/en/openai-ai-agents-majority-eu-enterprise-output/": 1,
       "/en/openai-chatgpt-ads-hit-1-billion-revenue/": 1,
       "/en/openai-chatgpt-ads-india-free-go/": 1,
       "/en/openai-cuts-cursor-off-after-spacex-deal/": 1,
-      "/en/openai-delays-ipo-safety-concerns/": 1,
       "/en/openai-discloses-six-safety-incidents/": 1,
       "/en/openai-employee-arrested-recording-device/": 1,
-      "/en/openai-launches-dots-always-on-agents-chatgpt/": 1,
       "/en/openai-rebrands-data-centers-compute-campuses/": 1,
       "/en/openai-report-hugging-face-hack/": 1,
       "/en/openai-safety-leader-resigns-broken-culture/": 1,
+      "/en/openai-stands-by-firing-safety-researchers/": 1,
       "/en/openai-sued-hugging-face-hack-lawsuit/": 1,
       "/en/openai-watermarks-chatgpt-text-eu/": 1,
       "/en/oracle-sends-force-majeure-notice-data-center/": 1,
+      "/en/petition-reinstate-jensen-huang-grows/": 1,
       "/en/protesters-storm-microsoft-data-center-amsterdam/": 1,
       "/en/researchers-use-claude-to-hack-openai/": 1,
-      "/en/roboflow-launches-action-recognition-for-video/": 1,
-      "/en/rtx-5090-shipment-vanishes-brazil/": 1,
       "/en/sam-altman-accept-bad-things-ai/": 1,
       "/en/seattle-times-newsday-sue-openai-microsoft/": 1,
       "/en/sony-music-warner-chappell-sue-anthropic-copyright/": 1,
       "/en/trump-ai-force-plans-new-ai-czar/": 1,
+      "/en/trump-backs-huang-return-nvidia-board-resists/": 1,
       "/en/trump-confirms-fbi-investigates-huang-nvidia-sued/": 1,
       "/en/trump-dismisses-ai-safety-warnings/": 1,
       "/en/uk-minister-warns-ai-cyberattack-risk/": 1,
+      "/en/us-bans-deepseek-ai-federal-agencies/": 1,
       "/en/us-midterm-voters-reject-ai-data-centers/": 1,
       "/en/wikimedia-blames-openai-agents-outage/": 1,
-      "/en/xai-launches-grok-voice-3-tops-voice-ranking/": 1,
-      "/es/": 1,
       "/es/acerca/": 1,
       "/es/amd-preve-superar-a-intel-en-ingresos/": 1,
       "/es/anthropic-abre-oficina-en-singapur/": 1,
       "/es/anthropic-reduce-contratacion-junior/": 1,
       "/es/aws-anthropic-openai-compiten-ingenieros-despliegue-ia/": 1,
+      "/es/c/modelos/": 1,
       "/es/empleado-openai-detenido-dispositivo-grabacion/": 1,
-      "/es/google-lanza-app-nativa-gemini-windows/": 1,
+      "/es/microsoft-365-familiar-reduce-onedrive-comparte-copilot/": 1,
       "/es/musk-confirma-recorte-limites-grok-bot/": 1,
       "/es/nvidia-abre-arquitectura-vera-rubin-centros-datos/": 1,
       "/es/nvidia-invierte-3-5-mil-millones-mediatek/": 1,
@@ -298,12 +313,9 @@
       "/es/xai-une-grok-cursor-x-premium-suscripcion/": 1,
       "/pt/anthropic-cria-fundo-de-beneficio-publico/": 1,
       "/pt/anthropic-reduz-contratacao-de-juniores/": 1,
-      "/pt/c/modelos/": 1,
-      "/pt/google-aplica-gemini-4-argon-robotica/": 1,
       "/pt/google-lanca-deep-review-para-documentos/": 1,
       "/pt/google-nvidia-alianca-energia-datacenters-ia/": 1,
       "/pt/greg-brockman-concentra-poder-openai/": 1,
-      "/pt/microsoft-365-familia-reduz-onedrive-libera-copilot/": 1,
       "/pt/nvidia-descontinua-shield-aumenta-preco-shield-pro/": 1,
       "/pt/openai-adquire-startup-orchestra-bio/": 1,
       "/pt/openai-compra-pierre-computer-para-o-codex/": 1,
@@ -313,40 +325,16 @@
   "search_console": {
     "totals": {
       "clicks": 3,
-      "impressions": 2055,
-      "ctr": 0.0015,
-      "avg_position": 23.1
+      "impressions": 1149,
+      "ctr": 0.0026,
+      "avg_position": 29.4
     },
     "top_queries": [
-      {
-        "query": "\"character.ai\" \"chapter 11\"",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 9
-      },
-      {
-        "query": "\"claude haiku 5.5\" anthropic",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 10
-      },
       {
         "query": "\"claude haiku 5.5\" release anthropic",
         "clicks": 0,
         "impressions": 1,
         "avg_position": 8
-      },
-      {
-        "query": "\"gemini 4 argon\" release",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 7
-      },
-      {
-        "query": "\"gemini 4\" google deepmind (available or released or api or \"now available\" or preview or launch)",
-        "clicks": 0,
-        "impressions": 2,
-        "avg_position": 9
       },
       {
         "query": "\"playground\"",
@@ -355,40 +343,16 @@
         "avg_position": 2
       },
       {
-        "query": "\"the signal chats that cost openai researchers their jobs\"",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 10
-      },
-      {
-        "query": "\"the x subscription\" grok cursor",
-        "clicks": 0,
-        "impressions": 3,
-        "avg_position": 9
-      },
-      {
         "query": "(openai or anthropic or google deepmind or meta llama or deepseek) (new frontier model or model release or open weights or open source) or (major ai technical breakthrough) after:2026-08-22",
         "clicks": 0,
         "impressions": 1,
         "avg_position": 10
       },
       {
-        "query": "+gemini 4 argon google release",
+        "query": "agent ai google",
         "clicks": 0,
         "impressions": 1,
-        "avg_position": 68
-      },
-      {
-        "query": "+google gemini 4 argon release",
-        "clicks": 0,
-        "impressions": 3,
-        "avg_position": 78.3
-      },
-      {
-        "query": "4 argon release",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 84
+        "avg_position": 44
       },
       {
         "query": "agente de gemini",
@@ -403,22 +367,16 @@
         "avg_position": 55.3
       },
       {
-        "query": "ai agent platform google",
+        "query": "ai agent gemini",
         "clicks": 0,
         "impressions": 1,
-        "avg_position": 98
+        "avg_position": 51
       },
       {
         "query": "ai deployment engineer openai",
         "clicks": 0,
-        "impressions": 1,
-        "avg_position": 99
-      },
-      {
-        "query": "ai mode google labs",
-        "clicks": 0,
-        "impressions": 1,
-        "avg_position": 25
+        "impressions": 2,
+        "avg_position": 80.5
       },
       {
         "query": "ai playground google",
@@ -437,33 +395,92 @@
         "clicks": 0,
         "impressions": 1,
         "avg_position": 94
+      },
+      {
+        "query": "ai toolkit market",
+        "clicks": 0,
+        "impressions": 2,
+        "avg_position": 98
+      },
+      {
+        "query": "ai uk",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 2
+      },
+      {
+        "query": "amsterdam data",
+        "clicks": 0,
+        "impressions": 3,
+        "avg_position": 82
+      },
+      {
+        "query": "amsterdam data center",
+        "clicks": 0,
+        "impressions": 5,
+        "avg_position": 93.8
+      },
+      {
+        "query": "amsterdam data centers",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 93
+      },
+      {
+        "query": "anthropic home office",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 56
+      },
+      {
+        "query": "anthropic new york office",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 11
+      },
+      {
+        "query": "anthropic valuation june 2025",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 34
+      },
+      {
+        "query": "astra for law 6.2",
+        "clicks": 0,
+        "impressions": 1,
+        "avg_position": 2
       }
     ],
     "top_pages": [
       {
         "page": "https://cortexplor.com/en/nvidia-opens-vera-rubin-architecture-data-centers/",
         "clicks": 1,
-        "impressions": 25
+        "impressions": 10
       },
       {
-        "page": "https://cortexplor.com/pt/microsoft-365-familia-reduz-onedrive-libera-copilot/",
+        "page": "https://cortexplor.com/es/microsoft-365-familiar-reduce-onedrive-comparte-copilot/",
         "clicks": 1,
-        "impressions": 5
+        "impressions": 4
       },
       {
         "page": "https://cortexplor.com/pt/reino-unido-alerta-ataque-cibernetico-ia/",
         "clicks": 1,
-        "impressions": 11
+        "impressions": 6
       },
       {
         "page": "https://cortexplor.com/",
         "clicks": 0,
-        "impressions": 86
+        "impressions": 80
       },
       {
         "page": "https://cortexplor.com/en/about/",
         "clicks": 0,
-        "impressions": 3
+        "impressions": 2
+      },
+      {
+        "page": "https://cortexplor.com/en/alphagenome-2-deepmind-dna-cells/",
+        "clicks": 0,
+        "impressions": 4
       },
       {
         "page": "https://cortexplor.com/en/amazon-quick-general-availability-desktop/",
@@ -473,27 +490,22 @@
       {
         "page": "https://cortexplor.com/en/anthropic-cuts-claude-haiku-5-5-api-costs/",
         "clicks": 0,
-        "impressions": 83
+        "impressions": 33
       },
       {
         "page": "https://cortexplor.com/en/anthropic-cuts-internet-internal-evaluations/",
         "clicks": 0,
-        "impressions": 11
+        "impressions": 10
       },
       {
         "page": "https://cortexplor.com/en/anthropic-expands-free-claude-team-startups/",
-        "clicks": 0,
-        "impressions": 23
-      },
-      {
-        "page": "https://cortexplor.com/en/anthropic-false-homicide-tip-philadelphia-police/",
         "clicks": 0,
         "impressions": 2
       },
       {
         "page": "https://cortexplor.com/en/anthropic-fewer-junior-hires-more-meetings/",
         "clicks": 0,
-        "impressions": 30
+        "impressions": 2
       },
       {
         "page": "https://cortexplor.com/en/anthropic-free-scanner-open-source-code/",
@@ -501,39 +513,39 @@
         "impressions": 1
       },
       {
-        "page": "https://cortexplor.com/en/anthropic-model-hardware-standard-ai-agents/",
-        "clicks": 0,
-        "impressions": 1
-      },
-      {
         "page": "https://cortexplor.com/en/anthropic-opens-singapore-office-mou/",
         "clicks": 0,
-        "impressions": 4
+        "impressions": 2
       },
       {
         "page": "https://cortexplor.com/en/anthropic-to-ban-users-cruel-to-claude/",
         "clicks": 0,
-        "impressions": 7
+        "impressions": 5
       },
       {
         "page": "https://cortexplor.com/en/anthropic-warns-ai-self-replication-devices/",
         "clicks": 0,
-        "impressions": 52
+        "impressions": 1
       },
       {
         "page": "https://cortexplor.com/en/apple-mlx-distributed-inference-mac-studio/",
         "clicks": 0,
-        "impressions": 52
+        "impressions": 40
       },
       {
         "page": "https://cortexplor.com/en/apple-research-language-mixing-beats-tuning/",
         "clicks": 0,
-        "impressions": 3
+        "impressions": 2
       },
       {
         "page": "https://cortexplor.com/en/aws-anthropic-openai-race-hire-ai-deployment-engineers/",
         "clicks": 0,
-        "impressions": 52
+        "impressions": 51
+      },
+      {
+        "page": "https://cortexplor.com/en/c/applications/",
+        "clicks": 0,
+        "impressions": 1
       },
       {
         "page": "https://cortexplor.com/en/c/market/",
