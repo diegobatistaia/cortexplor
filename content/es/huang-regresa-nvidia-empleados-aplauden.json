@@ -7,7 +7,12 @@
   "meta_description": "Jensen Huang fue recibido entre aplausos de empleados al volver a la sede de Nvidia como CEO, mientras la petición por su regreso ya supera las 200.000 firmas.",
   "keyword": "Jensen Huang Nvidia regreso",
   "category": "mercado",
-  "tags": ["ia", "nvidia", "jensen-huang", "mercado"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen-huang",
+    "mercado"
+  ],
   "body": [
     {
       "type": "p",
@@ -92,7 +97,13 @@
   ],
   "image": {
     "query": "office employees celebration technology company corridor",
-    "alt": "Empleados aplaudiendo en el pasillo de una oficina tecnológica"
+    "alt": "Empleados aplaudiendo en el pasillo de una oficina tecnológica",
+    "path": "/assets/img/huang-regresa-nvidia-empleados-aplauden-f1afad5b.jpg",
+    "credit": "Vitaly Gariev / Unsplash",
+    "author": "Vitaly Gariev",
+    "author_url": "https://unsplash.com/@silverkblack?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/people-in-party-hats-dancing-in-an-office-at-work-celebration-Mgja3hOHoL8"
   },
   "sources": [
     {
@@ -144,5 +155,7 @@
       "title": "NVIDIA reconduz Jensen Huang como seu CEO e conselheiro"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-23T21:49:05+00:00",
+  "updated_at": "2026-11-23T21:49:05+00:00"
 }
