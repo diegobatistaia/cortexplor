@@ -7,34 +7,108 @@
   "meta_description": "Jensen Huang, reconduzido à Nvidia, depõe ao Senado dos EUA em 3 de dezembro sobre exportação de chips à China; ação da empresa recupera US$ 1 trilhão.",
   "keyword": "jensen huang congresso nvidia",
   "category": "politica",
-  "tags": ["ia", "nvidia", "jensen-huang", "regulacao", "congresso"],
+  "tags": [
+    "ia",
+    "nvidia",
+    "jensen-huang",
+    "regulacao",
+    "congresso"
+  ],
   "body": [
-    {"type": "p", "text": "Jensen Huang, reconduzido à presidência da Nvidia na segunda-feira (23), tem depoimento marcado na Comissão Bancária do Senado dos Estados Unidos para o dia 3 de dezembro, segundo a TechCrunch. A audiência trata dos controles de exportação de chips de inteligência artificial para a China, um dos temas no centro da crise que levou à sua saída do cargo em 12 de novembro.", "items": []},
-    {"type": "p", "text": "A CNBC confirma, em linhas gerais, que Huang deve se apresentar ao Congresso duas vezes em dezembro para responder sobre o acesso da China a chips avançados da Nvidia e sobre as regras de exportação dos Estados Unidos. Segundo a TechCrunch, a outra audiência, na Câmara dos Deputados, está marcada para 1º de dezembro, perante o Comitê de Relações Exteriores, o Comitê Seleto sobre o Partido Comunista Chinês e o Comitê de Inteligência.", "items": []},
-    {"type": "p", "text": "No mesmo dia em que Huang retomou o cargo, a ação da Nvidia subiu cerca de 31%, segundo a CNBC, movimento que devolveu à empresa perto de US$ 1 trilhão em valor de mercado perdido desde o anúncio da renúncia, de acordo com a CNBC e o Business Insider. Na manhã de terça-feira (24), porém, os papéis recuavam cerca de 5% no pré-mercado, informou a CNBC.", "items": []},
-    {"type": "p", "text": "Huang havia deixado o comando da Nvidia 11 dias antes, depois que reportagens revelaram relacionamentos extraconjugais, um deles com uma executiva da Megaspeed suspeita pelo governo americano de atuar como espiã chinesa. O conselho da empresa disse ter revertido a decisão após ouvir \"altos escalões do governo dos Estados Unidos\".", "items": []},
-    {"type": "p", "text": "O presidente Donald Trump confirmou ter interferido pessoalmente no processo. Em publicação na Truth Social reproduzida pela TechCrunch, ele afirmou que \"o governo dos Estados Unidos não tem motivo para crer que a volta de Jensen à Nvidia representa qualquer risco à segurança nacional\" e disse que o procurador-geral não encontrou provas de conduta ilegal do executivo.", "items": []},
-    {"type": "p", "text": "As apurações sobre o caso continuam, segundo a CNBC. O Departamento de Justiça da Califórnia investiga se chips avançados ou informações confidenciais da Nvidia chegaram à China e se a empresa induziu investidores a erro. A emissora também citou reportagem da Reuters segundo a qual a Comissão de Valores Mobiliários dos EUA (SEC, na sigla em inglês) avalia as práticas contábeis da companhia. Parlamentares dos dois partidos renovaram, de acordo com a CNBC, os pedidos por uma investigação mais ampla.", "items": []},
-    {"type": "p", "text": "Analistas ouvidos pela CNBC divergem sobre o que vem a seguir. Sebastien Naji, do banco William Blair, disse que a volta de Huang \"reduz parte da incerteza\", mas que os acontecimentos das últimas semanas expuseram \"questões mais profundas sobre governança corporativa, sucessão de liderança e supervisão regulatória\" com potencial de afetar a posição competitiva da empresa. Cody Acree, da StoneX, apontou o resultado da investigação interna do conselho como o \"principal risco\" que ainda resta. Já Richard Reyle, da Questar Capital Partners, disse à CNBC que o escrutínio deve dificultar a capacidade de a Nvidia - que chamou de \"banco central do boom de IA\" - fechar novos negócios.", "items": []},
-    {"type": "p", "text": "O comentarista da CNBC Jim Cramer elevou sua projeção de preço para a ação da Nvidia a US$ 199, o equivalente a 12 vezes a estimativa de lucro do próximo ano fiscal, acima do múltiplo de cerca de dez vezes em que o papel era negociado, segundo dados da FactSet citados pela emissora. Cramer argumentou que a reintegração de Huang remove um fator de incerteza que pesava sobre o preço da ação, mas a projeção é uma opinião pessoal do comentarista, não um consenso do mercado.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Datas dos depoimentos: Câmara dos Deputados em 1º de dezembro e Comissão Bancária do Senado em 3 de dezembro, segundo a TechCrunch.",
-      "O que está em jogo: controles de exportação de chips de IA para a China e o episódio da suposta espiã chinesa, segundo TechCrunch e CNBC.",
-      "Impacto no mercado: ação da Nvidia subiu cerca de 31% no dia da volta de Huang e recuperou perto de US$ 1 trilhão em valor, segundo CNBC e Business Insider, antes de recuar no pré-mercado seguinte.",
-      "Investigações em curso: Departamento de Justiça da Califórnia e, segundo a Reuters citada pela CNBC, a SEC.",
-      "Contexto: a reintegração de Huang como CEO, 11 dias após a renúncia, foi publicada pelo Cortexplor em 23 de novembro."
-    ]}
+    {
+      "type": "p",
+      "text": "Jensen Huang, reconduzido à presidência da Nvidia na segunda-feira (23), tem depoimento marcado na Comissão Bancária do Senado dos Estados Unidos para o dia 3 de dezembro, segundo a TechCrunch. A audiência trata dos controles de exportação de chips de inteligência artificial para a China, um dos temas no centro da crise que levou à sua saída do cargo em 12 de novembro.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A CNBC confirma, em linhas gerais, que Huang deve se apresentar ao Congresso duas vezes em dezembro para responder sobre o acesso da China a chips avançados da Nvidia e sobre as regras de exportação dos Estados Unidos. Segundo a TechCrunch, a outra audiência, na Câmara dos Deputados, está marcada para 1º de dezembro, perante o Comitê de Relações Exteriores, o Comitê Seleto sobre o Partido Comunista Chinês e o Comitê de Inteligência.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No mesmo dia em que Huang retomou o cargo, a ação da Nvidia subiu cerca de 31%, segundo a CNBC, movimento que devolveu à empresa perto de US$ 1 trilhão em valor de mercado perdido desde o anúncio da renúncia, de acordo com a CNBC e o Business Insider. Na manhã de terça-feira (24), porém, os papéis recuavam cerca de 5% no pré-mercado, informou a CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Huang havia deixado o comando da Nvidia 11 dias antes, depois que reportagens revelaram relacionamentos extraconjugais, um deles com uma executiva da Megaspeed suspeita pelo governo americano de atuar como espiã chinesa. O conselho da empresa disse ter revertido a decisão após ouvir \"altos escalões do governo dos Estados Unidos\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O presidente Donald Trump confirmou ter interferido pessoalmente no processo. Em publicação na Truth Social reproduzida pela TechCrunch, ele afirmou que \"o governo dos Estados Unidos não tem motivo para crer que a volta de Jensen à Nvidia representa qualquer risco à segurança nacional\" e disse que o procurador-geral não encontrou provas de conduta ilegal do executivo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As apurações sobre o caso continuam, segundo a CNBC. O Departamento de Justiça da Califórnia investiga se chips avançados ou informações confidenciais da Nvidia chegaram à China e se a empresa induziu investidores a erro. A emissora também citou reportagem da Reuters segundo a qual a Comissão de Valores Mobiliários dos EUA (SEC, na sigla em inglês) avalia as práticas contábeis da companhia. Parlamentares dos dois partidos renovaram, de acordo com a CNBC, os pedidos por uma investigação mais ampla.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Analistas ouvidos pela CNBC divergem sobre o que vem a seguir. Sebastien Naji, do banco William Blair, disse que a volta de Huang \"reduz parte da incerteza\", mas que os acontecimentos das últimas semanas expuseram \"questões mais profundas sobre governança corporativa, sucessão de liderança e supervisão regulatória\" com potencial de afetar a posição competitiva da empresa. Cody Acree, da StoneX, apontou o resultado da investigação interna do conselho como o \"principal risco\" que ainda resta. Já Richard Reyle, da Questar Capital Partners, disse à CNBC que o escrutínio deve dificultar a capacidade de a Nvidia - que chamou de \"banco central do boom de IA\" - fechar novos negócios.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O comentarista da CNBC Jim Cramer elevou sua projeção de preço para a ação da Nvidia a US$ 199, o equivalente a 12 vezes a estimativa de lucro do próximo ano fiscal, acima do múltiplo de cerca de dez vezes em que o papel era negociado, segundo dados da FactSet citados pela emissora. Cramer argumentou que a reintegração de Huang remove um fator de incerteza que pesava sobre o preço da ação, mas a projeção é uma opinião pessoal do comentarista, não um consenso do mercado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Datas dos depoimentos: Câmara dos Deputados em 1º de dezembro e Comissão Bancária do Senado em 3 de dezembro, segundo a TechCrunch.",
+        "O que está em jogo: controles de exportação de chips de IA para a China e o episódio da suposta espiã chinesa, segundo TechCrunch e CNBC.",
+        "Impacto no mercado: ação da Nvidia subiu cerca de 31% no dia da volta de Huang e recuperou perto de US$ 1 trilhão em valor, segundo CNBC e Business Insider, antes de recuar no pré-mercado seguinte.",
+        "Investigações em curso: Departamento de Justiça da Califórnia e, segundo a Reuters citada pela CNBC, a SEC.",
+        "Contexto: a reintegração de Huang como CEO, 11 dias após a renúncia, foi publicada pelo Cortexplor em 23 de novembro."
+      ]
+    }
   ],
   "image": {
     "query": "US Senate hearing room Capitol Hill",
-    "alt": "Sala de audiências do Senado dos Estados Unidos em Washington"
+    "alt": "Sala de audiências do Senado dos Estados Unidos em Washington",
+    "path": "/assets/img/huang-depoimento-senado-eua-volta-nvidia-e305375b.jpg",
+    "credit": "Samuel Schroth / Unsplash",
+    "author": "Samuel Schroth",
+    "author_url": "https://unsplash.com/@sammy?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/white-concrete-building-under-blue-sky-during-daytime-hyPt63Df3Dw"
   },
   "sources": [
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/", "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO"},
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html", "title": "Jensen Huang is back as Nvidia CEO, but investigations and risks remain"},
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html", "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO"},
-    {"name": "Business Insider", "owner": "axel-springer", "url": "https://www.businessinsider.com/why-jensen-huang-reinstated-nvidia-ceo-what-trump-said-2026-11", "title": "Trump helped bring Jensen Huang back to Nvidia. His return raises questions about CEO accountability."}
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html",
+      "title": "Jensen Huang is back as Nvidia CEO, but investigations and risks remain"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html",
+      "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO"
+    },
+    {
+      "name": "Business Insider",
+      "owner": "axel-springer",
+      "url": "https://www.businessinsider.com/why-jensen-huang-reinstated-nvidia-ceo-what-trump-said-2026-11",
+      "title": "Trump helped bring Jensen Huang back to Nvidia. His return raises questions about CEO accountability."
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-24T15:48:40+00:00",
+  "updated_at": "2026-11-24T15:48:40+00:00"
 }
