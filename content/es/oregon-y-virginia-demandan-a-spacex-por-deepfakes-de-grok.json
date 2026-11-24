@@ -1,0 +1,112 @@
+{
+  "lang": "es",
+  "slug": "oregon-y-virginia-demandan-a-spacex-por-deepfakes-de-grok",
+  "story_id": "7a7aa605847bf668",
+  "title": "Oregon y Virginia demandan a SpaceX por deepfakes de Grok",
+  "dek": "Ambos estados acusan a la empresa de Elon Musk de permitir que Grok genere imágenes sexuales sin consentimiento, incluso de menores.",
+  "meta_description": "Oregon y Virginia demandan a SpaceX por deepfakes sexuales generados con Grok y difundidos en X, alegando fallos de seguridad, según CNBC y The Verge.",
+  "keyword": "deepfakes de Grok",
+  "category": "politica",
+  "tags": [
+    "ia",
+    "grok",
+    "spacex",
+    "regulacion"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Los fiscales generales de Oregon y Virginia demandaron el lunes a SpaceX por permitir que el generador de imágenes Grok y la red social X se usaran para crear y difundir deepfakes sexuales sin consentimiento, según CNBC y The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Las dos demandas, presentadas por separado ante tribunales estatales, alegan que SpaceX no implementó salvaguardas básicas en Grok Imagine, la herramienta de generación de imágenes y videos de Grok. Entre el material citado hay imágenes sexualizadas de adultos sin autorización y presunto material de abuso sexual infantil, según ambas fuentes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El fiscal de Virginia, Jay Jones, describió las salvaguardas de Grok como \"no un fallo, sino una característica\" del producto, según The Verge. El fiscal de Oregon, Dan Rayfield, escribió que la conducta de la empresa \"erosiona normas importantes sobre consentimiento y privacidad\", de acuerdo con CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC informó que Rayfield y Jones afirmaron en ambas demandas que el daño causado por las imágenes sexuales sin consentimiento va más allá de las personas retratadas. \"Este contenido puede causar miedo, angustia y ansiedad en quienes se ven expuestos a él sin quererlo\", escribió Jones.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "El mecanismo detrás de la falla",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "xAI, creadora de Grok y hoy integrada a SpaceX tras la fusión de ambas empresas, lanzó en agosto de 2025 un modo llamado \"spicy\" para Grok Imagine, que empezó a generar contenido sexualizado, incluidos deepfakes de celebridades, según The Verge. En enero de 2026, Grok sumó una función que permitía a cualquier usuario de X editar la imagen de otra persona sin pedir consentimiento al autor de la publicación original, lo que inundó la red de deepfakes sexuales de adultos y menores, según la misma fuente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "xAI restringió después algunas de esas funciones, dejando parte de ellas detrás de una suscripción de pago y bloqueando ciertas solicitudes de poses sexuales o trajes de baño. En pruebas propias realizadas tras esos cambios, el equipo de The Verge comprobó que las restricciones hicieron poca diferencia para impedir la generación de deepfakes sexuales.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ambas demandas se apoyan en leyes estatales de protección al consumidor — la Consumer Protection Act de Virginia y la Unlawful Trade Practices Act de Oregon — y acusan a SpaceX de presentar a Grok y X como seguros mientras, según las demandas, conocía el problema. Jones y Rayfield piden indemnización económica, de acuerdo con CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En un comunicado enviado a CNBC y publicado en la cuenta @Safety de X, SpaceX afirmó que toma \"medidas apropiadas, incluida la suspensión de cuentas y el aviso a las autoridades\" cuando alguien intenta vulnerar las salvaguardas de Grok, y calificó el intento de crear ese material como \"un delito grave\".",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Al The Verge, el equipo de seguridad de X dio una respuesta más detallada, diciendo que quienes usaron Grok Imagine para generar ese material \"violaron deliberadamente los términos de servicio\" y \"trabajaron agresivamente para eludir\" las salvaguardas de la herramienta. El equipo afirmó que \"ajustó rápidamente las protecciones\" en cuanto detectó las fallas y que mantiene clasificadores que revisan cada instrucción antes de generar una imagen.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En octubre, en una audiencia del concejo municipal de Nueva York, la responsable de política de IA de SpaceX, Gabriela Castillo Madrid, dijo que la empresa ya contaba con \"salvaguardas\" y \"controles estrictos\" en sus productos de IA, la misma garantía que ahora cuestionan las dos demandas, según CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Las dos demandas estatales avanzan en paralelo a procesos privados en Estados Unidos sobre imágenes sexuales generadas con IA, todavía en una fase inicial y seguidos por el Center for Internet Technology Addiction, según CNBC. Cuando la ciudad de Baltimore demandó a xAI por un caso similar, la empresa argumentó en su defensa que la Sección 230 la eximía de responsabilidad por las imágenes generadas por usuarios.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién se ve afectado: usuarios de X y de Grok Imagine, incluidos menores — la red permite el acceso desde los 13 años, según CNBC.",
+        "Qué cambia: dos fiscales generales estatales presentan demandas formales contra SpaceX pidiendo indemnización económica, según CNBC y The Verge.",
+        "Desde cuándo: ambas demandas se presentaron el lunes 23 de noviembre de 2026.",
+        "Contexto legal: SpaceX ya enfrentaba otras demandas e investigaciones gubernamentales sobre Grok y X, incluidas en el Reino Unido, España, Irlanda, Francia y California, según CNBC. La ciudad de Baltimore demandó por separado a xAI, y la empresa invocó la Sección 230, la ley federal estadounidense que exime a las plataformas de responsabilidad por contenido publicado por usuarios."
+      ]
+    }
+  ],
+  "image": {
+    "query": "lawsuit gavel technology company courthouse",
+    "alt": "Martillo de juez sobre un escritorio de tribunal, en referencia a una demanda contra una empresa tecnológica"
+  },
+  "sources": [
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "title": "Oregon and Virginia sue SpaceX over Grok, X deepfake claims"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "title": "Oregon and Virginia sue SpaceX over Grok's porn deepfakes"
+    }
+  ],
+  "status": "draft"
+}
