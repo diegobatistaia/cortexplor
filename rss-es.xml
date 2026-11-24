@@ -5,8 +5,16 @@
     <link>https://cortexplor.com/es/</link>
     <description>Noticias, tendencias y números de Inteligencia Artificial en Brasil y el mundo.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:48:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 21:47:30 +0000</lastBuildDate>
     <atom:link href="https://cortexplor.com/rss-es.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic lanza Claude Ship para revisar y aprobar código</title>
+      <link>https://cortexplor.com/es/anthropic-lanza-claude-ship-revision-de-codigo/</link>
+      <guid isPermaLink="true">https://cortexplor.com/es/anthropic-lanza-claude-ship-revision-de-codigo/</guid>
+      <description>Anthropic lanzó en beta el Claude Ship, con agentes de IA que corrigen pull requests y aprueban cambios rutinarios sin revisión humana, según TechCrunch.</description>
+      <category>Aplicaciones</category>
+      <pubDate>Tue, 24 Nov 2026 21:47:27 +0000</pubDate>
+    </item>
     <item>
       <title>Huang declarará ante el Senado de EEUU tras volver a Nvidia</title>
       <link>https://cortexplor.com/es/huang-declarara-senado-eeuu-regreso-nvidia/</link>
@@ -238,14 +246,6 @@
       <description>Trump dijo a periodistas que respaldaría el regreso de Jensen Huang a Nvidia, pero la junta de la empresa no considera reincorporarlo, según Guardian y CNBC.</description>
       <category>Mercado de IA</category>
       <pubDate>Tue, 17 Nov 2026 15:48:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft reduce hasta 31% el costo de agentes de código con IA</title>
-      <link>https://cortexplor.com/es/microsoft-tokeneconomizer-reduce-costo-agentes/</link>
-      <guid isPermaLink="true">https://cortexplor.com/es/microsoft-tokeneconomizer-reduce-costo-agentes/</guid>
-      <description>Microsoft lanzó TokenEconomizer, plugin de código abierto que reduce hasta 31% el costo de agentes de código con IA sin perder desempeño, según la empresa.</description>
-      <category>Aplicaciones</category>
-      <pubDate>Tue, 17 Nov 2026 10:52:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

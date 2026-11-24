@@ -79,7 +79,13 @@
   ],
   "image": {
     "query": "software developer reviewing code on computer screen",
-    "alt": "Pantalla de computadora con la revisión automática de un pull request"
+    "alt": "Pantalla de computadora con la revisión automática de un pull request",
+    "path": "/assets/img/anthropic-lanza-claude-ship-revision-de--244f921c.jpg",
+    "credit": "Jakub Żerdzicki / Unsplash",
+    "author": "Jakub Żerdzicki",
+    "author_url": "https://unsplash.com/@jakubzerdzicki?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-screen-displaying-lines-of-code-n3ba57RKVNs"
   },
   "sources": [
     {
@@ -107,5 +113,7 @@
       "title": "Good news for AI coders — Anthropic's Claude Ship is now able to review pull requests and even ship code fixes all on its own"
     }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-24T21:47:27+00:00",
+  "updated_at": "2026-11-24T21:47:27+00:00"
 }
