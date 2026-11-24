@@ -1,0 +1,103 @@
+{
+  "slug": "anthropic-lanca-claude-ship-revisao-de-codigo",
+  "lang": "pt",
+  "date": "24 nov 2026",
+  "no": 155,
+  "category": "Aplicações",
+  "kicker": "Aplicações · Anthropic",
+  "headline": "Anthropic lança Claude Ship para revisar e aprovar código",
+  "headline_hl": "Claude Ship",
+  "dek": "Segundo TechCrunch e The Verge, agentes corrigem pull requests e podem aprovar mudanças de rotina.",
+  "image": {
+    "path": "assets/img/anthropic-lanca-claude-ship-revisao-de-c-244f921c.jpg",
+    "credit": "Jakub Żerdzicki / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "CLAUDE<br>SHIP",
+  "sources": [
+    "TechCrunch",
+    "The Verge",
+    "ZDNet",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que foi lançado",
+    "body": [
+      "A Anthropic lançou o Claude Ship, um conjunto de agentes que revisa, corrige e pode aprovar pull requests (TechCrunch, The Verge).",
+      "As novidades, em beta, são o PR Steward e o Claude Approvals (ZDNet)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que cada agente faz",
+    "body": "O Code Review já existia e agora ganha dois companheiros.",
+    "points": [
+      {
+        "h": "Steward",
+        "t": "Corrige testes que falham e conflitos de merge (TechCrunch, The Verge)."
+      },
+      {
+        "h": "Approvals",
+        "t": "Aprova mudanças de rotina pela política da equipe (ZDNet)."
+      },
+      {
+        "h": "Review",
+        "t": "Avalia o código em três níveis de profundidade (TechRadar)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "A TechRadar diz que a revisão virou gargalo, com tanta IA gerando código.",
+      "A Anthropic afirma que muitos desenvolvedores já constroem com agentes (TechCrunch)."
+    ],
+    "stat": {
+      "big": "Sozinho",
+      "cap": "aprova mudanças de rotina, diz a TechCrunch"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Controle",
+        "t": "Cada equipe define repositórios e o que exige revisão humana (TechRadar)."
+      },
+      {
+        "h": "Alerta",
+        "t": "David Gewirtz diz que liberar código no ritmo da escrita arrepia (ZDNet)."
+      },
+      {
+        "h": "Juniores",
+        "t": "Ele aponta risco para a formação de quem está começando (ZDNet)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A Anthropic lança o Claude Ship para revisar, corrigir e aprovar código.",
+    "body": [
+      "Segundo a TechCrunch e o The Verge, o Claude Ship é um conjunto de agentes que revisa, corrige e pode aprovar pull requests sem uma pessoa em cada etapa. As novidades em beta são o PR Steward, que corrige testes que falham e conflitos de merge, e o Claude Approvals, que aprova mudanças de rotina pela política que a equipe define (ZDNet).",
+      "A TechRadar diz que a revisão virou gargalo com tanta IA gerando código. Cada equipe decide em quais repositórios o Claude Ship roda e o que ainda exige uma pessoa. David Gewirtz, da ZDNet, diz que liberar código no ritmo em que é escrito arrepia e aponta risco para a formação de juniores."
+    ],
+    "cta_variant": "A",
+    "cta": "Você deixaria uma IA aprovar o código do seu time?",
+    "hashtags": [
+      "#cortexplor",
+      "#anthropic",
+      "#claudecode",
+      "#programacao"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Claude Ship da Anthropic",
+    "Slide 2: o que a Anthropic lançou",
+    "Slide 3: o que PR Steward e Claude Approvals fazem",
+    "Slide 4: por que a revisão virou gargalo",
+    "Slide 5: controle da equipe e alertas sobre juniores",
+    "Slide 6: fontes TechCrunch, The Verge, ZDNet e TechRadar"
+  ]
+}
