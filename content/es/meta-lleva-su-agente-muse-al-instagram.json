@@ -7,36 +7,118 @@
   "meta_description": "Meta integró su agente de IA Muse a los mensajes directos de Instagram y a las publicaciones guardadas, lo que ya impulsa las compras, según reportó CNBC.",
   "keyword": "Meta Muse Instagram",
   "category": "aplicacoes",
-  "tags": ["ia", "meta", "instagram", "agentes", "muse"],
+  "tags": [
+    "ia",
+    "meta",
+    "instagram",
+    "agentes",
+    "muse"
+  ],
   "body": [
-    {"type": "p", "text": "Meta integró este martes a su agente personal de inteligencia artificial, Muse, directamente en los mensajes directos de Instagram, según TechCrunch y Engadget. La novedad elimina la necesidad de alternar entre Instagram y la aplicación propia de Muse para hablar con el asistente.", "items": []},
-    {"type": "p", "text": "Según TechCrunch, la función comenzó a llegar este martes a usuarios de iOS y Android en Estados Unidos, Canadá, México, Japón y Singapur. Las conversaciones iniciadas en Instagram aparecen después como un chat paralelo dentro de la propia aplicación de Muse, según la empresa.", "items": []},
-    {"type": "p", "text": "Instagram también empezó este martes a sugerir que los usuarios recurran a Muse para organizar publicaciones y videos cortos (Reels) que ya habían guardado, según TechCrunch y Engadget. Esa sugerencia automática está disponible, por ahora, en Estados Unidos y Canadá.", "items": []},
-    {"type": "p", "text": "Entre los ejemplos citados por TechCrunch está pedirle a Muse que convierta un video de receta guardado en una lista de compras, que una contenidos de viaje guardados en un itinerario, o que sugiera outfits a partir de Reels de moda guardados por el usuario.", "items": []},
-    {"type": "p", "text": "Engadget señala que la estrategia repite la fórmula que Meta usó para hacer crecer Threads, red que hoy supera los 500 millones de usuarios: empujar un producto nuevo dentro de aplicaciones que ya tienen miles de millones de usuarios. Muse superó los 10 millones de usuarios el mes pasado, según Engadget.", "items": []},
-    {"type": "p", "text": "Según Engadget, Zuckerberg ya dijo que la meta es llevar Muse a miles de millones de personas y previó que el agente podría, en el futuro, generar más ingresos para Meta que el conjunto actual de aplicaciones de la empresa. Instagram mantiene, por separado, un chatbot genérico llamado Meta AI, que responde preguntas y no desaparecerá, según un portavoz de Instagram citado por Engadget; Muse en los mensajes directos está pensado como un asistente que ejecuta tareas.", "items": []},
-    {"type": "p", "text": "Según Meta, Muse actúa a través de conectores: al vincular cuentas de correo, calendario o aplicaciones de compra, el agente puede encargarse de tareas por sí solo, como completar un formulario o negociar la devolución de un producto, pero siempre pide la aprobación del usuario antes de acciones importantes, como enviar un correo o concluir una compra.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Quién puede usarlo: usuarios de Instagram que ya vincularon su cuenta con Muse, en Estados Unidos, Canadá, México, Japón y Singapur para el chat por DM, según TechCrunch.",
-      "Desde cuándo: a partir del 24 de noviembre de 2026.",
-      "Cómo funciona: basta con enviarle un mensaje a Muse dentro del propio Instagram o compartirle una publicación, sin abrir otra aplicación.",
-      "Qué cambia: antes había que alternar entre Instagram y la app de Muse; ahora el asistente responde directo en la bandeja de mensajes, según TechCrunch.",
-      "Límite: dentro de Instagram, Muse sigue siendo más limitado que en la app o el sitio completo de la herramienta, según Engadget."
-    ]},
-    {"type": "p", "text": "La integración también tiene una cara comercial. Según CNBC, que citó a fuentes al tanto del asunto, cerca del 20% de los usuarios diarios de Instagram guarda al menos una publicación por día, y buena parte de ese contenido son productos o anuncios con posibilidad de compra, lo que convierte la función de organización de Muse en un camino hacia más ventas dentro de la app.", "items": []},
-    {"type": "p", "text": "CNBC citó datos de la firma de análisis Forter Intelligence según los cuales Muse concentró el 51% de todos los pedidos de compra hechos por agentes de IA en la semana que terminó el 22 de noviembre, por delante de Grok, de xAI, con 24%, y de ChatGPT, de OpenAI, con 22%. En una conferencia de resultados citada por CNBC, el director ejecutivo de Meta, Mark Zuckerberg, dijo que el 25% de los usuarios de Muse ya compra a través del asistente, con un ticket promedio superior a los 200 dólares.", "items": []},
-    {"type": "p", "text": "El mismo día, Meta informó en un comunicado que Muse también comenzó a operar en el Reino Unido, con acceso a servicios de marcas locales como Marks & Spencer, Sainsbury's y ASOS, según la propia empresa.", "items": []}
+    {
+      "type": "p",
+      "text": "Meta integró este martes a su agente personal de inteligencia artificial, Muse, directamente en los mensajes directos de Instagram, según TechCrunch y Engadget. La novedad elimina la necesidad de alternar entre Instagram y la aplicación propia de Muse para hablar con el asistente.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según TechCrunch, la función comenzó a llegar este martes a usuarios de iOS y Android en Estados Unidos, Canadá, México, Japón y Singapur. Las conversaciones iniciadas en Instagram aparecen después como un chat paralelo dentro de la propia aplicación de Muse, según la empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Instagram también empezó este martes a sugerir que los usuarios recurran a Muse para organizar publicaciones y videos cortos (Reels) que ya habían guardado, según TechCrunch y Engadget. Esa sugerencia automática está disponible, por ahora, en Estados Unidos y Canadá.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Entre los ejemplos citados por TechCrunch está pedirle a Muse que convierta un video de receta guardado en una lista de compras, que una contenidos de viaje guardados en un itinerario, o que sugiera outfits a partir de Reels de moda guardados por el usuario.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Engadget señala que la estrategia repite la fórmula que Meta usó para hacer crecer Threads, red que hoy supera los 500 millones de usuarios: empujar un producto nuevo dentro de aplicaciones que ya tienen miles de millones de usuarios. Muse superó los 10 millones de usuarios el mes pasado, según Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Engadget, Zuckerberg ya dijo que la meta es llevar Muse a miles de millones de personas y previó que el agente podría, en el futuro, generar más ingresos para Meta que el conjunto actual de aplicaciones de la empresa. Instagram mantiene, por separado, un chatbot genérico llamado Meta AI, que responde preguntas y no desaparecerá, según un portavoz de Instagram citado por Engadget; Muse en los mensajes directos está pensado como un asistente que ejecuta tareas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Meta, Muse actúa a través de conectores: al vincular cuentas de correo, calendario o aplicaciones de compra, el agente puede encargarse de tareas por sí solo, como completar un formulario o negociar la devolución de un producto, pero siempre pide la aprobación del usuario antes de acciones importantes, como enviar un correo o concluir una compra.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quién puede usarlo: usuarios de Instagram que ya vincularon su cuenta con Muse, en Estados Unidos, Canadá, México, Japón y Singapur para el chat por DM, según TechCrunch.",
+        "Desde cuándo: a partir del 24 de noviembre de 2026.",
+        "Cómo funciona: basta con enviarle un mensaje a Muse dentro del propio Instagram o compartirle una publicación, sin abrir otra aplicación.",
+        "Qué cambia: antes había que alternar entre Instagram y la app de Muse; ahora el asistente responde directo en la bandeja de mensajes, según TechCrunch.",
+        "Límite: dentro de Instagram, Muse sigue siendo más limitado que en la app o el sitio completo de la herramienta, según Engadget."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La integración también tiene una cara comercial. Según CNBC, que citó a fuentes al tanto del asunto, cerca del 20% de los usuarios diarios de Instagram guarda al menos una publicación por día, y buena parte de ese contenido son productos o anuncios con posibilidad de compra, lo que convierte la función de organización de Muse en un camino hacia más ventas dentro de la app.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC citó datos de la firma de análisis Forter Intelligence según los cuales Muse concentró el 51% de todos los pedidos de compra hechos por agentes de IA en la semana que terminó el 22 de noviembre, por delante de Grok, de xAI, con 24%, y de ChatGPT, de OpenAI, con 22%. En una conferencia de resultados citada por CNBC, el director ejecutivo de Meta, Mark Zuckerberg, dijo que el 25% de los usuarios de Muse ya compra a través del asistente, con un ticket promedio superior a los 200 dólares.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "El mismo día, Meta informó en un comunicado que Muse también comenzó a operar en el Reino Unido, con acceso a servicios de marcas locales como Marks & Spencer, Sainsbury's y ASOS, según la propia empresa.",
+      "items": []
+    }
   ],
   "image": {
     "query": "smartphone instagram app chat assistant",
-    "alt": "Persona usando un asistente de inteligencia artificial en mensajes desde el celular"
+    "alt": "Persona usando un asistente de inteligencia artificial en mensajes desde el celular",
+    "path": "/assets/img/meta-lleva-su-agente-muse-al-instagram-08e2ded2.jpg",
+    "credit": "Brett Jordan / Unsplash",
+    "author": "Brett Jordan",
+    "author_url": "https://unsplash.com/@brett_jordan?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/instagram-app-icon-on-screen-fmqhTMu4IVU"
   },
   "sources": [
-    {"name": "Meta Newsroom", "owner": "meta", "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/", "title": "Introducing Muse in the UK: A Personal AI Agent You Control"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/", "title": "Meta brings its Muse AI assistant directly into Instagram DMs"},
-    {"name": "CNBC Technology", "owner": "nbcuniversal", "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html", "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent"},
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/", "title": "Meta is bringing Muse to Instagram"}
+    {
+      "name": "Meta Newsroom",
+      "owner": "meta",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "title": "Introducing Muse in the UK: A Personal AI Agent You Control"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs"
+    },
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+      "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/",
+      "title": "Meta is bringing Muse to Instagram"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-25T10:48:59+00:00",
+  "updated_at": "2026-11-25T10:48:59+00:00"
 }

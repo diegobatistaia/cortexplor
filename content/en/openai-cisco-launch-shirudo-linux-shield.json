@@ -7,37 +7,122 @@
   "meta_description": "OpenAI and Cisco released Shirudo, a free open-source tool that blocks exploits on live Linux servers without requiring a full system reboot right away.",
   "keyword": "Shirudo OpenAI Cisco",
   "category": "aplicacoes",
-  "tags": ["ai", "openai", "cisco", "cybersecurity", "linux"],
+  "tags": [
+    "ai",
+    "openai",
+    "cisco",
+    "cybersecurity",
+    "linux"
+  ],
   "body": [
-    {"type": "p", "text": "OpenAI and Cisco launched Shirudo on Monday, an open-source runtime that shields running Linux systems from an exploit while security teams prepare a permanent fix, according to an OpenAI announcement corroborated by SiliconANGLE and TechRadar.", "items": []},
-    {"type": "p", "text": "The name is Japanese for \"shield.\" It targets a familiar problem in infrastructure security: building and rolling out a patch can take days or weeks, and taking a vulnerable service offline in the meantime is not always possible without hurting the business that depends on it, OpenAI said.", "items": []},
-    {"type": "p", "text": "Shirudo relies on eBPF, a Linux technology that lets small, verified programs run inside the operating system itself without a reboot. Using it, the tool watches a service's behavior and applies a temporary barrier, called a \"shield,\" that blocks only the specific action an attacker is exploiting while legitimate traffic keeps flowing, according to OpenAI and TechRadar.", "items": []},
-    {"type": "p", "text": "TechRadar notes that security flaws fall into two broad categories: \"zero-day\" bugs, unknown to the vendor until they are exploited, and \"n-day\" bugs, already known but still unpatched. Shirudo is built for that second group, offering a temporary safeguard while the permanent patch is still being prepared.", "items": []},
-    {"type": "p", "text": "In a controlled test, the two companies used Codex, OpenAI's coding agent, to automatically generate a shield against a vulnerability dubbed Java4Shell in a live Elasticsearch service. The shield blocked the exploit attempt without the service needing a restart, according to OpenAI and SiliconANGLE.", "items": []},
-    {"type": "p", "text": "Every shield Shirudo creates is cryptographically signed and checked by Linux's own eBPF verifier before it loads, and the system logs that check in a hardware component called a Trusted Platform Module (TPM), so a security team can later prove what was blocked and when, OpenAI said.", "items": []},
-    {"type": "p", "text": "The companies say the project exists because AI-driven attacks can now find and exploit flaws within seconds, making traditional manual defense too slow, Cisco's security engineering lead, Thomas Graf, told SiliconANGLE. \"There is nothing more important than giving security teams the tools they need to match the speed of the AI-driven threats they are facing,\" Cisco chief product officer Jeetu Patel told SiliconANGLE.", "items": []},
-    {"type": "p", "text": "According to SiliconANGLE, Graf said the average time to exploitation has already turned negative: a growing share of vulnerabilities are now attacked before they are even publicly disclosed, which makes waiting weeks for a traditional patch untenable.", "items": []},
-    {"type": "p", "text": "The two companies' longer-term goal, per SiliconANGLE, is to rebuild IT infrastructure with security built in from the start: systems that can automatically roll back to a known-good state after an attack and that use reinforcement-learning techniques to test their own defenses against unknown threats.", "items": []},
-    {"type": "p", "text": "\"When one team finds a better way to protect a system, others shouldn't have to start from scratch,\" OpenAI co-founder and president Greg Brockman told SiliconANGLE.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Who can use it: any developer, security researcher or Linux infrastructure operator, for free, according to OpenAI.",
-      "Since when: available as of November 23, 2026.",
-      "What it costs: nothing. The code is licensed under BSD 2-Clause, and the eBPF programs under a dual BSD/GPL license, OpenAI said.",
-      "How to try it: OpenAI published a VM quickstart guide and a hands-on lab built with Isovalent; a technical webinar on the project is scheduled for December 15.",
-      "Who is affected: teams running production Linux systems, such as databases and web services, according to OpenAI."
-    ]},
-    {"type": "p", "text": "According to SiliconANGLE, Shirudo is the first project to come out of a broader infrastructure-security partnership between the two companies. The code is on GitHub, and OpenAI and Cisco are inviting developers and security researchers to contribute new shields and improvements.", "items": []},
-    {"type": "p", "text": "The release lands as AI-generated exploits move faster than the traditional patch cycle most enterprises still rely on, a gap that has pushed several large software and cloud vendors to experiment with kernel-level, machine-speed defenses over the past year.", "items": []}
+    {
+      "type": "p",
+      "text": "OpenAI and Cisco launched Shirudo on Monday, an open-source runtime that shields running Linux systems from an exploit while security teams prepare a permanent fix, according to an OpenAI announcement corroborated by SiliconANGLE and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The name is Japanese for \"shield.\" It targets a familiar problem in infrastructure security: building and rolling out a patch can take days or weeks, and taking a vulnerable service offline in the meantime is not always possible without hurting the business that depends on it, OpenAI said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Shirudo relies on eBPF, a Linux technology that lets small, verified programs run inside the operating system itself without a reboot. Using it, the tool watches a service's behavior and applies a temporary barrier, called a \"shield,\" that blocks only the specific action an attacker is exploiting while legitimate traffic keeps flowing, according to OpenAI and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechRadar notes that security flaws fall into two broad categories: \"zero-day\" bugs, unknown to the vendor until they are exploited, and \"n-day\" bugs, already known but still unpatched. Shirudo is built for that second group, offering a temporary safeguard while the permanent patch is still being prepared.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a controlled test, the two companies used Codex, OpenAI's coding agent, to automatically generate a shield against a vulnerability dubbed Java4Shell in a live Elasticsearch service. The shield blocked the exploit attempt without the service needing a restart, according to OpenAI and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Every shield Shirudo creates is cryptographically signed and checked by Linux's own eBPF verifier before it loads, and the system logs that check in a hardware component called a Trusted Platform Module (TPM), so a security team can later prove what was blocked and when, OpenAI said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The companies say the project exists because AI-driven attacks can now find and exploit flaws within seconds, making traditional manual defense too slow, Cisco's security engineering lead, Thomas Graf, told SiliconANGLE. \"There is nothing more important than giving security teams the tools they need to match the speed of the AI-driven threats they are facing,\" Cisco chief product officer Jeetu Patel told SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to SiliconANGLE, Graf said the average time to exploitation has already turned negative: a growing share of vulnerabilities are now attacked before they are even publicly disclosed, which makes waiting weeks for a traditional patch untenable.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The two companies' longer-term goal, per SiliconANGLE, is to rebuild IT infrastructure with security built in from the start: systems that can automatically roll back to a known-good state after an attack and that use reinforcement-learning techniques to test their own defenses against unknown threats.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"When one team finds a better way to protect a system, others shouldn't have to start from scratch,\" OpenAI co-founder and president Greg Brockman told SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: any developer, security researcher or Linux infrastructure operator, for free, according to OpenAI.",
+        "Since when: available as of November 23, 2026.",
+        "What it costs: nothing. The code is licensed under BSD 2-Clause, and the eBPF programs under a dual BSD/GPL license, OpenAI said.",
+        "How to try it: OpenAI published a VM quickstart guide and a hands-on lab built with Isovalent; a technical webinar on the project is scheduled for December 15.",
+        "Who is affected: teams running production Linux systems, such as databases and web services, according to OpenAI."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "According to SiliconANGLE, Shirudo is the first project to come out of a broader infrastructure-security partnership between the two companies. The code is on GitHub, and OpenAI and Cisco are inviting developers and security researchers to contribute new shields and improvements.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The release lands as AI-generated exploits move faster than the traditional patch cycle most enterprises still rely on, a gap that has pushed several large software and cloud vendors to experiment with kernel-level, machine-speed defenses over the past year.",
+      "items": []
+    }
   ],
   "image": {
     "query": "linux server security shield data center",
-    "alt": "Data center server racks representing Linux system protection"
+    "alt": "Data center server racks representing Linux system protection",
+    "path": "/assets/img/openai-cisco-launch-shirudo-linux-shield-adf98d74.jpg",
+    "credit": "Zulfugar Karimov / Unsplash",
+    "author": "Zulfugar Karimov",
+    "author_url": "https://unsplash.com/@zulfugarkarimov?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-security-and-privacy-dashboard-with-its-status--nBClEqKKVM"
   },
   "sources": [
-    {"name": "OpenAI", "owner": "openai", "url": "https://openai.com/index/introducing-shirudo", "title": "OpenAI and Cisco introduce Shirudo"},
-    {"name": "SiliconANGLE", "owner": "siliconangle", "url": "https://siliconangle.com/2026/11/23/cisco-and-openai-launch-shirudo-an-open-source-infrastructure-shield-to-protect-against-ai-driven-cyberattacks/", "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks"},
-    {"name": "TechRadar", "owner": "future-plc", "url": "https://www.techradar.com/pro/security/openai-and-cisco-team-up-to-stop-ai-generated-security-threats-before-they-get-too-big", "title": "OpenAI and Cisco team up to stop AI-generated security threats before they get too big"}
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "title": "OpenAI and Cisco introduce Shirudo"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/23/cisco-and-openai-launch-shirudo-an-open-source-infrastructure-shield-to-protect-against-ai-driven-cyberattacks/",
+      "title": "Cisco and OpenAI launch Shirudo open-source infrastructure shield to prevent AI-driven cyberattacks"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/security/openai-and-cisco-team-up-to-stop-ai-generated-security-threats-before-they-get-too-big",
+      "title": "OpenAI and Cisco team up to stop AI-generated security threats before they get too big"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-25T10:48:59+00:00",
+  "updated_at": "2026-11-25T10:48:59+00:00"
 }
