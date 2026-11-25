@@ -1,0 +1,102 @@
+{
+  "slug": "openai-e-cisco-lancam-shirudo-seguranca-linux",
+  "lang": "pt",
+  "date": "25 nov 2026",
+  "no": 157,
+  "category": "Aplicações",
+  "kicker": "Aplicações · OpenAI",
+  "headline": "OpenAI e Cisco lançam Shirudo para proteger servidores Linux",
+  "headline_hl": "Shirudo",
+  "dek": "Segundo a OpenAI, a ferramenta de código aberto bloqueia ataques sem reiniciar o sistema.",
+  "image": {
+    "path": "assets/img/openai-e-cisco-lancam-shirudo-seguranca--adf98d74.jpg",
+    "credit": "Zulfugar Karimov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "SHIRUDO<br>LINUX",
+  "sources": [
+    "OpenAI",
+    "SiliconANGLE",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que foi lançado",
+    "body": [
+      "OpenAI e Cisco lançaram o Shirudo, programa de código aberto que protege servidores Linux (OpenAI, SiliconANGLE, TechRadar).",
+      "O nome vem do japonês e significa escudo, segundo a OpenAI."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "Segundo a OpenAI, a ferramenta usa uma tecnologia do Linux chamada eBPF.",
+    "points": [
+      {
+        "h": "eBPF",
+        "t": "Roda pequenos programas no sistema sem reiniciar (OpenAI)."
+      },
+      {
+        "h": "Escudo",
+        "t": "Bloqueia só a ação explorada pelo ataque (TechRadar)."
+      },
+      {
+        "h": "Assinatura",
+        "t": "Cada escudo é assinado e verificado antes de carregar (OpenAI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "Corrigir uma falha pode levar dias ou semanas, diz a OpenAI.",
+      "A Cisco afirma que ataques guiados por IA já exploram falhas em segundos (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "Sem reiniciar",
+      "cap": "o escudo vale até o patch final (OpenAI)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Teste",
+        "t": "O Codex criou um escudo para uma falha no Elasticsearch (OpenAI)."
+      },
+      {
+        "h": "Código",
+        "t": "O projeto está no GitHub e aceita contribuições (SiliconANGLE)."
+      },
+      {
+        "h": "Parceria",
+        "t": "É o primeiro projeto de uma parceria maior (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI e a Cisco lançam o Shirudo para proteger servidores Linux.",
+    "body": [
+      "Segundo a OpenAI, o Shirudo é um programa de código aberto que protege servidores Linux enquanto a equipe prepara o patch definitivo de uma falha. Ele usa o eBPF, tecnologia do Linux que roda pequenos programas no sistema sem reiniciá-lo, para aplicar um escudo que bloqueia só a ação explorada pelo ataque (OpenAI, TechRadar).",
+      "Em um teste, o Codex criou um escudo para uma falha em um serviço Elasticsearch em funcionamento, e o ataque foi bloqueado sem reinício (OpenAI, SiliconANGLE). Cada escudo é assinado e verificado antes de carregar. O código está no GitHub, e as empresas pedem contribuições."
+    ],
+    "cta_variant": "A",
+    "cta": "Escudos criados por IA são o futuro da defesa de servidores?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#cisco",
+      "#ciberseguranca"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre o Shirudo da OpenAI e da Cisco",
+    "Slide 2: o que foi lançado para servidores Linux",
+    "Slide 3: como o eBPF cria o escudo",
+    "Slide 4: proteção sem reiniciar até o patch final",
+    "Slide 5: teste com o Codex e código aberto",
+    "Slide 6: fontes OpenAI, SiliconANGLE e TechRadar"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "openai-cisco-launch-shirudo-linux-shield",
+  "lang": "en",
+  "date": "25 Nov 2026",
+  "no": 154,
+  "category": "Applications",
+  "kicker": "Applications · OpenAI",
+  "headline": "OpenAI and Cisco launch Shirudo to shield Linux servers",
+  "headline_hl": "Shirudo",
+  "dek": "According to OpenAI, the open-source tool blocks attacks without restarting the system.",
+  "image": {
+    "path": "assets/img/openai-cisco-launch-shirudo-linux-shield-adf98d74.jpg",
+    "credit": "Zulfugar Karimov / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "SHIRUDO<br>LINUX",
+  "sources": [
+    "OpenAI",
+    "SiliconANGLE",
+    "TechRadar"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What was launched",
+    "body": [
+      "OpenAI and Cisco launched Shirudo, an open-source program that protects Linux servers (OpenAI, SiliconANGLE, TechRadar).",
+      "The name comes from Japanese and means shield, according to OpenAI."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "According to OpenAI, the tool uses a Linux technology called eBPF.",
+    "points": [
+      {
+        "h": "eBPF",
+        "t": "Runs small programs in the system without a restart (OpenAI)."
+      },
+      {
+        "h": "Shield",
+        "t": "Blocks only the action the attack exploits (TechRadar)."
+      },
+      {
+        "h": "Signing",
+        "t": "Each shield is signed and verified before loading (OpenAI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "Patching a flaw can take days or weeks, OpenAI says.",
+      "Cisco says AI-driven attacks already exploit flaws in seconds (SiliconANGLE)."
+    ],
+    "stat": {
+      "big": "No restart",
+      "cap": "the shield holds until the final patch (OpenAI)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Test",
+        "t": "Codex built a shield for an Elasticsearch flaw (OpenAI)."
+      },
+      {
+        "h": "Code",
+        "t": "The project is on GitHub and open to contributions (SiliconANGLE)."
+      },
+      {
+        "h": "Alliance",
+        "t": "It is the first project of a wider partnership (SiliconANGLE)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI and Cisco launch Shirudo to shield Linux servers.",
+    "body": [
+      "According to OpenAI, Shirudo is an open-source program that protects Linux servers while the team prepares the final patch for a flaw. It uses eBPF, a Linux technology that runs small programs in the system without a restart, to apply a shield that blocks only the action the attack exploits (OpenAI, TechRadar).",
+      "In a test, Codex built a shield for a flaw in a live Elasticsearch service, and the attack was blocked with no restart (OpenAI, SiliconANGLE). Each shield is signed and verified before loading. The code is on GitHub, and the companies invite contributions."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#cisco",
+      "#cybersecurity"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on Shirudo from OpenAI and Cisco",
+    "Slide 2: what was launched for Linux servers",
+    "Slide 3: how eBPF builds the shield",
+    "Slide 4: protection with no restart until the final patch",
+    "Slide 5: Codex test and open-source code",
+    "Slide 6: sources OpenAI, SiliconANGLE and TechRadar"
+  ]
+}

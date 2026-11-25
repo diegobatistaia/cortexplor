@@ -1,0 +1,11 @@
+OpenAI and Cisco launch Shirudo to shield Linux servers.
+
+According to OpenAI, Shirudo is an open-source program that protects Linux servers while the team prepares the final patch for a flaw. It uses eBPF, a Linux technology that runs small programs in the system without a restart, to apply a shield that blocks only the action the attack exploits (OpenAI, TechRadar).
+
+In a test, Codex built a shield for a flaw in a live Elasticsearch service, and the attack was blocked with no restart (OpenAI, SiliconANGLE). Each shield is signed and verified before loading. The code is on GitHub, and the companies invite contributions.
+
+Save it for later and send it to someone following AI.
+
+Full story: link in bio.
+
+#cortexplor #openai #cisco #cybersecurity
