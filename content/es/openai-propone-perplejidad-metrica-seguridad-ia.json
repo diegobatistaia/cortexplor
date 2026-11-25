@@ -1,0 +1,72 @@
+{
+  "lang": "es",
+  "slug": "openai-propone-perplejidad-metrica-seguridad-ia",
+  "story_id": "99f249bfb5699c91",
+  "title": "OpenAI propone la perplejidad como métrica de seguridad",
+  "dek": "El científico jefe Jakub Pachocki defiende la métrica como estándar de la industria, y la empresa publicó por primera vez su propia trayectoria de perplejidad desde GPT-3.5, según OpenAI.",
+  "meta_description": "OpenAI propone la perplejidad como métrica común para comparar modelos de IA y fijar estándares de seguridad, y publica sus propios datos, según la empresa.",
+  "keyword": "perplejidad OpenAI métrica",
+  "category": "modelos",
+  "tags": ["ia", "openai", "preentrenamiento", "seguridad-ia", "modelos"],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI propone la perplejidad —métrica que mide cuánto se equivoca un modelo de lenguaje al predecir la siguiente palabra de un texto— como estándar común de la industria para comparar el avance de distintas empresas de inteligencia artificial y para fijar reglas de seguridad compartidas. La propuesta aparece en una publicación del sitio oficial de la empresa, firmada por Jakub Pachocki, científico jefe de OpenAI.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según Pachocki, construir un modelo de IA sigue tres pasos: ensamblar una computadora de gran escala, preentrenar en ella un \"compresor\" —un sistema que aprende a predecir el siguiente fragmento de texto a partir de una enorme cantidad de datos— y solo después aplicar técnicas como el ajuste fino (finetuning) o el aprendizaje por refuerzo para extraer capacidades específicas. La perplejidad mide qué tan bien salió ese segundo paso: cuanto menor el valor, mejor predice el modelo el siguiente \"token\", la unidad mínima de texto que procesa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Como primer paso de esa propuesta, OpenAI reveló, en una publicación fechada el 22 de noviembre, su propia trayectoria de perplejidad —medida en la escala logarítmica que usa internamente— desde GPT-3.5. Según la empresa, GPT-3.5 registró una log-perplejidad de alrededor de 0,99 en su conjunto de evaluación actual y fue la base del ChatGPT original, pensado para la conversación fluida. GPT-4, con cerca de 0,91, pasó a usar de forma productiva el razonamiento en cadena (chain-of-thought, técnica en la que el modelo expone pasos intermedios antes de responder), avance que, según Pachocki, motivó la creación de los modelos de razonamiento actuales.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa reconoce que divulgar estas cifras da a sus competidores una visión más clara de su posición, pero afirma que ese riesgo pesa menos que la urgencia de construir una base científica compartida para medir el ritmo de avance de la IA en toda la industria.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según OpenAI, los valores de log-perplejidad por debajo de 0,8 han coincidido con la aparición de capacidades en áreas como ciberseguridad y matemáticas. La empresa dice que, al llegar a un modelo con log-perplejidad de alrededor de 0,76, comenzó a obtener soluciones inéditas a problemas matemáticos sin resolver que venía planteando a sus modelos, como método de evaluación, desde hacía más de un año. Pachocki dice esperar nuevos saltos de capacidad cuando los modelos alcancen el rango de 0,68 a 0,70 de log-perplejidad, posiblemente ya en 2027, aunque se trata de una proyección de la propia empresa, no de un plazo confirmado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "En el texto, Pachocki también aborda la idea de que la propia IA contribuya a su desarrollo. La separa de un escenario de \"autosuperación recursiva completa\" —automatización total del proceso, sin supervisión humana—, que dice que debe evitarse para mantener el control humano sobre la tecnología. La versión más acotada, modelos que ayudan en la investigación sobre la propia etapa de preentrenamiento, la considera plausible: según Pachocki, los modelos de OpenAI vienen siendo puestos a prueba desde hace más de un año con problemas matemáticos antiguos y sin resolver, y empezaron a resolverlos después de que la log-perplejidad superó la marca de 0,76.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué se publicó: la trayectoria interna de perplejidad de OpenAI desde GPT-3.5, en una publicación de la empresa fechada el 22 de noviembre.",
+        "Por qué ahora: según Pachocki, para proponer la perplejidad como métrica común entre empresas de IA y fijar estándares de seguridad conjuntos.",
+        "Datos divulgados por la empresa: log-perplejidad de alrededor de 0,99 en GPT-3.5, de alrededor de 0,91 en GPT-4, por debajo de 0,8 asociada a capacidades en ciberseguridad y matemáticas, y de alrededor de 0,76 asociada a resultados inéditos en matemáticas.",
+        "A quién afecta: a investigadores y otras empresas de IA, a quienes OpenAI invita a adoptar la misma métrica para comparar modelos y para estándares de seguridad conjuntos."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract data line graph technology blue",
+    "alt": "Gráfico abstracto de líneas que representa datos y métricas de rendimiento"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "title": "Perplexity and Intelligence"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "draft"
+}
