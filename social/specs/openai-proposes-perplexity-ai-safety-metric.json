@@ -1,0 +1,100 @@
+{
+  "slug": "openai-proposes-perplexity-ai-safety-metric",
+  "lang": "en",
+  "date": "25 Nov 2026",
+  "no": 155,
+  "category": "Models",
+  "kicker": "Models · OpenAI",
+  "headline": "OpenAI proposes perplexity as an AI safety metric",
+  "headline_hl": "perplexity",
+  "dek": "According to OpenAI itself, its chief scientist wants an industry standard and shares the models' trajectory.",
+  "image": {
+    "path": "assets/img/openai-proposes-perplexity-ai-safety-met-9259e696.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "OPENAI<br>PERPLEXITY",
+  "sources": [
+    "OpenAI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The proposal",
+    "body": [
+      "OpenAI wants perplexity to become an industry standard for comparing AI progress across companies (OpenAI).",
+      "The post is signed by Jakub Pachocki, the company's chief scientist (OpenAI)."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "What the metric measures",
+    "body": "According to the company, it measures how often a model misses the next chunk of text.",
+    "points": [
+      {
+        "h": "Lower",
+        "t": "The lower the value, the better the model predicts text (OpenAI)."
+      },
+      {
+        "h": "Stage",
+        "t": "It scores pretraining, before any finetuning (OpenAI)."
+      },
+      {
+        "h": "Data",
+        "t": "OpenAI published its trajectory since GPT-3.5 (OpenAI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "What the company says",
+    "body": [
+      "Scores below 0.8 coincided with new capabilities in cybersecurity and math (OpenAI).",
+      "At about 0.76, a model began solving new math problems, the company says."
+    ],
+    "stat": {
+      "big": "0.76",
+      "cap": "log-perplexity with math breakthroughs (OpenAI)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Forecast",
+        "t": "New jumps may come at 0.68 to 0.70, maybe in 2027 (OpenAI)."
+      },
+      {
+        "h": "Risk",
+        "t": "The company admits sharing numbers helps rivals (OpenAI)."
+      },
+      {
+        "h": "Control",
+        "t": "Pachocki says full self-improvement should be avoided (OpenAI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "OpenAI proposes perplexity as an AI safety metric.",
+    "body": [
+      "According to OpenAI itself, chief scientist Jakub Pachocki wants perplexity, which measures how well a model predicts the next chunk of text, to become a shared industry standard for comparing progress and informing safety rules (OpenAI). The company published its trajectory going back to GPT-3.5.",
+      "The company says log-perplexity scores below 0.8 coincided with new capabilities in cybersecurity and math, and the forecast of new jumps at 0.68 to 0.70, maybe in 2027, is its own projection (OpenAI). It admits sharing the numbers helps rivals, but says a shared scientific basis matters more."
+    ],
+    "cta_variant": "A",
+    "cta": "Should AI labs be required to publish metrics like perplexity?",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#perplexity",
+      "#aisafety"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on OpenAI's perplexity proposal",
+    "Slide 2: the proposal for an industry standard",
+    "Slide 3: what perplexity measures",
+    "Slide 4: 0.76 log-perplexity and math breakthroughs",
+    "Slide 5: forecasts and risks according to OpenAI",
+    "Slide 6: source OpenAI"
+  ]
+}

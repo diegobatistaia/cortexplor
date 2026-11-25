@@ -1,0 +1,100 @@
+{
+  "slug": "openai-perplexidade-metrica-seguranca-ia",
+  "lang": "pt",
+  "date": "25 nov 2026",
+  "no": 158,
+  "category": "Modelos",
+  "kicker": "Modelos · OpenAI",
+  "headline": "OpenAI propõe perplexidade como métrica de IA",
+  "headline_hl": "perplexidade",
+  "dek": "Segundo a própria OpenAI, o cientista-chefe defende um padrão comum do setor e divulga a trajetória dos modelos.",
+  "image": {
+    "path": "assets/img/openai-perplexidade-metrica-seguranca-ia-9259e696.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "OPENAI<br>PERPLEXIDADE",
+  "sources": [
+    "OpenAI"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "A proposta",
+    "body": [
+      "A OpenAI defende que a perplexidade vire padrão comum do setor para comparar o progresso das empresas de IA (OpenAI).",
+      "O texto é assinado por Jakub Pachocki, cientista-chefe da empresa (OpenAI)."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O que a métrica mede",
+    "body": "Segundo a empresa, mede o quanto o modelo erra ao prever o próximo trecho.",
+    "points": [
+      {
+        "h": "Menor",
+        "t": "Quanto menor o valor, melhor o modelo prevê o texto (OpenAI)."
+      },
+      {
+        "h": "Etapa",
+        "t": "Avalia o pré-treinamento, antes de ajustes finos (OpenAI)."
+      },
+      {
+        "h": "Dados",
+        "t": "A OpenAI divulgou a trajetória desde o GPT-3.5 (OpenAI)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "O que a empresa afirma",
+    "body": [
+      "Valores abaixo de 0,8 coincidiram com novas capacidades em cibersegurança e matemática (OpenAI).",
+      "Com cerca de 0,76, o modelo passou a resolver problemas matemáticos inéditos, diz a empresa."
+    ],
+    "stat": {
+      "big": "0,76",
+      "cap": "log-perplexidade, avanço em matemática (OpenAI)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Projeção",
+        "t": "Novos saltos podem vir na faixa de 0,68 a 0,70, talvez em 2027 (OpenAI)."
+      },
+      {
+        "h": "Risco",
+        "t": "A empresa admite que revelar números ajuda concorrentes (OpenAI)."
+      },
+      {
+        "h": "Controle",
+        "t": "Pachocki diz que o autoaperfeiçoamento total deve ser evitado (OpenAI)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "A OpenAI propõe a perplexidade como métrica de segurança da IA.",
+    "body": [
+      "Segundo a própria OpenAI, o cientista-chefe Jakub Pachocki defende que a perplexidade, que mede o quanto o modelo erra ao prever o próximo trecho de texto, vire padrão comum do setor para comparar o progresso e orientar regras de segurança (OpenAI). A empresa divulgou sua trajetória desde o GPT-3.5.",
+      "Segundo a empresa, valores de log-perplexidade abaixo de 0,8 coincidiram com novas capacidades em cibersegurança e matemática, e a projeção de novos saltos na faixa de 0,68 a 0,70, talvez em 2027, é da própria OpenAI (OpenAI). A empresa admite que revelar os números ajuda concorrentes, mas diz que a base científica comum pesa mais."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#openai",
+      "#perplexidade",
+      "#segurancadaia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a proposta da OpenAI de perplexidade como métrica",
+    "Slide 2: a proposta de padrão comum do setor",
+    "Slide 3: o que a perplexidade mede",
+    "Slide 4: 0,76 de log-perplexidade e avanços em matemática",
+    "Slide 5: projeções e riscos segundo a OpenAI",
+    "Slide 6: fonte OpenAI"
+  ]
+}
