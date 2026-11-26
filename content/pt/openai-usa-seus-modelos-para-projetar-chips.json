@@ -1,0 +1,96 @@
+{
+  "lang": "pt",
+  "slug": "openai-usa-seus-modelos-para-projetar-chips",
+  "story_id": "56626c02ab45573f",
+  "title": "OpenAI usa seus modelos de IA para melhorar projeto de chips com a AMD",
+  "dek": "A empresa diz ter reduzido área de circuitos do seu chip Jalapeño e, em parceria com a AMD, melhorado métricas de desempenho de GPUs e CPUs, segundo comunicado oficial.",
+  "meta_description": "OpenAI diz usar seus modelos para projetar chips: reduziu área de circuitos do Jalapeño e, com a AMD, melhorou desempenho de GPUs, segundo comunicado oficial.",
+  "keyword": "OpenAI projeto de chips com IA",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "openai",
+    "chips",
+    "amd",
+    "modelos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A OpenAI publicou um relatório detalhando como usa os próprios modelos de linguagem para melhorar o projeto físico de chips, incluindo o Jalapeño, seu primeiro chip de inferência próprio, e um trabalho conjunto com a AMD em processadores da fabricante, segundo comunicado da empresa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, o uso começou no início de 2025, com o modelo GPT-5 o3 mini ajudando a projetar o Jalapeño. As mudanças propostas pelo modelo reduziram em cerca de 13% a área de células padrão na unidade vetorial do chip e em 10% na unidade de matriz, dois blocos responsáveis por tarefas de computação paralela e por operações aritméticas, respectivamente. A empresa afirma que essas otimizações foram comprovadas em silício durante a fabricação do Jalapeño, ou seja, testadas no chip físico já produzido, não só em simulação.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "O que o modelo faz, segundo a OpenAI",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A OpenAI diz que o modelo reescreve o código que descreve o comportamento dos circuitos, conhecido como RTL (SystemVerilog), e usa ferramentas da Synopsys para verificar se cada reescrita preserva o funcionamento do bloco e para medir o equilíbrio entre energia, desempenho e área do chip — métrica que a indústria chama de PPA. Na parceria com a AMD, a empresa afirma ter obtido ganhos de até 14% nessas métricas em relação a bases já otimizadas, na GPU principal da fabricante.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, a AMD já incluiu parte das mudanças em um projeto recente enviado para fabricação e adicionou outras aos arquivos de produção de versões futuras. A empresa também afirma que a AMD verificou ganhos de um dígito percentual em PPA em blocos-chave de sua próxima CPU principal, usando projetos de circuito escritos pelo modelo da OpenAI.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como a OpenAI mediu a evolução entre gerações de modelo",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Para comparar gerações sucessivas de modelos na tarefa de projetar chips, a OpenAI testou cada versão em dois núcleos de processador abertos baseados na arquitetura RISC-V: o PicoRV32, voltado a chips reprogramáveis, e o Ibex, usado no chip de segurança open source OpenTitan. Com um orçamento comparável de cerca de 112 mil tokens por execução, o GPT-6.2 Astra teve a maior pontuação média nos dois núcleos na tarefa de otimizar um projeto já existente, e o GPT-6.1 Sol superou o GPT-5.6 Sol nos dois núcleos também, segundo a empresa. A OpenAI lançou o GPT-6.2 Astra para assinantes pagos em 18 de novembro, como o Cortexplor já noticiou.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A avaliação completa reuniu 9.881 execuções pontuadas, cobrindo duas tarefas — otimizar um núcleo existente e projetar um núcleo a partir de requisitos escritos —, os dois núcleos de teste e diferentes orçamentos de token, segundo a OpenAI. A empresa também afirma ter firmado parceria com a Synopsys para integrar seus modelos diretamente às ferramentas de automação de projeto eletrônico (EDA) que engenheiros de chips já usam no dia a dia.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem usa: por ora, o uso é interno da OpenAI (no projeto do Jalapeño) e da AMD (em parceria), além de engenheiros de chips que usam ferramentas de EDA da Synopsys integradas aos modelos da OpenAI, segundo a empresa.",
+        "Desde quando: o uso de modelos no projeto do Jalapeño começou no início de 2025; a OpenAI diz que o Jalapeño já passou pela fase de fabricação e verificação em silício.",
+        "O que muda entre gerações: segundo a OpenAI, o GPT-6.2 Astra, lançado em 18 de novembro, teve o melhor desempenho em tarefas de projeto de chip entre os modelos testados, superando o GPT-5.6 Sol e outras versões anteriores.",
+        "Quem é afetado: fabricantes de chips como a AMD, que a OpenAI diz já ter incorporado mudanças sugeridas pelo modelo a projetos de produção, e engenheiros que usam as ferramentas de EDA da Synopsys."
+      ]
+    }
+  ],
+  "image": {
+    "query": "semiconductor chip design circuit board macro",
+    "alt": "Close-up de um chip semicondutor, ilustrando o uso de modelos de IA no projeto de circuitos",
+    "path": "/assets/img/openai-usa-seus-modelos-para-projetar-ch-ed5777ed.jpg",
+    "credit": "Umberto / Unsplash",
+    "author": "Umberto",
+    "author_url": "https://unsplash.com/@umby?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/blue-circuit-board-jXd2FSvcRr8"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "title": "Advancing chip design with OpenAI models"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-22T21:47:43+00:00",
+  "updated_at": "2026-11-22T21:47:43+00:00"
+}

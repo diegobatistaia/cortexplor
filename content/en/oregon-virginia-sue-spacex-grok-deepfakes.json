@@ -1,0 +1,120 @@
+{
+  "lang": "en",
+  "slug": "oregon-virginia-sue-spacex-grok-deepfakes",
+  "story_id": "7a7aa605847bf668",
+  "title": "Oregon and Virginia sue SpaceX over Grok deepfake images",
+  "dek": "Both states accuse Elon Musk's company of letting Grok generate nonconsensual sexual deepfakes, including of minors.",
+  "meta_description": "Oregon and Virginia are suing SpaceX over sexual deepfakes generated with Grok and shared on X, alleging the company ignored safeguards, per CNBC and The Verge.",
+  "keyword": "Grok deepfakes lawsuit",
+  "category": "politica",
+  "tags": [
+    "ai",
+    "grok",
+    "spacex",
+    "policy"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Oregon and Virginia sued SpaceX on Monday, accusing the company of letting its Grok image generator and X platform be used to create and spread nonconsensual sexual deepfakes, according to CNBC and The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The two separate state-court complaints allege SpaceX failed to put basic safeguards in place around Grok Imagine, the tool's image and video generator. Both outlets reported that the cited material includes nonconsensual sexualized images of adults and alleged child sexual abuse material.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Virginia Attorney General Jay Jones described Grok's weak safeguards as \"not a failure but a feature,\" per The Verge. Oregon Attorney General Dan Rayfield wrote that the conduct \"erodes important norms regarding consent and privacy,\" according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC reported that both Rayfield and Jones said in their complaints that the harm caused by nonconsensual sexual images extends beyond the people depicted. \"This content can cause fear, distress, and anxiety in those who are unwillingly exposed to the content,\" Jones wrote.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "How the images got made",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "xAI, Grok's creator — since merged into SpaceX — launched a \"spicy\" mode for Grok Imagine in August 2025 that produced sexualized content, including celebrity deepfakes, The Verge reported. In January 2026, Grok added a feature letting any X user edit someone else's photo without the original poster's consent, which the outlet said flooded the platform with sexual deepfakes of both adults and minors.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "xAI later restricted some of those features, moving parts of the tool behind a paywall and blocking certain requests for sexual poses or swimwear. The Verge's own testing after those changes found they did little to stop the generation of sexual deepfakes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both suits rely on state consumer-protection law — Virginia's Consumer Protection Act and Oregon's Unlawful Trade Practices Act — and accuse SpaceX of marketing Grok and X as safe while, the complaints say, knowing about the problem. Jones and Rayfield are seeking financial damages, CNBC reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In a statement emailed to CNBC and posted on X's @Safety account, SpaceX said it takes \"appropriate measures, including actioning accounts and notifying law enforcement,\" when someone tries to break its safeguards, and called attempts to create such material \"a serious crime.\"",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The X Safety team gave The Verge a more detailed response, saying people who used Grok Imagine to generate the material \"did so by deliberately violating\" the platform's terms of service and \"working aggressively to circumvent\" its safeguards. The team said it \"acted promptly to tighten\" those protections once it found the gaps and that it runs classifiers that screen every prompt before an image is generated.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "At an NYC Council hearing in October, SpaceX AI policy lead Gabriela Castillo Madrid said the company already had \"appropriate safeguards\" and \"strict controls\" in its AI products — the same assurance the two lawsuits now dispute, according to CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The two state cases run alongside private US lawsuits over AI-generated sexual images, which are still in early stages and are being tracked by the Center for Internet Technology Addiction, CNBC reported. When the city of Baltimore sued xAI over a similar case, the company argued in its defense that Section 230 shielded it from liability for user-generated images.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who is affected: X and Grok Imagine users — the platform allows access to teens as young as 13, per CNBC.",
+        "What changes: two state attorneys general have filed formal lawsuits against SpaceX seeking financial damages, according to CNBC and The Verge.",
+        "Since when: both complaints were filed on Monday, November 23, 2026.",
+        "Legal backdrop: SpaceX already faced other Grok- and X-related lawsuits and government probes, including in the UK, Spain, Ireland, France and California, CNBC reported. The city of Baltimore separately sued xAI, with the company invoking Section 230, the US federal law that largely shields platforms from liability for user-posted content."
+      ]
+    }
+  ],
+  "image": {
+    "query": "lawsuit gavel technology company courthouse",
+    "alt": "A judge's gavel on a courtroom desk, representing a lawsuit against a tech company",
+    "path": "/assets/img/oregon-virginia-sue-spacex-grok-deepfake-bc9388d5.jpg",
+    "credit": "Sasun Bughdaryan / Unsplash",
+    "author": "Sasun Bughdaryan",
+    "author_url": "https://unsplash.com/@sasun1990?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/judges-gavel-and-open-book-on-table-ozS0tPf8QT0"
+  },
+  "sources": [
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "title": "Oregon and Virginia sue SpaceX over Grok, X deepfake claims"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "title": "Oregon and Virginia sue SpaceX over Grok's porn deepfakes"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-24T10:49:18+00:00",
+  "updated_at": "2026-11-24T10:49:18+00:00"
+}

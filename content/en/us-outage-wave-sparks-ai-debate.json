@@ -1,0 +1,105 @@
+{
+  "lang": "en",
+  "slug": "us-outage-wave-sparks-ai-debate",
+  "story_id": "0d83b6d0635bf850",
+  "title": "String of US Outages Reignites Debate Over AI's Role",
+  "dek": "Microsoft, the FAA, banks and Apple Pay all failed within days of each other; officials deny an attack, but experts disagree on AI's role.",
+  "meta_description": "A wave of outages at Microsoft, the FAA, banks and Apple Pay has split experts over whether AI is to blame for the failures, per TechCrunch and Wired.",
+  "keyword": "US tech outages AI",
+  "category": "politica",
+  "tags": [
+    "ai",
+    "security",
+    "infrastructure",
+    "policy"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A string of outages hit some of the United States' largest systems in November — Microsoft's Outlook, Teams and Copilot went down, the Federal Aviation Administration grounded flights nationwide, banking platforms suffered instability, and Apple Pay stopped working — according to TechCrunch and Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both outlets cite U.S. officials denying any link between the incidents or to cyberattacks. President Donald Trump called the episodes \"individual events,\" TechCrunch reports. Secretary of State Marco Rubio said the country is \"not under attack,\" according to Wired. The affected companies also said the failures had technical causes, not hacking, both outlets report.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The cluster of failures in a short period split experts interviewed by TechCrunch over what role artificial intelligence is playing. Dave DeWalt, an investor and former McAfee CEO who also served on the Department of Homeland Security's cybersecurity advisory council, told the outlet the outages are \"growing pains of a security system that's getting stronger, not weaker\" — in his view, AI tools are surfacing long-standing vulnerabilities faster than ever, pushing companies to rush fixes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Anusha Iyer, founder of security startup Corsha, told TechCrunch the problem isn't AI adoption itself, but the rushed merging of legacy systems with modern technology without adequate risk controls. She said preliminary findings on the FAA outage point to a telecommunications infrastructure modernization that overwhelmed legacy hardware unable to keep pace with the new systems' capacity.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Iyer told TechCrunch these industrial systems \"were never designed to be connected, let alone securely connected,\" at the pace companies are now pushing them to integrate with modern tools. Her proposed fix is tighter segmentation and more access control, so new technology is phased in gradually with risk managed at each step rather than all at once.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The U.S. director of National Intelligence also ruled out any link between the episodes and state-sponsored terrorism, TechCrunch reports. The outlet notes the initial suspicion made some sense: weeks earlier, hackers had attacked internet-connected refrigerators at a grocery store and a blood bank in France, feeding fears of a coordinated assault on critical infrastructure.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"These disruptions should serve as a wake-up call. It feels like every day brings another reminder that AI is moving faster than our ability to manage its consequences,\" Senator Mark Warner, vice chair of the Senate Intelligence Committee, wrote on social media, according to Wired.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch notes the outages come just weeks after cybersecurity's so-called \"Black October,\" when a string of unrelated incidents hit projects including PHP, Node.js and LiteLLM on October 21. The outlet says there is no evidence tying that earlier wave to the more recent string of outages, but the timing has fed the same unease among security professionals about how fast new vulnerabilities are surfacing across widely used software and infrastructure.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "DeWalt said he would rather see U.S. companies find and patch their own flaws this messily than have bad actors exploit them first. He expects a rise in startups focused on autonomous vulnerability management, safe patch testing and resilience for critical infrastructure systems — but investigations into the exact cause of each individual failure, Wired reports, remain ongoing.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Outages hit Microsoft (Outlook, Teams and Copilot), the FAA, banking platforms and Apple Pay within days of each other in November, according to TechCrunch and Wired.",
+        "U.S. officials, including President Trump and Secretary of State Marco Rubio, deny any link between the incidents or to cyberattacks.",
+        "Experts interviewed by TechCrunch disagree on AI's role: one blames the speed at which AI exposes old flaws; another blames the rushed mixing of legacy and modern systems without proper risk management.",
+        "Cortexplor previously reported that a Microsoft network failure took Outlook and Copilot offline for more than 24 hours earlier in November — <a href=\"https://cortexplor.com/en/microsoft-outage-takes-down-copilot/\">read more here</a>."
+      ]
+    }
+  ],
+  "image": {
+    "query": "server error warning screen technology",
+    "alt": "Computer screen displaying an error message on a corporate system",
+    "path": "/assets/img/us-outage-wave-sparks-ai-debate-d0cfff17.jpg",
+    "credit": "Egor Komarov / Unsplash",
+    "author": "Egor Komarov",
+    "author_url": "https://unsplash.com/@egorkomarov?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/abstract-digital-art-with-glitch-effects-and-text-F6RNOgXyPtM"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "title": "These tech outages are giving Y2K, AI agent style"
+    },
+    {
+      "name": "Wired",
+      "owner": "conde-nast",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+      "title": "What's With All These Outages?"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-21T10:51:09+00:00",
+  "updated_at": "2026-11-21T10:51:09+00:00"
+}

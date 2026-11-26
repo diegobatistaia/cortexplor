@@ -1,0 +1,86 @@
+{
+  "lang": "pt",
+  "slug": "openai-perplexidade-metrica-seguranca-ia",
+  "story_id": "99f249bfb5699c91",
+  "title": "OpenAI propõe perplexidade como métrica de segurança da IA",
+  "dek": "Em comunicado assinado pelo cientista-chefe Jakub Pachocki, a empresa defende a métrica como padrão comum do setor e divulga, por iniciativa própria, a trajetória de seus modelos desde o GPT-3.5.",
+  "meta_description": "A OpenAI propõe a perplexidade como métrica comum para comparar modelos de IA e orientar padrões de segurança do setor, segundo comunicado da empresa.",
+  "keyword": "perplexidade openai",
+  "category": "modelos",
+  "tags": [
+    "ia",
+    "openai",
+    "pretreinamento",
+    "seguranca-ia",
+    "modelos"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A OpenAI defende que a perplexidade — métrica que mede o quanto um modelo de linguagem erra ao prever a próxima palavra de um texto — se torne um padrão comum do setor para comparar o progresso de diferentes empresas de inteligência artificial e para orientar regras de segurança compartilhadas. A proposta está em um texto publicado no site oficial da empresa, assinado por Jakub Pachocki, cientista-chefe da OpenAI.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo Pachocki, o desenvolvimento de um modelo de IA segue três etapas: montar um computador de grande escala, treinar nele um \"compressor\" — um sistema que aprende a prever o próximo trecho de texto a partir de uma quantidade enorme de dados — e só então aplicar técnicas como ajuste fino (finetuning) ou aprendizado por reforço para extrair habilidades específicas desse sistema. A perplexidade mede o desempenho dessa segunda etapa: quanto menor o valor, melhor o modelo prevê o próximo \"token\", a menor unidade de texto que ele processa.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Como primeiro passo da proposta, a OpenAI divulgou, em comunicado datado de 22 de novembro, sua própria trajetória de perplexidade — medida na escala logarítmica que a empresa usa internamente — desde o GPT-3.5. Segundo a empresa, o GPT-3.5 registrava log-perplexidade de aproximadamente 0,99 no conjunto de teste atual e foi a base do ChatGPT original, voltado à conversação fluente. Já o GPT-4, com cerca de 0,91, passou a usar de forma produtiva o raciocínio em cadeia (chain-of-thought, técnica em que o modelo expõe passos intermediários antes de responder) — avanço que, segundo Pachocki, motivou a criação dos modelos de raciocínio atuais.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa reconhece, no texto, que divulgar esses números dá a concorrentes uma visão mais clara de sua posição no mercado, mas diz que esse risco pesa menos que a urgência de construir uma base científica comum para medir o ritmo de avanço da IA em toda a indústria.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a OpenAI, valores de log-perplexidade abaixo de 0,8 passaram a coincidir com o surgimento de capacidades em áreas como cibersegurança e matemática. A empresa afirma que, ao atingir um modelo com log-perplexidade de cerca de 0,76, começou a obter soluções inéditas para problemas matemáticos até então sem resposta — problemas que vinha propondo a seus modelos, como forma de avaliação, há mais de um ano. Pachocki diz esperar novos saltos de capacidade quando os modelos atingirem a faixa de 0,68 a 0,70 de log-perplexidade, possivelmente já em 2027, mas trata essa data como projeção da própria empresa, não como prazo confirmado.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "No texto, Pachocki também trata da ideia de a própria IA contribuir para seu desenvolvimento. Ele separa isso de um cenário de \"autoaperfeiçoamento recursivo completo\" — automação total do processo, sem supervisão humana —, que diz ser algo a evitar para manter controle humano sobre a tecnologia. Já a ideia mais restrita, de modelos ajudando na pesquisa sobre a própria etapa de pré-treinamento, ele considera plausível: segundo Pachocki, modelos da OpenAI vêm sendo testados há mais de um ano com problemas matemáticos antigos e sem solução, e passaram a resolvê-los depois que a log-perplexidade cruzou a marca de 0,76.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O que foi publicado: a trajetória interna de perplexidade da OpenAI desde o GPT-3.5, em comunicado da empresa datado de 22 de novembro.",
+        "Por que agora: segundo Pachocki, para propor a perplexidade como métrica comum entre empresas de IA e para orientar padrões de segurança compartilhados no setor.",
+        "Dados divulgados pela empresa: log-perplexidade de cerca de 0,99 no GPT-3.5, de cerca de 0,91 no GPT-4, abaixo de 0,8 associada a capacidades em cibersegurança e matemática, e de cerca de 0,76 associada a resultados inéditos em problemas matemáticos.",
+        "Quem é afetado: pesquisadores e outras empresas de IA, que a OpenAI convida a adotar a mesma métrica para comparar modelos e para padrões de segurança conjuntos."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract data line graph technology blue",
+    "alt": "Gráfico abstrato de linhas representando dados e métricas de desempenho",
+    "path": "/assets/img/openai-perplexidade-metrica-seguranca-ia-9259e696.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "title": "Perplexity and Intelligence"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-25T15:47:15+00:00",
+  "updated_at": "2026-11-25T15:47:15+00:00"
+}

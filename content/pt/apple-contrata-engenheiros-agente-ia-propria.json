@@ -1,0 +1,111 @@
+{
+  "lang": "pt",
+  "slug": "apple-contrata-engenheiros-agente-ia-propria",
+  "story_id": "67326ea66be2ef6d",
+  "title": "Apple contrata engenheiros para criar agente de IA próprio",
+  "dek": "Vaga removida descrevia um assistente capaz de operar o computador inteiro, segundo a Bloomberg, citada pela TechCrunch e pelo The Verge.",
+  "meta_description": "A Apple publicou e depois removeu uma vaga para liderar um agente de IA que opera o computador por conta própria, segundo a Bloomberg, TechCrunch e The Verge.",
+  "keyword": "agente de IA da Apple",
+  "category": "aplicacoes",
+  "tags": [
+    "ia",
+    "apple",
+    "agentes-de-ia",
+    "siri"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "A Apple publicou uma vaga de emprego, depois removida do site, para um cargo de engenharia responsável por liderar a criação de um agente de inteligência artificial capaz de operar um computador por conta própria. A informação é da Bloomberg, citada pela TechCrunch e pelo The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo a TechCrunch, o anúncio descrevia um sistema que navega na internet, atua dentro de outros aplicativos, executa comandos, escreve e corrige código e aciona serviços externos, escolhendo a ferramenta certa em cada etapa. O The Verge teve acesso ao mesmo texto e descreveu o agente em termos parecidos: navegação na web, uso de apps e chamadas a serviços.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O cargo responderia a equipes da Siri, da área de interfaces (UI Frameworks) e da Apple Foundation Models, de acordo com o The Verge — sinal de que o projeto está ligado diretamente à assistente da empresa, não a um produto separado.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Disputa por agentes que controlam o computador",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A iniciativa colocaria a Apple numa corrida que já tem concorrentes rodando. Meta, Google, OpenAI e Anthropic já lançaram serviços de agentes capazes de assumir tarefas em um computador, segundo a TechCrunch. O The Verge detalha que o Muse (Meta), o ChatGPT (OpenAI) e o Perplexity já conseguem assumir o controle de um computador por meio de seus aplicativos para Mac.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A própria Apple deu um passo nessa direção em setembro, quando atualizou a Siri para responder perguntas sobre o que aparece na tela e executar ações entre aplicativos, segundo o The Verge. O cargo anunciado ampliaria esse alcance para o controle direto do sistema operacional — o mesmo caminho que o Google seguiu neste mês, quando o Gemini para Mac ganhou a função que opera outros programas, como o Cortexplor noticiou.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Enquanto planeja seu próprio agente, a Apple está restringindo o acesso de agentes de terceiros aos computadores com macOS. A partir da versão 27.3 do sistema, alertas vão dificultar que aplicativos externos peçam acesso total ao disco, segundo a TechCrunch. Em outubro, a empresa avisou desenvolvedores que passaria a exigir uma ação explícita do usuário para conceder esse nível de acesso, de acordo com a reportagem.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O The Verge registra que a vaga foi retirada do site da Apple depois da publicação da reportagem original. A Bloomberg apurou, segundo a TechCrunch, que a empresa chegou a cogitar lançar o agente até o fim do próximo ano, mas que o projeto ainda está em estágio inicial.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o The Verge, a atualização do sistema iOS 27.3 também vai deixar desenvolvedores integrarem a IA da Siri a \"todos os aplicativos\", recurso que começa a circular numa versão de testes para desenvolvedores (Developer Preview) e deve chegar depois a mais apps. A Bloomberg apurado pelo The Verge diz ainda que a Apple avalia dar à Siri a capacidade de girar e recortar fotos ou organizar abas do Safari sozinha.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A TechCrunch observa que agentes capazes de operar um computador se tornaram um dos produtos mais disputados da indústria de tecnologia no último ano, e associa o movimento da Apple à chamada \"era John Ternus\", nome que a reportagem usa para descrever a atual liderança da área de IA da empresa. A TechCrunch diz ainda ter procurado a Apple para comentar a vaga e não ter recebido resposta.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Quem pode usar: ninguém por enquanto — não existe produto lançado, apenas um projeto interno em estágio inicial, segundo a Bloomberg, citada pela TechCrunch.",
+        "Desde quando: sem data confirmada; a Bloomberg menciona o fim de 2027 como horizonte possível, de acordo com a TechCrunch.",
+        "Quanto custa: não informado em nenhuma das fontes.",
+        "O que muda: a Siri já responde perguntas sobre a tela e age entre apps desde setembro, segundo o The Verge; o novo agente ampliaria isso para o controle do computador inteiro, como o Gemini já faz no Mac desde este mês.",
+        "Quem é afetado: usuários de Mac e iPhone com Siri, e desenvolvedores que lidam com as novas restrições de acesso de agentes de terceiros no macOS 27.3."
+      ]
+    }
+  ],
+  "image": {
+    "query": "Apple store logo technology",
+    "alt": "Logotipo da Apple na fachada de uma loja da empresa",
+    "path": "/assets/img/apple-contrata-engenheiros-agente-ia-pro-e1c0d416.jpg",
+    "credit": "Bangyu Wang / Unsplash",
+    "author": "Bangyu Wang",
+    "author_url": "https://unsplash.com/@bangyuwang?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/grayscale-photo-of-hanging-heart-shaped-pendant-lamp-omoCm0bvNW4"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "title": "Apple may be developing its own AI agent that runs your Mac"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Apple is hiring engineers to build its own AI agent"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-21T15:47:12+00:00",
+  "updated_at": "2026-11-21T15:47:12+00:00"
+}

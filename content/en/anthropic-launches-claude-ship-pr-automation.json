@@ -1,0 +1,124 @@
+{
+  "lang": "en",
+  "slug": "anthropic-launches-claude-ship-pr-automation",
+  "story_id": "52f3d87d57084be4",
+  "title": "Anthropic launches Claude Ship to fix and approve pull requests",
+  "dek": "New PR Steward and Claude Approvals agents fix pull requests and can clear routine changes without a human in the loop.",
+  "meta_description": "Anthropic launched Claude Ship, with agents that fix pull requests and approve routine changes without a human, according to TechCrunch and The Verge.",
+  "keyword": "claude ship",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "software development",
+    "coding tools"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic launched Claude Ship on Monday, a set of AI agents that reviews, fixes, and can approve pull requests without a person stepping in at every stage, according to TechCrunch and The Verge.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The product bundles three pieces. Code Review, which flags problems in code, has existed since March and became generally available in October. The two new pieces rolling out in this beta are PR Steward and Claude Approvals, according to TechCrunch, The Verge, and ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "PR Steward jumps in when a continuous integration check fails, when a merge conflict appears, or when feedback arrives from Code Review, other review tools, or teammates. It fixes the issue and leaves comments explaining what it changed and how to roll the change back, the same three outlets report.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Claude Approvals goes a step further: it can approve routine changes on its own, within a policy each team sets in a file in its repository. The decision weighs signals such as Code Review findings or a team's own classifiers, written in natural language, according to TechCrunch, The Verge, and ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "\"Most teams want a person to approve every change, and that's easy to keep up with when people write every line. But a lot of developers build with agents now,\" Anthropic said in a blog post quoted by TechCrunch and ZDNet. The company says its own Claude Code team already uses the AI to write most of the code it ships, per TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The launch lands as AI coding tools already generate large volumes of code, pushing the bottleneck further down the pipeline, into review and approval, TechRadar notes. Claude Ship is Anthropic's attempt to automate that later stage of the software development process, extending its reach beyond writing code into deciding when that code is actually ready to go live in production.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "ZDNet senior contributing editor David Gewirtz told the outlet that the idea of shipping code at the pace it's written \"raises the hair on the back of my neck,\" but added the tool could work well for teams already built around agents, depending on each team's workflow.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Code Review runs at three levels of depth — Quick, Standard, and Deep — and each team decides which repositories run Claude Ship and which changes still require a person to sign off, according to TechCrunch and TechRadar.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Gewirtz also flagged a trade-off: fixing failing CI checks and merge conflicts is often junior developers' job, and handing that work to an agent could cut off one of the ways those engineers build the experience needed to grow into senior roles, he told ZDNet.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Claude Ship follows Code Review, the feature that first let Claude comment on pull requests without fixing or approving them. With PR Steward and Claude Approvals, Anthropic is extending that same review layer into the steps that come right after it, fixing problems and clearing some changes on its own.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it and where: teams on Claude Team and Enterprise plans, for repositories hosted on GitHub, according to TechCrunch, The Verge, and ZDNet.",
+        "Since when: PR Steward and Claude Approvals have been in beta since November 23, 2026; Code Review, which already existed, was announced in March and became generally available in October, according to The Verge and TechCrunch.",
+        "What changes from before: until now, Code Review only flagged problems in a pull request. Now PR Steward fixes failing CI checks and merge conflicts, and Claude Approvals can clear a change without waiting on a person, the same outlets report.",
+        "Anthropic's own recommendation: turn on Claude Approvals first in observe-only mode, before requiring its sign-off as a branch protection rule, according to ZDNet and TechRadar.",
+        "Who is affected: development teams that today review and approve pull requests by hand can now hand off part of that stage to AI agents, while keeping the final call under the team's own control, according to TechCrunch and ZDNet."
+      ]
+    }
+  ],
+  "image": {
+    "query": "software developer reviewing code on computer screen",
+    "alt": "Computer screen showing an automated review of a pull request",
+    "path": "/assets/img/anthropic-launches-claude-ship-pr-automa-244f921c.jpg",
+    "credit": "Jakub Żerdzicki / Unsplash",
+    "author": "Jakub Żerdzicki",
+    "author_url": "https://unsplash.com/@jakubzerdzicki?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/computer-screen-displaying-lines-of-code-n3ba57RKVNs"
+  },
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes"
+    },
+    {
+      "name": "The Verge",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "title": "Claude AI can review pull requests and ship fixes on its own now"
+    },
+    {
+      "name": "ZDNet",
+      "owner": "ziff-davis",
+      "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+      "title": "Claude can ship code for you now – how to try it (if you dare)"
+    },
+    {
+      "name": "TechRadar",
+      "owner": "future-plc",
+      "url": "https://www.techradar.com/pro/good-news-for-ai-coders-anthropics-claude-ship-is-now-able-to-review-pull-requests-and-even-ship-code-fixes-all-on-its-own",
+      "title": "Good news for AI coders — Anthropic's Claude Ship is now able to review pull requests and even ship code fixes all on its own"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-24T21:47:27+00:00",
+  "updated_at": "2026-11-24T21:47:27+00:00"
+}

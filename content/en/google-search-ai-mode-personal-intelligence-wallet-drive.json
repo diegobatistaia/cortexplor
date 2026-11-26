@@ -1,0 +1,121 @@
+{
+  "lang": "en",
+  "slug": "google-search-ai-mode-personal-intelligence-wallet-drive",
+  "story_id": "d7e1b025f2b3e250",
+  "title": "Google links Wallet and Drive to Search personalization",
+  "dek": "Google's Personal Intelligence feature in AI Mode now draws on digital wallet and document data for answers.",
+  "meta_description": "Google is connecting Wallet, Drive and the Gemini app to Search's Personal Intelligence feature in AI Mode, expanding the feature, per Google and TechCrunch.",
+  "keyword": "Google Search Personal Intelligence",
+  "category": "aplicacoes",
+  "tags": [
+    "ai",
+    "google",
+    "search",
+    "gemini"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Google has started connecting Google Wallet, Google Drive and the Gemini app to Personal Intelligence, the personalization feature inside Search's AI Mode, the company announced Monday, according to its own post and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Personal Intelligence pulls data from other Google apps to tailor Search answers. Until now, it only connected to Gmail, Calendar and Google Photos, Google said.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Wallet connection started rolling out on Monday, while Drive and Gemini app support arrive \"in the coming weeks,\" per Google. The feature is opt-in: users must turn on each app individually under Search Personalization, in the Connected Apps section, and can disconnect at any time.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Robby Stein, VP of Product for Google Search, said in the announcement that connecting apps like Wallet and Drive lets Search base its answers on the user's own documents, spending habits and recent activity, without needing to repeat context in every new search.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "What each connected app does",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "With Wallet connected, Google said AI Mode can use spending history to help users track financial goals, cut everyday costs and make better use of credit card rewards. The company said that in this case the AI can only read account information — it cannot move or manage money.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "With Drive connected, Search can draw on a user's documents and spreadsheets to build more specific answers, such as pulling together files scattered across a project or a major financial decision like tax season, according to TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Gemini app integration works as a bridge: a search started in the Gemini app can continue in Search's AI Mode without the user repeating context, and the reverse also works, both sources reported, letting people move between the two tools without losing their place.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "In the same announcement, Google said it will add a \"Personalization\" icon below AI Mode answers so users can see which personal context was used for that specific response — a feature coming soon, with no release date given. The company also said AI Overviews and AI Mode responses in general will increasingly draw on a user's recent search history.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google's own post gives an example of fixing personalization on the fly: if AI Mode relies on outdated information in an answer, a user can simply say so in the same thread — such as \"I'm no longer a vegetarian\" — and the next response will reflect the change immediately, without restarting the search from scratch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Google also gave an example of the feature's broader reach beyond connected apps: someone researching and planning a trip can pick it back up in a new search thread without repeating earlier queries, since AI Mode keeps the context from recent search history.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch notes that, since most users already rely on services like Gmail, Drive and Wallet daily, Google can draw on a volume of personal data that rival search engines don't have access to for this kind of personalization, giving it an edge competitors may struggle to match.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Who can use it: any Search AI Mode user who opts in under Search Personalization, according to Google.",
+        "Since when: the Wallet connection began rolling out on Monday, November 23, 2026; Drive and the Gemini app follow in the coming weeks, with no exact date set.",
+        "Cost: Google is not charging separately for the feature, which is built into Search.",
+        "What changes: Personal Intelligence previously used only Gmail, Calendar and Photos; it now adds a digital wallet, documents and Gemini app history, per Google's announcement.",
+        "Wallet specifics: AI Mode can only read account data, not move or manage money, and uses it for financial goals, spending and credit card rewards, according to Google."
+      ]
+    }
+  ],
+  "image": {
+    "query": "google search app personalization smartphone screen",
+    "alt": "Smartphone screen showing the Google Search app with artificial intelligence features",
+    "path": "/assets/img/google-search-ai-mode-personal-intellige-feee1d97.jpg",
+    "credit": "Solen Feyissa / Unsplash",
+    "author": "Solen Feyissa",
+    "author_url": "https://unsplash.com/@solenfeyissa?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/smartphone-displaying-google-search-engine-UWVJaDvXW_c"
+  },
+  "sources": [
+    {
+      "name": "Google AI",
+      "owner": "alphabet",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "title": "A more tailored Google Search that's uniquely yours"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "title": "Google Search's AI Mode can now tap into Drive and Wallet for more personalized responses"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-24T10:49:17+00:00",
+  "updated_at": "2026-11-24T10:49:17+00:00"
+}

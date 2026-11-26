@@ -1,0 +1,91 @@
+{
+  "lang": "en",
+  "slug": "openai-proposes-perplexity-ai-safety-metric",
+  "story_id": "99f249bfb5699c91",
+  "title": "OpenAI Proposes Perplexity as an AI Safety Metric",
+  "dek": "Chief scientist Jakub Pachocki argues the metric should become an industry standard, and the company published its own perplexity trajectory since GPT-3.5 for the first time, according to OpenAI.",
+  "meta_description": "OpenAI proposes perplexity as a shared metric to compare AI models and inform safety standards, and discloses its own training data, the company says.",
+  "keyword": "OpenAI perplexity metric",
+  "category": "modelos",
+  "tags": [
+    "ai",
+    "openai",
+    "pretraining",
+    "ai-safety",
+    "models"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI is proposing perplexity — a metric that measures how well a language model predicts the next word in a text — as a shared standard for comparing progress across AI developers and informing industry-wide safety rules. The proposal appears in a post published on OpenAI's official site and signed by Jakub Pachocki, the company's chief scientist.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to Pachocki, building an AI model follows three broad steps: assembling a large computer, pretraining a \"compressor\" on it — a system that learns to predict the next chunk of text from a massive amount of data — and only then applying techniques such as finetuning or reinforcement learning to draw out specific capabilities. Perplexity measures how well that middle step went: the lower the number, the better the model predicts the next token, the smallest unit of text it processes.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As a first step toward that proposal, OpenAI disclosed, in a post dated November 22, its own perplexity trajectory — measured on the logarithmic scale it uses internally — going back to GPT-3.5. According to the company, GPT-3.5 scored a log-perplexity of about 0.99 on its current evaluation set and formed the basis of the original ChatGPT, built for fluent conversation. GPT-4, at roughly 0.91, became capable of productively using chain-of-thought reasoning — working through intermediate steps before answering — which Pachocki says motivated the reasoning models that followed.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The company acknowledges that publishing the numbers gives competitors a clearer view of where it stands, but says that risk is outweighed by the urgency of building a shared scientific basis to track the pace of AI progress across the industry.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "OpenAI says log-perplexity scores below 0.8 have coincided with the emergence of capabilities in fields such as cybersecurity and mathematics. The company says that once a model reached a log-perplexity of about 0.76, it began producing new solutions to long-standing open math problems it had been posing to its models as an evaluation method for more than a year. Pachocki says he expects further capability jumps once models reach the 0.68-to-0.70 log-perplexity range, possibly as soon as 2027 — a projection from the company, not a confirmed timeline.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Pachocki also addresses the idea of AI contributing to its own development. He separates that from what he calls \"full recursive self-improvement\" — the entire process automated with no human oversight — which he says should be avoided to keep human control over the technology. A narrower version, AI assisting with research into the pretraining step itself, he considers plausible: according to Pachocki, OpenAI's models have been tested for more than a year against old, unsolved math problems, and began solving them once log-perplexity crossed the 0.76 mark.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Pachocki says he also expects AI to meaningfully speed up progress on alignment and monitoring, the work of keeping models safe and predictable as they grow more capable. Even so, he says he doubts that progress will move fast enough to match the acceleration he expects in pretraining research itself. He frames a shared, measurable benchmark like perplexity as a way to keep track of that pace across the industry while the gap between the two areas persists.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What was published: OpenAI's internal perplexity trajectory since GPT-3.5, in a company post dated November 22.",
+        "Why now: according to Pachocki, to propose perplexity as a shared metric across AI companies and to inform joint safety standards.",
+        "Data the company disclosed: log-perplexity of about 0.99 for GPT-3.5, about 0.91 for GPT-4, below 0.8 tied to cybersecurity and math capabilities, and about 0.76 tied to new math results.",
+        "Who is affected: researchers and other AI companies, which OpenAI is inviting to adopt the same metric for comparing models and for joint safety standards."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract data line graph technology blue",
+    "alt": "Abstract line chart representing data and performance metrics",
+    "path": "/assets/img/openai-proposes-perplexity-ai-safety-met-9259e696.jpg",
+    "credit": "Conny Schneider / Unsplash",
+    "author": "Conny Schneider",
+    "author_url": "https://unsplash.com/@choys_?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI"
+  },
+  "sources": [
+    {
+      "name": "OpenAI",
+      "owner": "openai",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "title": "Perplexity and Intelligence"
+    }
+  ],
+  "fonte_unica": "anuncio_oficial",
+  "status": "published",
+  "published_at": "2026-11-25T15:47:16+00:00",
+  "updated_at": "2026-11-25T15:47:16+00:00"
+}
