@@ -1,0 +1,102 @@
+{
+  "slug": "fcc-approves-spacex-million-ai-satellites",
+  "lang": "en",
+  "date": "26 Nov 2026",
+  "no": 157,
+  "category": "Market",
+  "kicker": "Market · SpaceX",
+  "headline": "FCC approves up to 1 million AI satellites for SpaceX",
+  "headline_hl": "1 million",
+  "dek": "According to CNBC, The Verge and SiliconANGLE, the Starmind constellation would be orbital data centers.",
+  "image": {
+    "path": "assets/img/fcc-approves-spacex-million-ai-satellite-bb3b77fe.jpg",
+    "credit": "Brecht Corbeel / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "STARMIND<br>FCC",
+  "sources": [
+    "CNBC Technology",
+    "The Verge AI",
+    "SiliconANGLE"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The approval",
+    "body": [
+      "The FCC authorized SpaceX to launch up to 1 million satellites with AI chips (CNBC Technology, The Verge AI, SiliconANGLE).",
+      "The constellation is called Starmind and is described as orbital data centers."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it would work",
+    "body": "According to SpaceX, power would come from the Sun.",
+    "points": [
+      {
+        "h": "Power",
+        "t": "Captures solar energy in space for AI tasks (The Verge AI)."
+      },
+      {
+        "h": "Data",
+        "t": "Lasers tied to Starlink send data to Earth (The Verge AI)."
+      },
+      {
+        "h": "Bands",
+        "t": "Six altitude bands, according to SiliconANGLE."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Who objected",
+    "body": [
+      "Amazon, Viasat and astronomers sought to block it, and the FCC rejected them (CNBC Technology, SiliconANGLE).",
+      "The agency says environmental and astronomy concerns fall outside its remit (CNBC Technology)."
+    ],
+    "stat": {
+      "big": "1 million",
+      "cap": "satellites authorized (CNBC Technology)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Deadlines",
+        "t": "The full 1 million is due by 2040 (The Verge AI)."
+      },
+      {
+        "h": "License",
+        "t": "Missing a deadline voids the license, SiliconANGLE says."
+      },
+      {
+        "h": "Rivals",
+        "t": "Google and Blue Origin also eye space (CNBC Technology)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "The FCC approved up to 1 million AI satellites for SpaceX.",
+    "body": [
+      "The FCC authorized SpaceX to launch up to 1 million satellites with AI chips, according to CNBC, The Verge and SiliconANGLE. SpaceX describes the Starmind constellation as solar-powered data centers in orbit, with data sent to Earth by lasers tied to Starlink (The Verge AI).",
+      "Amazon, Viasat and astronomers tried to block the project, and the FCC rejected the petitions (CNBC Technology, SiliconANGLE). According to SiliconANGLE, missing any deadline voids the license, and the full 1 million is due by 2040. Google has already launched AI chips to space on a SpaceX rocket (CNBC Technology)."
+    ],
+    "cta_variant": "A",
+    "cta": "Are data centers in orbit a smart answer to AI's energy needs?",
+    "hashtags": [
+      "#cortexplor",
+      "#spacex",
+      "#starmind",
+      "#datacenters"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover on the FCC approving 1 million SpaceX AI satellites",
+    "Slide 2: the approval of the Starmind constellation",
+    "Slide 3: how orbital data centers would work",
+    "Slide 4: 1 million satellites and who objected",
+    "Slide 5: deadlines and rivals in the orbital race",
+    "Slide 6: sources CNBC Technology, The Verge AI and SiliconANGLE"
+  ]
+}
