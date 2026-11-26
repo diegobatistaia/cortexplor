@@ -1,0 +1,120 @@
+{
+  "lang": "en",
+  "slug": "fcc-approves-spacex-million-ai-satellites",
+  "story_id": "12a8ee74ed3b2b97",
+  "title": "FCC clears SpaceX to launch up to 1 million AI satellites",
+  "dek": "The Starmind constellation is the first full approval of its kind in the US, with SpaceX describing the satellites as solar-powered data centers in orbit.",
+  "meta_description": "The FCC authorized SpaceX to launch up to 1 million AI satellites in orbit, the first approval of its kind in the US, according to CNBC and SiliconANGLE.",
+  "keyword": "SpaceX AI satellites",
+  "category": "mercado",
+  "tags": [
+    "ai",
+    "spacex",
+    "satellites",
+    "infrastructure",
+    "market"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "The US Federal Communications Commission has authorized SpaceX to launch up to 1 million satellites equipped with artificial intelligence chips, according to an announcement from FCC Chairman Brendan Carr confirmed by CNBC, The Verge and SiliconANGLE. The constellation, named Starmind, is described by SpaceX as a network of data centers in orbit.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "According to SiliconANGLE, the FCC itself called the decision \"the first authorization in U.S. history for a constellation of data centers in space.\" SpaceX first applied for the system in January, shortly before the Elon Musk-led company acquired artificial intelligence firm xAI, the same outlet reports.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Solar power and laser links to Earth",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The Verge reports that SpaceX describes Starmind as a way to capture solar energy in space and use it to run AI workloads, with data transmitted to Earth through high-speed lasers connected to the Starlink network. Carr wrote on X that the constellation will use solar power to \"extend America's lead\" in AI, according to CNBC. Musk replied on the same post: \"Much appreciated. This will be a great asset to America and the world,\" as cited by both CNBC and SiliconANGLE.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Deployment deadlines stretch to 2040",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SpaceX must have its first Starmind satellite in operation by November 25, 2033, according to SiliconANGLE, which also reports a schedule of 100,000 satellites by 2035, 500,000 by 2038 and the full 1 million by 2040 — missing any of those deadlines would void the license. The Verge confirms the same milestones of at least one satellite by 2033 and the full 1 million by 2040.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "SiliconANGLE adds that the satellites will sit in six orbital shells between 500 and 1,002 kilometers, below the 2,000-kilometer ceiling in SpaceX's original application, with most communications running over optical links to other satellites, including those in the Starlink network.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Amazon, Viasat and astronomers tried to block the plan",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Both CNBC and SiliconANGLE confirm that the FCC received and rejected petitions to deny the application from Amazon's Kuiper Systems satellite unit, Viasat and the American Astronomical Society. In a March filing cited by both outlets, Amazon described SpaceX's plan as \"a lofty ambition rather than a real plan\" that would take the company \"centuries\" to build. Amazon declined to comment on the FCC's approval, per CNBC.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The agency said it dismissed objections tied to environmental concerns and the impact on optical astronomy as falling outside its regulatory authority, according to CNBC. SiliconANGLE adds that SpaceX's orbital debris plan was approved only for satellites below 600 kilometers; for the four satellite shells above that line, the company must file a final disposal plan before launching.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "A race to put data centers in orbit",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "CNBC and The Verge both confirm that Google already launched its first AI chips into space in October as part of its Project Suncatcher. The same outlets cite Blue Origin's March filing with the FCC seeking approval for up to 51,600 satellites under a plan called Project Sunrise.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "The FCC authorized SpaceX to launch up to 1 million AI satellites as part of the Starmind constellation, which the agency calls the first authorization of its kind in the US.",
+        "The first satellite must be operational by November 25, 2033; the full 1-million milestone is due by 2040, according to SiliconANGLE and The Verge.",
+        "SpaceX still needs to file a final debris-disposal plan for satellites operating above 600 kilometers before launching them.",
+        "Amazon, Viasat and the American Astronomical Society tried to block the application at the FCC and had their objections rejected.",
+        "Google already launched AI chips into space in October under Project Suncatcher, and Blue Origin asked the FCC in March for approval of up to 51,600 satellites under Project Sunrise."
+      ]
+    }
+  ],
+  "image": {
+    "query": "satellite constellation orbit data center space",
+    "alt": "Illustration of satellites orbiting Earth forming a communications constellation"
+  },
+  "sources": [
+    {
+      "name": "CNBC Technology",
+      "owner": "nbcuniversal",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "title": "SpaceX wins FCC approval to deploy 1 million artificial intelligence computing satellites"
+    },
+    {
+      "name": "The Verge AI",
+      "owner": "vox-media",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "title": "FCC signs off on SpaceX's plan to put up to 1 million data center satellites into space"
+    },
+    {
+      "name": "SiliconANGLE",
+      "owner": "siliconangle",
+      "url": "https://siliconangle.com/2026/11/25/fcc-clears-spacex-to-put-up-to-1-million-starmind-data-centers-in-space/",
+      "title": "FCC clears SpaceX to put up to 1 million Starmind data centers in space"
+    }
+  ],
+  "status": "draft"
+}
