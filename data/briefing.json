@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:04:32+00:00",
+  "generated_at": "2026-11-27T19:30:20+00:00",
   "posts_per_language_today": 3,
   "daily_cap_per_language": 4,
   "already_written_today": 1,
@@ -79,6 +79,40 @@
     160
   ],
   "stories": [
+    {
+      "story_id": "c7c6b7cddce3fc4e",
+      "title": "Los chips Blackwell de Nvidia no deberían estar en China, pero han aparecido en un centro de datos de Shanghái vinculado a Alice Huang",
+      "summary": "Al menos dos empresas chinas habrían instalado hardware de Nvidia con arquitectura Blackwell en un centro de datos de Shanghái, según documentos compartidos ante los reguladores chinos a los que ha tenido acceso Bloomberg . Según apunta el medio, el centro de datos estaría vinculado a Alice Huang, exdirectora de Megaspeed y figura central en los polémicos líos extramatrimoniales de Jensen Huang...",
+      "owners": [
+        "nzn",
+        "webedia"
+      ],
+      "primary_owners": [],
+      "fingerprints": [
+        "018c7865725ec5ca",
+        "1de4593917fcffc6"
+      ],
+      "sources": [
+        {
+          "name": "Xataka",
+          "owner": "webedia",
+          "url": "https://www.xataka.com/empresas-y-economia/chips-blackwell-nvidia-aparecen-centro-datos-shanghai-vinculado-a-alice-huang",
+          "title": "Los chips Blackwell de Nvidia no deberían estar en China, pero han aparecido en un centro de datos de Shanghái vinculado a Alice Huang",
+          "published_at": "2026-11-27T16:18:00+00:00",
+          "kind": "press",
+          "text": "Al menos dos empresas chinas habrían instalado hardware de Nvidia con arquitectura Blackwell en un centro de datos de Shanghái, según documentos compartidos ante los reguladores chinos a los que ha tenido acceso Bloomberg . Según apunta el medio, el centro de datos estaría vinculado a Alice Huang, exdirectora de Megaspeed y figura central en los polémicos líos extramatrimoniales de Jensen Huang, ahora de nuevo CEO de Nvidia . Desvío a China . Los chips Blackwell no pueden enviarse a China sin una licencia estadounidense y, hasta hace poco, eran los chips para centros de datos más potentes de Nvidia. EEUU lleva tiempo impidiendo que estos chips lleguen a China, pero como las últimas semanas han sido especialmente movidas con el lío de Jensen Huang, su confesión , dimisión y regreso a la compañía , ahora la Administración Trump se pregunta si la compañía realmente ha hecho lo suficiente para evitar que sus productos se desvíen a China. Tal y como comparten desde Bloomberg, algunos oficiales estadounidenses creen que el comercio en la sombra podría ascender a miles de millones de dólares. En detalle. Según apunta el medio, el hardware se encuentra en el Proyecto del Delta del Río Yangtsé, un recinto que los medios locales han descrito como diseñado para albergar hasta 800.000 servidores. Dos firmas declararon allí equipos basados en Blackwell: Entre líneas. Jensen Huang dijo en 2025 que los sistemas de Nvidia eran demasiado grandes para introducirlos de contrabando. Y es que tal y como comparte el medio, un GB300 NVL72 alberga 72 chips Blackwell Ultra, mide unos dos metros de alto y puede pesar más de 1.500 kilogramos. Sin embargo, este tipo de equipos suele pasar por varias manos, incluidos distribuidores locales, antes de llegar a un centro de datos, y Bloomberg señala que muchos productos introducidos de contrabando se vendieron primero de forma legítima a compradores en regiones sin restricciones. Cómo llegó este rack en particular a Shanghai Shuoyao sigue siendo una incógnita. Los documentos solo cubren el equipo ofrecido como garantía de préstamos, por lo que probablemente muestran una pequeña parte de lo que los operadores han podido instalar. Pero sugieren que algunos prestamistas chinos, incluidos algunos vinculados al Estado, sabían que estaba entrando hardware restringido en el país y estaban dispuestos a prestar dinero con él como garantía. Red de contactos . Alice Huang lideró Megaspeed entre 2023 y 2025. Durante su dirección recibió el visto bueno de Nvidia y posteriormente se convirtió en el mayor cliente del fabricante de chips en el Sudeste Asiático, tal y como comparte Bloomberg. Varios vínculos conectan su entorno con China, pues Shanghai Shuoyao está activa en el centro de datos y en unas declaraciones dijo que es uno de los proveedores de servicios de Megaspeed. El medio chino Caixin informa además de que Huang controla la matriz en Tokio de Shanghai Kezhan. De momento no hay pruebas de que la propia Megaspeed enviara hardware de Nvidia al recinto, y de hecho la compañía ha negado haber cometido irregularidades en respuesta a la investigación que se está llevando a cabo del caso. Megaspeed está arqueando muchas cejas y la Administración Trump ya la ha incluido en su lista negra comercial de EEUU, alegando un riesgo significativo de que estuviera implicada en el desvío de chips, según comparten desde Bloomberg. En Xataka | Huawei acelera su plan para diseñar chips sin depender de Occidente mientras Nvidia limita envíos en Asia"
+        },
+        {
+          "name": "Tecmundo",
+          "owner": "nzn",
+          "url": "https://www.estadao.com.br/tecmundo/big-techs/chips-de-ia-da-nvidia-aparecem-em-data-center-na-china-ligado-a-alice-huang/",
+          "title": "Chips de IA da Nvidia aparecem em data center na China ligado a Alice Huang",
+          "published_at": "2026-11-27T19:00:00+00:00",
+          "kind": "press",
+          "text": "US$ 5 BILHÕES em chips da NVIDIA desviados para a China?! O caso NVIDIA acaba de ganhar proporções ainda maiores e acendeu um alerta máximo de segurança nacional nos Estados Unidos. Crédito: Pedro Castro Um data center instalado em Xangai, na China, e ligado a empresas associadas a Alice Huang, executiva que está no centro das polêmicas envolvendo a Nvidia, utiliza chips avançados de inteligência artificial da série Blackwell, da gigante dos semicondutores, com restrições de remessa para o país asiático . A informação foi revelada pela Bloomberg nesta sexta-feira (27). Evidências da presença dos componentes, cuja exportação exige licenças especiais do governo dos Estados Unidos, foram encontradas em documentos de empréstimos solicitados pelas empresas Shanghai Shuoyao e Shanghai Kezhan. Eles estariam em uso no complexo de supercomputação Yangtze River Delta Project . Conforme a reportagem, um dos equipamentos é o rack Nvidia GB300 NVL72 , considerado um dos mais potentes da marca. Ele foi oferecido pela Shanghai Shuoyao como garantia para um empréstimo de US$ 14 milhões (R$ 77,5 milhões pela cotação atual) contratado junto ao Banco de Inovação de Xangai. Ele foi listado pela Shanghai Kezhan após a solicitação de um empréstimo equivalente a US$ 13,5 milhões (R$ 74,7 milhões). A operação ocorreu em dezembro do ano passado, por meio de uma empresa de leasing vinculada a uma agência do governo local. Não ficou claro como os equipamentos Nvidia Blackwell chegaram ao país . Como destaca a publicação, geralmente eles passam por várias mãos antes de serem instalados nos data centers, incluindo distribuidores locais, ou são inicialmente vendidos a pessoas em mercados sem restrições e levados para a China por meio de contrabando . Fundada em 2023 por Alice Huang, que teve um caso extraconjugal com o CEO da Nvidia , Jensen Huang, a Megaspeed possui parceria com a Shuoyao . Ela teria usado uma representação do Yangtze River Delta Project para mostrar aos investidores seu maior data center, conforme a publicação. Além disso, a executiva, investigada por autoridades americanas devido à suspeita de espionagem, possui ligação com várias empresas que investiram no projeto. Uma delas seria a NeXPower Japan, que detém 83,3% da Kezhan . Em meio às polêmicas sobre o caso, a Megaspeed afirmou, recentemente, que Alice deixou a empresa no ano passado. Saiba mais detalhes nesta matéria . Saiba a origem dos nomes dos planetas do sistema solar Black Friday tenta ‘driblar’ aumento de preços nos smartphones: descontos são reais? Samsung está desenvolvendo nuvem privada para recursos do Galaxy AI Amazon revela itens mais vendidos antes da Black Friday 2026; confira Apple, Samsung e Xiaomi devem cortar produção de celulares para 2027"
+        }
+      ]
+    },
     {
       "story_id": "a87834a22a421f75",
       "title": "How to build and maintain an agentic evaluation",
@@ -274,31 +308,6 @@
           "url": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/three-things-you-should-know-about-microsoft-discovery/4574970",
           "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
           "published_at": "2026-11-23T19:32:13+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "c618698a58ecd73b",
-      "title": "3 questions that can help universities turn AI experiments into results",
-      "summary": "The post 3 questions that can help universities turn AI experiments into results appeared first on Source .",
-      "owners": [
-        "microsoft"
-      ],
-      "primary_owners": [
-        "microsoft"
-      ],
-      "fingerprints": [
-        "d65823e2d1173234"
-      ],
-      "sources": [
-        {
-          "name": "Microsoft Source",
-          "owner": "microsoft",
-          "url": "https://www.microsoft.com/en-us/education/blog/2026/11/how-higher-education-leaders-can-turn-institutional-intelligence-into-impact/",
-          "title": "3 questions that can help universities turn AI experiments into results",
-          "published_at": "2026-11-23T19:37:01+00:00",
           "kind": "primary",
           "text": ""
         }
