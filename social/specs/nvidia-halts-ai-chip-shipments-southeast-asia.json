@@ -1,0 +1,101 @@
+{
+  "slug": "nvidia-halts-ai-chip-shipments-southeast-asia",
+  "lang": "en",
+  "date": "27 Nov 2026",
+  "no": 160,
+  "category": "Market",
+  "kicker": "Market · Nvidia",
+  "headline": "Nvidia halts AI chip shipments to Southeast Asia",
+  "headline_hl": "halts",
+  "dek": "According to Engadget and TechCrunch, the pause hits Malaysia, Singapore, Thailand and Indonesia.",
+  "image": {
+    "path": "assets/img/nvidia-halts-ai-chip-shipments-southeast-4317de37.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "NVIDIA<br>CHIPS",
+  "sources": [
+    "Engadget",
+    "TechCrunch AI"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "The shipment pause",
+    "body": [
+      "Nvidia paused AI server shipments to four Southeast Asian countries (Engadget, TechCrunch AI).",
+      "Partners like Dell and Supermicro told customers, and there is no end date for the pause."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "Why it stopped",
+    "body": "The company is checking whether regional partners meet US export rules.",
+    "points": [
+      {
+        "h": "Loophole",
+        "t": "Chinese firms rented cloud capacity in the region (TechCrunch AI)."
+      },
+      {
+        "h": "Rule",
+        "t": "The US Commerce Department moved to close the loophole (Engadget)."
+      },
+      {
+        "h": "Megaspeed",
+        "t": "The Singapore operator joined the US Entity List (Engadget)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "Remote data centers in the region supply a notable share of China's AI compute (TechCrunch AI).",
+      "The estimate is from Institute for Progress, not Nvidia or the US government."
+    ],
+    "stat": {
+      "big": "90 days",
+      "cap": "to apply for a license (Engadget)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Licenses",
+        "t": "Operators say there is no guidance on applying (Engadget)."
+      },
+      {
+        "h": "Timing",
+        "t": "Neither outlet says when shipments resume (Engadget, TechCrunch AI)."
+      },
+      {
+        "h": "Probe",
+        "t": "The US Justice Department is probing Megaspeed chip diversion (Engadget)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Nvidia has paused AI chip shipments to Southeast Asia, according to Engadget and TechCrunch.",
+    "body": [
+      "Malaysia, Singapore, Thailand and Indonesia are cut off from new servers carrying the company's chips, and partners like Dell and Supermicro told customers. Nvidia is checking whether regional partners meet US export rules.",
+      "The backdrop is a loophole: Chinese firms rented capacity from regional data centers to reach advanced chips remotely (TechCrunch AI). The US now gives those data centers 90 days to apply for a license (Engadget), and operators complain about the lack of guidance. There is no date for shipments to resume. The full story is at the link in bio."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#chips",
+      "#exportcontrols"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Nvidia halting AI chip shipments to Southeast Asia",
+    "Slide 2: the pause across four countries",
+    "Slide 3: the remote-access loophole and the new US rule",
+    "Slide 4: the AI compute used in China",
+    "Slide 5: licenses, timing and the probe",
+    "Slide 6: sources Engadget and TechCrunch AI"
+  ]
+}
