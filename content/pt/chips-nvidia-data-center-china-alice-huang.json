@@ -1,0 +1,111 @@
+{
+  "lang": "pt",
+  "slug": "chips-nvidia-data-center-china-alice-huang",
+  "story_id": "07608deaf51aa724",
+  "title": "Chips restritos da Nvidia aparecem em data center chinês",
+  "dek": "Documentos de empréstimo citados pela Bloomberg ligam equipamento restrito da Nvidia a um data center de Xangai associado a Alice Huang.",
+  "meta_description": "Documentos de empréstimo revisados pela Bloomberg mostram chips Blackwell da Nvidia em data center de Xangai ligado a Alice Huang, do caso Jensen Huang.",
+  "keyword": "chips Nvidia China Alice Huang",
+  "category": "politica",
+  "tags": [
+    "ia",
+    "nvidia",
+    "chips",
+    "exportacao",
+    "china"
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Documentos de empréstimo revisados pela Bloomberg mostram que um data center em Xangai, na China, ligado a redes associadas à executiva Alice Huang, abrigou chips de inteligência artificial Nvidia da série Blackwell — hardware cuja exportação ao país exige licença especial do governo dos Estados Unidos. A descoberta foi divulgada nesta sexta-feira (27) e repercutida pelo Tecmundo e pelo Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Tecmundo, a empresa Shanghai Shuoyao ofereceu um rack Nvidia GB300 NVL72 como garantia de um empréstimo de US$ 14 milhões (R$ 77,5 milhões, na cotação atual) contratado junto ao Banco de Inovação de Xangai. O Engadget, que credita a apuração à Bloomberg, confirma o mesmo valor e o mesmo equipamento: um único rack GB300 NVL72 reúne 72 GPUs Blackwell Ultra e 36 processadores Grace, e pesa cerca de 1,5 tonelada.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O equipamento estaria instalado no Yangtze River Delta Project, complexo de supercomputação em Xangai que, segundo o Engadget, pode chegar a 800 mil servidores quando concluído. O Tecmundo acrescenta que outra empresa ligada ao projeto, a Shanghai Kezhan, listou equipamento Nvidia semelhante como garantia de um empréstimo próprio, por meio de uma empresa de leasing vinculada a uma agência do governo local.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Quem é Alice Huang",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "As duas reportagens apontam Alice Huang como a figura no centro da polêmica que levou à saída temporária de Jensen Huang do comando da Nvidia em novembro. Segundo o Tecmundo, ela teve um relacionamento extraconjugal com o CEO da Nvidia. De acordo com o Engadget, ela assumiu uma participação de controle na Megaspeed, empresa de computação em nuvem de Singapura, em 2023, e deixou a companhia em agosto de 2025 — saída que a própria Megaspeed confirmou ao Tecmundo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A Shanghai Shuoyao, responsável pelo empréstimo com o rack como garantia, presta serviços à Megaspeed, segundo as duas reportagens, que descrevem a relação como limitada a cooperação comercial comum. Tecmundo e Engadget afirmam ainda que a Megaspeed usou imagens do Yangtze River Delta Project em apresentações a investidores sem informar que o data center ficava na China.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Investigação e respostas",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Departamento de Justiça dos Estados Unidos investiga se a Megaspeed violou as regras de exportação de chips de IA, segundo o Engadget; a empresa nega qualquer irregularidade. Já o Tecmundo afirma que Alice Huang é investigada por autoridades americanas sob suspeita de espionagem. Nenhuma das reportagens explica como os equipamentos Nvidia chegaram à China: ambas citam a possibilidade de revenda por distribuidores ou contrabando, e o Engadget lembra que o próprio Jensen Huang já disse que os racks GB300 são grandes demais para esse tipo de desvio. A Nvidia não respondeu ao pedido de comentário do Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Engadget, que cita a Bloomberg e o New York Times, o data center também listava como presidente um homem chamado Kang Wei, com frequência apresentado como marido de Alice Huang e apontado por essas reportagens como tendo ligações com o Ministério da Segurança do Estado da China. O Engadget acrescenta que a Bloomberg encontrou, no mesmo complexo, servidores com chips Nvidia da geração Hopper — anterior à Blackwell e igualmente proibida de exportação à China sem autorização do governo dos Estados Unidos.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Engadget, a Bloomberg rastreou o número de série de um dos racks GB300 e encontrou ligação com a taiwanesa Gigabyte Technology, parceira da Nvidia na fabricação de placas. A Gigabyte disse à Bloomberg que segue a legislação vigente em todas as operações, mas não respondeu a quem vendeu o equipamento originalmente.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "A descoberta se soma à investigação do Departamento de Justiça dos EUA sobre exportação irregular de chips de IA da Nvidia para a China, segundo o Engadget.",
+        "Jensen Huang tem depoimento marcado na Comissão Bancária do Senado dos EUA para 3 de dezembro; o caso chega ao noticiário dias antes da audiência.",
+        "A Megaspeed nega irregularidades e confirma que Alice Huang deixou a empresa em 2025, segundo o Tecmundo e o Engadget.",
+        "Nem o Tecmundo nem o Engadget confirmam como os chips restritos chegaram ao data center chinês."
+      ]
+    }
+  ],
+  "image": {
+    "query": "data center server racks technology",
+    "alt": "Fileiras de servidores em um data center, iluminados em azul",
+    "path": "/assets/img/chips-nvidia-data-center-china-alice-hua-e72659a5.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "author": "Steve A Johnson",
+    "author_url": "https://unsplash.com/@steve_j?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/rows-of-dark-cubes-with-glowing-green-lines-lTD2ka1LD68"
+  },
+  "sources": [
+    {
+      "name": "Tecmundo",
+      "owner": "nzn",
+      "url": "https://www.estadao.com.br/tecmundo/big-techs/chips-de-ia-da-nvidia-aparecem-em-data-center-na-china-ligado-a-alice-huang/",
+      "title": "Chips de IA da Nvidia aparecem em data center na China ligado a Alice Huang"
+    },
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+      "title": "Restricted Nvidia chips were installed at a Chinese data center linked to Alice Huang"
+    }
+  ],
+  "status": "published",
+  "published_at": "2026-11-27T21:47:22+00:00",
+  "updated_at": "2026-11-27T21:47:22+00:00"
+}

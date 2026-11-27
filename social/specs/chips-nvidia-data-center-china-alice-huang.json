@@ -1,0 +1,101 @@
+{
+  "slug": "chips-nvidia-data-center-china-alice-huang",
+  "lang": "pt",
+  "date": "27 nov 2026",
+  "no": 164,
+  "category": "Regulação",
+  "kicker": "Mercado · Nvidia",
+  "headline": "Chips restritos da Nvidia surgem em data center chinês",
+  "headline_hl": "restritos",
+  "dek": "Segundo a Bloomberg, citada por Tecmundo e Engadget, documentos de empréstimo ligam o hardware a Xangai.",
+  "image": {
+    "path": "assets/img/chips-nvidia-data-center-china-alice-hua-e72659a5.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "NVIDIA<br>CHINA",
+  "sources": [
+    "Tecmundo",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que os documentos mostram",
+    "body": [
+      "Um data center em Xangai abrigaria chips Blackwell, que exigem licença dos EUA para ir à China (Tecmundo, Engadget).",
+      "Um rack foi dado como garantia de empréstimo, segundo a Bloomberg citada pelo Engadget."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "O equipamento",
+    "body": "O local é o Yangtze River Delta Project, complexo de supercomputação.",
+    "points": [
+      {
+        "h": "Rack",
+        "t": "Um GB300 NVL72 reúne GPUs Blackwell Ultra e processadores Grace (Engadget)."
+      },
+      {
+        "h": "Garantia",
+        "t": "A Shanghai Shuoyao deu o rack como garantia de empréstimo (Tecmundo)."
+      },
+      {
+        "h": "Hopper",
+        "t": "A Bloomberg também achou servidores da geração Hopper no local (Engadget)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Por que importa",
+    "body": [
+      "Os EUA investigam se a Megaspeed violou regras de exportação, e a empresa nega (Engadget).",
+      "Nenhuma fonte explica como os chips chegaram à China (Tecmundo, Engadget)."
+    ],
+    "stat": {
+      "big": "US$ 14 mi",
+      "cap": "empréstimo com o rack (Tecmundo)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Senado",
+        "t": "Jensen Huang depõe no Senado dos EUA em 3 de dezembro (Engadget)."
+      },
+      {
+        "h": "Origem",
+        "t": "O número de série de um rack levou à Gigabyte (Engadget)."
+      },
+      {
+        "h": "Resposta",
+        "t": "A Nvidia não respondeu ao pedido de comentário (Engadget)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Chips Nvidia restritos aparecem em um data center na China, segundo documentos citados pela Bloomberg.",
+    "body": [
+      "Segundo o Tecmundo e o Engadget, a Shanghai Shuoyao deu um rack GB300 como garantia de um empréstimo de cerca de US$ 14 milhões. O equipamento estaria em um complexo de supercomputação em Xangai, e a Bloomberg também achou servidores da geração Hopper no local.",
+      "O Departamento de Justiça dos EUA investiga se a Megaspeed violou regras de exportação, e a empresa nega irregularidades (Engadget). Nenhuma das fontes explica como os chips chegaram à China. A Gigabyte disse seguir a legislação, e a Nvidia não comentou. O texto completo está no link da bio."
+    ],
+    "cta_variant": "B",
+    "cta": "Salve para consultar depois e envie a quem acompanha IA.",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#bloomberg",
+      "#exportacaodechips"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre chips restritos da Nvidia em data center chinês",
+    "Slide 2: o que os documentos de empréstimo mostram",
+    "Slide 3: o rack e o complexo de Xangai",
+    "Slide 4: a investigação sobre exportação de chips",
+    "Slide 5: audiência no Senado e origem do equipamento",
+    "Slide 6: fontes Tecmundo e Engadget"
+  ]
+}

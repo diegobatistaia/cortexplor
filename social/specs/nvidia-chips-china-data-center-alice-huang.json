@@ -1,0 +1,101 @@
+{
+  "slug": "nvidia-chips-china-data-center-alice-huang",
+  "lang": "en",
+  "date": "27 Nov 2026",
+  "no": 161,
+  "category": "Policy",
+  "kicker": "Market · Nvidia",
+  "headline": "Restricted Nvidia chips surface at a China data center",
+  "headline_hl": "Restricted",
+  "dek": "According to Bloomberg, cited by Engadget and Tecmundo, loan documents tie the hardware to Shanghai.",
+  "image": {
+    "path": "assets/img/nvidia-chips-china-data-center-alice-hua-e72659a5.jpg",
+    "credit": "Steve A Johnson / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "NVIDIA<br>CHINA",
+  "sources": [
+    "Tecmundo",
+    "Engadget"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What the documents show",
+    "body": [
+      "A Shanghai data center allegedly housed Blackwell chips, which need a US license to go to China (Engadget, Tecmundo).",
+      "A rack was pledged as loan collateral, per Bloomberg as cited by Engadget."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "The equipment",
+    "body": "The site is the Yangtze River Delta Project, a supercomputing complex.",
+    "points": [
+      {
+        "h": "Rack",
+        "t": "One GB300 NVL72 packs Blackwell Ultra GPUs and Grace processors (Engadget)."
+      },
+      {
+        "h": "Collateral",
+        "t": "Shanghai Shuoyao pledged the rack for a loan (Tecmundo)."
+      },
+      {
+        "h": "Hopper",
+        "t": "Bloomberg also found Hopper-generation servers on site (Engadget)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "Why it matters",
+    "body": [
+      "The US is probing whether Megaspeed broke export rules, which it denies (Engadget).",
+      "Neither outlet explains how the chips reached China (Engadget, Tecmundo)."
+    ],
+    "stat": {
+      "big": "$14 million",
+      "cap": "loan backed by the rack (Tecmundo)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Senate",
+        "t": "Jensen Huang testifies before the US Senate on December 3 (Engadget)."
+      },
+      {
+        "h": "Origin",
+        "t": "A rack serial number led to Gigabyte (Engadget)."
+      },
+      {
+        "h": "Response",
+        "t": "Nvidia did not respond to a request for comment (Engadget)."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Restricted Nvidia chips appear at a data center in China, according to documents cited by Bloomberg.",
+    "body": [
+      "According to Engadget and Tecmundo, Shanghai Shuoyao pledged a GB300 rack as collateral for a loan of about $14 million. The hardware was allegedly installed at a supercomputing complex in Shanghai, where Bloomberg also found Hopper-generation servers.",
+      "The US Justice Department is investigating whether Megaspeed violated export rules, and the company denies wrongdoing (Engadget). Neither outlet explains how the chips reached China. Gigabyte said it follows the law, and Nvidia did not comment. The full story is at the link in bio."
+    ],
+    "cta_variant": "A",
+    "cta": "Can export controls on AI chips work if the hardware moves through resellers?",
+    "hashtags": [
+      "#cortexplor",
+      "#nvidia",
+      "#bloomberg",
+      "#exportcontrols"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about restricted Nvidia chips at a China data center",
+    "Slide 2: what the loan documents show",
+    "Slide 3: the rack and the Shanghai complex",
+    "Slide 4: the export rules investigation",
+    "Slide 5: Senate hearing and equipment origin",
+    "Slide 6: sources Engadget and Tecmundo"
+  ]
+}
