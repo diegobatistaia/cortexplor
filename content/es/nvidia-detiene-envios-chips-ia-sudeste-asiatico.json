@@ -7,37 +7,117 @@
   "meta_description": "Nvidia frenó el envío de servidores con chips de IA a Malasia, Singapur, Tailandia e Indonesia, según reportes del Financial Times y el Wall Street Journal.",
   "keyword": "Nvidia Sudeste Asiático chips",
   "category": "mercado",
-  "tags": ["nvidia", "ia", "chips", "exportación", "mercado"],
+  "tags": [
+    "nvidia",
+    "ia",
+    "chips",
+    "exportación",
+    "mercado"
+  ],
   "body": [
-    {"type": "p", "text": "Nvidia suspendió el envío de servidores de inteligencia artificial a cuatro países del Sudeste Asiático —Malasia, Singapur, Tailandia e Indonesia—, según el Financial Times y el Wall Street Journal, citados respectivamente por Engadget y TechCrunch.", "items": []},
-    {"type": "p", "text": "La orden llegó a los clientes a través de socios de fabricación de la empresa, como Dell y Supermicro, que avisaron que los pedidos de servidores con chips de Nvidia no se enviarán a esos mercados durante un periodo no especificado, de acuerdo con ambas publicaciones. No está claro si la pausa es temporal.", "items": []},
-    {"type": "h2", "text": "Por qué Nvidia detuvo los envíos", "items": []},
-    {"type": "p", "text": "La empresa está evaluando si sus socios regionales cumplen las reglas de exportación de Estados Unidos, según TechCrunch. El motivo declarado tiene que ver con un vacío legal que empresas chinas de inteligencia artificial han usado: en los últimos años, alquilaron capacidad de proveedores de computación en la nube que operan centros de datos en esos cuatro países con servidores que llevan GPU de Nvidia instaladas.", "items": []},
-    {"type": "p", "text": "Ese arreglo permitía el acceso remoto a los chips más avanzados de la empresa sin comprar el hardware directamente, esquivando las restricciones que Estados Unidos impone a la venta de ese tipo de equipo a China. El Departamento de Comercio estadounidense se movió recientemente para cerrar ese vacío, según Engadget.", "items": []},
-    {"type": "p", "text": "Según la nueva regla, los centros de datos que ya suministran gran capacidad de computación a empresas de China u otros destinos cubiertos por la restricción tienen 90 días desde el 19 de noviembre para obtener una licencia si quieren seguir operando así, de acuerdo con Engadget.", "items": []},
-    {"type": "p", "text": "TechCrunch, citando al instituto de investigación Institute for Progress, informa que centros de datos remotos como estos en el Sudeste Asiático llegan a suministrar alrededor del 24% de la capacidad de computación de inteligencia artificial que usa China. La cifra es una estimación del instituto, no un dato oficial de Nvidia ni del gobierno estadounidense.", "items": []},
-    {"type": "h2", "text": "La demanda que creó el vacío legal", "items": []},
-    {"type": "p", "text": "La demanda de empresas chinas por este tipo de acceso remoto ayudó a impulsar una ola de construcción de centros de datos en el Sudeste Asiático en los últimos años, según Engadget. La publicación cita las propias cifras de Nvidia como medida de ese mercado: la subsidiaria de la empresa en Singapur registró ingresos de 104.000 millones de dólares en 2025, un aumento del 72% respecto al año anterior, según el Financial Times.", "items": []},
-    {"type": "p", "text": "La confusión en torno a la nueva regla ya afecta a operadores de la región. \"Existe esta regla nueva, pero no hay orientación sobre cómo ejecutarla. Nadie sabe cómo solicitar esta licencia mientras corre el plazo de 90 días. Está causando un caos generalizado en la región\", dijo un ejecutivo de una empresa de computación en la nube al Financial Times, según Engadget. La publicación no identificó al ejecutivo.", "items": []},
-    {"type": "p", "text": "La ofensiva también está ligada a Megaspeed, la operadora de centros de datos con sede en Singapur que el Departamento de Comercio de Estados Unidos añadió esta semana a su \"Entity List\", designación que exige una licencia estadounidense para enviarle productos controlados, según Engadget. El Departamento de Justicia de Estados Unidos investiga si Megaspeed violó las reglas de exportación al desviar chips de Nvidia hacia China.", "items": []},
-    {"type": "p", "text": "La pausa en los envíos ocurre la misma semana en que Nvidia repuso a Jensen Huang como director ejecutivo, un episodio que ya movió el ánimo del mercado en torno a la empresa en los últimos días.", "items": []},
-    {"type": "h2", "text": "En la práctica", "items": []},
-    {"type": "list", "text": "", "items": [
-      "Qué es nuevo: Nvidia detuvo el envío de servidores con sus chips de IA a Malasia, Singapur, Tailandia e Indonesia, según el Financial Times y el Wall Street Journal.",
-      "A quién afecta: a socios de fabricación como Dell y Supermicro, cuyos pedidos de clientes en esos cuatro países quedaron suspendidos, según Engadget y TechCrunch.",
-      "Por qué: Nvidia revisa si esos mercados cumplen las reglas de exportación de Estados Unidos, después de que empresas chinas empezaran a acceder a chips de forma remota a través de centros de datos de la región, según ambas publicaciones.",
-      "Plazo de la nueva regla: los centros de datos que ya atienden a clientes cubiertos por la restricción tienen hasta 90 días desde el 19 de noviembre para pedir una licencia, según Engadget.",
-      "Tamaño del mercado: la subsidiaria de Nvidia en Singapur facturó 104.000 millones de dólares en 2025, un 72% más que el año anterior, según el Financial Times, citado por Engadget.",
-      "Qué falta: ninguna de las fuentes indica cuándo terminará la pausa en los envíos."
-    ]}
+    {
+      "type": "p",
+      "text": "Nvidia suspendió el envío de servidores de inteligencia artificial a cuatro países del Sudeste Asiático —Malasia, Singapur, Tailandia e Indonesia—, según el Financial Times y el Wall Street Journal, citados respectivamente por Engadget y TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La orden llegó a los clientes a través de socios de fabricación de la empresa, como Dell y Supermicro, que avisaron que los pedidos de servidores con chips de Nvidia no se enviarán a esos mercados durante un periodo no especificado, de acuerdo con ambas publicaciones. No está claro si la pausa es temporal.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Por qué Nvidia detuvo los envíos",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La empresa está evaluando si sus socios regionales cumplen las reglas de exportación de Estados Unidos, según TechCrunch. El motivo declarado tiene que ver con un vacío legal que empresas chinas de inteligencia artificial han usado: en los últimos años, alquilaron capacidad de proveedores de computación en la nube que operan centros de datos en esos cuatro países con servidores que llevan GPU de Nvidia instaladas.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Ese arreglo permitía el acceso remoto a los chips más avanzados de la empresa sin comprar el hardware directamente, esquivando las restricciones que Estados Unidos impone a la venta de ese tipo de equipo a China. El Departamento de Comercio estadounidense se movió recientemente para cerrar ese vacío, según Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Según la nueva regla, los centros de datos que ya suministran gran capacidad de computación a empresas de China u otros destinos cubiertos por la restricción tienen 90 días desde el 19 de noviembre para obtener una licencia si quieren seguir operando así, de acuerdo con Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch, citando al instituto de investigación Institute for Progress, informa que centros de datos remotos como estos en el Sudeste Asiático llegan a suministrar alrededor del 24% de la capacidad de computación de inteligencia artificial que usa China. La cifra es una estimación del instituto, no un dato oficial de Nvidia ni del gobierno estadounidense.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "La demanda que creó el vacío legal",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La demanda de empresas chinas por este tipo de acceso remoto ayudó a impulsar una ola de construcción de centros de datos en el Sudeste Asiático en los últimos años, según Engadget. La publicación cita las propias cifras de Nvidia como medida de ese mercado: la subsidiaria de la empresa en Singapur registró ingresos de 104.000 millones de dólares en 2025, un aumento del 72% respecto al año anterior, según el Financial Times.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La confusión en torno a la nueva regla ya afecta a operadores de la región. \"Existe esta regla nueva, pero no hay orientación sobre cómo ejecutarla. Nadie sabe cómo solicitar esta licencia mientras corre el plazo de 90 días. Está causando un caos generalizado en la región\", dijo un ejecutivo de una empresa de computación en la nube al Financial Times, según Engadget. La publicación no identificó al ejecutivo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La ofensiva también está ligada a Megaspeed, la operadora de centros de datos con sede en Singapur que el Departamento de Comercio de Estados Unidos añadió esta semana a su \"Entity List\", designación que exige una licencia estadounidense para enviarle productos controlados, según Engadget. El Departamento de Justicia de Estados Unidos investiga si Megaspeed violó las reglas de exportación al desviar chips de Nvidia hacia China.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "La pausa en los envíos ocurre la misma semana en que Nvidia repuso a Jensen Huang como director ejecutivo, un episodio que ya movió el ánimo del mercado en torno a la empresa en los últimos días.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "En la práctica",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "Qué es nuevo: Nvidia detuvo el envío de servidores con sus chips de IA a Malasia, Singapur, Tailandia e Indonesia, según el Financial Times y el Wall Street Journal.",
+        "A quién afecta: a socios de fabricación como Dell y Supermicro, cuyos pedidos de clientes en esos cuatro países quedaron suspendidos, según Engadget y TechCrunch.",
+        "Por qué: Nvidia revisa si esos mercados cumplen las reglas de exportación de Estados Unidos, después de que empresas chinas empezaran a acceder a chips de forma remota a través de centros de datos de la región, según ambas publicaciones.",
+        "Plazo de la nueva regla: los centros de datos que ya atienden a clientes cubiertos por la restricción tienen hasta 90 días desde el 19 de noviembre para pedir una licencia, según Engadget.",
+        "Tamaño del mercado: la subsidiaria de Nvidia en Singapur facturó 104.000 millones de dólares en 2025, un 72% más que el año anterior, según el Financial Times, citado por Engadget.",
+        "Qué falta: ninguna de las fuentes indica cuándo terminará la pausa en los envíos."
+      ]
+    }
   ],
   "image": {
     "query": "computer server data center racks",
-    "alt": "Filas de servidores en un centro de datos con cables y luces"
+    "alt": "Filas de servidores en un centro de datos con cables y luces",
+    "path": "/assets/img/nvidia-detiene-envios-chips-ia-sudeste-a-4317de37.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "author": "Taylor Vick",
+    "author_url": "https://unsplash.com/@tvick?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs"
   },
   "sources": [
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/", "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/", "title": "Nvidia hits pause on chip shipments to Southeast Asia"}
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+      "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-27T10:47:07+00:00",
+  "updated_at": "2026-11-27T10:47:07+00:00"
 }

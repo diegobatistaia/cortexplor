@@ -7,37 +7,117 @@
   "meta_description": "Nvidia paused AI server shipments to Malaysia, Singapore, Thailand and Indonesia, according to the Financial Times and the Wall Street Journal reports.",
   "keyword": "Nvidia Southeast Asia chip shipments",
   "category": "mercado",
-  "tags": ["nvidia", "ai", "chips", "export-controls", "market"],
+  "tags": [
+    "nvidia",
+    "ai",
+    "chips",
+    "export-controls",
+    "market"
+  ],
   "body": [
-    {"type": "p", "text": "Nvidia has paused shipments of AI server hardware to four Southeast Asian countries — Malaysia, Singapore, Thailand and Indonesia — according to the Financial Times and the Wall Street Journal, cited respectively by Engadget and TechCrunch.", "items": []},
-    {"type": "p", "text": "The order reached customers through Nvidia's manufacturing partners, including Dell and Supermicro, which told clients in those markets that server orders containing Nvidia chips would not be shipped for an unspecified period, according to both outlets. It is unclear whether the pause is temporary.", "items": []},
-    {"type": "h2", "text": "Why Nvidia stopped the shipments", "items": []},
-    {"type": "p", "text": "Nvidia is assessing whether regional partners meet US export control requirements, according to TechCrunch. The stated reason involves a loophole Chinese AI companies have used: in recent years, they rented capacity from cloud compute providers running data centers in those four countries with Nvidia GPUs installed inside their servers.", "items": []},
-    {"type": "p", "text": "That arrangement let Chinese firms remotely tap Nvidia's most advanced chips without buying the hardware directly, working around US restrictions on selling that kind of equipment to China. The US Commerce Department recently moved to close the loophole, according to Engadget.", "items": []},
-    {"type": "p", "text": "Under the new rule, data centers already supplying large amounts of computing power to companies in China or other destinations covered by the restriction have 90 days from November 19 to obtain a license if they want to keep operating that way, Engadget reported.", "items": []},
-    {"type": "p", "text": "TechCrunch, citing the think tank Institute for Progress, reports that remote data centers like these in Southeast Asia supply about 24% of the AI computing power used in China. The figure is the institute's own estimate, not an official number from Nvidia or the US government.", "items": []},
-    {"type": "h2", "text": "The demand that built the loophole", "items": []},
-    {"type": "p", "text": "Demand from Chinese companies for this kind of remote access helped fuel a data center construction boom across Southeast Asia in recent years, according to Engadget. The outlet points to Nvidia's own numbers as a measure of that market: the company's Singapore subsidiary booked $104 billion in revenue in 2025, a 72% increase from the year before, according to the Financial Times.", "items": []},
-    {"type": "p", "text": "The confusion around the new rule is already hitting operators in the region. \"There's this new rule but no guidance on execution. No one knows how to apply for this license while the 90-day clock is ticking. It's causing sheer chaos in the region,\" one cloud executive told the Financial Times, according to Engadget. The outlet did not name the executive.", "items": []},
-    {"type": "p", "text": "The crackdown is also tied to Megaspeed, the Singapore-based data center operator the US Commerce Department added to its \"Entity List\" this week, a designation that requires a US license to ship it export-controlled goods, according to Engadget. The US Justice Department is investigating whether Megaspeed violated export rules by diverting Nvidia chips to China.", "items": []},
-    {"type": "p", "text": "The shipment pause lands in the same week Nvidia reinstated Jensen Huang as chief executive, an episode that has already moved investor sentiment around the company in recent days.", "items": []},
-    {"type": "h2", "text": "In practice", "items": []},
-    {"type": "list", "text": "", "items": [
-      "What's new: Nvidia paused shipments of server hardware carrying its AI chips to Malaysia, Singapore, Thailand and Indonesia, according to the Financial Times and the Wall Street Journal.",
-      "Who's affected: manufacturing partners such as Dell and Supermicro, whose customer orders in those four countries were halted, according to Engadget and TechCrunch.",
-      "Why: Nvidia is checking whether those markets meet US export rules, after Chinese companies began accessing chips remotely through regional data centers, according to both outlets.",
-      "Deadline on the new rule: data centers already serving clients covered by the restriction have until 90 days from November 19 to apply for a license, according to Engadget.",
-      "Market size: Nvidia's Singapore subsidiary booked $104 billion in revenue in 2025, up 72% from the prior year, according to the Financial Times, cited by Engadget.",
-      "What's missing: neither outlet says when the shipment pause is expected to end."
-    ]}
+    {
+      "type": "p",
+      "text": "Nvidia has paused shipments of AI server hardware to four Southeast Asian countries — Malaysia, Singapore, Thailand and Indonesia — according to the Financial Times and the Wall Street Journal, cited respectively by Engadget and TechCrunch.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The order reached customers through Nvidia's manufacturing partners, including Dell and Supermicro, which told clients in those markets that server orders containing Nvidia chips would not be shipped for an unspecified period, according to both outlets. It is unclear whether the pause is temporary.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Why Nvidia stopped the shipments",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Nvidia is assessing whether regional partners meet US export control requirements, according to TechCrunch. The stated reason involves a loophole Chinese AI companies have used: in recent years, they rented capacity from cloud compute providers running data centers in those four countries with Nvidia GPUs installed inside their servers.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "That arrangement let Chinese firms remotely tap Nvidia's most advanced chips without buying the hardware directly, working around US restrictions on selling that kind of equipment to China. The US Commerce Department recently moved to close the loophole, according to Engadget.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Under the new rule, data centers already supplying large amounts of computing power to companies in China or other destinations covered by the restriction have 90 days from November 19 to obtain a license if they want to keep operating that way, Engadget reported.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "TechCrunch, citing the think tank Institute for Progress, reports that remote data centers like these in Southeast Asia supply about 24% of the AI computing power used in China. The figure is the institute's own estimate, not an official number from Nvidia or the US government.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "The demand that built the loophole",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Demand from Chinese companies for this kind of remote access helped fuel a data center construction boom across Southeast Asia in recent years, according to Engadget. The outlet points to Nvidia's own numbers as a measure of that market: the company's Singapore subsidiary booked $104 billion in revenue in 2025, a 72% increase from the year before, according to the Financial Times.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The confusion around the new rule is already hitting operators in the region. \"There's this new rule but no guidance on execution. No one knows how to apply for this license while the 90-day clock is ticking. It's causing sheer chaos in the region,\" one cloud executive told the Financial Times, according to Engadget. The outlet did not name the executive.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The crackdown is also tied to Megaspeed, the Singapore-based data center operator the US Commerce Department added to its \"Entity List\" this week, a designation that requires a US license to ship it export-controlled goods, according to Engadget. The US Justice Department is investigating whether Megaspeed violated export rules by diverting Nvidia chips to China.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "The shipment pause lands in the same week Nvidia reinstated Jensen Huang as chief executive, an episode that has already moved investor sentiment around the company in recent days.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "In practice",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "What's new: Nvidia paused shipments of server hardware carrying its AI chips to Malaysia, Singapore, Thailand and Indonesia, according to the Financial Times and the Wall Street Journal.",
+        "Who's affected: manufacturing partners such as Dell and Supermicro, whose customer orders in those four countries were halted, according to Engadget and TechCrunch.",
+        "Why: Nvidia is checking whether those markets meet US export rules, after Chinese companies began accessing chips remotely through regional data centers, according to both outlets.",
+        "Deadline on the new rule: data centers already serving clients covered by the restriction have until 90 days from November 19 to apply for a license, according to Engadget.",
+        "Market size: Nvidia's Singapore subsidiary booked $104 billion in revenue in 2025, up 72% from the prior year, according to the Financial Times, cited by Engadget.",
+        "What's missing: neither outlet says when the shipment pause is expected to end."
+      ]
+    }
   ],
   "image": {
     "query": "computer server data center racks",
-    "alt": "Rows of server racks in a data center with cables and lights"
+    "alt": "Rows of server racks in a data center with cables and lights",
+    "path": "/assets/img/nvidia-halts-ai-chip-shipments-southeast-4317de37.jpg",
+    "credit": "Taylor Vick / Unsplash",
+    "author": "Taylor Vick",
+    "author_url": "https://unsplash.com/@tvick?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs"
   },
   "sources": [
-    {"name": "Engadget", "owner": "yahoo", "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/", "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia"},
-    {"name": "TechCrunch AI", "owner": "techcrunch", "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/", "title": "Nvidia hits pause on chip shipments to Southeast Asia"}
+    {
+      "name": "Engadget",
+      "owner": "yahoo",
+      "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+      "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia"
+    },
+    {
+      "name": "TechCrunch AI",
+      "owner": "techcrunch",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia"
+    }
   ],
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-27T10:47:07+00:00",
+  "updated_at": "2026-11-27T10:47:07+00:00"
 }
