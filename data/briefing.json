@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T20:43:28+00:00",
-  "posts_per_language_today": 3,
+  "generated_at": "2026-11-27T22:45:25+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
-  "already_written_today": 1,
+  "already_written_today": 2,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -79,40 +79,6 @@
     160
   ],
   "stories": [
-    {
-      "story_id": "07608deaf51aa724",
-      "title": "Chips de IA da Nvidia aparecem em data center na China ligado a Alice Huang",
-      "summary": "O servidor Nvidia GB300 NVL72 reúne dezenas de GPUs com a arquitetura Blackwell.",
-      "owners": [
-        "nzn",
-        "yahoo"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "1de4593917fcffc6",
-        "900294a733203891"
-      ],
-      "sources": [
-        {
-          "name": "Tecmundo",
-          "owner": "nzn",
-          "url": "https://www.estadao.com.br/tecmundo/big-techs/chips-de-ia-da-nvidia-aparecem-em-data-center-na-china-ligado-a-alice-huang/",
-          "title": "Chips de IA da Nvidia aparecem em data center na China ligado a Alice Huang",
-          "published_at": "2026-11-27T19:00:00+00:00",
-          "kind": "press",
-          "text": "US$ 5 BILHÕES em chips da NVIDIA desviados para a China?! O caso NVIDIA acaba de ganhar proporções ainda maiores e acendeu um alerta máximo de segurança nacional nos Estados Unidos. Crédito: Pedro Castro Um data center instalado em Xangai, na China, e ligado a empresas associadas a Alice Huang, executiva que está no centro das polêmicas envolvendo a Nvidia, utiliza chips avançados de inteligência artificial da série Blackwell, da gigante dos semicondutores, com restrições de remessa para o país asiático . A informação foi revelada pela Bloomberg nesta sexta-feira (27). Evidências da presença dos componentes, cuja exportação exige licenças especiais do governo dos Estados Unidos, foram encontradas em documentos de empréstimos solicitados pelas empresas Shanghai Shuoyao e Shanghai Kezhan. Eles estariam em uso no complexo de supercomputação Yangtze River Delta Project . Conforme a reportagem, um dos equipamentos é o rack Nvidia GB300 NVL72 , considerado um dos mais potentes da marca. Ele foi oferecido pela Shanghai Shuoyao como garantia para um empréstimo de US$ 14 milhões (R$ 77,5 milhões pela cotação atual) contratado junto ao Banco de Inovação de Xangai. Ele foi listado pela Shanghai Kezhan após a solicitação de um empréstimo equivalente a US$ 13,5 milhões (R$ 74,7 milhões). A operação ocorreu em dezembro do ano passado, por meio de uma empresa de leasing vinculada a uma agência do governo local. Não ficou claro como os equipamentos Nvidia Blackwell chegaram ao país . Como destaca a publicação, geralmente eles passam por várias mãos antes de serem instalados nos data centers, incluindo distribuidores locais, ou são inicialmente vendidos a pessoas em mercados sem restrições e levados para a China por meio de contrabando . Fundada em 2023 por Alice Huang, que teve um caso extraconjugal com o CEO da Nvidia , Jensen Huang, a Megaspeed possui parceria com a Shuoyao . Ela teria usado uma representação do Yangtze River Delta Project para mostrar aos investidores seu maior data center, conforme a publicação. Além disso, a executiva, investigada por autoridades americanas devido à suspeita de espionagem, possui ligação com várias empresas que investiram no projeto. Uma delas seria a NeXPower Japan, que detém 83,3% da Kezhan . Em meio às polêmicas sobre o caso, a Megaspeed afirmou, recentemente, que Alice deixou a empresa no ano passado. Saiba mais detalhes nesta matéria . Pornô gerado por IA: entenda os perigos por trás do DeepNude Banco de dados desprotegido expõe quase 2 bilhões de senhas na internet Cientistas chineses criam ‘pente elétrico’ que promete acabar com a calvície Apple, Samsung e Xiaomi devem cortar produção de celulares para 2027"
-        },
-        {
-          "name": "Engadget",
-          "owner": "yahoo",
-          "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
-          "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
-          "published_at": "2026-11-27T19:45:23+00:00",
-          "kind": "press",
-          "text": "Bloomberg traced the lineage of one GB300 server rack to Gigabyte Technology. Well, this is awkward. Bloomberg reports it may have found evidence of a link between a Chinese data center with NVIDIA Blackwell hardware and Alice Huang, the woman at the center of the controversy surrounding Jensen Huang's brief resignation from the company . Looking through documents two different firms submitted to Chinese regulators, the outlet found mention of GB300 NVL72 and GB200 server racks at the Yangtze River Delta Project in Shanghai. One of the companies, Shanghai Shuoyao, listed a GB300 NVL72 rack as collateral to secure an approximately $14 million loan from the Shanghai Innovation Bank. A single GB300 NVL72 unit houses 72 Blackwell Ultra GPUs and 36 NVIDIA Grace processors, and can weigh about 3,300 pounds. US export rules require a license to ship these Blackwell systems to China. As Bloomberg notes, Jensen Huang once claimed GB300 racks are too big to smuggle. It's unclear how the GB300 and GB200 units made their way to the Shanghai facility, which may eventually house as many as 800,000 servers. However, Bloomberg was able to partly track the lineage of the GB300 unit. By putting the serial of the rack into a public warranty database, the outlet was able to trace it back to Taiwan's Gigabyte Technology, which PC gamers will know as one of NVIDIA's many add-in board partners. Like other NVIDIA AIBs, Gigabyte buys GPU chips from the company that it then uses to manufacture graphics cards for consumers and servers for enterprise customers. Gigabyte declined to answer Bloomberg's questions about what company or party originally bought the GB300 rack. A spokesperson told the outlet it \"conducts all business in compliance with applicable laws and regulations,\" adding, \"all transactions are subject to our internal compliance requirements and the relevant laws and regulations in effect at the time.\" Shanghai Shuoyao, the company that offered a GB300 as collateral, has ties with Megaspeed. Alice Huang took a controlling stake in the Singaporean cloud computing company in 2023 before leaving it in August 2025. Earlier this month, Shanghai Shuoyao said it was one of Megaspeed's service providers, but described its relationship with the company as \"limited to ordinary commercial cooperation.\" According to Bloomberg , Megaspeed used renderings of the Yangtze River Delta Project in a presentation it shared with investors in 2024. The deck did not list China as the location of the data center. Bloomberg notes it does not have evidence that Megaspeed directly diverted NVIDIA chips to the data center, and the company denies any wrongdoing . The Justice Department is investigating whether Megaspeed broke US export rules . NVIDIA did not immediately respond to Engadget's comment request. Alice Huang appears to have had a number of other ties to the Yangtze River Delta Project. Most notably, through Kang Wei, the man The New York Times reports was often introduced as her husband and appears to have had ties with China's Ministry of State Security. Bloomberg found him listed as the president of the facility. The publication also found evidence of servers containing NVIDIA's earlier Hopper-generation chips inside the Yangtze River Delta Project. Those GPUs are also illegal to ship to China without permission from the US government. Jensen Huang is set to testify publicly before Congress on December 3 at 10AM ET."
-        }
-      ]
-    },
     {
       "story_id": "a87834a22a421f75",
       "title": "How to build and maintain an agentic evaluation",
@@ -260,56 +226,6 @@
           "published_at": "2026-11-23T17:21:12+00:00",
           "kind": "primary",
           "text": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research We present DeepCrossAttention (DCA), an architecture that enhances transformer networks by using learnable weights and depth-wise cross-attention to dynamically combine outputs from previous layers, preventing the information dilution seen in traditional residual connections. Presented in our ICML 2025 paper, this architectural improvement allows models to achieve the same quality up to three times faster with a negligible increase in parameters. Think of a traditional deep learning model like a giant game of \"Telephone\": data passes through layer after layer, with each layer changing the information slightly. If a network has dozens or hundreds of layers, the original learning signal can become severely degraded or lost by the time it reaches all layers, which is known as the vanishing gradient problem in AI. To overcome this challenge and enable the training of networks with dozens or hundreds of layers, transformers rely heavily on residual connections , also known as “skip” connections, which act like an information highway or a shortcut. Instead of forcing the data to pass exclusively through the complicated layer, a duplicate copy of the original input skips right past this layer and is added directly to its output. This ensures that the model always has the original raw data to refer back to. The standard residual connection implements a simple operation: point-wise summation of a layer's output with its input. While computationally efficient, this simple process has a key limitation: it treats all prior representations with equal weight, leading to information dilution in deep networks. As features propagate through many layers, specific, high-resolution details from earlier layers can be averaged out or distorted, making it difficult for the network to selectively retrieve them. This forces the network to recompute them, reducing learning efficiency. In our ICML 2025 paper, \"DeepCrossAttention: Supercharging Transformer Residual Connections ,\" we studied the shortcomings of the traditional residual architecture and introduced DeepCrossAttention (DCA), which generalizes residual connections by allowing each layer to dynamically select and route features from the history of preceding layers. By allowing the model to dynamically choose which previous layers are most important at any given moment, DCA achieves comparable or improved learning, while reducing the number of parameters needed by up to 30-40%. Instead of treating skip connections as a rigid, additive pipeline, DCA reframes residual learning as a dynamic routing problem. Rather than passing all prior layers forward with equal weight, DCA introduces a lightweight, layer-wise module that decides how to best combine previous embeddings on a per-token basis. Comparison between a standard residual network and DeepCrossAttention (DCA). While a standard residual network uses rigid, additive point-wise connections with equal weighting, DCA introduces dynamic, learned routing weights (W) that allow each layer to selectively route and combine features from across the history of preceding layers. The architecture introduces two primary mechanisms: By allowing the network to dynamically select and retrieve high-resolution features from earlier layers, DCA eliminates the information dilution inherent to classic residual connections. To test whether DCA can overcome information dilution in practice, we evaluated our approach across controlled synthetic setups, large-scale language modeling benchmarks, and image classification tasks. DCA demonstrated significant improvements in convergence speed, training stability, and final model quality across these experiments. Perplexity (PPL) — how well a probability model predicts a sample — comparison across language modeling benchmarks. On both the LM1B (top) and C4 (bottom) datasets, DeepCrossAttention (DCA) achieves lower perplexity than standard transformers and alternative connection baselines (such as LAUREL-PA, 1x1-DenseFormer, and Hyper-Connections) under the same parameter and training budgets. On the colossal, cleaned version of Common Crawl's web crawl corpus (C4) and 1 Billion Word Language Model Benchmark ( LM1B ) datasets, DCA reached the performance of standard transformers in up to five times fewer training steps. When trained for the same duration or number of steps, DCA consistently achieved lower perplexity — how well a probability model predicts a sample — than standard residual connections, effectively extracting more representational capacity from the same training budget. To achieve a perplexity of <14 on LM1B, a standard transformer with fixed width required 42 layers, whereas the DCA model achieved a lower perplexity with only 30 layers — a 29% reduction in depth and parameter count. Impact of varying connection history (k) on model perplexity. Performance comparison showing how scaling the number of preceding layer connections in DCA consistently improves language modeling perplexity over the standard Transformer baseline, achieving the lowest perplexity at higher configurations (16-DCA and 24-DCA). One of the most common trade-offs in AI is that better models are often much larger and slower to run. DCA adds a tiny number of parameters — less than 0.2% of the total model size — making it negligible in terms of compute and memory footprint, while increasing memory bandwidth, as representations from different layers are presented intact rather than blended together. Interestingly, because DCA can be initialized to behave identically to a standard residual network, it doesn’t require training from scratch: retrofitting DCA onto an already pre-trained transformer and briefly continuing training reduced perplexity by 0.19 on LM1B, compared to just 0.02 for continued standard training. As large language models (LLMs) are used across a broader range of domains, optimizing their trai"
-        }
-      ]
-    },
-    {
-      "story_id": "7993df0207f8cc24",
-      "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
-      "summary": "We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .",
-      "owners": [
-        "meta"
-      ],
-      "primary_owners": [
-        "meta"
-      ],
-      "fingerprints": [
-        "ef22b0993eaa883e"
-      ],
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "owner": "meta",
-          "url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
-          "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
-          "published_at": "2026-11-23T18:00:01+00:00",
-          "kind": "primary",
-          "text": "Open science is critical to advancing medical research. To accelerate this progress, we’ve expanded our academic partnerships , giving researchers funding and access to our AI models like Muse Glimmer, SAM3, DINOv3, and Brain2Qwertyv2. These researchers are independently adapting our models for their own investigational research. Here are a few of the projects that are benefitting from our partnership: At Louisiana State University, Dr. Peter DeBlieux and his team are using Muse Glimmer, SAM 3, DINOv3, and other models from Meta, along with Meta Quest 3 headsets to develop COPES, an experimental coaching platform that supports healthcare professionals with medical procedural training in virtual reality. The system will aim to provide adaptive guidance, real-time performance assessment, and personalized feedback across technical execution, patient communication, clinical reasoning, and decision-making. Working virtually means medical students can learn complicated procedures in situations where practicing on real patients may be risky, and virtual instruction means more medical professionals can receive high quality technical and communications training — no matter where they are. Dr. Pierre Bourdillon at Rothschild Hospital Foundation is using AI research and models from Meta including NeuralSet , Brain2Qwertyv2 , Tribev2 , and DINOv3 , in research projects aimed at better understanding the source of epilepsy in the brain. Currently, epilepsy can’t be directly visualized in brain images, making it difficult for clinicians to identify its source. Dr. Bourdillon is using AI to develop a tool that can enable simulations of epileptic seizures originating in different regions of the brain. This approach could one day enable doctors to select the simulation that best matches their patient’s case, allowing them to form a strong hypothesis about where the patient’s epilepsy originates. This early-stage research could improve accuracy in a range of epilepsy treatments, including surgical removal of affected brain tissue and device implantation designed to disrupt epileptic activity. The simulations also have the potential to help researchers address speech and motor restoration in patients with brain injuries. At Columbia University, Dr. Wolfgang Pernice has partnered with Meta to adapt the DINO family of models to improve analysis of microscopy images of cells, helping doctors understand how rare diseases appear in cells. In conventional image analysis methods, researchers have to know what they are looking for in advance, limiting their analysis. But the adapted Cell-DINO, DINO-BoC, and FINO models generate unbiased representations of the inner workings of cells, allowing scientists to decode the complex patterns by which rare diseases manifest in human cells. This can help improve our understanding of rare diseases and accelerate drug discovery. Each of these investigational projects highlights AI’s unique ability to fill critical research gaps. While all of the work featured here is early-stage, we look forward to the potential breakthroughs enabled by our AI models. To learn more about our Open Source AI for Science Summit, where we interviewed the researchers, head to our AI blog ."
-        }
-      ]
-    },
-    {
-      "story_id": "4b1a47543c2549af",
-      "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
-      "summary": "The post How Microsoft Discovery helps scientists learn from failure and find new possibilities appeared first on Source .",
-      "owners": [
-        "microsoft"
-      ],
-      "primary_owners": [
-        "microsoft"
-      ],
-      "fingerprints": [
-        "c9245829b0444b42"
-      ],
-      "sources": [
-        {
-          "name": "Microsoft Source",
-          "owner": "microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/three-things-you-should-know-about-microsoft-discovery/4574970",
-          "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
-          "published_at": "2026-11-23T19:32:13+00:00",
-          "kind": "primary",
-          "text": ""
         }
       ]
     }
