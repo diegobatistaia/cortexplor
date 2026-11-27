@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T14:42:50+00:00",
-  "posts_per_language_today": 2,
+  "generated_at": "2026-11-27T19:04:32+00:00",
+  "posts_per_language_today": 3,
   "daily_cap_per_language": 4,
   "already_written_today": 1,
   "min_independent_sources": 2,
@@ -79,41 +79,6 @@
     160
   ],
   "stories": [
-    {
-      "story_id": "71950450c6ecb574",
-      "title": "Computer Vision API Pricing: What You Can Do Free, and What It Costs as You Scale",
-      "summary": "Computer vision API pricing from $0: test 80,000 images free on Roboflow, pilot for $39/month, and get volume discounts up to 80% at scale.",
-      "owners": [
-        "roboflow"
-      ],
-      "primary_owners": [
-        "roboflow"
-      ],
-      "fingerprints": [
-        "0f4e866b94e469b9",
-        "910a8faf8882ff4c"
-      ],
-      "sources": [
-        {
-          "name": "Roboflow",
-          "owner": "roboflow",
-          "url": "https://roboflow.com/blog/computer-vision-api-pricing",
-          "title": "Computer Vision API Pricing: What You Can Do Free, and What It Costs as You Scale",
-          "published_at": "2026-11-22T18:03:30+00:00",
-          "kind": "primary",
-          "text": "Typically computer vision API pricing pages answer one question: what does a single call cost? That matters, but it isn't the full picture most teams need to know when they decide whether a project is affordable. You want to know what you can test for free, what the first few months will cost, and whether the bill stays reasonable once a model runs on every camera. Now that all plans have access to private projects and data for free, it is easier than ever for businesses to get started with Roboflow. This guide walks through the computer vision cost of a Roboflow project at three stages: free, getting started, and at scale. Every number comes from Roboflow's published credit rates, and we show the math so you can redo it for your own volumes. For the story behind the September 2026 pricing changes, read the launch post, Making It Easier & Cheaper to Deploy with Roboflow . This post is the practical follow-up: what those changes mean in dollars as you test and pilot, and when it's time to bring in Enterprise support. All examples use RF-DETR Nano , Roboflow's real-time vision model. On the Serverless API it costs 0.125 credits per 1,000 images. Roboflow's Core plan now starts with a Free Tier. It costs $0, needs no credit card, and includes 10 credits that refresh every month. Credits are how Roboflow meters usage: storing and labeling images, training models, and running models on Roboflow Cloud each use credits at a published rate . The Free Tier isn't a trial. It includes: The free computer vision tools are all you need for an initial POC. You can upload your own images, train a custom model, and call it from your application without entering payment details. Ten credits is easier to picture as work. Here's what 10 credits buy at Roboflow's published rates if you spend all of them on one activity: The inference math is simple: 10 credits ÷ 0.125 credits per 1,000 images = 80 × 1,000 = 80,000 images. Real projects mix these activities. Say a team wants to detect damaged boxes on a conveyor and starts with 1,000 images. A first month might look like this, using the rates on Roboflow's credits page : That leaves about 2 credits of headroom, and the 10 credits reset next month. If you run your test images on your own machine with Roboflow Inference instead of the Serverless API, the 2.5 inference credits drop to zero. These are the two questions we hear most from teams evaluating the Free Tier, so here are direct answers. Yes. Every Roboflow cloud-hosted model comes with a commercial license on every plan, including the Free Tier. If your application calls RF-DETR, YOLO26 , or any another model through the Serverless API, you can use it in a commercial product. Self-hosting is where licenses differ by model: For the details, see RF-DETR Is Free to Use Commercially and Roboflow's model licensing page . Yes. Every Core workspace, including the Free Tier, keeps projects private: your datasets and models aren't published to Roboflow Universe unless you choose to share them. Private projects aren't the same as contractual commitments. If your organization needs organizational controls and contractual commitments, such as a custom MSA or DPA, a security review (opens in a new tab) , an uptime SLA, data residency in the US or EU, or a HIPAA BAA, those require an Enterprise license. When 10 credits a month isn't enough, you can add a monthly credit pack. Each pack's total already includes your 10 free credits. Credits have a baseline price of $4, and packs cost less per credit: the bigger the pack, the lower the price per credit. The last column is 0.125 credits × the price per credit. At the $39 pack, that's 0.125 × $3.90 = about $0.49 per 1,000 images, or about $0.0005 per image. That's the computer vision cost per image at standard rates, before the per-image volume discounts covered in the next section. The $39 pack is the usual next step after a successful free test. Its 20 credits cover 160,000 RF-DETR Nano images a month, or a mix of retraining and a small pilot. Two other credit options exist: See the pricing page for current prices and Pricing & Billing in the docs (opens in a new tab) for how credits are used. Serverless API pricing is per image. Each model has a fixed credit rate per 1,000 images, whatever the image size and however long inference takes, so a forecast is images × rate. Above 250,000 images a month, per-image volume discounts apply on the Free and Core plans. They're separate from credit pack pricing. Bands count all images in your workspace for the calendar month, and each rate applies only to the images inside its band, like tax brackets. Here are the bands for RF-DETR Nano, from the Serverless API model pricing docs (opens in a new tab) : Here's what that means for monthly RF-DETR Nano model inference credits on a self-serve plan. The Credits column applies the per-image bands above, and the pack column shows the smallest monthly credit pack that covers those credits: Two separate savings show up in this table: per-image volume discounts lower the credits you use, and bigger packs lower the price of each credit. \"All-in\" means the full pack price divided by the images processed, so it's conservative. The credits left in each pack go to training, storage, and labeling. Past the largest pack, or once you're rolling out across sites, Enterprise adds contracted volume pricing alongside edge deployment, support, and compliance. If you're weighing this against running your own GPU instances on GCP, AWS, or Azure, our serverless GPU inference cost comparison benchmarks Roboflow Serverless against each of them. On every plan, basic self-hosted inference with the open-source Roboflow Inference package has no per-image or per-frame credit charge. You run models and Workflows on your own hardware, such as a Jetson , a Raspberry Pi , or a GPU server. Basic self-hosting is for testing, research, and getting started. Serious commercial edge deployments, like a model running on a pr"
-        },
-        {
-          "name": "Roboflow",
-          "owner": "roboflow",
-          "url": "https://roboflow.com/blog/computer-vision-for-citizen-developers",
-          "title": "Computer Vision for Citizen Developers",
-          "published_at": "2026-11-25T20:22:58+00:00",
-          "kind": "primary",
-          "text": "During manufacturing, defective components can slip through manual inspections. Your team knows what defective parts look like but needs a reliable way to identify them consistently. A computer vision system makes this possible by training a machine learning model on images of good and defective parts, allowing it to detect defects in new images and automate inspections across every shift. Previously, building these systems required machine learning engineers or specialized IT teams. Today, tools like Roboflow Agent and ChatGPT (opens in a new tab) make computer vision more accessible to citizen developers by allowing them to build, train, and deploy vision AI applications using natural language prompts. Across the factory floor, citizen developers are using Roboflow's computer vision tools to solve a range of challenges. Quality engineers can detect product defects before they leave the production line, safety managers can monitor PPE compliance, and operations managers can automate counting to improve inventory accuracy. Process engineers can verify assembly completeness, while production teams can automate gauge and label reading to reduce inspection errors. In this guide, you'll learn how Roboflow Agent, MCP , and ChatGPT can help you build complete vision AI applications without requiring advanced programming skills or extensive machine learning experience. Every computer vision application is built around four key components. A dataset provides the images the system learns from. Labeling marks the objects or defects in those images to teach the model what to recognize. A model learns from these examples and makes predictions on new images. Finally, deployment puts the trained model into a real-world application where its predictions can trigger actions or support decisions. Roboflow provides a no-code platform that brings those components together, allowing you to build, train, and deploy computer vision applications without writing code. Roboflow helps you build computer vision datasets with tools to collect, upload, organize, annotate, augment, and manage images and videos captured across production lines, quality inspection processes, and factory operations. These datasets can then be used to train AI models. Roboflow also helps you create and manage dataset versions. You can apply preprocessing and augmentation steps to generate new dataset versions for model training. Roboflow Annotate makes it easier to label images. Quality engineers can use its visual annotation tools to draw bounding boxes around defective products, outline damaged components, classify images, or mark specific features that an AI model can use to identify defects. When working with large datasets, manually annotating every image in Roboflow Annotate can still be time-consuming. Roboflow Auto Label helps speed up the process by using AI to automatically generate annotations. You can use Auto Label to generate bounding boxes and labels across multiple images. Quality engineers can then review the generated annotations and correct them where necessary, reducing repetitive manual work and making it easier to build large, accurately labeled datasets. Once a dataset is labeled and ready, you can use Roboflow Train to train a computer vision model to recognize patterns and identify issues in manufacturing processes. You can train models such as RF-DETR to detect product defects, identify missing components, verify assembly steps, or determine whether products meet quality standards. Roboflow Train allows you to configure training settings and start training directly within the Roboflow platform. If the model does not perform as expected, you can review incorrect predictions, add more representative images to your dataset, refine annotations, and train a new model version. This iterative process helps manufacturing teams improve model accuracy as they encounter new products, defects, and production conditions. Once your model has been trained and evaluated, you can use Roboflow Deploy to put it into production. Roboflow makes it easy to deploy models to the cloud or edge devices. With cloud deployment, you can run your models through hosted inference endpoints without managing your own inference infrastructure. For applications that require low latency, offline operation, or local processing, you can deploy models directly to edge devices on the factory floor. When you deploy a trained model as part of a Roboflow Workflow, you can combine it with other vision AI components using drag-and-drop blocks in the Workflow Editor to build complete applications. In manufacturing, you can use these workflow blocks to count defective products, trigger alerts for safety violations, and automate pass/fail decisions during quality inspections. Learn more about Roboflow Workflows (opens in a new tab) . Traditionally, building a computer vision application required coding and manually configuring each of the four components described above. Today, citizen developers can use AI agents to automate much of this process. They describe the applications they want to build using natural language, while AI agents handle the configuration and setup. Roboflow offers three ways to build computer vision applications using this approach: Roboflow Agent, the MCP Server, and the ChatGPT plugin. Roboflow Agent helps manufacturing teams build computer vision applications using natural language instead of manually configuring each step. It is a tool provided by Roboflow. Try Roboflow Agent. You can describe the problem you want to solve, such as detecting missing screws on an assembly line or identifying damaged products, and the agent will build the necessary components of your vision AI workflow to address it. Roboflow Agent can also handle other key steps in the process, including dataset preparation, model training, and workflow deployment, helping you turn your ideas into working computer vision applications without manually configuring each "
-        }
-      ]
-    },
     {
       "story_id": "a87834a22a421f75",
       "title": "How to build and maintain an agentic evaluation",
@@ -236,6 +201,106 @@
           "published_at": "2026-11-23T17:00:08+00:00",
           "kind": "primary",
           "text": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the details. With the holiday break here, everyone can be online to score bragging rights or explore a world that’s only been seen in video game trailers. For some players, an upgrade means a desktop that brings out the detail in every scene. For others, it’s a laptop they can take along when visiting family, or a way to play in the cloud on a device they already own. The right setup depends on where and what to play: For creators with a project that’s been on the backburner, the right gift this season can be the push to finally make it happen. Maybe it’s holiday clips becoming a short film, a snowy scene coming together in 3D or a livestream that brings friends across time zones to the same virtual table. Creators can use NVIDIA systems — such as GeForce RTX 50 Series and RTX Spark devices — to keep up with the workflows, along with NVIDIA Studio tools and technologies for AI acceleration. Studio Drivers support video editing, 3D design and livestreaming. In supported applications, faster processing gives more room to experiment and refine. Every robot starts somewhere. This season, it could be under the tree. Building a robot is an experiment in teaching a device to see or sense its surroundings. A first project might be as simple as using a camera to identify a candy cane or a gingerbread man, then moving on to an app that probes what the camera sees. Testing brings new questions. Can the robot recognize the candy cane under twinkling lights? Can it tell a frosted gingerbread man from an unfrosted one? Each experiment leaves more to improve and explore. The NVIDIA Jetson edge AI platform provides the hardware and software to build projects like these. It combines compact computers with the NVIDIA JetPack software development kit to help makers build robots, autonomous machines and intelligent devices. A Jetson Developer Kit is a gift to explore computer vision, generative AI and multimodal robot control, with the option to add cameras and sensors suited to various projects. AI runs directly on the device, processing information from its surroundings. When ready to take a prototype further, production systems powered by Jetson modules provide a path to deployment. See how Microduck comes to life with NVIDIA Jetson Orin Nano Super , bringing together robot movement, visual understanding and natural-language interaction. With Hermes Agent and NVIDIA Cosmos, developers can explore how AI connects everyday requests with actions in the physical world. Bring an SO-101 arm to life with NVIDIA Jetson Orin and explore agentic robotics. Give OpenClaw a simple request, and watch it plan the steps, call NVIDIA tools and check the results. OpenShell runs the agent securely in a sandbox, controlling its access to models and robot tools. Based on ASPIRE skills, the system reuses lessons from past attempts to guide future tasks. Build a robot companion that chats, moves and understands what it sees, with NVIDIA Nemotron 3.5 Bolt and Cosmos open models running locally on Jetson Orin Nano 8GB. For more advanced projects, explore vision language action models and world action models to enable increasingly sophisticated robotic behaviors — beyond simple perception and predefined actions toward understanding natural language instructions, reasoning, planning multistep tasks and interacting with the physical world. Dive into setup guides and project tutorials in Jetson AI Lab . Whether it’s a gaming upgrade, a creative project or a first robot, the right tools can open up new possibilities well beyond the holidays. Explore NVIDIA’s holiday lineup for gamers, creators and makers."
+        }
+      ]
+    },
+    {
+      "story_id": "f48bab182127d4e9",
+      "title": "Supercharging transformer residual connections",
+      "summary": "Algorithms & Theory",
+      "owners": [
+        "alphabet"
+      ],
+      "primary_owners": [
+        "alphabet"
+      ],
+      "fingerprints": [
+        "bcf32450cab1acca"
+      ],
+      "sources": [
+        {
+          "name": "Google Research",
+          "owner": "alphabet",
+          "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+          "title": "Supercharging transformer residual connections",
+          "published_at": "2026-11-23T17:21:12+00:00",
+          "kind": "primary",
+          "text": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research We present DeepCrossAttention (DCA), an architecture that enhances transformer networks by using learnable weights and depth-wise cross-attention to dynamically combine outputs from previous layers, preventing the information dilution seen in traditional residual connections. Presented in our ICML 2025 paper, this architectural improvement allows models to achieve the same quality up to three times faster with a negligible increase in parameters. Think of a traditional deep learning model like a giant game of \"Telephone\": data passes through layer after layer, with each layer changing the information slightly. If a network has dozens or hundreds of layers, the original learning signal can become severely degraded or lost by the time it reaches all layers, which is known as the vanishing gradient problem in AI. To overcome this challenge and enable the training of networks with dozens or hundreds of layers, transformers rely heavily on residual connections , also known as “skip” connections, which act like an information highway or a shortcut. Instead of forcing the data to pass exclusively through the complicated layer, a duplicate copy of the original input skips right past this layer and is added directly to its output. This ensures that the model always has the original raw data to refer back to. The standard residual connection implements a simple operation: point-wise summation of a layer's output with its input. While computationally efficient, this simple process has a key limitation: it treats all prior representations with equal weight, leading to information dilution in deep networks. As features propagate through many layers, specific, high-resolution details from earlier layers can be averaged out or distorted, making it difficult for the network to selectively retrieve them. This forces the network to recompute them, reducing learning efficiency. In our ICML 2025 paper, \"DeepCrossAttention: Supercharging Transformer Residual Connections ,\" we studied the shortcomings of the traditional residual architecture and introduced DeepCrossAttention (DCA), which generalizes residual connections by allowing each layer to dynamically select and route features from the history of preceding layers. By allowing the model to dynamically choose which previous layers are most important at any given moment, DCA achieves comparable or improved learning, while reducing the number of parameters needed by up to 30-40%. Instead of treating skip connections as a rigid, additive pipeline, DCA reframes residual learning as a dynamic routing problem. Rather than passing all prior layers forward with equal weight, DCA introduces a lightweight, layer-wise module that decides how to best combine previous embeddings on a per-token basis. Comparison between a standard residual network and DeepCrossAttention (DCA). While a standard residual network uses rigid, additive point-wise connections with equal weighting, DCA introduces dynamic, learned routing weights (W) that allow each layer to selectively route and combine features from across the history of preceding layers. The architecture introduces two primary mechanisms: By allowing the network to dynamically select and retrieve high-resolution features from earlier layers, DCA eliminates the information dilution inherent to classic residual connections. To test whether DCA can overcome information dilution in practice, we evaluated our approach across controlled synthetic setups, large-scale language modeling benchmarks, and image classification tasks. DCA demonstrated significant improvements in convergence speed, training stability, and final model quality across these experiments. Perplexity (PPL) — how well a probability model predicts a sample — comparison across language modeling benchmarks. On both the LM1B (top) and C4 (bottom) datasets, DeepCrossAttention (DCA) achieves lower perplexity than standard transformers and alternative connection baselines (such as LAUREL-PA, 1x1-DenseFormer, and Hyper-Connections) under the same parameter and training budgets. On the colossal, cleaned version of Common Crawl's web crawl corpus (C4) and 1 Billion Word Language Model Benchmark ( LM1B ) datasets, DCA reached the performance of standard transformers in up to five times fewer training steps. When trained for the same duration or number of steps, DCA consistently achieved lower perplexity — how well a probability model predicts a sample — than standard residual connections, effectively extracting more representational capacity from the same training budget. To achieve a perplexity of <14 on LM1B, a standard transformer with fixed width required 42 layers, whereas the DCA model achieved a lower perplexity with only 30 layers — a 29% reduction in depth and parameter count. Impact of varying connection history (k) on model perplexity. Performance comparison showing how scaling the number of preceding layer connections in DCA consistently improves language modeling perplexity over the standard Transformer baseline, achieving the lowest perplexity at higher configurations (16-DCA and 24-DCA). One of the most common trade-offs in AI is that better models are often much larger and slower to run. DCA adds a tiny number of parameters — less than 0.2% of the total model size — making it negligible in terms of compute and memory footprint, while increasing memory bandwidth, as representations from different layers are presented intact rather than blended together. Interestingly, because DCA can be initialized to behave identically to a standard residual network, it doesn’t require training from scratch: retrofitting DCA onto an already pre-trained transformer and briefly continuing training reduced perplexity by 0.19 on LM1B, compared to just 0.02 for continued standard training. As large language models (LLMs) are used across a broader range of domains, optimizing their trai"
+        }
+      ]
+    },
+    {
+      "story_id": "7993df0207f8cc24",
+      "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+      "summary": "We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .",
+      "owners": [
+        "meta"
+      ],
+      "primary_owners": [
+        "meta"
+      ],
+      "fingerprints": [
+        "ef22b0993eaa883e"
+      ],
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "owner": "meta",
+          "url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
+          "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+          "published_at": "2026-11-23T18:00:01+00:00",
+          "kind": "primary",
+          "text": "Open science is critical to advancing medical research. To accelerate this progress, we’ve expanded our academic partnerships , giving researchers funding and access to our AI models like Muse Glimmer, SAM3, DINOv3, and Brain2Qwertyv2. These researchers are independently adapting our models for their own investigational research. Here are a few of the projects that are benefitting from our partnership: At Louisiana State University, Dr. Peter DeBlieux and his team are using Muse Glimmer, SAM 3, DINOv3, and other models from Meta, along with Meta Quest 3 headsets to develop COPES, an experimental coaching platform that supports healthcare professionals with medical procedural training in virtual reality. The system will aim to provide adaptive guidance, real-time performance assessment, and personalized feedback across technical execution, patient communication, clinical reasoning, and decision-making. Working virtually means medical students can learn complicated procedures in situations where practicing on real patients may be risky, and virtual instruction means more medical professionals can receive high quality technical and communications training — no matter where they are. Dr. Pierre Bourdillon at Rothschild Hospital Foundation is using AI research and models from Meta including NeuralSet , Brain2Qwertyv2 , Tribev2 , and DINOv3 , in research projects aimed at better understanding the source of epilepsy in the brain. Currently, epilepsy can’t be directly visualized in brain images, making it difficult for clinicians to identify its source. Dr. Bourdillon is using AI to develop a tool that can enable simulations of epileptic seizures originating in different regions of the brain. This approach could one day enable doctors to select the simulation that best matches their patient’s case, allowing them to form a strong hypothesis about where the patient’s epilepsy originates. This early-stage research could improve accuracy in a range of epilepsy treatments, including surgical removal of affected brain tissue and device implantation designed to disrupt epileptic activity. The simulations also have the potential to help researchers address speech and motor restoration in patients with brain injuries. At Columbia University, Dr. Wolfgang Pernice has partnered with Meta to adapt the DINO family of models to improve analysis of microscopy images of cells, helping doctors understand how rare diseases appear in cells. In conventional image analysis methods, researchers have to know what they are looking for in advance, limiting their analysis. But the adapted Cell-DINO, DINO-BoC, and FINO models generate unbiased representations of the inner workings of cells, allowing scientists to decode the complex patterns by which rare diseases manifest in human cells. This can help improve our understanding of rare diseases and accelerate drug discovery. Each of these investigational projects highlights AI’s unique ability to fill critical research gaps. While all of the work featured here is early-stage, we look forward to the potential breakthroughs enabled by our AI models. To learn more about our Open Source AI for Science Summit, where we interviewed the researchers, head to our AI blog ."
+        }
+      ]
+    },
+    {
+      "story_id": "4b1a47543c2549af",
+      "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
+      "summary": "The post How Microsoft Discovery helps scientists learn from failure and find new possibilities appeared first on Source .",
+      "owners": [
+        "microsoft"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "c9245829b0444b42"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/three-things-you-should-know-about-microsoft-discovery/4574970",
+          "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
+          "published_at": "2026-11-23T19:32:13+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "c618698a58ecd73b",
+      "title": "3 questions that can help universities turn AI experiments into results",
+      "summary": "The post 3 questions that can help universities turn AI experiments into results appeared first on Source .",
+      "owners": [
+        "microsoft"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "d65823e2d1173234"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://www.microsoft.com/en-us/education/blog/2026/11/how-higher-education-leaders-can-turn-institutional-intelligence-into-impact/",
+          "title": "3 questions that can help universities turn AI experiments into results",
+          "published_at": "2026-11-23T19:37:01+00:00",
+          "kind": "primary",
+          "text": ""
         }
       ]
     }
