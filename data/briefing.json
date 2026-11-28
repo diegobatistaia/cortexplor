@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-28T09:42:43+00:00",
-  "posts_per_language_today": 2,
+  "generated_at": "2026-11-28T14:42:57+00:00",
+  "posts_per_language_today": 1,
   "daily_cap_per_language": 4,
-  "already_written_today": 0,
+  "already_written_today": 2,
   "min_independent_sources": 2,
   "official_announcement_alone": true,
   "languages": [
@@ -80,40 +80,6 @@
   ],
   "stories": [
     {
-      "story_id": "bb7945df6434696d",
-      "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
-      "summary": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern California federal court, comes after Apple sued OpenAI for allegedly poaching its employees to...",
-      "owners": [
-        "guardian",
-        "yahoo"
-      ],
-      "primary_owners": [],
-      "fingerprints": [
-        "cbc33bf5ffa47112",
-        "4def842d2af05796"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian Technology",
-          "owner": "guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
-          "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
-          "published_at": "2026-11-27T23:28:50+00:00",
-          "kind": "press",
-          "text": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern California federal court, comes after Apple sued OpenAI for allegedly poaching its employees to gain access to its technology. OpenAI filed the counterclaims ⁠in California federal court on Friday, saying that Apple’s employment practices were designed to “trap” employees and prevent them from working on competitors’ technology. OpenAI is developing AI-enabled personal electronic devices that threaten to “outcompete Apple on what ⁠Apple views as its own turf”, the company said in its Friday court filing. OpenAI said in the filing that Apple ​gained confidential information by rehiring a former employee who worked ‌at OpenAI for six months. In ‌that time, the employee gained access to specific information on a new device as well as OpenAI’s roadmap for future hardware ‌products. “Given the timing, it now appears that stealing those documents may have been his reason for joining OpenAI in the first place,” OpenAI said. Apple denied using the rehired employee to access OpenAI’s confidential information and denied trying to suppress competition in AI device manufacturing. “OpenAI’s counterclaims are a transparent attempt to distract from the substance of Apple’s lawsuit,” Apple said in a Friday statement. Tensions between the two tech companies have escalated as the intensifying race to develop AI products fuels competition for ‌talent and proprietary technology. Apple sued OpenAI and the former Apple employees Tang Tan and Chang Liu in July, alleging misappropriation of its trade secrets to benefit the ChatGPT owner’s foray into consumer hardware. Tan, ​a 24-year Apple employee who was a vice-president of product design for iPhone and Apple Watch, was part of the group that launched the AI device startup io Products before it was acquired by OpenAI in 2025. OpenAI and the employees have denied those allegations and said that Apple’s lawsuit depended on its unauthorized monitoring of Liu’s personal messages after he stopped working for Apple. OpenAI and ⁠attorneys for Tan and Liu did not immediately respond to a request for comment on ​Friday’s court filing. In Friday’s filing, OpenAI criticized ​Apple for encouraging employees to do work on ​their personal Apple devices and accounts, then preventing those employees from an orderly separation of work and ​personal accounts when they leave ‌for new jobs. OpenAI said ​that Apple continues to access ​former employees’ personal devices and accounts after they leave the company, enabling Apple to “monitor and ensnare departing employees” when they leave for competitors. OpenAI said that 400 employees have left Apple for OpenAI so far, and Apple wants to intimidate other employees from leaving to find other tech companies."
-        },
-        {
-          "name": "Engadget",
-          "owner": "yahoo",
-          "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
-          "title": "OpenAI countersues Apple and accuses it of stealing trade secrets",
-          "published_at": "2026-11-27T19:44:38+00:00",
-          "kind": "press",
-          "text": "The suit suggests that the iPhone maker is trying to “compete unfairly by any means available.” OpenAI has filed a major lawsuit against Apple that accuses the iPhone maker of stealing trade secrets, according to a report by Financial Times . The folks behind ChatGPT have also accused Apple of \"coercing and threatening\" suppliers who work with both companies. OpenAI says Apple is trying to \"compete unfairly by any means available\", which includes encouraging employees to store corporate files on personal devices and cloud storage accounts. The complaint is filled with flowery language that suggests \"Apple set quite a trap for employees\" and that \"bright young minds thought they would work in Cupertino. Instead they were joining Hotel California: you can check out any time you like, but you can never leave.\" This follows a suit issued by Apple against OpenAI that accused the AI company of stealing secret trade information . This was filed after OpenAI acquired an entity called io , which is a studio led by Apple's former design chief Jony Ive. At that point, Apple called ChatGPT \"rotten to its core.\" Now it looks like OpenAI is getting involved in a bit of tit for tat. Apple has yet to comment on today's lawsuit, but it wasn't that long ago in which the two companies were partnered up to bring ChatGPT to iPhones . Now OpenAI is prepping its own line of hardware products that could directly compete with Apple. To that end, the company has accused a former employee of returning to Apple and sharing details about product plans and suppliers . This is pretty much the exact same thing Apple accused OpenAI of doing in its suit. That filing names several former Apple employees and says they \"surreptitiously accessed and downloaded dozens of Apple's confidential hardware-related files, including voluminous, detailed information about unreleased products, engineering presentations, technical specifications and proprietary project data.\" In any event, the courts will have to settle this whole thing. We'll keep you posted as these two suits make their way through the legal system."
-        }
-      ]
-    },
-    {
       "story_id": "9da11188b4e56c25",
       "title": "Finding faster quantum algorithms with agents and formal verification",
       "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
@@ -164,31 +130,6 @@
       ]
     },
     {
-      "story_id": "f48bab182127d4e9",
-      "title": "Supercharging transformer residual connections",
-      "summary": "Algorithms & Theory",
-      "owners": [
-        "alphabet"
-      ],
-      "primary_owners": [
-        "alphabet"
-      ],
-      "fingerprints": [
-        "bcf32450cab1acca"
-      ],
-      "sources": [
-        {
-          "name": "Google Research",
-          "owner": "alphabet",
-          "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-          "title": "Supercharging transformer residual connections",
-          "published_at": "2026-11-23T17:21:12+00:00",
-          "kind": "primary",
-          "text": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research We present DeepCrossAttention (DCA), an architecture that enhances transformer networks by using learnable weights and depth-wise cross-attention to dynamically combine outputs from previous layers, preventing the information dilution seen in traditional residual connections. Presented in our ICML 2025 paper, this architectural improvement allows models to achieve the same quality up to three times faster with a negligible increase in parameters. Think of a traditional deep learning model like a giant game of \"Telephone\": data passes through layer after layer, with each layer changing the information slightly. If a network has dozens or hundreds of layers, the original learning signal can become severely degraded or lost by the time it reaches all layers, which is known as the vanishing gradient problem in AI. To overcome this challenge and enable the training of networks with dozens or hundreds of layers, transformers rely heavily on residual connections , also known as “skip” connections, which act like an information highway or a shortcut. Instead of forcing the data to pass exclusively through the complicated layer, a duplicate copy of the original input skips right past this layer and is added directly to its output. This ensures that the model always has the original raw data to refer back to. The standard residual connection implements a simple operation: point-wise summation of a layer's output with its input. While computationally efficient, this simple process has a key limitation: it treats all prior representations with equal weight, leading to information dilution in deep networks. As features propagate through many layers, specific, high-resolution details from earlier layers can be averaged out or distorted, making it difficult for the network to selectively retrieve them. This forces the network to recompute them, reducing learning efficiency. In our ICML 2025 paper, \"DeepCrossAttention: Supercharging Transformer Residual Connections ,\" we studied the shortcomings of the traditional residual architecture and introduced DeepCrossAttention (DCA), which generalizes residual connections by allowing each layer to dynamically select and route features from the history of preceding layers. By allowing the model to dynamically choose which previous layers are most important at any given moment, DCA achieves comparable or improved learning, while reducing the number of parameters needed by up to 30-40%. Instead of treating skip connections as a rigid, additive pipeline, DCA reframes residual learning as a dynamic routing problem. Rather than passing all prior layers forward with equal weight, DCA introduces a lightweight, layer-wise module that decides how to best combine previous embeddings on a per-token basis. Comparison between a standard residual network and DeepCrossAttention (DCA). While a standard residual network uses rigid, additive point-wise connections with equal weighting, DCA introduces dynamic, learned routing weights (W) that allow each layer to selectively route and combine features from across the history of preceding layers. The architecture introduces two primary mechanisms: By allowing the network to dynamically select and retrieve high-resolution features from earlier layers, DCA eliminates the information dilution inherent to classic residual connections. To test whether DCA can overcome information dilution in practice, we evaluated our approach across controlled synthetic setups, large-scale language modeling benchmarks, and image classification tasks. DCA demonstrated significant improvements in convergence speed, training stability, and final model quality across these experiments. Perplexity (PPL) — how well a probability model predicts a sample — comparison across language modeling benchmarks. On both the LM1B (top) and C4 (bottom) datasets, DeepCrossAttention (DCA) achieves lower perplexity than standard transformers and alternative connection baselines (such as LAUREL-PA, 1x1-DenseFormer, and Hyper-Connections) under the same parameter and training budgets. On the colossal, cleaned version of Common Crawl's web crawl corpus (C4) and 1 Billion Word Language Model Benchmark ( LM1B ) datasets, DCA reached the performance of standard transformers in up to five times fewer training steps. When trained for the same duration or number of steps, DCA consistently achieved lower perplexity — how well a probability model predicts a sample — than standard residual connections, effectively extracting more representational capacity from the same training budget. To achieve a perplexity of <14 on LM1B, a standard transformer with fixed width required 42 layers, whereas the DCA model achieved a lower perplexity with only 30 layers — a 29% reduction in depth and parameter count. Impact of varying connection history (k) on model perplexity. Performance comparison showing how scaling the number of preceding layer connections in DCA consistently improves language modeling perplexity over the standard Transformer baseline, achieving the lowest perplexity at higher configurations (16-DCA and 24-DCA). One of the most common trade-offs in AI is that better models are often much larger and slower to run. DCA adds a tiny number of parameters — less than 0.2% of the total model size — making it negligible in terms of compute and memory footprint, while increasing memory bandwidth, as representations from different layers are presented intact rather than blended together. Interestingly, because DCA can be initialized to behave identically to a standard residual network, it doesn’t require training from scratch: retrofitting DCA onto an already pre-trained transformer and briefly continuing training reduced perplexity by 0.19 on LM1B, compared to just 0.02 for continued standard training. As large language models (LLMs) are used across a broader range of domains, optimizing their trai"
-        }
-      ]
-    },
-    {
       "story_id": "7993df0207f8cc24",
       "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
       "summary": "We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .",
@@ -210,31 +151,6 @@
           "published_at": "2026-11-23T18:00:01+00:00",
           "kind": "primary",
           "text": "Open science is critical to advancing medical research. To accelerate this progress, we’ve expanded our academic partnerships , giving researchers funding and access to our AI models like Muse Glimmer, SAM3, DINOv3, and Brain2Qwertyv2. These researchers are independently adapting our models for their own investigational research. Here are a few of the projects that are benefitting from our partnership: At Louisiana State University, Dr. Peter DeBlieux and his team are using Muse Glimmer, SAM 3, DINOv3, and other models from Meta, along with Meta Quest 3 headsets to develop COPES, an experimental coaching platform that supports healthcare professionals with medical procedural training in virtual reality. The system will aim to provide adaptive guidance, real-time performance assessment, and personalized feedback across technical execution, patient communication, clinical reasoning, and decision-making. Working virtually means medical students can learn complicated procedures in situations where practicing on real patients may be risky, and virtual instruction means more medical professionals can receive high quality technical and communications training — no matter where they are. Dr. Pierre Bourdillon at Rothschild Hospital Foundation is using AI research and models from Meta including NeuralSet , Brain2Qwertyv2 , Tribev2 , and DINOv3 , in research projects aimed at better understanding the source of epilepsy in the brain. Currently, epilepsy can’t be directly visualized in brain images, making it difficult for clinicians to identify its source. Dr. Bourdillon is using AI to develop a tool that can enable simulations of epileptic seizures originating in different regions of the brain. This approach could one day enable doctors to select the simulation that best matches their patient’s case, allowing them to form a strong hypothesis about where the patient’s epilepsy originates. This early-stage research could improve accuracy in a range of epilepsy treatments, including surgical removal of affected brain tissue and device implantation designed to disrupt epileptic activity. The simulations also have the potential to help researchers address speech and motor restoration in patients with brain injuries. At Columbia University, Dr. Wolfgang Pernice has partnered with Meta to adapt the DINO family of models to improve analysis of microscopy images of cells, helping doctors understand how rare diseases appear in cells. In conventional image analysis methods, researchers have to know what they are looking for in advance, limiting their analysis. But the adapted Cell-DINO, DINO-BoC, and FINO models generate unbiased representations of the inner workings of cells, allowing scientists to decode the complex patterns by which rare diseases manifest in human cells. This can help improve our understanding of rare diseases and accelerate drug discovery. Each of these investigational projects highlights AI’s unique ability to fill critical research gaps. While all of the work featured here is early-stage, we look forward to the potential breakthroughs enabled by our AI models. To learn more about our Open Source AI for Science Summit, where we interviewed the researchers, head to our AI blog ."
-        }
-      ]
-    },
-    {
-      "story_id": "4b1a47543c2549af",
-      "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
-      "summary": "The post How Microsoft Discovery helps scientists learn from failure and find new possibilities appeared first on Source .",
-      "owners": [
-        "microsoft"
-      ],
-      "primary_owners": [
-        "microsoft"
-      ],
-      "fingerprints": [
-        "c9245829b0444b42"
-      ],
-      "sources": [
-        {
-          "name": "Microsoft Source",
-          "owner": "microsoft",
-          "url": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/three-things-you-should-know-about-microsoft-discovery/4574970",
-          "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
-          "published_at": "2026-11-23T19:32:13+00:00",
-          "kind": "primary",
-          "text": ""
         }
       ]
     }
