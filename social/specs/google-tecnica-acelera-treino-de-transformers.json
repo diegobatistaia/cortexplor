@@ -1,0 +1,100 @@
+{
+  "slug": "google-tecnica-acelera-treino-de-transformers",
+  "lang": "pt",
+  "date": "28 nov 2026",
+  "no": 165,
+  "category": "Modelos",
+  "kicker": "Pesquisa · Google",
+  "headline": "Google cria técnica que acelera o treino de IA",
+  "headline_hl": "acelera",
+  "dek": "Segundo o Google Research, o DeepCrossAttention reduz camadas e passos de treino em transformers.",
+  "image": {
+    "path": "assets/img/google-tecnica-acelera-treino-de-transfo-d0515a73.jpg",
+    "credit": "Luke Jones / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "GOOGLE<br>DCA",
+  "sources": [
+    "Google Research"
+  ],
+  "s2": {
+    "label": "O que aconteceu",
+    "title": "O que o Google publicou",
+    "body": [
+      "O Google Research apresentou o DeepCrossAttention, ou DCA, que muda a arquitetura dos transformers (Google Research).",
+      "A empresa diz que o treino pode ficar até três vezes mais rápido, com quase nenhum parâmetro extra."
+    ]
+  },
+  "s3": {
+    "label": "Como funciona",
+    "title": "Como funciona",
+    "body": "O DCA ataca a diluição de informação entre camadas, segundo a empresa.",
+    "points": [
+      {
+        "h": "Problema",
+        "t": "Conexões residuais tratam todas as camadas anteriores com o mesmo peso (Google Research)."
+      },
+      {
+        "h": "Solução",
+        "t": "Um módulo leve escolhe quais camadas pesam mais a cada trecho (Google Research)."
+      },
+      {
+        "h": "Treino",
+        "t": "Os pesos são aprendidos pelo próprio modelo durante o treino (Google Research)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Por que importa",
+    "title": "Os resultados",
+    "body": [
+      "Nos testes de linguagem, o DCA igualou o desempenho com menos etapas de treino (Google Research).",
+      "Num teste, o modelo precisou de menos camadas para uma perplexidade menor."
+    ],
+    "stat": {
+      "big": "29%",
+      "cap": "menos camadas no teste LM1B (Google Research)"
+    }
+  },
+  "s5": {
+    "label": "O que vem agora",
+    "title": "O que vem agora",
+    "items": [
+      {
+        "h": "Custo",
+        "t": "A empresa diz que o DCA adiciona poucos parâmetros extras (Google Research)."
+      },
+      {
+        "h": "Aplicação",
+        "t": "Pode ser usado em um modelo já treinado, segundo o Google Research."
+      },
+      {
+        "h": "Acesso",
+        "t": "As fontes não citam código ou ferramenta pronta para uso externo."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "O Google criou o DeepCrossAttention, técnica que promete acelerar o treino de modelos de IA.",
+    "body": [
+      "Segundo o Google Research, o DCA troca a soma igual das camadas anteriores por um módulo que aprende quais delas importam mais a cada trecho de texto. A empresa afirma que isso reduz a diluição de informação em redes profundas.",
+      "Nos testes de linguagem, o DCA igualou um transformer tradicional com bem menos etapas de treino, e um modelo precisou de menos camadas para alcançar perplexidade menor (Google Research). A empresa também diz que a técnica pode ser aplicada a modelos já treinados. É pesquisa, não um produto disponível. Texto completo no link da bio."
+    ],
+    "cta_variant": "A",
+    "cta": "Treinar IA com menos camadas pode baratear o desenvolvimento dos modelos?",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#transformers",
+      "#pesquisaemia"
+    ]
+  },
+  "alt": [
+    "Slide 1: capa sobre a técnica DeepCrossAttention do Google",
+    "Slide 2: o que o Google Research publicou",
+    "Slide 3: como o DCA combina as camadas",
+    "Slide 4: resultados em testes de linguagem",
+    "Slide 5: custo, aplicação e acesso",
+    "Slide 6: fonte Google Research"
+  ]
+}

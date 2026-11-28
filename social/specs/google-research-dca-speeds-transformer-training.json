@@ -1,0 +1,100 @@
+{
+  "slug": "google-research-dca-speeds-transformer-training",
+  "lang": "en",
+  "date": "28 Nov 2026",
+  "no": 162,
+  "category": "Models",
+  "kicker": "Research · Google",
+  "headline": "Google technique speeds up AI training",
+  "headline_hl": "speeds",
+  "dek": "According to Google Research, DeepCrossAttention cuts the layers and training steps transformers need.",
+  "image": {
+    "path": "assets/img/google-research-dca-speeds-transformer-t-d0515a73.jpg",
+    "credit": "Luke Jones / Unsplash",
+    "pos": "50% 50%"
+  },
+  "stamp": "GOOGLE<br>DCA",
+  "sources": [
+    "Google Research"
+  ],
+  "s2": {
+    "label": "What happened",
+    "title": "What Google published",
+    "body": [
+      "Google Research introduced DeepCrossAttention, or DCA, which changes how transformers are built (Google Research).",
+      "The company says training can run up to three times faster with almost no extra parameters."
+    ]
+  },
+  "s3": {
+    "label": "How it works",
+    "title": "How it works",
+    "body": "DCA targets information dilution across layers, the company says.",
+    "points": [
+      {
+        "h": "Problem",
+        "t": "Residual connections weigh every earlier layer equally (Google Research)."
+      },
+      {
+        "h": "Fix",
+        "t": "A light module picks which layers matter most for each piece of text (Google Research)."
+      },
+      {
+        "h": "Training",
+        "t": "The model learns those weights on its own during training (Google Research)."
+      }
+    ]
+  },
+  "s4": {
+    "label": "Why it matters",
+    "title": "The results",
+    "body": [
+      "On language tests, DCA matched performance with fewer training steps (Google Research).",
+      "In one test, the model needed fewer layers for a lower perplexity."
+    ],
+    "stat": {
+      "big": "29%",
+      "cap": "fewer layers in the LM1B test (Google Research)"
+    }
+  },
+  "s5": {
+    "label": "What comes next",
+    "title": "What comes next",
+    "items": [
+      {
+        "h": "Cost",
+        "t": "The company says DCA adds few extra parameters (Google Research)."
+      },
+      {
+        "h": "Use",
+        "t": "It can be applied to an already trained model, per Google Research."
+      },
+      {
+        "h": "Access",
+        "t": "The sources mention no code release or ready-made tool."
+      }
+    ]
+  },
+  "caption": {
+    "hook": "Google Research built DeepCrossAttention, a technique that promises faster AI training.",
+    "body": [
+      "According to Google Research, DCA replaces the equal sum of earlier layers with a module that learns which ones matter most for each piece of text. The company says this reduces information dilution in deep networks.",
+      "On language tests, DCA matched a standard transformer with far fewer training steps, and one model needed fewer layers to reach a lower perplexity (Google Research). The company also says it can be applied to models that are already trained. It is research, not a product. The full story is at the link in bio."
+    ],
+    "cta_variant": "B",
+    "cta": "Save it for later and send it to someone following AI.",
+    "hashtags": [
+      "#cortexplor",
+      "#google",
+      "#transformers",
+      "#airesearch"
+    ]
+  },
+  "alt": [
+    "Slide 1: cover about Google's DeepCrossAttention technique",
+    "Slide 2: what Google Research published",
+    "Slide 3: how DCA combines layers",
+    "Slide 4: results on language tests",
+    "Slide 5: cost, use and access",
+    "Slide 6: source Google Research"
+  ]
+}
