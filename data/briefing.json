@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T17:39:46+00:00",
+  "generated_at": "2026-11-28T18:16:09+00:00",
   "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
   "already_written_today": 2,
@@ -79,31 +79,6 @@
     160
   ],
   "stories": [
-    {
-      "story_id": "7993df0207f8cc24",
-      "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
-      "summary": "We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .",
-      "owners": [
-        "meta"
-      ],
-      "primary_owners": [
-        "meta"
-      ],
-      "fingerprints": [
-        "ef22b0993eaa883e"
-      ],
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "owner": "meta",
-          "url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
-          "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
-          "published_at": "2026-11-23T18:00:01+00:00",
-          "kind": "primary",
-          "text": "Open science is critical to advancing medical research. To accelerate this progress, we’ve expanded our academic partnerships , giving researchers funding and access to our AI models like Muse Glimmer, SAM3, DINOv3, and Brain2Qwertyv2. These researchers are independently adapting our models for their own investigational research. Here are a few of the projects that are benefitting from our partnership: At Louisiana State University, Dr. Peter DeBlieux and his team are using Muse Glimmer, SAM 3, DINOv3, and other models from Meta, along with Meta Quest 3 headsets to develop COPES, an experimental coaching platform that supports healthcare professionals with medical procedural training in virtual reality. The system will aim to provide adaptive guidance, real-time performance assessment, and personalized feedback across technical execution, patient communication, clinical reasoning, and decision-making. Working virtually means medical students can learn complicated procedures in situations where practicing on real patients may be risky, and virtual instruction means more medical professionals can receive high quality technical and communications training — no matter where they are. Dr. Pierre Bourdillon at Rothschild Hospital Foundation is using AI research and models from Meta including NeuralSet , Brain2Qwertyv2 , Tribev2 , and DINOv3 , in research projects aimed at better understanding the source of epilepsy in the brain. Currently, epilepsy can’t be directly visualized in brain images, making it difficult for clinicians to identify its source. Dr. Bourdillon is using AI to develop a tool that can enable simulations of epileptic seizures originating in different regions of the brain. This approach could one day enable doctors to select the simulation that best matches their patient’s case, allowing them to form a strong hypothesis about where the patient’s epilepsy originates. This early-stage research could improve accuracy in a range of epilepsy treatments, including surgical removal of affected brain tissue and device implantation designed to disrupt epileptic activity. The simulations also have the potential to help researchers address speech and motor restoration in patients with brain injuries. At Columbia University, Dr. Wolfgang Pernice has partnered with Meta to adapt the DINO family of models to improve analysis of microscopy images of cells, helping doctors understand how rare diseases appear in cells. In conventional image analysis methods, researchers have to know what they are looking for in advance, limiting their analysis. But the adapted Cell-DINO, DINO-BoC, and FINO models generate unbiased representations of the inner workings of cells, allowing scientists to decode the complex patterns by which rare diseases manifest in human cells. This can help improve our understanding of rare diseases and accelerate drug discovery. Each of these investigational projects highlights AI’s unique ability to fill critical research gaps. While all of the work featured here is early-stage, we look forward to the potential breakthroughs enabled by our AI models. To learn more about our Open Source AI for Science Summit, where we interviewed the researchers, head to our AI blog ."
-        }
-      ]
-    },
     {
       "story_id": "4b1a47543c2549af",
       "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
@@ -226,6 +201,31 @@
           "published_at": "2026-11-24T00:00:00+00:00",
           "kind": "primary",
           "text": "ChatGPT and Codex integrations help Clay users research deals and turn data into go-to-market plays, and GPT‑6 models handle the reasoning. Even when sales teams have plenty of data about a prospect, they can still struggle to understand what matters most and develop a winning pitch. Clay ⁠ (opens in a new window) is a self-learning revenue engine designed to help. Using GPT‑6 Astra, GPT‑6 Sol, and other models, Clay enables users to build lists of companies and people, enrich those records using agents, and use that information in go-to-market plays. Clay also brings these capabilities to where customers are already working with plugins for Codex and ChatGPT, making it easier to create and run go-to-market workflows and research accounts and deals. “Clay in ChatGPT gives sales reps a way to understand more about the customers they’re trying to sell to. It brings all of that rich context to the places they’re already working.” Clay’s Codex integration lets builders create and run go-to-market plays in Codex, while giving sales reps access to data they can use to research an account or understand a deal they’re trying to close. Jeff has seen reps combine information from their own systems and public datasets to determine how to best communicate their product’s value to a customer. “Customers love using Codex for a lot of different tasks in sales,” he says. “We’ve seen the best sales reps be the most empowered by this.” Clay’s ChatGPT plugin brings the same customer data into another tool reps already use, helping them learn more about prospects without leaving ChatGPT. Jeff says, “It’s been a big success.” OpenAI models power Claygent’s research, qualification, enrichment, and signal detection, as well as the agent that helps users build workflows and coordinate other Clay agents. Clay uses GPT‑6 Sol as its primary model, with GPT‑6 Astra for harder tasks and GPT‑6 Luna for cost-sensitive work. That range supports background research and copywriting as well as agents that users work with directly. The Responses API lets Clay use different levels of intelligence and cost through the same interface. “Having the same Responses API across the different price points is something that’s super appealing to us with OpenAI models,” said Jeff. GPT‑6 Astra also helps Jeff build and test software. He used to spend much of his time manually checking features he had built; now he can ask GPT‑6 Astra to handle more of that work. He explains, “GPT‑6 Astra really changed how I build software because it fully closed the loop on the engineering process. Now I can have Astra write code, add tests, and then actually run the tests and test the feature and record that and upload that in the PR. It simplifies my life a lot.” For Clay’s customers, Jeff sees GPT‑Live‑1 as a way to use Clay and Codex by voice and help prospects learn about a product. Clay is working on inbound sales development features that would let an agent show a product or service to a prospect. He also sees the Decisions API as another way to integrate models into Clay and open up new use cases. Clay’s ambition is to carry go-to-market workflows from start to finish, with agents that improve as they learn from the results. For Jeff, the goal is to empower builders “to bring the same shift that happened in software engineering to go-to-market.” Product updates, practical guides, upcoming events, and more."
+        }
+      ]
+    },
+    {
+      "story_id": "2ce3a25f7af7ee24",
+      "title": "Introducing preemptible compute: the same compute, half the price",
+      "summary": "Together GPU Clusters now supports preemptible compute: the same GPU capacity at a flat 50% of the on-demand rate, with a five-minute drain window.",
+      "owners": [
+        "togetherai"
+      ],
+      "primary_owners": [
+        "togetherai"
+      ],
+      "fingerprints": [
+        "4230f956fc9ccd4e"
+      ],
+      "sources": [
+        {
+          "name": "Together AI",
+          "owner": "togetherai",
+          "url": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price",
+          "title": "Introducing preemptible compute: the same compute, half the price",
+          "published_at": "2026-11-24T00:00:00+00:00",
+          "kind": "primary",
+          "text": "Preemptible compute is now generally available on Together GPU Clusters, on Kubernetes and Slurm clusters in all regions. Preemptible nodes give teams a lower-cost way to run interruption-tolerant work — short experiments, inference bursts, batch jobs — on the same GPU infrastructure they already use, billed sub-hourly at a flat 50% of the on-demand rate. You can add preemptible capacity to a new or existing cluster starting today. Preemptible compute adds a second compute type to Together GPU Clusters. Standard nodes are fulfilled synchronously and are never preempted. Preemptible nodes use the same NVIDIA accelerated compute, draw from un-used capacity, and can be reclaimed when that capacity is needed elsewhere. Preemptible nodes are billed at a flat 50% of the on-demand rate. The rate remains fixed rather than moving with a spot market. When a node is reclaimed, the cluster follows a five-minute drain (maximum 5 minutes) sequence: The cluster retains its preemptible target after the node is removed and automatically refills toward that target as capacity becomes available. You do not need to request replacement capacity. Billing is sub-hourly, with usage metered every one to two minutes. A node that runs for 12 minutes is billed for approximately 12 minutes. Preemptible nodes are not a separate cluster type. They join your existing cluster, labeled together.ai/compute-class=preemptible , so interruptible workers run on discounted capacity while coordinators, login pods, and serving replicas stay on standard nodes. The five-minute reclamation sequence makes recovery behavior the deciding factor. Work that can resume, retry, or requeue can use preemptible capacity while critical components should remain on standard nodes. Short experiments. Ablations, config sweeps, quick fine-tunes, evals, distillation, and batch inference are good candidates when the work can resume from a checkpoint or retry after a worker disappears. Frameworks such as Ray Train and PyTorch Lightning resume from the latest checkpoint without intervention. As a reference point, a full weight model checkpoint for GLM5.3 Flash, 321B parameter model is roughly 3.5TB which would take between 22s to 4mins to write to a parallel filesystem even at degraded performance. Leaving headroom inside the five-minute drain window. Temporary bursts. When batch or internal inference demand spikes, add cheaper preemptible nodes to absorb the burst and non-critical workloads instead of holding standard capacity sized for your peak or risking burst standard compute availability. Interrupted requests requeue; user-facing replicas remain on standard nodes. The common thread: work that is chunked, checkpointed, or retryable. Multi-day runs without checkpointing and strict-SLO serving with no fallback are not a fit. Together has a strong culture dogfooding , several internal research, dev/test and non-critical production workloads at Together are based on our preemptible compute based GPU clusters enabling us to leverage our spare capacity across product teams. After the workload is prepared for preemption, setup has two parts: set the preemptible target and schedule eligible work onto the labeled nodes. You can set the target when creating a cluster or on a cluster that is already running, using the Together Cloud console, CLI, or API. The API reports both the requested target, desired_preemptible_gpus , and the capacity currently live, allocated_preemptible_gpus . Because preemptible nodes draw from unused capacity, allocated capacity can remain below the desired target when capacity is tight. Choose your standard node count, then add a preemptible target on top. Scale up the preemptible target when you need additional worker capacity, then lower it when the work is complete. The cluster remains running throughout. Preemption notices are delivered as SIGTERM to the pod, as Kubernetes events ( reason=TogetherPreemptionNotified ), in the console's Event Timeline, and via the Together API's node_lifecycle_events — handling patterns are covered in the docs . Preemptible compute is generally available on Kubernetes and Slurm clusters."
         }
       ]
     }
