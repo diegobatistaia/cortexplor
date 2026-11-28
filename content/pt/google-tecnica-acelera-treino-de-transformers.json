@@ -7,30 +7,100 @@
   "meta_description": "O Google Research criou o DeepCrossAttention, técnica que acelera o treino de transformers em até 3 vezes com quase nenhum parâmetro extra, diz a empresa.",
   "keyword": "DeepCrossAttention Google",
   "category": "modelos",
-  "tags": ["ia", "google", "alphabet", "transformers", "pesquisa"],
-  "body": [
-    {"type": "p", "text": "O Google Research publicou o DeepCrossAttention (DCA), uma técnica que altera a arquitetura dos transformers — o tipo de rede neural por trás da maioria dos modelos de IA atuais — para acelerar o treino em até três vezes com quase nenhum aumento de parâmetros, segundo a empresa. A técnica foi apresentada em artigo na conferência ICML 2025 e detalhada em publicação no blog do Google Research assinada pelos pesquisadores Kyriakos Axiotis e Thomas Fu.", "items": []},
-    {"type": "p", "text": "Segundo o Google Research, o DCA ataca um problema chamado \"diluição de informação\": em redes com muitas camadas, as chamadas conexões residuais — atalhos que copiam a entrada original de uma camada direto para a saída, evitando que o sinal de aprendizado se perca — tratam todas as camadas anteriores com o mesmo peso. Isso faz com que detalhes específicos capturados em camadas mais antigas se misturem e se percam ao longo do caminho, obrigando a rede a recalculá-los.", "items": []},
-    {"type": "h2", "text": "Como funciona a técnica", "items": []},
-    {"type": "p", "text": "De acordo com a empresa, em vez de somar todas as camadas anteriores com peso igual, o DCA usa um módulo leve que decide, para cada trecho de texto processado, como combinar as representações vindas de camadas anteriores — um mecanismo de atenção cruzada em profundidade com pesos aprendidos pelo próprio modelo durante o treino. Isso permite que a rede escolha dinamicamente quais camadas anteriores são mais relevantes a cada momento, em vez de misturá-las todas da mesma forma.", "items": []},
-    {"type": "h2", "text": "Resultados em testes de linguagem e imagem", "items": []},
-    {"type": "p", "text": "O Google Research testou o DCA em bancos de dados de modelagem de linguagem — o LM1B e o C4, usado para treinar modelos a partir de texto coletado da web — além de tarefas de classificação de imagens. Segundo a empresa, o DCA atingiu o mesmo desempenho de um transformer tradicional usando até cinco vezes menos etapas de treino nesses testes de linguagem.", "items": []},
-    {"type": "p", "text": "Em um teste específico no LM1B, a empresa afirma que um transformer tradicional precisou de 42 camadas para atingir uma perplexidade (medida de quão bem o modelo prevê o próximo trecho de texto) menor que 14, enquanto o modelo com DCA chegou a uma perplexidade ainda menor usando apenas 30 camadas — uma redução de 29% na profundidade e no número de parâmetros. Em geral, segundo o Google Research, a técnica permite reduzir entre 30% e 40% os parâmetros necessários para um desempenho igual ou melhor.", "items": []},
-    {"type": "h2", "text": "Custo computacional e uso em modelos já treinados", "items": []},
-    {"type": "p", "text": "O Google Research afirma que o DCA adiciona menos de 0,2% de parâmetros extras ao tamanho total do modelo, tornando o custo de memória e computação praticamente irrelevante, embora aumente a quantidade de dados trafegados entre camadas, já que as representações de cada camada passam a ser mantidas separadas em vez de misturadas. Segundo a empresa, a técnica também pode ser aplicada a um transformer já treinado, sem necessidade de treiná-lo do zero: ao continuar o treino de um modelo pronto com DCA, a perplexidade caiu 0,19 ponto no LM1B, contra uma queda de apenas 0,02 ponto ao simplesmente continuar o treino convencional por mais tempo.", "items": []},
-    {"type": "p", "text": "A empresa comparou o DCA com outras técnicas alternativas de conexão entre camadas propostas por outros grupos de pesquisa, chamadas LAUREL-PA, 1x1-DenseFormer e Hyper-Connections, e afirma que o DCA obteve menor perplexidade do que todas elas sob o mesmo orçamento de parâmetros e de treino.", "items": []},
-    {"type": "h2", "text": "Na prática", "items": []},
-    {"type": "list", "text": "", "items": [
-      "O DCA é uma técnica de pesquisa descrita em artigo acadêmico e publicação no blog do Google Research, apresentada no ICML 2025 — não é um produto ou serviço disponível ao público.",
-      "Quem é afetado: equipes que treinam modelos de linguagem baseados em transformers, que poderiam usar a técnica para reduzir tempo e número de camadas necessários no treino, segundo a empresa.",
-      "O que muda em relação às conexões residuais tradicionais: em vez de somar todas as camadas anteriores com peso igual, o modelo aprende a escolher quais camadas pesam mais em cada ponto do processamento, segundo o Google Research.",
-      "Custo extra: menos de 0,2% de parâmetros adicionais ao modelo, de acordo com a empresa; não há informação sobre lançamento de código ou ferramenta pronta para uso externo nas fontes consultadas."
-    ]}
+  "tags": [
+    "ia",
+    "google",
+    "alphabet",
+    "transformers",
+    "pesquisa"
   ],
-  "image": {"query": "abstract neural network layers technology research", "alt": "Ilustração abstrata de camadas conectadas de uma rede neural representando pesquisa em inteligência artificial"},
+  "body": [
+    {
+      "type": "p",
+      "text": "O Google Research publicou o DeepCrossAttention (DCA), uma técnica que altera a arquitetura dos transformers — o tipo de rede neural por trás da maioria dos modelos de IA atuais — para acelerar o treino em até três vezes com quase nenhum aumento de parâmetros, segundo a empresa. A técnica foi apresentada em artigo na conferência ICML 2025 e detalhada em publicação no blog do Google Research assinada pelos pesquisadores Kyriakos Axiotis e Thomas Fu.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Segundo o Google Research, o DCA ataca um problema chamado \"diluição de informação\": em redes com muitas camadas, as chamadas conexões residuais — atalhos que copiam a entrada original de uma camada direto para a saída, evitando que o sinal de aprendizado se perca — tratam todas as camadas anteriores com o mesmo peso. Isso faz com que detalhes específicos capturados em camadas mais antigas se misturem e se percam ao longo do caminho, obrigando a rede a recalculá-los.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Como funciona a técnica",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "De acordo com a empresa, em vez de somar todas as camadas anteriores com peso igual, o DCA usa um módulo leve que decide, para cada trecho de texto processado, como combinar as representações vindas de camadas anteriores — um mecanismo de atenção cruzada em profundidade com pesos aprendidos pelo próprio modelo durante o treino. Isso permite que a rede escolha dinamicamente quais camadas anteriores são mais relevantes a cada momento, em vez de misturá-las todas da mesma forma.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Resultados em testes de linguagem e imagem",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Google Research testou o DCA em bancos de dados de modelagem de linguagem — o LM1B e o C4, usado para treinar modelos a partir de texto coletado da web — além de tarefas de classificação de imagens. Segundo a empresa, o DCA atingiu o mesmo desempenho de um transformer tradicional usando até cinco vezes menos etapas de treino nesses testes de linguagem.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "Em um teste específico no LM1B, a empresa afirma que um transformer tradicional precisou de 42 camadas para atingir uma perplexidade (medida de quão bem o modelo prevê o próximo trecho de texto) menor que 14, enquanto o modelo com DCA chegou a uma perplexidade ainda menor usando apenas 30 camadas — uma redução de 29% na profundidade e no número de parâmetros. Em geral, segundo o Google Research, a técnica permite reduzir entre 30% e 40% os parâmetros necessários para um desempenho igual ou melhor.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Custo computacional e uso em modelos já treinados",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "O Google Research afirma que o DCA adiciona menos de 0,2% de parâmetros extras ao tamanho total do modelo, tornando o custo de memória e computação praticamente irrelevante, embora aumente a quantidade de dados trafegados entre camadas, já que as representações de cada camada passam a ser mantidas separadas em vez de misturadas. Segundo a empresa, a técnica também pode ser aplicada a um transformer já treinado, sem necessidade de treiná-lo do zero: ao continuar o treino de um modelo pronto com DCA, a perplexidade caiu 0,19 ponto no LM1B, contra uma queda de apenas 0,02 ponto ao simplesmente continuar o treino convencional por mais tempo.",
+      "items": []
+    },
+    {
+      "type": "p",
+      "text": "A empresa comparou o DCA com outras técnicas alternativas de conexão entre camadas propostas por outros grupos de pesquisa, chamadas LAUREL-PA, 1x1-DenseFormer e Hyper-Connections, e afirma que o DCA obteve menor perplexidade do que todas elas sob o mesmo orçamento de parâmetros e de treino.",
+      "items": []
+    },
+    {
+      "type": "h2",
+      "text": "Na prática",
+      "items": []
+    },
+    {
+      "type": "list",
+      "text": "",
+      "items": [
+        "O DCA é uma técnica de pesquisa descrita em artigo acadêmico e publicação no blog do Google Research, apresentada no ICML 2025 — não é um produto ou serviço disponível ao público.",
+        "Quem é afetado: equipes que treinam modelos de linguagem baseados em transformers, que poderiam usar a técnica para reduzir tempo e número de camadas necessários no treino, segundo a empresa.",
+        "O que muda em relação às conexões residuais tradicionais: em vez de somar todas as camadas anteriores com peso igual, o modelo aprende a escolher quais camadas pesam mais em cada ponto do processamento, segundo o Google Research.",
+        "Custo extra: menos de 0,2% de parâmetros adicionais ao modelo, de acordo com a empresa; não há informação sobre lançamento de código ou ferramenta pronta para uso externo nas fontes consultadas."
+      ]
+    }
+  ],
+  "image": {
+    "query": "abstract neural network layers technology research",
+    "alt": "Ilustração abstrata de camadas conectadas de uma rede neural representando pesquisa em inteligência artificial",
+    "path": "/assets/img/google-tecnica-acelera-treino-de-transfo-d0515a73.jpg",
+    "credit": "Luke Jones / Unsplash",
+    "author": "Luke Jones",
+    "author_url": "https://unsplash.com/@lukejonesdesign?utm_source=cortexplor&utm_medium=referral",
+    "provider": "Unsplash",
+    "source_url": "https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-tBvF46kmwBw"
+  },
   "sources": [
-    {"name": "Google Research", "owner": "alphabet", "url": "https://research.google/blog/supercharging-transformer-residual-connections/", "title": "Supercharging transformer residual connections"}
+    {
+      "name": "Google Research",
+      "owner": "alphabet",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "title": "Supercharging transformer residual connections"
+    }
   ],
   "fonte_unica": "anuncio_oficial",
-  "status": "draft"
+  "status": "published",
+  "published_at": "2026-11-28T10:47:44+00:00",
+  "updated_at": "2026-11-28T10:47:44+00:00"
 }
