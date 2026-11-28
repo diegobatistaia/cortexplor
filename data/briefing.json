@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T14:42:57+00:00",
-  "posts_per_language_today": 1,
+  "generated_at": "2026-11-28T17:39:46+00:00",
+  "posts_per_language_today": 2,
   "daily_cap_per_language": 4,
   "already_written_today": 2,
   "min_independent_sources": 2,
@@ -80,56 +80,6 @@
   ],
   "stories": [
     {
-      "story_id": "9da11188b4e56c25",
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-      "owners": [
-        "alphabet"
-      ],
-      "primary_owners": [
-        "alphabet"
-      ],
-      "fingerprints": [
-        "9dddeb89e408dae0"
-      ],
-      "sources": [
-        {
-          "name": "Google DeepMind",
-          "owner": "alphabet",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-          "title": "Finding faster quantum algorithms with agents and formal verification",
-          "published_at": "2026-11-23T16:59:40+00:00",
-          "kind": "primary",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "story_id": "6031b41429ef43c5",
-      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
-      "summary": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. […]",
-      "owners": [
-        "nvidia"
-      ],
-      "primary_owners": [
-        "nvidia"
-      ],
-      "fingerprints": [
-        "5080a13c0be9c9f6"
-      ],
-      "sources": [
-        {
-          "name": "NVIDIA",
-          "owner": "nvidia",
-          "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
-          "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
-          "published_at": "2026-11-23T17:00:08+00:00",
-          "kind": "primary",
-          "text": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. For others, it’s video editing or even building a robot. NVIDIA technologies offer something for everyone on Santa’s list. Read on to unwrap the details. With the holiday break here, everyone can be online to score bragging rights or explore a world that’s only been seen in video game trailers. For some players, an upgrade means a desktop that brings out the detail in every scene. For others, it’s a laptop they can take along when visiting family, or a way to play in the cloud on a device they already own. The right setup depends on where and what to play: For creators with a project that’s been on the backburner, the right gift this season can be the push to finally make it happen. Maybe it’s holiday clips becoming a short film, a snowy scene coming together in 3D or a livestream that brings friends across time zones to the same virtual table. Creators can use NVIDIA systems — such as GeForce RTX 50 Series and RTX Spark devices — to keep up with the workflows, along with NVIDIA Studio tools and technologies for AI acceleration. Studio Drivers support video editing, 3D design and livestreaming. In supported applications, faster processing gives more room to experiment and refine. Every robot starts somewhere. This season, it could be under the tree. Building a robot is an experiment in teaching a device to see or sense its surroundings. A first project might be as simple as using a camera to identify a candy cane or a gingerbread man, then moving on to an app that probes what the camera sees. Testing brings new questions. Can the robot recognize the candy cane under twinkling lights? Can it tell a frosted gingerbread man from an unfrosted one? Each experiment leaves more to improve and explore. The NVIDIA Jetson edge AI platform provides the hardware and software to build projects like these. It combines compact computers with the NVIDIA JetPack software development kit to help makers build robots, autonomous machines and intelligent devices. A Jetson Developer Kit is a gift to explore computer vision, generative AI and multimodal robot control, with the option to add cameras and sensors suited to various projects. AI runs directly on the device, processing information from its surroundings. When ready to take a prototype further, production systems powered by Jetson modules provide a path to deployment. See how Microduck comes to life with NVIDIA Jetson Orin Nano Super , bringing together robot movement, visual understanding and natural-language interaction. With Hermes Agent and NVIDIA Cosmos, developers can explore how AI connects everyday requests with actions in the physical world. Bring an SO-101 arm to life with NVIDIA Jetson Orin and explore agentic robotics. Give OpenClaw a simple request, and watch it plan the steps, call NVIDIA tools and check the results. OpenShell runs the agent securely in a sandbox, controlling its access to models and robot tools. Based on ASPIRE skills, the system reuses lessons from past attempts to guide future tasks. Build a robot companion that chats, moves and understands what it sees, with NVIDIA Nemotron 3.5 Bolt and Cosmos open models running locally on Jetson Orin Nano 8GB. For more advanced projects, explore vision language action models and world action models to enable increasingly sophisticated robotic behaviors — beyond simple perception and predefined actions toward understanding natural language instructions, reasoning, planning multistep tasks and interacting with the physical world. Dive into setup guides and project tutorials in Jetson AI Lab . Whether it’s a gaming upgrade, a creative project or a first robot, the right tools can open up new possibilities well beyond the holidays. Explore NVIDIA’s holiday lineup for gamers, creators and makers."
-        }
-      ]
-    },
-    {
       "story_id": "7993df0207f8cc24",
       "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
       "summary": "We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .",
@@ -151,6 +101,131 @@
           "published_at": "2026-11-23T18:00:01+00:00",
           "kind": "primary",
           "text": "Open science is critical to advancing medical research. To accelerate this progress, we’ve expanded our academic partnerships , giving researchers funding and access to our AI models like Muse Glimmer, SAM3, DINOv3, and Brain2Qwertyv2. These researchers are independently adapting our models for their own investigational research. Here are a few of the projects that are benefitting from our partnership: At Louisiana State University, Dr. Peter DeBlieux and his team are using Muse Glimmer, SAM 3, DINOv3, and other models from Meta, along with Meta Quest 3 headsets to develop COPES, an experimental coaching platform that supports healthcare professionals with medical procedural training in virtual reality. The system will aim to provide adaptive guidance, real-time performance assessment, and personalized feedback across technical execution, patient communication, clinical reasoning, and decision-making. Working virtually means medical students can learn complicated procedures in situations where practicing on real patients may be risky, and virtual instruction means more medical professionals can receive high quality technical and communications training — no matter where they are. Dr. Pierre Bourdillon at Rothschild Hospital Foundation is using AI research and models from Meta including NeuralSet , Brain2Qwertyv2 , Tribev2 , and DINOv3 , in research projects aimed at better understanding the source of epilepsy in the brain. Currently, epilepsy can’t be directly visualized in brain images, making it difficult for clinicians to identify its source. Dr. Bourdillon is using AI to develop a tool that can enable simulations of epileptic seizures originating in different regions of the brain. This approach could one day enable doctors to select the simulation that best matches their patient’s case, allowing them to form a strong hypothesis about where the patient’s epilepsy originates. This early-stage research could improve accuracy in a range of epilepsy treatments, including surgical removal of affected brain tissue and device implantation designed to disrupt epileptic activity. The simulations also have the potential to help researchers address speech and motor restoration in patients with brain injuries. At Columbia University, Dr. Wolfgang Pernice has partnered with Meta to adapt the DINO family of models to improve analysis of microscopy images of cells, helping doctors understand how rare diseases appear in cells. In conventional image analysis methods, researchers have to know what they are looking for in advance, limiting their analysis. But the adapted Cell-DINO, DINO-BoC, and FINO models generate unbiased representations of the inner workings of cells, allowing scientists to decode the complex patterns by which rare diseases manifest in human cells. This can help improve our understanding of rare diseases and accelerate drug discovery. Each of these investigational projects highlights AI’s unique ability to fill critical research gaps. While all of the work featured here is early-stage, we look forward to the potential breakthroughs enabled by our AI models. To learn more about our Open Source AI for Science Summit, where we interviewed the researchers, head to our AI blog ."
+        }
+      ]
+    },
+    {
+      "story_id": "4b1a47543c2549af",
+      "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
+      "summary": "The post How Microsoft Discovery helps scientists learn from failure and find new possibilities appeared first on Source .",
+      "owners": [
+        "microsoft"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "c9245829b0444b42"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft-discovery-blog/three-things-you-should-know-about-microsoft-discovery/4574970",
+          "title": "How Microsoft Discovery helps scientists learn from failure and find new possibilities",
+          "published_at": "2026-11-23T19:32:13+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "c618698a58ecd73b",
+      "title": "3 questions that can help universities turn AI experiments into results",
+      "summary": "The post 3 questions that can help universities turn AI experiments into results appeared first on Source .",
+      "owners": [
+        "microsoft"
+      ],
+      "primary_owners": [
+        "microsoft"
+      ],
+      "fingerprints": [
+        "d65823e2d1173234"
+      ],
+      "sources": [
+        {
+          "name": "Microsoft Source",
+          "owner": "microsoft",
+          "url": "https://www.microsoft.com/en-us/education/blog/2026/11/how-higher-education-leaders-can-turn-institutional-intelligence-into-impact/",
+          "title": "3 questions that can help universities turn AI experiments into results",
+          "published_at": "2026-11-23T19:37:01+00:00",
+          "kind": "primary",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "story_id": "3e1677a0cd56da01",
+      "title": "How Intentful uses dots to make more time for growth",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "ec442b764e041cd2"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "title": "How Intentful uses dots to make more time for growth",
+          "published_at": "2026-11-24T00:00:00+00:00",
+          "kind": "primary",
+          "text": "How a small business founder’s dot helps her with research and proposals, while alerting her to critical messages and resolving issues. Marina Petrova is CEO and cofounder of Intentful ⁠ (opens in a new window) , a lean team that helps brands make their marketing interactive, with products such as ads that answer customers’ questions in real time and tools that make website information readable by AI. The company also advises and trains marketers on using AI. In travel and tourism, Intentful works with destination organizations and local businesses such as hotels, restaurants, and attractions. A custom proposal is part of how Marina wins their business, showing prospects what’s possible and what it would take to deliver. To keep Intentful growing, she needed more room for that strategic work, but she was spending too much time on research, hunting for files, and formatting decks. Her dot ⁠ changed all that, taking on tasks and meeting Marina’s needs before she even had to ask. For one of Intentful’s tourism clients, Marina wanted to propose a package of Intentful’s AI services for hundreds of local businesses in the destination. Before she could price the package, she needed to work out which businesses’ websites the package could cover and what Intentful had charged other clients for similar work. She brought in her dot, which she named Aria, to help her get from research to a proposal she could put her name on in a few hours instead of several days. First, Marina gave Aria a spreadsheet of URLs and criteria for deciding which sites to include. For example, a site needed a readable sitemap listing no more than 3,000 pages. Next, Aria helped Marina research pricing. Through ChatGPT ⁠ (opens in a new window) plugins, Aria reviewed Intentful’s sales data, including past engagements and discussions in HubSpot. It surfaced pricing from earlier agreements and context from Intentful’s plans for the following year. Using that data, Marina and Aria then built a pricing model: page counts determined the pricing tier, and previous customer agreements also informed the price. “We worked through a custom pricing model together, and then Aria turned it into a one-page proposal I reviewed and edited,” said Marina. When drafting proposals, Aria knows to use Intentful’s templates from Google Drive. Marina can also point Aria to an earlier proposal as a reference, so the draft follows Intentful’s style from the start. “I need to say what needs to be in a proposal, but I don’t need to spend an hour figuring out its layout. My dot handles that,” Marina says. Aria can also spot things Marina hadn’t thought to check. When Marina asked Aria to reuse pricing from an earlier proposal, it noticed that the original renewal date didn’t match the timing she remembered. Aria flagged the discrepancy and left the date out of the new draft. Marina uses the Gmail and Slack plugins in ChatGPT to catch up on conversations, find open tasks, and see where the team needs her. Aria checks for messages that need Marina’s attention. While Marina was offline, Aria spotted a reply she had been waiting for and let her know it included an invitation for a call that morning. Marina also uses Aria to talk through ideas, find conversations, check an account’s history in the CRM, or open and assign tasks in Asana. She often briefs Aria by phone while she travels. Marina loves that her dot works in the tools she already uses. When Aria writes a draft, Marina can leave comments in Google Docs exactly where she wants changes. On longer documents, she asks Aria to use suggesting mode so she can see what changed. Aria also keeps up with changes in shared work without being asked. For a conference presentation, Marina created the deck and a colleague added two slides. “Aria noticed the new slides, updated the speaker notes without being asked, and let me know,” Marina says. Marina chooses which information Aria can access and always reviews outgoing email. She can keep work moving without handing over the final call. When Marina prepared an AI 101 session on agents, she used Aria to help build the lesson. The process was itself an example of what she wanted attendees to learn: delegate a real task, give the agent enough context, challenge the result, and stay in control of what goes out. Aria’s support continued even after the class. After a flight, Marina saw a participant’s request for access to a training file. When she checked with Aria, it had already shared the file. And after a session for 50 marketers, Aria noticed that a software glitch was preventing participants from opening the recording. It flagged the access issue and offered to fix it before the link was shared. Product updates, practical guides, upcoming events, and more."
+        }
+      ]
+    },
+    {
+      "story_id": "d1c815ecaa3cb373",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "summary": "",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "7a6462e387eb267a"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "published_at": "2026-11-24T00:00:00+00:00",
+          "kind": "primary",
+          "text": "as many vulnerabilities fixed through the security platform The Remote Agents Platform turned engineering tasks into API calls: teams delegate the work, execution takes place in a remote sandbox, and the result comes back as a merge request. In the internal security platform, the number of vulnerabilities fixed more than doubled. iFood maintains more than 15,000 code repositories. Each periodically needs specific tasks performed: validating code to ensure it meets internal standards, fixing vulnerable dependencies, or running an analysis. None of these tasks is difficult on its own. The challenge comes when those tasks multiply. “Solving this for one repository is easy. The challenge is solving it at scale,” says Victor Coelho, Senior Software Engineer at iFood. “The Remote Agents Platform is designed to make it possible to solve this at scale across all 15,000 repositories.” Before the platform, each team tackled the problem in its own way—and they all ran into the same obstacle. “Before, we had fragmented solutions. Imagine several teams at iFood trying to solve different problems, but without this layer, this agentic runtime, available to them. In the end, those solutions always ran into the same problem.” What was missing wasn’t intelligence or a use case. It was execution infrastructure. A dedicated runtime . The team describes the Remote Agents Platform as an API that launches a remote agentic coding task. The cycle has three steps: the user submits a prompt and environment requirements through a REST call; the platform processes the task on a dedicated remote runner inside an isolated sandbox; and the result is retrieved later. “The platform’s entry point, its interface, is a simple REST API. Users can use this API to create the runs they need. Internally, we handle and manage the entire lifecycle and delegate execution to isolated sandboxes,” he explains. Task progress can be monitored in real time. The runner’s internal design alternates between two different types of steps—and that combination makes the overall workflow predictable. Deterministic steps bookend the workflow: cloning the repository, importing the skills the agent can use, and setting up the working branch at the start; publishing the merge request and making the generated artifacts available at the end. In between is the agentic execution itself, running GPT‑5.6 Luna inside the sandbox. “It’s a combination of those two things: deterministic steps and agentic execution within the workflow.” The sandbox runs Ubuntu and includes the toolchains iFood’s ecosystem requires—Python, Java, Kotlin, C#, TypeScript, Rust, JavaScript, and Go—along with general-purpose tools. Beyond the sandbox, the agent can access Nexus, GitLab, Docker, Snyk, Kubernetes, and AWS. The model choice came down to three factors considered together, rather than just one. “We chose GPT‑5.6 Luna because, among models at the same checkpoint, the benchmarks showed it offered a great balance of intelligence, efficiency, and execution speed—how quickly it could complete tasks. Those three qualities together led us to choose GPT‑5.6 Luna.” That balance matters more for a platform built to scale than it would for a one-off use case. With tens of thousands of tokens being consumed, the average cost of four U.S. cents per run stops being a minor detail and becomes an architectural consideration. Delegating execution at scale creates a new challenge: automatically determining whether the agent did what it was supposed to do. iFood’s answer comes in the step after the session. Once execution is complete, the result is processed using OpenAI’s Structured Outputs, which requires the output to conform to a predefined contract. The platform already powers an internal iFood security product that scans the 15,000 repositories for vulnerable dependencies and attempts to fix them. The migration had a direct impact: “With our platform, the accuracy of those changes, those fixes, more than doubled,” says Coelho. This use case illustrates the idea behind the platform: the security team didn’t need to build its own agentic runtime or become experts in agent orchestration. It needed to call an API. The team emphasizes what asynchronous execution frees developers to do, rather than replacement. Because the task is delegated and runs without supervision, the developer doesn’t have to stay focused on monitoring it. “While they’re in a meeting, they can launch a code fix, a performance analysis, or another task that’s a little more routine—something they can delegate without having to monitor it at that moment.” Routine work no longer competes for the team’s attention. That leaves time for problems that require judgment. The Remote Agents Platform was designed as an internal layer with similarities to the way OpenAI makes this type of task available to external customers. “The Remote Agents Platform drew a lot of inspiration from OpenAI’s APIs, both the Batch API and the Agents API, which is an even more recent OpenAI product. We built a platform that resembles those products, but is internal to iFood.” The inspiration went beyond the concept. It extends to the design of the interfaces, the organization of resources, and the approach to asynchronous execution with results retrieved later. The platform has completed more than 25,000 tasks, consuming more than 27 billion tokens, at an average cost of US$0.04 per run. After migrating to the Remote Agents Platform, the internal security platform more than doubled both the accuracy of its fixes and the number of vulnerabilities resolved. Coverage extends across iFood’s more than 15,000 code repositories. All runs use GPT‑5.6 Luna, chosen for its balance of intelligence, efficiency, and speed. Structured Outputs ensures that each session returns a result that follows a predefined contract, whether positive or negative. Product teams have moved from building fragmented solutions to delegating agentic execution through a REST API. Th"
+        }
+      ]
+    },
+    {
+      "story_id": "ffcd9a40f00a1c58",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "owners": [
+        "openai"
+      ],
+      "primary_owners": [
+        "openai"
+      ],
+      "fingerprints": [
+        "99b93f3e10984935"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "owner": "openai",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "published_at": "2026-11-24T00:00:00+00:00",
+          "kind": "primary",
+          "text": "ChatGPT and Codex integrations help Clay users research deals and turn data into go-to-market plays, and GPT‑6 models handle the reasoning. Even when sales teams have plenty of data about a prospect, they can still struggle to understand what matters most and develop a winning pitch. Clay ⁠ (opens in a new window) is a self-learning revenue engine designed to help. Using GPT‑6 Astra, GPT‑6 Sol, and other models, Clay enables users to build lists of companies and people, enrich those records using agents, and use that information in go-to-market plays. Clay also brings these capabilities to where customers are already working with plugins for Codex and ChatGPT, making it easier to create and run go-to-market workflows and research accounts and deals. “Clay in ChatGPT gives sales reps a way to understand more about the customers they’re trying to sell to. It brings all of that rich context to the places they’re already working.” Clay’s Codex integration lets builders create and run go-to-market plays in Codex, while giving sales reps access to data they can use to research an account or understand a deal they’re trying to close. Jeff has seen reps combine information from their own systems and public datasets to determine how to best communicate their product’s value to a customer. “Customers love using Codex for a lot of different tasks in sales,” he says. “We’ve seen the best sales reps be the most empowered by this.” Clay’s ChatGPT plugin brings the same customer data into another tool reps already use, helping them learn more about prospects without leaving ChatGPT. Jeff says, “It’s been a big success.” OpenAI models power Claygent’s research, qualification, enrichment, and signal detection, as well as the agent that helps users build workflows and coordinate other Clay agents. Clay uses GPT‑6 Sol as its primary model, with GPT‑6 Astra for harder tasks and GPT‑6 Luna for cost-sensitive work. That range supports background research and copywriting as well as agents that users work with directly. The Responses API lets Clay use different levels of intelligence and cost through the same interface. “Having the same Responses API across the different price points is something that’s super appealing to us with OpenAI models,” said Jeff. GPT‑6 Astra also helps Jeff build and test software. He used to spend much of his time manually checking features he had built; now he can ask GPT‑6 Astra to handle more of that work. He explains, “GPT‑6 Astra really changed how I build software because it fully closed the loop on the engineering process. Now I can have Astra write code, add tests, and then actually run the tests and test the feature and record that and upload that in the PR. It simplifies my life a lot.” For Clay’s customers, Jeff sees GPT‑Live‑1 as a way to use Clay and Codex by voice and help prospects learn about a product. Clay is working on inbound sales development features that would let an agent show a product or service to a prospect. He also sees the Decisions API as another way to integrate models into Clay and open up new use cases. Clay’s ambition is to carry go-to-market workflows from start to finish, with agents that improve as they learn from the results. For Jeff, the goal is to empower builders “to bring the same shift that happened in software engineering to go-to-market.” Product updates, practical guides, upcoming events, and more."
         }
       ]
     }
